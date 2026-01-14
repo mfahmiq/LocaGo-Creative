@@ -8,6 +8,8 @@ const Contact: React.FC = () => {
   const { t } = useLanguage();
   const [formData, setFormData] = React.useState({
     name: '',
+    phone: '',
+    email: '',
     job: '',
     package: '',
     message: ''
@@ -34,7 +36,7 @@ const Contact: React.FC = () => {
     }
 
     // Format the message for WhatsApp
-    const text = `Halo LocaGo Creative, saya ingin konsultasi proyek.%0A%0A*Nama:* ${formData.name}%0A*Pekerjaan:* ${formData.job}%0A*Paket Minat:* ${formData.package}%0A%0A*Pesan:*%0A${formData.message}`;
+    const text = `Halo LocaGo Creative, saya ingin konsultasi proyek.%0A%0A*Nama:* ${formData.name}%0A*WhatsApp:* ${formData.phone}%0A*Email:* ${formData.email}%0A*Pekerjaan:* ${formData.job}%0A*Paket Minat:* ${formData.package}%0A%0A*Pesan:*%0A${formData.message}`;
 
     // Redirect to WhatsApp
     window.open(`https://wa.me/6289663012893?text=${text}`, '_blank');
@@ -88,6 +90,7 @@ const Contact: React.FC = () => {
           </div>
 
           <form className="md:w-1/2 w-full space-y-4" onSubmit={handleSubmit}>
+            {/* Name and Job */}
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-2">
                 <label className="text-sm font-bold text-slate-700 dark:text-slate-300">{t.contact.form.name}</label>
@@ -109,6 +112,33 @@ const Contact: React.FC = () => {
                   value={formData.job}
                   onChange={handleChange}
                   placeholder={t.contact.form.jobPlaceholder}
+                  required
+                  className="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:border-blue-500 focus:ring-4 focus:ring-blue-100 dark:focus:ring-blue-900/50 outline-none transition-all"
+                />
+              </div>
+            </div>
+            {/* Phone and Email */}
+            <div className="grid grid-cols-2 gap-4">
+              <div className="space-y-2">
+                <label className="text-sm font-bold text-slate-700 dark:text-slate-300">No. WhatsApp</label>
+                <input
+                  type="tel"
+                  name="phone"
+                  value={formData.phone}
+                  onChange={handleChange}
+                  placeholder="08xxxxxxxxxx"
+                  required
+                  className="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:border-blue-500 focus:ring-4 focus:ring-blue-100 dark:focus:ring-blue-900/50 outline-none transition-all"
+                />
+              </div>
+              <div className="space-y-2">
+                <label className="text-sm font-bold text-slate-700 dark:text-slate-300">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  placeholder="email@contoh.com"
                   required
                   className="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:border-blue-500 focus:ring-4 focus:ring-blue-100 dark:focus:ring-blue-900/50 outline-none transition-all"
                 />
@@ -167,8 +197,8 @@ const Contact: React.FC = () => {
               type="submit"
               disabled={isSubmitting}
               className={`w-full py-4 rounded-xl font-bold text-lg shadow-xl shadow-blue-100 dark:shadow-blue-900/30 transition-all active:scale-95 ${isSubmitting
-                  ? 'bg-blue-400 cursor-not-allowed'
-                  : 'bg-blue-600 hover:bg-blue-700'
+                ? 'bg-blue-400 cursor-not-allowed'
+                : 'bg-blue-600 hover:bg-blue-700'
                 } text-white`}
             >
               {isSubmitting ? 'Mengirim...' : t.contact.form.submit}
