@@ -67,15 +67,15 @@ const Pricing: React.FC = () => {
           </p>
 
           {/* Tab Switcher - Scrollable on mobile */}
-          <div className="flex justify-center w-full">
-            <div className="inline-flex bg-white dark:bg-slate-800 p-1.5 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700 overflow-x-auto max-w-full no-scrollbar">
+          <div className="flex justify-center w-full px-0 md:px-0">
+            <div className="flex w-full md:w-auto overflow-x-auto pb-4 md:pb-0 gap-2 md:gap-0 bg-transparent md:bg-white md:dark:bg-slate-800 p-0 md:p-1.5 rounded-none md:rounded-2xl shadow-none md:shadow-sm md:border border-slate-200 dark:border-slate-700 no-scrollbar snap-x snap-mandatory md:snap-none">
               {tabKeys.map((key) => (
                 <button
                   key={key}
                   onClick={() => setActiveTab(key)}
-                  className={`px-4 md:px-6 py-3 text-sm font-bold rounded-xl transition-all whitespace-nowrap ${activeTab === key
-                    ? 'bg-blue-600 text-white shadow-md'
-                    : 'text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-50 dark:hover:bg-slate-700'
+                  className={`flex-shrink-0 snap-center px-5 py-2.5 md:py-3 md:px-6 text-sm font-bold rounded-full md:rounded-xl transition-all whitespace-nowrap border md:border-none ${activeTab === key
+                    ? 'bg-blue-600 text-white shadow-md shadow-blue-200 dark:shadow-blue-900/30 border-blue-600'
+                    : 'bg-white dark:bg-slate-800 md:bg-transparent text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-50 dark:hover:bg-slate-700 border-slate-200 dark:border-slate-700'
                     }`}
                 >
                   {t.pricing.tabs[key]}

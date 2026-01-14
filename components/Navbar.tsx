@@ -5,6 +5,7 @@ import { useLanguage } from '../context/LanguageContext';
 
 const Navbar: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { theme, toggleTheme } = useTheme();
   const { language, setLanguage, t } = useLanguage();
 
@@ -70,7 +71,7 @@ const Navbar: React.FC = () => {
           </a>
         </div>
 
-        {/* Mobile Toggle Placeholder */}
+        {/* Mobile Toggle & Menu */}
         <div className="md:hidden flex items-center gap-4">
           <button
             onClick={toggleTheme}
@@ -78,12 +79,60 @@ const Navbar: React.FC = () => {
           >
             {theme === 'dark' ? '☀️' : '🌙'}
           </button>
-          <button className="p-2 text-slate-600 dark:text-slate-300">
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
-            </svg>
+
+          <button
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="p-2 text-slate-600 dark:text-slate-300 z-50 relative"
+          >
+            {mobileMenuOpen ? (
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            ) : (
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
+              </svg>
+            )}
           </button>
         </div>
+
+        {/* Mobile Menu Overlay */}
+        {mobileMenuOpen && (
+          <div className="md:hidden fixed inset-0 top-0 bg-white/95 dark:bg-slate-900/95 backdrop-blur-xl z-40 flex flex-col items-center justify-center p-8 transition-all duration-300 animate-fade-in-up">
+            <div className="flex flex-col space-y-6 text-center w-full max-w-sm">
+              {navLinks.map((link) => (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="text-2xl font-bold text-slate-800 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                >
+                  {link.name}
+                </a>
+              ))}
+
+              <div className="h-px bg-slate-200 dark:bg-slate-700 w-full my-4"></div>
+
+              <button
+                onClick={() => {
+                  setLanguage(language === 'en' ? 'id' : 'en');
+                  setMobileMenuOpen(false);
+                }}
+                className="text-lg font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600"
+              >
+                {language === 'en' ? 'Switch to Indonesia' : 'Ganti ke English'}
+              </button>
+
+              <a
+                href="#contact"
+                onClick={() => setMobileMenuOpen(false)}
+                className="bg-blue-600 text-white px-8 py-3 rounded-full text-lg font-bold shadow-xl shadow-blue-200 dark:shadow-blue-900/20 active:scale-95 transition-transform"
+              >
+                {t.hero.ctaStart}
+              </a>
+            </div>
+          </div>
+        )}
       </div>
     </nav>
   );
