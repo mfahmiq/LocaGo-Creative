@@ -2,7 +2,7 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 
-const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzG6K-1Cjm4mPoQF0kHXWGxN0mlBpSKG8CAMA10UsO3rumE5FquN0AE4pzqVuK1Vqb0/exec';
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx60KMD3y7h1dW8qiGu7mHCBC5-caKeUzStDhvj9f6dKgj8rmbMZG1AUKuY2e1L7JHl/exec';
 
 const Contact: React.FC = () => {
   const { t } = useLanguage();
