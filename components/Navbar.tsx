@@ -108,53 +108,65 @@ const Navbar: React.FC = () => {
           </button>
         </div>
 
-        {/* Mobile Menu Overlay */}
-        {mobileMenuOpen && (
-          <div className="md:hidden fixed inset-0 top-0 bg-white dark:bg-slate-900 z-50 flex flex-col items-center justify-center p-8 animate-menu-fade-in">
-            <div className="flex flex-col space-y-6 text-center w-full max-w-sm animate-menu-slide-up">
-              {navLinks.map((link) => (
-                <a
-                  key={link.name}
-                  href={link.href}
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="text-2xl font-bold text-slate-800 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                >
-                  {link.name}
-                </a>
-              ))}
-
-              <div className="h-px bg-slate-200 dark:bg-slate-700 w-full my-4"></div>
-
-              <button
-                onClick={() => {
-                  setLanguage(language === 'en' ? 'id' : 'en');
-                  setMobileMenuOpen(false);
-                }}
-                className="text-lg font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600"
-              >
-                {language === 'en' ? 'Switch to Indonesia' : 'Ganti ke English'}
-              </button>
-
+        {/* Mobile Menu Overlay - Always rendered, visibility controlled by CSS */}
+        <div
+          className={`md:hidden fixed inset-0 bg-white dark:bg-slate-900 z-50 flex flex-col items-center justify-center p-8 transition-all duration-300 ease-out ${mobileMenuOpen
+              ? 'opacity-100 visible'
+              : 'opacity-0 invisible pointer-events-none'
+            }`}
+        >
+          <div
+            className={`flex flex-col space-y-6 text-center w-full max-w-sm transition-all duration-300 ease-out ${mobileMenuOpen
+                ? 'opacity-100 translate-y-0'
+                : 'opacity-0 translate-y-4'
+              }`}
+            style={{ transitionDelay: mobileMenuOpen ? '100ms' : '0ms' }}
+          >
+            {navLinks.map((link, index) => (
               <a
-                href="#contact"
+                key={link.name}
+                href={link.href}
                 onClick={() => setMobileMenuOpen(false)}
-                className="bg-blue-600 text-white px-8 py-3 rounded-full text-lg font-bold shadow-xl shadow-blue-200 dark:shadow-blue-900/20 active:scale-95 transition-transform"
+                className="text-2xl font-bold text-slate-800 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                style={{ transitionDelay: mobileMenuOpen ? `${150 + index * 50}ms` : '0ms' }}
               >
-                {t.hero.ctaStart}
+                {link.name}
               </a>
-            </div>
+            ))}
 
-            {/* Close button for convenience */}
+            <div className="h-px bg-slate-200 dark:bg-slate-700 w-full my-4"></div>
+
             <button
-              onClick={() => setMobileMenuOpen(false)}
-              className="absolute top-6 right-6 p-2 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300"
+              onClick={() => {
+                setLanguage(language === 'en' ? 'id' : 'en');
+                setMobileMenuOpen(false);
+              }}
+              className="text-lg font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600"
             >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
-              </svg>
+              {language === 'en' ? 'Switch to Indonesia' : 'Ganti ke English'}
             </button>
+
+            <a
+              href="#contact"
+              onClick={() => setMobileMenuOpen(false)}
+              className="bg-blue-600 text-white px-8 py-3 rounded-full text-lg font-bold shadow-xl shadow-blue-200 dark:shadow-blue-900/20 active:scale-95 transition-transform"
+            >
+              {t.hero.ctaStart}
+            </a>
           </div>
-        )}
+
+          {/* Close button for convenience */}
+          <button
+            onClick={() => setMobileMenuOpen(false)}
+            className={`absolute top-6 right-6 p-2 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 transition-all duration-300 ${mobileMenuOpen ? 'opacity-100 scale-100' : 'opacity-0 scale-90'
+              }`}
+            style={{ transitionDelay: mobileMenuOpen ? '200ms' : '0ms' }}
+          >
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
       </div>
     </nav>
   );
