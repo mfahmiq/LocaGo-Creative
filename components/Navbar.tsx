@@ -110,8 +110,8 @@ const Navbar: React.FC = () => {
 
         {/* Mobile Menu Overlay */}
         {mobileMenuOpen && (
-          <div className="md:hidden fixed inset-0 top-0 bg-white dark:bg-slate-900 z-50 flex flex-col items-center justify-center p-8 transition-all duration-300 animate-fade-in-up">
-            <div className="flex flex-col space-y-6 text-center w-full max-w-sm">
+          <div className="md:hidden fixed inset-0 top-0 bg-white dark:bg-slate-900 z-50 flex flex-col items-center justify-center p-8 animate-menu-fade-in">
+            <div className="flex flex-col space-y-6 text-center w-full max-w-sm animate-menu-slide-up">
               {navLinks.map((link) => (
                 <a
                   key={link.name}
