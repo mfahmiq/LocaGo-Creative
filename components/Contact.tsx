@@ -2,23 +2,44 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzG6K-1Cjm4mPoQF0kHXWGxN0mlBpSKG8CAMA10UsO3rumE5FquN0AE4pzqVuK1Vqb0/exec';
+
 const Contact: React.FC = () => {
   const { t } = useLanguage();
   const [formData, setFormData] = React.useState({
     name: '',
     job: '',
-    package: '', // Default value
+    package: '',
     message: ''
   });
+  const [isSubmitting, setIsSubmitting] = React.useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setIsSubmitting(true);
+
+    try {
+      // Send to Google Sheets
+      await fetch(GOOGLE_SCRIPT_URL, {
+        method: 'POST',
+        mode: 'no-cors', // Required for Google Apps Script
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+    } catch (error) {
+      console.error('Error saving to Google Sheets:', error);
+      // Continue to WhatsApp even if Google Sheets fails
+    }
 
     // Format the message for WhatsApp
     const text = `Halo LocaGo Creative, saya ingin konsultasi proyek.%0A%0A*Nama:* ${formData.name}%0A*Pekerjaan:* ${formData.job}%0A*Paket Minat:* ${formData.package}%0A%0A*Pesan:*%0A${formData.message}`;
 
     // Redirect to WhatsApp
     window.open(`https://wa.me/6289663012893?text=${text}`, '_blank');
+
+    setIsSubmitting(false);
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -142,8 +163,15 @@ const Contact: React.FC = () => {
                 className="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:border-blue-500 focus:ring-4 focus:ring-blue-100 dark:focus:ring-blue-900/50 outline-none transition-all resize-none"
               ></textarea>
             </div>
-            <button type="submit" className="w-full bg-blue-600 text-white py-4 rounded-xl font-bold text-lg hover:bg-blue-700 shadow-xl shadow-blue-100 dark:shadow-blue-900/30 transition-all active:scale-95">
-              {t.contact.form.submit}
+            <button
+              type="submit"
+              disabled={isSubmitting}
+              className={`w-full py-4 rounded-xl font-bold text-lg shadow-xl shadow-blue-100 dark:shadow-blue-900/30 transition-all active:scale-95 ${isSubmitting
+                  ? 'bg-blue-400 cursor-not-allowed'
+                  : 'bg-blue-600 hover:bg-blue-700'
+                } text-white`}
+            >
+              {isSubmitting ? 'Mengirim...' : t.contact.form.submit}
             </button>
           </form>
         </div>
