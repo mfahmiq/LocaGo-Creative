@@ -17,6 +17,18 @@ const Navbar: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Lock body scroll when mobile menu is open
+  useEffect(() => {
+    if (mobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [mobileMenuOpen]);
+
   const navLinks = [
     { name: t.nav.about, href: '#about' },
     { name: t.nav.portfolio, href: '#portfolio' },
@@ -98,7 +110,7 @@ const Navbar: React.FC = () => {
 
         {/* Mobile Menu Overlay */}
         {mobileMenuOpen && (
-          <div className="md:hidden fixed inset-0 top-0 bg-white/95 dark:bg-slate-900/95 backdrop-blur-xl z-40 flex flex-col items-center justify-center p-8 transition-all duration-300 animate-fade-in-up">
+          <div className="md:hidden fixed inset-0 top-0 bg-white dark:bg-slate-900 z-50 flex flex-col items-center justify-center p-8 transition-all duration-300 animate-fade-in-up">
             <div className="flex flex-col space-y-6 text-center w-full max-w-sm">
               {navLinks.map((link) => (
                 <a
@@ -131,6 +143,16 @@ const Navbar: React.FC = () => {
                 {t.hero.ctaStart}
               </a>
             </div>
+
+            {/* Close button for convenience */}
+            <button
+              onClick={() => setMobileMenuOpen(false)}
+              className="absolute top-6 right-6 p-2 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300"
+            >
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
           </div>
         )}
       </div>
