@@ -108,33 +108,49 @@ const Navbar: React.FC = () => {
           </button>
         </div>
 
-        {/* Mobile Menu Overlay - Always rendered, visibility controlled by CSS */}
+        {/* Mobile Menu Overlay - Smooth animation with cubic-bezier */}
         <div
-          className={`md:hidden fixed inset-0 bg-white dark:bg-slate-900 z-50 flex flex-col items-center justify-center p-8 transition-all duration-300 ease-out ${mobileMenuOpen
-              ? 'opacity-100 visible'
-              : 'opacity-0 invisible pointer-events-none'
+          className={`md:hidden fixed inset-0 bg-white dark:bg-slate-900 z-50 flex flex-col items-center justify-center p-8 ${mobileMenuOpen ? 'pointer-events-auto' : 'pointer-events-none'
             }`}
+          style={{
+            opacity: mobileMenuOpen ? 1 : 0,
+            transition: 'opacity 400ms cubic-bezier(0.4, 0, 0.2, 1)',
+          }}
         >
           <div
-            className={`flex flex-col space-y-6 text-center w-full max-w-sm transition-all duration-300 ease-out ${mobileMenuOpen
-                ? 'opacity-100 translate-y-0'
-                : 'opacity-0 translate-y-4'
-              }`}
-            style={{ transitionDelay: mobileMenuOpen ? '100ms' : '0ms' }}
+            className="flex flex-col space-y-6 text-center w-full max-w-sm"
+            style={{
+              opacity: mobileMenuOpen ? 1 : 0,
+              transform: mobileMenuOpen ? 'translateY(0) scale(1)' : 'translateY(20px) scale(0.98)',
+              transition: 'opacity 350ms cubic-bezier(0.4, 0, 0.2, 1), transform 400ms cubic-bezier(0.4, 0, 0.2, 1)',
+              transitionDelay: mobileMenuOpen ? '50ms' : '0ms',
+            }}
           >
             {navLinks.map((link, index) => (
               <a
                 key={link.name}
                 href={link.href}
                 onClick={() => setMobileMenuOpen(false)}
-                className="text-2xl font-bold text-slate-800 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                style={{ transitionDelay: mobileMenuOpen ? `${150 + index * 50}ms` : '0ms' }}
+                className="text-2xl font-bold text-slate-800 dark:text-white hover:text-blue-600 dark:hover:text-blue-400"
+                style={{
+                  opacity: mobileMenuOpen ? 1 : 0,
+                  transform: mobileMenuOpen ? 'translateY(0)' : 'translateY(10px)',
+                  transition: 'opacity 300ms cubic-bezier(0.4, 0, 0.2, 1), transform 300ms cubic-bezier(0.4, 0, 0.2, 1)',
+                  transitionDelay: mobileMenuOpen ? `${80 + index * 40}ms` : '0ms',
+                }}
               >
                 {link.name}
               </a>
             ))}
 
-            <div className="h-px bg-slate-200 dark:bg-slate-700 w-full my-4"></div>
+            <div
+              className="h-px bg-slate-200 dark:bg-slate-700 w-full my-4"
+              style={{
+                opacity: mobileMenuOpen ? 1 : 0,
+                transition: 'opacity 300ms cubic-bezier(0.4, 0, 0.2, 1)',
+                transitionDelay: mobileMenuOpen ? '300ms' : '0ms',
+              }}
+            />
 
             <button
               onClick={() => {
@@ -142,6 +158,12 @@ const Navbar: React.FC = () => {
                 setMobileMenuOpen(false);
               }}
               className="text-lg font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600"
+              style={{
+                opacity: mobileMenuOpen ? 1 : 0,
+                transform: mobileMenuOpen ? 'translateY(0)' : 'translateY(10px)',
+                transition: 'opacity 300ms cubic-bezier(0.4, 0, 0.2, 1), transform 300ms cubic-bezier(0.4, 0, 0.2, 1)',
+                transitionDelay: mobileMenuOpen ? '350ms' : '0ms',
+              }}
             >
               {language === 'en' ? 'Switch to Indonesia' : 'Ganti ke English'}
             </button>
@@ -149,18 +171,28 @@ const Navbar: React.FC = () => {
             <a
               href="#contact"
               onClick={() => setMobileMenuOpen(false)}
-              className="bg-blue-600 text-white px-8 py-3 rounded-full text-lg font-bold shadow-xl shadow-blue-200 dark:shadow-blue-900/20 active:scale-95 transition-transform"
+              className="bg-blue-600 text-white px-8 py-3 rounded-full text-lg font-bold shadow-xl shadow-blue-200 dark:shadow-blue-900/20 active:scale-95"
+              style={{
+                opacity: mobileMenuOpen ? 1 : 0,
+                transform: mobileMenuOpen ? 'translateY(0) scale(1)' : 'translateY(10px) scale(0.95)',
+                transition: 'opacity 300ms cubic-bezier(0.4, 0, 0.2, 1), transform 350ms cubic-bezier(0.4, 0, 0.2, 1)',
+                transitionDelay: mobileMenuOpen ? '400ms' : '0ms',
+              }}
             >
               {t.hero.ctaStart}
             </a>
           </div>
 
-          {/* Close button for convenience */}
+          {/* Close button */}
           <button
             onClick={() => setMobileMenuOpen(false)}
-            className={`absolute top-6 right-6 p-2 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 transition-all duration-300 ${mobileMenuOpen ? 'opacity-100 scale-100' : 'opacity-0 scale-90'
-              }`}
-            style={{ transitionDelay: mobileMenuOpen ? '200ms' : '0ms' }}
+            className="absolute top-6 right-6 p-2 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300"
+            style={{
+              opacity: mobileMenuOpen ? 1 : 0,
+              transform: mobileMenuOpen ? 'scale(1) rotate(0deg)' : 'scale(0.8) rotate(-90deg)',
+              transition: 'opacity 300ms cubic-bezier(0.4, 0, 0.2, 1), transform 350ms cubic-bezier(0.4, 0, 0.2, 1)',
+              transitionDelay: mobileMenuOpen ? '150ms' : '0ms',
+            }}
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
