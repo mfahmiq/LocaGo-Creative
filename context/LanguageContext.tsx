@@ -44,10 +44,11 @@ export const translations = {
             title: 'Our Best Work',
             description: 'Helping various businesses transform digitally through aesthetic design and optimal performance.',
             projects: [
-                { title: 'EduTech LMS Platform', category: 'Web Application', description: 'Custom learning management system with complete admin dashboard.' },
-                { title: 'Aura Skin Care', category: 'Landing Page', description: 'Company profile website with high conversion optimization.' },
-                { title: 'Kopi Kenangan Rakyat', category: 'E-Commerce', description: 'Online coffee ordering platform with Payment Gateway integration.' },
-                { title: 'Property Hub Indonesia', category: 'Listing Website', description: 'Property directory with real-time location and price filter features.' },
+                { title: 'Alharamain Tour', category: 'Travel & Umrah', description: 'Trusted Umrah and Hajj travel agency website with comprehensive package information.', link: 'https://alharamain-kohl.vercel.app/' },
+                { title: 'Glowup Beauty', category: 'Beauty & Skincare', description: 'Modern e-commerce landing page for a premium skincare brand focused on aesthetics.', link: 'https://glowup-kohl.vercel.app/' },
+                { title: 'NusaTrip', category: 'Travel Agency', description: 'Adventure travel website showcasing exotic destinations in the archipelago.', link: 'https://nusatrip.vercel.app/' },
+                { title: 'Urban Kicks', category: 'E-Commerce', description: 'Trendy online shoe store with a sleek design and smooth shopping experience.', link: 'https://urbankicks-one.vercel.app/' },
+                { title: 'Mitra Konstruksi', category: 'Construction', description: 'Professional company profile for a construction and contractor firm.', link: 'https://mitrakonstruksi.vercel.app/' },
             ]
         },
         pricing: {
@@ -310,10 +311,11 @@ export const translations = {
             title: 'Karya Terbaik Kami',
             description: 'Membantu berbagai bisnis bertransformasi digital melalui desain yang estetik dan performa yang optimal.',
             projects: [
-                { title: 'EduTech LMS Platform', category: 'Aplikasi Web', description: 'Sistem manajemen pembelajaran kustom dengan dashboard admin lengkap.' },
-                { title: 'Aura Skin Care', category: 'Landing Page', description: 'Website profil perusahaan dengan optimasi konversi tinggi.' },
-                { title: 'Kopi Kenangan Rakyat', category: 'E-Commerce', description: 'Platform pemesanan kopi online dengan integrasi Payment Gateway.' },
-                { title: 'Property Hub Indonesia', category: 'Website Listing', description: 'Direktori properti dengan fitur filter lokasi dan harga real-time.' },
+                { title: 'Alharamain Tour', category: 'Travel & Umrah', description: 'Website biro perjalanan Umroh dan Haji terpercaya dengan informasi paket lengkap.', link: 'https://alharamain-kohl.vercel.app/' },
+                { title: 'Glowup Beauty', category: 'Beauty & Skincare', description: 'Landing page e-commerce modern untuk brand skincare premium yang estetik.', link: 'https://glowup-kohl.vercel.app/' },
+                { title: 'NusaTrip', category: 'Travel Agency', description: 'Website travel petualangan yang menampilkan destinasi eksotis nusantara.', link: 'https://nusatrip.vercel.app/' },
+                { title: 'Urban Kicks', category: 'E-Commerce', description: 'Toko sepatu online kekinian dengan desain ramping dan pengalaman belanja mulus.', link: 'https://urbankicks-one.vercel.app/' },
+                { title: 'Mitra Konstruksi', category: 'Konstruksi', description: 'Profil perusahaan profesional untuk kontraktor dan jasa konstruksi.', link: 'https://mitrakonstruksi.vercel.app/' },
             ]
         },
         pricing: {

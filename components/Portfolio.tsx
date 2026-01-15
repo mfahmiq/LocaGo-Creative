@@ -6,10 +6,11 @@ const Portfolio: React.FC = () => {
   const { t } = useLanguage();
 
   const images = [
-    'https://picsum.photos/800/600?random=1',
-    'https://picsum.photos/800/600?random=2',
-    'https://picsum.photos/800/600?random=3',
-    'https://picsum.photos/800/600?random=4',
+    'https://images.unsplash.com/photo-1571896349842-6e5a513e610a?q=80&w=800&auto=format&fit=crop', // Travel/Mosque
+    'https://images.unsplash.com/photo-1596462502278-27bfdd403348?q=80&w=800&auto=format&fit=crop', // Skincare
+    'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=800&auto=format&fit=crop', // Nature Travel
+    'https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800&auto=format&fit=crop', // Shoes
+    'https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=800&auto=format&fit=crop', // Construction
   ];
 
   return (
@@ -27,7 +28,13 @@ const Portfolio: React.FC = () => {
 
         <div className="grid md:grid-cols-2 gap-8">
           {t.portfolio.projects.map((project, idx) => (
-            <div key={idx} className="group cursor-pointer">
+            <a
+              key={idx}
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group cursor-pointer block"
+            >
               <div className="overflow-hidden rounded-3xl mb-4 bg-slate-100 dark:bg-slate-800 aspect-video relative">
                 <img
                   src={images[idx]}
@@ -43,7 +50,7 @@ const Portfolio: React.FC = () => {
                 </h4>
                 <p className="text-slate-600 dark:text-slate-400 mt-2 line-clamp-2">{project.description}</p>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>
