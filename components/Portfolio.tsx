@@ -6,11 +6,11 @@ const Portfolio: React.FC = () => {
   const { t } = useLanguage();
 
   const images = [
-    'https://images.unsplash.com/photo-1571896349842-6e5a513e610a?q=80&w=800&auto=format&fit=crop', // Travel/Mosque
-    'https://images.unsplash.com/photo-1596462502278-27bfdd403348?q=80&w=800&auto=format&fit=crop', // Skincare
-    'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=800&auto=format&fit=crop', // Nature Travel
-    'https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800&auto=format&fit=crop', // Shoes
-    'https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=800&auto=format&fit=crop', // Construction
+    'https://s0.wp.com/mshots/v1/https%3A%2F%2Falharamain-kohl.vercel.app%2F?w=800&h=500', // Alharamain
+    'https://s0.wp.com/mshots/v1/https%3A%2F%2Fglowup-kohl.vercel.app%2F?w=800&h=500', // Glowup
+    'https://s0.wp.com/mshots/v1/https%3A%2F%2Fnusatrip.vercel.app%2F?w=800&h=500', // Nusatrip
+    'https://s0.wp.com/mshots/v1/https%3A%2F%2Furbankicks-one.vercel.app%2F?w=800&h=500', // Urban Kicks
+    'https://s0.wp.com/mshots/v1/https%3A%2F%2Fmitrakonstruksi.vercel.app%2F?w=800&h=500', // Mitra Konstruksi
   ];
 
   return (
