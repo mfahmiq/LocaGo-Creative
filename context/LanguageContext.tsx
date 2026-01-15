@@ -5,6 +5,7 @@ type Language = 'en' | 'id';
 export const translations = {
     en: {
         nav: {
+            home: 'Home',
             services: 'Services',
             portfolio: 'Portfolio',
             pricing: 'Pricing',
@@ -270,6 +271,7 @@ export const translations = {
     },
     id: {
         nav: {
+            home: 'Beranda',
             services: 'Layanan',
             portfolio: 'Portofolio',
             pricing: 'Harga',
