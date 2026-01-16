@@ -9,6 +9,12 @@
 }
 
 /* Light mode defaults */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+  /* Offset for fixed navbar */
+}
+
 body {
   background-color: #f8fafc;
   color: #0f172a;
