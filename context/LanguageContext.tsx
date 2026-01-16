@@ -282,10 +282,10 @@ export const translations = {
         },
         hero: {
             badge: '🚀 Saatnya Bisnis Anda Go Digital',
-            titleStart: 'Bawa Bisnis Lokal Anda',
-            titleGradient: 'Mendunia',
-            titleEnd: 'Lewat Website.',
-            description: 'Tampil lebih profesional dan terpercaya di mata calon pelanggan dengan website yang mencerminkan kualitas bisnis Anda.',
+            titleStart: 'Solusi Jasa Pembuatan Website',
+            titleGradient: 'Terbaik & Terpercaya',
+            titleEnd: 'Untuk Bisnis Anda.',
+            description: 'Tingkatkan kredibilitas bisnis dengan Jasa Pembuatan Website Profesional. Desain premium, SEO friendly, dan siap membantu Anda Go Digital.',
             ctaStart: 'Mulai Proyek',
             ctaPortfolio: 'Lihat Portofolio',
             available: 'Tersedia untuk proyek baru',
@@ -300,10 +300,10 @@ export const translations = {
         },
         services: {
             items: [
-                { title: 'Landing Page', description: 'Halaman khusus dengan konversi tinggi untuk mengubah pengunjung jadi pembeli.' },
-                { title: 'Company Profile', description: 'Website profesional untuk membangun kredibilitas dan kepercayaan bisnis.' },
-                { title: 'Toko Online', description: 'Solusi e-commerce lengkap dengan keranjang belanja dan payment gateway.' },
-                { title: 'Web Travel', description: 'Website travel agent khusus dengan sistem booking dan tampilan itinerary.' },
+                { title: 'Jasa Landing Page', description: 'Jasa pembuatan Landing Page murah dengan konversi tinggi. Ubah pengunjung jadi pembeli sekarang.' },
+                { title: 'Jasa Company Profile', description: 'Buat Company Profile profesional untuk meningkatkan kepercayaan klien pada bisnis Anda.' },
+                { title: 'Pembuatan Toko Online', description: 'Jasa bikin Toko Online lengkap dengan fitur keranjang belanja dan pembayaran otomatis.' },
+                { title: 'Website Travel Agent', description: 'Spesialis pembuatan Website Travel & Wisata dengan sistem booking engine canggih.' },
             ]
         },
         portfolio: {
@@ -530,8 +530,8 @@ export const translations = {
         },
         about: {
             subtitle: 'Tentang Kami',
-            title: 'Lebih Dari Sekadar Agensi',
-            description: "LocaGo Creative adalah tim developer dan desainer freelance yang fokus membantu UMKM dan bisnis travel untuk Go Digital. Kami percaya setiap bisnis berhak punya website profesional tanpa ribet.",
+            title: 'Digital Agency Partner Anda',
+            description: 'LocaGo Creative adalah Digital Agency dan Jasa Pembuatan Website yang fokus membantu UMKM serta bisnis travel. Kami menghadirkan solusi website profesional, cepat, dan berkualitas.',
             stats: {
                 exp: 'Tahun Pengalaman',
                 projects: 'Proyek Selesai'
