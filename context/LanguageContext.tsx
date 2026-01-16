@@ -282,10 +282,10 @@ export const translations = {
         },
         hero: {
             badge: '🚀 Saatnya Bisnis Anda Go Digital',
-            titleStart: 'Solusi Jasa Pembuatan Website',
-            titleGradient: 'Terbaik & Terpercaya',
-            titleEnd: 'Untuk Bisnis Anda.',
-            description: 'Tingkatkan kredibilitas bisnis dengan Jasa Pembuatan Website Profesional. Desain premium, SEO friendly, dan siap membantu Anda Go Digital.',
+            titleStart: 'Jasa Pembuatan Website',
+            titleGradient: 'Profesional &',
+            titleEnd: 'Mobile-Friendly',
+            description: 'Bantu Bisnis Lokal Anda Mendunia Lewat Website. LocaGo Creative siap buatkan Company Profile, Landing Page, dan Toko Online yang optimal.',
             ctaStart: 'Mulai Proyek',
             ctaPortfolio: 'Lihat Portofolio',
             available: 'Tersedia untuk proyek baru',
@@ -300,10 +300,10 @@ export const translations = {
         },
         services: {
             items: [
-                { title: 'Jasa Landing Page', description: 'Jasa pembuatan Landing Page murah dengan konversi tinggi. Ubah pengunjung jadi pembeli sekarang.' },
-                { title: 'Jasa Company Profile', description: 'Buat Company Profile profesional untuk meningkatkan kepercayaan klien pada bisnis Anda.' },
-                { title: 'Pembuatan Toko Online', description: 'Jasa bikin Toko Online lengkap dengan fitur keranjang belanja dan pembayaran otomatis.' },
-                { title: 'Website Travel Agent', description: 'Spesialis pembuatan Website Travel & Wisata dengan sistem booking engine canggih.' },
+                { title: 'Jasa Landing Page', description: 'Halaman penawaran khusus (landing page) yang dirancang untuk meningkatkan konversi penjualan iklan.' },
+                { title: 'Website Company Profile', description: 'Bangun citra profesional perusahaan Anda dengan website profil yang elegan dan informatif.' },
+                { title: 'Website Toko Online', description: 'Toko online lengkap dengan fitur keranjang belanja, integrasi ongkir, dan sistem pembayaran otomatis.' },
+                { title: 'Website Custom / UMKM', description: 'Solusi website fleksibel yang disesuaikan dengan kebutuhan unik UMKM dan bisnis lokal Anda.' },
             ]
         },
         portfolio: {
@@ -507,31 +507,31 @@ export const translations = {
         },
         whyUs: {
             subtitle: 'Kenapa Kami',
-            title: 'Partner Pertumbuhan Anda',
-            description: "Kami tidak sekadar membuat website, tapi membangun aset bisnis Anda.",
+            title: 'Kenapa Memilih LocaGo Creative?',
+            description: "Kami bukan hanya pembuat website, tapi partner digital yang peduli pertumbuhan bisnis Anda.",
             items: [
                 {
-                    title: 'Free Copywriting',
-                    description: "Gak perlu bingung soal kata-kata. Kami bantu buatkan konten yang menjual."
+                    title: 'Gratis Copywriting',
+                    description: "Bingung menyusun kata-kata? Tim kami bantu buatkan konten marketing yang menjual."
                 },
                 {
-                    title: 'Kualitas Terjamin',
-                    description: "Loading cepat, mobile-friendly, dan sudah SEO ready sejak awal."
+                    title: 'Desain Modern & Mobile-Friendly',
+                    description: "Tampilan website yang responsif dan nyaman diakses dari HP, Tablet, maupun Laptop."
                 },
                 {
-                    title: 'Tinggal Terima Beres',
-                    description: "Kami handle desain, konten, domain, sampai hosting. Anda tinggal duduk manis."
+                    title: 'Terima Beres (Domain + Hosting)',
+                    description: "Tidak perlu pusing teknis. Kami urus domain, hosting, hingga website online."
                 },
                 {
-                    title: 'Full Support',
-                    description: "Butuh bantuan setelah website jadi? Kami siap membantu kapan saja."
+                    title: 'Full Support & Garansi',
+                    description: "Dukungan penuh pasca-pembuatan dan garansi teknis untuk ketenangan pikiran Anda."
                 }
             ]
         },
         about: {
             subtitle: 'Tentang Kami',
-            title: 'Digital Agency Partner Anda',
-            description: 'LocaGo Creative adalah Digital Agency dan Jasa Pembuatan Website yang fokus membantu UMKM serta bisnis travel. Kami menghadirkan solusi website profesional, cepat, dan berkualitas.',
+            title: 'Tentang LocaGo Creative',
+            description: "LocaGo Creative adalah layanan jasa pembuatan website profesional yang berfokus membantu UMKM dan pemilik bisnis lokal untuk Go Digital. Kami mengerti bahwa memiliki website saja tidak cukup. Oleh karena itu, kami hadir sebagai web developer partner Anda untuk membangun aset digital yang tidak hanya bagus secara visual, tapi juga mobile-friendly, cepat diakses, dan siap untuk optimasi SEO.",
             stats: {
                 exp: 'Tahun Pengalaman',
                 projects: 'Proyek Selesai'

@@ -52,9 +52,9 @@ const Services: React.FC = () => {
                   {React.cloneElement(icons[idx] as React.ReactElement, { className: "w-8 h-8 text-blue-600 dark:text-blue-400" })}
                 </div>
 
-                <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
                   {service.title}
-                </h4>
+                </h3>
 
                 <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
                   {service.description}
