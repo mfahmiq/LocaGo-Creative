@@ -28,8 +28,8 @@ const Process: React.FC = () => {
     <section id="process" className="py-24 bg-white dark:bg-slate-900 border-y border-slate-100 dark:border-slate-800 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-blue-600 font-bold uppercase tracking-widest text-sm mb-3">{t.process.subtitle}</h2>
-          <h3 className="text-4xl font-extrabold text-slate-900 dark:text-white mb-4">{t.process.title}</h3>
+          <span className="block text-blue-600 font-bold uppercase tracking-widest text-sm mb-3">{t.process.subtitle}</span>
+          <h2 className="text-4xl font-extrabold text-slate-900 dark:text-white mb-4">{t.process.title}</h2>
           <p className="text-slate-500 dark:text-slate-400 max-w-xl mx-auto">
             {t.process.description}
           </p>

@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
         <div className="flex flex-col lg:flex-row items-center gap-12">
 
           {/* Content */}
-          <div className="flex-1 text-center lg:text-left animate-fade-in-up">
+          <div className="flex-1 text-center lg:text-left">
             <div className="inline-block mb-4 px-4 py-1.5 rounded-full border border-slate-200 dark:border-white/10 bg-white/50 dark:bg-white/5 backdrop-blur-sm text-sm font-medium text-purple-600 dark:text-purple-300 shadow-sm">
               {t.hero.badge}
             </div>

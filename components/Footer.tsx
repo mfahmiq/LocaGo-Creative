@@ -45,7 +45,7 @@ const Footer: React.FC = () => {
                                 LocaGo Creative
                             </span>
                         </div>
-                        <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-sm">
+                        <p className="text-slate-700 dark:text-slate-400 leading-relaxed text-sm">
                             {t.footer.tagline}
                         </p>
                         {/* Social Media Icons (Moved here or kept in own column? User asked for Social Media section, often combined or separate. Let's keep it near branding or in its own spot. I'll put it here for compact design or separate column for cleaner look. The request said "Social Media: Ikon...". Let's put it in the branding column for checking, or maybe column 4.) */}

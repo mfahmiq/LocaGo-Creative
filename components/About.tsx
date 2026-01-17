@@ -44,15 +44,15 @@ const About: React.FC = () => {
                         </div>
                     </div>
 
-                    {/* Content Side */}
+                    {/* Content */}
                     <div>
-                        <h2 className="text-blue-600 font-bold uppercase tracking-widest text-sm mb-3">
+                        <span className="block text-blue-600 font-bold uppercase tracking-widest text-sm mb-3">
                             {t.about.subtitle}
-                        </h2>
-                        <h3 className="text-4xl md:text-5xl font-extrabold text-slate-900 dark:text-white mb-6 leading-tight">
+                        </span>
+                        <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 dark:text-white mb-6 leading-tight">
                             {t.about.title}
-                        </h3>
-                        <p className="text-lg text-slate-600 dark:text-slate-300 mb-8 leading-relaxed">
+                        </h2>
+                        <p className="text-lg text-slate-700 dark:text-slate-300 mb-8 leading-relaxed">
                             {t.about.description}
                         </p>
 

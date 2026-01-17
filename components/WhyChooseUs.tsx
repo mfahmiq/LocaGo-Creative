@@ -28,12 +28,12 @@ const WhyChooseUs: React.FC = () => {
         <section id="why-us" className="py-24 bg-white dark:bg-slate-900 transition-colors duration-300">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center mb-16">
-                    <h2 className="text-blue-600 font-bold uppercase tracking-widest text-sm mb-3">
+                    <span className="block text-blue-600 font-bold uppercase tracking-widest text-sm mb-3">
                         {t.whyUs.subtitle}
-                    </h2>
-                    <h3 className="text-4xl md:text-5xl font-extrabold text-slate-900 dark:text-white mb-4">
+                    </span>
+                    <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 dark:text-white mb-4">
                         {t.whyUs.title}
-                    </h3>
+                    </h2>
                     <p className="text-slate-500 dark:text-slate-400 max-w-2xl mx-auto text-lg">
                         {t.whyUs.description}
                     </p>
