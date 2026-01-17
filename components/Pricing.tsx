@@ -43,6 +43,7 @@ const PricingCard: React.FC<PricingTier & { popularLabel: string; categoryName: 
       href={`https://wa.me/6289663012893?text=Halo LocaGo Creative, saya tertarik dengan paket *${title}* untuk layanan *${categoryName}*. Bisa diskusi lebih lanjut?`}
       target="_blank"
       rel="noopener noreferrer"
+      aria-label={`Order ${title} Package`}
       className={`w-full py-4 rounded-2xl text-center font-bold transition-all active:scale-95 ${isPopular ? 'bg-blue-600 text-white hover:bg-blue-700 shadow-lg shadow-blue-100 dark:shadow-blue-900/30' : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-200 dark:hover:bg-slate-600'}`}
     >
       {ctaText}

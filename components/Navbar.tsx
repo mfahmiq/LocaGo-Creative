@@ -87,6 +87,7 @@ const Navbar: React.FC = () => {
         <div className="md:hidden flex items-center gap-4">
           <button
             onClick={toggleTheme}
+            aria-label="Toggle theme"
             className="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors text-slate-600 dark:text-slate-300"
           >
             {theme === 'dark' ? '☀️' : '🌙'}
@@ -94,6 +95,7 @@ const Navbar: React.FC = () => {
 
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label="Toggle mobile menu"
             className="p-2 text-slate-600 dark:text-slate-300 z-50 relative"
           >
             {mobileMenuOpen ? (
@@ -186,6 +188,7 @@ const Navbar: React.FC = () => {
           {/* Close button */}
           <button
             onClick={() => setMobileMenuOpen(false)}
+            aria-label="Close menu"
             className="absolute top-6 right-6 p-2 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300"
             style={{
               opacity: mobileMenuOpen ? 1 : 0,

@@ -22,8 +22,8 @@ const About: React.FC = () => {
                                     <div className="w-24 h-24 bg-gradient-to-br from-blue-500 to-purple-500 rounded-2xl mx-auto mb-6 flex items-center justify-center shadow-lg shadow-blue-500/20">
                                         <span className="text-4xl">🚀</span>
                                     </div>
-                                    <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-2">DevFlow Agency</h3>
-                                    <p className="text-slate-500 dark:text-slate-400">Your Trusted Digital Partner</p>
+                                    <p className="text-2xl font-bold text-slate-900 dark:text-white mb-2">DevFlow Agency</p>
+                                    <p className="text-slate-600 dark:text-slate-300">Your Trusted Digital Partner</p>
                                 </div>
                             </div>
                         </div>
