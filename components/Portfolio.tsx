@@ -18,8 +18,8 @@ const Portfolio: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 space-y-4 md:space-y-0">
           <div>
-            <h2 className="text-blue-600 font-bold uppercase tracking-widest text-sm mb-3">{t.portfolio.subtitle}</h2>
-            <h3 className="text-4xl font-extrabold text-slate-900 dark:text-white">{t.portfolio.title}</h3>
+            <span className="block text-blue-600 font-bold uppercase tracking-widest text-sm mb-3">{t.portfolio.subtitle}</span>
+            <h2 className="text-4xl font-extrabold text-slate-900 dark:text-white">{t.portfolio.title}</h2>
           </div>
           <p className="text-slate-500 dark:text-slate-400 max-w-md">
             {t.portfolio.description}

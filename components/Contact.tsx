@@ -93,8 +93,9 @@ const Contact: React.FC = () => {
             {/* Name and Job */}
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-2">
-                <label className="text-sm font-bold text-slate-700 dark:text-slate-300">{t.contact.form.name}</label>
+                <label htmlFor="name" className="text-sm font-bold text-slate-700 dark:text-slate-300">{t.contact.form.name}</label>
                 <input
+                  id="name"
                   type="text"
                   name="name"
                   value={formData.name}
@@ -105,8 +106,9 @@ const Contact: React.FC = () => {
                 />
               </div>
               <div className="space-y-2">
-                <label className="text-sm font-bold text-slate-700 dark:text-slate-300">{t.contact.form.job}</label>
+                <label htmlFor="job" className="text-sm font-bold text-slate-700 dark:text-slate-300">{t.contact.form.job}</label>
                 <input
+                  id="job"
                   type="text"
                   name="job"
                   value={formData.job}
@@ -120,8 +122,9 @@ const Contact: React.FC = () => {
             {/* Phone and Email */}
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-2">
-                <label className="text-sm font-bold text-slate-700 dark:text-slate-300">No. WhatsApp</label>
+                <label htmlFor="phone" className="text-sm font-bold text-slate-700 dark:text-slate-300">No. WhatsApp</label>
                 <input
+                  id="phone"
                   type="tel"
                   name="phone"
                   value={formData.phone}
@@ -132,8 +135,9 @@ const Contact: React.FC = () => {
                 />
               </div>
               <div className="space-y-2">
-                <label className="text-sm font-bold text-slate-700 dark:text-slate-300">Email</label>
+                <label htmlFor="email" className="text-sm font-bold text-slate-700 dark:text-slate-300">Email</label>
                 <input
+                  id="email"
                   type="email"
                   name="email"
                   value={formData.email}
@@ -145,8 +149,9 @@ const Contact: React.FC = () => {
               </div>
             </div>
             <div className="space-y-2">
-              <label className="text-sm font-bold text-slate-700 dark:text-slate-300">{t.contact.form.package}</label>
+              <label htmlFor="package" className="text-sm font-bold text-slate-700 dark:text-slate-300">{t.contact.form.package}</label>
               <select
+                id="package"
                 name="package"
                 value={formData.package}
                 onChange={handleChange}
@@ -182,8 +187,9 @@ const Contact: React.FC = () => {
               </select>
             </div>
             <div className="space-y-2">
-              <label className="text-sm font-bold text-slate-700 dark:text-slate-300">{t.contact.form.message}</label>
+              <label htmlFor="message" className="text-sm font-bold text-slate-700 dark:text-slate-300">{t.contact.form.message}</label>
               <textarea
+                id="message"
                 rows={4}
                 name="message"
                 value={formData.message}

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
 :root {
   --glass-border: rgba(255, 255, 255, 0.1);
   --glass-bg: rgba(255, 255, 255, 0.05);
@@ -12,7 +16,6 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 80px;
-  /* Offset for fixed navbar */
 }
 
 body {
