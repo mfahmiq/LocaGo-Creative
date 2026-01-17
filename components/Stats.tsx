@@ -56,25 +56,25 @@ const Stats: React.FC = () => {
 
                     {/* Project Selesai */}
                     <div ref={refProjects} className="space-y-2 pt-8 md:pt-0">
-                        <h3 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-violet-600 dark:from-blue-400 dark:to-violet-400 tracking-tight tabular-nums">
+                        <div className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-violet-600 dark:from-blue-400 dark:to-violet-400 tracking-tight tabular-nums">
                             {countProjects}+
-                        </h3>
+                        </div>
                         <p className="text-lg font-medium text-slate-600 dark:text-slate-400">{t.stats.projects}</p>
                     </div>
 
                     {/* Client Puas */}
                     <div ref={refClients} className="space-y-2 pt-8 md:pt-0">
-                        <h3 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-violet-600 dark:from-blue-400 dark:to-violet-400 tracking-tight tabular-nums">
+                        <div className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-violet-600 dark:from-blue-400 dark:to-violet-400 tracking-tight tabular-nums">
                             {countClients}%
-                        </h3>
+                        </div>
                         <p className="text-lg font-medium text-slate-600 dark:text-slate-400">{t.stats.clients}</p>
                     </div>
 
                     {/* Tepat Waktu */}
                     <div ref={refTimely} className="space-y-2 pt-8 md:pt-0">
-                        <h3 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-violet-600 dark:from-blue-400 dark:to-violet-400 tracking-tight tabular-nums">
+                        <div className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-violet-600 dark:from-blue-400 dark:to-violet-400 tracking-tight tabular-nums">
                             {countTimely}%
-                        </h3>
+                        </div>
                         <p className="text-lg font-medium text-slate-600 dark:text-slate-400">{t.stats.timely}</p>
                     </div>
 
