@@ -45,9 +45,9 @@ const WhyChooseUs: React.FC = () => {
                             <div className="w-16 h-16 bg-white dark:bg-slate-700 rounded-2xl flex items-center justify-center mb-6 shadow-sm group-hover:scale-110 transition-transform">
                                 {icons[idx]}
                             </div>
-                            <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-3">
+                            <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">
                                 {item.title}
-                            </h4>
+                            </h3>
                             <p className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">
                                 {item.description}
                             </p>

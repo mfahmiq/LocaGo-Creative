@@ -6,11 +6,11 @@ const Portfolio: React.FC = () => {
   const { t } = useLanguage();
 
   const images = [
-    'https://s0.wp.com/mshots/v1/https%3A%2F%2Falharamain-kohl.vercel.app%2F?w=800&h=500', // Alharamain
-    'https://s0.wp.com/mshots/v1/https%3A%2F%2Fglowup-kohl.vercel.app%2F?w=800&h=500', // Glowup
-    'https://s0.wp.com/mshots/v1/https%3A%2F%2Fnusatrip.vercel.app%2F?w=800&h=500', // Nusatrip
-    'https://s0.wp.com/mshots/v1/https%3A%2F%2Furbankicks-one.vercel.app%2F?w=800&h=500', // Urban Kicks
-    'https://s0.wp.com/mshots/v1/https%3A%2F%2Fmitrakonstruksi.vercel.app%2F?w=800&h=500', // Mitra Konstruksi
+    'https://s0.wp.com/mshots/v1/https%3A%2F%2Falharamain-kohl.vercel.app%2F?w=600&h=400', // Alharamain
+    'https://s0.wp.com/mshots/v1/https%3A%2F%2Fglowup-kohl.vercel.app%2F?w=600&h=400', // Glowup
+    'https://s0.wp.com/mshots/v1/https%3A%2F%2Fnusatrip.vercel.app%2F?w=600&h=400', // Nusatrip
+    'https://s0.wp.com/mshots/v1/https%3A%2F%2Furbankicks-one.vercel.app%2F?w=600&h=400', // Urban Kicks
+    'https://s0.wp.com/mshots/v1/https%3A%2F%2Fmitrakonstruksi.vercel.app%2F?w=600&h=400', // Mitra Konstruksi
   ];
 
   return (
@@ -45,9 +45,9 @@ const Portfolio: React.FC = () => {
               </div>
               <div>
                 <span className="text-xs font-bold text-blue-600 uppercase tracking-widest">{project.category}</span>
-                <h4 className="text-2xl font-bold text-slate-900 dark:text-white mt-1 group-hover:text-blue-600 transition-colors">
+                <h3 className="text-2xl font-bold text-slate-900 dark:text-white mt-1 group-hover:text-blue-600 transition-colors">
                   {project.title}
-                </h4>
+                </h3>
                 <p className="text-slate-600 dark:text-slate-400 mt-2 line-clamp-2">{project.description}</p>
               </div>
             </a>

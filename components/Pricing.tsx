@@ -96,7 +96,7 @@ const Pricing: React.FC = () => {
           ))}
         </div>
 
-        <p className="text-center text-slate-400 text-sm mt-8 max-w-2xl mx-auto">
+        <p className="text-center text-slate-600 text-sm mt-8 max-w-2xl mx-auto">
           {t.pricing.note}
         </p>
       </div>

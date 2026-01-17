@@ -47,7 +47,7 @@ const Process: React.FC = () => {
                 </div>
                 <div className="relative">
                   <span className="absolute -top-10 left-1/2 -translate-x-1/2 text-slate-200 dark:text-slate-700 text-5xl font-black italic -z-10">0{idx + 1}</span>
-                  <h4 className="text-lg font-bold text-slate-900 dark:text-white mb-2">{step.title}</h4>
+                  <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-2">{step.title}</h3>
                   <p className="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">{step.description}</p>
                 </div>
               </div>

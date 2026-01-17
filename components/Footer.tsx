@@ -66,7 +66,7 @@ const Footer: React.FC = () => {
 
                     {/* 2. Quick Links */}
                     <div>
-                        <h4 className="font-bold text-slate-900 dark:text-white mb-6 text-lg">{t.footer.quickLinks}</h4>
+                        <h3 className="font-bold text-slate-900 dark:text-white mb-6 text-lg">{t.footer.quickLinks}</h3>
                         <ul className="space-y-3">
                             {quickLinks.map((key) => (
                                 <li key={key}>
@@ -84,14 +84,14 @@ const Footer: React.FC = () => {
 
                     {/* 3. Kontak Langsung */}
                     <div>
-                        <h4 className="font-bold text-slate-900 dark:text-white mb-6 text-lg">{t.footer.contact}</h4>
+                        <h3 className="font-bold text-slate-900 dark:text-white mb-6 text-lg">{t.footer.contact}</h3>
                         <ul className="space-y-4">
                             <li className="flex items-start space-x-3 group">
                                 <div className="p-2 rounded-lg bg-blue-50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400 group-hover:bg-blue-100 dark:group-hover:bg-blue-900/40 transition-colors">
                                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                                 </div>
                                 <div>
-                                    <p className="text-xs text-slate-500 font-medium">WhatsApp</p>
+                                    <p className="text-xs text-slate-600 font-medium">WhatsApp</p>
                                     <a href="#" className="text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">+62 89663012893</a>
                                 </div>
                             </li>
@@ -100,7 +100,7 @@ const Footer: React.FC = () => {
                                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
                                 </div>
                                 <div>
-                                    <p className="text-xs text-slate-500 font-medium">Email</p>
+                                    <p className="text-xs text-slate-600 font-medium">Email</p>
                                     <a href="mailto:hello@locago.com" className="text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">hello@locago.com</a>
                                 </div>
                             </li>
@@ -109,7 +109,7 @@ const Footer: React.FC = () => {
                                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
                                 </div>
                                 <div>
-                                    <p className="text-xs text-slate-500 font-medium">Location</p>
+                                    <p className="text-xs text-slate-600 font-medium">Location</p>
                                     <span className="text-slate-700 dark:text-slate-300">Bandung, Indonesia</span>
                                 </div>
                             </li>
@@ -118,7 +118,7 @@ const Footer: React.FC = () => {
 
                     {/* 4. Social Media */}
                     <div>
-                        <h4 className="font-bold text-slate-900 dark:text-white mb-6 text-lg">{t.footer.socials}</h4>
+                        <h3 className="font-bold text-slate-900 dark:text-white mb-6 text-lg">{t.footer.socials}</h3>
                         <div className="flex gap-4">
                             {socialLinks.map((social) => (
                                 <a
