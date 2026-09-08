@@ -505,6 +505,174 @@ const getFeatures = (lang: 'en' | 'id') =>
         { id: 'coding', label: 'Asistensi Coding / Tugas' },
       ];
 
+interface ExtractedConsultationDetails {
+  profileLabel: string;
+  systemType: string;
+  featureList: string[];
+  investmentValue: string;
+  durationEstimate: string;
+  summaryText: string;
+}
+
+function extractConsultationDetails(
+  messages: Message[],
+  selectedProfile: string,
+  customProfile: string,
+  selectedFeatures: string[],
+  customFeature: string,
+  budget: string,
+  PROFILES: { value: string; label: string }[],
+  FEATURES: { id: string; label: string }[],
+  lang: 'id' | 'en'
+): ExtractedConsultationDetails {
+  const allUserText = messages.filter(m => m.role === 'user').map(m => m.content).join(' ');
+  const lastAiMsg = messages.filter(m => m.role === 'assistant').pop()?.content || '';
+  const combinedText = `${allUserText} ${lastAiMsg}`.toLowerCase();
+
+  // 1. Profil Klien
+  const profilePresetLabel = PROFILES.find(p => p.value === selectedProfile)?.label.replace(/^.{2}/, '').trim();
+  let profileLabel = [profilePresetLabel, customProfile.trim()].filter(Boolean).join(' - ');
+  if (!profileLabel) {
+    if (/toko|olshop|jual|dagang|produk|warung|cafe|resto|katalog/i.test(combinedText)) {
+      profileLabel = lang === 'en' ? 'Online Store Owner / Merchant' : 'Pemilik Toko / Pelaku Usaha';
+    } else if (/sekolah|guru|guru les|siswa|pendidikan|ajar/i.test(combinedText)) {
+      profileLabel = lang === 'en' ? 'Educator / School Representative' : 'Sekolah / Guru / Pengajar';
+    } else if (/mahasiswa|kampus|tugas|skripsi|kuliah/i.test(combinedText)) {
+      profileLabel = lang === 'en' ? 'Student / Researcher' : 'Mahasiswa / Akademisi';
+    } else if (/perusahaan|pt|cv|kantor|corporate|legalitas/i.test(combinedText)) {
+      profileLabel = lang === 'en' ? 'Company / Corporate' : 'Korporat / Perusahaan';
+    } else {
+      profileLabel = lang === 'en' ? 'Prospective Client (LocaGo Digital)' : 'Calon Klien LocaGo Creative';
+    }
+  }
+
+  // 2. Jenis Sistem
+  let systemType = '';
+  if (/google apps script|appscript|app script|gas|google sheet|spreadsheet|excel|500k|300k|200k|400k|100k/i.test(combinedText)) {
+    systemType = lang === 'en'
+      ? 'Automated Cloud System (Google Apps Script + Google Sheets / Excel)'
+      : 'Sistem Otomasi Cloud (Google Apps Script + Google Sheets / Excel)';
+  } else if (/toko online|ecommerce|e-commerce|olshop/i.test(combinedText)) {
+    systemType = lang === 'en'
+      ? 'Online Store & E-Commerce (Direct-to-WhatsApp)'
+      : 'Website Toko Online & Katalog Direct-to-WhatsApp';
+  } else if (/presensi|absensi|sekolah|guru|siswa|rpp/i.test(combinedText)) {
+    systemType = lang === 'en'
+      ? 'School QR Code Attendance & Digital Ledger System'
+      : 'Sistem Presensi QR Code Siswa & Notifikasi WhatsApp';
+  } else if (/booking|reservasi|jadwal|klinik|salon|rental/i.test(combinedText)) {
+    systemType = lang === 'en'
+      ? 'Online Appointment Booking & Scheduling Platform'
+      : 'Website Booking & Reservasi Layanan Online';
+  } else if (/company profile|landing page|profil perusahaan/i.test(combinedText)) {
+    systemType = lang === 'en'
+      ? 'Modern Corporate Website & Landing Page'
+      : 'Website Company Profile & Landing Page Modern';
+  } else if (/chatbot|bot wa|whatsapp ai/i.test(combinedText)) {
+    systemType = lang === 'en'
+      ? 'AI WhatsApp 24/7 Chatbot & Workflow Automation'
+      : 'AI Chatbot WhatsApp 24/7 & Otomasi Alur Kerja';
+  } else if (selectedFeatures.length > 0) {
+    systemType = FEATURES.find(f => f.id === selectedFeatures[0])?.label || (lang === 'en' ? 'Custom Digital System' : 'Sistem Digital Kustom');
+  } else {
+    systemType = lang === 'en' ? 'Custom Digital System & Website' : 'Sistem Digital & Website Kustom';
+  }
+
+  // 3. List Fitur Utama
+  const rawFeatures = [
+    ...FEATURES.filter(f => selectedFeatures.includes(f.id)).map(f => f.label.replace(/^.{2}/, '').trim()),
+    customFeature.trim() ? `${customFeature.trim()}` : '',
+  ].filter(Boolean);
+
+  if (rawFeatures.length === 0) {
+    if (/google apps script|appscript|google sheet|excel|300k|500k/i.test(combinedText)) {
+      rawFeatures.push(
+        lang === 'en' ? 'Web Form Input for Easy Data Entry' : 'Formulir Web Input Data Otomatis',
+        lang === 'en' ? 'Structured Google Sheets / Excel Database' : 'Database Google Sheets / Excel Terstruktur',
+        lang === 'en' ? 'Automatic Calculations & 100% Free Cloud Server' : 'Kalkulasi Rumus Otomatis & Bebas Biaya Server Selamanya'
+      );
+    } else if (/toko|olshop/i.test(combinedText)) {
+      rawFeatures.push(
+        lang === 'en' ? 'Product Showcase & Auto WhatsApp Order Form' : 'Katalog Produk & Form Pemesanan Otomatis WhatsApp',
+        lang === 'en' ? 'Mobile-First Responsive Layout' : 'Desain Responsif Super Cepat di HP',
+        lang === 'en' ? 'Domain & Cloud Hosting 1 Year Included' : 'Paket Terima Beres Domain & Cloud Hosting 1 Tahun'
+      );
+    } else if (/presensi|sekolah/i.test(combinedText)) {
+      rawFeatures.push(
+        lang === 'en' ? 'QR Code Attendance Scanner' : 'Scanner Presensi QR Code Siswa',
+        lang === 'en' ? 'Automatic WhatsApp Notification to Parents' : 'Notifikasi WhatsApp Otomatis ke Orang Tua',
+        lang === 'en' ? 'Daily & Monthly Attendance Reports' : 'Rekap Kehadiran Harian & Bulanan'
+      );
+    } else {
+      rawFeatures.push(
+        lang === 'en' ? 'Zero Template Handcrafted Custom Code' : 'Arsitektur Kustom 100% dari 0 (Zero Template)',
+        lang === 'en' ? 'Direct Integration to WhatsApp & Business Flow' : 'Integrasi Langsung ke Alur Operasional & WhatsApp'
+      );
+    }
+  }
+
+  // 4. Nilai Investasi
+  let investmentValue = budget.trim() ? `Rp ${budget.trim()}` : '';
+  if (!investmentValue) {
+    const userMsgs = messages.filter(m => m.role === 'user').map(m => m.content);
+    for (let i = userMsgs.length - 1; i >= 0; i--) {
+      const budgetMatch = userMsgs[i].match(/(?:budget|anggaran|dana|biaya|alokasi|sebesar|punya)?\s*([0-9]+(?:[\.,][0-9]+)*\s*(?:k|rb|ribu|jt|juta)?)/i);
+      if (budgetMatch && budgetMatch[1] && /\d/.test(budgetMatch[1])) {
+        investmentValue = `Rp ${budgetMatch[1].trim()}`;
+        break;
+      }
+    }
+    if (!investmentValue) {
+      if (/300k|300rb|300 ribu/i.test(combinedText)) {
+        investmentValue = 'Rp 300.000 (Solusi Super Hemat GAS)';
+      } else if (/500k|500rb|500 ribu/i.test(combinedText)) {
+        investmentValue = 'Di bawah Rp 500.000 (< 500k)';
+      } else {
+        investmentValue = lang === 'en' ? 'Flexible / As Discussed in Consultation' : 'Fleksibel / Sesuai Hasil Konsultasi AI';
+      }
+    }
+  }
+
+  // 5. Estimasi Waktu Pengerjaan
+  let durationEstimate = '';
+  if (/appscript|gas|google sheet|excel|300k|500k/i.test(combinedText)) {
+    durationEstimate = lang === 'en' ? '1 - 3 business days (Express)' : '1 - 3 hari kerja (Express)';
+  } else if (/landing page|company profile/i.test(combinedText)) {
+    durationEstimate = lang === 'en' ? '3 - 5 business days' : '3 - 5 hari kerja';
+  } else if (/toko|ecommerce|sekolah|presensi/i.test(combinedText)) {
+    durationEstimate = lang === 'en' ? '1 - 2 weeks' : '1 - 2 minggu';
+  } else {
+    durationEstimate = lang === 'en' ? '1 - 3 weeks (Tailored to project scale)' : '1 - 3 minggu (Menyesuaikan skala fitur)';
+  }
+
+  // 6. Rangkuman Inti AI
+  let cleanSummary = lastAiMsg
+    .replace(/^Halo.*?(\n|$)/i, '')
+    .replace(/^Kabar gembira.*?(\n|$)/i, '')
+    .replace(/Mari langsung kita diskusikan.*?$/is, '')
+    .replace(/Yuk langsung kita.*?$/is, '')
+    .replace(/Silakan klik tombol.*?$/is, '')
+    .replace(/Mohon maaf Kak.*?$/is, '')
+    .trim();
+
+  if (!cleanSummary) {
+    cleanSummary = lang === 'en'
+      ? 'Discussion on system requirements, budget optimization, and development plan.'
+      : 'Diskusi pemetaan fitur, solusi sistem teroptimasi, dan kesepakatan nilai investasi.';
+  } else if (cleanSummary.length > 350) {
+    cleanSummary = cleanSummary.substring(0, 340) + '...';
+  }
+
+  return {
+    profileLabel,
+    systemType,
+    featureList: rawFeatures,
+    investmentValue,
+    durationEstimate,
+    summaryText: cleanSummary,
+  };
+}
+
 const AIChatSection: React.FC = () => {
   const { t, language } = useLanguage();
   const hasKey = !!GROQ_API_KEY && GROQ_API_KEY !== 'your_groq_api_key_here';
@@ -578,24 +746,29 @@ const AIChatSection: React.FC = () => {
       }) + ' WIB';
     const checksum = generateChecksum(ticketId, timestamp);
 
-    const profilePresetLabel = PROFILES.find(p => p.value === selectedProfile)?.label.replace(/^.{2}/, '').trim();
-    const profileLabel = [profilePresetLabel, customProfile.trim()].filter(Boolean).join(' - ') || 'Konsultasi Proyek';
+    const details = extractConsultationDetails(
+      messages,
+      selectedProfile,
+      customProfile,
+      selectedFeatures,
+      customFeature,
+      budget,
+      PROFILES,
+      FEATURES,
+      language as 'id' | 'en'
+    );
 
-    const featureList = [
-      ...FEATURES.filter(f => selectedFeatures.includes(f.id)).map(f => f.label.replace(/^.{2}/, '').trim()),
-      customFeature.trim() ? `Kustom: ${customFeature.trim()}` : '',
-    ].filter(Boolean).join(', ') || 'Diskusi Sistem Custom';
-
-    const lastAiMsg = messages.filter(m => m.role === 'assistant').pop()?.content || '';
     const transcript = messages.map(m => `${m.role === 'user' ? 'Klien' : 'AI'}: ${m.content}`).join('\n---\n');
 
     const leadData = {
       ticketId,
       timestamp,
-      profile: profileLabel,
-      features: featureList,
-      budget: budget.trim() ? `Rp ${budget.trim()}` : 'Fleksibel',
-      aiSummary: lastAiMsg.substring(0, 500),
+      profile: details.profileLabel,
+      systemType: details.systemType,
+      features: details.featureList.join(', '),
+      budget: details.investmentValue,
+      duration: details.durationEstimate,
+      aiSummary: details.summaryText,
       checksum,
       fullTranscript: transcript,
     };
@@ -626,39 +799,63 @@ const AIChatSection: React.FC = () => {
     setSyncedTicket(ticketId);
     setIsSyncing(false);
 
-    // 3. Format pesan WhatsApp Resmi & Anti-Manipulasi
+    // 3. Format pesan WhatsApp Resmi & Rangkuman Kesepakatan Lengkap
     let waText = '';
     if (overrideMsg) {
       waText = language === 'en'
         ? `Hello Mas Fahmi (LocaGo Creative)! 🚀\n\n${overrideMsg}\n\n[Ticket Number: #${ticketId} | Verif: #VERIF-${checksum}]`
         : `Halo Mas Fahmi (LocaGo Creative)! 🚀\n\n${overrideMsg}\n\n[Nomor Tiket: #${ticketId} | Verif: #VERIF-${checksum}]`;
     } else {
+      const formattedFeatures = details.featureList.map(f => `  • ${f}`).join('\n');
+
       waText = language === 'en'
         ? `Hello Mas Fahmi (Founder & Lead Developer LocaGo Creative)! 🚀
-I'd like to confirm and finalize our project discussion from the website:
+I'd like to confirm and lock our project agreement from the website consultation:
 
-📋 OFFICIAL CONSULTATION TICKET
+📋 OFFICIAL AGREEMENT TICKET
 • Ticket Number: #${ticketId}
 • Session Time: ${timestamp}
-• Client Profile: ${profileLabel}
-• System Requirements: ${featureList}
-${budget.trim() ? `• Initial Target Budget: Rp ${budget.trim()}\n` : ''}
-💬 AI Consultation Summary:
-${lastAiMsg ? lastAiMsg.substring(0, 260) + (lastAiMsg.length > 260 ? '...' : '') : 'Digital project discussion'}
+• Client Profile: ${details.profileLabel}
+
+🛠️ SYSTEM & FEATURE SPECIFICATIONS:
+• System Type: ${details.systemType}
+• Core Features:
+${formattedFeatures}
+
+💰 INVESTMENT VALUE:
+• Target Budget: ${details.investmentValue}
+
+⏱️ ESTIMATED TIMELINE & SCHEDULE:
+• Estimated Duration: ${details.durationEstimate}
+• Start Schedule: Subject to developer queue (Mas Fahmi, when can we start development?)
+
+💬 AI CONSULTATION SUMMARY:
+${details.summaryText}
 
 [Verification Code: #VERIF-${checksum}]
-Please check development availability and next steps. Thank you!`
+Please confirm development slot availability and next steps. Thank you!`
         : `Halo Mas Fahmi (Founder & Lead Developer LocaGo Creative)! 🚀
-Saya ingin konfirmasi dan finalisasi kesepakatan hasil diskusi AI dari website:
+Saya ingin konfirmasi dan mengunci kesepakatan hasil diskusi AI dari website:
 
-📋 TIKET KONSULTASI RESMI
+📋 TIKET KESEPAKATAN PROYEK RESMI
 • Nomor Tiket: #${ticketId}
 • Waktu Sesi: ${timestamp}
-• Profil Klien: ${profileLabel}
-• Kebutuhan Sistem: ${featureList}
-${budget.trim() ? `• Anggaran Awal Klien: Rp ${budget.trim()}\n` : ''}
-💬 Ringkasan Kesepakatan AI:
-${lastAiMsg ? lastAiMsg.substring(0, 260) + (lastAiMsg.length > 260 ? '...' : '') : 'Diskusi proyek digital'}
+• Profil Klien: ${details.profileLabel}
+
+🛠️ SPESIFIKASI SISTEM & FITUR:
+• Jenis Sistem: ${details.systemType}
+• Rincian Fitur Utama:
+${formattedFeatures}
+
+💰 NILAI INVESTASI:
+• Target Anggaran: ${details.investmentValue}
+
+⏱️ ESTIMASI WAKTU & JADWAL PENGERJAAN:
+• Estimasi Durasi: ${details.durationEstimate}
+• Jadwal Mulai: Menyesuaikan slot antrian pengerjaan Mas Fahmi (bisa disesuaikan mulai kapan ya Mas?)
+
+💬 RANGKUMAN HASIL DISKUSI AI:
+${details.summaryText}
 
 [Kode Verifikasi Keaslian: #VERIF-${checksum}]
 Mohon dicek jadwal antrian pengerjaannya ya Mas. Terima kasih!`;
