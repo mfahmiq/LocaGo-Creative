@@ -72,19 +72,16 @@ const Hero: React.FC = () => {
   }, [currentText, isDeleting, wordIndex, words]);
 
   return (
-    <section className="relative min-h-screen flex items-center pt-28 pb-20 lg:pt-32 lg:pb-24 overflow-hidden bg-slate-50 dark:bg-slate-900 transition-colors duration-300">
+    <section className="relative min-h-screen flex items-center pt-28 pb-32 lg:pt-32 lg:pb-36 overflow-hidden bg-slate-50 dark:bg-slate-900 transition-colors duration-300">
       {/* Dynamic Background */}
       <div className="absolute inset-0 w-full h-full bg-grid-pattern opacity-20 user-select-none pointer-events-none"></div>
-
-      {/* Bottom Background Transition Fade (kept strictly in background behind content) */}
-      <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-slate-50 dark:from-slate-900 to-transparent z-0 pointer-events-none"></div>
 
       {/* Animated Blobs - Clean Corporate Blue & Cyan */}
       <div className="hidden md:block absolute top-0 -left-4 w-72 h-72 bg-blue-500/20 rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-blob"></div>
       <div className="hidden md:block absolute top-0 -right-4 w-72 h-72 bg-emerald-400/20 rounded-full mix-blend-multiply filter blur-2xl opacity-60 animate-blob animate-delay-200"></div>
       <div className="hidden md:block absolute -bottom-8 left-20 w-72 h-72 bg-cyan-500/20 rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-blob animate-delay-500"></div>
 
-      <div className="container mx-auto px-6 relative z-20">
+      <div className="container mx-auto px-6 relative z-20 mb-8 sm:mb-12">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
 
           {/* Content */}
@@ -225,6 +222,8 @@ const Hero: React.FC = () => {
         </div>
       </div>
 
+      {/* Smooth Transition Gradient to Stats section - positioned cleanly below buttons */}
+      <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-b from-transparent via-slate-50/60 dark:via-slate-900/60 to-slate-50 dark:to-slate-900 pointer-events-none z-10"></div>
     </section>
   );
 };
