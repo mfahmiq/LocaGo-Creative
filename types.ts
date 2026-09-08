@@ -1,4 +1,6 @@
 
+import React from 'react';
+
 export interface PricingTier {
   title: string;
   price: string;

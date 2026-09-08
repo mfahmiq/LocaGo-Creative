@@ -3,7 +3,7 @@ import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 
 const About: React.FC = () => {
-    const { t } = useLanguage();
+    const { t, language } = useLanguage();
 
     return (
         <section id="about" className="py-24 bg-slate-50 dark:bg-slate-900 transition-colors duration-300 relative overflow-hidden">
@@ -11,19 +11,23 @@ const About: React.FC = () => {
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     {/* Image / Visual Side */}
                     <div className="relative">
-                        <div className="aspect-square rounded-3xl overflow-hidden bg-gradient-to-br from-blue-600 to-purple-600 p-1">
+                        <div className="aspect-square rounded-3xl overflow-hidden bg-gradient-to-br from-blue-600 to-cyan-500 p-1">
                             <div className="w-full h-full bg-slate-100 dark:bg-slate-800 rounded-[22px] flex items-center justify-center relative overflow-hidden group">
                                 {/* Abstract Shapes */}
                                 <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
-                                <div className="absolute bottom-0 left-0 w-64 h-64 bg-purple-500/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2"></div>
+                                <div className="absolute bottom-0 left-0 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2"></div>
 
                                 {/* Placeholder Content/Illustration */}
                                 <div className="text-center p-8 relative z-10">
-                                    <div className="w-24 h-24 bg-gradient-to-br from-blue-500 to-purple-500 rounded-2xl mx-auto mb-6 flex items-center justify-center shadow-lg shadow-blue-500/20">
-                                        <span className="text-4xl">🚀</span>
-                                    </div>
-                                    <p className="text-2xl font-bold text-slate-900 dark:text-white mb-2">DevFlow Agency</p>
-                                    <p className="text-slate-600 dark:text-slate-300">Your Trusted Digital Partner</p>
+                                    <img
+                                        src="/logo.png"
+                                        alt="LocaGo Creative"
+                                        className="w-20 h-20 object-contain rounded-2xl mx-auto mb-4 bg-white p-2 shadow-lg shadow-blue-500/20"
+                                    />
+                                    <p className="text-2xl font-bold text-slate-900 dark:text-white mb-2">LocaGo Creative</p>
+                                    <p className="text-slate-600 dark:text-slate-300 text-sm">
+                                        {language === 'en' ? 'Your Trusted Digital Ecosystem' : 'Partner Ekosistem Digital Terpercaya'}
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -37,7 +41,7 @@ const About: React.FC = () => {
                                 </div>
                                 <div className="w-px h-10 bg-slate-200 dark:bg-slate-700"></div>
                                 <div className="text-center">
-                                    <div className="text-3xl font-bold text-purple-600">50+</div>
+                                    <div className="text-3xl font-bold text-cyan-600 dark:text-cyan-400">99+</div>
                                     <div className="text-xs text-slate-500 dark:text-slate-400 uppercase tracking-wider">{t.about.stats.projects}</div>
                                 </div>
                             </div>

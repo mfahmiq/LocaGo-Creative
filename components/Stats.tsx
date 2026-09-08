@@ -42,7 +42,7 @@ const Stats: React.FC = () => {
     const { t } = useLanguage();
 
     // Custom hook usage for each stat
-    const { count: countProjects, elementRef: refProjects } = useCounter(49);
+    const { count: countProjects, elementRef: refProjects } = useCounter(99);
     const { count: countClients, elementRef: refClients } = useCounter(99);
     const { count: countTimely, elementRef: refTimely } = useCounter(98);
 
@@ -56,7 +56,7 @@ const Stats: React.FC = () => {
 
                     {/* Project Selesai */}
                     <div ref={refProjects} className="space-y-2 pt-8 md:pt-0">
-                        <div className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-violet-600 dark:from-blue-400 dark:to-violet-400 tracking-tight tabular-nums">
+                        <div className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-600 dark:from-blue-400 dark:to-cyan-400 tracking-tight tabular-nums">
                             {countProjects}+
                         </div>
                         <p className="text-lg font-medium text-slate-600 dark:text-slate-400">{t.stats.projects}</p>
@@ -64,7 +64,7 @@ const Stats: React.FC = () => {
 
                     {/* Client Puas */}
                     <div ref={refClients} className="space-y-2 pt-8 md:pt-0">
-                        <div className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-violet-600 dark:from-blue-400 dark:to-violet-400 tracking-tight tabular-nums">
+                        <div className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-600 dark:from-blue-400 dark:to-cyan-400 tracking-tight tabular-nums">
                             {countClients}%
                         </div>
                         <p className="text-lg font-medium text-slate-600 dark:text-slate-400">{t.stats.clients}</p>
@@ -72,7 +72,7 @@ const Stats: React.FC = () => {
 
                     {/* Tepat Waktu */}
                     <div ref={refTimely} className="space-y-2 pt-8 md:pt-0">
-                        <div className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-violet-600 dark:from-blue-400 dark:to-violet-400 tracking-tight tabular-nums">
+                        <div className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-600 dark:from-blue-400 dark:to-cyan-400 tracking-tight tabular-nums">
                             {countTimely}%
                         </div>
                         <p className="text-lg font-medium text-slate-600 dark:text-slate-400">{t.stats.timely}</p>
