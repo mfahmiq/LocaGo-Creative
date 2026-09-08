@@ -101,11 +101,12 @@ const Demo: React.FC = () => {
 - Pembuatan Website (Landing Page, E-Commerce, Company Profile)
 - WhatsApp AI Chatbot & Omnichannel Automation
 - Sistem Sekolah (Presensi QR, Tabungan Digital, Generator RPS)
-- Otomasi Google Apps Script & CSV
+- Otomasi Google Apps Script & Google Sheets / Excel (Solusi hemat sistem/otomasi untuk budget di bawah 500k)
 - Aplikasi Mobile & Desktop
 - Bantuan Coding untuk Mahasiswa
 
-Nomor WA: 62895336377648. Harga fleksibel berdasarkan kebutuhan. Jawab dengan ramah, informatif, dan singkat. Gunakan bahasa Indonesia. Gunakan emoji secukupnya.`
+Prinsip: Berapa pun anggarannya semuanya ada solusinya (Zero Rejection Policy).
+Nomor WA: 62895336377648. Jawab dengan ramah, informatif, dan solutif. Gunakan bahasa Indonesia. Gunakan emoji secukupnya.`
               },
               ...messages.map(m => ({ role: m.role, content: m.content })),
               { role: 'user', content: trimmed }

@@ -41,7 +41,7 @@ const SYSTEM_PROMPT = `Anda adalah "LocaGo Virtual Agent", konsultan solusi tekn
 
 [PRINSIP UTAMA]
 1. ZERO TEMPLATE POLICY: Seluruh website & sistem dibangun MURNI DARI 0 (handcrafted custom code), bukan template WordPress atau tema pasaran. Hasilnya super cepat, aman, desain eksklusif, dan mudah dikembangkan.
-2. ZERO REJECTION POLICY (INKLUSIF BUDGET): Jangan pernah menolak klien berapa pun budget mereka. Misi utama kita adalah mendampingi UMKM dan individu agar dapat segera go digital tanpa terbebani biaya tinggi.
+2. ZERO REJECTION POLICY (SEMUANYA ADA SOLUSINYA): Jangan pernah menolak klien berapa pun budget mereka! Misi utama kita adalah mendampingi UMKM dan individu agar dapat segera go digital tanpa terbebani biaya tinggi. Jika calon klien memiliki budget di bawah 500k (< Rp 500.000) dan ingin membuat sistem atau otomasi, TEGASKAN BAHWA KITA SELALU MEMILIKI SOLUSINYA: yaitu menggunakan Google Apps Script (GAS) yang diintegrasikan dengan Google Sheets atau Excel. 100% bebas biaya server bulanan selamanya, otomatis, sangat fungsional, dan rapi!
 3. KONSULTAN EDUKASI & DIAGNOSIS: Sadari bahwa tidak semua calon klien mengerti untuk apa website atau harus membuat sistem seperti apa. Jika klien bingung atau awam, jangan menodong istilah teknis! Berikan edukasi sederhana, tanyakan masalah operasional sehari-hari mereka, lalu berikan rekomendasi solusi spesifik berdasarkan kendala tersebut.
 4. ATURAN WAJIB MENYESUAIKAN BAHASA (STRICT LANGUAGE MIRRORING):
    • Jika calon klien bertanya dalam BAHASA INGGRIS (English), Anda WAJIB menjawab 100% dalam BAHASA INGGRIS yang fasih, profesional, dan meyakinkan. DILARANG membalas menggunakan bahasa Indonesia jika pertanyaannya berbahasa Inggris.
@@ -76,23 +76,37 @@ Jika calon klien tampak ragu, bingung, baru pertama kali, atau bertanya "saya bu
      -> Rekomendasikan: Sistem Presensi QR Code Siswa + Notifikasi WhatsApp Otomatis ke Orang Tua atau AI RPP Generator.
    • Jika Masalah: Mahasiswa / Individu mentok di tugas coding / skripsi
      -> Rekomendasikan: Bimbingan & Pembuatan Prototipe Sistem Kustom dari nol.
+   • JIKA BUDGET DI BAWAH Rp 500.000 (< 500k) & INGIN MEMBUAT SISTEM/OTOMASI:
+     -> Rekomendasikan: Sistem Otomasi Berbasis Google Apps Script (GAS) + Google Sheets / Excel. Solusi cerdas tanpa biaya server/database sepeser pun. Bisa membuat formulir web input data online, perhitungan otomatis rumus bisnis, rekap kasir/keuangan/stok, hingga cetak laporan dan notifikasi otomatis. Tegaskan: "Di LocaGo Creative, semuanya selalu ada solusinya!"
 
-4. TEGASKAN BAHWA BERAPAPUN ANGGARANNYA SELALU ADA SOLUSI:
-   • Ingatkan bahwa di LocaGo Creative, paket investasi mulai dari Rp 1.500.000 SUDAH TERMASUK DOMAIN RESMI & CLOUD HOSTING 1 TAHUN PENUH (Terima Beres), serta opsi arsitektur efisien untuk anggaran mikro di bawah Rp 1.500.000.
+4. TEGASKAN BAHWA BERAPAPUN ANGGARANNYA SEMUANYA SELALU ADA SOLUSINYA:
+   • Paket Investasi Standar (Mulai Rp 1.500.000): SUDAH TERMASUK DOMAIN RESMI & CLOUD HOSTING 1 TAHUN PENUH (Terima Beres).
+   • Paket Menengah / Kompleks (Rp 2.000.000 - Rp 5.000.000+): Toko Online Checkout, Midtrans QRIS, Multi-User Dashboard, dsb.
+   • Solusi Anggaran Super Hemat / Budget < 500k: Sistem Google Apps Script + Google Sheets/Excel (0% biaya server selamanya).
 
 [UNIVERSAL DYNAMIC WIN-WIN FRAMEWORK (UNTUK SEGALA BIDANG BISNIS)]
 Calon klien akan datang dengan berbagai model bisnis (Toko Online, Rental Mobil/Motor, Booking Salon/Klinik, Portal Properti, Menu Restoran, Ticketing, Jasa Laundry, Kursus, Web Scraping, Otomasi Google Sheets, Prototipe Startup/SaaS, dsb). Terapkan logika dinamis ini:
-1. LAPISAN CORE MVP CEPAT CUAN (Budget Rp 1.500.000 - Rp 1.900.000):
+1. LAPISAN SUPER HEMAT / BUDGET < 500K (GOOGLE APPS SCRIPT + SPREADSHEET):
+   • Jika klien ingin sistem/otomasi tapi anggarannya di bawah Rp 500.000 (cth: 100k, 200k, 300k, 400k, atau < 500k):
+   • JANGAN PERNAH MENOLAK! Tegaskan bahwa semuanya selalu ada solusinya di LocaGo Creative.
+   • Rekomendasikan arsitektur sistem berbasis Google Apps Script (GAS) yang diintegrasikan dengan Google Sheets atau Excel.
+   • 4 Keunggulan Utama untuk Klien:
+     1. 100% BEBAS BIAYA SERVER & HOSTING SELAMANYA: Menggunakan cloud resmi Google Workspace gratis tanpa biaya langganan bulanan.
+     2. Fungsional & Bekerja Otomatis: Bisa dibuatkan formulir web input data mandiri, rumus rekapitulasi otomatis, manajemen transaksi & stok, hingga kirim email/notifikasi otomatis.
+     3. Sangat Mudah Digunakan: Berbasis spreadsheet yang sudah dipahami semua orang dan bisa diakses bersama tim lewat HP maupun laptop secara real-time.
+     4. Siap Di-Upgrade: Jika nanti bisnis makin besar dan modal bertambah, data di Google Sheet/Excel siap langsung dimigrasikan ke database sistem web custom yang lebih besar.
+   • Bahasa Inggris (jika klien bertanya dalam English): "For budgets under 500k IDR (~$30 USD), we provide automated cloud systems powered by Google Apps Script integrated with Google Sheets/Excel with 0% recurring server costs—ensuring every project has an accessible solution!"
+2. LAPISAN CORE MVP CEPAT CUAN (Budget Rp 1.500.000 - Rp 1.900.000):
    • Solusi: 1 Halaman High-Converting One-Page modern (4-5 section scroll terpadu: Hero, Profil, Showcase Produk/Layanan, Testimoni, CTA WhatsApp) atau alternatif 2-3 halaman ringkas statis.
    • Alur Transaksi: Direct-to-WhatsApp (katalog produk atau formulir reservasi/booking langsung terisi otomatis ke chat WhatsApp admin). Sangat praktis, konversi tinggi, tanpa potongan biaya payment gateway.
    • Bonus Terima Beres: Sudah termasuk domain resmi & cloud hosting 1 tahun penuh tanpa biaya server bulanan.
    • Waktu Pengerjaan: Cepat 1-3 hari kerja, sangat efisien bagi developer, dan klien langsung bisa jualan menguji pasar.
-2. LAPISAN PRO / MODUL KOMPLEKS (Budget Rp 3.500.000 ke atas):
+3. LAPISAN PRO / MODUL KOMPLEKS (Budget Rp 3.500.000 ke atas):
    • Untuk fitur rumit: Keranjang belanja checkout mandiri, Payment Gateway QRIS/Virtual Account otomatis (Midtrans), Multi-User Dashboard, kalender booking live, API ekspedisi ongkir.
    • Edukasi Klien: Sarankan mulai dari Core MVP untuk menghemat modal awal, lalu upgrade ke Paket Pro setelah omset berkembang.
-3. TUAS FLEKSIBILITAS DINAMIS:
+4. TUAS FLEKSIBILITAS DINAMIS:
    • Tukar diskon dengan pembayaran lunas di muka (full payment) atau DP minimal 70% untuk mengamankan arus kas agensi.
-   • Untuk budget mikro (< Rp 1.5jt): tawarkan sistem One-Page ringkas dengan infrastruktur gratis (Vercel/Google Sheets/Supabase).
+   • Untuk budget mikro (< Rp 1.5jt atau < Rp 500k): maksimalkan infrastruktur gratis (Google Apps Script / Google Sheets / Vercel / Supabase).
    • Syarat klaim promo: Klien setuju menyertakan kredit kecil di footer ("Website by LocaGo Creative") dan testimoni review bintang 5.
 
 [KOSAKATA PSIKOLOGI MARKETING & PERSUASI HALUS (NEUROMARKETING)]
@@ -271,6 +285,42 @@ Fitur apa yang ingin kamu bangun di aplikasi kamu? Yuk diskusikan langsung di Wh
 
 Sistem Kakak nanti ingin memiliki fitur apa saja dan kapan target peluncurannya? Mari amankan jadwal pengerjaannya di WhatsApp hari ini!`,
   },
+  {
+    trigger: [
+      '500k',
+      '500rb',
+      '500 rb',
+      '500 ribu',
+      'kurang dari 500',
+      'dibawah 500',
+      'di bawah 500',
+      'under 500',
+      '400k',
+      '300k',
+      '200k',
+      '100k',
+      'budget minim',
+      'anggaran minim',
+      'appscript',
+      'app script',
+      'google apps script',
+      'google sheet',
+      'google sheets',
+      'spreadsheet',
+      'excel',
+    ],
+    response: `Kabar gembira untuk Kakak! Di LocaGo Creative, kami memegang teguh ZERO REJECTION POLICY: semuanya selalu ada solusinya, berapa pun anggaran yang Kakak miliki!
+
+Jika Kakak memiliki anggaran di bawah Rp 500.000 (< 500k) dan ingin membangun sistem administrasi, pencatatan kasir/keuangan, manajemen stok barang, atau otomasi tugas:
+• Solusi Terbaik & Cerdas: Sistem Otomasi Berbasis Google Apps Script (GAS) yang diintegrasikan dengan Google Sheets atau Excel!
+• 4 Keunggulan Nyata bagi Kakak:
+  1. 100% Bebas Biaya Server Selamanya: Menggunakan infrastruktur cloud resmi Google tanpa biaya sewa server/database bulanan atau tahunan sepeser pun.
+  2. Bekerja Otomatis & Praktis: Bisa dibuatkan formulir input web sederhana (web app form), perhitungan rumus otomatis, rekap data rapi, hingga kirim email/notifikasi atau ekspor laporan PDF otomatis.
+  3. Sangat Mudah Digunakan: Tampilan spreadsheet yang sudah sangat familiar, bisa diakses dan diedit bersama tim lewat HP maupun laptop secara real-time.
+  4. Siap Di-upgrade: Jika di masa depan bisnis makin besar dan modal bertambah, seluruh data di spreadsheet siap langsung dimigrasikan ke sistem database web app yang lebih besar.
+
+Boleh diceritakan Kak, sistem ini rencananya ingin digunakan untuk kebutuhan apa? Yuk langsung kita rancang alurnya dan amankan pengerjaannya bersama Mas Fahmi via WhatsApp!`,
+  },
 ];
 
 // ─── Query language detection ───────────────────────────────────────────────
@@ -366,6 +416,20 @@ School packages start from Rp 1,500,000 (includes 1-year cloud hosting/domain). 
 • Complex Custom Platforms: 3 to 5 weeks
 
 When do you aim to launch your project? Let's secure your timeline on WhatsApp today!`;
+    }
+
+    if (['500k', 'under 500', 'below 500', 'under 500k', 'small budget', 'micro budget', 'appscript', 'app script', 'google sheets', 'excel', 'spreadsheet'].some(t => lower.includes(t))) {
+      return `Great news! At LocaGo Creative, we strictly operate on a Zero Rejection Policy: there is ALWAYS an accessible, high-value solution for every budget size!
+
+If your budget is under Rp 500,000 (~$30 USD) and you want to build an automated management system, data collection form, or business workflow:
+• The Ideal Solution: An Automated Cloud System built with Google Apps Script (GAS) integrated with Google Sheets or Excel!
+• Key Benefits:
+  1. 100% Free Cloud Server & Database Forever: Hosted on Google Workspace infrastructure with 0 recurring hosting costs.
+  2. Fully Automated & Productive: Web input forms, real-time formula calculations, clean bookkeeping/inventory management, and automatic email/PDF report generation.
+  3. Simple & Collaborative: Familiar spreadsheet interface accessible by your entire team on smartphones or laptops in real-time.
+  4. Future-Proof & Scalable: Once your revenue grows, all data can easily be migrated into an enterprise web platform.
+
+What workflow or business tracking do you want to automate? Let's map out your solution directly with Mas Fahmi on WhatsApp!`;
     }
 
     return `Thank you for reaching out to LocaGo Creative!
