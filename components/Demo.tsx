@@ -12,8 +12,16 @@ interface Message {
 
 const DEMO_QA: { trigger: string[]; response: string }[] = [
   {
+    trigger: ['100k', '150k', '200k', '250k', '100rb', '150rb', '200rb', '250rb', 'kurang dari 300', 'dibawah 300', 'di bawah 300', 'under 300'],
+    response: '🤝 Terima kasih atas keterbukaan budget Kakak! Di LocaGo Creative, kami selalu mencari jalan keluar terbaik tanpa membebani keuangan.\n\nJika boleh kami tawar secara santun, bagaimana jika anggarannya kita sepakati di **minimal Rp 300.000 ke atas**?\n\nDi angka Rp 300.000 tersebut, solusinya adalah sistem otomasi cerdas **Google Apps Script + Google Sheets / Excel**:\n- 100% Bebas biaya server & database selamanya (tanpa biaya langganan bulanan)\n- Formulir input web mandiri, rumus otomatis, & rekap data rapi yang bisa diakses di HP & laptop\n- Langsung siap pakai untuk operasional bisnis Kakak!\n\nBagaimana menurut Kakak? Yuk diskusikan langsung bersama Mas Fahmi via WhatsApp!'
+  },
+  {
+    trigger: ['500k', '400k', '300k', '500rb', '400rb', '300rb', 'appscript', 'app script', 'google apps script', 'google sheet'],
+    response: '💡 Untuk budget Rp 300.000 - Rp 500.000, solusi andalan kami adalah **Google Apps Script (GAS) + Google Sheets / Excel**:\n- 100% Gratis biaya hosting & server selamanya\n- Input form web mandiri & rekapitulasi data otomatis real-time\n- Cocok untuk kasir, stok barang, absensi, atau pembukuan usaha\n\nSemuanya selalu ada solusinya di LocaGo Creative! Diskusi detailnya yuk di WhatsApp.'
+  },
+  {
     trigger: ['harga', 'biaya', 'berapa', 'cost', 'price', 'tarif'],
-    response: 'Harga kami sangat fleksibel! 🎯 Mulai dari proyek sederhana untuk mahasiswa/perorangan hingga sistem enterprise untuk perusahaan. Kami tidak punya harga mati — semua berdasarkan fitur yang kamu butuhkan. Coba gunakan **Kalkulator Budget** di bawah untuk estimasi otomatis. Atau langsung konsultasi gratis via WhatsApp ya!'
+    response: 'Harga kami sangat fleksibel karena seluruh sistem dibangun 100% custom dari nol tanpa template! 🎯\n\nAgar kami bisa memberikan solusi yang paling tepat, **boleh kami tahu kira-kira berapa target alokasi budget yang Kakak siapkan?**\n\nKami akan menyesuaikan skala fitur dan teknologinya langsung dengan budget Kakak sebagai bare minimum harga:\n- Budget mikro (Rp 300.000 - Rp 500.000): Solusi otomasi cerdas Google Apps Script + Google Sheets tanpa biaya server selamanya\n- Paket website custom (Landing Page / Company Profile): Mulai Rp 1.500.000 sudah terima beres termasuk domain & cloud hosting 1 tahun penuh\n\nBerapa kisaran budget Kakak saat ini? Mari ceritakan atau langsung konsultasi bersama Mas Fahmi via WhatsApp ya!'
   },
   {
     trigger: ['chatbot', 'whatsapp', 'bot', 'ai', 'otomasi', 'automation'],
@@ -105,8 +113,13 @@ const Demo: React.FC = () => {
 - Aplikasi Mobile & Desktop
 - Bantuan Coding untuk Mahasiswa
 
-Prinsip: Berapa pun anggarannya semuanya ada solusinya (Zero Rejection Policy).
-Nomor WA: 62895336377648. Jawab dengan ramah, informatif, dan solutif. Gunakan bahasa Indonesia. Gunakan emoji secukupnya.`
+Aturan Penting Penetapan Biaya & Negosiasi:
+1. DILARANG LANGSUNG MENEMBAK ANGKA ESTIMASI BIAYA jika calon klien belum menyebutkan budget mereka!
+2. Tanya balik terlebih dahulu dengan ramah: berapa target alokasi budget yang disiapkan calon klien, agar kami bisa menyesuaikan skala fitur langsung dengan budget klien sebagai bare minimum harganya.
+3. Jika calon klien menyebut budget kurang dari 300k (< Rp 300.000), JANGAN PERNAH MENOLAK! Tawar secara santun dan persuasif agar minimal di Rp 300.000 ke atas, dan jelaskan bahwa di angka Rp 300.000 tersebut solusinya adalah menggunakan sistem otomasi cerdas Google Apps Script (GAS) + Google Sheets / Excel yang 100% bebas biaya server & database selamanya.
+4. Prinsip: Berapa pun anggarannya semuanya selalu ada solusinya (Zero Rejection Policy).
+
+Nomor WA: 62895336377648. Jawab dengan ramah, informatif, dan solutif. Gunakan bahasa yang sama dengan calon klien (Indonesia / English). Gunakan emoji secukupnya.`
               },
               ...messages.map(m => ({ role: m.role, content: m.content })),
               { role: 'user', content: trimmed }

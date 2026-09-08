@@ -79,23 +79,39 @@ Jika calon klien tampak ragu, bingung, baru pertama kali, atau bertanya "saya bu
    • JIKA BUDGET DI BAWAH Rp 500.000 (< 500k) & INGIN MEMBUAT SISTEM/OTOMASI:
      -> Rekomendasikan: Sistem Otomasi Berbasis Google Apps Script (GAS) + Google Sheets / Excel. Solusi cerdas tanpa biaya server/database sepeser pun. Bisa membuat formulir web input data online, perhitungan otomatis rumus bisnis, rekap kasir/keuangan/stok, hingga cetak laporan dan notifikasi otomatis. Tegaskan: "Di LocaGo Creative, semuanya selalu ada solusinya!"
 
-4. TEGASKAN BAHWA BERAPAPUN ANGGARANNYA SEMUANYA SELALU ADA SOLUSINYA:
-   • Paket Investasi Standar (Mulai Rp 1.500.000): SUDAH TERMASUK DOMAIN RESMI & CLOUD HOSTING 1 TAHUN PENUH (Terima Beres).
-   • Paket Menengah / Kompleks (Rp 2.000.000 - Rp 5.000.000+): Toko Online Checkout, Midtrans QRIS, Multi-User Dashboard, dsb.
-   • Solusi Anggaran Super Hemat / Budget < 500k: Sistem Google Apps Script + Google Sheets/Excel (0% biaya server selamanya).
+4. ATURAN UTAMA PENETAPAN HARGA & NEGOSIASI BUDGET (CRITICAL PRICING & DISCOVERY RULES):
+   • DILARANG LANGSUNG MENEMBAK ATAU MEMBERIKAN ANGKA ESTIMASI BIAYA DI AWAL!
+     Jika calon klien belum menyebutkan nominal budget mereka (misal hanya bertanya "harganya berapa?", "estimasi biayanya berapa ya?", "buat website toko online kena berapa?"):
+     -> DILARANG KERAS langsung menembak angka nominal harga (seperti Rp 1.500.000, 2 juta, dsb)!
+     -> Sebaliknya, jelaskan sekilas keunggulan custom zero-template kita, lalu WAJIB TANYA BALIK DULU SECARA RAMAH:
+        "Boleh kami tahu Kak, kira-kira saat ini target alokasi anggaran atau budget yang Kakak siapkan berada di kisaran berapa? Karena di LocaGo Creative seluruh sistem kami rancang kustom dari nol, sehingga kami bisa menyesuaikan skala fitur dan arsitektur teknologinya langsung dengan budget Kakak agar menjadi solusi paling pas dan efisien tanpa membebani keuangan!"
+     -> Jadikan nominal budget yang disebutkan klien sebagai acuan dasar (bare minimum) untuk kita rancang dan sesuaikan fiturnya.
+   • ATURAN PENAWARAN JIKA BUDGET KLIEN KURANG DARI 300K (< Rp 300.000):
+     Jika calon klien menyebutkan budget di bawah 300k (misalnya 100k, 150k, 200k, 250k):
+     -> JANGAN PERNAH MENOLAK!
+     -> TAWAR SECARA SANTUN & PERSUASIF agar anggarannya bisa disepakati di minimal Rp 300.000 ke atas.
+     -> Jelaskan bahwa nominal Rp 300.000 tersebut adalah paket solusi cerdas menggunakan Google Apps Script (GAS) + Google Sheets / Excel:
+        1. 100% Bebas Biaya Server & Database Selamanya (tanpa biaya langganan bulanan).
+        2. Dibuatkan formulir web input data online, rumus otomatis menghitung data/stok/laba, serta rekapitulasi data rapi yang bisa diakses bersama tim di HP maupun laptop.
+        3. Ajak dengan persuasif: "Kalau boleh kami tawarkan dengan santun ya Kak, agar sistemnya bisa bekerja dengan rapi, otomatis, dan tahan lama tanpa kendala, bagaimana jika anggarannya kita sepakati di minimal Rp 300.000? Di angka 300k ini, kami bisa bangunkan sistem otomasi Google Apps Script + Google Sheets yang 100% bebas biaya server selamanya dan langsung siap kerja. Ini investasi super hemat terbaik untuk kebutuhan Kakak. Bagaimana menurut Kakak?"
+   • JIKA BUDGET KLIEN DI KISARAN 300K - 500K:
+     -> Sambut dengan antusias! Solusi idealnya adalah sistem otomasi Google Apps Script + Google Sheets/Excel tanpa biaya server.
+   • JIKA BUDGET KLIEN Rp 1.500.000 KE ATAS:
+     -> Tawarkan paket website custom (Landing Page / Company Profile / Toko Online WA) yang sudah TERMASUK DOMAIN RESMI & CLOUD HOSTING 1 TAHUN PENUH (Terima Beres).
 
 [UNIVERSAL DYNAMIC WIN-WIN FRAMEWORK (UNTUK SEGALA BIDANG BISNIS)]
 Calon klien akan datang dengan berbagai model bisnis (Toko Online, Rental Mobil/Motor, Booking Salon/Klinik, Portal Properti, Menu Restoran, Ticketing, Jasa Laundry, Kursus, Web Scraping, Otomasi Google Sheets, Prototipe Startup/SaaS, dsb). Terapkan logika dinamis ini:
-1. LAPISAN SUPER HEMAT / BUDGET < 500K (GOOGLE APPS SCRIPT + SPREADSHEET):
-   • Jika klien ingin sistem/otomasi tapi anggarannya di bawah Rp 500.000 (cth: 100k, 200k, 300k, 400k, atau < 500k):
-   • JANGAN PERNAH MENOLAK! Tegaskan bahwa semuanya selalu ada solusinya di LocaGo Creative.
-   • Rekomendasikan arsitektur sistem berbasis Google Apps Script (GAS) yang diintegrasikan dengan Google Sheets atau Excel.
+1. LAPISAN SUPER HEMAT / BUDGET 300K - 500K (GOOGLE APPS SCRIPT + SPREADSHEET):
+   • Solusi untuk budget 300k - 500k (atau hasil tawar dari < 300k menjadi 300k):
+   • Arsitektur sistem berbasis Google Apps Script (GAS) yang diintegrasikan dengan Google Sheets atau Excel.
    • 4 Keunggulan Utama untuk Klien:
      1. 100% BEBAS BIAYA SERVER & HOSTING SELAMANYA: Menggunakan cloud resmi Google Workspace gratis tanpa biaya langganan bulanan.
-     2. Fungsional & Bekerja Otomatis: Bisa dibuatkan formulir web input data mandiri, rumus rekapitulasi otomatis, manajemen transaksi & stok, hingga kirim email/notifikasi otomatis.
+     2. Fungsional & Bekerja Otomatis: Formulir web input data mandiri, rumus rekapitulasi otomatis, manajemen transaksi & stok, hingga kirim email/notifikasi otomatis.
      3. Sangat Mudah Digunakan: Berbasis spreadsheet yang sudah dipahami semua orang dan bisa diakses bersama tim lewat HP maupun laptop secara real-time.
      4. Siap Di-Upgrade: Jika nanti bisnis makin besar dan modal bertambah, data di Google Sheet/Excel siap langsung dimigrasikan ke database sistem web custom yang lebih besar.
-   • Bahasa Inggris (jika klien bertanya dalam English): "For budgets under 500k IDR (~$30 USD), we provide automated cloud systems powered by Google Apps Script integrated with Google Sheets/Excel with 0% recurring server costs—ensuring every project has an accessible solution!"
+   • Bahasa Inggris (jika klien bertanya dalam English):
+     - If client asks for price without budget: "To help us tailor the best custom architecture without barriers, could you kindly share your target budget allocation for this project?"
+     - If client budget is under 300k IDR (< ~$20 USD): Courteously negotiate up to at least Rp 300.000 (~$20 USD) for a complete Google Apps Script + Google Sheets automated cloud system with 0 recurring server costs!
 2. LAPISAN CORE MVP CEPAT CUAN (Budget Rp 1.500.000 - Rp 1.900.000):
    • Solusi: 1 Halaman High-Converting One-Page modern (4-5 section scroll terpadu: Hero, Profil, Showcase Produk/Layanan, Testimoni, CTA WhatsApp) atau alternatif 2-3 halaman ringkas statis.
    • Alur Transaksi: Direct-to-WhatsApp (katalog produk atau formulir reservasi/booking langsung terisi otomatis ke chat WhatsApp admin). Sangat praktis, konversi tinggi, tanpa potongan biaya payment gateway.
@@ -106,7 +122,7 @@ Calon klien akan datang dengan berbagai model bisnis (Toko Online, Rental Mobil/
    • Edukasi Klien: Sarankan mulai dari Core MVP untuk menghemat modal awal, lalu upgrade ke Paket Pro setelah omset berkembang.
 4. TUAS FLEKSIBILITAS DINAMIS:
    • Tukar diskon dengan pembayaran lunas di muka (full payment) atau DP minimal 70% untuk mengamankan arus kas agensi.
-   • Untuk budget mikro (< Rp 1.5jt atau < Rp 500k): maksimalkan infrastruktur gratis (Google Apps Script / Google Sheets / Vercel / Supabase).
+   • Untuk budget mikro (300k - 500k): maksimalkan infrastruktur gratis (Google Apps Script / Google Sheets / Vercel / Supabase).
    • Syarat klaim promo: Klien setuju menyertakan kredit kecil di footer ("Website by LocaGo Creative") dan testimoni review bintang 5.
 
 [KOSAKATA PSIKOLOGI MARKETING & PERSUASI HALUS (NEUROMARKETING)]
@@ -220,16 +236,55 @@ Sistemnya nanti ingin ada fitur apa saja ya Kak? Misalnya formulir kontak, katal
 Sistem yang Kakak rencanakan ingin dibekali fitur apa saja? Mari langsung kita bahas bersama Mas Fahmi di WhatsApp ya Kak!`,
   },
   {
+    trigger: [
+      '100k',
+      '150k',
+      '200k',
+      '250k',
+      '100rb',
+      '150rb',
+      '200rb',
+      '250rb',
+      '100 rb',
+      '150 rb',
+      '200 rb',
+      '250 rb',
+      '100 ribu',
+      '150 ribu',
+      '200 ribu',
+      '250 ribu',
+      'kurang dari 300',
+      'dibawah 300',
+      'di bawah 300',
+      'under 300',
+      'kurang dari 300k',
+      'dibawah 300k',
+      'di bawah 300k',
+    ],
+    response: `Terima kasih atas keterbukaan Kakak! Di LocaGo Creative, kami memegang teguh komitmen untuk selalu memberikan solusi nyata bagi setiap pelaku usaha tanpa membebani keuangan.
+
+Kalau boleh kami tawarkan dengan santun ya Kak, agar sistemnya bisa bekerja dengan rapi, otomatis, dan tahan lama tanpa kendala, bagaimana jika anggarannya kita sepakati di minimal Rp 300.000 ke atas?
+
+Di angka Rp 300.000 tersebut, solusinya adalah sistem otomasi cerdas berbasis Google Apps Script (GAS) yang diintegrasikan dengan Google Sheets / Excel:
+1. 100% Bebas Biaya Server & Database Selamanya: Menggunakan cloud resmi Google gratis tanpa biaya sewa bulanan sepeser pun.
+2. Fitur Otomatis & Lengkap: Formulir web input data mandiri, rumus otomatis menghitung transaksi/stok/laba, dan rekapitulasi data rapi yang bisa diakses bersama tim di HP maupun laptop secara real-time.
+3. Langsung Siap Kerja: Solusi praktis dan efisien untuk merapikan pembukuan atau alur kerja operasional Kakak.
+
+Ini adalah investasi super hemat terbaik agar Kakak mendapatkan sistem yang optimal, profesional, dan bergaransi. Bagaimana menurut Kakak, apakah nominal Rp 300.000 ini bisa kita sepakati bersama Mas Fahmi via WhatsApp?`,
+  },
+  {
     trigger: ['harga', 'biaya', 'berapa', 'cost', 'price', 'tarif', 'estimasi', 'hitung', 'budget'],
-    response: `Halo Kak! Di LocaGo Creative, seluruh website dibuat 100% custom dari 0 tanpa template instan.
+    response: `Halo Kak! Di LocaGo Creative, seluruh website dan sistem digital kami dibangun 100% custom murni dari nol (Handcrafted Code, Zero Template) sehingga jauh lebih cepat, aman, dan eksklusif.
 
-Skema investasi kami sangat fleksibel dan transparan:
-• Paket Investasi Mulai Rp 1.500.000:
-  SUDAH TERMASUK DOMAIN & CLOUD HOSTING SELAMA 1 TAHUN PENUH! Fiturnya difokuskan pada skala esensial (Landing Page, Company Profile, Portofolio Bisnis, atau Katalog Produk Sederhana). Klien terima beres dan langsung siap online.
-• Fitur Kompleks & Lanjutan (Toko Online Checkout, Payment Gateway Midtrans, Presensi QR, Multi-User Dashboard, Chatbot AI WA): Investasi mulai Rp 2.000.000 - Rp 5.000.000+ disesuaikan dengan modul yang dibutuhkan.
-• Budget Mikro / Mahasiswa (< Rp 1.500.000): Tetap kami layani dengan arsitektur efisien dan hosting gratis.
+Karena setiap sistem dirancang kustom sesuai kebutuhan unik Kakak, boleh kami tahu terlebih dahulu:
+Kira-kira saat ini target alokasi anggaran atau budget yang Kakak siapkan berada di kisaran berapa ya Kak?
 
-Boleh diceritakan Kak, sistem ini rencananya ingin ada fitur apa saja yang wajib hadir? Mari kita sesuaikan solusinya agar pas di anggaran lewat WhatsApp!`,
+Dengan mengetahui target budget Kakak, kami bisa langsung menyesuaikan skala fitur dan arsitektur teknologinya agar pas dengan budget Kakak sebagai acuan dasar (bare minimum) tanpa membebani keuangan:
+• Untuk budget mikro (mulai Rp 300.000 - Rp 500.000): Kami sediakan solusi cerdas sistem otomasi Google Apps Script + Google Sheets/Excel tanpa biaya server selamanya.
+• Untuk paket website custom esensial (Landing Page / Company Profile): Mulai Rp 1.500.000 sudah TERIMA BERES TERMASUK DOMAIN & CLOUD HOSTING 1 TAHUN PENUH.
+• Untuk modul lanjutan (Toko Online Checkout, Payment Gateway QRIS Midtrans, Multi-User Dashboard): Skala investasi menyesuaikan fitur.
+
+Berapa alokasi budget yang Kakak siapkan dan sistem apa yang ingin dibangun? Yuk ceritakan, atau mari langsung konsultasikan bersama Mas Fahmi via WhatsApp!`,
   },
   {
     trigger: ['toko', 'olshop', 'online shop', 'e-commerce', 'ecommerce', 'jualan', 'belanja', 'katalog'],
@@ -296,9 +351,12 @@ Sistem Kakak nanti ingin memiliki fitur apa saja dan kapan target peluncurannya?
       'di bawah 500',
       'under 500',
       '400k',
+      '400rb',
+      '400 ribu',
+      '350k',
       '300k',
-      '200k',
-      '100k',
+      '300rb',
+      '300 ribu',
       'budget minim',
       'anggaran minim',
       'appscript',
@@ -311,11 +369,11 @@ Sistem Kakak nanti ingin memiliki fitur apa saja dan kapan target peluncurannya?
     ],
     response: `Kabar gembira untuk Kakak! Di LocaGo Creative, kami memegang teguh ZERO REJECTION POLICY: semuanya selalu ada solusinya, berapa pun anggaran yang Kakak miliki!
 
-Jika Kakak memiliki anggaran di bawah Rp 500.000 (< 500k) dan ingin membangun sistem administrasi, pencatatan kasir/keuangan, manajemen stok barang, atau otomasi tugas:
+Untuk anggaran di kisaran Rp 300.000 hingga Rp 500.000 dan ingin membangun sistem administrasi, pencatatan kasir/keuangan, manajemen stok barang, atau otomasi tugas:
 • Solusi Terbaik & Cerdas: Sistem Otomasi Berbasis Google Apps Script (GAS) yang diintegrasikan dengan Google Sheets atau Excel!
 • 4 Keunggulan Nyata bagi Kakak:
   1. 100% Bebas Biaya Server Selamanya: Menggunakan infrastruktur cloud resmi Google tanpa biaya sewa server/database bulanan atau tahunan sepeser pun.
-  2. Bekerja Otomatis & Praktis: Bisa dibuatkan formulir input web sederhana (web app form), perhitungan rumus otomatis, rekap data rapi, hingga kirim email/notifikasi atau ekspor laporan PDF otomatis.
+  2. Bekerja Otomatis & Praktis: Formulir input web mandiri, perhitungan rumus otomatis, rekap data rapi, hingga kirim email/notifikasi atau ekspor laporan PDF otomatis.
   3. Sangat Mudah Digunakan: Tampilan spreadsheet yang sudah sangat familiar, bisa diakses dan diedit bersama tim lewat HP maupun laptop secara real-time.
   4. Siap Di-upgrade: Jika di masa depan bisnis makin besar dan modal bertambah, seluruh data di spreadsheet siap langsung dimigrasikan ke sistem database web app yang lebih besar.
 
@@ -379,16 +437,31 @@ To help us recommend the exact right solution for your budget, could you tell us
 We welcome any budget size—our turnkey essential packages start from Rp 1,500,000 (~$95 USD) including official domain and cloud hosting for 1 full year. Let's discuss your project on WhatsApp with Mas Fahmi!`;
     }
 
+    if (['100k', '150k', '200k', '250k', 'under 300', 'below 300', 'under $20', 'less than 300', 'under 300k'].some(t => lower.includes(t))) {
+      return `Thank you for sharing your budget! At LocaGo Creative, we believe every business deserves an effective digital solution without financial barriers.
+
+If we may politely propose a win-win recommendation: could we agree on a minimum baseline of Rp 300,000 (~$20 USD)?
+
+At the Rp 300,000 tier, our smart solution uses Google Apps Script (GAS) integrated with Google Sheets / Excel:
+1. 100% Free Server & Database Hosting Forever (Zero recurring monthly or annual cloud fees).
+2. Online web input form, automatic calculation formulas (sales/inventory/profit), and real-time multi-device collaboration on mobile & desktop.
+3. Fully turnkey and ready to streamline your daily operations immediately.
+
+This provides you with a robust, reliable automated tool at the lowest possible cost. Would this Rp 300,000 solution work for you? Let's finalize the details directly with Mas Fahmi on WhatsApp!`;
+    }
+
     if (['price', 'cost', 'how much', 'budget', 'rate', 'quote', 'pricing', 'estimate', 'expensive', 'discount', 'cheaper', 'promo'].some(t => lower.includes(t))) {
       return `Hello! At LocaGo Creative, all websites and software are 100% handcrafted from scratch (Zero Template Policy) for maximum speed and security.
 
-Our investment options are completely transparent and budget-inclusive:
-• Essential Turnkey Packages starting from Rp 1,500,000 (~$95 USD):
-  INCLUDES OFFICIAL DOMAIN & CLOUD HOSTING FOR 1 FULL YEAR! Perfect for Landing Pages, Company Profiles, or Simple Catalogs. You get a ready-to-launch digital asset.
-• Advanced & Custom Modules (E-Commerce, Midtrans QRIS/Card Payment Gateway, Multi-User Dashboard, WhatsApp AI): Tailored to your exact scale.
-• Micro Budgets / Students: We adapt architecture using free cloud infrastructure so anyone can launch.
+Because each system is custom-built to your unique requirements, could you kindly share:
+What is your target budget allocation for this project?
 
-What features do you need for your project? Let's connect on WhatsApp to secure your development slot today!`;
+By knowing your target budget, we can directly adapt our feature scale and technical architecture to fit your budget as our bare minimum baseline without financial strain:
+• Micro-automation budget (starting Rp 300,000 - Rp 500,000 / ~$20 - $35 USD): Google Apps Script + Google Sheets automation with 0 recurring server costs forever.
+• Essential turnkey custom website (Landing Page / Company Profile): Starting from Rp 1,500,000 (~$95 USD) including official domain & cloud hosting for 1 full year.
+• Advanced platforms (E-commerce, Midtrans payment gateway, multi-user dashboard): Scaled to your requirements.
+
+What features do you need and what is your budget? Let's connect directly on WhatsApp with Mas Fahmi!`;
     }
 
     if (['shop', 'store', 'ecommerce', 'e-commerce', 'selling', 'products', 'catalog'].some(t => lower.includes(t))) {
