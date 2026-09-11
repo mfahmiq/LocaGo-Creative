@@ -83,16 +83,16 @@ function detectQueryLanguage(query: string, currentUiLang: 'id' | 'en'): 'en' | 
   const clean = query.trim().toLowerCase();
 
   const indonesianIndicators =
-    /\b(yang|dan|di|ke|dari|ini|itu|bisa|saya|aku|kami|kamu|kak|kakak|apakah|berapa|bagaimana|gimana|untuk|dengan|ada|nggak|tidak|mau|buat|bikin|toko|olshop|jualan|sekolah|guru|tugas|skripsi|koding|codingan|harga|biaya|murah|mahal|diskon|potongan|rekomendasi|bingung|tanya|halo|siang|pagi|malam|terima\s+kasih|makasih)\b/i;
+    /\b(yang|dan|di|ke|dari|ini|itu|bisa|saya|aku|kami|kamu|kak|kakak|mas|bang|gan|bro|apakah|apa|berapa|bagaimana|gimana|kenapa|mengapa|kalau|kalo|jika|dapat|dapet|punya|untuk|dengan|ada|nggak|ngga|tidak|gak|nggak|mau|buat|bikin|toko|olshop|jualan|sekolah|guru|tugas|skripsi|koding|codingan|harga|biaya|murah|mahal|diskon|potongan|rekomendasi|bingung|tanya|halo|siang|pagi|malam|terima\s+kasih|makasih|ya|yah|nih|dong|deh|kan|udah|sudah|belum|kira-kira|min|admin|paket|saja|aja|rb|ribu|jt|juta)\b/i;
 
   const englishIndicators =
-    /\b(how|what|why|when|where|who|which|can|could|would|should|hello|hi|hey|please|price|pricing|cost|quote|website|build|create|make|need|want|help|looking|budget|feature|features|store|shop|online|school|teacher|company|service|services|estimate|project|developer|business|portfolio|thank|thanks|confused|recommend|suggestion|available)\b/i;
+    /\b(how|what|why|when|where|who|which|can|could|would|should|hello|hi|hey|please|price|pricing|cost|quote|build|create|make|need|want|help|looking|feature|features|store|shop|online|school|teacher|company|service|services|estimate|project|developer|business|portfolio|thank|thanks|confused|recommend|suggestion|available)\b/i;
 
   const hasIndo = indonesianIndicators.test(clean);
   const hasEng = englishIndicators.test(clean);
 
+  if (hasIndo) return 'id';
   if (hasEng && !hasIndo) return 'en';
-  if (hasIndo && !hasEng) return 'id';
   return currentUiLang === 'en' ? 'en' : 'id';
 }
 
@@ -115,12 +115,20 @@ function getFallbackResponse(input: string, lang: 'id' | 'en' = 'id', context?: 
   }
 
   if (lang === 'en') {
-    return `All of our websites are 100% custom-built from scratch (Handcrafted Code, Zero Template) to guarantee maximum speed and security. For budgets starting from IDR 1,500,000, essential packages include 1 full year of domain & cloud hosting.
+    return `All of our websites are 100% custom-built from scratch (Handcrafted Code, Zero Template).
+• Under IDR 300k: No custom domain (free link/subdomain).
+• Under IDR 500k: Official .my.id domain.
+• Above IDR 500k: .com domain + shared hosting.
+• Above IDR 1M: .com domain + 1 full year of cloud hosting.
 
 What features do you need for your system? Let's connect directly with Mas Fahmi on WhatsApp to discuss details!`;
   }
 
-  return `Seluruh website kami dibangun murni dari nol (Handcrafted Code, Zero Template) untuk performa dan keamanan maksimal. Mulai dari Rp 1.500.000, paket esensial sudah termasuk domain & hosting 1 tahun penuh.
+  return `Seluruh website kami dibangun murni dari nol (Handcrafted Code, Zero Template).
+• Di bawah Rp 300rb: Tidak dapat domain kustom (pakai link/subdomain gratis).
+• Di bawah Rp 500rb: Mendapatkan domain resmi .my.id.
+• Di atas Rp 500rb: Mendapatkan domain .com + shared hosting.
+• Di atas Rp 1jt: Mendapatkan domain .com + hosting 1 tahun penuh.
 
 Sistem yang Kakak rencanakan ingin ada fitur apa saja? Mari langsung kita bahas bersama Mas Fahmi via WhatsApp ya Kak!`;
 }
