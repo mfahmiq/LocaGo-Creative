@@ -72,37 +72,34 @@ const Hero: React.FC = () => {
   }, [currentText, isDeleting, wordIndex, words]);
 
   return (
-    <section className="relative min-h-screen flex items-center pt-28 pb-32 lg:pt-32 lg:pb-36 overflow-hidden bg-slate-50 dark:bg-slate-900 transition-colors duration-300">
-      {/* Dynamic Background */}
-      <div className="absolute inset-0 w-full h-full bg-grid-pattern opacity-20 user-select-none pointer-events-none"></div>
+    <section className="relative pt-24 pb-20 lg:pt-32 lg:pb-28 overflow-hidden bg-neutral-50 dark:bg-neutral-950 transition-colors duration-200">
+      {/* Structural Grid Background */}
+      <div className="absolute inset-0 bg-grid-pattern opacity-60 dark:opacity-30 pointer-events-none"></div>
 
-      {/* Animated Blobs - Clean Corporate Blue & Cyan */}
-      <div className="hidden md:block absolute top-0 -left-4 w-72 h-72 bg-blue-500/20 rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-blob"></div>
-      <div className="hidden md:block absolute top-0 -right-4 w-72 h-72 bg-emerald-400/20 rounded-full mix-blend-multiply filter blur-2xl opacity-60 animate-blob animate-delay-200"></div>
-      <div className="hidden md:block absolute -bottom-8 left-20 w-72 h-72 bg-cyan-500/20 rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-blob animate-delay-500"></div>
+      <div className="container mx-auto px-6 relative z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
 
-      <div className="container mx-auto px-6 relative z-20 mb-8 sm:mb-12">
-        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
-
-          {/* Content */}
-          <div className="flex-1 text-center lg:text-left">
-            <div className="inline-flex items-center gap-2 mb-4 px-4 py-1.5 rounded-full border border-blue-200 dark:border-blue-500/30 bg-blue-50 dark:bg-blue-900/20 backdrop-blur-sm text-sm font-medium text-blue-700 dark:text-blue-300 shadow-sm">
-              <svg className="w-4 h-4 text-blue-600 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-              </svg>
-              <span>{t.hero.badge.replace(/^🚀\s*/, '')}</span>
+          {/* Left Column: Editorial Headline & Copy */}
+          <div className="lg:col-span-7 text-center lg:text-left">
+            {/* Monospace Eyebrow Badge */}
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 text-xs font-mono text-neutral-700 dark:text-neutral-300 mb-6 shadow-sm">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+              <span className="tracking-wide">{t.hero.badge.replace(/^🚀\s*/, '')}</span>
             </div>
 
-            <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6 text-slate-900 dark:text-white tracking-tight transition-colors">
+            {/* Main Headline */}
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-neutral-900 dark:text-white leading-[1.15] mb-6">
               {t.hero.titleStart} <br />
-              <span className="text-gradient">{t.hero.titleGradient}</span> <br />
-              <span className="text-slate-900 dark:text-white inline-block">
+              <span className="text-neutral-900 dark:text-white">
+                {t.hero.titleGradient}
+              </span> <br />
+              <span className="text-neutral-500 dark:text-neutral-400 text-3xl sm:text-4xl lg:text-5xl font-medium">
                 {language === 'en' ? 'for ' : 'untuk '}
-                <span className="text-blue-600 dark:text-blue-400 font-extrabold underline decoration-blue-500/40 decoration-wavy decoration-2">
+                <span className="text-neutral-900 dark:text-white font-semibold underline underline-offset-8 decoration-neutral-300 dark:decoration-neutral-700">
                   {currentText}
                 </span>
                 <span
-                  className={`inline-block w-[3px] sm:w-[4px] h-[0.85em] ml-1.5 align-middle bg-blue-600 dark:bg-blue-400 transition-opacity duration-100 ${
+                  className={`inline-block w-1.5 h-7 sm:h-9 ml-1.5 bg-neutral-900 dark:bg-white align-middle transition-opacity duration-100 ${
                     cursorVisible ? 'opacity-100' : 'opacity-0'
                   }`}
                   aria-hidden="true"
@@ -110,120 +107,140 @@ const Hero: React.FC = () => {
               </span>
             </h1>
 
-            <p className="text-lg text-slate-600 dark:text-slate-300 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed transition-colors">
+            {/* Lead Description */}
+            <p className="text-base sm:text-lg text-neutral-600 dark:text-neutral-400 mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxed">
               {t.hero.description}
             </p>
 
-            {/* Trust badges */}
-            <div className="flex flex-wrap gap-3 justify-center lg:justify-start mb-8">
+            {/* Trust Pill Tags */}
+            <div className="flex flex-wrap gap-2 justify-center lg:justify-start mb-8">
               {badges.map((badge) => (
-                <span key={badge} className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs font-semibold text-slate-600 dark:text-slate-300 shadow-sm">
-                  <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+                <span
+                  key={badge}
+                  className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 text-xs font-medium text-neutral-600 dark:text-neutral-300 shadow-sm"
+                >
+                  <span className="w-1 h-1 rounded-full bg-neutral-400 dark:bg-neutral-600"></span>
                   {badge}
                 </span>
               ))}
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start relative z-30">
+            {/* Action Buttons */}
+            <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
               <a
                 href={waUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-8 py-4 bg-gradient-to-r from-blue-600 via-blue-600 to-cyan-600 text-white rounded-full font-semibold hover:shadow-xl hover:shadow-blue-500/25 transition-all duration-300 transform hover:-translate-y-1 text-center group flex items-center justify-center gap-2 shadow-md"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg bg-neutral-900 hover:bg-neutral-800 dark:bg-white dark:hover:bg-neutral-100 text-white dark:text-neutral-950 font-medium text-sm transition-all duration-150 active:scale-[0.98] shadow-sm"
               >
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" /></svg>
-                {t.hero.ctaStart}
-                <span className="inline-block group-hover:translate-x-1 transition-transform">→</span>
+                <span>{t.hero.ctaStart}</span>
+                <span>→</span>
               </a>
               <button
                 type="button"
                 onClick={() => {
                   document.getElementById('ai-consultation')?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="px-8 py-4 bg-white/95 dark:bg-slate-800/95 backdrop-blur-md text-slate-800 dark:text-white rounded-full font-semibold hover:bg-white dark:hover:bg-slate-800 hover:shadow-lg hover:border-blue-500/50 transition-all duration-300 text-center border border-slate-200/90 dark:border-slate-700/80 flex items-center justify-center gap-2 cursor-pointer shadow-sm transform hover:-translate-y-0.5"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 text-neutral-800 dark:text-neutral-200 hover:bg-neutral-100 dark:hover:bg-neutral-800/80 font-medium text-sm transition-all duration-150 active:scale-[0.98]"
               >
-                <svg className="w-4 h-4 text-blue-600 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-4 h-4 text-neutral-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
                 </svg>
-                {t.hero.ctaPortfolio}
+                <span>{t.hero.ctaPortfolio}</span>
               </button>
             </div>
           </div>
 
-          {/* Visual/Image Container with safe top margin to prevent overlapping */}
-          <div className="flex-1 relative animate-fade-in-up animate-delay-200 w-full max-w-lg lg:max-w-xl mt-14 lg:mt-0 pt-4 lg:pt-0">
-            <div className="relative z-10 animate-float">
-              <div className="glass-card rounded-2xl p-6 border border-white/20 dark:border-white/10 bg-white/40 dark:bg-slate-800/50 backdrop-blur-xl shadow-2xl relative">
-                {/* Abstract UI representation */}
-                <div className="flex items-center gap-3 mb-6 border-b border-slate-200 dark:border-white/10 pb-4">
-                  <div className="flex gap-2">
-                    <div className="w-3 h-3 rounded-full bg-red-500"></div>
-                    <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
-                    <div className="w-3 h-3 rounded-full bg-green-500"></div>
-                  </div>
-                  <div className="flex items-center gap-2 px-3 py-1 bg-slate-100 dark:bg-slate-700/50 rounded-lg mx-auto">
-                    <img src="/logo.png" alt="LocaGo" className="w-4 h-4 object-contain rounded" />
-                    <span className="text-[11px] font-bold text-slate-600 dark:text-slate-300">locagocreative.my.id</span>
-                  </div>
+          {/* Right Column: Architectural Bento Studio Preview */}
+          <div className="lg:col-span-5 w-full max-w-md mx-auto lg:max-w-none">
+            <div className="rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 shadow-sm overflow-hidden">
+              {/* Window Chrome Header */}
+              <div className="flex items-center justify-between px-4 py-3 border-b border-neutral-200 dark:border-neutral-800 bg-neutral-50/80 dark:bg-neutral-900/80">
+                <div className="flex items-center gap-1.5">
+                  <div className="w-2.5 h-2.5 rounded-full bg-neutral-300 dark:bg-neutral-700"></div>
+                  <div className="w-2.5 h-2.5 rounded-full bg-neutral-300 dark:bg-neutral-700"></div>
+                  <div className="w-2.5 h-2.5 rounded-full bg-neutral-300 dark:bg-neutral-700"></div>
                 </div>
-
-                <div className="space-y-4">
-                  <div className="flex gap-4">
-                    <div className="w-1/3 h-32 rounded-lg bg-gradient-to-br from-blue-500/20 to-cyan-500/20 border border-white/5 animate-pulse"></div>
-                    <div className="w-2/3 space-y-3">
-                      <div className="h-4 bg-slate-300 dark:bg-slate-600/50 rounded w-3/4"></div>
-                      <div className="h-4 bg-slate-300 dark:bg-slate-600/50 rounded w-1/2"></div>
-                      <div className="h-24 bg-slate-200 dark:bg-slate-700/30 rounded w-full mt-2"></div>
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-3 gap-3 pt-4">
-                    <div className="h-20 rounded-lg bg-slate-200 dark:bg-slate-700/30 border border-white/5"></div>
-                    <div className="h-20 rounded-lg bg-slate-200 dark:bg-slate-700/30 border border-white/5"></div>
-                    <div className="h-20 rounded-lg bg-slate-200 dark:bg-slate-700/30 border border-white/5"></div>
-                  </div>
+                <div className="text-[11px] font-mono text-neutral-500 dark:text-neutral-400">
+                  locago.architecture.ts
                 </div>
-
-                {/* Floating Badge 1 - Top Right (Handcrafted Code) - Shifted right to clear address bar */}
-                <div className="absolute -top-6 sm:-top-7 -right-3 sm:-right-8 lg:-right-10 p-3 sm:p-4 glass bg-white/85 dark:bg-slate-800/85 backdrop-blur-md rounded-2xl animate-float animate-delay-500 shadow-xl border border-white/40 dark:border-slate-700/60 z-20">
-                  <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center text-white shadow-md shadow-blue-500/30">
-                      <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                      </svg>
-                    </div>
-                    <div>
-                      <p className="text-[11px] uppercase tracking-wider font-semibold text-slate-500 dark:text-slate-400">{language === 'en' ? 'Zero Template' : 'Arsitektur Kustom'}</p>
-                      <p className="text-xs sm:text-sm font-bold text-slate-800 dark:text-white">100% Handcrafted Code</p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Floating Badge 2 - Bottom Left (WhatsApp AI) - Shifted higher and more left to clear bottom blocks */}
-                <div className="absolute bottom-8 sm:bottom-12 -left-3 sm:-left-8 lg:-left-10 p-3 sm:p-4 glass bg-white/85 dark:bg-slate-800/85 backdrop-blur-md rounded-2xl animate-float animate-delay-300 shadow-xl border border-white/40 dark:border-slate-700/60 z-20">
-                  <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 rounded-xl bg-emerald-600 flex items-center justify-center text-white shadow-md shadow-emerald-500/30">
-                      <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-                      </svg>
-                    </div>
-                    <div>
-                      <p className="text-[11px] uppercase tracking-wider font-semibold text-slate-500 dark:text-slate-400">{language === 'en' ? 'Smart Automation' : 'Automasi Cerdas'}</p>
-                      <p className="text-xs sm:text-sm font-bold text-slate-800 dark:text-white">WhatsApp AI 24/7</p>
-                    </div>
-                  </div>
+                <div className="inline-flex items-center gap-1 text-[10px] font-mono text-emerald-600 dark:text-emerald-400">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                  Ready
                 </div>
               </div>
 
-              {/* Glow behind card */}
-              <div className="absolute -inset-4 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-2xl blur-2xl opacity-20 -z-10"></div>
+              {/* Bento Card Content */}
+              <div className="p-5 space-y-4">
+                {/* Code Spec Block */}
+                <div className="p-4 rounded-lg bg-neutral-50 dark:bg-neutral-950/70 border border-neutral-200/70 dark:border-neutral-800/80 font-mono text-xs space-y-1.5">
+                  <div className="text-neutral-400 dark:text-neutral-500">// Handcrafted Core Config</div>
+                  <div className="flex justify-between">
+                    <span className="text-neutral-500 dark:text-neutral-400">stack:</span>
+                    <span className="text-neutral-900 dark:text-neutral-200 font-semibold">React 19 + Vite + GAS</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-neutral-500 dark:text-neutral-400">server_cost:</span>
+                    <span className="text-emerald-600 dark:text-emerald-400 font-semibold">Rp 0 / bln (GAS Sheets)</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-neutral-500 dark:text-neutral-400">template_lock:</span>
+                    <span className="text-neutral-900 dark:text-neutral-200">Zero (100% Handcrafted)</span>
+                  </div>
+                </div>
+
+                {/* Simulated Live Consultation Flow */}
+                <div className="space-y-2.5 pt-1">
+                  <div className="text-[11px] font-mono uppercase tracking-wider text-neutral-400 dark:text-neutral-500 px-1">
+                    Live Workflow Stream
+                  </div>
+
+                  {/* Client message */}
+                  <div className="flex items-start gap-2.5">
+                    <div className="w-6 h-6 rounded-md bg-neutral-200 dark:bg-neutral-800 flex items-center justify-center text-[10px] font-mono text-neutral-600 dark:text-neutral-400 flex-shrink-0">
+                      U
+                    </div>
+                    <div className="p-2.5 rounded-lg bg-neutral-100 dark:bg-neutral-800/60 text-xs text-neutral-800 dark:text-neutral-200 border border-neutral-200/60 dark:border-neutral-800">
+                      {language === 'en'
+                        ? 'Hi LocaGo! Need an online store + WhatsApp order system with a 300k budget, possible?'
+                        : 'Halo LocaGo! Mau bikin katalog UMKM + order WA budget 300rb bisa?'}
+                    </div>
+                  </div>
+
+                  {/* Agent Response */}
+                  <div className="flex items-start gap-2.5">
+                    <div className="w-6 h-6 rounded-md bg-neutral-900 dark:bg-white text-white dark:text-neutral-950 flex items-center justify-center text-[10px] font-mono font-bold flex-shrink-0">
+                      LC
+                    </div>
+                    <div className="p-2.5 rounded-lg bg-emerald-50/60 dark:bg-emerald-950/20 text-xs text-neutral-800 dark:text-neutral-200 border border-emerald-200/50 dark:border-emerald-900/40">
+                      {language === 'en'
+                        ? '100% possible! We build with Google Apps Script + Sheets. Zero recurring server fees forever.'
+                        : 'Tentu bisa! Solusi Google Apps Script + Sheets: 100% bebas biaya server selamanya.'}
+                    </div>
+                  </div>
+                </div>
+
+                {/* Bottom Minimalist Metrics Row */}
+                <div className="grid grid-cols-3 gap-2 pt-2 border-t border-neutral-100 dark:border-neutral-800 text-center">
+                  <div className="p-2 rounded-md bg-neutral-50 dark:bg-neutral-800/40">
+                    <div className="text-xs font-bold text-neutral-900 dark:text-white">&lt; 1.2s</div>
+                    <div className="text-[10px] text-neutral-500">Load Time</div>
+                  </div>
+                  <div className="p-2 rounded-md bg-neutral-50 dark:bg-neutral-800/40">
+                    <div className="text-xs font-bold text-neutral-900 dark:text-white">100%</div>
+                    <div className="text-[10px] text-neutral-500">Source Code</div>
+                  </div>
+                  <div className="p-2 rounded-md bg-neutral-50 dark:bg-neutral-800/40">
+                    <div className="text-xs font-bold text-emerald-600 dark:text-emerald-400">Rp 0</div>
+                    <div className="text-[10px] text-neutral-500">Server Fee</div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+
         </div>
       </div>
-
-      {/* Smooth Transition Gradient to Stats section - positioned cleanly below buttons */}
-      <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-b from-transparent via-slate-50/60 dark:via-slate-900/60 to-slate-50 dark:to-slate-900 pointer-events-none z-10"></div>
     </section>
   );
 };

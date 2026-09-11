@@ -1,90 +1,103 @@
-
 import React, { useEffect, useState, useRef } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 
-const useCounter = (end: number, duration: number = 2000) => {
-    const [count, setCount] = useState(0);
-    const elementRef = useRef<HTMLDivElement>(null);
-    const [hasAnimated, setHasAnimated] = useState(false);
+const useCounter = (end: number, duration: number = 1400) => {
+  const [count, setCount] = useState(0);
+  const elementRef = useRef<HTMLDivElement>(null);
+  const hasAnimated = useRef(false);
 
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            (entries) => {
-                if (entries[0].isIntersecting && !hasAnimated) {
-                    setHasAnimated(true);
-                    let start = 0;
-                    const increment = end / (duration / 16);
-                    const timer = setInterval(() => {
-                        start += increment;
-                        if (start >= end) {
-                            setCount(end);
-                            clearInterval(timer);
-                        } else {
-                            setCount(Math.ceil(start));
-                        }
-                    }, 16);
-                }
-            },
-            { threshold: 0.5 }
-        );
+  useEffect(() => {
+    const el = elementRef.current;
+    if (!el) return;
 
-        if (elementRef.current) {
-            observer.observe(elementRef.current);
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && !hasAnimated.current) {
+          hasAnimated.current = true;
+          const startTime = performance.now();
+
+          const update = (now: number) => {
+            const progress = Math.min((now - startTime) / duration, 1);
+            // Ease-out cubic
+            const eased = 1 - Math.pow(1 - progress, 3);
+            setCount(Math.round(eased * end));
+
+            if (progress < 1) {
+              requestAnimationFrame(update);
+            } else {
+              setCount(end);
+            }
+          };
+
+          requestAnimationFrame(update);
+          observer.disconnect();
         }
+      },
+      { threshold: 0.3 }
+    );
 
-        return () => observer.disconnect();
-    }, [end, duration, hasAnimated]);
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [end, duration]);
 
-    return { count, elementRef };
+  return { count, elementRef };
 };
 
 const Stats: React.FC = () => {
-    const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
-    // Custom hook usage for each stat
-    const { count: countProjects, elementRef: refProjects } = useCounter(99);
-    const { count: countClients, elementRef: refClients } = useCounter(99);
-    const { count: countTimely, elementRef: refTimely } = useCounter(98);
+  const { count: countProjects, elementRef: refProjects } = useCounter(99);
+  const { count: countClients, elementRef: refClients } = useCounter(99);
+  const { count: countTimely, elementRef: refTimely } = useCounter(98);
 
-    return (
-        <section className="relative bg-white dark:bg-slate-900 py-12 transition-colors duration-300">
-            {/* Top Gradient Fade */}
-            <div className="absolute top-0 left-0 w-full h-24 bg-gradient-to-b from-slate-50 dark:from-slate-900 via-slate-50/50 dark:via-slate-900/50 to-transparent z-10 pointer-events-none"></div>
+  const statsData = [
+    {
+      ref: refProjects,
+      value: `${countProjects}+`,
+      label: t.stats.projects,
+      caption: language === 'en' ? 'UMKM, Schools & Systems' : 'UMKM, Sekolah & Institusi',
+    },
+    {
+      ref: refClients,
+      value: `${countClients}%`,
+      label: t.stats.clients,
+      caption: language === 'en' ? 'Satisfaction Rating' : 'Tingkat Kepuasan Solusi',
+    },
+    {
+      ref: refTimely,
+      value: `${countTimely}%`,
+      label: t.stats.timely,
+      caption: language === 'en' ? 'On-Schedule Delivery SLA' : 'SLA Pengiriman Tepat Waktu',
+    },
+  ];
 
-            <div className="container mx-auto px-6 relative z-10">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-
-                    {/* Project Selesai */}
-                    <div ref={refProjects} className="space-y-2 pt-8 md:pt-0">
-                        <div className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-600 dark:from-blue-400 dark:to-cyan-400 tracking-tight tabular-nums">
-                            {countProjects}+
-                        </div>
-                        <p className="text-lg font-medium text-slate-600 dark:text-slate-400">{t.stats.projects}</p>
-                    </div>
-
-                    {/* Client Puas */}
-                    <div ref={refClients} className="space-y-2 pt-8 md:pt-0">
-                        <div className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-600 dark:from-blue-400 dark:to-cyan-400 tracking-tight tabular-nums">
-                            {countClients}%
-                        </div>
-                        <p className="text-lg font-medium text-slate-600 dark:text-slate-400">{t.stats.clients}</p>
-                    </div>
-
-                    {/* Tepat Waktu */}
-                    <div ref={refTimely} className="space-y-2 pt-8 md:pt-0">
-                        <div className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-600 dark:from-blue-400 dark:to-cyan-400 tracking-tight tabular-nums">
-                            {countTimely}%
-                        </div>
-                        <p className="text-lg font-medium text-slate-600 dark:text-slate-400">{t.stats.timely}</p>
-                    </div>
-
-                </div>
+  return (
+    <section className="relative border-y border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900/50 py-12 transition-colors duration-200">
+      <div className="container mx-auto px-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-neutral-200 dark:divide-neutral-800">
+          {statsData.map((stat, i) => (
+            <div
+              key={i}
+              ref={stat.ref}
+              className={`flex flex-col items-center text-center ${
+                i === 0 ? 'pb-6 md:pb-0 md:pr-8' : i === 2 ? 'pt-6 md:pt-0 md:pl-8' : 'py-6 md:py-0 md:px-8'
+              }`}
+            >
+              <div className="font-mono text-4xl sm:text-5xl font-bold tracking-tight text-neutral-900 dark:text-white tabular-nums">
+                {stat.value}
+              </div>
+              <div className="text-sm font-semibold text-neutral-800 dark:text-neutral-200 mt-2">
+                {stat.label}
+              </div>
+              <div className="text-xs font-mono text-neutral-400 dark:text-neutral-500 mt-0.5">
+                {stat.caption}
+              </div>
             </div>
-
-            {/* Bottom Gradient Fade */}
-            <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-slate-50 dark:from-slate-900 via-slate-50/50 dark:via-slate-900/50 to-transparent z-10 pointer-events-none"></div>
-        </section>
-    );
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default Stats;

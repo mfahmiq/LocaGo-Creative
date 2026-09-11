@@ -33,7 +33,7 @@ const AppContent: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white dark:bg-slate-900 transition-colors duration-300">
+    <div className="min-h-screen bg-white dark:bg-neutral-950 transition-colors duration-200">
       <Navbar />
       <main>
         <Hero />

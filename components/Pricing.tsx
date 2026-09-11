@@ -1064,30 +1064,25 @@ Agar konsultasi dan rencana proyek digital Anda tidak tertunda, Mas Fahmi (Found
   };
 
   return (
-    <section id="ai-consultation" className="py-24 bg-white dark:bg-slate-900 relative overflow-hidden transition-colors duration-300">
-      {/* Background decor */}
-      <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-emerald-500/5 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl"></div>
-      </div>
-
+    <section id="ai-consultation" className="py-24 bg-neutral-50/50 dark:bg-neutral-950 relative transition-colors duration-200 border-b border-neutral-200 dark:border-neutral-800">
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         {/* Header */}
         <div className="text-center mb-12">
-          <div className="inline-flex items-center gap-2 mb-4 px-4 py-1.5 rounded-full border border-emerald-200 dark:border-emerald-500/30 bg-emerald-50 dark:bg-emerald-500/10 text-sm font-semibold text-emerald-700 dark:text-emerald-400">
-            <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></div>
-            {hasKey
-              ? (language === 'en' ? 'LocaGo AI Assistant — Live Online' : 'LocaGo AI Assistant — Live Online')
-              : (language === 'en' ? 'Digital Consultation Mode' : 'Mode Konsultasi Digital')}
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 text-xs font-mono text-neutral-600 dark:text-neutral-400 mb-4 shadow-sm">
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+            <span>
+              {hasKey
+                ? (language === 'en' ? 'LocaGo AI Assistant · Active' : 'LocaGo AI Assistant · Aktif')
+                : (language === 'en' ? 'Digital Consultation Engine' : 'Engine Konsultasi Digital')}
+            </span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-white mb-4">
-            {language === 'en' ? 'Consultation & Budget Calculation ' : 'Konsultasi & Kalkulasi Budget '}
-            <span className="text-gradient">{language === 'en' ? 'with AI' : 'Bersama AI'}</span>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-neutral-900 dark:text-white mb-4 leading-[1.18]">
+            {language === 'en' ? 'Consultation & Investment Calculator' : 'Konsultasi & Kalkulator Investasi'}
           </h2>
-          <p className="text-slate-500 dark:text-slate-400 max-w-2xl mx-auto">
+          <p className="text-neutral-500 dark:text-neutral-400 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed">
             {language === 'en'
-              ? 'Get transparent investment estimates, high-impact feature recommendations, and win-win digital solutions tailored to your business.'
-              : 'Dapatkan estimasi investasi transparan, rekomendasi fitur esensial, dan solusi ramah kantong yang disesuaikan dengan kebutuhan Anda.'}
+              ? 'Transparent investment estimates, essential feature roadmaps, and custom zero-template digital solutions tailored to your budget.'
+              : 'Dapatkan estimasi investasi transparan, rancangan fitur esensial, dan solusi arsitektur custom bebas template yang disesuaikan dengan anggaran Anda.'}
           </p>
         </div>
 
@@ -1095,29 +1090,29 @@ Agar konsultasi dan rencana proyek digital Anda tidak tertunda, Mas Fahmi (Found
         <div className="grid lg:grid-cols-[1fr_400px] gap-6 items-start">
           {/* ══ LEFT: Chat Interface ══════════════════════════════════════════ */}
           <div
-            className="bg-slate-50 dark:bg-slate-800/50 rounded-3xl border border-slate-200 dark:border-white/10 overflow-hidden shadow-sm flex flex-col"
+            className="bg-white dark:bg-neutral-900/60 rounded-xl border border-neutral-200 dark:border-neutral-800 overflow-hidden flex flex-col"
             style={{ minHeight: '620px' }}
           >
             {/* Chat header bar */}
-            <div className="flex items-center gap-3 px-5 py-4 border-b border-slate-100 dark:border-white/10 bg-white dark:bg-slate-800/80">
-              <img
-                src="/logo.png"
-                alt="LocaGo Virtual Agent"
-                className="w-10 h-10 rounded-xl object-contain bg-white dark:bg-slate-900 p-1 border border-emerald-500/20 shadow-sm flex-shrink-0"
-              />
-              <div className="flex-1 min-w-0">
-                <p className="font-bold text-slate-900 dark:text-white text-sm">LocaGo Virtual Agent</p>
-                <p className="text-xs text-emerald-600 dark:text-emerald-400 flex items-center gap-1.5">
-                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block animate-pulse"></span>
-                  {hasKey
-                    ? (language === 'en' ? 'Active · Ready to Calculate & Negotiate' : 'Aktif · Siap Menghitung & Negosiasi Promo')
-                    : (language === 'en' ? 'Demo Consultation Mode' : 'Mode Konsultasi Demo')}
-                </p>
+            <div className="flex items-center justify-between px-5 py-4 border-b border-neutral-200 dark:border-neutral-800 bg-neutral-50/80 dark:bg-neutral-900/80">
+              <div className="flex items-center gap-3">
+                <img
+                  src="/logo.png"
+                  alt="LocaGo Virtual Agent"
+                  className="w-9 h-9 rounded-lg object-contain bg-white dark:bg-neutral-800 p-1 border border-neutral-200 dark:border-neutral-800 shadow-sm flex-shrink-0"
+                />
+                <div>
+                  <p className="font-bold text-neutral-900 dark:text-white text-sm tracking-tight">LocaGo Virtual Agent</p>
+                  <p className="text-xs text-neutral-500 dark:text-neutral-400 font-mono flex items-center gap-1.5">
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block animate-pulse"></span>
+                    {hasKey
+                      ? (language === 'en' ? 'Online · Live Model' : 'Aktif · Asisten Digital')
+                      : (language === 'en' ? 'Demo Consultation Mode' : 'Mode Konsultasi Demo')}
+                  </p>
+                </div>
               </div>
-              <div className="flex gap-1.5">
-                <div className="w-3 h-3 rounded-full bg-red-400/60"></div>
-                <div className="w-3 h-3 rounded-full bg-yellow-400/60"></div>
-                <div className="w-3 h-3 rounded-full bg-green-400/60"></div>
+              <div className="hidden sm:flex items-center gap-2 text-xs font-mono text-neutral-400 dark:text-neutral-500">
+                <span>locagocreative.my.id/consult</span>
               </div>
             </div>
 
@@ -1129,15 +1124,15 @@ Agar konsultasi dan rencana proyek digital Anda tidak tertunda, Mas Fahmi (Found
                     <img
                       src="/logo.png"
                       alt="LocaGo AI"
-                      className="w-8 h-8 rounded-xl object-contain bg-white dark:bg-slate-800 p-0.5 border border-slate-200 dark:border-white/10 flex-shrink-0 mt-0.5 shadow-sm"
+                      className="w-8 h-8 rounded-lg object-contain bg-white dark:bg-neutral-800 p-0.5 border border-neutral-200 dark:border-neutral-800 flex-shrink-0 mt-0.5 shadow-sm"
                     />
                   )}
                   <div className="max-w-[85%] space-y-2">
                     <div
-                      className={`px-4 py-3 rounded-2xl text-sm leading-relaxed ${
+                      className={`px-4 py-3 rounded-lg text-sm leading-relaxed ${
                         msg.role === 'user'
-                          ? 'bg-emerald-500 text-white rounded-br-sm ml-auto'
-                          : 'bg-white dark:bg-slate-700/80 text-slate-800 dark:text-slate-200 rounded-bl-sm border border-slate-100 dark:border-white/5 shadow-sm'
+                          ? 'bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-950 ml-auto'
+                          : 'bg-neutral-50 dark:bg-neutral-800/80 text-neutral-800 dark:text-neutral-200 border border-neutral-200/80 dark:border-neutral-700/60'
                       }`}
                     >
                       {renderPlainText(msg.content)}
@@ -1156,21 +1151,19 @@ Agar konsultasi dan rencana proyek digital Anda tidak tertunda, Mas Fahmi (Found
                               : handleWhatsAppRedirect()
                           }
                           disabled={isSyncing}
-                          className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-white text-xs font-bold transition-all active:scale-95 shadow-sm cursor-pointer disabled:opacity-50 ${
-                            msg.isErrorFallback
-                              ? 'bg-green-600 hover:bg-green-500 shadow-green-600/30 ring-2 ring-green-400/40'
-                              : 'bg-green-500 hover:bg-green-400'
-                          }`}
+                          className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-medium transition-all active:scale-[0.98] shadow-sm cursor-pointer disabled:opacity-50"
                         >
                           <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
                           </svg>
-                          {msg.isErrorFallback
-                            ? (language === 'en' ? 'Chat Directly via WhatsApp' : 'Konsultasi Langsung via WhatsApp')
-                            : (language === 'en' ? 'Lock Deal on WhatsApp' : 'Kunci Kesepakatan di WhatsApp')}
+                          <span>
+                            {msg.isErrorFallback
+                              ? (language === 'en' ? 'Chat Directly via WhatsApp' : 'Konsultasi Langsung via WhatsApp')
+                              : (language === 'en' ? 'Lock Agreement on WhatsApp' : 'Kunci Kesepakatan di WhatsApp')}
+                          </span>
                         </button>
                         {syncedTicket && (
-                          <p className="text-[11px] text-emerald-600 dark:text-emerald-400 flex items-center gap-1 font-semibold">
+                          <p className="text-[11px] font-mono text-emerald-600 dark:text-emerald-400 flex items-center gap-1 font-semibold">
                             <span>✓</span>{' '}
                             {language === 'en'
                               ? `Official Ticket #${syncedTicket} synced to system`
@@ -1181,7 +1174,7 @@ Agar konsultasi dan rencana proyek digital Anda tidak tertunda, Mas Fahmi (Found
                     )}
                   </div>
                   {msg.role === 'user' && (
-                    <div className="w-8 h-8 rounded-xl bg-slate-200 dark:bg-slate-600 flex items-center justify-center text-sm flex-shrink-0 mt-0.5 font-bold text-slate-600 dark:text-slate-300">
+                    <div className="w-8 h-8 rounded-lg bg-neutral-200 dark:bg-neutral-800 flex items-center justify-center text-xs flex-shrink-0 mt-0.5 font-bold font-mono text-neutral-700 dark:text-neutral-300">
                       U
                     </div>
                   )}
@@ -1194,19 +1187,19 @@ Agar konsultasi dan rencana proyek digital Anda tidak tertunda, Mas Fahmi (Found
                   <img
                     src="/logo.png"
                     alt="LocaGo AI"
-                    className="w-8 h-8 rounded-xl object-contain bg-white dark:bg-slate-800 p-0.5 border border-slate-200 dark:border-white/10 flex-shrink-0 shadow-sm animate-pulse"
+                    className="w-8 h-8 rounded-lg object-contain bg-white dark:bg-neutral-800 p-0.5 border border-neutral-200 dark:border-neutral-800 flex-shrink-0 shadow-sm animate-pulse"
                   />
-                  <div className="bg-white dark:bg-slate-700/80 border border-slate-100 dark:border-white/5 px-4 py-3 rounded-2xl rounded-bl-sm shadow-sm flex gap-1.5 items-center">
-                    <div className="w-2 h-2 rounded-full bg-slate-400 animate-bounce" style={{ animationDelay: '0ms' }}></div>
-                    <div className="w-2 h-2 rounded-full bg-slate-400 animate-bounce" style={{ animationDelay: '150ms' }}></div>
-                    <div className="w-2 h-2 rounded-full bg-slate-400 animate-bounce" style={{ animationDelay: '300ms' }}></div>
+                  <div className="bg-neutral-50 dark:bg-neutral-800/80 border border-neutral-200 dark:border-neutral-700 px-4 py-3 rounded-lg flex gap-1.5 items-center">
+                    <div className="w-2 h-2 rounded-full bg-neutral-400 animate-bounce" style={{ animationDelay: '0ms' }}></div>
+                    <div className="w-2 h-2 rounded-full bg-neutral-400 animate-bounce" style={{ animationDelay: '150ms' }}></div>
+                    <div className="w-2 h-2 rounded-full bg-neutral-400 animate-bounce" style={{ animationDelay: '300ms' }}></div>
                   </div>
                 </div>
               )}
             </div>
 
             {/* Suggested consultation question prompts */}
-            <div className="px-5 pt-2 pb-1 flex flex-wrap gap-2 border-t border-slate-100 dark:border-white/10">
+            <div className="px-5 pt-2 pb-2 flex flex-wrap gap-2 border-t border-neutral-100 dark:border-neutral-800">
               {(language === 'en'
                 ? [
                     'Cost estimate for an online store website',
@@ -1225,7 +1218,7 @@ Agar konsultasi dan rencana proyek digital Anda tidak tertunda, Mas Fahmi (Found
                   key={p}
                   onClick={() => sendMessage(p)}
                   disabled={loading}
-                  className="text-xs px-3 py-1.5 rounded-full bg-white dark:bg-slate-700/60 text-slate-600 dark:text-slate-300 hover:bg-emerald-50 dark:hover:bg-emerald-600/20 hover:text-emerald-700 dark:hover:text-emerald-300 border border-slate-200 dark:border-white/10 transition-all disabled:opacity-50 font-medium"
+                  className="text-xs font-mono px-3 py-1.5 rounded-md bg-white dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300 hover:border-neutral-400 dark:hover:border-neutral-600 border border-neutral-200 dark:border-neutral-800 transition-all disabled:opacity-50"
                 >
                   {p}
                 </button>
@@ -1233,7 +1226,7 @@ Agar konsultasi dan rencana proyek digital Anda tidak tertunda, Mas Fahmi (Found
             </div>
 
             {/* Input area */}
-            <div className="p-4 flex gap-3">
+            <div className="p-4 flex gap-3 border-t border-neutral-100 dark:border-neutral-800">
               <input
                 ref={inputRef}
                 type="text"
@@ -1246,54 +1239,52 @@ Agar konsultasi dan rencana proyek digital Anda tidak tertunda, Mas Fahmi (Found
                     : 'Ketik pertanyaan atau kebutuhan sistem Anda...'
                 }
                 disabled={loading}
-                className="flex-1 bg-white dark:bg-slate-700/60 text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 rounded-xl px-4 py-3 text-sm border border-slate-200 dark:border-white/10 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 transition-all disabled:opacity-60"
+                className="flex-1 bg-neutral-50 dark:bg-neutral-950 text-neutral-900 dark:text-white placeholder-neutral-400 rounded-lg px-4 py-2.5 text-sm border border-neutral-200 dark:border-neutral-800 focus:border-neutral-500 focus:outline-none transition-all disabled:opacity-60"
               />
               <button
                 onClick={() => sendMessage()}
                 disabled={loading || !input.trim()}
-                className="px-5 py-3 bg-emerald-500 hover:bg-emerald-400 disabled:opacity-40 disabled:cursor-not-allowed text-white rounded-xl font-semibold text-sm transition-all active:scale-95 flex items-center gap-2 flex-shrink-0"
+                className="px-5 py-2.5 bg-neutral-900 hover:bg-neutral-800 dark:bg-white dark:hover:bg-neutral-100 disabled:opacity-40 disabled:cursor-not-allowed text-white dark:text-neutral-950 rounded-lg font-medium text-sm transition-all active:scale-[0.98] flex items-center gap-2 flex-shrink-0"
               >
-                {language === 'en' ? 'Send' : 'Kirim'}
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-                </svg>
+                <span>{language === 'en' ? 'Send' : 'Kirim'}</span>
+                <span>→</span>
               </button>
             </div>
           </div>
 
           {/* ══ RIGHT: Quick Calculator Panel ═════════════════════════════════ */}
-          <div className="space-y-5 lg:sticky lg:top-28">
-            <div className="bg-slate-50 dark:bg-slate-800/50 rounded-3xl border border-slate-200 dark:border-white/10 overflow-hidden shadow-sm">
+          <div className="space-y-4 lg:sticky lg:top-28">
+            <div className="bg-white dark:bg-neutral-900/60 rounded-xl border border-neutral-200 dark:border-neutral-800 overflow-hidden">
               {/* Panel header */}
-              <div className="px-5 py-4 border-b border-slate-100 dark:border-white/10 bg-white dark:bg-slate-800/80">
-                <h3 className="font-bold text-slate-900 dark:text-white text-base flex items-center gap-2">
-                  <svg className="w-5 h-5 text-blue-600 dark:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+              <div className="px-5 py-4 border-b border-neutral-200 dark:border-neutral-800 bg-neutral-50/80 dark:bg-neutral-900/80">
+                <h3 className="font-bold text-neutral-900 dark:text-white text-sm tracking-tight flex items-center gap-2">
+                  <svg className="w-4 h-4 text-neutral-900 dark:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
                   </svg>
-                  {language === 'en' ? 'Quick Estimate & Consultation' : 'Hitung Cepat & Konsultasi'}
+                  <span>{language === 'en' ? 'Quick Investment Estimator' : 'Kalkulator Estimasi Cepat'}</span>
                 </h3>
-                <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5">
+                <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-0.5">
                   {language === 'en'
-                    ? 'Fill criteria & budget → AI calculates the best solution'
-                    : 'Isi kriteria & budget → AI kalkulasikan solusi terbaik'}
+                    ? 'Select criteria & budget → AI calculates tailored architecture'
+                    : 'Pilih kriteria & budget → AI kalkulasikan arsitektur terbaik'}
                 </p>
               </div>
 
               <div className="p-5 space-y-4">
                 {/* Profile selection + Optional custom input */}
                 <div>
-                  <p className="text-xs font-bold text-slate-600 dark:text-slate-300 uppercase tracking-wide mb-2">
-                    {language === 'en' ? '1. My Profile' : '1. Profil Saya'}
+                  <p className="text-xs font-mono font-semibold text-neutral-400 dark:text-neutral-500 uppercase tracking-wider mb-2">
+                    {language === 'en' ? '01. Client Profile' : '01. Profil Klien'}
                   </p>
                   <div className="grid grid-cols-2 gap-2 mb-2">
                     {PROFILES.map(p => (
                       <button
                         key={p.value}
                         onClick={() => setSelectedProfile(prev => (prev === p.value ? '' : p.value))}
-                        className={`px-3 py-2.5 rounded-xl border-2 text-xs font-semibold text-left transition-all duration-200 leading-tight ${
+                        className={`px-3 py-2 rounded-lg border text-xs font-medium text-left transition-all duration-150 leading-tight ${
                           selectedProfile === p.value
-                            ? 'border-emerald-500 bg-emerald-50 dark:bg-emerald-900/20 text-emerald-700 dark:text-emerald-300'
-                            : 'border-slate-200 dark:border-slate-600 text-slate-600 dark:text-slate-400 hover:border-emerald-300 dark:hover:border-emerald-500/50 bg-white dark:bg-slate-700/30'
+                            ? 'border-neutral-900 bg-neutral-900 text-white dark:border-white dark:bg-white dark:text-neutral-950'
+                            : 'border-neutral-200 dark:border-neutral-800 text-neutral-700 dark:text-neutral-300 hover:border-neutral-400 dark:hover:border-neutral-600 bg-neutral-50/50 dark:bg-neutral-800/40'
                         }`}
                       >
                         {p.label}
@@ -1307,43 +1298,45 @@ Agar konsultasi dan rencana proyek digital Anda tidak tertunda, Mas Fahmi (Found
                     onChange={e => setCustomProfile(e.target.value)}
                     placeholder={
                       language === 'en'
-                        ? 'Or describe your profile (optional, e.g. Tutor, Community)...'
-                        : 'Atau deskripsikan profil Anda (opsional, cth: Guru Les, Komunitas)...'
+                        ? 'Or describe your profile (optional)...'
+                        : 'Atau deskripsikan profil Anda (opsional)...'
                     }
-                    className="w-full bg-white dark:bg-slate-700/40 text-slate-900 dark:text-white placeholder-slate-400 text-xs rounded-xl px-3 py-2 border border-slate-200 dark:border-slate-600 focus:border-emerald-500 focus:outline-none transition-all"
+                    className="w-full bg-neutral-50/50 dark:bg-neutral-800/40 text-neutral-900 dark:text-white placeholder-neutral-400 text-xs rounded-lg px-3 py-2 border border-neutral-200 dark:border-neutral-800 focus:border-neutral-500 focus:outline-none transition-all"
                   />
                 </div>
 
                 {/* Feature selection + Optional custom feature */}
                 <div>
-                  <p className="text-xs font-bold text-slate-600 dark:text-slate-300 uppercase tracking-wide mb-2 flex items-center justify-between">
-                    <span>{language === 'en' ? '2. Required Features' : '2. Fitur yang Dibutuhkan'}</span>
+                  <div className="flex items-center justify-between mb-2">
+                    <p className="text-xs font-mono font-semibold text-neutral-400 dark:text-neutral-500 uppercase tracking-wider">
+                      {language === 'en' ? '02. Target Features' : '02. Fitur yang Dibutuhkan'}
+                    </p>
                     {selectedFeatures.length > 0 && (
-                      <span className="text-xs font-semibold px-2 py-0.5 bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300 rounded-full">
+                      <span className="text-[10px] font-mono px-2 py-0.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded border border-neutral-200 dark:border-neutral-700">
                         {selectedFeatures.length} {language === 'en' ? 'selected' : 'dipilih'}
                       </span>
                     )}
-                  </p>
+                  </div>
                   <div className="space-y-1.5 max-h-48 overflow-y-auto pr-1 mb-2">
                     {FEATURES.map(feat => (
                       <button
                         key={feat.id}
                         onClick={() => toggleFeature(feat.id)}
-                        className={`w-full flex items-center gap-2.5 px-3 py-2 rounded-xl border-2 text-left transition-all duration-200 ${
+                        className={`w-full flex items-center gap-2.5 px-3 py-2 rounded-lg border text-left transition-all duration-150 ${
                           selectedFeatures.includes(feat.id)
-                            ? 'border-emerald-500 bg-emerald-50 dark:bg-emerald-900/20'
-                            : 'border-slate-200 dark:border-slate-600 hover:border-emerald-300 dark:hover:border-emerald-500/40 bg-white dark:bg-slate-700/30'
+                            ? 'border-neutral-900 bg-neutral-900/5 dark:bg-neutral-100/10 dark:border-neutral-400'
+                            : 'border-neutral-200 dark:border-neutral-800 hover:border-neutral-400 dark:hover:border-neutral-600 bg-neutral-50/50 dark:bg-neutral-800/40'
                         }`}
                       >
                         <div
-                          className={`w-4 h-4 rounded border-2 flex-shrink-0 flex items-center justify-center transition-all ${
+                          className={`w-4 h-4 rounded border flex-shrink-0 flex items-center justify-center transition-all ${
                             selectedFeatures.includes(feat.id)
-                              ? 'bg-emerald-500 border-emerald-500'
-                              : 'border-slate-300 dark:border-slate-500'
+                              ? 'bg-neutral-900 border-neutral-900 dark:bg-white dark:border-white text-white dark:text-neutral-950'
+                              : 'border-neutral-300 dark:border-neutral-600'
                           }`}
                         >
                           {selectedFeatures.includes(feat.id) && (
-                            <svg className="w-2.5 h-2.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg className="w-2.5 h-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7" />
                             </svg>
                           )}
@@ -1351,8 +1344,8 @@ Agar konsultasi dan rencana proyek digital Anda tidak tertunda, Mas Fahmi (Found
                         <span
                           className={`text-xs font-medium ${
                             selectedFeatures.includes(feat.id)
-                              ? 'text-emerald-700 dark:text-emerald-300'
-                              : 'text-slate-600 dark:text-slate-400'
+                              ? 'text-neutral-900 dark:text-white font-semibold'
+                              : 'text-neutral-600 dark:text-neutral-400'
                           }`}
                         >
                           {feat.label}
@@ -1367,23 +1360,25 @@ Agar konsultasi dan rencana proyek digital Anda tidak tertunda, Mas Fahmi (Found
                     onChange={e => setCustomFeature(e.target.value)}
                     placeholder={
                       language === 'en'
-                        ? 'Other custom system/features (optional, e.g. Shopee Bot)...'
-                        : 'Sistem/fitur kustom lainnya (opsional, cth: Bot Scraping Shopee)...'
+                        ? 'Other custom requirements (optional)...'
+                        : 'Kebutuhan kustom lainnya (opsional)...'
                     }
-                    className="w-full bg-white dark:bg-slate-700/40 text-slate-900 dark:text-white placeholder-slate-400 text-xs rounded-xl px-3 py-2 border border-slate-200 dark:border-slate-600 focus:border-emerald-500 focus:outline-none transition-all"
+                    className="w-full bg-neutral-50/50 dark:bg-neutral-800/40 text-neutral-900 dark:text-white placeholder-neutral-400 text-xs rounded-lg px-3 py-2 border border-neutral-200 dark:border-neutral-800 focus:border-neutral-500 focus:outline-none transition-all"
                   />
                 </div>
 
                 {/* 3. Budget input field */}
                 <div>
-                  <p className="text-xs font-bold text-slate-600 dark:text-slate-300 uppercase tracking-wide mb-1.5 flex items-center justify-between">
-                    <span>{language === 'en' ? '3. My Budget Target' : '3. Anggaran / Budget Saya'}</span>
-                    <span className="text-[10px] text-slate-400 font-normal">
+                  <div className="flex items-center justify-between mb-1.5">
+                    <p className="text-xs font-mono font-semibold text-neutral-400 dark:text-neutral-500 uppercase tracking-wider">
+                      {language === 'en' ? '03. Target Budget' : '03. Target Anggaran'}
+                    </p>
+                    <span className="text-[10px] font-mono text-neutral-400">
                       {language === 'en' ? 'Optional' : 'Opsional'}
                     </span>
-                  </p>
+                  </div>
                   <div className="relative">
-                    <span className="absolute left-3 top-2.5 text-xs font-bold text-slate-400 dark:text-slate-500">Rp</span>
+                    <span className="absolute left-3 top-2 text-xs font-mono font-bold text-neutral-400">Rp</span>
                     <input
                       type="text"
                       value={budget}
@@ -1393,10 +1388,10 @@ Agar konsultasi dan rencana proyek digital Anda tidak tertunda, Mas Fahmi (Found
                           ? 'e.g. 1,500,000 (or type freely)'
                           : 'contoh: 1.500.000 (atau ketik bebas)'
                       }
-                      className="w-full bg-white dark:bg-slate-700/40 text-slate-900 dark:text-white placeholder-slate-400 text-xs rounded-xl pl-9 pr-3 py-2 border border-slate-200 dark:border-slate-600 focus:border-emerald-500 focus:outline-none transition-all font-medium"
+                      className="w-full bg-neutral-50/50 dark:bg-neutral-800/40 text-neutral-900 dark:text-white placeholder-neutral-400 text-xs rounded-lg pl-8 pr-3 py-2 border border-neutral-200 dark:border-neutral-800 focus:border-neutral-500 focus:outline-none transition-all font-mono"
                     />
                   </div>
-                  <p className="text-[10px] text-slate-400 dark:text-slate-500 mt-1">
+                  <p className="text-[10px] text-neutral-500 dark:text-neutral-400 mt-1">
                     {language === 'en'
                       ? '*Whatever your budget, AI will tailor feature scope to make it viable.'
                       : '*Berapapun budget Anda, AI akan menyesuaikan skala fitur agar tetap dapat dibuat.'}
@@ -1414,12 +1409,12 @@ Agar konsultasi dan rencana proyek digital Anda tidak tertunda, Mas Fahmi (Found
                       !customFeature.trim() &&
                       !budget.trim())
                   }
-                  className="w-full py-3.5 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 disabled:opacity-40 disabled:cursor-not-allowed text-white rounded-2xl font-bold text-sm transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/25 active:scale-95 flex items-center justify-center gap-2"
+                  className="w-full py-3 bg-neutral-900 hover:bg-neutral-800 dark:bg-white dark:hover:bg-neutral-100 disabled:opacity-40 disabled:cursor-not-allowed text-white dark:text-neutral-950 rounded-lg font-medium text-sm transition-all active:scale-[0.98] flex items-center justify-center gap-2 shadow-sm"
                 >
-                  <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
-                  {language === 'en' ? 'Calculate Estimate & Ask AI' : 'Hitung Estimasi & Tanya AI'}
+                  <span>{language === 'en' ? 'Calculate Estimate & Ask AI' : 'Hitung Estimasi & Tanya AI'}</span>
                 </button>
 
                 {/* Reset */}
@@ -1436,9 +1431,9 @@ Agar konsultasi dan rencana proyek digital Anda tidak tertunda, Mas Fahmi (Found
                       setCustomFeature('');
                       setBudget('');
                     }}
-                    className="w-full text-xs text-slate-400 hover:text-slate-600 dark:hover:text-slate-300 transition-colors"
+                    className="w-full text-xs font-mono text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-300 transition-colors"
                   >
-                    {language === 'en' ? 'Reset all fields' : 'Reset semua isian'}
+                    {language === 'en' ? 'Reset all criteria' : 'Reset semua isian'}
                   </button>
                 )}
               </div>
@@ -1452,12 +1447,12 @@ Agar konsultasi dan rencana proyek digital Anda tidak tertunda, Mas Fahmi (Found
                   : 'Halo Mas Fahmi / LocaGo Creative! Saya ingin konsultasi langsung tentang pembuatan sistem/software 🚀'
               )}
               disabled={isSyncing}
-              className="flex items-center justify-center gap-2.5 w-full py-3.5 rounded-2xl bg-green-500 hover:bg-green-400 text-white font-bold text-sm transition-all active:scale-95 shadow-lg shadow-green-500/20 cursor-pointer disabled:opacity-50"
+              className="flex items-center justify-center gap-2.5 w-full py-3 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-medium text-sm transition-all active:scale-[0.98] shadow-sm cursor-pointer disabled:opacity-50"
             >
-              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
               </svg>
-              {language === 'en' ? 'Direct WhatsApp Consultation' : 'Konsultasi Langsung via WhatsApp'}
+              <span>{language === 'en' ? 'Direct WhatsApp Consultation' : 'Konsultasi Langsung via WhatsApp'}</span>
             </button>
           </div>
         </div>
