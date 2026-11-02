@@ -1,5 +1,4 @@
-
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
@@ -11,42 +10,65 @@ import Footer from './components/Footer';
 import Stats from './components/Stats';
 import About from './components/About';
 import WhyChooseUs from './components/WhyChooseUs';
+import { SourceCodeHub } from './components/SourceCodeHub';
+import { GitHubTrendingHub } from './components/GitHubTrendingHub';
+import { AIToolsHub } from './components/AIToolsHub';
 import { ThemeProvider } from './context/ThemeContext';
 import { LanguageProvider } from './context/LanguageContext';
+import { NavigationTab } from './types';
+
+const getInitialTab = (): NavigationTab => {
+  if (typeof window !== 'undefined') {
+    const hash = window.location.hash.replace('#', '');
+    if (hash === 'source-code' || hash === 'github-trending' || hash === 'ai-tools') {
+      return hash as NavigationTab;
+    }
+  }
+  return 'agency';
+};
 
 const AppContent: React.FC = () => {
+  const [activeTab, setActiveTab] = useState<NavigationTab>(getInitialTab);
 
-  React.useEffect(() => {
-    if ('scrollRestoration' in window.history) {
-      window.history.scrollRestoration = 'manual';
-    }
-    if (window.location.hash) {
-      window.history.replaceState(null, '', window.location.pathname);
-    }
-    window.scrollTo({ top: 0, left: 0, behavior: 'instant' as ScrollBehavior });
-
-    const handlePageShow = () => {
-      window.scrollTo(0, 0);
+  useEffect(() => {
+    const handleHashChange = () => {
+      const currentHash = window.location.hash.replace('#', '');
+      if (currentHash === 'source-code' || currentHash === 'github-trending' || currentHash === 'ai-tools') {
+        setActiveTab(currentHash as NavigationTab);
+      } else {
+        setActiveTab('agency');
+      }
     };
-    window.addEventListener('pageshow', handlePageShow);
-    return () => window.removeEventListener('pageshow', handlePageShow);
+
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
   }, []);
 
   return (
-    <div className="min-h-screen bg-white dark:bg-neutral-950 transition-colors duration-200">
-      <Navbar />
-      <main>
-        <Hero />
-        <Stats />
-        <About />
-        <WhyChooseUs />
-        <Services />
-        <Pricing />
-        <Process />
-        <FAQ />
-        <Contact />
-        <Footer />
+    <div className="min-h-screen bg-white dark:bg-neutral-950 transition-colors duration-200 flex flex-col justify-between">
+      <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
+      
+      <main className="flex-1">
+        {activeTab === 'agency' && (
+          <>
+            <Hero />
+            <Stats />
+            <About />
+            <WhyChooseUs />
+            <Services />
+            <Pricing />
+            <Process />
+            <FAQ />
+            <Contact />
+          </>
+        )}
+
+        {activeTab === 'source-code' && <SourceCodeHub />}
+        {activeTab === 'github-trending' && <GitHubTrendingHub />}
+        {activeTab === 'ai-tools' && <AIToolsHub />}
       </main>
+
+      <Footer />
     </div>
   );
 };
