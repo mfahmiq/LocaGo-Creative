@@ -1,0 +1,246 @@
+{
+  "updatedAt": "04 Nov 2026, 01:20 WIB",
+  "total": 15,
+  "items": [
+    {
+      "id": "sc-1",
+      "title": "Kasir Toko Kelontong UMKM",
+      "slug": "kasir-toko-kelontong-umkm",
+      "category": "PHP & Laravel",
+      "techStack": [
+        "PHP 8.2",
+        "MySQL",
+        "Bootstrap 5"
+      ],
+      "description": "Aplikasi POS kasir ritel toko kelontong UMKM lengkap dengan pencatatan stok barang, barcode scanner webcam, dan fitur cetak struk kirim langsung via WhatsApp.",
+      "thumbnail": "/banners/gemini/banner_pos_toko.webp",
+      "databaseType": "MySQL (.sql)",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-10",
+      "title": "POS Kasir Ritel Multi-Cabang",
+      "slug": "pos-kasir-ritel-multi-cabang",
+      "category": "PHP & Laravel",
+      "techStack": [
+        "PHP 8.2",
+        "Tailwind CSS",
+        "Struk WA"
+      ],
+      "description": "Aplikasi Point of Sale layar sentuh kasir toko dengan barcode scanner instan, manajemen stok multi-outlet, dan pengiriman invoice PDF ke nomor WhatsApp pembeli.",
+      "thumbnail": "/banners/gemini/banner_pos_ritel.webp",
+      "databaseType": "MySQL (.sql)",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-11",
+      "title": "Aplikasi Kasir Apotek & Stok Obat",
+      "slug": "kasir-apotek-stok-obat",
+      "category": "PHP & Laravel",
+      "techStack": [
+        "Laravel 11",
+        "MySQL",
+        "Struk Thermal"
+      ],
+      "description": "Sistem informasi manajemen apotek dan kasir penjualan obat lengkap dengan peringatan tanggal kadaluarsa (expired date), stok minimum otomatis, dan cetak struk kasir.",
+      "thumbnail": "/banners/gemini/banner_pos_toko.webp",
+      "databaseType": "MySQL (.sql)",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-12",
+      "title": "Sistem Booking Jadwal Barbershop & Salon",
+      "slug": "booking-barbershop-salon",
+      "category": "Next.js & React",
+      "techStack": [
+        "Next.js 14",
+        "Tailwind",
+        "WhatsApp API"
+      ],
+      "description": "Platform reservasi online jam potong rambut dan perawatan salon dengan kalender interaktif, pilihan kapster favorit, dan konfirmasi WhatsApp otomatis ke pelanggan.",
+      "thumbnail": "/banners/gemini/banner_katalog_umkm.webp",
+      "databaseType": "SQLite",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-13",
+      "title": "Bot WhatsApp Auto-Forward Pesan Grup",
+      "slug": "bot-wa-auto-forward",
+      "category": "Python & AI",
+      "techStack": [
+        "Python 3.11",
+        "Baileys",
+        "SQLite"
+      ],
+      "description": "Skrip otomasi penerusan pesan otomatis antar channel dan grup WhatsApp bisnis dengan filter kata kunci terlarang dan penggantian link affiliate secara dinamis.",
+      "thumbnail": "/banners/gemini/banner_bot_wa.webp",
+      "databaseType": "SQLite",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-14",
+      "title": "Portal Pengaduan Warga Desa (E-Lapor)",
+      "slug": "portal-pengaduan-desa",
+      "category": "PHP & Laravel",
+      "techStack": [
+        "PHP 8.2",
+        "Bootstrap 5",
+        "MySQL"
+      ],
+      "description": "Aplikasi layanan aspirasi dan pengaduan masyarakat desa dengan bukti foto lokasi, tracking nomor tiket keluhan, dan disposisi langsung ke kepala seksi.",
+      "thumbnail": "/banners/gemini/banner_ams_surat.webp",
+      "databaseType": "MySQL (.sql)",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-15",
+      "title": "Dashboard Monitoring Suhu IoT ESP32",
+      "slug": "dashboard-monitoring-iot",
+      "category": "Python & AI",
+      "techStack": [
+        "FastAPI",
+        "WebSockets",
+        "Chart.js"
+      ],
+      "description": "Antarmuka pemantauan data sensor suhu, kelembaban, dan voltase listrik real-time via koneksi WebSocket dengan grafik interaktif 60 FPS dan alert bahaya.",
+      "thumbnail": "/banners/gemini/banner_billing_ps.webp",
+      "databaseType": "SQLite",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-2",
+      "title": "Absensi Siswa QR Code GAS",
+      "slug": "absensi-siswa-qr-gas",
+      "category": "Google Apps Script",
+      "techStack": [
+        "Google Apps Script",
+        "Sheets",
+        "Fonnte WA"
+      ],
+      "description": "Sistem presensi guru & siswa berbasis scan kartu QR Code via kamera tablet atau laptop tanpa biaya server bulanan, terhubung otomatis ke notifikasi WhatsApp orang tua.",
+      "thumbnail": "/banners/gemini/banner_absensi_gas.webp",
+      "databaseType": "Google Sheets",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-3",
+      "title": "Landing Page Katalog Produk UMKM",
+      "slug": "katalog-produk-umkm-nextjs",
+      "category": "Next.js & React",
+      "techStack": [
+        "Next.js 14",
+        "Tailwind CSS",
+        "TypeScript"
+      ],
+      "description": "Template website katalog etalase produk UMKM modern dan responsif dengan fitur multi-cart, perhitungan ongkir otomatis, dan tombol direct checkout WhatsApp.",
+      "thumbnail": "/banners/gemini/banner_katalog_umkm.webp",
+      "databaseType": "SQLite",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-4",
+      "title": "Bot WhatsApp CS AI Dokumen Bisnis",
+      "slug": "bot-whatsapp-cs-ai",
+      "category": "Python & AI",
+      "techStack": [
+        "Python 3.11",
+        "FastAPI",
+        "LLM RAG"
+      ],
+      "description": "Asisten chatbot WhatsApp cerdas untuk menangani customer service 24 jam nonstop, dilatih khusus menggunakan dokumen PDF profil bisnis dan katalog produk.",
+      "thumbnail": "/banners/gemini/banner_bot_wa.webp",
+      "databaseType": "SQLite",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-5",
+      "title": "Billing Rental PS & Game Cafe",
+      "slug": "billing-rental-ps-cafe",
+      "category": "Mobile & Desktop",
+      "techStack": [
+        "Python Desktop",
+        "CustomTkinter",
+        "SQLite"
+      ],
+      "description": "Aplikasi desktop kasir billing rental PlayStation dan cafe gaming dengan penghitung waktu otomatis per nomor TV konsol dan alarm audio saat durasi sewa habis.",
+      "thumbnail": "/banners/gemini/banner_billing_ps.webp",
+      "databaseType": "SQLite",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-6",
+      "title": "Portal Donasi & Crowdfunding Online",
+      "slug": "portal-donasi-crowdfunding",
+      "category": "PHP & Laravel",
+      "techStack": [
+        "Laravel 11",
+        "Tailwind CSS",
+        "QRIS"
+      ],
+      "description": "Platform galang dana dan donasi transparan 0% potongan biaya dengan integrasi QRIS dinamis, progress bar capaian dana real-time, dan buku doa donatur.",
+      "thumbnail": "/banners/gemini/banner_portal_donasi.webp",
+      "databaseType": "MySQL (.sql)",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-7",
+      "title": "SIAKAD Sekolah Kurikulum Merdeka",
+      "slug": "siakad-sekolah-modern",
+      "category": "PHP & Laravel",
+      "techStack": [
+        "Laravel 11",
+        "Livewire",
+        "MySQL"
+      ],
+      "description": "Sistem informasi akademik sekolah lengkap multi-role (Admin, Guru, Siswa, Kepala Sekolah) dengan modul kurikulum merdeka, jadwal KBM, dan cetak e-Rapot PDF.",
+      "thumbnail": "/banners/gemini/banner_siakad.webp",
+      "databaseType": "MySQL (.sql)",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-8",
+      "title": "SIPERPUS Perpustakaan Digital QR",
+      "slug": "siperpus-digital-qr",
+      "category": "PHP & Laravel",
+      "techStack": [
+        "CodeIgniter 4",
+        "Bootstrap 5",
+        "MySQL"
+      ],
+      "description": "Aplikasi sirkulasi perpustakaan modern dengan katalog pencarian buku digital, pencetakan kartu anggota ber-barcode QR Code, dan kalkulasi denda otomatis.",
+      "thumbnail": "/banners/gemini/banner_siperpus.webp",
+      "databaseType": "MySQL (.sql)",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-9",
+      "title": "Manajemen Surat & Disposisi Dinas",
+      "slug": "manajemen-surat-disposisi",
+      "category": "PHP & Laravel",
+      "techStack": [
+        "PHP 8.2",
+        "Tailwind CSS",
+        "MySQLi"
+      ],
+      "description": "Aplikasi tata kelola kearsipan surat masuk, surat keluar, lembar disposisi digital pimpinan instansi pemerintah/sekolah, dan penampil PDF viewer browser.",
+      "thumbnail": "/banners/gemini/banner_ams_surat.webp",
+      "databaseType": "MySQL (.sql)",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    }
+  ]
+}

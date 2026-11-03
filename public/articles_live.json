@@ -1,5 +1,66 @@
 {
-  "updatedAt": "03 Nov 2026, 23:59 WIB",
-  "total": 0,
-  "items": []
+  "updatedAt": "03 Nov 2026, 21:31 WIB",
+  "total": 2,
+  "items": [
+    {
+      "id": "art-102",
+      "slug": "panduan-lengkap-otomasi-marketing-systeme-io-2026",
+      "title": "Panduan Lengkap Otomasi Marketing & Funnel Penjualan dengan Systeme.io (2026)",
+      "language": "id",
+      "category": "Automation & Bisnis",
+      "readTime": "14 menit",
+      "cover": "/banners/gemini/banner_portal_donasi.webp",
+      "excerpt": "Pelajari langkah demi langkah membangun alur kerja email otomatis, sales funnel digital, dan monetisasi affiliate seumur hidup menggunakan platform gratis Systeme.io.",
+      "content": "Di tengah mahalnya biaya langganan software pemasaran digital luar negeri, kehadiran Systeme.io menjadi angin segar bagi pelaku bisnis online di Indonesia. Artikel ini membahas tuntas cara memanfaatkan fitur otomatisasi Systeme.io dari nol hingga menghasilkan omzet stabil.\n\nPoin Kunci & Ringkasan Cepat\n1. Biaya Nol Rupiah: Paket gratis mendukung 3 sales funnel, unlimited email untuk 2.000 kontak, dan 1 situs membership.\n2. Otomasi Trigger: Menghubungkan aksi pendaftaran formulir langsung dengan autoresponder email berurutan (drip campaign).\n3. Program Afiliasi 60% Recurring: Komisi pasif seumur hidup dari setiap langganan aktif yang berasal dari tautan referral Anda.\n\nLangkah Demi Langkah Membangun Funnel Penjualan:\nLangkah 1: Menyiapkan Lead Magnet Berbobot\nMulailah dengan menawarkan produk bernilai tinggi secara gratis (contoh: ebook panduan, template source code, atau checklist kerja) untuk mengumpulkan alamat email prospek yang relevan.\n\nLangkah 2: Merancang Halaman Squeeze Page\nGunakan drag-and-drop editor Systeme.io untuk mendesain landing page mobile-friendly dengan tombol CTA yang kontras. Pastikan waktu muat halaman di bawah 1.5 detik.\n\nLangkah 3: Konfigurasi Aturan Otomasi (Automation Rules)\nAtur pemicu 'Tag Added' saat formulir dikirim, lalu jadwalkan email tindak lanjut otomatis yang mengedukasi prospek sebelum menawarkan produk berbayar.\n\nMatriks Perbandingan: Systeme.io vs ClickFunnels\n- Biaya Bulanan Awal: Systeme.io $0 (Gratis) vs ClickFunnels $97+\n- Kapasitas Kontak Gratis: Systeme.io 2.000 kontak vs ClickFunnels 0 (Tidak ada versi gratis)\n- Kemudahan Penggunaan: Systeme.io sangat ramah pemula dengan navigasi terpadu.\n\nKesimpulan:\nOtomasi bukan tentang kemewahan teknologi, melainkan tentang membangun sistem yang dapat mereplikasi penjualan tanpa menuntut kehadiran fisik Anda 24 jam sehari.",
+      "youtubeId": "3iTqwXZq80k",
+      "affiliateTools": [
+        {
+          "name": "Systeme.io",
+          "url": "https://systeme.io/id?sa=sa0285473359ae5985c82865330cf1a062d892e972"
+        },
+        {
+          "name": "Make.com",
+          "url": "https://www.make.com/en/register?pc=locagocreative"
+        }
+      ]
+    },
+    {
+      "id": "art-101",
+      "slug": "10-rekomendasi-tools-ai-terbaik-2026-panduan-lengkap",
+      "title": "10 Rekomendasi Tools AI Terbaik 2026: Ulasan Mendalam, Fitur, dan Cara Pakai untuk Bisnis",
+      "language": "id",
+      "category": "Riset & Rekomendasi AI",
+      "readTime": "12 menit",
+      "cover": "/banners/gemini/banner_pos_toko.webp",
+      "excerpt": "Panduan komprehensif 10 tools AI terbaik di tahun 2026 berdasarkan pengujian performa nyata: Cursor AI, Bolt.new, v0, ElevenLabs, Suno, Systeme.io, Make, HeyGen, Perplexity, dan Midjourney.",
+      "content": "Di era kecerdasan buatan 2026, model AI tidak lagi sekadar menjawab teks di jendela obrolan statis. Kita telah memasuki era Agentic AI\u2014sistem otonom yang mampu mengeksekusi instruksi bertingkat, mengedit kode multi-file di terminal, membuat funnel penjualan otomatis, hingga memproduksi video sinematik dengan audio studio tanpa campur tangan manusia yang melelahkan.\n\nBerdasarkan pengujian langsung di laboratorium teknologi LocaGo Creative, berikut adalah 10 aplikasi dan ekosistem AI teratas yang wajib diintegrasikan ke dalam alur kerja bisnis digital Anda:\n\nPoin Kunci & Ringkasan Cepat\n1. Coding & Rekayasa Software: Cursor AI dan Bolt.new memangkas waktu pembuatan aplikasi dari hitungan minggu menjadi beberapa jam dengan eksekusi browser WebContainers.\n2. Desain Komponen UI/UX: v0 by Vercel menjadi standar industri untuk menghasilkan layout React, Tailwind CSS, dan Shadcn UI siap ekspor via CLI.\n3. Audio & Narasi Sinematik: ElevenLabs mempertahankan dominasi vokal paling alami di dunia, sementara Suno AI menghasilkan lagu berkualitas radio komersial.\n4. Otomasi Operasional Bisnis: Systeme.io dan Make.com mengeliminasi ketergantungan pada staf administrasi manual dengan menghubungkan API, CRM, dan WhatsApp Gateway.\n5. Riset & Validasi Fakta: Perplexity AI menggantikan penelusuran tradisional Google dengan merangkum data faktual real-time disertai sitasi ilmiah.\n\n1. Cursor AI: Standar Baru IDE Pemrograman Masa Depan\nKategori: AI Coding & Software Engineering\nModel Akses: Freemium (Tersedia paket gratis & Pro $20/bulan)\nTautan Resmi: https://cursor.com/\n\nCursor AI bukan sekadar ekstensi editor biasa; ia merupakan modifikasi mandiri (fork) dari Microsoft VS Code yang dibangun dari fondasi awal untuk berinteraksi dengan model frontier seperti Claude 3.7 Sonnet dan OpenAI o1.\n- Fungsionalitas Nyata: Fitur Composer memungkinkan Anda menekan shortcut Ctrl+I dan meminta agen AI merefaktor 15 file proyek secara simultan. Cursor memahami struktur hierarki database, dependency tree, dan arsitektur fungsi privat Anda.\n- Keunggulan Kompetitif: Adanya fitur Shadow Workspace yang diam-diam memvalidasi apakah kode baru menghasilkan error linter atau kompilasi sebelum ditampilkan ke layar Anda.\n\n2. Bolt.new: Full-Stack Web Development Murni di Browser\nKategori: Web Development & In-Browser Runtime\nModel Akses: Freemium\nTautan Resmi: https://bolt.new/\n\nDitenagai oleh teknologi StackBlitz WebContainers, Bolt.new memungkinkan siapa saja membangun, menguji, dan men-deploy aplikasi web full-stack (Next.js, Node.js, Vite, Supabase) tanpa perlu menginstal Node.js atau Git di komputer lokal.\n- Fungsionalitas Nyata: Ketika Anda memasukkan ide produk (misal: \"Buatkan marketplace rental mobil dengan autentikasi Supabase dan Tailwind\"), Bolt menginisialisasi server lokal di browser, menginstal dependensi npm secara mandiri, dan menampilkan preview live interaktif.\n- Auto-Debug: Jika terminal mengalami error saat kompilasi paket, agen AI mendiagnosa stack trace dan langsung menambal baris kode yang rusak tanpa intervensi pengguna.\n\n3. v0 by Vercel: Generator Desain UI/UX React & Tailwind Instan\nKategori: UI/UX Scaffolding\nModel Akses: Freemium\nTautan Resmi: https://v0.dev/\n\nv0 buatan Vercel telah menjadi senjata utama para frontend developer. Alih-alih merancang antarmuka dari kanvas kosong di Figma, v0 mengubah naskah prompt atau gambar sketsa kasar menjadi komponen JSX berkualitas tinggi.\n- Fungsionalitas Nyata: Kode yang dihasilkan mengikuti prinsip clean code dengan Tailwind CSS dan Shadcn UI. Anda dapat memilih elemen tertentu di layar untuk diperbaiki secara selektif.\n- Integrasi Produksi: Cukup jalankan perintah npx shadcn@latest add di terminal untuk menarik komponen langsung ke proyek Next.js Anda.\n\n4. ElevenLabs: Sintesis Suara Manusiawi & Kloning Suara Studio\nKategori: Voice AI & Speech Synthesis\nModel Akses: Freemium\nTautan Resmi: https://elevenlabs.io/\n\nDalam ranah audio, ElevenLabs tetap tidak tertandingi dalam menghasilkan intonasi vokal yang memiliki dinamika napas, emosi tertawa, dan jeda alami manusia.\n- Fungsionalitas Nyata: Fitur Voice Cloning hanya membutuhkan 60 detik rekaman suara bersih untuk membuat tiruan vokal digital yang identik. Mendukung dubbing video otomatis yang menyelaraskan gerak bibir (lip-sync) ke berbagai bahasa asing.\n\n5. Systeme.io: Solusi Infrastruktur Bisnis & Funnel All-in-One\nKategori: Business Automation & Affiliate Marketing\nModel Akses: Freemium (Gratis selamanya hingga 2.000 kontak)\nTautan Resmi: https://systeme.io/\n\nBagi para solopreneur yang ingin menjual kursus online, template produk digital, atau email newsletter berbayar tanpa membayar langganan software mahal, Systeme.io adalah jawaban terbaik.\n- Fungsionalitas Nyata: Menggabungkan landing page builder, autoresponder email otomatis, portal kursus membership, dan payment gateway dalam satu dashboard terpadu.\n- Potensi Monetisasi: Menyediakan program kemitraan afiliasi resmi dengan komisi recurring 60% seumur hidup untuk setiap pengguna berbayar yang Anda undang.\n\n6. Make.com: Visual Workflow Automation Tanpa Batas\nKategori: No-Code Integration\nModel Akses: Freemium (1.000 operasi gratis per bulan)\nTautan Resmi: https://www.make.com/\n\nSebagai alternatif hemat biaya untuk Zapier, Make.com menyediakan kanvas visual modular untuk menghubungkan alur kerja antar ratusan platform digital.\n- Fungsionalitas Nyata: Anda dapat membuat skenario otomatisasi di mana setiap kali ada form order masuk di website, Make otomatis mencatat transaksi ke Google Sheets, membuat faktur PDF, dan mengirimkan notifikasi instan ke WhatsApp pelanggan via API.\n\nKesimpulan & Rekomendasi Alur Kerja\nMemilih software kecerdasan buatan bukan tentang mengumpulkan sebanyak-banyaknya aplikasi, melainkan menyusun rangkaian alur kerja terpadu (integrated pipeline). Mulailah dari mengotomasi tugas repetitif menggunakan Make.com, rancang produk dan website Anda dengan Cursor dan v0, serta monetisasi audiens digital Anda melalui Systeme.io.",
+      "youtubeId": "_83fyXbkAco",
+      "affiliateTools": [
+        {
+          "name": "Cursor AI",
+          "url": "https://cursor.com/?via=locagocreative"
+        },
+        {
+          "name": "Bolt.new",
+          "url": "https://bolt.new/?via=locagocreative"
+        },
+        {
+          "name": "v0 by Vercel",
+          "url": "https://v0.dev/?ref=locagocreative"
+        },
+        {
+          "name": "ElevenLabs",
+          "url": "https://elevenlabs.io/?from=locagocreative"
+        },
+        {
+          "name": "Systeme.io",
+          "url": "https://systeme.io/id?sa=sa0285473359ae5985c82865330cf1a062d892e972"
+        },
+        {
+          "name": "Make.com",
+          "url": "https://www.make.com/en/register?pc=locagocreative"
+        }
+      ]
+    }
+  ]
 }
