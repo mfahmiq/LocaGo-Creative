@@ -13,7 +13,7 @@ export const SOURCE_CODE_LIST: SourceCodeItem[] = [
     techStack: ['PHP 8.2', 'MySQL', 'Bootstrap 5', 'WhatsApp Gateway'],
     description: 'Aplikasi kasir Point of Sale berbasis web siap pakai untuk UMKM, toko ritel, dan warung kelontong. Dilengkapi pencatatan stok real-time, laporan laba rugi bulanan, scanner barcode kamera HP, dan fitur kirim struk belanja otomatis via WhatsApp ke nomor pelanggan.',
     shortDesc: 'Aplikasi POS kasir toko lengkap dengan database SQL, scanner barcode, dan kirim struk belanja otomatis via WhatsApp.',
-    thumbnail: 'https://images.unsplash.com/photo-1556740758-90de374c12ad?w=800&auto=format&fit=crop&q=80',
+    thumbnail: '/banners/banner_pos_toko.png',
     downloadsCount: 1420,
     rating: 4.9,
     isPopular: true,
@@ -37,7 +37,7 @@ export const SOURCE_CODE_LIST: SourceCodeItem[] = [
       'Level Hak Akses Multi-User (Kasir, Gudang, Owner)'
     ],
     downloadUrlFree: `${SAFELINK_BASE_URL}?item=pos-toko-kelontong&step=1&target=drive`,
-    downloadUrlFast: 'https://saweria.co/dwollopus'
+    downloadUrlFast: 'https://lynk.id/dwollopus'
   },
   {
     id: 'sc-2',
@@ -47,7 +47,7 @@ export const SOURCE_CODE_LIST: SourceCodeItem[] = [
     techStack: ['Google Apps Script', 'Google Sheets', 'HTML5', 'Fonnte API'],
     description: 'Sistem absensi sekolah berbasis Google Sheets dan Google Apps Script tanpa biaya server bulanan! Siswa atau guru cukup scan kartu QR Code di depan webcam/kamera tablet, data otomatis tersimpan di Google Sheets dan sistem langsung mengirimkan notifikasi WA ke orang tua: "Anak Anda telah hadir di sekolah pukul 07.15 WIB".',
     shortDesc: 'Sistem absensi sekolah 0 biaya server pakai Google Sheets + scan QR Code + auto WhatsApp ke ortu.',
-    thumbnail: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&auto=format&fit=crop&q=80',
+    thumbnail: '/banners/banner_absensi_gas.png',
     downloadsCount: 2310,
     rating: 5.0,
     isPopular: true,
@@ -70,7 +70,7 @@ export const SOURCE_CODE_LIST: SourceCodeItem[] = [
       'Cetak ID Card QR Siswa massal dengan 1 klik'
     ],
     downloadUrlFree: `${SAFELINK_BASE_URL}?item=absensi-sekolah-gas&step=1&target=drive`,
-    downloadUrlFast: 'https://saweria.co/dwollopus'
+    downloadUrlFast: 'https://lynk.id/dwollopus'
   },
   {
     id: 'sc-3',
@@ -80,7 +80,7 @@ export const SOURCE_CODE_LIST: SourceCodeItem[] = [
     techStack: ['Next.js 14', 'Tailwind CSS', 'TypeScript', 'Lucide Icons'],
     description: 'Template website katalog premium siap deploy ke Vercel atau Cloudflare Pages gratis. Tampilan elegan, ultra-cepat (skor Google Lighthouse 99), dilengkapi keranjang belanja multi-item yang otomatis merangkum pesanan menjadi format pesan WhatsApp rapi siap kirim.',
     shortDesc: 'Template landing page katalog modern Next.js + Tailwind. Order langsung kirim pesan rapi ke WhatsApp.',
-    thumbnail: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80',
+    thumbnail: '/banners/banner_katalog_umkm.png',
     downloadsCount: 980,
     rating: 4.8,
     isPopular: false,
@@ -103,7 +103,7 @@ export const SOURCE_CODE_LIST: SourceCodeItem[] = [
       'Mobile-first responsive design mirip aplikasi native'
     ],
     downloadUrlFree: `${SAFELINK_BASE_URL}?item=katalog-nextjs-tailwind&step=1&target=drive`,
-    downloadUrlFast: 'https://saweria.co/dwollopus'
+    downloadUrlFast: 'https://lynk.id/dwollopus'
   },
   {
     id: 'sc-4',
@@ -113,7 +113,7 @@ export const SOURCE_CODE_LIST: SourceCodeItem[] = [
     techStack: ['Python 3.11', 'FastAPI', 'Groq / OpenAI API', 'SQLite'],
     description: 'Source code bot WhatsApp pintar yang bisa dilatih menggunakan dokumen PDF bisnis Anda (RAG lokal). Bot otomatis menjawab pertanyaan pelanggan 24/7 dengan bahasa sopan dan ramah, mengecek harga produk, jam buka, hingga menyimpan kontak prospek masuk ke database SQLite.',
     shortDesc: 'Bot WhatsApp pintar CS otomatis pakai AI LLM lokal/Groq. Jawab chat pelanggan 24 jam nonstop.',
-    thumbnail: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80',
+    thumbnail: '/banners/banner_bot_wa.png',
     downloadsCount: 1850,
     rating: 4.9,
     isPopular: true,
@@ -136,7 +136,7 @@ export const SOURCE_CODE_LIST: SourceCodeItem[] = [
       'Hemat biaya token dengan model open-weight Llama 3 via Groq'
     ],
     downloadUrlFree: `${SAFELINK_BASE_URL}?item=bot-wa-ai-cs-python&step=1&target=drive`,
-    downloadUrlFast: 'https://saweria.co/dwollopus'
+    downloadUrlFast: 'https://lynk.id/dwollopus'
   },
   {
     id: 'sc-5',
@@ -146,7 +146,7 @@ export const SOURCE_CODE_LIST: SourceCodeItem[] = [
     techStack: ['Python', 'CustomTkinter', 'SQLite', 'ReportLab PDF'],
     description: 'Aplikasi desktop offline untuk pemilik rental PlayStation (PS3, PS4, PS5) dan Cafe Gaming. Dilengkapi timer countdown per televisi/unit, alarm suara ketika waktu sewa habis, sistem tarif fleksibel (per jam / paket malam / open play), dan rekap pendapatan harian.',
     shortDesc: 'Software kasir billing rental PS dengan timer otomatis, alarm habis waktu, dan cetak laporan.',
-    thumbnail: 'https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=800&auto=format&fit=crop&q=80',
+    thumbnail: '/banners/banner_billing_ps.png',
     downloadsCount: 760,
     rating: 4.7,
     isPopular: false,
@@ -169,7 +169,7 @@ export const SOURCE_CODE_LIST: SourceCodeItem[] = [
       '100% Offline tanpa butuh koneksi internet'
     ],
     downloadUrlFree: `${SAFELINK_BASE_URL}?item=billing-rental-ps-desktop&step=1&target=drive`,
-    downloadUrlFast: 'https://saweria.co/dwollopus'
+    downloadUrlFast: 'https://lynk.id/dwollopus'
   },
   {
     id: 'sc-6',
@@ -179,7 +179,7 @@ export const SOURCE_CODE_LIST: SourceCodeItem[] = [
     techStack: ['Laravel 11', 'Tailwind CSS', 'MySQL', 'Midtrans / QRIS'],
     description: 'Platform crowdfunding dan galang dana sosial mandiri tanpa potongan komisi pihak ketiga. Dilengkapi penghitung donasi real-time progress bar, kode unik transfer otomatis, daftar doa dari para donatur, dan laporan penyaluran dana transparan.',
     shortDesc: 'Source code platform donasi online lengkap dengan progress bar target dana & verifikasi otomatis.',
-    thumbnail: 'https://images.unsplash.com/photo-1532629345422-7515f3d16bb9?w=800&auto=format&fit=crop&q=80',
+    thumbnail: '/banners/banner_portal_donasi.png',
     downloadsCount: 1120,
     rating: 4.9,
     isPopular: false,
@@ -212,7 +212,7 @@ export const SOURCE_CODE_LIST: SourceCodeItem[] = [
     techStack: ['Laravel 11', 'Tailwind CSS', 'MySQL', 'Livewire'],
     description: 'Aplikasi SIAKAD sekolah lengkap untuk manajemen data siswa, guru, kelas, mata pelajaran, jadwal KBM, dan e-Rapot kurikulum merdeka. Tampilan modern dark-slate dengan dashboard statistik real-time.',
     shortDesc: 'Aplikasi SIAKAD sekolah lengkap e-Rapot kurikulum merdeka, jadwal KBM, dan kelola nilai siswa.',
-    thumbnail: '/screenshots/siakad_dashboard.png',
+    thumbnail: '/banners/banner_siakad.png',
     downloadsCount: 1680,
     rating: 4.9,
     isPopular: true,
@@ -245,7 +245,7 @@ export const SOURCE_CODE_LIST: SourceCodeItem[] = [
     techStack: ['CodeIgniter 4', 'Bootstrap 5', 'MySQL', 'QR Code Generator'],
     description: 'Sistem informasi perpustakaan sekolah dan kampus dengan katalog buku digital, sirkulasi peminjaman/pengembalian otomatis, denda harian terhitung otomatis, dan cetak kartu anggota ber-barcode/QR Code.',
     shortDesc: 'Sistem perpustakaan digital lengkap scanner kartu QR, hitung denda otomatis, dan ekspor laporan.',
-    thumbnail: '/screenshots/siperpus_dashboard.png',
+    thumbnail: '/banners/banner_siperpus.png',
     downloadsCount: 1940,
     rating: 5.0,
     isPopular: true,
@@ -278,7 +278,7 @@ export const SOURCE_CODE_LIST: SourceCodeItem[] = [
     techStack: ['PHP 8.2 Native', 'Tailwind CSS', 'MySQLi', 'PDF Viewer'],
     description: 'Aplikasi pengarsipan surat masuk, surat keluar, lembar disposisi digital pimpinan, dan buku agenda surat untuk instansi pemerintah, kelurahan, sekolah, maupun kantor swasta.',
     shortDesc: 'Sistem arsip surat dinas masuk & keluar lengkap lembar disposisi pimpinan dan upload berkas PDF.',
-    thumbnail: '/screenshots/ams_surat_dashboard.png',
+    thumbnail: '/banners/banner_ams_surat.png',
     downloadsCount: 1350,
     rating: 4.8,
     isPopular: false,
@@ -311,7 +311,7 @@ export const SOURCE_CODE_LIST: SourceCodeItem[] = [
     techStack: ['PHP 8.2', 'MySQL', 'Tailwind CSS', 'WhatsApp Gateway'],
     description: 'Sistem POS kasir ritel modern dengan antarmuka kasir layar sentuh, manajemen multi-cabang, barcode scanner, dan pengiriman invoice/struk digital langsung ke nomor WhatsApp pelanggan.',
     shortDesc: 'Software kasir ritel modern responsif barcode scanner, manajemen stok multi-cabang, dan struk WA.',
-    thumbnail: '/screenshots/pos_modern_dashboard.png',
+    thumbnail: '/banners/banner_pos_ritel.png',
     downloadsCount: 2180,
     rating: 4.9,
     isPopular: true,
