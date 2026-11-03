@@ -1,7 +1,133 @@
 {
-  "updatedAt": "03 Nov 2026, 19:15 WIB",
-  "total": 55,
+  "updatedAt": "03 Nov 2026, 23:43 WIB",
+  "total": 62,
   "items": [
+    {
+      "id": "ai-62",
+      "name": "ShortlyAI",
+      "logoUrl": "/logos/shortlyai.png",
+      "category": "AI Writing & SEO",
+      "pricingType": "Paid",
+      "commissionRate": "Partner Program",
+      "tagline": "Editor Penulisan Cerita, Novel & Artikel Panjang Tanpa Distraksi",
+      "description": "ShortlyAI adalah software kecerdasan buatan terdepan di bidang AI Writing & SEO yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "features": [
+        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Writing & SEO",
+        "Antarmuka pengguna responsif dan intuitif siap pakai",
+        "Mendukung integrasi alur kerja modern dan ekspor data instan",
+        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+      ],
+      "affiliateUrl": "https://shortlyai.com/?via=locagocreative",
+      "isFeatured": false
+    },
+    {
+      "id": "ai-61",
+      "name": "Ellie AI",
+      "logoUrl": "/logos/ellie-ai.png",
+      "category": "AI Writing & SEO",
+      "pricingType": "Freemium",
+      "commissionRate": "Partner Program",
+      "tagline": "Asisten AI Penjawab Email Cerdas yang Meniru Gaya Bahasa Anda",
+      "description": "Ellie AI adalah software kecerdasan buatan terdepan di bidang AI Writing & SEO yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "features": [
+        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Writing & SEO",
+        "Antarmuka pengguna responsif dan intuitif siap pakai",
+        "Mendukung integrasi alur kerja modern dan ekspor data instan",
+        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+      ],
+      "affiliateUrl": "https://tryellie.com/?via=locagocreative",
+      "isFeatured": false
+    },
+    {
+      "id": "ai-60",
+      "name": "CodeRabbit",
+      "logoUrl": "/logos/coderabbit.png",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "commissionRate": "Partner Program",
+      "tagline": "AI Code Reviewer Otomatis untuk GitHub Pull Request",
+      "description": "CodeRabbit adalah software kecerdasan buatan terdepan di bidang AI Coding yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "features": [
+        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Coding",
+        "Antarmuka pengguna responsif dan intuitif siap pakai",
+        "Mendukung integrasi alur kerja modern dan ekspor data instan",
+        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+      ],
+      "affiliateUrl": "https://coderabbit.ai/?via=locagocreative",
+      "isFeatured": false
+    },
+    {
+      "id": "ai-59",
+      "name": "Kite",
+      "logoUrl": "/logos/kite.png",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "commissionRate": "Partner Program",
+      "tagline": "AI Autocomplete Cepat Berjalan 100% di Komputer Lokal",
+      "description": "Kite adalah software kecerdasan buatan terdepan di bidang AI Coding yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "features": [
+        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Coding",
+        "Antarmuka pengguna responsif dan intuitif siap pakai",
+        "Mendukung integrasi alur kerja modern dan ekspor data instan",
+        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+      ],
+      "affiliateUrl": "https://kite.com/?via=locagocreative",
+      "isFeatured": false
+    },
+    {
+      "id": "ai-58",
+      "name": "Sourcegraph Cody",
+      "logoUrl": "/logos/sourcegraph-cody.png",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "commissionRate": "Partner Program",
+      "tagline": "AI Coding Assistant Berkemampuan Pencarian Seluruh Codebase Enterprise",
+      "description": "Sourcegraph Cody adalah software kecerdasan buatan terdepan di bidang AI Coding yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "features": [
+        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Coding",
+        "Antarmuka pengguna responsif dan intuitif siap pakai",
+        "Mendukung integrasi alur kerja modern dan ekspor data instan",
+        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+      ],
+      "affiliateUrl": "https://sourcegraph.com/cody?via=locagocreative",
+      "isFeatured": false
+    },
+    {
+      "id": "ai-57",
+      "name": "Blackbox AI",
+      "logoUrl": "/logos/blackbox-ai.png",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "commissionRate": "Partner Program",
+      "tagline": "AI Code Generator & Autocomplete untuk 20+ Bahasa Pemrograman",
+      "description": "Blackbox AI adalah software kecerdasan buatan terdepan di bidang AI Coding yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "features": [
+        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Coding",
+        "Antarmuka pengguna responsif dan intuitif siap pakai",
+        "Mendukung integrasi alur kerja modern dan ekspor data instan",
+        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+      ],
+      "affiliateUrl": "https://blackbox.ai/?via=locagocreative",
+      "isFeatured": false
+    },
+    {
+      "id": "ai-56",
+      "name": "Phind",
+      "logoUrl": "/logos/phind.png",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "commissionRate": "Partner Program",
+      "tagline": "Mesin Pencari Khusus Developer & Software Engineer Berbasis Code LLM",
+      "description": "Phind adalah software kecerdasan buatan terdepan di bidang AI Coding yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "features": [
+        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Coding",
+        "Antarmuka pengguna responsif dan intuitif siap pakai",
+        "Mendukung integrasi alur kerja modern dan ekspor data instan",
+        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+      ],
+      "affiliateUrl": "https://phind.com/?via=locagocreative",
+      "isFeatured": false
+    },
     {
       "id": "ai-1",
       "name": "v0 by Vercel",
