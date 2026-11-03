@@ -1,22 +1,8 @@
 import React, { useState, useEffect, useMemo } from 'react';
-
-interface ArticleItem {
-  id: string;
-  slug: string;
-  title: string;
-  title_en?: string;
-  language: 'id' | 'en';
-  category: string;
-  readTime: string;
-  date: string;
-  cover: string;
-  excerpt: string;
-  content: string;
-  affiliateTools?: string[];
-}
+import { ARTICLES_LIST, ArticleItem } from '../lib/articlesData';
 
 export const ArticlesHub: React.FC = () => {
-  const [articles, setArticles] = useState<ArticleItem[]>([]);
+  const [articles, setArticles] = useState<ArticleItem[]>(ARTICLES_LIST);
   const [selectedLang, setSelectedLang] = useState<'all' | 'id' | 'en'>('all');
   const [selectedCategory, setSelectedCategory] = useState<string>('Semua');
   const [searchQuery, setSearchQuery] = useState<string>('');
