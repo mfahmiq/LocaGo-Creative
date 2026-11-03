@@ -1,7 +1,97 @@
 {
-  "updatedAt": "04 Nov 2026, 00:19 WIB",
-  "total": 69,
+  "updatedAt": "04 Nov 2026, 00:44 WIB",
+  "total": 74,
   "items": [
+    {
+      "id": "ai-74",
+      "name": "Voicemaker",
+      "logoUrl": "/logos/voicemaker.png",
+      "category": "Voice & Audio AI",
+      "pricingType": "Freemium",
+      "commissionRate": "Partner Program",
+      "tagline": "Konverter Text-to-Speech Praktis untuk Kebutuhan Voiceover Iklan",
+      "description": "Voicemaker adalah software kecerdasan buatan terdepan di bidang Voice & Audio AI yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "features": [
+        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Voice & Audio AI",
+        "Antarmuka pengguna responsif dan intuitif siap pakai",
+        "Mendukung integrasi alur kerja modern dan ekspor data instan",
+        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+      ],
+      "affiliateUrl": "https://voicemaker.in/?via=locagocreative",
+      "isFeatured": false
+    },
+    {
+      "id": "ai-73",
+      "name": "Resemble AI",
+      "logoUrl": "/logos/resemble-ai.png",
+      "category": "Voice & Audio AI",
+      "pricingType": "Free Trial",
+      "commissionRate": "Partner Program",
+      "tagline": "Kloning Suara AI Cepat & Deteksi Deepfake Audio Tingkat Lanjut",
+      "description": "Resemble AI adalah software kecerdasan buatan terdepan di bidang Voice & Audio AI yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "features": [
+        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Voice & Audio AI",
+        "Antarmuka pengguna responsif dan intuitif siap pakai",
+        "Mendukung integrasi alur kerja modern dan ekspor data instan",
+        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+      ],
+      "affiliateUrl": "https://resemble.ai/?via=locagocreative",
+      "isFeatured": false
+    },
+    {
+      "id": "ai-72",
+      "name": "PlayHT",
+      "logoUrl": "/logos/playht.png",
+      "category": "Voice & Audio AI",
+      "pricingType": "Freemium",
+      "commissionRate": "Partner Program",
+      "tagline": "Voice Generator AI Ultra-Realistis dengan 900+ Suara Bahasa Dunia",
+      "description": "PlayHT adalah software kecerdasan buatan terdepan di bidang Voice & Audio AI yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "features": [
+        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Voice & Audio AI",
+        "Antarmuka pengguna responsif dan intuitif siap pakai",
+        "Mendukung integrasi alur kerja modern dan ekspor data instan",
+        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+      ],
+      "affiliateUrl": "https://play.ht/?via=locagocreative",
+      "isFeatured": false
+    },
+    {
+      "id": "ai-71",
+      "name": "ElevenLabs Reader",
+      "logoUrl": "/logos/elevenlabs-reader.png",
+      "category": "Voice & Audio AI",
+      "pricingType": "Freemium",
+      "commissionRate": "Partner Program",
+      "tagline": "Aplikasi Mobile Narasi Buku Audio dengan Pilihan Suara Terbaik",
+      "description": "ElevenLabs Reader adalah software kecerdasan buatan terdepan di bidang Voice & Audio AI yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "features": [
+        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Voice & Audio AI",
+        "Antarmuka pengguna responsif dan intuitif siap pakai",
+        "Mendukung integrasi alur kerja modern dan ekspor data instan",
+        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+      ],
+      "affiliateUrl": "https://elevenlabs.io/?from=locagocreative",
+      "isFeatured": false
+    },
+    {
+      "id": "ai-70",
+      "name": "Kaiber",
+      "logoUrl": "/logos/kaiber.png",
+      "category": "Video & Graphics",
+      "pricingType": "Free Trial",
+      "commissionRate": "Partner Program",
+      "tagline": "Generator Video AI Animasi Sinematik & Video Musik Musisi",
+      "description": "Kaiber adalah software kecerdasan buatan terdepan di bidang Video & Graphics yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "features": [
+        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Video & Graphics",
+        "Antarmuka pengguna responsif dan intuitif siap pakai",
+        "Mendukung integrasi alur kerja modern dan ekspor data instan",
+        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+      ],
+      "affiliateUrl": "https://kaiber.ai/?via=locagocreative",
+      "isFeatured": false
+    },
     {
       "id": "ai-69",
       "name": "InVideo AI",
