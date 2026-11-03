@@ -9,6 +9,7 @@ export const AIToolsHub: React.FC = () => {
   const [sortBy, setSortBy] = useState<'popular' | 'name'>('popular');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [isSubmitModalOpen, setIsSubmitModalOpen] = useState<boolean>(false);
+  const [activeDemoVideo, setActiveDemoVideo] = useState<{ name: string; videoId: string } | null>(null);
 
   useEffect(() => {
     fetch('/ai_tools_live.json?t=' + Date.now())
@@ -272,9 +273,33 @@ export const AIToolsHub: React.FC = () => {
             return (
               <div
                 key={tool.id}
-                className="group p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-neutral-800 hover:border-purple-500/40 transition-all duration-200 hover:shadow-xl flex flex-col justify-between"
+                className="group p-5 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-neutral-800 hover:border-purple-500/40 transition-all duration-200 hover:shadow-xl flex flex-col justify-between"
               >
                 <div>
+                  {/* Real WebP Screenshot / UI Preview Header */}
+                  {tool.screenshotUrl && (
+                    <div className="relative aspect-video w-full overflow-hidden rounded-xl mb-4 bg-neutral-950 border border-neutral-200/60 dark:border-neutral-800 shadow-inner group/preview">
+                      <img
+                        src={tool.screenshotUrl}
+                        alt={tool.name}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                        loading="lazy"
+                        onError={(e) => {
+                          (e.target as HTMLElement).style.display = 'none';
+                        }}
+                      />
+                      {tool.demoVideoUrl && (
+                        <button
+                          onClick={() => setActiveDemoVideo({ name: tool.name, videoId: tool.demoVideoUrl! })}
+                          className="absolute bottom-2.5 right-2.5 px-3 py-1.5 rounded-lg bg-neutral-900/90 hover:bg-purple-600 text-white backdrop-blur-md text-[11px] font-mono font-bold flex items-center gap-1.5 shadow-lg border border-white/20 cursor-pointer active:scale-95 transition-all"
+                        >
+                          <span className="text-rose-400 animate-pulse">▶</span>
+                          <span>Tonton Demo</span>
+                        </button>
+                      )}
+                    </div>
+                  )}
+
                   {/* Card Header with Real Logo */}
                   <div className="flex items-start justify-between gap-3 mb-3">
                     <div className="flex items-center gap-3">
@@ -487,6 +512,35 @@ export const AIToolsHub: React.FC = () => {
                   </div>
                 </form>
               )}
+            </div>
+          </div>
+        )}
+
+        {/* Demo Video Modal */}
+        {activeDemoVideo && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
+            <div className="bg-neutral-900 border border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-2xl w-full shadow-2xl relative text-white">
+              <button
+                onClick={() => setActiveDemoVideo(null)}
+                className="absolute top-5 right-5 text-neutral-400 hover:text-white font-mono text-xl cursor-pointer"
+              >
+                ✕
+              </button>
+              <div className="mb-4">
+                <span className="text-xs font-mono text-purple-400 font-bold uppercase tracking-wider block mb-1">
+                  Demo & Video Walkthrough Resmi
+                </span>
+                <h3 className="text-xl sm:text-2xl font-bold">{activeDemoVideo.name}</h3>
+              </div>
+              <div className="aspect-video w-full rounded-2xl overflow-hidden border border-neutral-800 shadow-lg">
+                <iframe
+                  src={`https://www.youtube.com/embed/${activeDemoVideo.videoId}?autoplay=1&rel=0`}
+                  title={activeDemoVideo.name}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full border-0"
+                />
+              </div>
             </div>
           </div>
         )}

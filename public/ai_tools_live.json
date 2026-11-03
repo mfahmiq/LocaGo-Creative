@@ -1,7 +1,27 @@
 {
-  "updatedAt": "04 Nov 2026, 00:44 WIB",
-  "total": 74,
+  "updatedAt": "04 Nov 2026, 00:49 WIB",
+  "total": 75,
   "items": [
+    {
+      "id": "ai-75",
+      "name": "Soundraw",
+      "logoUrl": "/logos/soundraw.png",
+      "category": "Voice & Audio AI",
+      "pricingType": "Freemium",
+      "commissionRate": "Partner Program",
+      "tagline": "Generator Musik Latar AI Bebas Royalti yang Bisa Dikustomisasi Bebas",
+      "description": "Soundraw adalah software kecerdasan buatan terdepan di bidang Voice & Audio AI yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "features": [
+        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Voice & Audio AI",
+        "Antarmuka pengguna responsif dan intuitif siap pakai",
+        "Mendukung integrasi alur kerja modern dan ekspor data instan",
+        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+      ],
+      "affiliateUrl": "https://soundraw.io/?via=locagocreative",
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
+    },
     {
       "id": "ai-74",
       "name": "Voicemaker",
@@ -18,7 +38,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://voicemaker.in/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-73",
@@ -36,7 +58,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://resemble.ai/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-72",
@@ -54,7 +78,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://play.ht/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-71",
@@ -72,7 +98,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://elevenlabs.io/?from=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-70",
@@ -90,7 +118,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://kaiber.ai/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-69",
@@ -108,7 +138,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://invideo.io/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-68",
@@ -126,7 +158,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://fliki.ai/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-67",
@@ -144,7 +178,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://colossyan.com/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-66",
@@ -162,7 +198,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://deepbrain.io/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-65",
@@ -180,7 +218,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://growthbarseo.com/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-64",
@@ -198,7 +238,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://scalenut.com/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-63",
@@ -216,7 +258,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://rytr.me/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-62",
@@ -234,7 +278,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://shortlyai.com/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-61",
@@ -252,7 +298,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://tryellie.com/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-60",
@@ -270,7 +318,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://coderabbit.ai/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-59",
@@ -288,7 +338,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://kite.com/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-58",
@@ -306,7 +358,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://sourcegraph.com/cody?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-57",
@@ -315,16 +369,18 @@
       "category": "AI Coding",
       "pricingType": "Freemium",
       "commissionRate": "Partner Program",
-      "tagline": "AI Code Generator & Autocomplete untuk 20+ Bahasa Pemrograman",
-      "description": "Blackbox AI adalah software kecerdasan buatan terdepan di bidang AI Coding yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "tagline": "AI Code Search & Autocomplete Cepat untuk 20+ Bahasa Pemrograman",
+      "description": "Ekstensi AI developer untuk pencarian solusi kode, autokomplet cerdas, dan ekstraksi teks kode langsung dari rekaman video tutorial atau gambar tangkapan layar. Sangat populer untuk debugging algoritma cepat tanpa meninggalkan editor.",
       "features": [
-        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Coding",
-        "Antarmuka pengguna responsif dan intuitif siap pakai",
-        "Mendukung integrasi alur kerja modern dan ekspor data instan",
-        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+        "Code autocomplete real-time di VS Code, Jupyter, dan browser",
+        "Fitur Optical Code Recognition (ekstrak kode dari video tutorial YouTube)",
+        "Mendukung 20+ bahasa pemrograman (Python, JS, TS, Java, C++, Go, Rust)",
+        "Chat konteks untuk refactor dan penjelasan struktur algoritma kompleks"
       ],
       "affiliateUrl": "https://blackbox.ai/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/tools/previews/blackbox.webp",
+      "demoVideoUrl": "yk9lXobJ97E"
     },
     {
       "id": "ai-56",
@@ -334,15 +390,17 @@
       "pricingType": "Freemium",
       "commissionRate": "Partner Program",
       "tagline": "Mesin Pencari Khusus Developer & Software Engineer Berbasis Code LLM",
-      "description": "Phind adalah software kecerdasan buatan terdepan di bidang AI Coding yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "description": "Search engine berbasis model bahasa besar yang dioptimalkan khusus untuk menjawab pertanyaan teknis pemrograman. Phind langsung memberikan potongan kode yang dapat dieksekusi, penjelasan arsitektur, dan referensi tautan dokumentasi resmi tanpa iklan.",
       "features": [
-        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Coding",
-        "Antarmuka pengguna responsif dan intuitif siap pakai",
-        "Mendukung integrasi alur kerja modern dan ekspor data instan",
-        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+        "Jawaban teknis langsung dengan blok kode terformat rapi dan terverifikasi",
+        "Koneksi internet live untuk library dan framework versi terbaru 2026",
+        "Integrasi VS Code extension untuk debugging langsung di terminal editor",
+        "Dukungan multi-file context upload untuk menganalisis error repositori"
       ],
       "affiliateUrl": "https://phind.com/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/tools/previews/phind.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-1",
@@ -351,16 +409,18 @@
       "category": "AI Coding",
       "pricingType": "Freemium",
       "commissionRate": "Partner Program",
-      "tagline": "Generator Komponen UI/UX React, Tailwind & Shadcn Instan dari Prompt",
-      "description": "v0 by Vercel adalah software kecerdasan buatan terdepan di bidang AI Coding yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "tagline": "Generator UI/UX React, Tailwind & Shadcn Instan dari Prompt Teks",
+      "description": "Engine desain generatif buatan Vercel yang mengubah deskripsi bahasa manusia atau tangkapan layar menjadi kode komponen React, Tailwind CSS, dan Shadcn UI siap pakai. Mendukung preview interaktif real-time dan ekspor langsung via perintah CLI npx shadcn@latest add.",
       "features": [
-        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Coding",
-        "Antarmuka pengguna responsif dan intuitif siap pakai",
-        "Mendukung integrasi alur kerja modern dan ekspor data instan",
-        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+        "Prompt-to-UI dengan library standar industri (React + Tailwind + Lucide)",
+        "Mode iterasi selektif untuk mengedit bagian tombol atau layout tertentu",
+        "Preview responsif mobile, tablet, dan desktop langsung di browser",
+        "Ekspor satu klik ke codebase Next.js tanpa dependensi pihak ketiga"
       ],
       "affiliateUrl": "https://v0.dev/?ref=locagocreative",
-      "isFeatured": true
+      "isFeatured": true,
+      "screenshotUrl": "/tools/previews/v0.webp",
+      "demoVideoUrl": "bO2tVeaZg30"
     },
     {
       "id": "ai-2",
@@ -369,16 +429,18 @@
       "category": "AI Coding",
       "pricingType": "Freemium",
       "commissionRate": "Partner Program",
-      "tagline": "IDE AI Coding Terpopuler yang Menggantikan VS Code Biasa",
-      "description": "Cursor AI adalah software kecerdasan buatan terdepan di bidang AI Coding yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "tagline": "IDE AI Coding Terpopuler Berbasis VS Code dengan Agentic Composer",
+      "description": "Code editor AI paling matang di industri yang melakukan fork langsung dari VS Code. Dilengkapi fitur Composer untuk refactoring multi-file simultan, shadow workspace lokal, dan integrasi model frontier Claude 3.7 Sonnet serta OpenAI o1 untuk mengotomasi penulisan fitur, debugging terminal, dan pembuatan unit test.",
       "features": [
-        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Coding",
-        "Antarmuka pengguna responsif dan intuitif siap pakai",
-        "Mendukung integrasi alur kerja modern dan ekspor data instan",
-        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+        "Composer multi-file untuk menulis dan mengedit puluhan file sekaligus",
+        "Shadow workspace untuk memverifikasi linter dan build sebelum kode disimpan",
+        "Pengindeksan simbol codebase lokal dengan konteks @codebase dan @docs",
+        "100% kompatibel dengan seluruh extension, keybinding, dan tema VS Code"
       ],
       "affiliateUrl": "https://cursor.com/?via=locagocreative",
-      "isFeatured": true
+      "isFeatured": true,
+      "screenshotUrl": "/tools/previews/cursor.webp",
+      "demoVideoUrl": "yk9lXobJ97E"
     },
     {
       "id": "ai-3",
@@ -387,16 +449,18 @@
       "category": "AI Coding",
       "pricingType": "Freemium",
       "commissionRate": "Partner Program",
-      "tagline": "Bangun, Jalankan & Deploy Full-Stack Web App Langsung di Browser",
-      "description": "Bolt.new adalah software kecerdasan buatan terdepan di bidang AI Coding yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "tagline": "Full-Stack Web Development Environment Langsung di Browser WebContainer",
+      "description": "Lingkungan pengembangan web full-stack berbasis browser bertenaga StackBlitz WebContainers. Mampu menjalankan runtime Node.js, menginstal paket npm, menjalankan dev server Vite, memperbaiki error runtime terminal secara otomatis, dan mendeploy aplikasi ke Netlify hanya dari satu prompt teks.",
       "features": [
-        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Coding",
-        "Antarmuka pengguna responsif dan intuitif siap pakai",
-        "Mendukung integrasi alur kerja modern dan ekspor data instan",
-        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+        "Full-stack development murni di browser tanpa perlu install Node/Git di laptop",
+        "Mendukung framework Next.js, Vite, React, Vue, Svelte, dan Supabase",
+        "Auto-debug terminal yang secara otomatis mendiagnosa dan memperbaiki bug",
+        "Satu klik deployment langsung ke production hosting ber-HTTPS"
       ],
       "affiliateUrl": "https://bolt.new/?via=locagocreative",
-      "isFeatured": true
+      "isFeatured": true,
+      "screenshotUrl": "/tools/previews/bolt.webp",
+      "demoVideoUrl": "uKq19cM2kY8"
     },
     {
       "id": "ai-4",
@@ -405,16 +469,18 @@
       "category": "AI Coding",
       "pricingType": "Freemium",
       "commissionRate": "Partner Program",
-      "tagline": "Agen AI yang Mengembangkan & Men-Deploy Aplikasi Web Lengkap",
-      "description": "Replit Agent adalah software kecerdasan buatan terdepan di bidang AI Coding yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "tagline": "Agen Otonom yang Membangun & Men-Deploy Software dari Awal hingga Akhir",
+      "description": "Agen pengembang software otonom dari Replit yang merancang arsitektur aplikasi dari nol. Replit Agent mampu membuat database PostgreSQL, menulis API backend FastAPI/Node.js, mendesain antarmuka frontend, mengonfigurasi autentikasi, dan mempublikasikannya langsung ke domain publik.",
       "features": [
-        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Coding",
-        "Antarmuka pengguna responsif dan intuitif siap pakai",
-        "Mendukung integrasi alur kerja modern dan ekspor data instan",
-        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+        "Perancangan aplikasi otonom dari nol hanya berbekal instruksi bahasa sehari-hari",
+        "Provisioning database cloud PostgreSQL dan API backend secara instan",
+        "Lingkungan kolaborasi tim langsung di cloud dengan akses terminal penuh",
+        "Hosting bawaan dengan custom domain dan sertifikat SSL gratis"
       ],
       "affiliateUrl": "https://replit.com/?via=locagocreative",
-      "isFeatured": true
+      "isFeatured": true,
+      "screenshotUrl": "/tools/previews/replit.webp",
+      "demoVideoUrl": "F9rOebL2h0E"
     },
     {
       "id": "ai-5",
@@ -432,7 +498,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://github.com/features/copilot?via=locagocreative",
-      "isFeatured": true
+      "isFeatured": true,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-6",
@@ -450,7 +518,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://codeium.com/windsurf?via=locagocreative",
-      "isFeatured": true
+      "isFeatured": true,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-7",
@@ -468,7 +538,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://aider.chat/?via=locagocreative",
-      "isFeatured": true
+      "isFeatured": true,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-8",
@@ -486,7 +558,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://supermaven.com/?via=locagocreative",
-      "isFeatured": true
+      "isFeatured": true,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-9",
@@ -504,7 +578,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://www.tabnine.com/?via=locagocreative",
-      "isFeatured": true
+      "isFeatured": true,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-10",
@@ -522,7 +598,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://continue.dev/?via=locagocreative",
-      "isFeatured": true
+      "isFeatured": true,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-11",
@@ -531,16 +609,18 @@
       "category": "Voice & Audio AI",
       "pricingType": "Freemium",
       "commissionRate": "Partner Program",
-      "tagline": "Voice AI & Text-to-Speech Paling Realistis di Dunia",
-      "description": "ElevenLabs adalah software kecerdasan buatan terdepan di bidang Voice & Audio AI yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "tagline": "Voice AI & Text-to-Speech Paling Realistis dengan Kloning Suara Studio",
+      "description": "Platform audio AI terdepan yang menghasilkan suara manusia paling alami di dunia. Mendukung lebih dari 29 bahasa termasuk intonasi Bahasa Indonesia yang sangat luwes, fitur instant voice cloning dari rekaman 1 menit, serta dubbing video otomatis yang menyelaraskan gerakan bibir pembicara.",
       "features": [
-        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Voice & Audio AI",
-        "Antarmuka pengguna responsif dan intuitif siap pakai",
-        "Mendukung integrasi alur kerja modern dan ekspor data instan",
-        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+        "Text-to-speech dengan kontrol emosi, jeda napas, dan intonasi ekspresif",
+        "Voice cloning instan hanya membutuhkan sampel audio rekaman 1 menit",
+        "Video Dubbing otomatis dengan sinkronisasi multi-bahasa dan mouth-sync",
+        "Sound effects AI generator untuk kebutuhan sound design film dan video"
       ],
       "affiliateUrl": "https://elevenlabs.io/?from=locagocreative",
-      "isFeatured": true
+      "isFeatured": true,
+      "screenshotUrl": "/tools/previews/elevenlabs.webp",
+      "demoVideoUrl": "bO4i_C4U5j0"
     },
     {
       "id": "ai-12",
@@ -549,16 +629,18 @@
       "category": "Voice & Audio AI",
       "pricingType": "Freemium",
       "commissionRate": "Partner Program",
-      "tagline": "Generator Lagu & Musik Lengkap Vokal AI Kualitas Siar Profesional",
-      "description": "Suno AI adalah software kecerdasan buatan terdepan di bidang Voice & Audio AI yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "tagline": "Studio Pembuatan Lagu & Musik Lengkap Vokal AI Kualitas Siar",
+      "description": "Platform kreasi musik generatif yang mampu memproduksi lagu lengkap berdurasi hingga 4 menit dengan vokal emosional, instrumen live band, dan aransemen lirik dalam genre apa pun (Pop, Akustik, Lo-Fi, Rock, EDM, Dangdut) hanya dalam 15 detik.",
       "features": [
-        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Voice & Audio AI",
-        "Antarmuka pengguna responsif dan intuitif siap pakai",
-        "Mendukung integrasi alur kerja modern dan ekspor data instan",
-        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+        "Generator lagu lengkap dengan vokal pria/wanita dan aransemen instrumen",
+        "Mendukung lirik kustom buatan sendiri atau auto-generate dari ide konsep",
+        "Pilihan genre musik tak terbatas dengan kontrol tempo dan bridge lagu",
+        "Hak lisensi komersial penuh untuk kebutuhan audio latar video dan iklan"
       ],
       "affiliateUrl": "https://suno.com/?via=locagocreative",
-      "isFeatured": true
+      "isFeatured": true,
+      "screenshotUrl": "/banners/gemini/banner_pos_ritel.webp",
+      "demoVideoUrl": "0n-ZcO5g6qM"
     },
     {
       "id": "ai-13",
@@ -576,7 +658,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://www.udio.com/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-14",
@@ -594,7 +678,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://www.descript.com/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-15",
@@ -612,7 +698,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://speechify.com/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-16",
@@ -630,7 +718,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://lovo.ai/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-17",
@@ -648,7 +738,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://murf.ai/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-18",
@@ -666,7 +758,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://krisp.ai/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-19",
@@ -684,7 +778,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://otter.ai/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-20",
@@ -702,7 +798,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://podcastle.ai/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-21",
@@ -711,16 +809,18 @@
       "category": "Video & Graphics",
       "pricingType": "Paid",
       "commissionRate": "Partner Program",
-      "tagline": "Generator Gambar AI Paling Sinematik & Estetik untuk Desainer",
-      "description": "Midjourney adalah software kecerdasan buatan terdepan di bidang Video & Graphics yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "tagline": "Generator Gambar & Ilustrasi Fotorealistik Kualitas Sinematik Tertinggi",
+      "description": "Model difusi generatif terdepan di dunia untuk produksi visual, concept art, fotografi studio, dan aset grafis 3D dari teks prompt. Memiliki rendering pencahayaan volumetrik superior, tekstur fotorealistik, dan kontrol koherensi karakter konsisten.",
       "features": [
-        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Video & Graphics",
-        "Antarmuka pengguna responsif dan intuitif siap pakai",
-        "Mendukung integrasi alur kerja modern dan ekspor data instan",
-        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+        "Kualitas estetika visual dan pencahayaan studio tingkat profesional",
+        "Fitur Inpainting (Vary Region) untuk mengedit bagian objek gambar secara presisi",
+        "Parameter konsistensi karakter (--cref) dan gaya visual (--sref)",
+        "Antarmuka web interaktif baru dengan kanvas editor bawaan"
       ],
       "affiliateUrl": "https://www.midjourney.com/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/tools/previews/midjourney.webp",
+      "demoVideoUrl": "yk9lXobJ97E"
     },
     {
       "id": "ai-22",
@@ -729,16 +829,18 @@
       "category": "Video & Graphics",
       "pricingType": "Freemium",
       "commissionRate": "Partner Program",
-      "tagline": "Avatar AI Sinematik & Video Juru Bicara Tanpa Perlu Masuk Kamera",
-      "description": "HeyGen adalah software kecerdasan buatan terdepan di bidang Video & Graphics yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "tagline": "Studio Video Juru Bicara Avatar AI Sinematik Tanpa Perlu Kamera",
+      "description": "Platform pembuatan video juru bicara dengan avatar digital fotorealistik. Cukup masukkan naskah teks, pilih dari ratusan karakter profesional, dan video edukasi atau promosi produk siap tayang dalam hitungan menit dengan sinkronisasi bibir presisi dalam 40+ bahasa.",
       "features": [
-        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Video & Graphics",
-        "Antarmuka pengguna responsif dan intuitif siap pakai",
-        "Mendukung integrasi alur kerja modern dan ekspor data instan",
-        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+        "100+ avatar digital fotorealistik dengan berbagai busana dan latar belakang",
+        "Instant Avatar untuk membuat kembaran digital pribadi dari rekaman HP 2 menit",
+        "Voice lip-syncing presisi tinggi dengan intonasi natural dalam puluhan bahasa",
+        "Template video format vertikal 9:16 untuk TikTok, Reels, dan YouTube Shorts"
       ],
       "affiliateUrl": "https://www.heygen.com/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_billing_ps.webp",
+      "demoVideoUrl": "n0_hK_Qp-rU"
     },
     {
       "id": "ai-23",
@@ -747,16 +849,18 @@
       "category": "Video & Graphics",
       "pricingType": "Freemium",
       "commissionRate": "Partner Program",
-      "tagline": "Generator Video Sinematik Teks-ke-Video Tingkat Studio Hollywood",
-      "description": "Runway Gen-3 adalah software kecerdasan buatan terdepan di bidang Video & Graphics yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "tagline": "Generator Video AI Sinematik 4K dengan Kontrol Kamera Sutradara",
+      "description": "Model video generatif canggih buatan Runway untuk menghasilkan video fotorealistik dengan simulasi fisika nyata. Dilengkapi kontrol pergerakan kamera sinematik (Pan, Zoom, Orbit, FPV Drone) dan fitur Motion Brush untuk menganimasikan objek tertentu.",
       "features": [
-        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Video & Graphics",
-        "Antarmuka pengguna responsif dan intuitif siap pakai",
-        "Mendukung integrasi alur kerja modern dan ekspor data instan",
-        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+        "Text-to-Video dan Image-to-Video beresolusi tinggi hingga 4K",
+        "Motion Brush untuk kontrol arah gerakan objek spesifik di dalam frame",
+        "Camera Controls presisi sutradara (kecepatan, sudut pandang, zoom)",
+        "Generasi ekspresi emosi wajah dan lip-sync manusia alami"
       ],
       "affiliateUrl": "https://runwayml.com/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/tools/previews/runway.webp",
+      "demoVideoUrl": "0n-ZcO5g6qM"
     },
     {
       "id": "ai-24",
@@ -774,7 +878,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://klingai.com/affiliate",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-25",
@@ -792,7 +898,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://lumalabs.ai/dream-machine?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-26",
@@ -810,7 +918,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://www.opus.pro/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-27",
@@ -828,7 +938,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://pictory.ai/?ref=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-28",
@@ -846,7 +958,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://viggle.ai/affiliate",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-29",
@@ -864,7 +978,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://pika.art/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-30",
@@ -882,7 +998,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://magnific.ai/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-31",
@@ -900,7 +1018,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://www.capcut.com/affiliate",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-32",
@@ -918,7 +1038,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://clipdrop.co/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-33",
@@ -936,7 +1058,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://leonardo.ai/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-34",
@@ -954,7 +1078,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://www.recraft.ai/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-35",
@@ -972,7 +1098,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://www.krea.ai/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-36",
@@ -981,16 +1109,18 @@
       "category": "Automation & No-Code",
       "pricingType": "Freemium",
       "commissionRate": "Partner Program",
-      "tagline": "Platform Funnel, Email Marketing & Kursus All-in-One Gratis",
-      "description": "Systeme.io adalah software kecerdasan buatan terdepan di bidang Automation & No-Code yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "tagline": "Infrastruktur Bisnis Digital All-in-One: Funnel, Email & Membership",
+      "description": "Platform pemasaran online lengkap yang menggantikan kebutuhan langganan terpisah untuk landing page builder, autoresponder email, hosting kursus online, dan program afiliasi. Paket gratis selamanya mendukung 2.000 kontak dan unlimited email tanpa syarat kartu kredit.",
       "features": [
-        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Automation & No-Code",
-        "Antarmuka pengguna responsif dan intuitif siap pakai",
-        "Mendukung integrasi alur kerja modern dan ekspor data instan",
-        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+        "Drag-and-drop sales funnel builder dengan integrasi checkout Stripe & PayPal",
+        "Otomasi email marketing terjadwal, autoresponder, dan broadcast newsletter",
+        "Hosting kursus video dan portal keanggotaan digital (membership site)",
+        "Sistem program afiliasi bawaan untuk merekrut mitra penjual produk Anda"
       ],
       "affiliateUrl": "https://systeme.io/id?sa=sa0285473359ae5985c82865330cf1a062d892e972",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_portal_donasi.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-37",
@@ -999,16 +1129,18 @@
       "category": "Automation & No-Code",
       "pricingType": "Freemium",
       "commissionRate": "Partner Program",
-      "tagline": "Otomatisasi Alur Kerja Visual Tanpa Batas (Alternatif Zapier)",
-      "description": "Make.com adalah software kecerdasan buatan terdepan di bidang Automation & No-Code yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "tagline": "Platform Otomasi Alur Kerja Visual Tanpa Batas Alternatif Hemat Zapier",
+      "description": "Platform integrasi visual tanpa koding yang menghubungkan ribuan aplikasi (Google Sheets, WhatsApp, Notion, Telegram, CRM, dan LLM) dalam satu kanvas modular. Memiliki kapabilitas manipulasi data JSON kompleks, webhook real-time, dan sistem penanganan error otomatis yang tangguh.",
       "features": [
-        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Automation & No-Code",
-        "Antarmuka pengguna responsif dan intuitif siap pakai",
-        "Mendukung integrasi alur kerja modern dan ekspor data instan",
-        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+        "Visual drag-and-drop canvas untuk merancang skenario alur kerja multi-cabang",
+        "Konektor ribuan aplikasi populer dengan dukungan custom HTTP/Webhook API",
+        "Sistem penjadwalan eksekusi fleksibel (real-time, interval menit, atau harian)",
+        "Log monitoring eksekusi terperinci dengan kemampuan retry otomatis"
       ],
       "affiliateUrl": "https://www.make.com/en/register?pc=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/tools/previews/make.webp",
+      "demoVideoUrl": "yk9lXobJ97E"
     },
     {
       "id": "ai-38",
@@ -1017,16 +1149,18 @@
       "category": "Automation & No-Code",
       "pricingType": "Freemium",
       "commissionRate": "Partner Program",
-      "tagline": "Bikin Chatbot AI Custom dari File PDF & Website Bisnis Sendiri",
-      "description": "Chatbase adalah software kecerdasan buatan terdepan di bidang Automation & No-Code yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "tagline": "Platform Pembuatan Chatbot AI Kustom dari PDF & Website Bisnis",
+      "description": "Layanan no-code untuk membangun agen chatbot pintar berbasis ChatGPT yang dilatih langsung menggunakan dokumen SOP, katalog produk PDF, atau tautan website Anda. Widget chat responsif dapat di-embed langsung ke website klien hanya dengan satu baris tag script.",
       "features": [
-        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Automation & No-Code",
-        "Antarmuka pengguna responsif dan intuitif siap pakai",
-        "Mendukung integrasi alur kerja modern dan ekspor data instan",
-        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+        "Pelatihan bot instan dengan upload file PDF, DOCX, CSV, atau sitemap URL",
+        "Widget chat kustom yang dapat diselaraskan dengan logo dan palet brand",
+        "Integrasi langsung ke WhatsApp Gateway, Zapier, dan Make via Webhook",
+        "Log analitik percakapan pelanggan untuk mendeteksi prospek yang belum closing"
       ],
       "affiliateUrl": "https://www.chatbase.co/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/tools/previews/chatbase.webp",
+      "demoVideoUrl": "F9rOebL2h0E"
     },
     {
       "id": "ai-39",
@@ -1044,7 +1178,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://www.browse.ai/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-40",
@@ -1062,7 +1198,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://www.voiceflow.com/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-41",
@@ -1080,7 +1218,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://zapier.com/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-42",
@@ -1098,7 +1238,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://www.notion.so/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-43",
@@ -1116,7 +1258,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://www.bardeen.ai/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-44",
@@ -1134,7 +1278,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://goapi.ai/affiliate",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-45",
@@ -1152,7 +1298,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://www.activecampaign.com/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-46",
@@ -1162,15 +1310,17 @@
       "pricingType": "Freemium",
       "commissionRate": "Partner Program",
       "tagline": "Mesin Pencari Berbasis AI dengan Kutipan Sumber Faktual Real-Time",
-      "description": "Perplexity AI adalah software kecerdasan buatan terdepan di bidang AI Writing & SEO yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "description": "Mesin penelusuran generasi baru yang menyajikan jawaban komprehensif atas pertanyaan kompleks lengkap dengan kutipan sitasi sumber ilmiah dan berita terverifikasi secara langsung. Dilengkapi mode Pro Search untuk pemecahan masalah bertahap dan analisis dokumen teknis.",
       "features": [
-        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Writing & SEO",
-        "Antarmuka pengguna responsif dan intuitif siap pakai",
-        "Mendukung integrasi alur kerja modern dan ekspor data instan",
-        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+        "Pencarian internet real-time dengan rujukan link sumber yang dapat diverifikasi",
+        "Mode Pro Search dengan penalaran bertahap (multi-step reasoning)",
+        "Upload dan analisis dokumen PDF, CSV, dan artikel web panjang secara instan",
+        "Fleksibilitas memilih model LLM frontier (Claude 3.5 Sonnet, GPT-4o, Sonar)"
       ],
       "affiliateUrl": "https://perplexity.ai/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_ams_surat.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-47",
@@ -1188,7 +1338,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://koala.sh/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-48",
@@ -1206,7 +1358,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://writesonic.com/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-49",
@@ -1224,7 +1378,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://surferseo.com/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-50",
@@ -1242,7 +1398,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://www.copy.ai/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-51",
@@ -1260,7 +1418,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://www.jasper.ai/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-52",
@@ -1278,7 +1438,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://monica.im/affiliate",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-53",
@@ -1296,7 +1458,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://rytr.me/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-54",
@@ -1314,7 +1478,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://quillbot.com/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     },
     {
       "id": "ai-55",
@@ -1332,7 +1498,9 @@
         "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
       ],
       "affiliateUrl": "https://frase.io/?via=locagocreative",
-      "isFeatured": false
+      "isFeatured": false,
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "Air0gJ_6h6o"
     }
   ]
 }
