@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { AI_TOOLS_LIST } from '../lib/data';
 import { AIToolItem } from '../types';
 
