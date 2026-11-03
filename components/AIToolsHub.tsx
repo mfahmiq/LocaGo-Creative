@@ -3,11 +3,26 @@ import { AI_TOOLS_LIST } from '../lib/data';
 import { AIToolItem } from '../types';
 
 export const AIToolsHub: React.FC = () => {
+  const [tools, setTools] = useState<AIToolItem[]>(AI_TOOLS_LIST);
   const [selectedCategory, setSelectedCategory] = useState<string>('Semua');
   const [selectedPricing, setSelectedPricing] = useState<string>('Semua');
   const [sortBy, setSortBy] = useState<'popular' | 'name'>('popular');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [isSubmitModalOpen, setIsSubmitModalOpen] = useState<boolean>(false);
+
+  useEffect(() => {
+    fetch('/ai_tools_live.json?t=' + Date.now())
+      .then((res) => {
+        if (!res.ok) throw new Error('Live JSON not found');
+        return res.json();
+      })
+      .then((data) => {
+        if (data.items && data.items.length > 0) {
+          setTools(data.items);
+        }
+      })
+      .catch(() => {});
+  }, []);
 
   // Form submission state
   const [submitForm, setSubmitForm] = useState({
@@ -85,7 +100,7 @@ export const AIToolsHub: React.FC = () => {
   };
 
   const filteredAndSortedTools = useMemo(() => {
-    return AI_TOOLS_LIST.filter((tool) => {
+    return tools.filter((tool) => {
       const matchCat = selectedCategory === 'Semua' || tool.category === selectedCategory;
       const matchPricing = selectedPricing === 'Semua' || tool.pricingType === selectedPricing;
       const matchSearch =
@@ -125,7 +140,7 @@ export const AIToolsHub: React.FC = () => {
 
           <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
             <span className="px-3.5 py-1.5 rounded-full bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 text-xs font-mono text-neutral-700 dark:text-neutral-300 shadow-sm">
-              ⚡ <strong>{AI_TOOLS_LIST.length}+</strong> Alat AI Terverifikasi
+              ⚡ <strong>{tools.length}+</strong> Alat AI Terverifikasi
             </span>
             <button
               onClick={() => setIsSubmitModalOpen(true)}
