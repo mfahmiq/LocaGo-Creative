@@ -15,9 +15,9 @@ export const DualDownloadModal: React.FC<DualDownloadModalProps> = ({ item, onCl
 
   const handleSafelinkRedirect = () => {
     // Redirect to the multi-step article safelink loop on dwollopus.eu.org
-    const safelinkUrl = `https://www.dwollopus.eu.org/p/safelink-generator.html?item=${encodeURIComponent(
+    const safelinkUrl = `https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=${encodeURIComponent(
       item.slug
-    )}&step=1&max=5&hash=${Math.random().toString(36).substring(7)}`;
+    )}&step=1&max=8&hash=${Math.random().toString(36).substring(7)}`;
     window.open(safelinkUrl, '_blank', 'noopener,noreferrer');
   };
 
