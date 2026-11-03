@@ -5,7 +5,7 @@ export const AIToolsHub: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('Semua');
   const [searchQuery, setSearchQuery] = useState<string>('');
 
-  const categories = ['Semua', 'Automation & No-Code', 'Voice & Audio AI', 'AI Writing & SEO', 'Video & Graphics'];
+  const categories = ['Semua', 'Automation & No-Code', 'Voice & Audio AI', 'AI Writing & SEO', 'Video & Graphics', 'AI Coding'];
 
   const filteredTools = useMemo(() => {
     return AI_TOOLS_LIST.filter((tool) => {

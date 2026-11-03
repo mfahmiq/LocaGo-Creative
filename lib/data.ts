@@ -530,5 +530,175 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
     ],
     affiliateUrl: 'https://pictory.ai/?ref=locagocreative',
     isFeatured: false
+  },
+  {
+    id: 'ai-6',
+    name: 'Cursor AI',
+    category: 'AI Coding',
+    pricingType: 'Freemium',
+    commissionRate: '20% Recurring',
+    tagline: 'IDE AI Coding Terpopuler yang Menggantikan VS Code Biasa',
+    description: 'Code editor berbasis VS Code dengan integrasi model frontier (Claude 3.7 Sonnet, GPT-4o) untuk autocomplete multi-file cerdas, terminal auto-debug, dan pembuatan fitur dalam hitungan detik.',
+    features: [
+      'Composer multi-file editing untuk refactor seluruh codebase sekaligus',
+      'Prediksi tab baris berikutnya (next-action autocomplete) ultra-cepat',
+      'Chat konteks penuh dengan referensi codebase (@codebase, @docs)',
+      '100% kompatibel dengan semua ekstensi, keybinding, dan tema VS Code'
+    ],
+    affiliateUrl: 'https://cursor.com/?via=locagocreative',
+    isFeatured: true
+  },
+  {
+    id: 'ai-7',
+    name: 'HeyGen',
+    category: 'Video & Graphics',
+    pricingType: 'Freemium',
+    commissionRate: '20% - 30% Lifetime Recurring',
+    tagline: 'Avatar AI Sinematik & Video Juru Bicara Tanpa Perlu Masuk Kamera',
+    description: 'Platform pembuatan video dengan presenter AI fotorealistik dan kloning suara studio. Cukup ketik naskah, pilih avatar profesional, dan video edukasi atau promosi produk siap tayang dalam hitungan menit.',
+    features: [
+      '100+ pilihan avatar AI fotorealistik berbagai etnis dan busana kerja',
+      'Fitur Instant Avatar untuk membuat kembaran digital dari rekaman HP 2 menit',
+      'Voice lip-syncing sempurna dalam 40+ bahasa asing secara instan',
+      'Integrasi template video vertikal untuk TikTok, Reels, dan YouTube Shorts'
+    ],
+    affiliateUrl: 'https://www.heygen.com/?via=locagocreative',
+    isFeatured: true
+  },
+  {
+    id: 'ai-8',
+    name: 'Opus Clip',
+    category: 'Video & Graphics',
+    pricingType: 'Freemium',
+    commissionRate: '25% Recurring',
+    tagline: '#1 AI Video Repurposing: Ubah Video Panjang Jadi 10 Klip Viral',
+    description: 'Tool kurasi video otomatis bertenaga AI yang membedah rekaman podcast, webinar, atau YouTube panjang menjadi puluhan video pendek berhook tajam dengan auto-captions dinamis dan skor viralitas.',
+    features: [
+      'AI Curation otomatis mendeteksi momen klimaks dan punchline terkuat',
+      'Viral Score kalkulator untuk memprediksi potensi jangkauan algoritma',
+      'Dynamic Animated Captions dengan auto-emoji dan highlight kata kunci',
+      'Auto-Reframing cerdas menjaga wajah pembicara selalu di tengah frame 9:16'
+    ],
+    affiliateUrl: 'https://www.opus.pro/?via=locagocreative',
+    isFeatured: true
+  },
+  {
+    id: 'ai-9',
+    name: 'Chatbase',
+    category: 'Automation & No-Code',
+    pricingType: 'Freemium',
+    commissionRate: '20% Lifetime Recurring',
+    tagline: 'Bikin Chatbot AI Custom dari File PDF & Website Bisnis Sendiri',
+    description: 'Bangun agen chatbot GPT kustom yang terlatih khusus berdasarkan data produk, SOP perusahaan, atau tautan website Anda. Bisa disematkan langsung (widget embed) ke website klien hanya dengan satu baris script.',
+    features: [
+      'Latih bot dengan upload PDF, DOCX, CSV, atau masukkan sitemap URL web',
+      'Widget embed responsif yang bisa dikustomisasi warna brand dan avatar',
+      'Terhubung dengan WhatsApp, Slack, Zapier, dan Make via Webhook API',
+      'Analisis log percakapan pelanggan untuk mendeteksi leads yang belum closing'
+    ],
+    affiliateUrl: 'https://www.chatbase.co/?via=locagocreative',
+    isFeatured: false
+  },
+  {
+    id: 'ai-10',
+    name: 'Writesonic',
+    category: 'AI Writing & SEO',
+    pricingType: 'Freemium',
+    commissionRate: '30% Lifetime Recurring',
+    tagline: 'Platform Copywriting & Riset Konten SEO Bertenaga AI Generatif',
+    description: 'Suite penulisan konten all-in-one yang dilengkapi Chatsonic (alternatif ChatGPT dengan data Google live), SEO checker, dan generator copywriting iklan media sosial dengan conversion rate tinggi.',
+    features: [
+      'Article Writer 5.0 yang menghasilkan artikel panjang berbasis data faktual',
+      'Generator copywriting iklan Facebook, Google Ads, dan LinkedIn dengan tone persuasif',
+      'Brand Voice builder agar gaya bahasa tulisan selalu konsisten dengan identitas brand',
+      'Parafrase dan humanizer teks bawaan agar tulisan mengalir natural'
+    ],
+    affiliateUrl: 'https://writesonic.com/?via=locagocreative',
+    isFeatured: false
+  },
+  {
+    id: 'ai-11',
+    name: 'Descript',
+    category: 'Voice & Audio AI',
+    pricingType: 'Freemium',
+    commissionRate: '15% Recurring',
+    tagline: 'Edit Video & Audio Podcast Semudah Mengedit Dokumen Teks',
+    description: 'Aplikasi editing audio dan video revolusioner berbasis transkrip teks. Hapus jeda hening atau kata gumam (umm, err) cukup dengan menghapus katanya dari naskah, dan audio video akan otomatis terpotong mulus.',
+    features: [
+      'Text-based Video Editing: potong transkrip, klip video ikut terpotong otomatis',
+      'Studio Sound AI untuk membersihkan suara bising background jadi jernih ala studio',
+      'Filler Word Removal satu klik untuk singkirkan kata jeda yang tidak perlu',
+      'Overdub AI voice clone untuk menambal kata yang salah ucap tanpa rekam ulang'
+    ],
+    affiliateUrl: 'https://www.descript.com/?via=locagocreative',
+    isFeatured: false
+  },
+  {
+    id: 'ai-12',
+    name: 'v0 by Vercel',
+    category: 'AI Coding',
+    pricingType: 'Freemium',
+    commissionRate: 'Partner Tiered',
+    tagline: 'Generator Komponen UI/UX React, Tailwind & Shadcn Instan dari Prompt',
+    description: 'Mesin AI generatif buatan Vercel yang merancang antarmuka aplikasi web modern hanya dari deskripsi teks atau screenshot. Kode JSX dan styling Tailwind yang dihasilkan sangat bersih dan siap salin ke project.',
+    features: [
+      'Prompt-to-UI instan dengan library standar industri (Tailwind CSS + Shadcn UI)',
+      'Preview langsung di browser dengan live interactive preview mode',
+      'Satu klik ekspor kode ke Next.js via npx shadcn@latest add command',
+      'Kemampuan kloning tata letak antarmuka hanya dari unggahan gambar screenshot'
+    ],
+    affiliateUrl: 'https://v0.dev/?ref=locagocreative',
+    isFeatured: true
+  },
+  {
+    id: 'ai-13',
+    name: 'Surfer SEO',
+    category: 'AI Writing & SEO',
+    pricingType: 'Paid',
+    commissionRate: '25% Recurring',
+    tagline: 'Tool Riset & Optimasi On-Page SEO #1 untuk Masuk Halaman 1 Google',
+    description: 'Software analisis SEO berbasis audit algoritma mesin pencari. Memberikan panduan pasti jumlah kata, struktur heading, dan entitas NLP kata kunci yang wajib dimasukkan agar artikel menang bersaing di Google.',
+    features: [
+      'Content Editor real-time dengan Content Score indikator interaktif',
+      'Analisis audit 500+ faktor ranking dari kompetitor top 10 Google',
+      'Integrasi langsung dengan Google Docs, WordPress, Jasper, dan Contentful',
+      'Keyword Research tool untuk pemetaan topik (topic clusters) otoritas tinggi'
+    ],
+    affiliateUrl: 'https://surferseo.com/?via=locagocreative',
+    isFeatured: false
+  },
+  {
+    id: 'ai-14',
+    name: 'Suno AI',
+    category: 'Voice & Audio AI',
+    pricingType: 'Freemium',
+    commissionRate: 'Partner Program',
+    tagline: 'Generator Lagu & Musik Lengkap Vokal AI Kualitas Siar Profesional',
+    description: 'Platform AI pembuat musik lengkap dengan vokal emosional, instrumen band/orkestra, dan aransemen lirik dalam genre apa pun (Pop, Rock, Jazz, Dangdut, Lo-Fi) hanya dalam 15 detik.',
+    features: [
+      'Hasilkan lagu lengkap berdurasi hingga 4 menit berkualitas master audio',
+      'Mendukung penulisan lirik custom atau auto-generated lyric dari prompt',
+      'Pilihan genre tak terbatas: Akustik, Synthwave, Hip Hop, Cinematic, EDM',
+      'Hak lisensi komersial untuk kebutuhan background music video YouTube & Ads'
+    ],
+    affiliateUrl: 'https://suno.com/?via=locagocreative',
+    isFeatured: false
+  },
+  {
+    id: 'ai-15',
+    name: 'Browse AI',
+    category: 'Automation & No-Code',
+    pricingType: 'Freemium',
+    commissionRate: '20% Lifetime Recurring',
+    tagline: 'Scraper & Monitor Data Website Tanpa Koding (No-Code Data Extraction)',
+    description: 'Ekstrak data tabel produk toko online, lowongan kerja, atau harga kompetitor dari website mana pun hanya dengan mengklik elemen di layar. Dilengkapi fitur monitoring berkala yang memberi alert jika data berubah.',
+    features: [
+      'Latih robot web scraper hanya dalam 2 menit tanpa perlu baris kode apapun',
+      'Kemampuan bypass pagination, scroll tak terbatas, dan login wall',
+      'Sinkronisasi otomatis hasil scrape ke Google Sheets, Airtable, atau Webhook',
+      'Penjadwalan monitoring berkala (per jam, harian, atau mingguan)'
+    ],
+    affiliateUrl: 'https://www.browse.ai/?via=locagocreative',
+    isFeatured: false
   }
 ];
