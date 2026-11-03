@@ -22,8 +22,8 @@ export const DualDownloadModal: React.FC<DualDownloadModalProps> = ({ item, onCl
   };
 
   const handleFastPassRedirect = () => {
-    // Open Saweria / Trakteer / QRIS donation page
-    window.open(DONATION_URL_DEFAULT, '_blank', 'noopener,noreferrer');
+    // Open Lynk.id / QRIS donation page min 2rb
+    window.open('https://lynk.id/dwollopus', '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -105,7 +105,7 @@ export const DualDownloadModal: React.FC<DualDownloadModalProps> = ({ item, onCl
                         onClick={handleFastPassRedirect}
                         className="px-4 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-mono text-xs font-bold transition-all shadow-sm active:scale-95 cursor-pointer flex items-center gap-1.5"
                       >
-                        <span>☕ Donasi Rp 2.000 & Download Instan</span>
+                        <span>☕ Donasi Rp 2.000 via Lynk.id & Download Instan</span>
                       </button>
                       <button
                         onClick={() => setShowQrisPreview(!showQrisPreview)}
@@ -118,17 +118,17 @@ export const DualDownloadModal: React.FC<DualDownloadModalProps> = ({ item, onCl
                     {showQrisPreview && (
                       <div className="mt-3 p-3 bg-white dark:bg-neutral-800 rounded-lg border border-neutral-200 dark:border-neutral-700 text-center animate-fade-in">
                         <p className="text-[11px] text-neutral-600 dark:text-neutral-300 font-medium mb-2">
-                          Scan QRIS via GoPay, OVO, Dana, ShopeePay, atau Mobile Banking:
+                          Scan QRIS Lynk.id via GoPay, OVO, Dana, ShopeePay, atau Mobile Banking:
                         </p>
                         <div className="inline-block p-2 bg-white rounded-lg border border-neutral-300 shadow-inner">
                           <img
-                            src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://saweria.co/dwollopus"
-                            alt="QRIS Donasi 2rb"
+                            src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://lynk.id/dwollopus"
+                            alt="QRIS Donasi 2rb Lynk.id"
                             className="w-32 h-32 mx-auto object-contain"
                           />
                         </div>
                         <p className="text-[10px] text-neutral-500 mt-2 font-mono">
-                          Nominal minimal: Rp 2.000 • Link otomatis terbuka setelah verifikasi
+                          Nominal minimal: Rp 2.000 • Link Lynk.id otomatis terbuka setelah verifikasi
                         </p>
                       </div>
                     )}

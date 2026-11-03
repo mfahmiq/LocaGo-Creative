@@ -1,7 +1,7 @@
 import { SourceCodeItem, GitHubTrendingItem, AIToolItem } from '../types';
 
 export const SAFELINK_BASE_URL = 'https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html';
-export const DONATION_URL_DEFAULT = 'https://saweria.co/dwollopus'; // Rp 2.000 default min
+export const DONATION_URL_DEFAULT = 'https://lynk.id/dwollopus'; // Lynk.id donasi min 2rb
 export const WA_CONSULT_URL = 'https://wa.me/6285189393354?text=Halo%20LocaGo%20Creative,%20saya%20tertarik%20dengan%20kustomisasi%20source%20code%20atau%20jasa%20website';
 
 export const SOURCE_CODE_LIST: SourceCodeItem[] = [
@@ -202,7 +202,139 @@ export const SOURCE_CODE_LIST: SourceCodeItem[] = [
       'Notifikasi WhatsApp otomatis berisi tanda terima kasih ke donatur'
     ],
     downloadUrlFree: `${SAFELINK_BASE_URL}?item=portal-donasi-laravel&step=1&target=drive`,
-    downloadUrlFast: 'https://saweria.co/dwollopus'
+    downloadUrlFast: 'https://lynk.id/dwollopus'
+  },
+  {
+    id: 'sc-7',
+    title: 'Sistem Informasi Akademik Sekolah (SIAKAD Modern) Multi-Role',
+    slug: 'siakad-sekolah-laravel-modern',
+    category: 'PHP & Laravel',
+    techStack: ['Laravel 11', 'Tailwind CSS', 'MySQL', 'Livewire'],
+    description: 'Aplikasi SIAKAD sekolah lengkap untuk manajemen data siswa, guru, kelas, mata pelajaran, jadwal KBM, dan e-Rapot kurikulum merdeka. Tampilan modern dark-slate dengan dashboard statistik real-time.',
+    shortDesc: 'Aplikasi SIAKAD sekolah lengkap e-Rapot kurikulum merdeka, jadwal KBM, dan kelola nilai siswa.',
+    thumbnail: '/screenshots/siakad_dashboard.png',
+    downloadsCount: 1680,
+    rating: 4.9,
+    isPopular: true,
+    isFree: true,
+    hasDatabase: true,
+    databaseType: 'MySQL (.sql)',
+    fileSize: '28.5 MB',
+    tutorialSteps: [
+      'Ekstrak file source code ke folder Laragon atau XAMPP.',
+      'Buat database baru di phpMyAdmin bernama `db_siakad_sekolah`.',
+      'Import file `siakad_master.sql` yang sudah disertakan lengkap dengan data dummy.',
+      'Konfigurasi file `.env` untuk koneksi database.',
+      'Jalankan `php artisan serve` dan login dengan akun admin: `admin@sekolah.sch.id` / `admin123`.'
+    ],
+    keyFeatures: [
+      'Multi-Role Hak Akses: Administrator, Kepala Sekolah, Guru Pengajar, Wali Kelas, Siswa',
+      'Cetak Rapot Digital PDF siap tanda tangan dan stempel',
+      'Manajemen Kenaikan Kelas & Mutasi Siswa otomatis',
+      'Jadwal Pelajaran anti-bentrok guru dan ruangan',
+      'Dashboard grafik kehadiran & rata-rata nilai siswa'
+    ],
+    downloadUrlFree: `${SAFELINK_BASE_URL}?item=siakad-sekolah-laravel&step=1&target=drive`,
+    downloadUrlFast: 'https://lynk.id/dwollopus'
+  },
+  {
+    id: 'sc-8',
+    title: 'Sistem Informasi Perpustakaan Digital (SIPERPUS) + Kartu Anggota QR',
+    slug: 'siperpus-digital-qr-code',
+    category: 'PHP & Laravel',
+    techStack: ['CodeIgniter 4', 'Bootstrap 5', 'MySQL', 'QR Code Generator'],
+    description: 'Sistem informasi perpustakaan sekolah dan kampus dengan katalog buku digital, sirkulasi peminjaman/pengembalian otomatis, denda harian terhitung otomatis, dan cetak kartu anggota ber-barcode/QR Code.',
+    shortDesc: 'Sistem perpustakaan digital lengkap scanner kartu QR, hitung denda otomatis, dan ekspor laporan.',
+    thumbnail: '/screenshots/siperpus_dashboard.png',
+    downloadsCount: 1940,
+    rating: 5.0,
+    isPopular: true,
+    isFree: true,
+    hasDatabase: true,
+    databaseType: 'MySQL (.sql)',
+    fileSize: '16.8 MB',
+    tutorialSteps: [
+      'Ekstrak folder ke direktori server web lokal Anda.',
+      'Buat database `db_siperpus` lalu import file `database.sql`.',
+      'Buka file `app/Config/Database.php` dan sesuaikan username/password.',
+      'Akses `http://localhost/siperpus` di browser.',
+      'Login Admin: `admin` / `admin123`.'
+    ],
+    keyFeatures: [
+      'Pencarian buku cepat OPAC (Online Public Access Catalog)',
+      'Transaksi peminjaman & pengembalian scan QR Code dalam 3 detik',
+      'Kalkulasi denda keterlambatan buku otomatis per hari',
+      'Generator & cetak kartu anggota perpustakaan format PDF',
+      'Laporan sirkulasi buku bulanan & buku paling favorit dipinjam'
+    ],
+    downloadUrlFree: `${SAFELINK_BASE_URL}?item=siperpus-digital-qr&step=1&target=drive`,
+    downloadUrlFast: 'https://lynk.id/dwollopus'
+  },
+  {
+    id: 'sc-9',
+    title: 'Aplikasi Manajemen Surat Masuk & Disposisi Digital (AMS Instansi)',
+    slug: 'manajemen-surat-disposisi-digital',
+    category: 'PHP & Laravel',
+    techStack: ['PHP 8.2 Native', 'Tailwind CSS', 'MySQLi', 'PDF Viewer'],
+    description: 'Aplikasi pengarsipan surat masuk, surat keluar, lembar disposisi digital pimpinan, dan buku agenda surat untuk instansi pemerintah, kelurahan, sekolah, maupun kantor swasta.',
+    shortDesc: 'Sistem arsip surat dinas masuk & keluar lengkap lembar disposisi pimpinan dan upload berkas PDF.',
+    thumbnail: '/screenshots/ams_surat_dashboard.png',
+    downloadsCount: 1350,
+    rating: 4.8,
+    isPopular: false,
+    isFree: true,
+    hasDatabase: true,
+    databaseType: 'MySQL (.sql)',
+    fileSize: '11.4 MB',
+    tutorialSteps: [
+      'Ekstrak file ZIP ke direktori htdocs / www.',
+      'Import file `db_surat_instansi.sql` ke MySQL phpMyAdmin.',
+      'Buka file `koneksi.php` dan pastikan konfigurasi DB sudah cocok.',
+      'Akses `http://localhost/manajemen-surat` melalui browser.',
+      'Login akun: `admin` / `password123`.'
+    ],
+    keyFeatures: [
+      'Pencatatan nomor agenda surat otomatis anti-duplikasi',
+      'Lembar disposisi online dari pimpinan langsung ke staf pelaksana',
+      'Preview dokumen PDF surat asli langsung di browser tanpa download',
+      'Klasifikasi kode surat dinas standar Permendagri',
+      'Cetak buku agenda surat masuk & keluar per periode tanggal'
+    ],
+    downloadUrlFree: `${SAFELINK_BASE_URL}?item=manajemen-surat-disposisi&step=1&target=drive`,
+    downloadUrlFast: 'https://lynk.id/dwollopus'
+  },
+  {
+    id: 'sc-10',
+    title: 'Aplikasi Point of Sale (POS Kasir Ritel) + Struk Digital WhatsApp',
+    slug: 'pos-kasir-ritel-modern-wa',
+    category: 'PHP & Laravel',
+    techStack: ['PHP 8.2', 'MySQL', 'Tailwind CSS', 'WhatsApp Gateway'],
+    description: 'Sistem POS kasir ritel modern dengan antarmuka kasir layar sentuh, manajemen multi-cabang, barcode scanner, dan pengiriman invoice/struk digital langsung ke nomor WhatsApp pelanggan.',
+    shortDesc: 'Software kasir ritel modern responsif barcode scanner, manajemen stok multi-cabang, dan struk WA.',
+    thumbnail: '/screenshots/pos_modern_dashboard.png',
+    downloadsCount: 2180,
+    rating: 4.9,
+    isPopular: true,
+    isFree: true,
+    hasDatabase: true,
+    databaseType: 'MySQL (.sql)',
+    fileSize: '19.7 MB',
+    tutorialSteps: [
+      'Ekstrak file ke server lokal (XAMPP/Laragon).',
+      'Import database `db_pos_ritel.sql` via phpMyAdmin.',
+      'Atur kredensial koneksi di `config/database.php`.',
+      'Buka aplikasi di browser dan lakukan login kasir atau admin.',
+      'Hubungkan nomor WhatsApp toko di menu Integrasi Notifikasi.'
+    ],
+    keyFeatures: [
+      'Transaksi kasir super cepat dengan shortcut keyboard & barcode scanner',
+      'Kirim struk belanja resmi otomatis format PDF ke WhatsApp pembeli',
+      'Peringatan otomatis saat stok produk menipis (Low Stock Alert)',
+      'Dukungan printer kasir thermal USB & Bluetooth (58/80mm)',
+      'Laporan omzet, margin keuntungan bersih, dan rekap kasir harian'
+    ],
+    downloadUrlFree: `${SAFELINK_BASE_URL}?item=pos-kasir-ritel-wa&step=1&target=drive`,
+    downloadUrlFast: 'https://lynk.id/dwollopus'
   }
 ];
 

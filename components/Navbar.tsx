@@ -173,9 +173,9 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
               {language === 'en' ? 'ID' : 'EN'}
             </button>
 
-            {/* Donasi Saweria 2rb Quick Button */}
+            {/* Donasi Lynk.id 2rb Quick Button */}
             <a
-              href="https://saweria.co/dwollopus"
+              href="https://lynk.id/dwollopus"
               target="_blank"
               rel="noopener noreferrer"
               className="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-mono font-bold transition-all shadow-sm active:scale-95 flex items-center gap-1.5"
@@ -309,12 +309,12 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
 
           <div className="mt-5 pt-4 border-t border-neutral-100 dark:border-neutral-800 flex gap-2">
             <a
-              href="https://saweria.co/dwollopus"
+              href="https://lynk.id/dwollopus"
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 py-2.5 rounded-lg bg-emerald-600 text-white text-xs font-mono font-bold text-center"
             >
-              ☕ Donasi 2rb & Download Cepat
+              ☕ Donasi 2rb & Download Cepat (Lynk.id)
             </a>
           </div>
         </div>
