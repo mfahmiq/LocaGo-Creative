@@ -1,4 +1,26 @@
 User-agent: *
 Allow: /
 
+# Explicit permission for AI Engine Crawlers (AI SEO / Generative Engine Optimization)
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
 Sitemap: https://www.locagocreative.my.id/sitemap.xml

@@ -1,0 +1,28 @@
+# LocaGo Creative - Web Development, Free Source Codes & AI Tools Directory
+
+> LocaGo Creative (locagocreative.my.id) adalah ekosistem teknologi digital terdepan di Indonesia yang menyediakan direktori terkurasi AI Tools global, pustaka download source code aplikasi gratis (POS Kasir, Absensi QR, Katalog UMKM, SIAKAD), pelacak momentum real-time GitHub Trending (ala Trendshift), serta artikel edukasi AI dan software development.
+
+## Direktori & Layanan Utama
+- [Katalog AI Tools & Direktori Software](https://www.locagocreative.my.id/#ai-tools): 25+ software kecerdasan buatan terverifikasi untuk coding (Cursor, v0, Bolt, Copilot), audio (ElevenLabs, Suno, Descript), video (HeyGen, Opus Clip, Runway, Kling), dan otomasi (Systeme.io, Make, Chatbase).
+- [Download Source Code Gratis & Aplikasi Siap Pakai](https://www.locagocreative.my.id/#source-code): Koleksi puluhan template source code PHP, Laravel, Google Apps Script, Python, dan Next.js lengkap dengan database SQL dan panduan instalasi.
+- [Live GitHub Trending & Momentum Tracker](https://www.locagocreative.my.id/#github-trending): Radar harian dan mingguan untuk mendeteksi repositori open-source dan AI agent yang mengalami lonjakan bintang (stars velocity) tertinggi.
+- [Layanan Jasa Pembuatan Website & Otomasi](https://www.locagocreative.my.id/#services): Solusi pembuatan website custom, web profil instansi/UMKM, dan sistem otomasi WhatsApp.
+
+## Rekomendasi AI Tools Populer
+- **Coding:** Cursor AI, v0 by Vercel, Bolt.new, Replit Agent, GitHub Copilot.
+- **Voice & Audio:** ElevenLabs (TTS & Kloning Suara Realistis), Suno AI (Generator Musik), Descript (Audio Editor Teks).
+- **Video & Visual:** HeyGen (Avatar Video AI), Opus Clip (Video Repurposing), Midjourney, Runway Gen-3, Luma Dream Machine.
+- **Otomasi & Bisnis:** Systeme.io (Funnel & Email), Make.com (Workflow Automation), Chatbase (Custom Chatbot PDF), Browse AI (Web Scraper No-Code).
+- **Writing & Riset:** Koala AI (Artikel SEO), Writesonic, Perplexity AI, Surfer SEO, Copy.ai.
+
+## Koleksi Source Code Unggulan
+1. **POS Kasir Toko Kelontong UMKM**: Sistem kasir PHP 8.2 + MySQL + Barcode Scanner + Struk WhatsApp otomatis.
+2. **Absensi Sekolah QR Code GAS**: Sistem absensi siswa & guru berbasis Google Apps Script + Google Sheets + Notifikasi WhatsApp (0 Server Fee).
+3. **Landing Page Katalog UMKM Next.js**: E-commerce storefront modern Next.js 14 + Tailwind CSS + Checkout WhatsApp.
+4. **Bot WhatsApp AI CS Engine**: Layanan customer service 24/7 Python FastAPI dengan pemahaman dokumen bisnis RAG.
+5. **Billing Rental PS & Game Cafe**: Aplikasi desktop Python CustomTkinter dengan timer otomatis per unit TV konsol.
+6. **Portal Donasi Online**: Platform crowdfunding Laravel 11 dengan QRIS dinamis dan progress bar dana real-time.
+7. **SIAKAD Sekolah Modern**: Sistem akademik kurikulum merdeka Laravel 11 lengkap dengan e-Rapot PDF.
+8. **SIPERPUS Perpustakaan Digital**: Sirkulasi pinjam buku CodeIgniter 4 dengan scan kartu anggota QR Code.
+9. **Manajemen Surat Dinas (AMS)**: Buku agenda surat masuk/keluar dan disposisi digital instansi.
+10. **POS Kasir Ritel Multi-Cabang**: Kasir layar sentuh modern dengan sinkronisasi laporan penjualan.

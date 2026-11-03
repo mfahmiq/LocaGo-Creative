@@ -461,7 +461,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
       'Platform Kursus & Keanggotaan Digital (Membership)',
       'Program Afiliasi Bawaan untuk Menjual Produk Sendiri'
     ],
-    affiliateUrl: 'https://systeme.io/?sa=locagocreative',
+    affiliateUrl: 'https://systeme.io/id?sa=sa0285473359ae5985c82865330cf1a062d892e972',
     isFeatured: true
   },
   {
