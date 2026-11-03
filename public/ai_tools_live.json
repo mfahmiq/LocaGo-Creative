@@ -1,7 +1,25 @@
 {
-  "updatedAt": "04 Nov 2026, 00:14 WIB",
-  "total": 68,
+  "updatedAt": "04 Nov 2026, 00:19 WIB",
+  "total": 69,
   "items": [
+    {
+      "id": "ai-69",
+      "name": "InVideo AI",
+      "logoUrl": "/logos/invideo-ai.png",
+      "category": "Video & Graphics",
+      "pricingType": "Freemium",
+      "commissionRate": "Partner Program",
+      "tagline": "Ketik Ide Prompt Apapun, Langsung Jadi Video Siap Unggah YouTube",
+      "description": "InVideo AI adalah software kecerdasan buatan terdepan di bidang Video & Graphics yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "features": [
+        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Video & Graphics",
+        "Antarmuka pengguna responsif dan intuitif siap pakai",
+        "Mendukung integrasi alur kerja modern dan ekspor data instan",
+        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+      ],
+      "affiliateUrl": "https://invideo.io/?via=locagocreative",
+      "isFeatured": false
+    },
     {
       "id": "ai-68",
       "name": "Fliki",

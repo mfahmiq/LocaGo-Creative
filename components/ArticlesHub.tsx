@@ -131,59 +131,76 @@ export const ArticlesHub: React.FC = () => {
           </div>
         </div>
 
-        {/* Articles Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredArticles.map((art) => (
-            <div
-              key={art.id}
-              className="group p-5 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-neutral-800 hover:border-emerald-500/40 transition-all duration-200 hover:shadow-xl flex flex-col justify-between"
-            >
-              <div>
-                {/* Cover Image */}
-                <div className="relative aspect-video rounded-xl overflow-hidden mb-4 bg-neutral-900">
-                  <img
-                    src={art.cover}
-                    alt={art.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                  <div className="absolute top-2.5 left-2.5 flex items-center gap-1.5">
-                    <span className="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-neutral-900/80 backdrop-blur-sm text-white">
-                      {art.language === 'id' ? '🇮🇩 ID' : '🇬🇧 EN'}
-                    </span>
-                    <span className="px-2 py-0.5 rounded text-[10px] font-mono font-medium bg-emerald-600 text-white shadow-sm">
-                      {art.category}
-                    </span>
-                  </div>
-                </div>
-
-                <div className="flex items-center gap-2 text-[11px] font-mono text-neutral-500 dark:text-neutral-400 mb-2">
-                  <span>📅 {art.date}</span>
-                  <span>•</span>
-                  <span>⏱️ {art.readTime}</span>
-                </div>
-
-                <h3 className="font-bold text-base sm:text-lg text-neutral-900 dark:text-white group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors line-clamp-2 mb-2">
-                  {art.title}
-                </h3>
-
-                <p className="text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed line-clamp-3 mb-4">
-                  {art.excerpt}
-                </p>
-              </div>
-
-              {/* Action Button */}
-              <div className="pt-3 border-t border-neutral-100 dark:border-neutral-800 flex items-center justify-between">
-                <button
-                  onClick={() => setReadingArticle(art)}
-                  className="w-full py-2.5 rounded-xl bg-neutral-900 hover:bg-neutral-800 dark:bg-white dark:hover:bg-neutral-100 text-white dark:text-neutral-950 font-mono text-xs font-bold transition-all shadow-sm active:scale-95 flex items-center justify-center gap-1.5 cursor-pointer"
-                >
-                  <span>Baca Artikel Lengkap</span>
-                  <span>→</span>
-                </button>
-              </div>
+        {/* Articles Grid or Elegant Empty State */}
+        {filteredArticles.length === 0 ? (
+          <div className="text-center py-20 px-6 max-w-lg mx-auto bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-neutral-800 rounded-3xl shadow-sm">
+            <div className="w-14 h-14 rounded-2xl bg-emerald-500/10 text-emerald-500 flex items-center justify-center text-2xl mx-auto mb-4 border border-emerald-500/20">
+              ✍️
             </div>
-          ))}
-        </div>
+            <h3 className="text-lg font-bold text-neutral-900 dark:text-white mb-2">
+              Artikel Mendalam Sedang Disusun
+            </h3>
+            <p className="text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed mb-4">
+              Tim editorial LocaGo Creative sedang meriset dan menyusun panduan lengkap AI Tools 2026 dengan standar komparasi mendalam, screenshot UI asli, dan tutorial video resmi.
+            </p>
+            <span className="inline-block px-3 py-1 rounded-full bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-400 font-mono text-[11px] font-bold">
+              🚀 Segera Rilis Batch Perdana
+            </span>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {filteredArticles.map((art) => (
+              <div
+                key={art.id}
+                className="group p-5 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-neutral-800 hover:border-emerald-500/40 transition-all duration-200 hover:shadow-xl flex flex-col justify-between"
+              >
+                <div>
+                  {/* Cover Image */}
+                  <div className="relative aspect-video rounded-xl overflow-hidden mb-4 bg-neutral-900">
+                    <img
+                      src={art.cover}
+                      alt={art.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute top-2.5 left-2.5 flex items-center gap-1.5">
+                      <span className="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-neutral-900/80 backdrop-blur-sm text-white">
+                        {art.language === 'id' ? '🇮🇩 ID' : '🇬🇧 EN'}
+                      </span>
+                      <span className="px-2 py-0.5 rounded text-[10px] font-mono font-medium bg-emerald-600 text-white shadow-sm">
+                        {art.category}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-2 text-[11px] font-mono text-neutral-500 dark:text-neutral-400 mb-2">
+                    <span>📅 {art.date}</span>
+                    <span>•</span>
+                    <span>⏱️ {art.readTime}</span>
+                  </div>
+
+                  <h3 className="font-bold text-base sm:text-lg text-neutral-900 dark:text-white group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors line-clamp-2 mb-2">
+                    {art.title}
+                  </h3>
+
+                  <p className="text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed line-clamp-3 mb-4">
+                    {art.excerpt}
+                  </p>
+                </div>
+
+                {/* Action Button */}
+                <div className="pt-3 border-t border-neutral-100 dark:border-neutral-800 flex items-center justify-between">
+                  <button
+                    onClick={() => setReadingArticle(art)}
+                    className="w-full py-2.5 rounded-xl bg-neutral-900 hover:bg-neutral-800 dark:bg-white dark:hover:bg-neutral-100 text-white dark:text-neutral-950 font-mono text-xs font-bold transition-all shadow-sm active:scale-95 flex items-center justify-center gap-1.5 cursor-pointer"
+                  >
+                    <span>Baca Artikel Lengkap</span>
+                    <span>→</span>
+                  </button>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
 
         {/* Article Reader Modal */}
         {readingArticle && (

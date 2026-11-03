@@ -64,8 +64,9 @@ export const AIToolsHub: React.FC = () => {
     }
   });
 
-  const appendUtm = (rawUrl: string, toolName: string) => {
-    const slug = toolName.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+  const appendUtm = (rawUrl?: string, toolName?: string) => {
+    if (!rawUrl || typeof rawUrl !== 'string' || !rawUrl.startsWith('http')) return '#';
+    const slug = (toolName || 'tool').toLowerCase().replace(/[^a-z0-9]+/g, '-');
     try {
       const u = new URL(rawUrl);
       u.searchParams.set('utm_source', 'locagocreative');
@@ -79,7 +80,8 @@ export const AIToolsHub: React.FC = () => {
     }
   };
 
-  const trackClick = (toolId: string) => {
+  const trackClick = (toolId?: string) => {
+    if (!toolId) return;
     const current = views[toolId] || 0;
     const nextViews = { ...views, [toolId]: current + 1 };
     setViews(nextViews);
@@ -99,9 +101,11 @@ export const AIToolsHub: React.FC = () => {
 
   const pricingModels = ['Semua', 'Freemium', 'Free Trial', 'Paid'];
 
-  const toggleUpvote = (id: string) => {
+  const toggleUpvote = (id?: string) => {
+    if (!id) return;
     const isVoted = userVoted[id];
-    const defaultVal = 12 + (id.charCodeAt(id.length - 1) % 40);
+    const safeStr = String(id);
+    const defaultVal = 12 + (safeStr.charCodeAt(safeStr.length - 1) % 40);
     const current = upvotes[id] !== undefined ? upvotes[id] : defaultVal;
     const nextCount = isVoted ? current - 1 : current + 1;
 
@@ -286,19 +290,19 @@ export const AIToolsHub: React.FC = () => {
                         />
                       ) : (
                         <div className="w-10 h-10 rounded-xl bg-purple-100 dark:bg-purple-500/10 border border-purple-200 dark:border-purple-500/30 text-purple-700 dark:text-purple-400 flex items-center justify-center font-bold text-base font-mono shrink-0">
-                          {tool.name.charAt(0)}
+                          {(tool.name || 'AI').charAt(0)}
                         </div>
                       )}
                       <div>
                         <h3 className="font-bold text-lg text-neutral-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-300 transition-colors flex items-center gap-1.5">
-                          <span>{tool.name}</span>
+                          <span>{tool.name || 'AI Tool'}</span>
                           {tool.isFeatured && (
                             <span className="text-[10px] font-mono font-bold px-1.5 py-0.5 rounded bg-purple-100 dark:bg-purple-500/20 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-500/30">
                               PRO
                             </span>
                           )}
                         </h3>
-                        <span className="text-[11px] font-mono text-neutral-500 dark:text-neutral-400">{tool.category}</span>
+                        <span className="text-[11px] font-mono text-neutral-500 dark:text-neutral-400">{tool.category || 'Tools'}</span>
                       </div>
                     </div>
 
