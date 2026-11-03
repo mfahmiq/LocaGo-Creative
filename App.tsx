@@ -13,6 +13,7 @@ import WhyChooseUs from './components/WhyChooseUs';
 import { SourceCodeHub } from './components/SourceCodeHub';
 import { GitHubTrendingHub } from './components/GitHubTrendingHub';
 import { AIToolsHub } from './components/AIToolsHub';
+import { ArticlesHub } from './components/ArticlesHub';
 import { ThemeProvider } from './context/ThemeContext';
 import { LanguageProvider } from './context/LanguageContext';
 import { NavigationTab } from './types';
@@ -20,7 +21,7 @@ import { NavigationTab } from './types';
 const getInitialTab = (): NavigationTab => {
   if (typeof window !== 'undefined') {
     const hash = window.location.hash.replace('#', '');
-    if (hash === 'source-code' || hash === 'github-trending' || hash === 'ai-tools') {
+    if (hash === 'source-code' || hash === 'github-trending' || hash === 'ai-tools' || hash === 'articles') {
       return hash as NavigationTab;
     }
   }
@@ -33,7 +34,7 @@ const AppContent: React.FC = () => {
   useEffect(() => {
     const handleHashChange = () => {
       const currentHash = window.location.hash.replace('#', '');
-      if (currentHash === 'source-code' || currentHash === 'github-trending' || currentHash === 'ai-tools') {
+      if (currentHash === 'source-code' || currentHash === 'github-trending' || currentHash === 'ai-tools' || currentHash === 'articles') {
         setActiveTab(currentHash as NavigationTab);
       } else {
         setActiveTab('agency');
@@ -66,6 +67,7 @@ const AppContent: React.FC = () => {
         {activeTab === 'source-code' && <SourceCodeHub />}
         {activeTab === 'github-trending' && <GitHubTrendingHub />}
         {activeTab === 'ai-tools' && <AIToolsHub />}
+        {activeTab === 'articles' && <ArticlesHub />}
       </main>
 
       <Footer />

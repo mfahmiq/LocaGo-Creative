@@ -31,7 +31,7 @@ export interface Step {
 // NEW TYPES FOR LOCAGO ECOSYSTEM
 // ==========================================
 
-export type NavigationTab = 'agency' | 'source-code' | 'github-trending' | 'ai-tools';
+export type NavigationTab = 'agency' | 'source-code' | 'github-trending' | 'ai-tools' | 'articles';
 
 export interface SourceCodeItem {
   id: string;

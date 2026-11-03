@@ -101,7 +101,7 @@
             history.scrollRestoration = 'manual';
         }
         // Only strip if hash is an anchor from previous section scrolls, not view routes
-        const validRoutes = ['#source-code', '#github-trending', '#ai-tools'];
+        const validRoutes = ['#source-code', '#github-trending', '#ai-tools', '#articles'];
         if (window.location.hash && !validRoutes.includes(window.location.hash)) {
             history.replaceState(null, '', window.location.pathname + window.location.search);
         }

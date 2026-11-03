@@ -447,453 +447,993 @@ export const GITHUB_TRENDING_LIST: GitHubTrendingItem[] = [
 
 export const AI_TOOLS_LIST: AIToolItem[] = [
   {
-    id: 'ai-1',
-    name: 'Systeme.io',
-    logoUrl: '/logos/systeme.png',
-    category: 'Automation & No-Code',
-    pricingType: 'Freemium',
-    commissionRate: '60% Lifetime Recurring',
-    tagline: 'Platform Funnel, Email Marketing & Kursus All-in-One Gratis',
-    description: 'Platform bisnis online terlengkap yang menggantikan ClickFunnels, Mailchimp, dan Teachable dalam satu tempat. Sangat populer bagi pemula karena paket gratisnya bisa menampung 2.000 kontak dan unlimited email tanpa kartu kredit.',
-    features: [
-      'Pembuat Sales Funnel & Landing Page Drag-and-Drop',
-      'Otomasi Email Marketing & Newsletter Terjadwal',
-      'Platform Kursus & Keanggotaan Digital (Membership)',
-      'Program Afiliasi Bawaan untuk Menjual Produk Sendiri'
+    "id": "ai-1",
+    "name": "v0 by Vercel",
+    "logoUrl": "/logos/v0-by-vercel.png",
+    "category": "AI Coding",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Generator Komponen UI/UX React, Tailwind & Shadcn Instan dari Prompt",
+    "description": "v0 by Vercel adalah software kecerdasan buatan terdepan di bidang AI Coding yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Coding",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
     ],
-    affiliateUrl: 'https://systeme.io/id?sa=sa0285473359ae5985c82865330cf1a062d892e972',
-    isFeatured: true
+    "affiliateUrl": "https://v0.dev/?ref=locagocreative",
+    "isFeatured": true
   },
   {
-    id: 'ai-2',
-    name: 'ElevenLabs',
-    logoUrl: '/logos/elevenlabs.png',
-    category: 'Voice & Audio AI',
-    pricingType: 'Freemium',
-    commissionRate: '22% Recurring (12 Bulan)',
-    tagline: 'Voice AI & Text-to-Speech Paling Realistis di Dunia',
-    description: 'Engine pengubah teks ke suara (TTS) dengan intonasi manusia asli, emosi dinamis, dan kemampuan kloning suara tingkat studio. Mendukung lebih dari 29 bahasa termasuk Bahasa Indonesia yang sangat natural.',
-    features: [
-      'Voice Generator kualitas ultra-realistis bebas suara robot',
-      'Voice Cloning instan hanya dari sampel rekaman 1 menit',
-      'Dubbing Video otomatis menerjemahkan bibir & suara ke bahasa lain',
-      'Sound Effects AI generator untuk kebutuhan video editing'
+    "id": "ai-2",
+    "name": "Cursor AI",
+    "logoUrl": "/logos/cursor-ai.png",
+    "category": "AI Coding",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "IDE AI Coding Terpopuler yang Menggantikan VS Code Biasa",
+    "description": "Cursor AI adalah software kecerdasan buatan terdepan di bidang AI Coding yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Coding",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
     ],
-    affiliateUrl: 'https://elevenlabs.io/?from=locagocreative',
-    isFeatured: true
+    "affiliateUrl": "https://cursor.com/?via=locagocreative",
+    "isFeatured": true
   },
   {
-    id: 'ai-3',
-    name: 'Make.com',
-    logoUrl: '/logos/make.png',
-    category: 'Automation & No-Code',
-    pricingType: 'Freemium',
-    commissionRate: '20% Recurring',
-    tagline: 'Otomatisasi Alur Kerja Visual Tanpa Batas (Alternatif Zapier)',
-    description: 'Platform integrasi no-code visual yang menghubungkan ratusan aplikasi seperti Google Sheets, WhatsApp, Notion, Telegram, dan AI secara otomatis. Jauh lebih hemat biaya dibanding Zapier untuk volume data besar.',
-    features: [
-      'Visual Canvas editor untuk merancang alur kerja rumit dengan mudah',
-      'Integrasi ribuan API aplikasi populer dalam beberapa klik',
-      'Dukungan Webhook real-time dan parsing data JSON otomatis',
-      'Error handling canggih dengan sistem retry otomatis'
+    "id": "ai-3",
+    "name": "Bolt.new",
+    "logoUrl": "/logos/boltnew.png",
+    "category": "AI Coding",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Bangun, Jalankan & Deploy Full-Stack Web App Langsung di Browser",
+    "description": "Bolt.new adalah software kecerdasan buatan terdepan di bidang AI Coding yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Coding",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
     ],
-    affiliateUrl: 'https://www.make.com/en/register?pc=locagocreative',
-    isFeatured: true
+    "affiliateUrl": "https://bolt.new/?via=locagocreative",
+    "isFeatured": true
   },
   {
-    id: 'ai-4',
-    name: 'Koala AI (KoalaWriter)',
-    logoUrl: '/logos/koala.png',
-    category: 'AI Writing & SEO',
-    pricingType: 'Free Trial',
-    commissionRate: '30% Lifetime Recurring',
-    tagline: 'AI Penulis Artikel SEO Lengkap dengan Data Realtime Google',
-    description: 'Tool AI penulisan artikel blog dan ulasan produk Amazon yang terhubung langsung ke hasil pencarian Google secara live. Menghasilkan artikel 2.000+ kata terstruktur rapi, lolos deteksi AI, dan siap masuk peringkat halaman satu Google.',
-    features: [
-      'Penulisan artikel SEO dengan analisis kata kunci kompetitor live',
-      'Koneksi internet langsung untuk data fakta dan berita terkini',
-      'Format otomatis tabel perbandingan, pro & cons, dan FAQ schema',
-      'Satu klik publikasi langsung ke WordPress / Shopify'
+    "id": "ai-4",
+    "name": "Replit Agent",
+    "logoUrl": "/logos/replit-agent.png",
+    "category": "AI Coding",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Agen AI yang Mengembangkan & Men-Deploy Aplikasi Web Lengkap",
+    "description": "Replit Agent adalah software kecerdasan buatan terdepan di bidang AI Coding yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Coding",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
     ],
-    affiliateUrl: 'https://koala.sh/?via=locagocreative',
-    isFeatured: false
+    "affiliateUrl": "https://replit.com/?via=locagocreative",
+    "isFeatured": true
   },
   {
-    id: 'ai-5',
-    name: 'Pictory AI',
-    logoUrl: '/logos/pictory.png',
-    category: 'Video & Graphics',
-    pricingType: 'Free Trial',
-    commissionRate: '20% - 50% Tiered Recurring',
-    tagline: 'Ubah Naskah Teks Jadi Video Sinematik Siap Upload dalam 3 Menit',
-    description: 'Aplikasi video AI yang otomatis mencocokkan naskah teks Anda dengan jutaan stok footage video B-roll berkualitas tinggi, lengkap dengan caption otomatis, voiceover, dan musik latar bebas royalti.',
-    features: [
-      'Script-to-Video otomatis memilih cuplikan footage yang relevan',
-      'Auto-captions teks subtitle dinamis mirip video viral TikTok/Reels',
-      'Pangkas video panjang (webinar / podcast) jadi klip pendek otomatis',
-      'Akses perpustakaan jutaan video dan audio lisensi komersial'
+    "id": "ai-5",
+    "name": "GitHub Copilot",
+    "logoUrl": "/logos/github-copilot.png",
+    "category": "AI Coding",
+    "pricingType": "Free Trial",
+    "commissionRate": "Partner Program",
+    "tagline": "AI Pair Programmer Standar Industri Dunia yang Terintegrasi di IDE",
+    "description": "GitHub Copilot adalah software kecerdasan buatan terdepan di bidang AI Coding yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Coding",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
     ],
-    affiliateUrl: 'https://pictory.ai/?ref=locagocreative',
-    isFeatured: false
+    "affiliateUrl": "https://github.com/features/copilot?via=locagocreative",
+    "isFeatured": true
   },
   {
-    id: 'ai-6',
-    name: 'Cursor AI',
-    logoUrl: '/logos/cursor.png',
-    category: 'AI Coding',
-    pricingType: 'Freemium',
-    commissionRate: '20% Recurring',
-    tagline: 'IDE AI Coding Terpopuler yang Menggantikan VS Code Biasa',
-    description: 'Code editor berbasis VS Code dengan integrasi model frontier (Claude 3.7 Sonnet, GPT-4o) untuk autocomplete multi-file cerdas, terminal auto-debug, dan pembuatan fitur dalam hitungan detik.',
-    features: [
-      'Composer multi-file editing untuk refactor seluruh codebase sekaligus',
-      'Prediksi tab baris berikutnya (next-action autocomplete) ultra-cepat',
-      'Chat konteks penuh dengan referensi codebase (@codebase, @docs)',
-      '100% kompatibel dengan semua ekstensi, keybinding, dan tema VS Code'
+    "id": "ai-6",
+    "name": "Windsurf by Codeium",
+    "logoUrl": "/logos/windsurf-by-codeium.png",
+    "category": "AI Coding",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "IDE AI Agentic Pertama di Dunia dengan Fitur Flows & Cascade",
+    "description": "Windsurf by Codeium adalah software kecerdasan buatan terdepan di bidang AI Coding yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Coding",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
     ],
-    affiliateUrl: 'https://cursor.com/?via=locagocreative',
-    isFeatured: true
+    "affiliateUrl": "https://codeium.com/windsurf?via=locagocreative",
+    "isFeatured": true
   },
   {
-    id: 'ai-7',
-    name: 'HeyGen',
-    logoUrl: '/logos/heygen.png',
-    category: 'Video & Graphics',
-    pricingType: 'Freemium',
-    commissionRate: '20% - 30% Lifetime Recurring',
-    tagline: 'Avatar AI Sinematik & Video Juru Bicara Tanpa Perlu Masuk Kamera',
-    description: 'Platform pembuatan video dengan presenter AI fotorealistik dan kloning suara studio. Cukup ketik naskah, pilih avatar profesional, dan video edukasi atau promosi produk siap tayang dalam hitungan menit.',
-    features: [
-      '100+ pilihan avatar AI fotorealistik berbagai etnis dan busana kerja',
-      'Fitur Instant Avatar untuk membuat kembaran digital dari rekaman HP 2 menit',
-      'Voice lip-syncing sempurna dalam 40+ bahasa asing secara instan',
-      'Integrasi template video vertikal untuk TikTok, Reels, dan YouTube Shorts'
+    "id": "ai-7",
+    "name": "Aider",
+    "logoUrl": "/logos/aider.png",
+    "category": "AI Coding",
+    "pricingType": "Free",
+    "commissionRate": "Partner Program",
+    "tagline": "AI Pair Programming Langsung di Terminal Command Line Anda",
+    "description": "Aider adalah software kecerdasan buatan terdepan di bidang AI Coding yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Coding",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
     ],
-    affiliateUrl: 'https://www.heygen.com/?via=locagocreative',
-    isFeatured: true
+    "affiliateUrl": "https://aider.chat/?via=locagocreative",
+    "isFeatured": true
   },
   {
-    id: 'ai-8',
-    name: 'Opus Clip',
-    logoUrl: '/logos/opus.png',
-    category: 'Video & Graphics',
-    pricingType: 'Freemium',
-    commissionRate: '25% Recurring',
-    tagline: '#1 AI Video Repurposing: Ubah Video Panjang Jadi 10 Klip Viral',
-    description: 'Tool kurasi video otomatis bertenaga AI yang membedah rekaman podcast, webinar, atau YouTube panjang menjadi puluhan video pendek berhook tajam dengan auto-captions dinamis dan skor viralitas.',
-    features: [
-      'AI Curation otomatis mendeteksi momen klimaks dan punchline terkuat',
-      'Viral Score kalkulator untuk memprediksi potensi jangkauan algoritma',
-      'Dynamic Animated Captions dengan auto-emoji dan highlight kata kunci',
-      'Auto-Reframing cerdas menjaga wajah pembicara selalu di tengah frame 9:16'
+    "id": "ai-8",
+    "name": "Supermaven",
+    "logoUrl": "/logos/supermaven.png",
+    "category": "AI Coding",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Autocomplete Kode Tercepat di Dunia dengan 1 Juta Token Context",
+    "description": "Supermaven adalah software kecerdasan buatan terdepan di bidang AI Coding yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Coding",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
     ],
-    affiliateUrl: 'https://www.opus.pro/?via=locagocreative',
-    isFeatured: true
+    "affiliateUrl": "https://supermaven.com/?via=locagocreative",
+    "isFeatured": true
   },
   {
-    id: 'ai-9',
-    name: 'Chatbase',
-    logoUrl: '/logos/chatbase.png',
-    category: 'Automation & No-Code',
-    pricingType: 'Freemium',
-    commissionRate: '20% Lifetime Recurring',
-    tagline: 'Bikin Chatbot AI Custom dari File PDF & Website Bisnis Sendiri',
-    description: 'Bangun agen chatbot GPT kustom yang terlatih khusus berdasarkan data produk, SOP perusahaan, atau tautan website Anda. Bisa disematkan langsung (widget embed) ke website klien hanya dengan satu baris script.',
-    features: [
-      'Latih bot dengan upload PDF, DOCX, CSV, atau masukkan sitemap URL web',
-      'Widget embed responsif yang bisa dikustomisasi warna brand dan avatar',
-      'Terhubung dengan WhatsApp, Slack, Zapier, dan Make via Webhook API',
-      'Analisis log percakapan pelanggan untuk mendeteksi leads yang belum closing'
+    "id": "ai-9",
+    "name": "Tabnine",
+    "logoUrl": "/logos/tabnine.png",
+    "category": "AI Coding",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Asisten Coding AI Privat & Aman untuk Perusahaan dan Tim Dev",
+    "description": "Tabnine adalah software kecerdasan buatan terdepan di bidang AI Coding yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Coding",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
     ],
-    affiliateUrl: 'https://www.chatbase.co/?via=locagocreative',
-    isFeatured: false
+    "affiliateUrl": "https://www.tabnine.com/?via=locagocreative",
+    "isFeatured": true
   },
   {
-    id: 'ai-10',
-    name: 'Writesonic',
-    logoUrl: '/logos/writesonic.png',
-    category: 'AI Writing & SEO',
-    pricingType: 'Freemium',
-    commissionRate: '30% Lifetime Recurring',
-    tagline: 'Platform Copywriting & Riset Konten SEO Bertenaga AI Generatif',
-    description: 'Suite penulisan konten all-in-one yang dilengkapi Chatsonic (alternatif ChatGPT dengan data Google live), SEO checker, dan generator copywriting iklan media sosial dengan conversion rate tinggi.',
-    features: [
-      'Article Writer 5.0 yang menghasilkan artikel panjang berbasis data faktual',
-      'Generator copywriting iklan Facebook, Google Ads, dan LinkedIn dengan tone persuasif',
-      'Brand Voice builder agar gaya bahasa tulisan selalu konsisten dengan identitas brand',
-      'Parafrase dan humanizer teks bawaan agar tulisan mengalir natural'
+    "id": "ai-10",
+    "name": "Continue.dev",
+    "logoUrl": "/logos/continuedev.png",
+    "category": "AI Coding",
+    "pricingType": "Free",
+    "commissionRate": "Partner Program",
+    "tagline": "Ekstensi Autopilot Open-Source untuk VS Code dan JetBrains",
+    "description": "Continue.dev adalah software kecerdasan buatan terdepan di bidang AI Coding yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Coding",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
     ],
-    affiliateUrl: 'https://writesonic.com/?via=locagocreative',
-    isFeatured: false
+    "affiliateUrl": "https://continue.dev/?via=locagocreative",
+    "isFeatured": true
   },
   {
-    id: 'ai-11',
-    name: 'Descript',
-    logoUrl: '/logos/descript.png',
-    category: 'Voice & Audio AI',
-    pricingType: 'Freemium',
-    commissionRate: '15% Recurring',
-    tagline: 'Edit Video & Audio Podcast Semudah Mengedit Dokumen Teks',
-    description: 'Aplikasi editing audio dan video revolusioner berbasis transkrip teks. Hapus jeda hening atau kata gumam (umm, err) cukup dengan menghapus katanya dari naskah, dan audio video akan otomatis terpotong mulus.',
-    features: [
-      'Text-based Video Editing: potong transkrip, klip video ikut terpotong otomatis',
-      'Studio Sound AI untuk membersihkan suara bising background jadi jernih ala studio',
-      'Filler Word Removal satu klik untuk singkirkan kata jeda yang tidak perlu',
-      'Overdub AI voice clone untuk menambal kata yang salah ucap tanpa rekam ulang'
+    "id": "ai-11",
+    "name": "ElevenLabs",
+    "logoUrl": "/logos/elevenlabs.png",
+    "category": "Voice & Audio AI",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Voice AI & Text-to-Speech Paling Realistis di Dunia",
+    "description": "ElevenLabs adalah software kecerdasan buatan terdepan di bidang Voice & Audio AI yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Voice & Audio AI",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
     ],
-    affiliateUrl: 'https://www.descript.com/?via=locagocreative',
-    isFeatured: false
+    "affiliateUrl": "https://elevenlabs.io/?from=locagocreative",
+    "isFeatured": true
   },
   {
-    id: 'ai-12',
-    name: 'v0 by Vercel',
-    logoUrl: '/logos/v0.png',
-    category: 'AI Coding',
-    pricingType: 'Freemium',
-    commissionRate: 'Partner Tiered',
-    tagline: 'Generator Komponen UI/UX React, Tailwind & Shadcn Instan dari Prompt',
-    description: 'Mesin AI generatif buatan Vercel yang merancang antarmuka aplikasi web modern hanya dari deskripsi teks atau screenshot. Kode JSX dan styling Tailwind yang dihasilkan sangat bersih dan siap salin ke project.',
-    features: [
-      'Prompt-to-UI instan dengan library standar industri (Tailwind CSS + Shadcn UI)',
-      'Preview langsung di browser dengan live interactive preview mode',
-      'Satu klik ekspor kode ke Next.js via npx shadcn@latest add command',
-      'Kemampuan kloning tata letak antarmuka hanya dari unggahan gambar screenshot'
+    "id": "ai-12",
+    "name": "Suno AI",
+    "logoUrl": "/logos/suno-ai.png",
+    "category": "Voice & Audio AI",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Generator Lagu & Musik Lengkap Vokal AI Kualitas Siar Profesional",
+    "description": "Suno AI adalah software kecerdasan buatan terdepan di bidang Voice & Audio AI yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Voice & Audio AI",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
     ],
-    affiliateUrl: 'https://v0.dev/?ref=locagocreative',
-    isFeatured: true
+    "affiliateUrl": "https://suno.com/?via=locagocreative",
+    "isFeatured": true
   },
   {
-    id: 'ai-13',
-    name: 'Surfer SEO',
-    logoUrl: '/logos/surfer.png',
-    category: 'AI Writing & SEO',
-    pricingType: 'Paid',
-    commissionRate: '25% Recurring',
-    tagline: 'Tool Riset & Optimasi On-Page SEO #1 untuk Masuk Halaman 1 Google',
-    description: 'Software analisis SEO berbasis audit algoritma mesin pencari. Memberikan panduan pasti jumlah kata, struktur heading, dan entitas NLP kata kunci yang wajib dimasukkan agar artikel menang bersaing di Google.',
-    features: [
-      'Content Editor real-time dengan Content Score indikator interaktif',
-      'Analisis audit 500+ faktor ranking dari kompetitor top 10 Google',
-      'Integrasi langsung dengan Google Docs, WordPress, Jasper, dan Contentful',
-      'Keyword Research tool untuk pemetaan topik (topic clusters) otoritas tinggi'
+    "id": "ai-13",
+    "name": "Udio AI",
+    "logoUrl": "/logos/udio-ai.png",
+    "category": "Voice & Audio AI",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Generator Musik AI Tingkat Lanjut dengan Harmoni dan Vokal Detail",
+    "description": "Udio AI adalah software kecerdasan buatan terdepan di bidang Voice & Audio AI yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Voice & Audio AI",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
     ],
-    affiliateUrl: 'https://surferseo.com/?via=locagocreative',
-    isFeatured: false
+    "affiliateUrl": "https://www.udio.com/?via=locagocreative",
+    "isFeatured": false
   },
   {
-    id: 'ai-14',
-    name: 'Suno AI',
-    logoUrl: '/logos/suno.png',
-    category: 'Voice & Audio AI',
-    pricingType: 'Freemium',
-    commissionRate: 'Partner Program',
-    tagline: 'Generator Lagu & Musik Lengkap Vokal AI Kualitas Siar Profesional',
-    description: 'Platform AI pembuat musik lengkap dengan vokal emosional, instrumen band/orkestra, dan aransemen lirik dalam genre apa pun (Pop, Rock, Jazz, Dangdut, Lo-Fi) hanya dalam 15 detik.',
-    features: [
-      'Hasilkan lagu lengkap berdurasi hingga 4 menit berkualitas master audio',
-      'Mendukung penulisan lirik custom atau auto-generated lyric dari prompt',
-      'Pilihan genre tak terbatas: Akustik, Synthwave, Hip Hop, Cinematic, EDM',
-      'Hak lisensi komersial untuk kebutuhan background music video YouTube & Ads'
+    "id": "ai-14",
+    "name": "Descript",
+    "logoUrl": "/logos/descript.png",
+    "category": "Voice & Audio AI",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Edit Video & Audio Podcast Semudah Mengedit Dokumen Teks",
+    "description": "Descript adalah software kecerdasan buatan terdepan di bidang Voice & Audio AI yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Voice & Audio AI",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
     ],
-    affiliateUrl: 'https://suno.com/?via=locagocreative',
-    isFeatured: false
+    "affiliateUrl": "https://www.descript.com/?via=locagocreative",
+    "isFeatured": false
   },
   {
-    id: 'ai-15',
-    name: 'Browse AI',
-    logoUrl: '/logos/browse.png',
-    category: 'Automation & No-Code',
-    pricingType: 'Freemium',
-    commissionRate: '20% Lifetime Recurring',
-    tagline: 'Scraper & Monitor Data Website Tanpa Koding (No-Code Data Extraction)',
-    description: 'Ekstrak data tabel produk toko online, lowongan kerja, atau harga kompetitor dari website mana pun hanya dengan mengklik elemen di layar. Dilengkapi fitur monitoring berkala yang memberi alert jika data berubah.',
-    features: [
-      'Latih robot web scraper hanya dalam 2 menit tanpa perlu baris kode apapun',
-      'Kemampuan bypass pagination, scroll tak terbatas, dan login wall',
-      'Sinkronisasi otomatis hasil scrape ke Google Sheets, Airtable, atau Webhook',
-      'Penjadwalan monitoring berkala (per jam, harian, atau mingguan)'
+    "id": "ai-15",
+    "name": "Speechify",
+    "logoUrl": "/logos/speechify.png",
+    "category": "Voice & Audio AI",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Aplikasi Text-to-Speech #1 untuk Membaca Buku & Dokumen Cepat",
+    "description": "Speechify adalah software kecerdasan buatan terdepan di bidang Voice & Audio AI yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Voice & Audio AI",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
     ],
-    affiliateUrl: 'https://www.browse.ai/?via=locagocreative',
-    isFeatured: false
+    "affiliateUrl": "https://speechify.com/?via=locagocreative",
+    "isFeatured": false
   },
   {
-    id: 'ai-16',
-    name: 'Perplexity AI',
-    logoUrl: '/logos/perplexity.png',
-    category: 'AI Writing & SEO',
-    pricingType: 'Freemium',
-    commissionRate: 'Pro Referral Tier',
-    tagline: 'Mesin Pencari Berbasis AI dengan Kutipan Sumber Faktual Real-Time',
-    description: 'Alternatif Google pencarian masa depan yang memberikan jawaban langsung terangkum rapi lengkap dengan kutipan sitasi ilmiah dan berita terverifikasi.',
-    features: [
-      'Pencarian real-time dengan rujukan sumber link terpercaya',
-      'Mode Pro Search untuk riset akademik dan coding multi-step',
-      'Upload dokumen PDF/Word untuk dianalisis dan dirangkum instan',
-      'Mendukung pilihan model GPT-4o, Claude 3.5 Sonnet, dan Sonar'
+    "id": "ai-16",
+    "name": "Lovo.ai",
+    "logoUrl": "/logos/lovoai.png",
+    "category": "Voice & Audio AI",
+    "pricingType": "Free Trial",
+    "commissionRate": "Partner Program",
+    "tagline": "Platform Voiceover AI dengan 500+ Suara untuk Video Marketing",
+    "description": "Lovo.ai adalah software kecerdasan buatan terdepan di bidang Voice & Audio AI yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Voice & Audio AI",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
     ],
-    affiliateUrl: 'https://perplexity.ai/?via=locagocreative',
-    isFeatured: true
+    "affiliateUrl": "https://lovo.ai/?via=locagocreative",
+    "isFeatured": false
   },
   {
-    id: 'ai-17',
-    name: 'Midjourney',
-    logoUrl: '/logos/midjourney.png',
-    category: 'Video & Graphics',
-    pricingType: 'Paid',
-    commissionRate: 'Partner Program',
-    tagline: 'Generator Gambar AI Paling Sinematik & Estetik untuk Desainer',
-    description: 'Mesin pembuat ilustrasi, fotografi studio, konsep produk 3D, dan seni digital berkualitas fotorealistik tertinggi di dunia langsung dari prompt teks.',
-    features: [
-      'Kualitas pencahayaan dan tekstur studio hiper-realistis',
-      'Fitur Inpainting dan Outpainting untuk edit bagian gambar spesifik',
-      'Gaya konsistensi karakter untuk komik dan aset branding',
-      'Dukungan web UI editor baru tanpa perlu Discord'
+    "id": "ai-17",
+    "name": "Murf.ai",
+    "logoUrl": "/logos/murfai.png",
+    "category": "Voice & Audio AI",
+    "pricingType": "Free Trial",
+    "commissionRate": "Partner Program",
+    "tagline": "Studio Voice Generator AI untuk Presentasi Bisnis & Iklan",
+    "description": "Murf.ai adalah software kecerdasan buatan terdepan di bidang Voice & Audio AI yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Voice & Audio AI",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
     ],
-    affiliateUrl: 'https://www.midjourney.com/?via=locagocreative',
-    isFeatured: true
+    "affiliateUrl": "https://murf.ai/?via=locagocreative",
+    "isFeatured": false
   },
   {
-    id: 'ai-18',
-    name: 'Notion AI',
-    logoUrl: '/logos/notion.png',
-    category: 'Automation & No-Code',
-    pricingType: 'Free Trial',
-    commissionRate: '20% Recurring Partner',
-    tagline: 'Asisten Produktivitas Dokumen, Wiki Tim & Manajemen Tugas Otomatis',
-    description: 'Kecerdasan buatan terintegrasi di ruang kerja Notion untuk menulis naskah, merangkum notulen rapat, menerjemahkan dokumen, dan mengotomasi database.',
-    features: [
-      'Q&A cerdas yang bisa menjawab pertanyaan dari seluruh isi workspace',
-      'Penulisan draf artikel, email bisnis, dan PRD produk instan',
-      'Autofill properti database Notion secara cerdas',
-      'Rangkuman notulen meeting dan rencana aksi (action items) otomatis'
+    "id": "ai-18",
+    "name": "Krisp.ai",
+    "logoUrl": "/logos/krispai.png",
+    "category": "Voice & Audio AI",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Penghilang Suara Bising Latar Belakang & Notulen Rapat AI",
+    "description": "Krisp.ai adalah software kecerdasan buatan terdepan di bidang Voice & Audio AI yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Voice & Audio AI",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
     ],
-    affiliateUrl: 'https://www.notion.so/?via=locagocreative',
-    isFeatured: false
+    "affiliateUrl": "https://krisp.ai/?via=locagocreative",
+    "isFeatured": false
   },
   {
-    id: 'ai-19',
-    name: 'Runway Gen-3 Alpha',
-    logoUrl: '/logos/runway.png',
-    category: 'Video & Graphics',
-    pricingType: 'Freemium',
-    commissionRate: 'Partner Tiered',
-    tagline: 'Generator Video Sinematik Teks-ke-Video Tingkat Studio Hollywood',
-    description: 'Model video AI generasi baru yang menghasilkan video fotorealistik dengan kontrol pergerakan kamera sinematik, efek fisika akurat, dan transisi mulus.',
-    features: [
-      'Text-to-Video dan Image-to-Video dengan resolusi tinggi 4K',
-      'Camera Motion Control: Pan, Zoom, Orbit, dan FPV Drone',
-      'Motion Brush untuk menggerakkan objek spesifik dalam gambar diam',
-      'Generasi ekspresi wajah dan lip-sync manusia yang meyakinkan'
+    "id": "ai-19",
+    "name": "Otter.ai",
+    "logoUrl": "/logos/otterai.png",
+    "category": "Voice & Audio AI",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Asisten Transkripsi Rapat Zoom & Google Meet Otomatis Real-Time",
+    "description": "Otter.ai adalah software kecerdasan buatan terdepan di bidang Voice & Audio AI yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Voice & Audio AI",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
     ],
-    affiliateUrl: 'https://runwayml.com/?via=locagocreative',
-    isFeatured: true
+    "affiliateUrl": "https://otter.ai/?via=locagocreative",
+    "isFeatured": false
   },
   {
-    id: 'ai-20',
-    name: 'Bolt.new by StackBlitz',
-    logoUrl: '/logos/bolt.png',
-    category: 'AI Coding',
-    pricingType: 'Freemium',
-    commissionRate: 'Partner Program',
-    tagline: 'Bangun, Jalankan & Deploy Full-Stack Web App Langsung di Browser',
-    description: 'Lingkungan pengembangan bertenaga AI di browser yang bisa menginstal paket npm, menjalankan Node.js runtime lokal, dan men-deploy aplikasi secara instan.',
-    features: [
-      'Full-stack in-browser runtime tanpa perlu install Node/Git di laptop',
-      'Perbaiki error coding terminal secara otomatis via agen AI',
-      'Satu klik deploy langsung ke Netlify atau Cloudflare Pages',
-      'Mendukung Next.js, Vite, React, Vue, Supabase, dan Tailwind'
+    "id": "ai-20",
+    "name": "Podcastle",
+    "logoUrl": "/logos/podcastle.png",
+    "category": "Voice & Audio AI",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Studio Perekaman dan Pengeditan Podcast AI All-in-One",
+    "description": "Podcastle adalah software kecerdasan buatan terdepan di bidang Voice & Audio AI yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Voice & Audio AI",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
     ],
-    affiliateUrl: 'https://bolt.new/?via=locagocreative',
-    isFeatured: true
+    "affiliateUrl": "https://podcastle.ai/?via=locagocreative",
+    "isFeatured": false
   },
   {
-    id: 'ai-21',
-    name: 'Voiceflow',
-    logoUrl: '/logos/voiceflow.png',
-    category: 'Automation & No-Code',
-    pricingType: 'Freemium',
-    commissionRate: '20% Recurring',
-    tagline: 'Platform Perancangan & Deployment Agen Chatbot AI Enterprise',
-    description: 'Visual builder untuk merancang, menguji, dan meluncurkan agen AI percakapan berbasis LLM untuk customer support di web, WhatsApp, dan aplikasi seluler.',
-    features: [
-      'Visual flow canvas drag-and-drop untuk logika percakapan kompleks',
-      'Integrasi knowledge base dokumen perusahaan dengan RAG bawaan',
-      'API & Webhook action step untuk eksekusi transaksi database',
-      'Analisis intent pengguna dan deteksi kebocoran konteks bot'
+    "id": "ai-21",
+    "name": "Midjourney",
+    "logoUrl": "/logos/midjourney.png",
+    "category": "Video & Graphics",
+    "pricingType": "Paid",
+    "commissionRate": "Partner Program",
+    "tagline": "Generator Gambar AI Paling Sinematik & Estetik untuk Desainer",
+    "description": "Midjourney adalah software kecerdasan buatan terdepan di bidang Video & Graphics yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Video & Graphics",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
     ],
-    affiliateUrl: 'https://www.voiceflow.com/?via=locagocreative',
-    isFeatured: false
+    "affiliateUrl": "https://www.midjourney.com/?via=locagocreative",
+    "isFeatured": false
   },
   {
-    id: 'ai-22',
-    name: 'Luma Dream Machine',
-    logoUrl: '/logos/luma.png',
-    category: 'Video & Graphics',
-    pricingType: 'Freemium',
-    commissionRate: 'Partner Tiered',
-    tagline: 'Generator Video AI Sinematik 5 Detik Berkecepatan Tinggi',
-    description: 'Mesin kreasi video AI yang mampu menghasilkan klip 5 detik dengan konsistensi objek tinggi, gerakan dinamis realistis, dan pencahayaan alami.',
-    features: [
-      'Rendering video ultra-cepat hanya dalam hitungan detik',
-      'Simulasi fisika cairan, asap, dan pergerakan kain yang nyata',
-      'Fitur keyframe looping dan penyambungan adegan (extend video)',
-      'Akses gratis beberapa generasi video setiap hari'
+    "id": "ai-22",
+    "name": "HeyGen",
+    "logoUrl": "/logos/heygen.png",
+    "category": "Video & Graphics",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Avatar AI Sinematik & Video Juru Bicara Tanpa Perlu Masuk Kamera",
+    "description": "HeyGen adalah software kecerdasan buatan terdepan di bidang Video & Graphics yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Video & Graphics",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
     ],
-    affiliateUrl: 'https://lumalabs.ai/dream-machine?via=locagocreative',
-    isFeatured: false
+    "affiliateUrl": "https://www.heygen.com/?via=locagocreative",
+    "isFeatured": false
   },
   {
-    id: 'ai-23',
-    name: 'Copy.ai',
-    logoUrl: '/logos/copyai.png',
-    category: 'AI Writing & SEO',
-    pricingType: 'Freemium',
-    commissionRate: '45% First Year Recurring',
-    tagline: 'Otomasi Alur Kerja GTM (Go-to-Market) & Copywriting Tim Penjualan',
-    description: 'Platform AI operasional untuk tim marketing dan sales B2B. Mengotomasi penulisan email cold outreach, ringkasan prospek LinkedIn, dan naskah iklan.',
-    features: [
-      'Workflows automation untuk riset prospek dan auto-draft email B2B',
-      'Brand Voice kustom dan template copywriting formula AIDA/PAS',
-      'Integrasi CRM HubSpot, Salesforce, dan Google Sheets',
-      'Paket gratis selamanya untuk pengguna solo'
+    "id": "ai-23",
+    "name": "Runway Gen-3",
+    "logoUrl": "/logos/runway-gen-3.png",
+    "category": "Video & Graphics",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Generator Video Sinematik Teks-ke-Video Tingkat Studio Hollywood",
+    "description": "Runway Gen-3 adalah software kecerdasan buatan terdepan di bidang Video & Graphics yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Video & Graphics",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
     ],
-    affiliateUrl: 'https://www.copy.ai/?via=locagocreative',
-    isFeatured: false
+    "affiliateUrl": "https://runwayml.com/?via=locagocreative",
+    "isFeatured": false
   },
   {
-    id: 'ai-24',
-    name: 'GitHub Copilot',
-    logoUrl: '/logos/copilot.png',
-    category: 'AI Coding',
-    pricingType: 'Free Trial',
-    commissionRate: 'Microsoft Partner',
-    tagline: 'AI Pair Programmer Standar Industri Dunia yang Terintegrasi di IDE',
-    description: 'Asisten AI coding paling matang di dunia buatan GitHub dan OpenAI. Mengubah komentar teks menjadi fungsi kode siap pakai di puluhan bahasa pemrograman.',
-    features: [
-      'Autocomplete kode baris demi baris dan fungsi penuh secara real-time',
-      'Copilot Chat di editor untuk refactor, unit test, dan fix bug',
-      'Kompatibel dengan VS Code, Visual Studio, JetBrains, dan Neovim',
-      'Dukungan model OpenAI o1, GPT-4o, dan Claude 3.5 Sonnet'
+    "id": "ai-24",
+    "name": "Kling AI",
+    "logoUrl": "/logos/kling-ai.png",
+    "category": "Video & Graphics",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Generator Video AI Fotorealistik 1080p dengan Fisika Nyata",
+    "description": "Kling AI adalah software kecerdasan buatan terdepan di bidang Video & Graphics yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Video & Graphics",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
     ],
-    affiliateUrl: 'https://github.com/features/copilot?via=locagocreative',
-    isFeatured: true
+    "affiliateUrl": "https://klingai.com/affiliate",
+    "isFeatured": false
   },
   {
-    id: 'ai-25',
-    name: 'Replit Agent',
-    logoUrl: '/logos/replit.png',
-    category: 'AI Coding',
-    pricingType: 'Freemium',
-    commissionRate: '20% Recurring',
-    tagline: 'Agen AI yang Mengembangkan & Men-Deploy Aplikasi Web Lengkap',
-    description: 'Agen coding otonom yang bisa merancang arsitektur database, menulis frontend dan backend, menginstal library, lalu mempublikasikannya langsung ke internet.',
-    features: [
-      'Autonomous software development dari instruksi bahasa manusia biasa',
-      'Otomatis setup database PostgreSQL, API backend, dan UI frontend',
-      'Hosting cloud bawaan dengan domain kustom dan sertifikat SSL gratis',
-      'Dapat diakses dari browser laptop, tablet, maupun smartphone'
+    "id": "ai-25",
+    "name": "Luma Dream Machine",
+    "logoUrl": "/logos/luma-dream-machine.png",
+    "category": "Video & Graphics",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Generator Video AI Sinematik 5 Detik Berkecepatan Tinggi",
+    "description": "Luma Dream Machine adalah software kecerdasan buatan terdepan di bidang Video & Graphics yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Video & Graphics",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
     ],
-    affiliateUrl: 'https://replit.com/?via=locagocreative',
-    isFeatured: true
+    "affiliateUrl": "https://lumalabs.ai/dream-machine?via=locagocreative",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-26",
+    "name": "Opus Clip",
+    "logoUrl": "/logos/opus-clip.png",
+    "category": "Video & Graphics",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "#1 AI Video Repurposing: Ubah Video Panjang Jadi 10 Klip Viral",
+    "description": "Opus Clip adalah software kecerdasan buatan terdepan di bidang Video & Graphics yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Video & Graphics",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://www.opus.pro/?via=locagocreative",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-27",
+    "name": "Pictory AI",
+    "logoUrl": "/logos/pictory-ai.png",
+    "category": "Video & Graphics",
+    "pricingType": "Free Trial",
+    "commissionRate": "Partner Program",
+    "tagline": "Ubah Naskah Teks Jadi Video Sinematik Siap Upload dalam 3 Menit",
+    "description": "Pictory AI adalah software kecerdasan buatan terdepan di bidang Video & Graphics yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Video & Graphics",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://pictory.ai/?ref=locagocreative",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-28",
+    "name": "Viggle AI",
+    "logoUrl": "/logos/viggle-ai.png",
+    "category": "Video & Graphics",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Gerakkan Foto Karakter Apapun Menjadi Video Gerak Sesuai Referensi",
+    "description": "Viggle AI adalah software kecerdasan buatan terdepan di bidang Video & Graphics yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Video & Graphics",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://viggle.ai/affiliate",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-29",
+    "name": "Pika Labs",
+    "logoUrl": "/logos/pika-labs.png",
+    "category": "Video & Graphics",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Platform Pembuatan Video AI dengan Efek Pikaffects Spesial",
+    "description": "Pika Labs adalah software kecerdasan buatan terdepan di bidang Video & Graphics yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Video & Graphics",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://pika.art/?via=locagocreative",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-30",
+    "name": "Magnific AI",
+    "logoUrl": "/logos/magnific-ai.png",
+    "category": "Video & Graphics",
+    "pricingType": "Paid",
+    "commissionRate": "Partner Program",
+    "tagline": "Upscaler & Enhancer Gambar AI Tertinggi dengan Halusinasi Detail",
+    "description": "Magnific AI adalah software kecerdasan buatan terdepan di bidang Video & Graphics yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Video & Graphics",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://magnific.ai/?via=locagocreative",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-31",
+    "name": "CapCut Commerce",
+    "logoUrl": "/logos/capcut-commerce.png",
+    "category": "Video & Graphics",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Editor Video TikTok & Reels Populer dengan Generator Model AI",
+    "description": "CapCut Commerce adalah software kecerdasan buatan terdepan di bidang Video & Graphics yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Video & Graphics",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://www.capcut.com/affiliate",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-32",
+    "name": "Clipdrop by Jasper",
+    "logoUrl": "/logos/clipdrop-by-jasper.png",
+    "category": "Video & Graphics",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Suite Alat Manipulasi Foto AI: Hapus Objek, Background & Relight",
+    "description": "Clipdrop by Jasper adalah software kecerdasan buatan terdepan di bidang Video & Graphics yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Video & Graphics",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://clipdrop.co/?via=locagocreative",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-33",
+    "name": "Leonardo.Ai",
+    "logoUrl": "/logos/leonardoai.png",
+    "category": "Video & Graphics",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Generator Seni AI Canggih untuk Game Asset, Ilustrasi & Model",
+    "description": "Leonardo.Ai adalah software kecerdasan buatan terdepan di bidang Video & Graphics yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Video & Graphics",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://leonardo.ai/?via=locagocreative",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-34",
+    "name": "Recraft.ai",
+    "logoUrl": "/logos/recraftai.png",
+    "category": "Video & Graphics",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Generator Grafis Vektor SVG dan Ikon 3D Profesional untuk UI/UX",
+    "description": "Recraft.ai adalah software kecerdasan buatan terdepan di bidang Video & Graphics yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Video & Graphics",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://www.recraft.ai/?via=locagocreative",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-35",
+    "name": "Krea.ai",
+    "logoUrl": "/logos/kreaai.png",
+    "category": "Video & Graphics",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Kanvas Generasi Gambar & Video AI Real-Time dengan Latensi Instan",
+    "description": "Krea.ai adalah software kecerdasan buatan terdepan di bidang Video & Graphics yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Video & Graphics",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://www.krea.ai/?via=locagocreative",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-36",
+    "name": "Systeme.io",
+    "logoUrl": "/logos/systemeio.png",
+    "category": "Automation & No-Code",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Platform Funnel, Email Marketing & Kursus All-in-One Gratis",
+    "description": "Systeme.io adalah software kecerdasan buatan terdepan di bidang Automation & No-Code yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Automation & No-Code",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://systeme.io/id?sa=sa0285473359ae5985c82865330cf1a062d892e972",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-37",
+    "name": "Make.com",
+    "logoUrl": "/logos/makecom.png",
+    "category": "Automation & No-Code",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Otomatisasi Alur Kerja Visual Tanpa Batas (Alternatif Zapier)",
+    "description": "Make.com adalah software kecerdasan buatan terdepan di bidang Automation & No-Code yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Automation & No-Code",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://www.make.com/en/register?pc=locagocreative",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-38",
+    "name": "Chatbase",
+    "logoUrl": "/logos/chatbase.png",
+    "category": "Automation & No-Code",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Bikin Chatbot AI Custom dari File PDF & Website Bisnis Sendiri",
+    "description": "Chatbase adalah software kecerdasan buatan terdepan di bidang Automation & No-Code yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Automation & No-Code",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://www.chatbase.co/?via=locagocreative",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-39",
+    "name": "Browse AI",
+    "logoUrl": "/logos/browse-ai.png",
+    "category": "Automation & No-Code",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Scraper & Monitor Data Website Tanpa Koding (No-Code)",
+    "description": "Browse AI adalah software kecerdasan buatan terdepan di bidang Automation & No-Code yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Automation & No-Code",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://www.browse.ai/?via=locagocreative",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-40",
+    "name": "Voiceflow",
+    "logoUrl": "/logos/voiceflow.png",
+    "category": "Automation & No-Code",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Platform Perancangan & Deployment Agen Chatbot AI Enterprise",
+    "description": "Voiceflow adalah software kecerdasan buatan terdepan di bidang Automation & No-Code yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Automation & No-Code",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://www.voiceflow.com/?via=locagocreative",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-41",
+    "name": "Zapier Central",
+    "logoUrl": "/logos/zapier-central.png",
+    "category": "Automation & No-Code",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Asisten AI yang Menghubungkan Ribuan Aplikasi Bisnis Tanpa API",
+    "description": "Zapier Central adalah software kecerdasan buatan terdepan di bidang Automation & No-Code yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Automation & No-Code",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://zapier.com/?via=locagocreative",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-42",
+    "name": "Notion AI",
+    "logoUrl": "/logos/notion-ai.png",
+    "category": "Automation & No-Code",
+    "pricingType": "Free Trial",
+    "commissionRate": "Partner Program",
+    "tagline": "Asisten Produktivitas Dokumen, Wiki Tim & Manajemen Tugas Otomatis",
+    "description": "Notion AI adalah software kecerdasan buatan terdepan di bidang Automation & No-Code yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Automation & No-Code",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://www.notion.so/?via=locagocreative",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-43",
+    "name": "Bardeen.ai",
+    "logoUrl": "/logos/bardeenai.png",
+    "category": "Automation & No-Code",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Ekstensi Browser Otomasi Sekali Klik untuk Riset & Data Scraping",
+    "description": "Bardeen.ai adalah software kecerdasan buatan terdepan di bidang Automation & No-Code yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Automation & No-Code",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://www.bardeen.ai/?via=locagocreative",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-44",
+    "name": "GoAPI",
+    "logoUrl": "/logos/goapi.png",
+    "category": "Automation & No-Code",
+    "pricingType": "Paid",
+    "commissionRate": "Partner Program",
+    "tagline": "API Midjourney, Kling & Video Generation untuk Developer",
+    "description": "GoAPI adalah software kecerdasan buatan terdepan di bidang Automation & No-Code yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Automation & No-Code",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://goapi.ai/affiliate",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-45",
+    "name": "ActiveCampaign AI",
+    "logoUrl": "/logos/activecampaign-ai.png",
+    "category": "Automation & No-Code",
+    "pricingType": "Free Trial",
+    "commissionRate": "Partner Program",
+    "tagline": "Otomasi Email Marketing & CRM Cerdas untuk Bisnis Berbasis Data",
+    "description": "ActiveCampaign AI adalah software kecerdasan buatan terdepan di bidang Automation & No-Code yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Automation & No-Code",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://www.activecampaign.com/?via=locagocreative",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-46",
+    "name": "Perplexity AI",
+    "logoUrl": "/logos/perplexity-ai.png",
+    "category": "AI Writing & SEO",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Mesin Pencari Berbasis AI dengan Kutipan Sumber Faktual Real-Time",
+    "description": "Perplexity AI adalah software kecerdasan buatan terdepan di bidang AI Writing & SEO yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Writing & SEO",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://perplexity.ai/?via=locagocreative",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-47",
+    "name": "Koala AI",
+    "logoUrl": "/logos/koala-ai.png",
+    "category": "AI Writing & SEO",
+    "pricingType": "Free Trial",
+    "commissionRate": "Partner Program",
+    "tagline": "AI Penulis Artikel SEO Lengkap dengan Data Realtime Google",
+    "description": "Koala AI adalah software kecerdasan buatan terdepan di bidang AI Writing & SEO yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Writing & SEO",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://koala.sh/?via=locagocreative",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-48",
+    "name": "Writesonic",
+    "logoUrl": "/logos/writesonic.png",
+    "category": "AI Writing & SEO",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Platform Copywriting & Riset Konten SEO Bertenaga AI Generatif",
+    "description": "Writesonic adalah software kecerdasan buatan terdepan di bidang AI Writing & SEO yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Writing & SEO",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://writesonic.com/?via=locagocreative",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-49",
+    "name": "Surfer SEO",
+    "logoUrl": "/logos/surfer-seo.png",
+    "category": "AI Writing & SEO",
+    "pricingType": "Paid",
+    "commissionRate": "Partner Program",
+    "tagline": "Tool Riset & Optimasi On-Page SEO #1 untuk Masuk Halaman 1 Google",
+    "description": "Surfer SEO adalah software kecerdasan buatan terdepan di bidang AI Writing & SEO yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Writing & SEO",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://surferseo.com/?via=locagocreative",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-50",
+    "name": "Copy.ai",
+    "logoUrl": "/logos/copyai.png",
+    "category": "AI Writing & SEO",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Otomasi Alur Kerja GTM (Go-to-Market) & Copywriting Tim Penjualan",
+    "description": "Copy.ai adalah software kecerdasan buatan terdepan di bidang AI Writing & SEO yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Writing & SEO",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://www.copy.ai/?via=locagocreative",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-51",
+    "name": "Jasper AI",
+    "logoUrl": "/logos/jasper-ai.png",
+    "category": "AI Writing & SEO",
+    "pricingType": "Free Trial",
+    "commissionRate": "Partner Program",
+    "tagline": "Platform Penulisan Konten Marketing & Suara Brand untuk Perusahaan",
+    "description": "Jasper AI adalah software kecerdasan buatan terdepan di bidang AI Writing & SEO yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Writing & SEO",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://www.jasper.ai/?via=locagocreative",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-52",
+    "name": "Monica AI",
+    "logoUrl": "/logos/monica-ai.png",
+    "category": "AI Writing & SEO",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Asisten AI All-in-One di Browser Sidebar (ChatGPT, Claude, Gemini)",
+    "description": "Monica AI adalah software kecerdasan buatan terdepan di bidang AI Writing & SEO yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Writing & SEO",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://monica.im/affiliate",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-53",
+    "name": "Rytr.me",
+    "logoUrl": "/logos/rytrme.png",
+    "category": "AI Writing & SEO",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Asisten Penulis Copywriting Ringan, Cepat & Terjangkau untuk Pemula",
+    "description": "Rytr.me adalah software kecerdasan buatan terdepan di bidang AI Writing & SEO yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Writing & SEO",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://rytr.me/?via=locagocreative",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-54",
+    "name": "QuillBot",
+    "logoUrl": "/logos/quillbot.png",
+    "category": "AI Writing & SEO",
+    "pricingType": "Freemium",
+    "commissionRate": "Partner Program",
+    "tagline": "Tool Parafrase, Grammar Checker & Peringkas Kalimat Terbaik",
+    "description": "QuillBot adalah software kecerdasan buatan terdepan di bidang AI Writing & SEO yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Writing & SEO",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://quillbot.com/?via=locagocreative",
+    "isFeatured": false
+  },
+  {
+    "id": "ai-55",
+    "name": "Frase.io",
+    "logoUrl": "/logos/fraseio.png",
+    "category": "AI Writing & SEO",
+    "pricingType": "Free Trial",
+    "commissionRate": "Partner Program",
+    "tagline": "Riset Konten SEO & Pembuat Brief Artikel Berdasarkan SERP Google",
+    "description": "Frase.io adalah software kecerdasan buatan terdepan di bidang AI Writing & SEO yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+    "features": [
+      "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Writing & SEO",
+      "Antarmuka pengguna responsif dan intuitif siap pakai",
+      "Mendukung integrasi alur kerja modern dan ekspor data instan",
+      "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+    ],
+    "affiliateUrl": "https://frase.io/?via=locagocreative",
+    "isFeatured": false
   }
 ];

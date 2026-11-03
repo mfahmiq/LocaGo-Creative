@@ -140,7 +140,28 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                     : 'bg-purple-100 dark:bg-purple-950/60 text-purple-700 dark:text-purple-400'
                 }`}
               >
-                Katalog
+                55+
+              </span>
+            </button>
+
+            {/* Tab 5: Artikel AI */}
+            <button
+              onClick={() => handleTabClick('articles')}
+              className={`px-3 py-1.5 rounded-lg text-xs font-mono font-medium transition-all cursor-pointer flex items-center gap-1.5 ${
+                activeTab === 'articles'
+                  ? 'bg-emerald-600 text-white shadow-sm font-bold'
+                  : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-950 dark:hover:text-white'
+              }`}
+            >
+              <span>Artikel AI</span>
+              <span
+                className={`px-1.5 py-0.2 rounded text-[10px] font-bold ${
+                  activeTab === 'articles'
+                    ? 'bg-white/20 text-white'
+                    : 'bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-400'
+                }`}
+              >
+                10 Baru
               </span>
             </button>
           </div>
@@ -300,10 +321,29 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                   🤖 Katalog AI Tools & Otomasi
                 </span>
                 <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-purple-600 text-white font-mono">
-                  Afiliasi
+                  55+
                 </span>
               </div>
               <span className="font-mono text-xs text-neutral-400">04 →</span>
+            </button>
+
+            <button
+              onClick={() => handleTabClick('articles')}
+              className={`w-full flex items-center justify-between p-3 rounded-xl border text-left cursor-pointer ${
+                activeTab === 'articles'
+                  ? 'border-emerald-500 bg-emerald-50 dark:bg-emerald-950/40 font-bold'
+                  : 'border-neutral-100 dark:border-neutral-800/80 bg-neutral-50/50 dark:bg-neutral-900/40'
+              }`}
+            >
+              <div className="flex items-center gap-2">
+                <span className="text-sm font-semibold text-neutral-900 dark:text-white">
+                  📰 Artikel & Panduan AI
+                </span>
+                <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-emerald-600 text-white font-mono">
+                  10 Baru
+                </span>
+              </div>
+              <span className="font-mono text-xs text-neutral-400">05 →</span>
             </button>
           </div>
 
