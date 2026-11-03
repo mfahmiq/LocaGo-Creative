@@ -1,143 +1,437 @@
 import React, { useState, useMemo } from 'react';
 import { AI_TOOLS_LIST } from '../lib/data';
+import { AIToolItem } from '../types';
 
 export const AIToolsHub: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('Semua');
+  const [selectedPricing, setSelectedPricing] = useState<string>('Semua');
+  const [sortBy, setSortBy] = useState<'popular' | 'commission' | 'name'>('popular');
   const [searchQuery, setSearchQuery] = useState<string>('');
+  const [isSubmitModalOpen, setIsSubmitModalOpen] = useState<boolean>(false);
 
-  const categories = ['Semua', 'Automation & No-Code', 'Voice & Audio AI', 'AI Writing & SEO', 'Video & Graphics', 'AI Coding'];
+  // Form submission state
+  const [submitForm, setSubmitForm] = useState({
+    toolName: '',
+    websiteUrl: '',
+    category: 'AI Coding',
+    pricing: 'Freemium',
+    description: '',
+    contactWa: '',
+    isFeaturedRequest: false
+  });
+  const [submitSuccess, setSubmitSuccess] = useState<boolean>(false);
 
-  const filteredTools = useMemo(() => {
+  // Upvotes state stored in localStorage
+  const [upvotes, setUpvotes] = useState<Record<string, number>>(() => {
+    try {
+      const saved = localStorage.getItem('locago_ai_upvotes');
+      return saved ? JSON.parse(saved) : {};
+    } catch {
+      return {};
+    }
+  });
+
+  const [userVoted, setUserVoted] = useState<Record<string, boolean>>(() => {
+    try {
+      const saved = localStorage.getItem('locago_ai_uservoted');
+      return saved ? JSON.parse(saved) : {};
+    } catch {
+      return {};
+    }
+  });
+
+  const categories = [
+    'Semua',
+    'Automation & No-Code',
+    'Voice & Audio AI',
+    'AI Writing & SEO',
+    'Video & Graphics',
+    'AI Coding'
+  ];
+
+  const pricingModels = ['Semua', 'Freemium', 'Free Trial', 'Paid'];
+
+  const toggleUpvote = (id: string) => {
+    const isVoted = userVoted[id];
+    const defaultVal = 12 + (id.charCodeAt(id.length - 1) % 40);
+    const current = upvotes[id] !== undefined ? upvotes[id] : defaultVal;
+    const nextCount = isVoted ? current - 1 : current + 1;
+
+    const nextUpvotes = { ...upvotes, [id]: nextCount };
+    const nextUserVoted = { ...userVoted, [id]: !isVoted };
+
+    setUpvotes(nextUpvotes);
+    setUserVoted(nextUserVoted);
+
+    try {
+      localStorage.setItem('locago_ai_upvotes', JSON.stringify(nextUpvotes));
+      localStorage.setItem('locago_ai_uservoted', JSON.stringify(nextUserVoted));
+    } catch {
+      // fallback
+    }
+  };
+
+  const handleFormSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    setSubmitSuccess(true);
+    setTimeout(() => {
+      setSubmitSuccess(false);
+      setIsSubmitModalOpen(false);
+      // Optional: direct to WhatsApp to confirm submission
+      const msg = encodeURIComponent(
+        `Halo LocaGo Creative! Saya ingin submit tool AI baru ke AI Tool Library:\n\n• Nama Tool: ${submitForm.toolName}\n• Website: ${submitForm.websiteUrl}\n• Kategori: ${submitForm.category}\n• Model Harga: ${submitForm.pricing}\n• Paket: ${submitForm.isFeaturedRequest ? 'VIP Featured Listing' : 'Standard Free Review'}`
+      );
+      window.open(`https://wa.me/6285189393354?text=${msg}`, '_blank');
+    }, 1200);
+  };
+
+  const filteredAndSortedTools = useMemo(() => {
     return AI_TOOLS_LIST.filter((tool) => {
       const matchCat = selectedCategory === 'Semua' || tool.category === selectedCategory;
+      const matchPricing = selectedPricing === 'Semua' || tool.pricingType === selectedPricing;
       const matchSearch =
         tool.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
         tool.tagline.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        tool.description.toLowerCase().includes(searchQuery.toLowerCase());
-      return matchCat && matchSearch;
+        tool.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        tool.category.toLowerCase().includes(searchQuery.toLowerCase());
+      return matchCat && matchPricing && matchSearch;
+    }).sort((a, b) => {
+      if (sortBy === 'popular') {
+        const votesA = upvotes[a.id] !== undefined ? upvotes[a.id] : 20;
+        const votesB = upvotes[b.id] !== undefined ? upvotes[b.id] : 20;
+        return votesB - votesA;
+      }
+      if (sortBy === 'name') {
+        return a.name.localeCompare(b.name);
+      }
+      return 0;
     });
-  }, [selectedCategory, searchQuery]);
+  }, [selectedCategory, selectedPricing, searchQuery, sortBy, upvotes]);
 
   return (
-    <section id="ai-tools" className="pt-28 pb-20 bg-neutral-50/60 dark:bg-neutral-950 min-h-screen">
-      <div className="max-w-7xl mx-auto px-6">
-        {/* Header */}
-        <div className="text-center max-w-3xl mx-auto mb-12">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-100 dark:bg-purple-950/60 text-purple-800 dark:text-purple-400 text-xs font-mono font-medium mb-4 border border-purple-200 dark:border-purple-800">
-            <span>🚀 Direktori Alat AI Terbaik & Rekomendasi Praktisi</span>
+    <section id="ai-tools" className="pt-28 pb-24 bg-neutral-950 text-white min-h-screen relative overflow-hidden">
+      {/* Background Ambience */}
+      <div className="absolute inset-0 bg-[radial-gradient(#3b0764_1px,transparent_1px)] [background-size:24px_24px] opacity-25 pointer-events-none" />
+      <div className="absolute top-1/4 right-1/4 w-[500px] h-[300px] bg-purple-600/10 blur-[140px] rounded-full pointer-events-none" />
+
+      <div className="max-w-7xl mx-auto px-6 relative z-10">
+        {/* Header Library ala Futurepedia */}
+        <div className="text-center max-w-3xl mx-auto mb-10">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-400 text-xs font-mono font-medium mb-4">
+            <span className="w-2 h-2 rounded-full bg-purple-400 animate-pulse" />
+            <span>AI Tool Directory & Software Intelligence Library</span>
           </div>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-neutral-900 dark:text-white tracking-tight leading-tight">
-            Katalog AI Tools & Software Otomasi
+          <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight leading-tight bg-gradient-to-r from-white via-neutral-200 to-purple-300 bg-clip-text text-transparent">
+            AI Tool Library & Direktori Software
           </h1>
-          <p className="mt-4 text-sm sm:text-base text-neutral-600 dark:text-neutral-400 leading-relaxed">
-            Daftar software kecerdasan buatan terverifikasi untuk meningkatkan produktivitas, pembuatan konten otomatis, dan scale-up bisnis Anda.
+          <p className="mt-4 text-sm sm:text-base text-neutral-400 leading-relaxed">
+            Perpustakaan kurasi kecerdasan buatan, engine otomatisasi no-code, dan model AI paling produktif untuk mempercepat pertumbuhan bisnis dan proyek Anda.
           </p>
+
+          <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
+            <span className="px-3 py-1 rounded-full bg-neutral-900 border border-neutral-800 text-xs font-mono text-neutral-300">
+              ⚡ <strong>{AI_TOOLS_LIST.length}+</strong> Alat AI Terverifikasi
+            </span>
+            <span className="px-3 py-1 rounded-full bg-neutral-900 border border-neutral-800 text-xs font-mono text-emerald-400">
+              💰 Komisi Afiliasi s/d <strong>60% Recurring</strong>
+            </span>
+            <button
+              onClick={() => setIsSubmitModalOpen(true)}
+              className="px-4 py-1.5 rounded-full bg-purple-600 hover:bg-purple-500 text-white text-xs font-mono font-bold transition-all shadow-lg shadow-purple-600/30 flex items-center gap-1.5 cursor-pointer active:scale-95"
+            >
+              <span>+ Submit Your AI Tool</span>
+            </button>
+          </div>
         </div>
 
-        {/* Filter and Search Bar */}
-        <div className="mb-8 space-y-4">
-          <div className="relative max-w-xl mx-auto">
-            <input
-              type="text"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Cari AI tools (Voice, SEO, Funnel, Video)..."
-              className="w-full px-4 py-3 pl-11 rounded-xl bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 text-sm text-neutral-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-purple-500 shadow-sm"
-            />
-            <svg
-              className="absolute left-3.5 top-3.5 w-4 h-4 text-neutral-400"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-            </svg>
+        {/* Directory Controls Box */}
+        <div className="bg-neutral-900/90 border border-neutral-800 rounded-2xl p-4 sm:p-6 mb-8 backdrop-blur shadow-2xl space-y-4">
+          {/* Row 1: Search & Sort Bar */}
+          <div className="flex flex-col sm:flex-row items-center gap-3">
+            <div className="relative flex-1 w-full">
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="Cari AI tools berdasarkan nama, fungsi, atau fitur (cth: Cursor, Voice, RAG, Funnel)..."
+                className="w-full px-4 py-2.5 pl-10 rounded-xl bg-neutral-950 border border-neutral-800 text-xs sm:text-sm text-white placeholder-neutral-500 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all"
+              />
+              <svg className="absolute left-3.5 top-3 w-4 h-4 text-neutral-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </div>
+
+            {/* Sort Dropdown */}
+            <div className="flex items-center gap-2 w-full sm:w-auto shrink-0 justify-between sm:justify-end">
+              <span className="text-xs font-mono text-neutral-500">Urutkan:</span>
+              <select
+                value={sortBy}
+                onChange={(e) => setSortBy(e.target.value as any)}
+                className="bg-neutral-950 border border-neutral-800 text-xs font-mono text-neutral-300 rounded-xl px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500 cursor-pointer"
+              >
+                <option value="popular">🔥 Paling Populer</option>
+                <option value="name">🔤 Nama (A - Z)</option>
+              </select>
+            </div>
           </div>
 
-          <div className="flex items-center justify-center flex-wrap gap-2 pt-2">
+          {/* Row 2: Category Filter Pills */}
+          <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none border-t border-neutral-800/80 pt-3">
+            <span className="text-xs font-mono text-neutral-500 shrink-0 mr-1">Kategori:</span>
             {categories.map((cat) => (
               <button
                 key={cat}
                 onClick={() => setSelectedCategory(cat)}
-                className={`px-3.5 py-1.5 rounded-lg text-xs font-mono font-medium transition-all cursor-pointer ${
+                className={`px-3 py-1.5 rounded-lg text-xs font-mono whitespace-nowrap transition-all cursor-pointer ${
                   selectedCategory === cat
-                    ? 'bg-purple-600 text-white font-bold shadow-sm'
-                    : 'bg-white dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 border border-neutral-200 dark:border-neutral-800 hover:border-neutral-300 dark:hover:border-neutral-700'
+                    ? 'bg-purple-600 text-white font-bold shadow-md shadow-purple-600/30'
+                    : 'bg-neutral-950 text-neutral-400 border border-neutral-800 hover:border-neutral-700 hover:text-white'
                 }`}
               >
                 {cat}
               </button>
             ))}
           </div>
+
+          {/* Row 3: Pricing Filter Pills */}
+          <div className="flex items-center gap-2 overflow-x-auto scrollbar-none pt-1">
+            <span className="text-xs font-mono text-neutral-500 shrink-0 mr-1">Model Harga:</span>
+            {pricingModels.map((price) => (
+              <button
+                key={price}
+                onClick={() => setSelectedPricing(price)}
+                className={`px-2.5 py-1 rounded-md text-[11px] font-mono whitespace-nowrap transition-all cursor-pointer ${
+                  selectedPricing === price
+                    ? 'bg-neutral-800 text-white font-bold border border-neutral-600'
+                    : 'text-neutral-500 hover:text-neutral-300'
+                }`}
+              >
+                {price === 'Semua' ? 'Semua Harga' : price}
+              </button>
+            ))}
+
+            <div className="ml-auto text-[11px] font-mono text-neutral-500 shrink-0">
+              Menampilkan <strong className="text-purple-400">{filteredAndSortedTools.length}</strong> alat
+            </div>
+          </div>
         </div>
 
-        {/* AI Tools Grid */}
+        {/* AI Tools Grid ala Futurepedia */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredTools.map((tool) => (
-            <div
-              key={tool.id}
-              className="p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 shadow-sm hover:shadow-xl hover:border-purple-500/40 transition-all flex flex-col justify-between"
-            >
-              <div>
-                {/* Header Card */}
-                <div className="flex items-start justify-between gap-3 mb-3">
-                  <div className="flex items-center gap-2">
-                    <span className="w-8 h-8 rounded-lg bg-purple-100 dark:bg-purple-950/60 text-purple-700 dark:text-purple-300 flex items-center justify-center font-bold text-sm">
-                      {tool.name.charAt(0)}
-                    </span>
-                    <div>
-                      <h3 className="font-bold text-lg text-neutral-900 dark:text-white leading-tight">
-                        {tool.name}
-                      </h3>
-                      <span className="text-[11px] font-mono text-neutral-500">{tool.category}</span>
+          {filteredAndSortedTools.map((tool) => {
+            const voteVal = upvotes[tool.id] !== undefined ? upvotes[tool.id] : 18;
+            const hasVoted = !!userVoted[tool.id];
+
+            return (
+              <div
+                key={tool.id}
+                className="group p-6 rounded-2xl bg-neutral-900/70 border border-neutral-800 hover:border-purple-500/40 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/5 backdrop-blur flex flex-col justify-between"
+              >
+                <div>
+                  {/* Card Header */}
+                  <div className="flex items-start justify-between gap-3 mb-3">
+                    <div className="flex items-center gap-3">
+                      <div className="w-10 h-10 rounded-xl bg-purple-500/10 border border-purple-500/30 text-purple-400 flex items-center justify-center font-bold text-base font-mono shrink-0">
+                        {tool.name.charAt(0)}
+                      </div>
+                      <div>
+                        <h3 className="font-bold text-lg text-white group-hover:text-purple-300 transition-colors flex items-center gap-1.5">
+                          <span>{tool.name}</span>
+                          {tool.isFeatured && (
+                            <span className="text-[10px] font-mono font-bold px-1.5 py-0.5 rounded bg-purple-500/20 text-purple-300 border border-purple-500/30">
+                              PRO
+                            </span>
+                          )}
+                        </h3>
+                        <span className="text-[11px] font-mono text-neutral-400">{tool.category}</span>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-1.5 shrink-0">
+                      {/* Pricing Tag */}
+                      <span className="px-2 py-0.5 rounded text-[10px] font-mono font-semibold bg-neutral-950 text-neutral-300 border border-neutral-850">
+                        {tool.pricingType}
+                      </span>
+                      {/* Upvote Button */}
+                      <button
+                        onClick={() => toggleUpvote(tool.id)}
+                        className={`px-2 py-1 rounded-lg text-xs font-mono font-bold transition-all cursor-pointer border flex items-center gap-1 ${
+                          hasVoted
+                            ? 'bg-rose-500/20 text-rose-400 border-rose-500/40'
+                            : 'bg-neutral-950 text-neutral-400 border-neutral-800 hover:border-neutral-700 hover:text-white'
+                        }`}
+                        title="Upvote tool ini"
+                      >
+                        <span>{hasVoted ? '❤️' : '🤍'}</span>
+                        <span>{voteVal}</span>
+                      </button>
                     </div>
                   </div>
 
-                  <span className="px-2 py-0.5 rounded text-[11px] font-mono font-semibold bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-300">
-                    {tool.pricingType}
-                  </span>
+                  {/* Affiliate Commission Tag */}
+                  <div className="mb-3">
+                    <span className="inline-block px-2.5 py-1 rounded-md text-[10px] font-mono font-bold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                      💰 Afiliasi: {tool.commissionRate}
+                    </span>
+                  </div>
+
+                  <h4 className="text-xs font-semibold text-neutral-200 leading-snug mb-2 line-clamp-1">
+                    {tool.tagline}
+                  </h4>
+
+                  <p className="text-xs text-neutral-400 leading-relaxed line-clamp-3 mb-4">
+                    {tool.description}
+                  </p>
+
+                  {/* Feature Highlights */}
+                  <div className="space-y-1.5 border-t border-neutral-800/80 pt-3">
+                    {tool.features.map((feat, idx) => (
+                      <div key={idx} className="text-[11px] text-neutral-400 flex items-start gap-1.5">
+                        <span className="text-purple-400 font-bold shrink-0">✓</span>
+                        <span className="line-clamp-1">{feat}</span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
 
-                <div className="mb-3">
-                  <span className="inline-block px-2 py-0.5 rounded-md text-[10px] font-mono font-bold bg-emerald-100 dark:bg-emerald-950/50 text-emerald-800 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800">
-                    💰 Afiliasi: {tool.commissionRate}
-                  </span>
-                </div>
-
-                <h4 className="text-xs font-semibold text-neutral-800 dark:text-neutral-200 leading-snug mb-2">
-                  {tool.tagline}
-                </h4>
-
-                <p className="text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed line-clamp-3">
-                  {tool.description}
-                </p>
-
-                {/* Features */}
-                <div className="mt-4 pt-3 border-t border-neutral-100 dark:border-neutral-800 space-y-1.5">
-                  {tool.features.map((feat, idx) => (
-                    <div key={idx} className="text-[11px] text-neutral-600 dark:text-neutral-400 flex items-start gap-1.5">
-                      <span className="text-purple-500 font-bold">✓</span>
-                      <span>{feat}</span>
-                    </div>
-                  ))}
+                {/* Card CTA */}
+                <div className="mt-6 pt-4 border-t border-neutral-800/80 flex items-center justify-between gap-3">
+                  <a
+                    href={tool.affiliateUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1 py-2.5 px-4 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-mono text-xs font-bold transition-all shadow-md shadow-purple-600/20 active:scale-95 flex items-center justify-center gap-1.5"
+                  >
+                    <span>Kunjungi {tool.name}</span>
+                    <span>→</span>
+                  </a>
                 </div>
               </div>
-
-              {/* Action Button */}
-              <div className="mt-6 pt-4 border-t border-neutral-100 dark:border-neutral-800">
-                <a
-                  href={tool.affiliateUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full py-2.5 px-4 rounded-xl bg-purple-600 hover:bg-purple-700 text-white font-mono text-xs font-bold transition-all shadow-sm active:scale-95 flex items-center justify-center gap-1.5"
-                >
-                  <span>Coba {tool.name} Sekarang</span>
-                  <span>→</span>
-                </a>
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
+
+        {/* Submit Tool Modal */}
+        {isSubmitModalOpen && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
+            <div className="bg-neutral-900 border border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-lg w-full shadow-2xl relative">
+              <button
+                onClick={() => setIsSubmitModalOpen(false)}
+                className="absolute top-5 right-5 text-neutral-400 hover:text-white font-mono text-lg cursor-pointer"
+              >
+                ✕
+              </button>
+
+              <div className="mb-6">
+                <span className="text-xs font-mono text-purple-400 font-bold uppercase tracking-wider block mb-1">
+                  Direktori Kemitraan
+                </span>
+                <h3 className="text-2xl font-bold text-white">Submit AI Tool Anda</h3>
+                <p className="text-xs text-neutral-400 mt-1">
+                  Daftarkan aplikasi atau produk AI Anda ke direktori LocaGo Creative untuk mendapatkan trafik dan pengguna baru.
+                </p>
+              </div>
+
+              {submitSuccess ? (
+                <div className="text-center py-8">
+                  <div className="w-12 h-12 bg-emerald-500/20 text-emerald-400 rounded-full flex items-center justify-center text-2xl mx-auto mb-3">
+                    ✓
+                  </div>
+                  <h4 className="text-lg font-bold text-white">Pengajuan Diterima!</h4>
+                  <p className="text-xs text-neutral-400 mt-1">Membuka WhatsApp kurator untuk verifikasi data...</p>
+                </div>
+              ) : (
+                <form onSubmit={handleFormSubmit} className="space-y-4">
+                  <div>
+                    <label className="text-xs font-mono text-neutral-300 block mb-1">Nama Software / Tool AI:</label>
+                    <input
+                      type="text"
+                      required
+                      placeholder="Contoh: MySuperAI"
+                      value={submitForm.toolName}
+                      onChange={(e) => setSubmitForm({ ...submitForm, toolName: e.target.value })}
+                      className="w-full px-3.5 py-2 rounded-xl bg-neutral-950 border border-neutral-800 text-xs text-white focus:outline-none focus:ring-2 focus:ring-purple-500"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="text-xs font-mono text-neutral-300 block mb-1">Website URL:</label>
+                    <input
+                      type="url"
+                      required
+                      placeholder="https://mysuperai.com"
+                      value={submitForm.websiteUrl}
+                      onChange={(e) => setSubmitForm({ ...submitForm, websiteUrl: e.target.value })}
+                      className="w-full px-3.5 py-2 rounded-xl bg-neutral-950 border border-neutral-800 text-xs text-white focus:outline-none focus:ring-2 focus:ring-purple-500"
+                    />
+                  </div>
+
+                  <div className="grid grid-cols-2 gap-3">
+                    <div>
+                      <label className="text-xs font-mono text-neutral-300 block mb-1">Kategori:</label>
+                      <select
+                        value={submitForm.category}
+                        onChange={(e) => setSubmitForm({ ...submitForm, category: e.target.value })}
+                        className="w-full px-3 py-2 rounded-xl bg-neutral-950 border border-neutral-800 text-xs text-neutral-200"
+                      >
+                        {categories.filter((c) => c !== 'Semua').map((c) => (
+                          <option key={c} value={c}>{c}</option>
+                        ))}
+                      </select>
+                    </div>
+
+                    <div>
+                      <label className="text-xs font-mono text-neutral-300 block mb-1">Model Harga:</label>
+                      <select
+                        value={submitForm.pricing}
+                        onChange={(e) => setSubmitForm({ ...submitForm, pricing: e.target.value })}
+                        className="w-full px-3 py-2 rounded-xl bg-neutral-950 border border-neutral-800 text-xs text-neutral-200"
+                      >
+                        <option value="Freemium">Freemium</option>
+                        <option value="Free Trial">Free Trial</option>
+                        <option value="Paid">Paid</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div>
+                    <label className="text-xs font-mono text-neutral-300 block mb-1">Deskripsi Singkat Fitur:</label>
+                    <textarea
+                      rows={2}
+                      required
+                      placeholder="Jelaskan dalam 1-2 kalimat fungsi utama tool AI Anda..."
+                      value={submitForm.description}
+                      onChange={(e) => setSubmitForm({ ...submitForm, description: e.target.value })}
+                      className="w-full px-3.5 py-2 rounded-xl bg-neutral-950 border border-neutral-800 text-xs text-white focus:outline-none focus:ring-2 focus:ring-purple-500"
+                    />
+                  </div>
+
+                  <div className="p-3 rounded-xl bg-purple-950/30 border border-purple-800/40 flex items-center gap-3">
+                    <input
+                      type="checkbox"
+                      id="featCheck"
+                      checked={submitForm.isFeaturedRequest}
+                      onChange={(e) => setSubmitForm({ ...submitForm, isFeaturedRequest: e.target.checked })}
+                      className="w-4 h-4 rounded text-purple-600 focus:ring-purple-500"
+                    />
+                    <label htmlFor="featCheck" className="text-xs text-neutral-300 cursor-pointer">
+                      <strong>Featured Listing (VIP Placement)</strong> — Tampil di baris teratas dengan lencana PRO & promosi di thread Threads.
+                    </label>
+                  </div>
+
+                  <div className="pt-2">
+                    <button
+                      type="submit"
+                      className="w-full py-3 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-mono text-xs font-bold transition-all shadow-lg shadow-purple-600/30 cursor-pointer"
+                    >
+                      Kirim Pendaftaran Tool Sekarang →
+                    </button>
+                  </div>
+                </form>
+              )}
+            </div>
+          </div>
+        )}
       </div>
     </section>
   );

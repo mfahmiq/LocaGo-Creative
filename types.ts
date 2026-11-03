@@ -63,6 +63,10 @@ export interface GitHubTrendingItem {
   starsToday: number;
   totalStars: string;
   category: 'AI Agents & LLM' | 'Dev Tools & Automation' | 'Web & Scrapers' | 'Productivity & Media';
+  language?: string;
+  topics?: string[];
+  growthRate?: string;
+  rank?: number;
   oneSentencePitch: string;
   features: string[];
   benefits: string[];
@@ -75,11 +79,13 @@ export interface AIToolItem {
   id: string;
   name: string;
   category: 'AI Writing & SEO' | 'Voice & Audio AI' | 'Automation & No-Code' | 'Video & Graphics' | 'AI Coding';
-  pricingType: 'Freemium' | 'Free Trial' | 'Paid';
+  pricingType: 'Free' | 'Freemium' | 'Free Trial' | 'Paid';
   commissionRate: string;
   tagline: string;
   description: string;
   features: string[];
+  tags?: string[];
+  upvotes?: number;
   logoUrl?: string;
   affiliateUrl: string;
   isFeatured?: boolean;

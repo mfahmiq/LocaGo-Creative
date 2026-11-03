@@ -700,5 +700,175 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
     ],
     affiliateUrl: 'https://www.browse.ai/?via=locagocreative',
     isFeatured: false
+  },
+  {
+    id: 'ai-16',
+    name: 'Perplexity AI',
+    category: 'AI Writing & SEO',
+    pricingType: 'Freemium',
+    commissionRate: 'Pro Referral Tier',
+    tagline: 'Mesin Pencari Berbasis AI dengan Kutipan Sumber Faktual Real-Time',
+    description: 'Alternatif Google pencarian masa depan yang memberikan jawaban langsung terangkum rapi lengkap dengan kutipan sitasi ilmiah dan berita terverifikasi.',
+    features: [
+      'Pencarian real-time dengan rujukan sumber link terpercaya',
+      'Mode Pro Search untuk riset akademik dan coding multi-step',
+      'Upload dokumen PDF/Word untuk dianalisis dan dirangkum instan',
+      'Mendukung pilihan model GPT-4o, Claude 3.5 Sonnet, dan Sonar'
+    ],
+    affiliateUrl: 'https://perplexity.ai/?via=locagocreative',
+    isFeatured: true
+  },
+  {
+    id: 'ai-17',
+    name: 'Midjourney',
+    category: 'Video & Graphics',
+    pricingType: 'Paid',
+    commissionRate: 'Partner Program',
+    tagline: 'Generator Gambar AI Paling Sinematik & Estetik untuk Desainer',
+    description: 'Mesin pembuat ilustrasi, fotografi studio, konsep produk 3D, dan seni digital berkualitas fotorealistik tertinggi di dunia langsung dari prompt teks.',
+    features: [
+      'Kualitas pencahayaan dan tekstur studio hiper-realistis',
+      'Fitur Inpainting dan Outpainting untuk edit bagian gambar spesifik',
+      'Gaya konsistensi karakter untuk komik dan aset branding',
+      'Dukungan web UI editor baru tanpa perlu Discord'
+    ],
+    affiliateUrl: 'https://www.midjourney.com/?via=locagocreative',
+    isFeatured: true
+  },
+  {
+    id: 'ai-18',
+    name: 'Notion AI',
+    category: 'Automation & No-Code',
+    pricingType: 'Free Trial',
+    commissionRate: '20% Recurring Partner',
+    tagline: 'Asisten Produktivitas Dokumen, Wiki Tim & Manajemen Tugas Otomatis',
+    description: 'Kecerdasan buatan terintegrasi di ruang kerja Notion untuk menulis naskah, merangkum notulen rapat, menerjemahkan dokumen, dan mengotomasi database.',
+    features: [
+      'Q&A cerdas yang bisa menjawab pertanyaan dari seluruh isi workspace',
+      'Penulisan draf artikel, email bisnis, dan PRD produk instan',
+      'Autofill properti database Notion secara cerdas',
+      'Rangkuman notulen meeting dan rencana aksi (action items) otomatis'
+    ],
+    affiliateUrl: 'https://www.notion.so/?via=locagocreative',
+    isFeatured: false
+  },
+  {
+    id: 'ai-19',
+    name: 'Runway Gen-3 Alpha',
+    category: 'Video & Graphics',
+    pricingType: 'Freemium',
+    commissionRate: 'Partner Tiered',
+    tagline: 'Generator Video Sinematik Teks-ke-Video Tingkat Studio Hollywood',
+    description: 'Model video AI generasi baru yang menghasilkan video fotorealistik dengan kontrol pergerakan kamera sinematik, efek fisika akurat, dan transisi mulus.',
+    features: [
+      'Text-to-Video dan Image-to-Video dengan resolusi tinggi 4K',
+      'Camera Motion Control: Pan, Zoom, Orbit, dan FPV Drone',
+      'Motion Brush untuk menggerakkan objek spesifik dalam gambar diam',
+      'Generasi ekspresi wajah dan lip-sync manusia yang meyakinkan'
+    ],
+    affiliateUrl: 'https://runwayml.com/?via=locagocreative',
+    isFeatured: true
+  },
+  {
+    id: 'ai-20',
+    name: 'Bolt.new by StackBlitz',
+    category: 'AI Coding',
+    pricingType: 'Freemium',
+    commissionRate: 'Partner Program',
+    tagline: 'Bangun, Jalankan & Deploy Full-Stack Web App Langsung di Browser',
+    description: 'Lingkungan pengembangan bertenaga AI di browser yang bisa menginstal paket npm, menjalankan Node.js runtime lokal, dan men-deploy aplikasi secara instan.',
+    features: [
+      'Full-stack in-browser runtime tanpa perlu install Node/Git di laptop',
+      'Perbaiki error coding terminal secara otomatis via agen AI',
+      'Satu klik deploy langsung ke Netlify atau Cloudflare Pages',
+      'Mendukung Next.js, Vite, React, Vue, Supabase, dan Tailwind'
+    ],
+    affiliateUrl: 'https://bolt.new/?via=locagocreative',
+    isFeatured: true
+  },
+  {
+    id: 'ai-21',
+    name: 'Voiceflow',
+    category: 'Automation & No-Code',
+    pricingType: 'Freemium',
+    commissionRate: '20% Recurring',
+    tagline: 'Platform Perancangan & Deployment Agen Chatbot AI Enterprise',
+    description: 'Visual builder untuk merancang, menguji, dan meluncurkan agen AI percakapan berbasis LLM untuk customer support di web, WhatsApp, dan aplikasi seluler.',
+    features: [
+      'Visual flow canvas drag-and-drop untuk logika percakapan kompleks',
+      'Integrasi knowledge base dokumen perusahaan dengan RAG bawaan',
+      'API & Webhook action step untuk eksekusi transaksi database',
+      'Analisis intent pengguna dan deteksi kebocoran konteks bot'
+    ],
+    affiliateUrl: 'https://www.voiceflow.com/?via=locagocreative',
+    isFeatured: false
+  },
+  {
+    id: 'ai-22',
+    name: 'Luma Dream Machine',
+    category: 'Video & Graphics',
+    pricingType: 'Freemium',
+    commissionRate: 'Partner Tiered',
+    tagline: 'Generator Video AI Sinematik 5 Detik Berkecepatan Tinggi',
+    description: 'Mesin kreasi video AI yang mampu menghasilkan klip 5 detik dengan konsistensi objek tinggi, gerakan dinamis realistis, dan pencahayaan alami.',
+    features: [
+      'Rendering video ultra-cepat hanya dalam hitungan detik',
+      'Simulasi fisika cairan, asap, dan pergerakan kain yang nyata',
+      'Fitur keyframe looping dan penyambungan adegan (extend video)',
+      'Akses gratis beberapa generasi video setiap hari'
+    ],
+    affiliateUrl: 'https://lumalabs.ai/dream-machine?via=locagocreative',
+    isFeatured: false
+  },
+  {
+    id: 'ai-23',
+    name: 'Copy.ai',
+    category: 'AI Writing & SEO',
+    pricingType: 'Freemium',
+    commissionRate: '45% First Year Recurring',
+    tagline: 'Otomasi Alur Kerja GTM (Go-to-Market) & Copywriting Tim Penjualan',
+    description: 'Platform AI operasional untuk tim marketing dan sales B2B. Mengotomasi penulisan email cold outreach, ringkasan prospek LinkedIn, dan naskah iklan.',
+    features: [
+      'Workflows automation untuk riset prospek dan auto-draft email B2B',
+      'Brand Voice kustom dan template copywriting formula AIDA/PAS',
+      'Integrasi CRM HubSpot, Salesforce, dan Google Sheets',
+      'Paket gratis selamanya untuk pengguna solo'
+    ],
+    affiliateUrl: 'https://www.copy.ai/?via=locagocreative',
+    isFeatured: false
+  },
+  {
+    id: 'ai-24',
+    name: 'GitHub Copilot',
+    category: 'AI Coding',
+    pricingType: 'Free Trial',
+    commissionRate: 'Microsoft Partner',
+    tagline: 'AI Pair Programmer Standar Industri Dunia yang Terintegrasi di IDE',
+    description: 'Asisten AI coding paling matang di dunia buatan GitHub dan OpenAI. Mengubah komentar teks menjadi fungsi kode siap pakai di puluhan bahasa pemrograman.',
+    features: [
+      'Autocomplete kode baris demi baris dan fungsi penuh secara real-time',
+      'Copilot Chat di editor untuk refactor, unit test, dan fix bug',
+      'Kompatibel dengan VS Code, Visual Studio, JetBrains, dan Neovim',
+      'Dukungan model OpenAI o1, GPT-4o, dan Claude 3.5 Sonnet'
+    ],
+    affiliateUrl: 'https://github.com/features/copilot?via=locagocreative',
+    isFeatured: true
+  },
+  {
+    id: 'ai-25',
+    name: 'Replit Agent',
+    category: 'AI Coding',
+    pricingType: 'Freemium',
+    commissionRate: '20% Recurring',
+    tagline: 'Agen AI yang Mengembangkan & Men-Deploy Aplikasi Web Lengkap',
+    description: 'Agen coding otonom yang bisa merancang arsitektur database, menulis frontend dan backend, menginstal library, lalu mempublikasikannya langsung ke internet.',
+    features: [
+      'Autonomous software development dari instruksi bahasa manusia biasa',
+      'Otomatis setup database PostgreSQL, API backend, dan UI frontend',
+      'Hosting cloud bawaan dengan domain kustom dan sertifikat SSL gratis',
+      'Dapat diakses dari browser laptop, tablet, maupun smartphone'
+    ],
+    affiliateUrl: 'https://replit.com/?via=locagocreative',
+    isFeatured: true
   }
 ];
