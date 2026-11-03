@@ -25,7 +25,7 @@ export const ARTICLES_LIST: ArticleItem[] = [
     category: 'Produktivitas & Bisnis',
     readTime: '6 menit',
     date: '03 Nov 2026',
-    cover: '/banners/gemini/banner_pos_toko.jpg',
+    cover: '/banners/gemini/banner_pos_toko.webp',
     excerpt: 'Daftar rekomendasi software kecerdasan buatan terbaik tahun 2026 yang wajib dicoba untuk mengotomasi pekerjaan repetitif, coding, pembuatan konten video, dan marketing bisnis.',
     youtubeId: 'Air0gJ_6h6o',
     content: `Di tahun 2026, pemanfaatan kecerdasan buatan (AI) bukan lagi sekadar eksperimen, melainkan keharusan mutlak bagi para profesional, engineer, dan founder bisnis digital. Berbagai alur kerja yang sebelumnya memakan waktu berhari-hari kini dapat diselesaikan dalam hitungan detik.
@@ -61,7 +61,7 @@ Menghubungkan ratusan aplikasi seperti Google Sheets, WhatsApp Gateway, Telegram
     category: 'Automation & Bisnis',
     readTime: '8 menit',
     date: '03 Nov 2026',
-    cover: '/banners/gemini/banner_portal_donasi.jpg',
+    cover: '/banners/gemini/banner_portal_donasi.webp',
     excerpt: 'Bedah mendalam fitur Systeme.io: funnel builder, email marketing otomatis, membership site, dan mengapa platform ini menjadi tambang cuan bagi affiliate marketer.',
     youtubeId: '0n-ZcO5g6qM',
     content: `Systeme.io telah merevolusi ekosistem pemasaran digital bagi solopreneur dan praktisi affiliate marketing di seluruh dunia. Berbeda dengan software generasi lama yang mengenakan biaya langganan tinggi sejak hari pertama, platform ini dirancang agar bisnis Anda menghasilkan keuntungan terlebih dahulu.
@@ -83,7 +83,7 @@ Fitur Unggulan Utama:
     category: 'Video & Kreator',
     readTime: '7 menit',
     date: '03 Nov 2026',
-    cover: '/banners/gemini/banner_billing_ps.jpg',
+    cover: '/banners/gemini/banner_billing_ps.webp',
     excerpt: 'Langkah demi langkah membangun channel YouTube Shorts dan TikTok tanpa perlu tampil di depan kamera menggunakan ElevenLabs, Midjourney, dan Opus Clip.',
     youtubeId: 'n0_hK_Qp-rU',
     content: `Membangun channel YouTube dan akun TikTok tanpa wajah (faceless media channel) kini menjadi salah satu model bisnis digital dengan leverage modal terkecil dan jangkauan terbesar.
@@ -108,7 +108,7 @@ Alur Kerja Produksi 4 Tahap:
     category: 'Coding & Software',
     readTime: '5 menit',
     date: '03 Nov 2026',
-    cover: '/banners/gemini/banner_siakad.jpg',
+    cover: '/banners/gemini/banner_siakad.webp',
     excerpt: 'Komparasi mendalam antara Cursor AI dan editor tradisional: fitur Composer multi-file, integrasi model Claude 3.7 Sonnet, dan peningkatan kecepatan kerja hingga 300%.',
     youtubeId: 'yk9lXobJ97E',
     content: `Bagi kalangan pengembang perangkat lunak, migrasi dari VS Code standar menuju Cursor AI menjadi fenomena produktivitas terbesar dalam beberapa tahun terakhir.
@@ -130,7 +130,7 @@ Perbedaan Utama yang Mengubah Kecepatan Kerja:
     category: 'Otomasi & No-Code',
     readTime: '6 menit',
     date: '03 Nov 2026',
-    cover: '/banners/gemini/banner_bot_wa.jpg',
+    cover: '/banners/gemini/banner_bot_wa.webp',
     excerpt: 'Tutorial praktis menghubungkan form order website langsung ke notifikasi WhatsApp pelanggan dan rekap database Google Sheets secara otomatis tanpa server rumit.',
     youtubeId: 'F9rOebL2h0E',
     content: `Make.com menawarkan alternatif integrasi tanpa koding yang jauh lebih ekonomis dan ekspresif dibanding platform otomatisasi konvensional.
@@ -152,7 +152,7 @@ Manfaat Nyata untuk Operasional Bisnis:
     category: 'Coding & Software',
     readTime: '7 min read',
     date: '03 Nov 2026',
-    cover: '/banners/gemini/banner_absensi_gas.jpg',
+    cover: '/banners/gemini/banner_absensi_gas.webp',
     excerpt: 'A definitive guide to the most essential generative AI software of 2026 for boosting development velocity, creative asset production, and digital marketing efficiency.',
     youtubeId: 'Air0gJ_6h6o',
     content: `As artificial intelligence models evolve in 2026, developers and solopreneurs rely on autonomous agents rather than isolated prompt interfaces.
@@ -180,7 +180,7 @@ Core Applications Powering Modern Engineering:
     category: 'Coding & Software',
     readTime: '6 min read',
     date: '03 Nov 2026',
-    cover: '/banners/gemini/banner_katalog_umkm.jpg',
+    cover: '/banners/gemini/banner_katalog_umkm.webp',
     excerpt: 'We compare Cursor AI and GitHub Copilot across codebase indexing, multi-file refactoring, terminal error resolution, and frontier model availability.',
     youtubeId: 'yk9lXobJ97E',
     content: `Choosing the right AI-assisted engineering companion directly influences your shipping velocity and developer satisfaction.
@@ -203,7 +203,7 @@ Key Comparative Observations:
     category: 'Video & Kreator',
     readTime: '8 min read',
     date: '03 Nov 2026',
-    cover: '/banners/gemini/banner_billing_ps.jpg',
+    cover: '/banners/gemini/banner_billing_ps.webp',
     excerpt: 'Explore the complete stack behind high-earning faceless digital media operations: automated voice cloning, cinematic generative B-roll, and affiliate monetization.',
     youtubeId: 'n0_hK_Qp-rU',
     content: `The creator economy has reached autonomous scale. Individual operators now manage multi-platform media networks using orchestrated generative AI pipelines.
@@ -228,7 +228,7 @@ Monetization Stack Overview:
     category: 'Automation & Bisnis',
     readTime: '5 min read',
     date: '03 Nov 2026',
-    cover: '/banners/gemini/banner_portal_donasi.jpg',
+    cover: '/banners/gemini/banner_portal_donasi.webp',
     excerpt: 'A cost-benefit breakdown of Systeme.io versus ClickFunnels and Kajabi. Learn why thousands of creators are saving over $2,000 annually.',
     youtubeId: '0n-ZcO5g6qM',
     content: `Excessive subscription overhead can undermine online ventures before they attain consistent profitability.
@@ -250,7 +250,7 @@ Why Solopreneurs Choose Systeme.io:
     category: 'Coding & Software',
     readTime: '7 min read',
     date: '03 Nov 2026',
-    cover: '/banners/gemini/banner_ams_surat.jpg',
+    cover: '/banners/gemini/banner_ams_surat.webp',
     excerpt: 'A deep dive into how multi-agent frameworks, tool-use loops, and persistent memory systems are replacing simple prompt-response chatbot interactions.',
     youtubeId: 'F9rOebL2h0E',
     content: `The technological landscape in 2026 represents a decisive paradigm shift from interactive conversational chatbots to autonomous agent workflows.
