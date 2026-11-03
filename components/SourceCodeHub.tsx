@@ -108,12 +108,11 @@ export const SourceCodeHub: React.FC = () => {
                 className="group relative flex flex-col bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:border-neutral-300 dark:hover:border-neutral-700 transition-all duration-200"
               >
                 {/* Thumbnail Header */}
-                <div className="relative aspect-video w-full overflow-hidden bg-neutral-100 dark:bg-neutral-800">
+                <div className="relative aspect-video w-full overflow-hidden bg-neutral-900">
                   <img
                     src={item.thumbnail}
                     alt={item.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    loading="lazy"
                   />
                   <div className="absolute top-3 left-3 flex items-center gap-1.5">
                     <span className="px-2.5 py-1 rounded-md text-[11px] font-mono font-bold bg-neutral-900/80 backdrop-blur-sm text-white">
