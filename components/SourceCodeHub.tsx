@@ -1,25 +1,37 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { SOURCE_CODE_LIST } from '../lib/data';
 import { SourceCodeItem } from '../types';
 import { DualDownloadModal } from './DualDownloadModal';
 
 export const SourceCodeHub: React.FC = () => {
+  const [items, setItems] = useState<SourceCodeItem[]>(SOURCE_CODE_LIST);
   const [selectedCategory, setSelectedCategory] = useState<string>('Semua');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [activeModalItem, setActiveModalItem] = useState<SourceCodeItem | null>(null);
 
+  useEffect(() => {
+    fetch('/source_codes_live.json?t=' + Date.now())
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.items && data.items.length > 0) {
+          setItems(data.items);
+        }
+      })
+      .catch(() => {});
+  }, []);
+
   const categories = ['Semua', 'PHP & Laravel', 'Google Apps Script', 'Next.js & React', 'Python & AI', 'Mobile & Desktop'];
 
   const filteredItems = useMemo(() => {
-    return SOURCE_CODE_LIST.filter((item) => {
+    return items.filter((item) => {
       const matchCat = selectedCategory === 'Semua' || item.category === selectedCategory;
       const matchSearch =
         item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
         item.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        item.techStack.some((tech) => tech.toLowerCase().includes(searchQuery.toLowerCase()));
+        (item.techStack || []).some((tech) => tech.toLowerCase().includes(searchQuery.toLowerCase()));
       return matchCat && matchSearch;
     });
-  }, [selectedCategory, searchQuery]);
+  }, [items, selectedCategory, searchQuery]);
 
   return (
     <section id="source-code" className="pt-28 pb-20 bg-neutral-50/60 dark:bg-neutral-950 min-h-screen">
@@ -39,12 +51,12 @@ export const SourceCodeHub: React.FC = () => {
           {/* Social Proof Stats */}
           <div className="grid grid-cols-3 gap-3 max-w-md mx-auto mt-8 p-3 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-neutral-800 shadow-sm">
             <div className="text-center">
-              <span className="block text-xl sm:text-2xl font-bold font-mono text-neutral-900 dark:text-white">62+</span>
+              <span className="block text-xl sm:text-2xl font-bold font-mono text-neutral-900 dark:text-white">{items.length}</span>
               <span className="text-[11px] font-mono text-neutral-500">Source code</span>
             </div>
             <div className="text-center border-x border-neutral-100 dark:border-neutral-800">
-              <span className="block text-xl sm:text-2xl font-bold font-mono text-emerald-600 dark:text-emerald-400">58</span>
-              <span className="text-[11px] font-mono text-neutral-500">Gratis</span>
+              <span className="block text-xl sm:text-2xl font-bold font-mono text-emerald-600 dark:text-emerald-400">{items.length}</span>
+              <span className="text-[11px] font-mono text-neutral-500">Gratis & VIP</span>
             </div>
             <div className="text-center">
               <span className="block text-xl sm:text-2xl font-bold font-mono text-neutral-900 dark:text-white">18 rb+</span>

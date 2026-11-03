@@ -21,6 +21,13 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
   const [articlesCount, setArticlesCount] = useState<number>(ARTICLES_LIST.length);
 
   useEffect(() => {
+    fetch('/source_codes_live.json')
+      .then((r) => r.json())
+      .then((d) => {
+        if (d.items && d.items.length > 0) setScCount(d.items.length);
+      })
+      .catch(() => {});
+
     fetch('/ai_tools_live.json')
       .then((r) => r.json())
       .then((d) => {

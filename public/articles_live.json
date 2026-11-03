@@ -1,7 +1,33 @@
 {
   "updatedAt": "03 Nov 2026, 21:31 WIB",
-  "total": 2,
+  "total": 3,
   "items": [
+    {
+      "id": "art-103",
+      "slug": "komparasi-cursor-ai-vs-bolt-new-vs-v0-2026",
+      "title": "Cursor AI vs Bolt.new vs v0 by Vercel: Mana Tool AI Coding Terbaik untuk Anda?",
+      "language": "id",
+      "category": "Coding & Software",
+      "readTime": "15 menit",
+      "cover": "/banners/gemini/banner_siakad.webp",
+      "excerpt": "Ulasan komparasi teknis 3 raksasa AI coding 2026: kapabilitas Composer Cursor, keajaiban in-browser WebContainers Bolt.new, dan kecepatan prompt-to-UI React v0.",
+      "content": "Persaingan alat bantu rekayasa perangkat lunak bertenaga kecerdasan buatan telah mencapai puncak kematangan di tahun 2026. Tiga nama besar yang mendominasi diskusi developer global adalah Cursor AI, Bolt.new, dan v0 by Vercel. Namun, mana yang paling tepat untuk kebutuhan spesifik Anda?\n\nPoin Kunci & Analisis Performa\n1. Cursor AI: Pilihan terbaik untuk mengelola codebase repositori besar, refactoring multi-file simultan, dan pekerjaan backend kompleks.\n2. Bolt.new: Solusi ideal untuk prototipe cepat full-stack murni di browser tanpa perlu menginstal lingkungan Node.js lokal.\n3. v0 by Vercel: Senjata terkuat bagi frontend engineer yang membutuhkan komponen React, Tailwind CSS, dan Shadcn UI siap pakai.\n\nBedah Fungsionalitas Mendalam:\n1. Cursor AI (The Desktop Powerhouse)\nBerjalan sebagai aplikasi desktop mandiri berbasis VS Code. Keunggulan utamanya terletak pada pemahaman menyeluruh terhadap seluruh arsitektur repositori lokal. Ketika Anda meminta penambahan fitur baru, Cursor otomatis memperbarui controller backend, skema database, dan antarmuka UI secara sinkron.\n\n2. Bolt.new (The In-Browser Miracle)\nMenggunakan WebContainers StackBlitz untuk mengeksekusi server Node.js dan Vite dev server langsung di tab browser Anda. Jika Anda memiliki ide prototipe di tengah perjalanan dan hanya membawa tablet atau laptop berspek rendah, Bolt.new memungkinkan Anda meluncurkan aplikasi web fungsional dalam hitungan menit.\n\n3. v0 by Vercel (The UI Artisan)\nFokus pada estetika dan kerapian kode antarmuka. Komponen yang dihasilkan v0 mengikuti konvensi industri modern, sangat mudah dibaca, dan tidak menggunakan CSS aneh yang sulit dimodifikasi.\n\nTabel Matriks Keputusan:\n- Kebutuhan Proyek Skala Besar: Pilih Cursor AI\n- Kebutuhan Validasi Ide & Prototipe Cepat: Pilih Bolt.new\n- Kebutuhan Pembuatan Landing Page & Komponen UI: Pilih v0 by Vercel",
+      "youtubeId": "DjVadODhOHA",
+      "affiliateTools": [
+        {
+          "name": "Cursor AI",
+          "url": "https://cursor.com/?via=locagocreative"
+        },
+        {
+          "name": "Bolt.new",
+          "url": "https://bolt.new/?via=locagocreative"
+        },
+        {
+          "name": "v0 by Vercel",
+          "url": "https://v0.dev/?ref=locagocreative"
+        }
+      ]
+    },
     {
       "id": "art-102",
       "slug": "panduan-lengkap-otomasi-marketing-systeme-io-2026",

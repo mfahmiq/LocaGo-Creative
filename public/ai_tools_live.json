@@ -1,7 +1,25 @@
 {
   "updatedAt": "03 Nov 2026, 21:31 WIB",
-  "total": 1,
+  "total": 2,
   "items": [
+    {
+      "id": "ai-coderabbit",
+      "name": "Coderabbit",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Reviewer Kode AI Otomatis untuk GitHub Pull Request & GitLab MR",
+      "description": "Agen AI yang bertindak sebagai Senior Code Reviewer pada repositori Git Anda. Setiap kali tim membuka Pull Request, CodeRabbit otomatis menganalisis logika perubahan, mendeteksi kerentanan keamanan, dan memberikan saran optimasi langsung di baris kode.",
+      "features": [
+        "Ringkasan Pull Request otomatis dengan diagram alur",
+        "Deteksi bug dan potensi memory leak sebelum merge",
+        "Ulasan 1-klik untuk menerima saran refactoring",
+        "Dukungan integrasi webhook GitHub, GitLab, dan Bitbucket"
+      ],
+      "logoUrl": "/logos/coderabbit.png",
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "_JpztKT8raM",
+      "affiliateUrl": "https://coderabbit.ai/?via=locagocreative"
+    },
     {
       "id": "ai-kite",
       "name": "Kite",
