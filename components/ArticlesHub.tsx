@@ -218,24 +218,44 @@ export const ArticlesHub: React.FC = () => {
                 />
               </div>
 
+              {/* YouTube Video Embed */}
+              {readingArticle.youtubeId && (
+                <div className="mb-6">
+                  <span className="text-xs font-mono font-bold text-neutral-500 uppercase tracking-wider block mb-2">
+                    📺 Video Pembahasan & Demo:
+                  </span>
+                  <div className="aspect-video w-full rounded-2xl overflow-hidden border border-neutral-200 dark:border-neutral-800 shadow-md">
+                    <iframe
+                      src={`https://www.youtube.com/embed/${readingArticle.youtubeId}?autoplay=0&rel=0`}
+                      title={readingArticle.title}
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      className="w-full h-full border-0"
+                    />
+                  </div>
+                </div>
+              )}
+
               <div className="prose dark:prose-invert max-w-none text-sm text-neutral-700 dark:text-neutral-300 space-y-4 whitespace-pre-line leading-relaxed">
                 {readingArticle.content}
               </div>
 
               {readingArticle.affiliateTools && readingArticle.affiliateTools.length > 0 && (
-                <div className="mt-8 p-4 rounded-2xl bg-emerald-50 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-800/40">
-                  <h4 className="text-xs font-mono font-bold text-emerald-800 dark:text-emerald-400 mb-2 uppercase">
-                    🛠️ Tool AI yang Diulas dalam Artikel Ini:
+                <div className="mt-8 p-5 rounded-2xl bg-emerald-50 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-800/40">
+                  <h4 className="text-xs font-mono font-bold text-emerald-800 dark:text-emerald-400 mb-3 uppercase tracking-wider">
+                    🛠️ Coba Langsung Tool AI yang Diulas (Tautan Resmi):
                   </h4>
-                  <div className="flex flex-wrap gap-2">
-                    {readingArticle.affiliateTools.map((t) => (
+                  <div className="flex flex-wrap gap-2.5">
+                    {readingArticle.affiliateTools.map((tool) => (
                       <a
-                        key={t}
-                        href="#ai-tools"
-                        onClick={() => setReadingArticle(null)}
-                        className="px-3 py-1 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-mono font-bold shadow-sm transition-all"
+                        key={tool.name}
+                        href={tool.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-3.5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-mono font-bold shadow-sm transition-all flex items-center gap-1.5 cursor-pointer active:scale-95"
                       >
-                        Buka {t} di Katalog →
+                        <span>Kunjungi {tool.name}</span>
+                        <span>↗</span>
                       </a>
                     ))}
                   </div>
