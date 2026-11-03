@@ -449,6 +449,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
   {
     id: 'ai-1',
     name: 'Systeme.io',
+    logoUrl: '/logos/systeme.png',
     category: 'Automation & No-Code',
     pricingType: 'Freemium',
     commissionRate: '60% Lifetime Recurring',
@@ -466,6 +467,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
   {
     id: 'ai-2',
     name: 'ElevenLabs',
+    logoUrl: '/logos/elevenlabs.png',
     category: 'Voice & Audio AI',
     pricingType: 'Freemium',
     commissionRate: '22% Recurring (12 Bulan)',
@@ -483,6 +485,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
   {
     id: 'ai-3',
     name: 'Make.com',
+    logoUrl: '/logos/make.png',
     category: 'Automation & No-Code',
     pricingType: 'Freemium',
     commissionRate: '20% Recurring',
@@ -500,6 +503,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
   {
     id: 'ai-4',
     name: 'Koala AI (KoalaWriter)',
+    logoUrl: '/logos/koala.png',
     category: 'AI Writing & SEO',
     pricingType: 'Free Trial',
     commissionRate: '30% Lifetime Recurring',
@@ -517,6 +521,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
   {
     id: 'ai-5',
     name: 'Pictory AI',
+    logoUrl: '/logos/pictory.png',
     category: 'Video & Graphics',
     pricingType: 'Free Trial',
     commissionRate: '20% - 50% Tiered Recurring',
@@ -534,6 +539,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
   {
     id: 'ai-6',
     name: 'Cursor AI',
+    logoUrl: '/logos/cursor.png',
     category: 'AI Coding',
     pricingType: 'Freemium',
     commissionRate: '20% Recurring',
@@ -551,6 +557,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
   {
     id: 'ai-7',
     name: 'HeyGen',
+    logoUrl: '/logos/heygen.png',
     category: 'Video & Graphics',
     pricingType: 'Freemium',
     commissionRate: '20% - 30% Lifetime Recurring',
@@ -568,6 +575,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
   {
     id: 'ai-8',
     name: 'Opus Clip',
+    logoUrl: '/logos/opus.png',
     category: 'Video & Graphics',
     pricingType: 'Freemium',
     commissionRate: '25% Recurring',
@@ -585,6 +593,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
   {
     id: 'ai-9',
     name: 'Chatbase',
+    logoUrl: '/logos/chatbase.png',
     category: 'Automation & No-Code',
     pricingType: 'Freemium',
     commissionRate: '20% Lifetime Recurring',
@@ -602,6 +611,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
   {
     id: 'ai-10',
     name: 'Writesonic',
+    logoUrl: '/logos/writesonic.png',
     category: 'AI Writing & SEO',
     pricingType: 'Freemium',
     commissionRate: '30% Lifetime Recurring',
@@ -619,6 +629,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
   {
     id: 'ai-11',
     name: 'Descript',
+    logoUrl: '/logos/descript.png',
     category: 'Voice & Audio AI',
     pricingType: 'Freemium',
     commissionRate: '15% Recurring',
@@ -636,6 +647,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
   {
     id: 'ai-12',
     name: 'v0 by Vercel',
+    logoUrl: '/logos/v0.png',
     category: 'AI Coding',
     pricingType: 'Freemium',
     commissionRate: 'Partner Tiered',
@@ -653,6 +665,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
   {
     id: 'ai-13',
     name: 'Surfer SEO',
+    logoUrl: '/logos/surfer.png',
     category: 'AI Writing & SEO',
     pricingType: 'Paid',
     commissionRate: '25% Recurring',
@@ -670,6 +683,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
   {
     id: 'ai-14',
     name: 'Suno AI',
+    logoUrl: '/logos/suno.png',
     category: 'Voice & Audio AI',
     pricingType: 'Freemium',
     commissionRate: 'Partner Program',
@@ -687,6 +701,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
   {
     id: 'ai-15',
     name: 'Browse AI',
+    logoUrl: '/logos/browse.png',
     category: 'Automation & No-Code',
     pricingType: 'Freemium',
     commissionRate: '20% Lifetime Recurring',
@@ -704,6 +719,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
   {
     id: 'ai-16',
     name: 'Perplexity AI',
+    logoUrl: '/logos/perplexity.png',
     category: 'AI Writing & SEO',
     pricingType: 'Freemium',
     commissionRate: 'Pro Referral Tier',
@@ -721,6 +737,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
   {
     id: 'ai-17',
     name: 'Midjourney',
+    logoUrl: '/logos/midjourney.png',
     category: 'Video & Graphics',
     pricingType: 'Paid',
     commissionRate: 'Partner Program',
@@ -738,6 +755,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
   {
     id: 'ai-18',
     name: 'Notion AI',
+    logoUrl: '/logos/notion.png',
     category: 'Automation & No-Code',
     pricingType: 'Free Trial',
     commissionRate: '20% Recurring Partner',
@@ -755,6 +773,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
   {
     id: 'ai-19',
     name: 'Runway Gen-3 Alpha',
+    logoUrl: '/logos/runway.png',
     category: 'Video & Graphics',
     pricingType: 'Freemium',
     commissionRate: 'Partner Tiered',
@@ -772,6 +791,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
   {
     id: 'ai-20',
     name: 'Bolt.new by StackBlitz',
+    logoUrl: '/logos/bolt.png',
     category: 'AI Coding',
     pricingType: 'Freemium',
     commissionRate: 'Partner Program',
@@ -789,6 +809,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
   {
     id: 'ai-21',
     name: 'Voiceflow',
+    logoUrl: '/logos/voiceflow.png',
     category: 'Automation & No-Code',
     pricingType: 'Freemium',
     commissionRate: '20% Recurring',
@@ -806,6 +827,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
   {
     id: 'ai-22',
     name: 'Luma Dream Machine',
+    logoUrl: '/logos/luma.png',
     category: 'Video & Graphics',
     pricingType: 'Freemium',
     commissionRate: 'Partner Tiered',
@@ -823,6 +845,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
   {
     id: 'ai-23',
     name: 'Copy.ai',
+    logoUrl: '/logos/copyai.png',
     category: 'AI Writing & SEO',
     pricingType: 'Freemium',
     commissionRate: '45% First Year Recurring',
@@ -840,6 +863,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
   {
     id: 'ai-24',
     name: 'GitHub Copilot',
+    logoUrl: '/logos/copilot.png',
     category: 'AI Coding',
     pricingType: 'Free Trial',
     commissionRate: 'Microsoft Partner',
@@ -857,6 +881,7 @@ export const AI_TOOLS_LIST: AIToolItem[] = [
   {
     id: 'ai-25',
     name: 'Replit Agent',
+    logoUrl: '/logos/replit.png',
     category: 'AI Coding',
     pricingType: 'Freemium',
     commissionRate: '20% Recurring',

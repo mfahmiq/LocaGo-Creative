@@ -5,7 +5,7 @@ import { AIToolItem } from '../types';
 export const AIToolsHub: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('Semua');
   const [selectedPricing, setSelectedPricing] = useState<string>('Semua');
-  const [sortBy, setSortBy] = useState<'popular' | 'commission' | 'name'>('popular');
+  const [sortBy, setSortBy] = useState<'popular' | 'name'>('popular');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [isSubmitModalOpen, setIsSubmitModalOpen] = useState<boolean>(false);
 
@@ -77,7 +77,6 @@ export const AIToolsHub: React.FC = () => {
     setTimeout(() => {
       setSubmitSuccess(false);
       setIsSubmitModalOpen(false);
-      // Optional: direct to WhatsApp to confirm submission
       const msg = encodeURIComponent(
         `Halo LocaGo Creative! Saya ingin submit tool AI baru ke AI Tool Library:\n\n• Nama Tool: ${submitForm.toolName}\n• Website: ${submitForm.websiteUrl}\n• Kategori: ${submitForm.category}\n• Model Harga: ${submitForm.pricing}\n• Paket: ${submitForm.isFeaturedRequest ? 'VIP Featured Listing' : 'Standard Free Review'}`
       );
@@ -109,35 +108,28 @@ export const AIToolsHub: React.FC = () => {
   }, [selectedCategory, selectedPricing, searchQuery, sortBy, upvotes]);
 
   return (
-    <section id="ai-tools" className="pt-28 pb-24 bg-neutral-950 text-white min-h-screen relative overflow-hidden">
-      {/* Background Ambience */}
-      <div className="absolute inset-0 bg-[radial-gradient(#3b0764_1px,transparent_1px)] [background-size:24px_24px] opacity-25 pointer-events-none" />
-      <div className="absolute top-1/4 right-1/4 w-[500px] h-[300px] bg-purple-600/10 blur-[140px] rounded-full pointer-events-none" />
-
+    <section id="ai-tools" className="pt-28 pb-24 bg-neutral-50/60 dark:bg-neutral-950 text-neutral-900 dark:text-white min-h-screen relative overflow-hidden transition-colors duration-200">
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         {/* Header Library ala Futurepedia */}
         <div className="text-center max-w-3xl mx-auto mb-10">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-400 text-xs font-mono font-medium mb-4">
-            <span className="w-2 h-2 rounded-full bg-purple-400 animate-pulse" />
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-100 dark:bg-purple-500/10 border border-purple-200 dark:border-purple-500/20 text-purple-800 dark:text-purple-400 text-xs font-mono font-medium mb-4">
+            <span className="w-2 h-2 rounded-full bg-purple-500 animate-pulse" />
             <span>AI Tool Directory & Software Intelligence Library</span>
           </div>
-          <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight leading-tight bg-gradient-to-r from-white via-neutral-200 to-purple-300 bg-clip-text text-transparent">
+          <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight leading-tight text-neutral-900 dark:text-white">
             AI Tool Library & Direktori Software
           </h1>
-          <p className="mt-4 text-sm sm:text-base text-neutral-400 leading-relaxed">
+          <p className="mt-4 text-sm sm:text-base text-neutral-600 dark:text-neutral-400 leading-relaxed">
             Perpustakaan kurasi kecerdasan buatan, engine otomatisasi no-code, dan model AI paling produktif untuk mempercepat pertumbuhan bisnis dan proyek Anda.
           </p>
 
           <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
-            <span className="px-3 py-1 rounded-full bg-neutral-900 border border-neutral-800 text-xs font-mono text-neutral-300">
+            <span className="px-3.5 py-1.5 rounded-full bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 text-xs font-mono text-neutral-700 dark:text-neutral-300 shadow-sm">
               ⚡ <strong>{AI_TOOLS_LIST.length}+</strong> Alat AI Terverifikasi
-            </span>
-            <span className="px-3 py-1 rounded-full bg-neutral-900 border border-neutral-800 text-xs font-mono text-emerald-400">
-              💰 Komisi Afiliasi s/d <strong>60% Recurring</strong>
             </span>
             <button
               onClick={() => setIsSubmitModalOpen(true)}
-              className="px-4 py-1.5 rounded-full bg-purple-600 hover:bg-purple-500 text-white text-xs font-mono font-bold transition-all shadow-lg shadow-purple-600/30 flex items-center gap-1.5 cursor-pointer active:scale-95"
+              className="px-4 py-1.5 rounded-full bg-purple-600 hover:bg-purple-700 text-white text-xs font-mono font-bold transition-all shadow-md shadow-purple-600/20 flex items-center gap-1.5 cursor-pointer active:scale-95"
             >
               <span>+ Submit Your AI Tool</span>
             </button>
@@ -145,7 +137,7 @@ export const AIToolsHub: React.FC = () => {
         </div>
 
         {/* Directory Controls Box */}
-        <div className="bg-neutral-900/90 border border-neutral-800 rounded-2xl p-4 sm:p-6 mb-8 backdrop-blur shadow-2xl space-y-4">
+        <div className="bg-white dark:bg-neutral-900/90 border border-neutral-200/80 dark:border-neutral-800 rounded-2xl p-4 sm:p-6 mb-8 shadow-sm dark:shadow-2xl space-y-4">
           {/* Row 1: Search & Sort Bar */}
           <div className="flex flex-col sm:flex-row items-center gap-3">
             <div className="relative flex-1 w-full">
@@ -154,9 +146,9 @@ export const AIToolsHub: React.FC = () => {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="Cari AI tools berdasarkan nama, fungsi, atau fitur (cth: Cursor, Voice, RAG, Funnel)..."
-                className="w-full px-4 py-2.5 pl-10 rounded-xl bg-neutral-950 border border-neutral-800 text-xs sm:text-sm text-white placeholder-neutral-500 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all"
+                className="w-full px-4 py-2.5 pl-10 rounded-xl bg-neutral-50 dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-800 text-xs sm:text-sm text-neutral-900 dark:text-white placeholder-neutral-400 dark:placeholder-neutral-500 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all"
               />
-              <svg className="absolute left-3.5 top-3 w-4 h-4 text-neutral-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="absolute left-3.5 top-3 w-4 h-4 text-neutral-400 dark:text-neutral-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
             </div>
@@ -167,7 +159,7 @@ export const AIToolsHub: React.FC = () => {
               <select
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value as any)}
-                className="bg-neutral-950 border border-neutral-800 text-xs font-mono text-neutral-300 rounded-xl px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500 cursor-pointer"
+                className="bg-neutral-50 dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-800 text-xs font-mono text-neutral-700 dark:text-neutral-300 rounded-xl px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500 cursor-pointer"
               >
                 <option value="popular">🔥 Paling Populer</option>
                 <option value="name">🔤 Nama (A - Z)</option>
@@ -176,16 +168,16 @@ export const AIToolsHub: React.FC = () => {
           </div>
 
           {/* Row 2: Category Filter Pills */}
-          <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none border-t border-neutral-800/80 pt-3">
-            <span className="text-xs font-mono text-neutral-500 shrink-0 mr-1">Kategori:</span>
+          <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none border-t border-neutral-100 dark:border-neutral-800/80 pt-3">
+            <span className="text-xs font-mono text-neutral-400 shrink-0 mr-1">Kategori:</span>
             {categories.map((cat) => (
               <button
                 key={cat}
                 onClick={() => setSelectedCategory(cat)}
                 className={`px-3 py-1.5 rounded-lg text-xs font-mono whitespace-nowrap transition-all cursor-pointer ${
                   selectedCategory === cat
-                    ? 'bg-purple-600 text-white font-bold shadow-md shadow-purple-600/30'
-                    : 'bg-neutral-950 text-neutral-400 border border-neutral-800 hover:border-neutral-700 hover:text-white'
+                    ? 'bg-purple-600 text-white font-bold shadow-sm'
+                    : 'bg-neutral-100 dark:bg-neutral-950 text-neutral-600 dark:text-neutral-400 border border-neutral-200 dark:border-neutral-800 hover:border-neutral-300 dark:hover:border-neutral-700'
                 }`}
               >
                 {cat}
@@ -195,15 +187,15 @@ export const AIToolsHub: React.FC = () => {
 
           {/* Row 3: Pricing Filter Pills */}
           <div className="flex items-center gap-2 overflow-x-auto scrollbar-none pt-1">
-            <span className="text-xs font-mono text-neutral-500 shrink-0 mr-1">Model Harga:</span>
+            <span className="text-xs font-mono text-neutral-400 shrink-0 mr-1">Model Harga:</span>
             {pricingModels.map((price) => (
               <button
                 key={price}
                 onClick={() => setSelectedPricing(price)}
                 className={`px-2.5 py-1 rounded-md text-[11px] font-mono whitespace-nowrap transition-all cursor-pointer ${
                   selectedPricing === price
-                    ? 'bg-neutral-800 text-white font-bold border border-neutral-600'
-                    : 'text-neutral-500 hover:text-neutral-300'
+                    ? 'bg-neutral-800 text-white font-bold'
+                    : 'text-neutral-500 hover:text-neutral-800 dark:hover:text-neutral-300'
                 }`}
               >
                 {price === 'Semua' ? 'Semua Harga' : price}
@@ -211,7 +203,7 @@ export const AIToolsHub: React.FC = () => {
             ))}
 
             <div className="ml-auto text-[11px] font-mono text-neutral-500 shrink-0">
-              Menampilkan <strong className="text-purple-400">{filteredAndSortedTools.length}</strong> alat
+              Menampilkan <strong className="text-purple-600 dark:text-purple-400">{filteredAndSortedTools.length}</strong> alat
             </div>
           </div>
         </div>
@@ -225,31 +217,43 @@ export const AIToolsHub: React.FC = () => {
             return (
               <div
                 key={tool.id}
-                className="group p-6 rounded-2xl bg-neutral-900/70 border border-neutral-800 hover:border-purple-500/40 transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/5 backdrop-blur flex flex-col justify-between"
+                className="group p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-neutral-800 hover:border-purple-500/40 transition-all duration-200 hover:shadow-xl flex flex-col justify-between"
               >
                 <div>
-                  {/* Card Header */}
+                  {/* Card Header with Real Logo */}
                   <div className="flex items-start justify-between gap-3 mb-3">
                     <div className="flex items-center gap-3">
-                      <div className="w-10 h-10 rounded-xl bg-purple-500/10 border border-purple-500/30 text-purple-400 flex items-center justify-center font-bold text-base font-mono shrink-0">
-                        {tool.name.charAt(0)}
-                      </div>
+                      {tool.logoUrl ? (
+                        <img
+                          src={tool.logoUrl}
+                          alt={tool.name}
+                          className="w-10 h-10 rounded-xl object-contain p-1 bg-white dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 shadow-sm shrink-0"
+                          onError={(e) => {
+                            // Fallback to avatar if logo fails
+                            (e.target as HTMLElement).style.display = 'none';
+                          }}
+                        />
+                      ) : (
+                        <div className="w-10 h-10 rounded-xl bg-purple-100 dark:bg-purple-500/10 border border-purple-200 dark:border-purple-500/30 text-purple-700 dark:text-purple-400 flex items-center justify-center font-bold text-base font-mono shrink-0">
+                          {tool.name.charAt(0)}
+                        </div>
+                      )}
                       <div>
-                        <h3 className="font-bold text-lg text-white group-hover:text-purple-300 transition-colors flex items-center gap-1.5">
+                        <h3 className="font-bold text-lg text-neutral-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-300 transition-colors flex items-center gap-1.5">
                           <span>{tool.name}</span>
                           {tool.isFeatured && (
-                            <span className="text-[10px] font-mono font-bold px-1.5 py-0.5 rounded bg-purple-500/20 text-purple-300 border border-purple-500/30">
+                            <span className="text-[10px] font-mono font-bold px-1.5 py-0.5 rounded bg-purple-100 dark:bg-purple-500/20 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-500/30">
                               PRO
                             </span>
                           )}
                         </h3>
-                        <span className="text-[11px] font-mono text-neutral-400">{tool.category}</span>
+                        <span className="text-[11px] font-mono text-neutral-500 dark:text-neutral-400">{tool.category}</span>
                       </div>
                     </div>
 
                     <div className="flex items-center gap-1.5 shrink-0">
                       {/* Pricing Tag */}
-                      <span className="px-2 py-0.5 rounded text-[10px] font-mono font-semibold bg-neutral-950 text-neutral-300 border border-neutral-850">
+                      <span className="px-2 py-0.5 rounded text-[10px] font-mono font-semibold bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 border border-neutral-200 dark:border-neutral-700">
                         {tool.pricingType}
                       </span>
                       {/* Upvote Button */}
@@ -257,8 +261,8 @@ export const AIToolsHub: React.FC = () => {
                         onClick={() => toggleUpvote(tool.id)}
                         className={`px-2 py-1 rounded-lg text-xs font-mono font-bold transition-all cursor-pointer border flex items-center gap-1 ${
                           hasVoted
-                            ? 'bg-rose-500/20 text-rose-400 border-rose-500/40'
-                            : 'bg-neutral-950 text-neutral-400 border-neutral-800 hover:border-neutral-700 hover:text-white'
+                            ? 'bg-rose-50 dark:bg-rose-500/20 text-rose-600 dark:text-rose-400 border-rose-300 dark:border-rose-500/40'
+                            : 'bg-neutral-50 dark:bg-neutral-950 text-neutral-600 dark:text-neutral-400 border border-neutral-200 dark:border-neutral-800 hover:border-neutral-300 dark:hover:border-neutral-700 hover:text-neutral-900 dark:hover:text-white'
                         }`}
                         title="Upvote tool ini"
                       >
@@ -268,26 +272,19 @@ export const AIToolsHub: React.FC = () => {
                     </div>
                   </div>
 
-                  {/* Affiliate Commission Tag */}
-                  <div className="mb-3">
-                    <span className="inline-block px-2.5 py-1 rounded-md text-[10px] font-mono font-bold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-                      💰 Afiliasi: {tool.commissionRate}
-                    </span>
-                  </div>
-
-                  <h4 className="text-xs font-semibold text-neutral-200 leading-snug mb-2 line-clamp-1">
+                  <h4 className="text-xs font-semibold text-neutral-800 dark:text-neutral-200 leading-snug mb-2 line-clamp-1">
                     {tool.tagline}
                   </h4>
 
-                  <p className="text-xs text-neutral-400 leading-relaxed line-clamp-3 mb-4">
+                  <p className="text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed line-clamp-3 mb-4">
                     {tool.description}
                   </p>
 
                   {/* Feature Highlights */}
-                  <div className="space-y-1.5 border-t border-neutral-800/80 pt-3">
+                  <div className="space-y-1.5 border-t border-neutral-100 dark:border-neutral-800/80 pt-3">
                     {tool.features.map((feat, idx) => (
-                      <div key={idx} className="text-[11px] text-neutral-400 flex items-start gap-1.5">
-                        <span className="text-purple-400 font-bold shrink-0">✓</span>
+                      <div key={idx} className="text-[11px] text-neutral-600 dark:text-neutral-400 flex items-start gap-1.5">
+                        <span className="text-purple-500 font-bold shrink-0">✓</span>
                         <span className="line-clamp-1">{feat}</span>
                       </div>
                     ))}
@@ -295,12 +292,12 @@ export const AIToolsHub: React.FC = () => {
                 </div>
 
                 {/* Card CTA */}
-                <div className="mt-6 pt-4 border-t border-neutral-800/80 flex items-center justify-between gap-3">
+                <div className="mt-6 pt-4 border-t border-neutral-100 dark:border-neutral-800/80 flex items-center justify-between gap-3">
                   <a
                     href={tool.affiliateUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex-1 py-2.5 px-4 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-mono text-xs font-bold transition-all shadow-md shadow-purple-600/20 active:scale-95 flex items-center justify-center gap-1.5"
+                    className="flex-1 py-2.5 px-4 rounded-xl bg-purple-600 hover:bg-purple-700 text-white font-mono text-xs font-bold transition-all shadow-sm active:scale-95 flex items-center justify-center gap-1.5"
                   >
                     <span>Kunjungi {tool.name}</span>
                     <span>→</span>
@@ -313,66 +310,66 @@ export const AIToolsHub: React.FC = () => {
 
         {/* Submit Tool Modal */}
         {isSubmitModalOpen && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
-            <div className="bg-neutral-900 border border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-lg w-full shadow-2xl relative">
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 dark:bg-black/80 backdrop-blur-sm p-4">
+            <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-lg w-full shadow-2xl relative text-neutral-900 dark:text-white">
               <button
                 onClick={() => setIsSubmitModalOpen(false)}
-                className="absolute top-5 right-5 text-neutral-400 hover:text-white font-mono text-lg cursor-pointer"
+                className="absolute top-5 right-5 text-neutral-400 hover:text-neutral-900 dark:hover:text-white font-mono text-lg cursor-pointer"
               >
                 ✕
               </button>
 
               <div className="mb-6">
-                <span className="text-xs font-mono text-purple-400 font-bold uppercase tracking-wider block mb-1">
+                <span className="text-xs font-mono text-purple-600 dark:text-purple-400 font-bold uppercase tracking-wider block mb-1">
                   Direktori Kemitraan
                 </span>
-                <h3 className="text-2xl font-bold text-white">Submit AI Tool Anda</h3>
-                <p className="text-xs text-neutral-400 mt-1">
+                <h3 className="text-2xl font-bold">Submit AI Tool Anda</h3>
+                <p className="text-xs text-neutral-600 dark:text-neutral-400 mt-1">
                   Daftarkan aplikasi atau produk AI Anda ke direktori LocaGo Creative untuk mendapatkan trafik dan pengguna baru.
                 </p>
               </div>
 
               {submitSuccess ? (
                 <div className="text-center py-8">
-                  <div className="w-12 h-12 bg-emerald-500/20 text-emerald-400 rounded-full flex items-center justify-center text-2xl mx-auto mb-3">
+                  <div className="w-12 h-12 bg-emerald-100 dark:bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 rounded-full flex items-center justify-center text-2xl mx-auto mb-3">
                     ✓
                   </div>
-                  <h4 className="text-lg font-bold text-white">Pengajuan Diterima!</h4>
-                  <p className="text-xs text-neutral-400 mt-1">Membuka WhatsApp kurator untuk verifikasi data...</p>
+                  <h4 className="text-lg font-bold">Pengajuan Diterima!</h4>
+                  <p className="text-xs text-neutral-500 mt-1">Membuka WhatsApp kurator untuk verifikasi data...</p>
                 </div>
               ) : (
                 <form onSubmit={handleFormSubmit} className="space-y-4">
                   <div>
-                    <label className="text-xs font-mono text-neutral-300 block mb-1">Nama Software / Tool AI:</label>
+                    <label className="text-xs font-mono text-neutral-700 dark:text-neutral-300 block mb-1">Nama Software / Tool AI:</label>
                     <input
                       type="text"
                       required
                       placeholder="Contoh: MySuperAI"
                       value={submitForm.toolName}
                       onChange={(e) => setSubmitForm({ ...submitForm, toolName: e.target.value })}
-                      className="w-full px-3.5 py-2 rounded-xl bg-neutral-950 border border-neutral-800 text-xs text-white focus:outline-none focus:ring-2 focus:ring-purple-500"
+                      className="w-full px-3.5 py-2 rounded-xl bg-neutral-50 dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-800 text-xs text-neutral-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-purple-500"
                     />
                   </div>
 
                   <div>
-                    <label className="text-xs font-mono text-neutral-300 block mb-1">Website URL:</label>
+                    <label className="text-xs font-mono text-neutral-700 dark:text-neutral-300 block mb-1">Website URL:</label>
                     <input
                       type="url"
                       required
                       placeholder="https://mysuperai.com"
                       value={submitForm.websiteUrl}
                       onChange={(e) => setSubmitForm({ ...submitForm, websiteUrl: e.target.value })}
-                      className="w-full px-3.5 py-2 rounded-xl bg-neutral-950 border border-neutral-800 text-xs text-white focus:outline-none focus:ring-2 focus:ring-purple-500"
+                      className="w-full px-3.5 py-2 rounded-xl bg-neutral-50 dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-800 text-xs text-neutral-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-purple-500"
                     />
                   </div>
 
                   <div className="grid grid-cols-2 gap-3">
                     <div>
-                      <label className="text-xs font-mono text-neutral-300 block mb-1">Kategori:</label>
+                      <label className="text-xs font-mono text-neutral-700 dark:text-neutral-300 block mb-1">Kategori:</label>
                       <select
                         value={submitForm.category}
                         onChange={(e) => setSubmitForm({ ...submitForm, category: e.target.value })}
-                        className="w-full px-3 py-2 rounded-xl bg-neutral-950 border border-neutral-800 text-xs text-neutral-200"
+                        className="w-full px-3 py-2 rounded-xl bg-neutral-50 dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-800 text-xs text-neutral-800 dark:text-neutral-200"
                       >
                         {categories.filter((c) => c !== 'Semua').map((c) => (
                           <option key={c} value={c}>{c}</option>
@@ -381,11 +378,11 @@ export const AIToolsHub: React.FC = () => {
                     </div>
 
                     <div>
-                      <label className="text-xs font-mono text-neutral-300 block mb-1">Model Harga:</label>
+                      <label className="text-xs font-mono text-neutral-700 dark:text-neutral-300 block mb-1">Model Harga:</label>
                       <select
                         value={submitForm.pricing}
                         onChange={(e) => setSubmitForm({ ...submitForm, pricing: e.target.value })}
-                        className="w-full px-3 py-2 rounded-xl bg-neutral-950 border border-neutral-800 text-xs text-neutral-200"
+                        className="w-full px-3 py-2 rounded-xl bg-neutral-50 dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-800 text-xs text-neutral-800 dark:text-neutral-200"
                       >
                         <option value="Freemium">Freemium</option>
                         <option value="Free Trial">Free Trial</option>
@@ -395,18 +392,18 @@ export const AIToolsHub: React.FC = () => {
                   </div>
 
                   <div>
-                    <label className="text-xs font-mono text-neutral-300 block mb-1">Deskripsi Singkat Fitur:</label>
+                    <label className="text-xs font-mono text-neutral-700 dark:text-neutral-300 block mb-1">Deskripsi Singkat Fitur:</label>
                     <textarea
                       rows={2}
                       required
                       placeholder="Jelaskan dalam 1-2 kalimat fungsi utama tool AI Anda..."
                       value={submitForm.description}
                       onChange={(e) => setSubmitForm({ ...submitForm, description: e.target.value })}
-                      className="w-full px-3.5 py-2 rounded-xl bg-neutral-950 border border-neutral-800 text-xs text-white focus:outline-none focus:ring-2 focus:ring-purple-500"
+                      className="w-full px-3.5 py-2 rounded-xl bg-neutral-50 dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-800 text-xs text-neutral-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-purple-500"
                     />
                   </div>
 
-                  <div className="p-3 rounded-xl bg-purple-950/30 border border-purple-800/40 flex items-center gap-3">
+                  <div className="p-3 rounded-xl bg-purple-50 dark:bg-purple-950/30 border border-purple-200 dark:border-purple-800/40 flex items-center gap-3">
                     <input
                       type="checkbox"
                       id="featCheck"
@@ -414,15 +411,15 @@ export const AIToolsHub: React.FC = () => {
                       onChange={(e) => setSubmitForm({ ...submitForm, isFeaturedRequest: e.target.checked })}
                       className="w-4 h-4 rounded text-purple-600 focus:ring-purple-500"
                     />
-                    <label htmlFor="featCheck" className="text-xs text-neutral-300 cursor-pointer">
-                      <strong>Featured Listing (VIP Placement)</strong> — Tampil di baris teratas dengan lencana PRO & promosi di thread Threads.
+                    <label htmlFor="featCheck" className="text-xs text-neutral-700 dark:text-neutral-300 cursor-pointer">
+                      <strong>Featured Listing (VIP Placement)</strong> — Tampil di baris teratas dengan lencana PRO & promosi di thread media sosial.
                     </label>
                   </div>
 
                   <div className="pt-2">
                     <button
                       type="submit"
-                      className="w-full py-3 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-mono text-xs font-bold transition-all shadow-lg shadow-purple-600/30 cursor-pointer"
+                      className="w-full py-3 rounded-xl bg-purple-600 hover:bg-purple-700 text-white font-mono text-xs font-bold transition-all shadow-md shadow-purple-600/20 cursor-pointer"
                     >
                       Kirim Pendaftaran Tool Sekarang →
                     </button>
