@@ -1,7 +1,25 @@
 {
-  "updatedAt": "03 Nov 2026, 23:43 WIB",
-  "total": 62,
+  "updatedAt": "03 Nov 2026, 23:49 WIB",
+  "total": 63,
   "items": [
+    {
+      "id": "ai-63",
+      "name": "Rytr",
+      "logoUrl": "/logos/rytr.png",
+      "category": "AI Writing & SEO",
+      "pricingType": "Freemium",
+      "commissionRate": "Partner Program",
+      "tagline": "Generator Copywriting Hemat Biaya untuk Iklan, Blog, dan Media Sosial",
+      "description": "Rytr adalah software kecerdasan buatan terdepan di bidang AI Writing & SEO yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "features": [
+        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Writing & SEO",
+        "Antarmuka pengguna responsif dan intuitif siap pakai",
+        "Mendukung integrasi alur kerja modern dan ekspor data instan",
+        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+      ],
+      "affiliateUrl": "https://rytr.me/?via=locagocreative",
+      "isFeatured": false
+    },
     {
       "id": "ai-62",
       "name": "ShortlyAI",

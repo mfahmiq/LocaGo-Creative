@@ -100,27 +100,30 @@ export const AIToolsHub: React.FC = () => {
   };
 
   const filteredAndSortedTools = useMemo(() => {
-    return tools.filter((tool) => {
+    return (tools || []).filter((tool) => {
+      if (!tool) return false;
       const matchCat = selectedCategory === 'Semua' || tool.category === selectedCategory;
       const matchPricing = selectedPricing === 'Semua' || tool.pricingType === selectedPricing;
+      const searchLower = (searchQuery || '').toLowerCase();
       const matchSearch =
-        tool.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        tool.tagline.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        tool.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        tool.category.toLowerCase().includes(searchQuery.toLowerCase());
+        (tool.name || '').toLowerCase().includes(searchLower) ||
+        (tool.tagline || '').toLowerCase().includes(searchLower) ||
+        (tool.description || '').toLowerCase().includes(searchLower) ||
+        (tool.category || '').toLowerCase().includes(searchLower);
       return matchCat && matchPricing && matchSearch;
     }).sort((a, b) => {
+      if (!a || !b) return 0;
       if (sortBy === 'popular') {
-        const votesA = upvotes[a.id] !== undefined ? upvotes[a.id] : 20;
-        const votesB = upvotes[b.id] !== undefined ? upvotes[b.id] : 20;
+        const votesA = (a.id && upvotes[a.id] !== undefined) ? upvotes[a.id] : 20;
+        const votesB = (b.id && upvotes[b.id] !== undefined) ? upvotes[b.id] : 20;
         return votesB - votesA;
       }
       if (sortBy === 'name') {
-        return a.name.localeCompare(b.name);
+        return (a.name || '').localeCompare(b.name || '');
       }
       return 0;
     });
-  }, [selectedCategory, selectedPricing, searchQuery, sortBy, upvotes]);
+  }, [tools, selectedCategory, selectedPricing, searchQuery, sortBy, upvotes]);
 
   return (
     <section id="ai-tools" className="pt-28 pb-24 bg-neutral-50/60 dark:bg-neutral-950 text-neutral-900 dark:text-white min-h-screen relative overflow-hidden transition-colors duration-200">
@@ -297,7 +300,7 @@ export const AIToolsHub: React.FC = () => {
 
                   {/* Feature Highlights */}
                   <div className="space-y-1.5 border-t border-neutral-100 dark:border-neutral-800/80 pt-3">
-                    {tool.features.map((feat, idx) => (
+                    {(tool.features || []).map((feat, idx) => (
                       <div key={idx} className="text-[11px] text-neutral-600 dark:text-neutral-400 flex items-start gap-1.5">
                         <span className="text-purple-500 font-bold shrink-0">✓</span>
                         <span className="line-clamp-1">{feat}</span>

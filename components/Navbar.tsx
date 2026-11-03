@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { useTheme } from '../context/ThemeContext';
 import { useLanguage } from '../context/LanguageContext';
 import { NavigationTab } from '../types';
+import { SOURCE_CODE_LIST, AI_TOOLS_LIST } from '../lib/data';
+import { ARTICLES_LIST } from '../lib/articlesData';
 
 interface NavbarProps {
   activeTab: NavigationTab;
@@ -13,6 +15,26 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { theme, toggleTheme } = useTheme();
   const { language, setLanguage, t } = useLanguage();
+
+  const [scCount, setScCount] = useState<number>(SOURCE_CODE_LIST.length);
+  const [toolsCount, setToolsCount] = useState<number>(AI_TOOLS_LIST.length);
+  const [articlesCount, setArticlesCount] = useState<number>(ARTICLES_LIST.length);
+
+  useEffect(() => {
+    fetch('/ai_tools_live.json')
+      .then((r) => r.json())
+      .then((d) => {
+        if (d.items && d.items.length > 0) setToolsCount(d.items.length);
+      })
+      .catch(() => {});
+
+    fetch('/articles_live.json')
+      .then((r) => r.json())
+      .then((d) => {
+        if (d.items && d.items.length > 0) setArticlesCount(d.items.length);
+      })
+      .catch(() => {});
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -102,7 +124,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                     : 'bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-400'
                 }`}
               >
-                58+
+                {scCount} SC
               </span>
             </button>
 
@@ -140,7 +162,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                     : 'bg-purple-100 dark:bg-purple-950/60 text-purple-700 dark:text-purple-400'
                 }`}
               >
-                55+
+                {toolsCount}+
               </span>
             </button>
 
@@ -161,7 +183,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                     : 'bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-400'
                 }`}
               >
-                10 Baru
+                {articlesCount} Baru
               </span>
             </button>
           </div>
@@ -283,7 +305,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                   📦 Source Code Gratis
                 </span>
                 <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-emerald-600 text-white font-mono">
-                  58+ SC
+                  {scCount} SC
                 </span>
               </div>
               <span className="font-mono text-xs text-neutral-400">02 →</span>
@@ -321,7 +343,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                   🤖 Katalog AI Tools & Otomasi
                 </span>
                 <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-purple-600 text-white font-mono">
-                  55+
+                  {toolsCount}+
                 </span>
               </div>
               <span className="font-mono text-xs text-neutral-400">04 →</span>
@@ -340,7 +362,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                   📰 Artikel & Panduan AI
                 </span>
                 <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-emerald-600 text-white font-mono">
-                  10 Baru
+                  {articlesCount} Baru
                 </span>
               </div>
               <span className="font-mono text-xs text-neutral-400">05 →</span>

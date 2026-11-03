@@ -87,6 +87,8 @@ export interface AIToolItem {
   tags?: string[];
   upvotes?: number;
   logoUrl?: string;
+  screenshotUrl?: string;
+  demoVideoUrl?: string;
   affiliateUrl: string;
   isFeatured?: boolean;
 }
