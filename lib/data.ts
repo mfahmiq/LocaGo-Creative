@@ -13,7 +13,7 @@ export const SOURCE_CODE_LIST: SourceCodeItem[] = [
     techStack: ['PHP 8.2', 'MySQL', 'Bootstrap 5', 'WhatsApp Gateway'],
     description: 'Aplikasi kasir Point of Sale berbasis web siap pakai untuk UMKM, toko ritel, dan warung kelontong. Dilengkapi pencatatan stok real-time, laporan laba rugi bulanan, scanner barcode kamera HP, dan fitur kirim struk belanja otomatis via WhatsApp ke nomor pelanggan.',
     shortDesc: 'Aplikasi POS kasir toko lengkap dengan database SQL, scanner barcode, dan kirim struk belanja otomatis via WhatsApp.',
-    thumbnail: 'https://images.unsplash.com/photo-1556742049-0a67c5574f73?w=800&auto=format&fit=crop&q=80',
+    thumbnail: 'https://images.unsplash.com/photo-1556740758-90de374c12ad?w=800&auto=format&fit=crop&q=80',
     downloadsCount: 1420,
     rating: 4.9,
     isPopular: true,
