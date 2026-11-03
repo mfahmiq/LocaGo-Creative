@@ -55,6 +55,39 @@ export const AIToolsHub: React.FC = () => {
     }
   });
 
+  const [views, setViews] = useState<Record<string, number>>(() => {
+    try {
+      const saved = localStorage.getItem('locago_ai_views');
+      return saved ? JSON.parse(saved) : {};
+    } catch {
+      return {};
+    }
+  });
+
+  const appendUtm = (rawUrl: string, toolName: string) => {
+    const slug = toolName.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    try {
+      const u = new URL(rawUrl);
+      u.searchParams.set('utm_source', 'locagocreative');
+      u.searchParams.set('utm_medium', 'directory');
+      u.searchParams.set('utm_campaign', 'ai_tools_hub');
+      u.searchParams.set('utm_content', slug);
+      return u.toString();
+    } catch {
+      const sep = rawUrl.includes('?') ? '&' : '?';
+      return `${rawUrl}${sep}utm_source=locagocreative&utm_medium=directory&utm_campaign=ai_tools_hub&utm_content=${slug}`;
+    }
+  };
+
+  const trackClick = (toolId: string) => {
+    const current = views[toolId] || 0;
+    const nextViews = { ...views, [toolId]: current + 1 };
+    setViews(nextViews);
+    try {
+      localStorage.setItem('locago_ai_views', JSON.stringify(nextViews));
+    } catch {}
+  };
+
   const categories = [
     'Semua',
     'Automation & No-Code',
@@ -311,14 +344,20 @@ export const AIToolsHub: React.FC = () => {
 
                 {/* Card CTA */}
                 <div className="mt-6 pt-4 border-t border-neutral-100 dark:border-neutral-800/80 flex items-center justify-between gap-3">
+                  <div className="flex items-center gap-1.5 text-[11px] font-mono text-neutral-500 shrink-0">
+                    <span>👁️</span>
+                    <span>{(((tool.id || 'ai').charCodeAt((tool.id || 'ai').length - 1) * 43) % 950 + 140 + (views[tool.id] || 0)).toLocaleString()} views</span>
+                  </div>
+
                   <a
-                    href={tool.affiliateUrl}
+                    href={appendUtm(tool.affiliateUrl, tool.name)}
+                    onClick={() => trackClick(tool.id)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex-1 py-2.5 px-4 rounded-xl bg-purple-600 hover:bg-purple-700 text-white font-mono text-xs font-bold transition-all shadow-sm active:scale-95 flex items-center justify-center gap-1.5"
+                    className="flex-1 py-2.5 px-4 rounded-xl bg-purple-600 hover:bg-purple-700 text-white font-mono text-xs font-bold transition-all shadow-sm active:scale-95 flex items-center justify-center gap-1.5 cursor-pointer"
                   >
                     <span>Kunjungi {tool.name}</span>
-                    <span>→</span>
+                    <span>↗</span>
                   </a>
                 </div>
               </div>

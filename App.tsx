@@ -14,6 +14,7 @@ import { SourceCodeHub } from './components/SourceCodeHub';
 import { GitHubTrendingHub } from './components/GitHubTrendingHub';
 import { AIToolsHub } from './components/AIToolsHub';
 import { ArticlesHub } from './components/ArticlesHub';
+import { ErrorBoundary } from './components/ErrorBoundary';
 import { ThemeProvider } from './context/ThemeContext';
 import { LanguageProvider } from './context/LanguageContext';
 import { NavigationTab } from './types';
@@ -64,10 +65,26 @@ const AppContent: React.FC = () => {
           </>
         )}
 
-        {activeTab === 'source-code' && <SourceCodeHub />}
-        {activeTab === 'github-trending' && <GitHubTrendingHub />}
-        {activeTab === 'ai-tools' && <AIToolsHub />}
-        {activeTab === 'articles' && <ArticlesHub />}
+        {activeTab === 'source-code' && (
+          <ErrorBoundary fallbackTitle="Source Code Hub">
+            <SourceCodeHub />
+          </ErrorBoundary>
+        )}
+        {activeTab === 'github-trending' && (
+          <ErrorBoundary fallbackTitle="GitHub Trending Radar">
+            <GitHubTrendingHub />
+          </ErrorBoundary>
+        )}
+        {activeTab === 'ai-tools' && (
+          <ErrorBoundary fallbackTitle="AI Tools Library">
+            <AIToolsHub />
+          </ErrorBoundary>
+        )}
+        {activeTab === 'articles' && (
+          <ErrorBoundary fallbackTitle="Artikel & Panduan AI">
+            <ArticlesHub />
+          </ErrorBoundary>
+        )}
       </main>
 
       <Footer />

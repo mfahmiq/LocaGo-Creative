@@ -1,7 +1,43 @@
 {
-  "updatedAt": "03 Nov 2026, 23:49 WIB",
-  "total": 63,
+  "updatedAt": "03 Nov 2026, 23:59 WIB",
+  "total": 65,
   "items": [
+    {
+      "id": "ai-65",
+      "name": "GrowthBar",
+      "logoUrl": "/logos/growthbar.png",
+      "category": "AI Writing & SEO",
+      "pricingType": "Free Trial",
+      "commissionRate": "Partner Program",
+      "tagline": "Tool AI SEO Khusus Penulisan Artikel Blog yang Dioptimasi Google",
+      "description": "GrowthBar adalah software kecerdasan buatan terdepan di bidang AI Writing & SEO yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "features": [
+        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Writing & SEO",
+        "Antarmuka pengguna responsif dan intuitif siap pakai",
+        "Mendukung integrasi alur kerja modern dan ekspor data instan",
+        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+      ],
+      "affiliateUrl": "https://growthbarseo.com/?via=locagocreative",
+      "isFeatured": false
+    },
+    {
+      "id": "ai-64",
+      "name": "Scalenut",
+      "logoUrl": "/logos/scalenut.png",
+      "category": "AI Writing & SEO",
+      "pricingType": "Free Trial",
+      "commissionRate": "Partner Program",
+      "tagline": "Platform Konten Marketing & SEO Lengkap dari Riset hingga Terbit",
+      "description": "Scalenut adalah software kecerdasan buatan terdepan di bidang AI Writing & SEO yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "features": [
+        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan AI Writing & SEO",
+        "Antarmuka pengguna responsif dan intuitif siap pakai",
+        "Mendukung integrasi alur kerja modern dan ekspor data instan",
+        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+      ],
+      "affiliateUrl": "https://scalenut.com/?via=locagocreative",
+      "isFeatured": false
+    },
     {
       "id": "ai-63",
       "name": "Rytr",
