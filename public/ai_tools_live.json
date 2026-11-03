@@ -1,7 +1,61 @@
 {
-  "updatedAt": "03 Nov 2026, 23:59 WIB",
-  "total": 65,
+  "updatedAt": "04 Nov 2026, 00:14 WIB",
+  "total": 68,
   "items": [
+    {
+      "id": "ai-68",
+      "name": "Fliki",
+      "logoUrl": "/logos/fliki.png",
+      "category": "Video & Graphics",
+      "pricingType": "Freemium",
+      "commissionRate": "Partner Program",
+      "tagline": "Ubah Teks Naskah Jadi Video Bersuara AI Alami dalam Hitungan Menit",
+      "description": "Fliki adalah software kecerdasan buatan terdepan di bidang Video & Graphics yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "features": [
+        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Video & Graphics",
+        "Antarmuka pengguna responsif dan intuitif siap pakai",
+        "Mendukung integrasi alur kerja modern dan ekspor data instan",
+        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+      ],
+      "affiliateUrl": "https://fliki.ai/?via=locagocreative",
+      "isFeatured": false
+    },
+    {
+      "id": "ai-67",
+      "name": "Colossyan",
+      "logoUrl": "/logos/colossyan.png",
+      "category": "Video & Graphics",
+      "pricingType": "Freemium",
+      "commissionRate": "Partner Program",
+      "tagline": "Generator Video AI Pembelajaran Korporat & Modul Training Kerja",
+      "description": "Colossyan adalah software kecerdasan buatan terdepan di bidang Video & Graphics yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "features": [
+        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Video & Graphics",
+        "Antarmuka pengguna responsif dan intuitif siap pakai",
+        "Mendukung integrasi alur kerja modern dan ekspor data instan",
+        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+      ],
+      "affiliateUrl": "https://colossyan.com/?via=locagocreative",
+      "isFeatured": false
+    },
+    {
+      "id": "ai-66",
+      "name": "DeepBrain AI",
+      "logoUrl": "/logos/deepbrain-ai.png",
+      "category": "Video & Graphics",
+      "pricingType": "Free Trial",
+      "commissionRate": "Partner Program",
+      "tagline": "Avatar AI Fotorealistik untuk Video Pelatihan dan Berita TV",
+      "description": "DeepBrain AI adalah software kecerdasan buatan terdepan di bidang Video & Graphics yang dirancang untuk mempercepat produktivitas kerja profesional dan mengotomasi alur kerja harian.",
+      "features": [
+        "Fungsionalitas mutakhir berbasis teknologi kecerdasan buatan Video & Graphics",
+        "Antarmuka pengguna responsif dan intuitif siap pakai",
+        "Mendukung integrasi alur kerja modern dan ekspor data instan",
+        "Pilihan paket fleksibel untuk solo kreator maupun tim bisnis"
+      ],
+      "affiliateUrl": "https://deepbrain.io/?via=locagocreative",
+      "isFeatured": false
+    },
     {
       "id": "ai-65",
       "name": "GrowthBar",
