@@ -110,9 +110,10 @@ export const SourceCodeHub: React.FC = () => {
                 {/* Thumbnail Header */}
                 <div className="relative aspect-video w-full overflow-hidden bg-neutral-900">
                   <img
-                    src={item.thumbnail}
+                    src={`https://www.locagocreative.my.id${item.thumbnail}`}
                     alt={item.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    loading="eager"
                   />
                   <div className="absolute top-3 left-3 flex items-center gap-1.5">
                     <span className="px-2.5 py-1 rounded-md text-[11px] font-mono font-bold bg-neutral-900/80 backdrop-blur-sm text-white">
