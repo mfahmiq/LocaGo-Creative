@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 18:29 WIB",
-  "total": 139,
+  "updatedAt": "04 Nov 2026, 18:36 WIB",
+  "total": 141,
   "items": [
+    {
+      "id": "ai-sentinelio-ai",
+      "name": "SentinelIO AI",
+      "category": "Agentic Automation",
+      "pricingType": "Paid",
+      "tagline": "Autonomous SaaS Integrator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "SentinelIO AI adalah asisten otomatisasi alur kerja saas yang mengintegrasikan ratusan api pihak ketiga. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/sentinelio-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://sentinelioai.co"
+    },
+    {
+      "id": "ai-quantumplatform-ai",
+      "name": "QuantumPlatform AI",
+      "category": "Agentic Automation",
+      "pricingType": "Paid",
+      "tagline": "Autonomous SaaS Integrator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "QuantumPlatform AI adalah asisten otomatisasi alur kerja saas yang mengintegrasikan ratusan api pihak ketiga. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/quantumplatform-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://quantumplatformai.io"
+    },
     {
       "id": "ai-fusion-flow",
       "name": "Fusion Flow",
