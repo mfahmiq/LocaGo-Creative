@@ -3197,11 +3197,17 @@ Notification texts go here <a href='/p/contact.html' target='_blank'>Contact Us<
                                           <!-- Adsterra Native Banner (ID: 16839870) -->
                                           <script async='async' data-cfasync='false' src='https://pl16940369.profitableratecpmnetwork.com/4452f0ea3918b1d9d948d7b1df040e65/invoke.js' type='text/javascript'></script>
                                           <div id='container-4452f0ea3918b1d9d948d7b1df040e65' style='width:100%;max-width:500px;'></div>
-                                          <!-- Adsterra Smartlink Sponsor Badge -->
-                                          <div style='margin-top:8px;'>
-                                            <a href='https://www.profitableratecpmnetwork.com/uzbqrjc0?key=53fc7fd7a203e295c9ae42a4124c72f1' target='_blank' rel='noopener noreferrer nofollow' style='display:inline-flex;align-items:center;gap:8px;padding:6px 16px;background:rgba(72,45,255,0.08);border:1px solid rgba(72,45,255,0.3);border-radius:20px;color:var(--linkC,#482dff);font-size:11px;font-weight:700;text-decoration:none;'>
-                                              <span>&#9889; Sponsor Resmi Dwollopus</span>
-                                              <span style='background:var(--linkC,#482dff);color:#ffffff;border-radius:10px;padding:2px 8px;font-size:10px;'>Klaim Penawaran &#8599;</span>
+                                          <!-- Dual Sponsor Badges: Adsterra Smartlink & Monetag Direct Link -->
+                                          <div style='margin-top:10px;display:flex;flex-wrap:wrap;justify-content:center;gap:8px;'>
+                                            <!-- Adsterra Smartlink -->
+                                            <a href='https://www.profitableratecpmnetwork.com/uzbqrjc0?key=53fc7fd7a203e295c9ae42a4124c72f1' target='_blank' rel='noopener noreferrer nofollow' style='display:inline-flex;align-items:center;gap:6px;padding:6px 14px;background:rgba(72,45,255,0.08);border:1px solid rgba(72,45,255,0.3);border-radius:20px;color:var(--linkC,#482dff);font-size:11px;font-weight:700;text-decoration:none;'>
+                                              <span>&#9889; Sponsor Adsterra</span>
+                                              <span style='background:var(--linkC,#482dff);color:#ffffff;border-radius:10px;padding:2px 8px;font-size:10px;'>Klaim &#8599;</span>
+                                            </a>
+                                            <!-- Monetag Direct Link (Zone 12189012) -->
+                                            <a href='https://uplcm.com/4/12189012' target='_blank' rel='noopener noreferrer nofollow' style='display:inline-flex;align-items:center;gap:6px;padding:6px 14px;background:rgba(0,180,216,0.08);border:1px solid rgba(0,180,216,0.4);border-radius:20px;color:#0096c7;font-size:11px;font-weight:700;text-decoration:none;'>
+                                              <span>&#127873; Sponsor Monetag</span>
+                                              <span style='background:#0096c7;color:#ffffff;border-radius:10px;padding:2px 8px;font-size:10px;'>Akses &#8599;</span>
                                             </a>
                                           </div>
                                         </div>
