@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 02:19 WIB",
-  "total": 290,
+  "updatedAt": "05 Nov 2026, 02:26 WIB",
+  "total": 292,
   "items": [
+    {
+      "id": "ai-orbitmind-ai",
+      "name": "OrbitMind AI",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "tagline": "IDE AI & CLI Code Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "OrbitMind AI adalah asisten pemrograman otonom yang mempercepat pengembangan aplikasi dan refactoring kode. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/orbitmind-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://orbitmindai.ai"
+    },
+    {
+      "id": "ai-pixelgraph",
+      "name": "PixelGraph",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "Autonomous SaaS Integrator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "PixelGraph adalah asisten otomatisasi alur kerja saas yang mengintegrasikan ratusan api pihak ketiga. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/pixelgraph.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://pixelgraph.io"
+    },
     {
       "id": "ai-modelpulse",
       "name": "ModelPulse",
