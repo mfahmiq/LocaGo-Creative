@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 16:14 WIB",
-  "total": 94,
+  "updatedAt": "04 Nov 2026, 16:20 WIB",
+  "total": 96,
   "items": [
+    {
+      "id": "ai-flowise",
+      "name": "Flowise",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "Platform Low-Code Open-Source untuk Membangun Aplikasi LLM & Chatbot Khusus",
+      "description": "Tool visual berbasis Node.js yang memungkinkan siapa saja membangun chatbot interaktif, agentic workflow, dan dokumen RAG dengan menghubungkan node LangChain secara visual.",
+      "features": [
+        "UI visual low-code untuk LangChain",
+        "Embedding widget chatbot ke web instan",
+        "Integrasi vector database Supabase & Pinecone",
+        "100% open-source dan gratis di-host mandiri"
+      ],
+      "logoUrl": "/logos/flowise.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://flowiseai.com"
+    },
+    {
+      "id": "ai-langflow",
+      "name": "Langflow",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "Visual UI Builder Drag-and-Drop untuk Alur Kerja RAG dan Multi-Agent Multi-Model",
+      "description": "Antarmuka visual interaktif berbasis node graph untuk merancang, menguji, dan mempublikasikan alur agen AI dan sistem RAG tanpa repot menulis ratusan baris boilerplate.",
+      "features": [
+        "Canvas drag-and-drop node graph",
+        "Integrasi ratusan komponen LLM & vector db",
+        "Ekspor instan sebagai API endpoint Python",
+        "Dukungan testing real-time di browser"
+      ],
+      "logoUrl": "/logos/langflow.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://langflow.org"
+    },
     {
       "id": "ai-autogen",
       "name": "AutoGen",
