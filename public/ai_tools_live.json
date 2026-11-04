@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 02:24 WIB",
-  "total": 28,
+  "updatedAt": "04 Nov 2026, 02:30 WIB",
+  "total": 30,
   "items": [
+    {
+      "id": "ai-tabnine",
+      "name": "Tabnine",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Autocomplete AI Mandiri dengan Keamanan Ketat & Isolasi On-Premise",
+      "description": "Pelopor autocomplete cerdas untuk developer yang mengutamakan kerahasiaan data. Model dapat di-host sendiri (on-premise) tanpa mengirimkan potongan kode ke server pihak ketiga.",
+      "features": [
+        "Pelatihan murni pada kode open source berlisensi permisif",
+        "Dukungan deployment private cloud dan on-premise",
+        "Integrasi mulus di 15+ IDE populer",
+        "Zero data retention policy"
+      ],
+      "logoUrl": "/logos/tabnine.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.tabnine.com/?via=locagocreative"
+    },
+    {
+      "id": "ai-sourcegraph-cody",
+      "name": "Sourcegraph Cody",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Asisten Coding AI dengan Graf Pengetahuan Repositori Skala Korporat",
+      "description": "Asisten AI yang membaca seluruh basis kode repositori enterprise Anda. Menjawab pertanyaan teknis mengenai relasi fungsi privat dan dokumentasi internal tanpa halusinasi.",
+      "features": [
+        "Integrasi pencarian kode multi-repo",
+        "Pilihan model fleksibel (Claude 3.5 Sonnet, GPT-4o)",
+        "Penghasil unit test dan dokumentasi otomatis",
+        "Privasi kode tingkat enterprise bersertifikat SOC 2"
+      ],
+      "logoUrl": "/logos/sourcegraph-cody.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://sourcegraph.com/cody?via=locagocreative"
+    },
     {
       "id": "ai-windsurf",
       "name": "Windsurf",
