@@ -1,7 +1,25 @@
 {
-  "updatedAt": "04 Nov 2026, 08:49 WIB",
-  "total": 20,
+  "updatedAt": "04 Nov 2026, 01:55 WIB",
+  "total": 21,
   "items": [
+    {
+      "id": "ai-scalenut",
+      "name": "Scalenut",
+      "category": "AI Writing & SEO",
+      "pricingType": "Free Trial",
+      "tagline": "Platform Riset Keyword, Pemetaan Topik & Optimasi Konten SEO Google",
+      "description": "Suite SEO lengkap bertenaga AI yang memandu Anda dari riset kata kunci, pembuatan brief artikel, penulisan berbasis NLP Google, hingga audit konten on-page untuk memastikan artikel mampu bersaing di peringkat teratas pencarian.",
+      "features": [
+        "Cruise Mode untuk menyusun artikel SEO 2.000 kata dalam 5 menit",
+        "Analisis NLP kata kunci kompetitor top 10 Google secara live",
+        "Pemetaan topic cluster untuk membangun otoritas domain",
+        "Integrasi langsung publikasi ke CMS WordPress"
+      ],
+      "logoUrl": "/logos/scalenut.png",
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "3iTqwXZq80k",
+      "affiliateUrl": "https://scalenut.com/?via=locagocreative"
+    },
     {
       "id": "tool-cursor",
       "name": "Cursor AI",
@@ -15,11 +33,10 @@
         "Shadow Workspace auto-linting",
         "Kompatibel 100% ekstensi VS Code"
       ],
+      "logoUrl": "/logos/cursor.png",
       "screenshotUrl": "/tools/previews/cursor.webp",
       "demoVideoUrl": "DjVadODhOHA",
-      "logoUrl": "/logos/cursor.png",
-      "websiteUrl": "https://cursor.com/?via=locagocreative",
-      "isFeatured": true
+      "affiliateUrl": "https://cursor.com/?via=locagocreative"
     },
     {
       "id": "tool-bolt",
@@ -34,11 +51,10 @@
         "Integrasi Supabase & database cloud",
         "Deploy instan 1-klik ke Netlify"
       ],
+      "logoUrl": "/logos/bolt.png",
       "screenshotUrl": "/tools/previews/bolt.webp",
       "demoVideoUrl": "XWn1k_Xm0zM",
-      "logoUrl": "/logos/bolt.png",
-      "websiteUrl": "https://bolt.new/?via=locagocreative",
-      "isFeatured": true
+      "affiliateUrl": "https://bolt.new/?via=locagocreative"
     },
     {
       "id": "tool-v0",
@@ -53,11 +69,10 @@
         "Ekspor instan via perintah npx CLI",
         "Fitur seleksi edit visual blok"
       ],
+      "logoUrl": "/logos/v0.png",
       "screenshotUrl": "/tools/previews/v0.webp",
       "demoVideoUrl": "1f8nE9i-0wU",
-      "logoUrl": "/logos/v0.png",
-      "websiteUrl": "https://v0.dev/?ref=locagocreative",
-      "isFeatured": true
+      "affiliateUrl": "https://v0.dev/?ref=locagocreative"
     },
     {
       "id": "tool-elevenlabs",
@@ -72,11 +87,10 @@
         "Dubbing video otomatis dengan lip-sync",
         "API latensi ultra-rendah untuk asisten bot"
       ],
+      "logoUrl": "/logos/elevenlabs.png",
       "screenshotUrl": "/tools/previews/elevenlabs.webp",
       "demoVideoUrl": "qLpDvh-z2XQ",
-      "logoUrl": "/logos/elevenlabs.png",
-      "websiteUrl": "https://elevenlabs.io/?from=locagocreative",
-      "isFeatured": true
+      "affiliateUrl": "https://elevenlabs.io/?from=locagocreative"
     },
     {
       "id": "tool-make",
@@ -91,11 +105,10 @@
         "Pengolahan webhook & JSON real-time",
         "Eksekusi otomatis berjadwal & multi-router"
       ],
+      "logoUrl": "/logos/make.png",
       "screenshotUrl": "/tools/previews/make.webp",
       "demoVideoUrl": "0N6-o6R_fLQ",
-      "logoUrl": "/logos/make.png",
-      "websiteUrl": "https://www.make.com/en/register?pc=locagocreative",
-      "isFeatured": true
+      "affiliateUrl": "https://www.make.com/en/register?pc=locagocreative"
     },
     {
       "id": "tool-runway",
@@ -110,11 +123,10 @@
         "Text-to-Video & Image-to-Video presisi",
         "Fitur Motion Brush untuk menganimasi area tertentu"
       ],
+      "logoUrl": "/logos/runway.png",
       "screenshotUrl": "/tools/previews/runway.webp",
       "demoVideoUrl": "rE10qF-2kO8",
-      "logoUrl": "/logos/runway.png",
-      "websiteUrl": "https://runwayml.com/",
-      "isFeatured": true
+      "affiliateUrl": "https://runwayml.com/"
     },
     {
       "id": "tool-midjourney",
@@ -129,11 +141,10 @@
         "Mode Inpainting & Pan Out fleksibel",
         "Variasi aspect ratio dinamis dari banner ke vertikal"
       ],
+      "logoUrl": "/logos/midjourney.png",
       "screenshotUrl": "/tools/previews/midjourney.webp",
       "demoVideoUrl": "LwEwGf7f6aM",
-      "logoUrl": "/logos/midjourney.png",
-      "websiteUrl": "https://www.midjourney.com/",
-      "isFeatured": false
+      "affiliateUrl": "https://www.midjourney.com/"
     },
     {
       "id": "tool-kling",
@@ -148,11 +159,10 @@
         "Rendering ekspresi wajah dan gerakan tubuh alami",
         "Dukungan Text & Image prompt berbasis kontrol frame"
       ],
+      "logoUrl": "/logos/kling-ai.png",
       "screenshotUrl": "/tools/previews/kling.webp",
       "demoVideoUrl": "Vp2oM26Qe1E",
-      "logoUrl": "/logos/kling-ai.png",
-      "websiteUrl": "https://klingai.com/",
-      "isFeatured": false
+      "affiliateUrl": "https://klingai.com/"
     },
     {
       "id": "tool-replit",
@@ -167,11 +177,10 @@
         "Database PostgreSQL bawaan",
         "Domain dan SSL otomatis siap pakai"
       ],
+      "logoUrl": "/logos/replit.png",
       "screenshotUrl": "/tools/previews/replit.webp",
       "demoVideoUrl": "e8q56_kZ0dI",
-      "logoUrl": "/logos/replit.png",
-      "websiteUrl": "https://replit.com/",
-      "isFeatured": false
+      "affiliateUrl": "https://replit.com/"
     },
     {
       "id": "tool-chatbase",
@@ -186,11 +195,10 @@
         "Integrasi WhatsApp dan Slack",
         "Proteksi halusinasi dengan sitasi data ketat"
       ],
+      "logoUrl": "/logos/chatbase.png",
       "screenshotUrl": "/tools/previews/chatbase.webp",
       "demoVideoUrl": "9XyQ4P3Vj_0",
-      "logoUrl": "/logos/chatbase.png",
-      "websiteUrl": "https://www.chatbase.co/",
-      "isFeatured": false
+      "affiliateUrl": "https://www.chatbase.co/"
     },
     {
       "id": "tool-phind",
@@ -205,11 +213,10 @@
         "Dukungan model 70B parameter berlatensi rendah",
         "Gratis tanpa batasan pencarian harian"
       ],
+      "logoUrl": "/logos/perplexity.png",
       "screenshotUrl": "/tools/previews/phind.webp",
       "demoVideoUrl": "2A-0lGjK4fI",
-      "logoUrl": "/logos/perplexity.png",
-      "websiteUrl": "https://www.phind.com/",
-      "isFeatured": false
+      "affiliateUrl": "https://www.phind.com/"
     },
     {
       "id": "tool-blackbox",
@@ -224,11 +231,10 @@
         "Pencarian repo dan dokumentasi teknis instan",
         "Ekstensi ringan untuk Chrome dan VS Code"
       ],
+      "logoUrl": "/logos/blackbox-ai.png",
       "screenshotUrl": "/tools/previews/blackbox.webp",
       "demoVideoUrl": "9VlW7_k1d_k",
-      "logoUrl": "/logos/blackbox-ai.png",
-      "websiteUrl": "https://www.blackbox.ai/",
-      "isFeatured": false
+      "affiliateUrl": "https://www.blackbox.ai/"
     },
     {
       "id": "tool-systeme",
@@ -243,11 +249,10 @@
         "Portal membership kursus video terlindungi",
         "Program afiliasi recurring resmi 60% seumur hidup"
       ],
+      "logoUrl": "/logos/systeme.png",
       "screenshotUrl": "/tools/previews/make.webp",
       "demoVideoUrl": "3iTqwXZq80k",
-      "logoUrl": "/logos/systeme.png",
-      "websiteUrl": "https://systeme.io/id?sa=sa0285473359ae5985c82865330cf1a062d892e972",
-      "isFeatured": true
+      "affiliateUrl": "https://systeme.io/id?sa=sa0285473359ae5985c82865330cf1a062d892e972"
     },
     {
       "id": "tool-perplexity",
@@ -262,11 +267,10 @@
         "Mode fokus riset akademis dan komputasi",
         "Pustaka koleksi pengetahuan yang dapat dibagikan"
       ],
+      "logoUrl": "/logos/perplexity.png",
       "screenshotUrl": "/tools/previews/phind.webp",
       "demoVideoUrl": "Hw67H2M_W1A",
-      "logoUrl": "/logos/perplexity.png",
-      "websiteUrl": "https://www.perplexity.ai/",
-      "isFeatured": true
+      "affiliateUrl": "https://www.perplexity.ai/"
     },
     {
       "id": "tool-coderabbit",
@@ -281,11 +285,10 @@
         "Review 1-klik untuk menerima saran refactoring",
         "Integrasi webhook GitHub dan GitLab"
       ],
+      "logoUrl": "/logos/coderabbit.png",
       "screenshotUrl": "/tools/previews/cursor.webp",
       "demoVideoUrl": "sK9Q5v0Kz3M",
-      "logoUrl": "/logos/coderabbit.png",
-      "websiteUrl": "https://coderabbit.ai/",
-      "isFeatured": false
+      "affiliateUrl": "https://coderabbit.ai/"
     },
     {
       "id": "tool-kite",
@@ -300,11 +303,10 @@
         "Dukungan penuh editor VS Code dan PyCharm",
         "Gratis tanpa batasan jumlah baris kode"
       ],
+      "logoUrl": "/logos/kite.png",
       "screenshotUrl": "/tools/previews/cursor.webp",
       "demoVideoUrl": "yk9lXobJ97E",
-      "logoUrl": "/logos/kite.png",
-      "websiteUrl": "https://kite.com/?via=locagocreative",
-      "isFeatured": false
+      "affiliateUrl": "https://kite.com/?via=locagocreative"
     },
     {
       "id": "tool-rytr",
@@ -319,11 +321,10 @@
         "Fitur built-in plagiarism checker",
         "Ekstensi browser untuk menulis di platform apa pun"
       ],
+      "logoUrl": "/logos/rytr.png",
       "screenshotUrl": "/tools/previews/chatbase.webp",
       "demoVideoUrl": "4J_8Wz3V2uM",
-      "logoUrl": "/logos/rytr.png",
-      "websiteUrl": "https://rytr.me/?via=locagocreative",
-      "isFeatured": false
+      "affiliateUrl": "https://rytr.me/?via=locagocreative"
     },
     {
       "id": "tool-shortlyai",
@@ -338,11 +339,10 @@
         "Dukungan penulisan novel fiksi dan non-fiksi",
         "Panjang output fleksibel tanpa batas kata bulanan"
       ],
+      "logoUrl": "/logos/shortlyai.png",
       "screenshotUrl": "/tools/previews/chatbase.webp",
       "demoVideoUrl": "5L2mX9_p1kE",
-      "logoUrl": "/logos/shortlyai.png",
-      "websiteUrl": "https://www.shortlyai.com/",
-      "isFeatured": false
+      "affiliateUrl": "https://www.shortlyai.com/"
     },
     {
       "id": "tool-notionai",
@@ -357,11 +357,10 @@
         "Drafting dokumen bisnis, PRD, dan SOP cepat",
         "Integrasi langsung dengan task board kanban"
       ],
+      "logoUrl": "/logos/notion.png",
       "screenshotUrl": "/tools/previews/chatbase.webp",
       "demoVideoUrl": "3ZkL9_w7f2A",
-      "logoUrl": "/logos/notion.png",
-      "websiteUrl": "https://www.notion.so/product/ai",
-      "isFeatured": true
+      "affiliateUrl": "https://www.notion.so/product/ai"
     },
     {
       "id": "tool-suno",
@@ -376,11 +375,10 @@
         "Mendukung beragam genre: Lo-Fi, Rock, Pop, EDM, Jazz",
         "Komersialisasi penuh untuk konten kreator berbayar"
       ],
+      "logoUrl": "/logos/suno.png",
       "screenshotUrl": "/tools/previews/elevenlabs.webp",
       "demoVideoUrl": "8rZ6kP5_k3I",
-      "logoUrl": "/logos/suno.png",
-      "websiteUrl": "https://suno.com/",
-      "isFeatured": false
+      "affiliateUrl": "https://suno.com/"
     }
   ]
 }
