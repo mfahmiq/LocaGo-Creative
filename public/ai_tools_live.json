@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 20:50 WIB",
-  "total": 184,
+  "updatedAt": "04 Nov 2026, 20:56 WIB",
+  "total": 186,
   "items": [
+    {
+      "id": "ai-stack-reader",
+      "name": "Stack Reader",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "tagline": "Fullstack App Generator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Stack Reader adalah generator arsitektur fullstack otomatis berbasis prompt bahasa alami. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/stack-reader.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://stackreader.ai"
+    },
+    {
+      "id": "ai-dynamo-studio",
+      "name": "Dynamo Studio",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Code Quality & Security Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Dynamo Studio adalah platform inspeksi kualitas kode, deteksi bug otomatis, dan security auditing. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/dynamo-studio.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://dynamostudio.tech"
+    },
     {
       "id": "ai-streamlab-ai",
       "name": "StreamLab AI",
