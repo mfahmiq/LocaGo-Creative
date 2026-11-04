@@ -155,6 +155,9 @@ const Footer: React.FC = () => {
             <a href="https://github.com/mfahmiq" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-700 dark:hover:text-neutral-300 transition-colors">GitHub</a>
           </div>
         </div>
+        <div className="pt-2 text-center text-[10px] font-mono text-neutral-400 dark:text-neutral-600 select-all">
+          Impact-Site-Verification: 9d42cbc1-8636-4b1d-af89-32ff814df0f3
+        </div>
       </div>
     </footer>
   );
