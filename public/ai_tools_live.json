@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 11:33 WIB",
-  "total": 61,
+  "updatedAt": "04 Nov 2026, 11:40 WIB",
+  "total": 63,
   "items": [
+    {
+      "id": "ai-pieces-for-developers",
+      "name": "Pieces for Developers",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "tagline": "Manajemen Snippet Kode Cerdas Berbasis AI Offline dengan Konteks Kerja",
+      "description": "Asisten pengembang desktop yang menyimpan, mengkategorikan, dan memahami alur kerja coding Anda secara on-device tanpa mengorbankan privasi kode klien.",
+      "features": [
+        "Pencarian semantik snippet berbasis AI on-device",
+        "Perekaman riwayat konteks debug dan tautan referensi",
+        "Integrasi lintas IDE (VS Code, JetBrains, Obsidian, Chrome)",
+        "100% aman untuk kode confidential"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://pieces.app/?via=locagocreative"
+    },
+    {
+      "id": "ai-deepseek-coder-v2",
+      "name": "DeepSeek Coder V2",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "tagline": "Model Bahasa Terbuka Khusus Pemrograman dengan Akurasi Matematika & Algoritma Tinggi",
+      "description": "Model open-weights revolusioner berbasis arsitektur MoE (Mixture of Experts) yang menyaingi model komersial teratas dalam pengujian HumanEval dan benchmark coding dunia.",
+      "features": [
+        "Arsitektur Mixture of Experts (MoE) efisien",
+        "Context window hingga 128k token",
+        "Mendukung lebih dari 300 bahasa pemrograman",
+        "Bebas di-host mandiri via Ollama atau vLLM"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.deepseek.com"
+    },
     {
       "id": "ai-pythagora",
       "name": "Pythagora",
