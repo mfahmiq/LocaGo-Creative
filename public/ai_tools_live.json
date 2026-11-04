@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 12:29 WIB",
-  "total": 79,
+  "updatedAt": "04 Nov 2026, 12:35 WIB",
+  "total": 81,
   "items": [
+    {
+      "id": "ai-lindy-ai",
+      "name": "Lindy AI",
+      "category": "Automation & No-Code",
+      "pricingType": "Freemium",
+      "tagline": "Bikin Karyawan AI Pribadi untuk Menangani Email, CRM, dan Dukungan Pelanggan",
+      "description": "Platform perakit agen AI tanpa koding. Anda dapat melatih 'Lindy' untuk membalas email prospek, menjadwalkan meeting di kalender, dan memperbarui data CRM secara mandiri.",
+      "features": [
+        "Pembuatan agen AI hanya dengan deskripsi tugas bahasa sehari-hari",
+        "Integrasi email, kalender, Slack, dan WhatsApp",
+        "Kemampuan mengambil keputusan berurutan (multi-step reasoning)",
+        "Monitoring log aktivitas agen secara transparan"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.lindy.ai/?via=locagocreative"
+    },
+    {
+      "id": "ai-n8n",
+      "name": "n8n",
+      "category": "Automation & No-Code",
+      "pricingType": "Freemium",
+      "tagline": "Otomasi Workflow AI Fair-Code yang Bisa Dijalankan Mandiri di Server Sendiri",
+      "description": "Platform otomatisasi workflow terdepan untuk developer dan bisnis yang membutuhkan kendali penuh atas data mereka. Bisa di-host sendiri via Docker tanpa batas task bulanan.",
+      "features": [
+        "Self-hosted gratis via Docker di VPS sendiri",
+        "Node LangChain bawaan untuk merakit agen AI otonom",
+        "Dukungan penulisan kode JavaScript/Python kustom di node",
+        "Integrasi 400+ aplikasi dan API pihak ketiga"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://n8n.io"
+    },
     {
       "id": "ai-jasper-ai",
       "name": "Jasper AI",
