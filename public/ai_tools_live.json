@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 19:35 WIB",
-  "total": 160,
+  "updatedAt": "04 Nov 2026, 19:41 WIB",
+  "total": 162,
   "items": [
+    {
+      "id": "ai-visionflow",
+      "name": "VisionFlow",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Smart Data Analyst Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "VisionFlow adalah workspace analitik data cerdas untuk membedah spreadsheet dan membuat grafik interaktif. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/visionflow.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://visionflow.io"
+    },
+    {
+      "id": "ai-vanguardworkspace",
+      "name": "VanguardWorkspace",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "tagline": "Fullstack App Generator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "VanguardWorkspace adalah generator arsitektur fullstack otomatis berbasis prompt bahasa alami. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/vanguardworkspace.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://vanguardworkspace.io"
+    },
     {
       "id": "ai-meshmind",
       "name": "MeshMind",
