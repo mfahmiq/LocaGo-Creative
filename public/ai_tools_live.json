@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 00:03 WIB",
-  "total": 246,
+  "updatedAt": "05 Nov 2026, 00:09 WIB",
+  "total": 248,
   "items": [
+    {
+      "id": "ai-lyricgraph",
+      "name": "LyricGraph",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "Multi-Agent Orchestrator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "LyricGraph adalah framework orkestrasi multi-agen otonom untuk menyelesaikan tugas bisnis kompleks. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/lyricgraph.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://lyricgraph.co"
+    },
+    {
+      "id": "ai-novascraper-ai",
+      "name": "NovaScraper AI",
+      "category": "Web & Scrapers",
+      "pricingType": "Free",
+      "tagline": "Factual Search Grounding Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "NovaScraper AI adalah search engine api khusus untuk agen ai dengan sitasi sumber faktual real-time. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/novascraper-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://novascraperai.dev"
+    },
     {
       "id": "ai-metaaudio-ai",
       "name": "MetaAudio AI",
