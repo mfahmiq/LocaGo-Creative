@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 22:54 WIB",
-  "total": 224,
+  "updatedAt": "04 Nov 2026, 23:00 WIB",
+  "total": 226,
   "items": [
+    {
+      "id": "ai-zenithsearch-ai",
+      "name": "ZenithSearch AI",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "AI Calendar Scheduler Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "ZenithSearch AI adalah asisten manajemen waktu dan kalender dinamis yang mengoptimalkan jadwal produktivitas. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/zenithsearch-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://zenithsearchai.ai"
+    },
+    {
+      "id": "ai-iris-director",
+      "name": "Iris Director",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "Visual RAG Pipeline Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Iris Director adalah platform low-code untuk merancang dan mempublikasikan workflow rag tanpa coding. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/iris-director.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://irisdirector.co"
+    },
     {
       "id": "ai-lyricsync",
       "name": "LyricSync",
