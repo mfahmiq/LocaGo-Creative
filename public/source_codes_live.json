@@ -15,7 +15,7 @@
       ],
       "description": "Script otomasi video Python yang menerima masukan naskah teks, kemudian secara otomatis merender audio voiceover jernih (Edge-TTS), memotong klip background video 9:16, memasang subtitle bergaya karaoke kata-per-kata, dan menghasilkan video MP4 siap upload.",
       "shortDesc": "Render otomatis video pendek format 9:16 lengkap dengan voiceover dan subtitle karaoke animasi.",
-      "thumbnail": "/banners/gemini/banner_ai_coding.webp",
+      "thumbnail": "/banners/gemini/sc_video_generator.webp",
       "downloadsCount": 450,
       "rating": 4.96,
       "isPopular": true,
@@ -35,7 +35,8 @@
         "Laporan dan ekspor data otomatis"
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "https://lynk.id/dwollopus",
+      "image": "/banners/gemini/sc_video_generator.webp"
     },
     {
       "id": "sc-22",
@@ -49,7 +50,7 @@
       ],
       "description": "Sistem CRM sederhana namun powerful berbasis spreadsheet. Menghitung jadwal follow up prospek secara otomatis (H+1 setelah tanya harga, H+3 penawaran diskon, H+7 edukasi manfaat) dan mengirim pesan terpersonalisasi secara otomatis setiap pagi.",
       "shortDesc": "Otomasi jadwal follow up leads dan pesan terpersonalisasi langsung dari Google Sheet.",
-      "thumbnail": "/banners/gemini/banner_pos_toko.webp",
+      "thumbnail": "/banners/gemini/sc_crm_sheets_wa.webp",
       "downloadsCount": 485,
       "rating": 4.97,
       "isPopular": true,
@@ -69,7 +70,8 @@
         "Laporan dan ekspor data otomatis"
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "https://lynk.id/dwollopus",
+      "image": "/banners/gemini/sc_crm_sheets_wa.webp"
     },
     {
       "id": "sc-21",
@@ -84,7 +86,7 @@
       ],
       "description": "Aplikasi antrean multi-loket untuk klinik kesehatan, apotek, atau bank. Dilengkapi layar display monitor untuk ruang tunggu dengan suara panggilan otomatis berbahasa Indonesia (contoh: 'Nomor Antrean A-15 menuju Loket 2'), serta cetak nomor antrean printer thermal.",
       "shortDesc": "Display antrean layar monitor dan panggilan suara vokal natural untuk klinik & kantor layanan.",
-      "thumbnail": "/banners/gemini/banner_pos_toko.webp",
+      "thumbnail": "/banners/gemini/sc_antrean_klinik.webp",
       "downloadsCount": 520,
       "rating": 4.94,
       "isPopular": true,
@@ -104,7 +106,8 @@
         "Laporan dan ekspor data otomatis"
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "https://lynk.id/dwollopus",
+      "image": "/banners/gemini/sc_antrean_klinik.webp"
     },
     {
       "id": "sc-20",
@@ -119,7 +122,7 @@
       ],
       "description": "Source code bot WhatsApp customer service berbasis Python yang mampu membaca file PDF katalog produk atau FAQ perusahaan Anda (RAG). Bot menjawab pertanyaan pelanggan secara sopan, cepat, dan akurat 24 jam tanpa halusinasi.",
       "shortDesc": "Bot CS WhatsApp cerdas 24/7 yang menjawab berdasarkan dokumen katalog Anda via Google Gemini.",
-      "thumbnail": "/banners/gemini/banner_ai_coding.webp",
+      "thumbnail": "/banners/gemini/sc_bot_cs_gemini.webp",
       "downloadsCount": 555,
       "rating": 4.99,
       "isPopular": true,
@@ -139,7 +142,8 @@
         "Laporan dan ekspor data otomatis"
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "https://lynk.id/dwollopus",
+      "image": "/banners/gemini/sc_bot_cs_gemini.webp"
     },
     {
       "id": "sc-19",
@@ -154,7 +158,7 @@
       ],
       "description": "Boilerplate modern untuk membangun produk SaaS B2B Anda sendiri. Dilengkapi arsitektur multi-tenant (organisasi & tim), otentikasi SSR Supabase, manajemen role RBAC, proteksi middleware, dark mode, dan integrasi webhook pembayaran.",
       "shortDesc": "Arsitektur boilerplate SaaS modern multi-organisasi dengan Next.js 15 dan Supabase siap produksi.",
-      "thumbnail": "/banners/gemini/banner_ai_coding.webp",
+      "thumbnail": "/banners/gemini/sc_multitenant_saas.webp",
       "downloadsCount": 590,
       "rating": 4.96,
       "isPopular": true,
@@ -174,7 +178,8 @@
         "Laporan dan ekspor data otomatis"
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "https://lynk.id/dwollopus",
+      "image": "/banners/gemini/sc_multitenant_saas.webp"
     },
     {
       "id": "sc-16",
@@ -189,7 +194,7 @@
       ],
       "description": "Aplikasi web pengelolaan kos-kosan dan kontrakan modern. Dilengkapi pencatatan penghuni, kamar, meteran listrik/air, cetak kuitansi PDF, dan notifikasi pengingat tagihan otomatis ke nomor WhatsApp penghuni sebelum tanggal jatuh tempo.",
       "shortDesc": "Kelola kos-kosan, tagihan bulanan, dan auto-reminder WhatsApp penghuni secara otomatis.",
-      "thumbnail": "/banners/gemini/banner_pos_toko.webp",
+      "thumbnail": "/banners/gemini/sc_kos_kontrakan.webp",
       "downloadsCount": 625,
       "rating": 4.95,
       "isPopular": true,
@@ -209,7 +214,8 @@
         "Laporan dan ekspor data otomatis"
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "https://lynk.id/dwollopus",
+      "image": "/banners/gemini/sc_kos_kontrakan.webp"
     },
     {
       "id": "sc-17",
@@ -224,7 +230,7 @@
       ],
       "description": "Sistem presensi online berbasis mobile-web untuk karyawan lapangan dan kantor. Membatasi absensi hanya di dalam radius geofencing kantor yang ditentukan dan mewajibkan foto selfie langsung dari kamera ponsel untuk mencegah titip absen.",
       "shortDesc": "Presensi mobile geofencing GPS anti titip-absen dengan foto selfie kamera realtime.",
-      "thumbnail": "/banners/gemini/banner_pos_toko.webp",
+      "thumbnail": "/banners/gemini/sc_presensi_wajah.webp",
       "downloadsCount": 660,
       "rating": 4.98,
       "isPopular": false,
@@ -244,7 +250,8 @@
         "Laporan dan ekspor data otomatis"
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "https://lynk.id/dwollopus",
+      "image": "/banners/gemini/sc_presensi_wajah.webp"
     },
     {
       "id": "sc-18",
@@ -259,7 +266,7 @@
       ],
       "description": "Skrip Google Apps Script siap pasang untuk toko online atau konsultan. Setiap kali ada baris transaksi baru di Google Sheet, script otomatis men-generate invoice PDF cantik berbasis template Google Docs lalu mengirimkannya langsung ke nomor WhatsApp pembeli via webhook.",
       "shortDesc": "Generate invoice PDF dari baris Google Sheet lalu auto-kirim via WhatsApp dalam hitungan detik.",
-      "thumbnail": "/banners/gemini/banner_pos_toko.webp",
+      "thumbnail": "/banners/gemini/sc_invoice_otomatis.webp",
       "downloadsCount": 695,
       "rating": 4.97,
       "isPopular": false,
@@ -279,7 +286,8 @@
         "Laporan dan ekspor data otomatis"
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "https://lynk.id/dwollopus",
+      "image": "/banners/gemini/sc_invoice_otomatis.webp"
     },
     {
       "id": "sc-1",
@@ -313,7 +321,8 @@
         "Laporan dan ekspor data otomatis"
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "https://lynk.id/dwollopus",
+      "image": "/banners/gemini/banner_pos_toko.webp"
     },
     {
       "id": "sc-2",
@@ -347,7 +356,8 @@
         "Laporan dan ekspor data otomatis"
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "https://lynk.id/dwollopus",
+      "image": "/banners/gemini/banner_absensi_gas.webp"
     },
     {
       "id": "sc-3",
@@ -381,7 +391,8 @@
         "Laporan dan ekspor data otomatis"
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "https://lynk.id/dwollopus",
+      "image": "/banners/gemini/banner_katalog_umkm.webp"
     },
     {
       "id": "sc-4",
@@ -415,7 +426,8 @@
         "Laporan dan ekspor data otomatis"
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "https://lynk.id/dwollopus",
+      "image": "/banners/gemini/banner_bot_wa.webp"
     },
     {
       "id": "sc-5",
@@ -449,7 +461,8 @@
         "Laporan dan ekspor data otomatis"
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "https://lynk.id/dwollopus",
+      "image": "/banners/gemini/banner_billing_ps.webp"
     },
     {
       "id": "sc-6",
@@ -483,7 +496,8 @@
         "Laporan dan ekspor data otomatis"
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "https://lynk.id/dwollopus",
+      "image": "/banners/gemini/banner_portal_donasi.webp"
     },
     {
       "id": "sc-7",
@@ -517,7 +531,8 @@
         "Laporan dan ekspor data otomatis"
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "https://lynk.id/dwollopus",
+      "image": "/banners/gemini/banner_siakad.webp"
     },
     {
       "id": "sc-8",
@@ -551,7 +566,8 @@
         "Laporan dan ekspor data otomatis"
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "https://lynk.id/dwollopus",
+      "image": "/banners/gemini/banner_siperpus.webp"
     },
     {
       "id": "sc-9",
@@ -585,7 +601,8 @@
         "Laporan dan ekspor data otomatis"
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "https://lynk.id/dwollopus",
+      "image": "/banners/gemini/banner_ams_surat.webp"
     },
     {
       "id": "sc-10",
@@ -619,7 +636,8 @@
         "Laporan dan ekspor data otomatis"
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "https://lynk.id/dwollopus",
+      "image": "/banners/gemini/banner_pos_ritel.webp"
     },
     {
       "id": "sc-11",
@@ -653,7 +671,8 @@
         "Laporan dan ekspor data otomatis"
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "https://lynk.id/dwollopus",
+      "image": "/banners/gemini/banner_pos_toko.webp"
     },
     {
       "id": "sc-12",
@@ -667,7 +686,7 @@
       ],
       "description": "Platform reservasi online jam potong rambut dan perawatan salon dengan kalender interaktif, pilihan kapster favorit, dan konfirmasi WhatsApp otomatis ke pelanggan.",
       "shortDesc": "Platform reservasi online jam potong rambut dan perawatan salon dengan kalender interaktif, pilihan kapster favorit, dan...",
-      "thumbnail": "/banners/gemini/banner_katalog_umkm.webp",
+      "thumbnail": "/banners/gemini/banner_billing_ps.webp",
       "downloadsCount": 1115,
       "rating": 4.9,
       "isPopular": false,
@@ -687,7 +706,8 @@
         "Laporan dan ekspor data otomatis"
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "https://lynk.id/dwollopus",
+      "image": "/banners/gemini/banner_billing_ps.webp"
     },
     {
       "id": "sc-13",
@@ -721,7 +741,8 @@
         "Laporan dan ekspor data otomatis"
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "https://lynk.id/dwollopus",
+      "image": "/banners/gemini/banner_bot_wa.webp"
     },
     {
       "id": "sc-14",
@@ -735,7 +756,7 @@
       ],
       "description": "Aplikasi layanan aspirasi dan pengaduan masyarakat desa dengan bukti foto lokasi, tracking nomor tiket keluhan, dan disposisi langsung ke kepala seksi.",
       "shortDesc": "Aplikasi layanan aspirasi dan pengaduan masyarakat desa dengan bukti foto lokasi, tracking nomor tiket keluhan, dan disp...",
-      "thumbnail": "/banners/gemini/banner_ams_surat.webp",
+      "thumbnail": "/banners/gemini/banner_portal_donasi.webp",
       "downloadsCount": 1185,
       "rating": 4.9,
       "isPopular": false,
@@ -755,7 +776,8 @@
         "Laporan dan ekspor data otomatis"
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "https://lynk.id/dwollopus",
+      "image": "/banners/gemini/banner_portal_donasi.webp"
     },
     {
       "id": "sc-15",
@@ -769,7 +791,7 @@
       ],
       "description": "Antarmuka pemantauan data sensor suhu, kelembaban, dan voltase listrik real-time via koneksi WebSocket dengan grafik interaktif 60 FPS dan alert bahaya.",
       "shortDesc": "Antarmuka pemantauan data sensor suhu, kelembaban, dan voltase listrik real-time via koneksi WebSocket dengan grafik int...",
-      "thumbnail": "/banners/gemini/banner_billing_ps.webp",
+      "thumbnail": "/banners/gemini/banner_ams_surat.webp",
       "downloadsCount": 1220,
       "rating": 4.9,
       "isPopular": false,
@@ -789,7 +811,8 @@
         "Laporan dan ekspor data otomatis"
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "https://lynk.id/dwollopus",
+      "image": "/banners/gemini/banner_ams_surat.webp"
     }
   ]
 }
