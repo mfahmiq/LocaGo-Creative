@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 11:27 WIB",
-  "total": 59,
+  "updatedAt": "04 Nov 2026, 11:33 WIB",
+  "total": 61,
   "items": [
+    {
+      "id": "ai-pythagora",
+      "name": "Pythagora",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Agen Pengembang Web Fullstack yang Menulis Aplikasi Node.js dari A sampai Z",
+      "description": "Tool dev berbasis AI yang memecah instruksi aplikasi Anda menjadi tahapan teknis, menulis endpoint backend, database schema, dan antarmuka pengguna tanpa halusinasi.",
+      "features": [
+        "Dukungan arsitektur stack Express, Mongo/Postgres, dan React",
+        "Eksekusi kode bertahap dengan feedback loop",
+        "Deteksi dan perbaikan bug otomatis saat instalasi package",
+        "Penyimpanan struktur proyek modular"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://pythagora.ai/?via=locagocreative"
+    },
+    {
+      "id": "ai-qodo",
+      "name": "Qodo",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Platform AI Verifikasi Kode, Unit Testing Otomatis, dan Code Review",
+      "description": "Solusi cerdas yang berfokus pada integritas kualitas kode. Qodo (sebelumnya CodiumAI) menganalisis logika fungsi, menemukan edge case rahasia, dan menghasilkan rangkaian unit test siap pakai.",
+      "features": [
+        "Generasi unit test menyeluruh untuk Python, JS, TS, dan Go",
+        "Pemeriksaan integritas dan analisis regresi logika",
+        "Ekstensi untuk VS Code dan JetBrains",
+        "Review PR GitHub otomatis"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.qodo.ai/?via=locagocreative"
+    },
     {
       "id": "ai-aider",
       "name": "Aider",
