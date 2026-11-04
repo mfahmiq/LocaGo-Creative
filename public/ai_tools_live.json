@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 03:13 WIB",
-  "total": 44,
+  "updatedAt": "04 Nov 2026, 03:19 WIB",
+  "total": 46,
   "items": [
+    {
+      "id": "ai-soundraw",
+      "name": "Soundraw",
+      "category": "Voice & Audio AI",
+      "pricingType": "Freemium",
+      "tagline": "Komposer Musik Bebas Royalti Khusus Video Kreator & Podcaster",
+      "description": "Generator musik latar di mana Anda dapat memilih mood, tempo, dan instrumen, lalu memotong bagian intro, drop, atau outro agar sinkron sempurna dengan adegan video Anda.",
+      "features": [
+        "100% musik bebas klaim hak cipta (royalty-free)",
+        "Editor struktur lagu interaktif (Intro, Chorus, Outro)",
+        "Kemudahan mengubah instrumen spesifik di tengah trek",
+        "Download tanpa batas untuk pelanggan berbayar"
+      ],
+      "logoUrl": "/logos/soundraw.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://soundraw.io/?via=locagocreative"
+    },
+    {
+      "id": "ai-udio-ai",
+      "name": "Udio AI",
+      "category": "Voice & Audio AI",
+      "pricingType": "Freemium",
+      "tagline": "Generator Musik Generatif dengan Harmoni Vokal & Lirik Paling Dinamis",
+      "description": "Model kecerdasan buatan komposer musik yang dirancang oleh mantan peneliti Google DeepMind. Menghasilkan lagu berdurasi penuh dengan transisi melodi rumit dan vokal beremosi tinggi.",
+      "features": [
+        "Dukungan genre luas: Jazz, R&B, Rock, EDM, Dangdut",
+        "Kemampuan memperpanjang track (extend forward/backward)",
+        "Kustomisasi lirik manual atau auto-generate",
+        "Ekspor stems audio terpisah untuk mixing lanjutan"
+      ],
+      "logoUrl": "/logos/udio-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.udio.com/"
+    },
     {
       "id": "ai-krisp-ai",
       "name": "Krisp AI",
