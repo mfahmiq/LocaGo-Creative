@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 05:13 WIB",
-  "total": 346,
+  "updatedAt": "05 Nov 2026, 05:19 WIB",
+  "total": 348,
   "items": [
+    {
+      "id": "ai-quantumlink",
+      "name": "QuantumLink",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "Code Quality & Security Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "QuantumLink adalah platform inspeksi kualitas kode, deteksi bug otomatis, dan security auditing. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/quantumlink.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://quantumlink.ai"
+    },
+    {
+      "id": "ai-mesh-scraper",
+      "name": "Mesh Scraper",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "Fullstack App Generator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Mesh Scraper adalah generator arsitektur fullstack otomatis berbasis prompt bahasa alami. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/mesh-scraper.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://meshscraper.co"
+    },
     {
       "id": "ai-deep-graph",
       "name": "Deep Graph",
