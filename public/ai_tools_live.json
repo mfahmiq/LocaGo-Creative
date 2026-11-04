@@ -1,7 +1,25 @@
 {
-  "updatedAt": "04 Nov 2026, 17:52 WIB",
-  "total": 126,
+  "updatedAt": "04 Nov 2026, 17:55 WIB",
+  "total": 127,
   "items": [
+    {
+      "id": "ai-sonicpilot-ai",
+      "name": "SonicPilot AI",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "Lightning Autocomplete Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "SonicPilot AI adalah mesin autocomplete kode berkecepatan tinggi dengan pemahaman konteks lintas berkas. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/sonicpilot-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://sonicpilotai.co"
+    },
     {
       "id": "ai-meta-synthesizer",
       "name": "Meta Synthesizer",

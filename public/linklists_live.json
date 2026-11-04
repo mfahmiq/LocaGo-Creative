@@ -1,5 +1,5 @@
 {
-  "updatedAt": "04 Nov 2026, 17:34 WIB",
+  "updatedAt": "04 Nov 2026, 17:55 WIB",
   "total": 8,
   "items": [
     {
@@ -8,11 +8,11 @@
       "notes": "Kumpulan tool AI wajib untuk memproduksi video Reels, voiceover studio, dan aset visual siap FYP tanpa repot rekaman berulang kali.",
       "videoUrl": "https://www.instagram.com/locagocreative",
       "toolIds": [
-        "ai-invideo",
-        "ai-elevenlabs",
+        "ai-invideo-ai",
+        "tool-elevenlabs",
         "ai-fliki",
         "ai-heygen",
-        "ai-kling-ai"
+        "tool-kling"
       ],
       "customLinks": [
         {
@@ -34,7 +34,7 @@
       "notes": "Toolkit pemrograman wajib developer solo untuk merilis fullstack web application 10x lebih cepat dengan bantuan coding agents.",
       "videoUrl": "https://www.youtube.com",
       "toolIds": [
-        "ai-cursor",
+        "tool-cursor",
         "ai-supermaven",
         "ai-windsurf",
         "ai-lovable",
@@ -53,10 +53,10 @@
       "notes": "Alat otomatisasi tanpa koding untuk menangkap lead, integrasi database Google Sheets, dan auto-reply chat pelanggan 24/7.",
       "videoUrl": "",
       "toolIds": [
-        "ai-chatbase",
-        "ai-makecom",
+        "tool-chatbase",
+        "tool-make",
         "ai-n8n",
-        "ai-browseai",
+        "ai-browse-ai",
         "ai-activepieces"
       ],
       "customLinks": [],
@@ -74,7 +74,7 @@
       "toolIds": [
         "ai-quillbot",
         "ai-notebooklm",
-        "ai-perplexity",
+        "tool-perplexity",
         "ai-gamma-app"
       ],
       "customLinks": [
@@ -115,7 +115,7 @@
       "notes": "Pilihan generator suara AI terbaik untuk dubbing video YouTube, rekaman narasi iklan TV/Radio, dan buku audio ekspresif.",
       "videoUrl": "",
       "toolIds": [
-        "ai-elevenlabs",
+        "tool-elevenlabs",
         "ai-suno-ai-v35",
         "ai-murf-ai",
         "ai-speechify",
@@ -134,9 +134,9 @@
       "notes": "Alur kerja lengkap membuat video edukasi & hiburan YouTube tanpa menampilkan wajah dan tanpa rekaman kamera.",
       "videoUrl": "https://www.youtube.com",
       "toolIds": [
-        "ai-invideo",
+        "ai-invideo-ai",
         "ai-opus-clip",
-        "ai-elevenlabs",
+        "tool-elevenlabs",
         "ai-midjourney-v61",
         "ai-submagic"
       ],
