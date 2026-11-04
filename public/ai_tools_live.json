@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 23:19 WIB",
-  "total": 232,
+  "updatedAt": "04 Nov 2026, 23:25 WIB",
+  "total": 234,
   "items": [
+    {
+      "id": "ai-zenithworks",
+      "name": "ZenithWorks",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "LLM-Ready Web Scraper Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "ZenithWorks adalah api ekstraksi data web modern yang mengubah situs kompleks menjadi markdown ramah llm. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/zenithworks.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://zenithworks.tech"
+    },
+    {
+      "id": "ai-synapse-works",
+      "name": "Synapse Works",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "IDE AI & CLI Code Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Synapse Works adalah asisten pemrograman otonom yang mempercepat pengembangan aplikasi dan refactoring kode. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/synapse-works.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://synapseworks.co"
+    },
     {
       "id": "ai-irisbrain",
       "name": "IrisBrain",
