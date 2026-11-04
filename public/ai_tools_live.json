@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 17:12 WIB",
-  "total": 113,
+  "updatedAt": "04 Nov 2026, 17:18 WIB",
+  "total": 115,
   "items": [
+    {
+      "id": "ai-superhuman-ai",
+      "name": "Superhuman AI",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Email Client Tercepat di Dunia dengan Asisten Penulis Balasan AI Instan",
+      "description": "Aplikasi email premium yang dirancang untuk mencapai Inbox Zero dengan cepat. AI-nya mampu merangkum thread percakapan panjang dan menulis balasan profesional sesuai gaya Anda.",
+      "features": [
+        "AI Email composer yang meniru gaya Anda",
+        "Auto-summarize email thread panjang",
+        "Shortcut keyboard secepat kilat",
+        "Pengingat follow-up otomatis"
+      ],
+      "logoUrl": "/logos/superhuman.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://superhuman.com"
+    },
+    {
+      "id": "ai-motion-ai",
+      "name": "Motion AI",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Kalender dan Manajemen Tugas AI yang Mengatur Jadwal Hari Anda Secara Otomatis",
+      "description": "Aplikasi produktivitas cerdas yang menggunakan AI untuk menjadwalkan tugas harian, meeting, dan proyek Anda secara dinamis berdasarkan prioritas dan waktu luang kalender.",
+      "features": [
+        "Auto-scheduling algoritma kalender cerdas",
+        "Manajemen proyek dan sprint otomatis",
+        "Meeting booking page terintegrasi",
+        "Sinkronisasi Google Calendar dan Outlook"
+      ],
+      "logoUrl": "/logos/motion.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://usemotion.com"
+    },
     {
       "id": "ai-taskade",
       "name": "Taskade",
