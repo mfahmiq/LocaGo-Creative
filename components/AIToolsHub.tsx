@@ -35,7 +35,7 @@ export const AIToolsHub: React.FC = () => {
         title: 'Top 5 AI Tools Konten Kreator IG & Video Editor',
         notes: 'Kumpulan tool AI wajib untuk memproduksi video Reels, voiceover studio, dan aset visual siap FYP tanpa repot rekaman berulang kali.',
         videoUrl: 'https://www.instagram.com/locagocreative',
-        toolIds: ['tool-cursor', 'tool-elevenlabs', 'tool-invideo', 'tool-fliki', 'tool-make'],
+        toolIds: ['tool-cursor', 'tool-elevenlabs', 'tool-make', 'tool-bolt', 'tool-v0', 'tool-systeme'],
         createdAt: '04 Nov 2026'
       }
     ];
@@ -51,6 +51,26 @@ export const AIToolsHub: React.FC = () => {
   const showToast = (msg: string) => {
     setToastMessage(msg);
     setTimeout(() => setToastMessage(null), 3000);
+  };
+
+  // Robust tool matching helper (matches by exact ID, normalized slug, or tool name)
+  const isToolInList = (tool: AIToolItem, toolIds: string[]): boolean => {
+    if (!tool || !toolIds || toolIds.length === 0) return false;
+    const clean = (s: string) => (s || '').toLowerCase().replace(/^(tool-|ai-)/, '').replace(/[^a-z0-9]/g, '');
+    const tId = clean(tool.id || '');
+    const tName = clean(tool.name || '');
+    return toolIds.some((id) => {
+      if (!id) return false;
+      if (id === tool.id) return true;
+      const cleanId = clean(id);
+      if (!cleanId) return false;
+      return (
+        cleanId === tId ||
+        cleanId === tName ||
+        (cleanId.length >= 4 && (tId.includes(cleanId) || cleanId.includes(tId))) ||
+        (cleanId.length >= 4 && (tName.includes(cleanId) || cleanId.includes(tName)))
+      );
+    });
   };
 
   // Sync LinkLists to localStorage & Supabase
@@ -231,11 +251,13 @@ export const AIToolsHub: React.FC = () => {
   }, [activeLinkListId, linkLists]);
 
   const toggleToolInLinkList = (listId: string, toolId: string) => {
+    const clean = (s: string) => (s || '').toLowerCase().replace(/^(tool-|ai-)/, '').replace(/[^a-z0-9]/g, '');
+    const cToolId = clean(toolId);
     const updated = linkLists.map((list) => {
       if (list.id === listId) {
-        const exists = list.toolIds.includes(toolId);
+        const exists = list.toolIds.some((id) => id === toolId || clean(id) === cToolId);
         const newToolIds = exists
-          ? list.toolIds.filter((id) => id !== toolId)
+          ? list.toolIds.filter((id) => id !== toolId && clean(id) !== cToolId)
           : [...list.toolIds, toolId];
         return { ...list, toolIds: newToolIds };
       }
@@ -273,9 +295,18 @@ export const AIToolsHub: React.FC = () => {
   const filteredAndSortedTools = useMemo(() => {
     let baseList = tools || [];
 
-    // If an active LinkList is selected, filter strictly to its tools!
+    // If an active LinkList is selected, display all tools belonging to that LinkList!
     if (activeLinkList) {
-      baseList = baseList.filter((tool) => activeLinkList.toolIds.includes(tool.id) || activeLinkList.toolIds.includes(tool.name.toLowerCase()));
+      baseList = baseList.filter((tool) => isToolInList(tool, activeLinkList.toolIds));
+      if (searchQuery.trim()) {
+        const q = searchQuery.toLowerCase();
+        baseList = baseList.filter((tool) =>
+          (tool.name || '').toLowerCase().includes(q) ||
+          (tool.tagline || '').toLowerCase().includes(q) ||
+          (tool.description || '').toLowerCase().includes(q)
+        );
+      }
+      return baseList;
     }
 
     return baseList.filter((tool) => {
@@ -704,7 +735,7 @@ export const AIToolsHub: React.FC = () => {
 
               <div className="space-y-2.5 max-h-60 overflow-y-auto mb-5 pr-1">
                 {linkLists.map((list) => {
-                  const inList = list.toolIds.includes(toolToAddToLinkList.id);
+                  const inList = isToolInList(toolToAddToLinkList, list.toolIds);
                   return (
                     <div
                       key={list.id}
@@ -717,7 +748,7 @@ export const AIToolsHub: React.FC = () => {
                     >
                       <div>
                         <h4 className="text-xs font-bold">{list.title}</h4>
-                        <span className="text-[10px] font-mono text-neutral-500">{list.toolIds.length} tool di dalamnya</span>
+                        <span className="text-[10px] font-mono text-neutral-500">{tools.filter((t) => isToolInList(t, list.toolIds)).length} tool di dalamnya</span>
                       </div>
                       <span className={`px-2 py-1 rounded text-[11px] font-mono font-bold ${inList ? 'bg-purple-600 text-white' : 'bg-neutral-200 dark:bg-neutral-800'}`}>
                         {inList ? '✓ Ada' : '+ Tambah'}
@@ -858,12 +889,15 @@ export const AIToolsHub: React.FC = () => {
                       <div className="flex items-start justify-between gap-3">
                         <div>
                           <h4 className="font-bold text-sm text-neutral-900 dark:text-white">{list.title}</h4>
-                          <span className="text-[10px] font-mono text-neutral-500">{list.createdAt} • {list.toolIds.length} tools</span>
+                          <span className="text-[10px] font-mono text-neutral-500">{list.createdAt} • {tools.filter((t) => isToolInList(t, list.toolIds)).length} tools</span>
                         </div>
                         <div className="flex items-center gap-1.5 shrink-0">
                           <button
                             onClick={() => {
                               setActiveLinkListId(list.id);
+                              setSelectedCategory('Semua');
+                              setSelectedPricing('Semua');
+                              setSearchQuery('');
                               setIsLinkListManagerOpen(false);
                             }}
                             className="px-2.5 py-1 rounded-lg bg-neutral-200 dark:bg-neutral-800 hover:bg-purple-600 hover:text-white font-mono text-xs font-bold transition-all cursor-pointer"
