@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 03:19 WIB",
-  "total": 46,
+  "updatedAt": "04 Nov 2026, 03:25 WIB",
+  "total": 48,
   "items": [
+    {
+      "id": "ai-bardeen-ai",
+      "name": "Bardeen AI",
+      "category": "Automation & No-Code",
+      "pricingType": "Freemium",
+      "tagline": "Otomasi Alur Kerja Browser & Web Scraper 1-Klik Tanpa Menulis Kode",
+      "description": "Ekstensi browser cerdas yang mengotomasi tugas-tugas repetitif seperti menyalin data prospek LinkedIn ke Google Sheets, merangkum halaman web, dan mengirim follow-up email.",
+      "features": [
+        "Web scraper visual tanpa kode untuk ekstraksi tabel data",
+        "Otomasi pemicu shortcut keyboard di browser",
+        "Integrasi Notion, Airtable, Slack, dan HubSpot",
+        "Eksekusi lokal di browser yang hemat biaya cloud"
+      ],
+      "logoUrl": "/logos/bardeenai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.bardeen.ai/?via=locagocreative"
+    },
+    {
+      "id": "ai-voiceflow",
+      "name": "Voiceflow",
+      "category": "Automation & No-Code",
+      "pricingType": "Freemium",
+      "tagline": "Platform Kolaboratif Perancangan Agen AI Percakapan & Chatbot Interaktif",
+      "description": "Kanvas perancangan alur percakapan visual untuk membangun agen AI customer service, asisten aplikasi mobile, dan voice assistant dengan pengujian interaktif langsung di browser.",
+      "features": [
+        "Kanvas visual drag-and-drop kelas industri",
+        "Dukungan Knowledge Base cerdas dari dokumen internal",
+        "Integrasi webhook API dan basis data pelanggan",
+        "Ekspor kode siap pasang ke WhatsApp, Web, dan Discord"
+      ],
+      "logoUrl": "/logos/voiceflow.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.voiceflow.com/?via=locagocreative"
+    },
     {
       "id": "ai-soundraw",
       "name": "Soundraw",
