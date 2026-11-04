@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 21:21 WIB",
-  "total": 194,
+  "updatedAt": "04 Nov 2026, 21:27 WIB",
+  "total": 196,
   "items": [
+    {
+      "id": "ai-modelsync",
+      "name": "ModelSync",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Generative Visual Studio Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "ModelSync adalah studio visual generatif untuk menghasilkan aset gambar 3d, grafis vektor, dan mockup produk. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/modelsync.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://modelsync.app"
+    },
+    {
+      "id": "ai-solisflow-ai",
+      "name": "SolisFlow AI",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Academic Research Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "SolisFlow AI adalah platform pencarian riset ilmiah dan ringkasan jurnal mendalam dengan rujukan sitasi asli. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/solisflow-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://solisflowai.dev"
+    },
     {
       "id": "ai-velo-brain",
       "name": "Velo Brain",
