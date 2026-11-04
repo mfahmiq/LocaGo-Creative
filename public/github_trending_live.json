@@ -1,12 +1,12 @@
 {
-  "updatedAt": "04 Nov 2026, 12:21 WIB",
-  "total": 25,
+  "updatedAt": "04 Nov 2026, 13:22 WIB",
+  "total": 22,
   "items": [
     {
       "id": "gh-hermes-agent",
       "name": "hermes-agent",
       "repo": "NousResearch/hermes-agent",
-      "starsToday": 10423,
+      "starsToday": 10424,
       "totalStars": "260.3k",
       "category": "AI Agents & LLM",
       "language": "Python",
@@ -156,7 +156,7 @@
       "id": "gh-system_prompts_leaks",
       "name": "system_prompts_leaks",
       "repo": "asgeirtj/system_prompts_leaks",
-      "starsToday": 2840,
+      "starsToday": 2841,
       "totalStars": "70.7k",
       "category": "AI Agents & LLM",
       "language": "Python",
@@ -216,7 +216,7 @@
       "id": "gh-ecc",
       "name": "ECC",
       "repo": "affaan-m/ECC",
-      "starsToday": 11878,
+      "starsToday": 11879,
       "totalStars": "296.7k",
       "category": "Dev Tools & Automation",
       "language": "JavaScript",
@@ -246,7 +246,7 @@
       "id": "gh-ponytail",
       "name": "ponytail",
       "repo": "DietrichGebert/ponytail",
-      "starsToday": 7367,
+      "starsToday": 7369,
       "totalStars": "183.9k",
       "category": "Dev Tools & Automation",
       "language": "JavaScript",
@@ -276,7 +276,7 @@
       "id": "gh-graphify",
       "name": "graphify",
       "repo": "Graphify-Labs/graphify",
-      "starsToday": 5690,
+      "starsToday": 5691,
       "totalStars": "142.0k",
       "category": "Dev Tools & Automation",
       "language": "Python",
@@ -306,7 +306,7 @@
       "id": "gh-archify",
       "name": "archify",
       "repo": "tt-a1i/archify",
-      "starsToday": 3739,
+      "starsToday": 3740,
       "totalStars": "93.2k",
       "category": "Dev Tools & Automation",
       "language": "JavaScript",
@@ -423,334 +423,236 @@
       "officialSite": "https://github.com/ayghri/i-have-adhd"
     },
     {
-      "id": "gh-x-tweet-fetcher",
-      "name": "x-tweet-fetcher",
-      "repo": "ythx-101/x-tweet-fetcher",
-      "starsToday": 51,
-      "totalStars": "999",
-      "category": "Web & Scrapers",
+      "id": "gh-deepseek-v3",
+      "name": "deepseek-v3",
+      "repo": "deepseek-ai/DeepSeek-V3",
+      "starsToday": 1420,
+      "totalStars": "54.2k",
+      "category": "AI Agents & LLM",
       "language": "Python",
       "topics": [
-        "agent-tools",
-        "ai-agent",
-        "automation",
-        "no-api",
-        "osint"
-      ],
-      "growthRate": "+26% minggu ini",
-      "rank": 15,
-      "oneSentencePitch": "Fetch X/Twitter tweets, replies, timelines, and articles without login or API keys — field tool for AI agents.",
-      "features": [
-        "Arsitektur modular dan open-source",
-        "Dukungan dokumentasi lengkap dan aktif diperbarui",
-        "Performa optimal dan integrasi mudah"
-      ],
-      "benefits": [
-        "Mempercepat alur kerja development hingga 5x",
-        "Menghindari vendor lock-in dengan solusi self-hosted"
-      ],
-      "mediaType": "none",
-      "officialSite": "https://github.com/ythx-101/x-tweet-fetcher"
-    },
-    {
-      "id": "gh-cthulhujs",
-      "name": "CthulhuJs",
-      "repo": "shawn-li-zh/CthulhuJs",
-      "starsToday": 14,
-      "totalStars": "56",
-      "category": "Web & Scrapers",
-      "language": "JavaScript",
-      "topics": [
-        "audio",
-        "automation",
-        "browser",
-        "canvas",
-        "fingerprint"
-      ],
-      "growthRate": "+12% minggu ini",
-      "rank": 16,
-      "oneSentencePitch": "CthulhuJs is a powerful framework for browser fingerprint obfuscation and masquerading. By hooking low-level browser APIs, it allows for customized modification or randomization of various hardware and software fingerprints. It is designed to protect user privacy, bypass anti-bot detections.",
-      "features": [
-        "Arsitektur modular dan open-source",
-        "Dukungan dokumentasi lengkap dan aktif diperbarui",
-        "Performa optimal dan integrasi mudah"
-      ],
-      "benefits": [
-        "Mempercepat alur kerja development hingga 5x",
-        "Menghindari vendor lock-in dengan solusi self-hosted"
-      ],
-      "mediaType": "none",
-      "officialSite": "https://github.com/shawn-li-zh/CthulhuJs"
-    },
-    {
-      "id": "gh-telegram-file-downloader",
-      "name": "Telegram-File-Downloader",
-      "repo": "erfanghorbanee/Telegram-File-Downloader",
-      "starsToday": 13,
-      "totalStars": "48",
-      "category": "Web & Scrapers",
-      "language": "Python",
-      "topics": [
-        "automation",
-        "data-hoarder",
-        "data-hoarding",
-        "data-scraper",
-        "python"
-      ],
-      "growthRate": "+13% minggu ini",
-      "rank": 17,
-      "oneSentencePitch": "A Python script to download files from Telegram entities (channels, groups, chats, or saved messages). It supports filtering by file type (e.g., images, PDFs).",
-      "features": [
-        "Arsitektur modular dan open-source",
-        "Dukungan dokumentasi lengkap dan aktif diperbarui",
-        "Performa optimal dan integrasi mudah"
-      ],
-      "benefits": [
-        "Mempercepat alur kerja development hingga 5x",
-        "Menghindari vendor lock-in dengan solusi self-hosted"
-      ],
-      "mediaType": "none",
-      "officialSite": "https://github.com/erfanghorbanee/Telegram-File-Downloader"
-    },
-    {
-      "id": "gh-pobear",
-      "name": "pobear",
-      "repo": "Decodo/pobear",
-      "starsToday": 12,
-      "totalStars": "10",
-      "category": "Web & Scrapers",
-      "language": "Go",
-      "topics": [
-        "ai-agents",
-        "automation",
-        "cli",
-        "command-line",
-        "crawler"
-      ],
-      "growthRate": "+14% minggu ini",
-      "rank": 18,
-      "oneSentencePitch": "Open-source web scraping CLI. Crawl sites, extract data with CSS selectors or Markdown, and fall back to a proxy or the Decodo Web Data API when blocked. Single Go binary, no runtime or account required.",
-      "features": [
-        "Arsitektur modular dan open-source",
-        "Dukungan dokumentasi lengkap dan aktif diperbarui",
-        "Performa optimal dan integrasi mudah"
-      ],
-      "benefits": [
-        "Mempercepat alur kerja development hingga 5x",
-        "Menghindari vendor lock-in dengan solusi self-hosted"
-      ],
-      "mediaType": "none",
-      "officialSite": "https://github.com/Decodo/pobear"
-    },
-    {
-      "id": "gh-tiktok-email-scraper",
-      "name": "tiktok-email-scraper",
-      "repo": "ttinit-10/tiktok-email-scraper",
-      "starsToday": 12,
-      "totalStars": "4",
-      "category": "Web & Scrapers",
-      "language": "TypeScript",
-      "topics": [
-        "automation",
-        "crm",
-        "crm-system",
-        "email-scraper",
-        "lead-generation"
-      ],
-      "growthRate": "+15% minggu ini",
-      "rank": 19,
-      "oneSentencePitch": "A ScrapeCrew blueprint for discovering public TikTok profiles via hashtags, extracting available business contact details, and delivering deduplicated, validated leads to CSV, Google Sheets, or your CRM.",
-      "features": [
-        "Arsitektur modular dan open-source",
-        "Dukungan dokumentasi lengkap dan aktif diperbarui",
-        "Performa optimal dan integrasi mudah"
-      ],
-      "benefits": [
-        "Mempercepat alur kerja development hingga 5x",
-        "Menghindari vendor lock-in dengan solusi self-hosted"
-      ],
-      "mediaType": "none",
-      "officialSite": "https://github.com/ttinit-10/tiktok-email-scraper"
-    },
-    {
-      "id": "gh-scrapex",
-      "name": "ScrapeX",
-      "repo": "ibrahembuilds/ScrapeX",
-      "starsToday": 12,
-      "totalStars": "3",
-      "category": "Web & Scrapers",
-      "language": "Python",
-      "topics": [
-        "ai",
-        "automation",
-        "crawler",
-        "data-extraction",
-        "firecrawl"
-      ],
-      "growthRate": "+16% minggu ini",
-      "rank": 20,
-      "oneSentencePitch": "AI Super Agent for Web & Social Media Scraping — open-source Firecrawl alternative. Extract data from any website, social media, or API with AI-powered parsing.",
-      "features": [
-        "Arsitektur modular dan open-source",
-        "Dukungan dokumentasi lengkap dan aktif diperbarui",
-        "Performa optimal dan integrasi mudah"
-      ],
-      "benefits": [
-        "Mempercepat alur kerja development hingga 5x",
-        "Menghindari vendor lock-in dengan solusi self-hosted"
-      ],
-      "mediaType": "none",
-      "officialSite": "https://github.com/ibrahembuilds/ScrapeX"
-    },
-    {
-      "id": "gh-seo-marketing-apis",
-      "name": "seo-marketing-apis",
-      "repo": "Bigibyte/seo-marketing-apis",
-      "starsToday": 12,
-      "totalStars": "2",
-      "category": "Web & Scrapers",
-      "language": "TypeScript",
-      "topics": [
-        "api",
-        "apify",
-        "automation",
-        "awesome-list",
-        "backlinks"
-      ],
-      "growthRate": "+17% minggu ini",
-      "rank": 21,
-      "oneSentencePitch": "8,000+ SEO and marketing APIs for SERP results, keyword research, backlinks, site audits and ads data. Export to CSV or JSON.",
-      "features": [
-        "Arsitektur modular dan open-source",
-        "Dukungan dokumentasi lengkap dan aktif diperbarui",
-        "Performa optimal dan integrasi mudah"
-      ],
-      "benefits": [
-        "Mempercepat alur kerja development hingga 5x",
-        "Menghindari vendor lock-in dengan solusi self-hosted"
-      ],
-      "mediaType": "none",
-      "officialSite": "https://github.com/Bigibyte/seo-marketing-apis"
-    },
-    {
-      "id": "gh-lifeos",
-      "name": "LifeOS",
-      "repo": "danielmiessler/LifeOS",
-      "starsToday": 799,
-      "totalStars": "19.7k",
-      "category": "Productivity & Media",
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "ai-harness",
-        "augmentation",
-        "coding",
-        "humans"
-      ],
-      "growthRate": "+18% minggu ini",
-      "rank": 22,
-      "oneSentencePitch": "⛰️ LifeOS — The universal AI Harness designed to move you from Current to Ideal state in both life and work.",
-      "features": [
-        "Arsitektur modular dan open-source",
-        "Dukungan dokumentasi lengkap dan aktif diperbarui",
-        "Performa optimal dan integrasi mudah"
-      ],
-      "benefits": [
-        "Mempercepat alur kerja development hingga 5x",
-        "Menghindari vendor lock-in dengan solusi self-hosted"
-      ],
-      "mediaType": "none",
-      "officialSite": "https://github.com/danielmiessler/LifeOS"
-    },
-    {
-      "id": "gh-rowboat",
-      "name": "rowboat",
-      "repo": "rowboatlabs/rowboat",
-      "starsToday": 737,
-      "totalStars": "18.1k",
-      "category": "Productivity & Media",
-      "language": "TypeScript",
-      "topics": [
-        "agents",
-        "agents-sdk",
-        "ai",
-        "ai-agents",
-        "ai-agents-automation"
-      ],
-      "growthRate": "+19% minggu ini",
-      "rank": 23,
-      "oneSentencePitch": "AI coworker with memory and collaboration",
-      "features": [
-        "Arsitektur modular dan open-source",
-        "Dukungan dokumentasi lengkap dan aktif diperbarui",
-        "Performa optimal dan integrasi mudah"
-      ],
-      "benefits": [
-        "Mempercepat alur kerja development hingga 5x",
-        "Menghindari vendor lock-in dengan solusi self-hosted"
-      ],
-      "mediaType": "none",
-      "officialSite": "https://github.com/rowboatlabs/rowboat"
-    },
-    {
-      "id": "gh-claudian",
-      "name": "claudian",
-      "repo": "YishenTu/claudian",
-      "starsToday": 648,
-      "totalStars": "15.9k",
-      "category": "Productivity & Media",
-      "language": "TypeScript",
-      "topics": [
-        "claude-code",
-        "codex",
-        "deepseek-harness",
-        "grok",
-        "ide"
+        "llm",
+        "moe",
+        "deepseek",
+        "frontier-model"
       ],
       "growthRate": "+20% minggu ini",
-      "rank": 24,
-      "oneSentencePitch": "An Obsidian plugin that embeds Claude Code, Codex and other agents as an AI collaborator in your vault.",
+      "rank": 15,
+      "oneSentencePitch": "Arsitektur model bahasa Mixture-of-Experts 671B parameter dengan performa frontier dan efisiensi inferensi tinggi.",
       "features": [
-        "Arsitektur modular dan open-source",
-        "Dukungan dokumentasi lengkap dan aktif diperbarui",
-        "Performa optimal dan integrasi mudah"
+        "Dukungan komunitas global dan pembaruan berkala",
+        "Kompatibel dengan ekosistem Linux, Windows, dan Docker",
+        "Arsitektur performa tinggi bebas lisensi vendor"
       ],
       "benefits": [
-        "Mempercepat alur kerja development hingga 5x",
-        "Menghindari vendor lock-in dengan solusi self-hosted"
+        "Menghemat biaya langganan SaaS ratusan dolar per bulan",
+        "Kendali penuh 100% atas data dan model pribadi"
       ],
       "mediaType": "none",
-      "officialSite": "https://github.com/YishenTu/claudian"
+      "officialSite": "https://github.com/deepseek-ai/DeepSeek-V3"
     },
     {
-      "id": "gh-vicinae",
-      "name": "vicinae",
-      "repo": "vicinaehq/vicinae",
-      "starsToday": 432,
-      "totalStars": "10.5k",
-      "category": "Productivity & Media",
-      "language": "C++",
+      "id": "gh-browser-use",
+      "name": "browser-use",
+      "repo": "browser-use/browser-use",
+      "starsToday": 980,
+      "totalStars": "28.4k",
+      "category": "AI Agents & LLM",
+      "language": "Python",
       "topics": [
-        "app-launcher",
-        "cpp23",
-        "linux",
-        "macos",
-        "nodejs"
+        "browser-agent",
+        "playwright",
+        "automation",
+        "ai"
       ],
       "growthRate": "+21% minggu ini",
-      "rank": 25,
-      "oneSentencePitch": "A focused launcher for your desktop - native, fast, extensible",
+      "rank": 16,
+      "oneSentencePitch": "Jadikan website apapun ramah untuk AI agent dengan navigasi browser visual otomatis.",
       "features": [
-        "Arsitektur modular dan open-source",
-        "Dukungan dokumentasi lengkap dan aktif diperbarui",
-        "Performa optimal dan integrasi mudah"
+        "Dukungan komunitas global dan pembaruan berkala",
+        "Kompatibel dengan ekosistem Linux, Windows, dan Docker",
+        "Arsitektur performa tinggi bebas lisensi vendor"
       ],
       "benefits": [
-        "Mempercepat alur kerja development hingga 5x",
-        "Menghindari vendor lock-in dengan solusi self-hosted"
+        "Menghemat biaya langganan SaaS ratusan dolar per bulan",
+        "Kendali penuh 100% atas data dan model pribadi"
       ],
       "mediaType": "none",
-      "officialSite": "https://github.com/vicinaehq/vicinae"
+      "officialSite": "https://github.com/browser-use/browser-use"
+    },
+    {
+      "id": "gh-open-webui",
+      "name": "open-webui",
+      "repo": "open-webui/open-webui",
+      "starsToday": 650,
+      "totalStars": "62.1k",
+      "category": "AI Agents & LLM",
+      "language": "JavaScript",
+      "topics": [
+        "ollama",
+        "webui",
+        "chatgpt-clone",
+        "self-hosted"
+      ],
+      "growthRate": "+14% minggu ini",
+      "rank": 17,
+      "oneSentencePitch": "Antarmuka chat web cerdas self-hosted untuk Ollama dan LLM privat dengan dukungan RAG.",
+      "features": [
+        "Dukungan komunitas global dan pembaruan berkala",
+        "Kompatibel dengan ekosistem Linux, Windows, dan Docker",
+        "Arsitektur performa tinggi bebas lisensi vendor"
+      ],
+      "benefits": [
+        "Menghemat biaya langganan SaaS ratusan dolar per bulan",
+        "Kendali penuh 100% atas data dan model pribadi"
+      ],
+      "mediaType": "none",
+      "officialSite": "https://github.com/open-webui/open-webui"
+    },
+    {
+      "id": "gh-cline",
+      "name": "cline",
+      "repo": "cline/cline",
+      "starsToday": 890,
+      "totalStars": "24.8k",
+      "category": "Dev Tools & Automation",
+      "language": "TypeScript",
+      "topics": [
+        "autonomous-agent",
+        "vscode-extension",
+        "coding",
+        "claude"
+      ],
+      "growthRate": "+15% minggu ini",
+      "rank": 18,
+      "oneSentencePitch": "Asisten coding otonom di VS Code yang mampu membuat berkas, menjalankan perintah terminal, dan memperbaiki bug.",
+      "features": [
+        "Dukungan komunitas global dan pembaruan berkala",
+        "Kompatibel dengan ekosistem Linux, Windows, dan Docker",
+        "Arsitektur performa tinggi bebas lisensi vendor"
+      ],
+      "benefits": [
+        "Menghemat biaya langganan SaaS ratusan dolar per bulan",
+        "Kendali penuh 100% atas data dan model pribadi"
+      ],
+      "mediaType": "none",
+      "officialSite": "https://github.com/cline/cline"
+    },
+    {
+      "id": "gh-dify",
+      "name": "dify",
+      "repo": "langgenius/dify",
+      "starsToday": 540,
+      "totalStars": "58.9k",
+      "category": "Dev Tools & Automation",
+      "language": "TypeScript",
+      "topics": [
+        "llmops",
+        "rag",
+        "ai-workflow",
+        "low-code"
+      ],
+      "growthRate": "+16% minggu ini",
+      "rank": 19,
+      "oneSentencePitch": "Platform pengembangan aplikasi LLM open-source yang memadukan AI workflow, RAG pipeline, dan agent capabilities.",
+      "features": [
+        "Dukungan komunitas global dan pembaruan berkala",
+        "Kompatibel dengan ekosistem Linux, Windows, dan Docker",
+        "Arsitektur performa tinggi bebas lisensi vendor"
+      ],
+      "benefits": [
+        "Menghemat biaya langganan SaaS ratusan dolar per bulan",
+        "Kendali penuh 100% atas data dan model pribadi"
+      ],
+      "mediaType": "none",
+      "officialSite": "https://github.com/langgenius/dify"
+    },
+    {
+      "id": "gh-crawl4ai",
+      "name": "crawl4ai",
+      "repo": "unclecode/crawl4ai",
+      "starsToday": 730,
+      "totalStars": "21.6k",
+      "category": "Web & Scrapers",
+      "language": "Python",
+      "topics": [
+        "crawler",
+        "llm-data",
+        "scraper",
+        "markdown-extraction"
+      ],
+      "growthRate": "+17% minggu ini",
+      "rank": 20,
+      "oneSentencePitch": "Web crawler & scraper open-source berkecepatan tinggi khusus mengekstrak konten bersih untuk LLM.",
+      "features": [
+        "Dukungan komunitas global dan pembaruan berkala",
+        "Kompatibel dengan ekosistem Linux, Windows, dan Docker",
+        "Arsitektur performa tinggi bebas lisensi vendor"
+      ],
+      "benefits": [
+        "Menghemat biaya langganan SaaS ratusan dolar per bulan",
+        "Kendali penuh 100% atas data dan model pribadi"
+      ],
+      "mediaType": "none",
+      "officialSite": "https://github.com/unclecode/crawl4ai"
+    },
+    {
+      "id": "gh-docling",
+      "name": "docling",
+      "repo": "DS4SD/docling",
+      "starsToday": 490,
+      "totalStars": "17.3k",
+      "category": "Productivity & Media",
+      "language": "Python",
+      "topics": [
+        "pdf-parser",
+        "document-ai",
+        "rag",
+        "ocr"
+      ],
+      "growthRate": "+18% minggu ini",
+      "rank": 21,
+      "oneSentencePitch": "Parser dokumen PDF cerdas dari IBM yang memahami struktur tabel, diagram, dan formula matematika untuk RAG.",
+      "features": [
+        "Dukungan komunitas global dan pembaruan berkala",
+        "Kompatibel dengan ekosistem Linux, Windows, dan Docker",
+        "Arsitektur performa tinggi bebas lisensi vendor"
+      ],
+      "benefits": [
+        "Menghemat biaya langganan SaaS ratusan dolar per bulan",
+        "Kendali penuh 100% atas data dan model pribadi"
+      ],
+      "mediaType": "none",
+      "officialSite": "https://github.com/DS4SD/docling"
+    },
+    {
+      "id": "gh-comfyui",
+      "name": "comfyui",
+      "repo": "comfyanonymous/ComfyUI",
+      "starsToday": 620,
+      "totalStars": "56.4k",
+      "category": "Productivity & Media",
+      "language": "Python",
+      "topics": [
+        "stable-diffusion",
+        "flux",
+        "generative-art",
+        "node-graph"
+      ],
+      "growthRate": "+19% minggu ini",
+      "rank": 22,
+      "oneSentencePitch": "Antarmuka modular berbasis node graph paling fleksibel untuk Stable Diffusion dan Flux.1.",
+      "features": [
+        "Dukungan komunitas global dan pembaruan berkala",
+        "Kompatibel dengan ekosistem Linux, Windows, dan Docker",
+        "Arsitektur performa tinggi bebas lisensi vendor"
+      ],
+      "benefits": [
+        "Menghemat biaya langganan SaaS ratusan dolar per bulan",
+        "Kendali penuh 100% atas data dan model pribadi"
+      ],
+      "mediaType": "none",
+      "officialSite": "https://github.com/comfyanonymous/ComfyUI"
     }
   ]
 }
