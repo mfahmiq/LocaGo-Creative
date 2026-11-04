@@ -1,7 +1,79 @@
 {
-  "updatedAt": "04 Nov 2026, 01:55 WIB",
-  "total": 21,
+  "updatedAt": "04 Nov 2026, 02:10 WIB",
+  "total": 25,
   "items": [
+    {
+      "id": "ai-fliki",
+      "name": "Fliki",
+      "category": "Video & Graphics",
+      "pricingType": "Freemium",
+      "tagline": "Ubah Artikel Blog & Ide Teks Jadi Video TikTok Ber-Voiceover Alami",
+      "description": "Mesin pembuat video serbaguna yang mampu mengubah tautan artikel blog menjadi video ringkas ber-voiceover AI dalam hitungan menit. Dilengkapi perpustakaan jutaan stok media klip dan audio komersial bebas royalti.",
+      "features": [
+        "Blog-to-Video konverter otomatis dari URL artikel",
+        "Koleksi 2.000+ suara vokal AI ultra-realistis",
+        "Dynamic subtitle anime & karaoke style",
+        "Template rasio otomatis 9:16 vertikal dan 16:9 lanskap"
+      ],
+      "logoUrl": "/logos/fliki.png",
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "n0_hK_Qp-rU",
+      "affiliateUrl": "https://fliki.ai/?via=locagocreative"
+    },
+    {
+      "id": "ai-colossyan",
+      "name": "Colossyan",
+      "category": "Video & Graphics",
+      "pricingType": "Freemium",
+      "tagline": "Generator Video Edukasi & Pelatihan Interaktif dengan Presenter AI",
+      "description": "Aplikasi video AI yang berfokus pada pelatihan dan pembelajaran interaktif. Pengguna dapat menambahkan kuis pilihan ganda di tengah video dan menampilkan beberapa presenter AI yang saling berdialog di layar yang sama.",
+      "features": [
+        "Dukungan multi-avatar (2 presenter berinteraksi di satu frame)",
+        "Fitur kuis interaktif di tengah pemutaran video",
+        "Penerjemahan video otomatis ke 70+ bahasa dalam 1 klik",
+        "Integrasi LMS (Learning Management System) SCORM"
+      ],
+      "logoUrl": "/logos/colossyan.png",
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "jw1s_5UkZJc",
+      "affiliateUrl": "https://colossyan.com/?via=locagocreative"
+    },
+    {
+      "id": "ai-deepbrain-ai",
+      "name": "DeepBrain AI",
+      "category": "Video & Graphics",
+      "pricingType": "Free Trial",
+      "tagline": "Avatar AI Fotorealistik untuk Video Pembawa Berita & Pelatihan Kerja",
+      "description": "Platform pembuatan video avatar AI tingkat korporat yang menghasilkan presenter virtual dengan gerakan tubuh dan ekspresi wajah sangat meyakinkan. Banyak digunakan oleh stasiun televisi berita dan divisi HR korporat untuk modul orientasi karyawan.",
+      "features": [
+        "100+ avatar AI berstandar siar televisi",
+        "Text-to-Video instan dari upload dokumen PowerPoint / PDF",
+        "Studio rekaman virtual dengan berbagai pilihan set background",
+        "Dukungan multi-bahasa dengan sinkronisasi artikulasi vokal"
+      ],
+      "logoUrl": "/logos/deepbrain-ai.png",
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "jw1s_5UkZJc",
+      "affiliateUrl": "https://deepbrain.io/?via=locagocreative"
+    },
+    {
+      "id": "ai-growthbar",
+      "name": "GrowthBar",
+      "category": "AI Writing & SEO",
+      "pricingType": "Free Trial",
+      "tagline": "Tool AI SEO Penulisan Blog dengan Ekstensi Chrome Langsung di WordPress",
+      "description": "Alat bantu pembuatan konten SEO yang terintegrasi langsung di dashboard WordPress dan Google Docs via ekstensi Chrome. Memberikan skor konten real-time, rekomendasi heading, dan saran link internal saat Anda mengetik.",
+      "features": [
+        "Ekstensi Chrome cerdas di editor WordPress & Google Docs",
+        "Generator garis besar (outline) artikel berbasis data kompetitor",
+        "Pelacak ranking kata kunci harian secara otomatis",
+        "Pencari backlink potensial untuk link-building"
+      ],
+      "logoUrl": "/logos/growthbar.png",
+      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "demoVideoUrl": "3iTqwXZq80k",
+      "affiliateUrl": "https://growthbarseo.com/?via=locagocreative"
+    },
     {
       "id": "ai-scalenut",
       "name": "Scalenut",
