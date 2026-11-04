@@ -1,7 +1,25 @@
 {
-  "updatedAt": "04 Nov 2026, 12:45 WIB",
-  "total": 84,
+  "updatedAt": "04 Nov 2026, 12:48 WIB",
+  "total": 85,
   "items": [
+    {
+      "id": "ai-gamma-app",
+      "name": "Gamma App",
+      "category": "AI Writing & SEO",
+      "pricingType": "Freemium",
+      "tagline": "Buat Presentasi Slide, Dokumen Interaktif, dan Webpage Cantik dalam 1 Menit",
+      "description": "Pengganti PowerPoint tradisional berbasis AI. Cukup ketik topik atau outline materi, Gamma akan menyusun deck presentasi berdesain modern, lengkap dengan gambar dan layout profesional.",
+      "features": [
+        "Generasi slide presentasi utuh dari sebaris prompt",
+        "Desain tipografi dan tema visual elegan otomatis",
+        "Format kartu fleksibel yang tidak kaku seperti slide lama",
+        "Dukungan ekspor ke format PDF dan PowerPoint (.pptx)"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://gamma.app/?via=locagocreative"
+    },
     {
       "id": "ai-notebooklm",
       "name": "NotebookLM",
