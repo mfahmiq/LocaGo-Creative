@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 23:57 WIB",
-  "total": 244,
+  "updatedAt": "05 Nov 2026, 00:03 WIB",
+  "total": 246,
   "items": [
+    {
+      "id": "ai-metaaudio-ai",
+      "name": "MetaAudio AI",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "Data Monitoring Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "MetaAudio AI adalah platform monitoring perubahan data web dan ekstraksi tabel berkala secara otomatis. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/metaaudio-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://metaaudioai.io"
+    },
+    {
+      "id": "ai-tensorworkspace",
+      "name": "TensorWorkspace",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Private Local AI Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "TensorWorkspace adalah engine inferensi model lokal berkecepatan tinggi dengan perlindungan privasi data 100%. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/tensorworkspace.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://tensorworkspace.app"
+    },
     {
       "id": "ai-pixelbrain",
       "name": "PixelBrain",
