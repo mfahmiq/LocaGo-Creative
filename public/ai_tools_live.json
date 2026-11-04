@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 12:11 WIB",
-  "total": 73,
+  "updatedAt": "04 Nov 2026, 12:17 WIB",
+  "total": 75,
   "items": [
+    {
+      "id": "ai-flux1",
+      "name": "Flux.1",
+      "category": "Video & Graphics",
+      "pricingType": "Free",
+      "tagline": "Model Gambar Open-Weights Tercanggih dari Para Pencipta Stable Diffusion",
+      "description": "Arsitektur Transformer difusi multimodal 12 miliar parameter dari Black Forest Labs. Menghasilkan gambar dengan ketepatan prompt luar biasa, rendering teks jernih, dan anatomi sempurna.",
+      "features": [
+        "Arsitektur Hybrid Rectified Flow Transformer 12B parameter",
+        "Kemampuan mengeja kata dan tipografi kompleks",
+        "Tersedia varian Schnell (cepat), Dev (non-komersial), dan Pro (enterprise)",
+        "Bisa dijalankan di GPU lokal via ComfyUI"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://blackforestlabs.ai"
+    },
+    {
+      "id": "ai-midjourney-v61",
+      "name": "Midjourney v6.1",
+      "category": "Video & Graphics",
+      "pricingType": "Paid",
+      "tagline": "Standar Emas Seni Visual AI dengan Tekstur Realistis & Detail Luar Biasa",
+      "description": "Generator gambar AI paling diakui di dunia seni komersial, periklanan, dan game concept art. Varian 6.1 menghadirkan detail kulit fotorealistik, tipografi teks tajam, dan pemahaman prompt presisi.",
+      "features": [
+        "Rendering teks pada gambar yang sangat presisi",
+        "Detail mata, tangan, dan anatomi manusia alami",
+        "Fitur Style Reference (--sref) untuk menyamakan tone visual",
+        "Antarmuka web interaktif dan bot Discord"
+      ],
+      "logoUrl": "/logos/midjourney.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.midjourney.com"
+    },
     {
       "id": "ai-krisp",
       "name": "Krisp",
