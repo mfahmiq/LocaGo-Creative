@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 23:25 WIB",
-  "total": 234,
+  "updatedAt": "04 Nov 2026, 23:32 WIB",
+  "total": 236,
   "items": [
+    {
+      "id": "ai-script-optimizer",
+      "name": "Script Optimizer",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "Smart Web Crawler Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Script Optimizer adalah mesin perayap web cerdas dengan rotasi proxy otomatis dan bypass proteksi antibot. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/script-optimizer.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://scriptoptimizer.io"
+    },
+    {
+      "id": "ai-apexoptimizer-ai",
+      "name": "ApexOptimizer AI",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Voice & Audio Synthesis Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "ApexOptimizer AI adalah platform sintesis vokal dan aransemen musik instan berkualitas studio rekaman. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/apexoptimizer-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://apexoptimizerai.ai"
+    },
     {
       "id": "ai-zenithworks",
       "name": "ZenithWorks",
