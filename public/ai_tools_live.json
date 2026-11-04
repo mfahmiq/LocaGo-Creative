@@ -1,7 +1,25 @@
 {
-  "updatedAt": "04 Nov 2026, 12:26 WIB",
-  "total": 78,
+  "updatedAt": "04 Nov 2026, 12:29 WIB",
+  "total": 79,
   "items": [
+    {
+      "id": "ai-jasper-ai",
+      "name": "Jasper AI",
+      "category": "AI Writing & SEO",
+      "pricingType": "Paid",
+      "tagline": "Platform AI Marketing Terpadu untuk Kampanye Brand, Copywriting & Funnel",
+      "description": "Asisten pembuatan konten tim pemasaran korporat yang menjaga konsistensi gaya bahasa brand (Brand Voice) di seluruh materi email, iklan sosmed, dan landing page.",
+      "features": [
+        "Brand Voice & Style Guide enforcement otomatis",
+        "Manajer kampanye marketing multi-aset terpadu",
+        "Ekstensi browser untuk menulis di Google Docs & Gmail",
+        "Keamanan data enterprise tanpa pelatihan model pada data Anda"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.jasper.ai/?via=locagocreative"
+    },
     {
       "id": "ai-perplexity-pro",
       "name": "Perplexity Pro",
