@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 05:50 WIB",
-  "total": 358,
+  "updatedAt": "05 Nov 2026, 05:57 WIB",
+  "total": 360,
   "items": [
+    {
+      "id": "ai-metavoice",
+      "name": "MetaVoice",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Voice & Audio Synthesis Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "MetaVoice adalah platform sintesis vokal dan aransemen musik instan berkualitas studio rekaman. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/metavoice.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://metavoice.app"
+    },
+    {
+      "id": "ai-velologic",
+      "name": "VeloLogic",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "AI Calendar Scheduler Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "VeloLogic adalah asisten manajemen waktu dan kalender dinamis yang mengoptimalkan jadwal produktivitas. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/velologic.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://velologic.dev"
+    },
     {
       "id": "ai-vanguardpulse-ai",
       "name": "VanguardPulse AI",
