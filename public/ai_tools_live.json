@@ -1,7 +1,25 @@
 {
   "updatedAt": "04 Nov 2026, 02:24 WIB",
-  "total": 27,
+  "total": 28,
   "items": [
+    {
+      "id": "ai-windsurf",
+      "name": "Windsurf",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "IDE AI Otonom Pertama Berbasis Agen Cascade dari Tim Codeium",
+      "description": "Lingkungan pengembangan perangkat lunak mandiri yang memadukan interaksi developer dengan agen Cascade. Agen secara aktif membaca terminal, merespon error kompilasi, dan mengarahkan refactoring multi-file secara sinkron.",
+      "features": [
+        "Agen Cascade yang memahami konteks terminal",
+        "Fitur Supercomplete yang memprediksi aksi developer",
+        "Integrasi lokal index codebase menyeluruh",
+        "Dukungan penuh ekstensi VS Code"
+      ],
+      "logoUrl": "/logos/windsurf-by-codeium.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://codeium.com/windsurf?via=locagocreative"
+    },
     {
       "id": "ai-supermaven",
       "name": "Supermaven",
