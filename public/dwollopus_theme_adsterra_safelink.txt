@@ -9,6 +9,8 @@
   <!--[ <head> Open ]-->
   &lt;head class=&#39;notranslate&#39;&gt;
 
+  <!-- Monetag Official Verification Meta Tag -->
+  <meta name="monetag" content="aa162cfe43f243c78128f1c43b806166"/>
   <meta content='j1FhHmAs_df4zmezih1wciUfVTG3CtAOMmaht3VPE6s' name='google-site-verification'/>
   <b:if cond='data:view.isMultipleItems'>
     <b:if cond='data:view.isHomepage'>
