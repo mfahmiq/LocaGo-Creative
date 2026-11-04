@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 04:42 WIB",
-  "total": 336,
+  "updatedAt": "05 Nov 2026, 04:48 WIB",
+  "total": 338,
   "items": [
+    {
+      "id": "ai-lyricpilot",
+      "name": "LyricPilot",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Team Knowledge Vault Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "LyricPilot adalah sistem manajemen pengetahuan tim yang merangkum rapat dan dokumen kerja otomatis. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/lyricpilot.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://lyricpilot.co"
+    },
+    {
+      "id": "ai-renderapp-ai",
+      "name": "RenderApp AI",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Academic Research Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "RenderApp AI adalah platform pencarian riset ilmiah dan ringkasan jurnal mendalam dengan rujukan sitasi asli. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/renderapp-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://renderappai.ai"
+    },
     {
       "id": "ai-logic-audio",
       "name": "Logic Audio",
