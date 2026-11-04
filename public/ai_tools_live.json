@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 02:10 WIB",
-  "total": 25,
+  "updatedAt": "04 Nov 2026, 02:24 WIB",
+  "total": 27,
   "items": [
+    {
+      "id": "ai-supermaven",
+      "name": "Supermaven",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Autocomplete Coding AI Paling Cepat di Dunia dengan Konteks 1 Juta Token",
+      "description": "Ekstensi code completion berbasis arsitektur Babble yang memberikan saran multi-baris instan tanpa jeda latency. Mendukung context window 1.000.000 token untuk memahami seluruh arsitektur proyek besar Anda.",
+      "features": [
+        "Latensi ultra-rendah di bawah 50ms",
+        "Context window raksasa 1M token",
+        "Dukungan VS Code, JetBrains, dan Neovim",
+        "Versi gratis selamanya untuk individual"
+      ],
+      "logoUrl": "/logos/supermaven.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://supermaven.com/?via=locagocreative"
+    },
+    {
+      "id": "ai-invideo-ai",
+      "name": "InVideo AI",
+      "category": "Video & Graphics",
+      "pricingType": "Freemium",
+      "tagline": "Ketik Prompt Cerita, Langsung Jadi Video Naratif Siap Tayang YouTube",
+      "description": "Generator video naratif AI yang menangani seluruh rantai produksi video: menulis naskah cerita, memilih klip video yang cocok dari perpustakaan Storyblocks/iStock, menambahkan voiceover manusiawi, dan menyinkronkan musik latar.",
+      "features": [
+        "Generasi video lengkap murni hanya dari 1 baris ide prompt",
+        "Perintah teks ajaib untuk mengedit cuplikan (magic prompt editor)",
+        "Voiceover kloning suara pembuat konten sendiri",
+        "Kualitas ekspor jernih tanpa watermark untuk paket berbayar"
+      ],
+      "logoUrl": "/logos/invideo-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://invideo.io/?via=locagocreative"
+    },
     {
       "id": "ai-fliki",
       "name": "Fliki",
@@ -16,8 +52,8 @@
         "Template rasio otomatis 9:16 vertikal dan 16:9 lanskap"
       ],
       "logoUrl": "/logos/fliki.png",
-      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
-      "demoVideoUrl": "n0_hK_Qp-rU",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
       "affiliateUrl": "https://fliki.ai/?via=locagocreative"
     },
     {
@@ -34,8 +70,8 @@
         "Integrasi LMS (Learning Management System) SCORM"
       ],
       "logoUrl": "/logos/colossyan.png",
-      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
-      "demoVideoUrl": "jw1s_5UkZJc",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
       "affiliateUrl": "https://colossyan.com/?via=locagocreative"
     },
     {
@@ -52,8 +88,8 @@
         "Dukungan multi-bahasa dengan sinkronisasi artikulasi vokal"
       ],
       "logoUrl": "/logos/deepbrain-ai.png",
-      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
-      "demoVideoUrl": "jw1s_5UkZJc",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
       "affiliateUrl": "https://deepbrain.io/?via=locagocreative"
     },
     {
@@ -70,8 +106,8 @@
         "Pencari backlink potensial untuk link-building"
       ],
       "logoUrl": "/logos/growthbar.png",
-      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
-      "demoVideoUrl": "3iTqwXZq80k",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
       "affiliateUrl": "https://growthbarseo.com/?via=locagocreative"
     },
     {
@@ -88,8 +124,8 @@
         "Integrasi langsung publikasi ke CMS WordPress"
       ],
       "logoUrl": "/logos/scalenut.png",
-      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
-      "demoVideoUrl": "3iTqwXZq80k",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
       "affiliateUrl": "https://scalenut.com/?via=locagocreative"
     },
     {
@@ -106,8 +142,8 @@
         "Kompatibel 100% ekstensi VS Code"
       ],
       "logoUrl": "/logos/cursor.png",
-      "screenshotUrl": "/tools/previews/cursor.webp",
-      "demoVideoUrl": "DjVadODhOHA",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
       "affiliateUrl": "https://cursor.com/?via=locagocreative"
     },
     {
@@ -124,8 +160,8 @@
         "Deploy instan 1-klik ke Netlify"
       ],
       "logoUrl": "/logos/bolt.png",
-      "screenshotUrl": "/tools/previews/bolt.webp",
-      "demoVideoUrl": "XWn1k_Xm0zM",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
       "affiliateUrl": "https://bolt.new/?via=locagocreative"
     },
     {
@@ -142,8 +178,8 @@
         "Fitur seleksi edit visual blok"
       ],
       "logoUrl": "/logos/v0.png",
-      "screenshotUrl": "/tools/previews/v0.webp",
-      "demoVideoUrl": "1f8nE9i-0wU",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
       "affiliateUrl": "https://v0.dev/?ref=locagocreative"
     },
     {
@@ -160,8 +196,8 @@
         "API latensi ultra-rendah untuk asisten bot"
       ],
       "logoUrl": "/logos/elevenlabs.png",
-      "screenshotUrl": "/tools/previews/elevenlabs.webp",
-      "demoVideoUrl": "qLpDvh-z2XQ",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
       "affiliateUrl": "https://elevenlabs.io/?from=locagocreative"
     },
     {
@@ -178,8 +214,8 @@
         "Eksekusi otomatis berjadwal & multi-router"
       ],
       "logoUrl": "/logos/make.png",
-      "screenshotUrl": "/tools/previews/make.webp",
-      "demoVideoUrl": "0N6-o6R_fLQ",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
       "affiliateUrl": "https://www.make.com/en/register?pc=locagocreative"
     },
     {
@@ -196,8 +232,8 @@
         "Fitur Motion Brush untuk menganimasi area tertentu"
       ],
       "logoUrl": "/logos/runway.png",
-      "screenshotUrl": "/tools/previews/runway.webp",
-      "demoVideoUrl": "rE10qF-2kO8",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
       "affiliateUrl": "https://runwayml.com/"
     },
     {
@@ -214,8 +250,8 @@
         "Variasi aspect ratio dinamis dari banner ke vertikal"
       ],
       "logoUrl": "/logos/midjourney.png",
-      "screenshotUrl": "/tools/previews/midjourney.webp",
-      "demoVideoUrl": "LwEwGf7f6aM",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
       "affiliateUrl": "https://www.midjourney.com/"
     },
     {
@@ -232,8 +268,8 @@
         "Dukungan Text & Image prompt berbasis kontrol frame"
       ],
       "logoUrl": "/logos/kling-ai.png",
-      "screenshotUrl": "/tools/previews/kling.webp",
-      "demoVideoUrl": "Vp2oM26Qe1E",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
       "affiliateUrl": "https://klingai.com/"
     },
     {
@@ -250,8 +286,8 @@
         "Domain dan SSL otomatis siap pakai"
       ],
       "logoUrl": "/logos/replit.png",
-      "screenshotUrl": "/tools/previews/replit.webp",
-      "demoVideoUrl": "e8q56_kZ0dI",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
       "affiliateUrl": "https://replit.com/"
     },
     {
@@ -268,8 +304,8 @@
         "Proteksi halusinasi dengan sitasi data ketat"
       ],
       "logoUrl": "/logos/chatbase.png",
-      "screenshotUrl": "/tools/previews/chatbase.webp",
-      "demoVideoUrl": "9XyQ4P3Vj_0",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
       "affiliateUrl": "https://www.chatbase.co/"
     },
     {
@@ -286,8 +322,8 @@
         "Gratis tanpa batasan pencarian harian"
       ],
       "logoUrl": "/logos/perplexity.png",
-      "screenshotUrl": "/tools/previews/phind.webp",
-      "demoVideoUrl": "2A-0lGjK4fI",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
       "affiliateUrl": "https://www.phind.com/"
     },
     {
@@ -304,8 +340,8 @@
         "Ekstensi ringan untuk Chrome dan VS Code"
       ],
       "logoUrl": "/logos/blackbox-ai.png",
-      "screenshotUrl": "/tools/previews/blackbox.webp",
-      "demoVideoUrl": "9VlW7_k1d_k",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
       "affiliateUrl": "https://www.blackbox.ai/"
     },
     {
@@ -322,8 +358,8 @@
         "Program afiliasi recurring resmi 60% seumur hidup"
       ],
       "logoUrl": "/logos/systeme.png",
-      "screenshotUrl": "/tools/previews/make.webp",
-      "demoVideoUrl": "3iTqwXZq80k",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
       "affiliateUrl": "https://systeme.io/id?sa=sa0285473359ae5985c82865330cf1a062d892e972"
     },
     {
@@ -340,8 +376,8 @@
         "Pustaka koleksi pengetahuan yang dapat dibagikan"
       ],
       "logoUrl": "/logos/perplexity.png",
-      "screenshotUrl": "/tools/previews/phind.webp",
-      "demoVideoUrl": "Hw67H2M_W1A",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
       "affiliateUrl": "https://www.perplexity.ai/"
     },
     {
@@ -358,8 +394,8 @@
         "Integrasi webhook GitHub dan GitLab"
       ],
       "logoUrl": "/logos/coderabbit.png",
-      "screenshotUrl": "/tools/previews/cursor.webp",
-      "demoVideoUrl": "sK9Q5v0Kz3M",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
       "affiliateUrl": "https://coderabbit.ai/"
     },
     {
@@ -376,8 +412,8 @@
         "Gratis tanpa batasan jumlah baris kode"
       ],
       "logoUrl": "/logos/kite.png",
-      "screenshotUrl": "/tools/previews/cursor.webp",
-      "demoVideoUrl": "yk9lXobJ97E",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
       "affiliateUrl": "https://kite.com/?via=locagocreative"
     },
     {
@@ -394,8 +430,8 @@
         "Ekstensi browser untuk menulis di platform apa pun"
       ],
       "logoUrl": "/logos/rytr.png",
-      "screenshotUrl": "/tools/previews/chatbase.webp",
-      "demoVideoUrl": "4J_8Wz3V2uM",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
       "affiliateUrl": "https://rytr.me/?via=locagocreative"
     },
     {
@@ -412,8 +448,8 @@
         "Panjang output fleksibel tanpa batas kata bulanan"
       ],
       "logoUrl": "/logos/shortlyai.png",
-      "screenshotUrl": "/tools/previews/chatbase.webp",
-      "demoVideoUrl": "5L2mX9_p1kE",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
       "affiliateUrl": "https://www.shortlyai.com/"
     },
     {
@@ -430,8 +466,8 @@
         "Integrasi langsung dengan task board kanban"
       ],
       "logoUrl": "/logos/notion.png",
-      "screenshotUrl": "/tools/previews/chatbase.webp",
-      "demoVideoUrl": "3ZkL9_w7f2A",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
       "affiliateUrl": "https://www.notion.so/product/ai"
     },
     {
@@ -448,8 +484,8 @@
         "Komersialisasi penuh untuk konten kreator berbayar"
       ],
       "logoUrl": "/logos/suno.png",
-      "screenshotUrl": "/tools/previews/elevenlabs.webp",
-      "demoVideoUrl": "8rZ6kP5_k3I",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
       "affiliateUrl": "https://suno.com/"
     }
   ]
