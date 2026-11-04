@@ -32,6 +32,64 @@ export const extractDomain = (urlStr?: string): string => {
  * If an added link or tool name matches an existing tool registered in LocaGo Creative,
  * automatically returns that registered catalog tool.
  */
+
+/**
+ * ULTRA-ROBUST PLAYLIST TOOL RESOLVER
+ * Resolves any tool ID variant (e.g. "ai-invideo", "ai-invideo-ai", "tool-kling", "ai-kling-ai", "kling")
+ * to the exact catalog item and its logo.
+ */
+export const resolvePlaylistTool = (tId: string, tools: AIToolItem[]): AIToolItem | null => {
+  if (!tId || !tools || tools.length === 0) return null;
+
+  // 1. Direct ID match
+  const exact = tools.find((t) => t.id === tId);
+  if (exact) return exact;
+
+  // 2. Normalized alphanumeric
+  const cleanTarget = tId.toLowerCase().replace(/^(tool-|ai-)/, '').replace(/[^a-z0-9]/g, '');
+
+  // 3. Try clean id or clean name match
+  for (const t of tools) {
+    const tCleanId = t.id.toLowerCase().replace(/^(tool-|ai-)/, '').replace(/[^a-z0-9]/g, '');
+    const tCleanName = t.name.toLowerCase().replace(/[^a-z0-9]/g, '');
+    if (tCleanId === cleanTarget || tCleanName === cleanTarget) {
+      return t;
+    }
+  }
+
+  // 4. Prefix / Substring match (e.g. "invideo" -> "invideoai", "cursor" -> "cursorai")
+  for (const t of tools) {
+    const tCleanName = t.name.toLowerCase().replace(/[^a-z0-9]/g, '');
+    if (cleanTarget.length >= 4 && (tCleanName.startsWith(cleanTarget) || cleanTarget.startsWith(tCleanName))) {
+      return t;
+    }
+  }
+
+  // 5. Common aliases
+  const aliasMap: Record<string, string> = {
+    makecom: 'make',
+    make: 'make',
+    klingai: 'kling',
+    kling: 'kling',
+    invideo: 'invideo',
+    cursor: 'cursor',
+    perplexity: 'perplexity',
+    v0: 'v0'
+  };
+  const alias = aliasMap[cleanTarget];
+  if (alias) {
+    for (const t of tools) {
+      const tCleanName = t.name.toLowerCase().replace(/[^a-z0-9]/g, '');
+      const tCleanId = t.id.toLowerCase().replace(/[^a-z0-9]/g, '');
+      if (tCleanName.includes(alias) || tCleanId.includes(alias)) {
+        return t;
+      }
+    }
+  }
+
+  return null;
+};
+
 export const matchCatalogTool = (inputUrlOrName: string, catalogTools: AIToolItem[]): AIToolItem | null => {
   if (!inputUrlOrName || !catalogTools || catalogTools.length === 0) return null;
 

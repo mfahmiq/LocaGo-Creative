@@ -5,6 +5,7 @@ import { AI_TOOLS_LIST } from '../lib/data';
 import {
   INITIAL_COMMUNITY_LINKLISTS,
   matchCatalogTool,
+  resolvePlaylistTool,
   sanitizeExternalUrl,
   canUserEditLinkList,
   cleanText
@@ -434,8 +435,7 @@ export const LinkListsHub: React.FC = () => {
 
                     <div className="flex flex-wrap gap-1.5">
                       {list.toolIds.slice(0, 4).map((tid) => {
-                        const cleanTid = cleanText(tid);
-                        const matched = tools.find((t) => cleanText(t.id) === cleanTid || cleanText(t.name) === cleanTid);
+                        const matched = resolvePlaylistTool(tid, tools);
                         return (
                           <span
                             key={tid}
@@ -777,13 +777,11 @@ export const LinkListsHub: React.FC = () => {
 
                   <div className="space-y-2">
                     {viewingList.toolIds.map((tId) => {
-                      const cleanId = tId.replace('ai-', '').toLowerCase();
-                      const matchedTool = tools.find(
-                        (t) => t.id === tId || t.name.toLowerCase().replace(/[^a-z0-9]/g, '') === cleanId
-                      );
+                      const matchedTool = resolvePlaylistTool(tId, tools);
+                      const cleanId = tId.replace(/^(tool-|ai-)/, '').toLowerCase();
                       const toolName = matchedTool ? matchedTool.name : cleanId.split('-').map((s) => s.charAt(0).toUpperCase() + s.slice(1)).join(' ');
                       const toolDesc = matchedTool?.tagline || matchedTool?.description || 'Tools kecerdasan buatan terkurasi untuk efisiensi workflow.';
-                      const toolUrl = matchedTool?.affiliateUrl || `https://${cleanId}.com`;
+                      const toolUrl = matchedTool?.affiliateUrl || matchedTool?.websiteUrl || `https://${cleanId}.com`;
                       const toolLogo = matchedTool?.logoUrl;
 
                       return (
