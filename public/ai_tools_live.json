@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 03:46 WIB",
-  "total": 318,
+  "updatedAt": "05 Nov 2026, 03:53 WIB",
+  "total": 320,
   "items": [
+    {
+      "id": "ai-meta-pulse",
+      "name": "Meta Pulse",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "tagline": "IDE AI & CLI Code Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Meta Pulse adalah asisten pemrograman otonom yang mempercepat pengembangan aplikasi dan refactoring kode. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/meta-pulse.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://metapulse.ai"
+    },
+    {
+      "id": "ai-trace-creator",
+      "name": "Trace Creator",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "Autonomous SaaS Integrator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Trace Creator adalah asisten otomatisasi alur kerja saas yang mengintegrasikan ratusan api pihak ketiga. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/trace-creator.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://tracecreator.co"
+    },
     {
       "id": "ai-metascraper",
       "name": "MetaScraper",
