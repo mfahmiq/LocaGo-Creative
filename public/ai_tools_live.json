@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 05:19 WIB",
-  "total": 348,
+  "updatedAt": "05 Nov 2026, 05:26 WIB",
+  "total": 350,
   "items": [
+    {
+      "id": "ai-render-copilot",
+      "name": "Render CoPilot",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Smart Data Analyst Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Render CoPilot adalah workspace analitik data cerdas untuk membedah spreadsheet dan membuat grafik interaktif. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/render-copilot.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://rendercopilot.app"
+    },
+    {
+      "id": "ai-vanguardassistant",
+      "name": "VanguardAssistant",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "tagline": "Code Quality & Security Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "VanguardAssistant adalah platform inspeksi kualitas kode, deteksi bug otomatis, dan security auditing. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/vanguardassistant.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://vanguardassistant.co"
+    },
     {
       "id": "ai-quantumlink",
       "name": "QuantumLink",
