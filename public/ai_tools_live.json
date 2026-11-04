@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 12:17 WIB",
-  "total": 75,
+  "updatedAt": "04 Nov 2026, 12:23 WIB",
+  "total": 77,
   "items": [
+    {
+      "id": "ai-recraft-v3",
+      "name": "Recraft v3",
+      "category": "Video & Graphics",
+      "pricingType": "Freemium",
+      "tagline": "Generator Seni Vektor SVG & Desain UI/Branding dengan Kontrol Brand Palette",
+      "description": "Alat desain berbasis AI khusus desainer grafis profesional. Mampu menghasilkan ilustrasi vektor SVG asli yang dapat diedit di Figma atau Illustrator dengan palet warna brand Anda.",
+      "features": [
+        "Ekspor format SVG vektor murni beresolusi tak terbatas",
+        "Kontrol ketat palet warna brand korporat (HEX colors)",
+        "Pembuat icon pack 3D dan flat yang seragam",
+        "Peringkat #1 di Artificial Analysis Image Benchmark"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.recraft.ai/?via=locagocreative"
+    },
+    {
+      "id": "ai-ideogram-20",
+      "name": "Ideogram 2.0",
+      "category": "Video & Graphics",
+      "pricingType": "Freemium",
+      "tagline": "Spesialis Tipografi & Desain Grafis AI untuk Poster, T-Shirt, dan Logo",
+      "description": "Platform AI generatif yang terkenal dengan keahliannya merender teks kaligrafi, logo tipografi, dan komposisi desain grafis yang bersih dan siap cetak.",
+      "features": [
+        "Integrasi teks bebas typo dalam berbagai font seni",
+        "Palet warna yang kohesif dan proporsional",
+        "Gaya desain grafis, ilustrasi vektor, dan fotorealisme",
+        "Fitur Magic Prompt untuk menyempurnakan ide mentah"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://ideogram.ai/?via=locagocreative"
+    },
     {
       "id": "ai-flux1",
       "name": "Flux.1",
