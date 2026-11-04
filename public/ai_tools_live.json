@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 06:46 WIB",
-  "total": 376,
+  "updatedAt": "05 Nov 2026, 06:53 WIB",
+  "total": 378,
   "items": [
+    {
+      "id": "ai-omnisearch",
+      "name": "OmniSearch",
+      "category": "Web & Scrapers",
+      "pricingType": "Free",
+      "tagline": "LLM-Ready Web Scraper Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "OmniSearch adalah api ekstraksi data web modern yang mengubah situs kompleks menjadi markdown ramah llm. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/omnisearch.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://omnisearch.tech"
+    },
+    {
+      "id": "ai-stack-voice",
+      "name": "Stack Voice",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Cinematic Video Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Stack Voice adalah generator video sinematik dengan kontrol kamera dinamis dan konsistensi fisika nyata. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/stack-voice.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://stackvoice.tech"
+    },
     {
       "id": "ai-cybercreator-ai",
       "name": "CyberCreator AI",
