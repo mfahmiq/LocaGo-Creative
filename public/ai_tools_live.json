@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 21:46 WIB",
-  "total": 202,
+  "updatedAt": "04 Nov 2026, 21:52 WIB",
+  "total": 204,
   "items": [
+    {
+      "id": "ai-echo-craft",
+      "name": "Echo Craft",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Smart Data Analyst Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Echo Craft adalah workspace analitik data cerdas untuk membedah spreadsheet dan membuat grafik interaktif. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/echo-craft.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://echocraft.app"
+    },
+    {
+      "id": "ai-cyberscraper",
+      "name": "CyberScraper",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Voice & Audio Synthesis Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "CyberScraper adalah platform sintesis vokal dan aransemen musik instan berkualitas studio rekaman. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/cyberscraper.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://cyberscraper.tech"
+    },
     {
       "id": "ai-vanguard-ops",
       "name": "Vanguard Ops",
