@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 00:40 WIB",
-  "total": 258,
+  "updatedAt": "05 Nov 2026, 00:46 WIB",
+  "total": 260,
   "items": [
+    {
+      "id": "ai-griddesigner",
+      "name": "GridDesigner",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Team Knowledge Vault Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "GridDesigner adalah sistem manajemen pengetahuan tim yang merangkum rapat dan dokumen kerja otomatis. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/griddesigner.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://griddesigner.co"
+    },
+    {
+      "id": "ai-iris-reader",
+      "name": "Iris Reader",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "Visual RAG Pipeline Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Iris Reader adalah platform low-code untuk merancang dan mempublikasikan workflow rag tanpa coding. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/iris-reader.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://irisreader.tech"
+    },
     {
       "id": "ai-quillpipeline",
       "name": "QuillPipeline",
