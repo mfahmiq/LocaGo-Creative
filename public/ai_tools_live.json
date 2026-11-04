@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 06:21 WIB",
-  "total": 368,
+  "updatedAt": "05 Nov 2026, 06:28 WIB",
+  "total": 370,
   "items": [
+    {
+      "id": "ai-pulse-copilot",
+      "name": "Pulse CoPilot",
+      "category": "Agentic Automation",
+      "pricingType": "Paid",
+      "tagline": "Autonomous SaaS Integrator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Pulse CoPilot adalah asisten otomatisasi alur kerja saas yang mengintegrasikan ratusan api pihak ketiga. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/pulse-copilot.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://pulsecopilot.dev"
+    },
+    {
+      "id": "ai-sparkdirector",
+      "name": "SparkDirector",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "Factual Search Grounding Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "SparkDirector adalah search engine api khusus untuk agen ai dengan sitasi sumber faktual real-time. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/sparkdirector.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://sparkdirector.dev"
+    },
     {
       "id": "ai-sonicbrain",
       "name": "SonicBrain",
