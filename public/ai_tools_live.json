@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 05:07 WIB",
-  "total": 344,
+  "updatedAt": "05 Nov 2026, 05:13 WIB",
+  "total": 346,
   "items": [
+    {
+      "id": "ai-deep-graph",
+      "name": "Deep Graph",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Multi-Agent Orchestrator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Deep Graph adalah framework orkestrasi multi-agen otonom untuk menyelesaikan tugas bisnis kompleks. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/deep-graph.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://deepgraph.dev"
+    },
+    {
+      "id": "ai-gridoptimizer",
+      "name": "GridOptimizer",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Code Quality & Security Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "GridOptimizer adalah platform inspeksi kualitas kode, deteksi bug otomatis, dan security auditing. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/gridoptimizer.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://gridoptimizer.app"
+    },
     {
       "id": "ai-meta-engine",
       "name": "Meta Engine",
