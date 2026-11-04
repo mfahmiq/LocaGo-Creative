@@ -1,26 +1,31 @@
 import React, { useState, useMemo, useEffect } from 'react';
+import { useAuth } from '../context/AuthContext';
 import { AI_TOOLS_LIST } from '../lib/data';
-import { AIToolItem } from '../types';
+import { AIToolItem, LinkListItem, CustomLinkItem } from '../types';
+import {
+  INITIAL_COMMUNITY_LINKLISTS,
+  matchCatalogTool,
+  sanitizeExternalUrl,
+  canUserEditLinkList,
+  cleanText
+} from '../lib/linklistUtils';
 
-export interface CustomLinkItem {
-  id: string;
-  title: string;
-  url: string;
-  note?: string;
-  createdAt?: string;
-}
-
-export interface LinkList {
-  id: string;
-  title: string;
-  notes: string;
-  videoUrl?: string;
-  toolIds: string[];
-  customLinks?: CustomLinkItem[];
-  createdAt: string;
-}
+// Embedded Secure Vault Data for Owner (Mas Fahmi) - Not exposed publicly
+const SECURE_AFFILIATE_CSV_DATA = `Rank,Tool Name,Kategori,Pricing Model,Komisi Affiliate,Estimasi Komisi IDR / Sale,Cookie Duration,Affiliate Signup URL,Notes & Monetization Angle
+1,Systeme.io,Automation & No-Code,Freemium,"60% Lifetime Recurring",Rp 250.000 - Rp 1.500.000 / bln,30 Hari,https://systeme.io/affiliate,Cocok untuk funnel bisnis & kursus
+2,Make.com,Automation & No-Code,Freemium,"20% Recurring (First Year)",Rp 100.000 - Rp 600.000 / bln,30 Hari,https://www.make.com/en/affiliates,Engine otomatisasi wajib untuk agency
+3,ElevenLabs,Voice & Audio AI,Freemium,"22% Recurring",Rp 80.000 - Rp 500.000 / bln,60 Hari,https://elevenlabs.io/affiliates,AI voiceover studio paling populer
+4,Cursor AI,AI Coding,Freemium,"Program Referral / Partner",Estimasi Rp 150.000 / aktivasi,30 Hari,https://www.cursor.com,IDE AI paling FYP di kalangan developer
+5,Bolt.new,AI Coding,Freemium,"StackBlitz Partner Program",Bagi hasil per seat dev,30 Hari,https://bolt.new,Web dev instan via prompt
+6,v0 by Vercel,AI Coding,Freemium,"Vercel Community Partner",Tier enterprise referral,30 Hari,https://v0.dev,Generator UI React paling disukai frontend
+7,InVideo AI,Video & Graphics,Freemium,"25% - 50% Lifetime",Rp 150.000 - Rp 900.000 / bln,120 Hari,https://invideo.io/affiliates,Generator video naratif text-to-video
+8,Descript,Video & Graphics,Freemium,"15% Recurring 1 Tahun",Rp 70.000 - Rp 350.000 / bln,30 Hari,https://www.descript.com/affiliates,Editor video berbasis transkrip naskah
+9,HeyGen,Video & Graphics,Free Trial,"20% Recurring",Rp 200.000 - Rp 1.200.000 / bln,30 Hari,https://www.heygen.com/affiliates,Avatar AI fotorealistik untuk presenter
+10,Rytr,AI Writing & SEO,Freemium,"30% Lifetime Recurring",Rp 90.000 - Rp 450.000 / bln,60 Hari,https://rytr.me/affiliate,Copywriting praktis untuk UMKM`;
 
 export const AIToolsHub: React.FC = () => {
+  const { user, isOwner, isLoggedIn, openAuthModal, logout } = useAuth();
+
   const [tools, setTools] = useState<AIToolItem[]>(AI_TOOLS_LIST);
   const [selectedCategory, setSelectedCategory] = useState<string>('Semua');
   const [selectedPricing, setSelectedPricing] = useState<string>('Semua');
@@ -31,63 +36,13 @@ export const AIToolsHub: React.FC = () => {
   // Modal Detail Tool (Full Preview)
   const [viewingTool, setViewingTool] = useState<AIToolItem | null>(null);
 
-  // OWNER AUTHENTICATION STATE (Strictly restricted to Mas Fahmi)
-  const [isOwner, setIsOwner] = useState<boolean>(() => {
+  // LinkLists State (Shared with LinkListsHub via localStorage)
+  const [linkLists, setLinkLists] = useState<LinkListItem[]>(() => {
     try {
-      if (typeof window !== 'undefined') {
-        // 1. Check persistent localStorage
-        if (localStorage.getItem('locago_owner_authenticated') === 'true') {
-          return true;
-        }
-        // 2. Check URL query params (?owner=fahmi or ?admin=fahmi or ?key=locago2026)
-        const params = new URLSearchParams(window.location.search);
-        const ownerQuery = params.get('owner') || params.get('admin') || params.get('key');
-        if (ownerQuery && ['fahmi', 'locago', 'locago2026', 'fahmi2026', 'master'].includes(ownerQuery.toLowerCase())) {
-          localStorage.setItem('locago_owner_authenticated', 'true');
-          return true;
-        }
-        // 3. Check URL hash (#owner=fahmi)
-        if (window.location.hash.includes('owner=')) {
-          const hashVal = window.location.hash.split('owner=')[1]?.split('&')[0];
-          if (hashVal && ['fahmi', 'locago', 'locago2026', 'fahmi2026', 'master'].includes(hashVal.toLowerCase())) {
-            localStorage.setItem('locago_owner_authenticated', 'true');
-            return true;
-          }
-        }
-      }
-    } catch {}
-    return false;
-  });
-
-  const [isOwnerModalOpen, setIsOwnerModalOpen] = useState<boolean>(false);
-  const [ownerPinInput, setOwnerPinInput] = useState<string>('');
-  const [ownerAuthError, setOwnerAuthError] = useState<string | null>(null);
-
-  // LinkList States
-  const [linkLists, setLinkLists] = useState<LinkList[]>(() => {
-    try {
-      const saved = localStorage.getItem('locago_ai_linklists');
+      const saved = localStorage.getItem('locago_community_linklists');
       if (saved) return JSON.parse(saved);
     } catch {}
-    // Default master list authored by Mas Fahmi
-    return [
-      {
-        id: 'list-konten-ig-desain-video',
-        title: 'Top 5 AI Tools Konten Kreator IG & Video Editor',
-        notes: 'Kumpulan tool AI wajib untuk memproduksi video Reels, voiceover studio, dan aset visual siap FYP tanpa repot rekaman berulang kali.',
-        videoUrl: 'https://www.instagram.com/locagocreative',
-        toolIds: ['tool-cursor', 'tool-elevenlabs', 'tool-make', 'tool-bolt', 'tool-v0', 'tool-systeme'],
-        customLinks: [
-          {
-            id: 'custom-link-prompt',
-            title: 'Template Prompt Storyboard & Hook Video FYP (Google Doc)',
-            url: 'https://www.locagocreative.my.id/#articles',
-            note: 'Formula copywriting 3 detik pertama & struktur naskah video pendek viral.'
-          }
-        ],
-        createdAt: '04 Nov 2026'
-      }
-    ];
+    return INITIAL_COMMUNITY_LINKLISTS;
   });
 
   const [activeLinkListId, setActiveLinkListId] = useState<string | null>(null);
@@ -96,8 +51,8 @@ export const AIToolsHub: React.FC = () => {
   const [isCreateListModalOpen, setIsCreateListModalOpen] = useState<boolean>(false);
   const [newListForm, setNewListForm] = useState({ title: '', notes: '', videoUrl: '' });
 
-  // Edit LinkList & Manual Custom Link States (Only for Owner)
-  const [editingLinkList, setEditingLinkList] = useState<LinkList | null>(null);
+  // Edit LinkList & Manual Custom Link States
+  const [editingLinkList, setEditingLinkList] = useState<LinkListItem | null>(null);
   const [isAddCustomLinkModalOpen, setIsAddCustomLinkModalOpen] = useState<boolean>(false);
   const [customLinkForm, setCustomLinkForm] = useState({ title: '', url: '', note: '' });
 
@@ -105,49 +60,26 @@ export const AIToolsHub: React.FC = () => {
 
   const showToast = (msg: string) => {
     setToastMessage(msg);
-    setTimeout(() => setToastMessage(null), 3000);
+    setTimeout(() => setToastMessage(null), 3500);
   };
 
-  // Owner Login handler
-  const handleOwnerLogin = (e: React.FormEvent) => {
-    e.preventDefault();
-    const validPins = ['fahmi', 'locago', 'locago2026', 'fahmi2026', 'master', '0411'];
-    if (validPins.includes(ownerPinInput.trim().toLowerCase())) {
-      setIsOwner(true);
-      try {
-        localStorage.setItem('locago_owner_authenticated', 'true');
-      } catch {}
-      setIsOwnerModalOpen(false);
-      setOwnerPinInput('');
-      setOwnerAuthError(null);
-      showToast('👑 Mode Owner Aktif! Selamat datang kembali, Mas Fahmi.');
-    } else {
-      setOwnerAuthError('PIN / Kata Sandi salah. Akses ditolak.');
-    }
-  };
-
-  const handleOwnerLogout = () => {
-    setIsOwner(false);
+  // Sync LinkLists to localStorage
+  const saveLinkLists = (updated: LinkListItem[]) => {
+    setLinkLists(updated);
     try {
-      localStorage.removeItem('locago_owner_authenticated');
+      localStorage.setItem('locago_community_linklists', JSON.stringify(updated));
     } catch {}
-    setEditingLinkList(null);
-    setIsCreateListModalOpen(false);
-    setIsAddCustomLinkModalOpen(false);
-    setToolToAddToLinkList(null);
-    showToast('Mode Owner dinonaktifkan. Mode pengunjung publik aktif.');
   };
 
-  // Robust tool matching helper (matches by exact ID, normalized slug, or tool name)
+  // Robust tool matching helper
   const isToolInList = (tool: AIToolItem, toolIds: string[]): boolean => {
     if (!tool || !toolIds || toolIds.length === 0) return false;
-    const clean = (s: string) => (s || '').toLowerCase().replace(/^(tool-|ai-)/, '').replace(/[^a-z0-9]/g, '');
-    const tId = clean(tool.id || '');
-    const tName = clean(tool.name || '');
+    const tId = cleanText(tool.id);
+    const tName = cleanText(tool.name);
     return toolIds.some((id) => {
       if (!id) return false;
       if (id === tool.id) return true;
-      const cleanId = clean(id);
+      const cleanId = cleanText(id);
       if (!cleanId) return false;
       return (
         cleanId === tId ||
@@ -156,34 +88,6 @@ export const AIToolsHub: React.FC = () => {
         (cleanId.length >= 4 && (tName.includes(cleanId) || cleanId.includes(tName)))
       );
     });
-  };
-
-  // Sync LinkLists to localStorage & Supabase
-  const saveLinkLists = (updated: LinkList[]) => {
-    setLinkLists(updated);
-    try {
-      localStorage.setItem('locago_ai_linklists', JSON.stringify(updated));
-    } catch {}
-
-    // Cloud backup to Supabase
-    try {
-      const anonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || 'sb_publishable_H-meffsrYDjKI6UuwybniA_EsyPmg46';
-      fetch('https://mnxbnddjmkruzabhlrtq.supabase.co/rest/v1/kb_briefs', {
-        method: 'POST',
-        headers: {
-          'apikey': anonKey,
-          'Authorization': `Bearer ${anonKey}`,
-          'Content-Type': 'application/json',
-          'Prefer': 'return=minimal'
-        },
-        body: JSON.stringify({
-          category: 'linklist_backup',
-          topic: `LinkLists Backup (${updated.length} collections)`,
-          keywords: ['linklists', 'backup', 'instagram_cta', 'owner_fahmi'],
-          content: JSON.stringify(updated)
-        })
-      }).catch(() => {});
-    } catch {}
   };
 
   // Handle URL hash for shared LinkLists (e.g. #linklist=list-konten-ig-desain-video)
@@ -219,7 +123,7 @@ export const AIToolsHub: React.FC = () => {
       .catch(() => {});
   }, []);
 
-  // Form submission state
+  // Form submission state for new tool submission
   const [submitForm, setSubmitForm] = useState({
     toolName: '',
     websiteUrl: '',
@@ -334,15 +238,25 @@ export const AIToolsHub: React.FC = () => {
     return linkLists.find((l) => l.id === activeLinkListId) || null;
   }, [activeLinkListId, linkLists]);
 
+  // Permission check for active playlist
+  const canEditActiveList = useMemo(() => {
+    return activeLinkList ? canUserEditLinkList(activeLinkList, user) : false;
+  }, [activeLinkList, user]);
+
+  // Toggle tool inside playlist
   const toggleToolInLinkList = (listId: string, toolId: string) => {
-    if (!isOwner) return;
-    const clean = (s: string) => (s || '').toLowerCase().replace(/^(tool-|ai-)/, '').replace(/[^a-z0-9]/g, '');
-    const cToolId = clean(toolId);
+    const targetList = linkLists.find((l) => l.id === listId);
+    if (!targetList || !canUserEditLinkList(targetList, user)) {
+      showToast('⚠️ Anda hanya dapat mengubah playlist milik Anda sendiri.');
+      return;
+    }
+
+    const cToolId = cleanText(toolId);
     const updated = linkLists.map((list) => {
       if (list.id === listId) {
-        const exists = list.toolIds.some((id) => id === toolId || clean(id) === cToolId);
+        const exists = list.toolIds.some((id) => id === toolId || cleanText(id) === cToolId);
         const newToolIds = exists
-          ? list.toolIds.filter((id) => id !== toolId && clean(id) !== cToolId)
+          ? list.toolIds.filter((id) => id !== toolId && cleanText(id) !== cToolId)
           : [...list.toolIds, toolId];
         return { ...list, toolIds: newToolIds };
       }
@@ -352,30 +266,45 @@ export const AIToolsHub: React.FC = () => {
     showToast('Koleksi LinkList berhasil diperbarui!');
   };
 
+  // Create new list handler
   const handleCreateNewList = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!isOwner) return;
+    if (!isLoggedIn) {
+      openAuthModal();
+      return;
+    }
     if (!newListForm.title.trim()) return;
+
     const slug = newListForm.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-    const newList: LinkList = {
+    const newList: LinkListItem = {
       id: `list-${slug}-${Date.now().toString().slice(-4)}`,
       title: newListForm.title.trim(),
       notes: newListForm.notes.trim(),
       videoUrl: newListForm.videoUrl.trim() || undefined,
       toolIds: toolToAddToLinkList ? [toolToAddToLinkList.id] : [],
       customLinks: [],
-      createdAt: new Date().toLocaleDateString('id-ID', { day: '2-digit', month: 'short', year: 'numeric' })
+      userId: user?.id,
+      authorEmail: user?.email,
+      authorName: isOwner ? 'Mas Fahmi (Founder & Owner)' : (user?.name || 'Kreator Komunitas'),
+      isOfficial: isOwner,
+      createdAt: new Date().toLocaleDateString('id-ID', { day: '2-digit', month: 'short', year: 'numeric' }),
+      views: 12
     };
+
     saveLinkLists([newList, ...linkLists]);
     setNewListForm({ title: '', notes: '', videoUrl: '' });
     setIsCreateListModalOpen(false);
     showToast(`LinkList "${newList.title}" berhasil dibuat!`);
   };
 
-  // Save changes from Edit LinkList modal (Owner Only)
+  // Save changes from Edit LinkList modal
   const handleSaveEditedLinkList = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!isOwner || !editingLinkList) return;
+    if (!editingLinkList || !canUserEditLinkList(editingLinkList, user)) {
+      showToast('⚠️ Anda tidak memiliki izin untuk mengedit playlist ini.');
+      return;
+    }
+
     const updated = linkLists.map((item) =>
       item.id === editingLinkList.id ? editingLinkList : item
     );
@@ -384,24 +313,54 @@ export const AIToolsHub: React.FC = () => {
     showToast('✅ Catatan dan info LinkList berhasil disimpan!');
   };
 
-  // Add a manual custom link to active or specified list (Owner Only)
+  // Add a manual custom link (Enforces auto-catalog deduplication & anti-affiliate rules!)
   const handleAddCustomLinkSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!isOwner) return;
     if (!customLinkForm.title.trim() || !customLinkForm.url.trim()) return;
 
-    let targetUrl = customLinkForm.url.trim();
-    if (!/^https?:\/\//i.test(targetUrl)) {
-      targetUrl = 'https://' + targetUrl;
-    }
+    const rawTitle = customLinkForm.title.trim();
+    const rawUrl = customLinkForm.url.trim();
 
     const targetListId = editingLinkList ? editingLinkList.id : activeLinkListId;
     if (!targetListId) return;
 
+    const targetList = linkLists.find((l) => l.id === targetListId);
+    if (!targetList || !canUserEditLinkList(targetList, user)) {
+      showToast('⚠️ Anda tidak dapat menambahkan tautan ke playlist milik orang lain.');
+      return;
+    }
+
+    // 1. RULE: Check if tool matches catalog!
+    const matched = matchCatalogTool(rawUrl, tools) || matchCatalogTool(rawTitle, tools);
+    if (matched) {
+      // Auto-replace: Add to catalog toolIds instead of unverified manual link!
+      const updated = linkLists.map((item) => {
+        if (item.id === targetListId) {
+          const currentToolIds = item.toolIds || [];
+          return {
+            ...item,
+            toolIds: currentToolIds.includes(matched.id) ? currentToolIds : [...currentToolIds, matched.id]
+          };
+        }
+        return item;
+      });
+      saveLinkLists(updated);
+      setCustomLinkForm({ title: '', url: '', note: '' });
+      setIsAddCustomLinkModalOpen(false);
+      showToast(`✨ Tool Terdeteksi! "${matched.name}" telah terdaftar di LocaGo. Otomatis dimasukkan ke daftar tools resmi.`);
+      return;
+    }
+
+    // 2. RULE: Non-owner cannot add external affiliate parameters!
+    const { cleanUrl, wasSanitized, reason } = sanitizeExternalUrl(rawUrl, isOwner);
+    if (wasSanitized && !isOwner) {
+      showToast(`⚠️ ${reason || 'Parameter affiliate eksternal telah dibersihkan secara otomatis.'}`);
+    }
+
     const newCustomItem: CustomLinkItem = {
       id: `custom-${Date.now().toString().slice(-6)}`,
-      title: customLinkForm.title.trim(),
-      url: targetUrl,
+      title: rawTitle,
+      url: cleanUrl,
       note: customLinkForm.note.trim() || undefined,
       createdAt: new Date().toLocaleDateString('id-ID', { day: '2-digit', month: 'short' })
     };
@@ -431,9 +390,14 @@ export const AIToolsHub: React.FC = () => {
     showToast(`✅ Link manual "${newCustomItem.title}" berhasil ditambahkan!`);
   };
 
-  // Remove a manual custom link (Owner Only)
+  // Remove a manual custom link
   const handleRemoveCustomLink = (listId: string, customLinkId: string) => {
-    if (!isOwner) return;
+    const targetList = linkLists.find((l) => l.id === listId);
+    if (!targetList || !canUserEditLinkList(targetList, user)) {
+      showToast('⚠️ Anda tidak dapat menghapus tautan dari playlist ini.');
+      return;
+    }
+
     const updated = linkLists.map((item) => {
       if (item.id === listId) {
         return {
@@ -455,9 +419,14 @@ export const AIToolsHub: React.FC = () => {
     showToast('Tautan manual dihapus dari LinkList.');
   };
 
-  // Delete an entire LinkList (Owner Only)
+  // Delete an entire LinkList
   const handleDeleteLinkList = (listId: string) => {
-    if (!isOwner) return;
+    const targetList = linkLists.find((l) => l.id === listId);
+    if (!targetList || !canUserEditLinkList(targetList, user)) {
+      showToast('⚠️ Anda tidak memiliki hak akses untuk menghapus playlist ini.');
+      return;
+    }
+
     if (!confirm('Apakah Anda yakin ingin menghapus LinkList ini?')) return;
     const updated = linkLists.filter((l) => l.id !== listId);
     saveLinkLists(updated);
@@ -472,9 +441,26 @@ export const AIToolsHub: React.FC = () => {
   };
 
   const copyShareLink = (listId: string) => {
-    const url = `${window.location.origin}/#linklist=${listId}`;
+    const url = `${window.location.origin}/#ai-tools#linklist=${listId}`;
     navigator.clipboard.writeText(url);
     showToast('✅ Tautan LinkList berhasil disalin! Siap dikirim ke DM Instagram!');
+  };
+
+  // Secure download of private affiliate CSV (Exclusively for Mas Fahmi)
+  const handleDownloadAffiliateCSV = () => {
+    if (!isOwner) {
+      showToast('⚠️ Fitur ini hanya dapat diakses oleh Owner (Mas Fahmi).');
+      return;
+    }
+    const blob = new Blob([SECURE_AFFILIATE_CSV_DATA], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.setAttribute('download', `affiliate_tools_leads_owner_${Date.now()}.csv`);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    showToast('📥 Berkas Data Affiliate Leads berhasil diunduh secara privat!');
   };
 
   // Filter tools
@@ -544,61 +530,57 @@ export const AIToolsHub: React.FC = () => {
             Perpustakaan kurasi kecerdasan buatan, engine otomatisasi no-code, dan model AI paling produktif untuk mempercepat pertumbuhan bisnis dan proyek Anda.
           </p>
 
-          {/* Action Bar: Public vs Owner Gating */}
+          {/* Action Bar */}
           <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
-            {/* View Curated Playlists Button (Publicly accessible to view) */}
-            <button
-              onClick={() => setIsLinkListManagerOpen(true)}
+            {/* Link to Public LinkLists Library */}
+            <a
+              href="#linklists"
               className="px-4 py-2.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white text-xs font-mono font-bold transition-all shadow-md flex items-center gap-2 cursor-pointer active:scale-95"
             >
               <span>🗂️</span>
-              <span>Koleksi Playlist ({linkLists.length})</span>
+              <span>Library Playlist Publik ({linkLists.length})</span>
+            </a>
+
+            {/* Quick Drawer Button */}
+            <button
+              onClick={() => setIsLinkListManagerOpen(true)}
+              className="px-4 py-2.5 rounded-xl bg-neutral-100 dark:bg-neutral-900 hover:bg-neutral-200 dark:hover:bg-neutral-800 text-neutral-800 dark:text-neutral-200 text-xs font-mono font-bold transition-all border border-neutral-300 dark:border-neutral-800 flex items-center gap-2 cursor-pointer"
+            >
+              <span>📂</span>
+              <span>Koleksi Cepat</span>
             </button>
 
-            {/* OWNER ONLY: Private Affiliate CSV Leads Download */}
+            {/* OWNER ONLY: Secure Affiliate Leads Download */}
             {isOwner && (
-              <a
-                href="/affiliate_tools_leads.csv"
-                download="affiliate_tools_leads.csv"
+              <button
+                onClick={handleDownloadAffiliateCSV}
                 className="px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-mono font-bold transition-all shadow-md flex items-center gap-2 cursor-pointer active:scale-95 border border-emerald-400/30"
                 title="Khusus Mas Fahmi: Unduh Data Affiliate Leads"
               >
                 <span>📥</span>
                 <span>Data Affiliate CSV (Owner)</span>
-              </a>
-            )}
-
-            {/* OWNER ONLY: Submit Tool Baru */}
-            {isOwner && (
-              <button
-                onClick={() => setIsSubmitModalOpen(true)}
-                className="px-4 py-2.5 rounded-xl bg-neutral-900 dark:bg-neutral-800 hover:bg-neutral-800 dark:hover:bg-neutral-700 text-white text-xs font-mono font-bold transition-all border border-neutral-700/80 flex items-center gap-2 cursor-pointer active:scale-95"
-              >
-                <span>+</span>
-                <span>Submit Tool Baru</span>
               </button>
             )}
 
-            {/* Owner Status / Discreet Login Link */}
-            {isOwner ? (
-              <div className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-500 dark:text-amber-400 text-xs font-mono">
-                <span>👑 Mode Owner: Mas Fahmi</span>
+            {/* Auth Button / Status */}
+            {isLoggedIn ? (
+              <div className="flex items-center gap-2 px-3.5 py-1.5 rounded-xl bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 text-xs font-mono">
+                <span>{isOwner ? '👑' : '👤'}</span>
+                <span className="font-bold">{user?.name}</span>
                 <button
-                  onClick={handleOwnerLogout}
-                  className="text-[10px] underline hover:text-amber-300 ml-1 cursor-pointer"
-                  title="Kembali ke tampilan pengunjung umum"
+                  onClick={logout}
+                  className="text-[10px] underline hover:text-purple-400 ml-1 cursor-pointer"
                 >
                   (Keluar)
                 </button>
               </div>
             ) : (
               <button
-                onClick={() => setIsOwnerModalOpen(true)}
-                className="px-2.5 py-1.5 rounded-xl text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-300 text-[11px] font-mono flex items-center gap-1 cursor-pointer opacity-40 hover:opacity-100 transition-opacity"
-                title="Akses Masuk Owner (Mas Fahmi)"
+                onClick={openAuthModal}
+                className="px-3 py-2 rounded-xl text-neutral-400 hover:text-neutral-700 dark:hover:text-neutral-200 text-xs font-mono flex items-center gap-1.5 cursor-pointer opacity-70 hover:opacity-100 transition-opacity"
               >
                 <span>🔐</span>
-                <span>Owner</span>
+                <span>Masuk / Daftar</span>
               </button>
             )}
           </div>
@@ -609,32 +591,37 @@ export const AIToolsHub: React.FC = () => {
           <div className="mb-8 p-6 sm:p-7 rounded-3xl bg-gradient-to-r from-purple-900/40 via-purple-950/60 to-neutral-900 border-2 border-purple-500/40 text-white shadow-2xl relative overflow-hidden">
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 border-b border-purple-500/20 pb-4 mb-4">
               <div>
-                <span className="px-2.5 py-0.5 rounded text-[11px] font-mono font-bold bg-purple-500/30 text-purple-300 border border-purple-400/30 uppercase tracking-wider">
-                  📂 Kurasi Playlist Khusus Konten
-                </span>
-                <h2 className="text-2xl sm:text-3xl font-extrabold mt-2 text-white">
+                <div className="flex items-center gap-2 mb-1">
+                  <span className="px-2.5 py-0.5 rounded text-[11px] font-mono font-bold bg-purple-500/30 text-purple-300 border border-purple-400/30 uppercase tracking-wider">
+                    📂 Kurasi Playlist Khusus Konten
+                  </span>
+                  <span className="text-xs font-mono text-neutral-400">
+                    oleh <strong className="text-white">{activeLinkList.authorName || 'Kreator LocaGo'}</strong>
+                  </span>
+                </div>
+                <h2 className="text-2xl sm:text-3xl font-extrabold text-white">
                   {activeLinkList.title}
                 </h2>
               </div>
               <div className="flex flex-wrap items-center gap-2">
-                {/* OWNER ONLY: Edit Catatan & Info Button */}
-                {isOwner && (
+                {/* Edit Button: ONLY IF AUTHOR OR OWNER */}
+                {canEditActiveList && (
                   <button
                     onClick={() => setEditingLinkList({ ...activeLinkList })}
                     className="px-3.5 py-2 rounded-xl bg-purple-700/80 hover:bg-purple-600 text-white font-mono text-xs font-bold transition-all border border-purple-400/40 shadow-sm flex items-center gap-1.5 cursor-pointer active:scale-95"
-                    title="Khusus Owner: Edit Judul, Catatan, Video, dan Link"
+                    title="Edit Judul, Catatan, Video, dan Link"
                   >
                     <span>✏️</span>
                     <span>Edit Catatan & Info</span>
                   </button>
                 )}
 
-                {/* OWNER ONLY: Add Manual Link Button */}
-                {isOwner && (
+                {/* Add Manual Link Button: ONLY IF AUTHOR OR OWNER */}
+                {canEditActiveList && (
                   <button
                     onClick={() => setIsAddCustomLinkModalOpen(true)}
                     className="px-3.5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-mono text-xs font-bold transition-all shadow-sm flex items-center gap-1.5 cursor-pointer active:scale-95"
-                    title="Khusus Owner: Tambah Tautan Manual Custom ke Playlist ini"
+                    title="Tambah Tautan Manual Custom ke Playlist ini"
                   >
                     <span>+</span>
                     <span>Tambah Link Manual</span>
@@ -663,11 +650,13 @@ export const AIToolsHub: React.FC = () => {
               </div>
             </div>
 
-            {/* Notes Section: Clean view for public, with inline edit button ONLY for owner */}
+            {/* Notes Section: Clean view for public, with inline edit button ONLY for authorized author/owner */}
             <div className="p-4 rounded-2xl bg-neutral-900/70 border border-purple-500/20 text-neutral-300 text-xs sm:text-sm leading-relaxed mb-4">
               <div className="flex items-center justify-between gap-2 mb-1.5">
-                <strong className="text-purple-400 font-mono block">📝 Catatan Khusus dari Mas Fahmi:</strong>
-                {isOwner && (
+                <strong className="text-purple-400 font-mono block">
+                  📝 Catatan Khusus dari {activeLinkList.authorName || 'Kreator'}:
+                </strong>
+                {canEditActiveList && (
                   <button
                     onClick={() => setEditingLinkList({ ...activeLinkList })}
                     className="text-[11px] font-mono text-purple-300 hover:text-purple-200 underline cursor-pointer"
@@ -705,7 +694,7 @@ export const AIToolsHub: React.FC = () => {
                   <span className="text-[11px] font-mono font-bold text-purple-300 uppercase tracking-wider">
                     🔗 Tautan & Referensi Tambahan ({activeLinkList.customLinks.length}):
                   </span>
-                  {isOwner && (
+                  {canEditActiveList && (
                     <button
                       onClick={() => setIsAddCustomLinkModalOpen(true)}
                       className="text-[11px] font-mono text-emerald-400 hover:text-emerald-300 underline cursor-pointer"
@@ -733,12 +722,12 @@ export const AIToolsHub: React.FC = () => {
                           <span>↗</span>
                         </a>
                       </div>
-                      {/* Delete button: ONLY FOR OWNER */}
-                      {isOwner && (
+                      {/* Delete button: ONLY FOR AUTHOR OR OWNER */}
+                      {canEditActiveList && (
                         <button
                           onClick={() => handleRemoveCustomLink(activeLinkList.id, cl.id)}
                           className="text-neutral-500 hover:text-rose-400 text-xs px-1 cursor-pointer shrink-0"
-                          title="Hapus tautan ini (Khusus Owner)"
+                          title="Hapus tautan ini"
                         >
                           ✕
                         </button>
@@ -752,7 +741,7 @@ export const AIToolsHub: React.FC = () => {
         )}
 
         {/* Filter Controls Box */}
-        <div className="bg-white dark:bg-neutral-900/90 border border-neutral-200/80 dark:border-neutral-800 rounded-2xl p-4 sm:p-5 mb-8 shadow-sm dark:shadow-2xl space-y-4">
+        <div className="bg-white dark:bg-neutral-900/90 border border-neutral-200/80 dark:border-neutral-800 rounded-2xl p-4 sm:p-5 mb-8 shadow-sm space-y-4">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 border-b border-neutral-100 dark:border-neutral-800/80 pb-4">
             <div className="relative w-full sm:w-96">
               <input
@@ -796,7 +785,7 @@ export const AIToolsHub: React.FC = () => {
                 className={`px-3 py-1.5 rounded-lg text-xs font-mono whitespace-nowrap transition-all cursor-pointer ${
                   selectedCategory === cat
                     ? 'bg-purple-600 text-white font-bold shadow-sm'
-                    : 'bg-neutral-100 dark:bg-neutral-950 text-neutral-600 dark:text-neutral-400 border border-neutral-200 dark:border-neutral-800 hover:border-neutral-300 dark:hover:border-neutral-700'
+                    : 'bg-neutral-100 dark:bg-neutral-950 text-neutral-600 dark:text-neutral-400 border border-neutral-200 dark:border-neutral-800 hover:border-neutral-300'
                 }`}
               >
                 {cat}
@@ -853,15 +842,15 @@ export const AIToolsHub: React.FC = () => {
                     </div>
 
                     <div className="flex items-center gap-1.5 shrink-0" onClick={(e) => e.stopPropagation()}>
-                      {/* Add to LinkList Button (+) - ONLY VISIBLE TO OWNER */}
-                      {isOwner && (
+                      {/* Add to LinkList Button (+) - VISIBLE FOR LOGGED IN USERS */}
+                      {isLoggedIn && (
                         <button
                           onClick={(e) => {
                             e.stopPropagation();
                             setToolToAddToLinkList(tool);
                           }}
                           className="px-2 py-1 rounded-lg text-xs font-mono font-bold bg-purple-50 dark:bg-purple-950/40 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-800 hover:bg-purple-600 hover:text-white transition-all flex items-center gap-1 cursor-pointer"
-                          title="Tambahkan ke LinkList Koleksi IG (Khusus Owner)"
+                          title="Tambahkan ke Playlist Saya"
                         >
                           <span>+</span>
                           <span className="hidden sm:inline">List</span>
@@ -879,7 +868,7 @@ export const AIToolsHub: React.FC = () => {
                         className={`px-2 py-1 rounded-lg text-xs font-mono font-bold transition-all cursor-pointer border flex items-center gap-1 ${
                           hasVoted
                             ? 'bg-rose-50 dark:bg-rose-500/20 text-rose-600 dark:text-rose-400 border-rose-300 dark:border-rose-500/40'
-                            : 'bg-neutral-50 dark:bg-neutral-950 text-neutral-600 dark:text-neutral-400 border border-neutral-200 dark:border-neutral-800 hover:border-neutral-300 dark:hover:border-neutral-700 hover:text-neutral-900 dark:hover:text-white'
+                            : 'bg-neutral-50 dark:bg-neutral-950 text-neutral-600 dark:text-neutral-400 border border-neutral-200 dark:border-neutral-800 hover:border-neutral-300 hover:text-neutral-900 dark:hover:text-white'
                         }`}
                         title="Upvote tool ini"
                       >
@@ -918,14 +907,14 @@ export const AIToolsHub: React.FC = () => {
                       <span>{(views[tool.id] || (120 + tool.name.length * 15))} views</span>
                     </div>
 
-                    {/* If viewing inside active LinkList: Provide 1-click Remove button ONLY FOR OWNER */}
-                    {activeLinkList && isOwner && (
+                    {/* If viewing inside active LinkList: 1-click remove button for authorized author/owner */}
+                    {activeLinkList && canEditActiveList && (
                       <button
                         onClick={() => toggleToolInLinkList(activeLinkList.id, tool.id)}
                         className="px-2 py-0.5 rounded text-[10px] font-mono text-rose-600 dark:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-950/40 border border-rose-200 dark:border-rose-900/40 transition-all cursor-pointer"
-                        title="Hapus tool ini dari playlist aktif (Khusus Owner)"
+                        title="Hapus tool ini dari playlist"
                       >
-                        ✕ Hapus dari List
+                        ✕ Hapus
                       </button>
                     )}
                   </div>
@@ -952,7 +941,7 @@ export const AIToolsHub: React.FC = () => {
             <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-2xl w-full shadow-2xl relative my-8 max-h-[90vh] overflow-y-auto text-neutral-900 dark:text-white">
               <button
                 onClick={() => setViewingTool(null)}
-                className="absolute top-5 right-5 text-neutral-400 hover:text-neutral-900 dark:hover:text-white font-mono text-xl cursor-pointer"
+                className="absolute top-5 right-5 text-neutral-400 hover:text-white font-mono text-xl cursor-pointer"
               >
                 ✕
               </button>
@@ -1014,8 +1003,7 @@ export const AIToolsHub: React.FC = () => {
 
               {/* Action Buttons in Modal */}
               <div className="pt-4 border-t border-neutral-200 dark:border-neutral-800 flex flex-col sm:flex-row items-center justify-between gap-3">
-                {/* Tambahkan ke LinkList: ONLY VISIBLE TO OWNER */}
-                {isOwner ? (
+                {isLoggedIn ? (
                   <button
                     onClick={() => {
                       setToolToAddToLinkList(viewingTool);
@@ -1024,10 +1012,18 @@ export const AIToolsHub: React.FC = () => {
                     className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 font-mono text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer"
                   >
                     <span>+</span>
-                    <span>Tambahkan ke LinkList</span>
+                    <span>Tambahkan ke Playlist Saya</span>
                   </button>
                 ) : (
-                  <div />
+                  <button
+                    onClick={() => {
+                      setViewingTool(null);
+                      openAuthModal();
+                    }}
+                    className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 text-neutral-600 dark:text-neutral-400 font-mono text-xs cursor-pointer"
+                  >
+                    🔐 Masuk untuk membuat Playlist
+                  </button>
                 )}
 
                 <a
@@ -1044,8 +1040,8 @@ export const AIToolsHub: React.FC = () => {
           </div>
         )}
 
-        {/* MODAL 2: ADD TO LINKLIST SELECTOR (OWNER ONLY) */}
-        {toolToAddToLinkList && isOwner && (
+        {/* MODAL 2: ADD TO LINKLIST SELECTOR (FOR LOGGED IN USER) */}
+        {toolToAddToLinkList && isLoggedIn && (
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
             <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-md w-full shadow-2xl relative text-neutral-900 dark:text-white">
               <button
@@ -1056,37 +1052,39 @@ export const AIToolsHub: React.FC = () => {
               </button>
 
               <h3 className="text-lg font-bold mb-1">
-                Tambahkan ke LinkList
+                Tambahkan ke Playlist
               </h3>
               <p className="text-xs text-neutral-500 font-mono mb-4">
-                Pilih LinkList tujuan untuk <strong className="text-purple-600 dark:text-purple-400">{toolToAddToLinkList.name}</strong>:
+                Pilih Playlist tujuan untuk <strong className="text-purple-600 dark:text-purple-400">{toolToAddToLinkList.name}</strong>:
               </p>
 
               <div className="space-y-2.5 max-h-60 overflow-y-auto mb-5 pr-1">
-                {linkLists.map((list) => {
-                  const inList = isToolInList(toolToAddToLinkList, list.toolIds);
-                  return (
-                    <div
-                      key={list.id}
-                      onClick={() => toggleToolInLinkList(list.id, toolToAddToLinkList.id)}
-                      className={`p-3 rounded-xl border transition-all cursor-pointer flex items-center justify-between gap-3 ${
-                        inList
-                          ? 'bg-purple-50 dark:bg-purple-950/40 border-purple-500 text-purple-900 dark:text-purple-200'
-                          : 'bg-neutral-50 dark:bg-neutral-950 border-neutral-200 dark:border-neutral-800 hover:border-neutral-300'
-                      }`}
-                    >
-                      <div>
-                        <h4 className="text-xs font-bold">{list.title}</h4>
-                        <span className="text-[10px] font-mono text-neutral-500">
-                          {tools.filter((t) => isToolInList(t, list.toolIds)).length} tool • {(list.customLinks || []).length} link manual
+                {linkLists
+                  .filter((l) => canUserEditLinkList(l, user))
+                  .map((list) => {
+                    const inList = isToolInList(toolToAddToLinkList, list.toolIds);
+                    return (
+                      <div
+                        key={list.id}
+                        onClick={() => toggleToolInLinkList(list.id, toolToAddToLinkList.id)}
+                        className={`p-3 rounded-xl border transition-all cursor-pointer flex items-center justify-between gap-3 ${
+                          inList
+                            ? 'bg-purple-50 dark:bg-purple-950/40 border-purple-500 text-purple-900 dark:text-purple-200'
+                            : 'bg-neutral-50 dark:bg-neutral-950 border-neutral-200 dark:border-neutral-800 hover:border-neutral-300'
+                        }`}
+                      >
+                        <div>
+                          <h4 className="text-xs font-bold">{list.title}</h4>
+                          <span className="text-[10px] font-mono text-neutral-500">
+                            {tools.filter((t) => isToolInList(t, list.toolIds)).length} tool • {(list.customLinks || []).length} link manual
+                          </span>
+                        </div>
+                        <span className={`px-2 py-1 rounded text-[11px] font-mono font-bold ${inList ? 'bg-purple-600 text-white' : 'bg-neutral-200 dark:bg-neutral-800'}`}>
+                          {inList ? '✓ Ada' : '+ Tambah'}
                         </span>
                       </div>
-                      <span className={`px-2 py-1 rounded text-[11px] font-mono font-bold ${inList ? 'bg-purple-600 text-white' : 'bg-neutral-200 dark:bg-neutral-800'}`}>
-                        {inList ? '✓ Ada' : '+ Tambah'}
-                      </span>
-                    </div>
-                  );
-                })}
+                    );
+                  })}
               </div>
 
               <div className="pt-3 border-t border-neutral-100 dark:border-neutral-800 flex items-center justify-between">
@@ -1094,7 +1092,7 @@ export const AIToolsHub: React.FC = () => {
                   onClick={() => setIsCreateListModalOpen(true)}
                   className="text-xs font-mono font-bold text-purple-600 dark:text-purple-400 hover:underline cursor-pointer"
                 >
-                  + Buat LinkList Baru
+                  + Buat Playlist Baru
                 </button>
                 <button
                   onClick={() => setToolToAddToLinkList(null)}
@@ -1107,8 +1105,8 @@ export const AIToolsHub: React.FC = () => {
           </div>
         )}
 
-        {/* MODAL 3: CREATE NEW LINKLIST (OWNER ONLY) */}
-        {isCreateListModalOpen && isOwner && (
+        {/* MODAL 3: CREATE NEW LINKLIST */}
+        {isCreateListModalOpen && isLoggedIn && (
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
             <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-lg w-full shadow-2xl relative text-neutral-900 dark:text-white">
               <button
@@ -1118,9 +1116,9 @@ export const AIToolsHub: React.FC = () => {
                 ✕
               </button>
 
-              <h3 className="text-xl font-bold mb-2">Buat LinkList Baru (Koleksi IG)</h3>
+              <h3 className="text-xl font-bold mb-2">Buat Playlist Baru (Koleksi IG)</h3>
               <p className="text-xs text-neutral-500 mb-6 font-mono">
-                Khusus Owner: Buat satu tautan khusus untuk membagikan daftar tool pilihan di konten Instagram atau media sosial.
+                Buat tautan kurasi khusus untuk audiens konten Instagram, TikTok, atau YouTube Anda.
               </p>
 
               <form onSubmit={handleCreateNewList} className="space-y-4">
@@ -1140,7 +1138,7 @@ export const AIToolsHub: React.FC = () => {
 
                 <div>
                   <label className="block text-xs font-mono font-medium text-neutral-700 dark:text-neutral-300 mb-1">
-                    Catatan / Notes untuk Audiens (Bisa Diedit Kapan Saja)
+                    Catatan / Notes untuk Audiens
                   </label>
                   <textarea
                     rows={3}
@@ -1184,8 +1182,8 @@ export const AIToolsHub: React.FC = () => {
           </div>
         )}
 
-        {/* MODAL 4: EDIT LINKLIST (OWNER ONLY) */}
-        {editingLinkList && isOwner && (
+        {/* MODAL 4: EDIT LINKLIST */}
+        {editingLinkList && canEditActiveList && (
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4 overflow-y-auto">
             <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-xl w-full shadow-2xl relative text-neutral-900 dark:text-white my-8 max-h-[90vh] overflow-y-auto">
               <button
@@ -1197,7 +1195,7 @@ export const AIToolsHub: React.FC = () => {
 
               <h3 className="text-xl font-bold mb-1">✏️ Edit Catatan & Info LinkList</h3>
               <p className="text-xs text-neutral-500 mb-6 font-mono">
-                Khusus Owner: Perbarui judul, catatan penjelasan untuk audiens, tautan video, atau kelola link manual.
+                Perbarui judul, catatan penjelasan untuk audiens, tautan video, atau kelola link manual.
               </p>
 
               <form onSubmit={handleSaveEditedLinkList} className="space-y-4">
@@ -1216,7 +1214,7 @@ export const AIToolsHub: React.FC = () => {
 
                 <div>
                   <label className="block text-xs font-mono font-medium text-neutral-700 dark:text-neutral-300 mb-1">
-                    Catatan Khusus untuk Audiens (Edit Sesuka Hati)
+                    Catatan Khusus untuk Audiens
                   </label>
                   <textarea
                     rows={4}
@@ -1313,8 +1311,8 @@ export const AIToolsHub: React.FC = () => {
           </div>
         )}
 
-        {/* MODAL 5: ADD MANUAL CUSTOM LINK (OWNER ONLY) */}
-        {isAddCustomLinkModalOpen && isOwner && (
+        {/* MODAL 5: ADD MANUAL CUSTOM LINK */}
+        {isAddCustomLinkModalOpen && canEditActiveList && (
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
             <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-md w-full shadow-2xl relative text-neutral-900 dark:text-white">
               <button
@@ -1326,7 +1324,7 @@ export const AIToolsHub: React.FC = () => {
 
               <h3 className="text-xl font-bold mb-1">🔗 Tambah Link Manual ke Playlist</h3>
               <p className="text-xs text-neutral-500 mb-5 font-mono">
-                Khusus Owner: Tambahkan link eksternal apa pun (form, landing page, grup WA/Telegram, affiliate link pribadi, dll) ke dalam playlist.
+                Tambahkan link eksternal (form, landing page, grup WA/Telegram, atau tool). Sistem akan otomatis mendeteksi tool katalog & membersihkan parameter affiliate.
               </p>
 
               <form onSubmit={handleAddCustomLinkSubmit} className="space-y-4">
@@ -1391,7 +1389,7 @@ export const AIToolsHub: React.FC = () => {
           </div>
         )}
 
-        {/* MODAL 6: MANAGE ALL LINKLISTS DRAWER (Public can browse & open; Only Owner can edit & create) */}
+        {/* MODAL 6: QUICK DRAWER LISTS */}
         {isLinkListManagerOpen && (
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
             <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-xl w-full shadow-2xl relative text-neutral-900 dark:text-white max-h-[85vh] overflow-y-auto">
@@ -1405,10 +1403,9 @@ export const AIToolsHub: React.FC = () => {
               <div className="flex items-center justify-between gap-4 mb-4">
                 <div>
                   <h3 className="text-xl font-bold">Koleksi Playlist Konten</h3>
-                  <span className="text-xs font-mono text-neutral-500">Daftar kurasi tools pilihan Mas Fahmi untuk konten Instagram</span>
+                  <span className="text-xs font-mono text-neutral-500">Daftar kurasi tools pilihan Mas Fahmi & Komunitas</span>
                 </div>
-                {/* + Buat Baru ONLY FOR OWNER */}
-                {isOwner && (
+                {isLoggedIn && (
                   <button
                     onClick={() => setIsCreateListModalOpen(true)}
                     className="px-3 py-1.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-mono text-xs font-bold cursor-pointer shrink-0"
@@ -1422,83 +1419,83 @@ export const AIToolsHub: React.FC = () => {
                 {linkLists.length === 0 ? (
                   <p className="text-xs font-mono text-neutral-500 py-6 text-center">Belum ada LinkList yang dibuat.</p>
                 ) : (
-                  linkLists.map((list) => (
-                    <div
-                      key={list.id}
-                      className="p-4 rounded-2xl bg-neutral-50 dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-800 space-y-2"
-                    >
-                      <div className="flex items-start justify-between gap-3">
-                        <div>
-                          <h4 className="font-bold text-sm text-neutral-900 dark:text-white">{list.title}</h4>
-                          <span className="text-[10px] font-mono text-neutral-500">
-                            {list.createdAt} • {tools.filter((t) => isToolInList(t, list.toolIds)).length} tools • {(list.customLinks || []).length} link manual
-                          </span>
-                        </div>
-                        <div className="flex items-center gap-1.5 shrink-0">
-                          {/* Edit button: ONLY FOR OWNER */}
-                          {isOwner && (
+                  linkLists.map((list) => {
+                    const canEdit = canUserEditLinkList(list, user);
+                    return (
+                      <div
+                        key={list.id}
+                        className="p-4 rounded-2xl bg-neutral-50 dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-800 space-y-2"
+                      >
+                        <div className="flex items-start justify-between gap-3">
+                          <div>
+                            <div className="flex items-center gap-1.5 mb-0.5">
+                              <h4 className="font-bold text-sm text-neutral-900 dark:text-white">{list.title}</h4>
+                              {list.isOfficial && (
+                                <span className="text-[9px] font-mono font-bold px-1.5 py-0.2 rounded bg-amber-500/10 text-amber-500 border border-amber-500/30">
+                                  Resmi
+                                </span>
+                              )}
+                            </div>
+                            <span className="text-[10px] font-mono text-neutral-500">
+                              oleh {list.authorName || 'Kreator'} • {list.createdAt} • {tools.filter((t) => isToolInList(t, list.toolIds)).length} tools
+                            </span>
+                          </div>
+                          <div className="flex items-center gap-1.5 shrink-0">
+                            {canEdit && (
+                              <button
+                                onClick={() => {
+                                  setEditingLinkList({ ...list });
+                                  setIsLinkListManagerOpen(false);
+                                }}
+                                className="px-2.5 py-1 rounded-lg bg-neutral-200 dark:bg-neutral-800 hover:bg-neutral-300 dark:hover:bg-neutral-700 text-neutral-800 dark:text-neutral-200 font-mono text-xs font-bold transition-all cursor-pointer"
+                                title="Edit Playlist"
+                              >
+                                ✏️ Edit
+                              </button>
+                            )}
+
                             <button
                               onClick={() => {
-                                setEditingLinkList({ ...list });
+                                setActiveLinkListId(list.id);
+                                setSelectedCategory('Semua');
+                                setSelectedPricing('Semua');
+                                setSearchQuery('');
                                 setIsLinkListManagerOpen(false);
                               }}
-                              className="px-2.5 py-1 rounded-lg bg-neutral-200 dark:bg-neutral-800 hover:bg-neutral-300 dark:hover:bg-neutral-700 text-neutral-800 dark:text-neutral-200 font-mono text-xs font-bold transition-all cursor-pointer"
-                              title="Edit Catatan & Info (Khusus Owner)"
+                              className="px-2.5 py-1 rounded-lg bg-neutral-200 dark:bg-neutral-800 hover:bg-purple-600 hover:text-white font-mono text-xs font-bold transition-all cursor-pointer"
                             >
-                              ✏️ Edit
+                              Buka ↗
                             </button>
-                          )}
 
-                          {/* Open button: Publicly accessible */}
-                          <button
-                            onClick={() => {
-                              setActiveLinkListId(list.id);
-                              setSelectedCategory('Semua');
-                              setSelectedPricing('Semua');
-                              setSearchQuery('');
-                              setIsLinkListManagerOpen(false);
-                            }}
-                            className="px-2.5 py-1 rounded-lg bg-neutral-200 dark:bg-neutral-800 hover:bg-purple-600 hover:text-white font-mono text-xs font-bold transition-all cursor-pointer"
-                          >
-                            Buka ↗
-                          </button>
-
-                          {/* Share button: Publicly accessible */}
-                          <button
-                            onClick={() => copyShareLink(list.id)}
-                            className="px-2.5 py-1 rounded-lg bg-purple-600 hover:bg-purple-500 text-white font-mono text-xs font-bold transition-all cursor-pointer shadow-sm"
-                            title="Salin Link Publik"
-                          >
-                            🔗 Share
-                          </button>
+                            <button
+                              onClick={() => copyShareLink(list.id)}
+                              className="px-2.5 py-1 rounded-lg bg-purple-600 hover:bg-purple-500 text-white font-mono text-xs font-bold transition-all cursor-pointer shadow-sm"
+                              title="Salin Link Publik"
+                            >
+                              🔗 Share
+                            </button>
+                          </div>
                         </div>
-                      </div>
 
-                      {list.notes && (
-                        <p className="text-xs text-neutral-600 dark:text-neutral-400 line-clamp-2">
-                          {list.notes}
-                        </p>
-                      )}
-                    </div>
-                  ))
+                        {list.notes && (
+                          <p className="text-xs text-neutral-600 dark:text-neutral-400 line-clamp-2">
+                            {list.notes}
+                          </p>
+                        )}
+                      </div>
+                    );
+                  })
                 )}
               </div>
 
               <div className="pt-3 border-t border-neutral-100 dark:border-neutral-800 flex items-center justify-between">
-                {!isOwner ? (
-                  <button
-                    onClick={() => {
-                      setIsLinkListManagerOpen(false);
-                      setIsOwnerModalOpen(true);
-                    }}
-                    className="text-xs font-mono text-neutral-400 hover:text-purple-400 cursor-pointer flex items-center gap-1"
-                  >
-                    <span>🔐</span>
-                    <span>Masuk sebagai Owner</span>
-                  </button>
-                ) : (
-                  <span className="text-xs font-mono text-amber-500">👑 Login sebagai Owner</span>
-                )}
+                <a
+                  href="#linklists"
+                  onClick={() => setIsLinkListManagerOpen(false)}
+                  className="text-xs font-mono text-purple-600 dark:text-purple-400 hover:underline font-bold"
+                >
+                  Lihat Semua di Library Publik →
+                </a>
 
                 <button
                   onClick={() => setIsLinkListManagerOpen(false)}
@@ -1511,62 +1508,8 @@ export const AIToolsHub: React.FC = () => {
           </div>
         )}
 
-        {/* MODAL 7: OWNER AUTHENTICATION MODAL */}
-        {isOwnerModalOpen && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
-            <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-sm w-full shadow-2xl relative text-neutral-900 dark:text-white">
-              <button
-                onClick={() => {
-                  setIsOwnerModalOpen(false);
-                  setOwnerAuthError(null);
-                  setOwnerPinInput('');
-                }}
-                className="absolute top-5 right-5 text-neutral-400 hover:text-white font-mono text-xl cursor-pointer"
-              >
-                ✕
-              </button>
-
-              <div className="text-center mb-5">
-                <div className="w-12 h-12 rounded-2xl bg-purple-500/10 border border-purple-500/20 text-purple-600 dark:text-purple-400 flex items-center justify-center text-xl mx-auto mb-3">
-                  🔐
-                </div>
-                <h3 className="text-lg font-bold">Verifikasi Owner</h3>
-                <p className="text-xs text-neutral-500 font-mono mt-1">
-                  Khusus Mas Fahmi: Masukkan PIN atau kata sandi untuk mengaktifkan mode kelola LinkList & data affiliate.
-                </p>
-              </div>
-
-              <form onSubmit={handleOwnerLogin} className="space-y-4">
-                <div>
-                  <input
-                    type="password"
-                    autoFocus
-                    required
-                    value={ownerPinInput}
-                    onChange={(e) => setOwnerPinInput(e.target.value)}
-                    placeholder="Masukkan PIN Owner..."
-                    className="w-full px-4 py-2.5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-950 text-xs font-mono text-center tracking-widest focus:outline-none focus:ring-2 focus:ring-purple-500"
-                  />
-                  {ownerAuthError && (
-                    <p className="text-[11px] font-mono text-rose-500 mt-1.5 text-center">
-                      ⚠️ {ownerAuthError}
-                    </p>
-                  )}
-                </div>
-
-                <button
-                  type="submit"
-                  className="w-full py-2.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-mono text-xs font-bold transition-all shadow-md cursor-pointer active:scale-95"
-                >
-                  Masuk sebagai Owner →
-                </button>
-              </form>
-            </div>
-          </div>
-        )}
-
-        {/* MODAL 8: SUBMIT NEW TOOL (OWNER ONLY) */}
-        {isSubmitModalOpen && isOwner && (
+        {/* MODAL 7: SUBMIT NEW TOOL */}
+        {isSubmitModalOpen && (
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
             <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-lg w-full shadow-2xl relative text-neutral-900 dark:text-white">
               <button

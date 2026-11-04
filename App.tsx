@@ -13,16 +13,19 @@ import WhyChooseUs from './components/WhyChooseUs';
 import { SourceCodeHub } from './components/SourceCodeHub';
 import { GitHubTrendingHub } from './components/GitHubTrendingHub';
 import { AIToolsHub } from './components/AIToolsHub';
+import { LinkListsHub } from './components/LinkListsHub';
 import { ArticlesHub } from './components/ArticlesHub';
 import { ErrorBoundary } from './components/ErrorBoundary';
 import { ThemeProvider } from './context/ThemeContext';
 import { LanguageProvider } from './context/LanguageContext';
+import { AuthProvider } from './context/AuthContext';
+import { AuthModal } from './components/AuthModal';
 import { NavigationTab } from './types';
 
 const getInitialTab = (): NavigationTab => {
   if (typeof window !== 'undefined') {
-    const hash = window.location.hash.replace('#', '');
-    if (hash === 'source-code' || hash === 'github-trending' || hash === 'ai-tools' || hash === 'articles') {
+    const hash = window.location.hash.replace('#', '').split('?')[0].split('&')[0];
+    if (hash === 'source-code' || hash === 'github-trending' || hash === 'ai-tools' || hash === 'linklists' || hash === 'articles') {
       return hash as NavigationTab;
     }
   }
@@ -34,10 +37,10 @@ const AppContent: React.FC = () => {
 
   useEffect(() => {
     const handleHashChange = () => {
-      const currentHash = window.location.hash.replace('#', '');
-      if (currentHash === 'source-code' || currentHash === 'github-trending' || currentHash === 'ai-tools' || currentHash === 'articles') {
+      const currentHash = window.location.hash.replace('#', '').split('?')[0].split('&')[0];
+      if (currentHash === 'source-code' || currentHash === 'github-trending' || currentHash === 'ai-tools' || currentHash === 'linklists' || currentHash === 'articles') {
         setActiveTab(currentHash as NavigationTab);
-      } else {
+      } else if (!currentHash || currentHash === 'agency') {
         setActiveTab('agency');
       }
     };
@@ -80,6 +83,11 @@ const AppContent: React.FC = () => {
             <AIToolsHub />
           </ErrorBoundary>
         )}
+        {activeTab === 'linklists' && (
+          <ErrorBoundary fallbackTitle="Pustaka LinkList Publik">
+            <LinkListsHub />
+          </ErrorBoundary>
+        )}
         {activeTab === 'articles' && (
           <ErrorBoundary fallbackTitle="Artikel & Panduan AI">
             <ArticlesHub />
@@ -88,6 +96,7 @@ const AppContent: React.FC = () => {
       </main>
 
       <Footer />
+      <AuthModal />
     </div>
   );
 };
@@ -96,7 +105,9 @@ const App: React.FC = () => {
   return (
     <ThemeProvider>
       <LanguageProvider>
-        <AppContent />
+        <AuthProvider>
+          <AppContent />
+        </AuthProvider>
       </LanguageProvider>
     </ThemeProvider>
   );

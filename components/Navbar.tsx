@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useTheme } from '../context/ThemeContext';
 import { useLanguage } from '../context/LanguageContext';
+import { useAuth } from '../context/AuthContext';
 import { NavigationTab } from '../types';
 import { SOURCE_CODE_LIST, AI_TOOLS_LIST } from '../lib/data';
 import { ARTICLES_LIST } from '../lib/articlesData';
@@ -14,7 +15,8 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { theme, toggleTheme } = useTheme();
-  const { language, setLanguage, t } = useLanguage();
+  const { language, setLanguage } = useLanguage();
+  const { user, isOwner, isLoggedIn, openAuthModal, logout } = useAuth();
 
   const [scCount, setScCount] = useState<number>(SOURCE_CODE_LIST.length);
   const [toolsCount, setToolsCount] = useState<number>(AI_TOOLS_LIST.length);
@@ -173,7 +175,28 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
               </span>
             </button>
 
-            {/* Tab 5: Artikel AI */}
+            {/* Tab 5: LinkLists Hub (Public Playlist Library) */}
+            <button
+              onClick={() => handleTabClick('linklists')}
+              className={`px-3 py-1.5 rounded-lg text-xs font-mono font-medium transition-all cursor-pointer flex items-center gap-1.5 ${
+                activeTab === 'linklists'
+                  ? 'bg-purple-600 text-white shadow-sm font-bold'
+                  : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-950 dark:hover:text-white'
+              }`}
+            >
+              <span>Playlist AI</span>
+              <span
+                className={`px-1.5 py-0.2 rounded text-[10px] font-bold ${
+                  activeTab === 'linklists'
+                    ? 'bg-white/20 text-white'
+                    : 'bg-purple-100 dark:bg-purple-950/60 text-purple-700 dark:text-purple-400'
+                }`}
+              >
+                Publik
+              </span>
+            </button>
+
+            {/* Tab 6: Artikel AI */}
             <button
               onClick={() => handleTabClick('articles')}
               className={`px-3 py-1.5 rounded-lg text-xs font-mono font-medium transition-all cursor-pointer flex items-center gap-1.5 ${
@@ -195,8 +218,33 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
             </button>
           </div>
 
-          {/* Desktop Controls (Theme, Language, Fast Donate CTA) */}
+          {/* Desktop Controls (Theme, Language, Auth, Fast Donate CTA) */}
           <div className="hidden md:flex items-center gap-2">
+            {/* User Auth Status Button */}
+            {isLoggedIn ? (
+              <div className="flex items-center gap-1.5 pl-2 pr-2.5 py-1 rounded-xl bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 text-xs font-mono shadow-sm">
+                <span>{isOwner ? '👑' : '👤'}</span>
+                <span className="font-bold text-neutral-800 dark:text-neutral-200 max-w-[110px] truncate">
+                  {user?.name}
+                </span>
+                <button
+                  onClick={logout}
+                  className="text-[10px] text-neutral-400 hover:text-rose-500 ml-1 cursor-pointer font-bold"
+                  title="Keluar dari akun"
+                >
+                  ✕
+                </button>
+              </div>
+            ) : (
+              <button
+                onClick={openAuthModal}
+                className="h-8 px-3 rounded-lg border border-neutral-200 dark:border-neutral-800 hover:border-purple-500 bg-neutral-50 dark:bg-neutral-900 text-xs font-mono font-bold text-neutral-700 dark:text-neutral-300 transition-all flex items-center gap-1.5 cursor-pointer shadow-sm"
+              >
+                <span>🔐</span>
+                <span>Masuk</span>
+              </button>
+            )}
+
             {/* Theme Toggle */}
             <button
               onClick={toggleTheme}
@@ -238,8 +286,8 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
           <div className="lg:hidden flex items-center gap-2">
             <button
               onClick={toggleTheme}
-              aria-label="Toggle theme"
-              className="w-8 h-8 rounded-lg border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900 flex items-center justify-center text-neutral-700 dark:text-neutral-300 shadow-sm"
+              className="w-8 h-8 rounded-lg border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900 flex items-center justify-center text-neutral-700 dark:text-neutral-300"
+              aria-label="Toggle Theme"
             >
               {theme === 'dark' ? (
                 <svg className="w-4 h-4 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -252,20 +300,19 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
               )}
             </button>
 
+            {/* Mobile Hamburger Button */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              aria-label="Toggle mobile menu"
-              className="w-8 h-8 rounded-lg border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900 flex items-center justify-center text-neutral-700 dark:text-neutral-300 shadow-sm"
+              className="p-1.5 rounded-lg border border-neutral-200 dark:border-neutral-800 text-neutral-700 dark:text-neutral-300"
+              aria-label="Menu"
             >
-              {mobileMenuOpen ? (
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              ) : (
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M4 6h16M4 12h16m-7 6h7" />
-                </svg>
-              )}
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                {mobileMenuOpen ? (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                ) : (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
+                )}
+              </svg>
             </button>
           </div>
         </div>
@@ -273,18 +320,60 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
 
       {/* Mobile Drawer */}
       <div
-        className={`lg:hidden fixed inset-0 z-40 bg-neutral-950/50 backdrop-blur-sm transition-opacity duration-200 ${
+        className={`fixed inset-0 z-40 bg-black/60 backdrop-blur-sm transition-opacity duration-300 lg:hidden ${
           mobileMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
         }`}
         onClick={() => setMobileMenuOpen(false)}
       >
         <div
-          className={`absolute top-0 left-0 right-0 bg-white dark:bg-neutral-950 border-b border-neutral-200 dark:border-neutral-800 pt-20 pb-6 px-6 transition-transform duration-200 ease-out shadow-xl ${
-            mobileMenuOpen ? 'translate-y-0' : '-translate-y-full'
+          className={`absolute top-0 right-0 w-80 max-w-[85%] h-full bg-white dark:bg-neutral-900 p-6 shadow-2xl transition-transform duration-300 overflow-y-auto ${
+            mobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
           }`}
           onClick={(e) => e.stopPropagation()}
         >
-          <div className="flex flex-col space-y-2.5">
+          <div className="flex items-center justify-between pb-4 border-b border-neutral-100 dark:border-neutral-800 mb-6">
+            <span className="font-bold text-sm text-neutral-900 dark:text-white">Menu Navigasi</span>
+            <button
+              onClick={() => setMobileMenuOpen(false)}
+              className="p-1 rounded text-neutral-400 hover:text-white font-mono text-lg"
+            >
+              ✕
+            </button>
+          </div>
+
+          {/* User Auth Section in Mobile Menu */}
+          <div className="mb-6 pb-4 border-b border-neutral-100 dark:border-neutral-800">
+            {isLoggedIn ? (
+              <div className="p-3 rounded-2xl bg-neutral-50 dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-800 flex items-center justify-between">
+                <div>
+                  <div className="text-xs font-bold text-neutral-900 dark:text-white flex items-center gap-1">
+                    <span>{isOwner ? '👑' : '👤'}</span>
+                    <span>{user?.name}</span>
+                  </div>
+                  <span className="text-[10px] font-mono text-neutral-500">{user?.email}</span>
+                </div>
+                <button
+                  onClick={logout}
+                  className="px-2.5 py-1 rounded-lg bg-neutral-200 dark:bg-neutral-800 text-[10px] font-mono font-bold text-rose-500"
+                >
+                  Keluar
+                </button>
+              </div>
+            ) : (
+              <button
+                onClick={() => {
+                  setMobileMenuOpen(false);
+                  openAuthModal();
+                }}
+                className="w-full py-2.5 rounded-xl bg-purple-600 text-white font-mono text-xs font-bold shadow-md flex items-center justify-center gap-2"
+              >
+                <span>🔐</span>
+                <span>Masuk / Daftar Akun</span>
+              </button>
+            )}
+          </div>
+
+          <div className="space-y-2">
             <button
               onClick={() => handleTabClick('agency')}
               className={`w-full flex items-center justify-between p-3 rounded-xl border text-left cursor-pointer ${
@@ -357,6 +446,25 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
             </button>
 
             <button
+              onClick={() => handleTabClick('linklists')}
+              className={`w-full flex items-center justify-between p-3 rounded-xl border text-left cursor-pointer ${
+                activeTab === 'linklists'
+                  ? 'border-purple-500 bg-purple-50 dark:bg-purple-950/40 font-bold'
+                  : 'border-neutral-100 dark:border-neutral-800/80 bg-neutral-50/50 dark:bg-neutral-900/40'
+              }`}
+            >
+              <div className="flex items-center gap-2">
+                <span className="text-sm font-semibold text-neutral-900 dark:text-white">
+                  🗂️ Library Playlist Publik
+                </span>
+                <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-purple-600 text-white font-mono">
+                  Baru
+                </span>
+              </div>
+              <span className="font-mono text-xs text-neutral-400">05 →</span>
+            </button>
+
+            <button
               onClick={() => handleTabClick('articles')}
               className={`w-full flex items-center justify-between p-3 rounded-xl border text-left cursor-pointer ${
                 activeTab === 'articles'
@@ -372,11 +480,11 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                   {articlesCount} Baru
                 </span>
               </div>
-              <span className="font-mono text-xs text-neutral-400">05 →</span>
+              <span className="font-mono text-xs text-neutral-400">06 →</span>
             </button>
           </div>
 
-          <div className="mt-5 pt-4 border-t border-neutral-100 dark:border-neutral-800 flex gap-2">
+          <div className="mt-6 pt-4 border-t border-neutral-100 dark:border-neutral-800 flex gap-2">
             <a
               href="https://lynk.id/dwollopus"
               target="_blank"

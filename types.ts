@@ -31,7 +31,7 @@ export interface Step {
 // NEW TYPES FOR LOCAGO ECOSYSTEM
 // ==========================================
 
-export type NavigationTab = 'agency' | 'source-code' | 'github-trending' | 'ai-tools' | 'articles';
+export type NavigationTab = 'agency' | 'source-code' | 'github-trending' | 'ai-tools' | 'linklists' | 'articles';
 
 export interface SourceCodeItem {
   id: string;
@@ -91,4 +91,35 @@ export interface AIToolItem {
   demoVideoUrl?: string;
   affiliateUrl: string;
   isFeatured?: boolean;
+}
+
+export interface CustomLinkItem {
+  id: string;
+  title: string;
+  url: string;
+  note?: string;
+  createdAt?: string;
+}
+
+export interface LinkListItem {
+  id: string;
+  title: string;
+  notes: string;
+  videoUrl?: string;
+  toolIds: string[];
+  customLinks?: CustomLinkItem[];
+  userId?: string;
+  authorEmail?: string;
+  authorName?: string;
+  isOfficial?: boolean;
+  createdAt: string;
+  views?: number;
+}
+
+export interface UserProfile {
+  id: string;
+  email: string;
+  name: string;
+  role: 'owner' | 'member';
+  isOwner: boolean;
 }
