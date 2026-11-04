@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 19:41 WIB",
-  "total": 162,
+  "updatedAt": "04 Nov 2026, 19:47 WIB",
+  "total": 164,
   "items": [
+    {
+      "id": "ai-catalystvector-ai",
+      "name": "CatalystVector AI",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Fullstack App Generator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "CatalystVector AI adalah generator arsitektur fullstack otomatis berbasis prompt bahasa alami. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/catalystvector-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://catalystvectorai.app"
+    },
+    {
+      "id": "ai-helix-ai",
+      "name": "Helix AI",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "Data Monitoring Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Helix AI adalah platform monitoring perubahan data web dan ekstraksi tabel berkala secara otomatis. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/helix-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://helixai.tech"
+    },
     {
       "id": "ai-visionflow",
       "name": "VisionFlow",
