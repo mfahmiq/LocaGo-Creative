@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 20:18 WIB",
-  "total": 174,
+  "updatedAt": "04 Nov 2026, 20:25 WIB",
+  "total": 176,
   "items": [
+    {
+      "id": "ai-pulse-pulse",
+      "name": "Pulse Pulse",
+      "category": "Agentic Automation",
+      "pricingType": "Paid",
+      "tagline": "Autonomous SaaS Integrator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Pulse Pulse adalah asisten otomatisasi alur kerja saas yang mengintegrasikan ratusan api pihak ketiga. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/pulse-pulse.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://pulsepulse.ai"
+    },
+    {
+      "id": "ai-cortexnexus",
+      "name": "CortexNexus",
+      "category": "Web & Scrapers",
+      "pricingType": "Free",
+      "tagline": "Smart Web Crawler Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "CortexNexus adalah mesin perayap web cerdas dengan rotasi proxy otomatis dan bypass proteksi antibot. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/cortexnexus.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://cortexnexus.app"
+    },
     {
       "id": "ai-irisgraph-ai",
       "name": "IrisGraph AI",
