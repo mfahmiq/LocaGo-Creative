@@ -72,20 +72,23 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  // Clean formatted user display name
+  const displayName = isOwner ? 'Mas Fahmi' : (user?.name?.split(' ')[0] || 'Member');
+
   return (
     <>
       <header
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-200 ${
           scrolled
             ? 'bg-white/95 dark:bg-neutral-950/95 backdrop-blur-md border-b border-neutral-200/80 dark:border-neutral-800/80 py-2.5 shadow-[0_1px_3px_rgba(0,0,0,0.05)]'
-            : 'bg-transparent py-4'
+            : 'bg-transparent py-3.5'
         }`}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 flex justify-between items-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 flex justify-between items-center gap-3">
           {/* Brand Logo & Name */}
           <div
             onClick={() => handleTabClick('agency')}
-            className="flex items-center gap-2.5 text-neutral-900 dark:text-white tracking-tight group cursor-pointer"
+            className="flex items-center gap-2.5 text-neutral-900 dark:text-white tracking-tight group cursor-pointer shrink-0"
           >
             <img
               src="/logo.png"
@@ -102,30 +105,30 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
             </div>
           </div>
 
-          {/* Desktop Navigation Tabs */}
-          <div className="hidden lg:flex items-center space-x-1 p-1 bg-neutral-100/80 dark:bg-neutral-900/80 rounded-xl border border-neutral-200/80 dark:border-neutral-800/80">
-            {/* Tab 1: Agency */}
+          {/* Desktop Navigation Tabs (Crisp single-line pill, no awkward wrapping) */}
+          <div className="hidden lg:flex items-center p-1 bg-neutral-100/90 dark:bg-neutral-900/90 rounded-2xl border border-neutral-200/80 dark:border-neutral-800/80 shadow-sm shrink-0">
+            {/* Tab 1: Layanan */}
             <button
               onClick={() => handleTabClick('agency')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-mono font-medium transition-all cursor-pointer ${
+              className={`px-3 py-1.5 rounded-xl text-xs font-mono whitespace-nowrap transition-all cursor-pointer ${
                 activeTab === 'agency'
-                  ? 'bg-white dark:bg-neutral-800 text-neutral-900 dark:text-white shadow-sm font-bold'
-                  : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-950 dark:hover:text-white'
+                  ? 'bg-white dark:bg-neutral-800 text-neutral-950 dark:text-white shadow-sm font-bold'
+                  : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-950 dark:hover:text-white font-medium'
               }`}
             >
-              Layanan Website
+              Layanan
             </button>
 
-            {/* Tab 2: Source Code Gratis */}
+            {/* Tab 2: Source Code */}
             <button
               onClick={() => handleTabClick('source-code')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-mono font-medium transition-all cursor-pointer flex items-center gap-1.5 ${
+              className={`px-3 py-1.5 rounded-xl text-xs font-mono whitespace-nowrap transition-all cursor-pointer flex items-center gap-1.5 ${
                 activeTab === 'source-code'
                   ? 'bg-emerald-600 text-white shadow-sm font-bold'
-                  : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-950 dark:hover:text-white'
+                  : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-950 dark:hover:text-white font-medium'
               }`}
             >
-              <span>Source Code Gratis</span>
+              <span>Source Code</span>
               <span
                 className={`px-1.5 py-0.2 rounded text-[10px] font-bold ${
                   activeTab === 'source-code'
@@ -133,20 +136,20 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                     : 'bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-400'
                 }`}
               >
-                {scCount} SC
+                {scCount}
               </span>
             </button>
 
             {/* Tab 3: GitHub Trending */}
             <button
               onClick={() => handleTabClick('github-trending')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-mono font-medium transition-all cursor-pointer flex items-center gap-1.5 ${
+              className={`px-3 py-1.5 rounded-xl text-xs font-mono whitespace-nowrap transition-all cursor-pointer flex items-center gap-1.5 ${
                 activeTab === 'github-trending'
                   ? 'bg-blue-600 text-white shadow-sm font-bold'
-                  : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-950 dark:hover:text-white'
+                  : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-950 dark:hover:text-white font-medium'
               }`}
             >
-              <span>GitHub Trending</span>
+              <span>Trending</span>
               <span
                 className={`w-1.5 h-1.5 rounded-full ${
                   activeTab === 'github-trending' ? 'bg-white' : 'bg-blue-500 animate-pulse'
@@ -154,13 +157,13 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
               />
             </button>
 
-            {/* Tab 4: AI Tools Directory */}
+            {/* Tab 4: AI Tools */}
             <button
               onClick={() => handleTabClick('ai-tools')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-mono font-medium transition-all cursor-pointer flex items-center gap-1.5 ${
+              className={`px-3 py-1.5 rounded-xl text-xs font-mono whitespace-nowrap transition-all cursor-pointer flex items-center gap-1.5 ${
                 activeTab === 'ai-tools'
                   ? 'bg-purple-600 text-white shadow-sm font-bold'
-                  : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-950 dark:hover:text-white'
+                  : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-950 dark:hover:text-white font-medium'
               }`}
             >
               <span>AI Tools</span>
@@ -175,16 +178,16 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
               </span>
             </button>
 
-            {/* Tab 5: LinkLists Hub (Public Playlist Library) */}
+            {/* Tab 5: Playlist AI */}
             <button
               onClick={() => handleTabClick('linklists')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-mono font-medium transition-all cursor-pointer flex items-center gap-1.5 ${
+              className={`px-3 py-1.5 rounded-xl text-xs font-mono whitespace-nowrap transition-all cursor-pointer flex items-center gap-1.5 ${
                 activeTab === 'linklists'
                   ? 'bg-purple-600 text-white shadow-sm font-bold'
-                  : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-950 dark:hover:text-white'
+                  : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-950 dark:hover:text-white font-medium'
               }`}
             >
-              <span>Playlist AI</span>
+              <span>Playlist</span>
               <span
                 className={`px-1.5 py-0.2 rounded text-[10px] font-bold ${
                   activeTab === 'linklists'
@@ -199,13 +202,13 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
             {/* Tab 6: Artikel AI */}
             <button
               onClick={() => handleTabClick('articles')}
-              className={`px-3 py-1.5 rounded-lg text-xs font-mono font-medium transition-all cursor-pointer flex items-center gap-1.5 ${
+              className={`px-3 py-1.5 rounded-xl text-xs font-mono whitespace-nowrap transition-all cursor-pointer flex items-center gap-1.5 ${
                 activeTab === 'articles'
                   ? 'bg-emerald-600 text-white shadow-sm font-bold'
-                  : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-950 dark:hover:text-white'
+                  : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-950 dark:hover:text-white font-medium'
               }`}
             >
-              <span>Artikel AI</span>
+              <span>Artikel</span>
               <span
                 className={`px-1.5 py-0.2 rounded text-[10px] font-bold ${
                   activeTab === 'articles'
@@ -213,24 +216,24 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                     : 'bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-400'
                 }`}
               >
-                {articlesCount} Baru
+                {articlesCount}
               </span>
             </button>
           </div>
 
-          {/* Desktop Controls (Theme, Language, Auth, Fast Donate CTA) */}
-          <div className="hidden md:flex items-center gap-2">
-            {/* User Auth Status Button */}
+          {/* Desktop Right Controls (Auth, Theme, Language, Donasi) */}
+          <div className="hidden md:flex items-center gap-2 shrink-0">
+            {/* User Auth Status Pill */}
             {isLoggedIn ? (
-              <div className="flex items-center gap-1.5 pl-2 pr-2.5 py-1 rounded-xl bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 text-xs font-mono shadow-sm">
+              <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 text-xs font-mono shadow-sm">
                 <span>{isOwner ? '👑' : '👤'}</span>
-                <span className="font-bold text-neutral-800 dark:text-neutral-200 max-w-[110px] truncate">
-                  {user?.name}
+                <span className="font-bold text-neutral-800 dark:text-neutral-200 whitespace-nowrap">
+                  {displayName}
                 </span>
                 <button
                   onClick={logout}
-                  className="text-[10px] text-neutral-400 hover:text-rose-500 ml-1 cursor-pointer font-bold"
-                  title="Keluar dari akun"
+                  className="text-neutral-400 hover:text-rose-500 ml-1 cursor-pointer font-bold transition-colors"
+                  title="Keluar akun"
                 >
                   ✕
                 </button>
@@ -238,7 +241,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
             ) : (
               <button
                 onClick={openAuthModal}
-                className="h-8 px-3 rounded-lg border border-neutral-200 dark:border-neutral-800 hover:border-purple-500 bg-neutral-50 dark:bg-neutral-900 text-xs font-mono font-bold text-neutral-700 dark:text-neutral-300 transition-all flex items-center gap-1.5 cursor-pointer shadow-sm"
+                className="h-8 px-3 rounded-xl border border-neutral-200 dark:border-neutral-800 hover:border-purple-500 bg-neutral-50 dark:bg-neutral-900 text-xs font-mono font-bold text-neutral-700 dark:text-neutral-300 transition-all flex items-center gap-1.5 cursor-pointer shadow-sm whitespace-nowrap active:scale-95"
               >
                 <span>🔐</span>
                 <span>Masuk</span>
@@ -248,7 +251,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
             {/* Theme Toggle */}
             <button
               onClick={toggleTheme}
-              className="w-8 h-8 rounded-lg border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900 hover:border-neutral-400 dark:hover:border-neutral-600 flex items-center justify-center text-neutral-700 dark:text-neutral-300 transition-colors cursor-pointer shadow-sm"
+              className="w-8 h-8 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900 hover:border-neutral-400 dark:hover:border-neutral-600 flex items-center justify-center text-neutral-700 dark:text-neutral-300 transition-colors cursor-pointer shadow-sm shrink-0"
               aria-label="Toggle Theme"
             >
               {theme === 'dark' ? (
@@ -265,20 +268,21 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
             {/* Language Switcher */}
             <button
               onClick={() => setLanguage(language === 'en' ? 'id' : 'en')}
-              className="h-8 px-2.5 rounded-lg border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900 hover:border-neutral-400 dark:hover:border-neutral-600 font-mono text-xs font-semibold text-neutral-700 dark:text-neutral-300 transition-colors cursor-pointer shadow-sm"
+              className="h-8 px-2.5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900 hover:border-neutral-400 dark:hover:border-neutral-600 font-mono text-xs font-bold text-neutral-700 dark:text-neutral-300 transition-colors cursor-pointer shadow-sm shrink-0 whitespace-nowrap"
               aria-label="Toggle Language"
             >
               {language === 'en' ? 'ID' : 'EN'}
             </button>
 
-            {/* Donasi Lynk.id 2rb Quick Button */}
+            {/* Donasi Lynk.id 2rb Quick Button (Single line, no wrapping!) */}
             <a
               href="https://lynk.id/dwollopus"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-mono font-bold transition-all shadow-sm active:scale-95 flex items-center gap-1.5"
+              className="h-8 px-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-mono font-bold transition-all shadow-sm active:scale-95 flex items-center gap-1.5 whitespace-nowrap shrink-0"
             >
-              <span>☕ Donasi 2rb</span>
+              <span>☕</span>
+              <span>Donasi 2rb</span>
             </a>
           </div>
 
@@ -335,7 +339,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
             <span className="font-bold text-sm text-neutral-900 dark:text-white">Menu Navigasi</span>
             <button
               onClick={() => setMobileMenuOpen(false)}
-              className="p-1 rounded text-neutral-400 hover:text-white font-mono text-lg"
+              className="p-1 rounded text-neutral-400 hover:text-white font-mono text-lg cursor-pointer"
             >
               ✕
             </button>
@@ -354,7 +358,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                 </div>
                 <button
                   onClick={logout}
-                  className="px-2.5 py-1 rounded-lg bg-neutral-200 dark:bg-neutral-800 text-[10px] font-mono font-bold text-rose-500"
+                  className="px-2.5 py-1 rounded-lg bg-neutral-200 dark:bg-neutral-800 text-[10px] font-mono font-bold text-rose-500 cursor-pointer"
                 >
                   Keluar
                 </button>
@@ -365,7 +369,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                   setMobileMenuOpen(false);
                   openAuthModal();
                 }}
-                className="w-full py-2.5 rounded-xl bg-purple-600 text-white font-mono text-xs font-bold shadow-md flex items-center justify-center gap-2"
+                className="w-full py-2.5 rounded-xl bg-purple-600 text-white font-mono text-xs font-bold shadow-md flex items-center justify-center gap-2 cursor-pointer active:scale-95"
               >
                 <span>🔐</span>
                 <span>Masuk / Daftar Akun</span>
@@ -383,7 +387,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
               }`}
             >
               <span className="text-sm font-semibold text-neutral-900 dark:text-white">
-                🏢 Layanan Pembuatan Website
+                🏢 Layanan Website
               </span>
               <span className="font-mono text-xs text-neutral-400">01 →</span>
             </button>
@@ -401,7 +405,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                   📦 Source Code Gratis
                 </span>
                 <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-emerald-600 text-white font-mono">
-                  {scCount} SC
+                  {scCount}
                 </span>
               </div>
               <span className="font-mono text-xs text-neutral-400">02 →</span>
@@ -458,7 +462,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                   🗂️ Library Playlist Publik
                 </span>
                 <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-purple-600 text-white font-mono">
-                  Baru
+                  Publik
                 </span>
               </div>
               <span className="font-mono text-xs text-neutral-400">05 →</span>
@@ -477,7 +481,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                   📰 Artikel & Panduan AI
                 </span>
                 <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-emerald-600 text-white font-mono">
-                  {articlesCount} Baru
+                  {articlesCount}
                 </span>
               </div>
               <span className="font-mono text-xs text-neutral-400">06 →</span>
@@ -489,9 +493,9 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
               href="https://lynk.id/dwollopus"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-1 py-2.5 rounded-lg bg-emerald-600 text-white text-xs font-mono font-bold text-center"
+              className="flex-1 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-mono font-bold text-center transition-all shadow-sm active:scale-95"
             >
-              ☕ Donasi 2rb & Download Cepat (Lynk.id)
+              ☕ Donasi 2rb & Download Cepat
             </a>
           </div>
         </div>
