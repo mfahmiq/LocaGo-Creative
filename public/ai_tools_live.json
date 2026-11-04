@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 03:00 WIB",
-  "total": 40,
+  "updatedAt": "04 Nov 2026, 03:07 WIB",
+  "total": 42,
   "items": [
+    {
+      "id": "ai-murf-ai",
+      "name": "Murf AI",
+      "category": "Voice & Audio AI",
+      "pricingType": "Freemium",
+      "tagline": "Studio Pengisi Suara AI Realistis untuk Presentasi Bisnis & Iklan",
+      "description": "Platform Text-to-Speech korporat dengan kontrol nada bicara, kecepatan bicara, dan penekanan suku kata. Memudahkan agensi membuat sulih suara iklan komersial tanpa menyewa voice actor.",
+      "features": [
+        "120+ suara manusia dalam 20+ bahasa",
+        "Sinkronisasi audio narasi dengan video dan slide presentasi",
+        "Pengubah suara Voice-to-Voice",
+        "Lisensi komersial penuh untuk seluruh aset audio"
+      ],
+      "logoUrl": "/logos/murfai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://murf.ai/?via=locagocreative"
+    },
+    {
+      "id": "ai-descript",
+      "name": "Descript",
+      "category": "Voice & Audio AI",
+      "pricingType": "Freemium",
+      "tagline": "Edit Video & Podcast Semudah Mengedit Naskah Dokumen Teks",
+      "description": "Editor multimedia revolusioner yang mentranskripsikan audio rekaman ke teks. Cukup hapus kata 'uhm', 'ahh', atau kalimat salah di teks, maka potongan video/audio otomatis ikut terhapus.",
+      "features": [
+        "Fitur Overdub untuk memperbaiki kata salah dengan suara tiruan AI",
+        "Studio Sound untuk membersihkan noise rekaman menjadi audio studio",
+        "Pembersih kata jeda (filler words) dalam 1-klik",
+        "Perekam layar terintegrasi dengan timeline modern"
+      ],
+      "logoUrl": "/logos/descript.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.descript.com/?via=locagocreative"
+    },
     {
       "id": "ai-opus-clip",
       "name": "Opus Clip",
