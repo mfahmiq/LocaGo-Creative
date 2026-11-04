@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 18:36 WIB",
-  "total": 141,
+  "updatedAt": "04 Nov 2026, 18:42 WIB",
+  "total": 143,
   "items": [
+    {
+      "id": "ai-neuroapp",
+      "name": "NeuroApp",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Academic Research Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "NeuroApp adalah platform pencarian riset ilmiah dan ringkasan jurnal mendalam dengan rujukan sitasi asli. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/neuroapp.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://neuroapp.app"
+    },
+    {
+      "id": "ai-vanguardpipeline",
+      "name": "VanguardPipeline",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Viral Short-Form Editor Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "VanguardPipeline adalah editor video pendek otomatis dengan subtitle karaoke animasi dan deteksi hook viral. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/vanguardpipeline.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://vanguardpipeline.dev"
+    },
     {
       "id": "ai-sentinelio-ai",
       "name": "SentinelIO AI",
