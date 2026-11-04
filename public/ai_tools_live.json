@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 03:37 WIB",
-  "total": 52,
+  "updatedAt": "04 Nov 2026, 03:43 WIB",
+  "total": 54,
   "items": [
+    {
+      "id": "ai-koalawriter",
+      "name": "KoalaWriter",
+      "category": "AI Writing & SEO",
+      "pricingType": "Freemium",
+      "tagline": "Penulis Artikel Blog SEO Otomatis dengan Data Faktual Realtime",
+      "description": "Generator artikel panjang bertenaga Claude 3.5 yang mencari informasi web langsung sebelum menulis, menghasilkan artikel komprehensif 2.500 kata lengkap dengan tabel dan sitasi.",
+      "features": [
+        "Pencarian web real-time sebelum menyusun artikel",
+        "Gaya penulisan natural anti-AI detection",
+        "Penghasil tabel perbandingan dan daftar poin otomatis",
+        "Publikasi 1-klik ke blog WordPress via REST API"
+      ],
+      "logoUrl": "/logos/koala.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://koala.sh/?via=locagocreative"
+    },
+    {
+      "id": "ai-fraseio",
+      "name": "Frase.io",
+      "category": "AI Writing & SEO",
+      "pricingType": "Paid",
+      "tagline": "Riset Pertanyaan Pengguna & Generator Brief Konten SEO Instan",
+      "description": "Tool SEO yang menganalisis pertanyaan populer di forum Quora, Reddit, dan Google People Also Ask untuk menyusun outline artikel yang menjawab tuntas intensi pencarian pembaca.",
+      "features": [
+        "Pembuat outline konten berbasis SERP dalam 10 detik",
+        "Rangkuman jawaban pertanyaan kompetitor teratas",
+        "Pemeriksa optimasi NLP on-page",
+        "Editor penulisan kolaboratif untuk tim agensi konten"
+      ],
+      "logoUrl": "/logos/fraseio.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.frase.io/?via=locagocreative"
+    },
     {
       "id": "ai-surfer-seo",
       "name": "Surfer SEO",
