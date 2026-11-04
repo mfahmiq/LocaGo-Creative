@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 11:52 WIB",
-  "total": 67,
+  "updatedAt": "04 Nov 2026, 11:58 WIB",
+  "total": 69,
   "items": [
+    {
+      "id": "ai-submagic",
+      "name": "Submagic",
+      "category": "Video & Graphics",
+      "pricingType": "Freemium",
+      "tagline": "Subtitle Otomatis Gaya Alex Hormozi dengan Efek Suara dan B-Roll Cerdas",
+      "description": "Platform pengeditan video pendek yang mengotomasi penambahan caption dinamis, animasi emoji, efek suara transisi (whoosh, pop), dan klip b-roll untuk meningkatkan retensi penonton.",
+      "features": [
+        "Preset gaya caption Alex Hormozi yang terbukti retensi tinggi",
+        "Penyisipan emoji dan transisi suara otomatis",
+        "Magic B-rolls dari perpustakaan stok video premium",
+        "Auto zoom-in dan zoom-out dinamis"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.submagic.co/?via=locagocreative"
+    },
+    {
+      "id": "ai-klap",
+      "name": "Klap",
+      "category": "Video & Graphics",
+      "pricingType": "Freemium",
+      "tagline": "Ekstraksi Klip Pendek Viral untuk TikTok & Instagram dari Link Video",
+      "description": "Generator klip video instan yang membaca tautan YouTube dan secara otomatis merangkum bagian terbaik menjadi format vertikal yang siap diunggah ke media sosial.",
+      "features": [
+        "Pemrosesan cepat langsung dari URL YouTube",
+        "Deteksi wajah pembicara secara presisi",
+        "Template teks dan font yang dapat disesuaikan",
+        "Dukungan lebih dari 52 bahasa"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://klap.app/?via=locagocreative"
+    },
     {
       "id": "ai-viggle-ai",
       "name": "Viggle AI",
