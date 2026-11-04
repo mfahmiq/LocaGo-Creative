@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 04:05 WIB",
-  "total": 324,
+  "updatedAt": "05 Nov 2026, 04:11 WIB",
+  "total": 326,
   "items": [
+    {
+      "id": "ai-neuro-pulse",
+      "name": "Neuro Pulse",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Smart Data Analyst Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Neuro Pulse adalah workspace analitik data cerdas untuk membedah spreadsheet dan membuat grafik interaktif. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/neuro-pulse.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://neuropulse.io"
+    },
+    {
+      "id": "ai-graph-copilot",
+      "name": "Graph CoPilot",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Cinematic Video Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Graph CoPilot adalah generator video sinematik dengan kontrol kamera dinamis dan konsistensi fisika nyata. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/graph-copilot.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://graphcopilot.co"
+    },
     {
       "id": "ai-aethersearch-ai",
       "name": "AetherSearch AI",
