@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 02:54 WIB",
-  "total": 38,
+  "updatedAt": "04 Nov 2026, 03:00 WIB",
+  "total": 40,
   "items": [
+    {
+      "id": "ai-opus-clip",
+      "name": "Opus Clip",
+      "category": "Video & Graphics",
+      "pricingType": "Freemium",
+      "tagline": "Pemotong Podcast & Video Panjang Menjadi Klip Vertikal Viral Otomatis",
+      "description": "Alat repurpose konten video bertenaga AI yang mendeteksi momen paling menarik dari video podcast YouTube dan memotongnya menjadi klip 9:16 lengkap dengan dynamic captions.",
+      "features": [
+        "Virality Score untuk memprediksi potensi views klip",
+        "Auto speaker-tracking reframe ke rasio 9:16",
+        "Subtitle animasi karaoke warna-warni otomatis",
+        "Generator B-Roll otomatis untuk mengisi jeda visual"
+      ],
+      "logoUrl": "/logos/opus.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.opus.pro/?via=locagocreative"
+    },
+    {
+      "id": "ai-capcut-commerce-pro",
+      "name": "CapCut Commerce Pro",
+      "category": "Video & Graphics",
+      "pricingType": "Freemium",
+      "tagline": "Otomasi Produksi Video Iklan Produk E-Commerce Siap FYP TikTok",
+      "description": "Suite editing video otomatis dari ByteDance khusus seller online. Mengubah link produk Shopee/TikTok Shop menjadi puluhan variasi video promosi dengan voiceover naratif.",
+      "features": [
+        "Smart Video Script generator berdasarkan review pembeli",
+        "AI Model Fitting untuk memajang baju virtual",
+        "Auto-captioning multi-bahasa dengan font viral",
+        "Jadwal posting langsung ke akun TikTok Seller"
+      ],
+      "logoUrl": "/logos/capcut-commerce.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.capcut.com/commerce-pro"
+    },
     {
       "id": "ai-magnific-ai",
       "name": "Magnific AI",
