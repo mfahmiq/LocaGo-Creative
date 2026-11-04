@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 00:15 WIB",
-  "total": 250,
+  "updatedAt": "05 Nov 2026, 00:21 WIB",
+  "total": 252,
   "items": [
+    {
+      "id": "ai-horizon-io",
+      "name": "Horizon IO",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Autonomous SaaS Integrator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Horizon IO adalah asisten otomatisasi alur kerja saas yang mengintegrasikan ratusan api pihak ketiga. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/horizon-io.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://horizonio.dev"
+    },
+    {
+      "id": "ai-veloscraper",
+      "name": "VeloScraper",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "tagline": "IDE AI & CLI Code Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "VeloScraper adalah asisten pemrograman otonom yang mempercepat pengembangan aplikasi dan refactoring kode. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/veloscraper.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://veloscraper.app"
+    },
     {
       "id": "ai-vanguardpipeline-v6",
       "name": "VanguardPipeline v6",
