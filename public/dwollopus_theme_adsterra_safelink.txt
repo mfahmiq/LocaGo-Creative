@@ -2210,9 +2210,24 @@ Notification texts go here <a href='/p/contact.html' target='_blank'>Contact Us<
                           <data:content/>
                           
                           <b:else/>
-                          <!--[ Blank ad ]-->
-                          <div class='adB' expr:data-text='data:messages.adsGoHere + &quot; (&quot; + data:title + &quot;)&quot;'/>
-                        </b:if>
+                          <!--[ Adsterra Official Banner 728x90 & 320x50 ]-->
+                          <div class='dw-banner-header' style='text-align:center;margin:15px auto;max-width:100%;overflow:hidden;'>
+                            <div style='display:inline-block;'>
+                              <script type='text/javascript'>
+                                /*<![CDATA[*/
+                                atOptions = {
+                                  'key' : '2017b1fa1afdcadb3f9f7f2a63ba11d5',
+                                  'format' : 'iframe',
+                                  'height' : 90,
+                                  'width' : 728,
+                                  'params' : {}
+                                };
+                                /*]]>*/
+                              </script>
+                              <script type='text/javascript' src='https://www.highrevenueformat.com/2017b1fa1afdcadb3f9f7f2a63ba11d5/invoke.js'></script>
+                            </div>
+                          </div>
+                          </b:if>
                       </b:includable>
                     </b:widget>
                   </b:section>
@@ -2407,21 +2422,8 @@ Notification texts go here <a href='/p/contact.html' target='_blank'>Contact Us<
                             <data:content/>
                           
                             <b:else/>
-                            <!--[ Adsterra Smartlink Sponsor Banner - Middle Post ]-->
-                            <div class='dw-sponsor-banner' style='margin:20px auto;max-width:100%;text-align:center;'>
-                              <a href='https://www.profitableratecpmnetwork.com/uzbqrjc0?key=53fc7fd7a203e295c9ae42a4124c72f1' target='_blank' rel='noopener noreferrer nofollow' style='display:inline-block;width:100%;max-width:580px;background:linear-gradient(135deg, rgba(72,45,255,0.06), rgba(0,229,255,0.06));border:1px solid rgba(72,45,255,0.25);border-radius:12px;padding:16px 20px;text-decoration:none;box-shadow:0 4px 15px rgba(0,0,0,0.04);transition:all 0.25s ease;'>
-                                <div style='display:flex;align-items:center;justify-content:space-between;gap:12px;'>
-                                  <div style='display:flex;align-items:center;gap:12px;text-align:left;'>
-                                    <div style='width:42px;height:42px;border-radius:10px;background:linear-gradient(135deg, #482dff, #00e5ff);display:flex;align-items:center;justify-content:center;color:#ffffff;font-size:20px;font-weight:bold;flex-shrink:0;'>&#9733;</div>
-                                    <div>
-                                      <div style='font-size:14px;font-weight:700;color:var(--linkC,#482dff);line-height:1.2;margin-bottom:3px;'>Rekomendasi Tools AI &amp; Web Hosting 2026</div>
-                                      <div style='font-size:12px;opacity:0.75;line-height:1.2;color:var(--bodyC,#333333);'>Dapatkan penawaran eksklusif dan promo resmi dari sponsor Dwollopus</div>
-                                    </div>
-                                  </div>
-                                  <div style='background:linear-gradient(135deg, #482dff, #2563eb);color:#ffffff;padding:8px 16px;border-radius:20px;font-size:12px;font-weight:700;white-space:nowrap;'>Buka Penawaran &#8599;</div>
-                                </div>
-                              </a>
-                            </div>
+                            <!--[ Blank ad ]-->
+                            <div class='adB' expr:data-text='data:messages.adsGoHere + &quot; (&quot; + data:title + &quot;)&quot;'/>
                           </b:if>
                         </div>
                       </b:includable>
@@ -2593,21 +2595,8 @@ Notification texts go here <a href='/p/contact.html' target='_blank'>Contact Us<
                             <data:content/>
                           
                             <b:else/>
-                            <!--[ Adsterra Smartlink Sponsor Banner - Middle Post ]-->
-                            <div class='dw-sponsor-banner' style='margin:20px auto;max-width:100%;text-align:center;'>
-                              <a href='https://www.profitableratecpmnetwork.com/uzbqrjc0?key=53fc7fd7a203e295c9ae42a4124c72f1' target='_blank' rel='noopener noreferrer nofollow' style='display:inline-block;width:100%;max-width:580px;background:linear-gradient(135deg, rgba(72,45,255,0.06), rgba(0,229,255,0.06));border:1px solid rgba(72,45,255,0.25);border-radius:12px;padding:16px 20px;text-decoration:none;box-shadow:0 4px 15px rgba(0,0,0,0.04);transition:all 0.25s ease;'>
-                                <div style='display:flex;align-items:center;justify-content:space-between;gap:12px;'>
-                                  <div style='display:flex;align-items:center;gap:12px;text-align:left;'>
-                                    <div style='width:42px;height:42px;border-radius:10px;background:linear-gradient(135deg, #482dff, #00e5ff);display:flex;align-items:center;justify-content:center;color:#ffffff;font-size:20px;font-weight:bold;flex-shrink:0;'>&#9733;</div>
-                                    <div>
-                                      <div style='font-size:14px;font-weight:700;color:var(--linkC,#482dff);line-height:1.2;margin-bottom:3px;'>Rekomendasi Tools AI &amp; Web Hosting 2026</div>
-                                      <div style='font-size:12px;opacity:0.75;line-height:1.2;color:var(--bodyC,#333333);'>Dapatkan penawaran eksklusif dan promo resmi dari sponsor Dwollopus</div>
-                                    </div>
-                                  </div>
-                                  <div style='background:linear-gradient(135deg, #482dff, #2563eb);color:#ffffff;padding:8px 16px;border-radius:20px;font-size:12px;font-weight:700;white-space:nowrap;'>Buka Penawaran &#8599;</div>
-                                </div>
-                              </a>
-                            </div>
+                            <!--[ Blank ad ]-->
+                            <div class='adB' expr:data-text='data:messages.adsGoHere + &quot; (&quot; + data:title + &quot;)&quot;'/>
                           </b:if>
                         </div>
                       </b:includable>
@@ -3200,20 +3189,17 @@ Notification texts go here <a href='/p/contact.html' target='_blank'>Contact Us<
                                       <!-- Adsterra / Sponsor Ad Slot (Maksimal Impresi selama Countdown 15s) -->
                                       <div id='dw-ad-container' style='margin:14px 0;padding:14px;background:rgba(0,0,0,0.03);border:1px dashed rgba(128,128,128,0.3);border-radius:10px;'>
                                         <div style='font-size:10px;text-transform:uppercase;letter-spacing:1px;opacity:0.6;margin-bottom:6px;'>Sponsor Advertisement</div>
-                                        <div id='dw-ad-placeholder' style='min-height:75px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:6px 0;width:100%;'>
-                                          <!-- === ADSTERRA SMARTLINK SPONSOR BANNER (PLACEMENT ID: 32085009) === -->
-                                          <a href='https://www.profitableratecpmnetwork.com/uzbqrjc0?key=53fc7fd7a203e295c9ae42a4124c72f1' target='_blank' rel='noopener noreferrer nofollow' style='display:block;width:100%;max-width:440px;background:linear-gradient(135deg, rgba(72,45,255,0.12), rgba(0,229,255,0.08));border:1px solid rgba(72,45,255,0.35);border-radius:12px;padding:12px 16px;text-decoration:none;transition:all 0.25s ease;box-shadow:0 4px 15px rgba(0,0,0,0.06);text-align:left;'>
-                                            <div style='display:flex;align-items:center;justify-content:space-between;gap:12px;'>
-                                              <div style='display:flex;align-items:center;gap:10px;'>
-                                                <div style='width:36px;height:36px;border-radius:9px;background:linear-gradient(135deg, #482dff, #00e5ff);display:flex;align-items:center;justify-content:center;color:#ffffff;font-size:18px;font-weight:bold;flex-shrink:0;box-shadow:0 2px 8px rgba(72,45,255,0.4);'>&#9733;</div>
-                                                <div>
-                                                  <div style='font-size:13px;font-weight:700;color:var(--linkC,#482dff);line-height:1.2;margin-bottom:2px;'>Sponsor Resmi Dwollopus</div>
-                                                  <div style='font-size:11px;opacity:0.8;line-height:1.2;color:var(--bodyC,#ffffff);'>Klaim tools, diskon hosting &amp; promo terverifikasi</div>
-                                                </div>
-                                              </div>
-                                              <div style='background:linear-gradient(135deg, #482dff, #2563eb);color:#ffffff;padding:7px 14px;border-radius:20px;font-size:11px;font-weight:700;white-space:nowrap;box-shadow:0 2px 10px rgba(72,45,255,0.3);'>Buka &#8599;</div>
-                                            </div>
-                                          </a>
+                                        <div id='dw-ad-placeholder' style='min-height:80px;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:8px 0;'>
+                                          <!-- Adsterra Native Banner (ID: 16839870) -->
+                                          <script async='async' data-cfasync='false' src='https://pl16940369.profitableratecpmnetwork.com/4452f0ea3918b1d9d948d7b1df040e65/invoke.js' type='text/javascript'></script>
+                                          <div id='container-4452f0ea3918b1d9d948d7b1df040e65' style='width:100%;max-width:500px;'></div>
+                                          <!-- Adsterra Smartlink Sponsor Badge -->
+                                          <div style='margin-top:8px;'>
+                                            <a href='https://www.profitableratecpmnetwork.com/uzbqrjc0?key=53fc7fd7a203e295c9ae42a4124c72f1' target='_blank' rel='noopener noreferrer nofollow' style='display:inline-flex;align-items:center;gap:8px;padding:6px 16px;background:rgba(72,45,255,0.08);border:1px solid rgba(72,45,255,0.3);border-radius:20px;color:var(--linkC,#482dff);font-size:11px;font-weight:700;text-decoration:none;'>
+                                              <span>&#9889; Sponsor Resmi Dwollopus</span>
+                                              <span style='background:var(--linkC,#482dff);color:#ffffff;border-radius:10px;padding:2px 8px;font-size:10px;'>Klaim Penawaran &#8599;</span>
+                                            </a>
+                                          </div>
                                         </div>
                                       </div>
 
@@ -4250,9 +4236,22 @@ Notification texts go here <a href='/p/contact.html' target='_blank'>Contact Us<
                             <data:content/>
                           
                             <b:else/>
-                            <!--[ Blank ad ]-->
-                            <div class='adB h240' expr:data-text='data:messages.adsGoHere + &quot; (&quot; + data:title + &quot;)&quot;'/>
-                          </b:if>
+                            <!--[ Adsterra Official Banner 300x250 - Middle Post ]-->
+                            <div class='dw-banner-middle' style='text-align:center;margin:20px auto;min-height:250px;display:flex;align-items:center;justify-content:center;overflow:hidden;'>
+                              <script type='text/javascript'>
+                                /*<![CDATA[*/
+                                atOptions = {
+                                  'key' : '5984641a849213ba525c3a8ab9394e42',
+                                  'format' : 'iframe',
+                                  'height' : 250,
+                                  'width' : 300,
+                                  'params' : {}
+                                };
+                                /*]]>*/
+                              </script>
+                              <script type='text/javascript' src='https://bauval.org/22/5984641a849213ba525c3a8ab9394e42'></script>
+                            </div>
+                            </b:if>
                         </div>
                         <!--[ Middle ads 01 - shows after 3rd paragraph ]-->
                         <script>/*<![CDATA[*/ middleAds('p',[['HTML01', 3]]) /*]]>*/</script>
@@ -4325,21 +4324,8 @@ Notification texts go here <a href='/p/contact.html' target='_blank'>Contact Us<
                             <data:content/>
                           
                             <b:else/>
-                            <!--[ Adsterra Smartlink Sponsor Banner - Middle Post ]-->
-                            <div class='dw-sponsor-banner' style='margin:20px auto;max-width:100%;text-align:center;'>
-                              <a href='https://www.profitableratecpmnetwork.com/uzbqrjc0?key=53fc7fd7a203e295c9ae42a4124c72f1' target='_blank' rel='noopener noreferrer nofollow' style='display:inline-block;width:100%;max-width:580px;background:linear-gradient(135deg, rgba(72,45,255,0.06), rgba(0,229,255,0.06));border:1px solid rgba(72,45,255,0.25);border-radius:12px;padding:16px 20px;text-decoration:none;box-shadow:0 4px 15px rgba(0,0,0,0.04);transition:all 0.25s ease;'>
-                                <div style='display:flex;align-items:center;justify-content:space-between;gap:12px;'>
-                                  <div style='display:flex;align-items:center;gap:12px;text-align:left;'>
-                                    <div style='width:42px;height:42px;border-radius:10px;background:linear-gradient(135deg, #482dff, #00e5ff);display:flex;align-items:center;justify-content:center;color:#ffffff;font-size:20px;font-weight:bold;flex-shrink:0;'>&#9733;</div>
-                                    <div>
-                                      <div style='font-size:14px;font-weight:700;color:var(--linkC,#482dff);line-height:1.2;margin-bottom:3px;'>Rekomendasi Tools AI &amp; Web Hosting 2026</div>
-                                      <div style='font-size:12px;opacity:0.75;line-height:1.2;color:var(--bodyC,#333333);'>Dapatkan penawaran eksklusif dan promo resmi dari sponsor Dwollopus</div>
-                                    </div>
-                                  </div>
-                                  <div style='background:linear-gradient(135deg, #482dff, #2563eb);color:#ffffff;padding:8px 16px;border-radius:20px;font-size:12px;font-weight:700;white-space:nowrap;'>Buka Penawaran &#8599;</div>
-                                </div>
-                              </a>
-                            </div>
+                            <!--[ Blank ad ]-->
+                            <div class='adB' expr:data-text='data:messages.adsGoHere + &quot; (&quot; + data:title + &quot;)&quot;'/>
                           </b:if>
                         </div>
                       </b:includable>
@@ -4646,14 +4632,20 @@ Notification texts go here <a href='/p/contact.html' target='_blank'>Contact Us<
                               <data:content/>
                           
                               <b:else/>
-                              <!--[ Adsterra Smartlink Sticky Sidebar Banner ]-->
-                            <div class='dw-sponsor-sidebar' style='margin:10px 0;text-align:center;'>
-                              <a href='https://www.profitableratecpmnetwork.com/uzbqrjc0?key=53fc7fd7a203e295c9ae42a4124c72f1' target='_blank' rel='noopener noreferrer nofollow' style='display:block;background:linear-gradient(135deg, rgba(72,45,255,0.08), rgba(0,229,255,0.06));border:1px solid rgba(72,45,255,0.3);border-radius:12px;padding:20px 16px;text-decoration:none;box-shadow:0 4px 15px rgba(0,0,0,0.05);'>
-                                <div style='width:46px;height:46px;margin:0 auto 10px;border-radius:12px;background:linear-gradient(135deg, #482dff, #00e5ff);display:flex;align-items:center;justify-content:center;color:#ffffff;font-size:22px;font-weight:bold;'>&#9889;</div>
-                                <div style='font-size:14px;font-weight:700;color:var(--linkC,#482dff);margin-bottom:6px;'>Sponsor Unggulan</div>
-                                <div style='font-size:11px;opacity:0.75;line-height:1.4;margin-bottom:12px;color:var(--bodyC,#333333);'>Akses instan platform AI &amp; layanan kreatif terpopuler.</div>
-                                <div style='display:inline-block;background:linear-gradient(135deg, #482dff, #2563eb);color:#ffffff;padding:7px 18px;border-radius:20px;font-size:11px;font-weight:700;'>Lihat Penawaran &#8599;</div>
-                              </a>
+                              <!--[ Adsterra Official Banner 300x250 - Sticky Sidebar Desktop ]-->
+                            <div class='dw-banner-sidebar' style='text-align:center;margin:15px auto;min-height:250px;display:flex;align-items:center;justify-content:center;overflow:hidden;'>
+                              <script type='text/javascript'>
+                                /*<![CDATA[*/
+                                atOptions = {
+                                  'key' : '5984641a849213ba525c3a8ab9394e42',
+                                  'format' : 'iframe',
+                                  'height' : 250,
+                                  'width' : 300,
+                                  'params' : {}
+                                };
+                                /*]]>*/
+                              </script>
+                              <script type='text/javascript' src='https://bauval.org/22/5984641a849213ba525c3a8ab9394e42'></script>
                             </div>
                             </b:if>
                           </b:includable>

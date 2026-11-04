@@ -1,7 +1,25 @@
 {
-  "updatedAt": "04 Nov 2026, 12:41 WIB",
-  "total": 83,
+  "updatedAt": "04 Nov 2026, 12:45 WIB",
+  "total": 84,
   "items": [
+    {
+      "id": "ai-notebooklm",
+      "name": "NotebookLM",
+      "category": "Automation & No-Code",
+      "pricingType": "Free",
+      "tagline": "Asisten Riset Cerdas dari Google yang Mengubah Sumber Bacaan Anda Menjadi Obrolan Audio Podcast",
+      "description": "Platform catatan bertenaga model Gemini 1.5 Pro yang mendasarkan seluruh jawabannya HANYA pada dokumen yang Anda unggah. Menghadirkan fitur Audio Overview yang menyulap materi jadi obrolan podcast dua narator yang memikat.",
+      "features": [
+        "Grounding ketat bebas halusinasi berbasis dokumen Anda",
+        "Audio Overview: Diskusi podcast AI bergaya obrolan radio",
+        "Dukungan upload PDF, Google Docs, URL website, dan YouTube",
+        "Tersedia 100% gratis dari Google Labs"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://notebooklm.google.com"
+    },
     {
       "id": "ai-activepieces",
       "name": "Activepieces",
