@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 02:36 WIB",
-  "total": 32,
+  "updatedAt": "04 Nov 2026, 02:42 WIB",
+  "total": 34,
   "items": [
+    {
+      "id": "ai-pika-labs",
+      "name": "Pika Labs",
+      "category": "Video & Graphics",
+      "pricingType": "Freemium",
+      "tagline": "Engine Efek Animasi Video AI Kreatif dengan Fitur Pikaffects Unik",
+      "description": "Platform kreatif video generatif dengan efek visual khusus seperti inflate, melt, crumble, dan explode. Sangat populer di kalangan kreator TikTok dan pembuat bumper video iklan.",
+      "features": [
+        "Pikaffects untuk manipulasi fisik objek dalam video",
+        "Kontrol aspect ratio dan frame rate fleksibel",
+        "Fitur Lip Sync otomatis dengan file audio eksternal",
+        "Inpainting visual untuk mengubah elemen pakaian / latar"
+      ],
+      "logoUrl": "/logos/pika-labs.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://pika.art/"
+    },
+    {
+      "id": "ai-luma-dream-machine",
+      "name": "Luma Dream Machine",
+      "category": "Video & Graphics",
+      "pricingType": "Freemium",
+      "tagline": "Generator Video AI Berkecepatan Tinggi dengan Konsistensi Fisik Nyata",
+      "description": "Model generative video mutakhir yang mengubah gambar diam atau prompt teks menjadi klip video 5 detik dengan simulasi gravitasi, pencahayaan alami, dan gerakan kamera sinematik.",
+      "features": [
+        "Generasi video 5 detik dalam waktu kurang dari 2 menit",
+        "Simulasi gerakan dinamis dan interaksi objek realistis",
+        "Mode Camera Motion kontrol presisi",
+        "Mendukung transformasi Image-to-Video berkualitas tinggi"
+      ],
+      "logoUrl": "/logos/luma.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://lumalabs.ai/dream-machine"
+    },
     {
       "id": "ai-heygen",
       "name": "HeyGen",
