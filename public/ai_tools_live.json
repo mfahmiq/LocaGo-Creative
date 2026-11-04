@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 16:08 WIB",
-  "total": 92,
+  "updatedAt": "04 Nov 2026, 16:14 WIB",
+  "total": 94,
   "items": [
+    {
+      "id": "ai-autogen",
+      "name": "AutoGen",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "Framework Multi-Agent Conversation Mutakhir dari Microsoft Research",
+      "description": "Platform open-source untuk membangun aplikasi LLM generasi berikutnya melalui percakapan antar-agen yang modular, dapat diperluas, dan mampu melibatkan manusia (human-in-the-loop).",
+      "features": [
+        "Multi-agent conversation architecture",
+        "Dukungan eksekusi kode terisolasi",
+        "Pola komunikasi fleksibel (chat, group, nested)",
+        "Riset resmi Microsoft AI"
+      ],
+      "logoUrl": "/logos/autogen.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://github.com/microsoft/autogen"
+    },
+    {
+      "id": "ai-crewai",
+      "name": "CrewAI",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "Framework Orkestrasi Multi-Agen AI Otonom Berorientasi Peran untuk Python",
+      "description": "Framework terdepan untuk membangun tim agen AI yang bekerja sama secara terkoordinasi. Setiap agen dapat diberikan peran, persona, tools, dan target tugas yang terdefinisi.",
+      "features": [
+        "Manajemen orkestrasi multi-agen peran",
+        "Dukungan ratusan tool Python pihak ketiga",
+        "Perencanaan tugas hierarkis dan sekuensial",
+        "Integrasi mudah dengan LangChain & LlamaIndex"
+      ],
+      "logoUrl": "/logos/crewai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://crewai.com"
+    },
     {
       "id": "ai-qwen-25-coder",
       "name": "Qwen 2.5 Coder",
