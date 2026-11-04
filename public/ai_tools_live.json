@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 12:35 WIB",
-  "total": 81,
+  "updatedAt": "04 Nov 2026, 12:41 WIB",
+  "total": 83,
   "items": [
+    {
+      "id": "ai-activepieces",
+      "name": "Activepieces",
+      "category": "Automation & No-Code",
+      "pricingType": "Freemium",
+      "tagline": "Alternatif Zapier Open-Source yang Bersih, Cepat, dan Ramah Privasi",
+      "description": "Alat integrasi alur kerja open-source yang ringan dan modern. Sangat cocok untuk mengotomatiskan notifikasi Telegram, sync spreadsheet, dan webhook tanpa biaya langganan mahal.",
+      "features": [
+        "100% open source dengan lisensi MIT",
+        "Antarmuka kanvas yang sangat responsif",
+        "Dukungan potongan kode TypeScript di setiap langkah alur kerja",
+        "Bebas self-host tanpa batasan kuota eksekusi"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.activepieces.com"
+    },
+    {
+      "id": "ai-gumloop",
+      "name": "Gumloop",
+      "category": "Automation & No-Code",
+      "pricingType": "Freemium",
+      "tagline": "Platform Workflow AI Modular untuk Memproses Dokumen, Web Scraping & Riset",
+      "description": "Alat otomatisasi yang menggabungkan kemampuan AI mutakhir dengan web browsing otomatis, analisis spreadsheet raksasa, dan ekstraksi PDF kompleks secara visual.",
+      "features": [
+        "Node web scraper yang menavigasi browser selayaknya manusia",
+        "Pemrosesan batch file PDF dan gambar sekaligus",
+        "Pilihan model AI frontier terkini dalam setiap node",
+        "Template siap pakai untuk riset kompetitor dan SEO audit"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.gumloop.com/?via=locagocreative"
+    },
     {
       "id": "ai-lindy-ai",
       "name": "Lindy AI",
