@@ -32,6 +32,7 @@ export const LinkListsHub: React.FC = () => {
   // Modal States
   const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
   const [editingList, setEditingList] = useState<LinkListItem | null>(null);
+  const [viewingList, setViewingList] = useState<LinkListItem | null>(null);
 
   // Forms
   const [formTitle, setFormTitle] = useState('');
@@ -119,8 +120,13 @@ export const LinkListsHub: React.FC = () => {
   };
 
   const openPlaylist = (id: string) => {
-    window.location.hash = `ai-tools#linklist=${id}`;
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    const item = linkLists.find((l) => l.id === id);
+    if (item) {
+      setViewingList(item);
+    } else {
+      window.location.hash = `ai-tools?linklist=${id}`;
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
   };
 
   // Open Create Modal
@@ -690,6 +696,200 @@ export const LinkListsHub: React.FC = () => {
             </div>
           </div>
         )}
+
+        {/* ======================================================== */}
+        {/* DETAIL VIEW PLAYLIST MODAL                                */}
+        {/* ======================================================== */}
+        {viewingList && (
+          <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
+            <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-2xl w-full max-w-2xl max-h-[90vh] overflow-hidden flex flex-col shadow-2xl">
+              
+              {/* Header */}
+              <div className="p-5 border-b border-neutral-200 dark:border-neutral-800 flex items-start justify-between gap-4 bg-neutral-50/50 dark:bg-neutral-900/50">
+                <div className="min-w-0 flex-1">
+                  <div className="flex items-center gap-2 mb-2 flex-wrap">
+                    {viewingList.isOfficial ? (
+                      <span className="text-[10px] font-mono px-2.5 py-0.5 rounded-full bg-amber-500/10 text-amber-600 dark:text-amber-400 border border-amber-500/20 font-bold">
+                        👑 Kurasi Resmi Mas Fahmi
+                      </span>
+                    ) : (
+                      <span className="text-[10px] font-mono px-2.5 py-0.5 rounded-full bg-purple-500/10 text-purple-600 dark:text-purple-400 border border-purple-500/20 font-bold">
+                        👥 Kurasi Komunitas
+                      </span>
+                    )}
+                    <span className="text-[11px] text-neutral-400 font-mono">📅 {viewingList.createdAt}</span>
+                    <span className="text-[11px] text-neutral-400 font-mono">👁️ {viewingList.views || 350} views</span>
+                  </div>
+                  <h2 className="text-xl font-bold text-neutral-900 dark:text-white leading-snug">
+                    {viewingList.title}
+                  </h2>
+                  <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-1">
+                    Dibuat oleh: <span className="font-semibold text-neutral-700 dark:text-neutral-300">{viewingList.authorName || 'Kreator LocaGo'}</span>
+                  </p>
+                </div>
+
+                <button
+                  onClick={() => setViewingList(null)}
+                  className="w-8 h-8 rounded-full bg-neutral-100 dark:bg-neutral-800 text-neutral-500 hover:text-neutral-900 dark:hover:text-white flex items-center justify-center font-bold text-sm cursor-pointer shrink-0 transition-all"
+                  title="Tutup"
+                >
+                  ✕
+                </button>
+              </div>
+
+              {/* Body */}
+              <div className="p-5 overflow-y-auto space-y-4 flex-1">
+                {/* Notes */}
+                {viewingList.notes && (
+                  <div className="p-3.5 rounded-xl bg-purple-50 dark:bg-purple-950/30 border border-purple-200 dark:border-purple-900/50 text-xs text-neutral-700 dark:text-neutral-300 leading-relaxed flex items-start gap-2.5">
+                    <span className="text-base shrink-0">📝</span>
+                    <div>
+                      <div className="font-bold text-purple-700 dark:text-purple-300 mb-0.5 font-mono text-[11px]">Catatan Khusus Kreator:</div>
+                      {viewingList.notes}
+                    </div>
+                  </div>
+                )}
+
+                {/* Video Link */}
+                {viewingList.videoUrl && (
+                  <div className="flex items-center justify-between p-3 rounded-xl bg-neutral-100 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 text-xs">
+                    <div className="flex items-center gap-2 truncate">
+                      <span>📹</span>
+                      <span className="text-neutral-700 dark:text-neutral-300 truncate">Tonton Video Pembahasan:</span>
+                    </div>
+                    <a
+                      href={viewingList.videoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-purple-600 dark:text-purple-400 font-bold hover:underline shrink-0 ml-2"
+                    >
+                      Buka Tautan Video ↗
+                    </a>
+                  </div>
+                )}
+
+                {/* Curated Tools List */}
+                <div>
+                  <div className="text-xs font-mono font-bold text-neutral-500 uppercase tracking-wider mb-2.5 flex items-center justify-between">
+                    <span>Daftar Tool AI Terpilih ({viewingList.toolIds.length})</span>
+                    <span className="text-[10px] text-neutral-400">Tautan Terverifikasi</span>
+                  </div>
+
+                  <div className="space-y-2">
+                    {viewingList.toolIds.map((tId) => {
+                      const cleanId = tId.replace('ai-', '').toLowerCase();
+                      const matchedTool = tools.find(
+                        (t) => t.id === tId || t.name.toLowerCase().replace(/[^a-z0-9]/g, '') === cleanId
+                      );
+                      const toolName = matchedTool ? matchedTool.name : cleanId.split('-').map((s) => s.charAt(0).toUpperCase() + s.slice(1)).join(' ');
+                      const toolDesc = matchedTool?.tagline || matchedTool?.description || 'Tools kecerdasan buatan terkurasi untuk efisiensi workflow.';
+                      const toolUrl = matchedTool?.affiliateUrl || `https://${cleanId}.com`;
+                      const toolLogo = matchedTool?.logoUrl;
+
+                      return (
+                        <div
+                          key={tId}
+                          className="p-3 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-950 flex items-center justify-between gap-3 hover:border-purple-400 dark:hover:border-purple-600 transition-all shadow-sm"
+                        >
+                          <div className="flex items-center gap-3 min-w-0">
+                            <div className="w-10 h-10 rounded-xl bg-purple-100 dark:bg-purple-900/40 border border-purple-200 dark:border-purple-800/60 flex items-center justify-center shrink-0 overflow-hidden font-bold text-purple-600 dark:text-purple-300 text-sm">
+                              {toolLogo ? (
+                                <img src={toolLogo} alt={toolName} className="w-full h-full object-contain p-1" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+                              ) : (
+                                toolName.charAt(0).toUpperCase()
+                              )}
+                            </div>
+                            <div className="min-w-0">
+                              <div className="flex items-center gap-1.5 flex-wrap">
+                                <span className="font-bold text-sm text-neutral-900 dark:text-white capitalize">{toolName}</span>
+                                {matchedTool?.pricingType && (
+                                  <span className="text-[9px] font-mono px-1.5 py-0.2 rounded bg-neutral-200 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400">
+                                    {matchedTool.pricingType}
+                                  </span>
+                                )}
+                              </div>
+                              <p className="text-xs text-neutral-500 dark:text-neutral-400 truncate">{toolDesc}</p>
+                            </div>
+                          </div>
+
+                          <a
+                            href={toolUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-3.5 py-1.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-mono text-xs font-bold shrink-0 transition-all shadow-sm active:scale-95"
+                          >
+                            Buka ↗
+                          </a>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                {/* Custom Links Section (if any) */}
+                {viewingList.customLinks && viewingList.customLinks.length > 0 && (
+                  <div>
+                    <div className="text-xs font-mono font-bold text-neutral-500 uppercase tracking-wider mb-2">
+                      Tautan Tambahan ({viewingList.customLinks.length})
+                    </div>
+                    <div className="space-y-2">
+                      {viewingList.customLinks.map((cl) => (
+                        <div
+                          key={cl.id}
+                          className="p-3 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-950 flex items-center justify-between gap-3"
+                        >
+                          <div className="min-w-0">
+                            <div className="font-bold text-xs text-neutral-900 dark:text-white">{cl.title}</div>
+                            {cl.note && <div className="text-[11px] text-neutral-500">{cl.note}</div>}
+                          </div>
+                          <a
+                            href={cl.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-3 py-1.5 rounded-xl bg-neutral-200 dark:bg-neutral-800 hover:bg-neutral-300 dark:hover:bg-neutral-700 text-neutral-800 dark:text-neutral-200 font-mono text-xs font-bold shrink-0 transition-all"
+                          >
+                            Kunjungi ↗
+                          </a>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* Footer */}
+              <div className="p-4 border-t border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-950 flex items-center justify-between gap-3 flex-wrap">
+                <button
+                  onClick={() => copyShareLink(viewingList.id)}
+                  className="px-4 py-2 rounded-xl border border-neutral-300 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800 font-mono text-xs font-bold text-neutral-700 dark:text-neutral-300 cursor-pointer flex items-center gap-1.5 transition-all"
+                >
+                  <span>🔗 Salin Link Share</span>
+                </button>
+
+                <div className="flex items-center gap-2">
+                  <button
+                    onClick={() => {
+                      const id = viewingList.id;
+                      setViewingList(null);
+                      window.location.hash = `ai-tools?linklist=${id}`;
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }}
+                    className="px-4 py-2 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-mono text-xs font-bold cursor-pointer transition-all shadow-sm"
+                  >
+                    Buka di Katalog AI Tools →
+                  </button>
+                  <button
+                    onClick={() => setViewingList(null)}
+                    className="px-4 py-2 rounded-xl bg-neutral-200 dark:bg-neutral-800 hover:bg-neutral-300 dark:hover:bg-neutral-700 font-mono text-xs font-bold text-neutral-700 dark:text-neutral-300 cursor-pointer transition-all"
+                  >
+                    Tutup
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
       </div>
     </section>
   );

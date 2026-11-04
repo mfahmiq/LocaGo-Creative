@@ -161,6 +161,11 @@ export const ArticlesHub: React.FC = () => {
                       src={art.cover}
                       alt={art.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      loading="eager"
+                      onError={(e) => {
+                        e.currentTarget.onerror = null;
+                        e.currentTarget.src = '/banners/articles/article_ai_coding_tools.webp';
+                      }}
                     />
                     <div className="absolute top-2.5 left-2.5 flex items-center gap-1.5">
                       <span className="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-neutral-900/80 backdrop-blur-sm text-white">
