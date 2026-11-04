@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 03:15 WIB",
-  "total": 308,
+  "updatedAt": "05 Nov 2026, 03:22 WIB",
+  "total": 310,
   "items": [
+    {
+      "id": "ai-fluxai",
+      "name": "FluxAI",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Visual RAG Pipeline Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "FluxAI adalah platform low-code untuk merancang dan mempublikasikan workflow rag tanpa coding. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/fluxai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://fluxai.io"
+    },
+    {
+      "id": "ai-tensormatrix-ai",
+      "name": "TensorMatrix AI",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Private Local AI Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "TensorMatrix AI adalah engine inferensi model lokal berkecepatan tinggi dengan perlindungan privasi data 100%. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/tensormatrix-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://tensormatrixai.tech"
+    },
     {
       "id": "ai-solisscraper",
       "name": "SolisScraper",
