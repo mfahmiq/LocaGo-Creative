@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 17:06 WIB",
-  "total": 111,
+  "updatedAt": "04 Nov 2026, 17:12 WIB",
+  "total": 113,
   "items": [
+    {
+      "id": "ai-taskade",
+      "name": "Taskade",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Workspace Kolaborasi Tim dengan Tim Agen AI Otonom dan Otomasi Workflow",
+      "description": "Platform produktivitas lengkap yang menggabungkan to-do list, mind map, catatan proyek, dan agen AI custom yang dapat diberi tugas otomatis untuk mengelola alur kerja tim Anda.",
+      "features": [
+        "Agen AI custom dengan persona tim",
+        "Peta pikiran (Mind Map) dan Kanban board",
+        "Otomasi workflow multi-langkah",
+        "Kolaborasi real-time multi-pengguna"
+      ],
+      "logoUrl": "/logos/taskade.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://taskade.com"
+    },
+    {
+      "id": "ai-julius-ai",
+      "name": "Julius AI",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Data Scientist AI Pribadi Anda untuk Menganalisis Spreadsheet, CSV, dan Membuat Grafik",
+      "description": "Asisten analisis data pintar yang mampu membaca berkas Excel, CSV, atau database SQL Anda, melakukan pembersihan data, menjalankan model prediktif, dan membuat chart visual menawan.",
+      "features": [
+        "Analisis spreadsheet Excel & CSV otomatis",
+        "Visualisasi grafik dan diagram interaktif",
+        "Eksekusi kode Python data science otomatis",
+        "Eksplanasi insight bisnis dalam bahasa santai"
+      ],
+      "logoUrl": "/logos/julius-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://julius.ai"
+    },
     {
       "id": "ai-apify",
       "name": "Apify",
