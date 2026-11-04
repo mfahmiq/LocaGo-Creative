@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 11:46 WIB",
-  "total": 65,
+  "updatedAt": "04 Nov 2026, 11:52 WIB",
+  "total": 67,
   "items": [
+    {
+      "id": "ai-viggle-ai",
+      "name": "Viggle AI",
+      "category": "Video & Graphics",
+      "pricingType": "Freemium",
+      "tagline": "Animasi Karakter 3D Konsisten Murni Mengikuti Gerakan Video Referensi",
+      "description": "Tool viral yang memungkinkan Anda mengganti karakter dalam video joget atau aksi apapun dengan foto karakter Anda sendiri menggunakan teknologi rigging JST-1.",
+      "features": [
+        "Kloning gerakan tubuh manusia dari video referensi",
+        "Konsistensi proporsi pakaian dan wajah karakter",
+        "Model fisika rigging karakter berbasis JST-1",
+        "Dukungan Discord bot dan antarmuka web"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://viggle.ai/?via=locagocreative"
+    },
+    {
+      "id": "ai-pika-20",
+      "name": "Pika 2.0",
+      "category": "Video & Graphics",
+      "pricingType": "Freemium",
+      "tagline": "Platform Efek Visual Kreatif AI dengan Fitur Pikaffects Unik",
+      "description": "Alat pembuat video yang memadukan animasi cerdas dengan efek fisik unik seperti mencair (melt), meledak (explode), mengembang, dan memotong objek dalam gambar.",
+      "features": [
+        "Pikaffects: Efek fisik manipulasi objek surreal",
+        "Modifikasi area spesifik video (inpainting video)",
+        "Ekspansi rasio kanvas (outpainting video)",
+        "Sinkronisasi bibir dan audio bawaan"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://pika.art/?via=locagocreative"
+    },
     {
       "id": "ai-hailuo-ai-(minimax)",
       "name": "Hailuo AI (MiniMax)",
