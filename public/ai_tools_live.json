@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 02:44 WIB",
-  "total": 298,
+  "updatedAt": "05 Nov 2026, 02:51 WIB",
+  "total": 300,
   "items": [
+    {
+      "id": "ai-visioncraft",
+      "name": "VisionCraft",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "Lightning Autocomplete Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "VisionCraft adalah mesin autocomplete kode berkecepatan tinggi dengan pemahaman konteks lintas berkas. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/visioncraft.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://visioncraft.ai"
+    },
+    {
+      "id": "ai-pioneerengine-ai",
+      "name": "PioneerEngine AI",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "AI Calendar Scheduler Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "PioneerEngine AI adalah asisten manajemen waktu dan kalender dinamis yang mengoptimalkan jadwal produktivitas. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/pioneerengine-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://pioneerengineai.tech"
+    },
     {
       "id": "ai-spectra-flow",
       "name": "Spectra Flow",
