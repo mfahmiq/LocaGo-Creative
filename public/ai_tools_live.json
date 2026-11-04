@@ -1,7 +1,25 @@
 {
-  "updatedAt": "04 Nov 2026, 12:23 WIB",
-  "total": 77,
+  "updatedAt": "04 Nov 2026, 12:26 WIB",
+  "total": 78,
   "items": [
+    {
+      "id": "ai-perplexity-pro",
+      "name": "Perplexity Pro",
+      "category": "AI Writing & SEO",
+      "pricingType": "Freemium",
+      "tagline": "Mesin Pencari AI Berbasis Riset yang Menjawab dengan Sumber Terpercaya & Citasi Langsung",
+      "description": "Alternatif modern untuk Google Search yang mengagregasi ratusan artikel web, menyajikan ringkasan jawaban komprehensif, dan menyertakan rujukan tautan ilmiah secara langsung.",
+      "features": [
+        "Pencarian web real-time dengan verifikasi sumber",
+        "Pilihan beralih model (Claude 3.5 Sonnet, GPT-4o, Sonar)",
+        "Upload dokumen PDF/CSV untuk analisis data mendalam",
+        "Fitur Collections untuk mengelompokkan riset"
+      ],
+      "logoUrl": "/logos/perplexity.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.perplexity.ai/pro?via=locagocreative"
+    },
     {
       "id": "ai-recraft-v3",
       "name": "Recraft v3",
