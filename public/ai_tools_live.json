@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 00:09 WIB",
-  "total": 248,
+  "updatedAt": "05 Nov 2026, 00:15 WIB",
+  "total": 250,
   "items": [
+    {
+      "id": "ai-vanguardpipeline-v6",
+      "name": "VanguardPipeline v6",
+      "category": "Web & Scrapers",
+      "pricingType": "Free",
+      "tagline": "Data Monitoring Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "VanguardPipeline v6 adalah platform monitoring perubahan data web dan ekstraksi tabel berkala secara otomatis. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/vanguardpipeline-v6.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://vanguardpipelinev6.ai"
+    },
+    {
+      "id": "ai-spectra-cloud",
+      "name": "Spectra Cloud",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "IDE AI & CLI Code Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Spectra Cloud adalah asisten pemrograman otonom yang mempercepat pengembangan aplikasi dan refactoring kode. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/spectra-cloud.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://spectracloud.ai"
+    },
     {
       "id": "ai-lyricgraph",
       "name": "LyricGraph",
