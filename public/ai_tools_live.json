@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 02:26 WIB",
-  "total": 292,
+  "updatedAt": "05 Nov 2026, 02:32 WIB",
+  "total": 294,
   "items": [
+    {
+      "id": "ai-vector-sync",
+      "name": "Vector Sync",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Generative Visual Studio Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Vector Sync adalah studio visual generatif untuk menghasilkan aset gambar 3d, grafis vektor, dan mockup produk. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/vector-sync.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://vectorsync.tech"
+    },
+    {
+      "id": "ai-streamreader-ai",
+      "name": "StreamReader AI",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Generative Visual Studio Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "StreamReader AI adalah studio visual generatif untuk menghasilkan aset gambar 3d, grafis vektor, dan mockup produk. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/streamreader-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://streamreaderai.dev"
+    },
     {
       "id": "ai-orbitmind-ai",
       "name": "OrbitMind AI",
