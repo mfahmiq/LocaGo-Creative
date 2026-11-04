@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 18:05 WIB",
-  "total": 131,
+  "updatedAt": "04 Nov 2026, 18:11 WIB",
+  "total": 133,
   "items": [
+    {
+      "id": "ai-quillvision",
+      "name": "QuillVision",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "Data Monitoring Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "QuillVision adalah platform monitoring perubahan data web dan ekstraksi tabel berkala secara otomatis. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/quillvision.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://quillvision.app"
+    },
+    {
+      "id": "ai-velopipeline",
+      "name": "VeloPipeline",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Lightning Autocomplete Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "VeloPipeline adalah mesin autocomplete kode berkecepatan tinggi dengan pemahaman konteks lintas berkas. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/velopipeline.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://velopipeline.tech"
+    },
     {
       "id": "ai-tensorvoice",
       "name": "TensorVoice",
