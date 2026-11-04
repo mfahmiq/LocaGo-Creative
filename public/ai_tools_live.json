@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 19:47 WIB",
-  "total": 164,
+  "updatedAt": "04 Nov 2026, 19:53 WIB",
+  "total": 166,
   "items": [
+    {
+      "id": "ai-spectrascraper-ai",
+      "name": "SpectraScraper AI",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Voice & Audio Synthesis Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "SpectraScraper AI adalah platform sintesis vokal dan aransemen musik instan berkualitas studio rekaman. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/spectrascraper-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://spectrascraperai.io"
+    },
+    {
+      "id": "ai-titan-link",
+      "name": "Titan Link",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Lightning Autocomplete Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Titan Link adalah mesin autocomplete kode berkecepatan tinggi dengan pemahaman konteks lintas berkas. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/titan-link.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://titanlink.co"
+    },
     {
       "id": "ai-catalystvector-ai",
       "name": "CatalystVector AI",
