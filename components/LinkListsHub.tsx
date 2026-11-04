@@ -65,6 +65,25 @@ export const LinkListsHub: React.FC = () => {
         if (d.items && d.items.length > 0) setTools(d.items);
       })
       .catch(() => {});
+
+    // Fetch live expanding linklists shard
+    fetch('/linklists_live.json?t=' + Date.now())
+      .then((r) => r.json())
+      .then((d) => {
+        if (d.items && Array.isArray(d.items) && d.items.length > 0) {
+          setLinkLists((prev) => {
+            const liveMap = new Map(d.items.map((it: LinkListItem) => [it.id, it]));
+            // Retain user's custom created lists
+            const personalLists = prev.filter((p) => !liveMap.has(p.id) && !p.isOfficial);
+            const combined = [...d.items, ...personalLists];
+            try {
+              localStorage.setItem('locago_community_linklists', JSON.stringify(combined));
+            } catch {}
+            return combined;
+          });
+        }
+      })
+      .catch(() => {});
   }, []);
 
   // Filtered LinkLists

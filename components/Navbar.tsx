@@ -21,6 +21,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
   const [scCount, setScCount] = useState<number>(SOURCE_CODE_LIST.length);
   const [toolsCount, setToolsCount] = useState<number>(AI_TOOLS_LIST.length);
   const [articlesCount, setArticlesCount] = useState<number>(ARTICLES_LIST.length);
+  const [playlistCount, setPlaylistCount] = useState<number>(8);
 
   useEffect(() => {
     fetch('/source_codes_live.json')
@@ -41,6 +42,13 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
       .then((r) => r.json())
       .then((d) => {
         if (d.items && d.items.length > 0) setArticlesCount(d.items.length);
+      })
+      .catch(() => {});
+
+    fetch('/linklists_live.json')
+      .then((r) => r.json())
+      .then((d) => {
+        if (d.items && d.items.length > 0) setPlaylistCount(d.items.length);
       })
       .catch(() => {});
   }, []);
@@ -195,7 +203,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                     : 'bg-purple-100 dark:bg-purple-950/60 text-purple-700 dark:text-purple-400'
                 }`}
               >
-                Publik
+                {playlistCount}
               </span>
             </button>
 
@@ -459,10 +467,10 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
             >
               <div className="flex items-center gap-2">
                 <span className="text-sm font-semibold text-neutral-900 dark:text-white">
-                  🗂️ Library Playlist Publik
+                  🗂️ Library Playlist AI
                 </span>
                 <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-purple-600 text-white font-mono">
-                  Publik
+                  {playlistCount}
                 </span>
               </div>
               <span className="font-mono text-xs text-neutral-400">05 →</span>
