@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 03:34 WIB",
-  "total": 314,
+  "updatedAt": "05 Nov 2026, 03:40 WIB",
+  "total": 316,
   "items": [
+    {
+      "id": "ai-logicvision-ai",
+      "name": "LogicVision AI",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "tagline": "Fullstack App Generator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "LogicVision AI adalah generator arsitektur fullstack otomatis berbasis prompt bahasa alami. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/logicvision-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://logicvisionai.tech"
+    },
+    {
+      "id": "ai-quantumdirector-ai",
+      "name": "QuantumDirector AI",
+      "category": "Agentic Automation",
+      "pricingType": "Paid",
+      "tagline": "Visual RAG Pipeline Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "QuantumDirector AI adalah platform low-code untuk merancang dan mempublikasikan workflow rag tanpa coding. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/quantumdirector-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://quantumdirectorai.dev"
+    },
     {
       "id": "ai-model-works",
       "name": "Model Works",
