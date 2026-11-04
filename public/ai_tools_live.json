@@ -1,42 +1,386 @@
 {
-  "updatedAt": "03 Nov 2026, 21:31 WIB",
-  "total": 2,
+  "updatedAt": "04 Nov 2026, 08:49 WIB",
+  "total": 20,
   "items": [
     {
-      "id": "ai-coderabbit",
-      "name": "Coderabbit",
+      "id": "tool-cursor",
+      "name": "Cursor AI",
       "category": "AI Coding",
       "pricingType": "Freemium",
-      "tagline": "Reviewer Kode AI Otomatis untuk GitHub Pull Request & GitLab MR",
-      "description": "Agen AI yang bertindak sebagai Senior Code Reviewer pada repositori Git Anda. Setiap kali tim membuka Pull Request, CodeRabbit otomatis menganalisis logika perubahan, mendeteksi kerentanan keamanan, dan memberikan saran optimasi langsung di baris kode.",
+      "tagline": "IDE Pemrograman AI Masa Depan Berbasis VS Code dengan Multi-File Editing",
+      "description": "Editor kode cerdas berbasis VS Code dengan fitur Composer multi-file. Mampu menganalisis seluruh repositori kode Anda, mendeteksi bug arsitektur, dan merefaktor kode secara sinkron di belasan file sekaligus.",
       "features": [
-        "Ringkasan Pull Request otomatis dengan diagram alur",
-        "Deteksi bug dan potensi memory leak sebelum merge",
-        "Ulasan 1-klik untuk menerima saran refactoring",
-        "Dukungan integrasi webhook GitHub, GitLab, dan Bitbucket"
+        "Composer multi-file Ctrl+I",
+        "Dukungan model Claude 3.7 & OpenAI o1",
+        "Shadow Workspace auto-linting",
+        "Kompatibel 100% ekstensi VS Code"
       ],
-      "logoUrl": "/logos/coderabbit.png",
-      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
-      "demoVideoUrl": "_JpztKT8raM",
-      "affiliateUrl": "https://coderabbit.ai/?via=locagocreative"
+      "screenshotUrl": "/tools/previews/cursor.webp",
+      "demoVideoUrl": "DjVadODhOHA",
+      "logoUrl": "/logos/cursor.png",
+      "websiteUrl": "https://cursor.com/?via=locagocreative",
+      "isFeatured": true
     },
     {
-      "id": "ai-kite",
+      "id": "tool-bolt",
+      "name": "Bolt.new",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Full-Stack Web Development AI Murni di Browser dengan WebContainers",
+      "description": "Platform perancangan dan deployment aplikasi full-stack langsung dari browser. Membangun aplikasi Next.js, Node.js, dan Supabase secara mandiri lengkap dengan preview live dan auto-fix compiler error.",
+      "features": [
+        "Eksekusi Node.js murni di browser",
+        "Auto-install npm package cerdas",
+        "Integrasi Supabase & database cloud",
+        "Deploy instan 1-klik ke Netlify"
+      ],
+      "screenshotUrl": "/tools/previews/bolt.webp",
+      "demoVideoUrl": "XWn1k_Xm0zM",
+      "logoUrl": "/logos/bolt.png",
+      "websiteUrl": "https://bolt.new/?via=locagocreative",
+      "isFeatured": true
+    },
+    {
+      "id": "tool-v0",
+      "name": "v0 by Vercel",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Generator Komponen UI/UX React, Tailwind CSS & Shadcn UI Instan",
+      "description": "Generator antarmuka frontend buatan Vercel yang mengubah deskripsi bahasa manusia menjadi kode React produksi yang rapi, semantic, dan mendukung tema dark/light mode bawaan.",
+      "features": [
+        "Komponen React modular siap pakai",
+        "Integrasi Shadcn UI & Tailwind CSS",
+        "Ekspor instan via perintah npx CLI",
+        "Fitur seleksi edit visual blok"
+      ],
+      "screenshotUrl": "/tools/previews/v0.webp",
+      "demoVideoUrl": "1f8nE9i-0wU",
+      "logoUrl": "/logos/v0.png",
+      "websiteUrl": "https://v0.dev/?ref=locagocreative",
+      "isFeatured": true
+    },
+    {
+      "id": "tool-elevenlabs",
+      "name": "ElevenLabs",
+      "category": "Voice & Audio AI",
+      "pricingType": "Freemium",
+      "tagline": "Sintesis Suara Paling Alami & Kloning Vokal Studio Multi-Bahasa",
+      "description": "Platform Text-to-Speech generasi terbaru dengan intonasi vokal, dinamika napas, dan ekspresi emosi manusia sejati. Mendukung kloning suara hanya dari 1 menit sampel audio jernih.",
+      "features": [
+        "Kloning vokal presisi tinggi 1-menit",
+        "Dukungan 29 bahasa termasuk Bahasa Indonesia",
+        "Dubbing video otomatis dengan lip-sync",
+        "API latensi ultra-rendah untuk asisten bot"
+      ],
+      "screenshotUrl": "/tools/previews/elevenlabs.webp",
+      "demoVideoUrl": "qLpDvh-z2XQ",
+      "logoUrl": "/logos/elevenlabs.png",
+      "websiteUrl": "https://elevenlabs.io/?from=locagocreative",
+      "isFeatured": true
+    },
+    {
+      "id": "tool-make",
+      "name": "Make.com",
+      "category": "Automation & No-Code",
+      "pricingType": "Freemium",
+      "tagline": "Visual Workflow Automation Hub untuk Menghubungkan Ratusan Aplikasi",
+      "description": "Kanvas visual drag-and-drop untuk menghubungkan API, database, CRM, dan pesan WhatsApp tanpa perlu menulis kode backend. Mengotomasi alur transaksi bisnis secara 24/7 nonstop.",
+      "features": [
+        "Kanvas visual intuitif tanpa batas",
+        "1.000+ modul integrasi aplikasi resmi",
+        "Pengolahan webhook & JSON real-time",
+        "Eksekusi otomatis berjadwal & multi-router"
+      ],
+      "screenshotUrl": "/tools/previews/make.webp",
+      "demoVideoUrl": "0N6-o6R_fLQ",
+      "logoUrl": "/logos/make.png",
+      "websiteUrl": "https://www.make.com/en/register?pc=locagocreative",
+      "isFeatured": true
+    },
+    {
+      "id": "tool-runway",
+      "name": "Runway Gen-3",
+      "category": "Video & Graphics",
+      "pricingType": "Freemium",
+      "tagline": "Generator Video Sinematik 4K Fotorealistik dengan Kontrol Kamera Presisi",
+      "description": "Model generative video mutakhir yang menghasilkan adegan sinematik dengan konsistensi fisik dunia nyata, pergerakan kamera halus (pan, orbit, zoom), dan pencahayaan dinamis.",
+      "features": [
+        "Resolusi 4K dengan konsistensi fisik tinggi",
+        "Kontrol pergerakan kamera multi-arah",
+        "Text-to-Video & Image-to-Video presisi",
+        "Fitur Motion Brush untuk menganimasi area tertentu"
+      ],
+      "screenshotUrl": "/tools/previews/runway.webp",
+      "demoVideoUrl": "rE10qF-2kO8",
+      "logoUrl": "/logos/runway.png",
+      "websiteUrl": "https://runwayml.com/",
+      "isFeatured": true
+    },
+    {
+      "id": "tool-midjourney",
+      "name": "Midjourney v6",
+      "category": "Video & Graphics",
+      "pricingType": "Paid",
+      "tagline": "Standar Emas Generator Gambar & Desain Visual Artistik Fotorealistik",
+      "description": "Engine kecerdasan visual paling disegani dalam industri periklanan dan desain konsep. Menghasilkan tekstur realistis, tipografi dalam gambar yang rapi, dan variasi pencahayaan studio.",
+      "features": [
+        "Kualitas detail tekstur fotorealistik tingkat studio",
+        "Rendering teks dan tipografi akurat",
+        "Mode Inpainting & Pan Out fleksibel",
+        "Variasi aspect ratio dinamis dari banner ke vertikal"
+      ],
+      "screenshotUrl": "/tools/previews/midjourney.webp",
+      "demoVideoUrl": "LwEwGf7f6aM",
+      "logoUrl": "/logos/midjourney.png",
+      "websiteUrl": "https://www.midjourney.com/",
+      "isFeatured": false
+    },
+    {
+      "id": "tool-kling",
+      "name": "Kling AI",
+      "category": "Video & Graphics",
+      "pricingType": "Freemium",
+      "tagline": "Generator Video Gerak Nyata dengan Durasi Panjang hingga 2 Menit",
+      "description": "Engine AI video revolusioner dengan simulasi gravitasi dan pergerakan objek kompleks. Mampu menghasilkan video hingga 120 detik dalam resolusi 1080p tanpa distorsi gerakan.",
+      "features": [
+        "Durasi generasi video terpanjang di kelasnya",
+        "Simulasi gravitasi dan mekanika gerak akurat",
+        "Rendering ekspresi wajah dan gerakan tubuh alami",
+        "Dukungan Text & Image prompt berbasis kontrol frame"
+      ],
+      "screenshotUrl": "/tools/previews/kling.webp",
+      "demoVideoUrl": "Vp2oM26Qe1E",
+      "logoUrl": "/logos/kling-ai.png",
+      "websiteUrl": "https://klingai.com/",
+      "isFeatured": false
+    },
+    {
+      "id": "tool-replit",
+      "name": "Replit Agent",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Agen Coding Otonom yang Membangun dan Menjalankan Aplikasi dari Ide Kasar",
+      "description": "Asisten engineering otonom di cloud yang merancang skema database, menulis API endpoint, membangun antarmuka web, dan langsung meluncurkan aplikasi aktif dengan domain publik.",
+      "features": [
+        "Otonom membangun aplikasi dari nol hingga tayang",
+        "Cloud container runtime terisolasi",
+        "Database PostgreSQL bawaan",
+        "Domain dan SSL otomatis siap pakai"
+      ],
+      "screenshotUrl": "/tools/previews/replit.webp",
+      "demoVideoUrl": "e8q56_kZ0dI",
+      "logoUrl": "/logos/replit.png",
+      "websiteUrl": "https://replit.com/",
+      "isFeatured": false
+    },
+    {
+      "id": "tool-chatbase",
+      "name": "Chatbase",
+      "category": "Automation & No-Code",
+      "pricingType": "Freemium",
+      "tagline": "Bangun Asisten AI Customer Service dari Dokumen PDF & Website Anda",
+      "description": "Platform perancangan agen AI CS pintar yang dilatih langsung menggunakan dokumen SOP, katalog produk PDF, dan link website perusahaan Anda. Siap disematkan ke web via widget 1-klik.",
+      "features": [
+        "Training instan dari PDF, Notion, dan sitemap web",
+        "Widget chat interaktif siap embed di website apa pun",
+        "Integrasi WhatsApp dan Slack",
+        "Proteksi halusinasi dengan sitasi data ketat"
+      ],
+      "screenshotUrl": "/tools/previews/chatbase.webp",
+      "demoVideoUrl": "9XyQ4P3Vj_0",
+      "logoUrl": "/logos/chatbase.png",
+      "websiteUrl": "https://www.chatbase.co/",
+      "isFeatured": false
+    },
+    {
+      "id": "tool-phind",
+      "name": "Phind",
+      "category": "AI Writing & SEO",
+      "pricingType": "Free",
+      "tagline": "Mesin Pencari Khusus Developer dengan Sintesis Dokumentasi Teknis",
+      "description": "Search engine berbasis LLM yang dioptimalkan khusus untuk menjawab kendala teknis programming. Memberikan solusi kode langsung disertai referensi dokumentasi resmi dan diskusi forum GitHub.",
+      "features": [
+        "Pencarian web teknis real-time",
+        "Sintesis solusi kode langsung eksekusi",
+        "Dukungan model 70B parameter berlatensi rendah",
+        "Gratis tanpa batasan pencarian harian"
+      ],
+      "screenshotUrl": "/tools/previews/phind.webp",
+      "demoVideoUrl": "2A-0lGjK4fI",
+      "logoUrl": "/logos/perplexity.png",
+      "websiteUrl": "https://www.phind.com/",
+      "isFeatured": false
+    },
+    {
+      "id": "tool-blackbox",
+      "name": "Blackbox AI",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Ekstraksi Kode dari Video Tutorial & Autocomplete Kilat 20+ Bahasa",
+      "description": "Tool produktivitas coding dengan kemampuan unik menyalin teks kode langsung dari layar video tutorial YouTube, dilengkapi autocomplete instan dan pencarian potongan kode di repo global.",
+      "features": [
+        "Ekstraksi teks kode dari video & gambar",
+        "Autocomplete cepat untuk 20+ bahasa pemrograman",
+        "Pencarian repo dan dokumentasi teknis instan",
+        "Ekstensi ringan untuk Chrome dan VS Code"
+      ],
+      "screenshotUrl": "/tools/previews/blackbox.webp",
+      "demoVideoUrl": "9VlW7_k1d_k",
+      "logoUrl": "/logos/blackbox-ai.png",
+      "websiteUrl": "https://www.blackbox.ai/",
+      "isFeatured": false
+    },
+    {
+      "id": "tool-systeme",
+      "name": "Systeme.io",
+      "category": "Automation & No-Code",
+      "pricingType": "Freemium",
+      "tagline": "Infrastruktur Bisnis Digital All-in-One: Funnel, Email, & Kursus Online",
+      "description": "Solusi terpadu untuk pengusaha digital yang menggabungkan website builder, pengiriman email massal otomatis, penjualan produk digital, dan manajemen program afiliasi mandiri.",
+      "features": [
+        "Paket gratis selamanya hingga 2.000 kontak",
+        "Funnel penjualan dengan 1-click upsell",
+        "Portal membership kursus video terlindungi",
+        "Program afiliasi recurring resmi 60% seumur hidup"
+      ],
+      "screenshotUrl": "/tools/previews/make.webp",
+      "demoVideoUrl": "3iTqwXZq80k",
+      "logoUrl": "/logos/systeme.png",
+      "websiteUrl": "https://systeme.io/id?sa=sa0285473359ae5985c82865330cf1a062d892e972",
+      "isFeatured": true
+    },
+    {
+      "id": "tool-perplexity",
+      "name": "Perplexity AI",
+      "category": "AI Writing & SEO",
+      "pricingType": "Freemium",
+      "tagline": "Mesin Pencari Percakapan Cerdas dengan Verifikasi Sitasi Fakta Nyata",
+      "description": "Alternatif mesin pencari modern yang menyaring jutaan halaman web secara real-time dan menyajikan jawaban komprehensif lengkap dengan catatan kaki sumber terpercaya.",
+      "features": [
+        "Pencarian web real-time tanpa iklan mengganggu",
+        "Sitasi sumber ilmiah dan berita terpercaya",
+        "Mode fokus riset akademis dan komputasi",
+        "Pustaka koleksi pengetahuan yang dapat dibagikan"
+      ],
+      "screenshotUrl": "/tools/previews/phind.webp",
+      "demoVideoUrl": "Hw67H2M_W1A",
+      "logoUrl": "/logos/perplexity.png",
+      "websiteUrl": "https://www.perplexity.ai/",
+      "isFeatured": true
+    },
+    {
+      "id": "tool-coderabbit",
+      "name": "CodeRabbit",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Senior Code Reviewer AI untuk GitHub Pull Request & GitLab MR",
+      "description": "Agen AI yang bertindak sebagai reviewer kode senior pada repositori Git. Secara otomatis mendeteksi celah keamanan, potensi memory leak, dan memberikan saran perbaikan langsung di baris PR.",
+      "features": [
+        "Ringkasan Pull Request otomatis dengan diagram alur",
+        "Deteksi kerentanan keamanan sebelum merge",
+        "Review 1-klik untuk menerima saran refactoring",
+        "Integrasi webhook GitHub dan GitLab"
+      ],
+      "screenshotUrl": "/tools/previews/cursor.webp",
+      "demoVideoUrl": "sK9Q5v0Kz3M",
+      "logoUrl": "/logos/coderabbit.png",
+      "websiteUrl": "https://coderabbit.ai/",
+      "isFeatured": false
+    },
+    {
+      "id": "tool-kite",
       "name": "Kite",
       "category": "AI Coding",
       "pricingType": "Free",
-      "tagline": "AI Autocomplete Cepat yang Berjalan 100% Offline di Komputer Lokal",
-      "description": "Asisten coding AI lokal yang dirancang khusus untuk memprioritaskan privasi data perusahaan. Model bahasa dijalankan sepenuhnya pada CPU/GPU lokal tanpa mengirim baris kode ke server cloud, menjadikannya pilihan ideal untuk perbankan dan proyek tertutup.",
+      "tagline": "AI Autocomplete Coding Cepat yang Berjalan 100% Offline di CPU Lokal",
+      "description": "Asisten penulisan kode offline yang memprioritaskan privasi data perusahaan. Menjalankan model bahasa lokal di CPU komputer tanpa mengirim sebaris pun kode ke server eksternal.",
       "features": [
         "100% offline tanpa transmisi data internet",
-        "Autocomplete multi-baris cerdas untuk Python, JS, dan Go",
-        "Dukungan penuh editor VS Code, PyCharm, dan Sublime Text",
-        "Gratis tanpa batasan jumlah baris harian"
+        "Autocomplete multi-baris cerdas untuk Python & JS",
+        "Dukungan penuh editor VS Code dan PyCharm",
+        "Gratis tanpa batasan jumlah baris kode"
       ],
-      "logoUrl": "/logos/kite.png",
-      "screenshotUrl": "/banners/gemini/banner_pos_toko.webp",
+      "screenshotUrl": "/tools/previews/cursor.webp",
       "demoVideoUrl": "yk9lXobJ97E",
-      "affiliateUrl": "https://kite.com/?via=locagocreative"
+      "logoUrl": "/logos/kite.png",
+      "websiteUrl": "https://kite.com/?via=locagocreative",
+      "isFeatured": false
+    },
+    {
+      "id": "tool-rytr",
+      "name": "Rytr",
+      "category": "AI Writing & SEO",
+      "pricingType": "Freemium",
+      "tagline": "Asisten Penulisan Copywriting Cepat dengan 40+ Template Siap Pakai",
+      "description": "Platform copywriting bertenaga AI untuk membuat caption media sosial, artikel blog SEO, naskah email marketing, dan teks iklan konversi tinggi dalam 30+ bahasa.",
+      "features": [
+        "40+ template copywriting teruji",
+        "20+ variasi nada bicara (tone of voice)",
+        "Fitur built-in plagiarism checker",
+        "Ekstensi browser untuk menulis di platform apa pun"
+      ],
+      "screenshotUrl": "/tools/previews/chatbase.webp",
+      "demoVideoUrl": "4J_8Wz3V2uM",
+      "logoUrl": "/logos/rytr.png",
+      "websiteUrl": "https://rytr.me/?via=locagocreative",
+      "isFeatured": false
+    },
+    {
+      "id": "tool-shortlyai",
+      "name": "ShortlyAI",
+      "category": "AI Writing & SEO",
+      "pricingType": "Paid",
+      "tagline": "Kanvas Penulisan Narasi Panjang Minimalis Bebas Distraksi",
+      "description": "Editor penulisan cerita dan artikel panjang tanpa gangguan menu berlebih. Menghadirkan perintah slash command intuitif untuk memperluas, merumuskan, atau merephrase paragraf secara mengalir.",
+      "features": [
+        "Kanvas bersih bebas distraksi",
+        "Perintah cerdas /instruct, /expand, dan /rewrite",
+        "Dukungan penulisan novel fiksi dan non-fiksi",
+        "Panjang output fleksibel tanpa batas kata bulanan"
+      ],
+      "screenshotUrl": "/tools/previews/chatbase.webp",
+      "demoVideoUrl": "5L2mX9_p1kE",
+      "logoUrl": "/logos/shortlyai.png",
+      "websiteUrl": "https://www.shortlyai.com/",
+      "isFeatured": false
+    },
+    {
+      "id": "tool-notionai",
+      "name": "Notion AI",
+      "category": "AI Writing & SEO",
+      "pricingType": "Freemium",
+      "tagline": "Asisten Kecerdasan Dokumen Terpadu dalam Basis Pengetahuan Tim",
+      "description": "Kecerdasan buatan tersemat di ruang kerja Notion Anda. Mampu merangkum notulen rapat panjang, mengekstrak to-do list tindakan proyek, dan menjawab pertanyaan tim dari arsip dokumen internal.",
+      "features": [
+        "Pencarian Q&A di seluruh database Notion",
+        "Rangkuman otomatis notulen rapat dan halaman panjang",
+        "Drafting dokumen bisnis, PRD, dan SOP cepat",
+        "Integrasi langsung dengan task board kanban"
+      ],
+      "screenshotUrl": "/tools/previews/chatbase.webp",
+      "demoVideoUrl": "3ZkL9_w7f2A",
+      "logoUrl": "/logos/notion.png",
+      "websiteUrl": "https://www.notion.so/product/ai",
+      "isFeatured": true
+    },
+    {
+      "id": "tool-suno",
+      "name": "Suno AI",
+      "category": "Voice & Audio AI",
+      "pricingType": "Freemium",
+      "tagline": "Komposer Musik & Vokal Generatif Berkualitas Siap Siar Radio",
+      "description": "Generator musik revolusioner yang memproduksi lagu lengkap (lirik, aransemen instrumen, harmoni vokal pria/wanita) dalam berbagai genre musik hanya dari deskripsi naskah singkat.",
+      "features": [
+        "Generasi lagu full-track dalam hitungan detik",
+        "Vokal dan aransemen instrumen kualitas rekaman studio",
+        "Mendukung beragam genre: Lo-Fi, Rock, Pop, EDM, Jazz",
+        "Komersialisasi penuh untuk konten kreator berbayar"
+      ],
+      "screenshotUrl": "/tools/previews/elevenlabs.webp",
+      "demoVideoUrl": "8rZ6kP5_k3I",
+      "logoUrl": "/logos/suno.png",
+      "websiteUrl": "https://suno.com/",
+      "isFeatured": false
     }
   ]
 }

@@ -336,6 +336,177 @@ export const SOURCE_CODE_LIST: SourceCodeItem[] = [
     downloadUrlFree: `${SAFELINK_BASE_URL}?item=pos-kasir-ritel-wa&step=1&target=drive`,
     downloadUrlFast: 'https://lynk.id/dwollopus'
   }
+,
+{
+  "id": "sc-11",
+  "title": "Aplikasi Kasir Apotek & Stok Obat",
+  "slug": "kasir-apotek-stok-obat",
+  "category": "PHP & Laravel",
+  "techStack": [
+    "Laravel 11",
+    "MySQL",
+    "Struk Thermal"
+  ],
+  "description": "Sistem informasi manajemen apotek dan kasir penjualan obat lengkap dengan peringatan tanggal kadaluarsa (expired date), stok minimum otomatis, dan cetak struk kasir.",
+  "shortDesc": "Sistem informasi manajemen apotek dan kasir penjualan obat lengkap dengan peringatan tanggal kadalua...",
+  "thumbnail": "/banners/gemini/banner_pos_toko.webp",
+  "downloadsCount": 420,
+  "rating": 4.9,
+  "isFree": true,
+  "hasDatabase": true,
+  "databaseType": "MySQL (.sql)",
+  "fileSize": "1.2 MB",
+  "tutorialSteps": [
+    "Ekstrak berkas zip proyek ke direktori server web lokal",
+    "Import skema database yang disediakan di dalam paket",
+    "Sesuaikan konfigurasi koneksi database pada file config",
+    "Buka di browser lokal dan aplikasi siap digunakan"
+  ],
+  "keyFeatures": [
+    "Full source code terstruktur rapi tanpa enkripsi",
+    "Termasuk file database dan contoh data",
+    "Desain antarmuka mobile-responsive modern",
+    "Panduan instalasi langkah demi langkah"
+  ],
+  "downloadUrlFree": "https://www.dwollopus.eu.org",
+  "downloadUrlFast": "https://lynk.id/dwollopus"
+},
+{
+  "id": "sc-12",
+  "title": "Sistem Booking Jadwal Barbershop & Salon",
+  "slug": "booking-barbershop-salon",
+  "category": "Next.js & React",
+  "techStack": [
+    "Next.js 14",
+    "Tailwind",
+    "WhatsApp API"
+  ],
+  "description": "Platform reservasi online jam potong rambut dan perawatan salon dengan kalender interaktif, pilihan kapster favorit, dan konfirmasi WhatsApp otomatis ke pelanggan.",
+  "shortDesc": "Platform reservasi online jam potong rambut dan perawatan salon dengan kalender interaktif, pilihan ...",
+  "thumbnail": "/banners/gemini/banner_katalog_umkm.webp",
+  "downloadsCount": 420,
+  "rating": 4.9,
+  "isFree": true,
+  "hasDatabase": true,
+  "databaseType": "SQLite",
+  "fileSize": "1.2 MB",
+  "tutorialSteps": [
+    "Ekstrak berkas zip proyek ke direktori server web lokal",
+    "Import skema database yang disediakan di dalam paket",
+    "Sesuaikan konfigurasi koneksi database pada file config",
+    "Buka di browser lokal dan aplikasi siap digunakan"
+  ],
+  "keyFeatures": [
+    "Full source code terstruktur rapi tanpa enkripsi",
+    "Termasuk file database dan contoh data",
+    "Desain antarmuka mobile-responsive modern",
+    "Panduan instalasi langkah demi langkah"
+  ],
+  "downloadUrlFree": "https://www.dwollopus.eu.org",
+  "downloadUrlFast": "https://lynk.id/dwollopus"
+},
+{
+  "id": "sc-13",
+  "title": "Bot WhatsApp Auto-Forward Pesan Grup",
+  "slug": "bot-wa-auto-forward",
+  "category": "Python & AI",
+  "techStack": [
+    "Python 3.11",
+    "Baileys",
+    "SQLite"
+  ],
+  "description": "Skrip otomasi penerusan pesan otomatis antar channel dan grup WhatsApp bisnis dengan filter kata kunci terlarang dan penggantian link affiliate secara dinamis.",
+  "shortDesc": "Skrip otomasi penerusan pesan otomatis antar channel dan grup WhatsApp bisnis dengan filter kata kun...",
+  "thumbnail": "/banners/gemini/banner_bot_wa.webp",
+  "downloadsCount": 420,
+  "rating": 4.9,
+  "isFree": true,
+  "hasDatabase": true,
+  "databaseType": "SQLite",
+  "fileSize": "1.2 MB",
+  "tutorialSteps": [
+    "Ekstrak berkas zip proyek ke direktori server web lokal",
+    "Import skema database yang disediakan di dalam paket",
+    "Sesuaikan konfigurasi koneksi database pada file config",
+    "Buka di browser lokal dan aplikasi siap digunakan"
+  ],
+  "keyFeatures": [
+    "Full source code terstruktur rapi tanpa enkripsi",
+    "Termasuk file database dan contoh data",
+    "Desain antarmuka mobile-responsive modern",
+    "Panduan instalasi langkah demi langkah"
+  ],
+  "downloadUrlFree": "https://www.dwollopus.eu.org",
+  "downloadUrlFast": "https://lynk.id/dwollopus"
+},
+{
+  "id": "sc-14",
+  "title": "Portal Pengaduan Warga Desa (E-Lapor)",
+  "slug": "portal-pengaduan-desa",
+  "category": "PHP & Laravel",
+  "techStack": [
+    "PHP 8.2",
+    "Bootstrap 5",
+    "MySQL"
+  ],
+  "description": "Aplikasi layanan aspirasi dan pengaduan masyarakat desa dengan bukti foto lokasi, tracking nomor tiket keluhan, dan disposisi langsung ke kepala seksi.",
+  "shortDesc": "Aplikasi layanan aspirasi dan pengaduan masyarakat desa dengan bukti foto lokasi, tracking nomor tik...",
+  "thumbnail": "/banners/gemini/banner_ams_surat.webp",
+  "downloadsCount": 420,
+  "rating": 4.9,
+  "isFree": true,
+  "hasDatabase": true,
+  "databaseType": "MySQL (.sql)",
+  "fileSize": "1.2 MB",
+  "tutorialSteps": [
+    "Ekstrak berkas zip proyek ke direktori server web lokal",
+    "Import skema database yang disediakan di dalam paket",
+    "Sesuaikan konfigurasi koneksi database pada file config",
+    "Buka di browser lokal dan aplikasi siap digunakan"
+  ],
+  "keyFeatures": [
+    "Full source code terstruktur rapi tanpa enkripsi",
+    "Termasuk file database dan contoh data",
+    "Desain antarmuka mobile-responsive modern",
+    "Panduan instalasi langkah demi langkah"
+  ],
+  "downloadUrlFree": "https://www.dwollopus.eu.org",
+  "downloadUrlFast": "https://lynk.id/dwollopus"
+},
+{
+  "id": "sc-15",
+  "title": "Dashboard Monitoring Suhu IoT ESP32",
+  "slug": "dashboard-monitoring-iot",
+  "category": "Python & AI",
+  "techStack": [
+    "FastAPI",
+    "WebSockets",
+    "Chart.js"
+  ],
+  "description": "Antarmuka pemantauan data sensor suhu, kelembaban, dan voltase listrik real-time via koneksi WebSocket dengan grafik interaktif 60 FPS dan alert bahaya.",
+  "shortDesc": "Antarmuka pemantauan data sensor suhu, kelembaban, dan voltase listrik real-time via koneksi WebSock...",
+  "thumbnail": "/banners/gemini/banner_billing_ps.webp",
+  "downloadsCount": 420,
+  "rating": 4.9,
+  "isFree": true,
+  "hasDatabase": true,
+  "databaseType": "SQLite",
+  "fileSize": "1.2 MB",
+  "tutorialSteps": [
+    "Ekstrak berkas zip proyek ke direktori server web lokal",
+    "Import skema database yang disediakan di dalam paket",
+    "Sesuaikan konfigurasi koneksi database pada file config",
+    "Buka di browser lokal dan aplikasi siap digunakan"
+  ],
+  "keyFeatures": [
+    "Full source code terstruktur rapi tanpa enkripsi",
+    "Termasuk file database dan contoh data",
+    "Desain antarmuka mobile-responsive modern",
+    "Panduan instalasi langkah demi langkah"
+  ],
+  "downloadUrlFree": "https://www.dwollopus.eu.org",
+  "downloadUrlFast": "https://lynk.id/dwollopus"
+}
 ];
 
 export const GITHUB_TRENDING_LIST: GitHubTrendingItem[] = [
