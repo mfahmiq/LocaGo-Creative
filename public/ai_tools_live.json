@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 21:08 WIB",
-  "total": 190,
+  "updatedAt": "04 Nov 2026, 21:15 WIB",
+  "total": 192,
   "items": [
+    {
+      "id": "ai-pulsenexus",
+      "name": "PulseNexus",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Generative Visual Studio Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "PulseNexus adalah studio visual generatif untuk menghasilkan aset gambar 3d, grafis vektor, dan mockup produk. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/pulsenexus.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://pulsenexus.co"
+    },
+    {
+      "id": "ai-vector-ops",
+      "name": "Vector Ops",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "Code Quality & Security Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Vector Ops adalah platform inspeksi kualitas kode, deteksi bug otomatis, dan security auditing. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/vector-ops.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://vectorops.ai"
+    },
     {
       "id": "ai-helixplatform",
       "name": "HelixPlatform",
