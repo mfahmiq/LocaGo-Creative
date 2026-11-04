@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 05:38 WIB",
-  "total": 354,
+  "updatedAt": "05 Nov 2026, 05:44 WIB",
+  "total": 356,
   "items": [
+    {
+      "id": "ai-astral-app-v8",
+      "name": "Astral App v8",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "Smart Web Crawler Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Astral App v8 adalah mesin perayap web cerdas dengan rotasi proxy otomatis dan bypass proteksi antibot. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/astral-app-v8.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://astralappv8.co"
+    },
+    {
+      "id": "ai-quillvoice",
+      "name": "QuillVoice",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Generative Visual Studio Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "QuillVoice adalah studio visual generatif untuk menghasilkan aset gambar 3d, grafis vektor, dan mockup produk. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/quillvoice.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://quillvoice.tech"
+    },
     {
       "id": "ai-echoaudio-ai",
       "name": "EchoAudio AI",
