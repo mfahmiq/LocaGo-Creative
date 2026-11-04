@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 21:40 WIB",
-  "total": 200,
+  "updatedAt": "04 Nov 2026, 21:46 WIB",
+  "total": 202,
   "items": [
+    {
+      "id": "ai-vanguard-ops",
+      "name": "Vanguard Ops",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "IDE AI & CLI Code Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Vanguard Ops adalah asisten pemrograman otonom yang mempercepat pengembangan aplikasi dan refactoring kode. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/vanguard-ops.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://vanguardops.tech"
+    },
+    {
+      "id": "ai-astral-app",
+      "name": "Astral App",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Visual RAG Pipeline Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Astral App adalah platform low-code untuk merancang dan mempublikasikan workflow rag tanpa coding. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/astral-app.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://astralapp.io"
+    },
     {
       "id": "ai-stratos-lab",
       "name": "Stratos Lab",
