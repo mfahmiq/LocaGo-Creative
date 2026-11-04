@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 01:05 WIB",
-  "total": 266,
+  "updatedAt": "05 Nov 2026, 01:11 WIB",
+  "total": 268,
   "items": [
+    {
+      "id": "ai-sentinel-link",
+      "name": "Sentinel Link",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "Visual RAG Pipeline Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Sentinel Link adalah platform low-code untuk merancang dan mempublikasikan workflow rag tanpa coding. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/sentinel-link.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://sentinellink.app"
+    },
+    {
+      "id": "ai-solis-agent",
+      "name": "Solis Agent",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Smart Data Analyst Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Solis Agent adalah workspace analitik data cerdas untuk membedah spreadsheet dan membuat grafik interaktif. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/solis-agent.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://solisagent.io"
+    },
     {
       "id": "ai-stackagent",
       "name": "StackAgent",
