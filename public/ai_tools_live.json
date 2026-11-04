@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 02:51 WIB",
-  "total": 300,
+  "updatedAt": "05 Nov 2026, 02:57 WIB",
+  "total": 302,
   "items": [
+    {
+      "id": "ai-aether-flow",
+      "name": "Aether Flow",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "LLM-Ready Web Scraper Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Aether Flow adalah api ekstraksi data web modern yang mengubah situs kompleks menjadi markdown ramah llm. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/aether-flow.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://aetherflow.co"
+    },
+    {
+      "id": "ai-flux-platform",
+      "name": "Flux Platform",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Multi-Agent Orchestrator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Flux Platform adalah framework orkestrasi multi-agen otonom untuk menyelesaikan tugas bisnis kompleks. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/flux-platform.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://fluxplatform.dev"
+    },
     {
       "id": "ai-visioncraft",
       "name": "VisionCraft",
