@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 18:42 WIB",
-  "total": 143,
+  "updatedAt": "04 Nov 2026, 18:48 WIB",
+  "total": 145,
   "items": [
+    {
+      "id": "ai-metalogic-ai",
+      "name": "MetaLogic AI",
+      "category": "Web & Scrapers",
+      "pricingType": "Free",
+      "tagline": "Smart Web Crawler Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "MetaLogic AI adalah mesin perayap web cerdas dengan rotasi proxy otomatis dan bypass proteksi antibot. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/metalogic-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://metalogicai.dev"
+    },
+    {
+      "id": "ai-lyricdata",
+      "name": "LyricData",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "AI Calendar Scheduler Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "LyricData adalah asisten manajemen waktu dan kalender dinamis yang mengoptimalkan jadwal produktivitas. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/lyricdata.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://lyricdata.app"
+    },
     {
       "id": "ai-neuroapp",
       "name": "NeuroApp",
