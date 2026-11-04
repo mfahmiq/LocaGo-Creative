@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 03:59 WIB",
-  "total": 322,
+  "updatedAt": "05 Nov 2026, 04:05 WIB",
+  "total": 324,
   "items": [
+    {
+      "id": "ai-aethersearch-ai",
+      "name": "AetherSearch AI",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "Code Quality & Security Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "AetherSearch AI adalah platform inspeksi kualitas kode, deteksi bug otomatis, dan security auditing. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/aethersearch-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://aethersearchai.ai"
+    },
+    {
+      "id": "ai-script-synthesizer",
+      "name": "Script Synthesizer",
+      "category": "Web & Scrapers",
+      "pricingType": "Free",
+      "tagline": "Factual Search Grounding Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Script Synthesizer adalah search engine api khusus untuk agen ai dengan sitasi sumber faktual real-time. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/script-synthesizer.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://scriptsynthesizer.ai"
+    },
     {
       "id": "ai-orbit-matrix",
       "name": "Orbit Matrix",
