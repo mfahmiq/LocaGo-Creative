@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 03:25 WIB",
-  "total": 48,
+  "updatedAt": "04 Nov 2026, 03:31 WIB",
+  "total": 50,
   "items": [
+    {
+      "id": "ai-activecampaign-ai",
+      "name": "ActiveCampaign AI",
+      "category": "Automation & No-Code",
+      "pricingType": "Free Trial",
+      "tagline": "Otomasi Email Marketing & CRM Cerdas dengan Segmentasi Perilaku",
+      "description": "Raksasa platform otomasi pemasaran yang mengintegrasikan AI untuk memprediksi waktu terbaik pengiriman email, menulis variasi copy A/B test, dan menilai skor prospek (lead scoring).",
+      "features": [
+        "Predictive sending untuk membuka email di jam paling aktif user",
+        "Pembangun alur otomatisasi omni-channel (Email, SMS, WA)",
+        "Manajemen kontak CRM terpadu dengan histori interaksi",
+        "Ratusan template alur automasi bisnis teruji"
+      ],
+      "logoUrl": "/logos/activecampaign-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.activecampaign.com/?via=locagocreative"
+    },
+    {
+      "id": "ai-browse-ai",
+      "name": "Browse AI",
+      "category": "Automation & No-Code",
+      "pricingType": "Freemium",
+      "tagline": "Latih Robot Pemantau & Ekstraksi Data Website Apapun dalam 2 Menit",
+      "description": "Cara termudah mengekstrak data terstruktur dari situs web yang tidak memiliki API resmi. Cukup rekam aksi klik dan scroll Anda, maka robot akan memantau perubahan data secara berkala.",
+      "features": [
+        "Ekstraksi data tabular dan paginasi otomatis",
+        "Pemantau perubahan harga kompetitor dengan notifikasi email",
+        "Penanganan captcha dan scroll tak terbatas (infinite scroll)",
+        "Integrasi data langsung ke Google Sheets dan Webhook"
+      ],
+      "logoUrl": "/logos/browse-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://browse.ai/?via=locagocreative"
+    },
     {
       "id": "ai-bardeen-ai",
       "name": "Bardeen AI",
