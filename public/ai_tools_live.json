@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 03:22 WIB",
-  "total": 310,
+  "updatedAt": "05 Nov 2026, 03:28 WIB",
+  "total": 312,
   "items": [
+    {
+      "id": "ai-graphworkspace-ai",
+      "name": "GraphWorkspace AI",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "IDE AI & CLI Code Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "GraphWorkspace AI adalah asisten pemrograman otonom yang mempercepat pengembangan aplikasi dan refactoring kode. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/graphworkspace-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://graphworkspaceai.app"
+    },
+    {
+      "id": "ai-sonicai-ai",
+      "name": "SonicAI AI",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Cinematic Video Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "SonicAI AI adalah generator video sinematik dengan kontrol kamera dinamis dan konsistensi fisika nyata. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/sonicai-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://sonicaiai.tech"
+    },
     {
       "id": "ai-fluxai",
       "name": "FluxAI",
