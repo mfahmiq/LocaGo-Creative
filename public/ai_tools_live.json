@@ -1,7 +1,25 @@
 {
-  "updatedAt": "04 Nov 2026, 12:48 WIB",
-  "total": 85,
+  "updatedAt": "04 Nov 2026, 12:51 WIB",
+  "total": 86,
   "items": [
+    {
+      "id": "ai-otterai",
+      "name": "Otter.ai",
+      "category": "Voice & Audio AI",
+      "pricingType": "Freemium",
+      "tagline": "Asisten Rapat Virtual yang Menulis Notulen dan Merekam Poin Penting Otomatis",
+      "description": "Bot rapat yang bergabung secara otomatis ke panggilan Zoom, Google Meet, atau Microsoft Teams Anda untuk mencatat transkrip kata-per-kata dan merangkum poin tindakan.",
+      "features": [
+        "Transkrip rapat langsung waktu nyata",
+        "Pemisahan suara pembicara (speaker identification)",
+        "Ringkasan ringkas dan daftar to-do tindak lanjut",
+        "Pencarian rekaman audio berbasis kata kunci teks"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://otter.ai/?via=locagocreative"
+    },
     {
       "id": "ai-gamma-app",
       "name": "Gamma App",
