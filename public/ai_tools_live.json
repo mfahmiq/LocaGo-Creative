@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 23:00 WIB",
-  "total": 226,
+  "updatedAt": "04 Nov 2026, 23:07 WIB",
+  "total": 228,
   "items": [
+    {
+      "id": "ai-vault-vision",
+      "name": "Vault Vision",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Voice & Audio Synthesis Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Vault Vision adalah platform sintesis vokal dan aransemen musik instan berkualitas studio rekaman. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/vault-vision.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://vaultvision.ai"
+    },
+    {
+      "id": "ai-dynamograph-ai",
+      "name": "DynamoGraph AI",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Viral Short-Form Editor Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "DynamoGraph AI adalah editor video pendek otomatis dengan subtitle karaoke animasi dan deteksi hook viral. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/dynamograph-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://dynamographai.ai"
+    },
     {
       "id": "ai-zenithsearch-ai",
       "name": "ZenithSearch AI",
