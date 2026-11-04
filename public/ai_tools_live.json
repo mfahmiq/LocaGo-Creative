@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 22:04 WIB",
-  "total": 208,
+  "updatedAt": "04 Nov 2026, 22:11 WIB",
+  "total": 210,
   "items": [
+    {
+      "id": "ai-stellar-pulse",
+      "name": "Stellar Pulse",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "Factual Search Grounding Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Stellar Pulse adalah search engine api khusus untuk agen ai dengan sitasi sumber faktual real-time. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/stellar-pulse.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://stellarpulse.dev"
+    },
+    {
+      "id": "ai-astral-app-v6",
+      "name": "Astral App v6",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Generative Visual Studio Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Astral App v6 adalah studio visual generatif untuk menghasilkan aset gambar 3d, grafis vektor, dan mockup produk. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/astral-app-v6.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://astralappv6.app"
+    },
     {
       "id": "ai-omniscraper",
       "name": "OmniScraper",
