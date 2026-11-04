@@ -1,0 +1,169 @@
+{
+  "updatedAt": "04 Nov 2026, 11:21 WIB",
+  "total": 8,
+  "items": [
+    {
+      "id": "list-creator-tools",
+      "title": "Top 5 AI Tools Konten Kreator IG & Video Editor",
+      "notes": "Kumpulan tool AI wajib untuk memproduksi video Reels, voiceover studio, dan aset visual siap FYP tanpa repot rekaman berulang kali.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [
+        "ai-invideo",
+        "ai-elevenlabs",
+        "ai-fliki",
+        "ai-heygen",
+        "ai-kling-ai"
+      ],
+      "customLinks": [
+        {
+          "id": "cl-submagic-preset",
+          "title": "Preset Subtitle Animasi Alex Hormozi",
+          "url": "https://submagic.co/?via=locagocreative",
+          "note": "Gunakan kode diskon LOCAGO untuk potongan 15% bulan pertama."
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "04 Nov 2026",
+      "views": 1420
+    },
+    {
+      "id": "list-coding-stack",
+      "title": "Stack AI Coding & Software Engineer Modern 2026",
+      "notes": "Toolkit pemrograman wajib developer solo untuk merilis fullstack web application 10x lebih cepat dengan bantuan coding agents.",
+      "videoUrl": "https://www.youtube.com",
+      "toolIds": [
+        "ai-cursor",
+        "ai-supermaven",
+        "ai-windsurf",
+        "ai-lovable",
+        "ai-claude-code"
+      ],
+      "customLinks": [],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "04 Nov 2026",
+      "views": 980
+    },
+    {
+      "id": "list-automation-leads",
+      "title": "Toolkit Otomasi Bisnis & Lead Generation WhatsApp",
+      "notes": "Alat otomatisasi tanpa koding untuk menangkap lead, integrasi database Google Sheets, dan auto-reply chat pelanggan 24/7.",
+      "videoUrl": "",
+      "toolIds": [
+        "ai-chatbase",
+        "ai-makecom",
+        "ai-n8n",
+        "ai-browseai",
+        "ai-activepieces"
+      ],
+      "customLinks": [],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "04 Nov 2026",
+      "views": 850
+    },
+    {
+      "id": "list-mahasiswa-skripsi",
+      "title": "Starter Pack Mahasiswa: AI Riset Jurnal, Parafrase & Rangkuman Skripsi",
+      "notes": "Kompilasi tool AI etis untuk mempermudah telaah literatur ilmiah, mengecek sitasi APA/MLA, dan memparafrase kalimat agar bebas plagiarisme.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [
+        "ai-quillbot",
+        "ai-notebooklm",
+        "ai-perplexity",
+        "ai-gamma-app"
+      ],
+      "customLinks": [
+        {
+          "id": "cl-scispace-ref",
+          "title": "SciSpace (Pencari & Pembedah Jurnal PDF)",
+          "url": "https://typeset.io",
+          "note": "Upload PDF skripsi bahasa Inggris, tanya jawab langsung dalam bahasa Indonesia."
+        }
+      ],
+      "isOfficial": false,
+      "authorName": "Rizky Ramadhan (Komunitas)",
+      "authorEmail": "rizky@student.ac.id",
+      "createdAt": "04 Nov 2026",
+      "views": 1640
+    },
+    {
+      "id": "list-umkm-branding",
+      "title": "Solusi Desain & Branding UMKM Cepat Tanpa Desainer",
+      "notes": "Bikin logo, kemasan produk, poster promosi media sosial, dan banner toko dalam sekejap dengan kualitas grafis tajam beresolusi tinggi.",
+      "videoUrl": "",
+      "toolIds": [
+        "ai-midjourney-v61",
+        "ai-recraft",
+        "ai-ideogram-20",
+        "ai-leonardo-ai"
+      ],
+      "customLinks": [],
+      "isOfficial": false,
+      "authorName": "Budi Santoso (Studio UMKM)",
+      "authorEmail": "budi@studioumkm.id",
+      "createdAt": "04 Nov 2026",
+      "views": 720
+    },
+    {
+      "id": "list-voiceover-studio",
+      "title": "Stack AI Voiceover & Dubbing Multi-Bahasa Super Natural",
+      "notes": "Pilihan generator suara AI terbaik untuk dubbing video YouTube, rekaman narasi iklan TV/Radio, dan buku audio ekspresif.",
+      "videoUrl": "",
+      "toolIds": [
+        "ai-elevenlabs",
+        "ai-suno-ai-v35",
+        "ai-murf-ai",
+        "ai-speechify",
+        "ai-descript"
+      ],
+      "customLinks": [],
+      "isOfficial": false,
+      "authorName": "Anisa Putri (Voice Talent)",
+      "authorEmail": "anisa@voicetalent.id",
+      "createdAt": "04 Nov 2026",
+      "views": 1130
+    },
+    {
+      "id": "list-faceless-youtube",
+      "title": "Blueprint Channel YouTube Faceless Berbasis AI dari Nol",
+      "notes": "Alur kerja lengkap membuat video edukasi & hiburan YouTube tanpa menampilkan wajah dan tanpa rekaman kamera.",
+      "videoUrl": "https://www.youtube.com",
+      "toolIds": [
+        "ai-invideo",
+        "ai-opus-clip",
+        "ai-elevenlabs",
+        "ai-midjourney-v61",
+        "ai-submagic"
+      ],
+      "customLinks": [],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "04 Nov 2026",
+      "views": 2150
+    },
+    {
+      "id": "list-copywriting-funnel",
+      "title": "Kompilasi AI Copywriting & Email Funnel Penjualan Tinggi",
+      "notes": "Template dan asisten penulisan iklan Facebook/TikTok Ads, landing page berkonversi tinggi, dan urutan email penawaran otomatis.",
+      "videoUrl": "",
+      "toolIds": [
+        "ai-writesonic",
+        "ai-jasper-ai",
+        "ai-quillbot",
+        "ai-gamma-app"
+      ],
+      "customLinks": [],
+      "isOfficial": false,
+      "authorName": "Eko Purnomo (Growth Marketer)",
+      "authorEmail": "eko@growthfunnel.id",
+      "createdAt": "04 Nov 2026",
+      "views": 890
+    }
+  ]
+}

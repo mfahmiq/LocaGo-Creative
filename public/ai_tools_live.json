@@ -1,7 +1,25 @@
 {
-  "updatedAt": "04 Nov 2026, 03:49 WIB",
-  "total": 56,
+  "updatedAt": "04 Nov 2026, 11:21 WIB",
+  "total": 57,
   "items": [
+    {
+      "id": "ai-claude-code",
+      "name": "Claude Code",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "Agen Coding Berbasis Terminal Resmi dari Anthropic untuk Deep Engineering",
+      "description": "Tool CLI cerdas yang membawa kapabilitas Claude 3.5 Sonnet langsung ke terminal Anda. Mampu membaca seluruh repositori, mengeksekusi tes, dan menyelesaikan bug kompleks lintas berkas.",
+      "features": [
+        "Integrasi CLI terminal asli",
+        "Pencarian codebase berkecepatan tinggi",
+        "Kemampuan mengeksekusi command dan tes otomatis",
+        "Ditenagai model frontier Claude 3.5 Sonnet"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://anthropic.com/claude-code"
+    },
     {
       "id": "ai-writesonic",
       "name": "Writesonic",
