@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 00:21 WIB",
-  "total": 252,
+  "updatedAt": "05 Nov 2026, 00:28 WIB",
+  "total": 254,
   "items": [
+    {
+      "id": "ai-nodelogic",
+      "name": "NodeLogic",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Fullstack App Generator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "NodeLogic adalah generator arsitektur fullstack otomatis berbasis prompt bahasa alami. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/nodelogic.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://nodelogic.ai"
+    },
+    {
+      "id": "ai-auragenerator-ai",
+      "name": "AuraGenerator AI",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Fullstack App Generator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "AuraGenerator AI adalah generator arsitektur fullstack otomatis berbasis prompt bahasa alami. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/auragenerator-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://aurageneratorai.app"
+    },
     {
       "id": "ai-horizon-io",
       "name": "Horizon IO",
