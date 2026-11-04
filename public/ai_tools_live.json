@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 22:42 WIB",
-  "total": 220,
+  "updatedAt": "04 Nov 2026, 22:48 WIB",
+  "total": 222,
   "items": [
+    {
+      "id": "ai-sparklink",
+      "name": "SparkLink",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "AI Calendar Scheduler Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "SparkLink adalah asisten manajemen waktu dan kalender dinamis yang mengoptimalkan jadwal produktivitas. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/sparklink.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://sparklink.tech"
+    },
+    {
+      "id": "ai-synapsevector",
+      "name": "SynapseVector",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "tagline": "Fullstack App Generator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "SynapseVector adalah generator arsitektur fullstack otomatis berbasis prompt bahasa alami. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/synapsevector.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://synapsevector.io"
+    },
     {
       "id": "ai-veloagent-v5",
       "name": "VeloAgent v5",
