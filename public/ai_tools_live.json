@@ -1,7 +1,61 @@
 {
-  "updatedAt": "04 Nov 2026, 16:49 WIB",
-  "total": 105,
+  "updatedAt": "04 Nov 2026, 16:59 WIB",
+  "total": 108,
   "items": [
+    {
+      "id": "ai-firecrawl",
+      "name": "Firecrawl",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "Ubah Seluruh Situs Web Menjadi Format Markdown Bersih Siap Konsumsi LLM",
+      "description": "API web scraping modern yang dirancang khusus untuk AI. Mampu merayapi seluruh domain web, melewati proteksi bot, mengeksekusi JavaScript, dan mengembalikan konten Markdown murni.",
+      "features": [
+        "Crawl seluruh sitemap dalam 1 panggilan API",
+        "Konversi otomatis ke format LLM-ready Markdown",
+        "Bypass proteksi Cloudflare & JavaScript rendering",
+        "Integrasi SDK Python, Node.js, LangChain"
+      ],
+      "logoUrl": "/logos/firecrawl.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://firecrawl.dev"
+    },
+    {
+      "id": "ai-spline-ai",
+      "name": "Spline AI",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Desain 3D Interaktif untuk Web & UI Berbasis Prompt Bahasa Alami",
+      "description": "Tool desain 3D browser terpopuler yang mengintegrasikan AI untuk menghasilkan objek 3D interaktif, material shader dinamis, dan animasi fisika tanpa perlu keahlian 3D rumit.",
+      "features": [
+        "Prompt-to-3D objects and physics",
+        "Ekspor langsung ke React dan Three.js",
+        "Interaktivitas mouse hover dan click",
+        "Kolaborasi real-time di browser"
+      ],
+      "logoUrl": "/logos/spline.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://spline.design/ai"
+    },
+    {
+      "id": "ai-tripo3d",
+      "name": "Tripo3D",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Buat Aset 3D Kualitas Produksi dalam Hitungan Detik dari Teks dan Foto",
+      "description": "Generator model 3D AI super cepat yang menghasilkan aset game-ready berpoligon rapi lengkap dengan auto-rigging animasi berjalan dan melompat dalam waktu di bawah 10 detik.",
+      "features": [
+        "Kecepatan generasi 3D sub-10 detik",
+        "Auto-rigging dan animasi bawaan",
+        "Optimasi polygon count untuk web",
+        "Download format GLB/FBX siap render"
+      ],
+      "logoUrl": "/logos/tripo3d.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://tripo3d.ai"
+    },
     {
       "id": "ai-meshy-ai",
       "name": "Meshy AI",
