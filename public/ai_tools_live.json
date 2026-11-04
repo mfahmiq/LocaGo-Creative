@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 03:43 WIB",
-  "total": 54,
+  "updatedAt": "04 Nov 2026, 03:49 WIB",
+  "total": 56,
   "items": [
+    {
+      "id": "ai-writesonic",
+      "name": "Writesonic",
+      "category": "AI Writing & SEO",
+      "pricingType": "Freemium",
+      "tagline": "Suite Copywriting AI Lengkap dengan Chatsonic & Bot Pembangun Pengetahuan",
+      "description": "Platform pembuatan materi pemasaran digital mulai dari landing page copy, iklan Google Ads, artikel SEO, hingga bot percakapan yang dilatih pada database bisnis Anda.",
+      "features": [
+        "Article Writer 6.0 untuk artikel SEO mendalam",
+        "Chatsonic dengan pencarian web Google terintegrasi",
+        "Template iklan Facebook & Google dengan konversi tinggi",
+        "Integrasi ekspor WordPress dan Zapier"
+      ],
+      "logoUrl": "/logos/writesonic.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://writesonic.com/?via=locagocreative"
+    },
+    {
+      "id": "ai-quillbot",
+      "name": "QuillBot",
+      "category": "AI Writing & SEO",
+      "pricingType": "Freemium",
+      "tagline": "Parafrase Kalimat & Penyempurna Tata Bahasa Multi-Bahasa Terbaik",
+      "description": "Alat parafrase cerdas yang merestrukturisasi kalimat agar lebih mengalir, formal, atau persuasif tanpa mengubah inti makna pesan. Dilengkapi pemeriksa grammar dan rangkuman teks.",
+      "features": [
+        "7 mode parafrase (Standar, Lancar, Formal, Simpel, Kreatif)",
+        "Pemeriksa tata bahasa dan ejaan otomatis",
+        "Peringkas artikel panjang menjadi poin-poin utama",
+        "Ekstensi Chrome dan add-in Microsoft Word"
+      ],
+      "logoUrl": "/logos/quillbot.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://quillbot.com/?via=locagocreative"
+    },
     {
       "id": "ai-koalawriter",
       "name": "KoalaWriter",
