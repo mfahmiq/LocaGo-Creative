@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 04:24 WIB",
-  "total": 330,
+  "updatedAt": "05 Nov 2026, 04:30 WIB",
+  "total": 332,
   "items": [
+    {
+      "id": "ai-orbitflow",
+      "name": "OrbitFlow",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Autonomous SaaS Integrator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "OrbitFlow adalah asisten otomatisasi alur kerja saas yang mengintegrasikan ratusan api pihak ketiga. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/orbitflow.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://orbitflow.dev"
+    },
+    {
+      "id": "ai-scale-studio",
+      "name": "Scale Studio",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "Smart Web Crawler Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Scale Studio adalah mesin perayap web cerdas dengan rotasi proxy otomatis dan bypass proteksi antibot. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/scale-studio.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://scalestudio.app"
+    },
     {
       "id": "ai-vision-systems-v4",
       "name": "Vision Systems v4",
