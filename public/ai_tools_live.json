@@ -1,7 +1,25 @@
 {
-  "updatedAt": "04 Nov 2026, 16:39 WIB",
-  "total": 102,
+  "updatedAt": "04 Nov 2026, 16:42 WIB",
+  "total": 103,
   "items": [
+    {
+      "id": "ai-udio",
+      "name": "Udio",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Platform Produksi Musik AI Tingkat Mahakarya dengan Artikulasi Vokal Emosional",
+      "description": "Platform pembuatan musik bertenaga AI dari mantan peneliti Google DeepMind. Menghasilkan musik dengan kedalaman vokal emosional, dinamika orkestrasi, dan fidelity tinggi.",
+      "features": [
+        "Kualitas fidelitas suara audiophile",
+        "Kontrol struktur bait dan reff mendalam",
+        "Fitur remix dan inpainting track musik",
+        "Dukungan lirik bahasa Indonesia dan Inggris"
+      ],
+      "logoUrl": "/logos/udio.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://udio.com"
+    },
     {
       "id": "ai-llamaindex",
       "name": "LlamaIndex",
