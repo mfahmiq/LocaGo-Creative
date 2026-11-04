@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 03:09 WIB",
-  "total": 306,
+  "updatedAt": "05 Nov 2026, 03:15 WIB",
+  "total": 308,
   "items": [
+    {
+      "id": "ai-solisscraper",
+      "name": "SolisScraper",
+      "category": "Web & Scrapers",
+      "pricingType": "Free",
+      "tagline": "Factual Search Grounding Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "SolisScraper adalah search engine api khusus untuk agen ai dengan sitasi sumber faktual real-time. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/solisscraper.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://solisscraper.dev"
+    },
+    {
+      "id": "ai-solisforge",
+      "name": "SolisForge",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "tagline": "Lightning Autocomplete Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "SolisForge adalah mesin autocomplete kode berkecepatan tinggi dengan pemahaman konteks lintas berkas. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/solisforge.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://solisforge.app"
+    },
     {
       "id": "ai-sparkaudio-ai",
       "name": "SparkAudio AI",
