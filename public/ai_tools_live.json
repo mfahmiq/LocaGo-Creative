@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 22:29 WIB",
-  "total": 216,
+  "updatedAt": "04 Nov 2026, 22:36 WIB",
+  "total": 218,
   "items": [
+    {
+      "id": "ai-tracegraph",
+      "name": "TraceGraph",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Team Knowledge Vault Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "TraceGraph adalah sistem manajemen pengetahuan tim yang merangkum rapat dan dokumen kerja otomatis. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/tracegraph.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://tracegraph.ai"
+    },
+    {
+      "id": "ai-cyber-synthesizer",
+      "name": "Cyber Synthesizer",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Viral Short-Form Editor Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Cyber Synthesizer adalah editor video pendek otomatis dengan subtitle karaoke animasi dan deteksi hook viral. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/cyber-synthesizer.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://cybersynthesizer.ai"
+    },
     {
       "id": "ai-flowengine-ai",
       "name": "FlowEngine AI",
