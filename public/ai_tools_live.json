@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 11:21 WIB",
-  "total": 57,
+  "updatedAt": "04 Nov 2026, 11:27 WIB",
+  "total": 59,
   "items": [
+    {
+      "id": "ai-aider",
+      "name": "Aider",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "tagline": "Pair Programming AI di Terminal dengan Integrasi Git Commit Otomatis",
+      "description": "Alat CLI open-source terdepan untuk pair programming bersama LLM. Aider mengedit kode di repositori lokal dan secara otomatis membuat git commit dengan pesan yang deskriptif.",
+      "features": [
+        "100% open source dan berjalan di repositori lokal",
+        "Auto git commit dengan pesan perubahan terstruktur",
+        "Dukungan multi-model (Claude, OpenAI, DeepSeek, Ollama)",
+        "Pemetaan repositori cerdas berbasis AST"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://aider.chat"
+    },
+    {
+      "id": "ai-lovable",
+      "name": "Lovable",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Bangun Web App Fullstack Full-Working Murni dari Prompt Bahasa Manusia",
+      "description": "Platform AI builder yang mengubah deskripsi natural Anda menjadi web app modern berbasis Vite, React, dan Supabase dengan arsitektur bersih dan siap dipublikasikan.",
+      "features": [
+        "Generasi kode clean React + Tailwind",
+        "Integrasi instan database Supabase & Auth",
+        "Pratinjau visual interaktif real-time",
+        "Ekspor langsung ke GitHub"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://lovable.dev/?via=locagocreative"
+    },
     {
       "id": "ai-claude-code",
       "name": "Claude Code",
