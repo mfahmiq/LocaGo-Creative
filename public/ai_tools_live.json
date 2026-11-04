@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 22:11 WIB",
-  "total": 210,
+  "updatedAt": "04 Nov 2026, 22:17 WIB",
+  "total": 212,
   "items": [
+    {
+      "id": "ai-chronohub",
+      "name": "ChronoHub",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "Smart Web Crawler Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "ChronoHub adalah mesin perayap web cerdas dengan rotasi proxy otomatis dan bypass proteksi antibot. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/chronohub.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://chronohub.ai"
+    },
+    {
+      "id": "ai-synapseassistant",
+      "name": "SynapseAssistant",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Cinematic Video Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "SynapseAssistant adalah generator video sinematik dengan kontrol kamera dinamis dan konsistensi fisika nyata. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/synapseassistant.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://synapseassistant.io"
+    },
     {
       "id": "ai-stellar-pulse",
       "name": "Stellar Pulse",
