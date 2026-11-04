@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 11:58 WIB",
-  "total": 69,
+  "updatedAt": "04 Nov 2026, 12:04 WIB",
+  "total": 71,
   "items": [
+    {
+      "id": "ai-suno-ai-v35",
+      "name": "Suno AI v3.5",
+      "category": "Voice & Audio AI",
+      "pricingType": "Freemium",
+      "tagline": "Bikin Lagu Lengkap dengan Vokal & Musik Full Instrument Hanya dari Ide Teks",
+      "description": "Platform musik generatif revolusioner yang menciptakan lagu berkualitas radio lengkap dengan vokal manusia, aransemen instrumen, bait chorus, dan berbagai genre musik.",
+      "features": [
+        "Generasi lagu berdurasi hingga 4 menit",
+        "Kualitas audio fidelitas tinggi standar streaming",
+        "Dukungan berbagai genre (Pop, Rock, Jazz, EDM, Dangdut)",
+        "Fitur penulisan lirik otomatis atau lirik kustom"
+      ],
+      "logoUrl": "/logos/suno.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://suno.com/?via=locagocreative"
+    },
+    {
+      "id": "ai-topaz-video-ai",
+      "name": "Topaz Video AI",
+      "category": "Video & Graphics",
+      "pricingType": "Paid",
+      "tagline": "Upscaling Video Profesional hingga Resolusi 4K/8K & Interpolasi 60 FPS",
+      "description": "Software desktop standar industri untuk meningkatkan ketajaman rekaman video lama, menghilangkan noise (denoise), dan mengubah video 24fps menjadi slow-motion 120fps mulus.",
+      "features": [
+        "Upscaling AI tanpa artefak buram",
+        "Interpolasi frame ultra-smooth Chronos",
+        "Stabilisasi guncangan kamera tingkat lanjut",
+        "De-interlacing dan restorasi video jadul"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.topazlabs.com/topaz-video-ai?via=locagocreative"
+    },
     {
       "id": "ai-submagic",
       "name": "Submagic",
