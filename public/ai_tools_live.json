@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 02:32 WIB",
-  "total": 294,
+  "updatedAt": "05 Nov 2026, 02:38 WIB",
+  "total": 296,
   "items": [
+    {
+      "id": "ai-luma-search",
+      "name": "Luma Search",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "IDE AI & CLI Code Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Luma Search adalah asisten pemrograman otonom yang mempercepat pengembangan aplikasi dan refactoring kode. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/luma-search.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://lumasearch.tech"
+    },
+    {
+      "id": "ai-titansync",
+      "name": "TitanSync",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Autonomous SaaS Integrator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "TitanSync adalah asisten otomatisasi alur kerja saas yang mengintegrasikan ratusan api pihak ketiga. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/titansync.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://titansync.dev"
+    },
     {
       "id": "ai-vector-sync",
       "name": "Vector Sync",
