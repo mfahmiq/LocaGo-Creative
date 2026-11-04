@@ -1,7 +1,25 @@
 {
   "updatedAt": "04 Nov 2026, 16:59 WIB",
-  "total": 108,
+  "total": 109,
   "items": [
+    {
+      "id": "ai-jina-reader",
+      "name": "Jina Reader",
+      "category": "Web & Scrapers",
+      "pricingType": "Free",
+      "tagline": "Ubah URL Web Apapun Menjadi Konten Bersih Ramah AI Cukup dengan Prefix r.jina.ai",
+      "description": "Layanan konversi web-to-markdown instan dari Jina AI. Cukup tambahkan r.jina.ai/ di depan URL situs manapun untuk mendapatkan teks bersih bebas iklan untuk RAG.",
+      "features": [
+        "Penggunaan instan tanpa perlu instalasi",
+        "Pembersihan iklan dan navigasi otomatis",
+        "Dukungan web search dan grounding LLM",
+        "Gratis dan performa latensi tinggi"
+      ],
+      "logoUrl": "/logos/jina-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://jina.ai/reader"
+    },
     {
       "id": "ai-firecrawl",
       "name": "Firecrawl",
