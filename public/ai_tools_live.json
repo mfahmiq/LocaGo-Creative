@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 01:48 WIB",
-  "total": 280,
+  "updatedAt": "05 Nov 2026, 01:55 WIB",
+  "total": 282,
   "items": [
+    {
+      "id": "ai-dynamo-reader",
+      "name": "Dynamo Reader",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "AI Calendar Scheduler Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Dynamo Reader adalah asisten manajemen waktu dan kalender dinamis yang mengoptimalkan jadwal produktivitas. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/dynamo-reader.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://dynamoreader.app"
+    },
+    {
+      "id": "ai-catalystcraft",
+      "name": "CatalystCraft",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Multi-Agent Orchestrator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "CatalystCraft adalah framework orkestrasi multi-agen otonom untuk menyelesaikan tugas bisnis kompleks. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/catalystcraft.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://catalystcraft.app"
+    },
     {
       "id": "ai-velosync",
       "name": "VeloSync",
