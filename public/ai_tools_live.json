@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 06:34 WIB",
-  "total": 372,
+  "updatedAt": "05 Nov 2026, 06:40 WIB",
+  "total": 374,
   "items": [
+    {
+      "id": "ai-echooptimizer-ai",
+      "name": "EchoOptimizer AI",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Generative Visual Studio Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "EchoOptimizer AI adalah studio visual generatif untuk menghasilkan aset gambar 3d, grafis vektor, dan mockup produk. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/echooptimizer-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://echooptimizerai.io"
+    },
+    {
+      "id": "ai-sonic-vision",
+      "name": "Sonic Vision",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "AI Calendar Scheduler Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Sonic Vision adalah asisten manajemen waktu dan kalender dinamis yang mengoptimalkan jadwal produktivitas. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/sonic-vision.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://sonicvision.app"
+    },
     {
       "id": "ai-graph-brain",
       "name": "Graph Brain",
