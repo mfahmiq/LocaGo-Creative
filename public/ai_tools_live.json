@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 03:07 WIB",
-  "total": 42,
+  "updatedAt": "04 Nov 2026, 03:13 WIB",
+  "total": 44,
   "items": [
+    {
+      "id": "ai-krisp-ai",
+      "name": "Krisp AI",
+      "category": "Voice & Audio AI",
+      "pricingType": "Freemium",
+      "tagline": "Peredam Kebisingan Suara Latar Belakang & Notulen Rapat AI Realtime",
+      "description": "Aplikasi pendukung meeting online yang mengeliminasi suara gonggongan anjing, tangisan bayi, dan bising kafe dari mikrofon Anda secara realtime, sekaligus mencatat meeting notes.",
+      "features": [
+        "Noise cancellation dua arah (mikrofon dan speaker)",
+        "Voice Clarity untuk menonjolkan vokal pembicara utama",
+        "AI Meeting Assistant dengan notulen dan to-do list instan",
+        "Kompatibel 100% dengan Zoom, Google Meet, dan MS Teams"
+      ],
+      "logoUrl": "/logos/krispai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://krisp.ai/?via=locagocreative"
+    },
+    {
+      "id": "ai-speechify",
+      "name": "Speechify",
+      "category": "Voice & Audio AI",
+      "pricingType": "Freemium",
+      "tagline": "Pembaca Teks Dokumen & Buku dengan Suara Selebriti & Aksen Natural",
+      "description": "Aplikasi text-to-speech personal yang membacakan dokumen PDF, email panjang, dan artikel web dengan kecepatan hingga 4.5x tanpa merusak kejernihan artikulasi suara.",
+      "features": [
+        "Dukungan suara resmi figur terkenal seperti Snoop Dogg",
+        "Scanner OCR untuk memotret buku fisik menjadi audio",
+        "Sinkronisasi progress baca lintas perangkat mobile & desktop",
+        "Ekstensi browser Chrome untuk membaca artikel web otomatis"
+      ],
+      "logoUrl": "/logos/speechify.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://speechify.com/?via=locagocreative"
+    },
     {
       "id": "ai-murf-ai",
       "name": "Murf AI",
