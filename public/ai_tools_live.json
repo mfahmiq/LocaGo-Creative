@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 04:30 WIB",
-  "total": 332,
+  "updatedAt": "05 Nov 2026, 04:36 WIB",
+  "total": 334,
   "items": [
+    {
+      "id": "ai-cortexstudio",
+      "name": "CortexStudio",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "Private Local AI Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "CortexStudio adalah engine inferensi model lokal berkecepatan tinggi dengan perlindungan privasi data 100%. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/cortexstudio.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://cortexstudio.app"
+    },
+    {
+      "id": "ai-cortex-ops",
+      "name": "Cortex Ops",
+      "category": "Web & Scrapers",
+      "pricingType": "Free",
+      "tagline": "LLM-Ready Web Scraper Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Cortex Ops adalah api ekstraksi data web modern yang mengubah situs kompleks menjadi markdown ramah llm. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/cortex-ops.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://cortexops.ai"
+    },
     {
       "id": "ai-orbitflow",
       "name": "OrbitFlow",
