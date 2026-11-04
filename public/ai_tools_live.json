@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 19:53 WIB",
-  "total": 166,
+  "updatedAt": "04 Nov 2026, 20:00 WIB",
+  "total": 168,
   "items": [
+    {
+      "id": "ai-astralplatform-ai",
+      "name": "AstralPlatform AI",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Academic Research Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "AstralPlatform AI adalah platform pencarian riset ilmiah dan ringkasan jurnal mendalam dengan rujukan sitasi asli. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/astralplatform-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://astralplatformai.co"
+    },
+    {
+      "id": "ai-stackmind",
+      "name": "StackMind",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Multi-Agent Orchestrator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "StackMind adalah framework orkestrasi multi-agen otonom untuk menyelesaikan tugas bisnis kompleks. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/stackmind.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://stackmind.tech"
+    },
     {
       "id": "ai-spectrascraper-ai",
       "name": "SpectraScraper AI",
