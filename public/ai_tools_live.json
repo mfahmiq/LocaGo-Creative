@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 16:20 WIB",
-  "total": 96,
+  "updatedAt": "04 Nov 2026, 16:27 WIB",
+  "total": 98,
   "items": [
+    {
+      "id": "ai-ollama",
+      "name": "Ollama",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "Jalankan Model AI Terkuat (Llama 3, DeepSeek, Qwen) Langsung di Komputer Anda",
+      "description": "Aplikasi CLI dan server lokal ringan yang memudahkan Anda mengunduh, menjalankan, dan mengkustomisasi Large Language Model open-weights di komputer lokal secara privat tanpa internet.",
+      "features": [
+        "Instalasi model 1-klik via command line",
+        "REST API kompatibel dengan format OpenAI",
+        "Akselerasi GPU otomatis (Metal, CUDA, ROCm)",
+        "Privasi data 100% di perangkat lokal"
+      ],
+      "logoUrl": "/logos/ollama.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://ollama.com"
+    },
+    {
+      "id": "ai-difyai",
+      "name": "Dify.ai",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Platform Pengembangan Aplikasi LLM Enterprise Lengkap dari RAG hingga Operasi AI",
+      "description": "Platform orkestrasi aplikasi LLM all-in-one yang mencakup visual workflow studio, visual RAG pipeline, integrasi knowledge base enterprise, dan analytics performa AI.",
+      "features": [
+        "Visual workflow & prompt IDE",
+        "Sistem hybrid search RAG terdepan",
+        "Monitoring dan observabilitas pemakaian LLM",
+        "Dukungan multi-model cloud & lokal"
+      ],
+      "logoUrl": "/logos/dify.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://dify.ai"
+    },
     {
       "id": "ai-flowise",
       "name": "Flowise",
