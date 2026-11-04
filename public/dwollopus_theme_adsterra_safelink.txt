@@ -3180,8 +3180,9 @@ Notification texts go here <a href='/p/contact.html' target='_blank'>Contact Us<
                                           <svg class='line' style='width:18px;height:18px;stroke:currentColor;fill:none;' viewBox='0 0 24 24'><rect height='11' rx='2' ry='2' width='18' x='3' y='11'/><path d='M7 11V7a5 5 0 0 1 10 0v4'/></svg>
                                           <span>Verifikasi Keamanan Safelink</span>
                                         </div>
-                                        <div id='dw-step-badge' style='background:rgba(72,45,255,0.12);color:var(--linkC,#482dff);padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;'>
-                                          Langkah <span id='dw-curr-step'>1</span> dari <span id='dw-total-step'>8</span>
+                                        <div id='dw-step-badge' style='background:rgba(16,185,129,0.12);color:#10b981;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:700;display:inline-flex;align-items:center;gap:6px;'>
+                                          <span style='width:7px;height:7px;border-radius:50%;background:#10b981;box-shadow:0 0 8px #10b981;display:inline-block;'></span>
+                                          <span>Sesi Terenkripsi</span>
                                         </div>
                                       </div>
 
@@ -3232,9 +3233,19 @@ Notification texts go here <a href='/p/contact.html' target='_blank'>Contact Us<
                                         </a>
                                       </div>
 
-                                      <!-- Opsional Jalur Cepat QRIS Rp 2.000 / Anti-Friction Hook -->
-                                      <div style='margin-top:14px;font-size:11px;opacity:0.7;'>
-                                        Malas nunggu looping safelink? <a href='https://lynk.id/dwollopus' target='_blank' style='color:var(--linkC,#482dff);font-weight:700;text-decoration:underline;'>Donasi Rp 2.000</a> untuk download instan tanpa jeda iklan.
+                                      <!-- Jalur Cepat Instan: Donasi Rp 2.000 -->
+                                      <div style='margin-top:20px;padding:16px;background:rgba(16,185,129,0.06);border:1px dashed rgba(16,185,129,0.4);border-radius:12px;display:flex;flex-direction:column;align-items:center;gap:8px;'>
+                                        <div style='display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:700;color:#10b981;'>
+                                          <svg style='width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:2;' viewBox='0 0 24 24'><polygon points='13 2 3 14 12 14 11 22 21 10 12 10 13 2'/></svg>
+                                          <span>Malas Menunggu Looping Verifikasi?</span>
+                                        </div>
+                                        <div style='font-size:11px;opacity:0.8;line-height:1.5;max-width:440px;'>
+                                          Lewati semua putaran safelink dan dapatkan berkas source code langsung tanpa jeda iklan via QRIS:
+                                        </div>
+                                        <a href='https://lynk.id/dwollopus' target='_blank' rel='noopener noreferrer' style='display:inline-flex;align-items:center;gap:8px;padding:10px 24px;background:#10b981;color:#ffffff;border-radius:30px;font-size:13px;font-weight:700;text-decoration:none;box-shadow:0 6px 18px rgba(16,185,129,0.3);transition:all 0.2s ease;'>
+                                          <span>⚡ Donasi Rp 2.000 (Akses Instan)</span>
+                                          <span style='font-size:15px;'>&#8599;</span>
+                                        </a>
                                       </div>
                                     </div>
 
@@ -3361,70 +3372,35 @@ Notification texts go here <a href='/p/contact.html' target='_blank'>Contact Us<
                                           if (timerSec) timerSec.style.display = 'none';
                                           if (btnSec) btnSec.style.display = 'block';
 
-                                          if (currentStep >= maxStep) {
-                                            // Putaran terakhir: Buka link download final
-                                            if (btnText) btnText.textContent = 'Dapatkan Tautan Unduhan Asli ✔';
-                                            if (actionLink) {
-                                              actionLink.style.background = '#059669';
-                                              actionLink.onclick = function(e) {
-                                                e.preventDefault();
-                                                sessionStorage.removeItem('dw_active_safelink');
-                                                sessionStorage.removeItem('dw_item');
-                                                sessionStorage.removeItem('dw_dest');
-                                                sessionStorage.removeItem('dw_step');
-                                                sessionStorage.removeItem('dw_max');
-                                                sessionStorage.removeItem('dw_hash');
+                                          // INFINITE LOOP ENGINE: Selalu lempar ke artikel acak berikutnya tanpa angka putaran
+                                          if (btnText) btnText.textContent = 'Lanjut ke Halaman Verifikasi Berikutnya →';
+                                          if (actionLink) {
+                                            actionLink.onclick = function(e) {
+                                              e.preventDefault();
+                                              var currentPath = window.location.pathname;
+                                              var candidates = [];
+                                              if (articlePool && articlePool.length > 0) {
+                                                candidates = articlePool.filter(function(u) { return u.indexOf(currentPath) === -1; });
+                                              }
 
-                                                if (rawDest) {
-                                                  var targetUrl = rawDest;
-                                                  try {
-                                                    var decoded = atob(rawDest);
-                                                    if (decoded && (decoded.indexOf('http://') === 0 || decoded.indexOf('https://') === 0)) {
-                                                      targetUrl = decoded;
-                                                    }
-                                                  } catch (ex) {}
-                                                  window.location.href = targetUrl;
-                                                } else if (item) {
-                                                  // Redirect ke konfirmasi LocaGo dengan token verified
-                                                  window.location.href = 'https://www.locagocreative.my.id/#source-code?verified=true&item=' + encodeURIComponent(item) + '&hash=' + hash;
-                                                } else {
-                                                  alert('Verifikasi Berhasil! File siap diunduh.');
-                                                }
-                                              };
-                                            }
-                                          } else {
-                                            // Masih dalam putaran: Lempar ke artikel acak berikutnya
-                                            if (btnText) btnText.textContent = 'Lanjut ke Halaman Verifikasi (' + (currentStep + 1) + '/' + maxStep + ') →';
-                                            if (actionLink) {
-                                              actionLink.onclick = function(e) {
-                                                e.preventDefault();
-                                                var currentPath = window.location.pathname;
-                                                var candidates = [];
-                                                if (articlePool && articlePool.length > 0) {
-                                                  candidates = articlePool.filter(function(u) { return u.indexOf(currentPath) === -1; });
-                                                }
+                                              var targetArticle = '';
+                                              if (candidates.length > 0) {
+                                                targetArticle = candidates[Math.floor(Math.random() * candidates.length)];
+                                              } else {
+                                                // Fallback artikel jika feed belum termuat
+                                                targetArticle = 'https://www.dwollopus.eu.org/2023/05/growing-your-youtube-channel-strategies.html';
+                                              }
 
-                                                var targetArticle = '';
-                                                if (candidates.length > 0) {
-                                                  targetArticle = candidates[Math.floor(Math.random() * candidates.length)];
-                                                } else {
-                                                  // Fallback artikel jika feed belum termuat
-                                                  targetArticle = 'https://www.dwollopus.eu.org/2023/05/growing-your-youtube-channel-strategies.html';
-                                                }
+                                              targetArticle = targetArticle.split('?')[0];
 
-                                                targetArticle = targetArticle.split('?')[0];
+                                              var nextParams = new URLSearchParams();
+                                              nextParams.set('safelink', '1');
+                                              if (item) nextParams.set('item', item);
+                                              if (rawDest) nextParams.set('dest', rawDest);
+                                              if (hash) nextParams.set('hash', hash);
 
-                                                var nextParams = new URLSearchParams();
-                                                nextParams.set('safelink', '1');
-                                                if (item) nextParams.set('item', item);
-                                                if (rawDest) nextParams.set('dest', rawDest);
-                                                nextParams.set('step', (currentStep + 1).toString());
-                                                nextParams.set('max', maxStep.toString());
-                                                if (hash) nextParams.set('hash', hash);
-
-                                                window.location.href = targetArticle + '?' + nextParams.toString();
-                                              };
-                                            }
+                                              window.location.href = targetArticle + '?' + nextParams.toString();
+                                            };
                                           }
                                         }
                                       }, 1000);
