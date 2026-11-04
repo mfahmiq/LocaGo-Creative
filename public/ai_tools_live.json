@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 02:01 WIB",
-  "total": 284,
+  "updatedAt": "05 Nov 2026, 02:07 WIB",
+  "total": 286,
   "items": [
+    {
+      "id": "ai-prism-sync",
+      "name": "Prism Sync",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "tagline": "Fullstack App Generator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Prism Sync adalah generator arsitektur fullstack otomatis berbasis prompt bahasa alami. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/prism-sync.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://prismsync.app"
+    },
+    {
+      "id": "ai-deeppipeline-ai",
+      "name": "DeepPipeline AI",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "Factual Search Grounding Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "DeepPipeline AI adalah search engine api khusus untuk agen ai dengan sitasi sumber faktual real-time. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/deeppipeline-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://deeppipelineai.io"
+    },
     {
       "id": "ai-modelops-ai",
       "name": "ModelOps AI",
