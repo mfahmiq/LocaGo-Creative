@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 18:11 WIB",
-  "total": 133,
+  "updatedAt": "04 Nov 2026, 18:17 WIB",
+  "total": 135,
   "items": [
+    {
+      "id": "ai-astralengine",
+      "name": "AstralEngine",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "AI Calendar Scheduler Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "AstralEngine adalah asisten manajemen waktu dan kalender dinamis yang mengoptimalkan jadwal produktivitas. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/astralengine.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://astralengine.dev"
+    },
+    {
+      "id": "ai-velo-mind",
+      "name": "Velo Mind",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Private Local AI Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Velo Mind adalah engine inferensi model lokal berkecepatan tinggi dengan perlindungan privasi data 100%. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/velo-mind.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://velomind.dev"
+    },
     {
       "id": "ai-quillvision",
       "name": "QuillVision",
