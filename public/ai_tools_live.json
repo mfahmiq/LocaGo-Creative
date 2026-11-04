@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 06:15 WIB",
-  "total": 366,
+  "updatedAt": "05 Nov 2026, 06:21 WIB",
+  "total": 368,
   "items": [
+    {
+      "id": "ai-sonicbrain",
+      "name": "SonicBrain",
+      "category": "Agentic Automation",
+      "pricingType": "Paid",
+      "tagline": "Private Local AI Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "SonicBrain adalah engine inferensi model lokal berkecepatan tinggi dengan perlindungan privasi data 100%. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/sonicbrain.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://sonicbrain.dev"
+    },
+    {
+      "id": "ai-polaris-data",
+      "name": "Polaris Data",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "Visual RAG Pipeline Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Polaris Data adalah platform low-code untuk merancang dan mempublikasikan workflow rag tanpa coding. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/polaris-data.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://polarisdata.tech"
+    },
     {
       "id": "ai-echo-nexus",
       "name": "Echo Nexus",
