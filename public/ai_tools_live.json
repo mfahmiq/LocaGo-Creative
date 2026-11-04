@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 20:37 WIB",
-  "total": 180,
+  "updatedAt": "04 Nov 2026, 20:43 WIB",
+  "total": 182,
   "items": [
+    {
+      "id": "ai-pilotmatrix",
+      "name": "PilotMatrix",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "LLM-Ready Web Scraper Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "PilotMatrix adalah api ekstraksi data web modern yang mengubah situs kompleks menjadi markdown ramah llm. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/pilotmatrix.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://pilotmatrix.tech"
+    },
+    {
+      "id": "ai-aethermind-ai",
+      "name": "AetherMind AI",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "Private Local AI Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "AetherMind AI adalah engine inferensi model lokal berkecepatan tinggi dengan perlindungan privasi data 100%. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/aethermind-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://aethermindai.io"
+    },
     {
       "id": "ai-velohub",
       "name": "VeloHub",
