@@ -11,6 +11,8 @@
 
   <!-- Monetag Official Verification Meta Tag -->
   <meta name="monetag" content="aa162cfe43f243c78128f1c43b806166"/>
+  <!-- Monetag Multitag All-in-One (Zone: 305697) -->
+  <script async='async' data-cfasync='false' data-zone='305697' src='https://quge5.com/88/tag.min.js' type='text/javascript'></script>
   <meta content='j1FhHmAs_df4zmezih1wciUfVTG3CtAOMmaht3VPE6s' name='google-site-verification'/>
   <b:if cond='data:view.isMultipleItems'>
     <b:if cond='data:view.isHomepage'>
