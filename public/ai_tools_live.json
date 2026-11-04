@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 18:48 WIB",
-  "total": 145,
+  "updatedAt": "04 Nov 2026, 18:54 WIB",
+  "total": 147,
   "items": [
+    {
+      "id": "ai-vertex-generator",
+      "name": "Vertex Generator",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Code Quality & Security Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Vertex Generator adalah platform inspeksi kualitas kode, deteksi bug otomatis, dan security auditing. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/vertex-generator.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://vertexgenerator.ai"
+    },
+    {
+      "id": "ai-cortexgraph",
+      "name": "CortexGraph",
+      "category": "Web & Scrapers",
+      "pricingType": "Free",
+      "tagline": "LLM-Ready Web Scraper Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "CortexGraph adalah api ekstraksi data web modern yang mengubah situs kompleks menjadi markdown ramah llm. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/cortexgraph.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://cortexgraph.app"
+    },
     {
       "id": "ai-metalogic-ai",
       "name": "MetaLogic AI",
