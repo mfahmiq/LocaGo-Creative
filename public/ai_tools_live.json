@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 21:15 WIB",
-  "total": 192,
+  "updatedAt": "04 Nov 2026, 21:21 WIB",
+  "total": 194,
   "items": [
+    {
+      "id": "ai-velo-brain",
+      "name": "Velo Brain",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "Lightning Autocomplete Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Velo Brain adalah mesin autocomplete kode berkecepatan tinggi dengan pemahaman konteks lintas berkas. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/velo-brain.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://velobrain.ai"
+    },
+    {
+      "id": "ai-horizonai-ai",
+      "name": "HorizonAI AI",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Lightning Autocomplete Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "HorizonAI AI adalah mesin autocomplete kode berkecepatan tinggi dengan pemahaman konteks lintas berkas. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/horizonai-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://horizonaiai.ai"
+    },
     {
       "id": "ai-pulsenexus",
       "name": "PulseNexus",
