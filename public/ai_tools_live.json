@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 16:42 WIB",
-  "total": 103,
+  "updatedAt": "04 Nov 2026, 16:49 WIB",
+  "total": 105,
   "items": [
+    {
+      "id": "ai-meshy-ai",
+      "name": "Meshy AI",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Generator Model 3D Bertekstur Siap Pakai dari Teks dan Gambar untuk Game & Web",
+      "description": "Platform 3D generatif yang mengubah prompt teks atau foto 2D menjadi model 3D lengkap dengan mesh bersih, peta tekstur PBR, dan format file GLB/FBX yang siap diimpor ke Unity atau Blender.",
+      "features": [
+        "Generasi text-to-3D dan image-to-3D",
+        "PBR texturing berkualitas tinggi",
+        "Ekspor format GLB, USDZ, FBX, OBJ",
+        "Mesh topology teratur ramah game engine"
+      ],
+      "logoUrl": "/logos/meshy.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://meshy.ai"
+    },
+    {
+      "id": "ai-recraft",
+      "name": "Recraft",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Studio Desain AI Khusus Vektor SVG, Ikon 3D, dan Ilustrasi Brand Konsisten",
+      "description": "Alat desain grafis bertenaga AI pertama yang menghasilkan file vektor SVG asli yang dapat diedit kurvanya, ikon 3D terpadu, dan ilustrasi dengan palet warna brand yang konsisten.",
+      "features": [
+        "Output vektor SVG asli skala tak terbatas",
+        "Palet warna dan style brand terkunci",
+        "Ikon set 3D dan ilustrasi editorial",
+        "Canvas desain profesional terintegrasi"
+      ],
+      "logoUrl": "/logos/recraft.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://recraft.ai"
+    },
     {
       "id": "ai-udio",
       "name": "Udio",
