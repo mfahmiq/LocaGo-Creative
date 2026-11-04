@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 04:48 WIB",
-  "total": 338,
+  "updatedAt": "05 Nov 2026, 04:55 WIB",
+  "total": 340,
   "items": [
+    {
+      "id": "ai-cortexoptimizer",
+      "name": "CortexOptimizer",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Viral Short-Form Editor Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "CortexOptimizer adalah editor video pendek otomatis dengan subtitle karaoke animasi dan deteksi hook viral. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/cortexoptimizer.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://cortexoptimizer.tech"
+    },
+    {
+      "id": "ai-sparkassistant-ai",
+      "name": "SparkAssistant AI",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "tagline": "IDE AI & CLI Code Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "SparkAssistant AI adalah asisten pemrograman otonom yang mempercepat pengembangan aplikasi dan refactoring kode. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/sparkassistant-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://sparkassistantai.app"
+    },
     {
       "id": "ai-lyricpilot",
       "name": "LyricPilot",
