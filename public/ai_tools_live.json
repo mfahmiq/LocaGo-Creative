@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 17:34 WIB",
-  "total": 120,
+  "updatedAt": "04 Nov 2026, 17:40 WIB",
+  "total": 122,
   "items": [
+    {
+      "id": "ai-pixel-generator",
+      "name": "Pixel Generator",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Cinematic Video Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Pixel Generator adalah generator video sinematik dengan kontrol kamera dinamis dan konsistensi fisika nyata. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/pixel-generator.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://pixelgenerator.io"
+    },
+    {
+      "id": "ai-omni-flow",
+      "name": "Omni Flow",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Cinematic Video Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Omni Flow adalah generator video sinematik dengan kontrol kamera dinamis dan konsistensi fisika nyata. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/omni-flow.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://omniflow.dev"
+    },
     {
       "id": "ai-scriptscraper-ai",
       "name": "ScriptScraper AI",
