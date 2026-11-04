@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 01:55 WIB",
-  "total": 282,
+  "updatedAt": "05 Nov 2026, 02:01 WIB",
+  "total": 284,
   "items": [
+    {
+      "id": "ai-modelops-ai",
+      "name": "ModelOps AI",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "Data Monitoring Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "ModelOps AI adalah platform monitoring perubahan data web dan ekstraksi tabel berkala secara otomatis. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/modelops-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://modelopsai.tech"
+    },
+    {
+      "id": "ai-rendercopilot-ai",
+      "name": "RenderCoPilot AI",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Smart Data Analyst Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "RenderCoPilot AI adalah workspace analitik data cerdas untuk membedah spreadsheet dan membuat grafik interaktif. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/rendercopilot-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://rendercopilotai.app"
+    },
     {
       "id": "ai-dynamo-reader",
       "name": "Dynamo Reader",
