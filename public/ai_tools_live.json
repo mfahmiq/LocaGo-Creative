@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 16:02 WIB",
-  "total": 90,
+  "updatedAt": "04 Nov 2026, 16:08 WIB",
+  "total": 92,
   "items": [
+    {
+      "id": "ai-qwen-25-coder",
+      "name": "Qwen 2.5 Coder",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "tagline": "Model Bahasa Pemrograman Open-Weights Terkuat Skala 32B dari Alibaba",
+      "description": "Model AI open-weights spesialis pemrograman yang melampaui GPT-4o pada benchmark coding teknis, mendukung context window 128k, dan sangat efisien di-deploy secara lokal.",
+      "features": [
+        "Akurasi HumanEval di atas 85%",
+        "Dukungan 92 bahasa pemrograman",
+        "Context window panjang 128k token",
+        "Lisensi ramah komersial Apache 2.0"
+      ],
+      "logoUrl": "/logos/qwen.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://github.com/QwenLM/Qwen2.5-Coder"
+    },
+    {
+      "id": "ai-devin-ai",
+      "name": "Devin AI",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "Software Engineer AI Otonom Pertama di Dunia dari Cognition Labs",
+      "description": "Agen software engineering berkemampuan penuh yang dilengkapi browser, shell, dan editor sendiri. Mampu menyelesaikan bug kompleks di repositori nyata dari awal hingga selesai.",
+      "features": [
+        "Otonomi penuh untuk project end-to-end",
+        "Sandboxed browser dan terminal virtual",
+        "Benchmarking SWE-bench terdepan",
+        "Kolaborasi real-time dengan engineer manusia"
+      ],
+      "logoUrl": "/logos/devin.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://cognition.ai"
+    },
     {
       "id": "ai-openhands",
       "name": "OpenHands",
