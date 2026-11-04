@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 23:44 WIB",
-  "total": 240,
+  "updatedAt": "04 Nov 2026, 23:50 WIB",
+  "total": 242,
   "items": [
+    {
+      "id": "ai-nova-graph",
+      "name": "Nova Graph",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "Data Monitoring Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Nova Graph adalah platform monitoring perubahan data web dan ekstraksi tabel berkala secara otomatis. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/nova-graph.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://novagraph.tech"
+    },
+    {
+      "id": "ai-visioncraft-ai",
+      "name": "VisionCraft AI",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Team Knowledge Vault Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "VisionCraft AI adalah sistem manajemen pengetahuan tim yang merangkum rapat dan dokumen kerja otomatis. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/visioncraft-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://visioncraftai.tech"
+    },
     {
       "id": "ai-aura-generator",
       "name": "Aura Generator",
