@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 01:24 WIB",
-  "total": 272,
+  "updatedAt": "05 Nov 2026, 01:30 WIB",
+  "total": 274,
   "items": [
+    {
+      "id": "ai-modelhub-ai",
+      "name": "ModelHub AI",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "AI Calendar Scheduler Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "ModelHub AI adalah asisten manajemen waktu dan kalender dinamis yang mengoptimalkan jadwal produktivitas. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/modelhub-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://modelhubai.app"
+    },
+    {
+      "id": "ai-zenithpipeline",
+      "name": "ZenithPipeline",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Voice & Audio Synthesis Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "ZenithPipeline adalah platform sintesis vokal dan aransemen musik instan berkualitas studio rekaman. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/zenithpipeline.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://zenithpipeline.co"
+    },
     {
       "id": "ai-vision-synthesizer",
       "name": "Vision Synthesizer",
