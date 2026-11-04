@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 01:11 WIB",
-  "total": 268,
+  "updatedAt": "05 Nov 2026, 01:17 WIB",
+  "total": 270,
   "items": [
+    {
+      "id": "ai-cogniworkspace-ai",
+      "name": "CogniWorkspace AI",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Cinematic Video Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "CogniWorkspace AI adalah generator video sinematik dengan kontrol kamera dinamis dan konsistensi fisika nyata. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/cogniworkspace-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://cogniworkspaceai.ai"
+    },
+    {
+      "id": "ai-vectorcopilot-ai",
+      "name": "VectorCoPilot AI",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "Factual Search Grounding Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "VectorCoPilot AI adalah search engine api khusus untuk agen ai dengan sitasi sumber faktual real-time. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/vectorcopilot-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://vectorcopilotai.dev"
+    },
     {
       "id": "ai-sentinel-link",
       "name": "Sentinel Link",
