@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 05:57 WIB",
-  "total": 360,
+  "updatedAt": "05 Nov 2026, 06:03 WIB",
+  "total": 362,
   "items": [
+    {
+      "id": "ai-gridvector",
+      "name": "GridVector",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "Autonomous SaaS Integrator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "GridVector adalah asisten otomatisasi alur kerja saas yang mengintegrasikan ratusan api pihak ketiga. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/gridvector.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://gridvector.tech"
+    },
+    {
+      "id": "ai-novasystems-ai",
+      "name": "NovaSystems AI",
+      "category": "Agentic Automation",
+      "pricingType": "Paid",
+      "tagline": "Visual RAG Pipeline Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "NovaSystems AI adalah platform low-code untuk merancang dan mempublikasikan workflow rag tanpa coding. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/novasystems-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://novasystemsai.app"
+    },
     {
       "id": "ai-metavoice",
       "name": "MetaVoice",
