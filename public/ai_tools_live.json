@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 21:02 WIB",
-  "total": 188,
+  "updatedAt": "04 Nov 2026, 21:08 WIB",
+  "total": 190,
   "items": [
+    {
+      "id": "ai-helixplatform",
+      "name": "HelixPlatform",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Smart Data Analyst Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "HelixPlatform adalah workspace analitik data cerdas untuk membedah spreadsheet dan membuat grafik interaktif. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/helixplatform.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://helixplatform.co"
+    },
+    {
+      "id": "ai-lyric-pilot",
+      "name": "Lyric Pilot",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Academic Research Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Lyric Pilot adalah platform pencarian riset ilmiah dan ringkasan jurnal mendalam dengan rujukan sitasi asli. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/lyric-pilot.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://lyricpilot.dev"
+    },
     {
       "id": "ai-catalyst-scraper",
       "name": "Catalyst Scraper",
