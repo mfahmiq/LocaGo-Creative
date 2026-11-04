@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 02:07 WIB",
-  "total": 286,
+  "updatedAt": "05 Nov 2026, 02:13 WIB",
+  "total": 288,
   "items": [
+    {
+      "id": "ai-stream-lab",
+      "name": "Stream Lab",
+      "category": "Web & Scrapers",
+      "pricingType": "Free",
+      "tagline": "Smart Web Crawler Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Stream Lab adalah mesin perayap web cerdas dengan rotasi proxy otomatis dan bypass proteksi antibot. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/stream-lab.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://streamlab.co"
+    },
+    {
+      "id": "ai-dynamo-graph",
+      "name": "Dynamo Graph",
+      "category": "Agentic Automation",
+      "pricingType": "Paid",
+      "tagline": "Multi-Agent Orchestrator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Dynamo Graph adalah framework orkestrasi multi-agen otonom untuk menyelesaikan tugas bisnis kompleks. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/dynamo-graph.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://dynamograph.io"
+    },
     {
       "id": "ai-prism-sync",
       "name": "Prism Sync",
