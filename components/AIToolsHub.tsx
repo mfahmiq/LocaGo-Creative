@@ -2,12 +2,21 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { AI_TOOLS_LIST } from '../lib/data';
 import { AIToolItem } from '../types';
 
+export interface CustomLinkItem {
+  id: string;
+  title: string;
+  url: string;
+  note?: string;
+  createdAt?: string;
+}
+
 export interface LinkList {
   id: string;
   title: string;
   notes: string;
   videoUrl?: string;
   toolIds: string[];
+  customLinks?: CustomLinkItem[];
   createdAt: string;
 }
 
@@ -36,6 +45,14 @@ export const AIToolsHub: React.FC = () => {
         notes: 'Kumpulan tool AI wajib untuk memproduksi video Reels, voiceover studio, dan aset visual siap FYP tanpa repot rekaman berulang kali.',
         videoUrl: 'https://www.instagram.com/locagocreative',
         toolIds: ['tool-cursor', 'tool-elevenlabs', 'tool-make', 'tool-bolt', 'tool-v0', 'tool-systeme'],
+        customLinks: [
+          {
+            id: 'custom-link-prompt',
+            title: 'Template Prompt Storyboard & Hook Video FYP (Google Doc)',
+            url: 'https://www.locagocreative.my.id/#articles',
+            note: 'Formula copywriting 3 detik pertama & struktur naskah video pendek viral.'
+          }
+        ],
         createdAt: '04 Nov 2026'
       }
     ];
@@ -46,6 +63,12 @@ export const AIToolsHub: React.FC = () => {
   const [toolToAddToLinkList, setToolToAddToLinkList] = useState<AIToolItem | null>(null);
   const [isCreateListModalOpen, setIsCreateListModalOpen] = useState<boolean>(false);
   const [newListForm, setNewListForm] = useState({ title: '', notes: '', videoUrl: '' });
+
+  // Edit LinkList & Manual Custom Link States
+  const [editingLinkList, setEditingLinkList] = useState<LinkList | null>(null);
+  const [isAddCustomLinkModalOpen, setIsAddCustomLinkModalOpen] = useState<boolean>(false);
+  const [customLinkForm, setCustomLinkForm] = useState({ title: '', url: '', note: '' });
+
   const [toastMessage, setToastMessage] = useState<string | null>(null);
 
   const showToast = (msg: string) => {
@@ -218,16 +241,15 @@ export const AIToolsHub: React.FC = () => {
     const defaultVal = 12 + (safeStr.charCodeAt(safeStr.length - 1) % 40);
     const current = upvotes[id] !== undefined ? upvotes[id] : defaultVal;
     const nextCount = isVoted ? current - 1 : current + 1;
-
-    const nextUpvotes = { ...upvotes, [id]: nextCount };
-    const nextUserVoted = { ...userVoted, [id]: !isVoted };
+    const nextUpvotes = { ...upvotes, [id]: Math.max(0, nextCount) };
+    const nextVoted = { ...userVoted, [id]: !isVoted };
 
     setUpvotes(nextUpvotes);
-    setUserVoted(nextUserVoted);
+    setUserVoted(nextVoted);
 
     try {
       localStorage.setItem('locago_ai_upvotes', JSON.stringify(nextUpvotes));
-      localStorage.setItem('locago_ai_uservoted', JSON.stringify(nextUserVoted));
+      localStorage.setItem('locago_ai_uservoted', JSON.stringify(nextVoted));
     } catch {}
   };
 
@@ -277,12 +299,110 @@ export const AIToolsHub: React.FC = () => {
       notes: newListForm.notes.trim(),
       videoUrl: newListForm.videoUrl.trim() || undefined,
       toolIds: toolToAddToLinkList ? [toolToAddToLinkList.id] : [],
+      customLinks: [],
       createdAt: new Date().toLocaleDateString('id-ID', { day: '2-digit', month: 'short', year: 'numeric' })
     };
     saveLinkLists([newList, ...linkLists]);
     setNewListForm({ title: '', notes: '', videoUrl: '' });
     setIsCreateListModalOpen(false);
     showToast(`LinkList "${newList.title}" berhasil dibuat!`);
+  };
+
+  // Save changes from Edit LinkList modal
+  const handleSaveEditedLinkList = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!editingLinkList) return;
+    const updated = linkLists.map((item) =>
+      item.id === editingLinkList.id ? editingLinkList : item
+    );
+    saveLinkLists(updated);
+    setEditingLinkList(null);
+    showToast('✅ Catatan dan info LinkList berhasil disimpan!');
+  };
+
+  // Add a manual custom link to active or specified list
+  const handleAddCustomLinkSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!customLinkForm.title.trim() || !customLinkForm.url.trim()) return;
+
+    let targetUrl = customLinkForm.url.trim();
+    if (!/^https?:\/\//i.test(targetUrl)) {
+      targetUrl = 'https://' + targetUrl;
+    }
+
+    const targetListId = editingLinkList ? editingLinkList.id : activeLinkListId;
+    if (!targetListId) return;
+
+    const newCustomItem: CustomLinkItem = {
+      id: `custom-${Date.now().toString().slice(-6)}`,
+      title: customLinkForm.title.trim(),
+      url: targetUrl,
+      note: customLinkForm.note.trim() || undefined,
+      createdAt: new Date().toLocaleDateString('id-ID', { day: '2-digit', month: 'short' })
+    };
+
+    const updated = linkLists.map((item) => {
+      if (item.id === targetListId) {
+        const existingLinks = item.customLinks || [];
+        return {
+          ...item,
+          customLinks: [...existingLinks, newCustomItem]
+        };
+      }
+      return item;
+    });
+
+    saveLinkLists(updated);
+
+    // If currently editing inside modal, update the local editing state too
+    if (editingLinkList && editingLinkList.id === targetListId) {
+      setEditingLinkList({
+        ...editingLinkList,
+        customLinks: [...(editingLinkList.customLinks || []), newCustomItem]
+      });
+    }
+
+    setCustomLinkForm({ title: '', url: '', note: '' });
+    setIsAddCustomLinkModalOpen(false);
+    showToast(`✅ Link manual "${newCustomItem.title}" berhasil ditambahkan!`);
+  };
+
+  // Remove a manual custom link
+  const handleRemoveCustomLink = (listId: string, customLinkId: string) => {
+    const updated = linkLists.map((item) => {
+      if (item.id === listId) {
+        return {
+          ...item,
+          customLinks: (item.customLinks || []).filter((cl) => cl.id !== customLinkId)
+        };
+      }
+      return item;
+    });
+    saveLinkLists(updated);
+
+    if (editingLinkList && editingLinkList.id === listId) {
+      setEditingLinkList({
+        ...editingLinkList,
+        customLinks: (editingLinkList.customLinks || []).filter((cl) => cl.id !== customLinkId)
+      });
+    }
+
+    showToast('Tautan manual dihapus dari LinkList.');
+  };
+
+  // Delete an entire LinkList
+  const handleDeleteLinkList = (listId: string) => {
+    if (!confirm('Apakah Anda yakin ingin menghapus LinkList ini?')) return;
+    const updated = linkLists.filter((l) => l.id !== listId);
+    saveLinkLists(updated);
+    if (activeLinkListId === listId) {
+      setActiveLinkListId(null);
+      window.location.hash = 'ai-tools';
+    }
+    if (editingLinkList?.id === listId) {
+      setEditingLinkList(null);
+    }
+    showToast('LinkList berhasil dihapus.');
   };
 
   const copyShareLink = (listId: string) => {
@@ -358,28 +478,19 @@ export const AIToolsHub: React.FC = () => {
             Perpustakaan kurasi kecerdasan buatan, engine otomatisasi no-code, dan model AI paling produktif untuk mempercepat pertumbuhan bisnis dan proyek Anda.
           </p>
 
-          {/* Quick Action Badges: LinkList & CSV Download */}
+          {/* Quick Action Badges: LinkList & Submit (Private CSV download is hidden from public) */}
           <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
             <button
               onClick={() => setIsLinkListManagerOpen(true)}
-              className="px-4 py-2 rounded-xl bg-purple-600 hover:bg-purple-500 text-white text-xs font-mono font-bold transition-all shadow-md flex items-center gap-2 cursor-pointer active:scale-95"
+              className="px-4 py-2.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white text-xs font-mono font-bold transition-all shadow-md flex items-center gap-2 cursor-pointer active:scale-95"
             >
               <span>🗂️</span>
               <span>Koleksi LinkList ({linkLists.length})</span>
             </button>
 
-            <a
-              href="/affiliate_tools_leads.csv"
-              download="affiliate_tools_leads.csv"
-              className="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-mono font-bold transition-all shadow-md flex items-center gap-2 cursor-pointer active:scale-95"
-            >
-              <span>📥</span>
-              <span>Unduh CSV Data Affiliate</span>
-            </a>
-
             <button
               onClick={() => setIsSubmitModalOpen(true)}
-              className="px-4 py-2 rounded-xl bg-neutral-900 dark:bg-neutral-800 hover:bg-neutral-800 dark:hover:bg-neutral-700 text-white text-xs font-mono font-bold transition-all border border-neutral-700/80 flex items-center gap-2 cursor-pointer active:scale-95"
+              className="px-4 py-2.5 rounded-xl bg-neutral-900 dark:bg-neutral-800 hover:bg-neutral-800 dark:hover:bg-neutral-700 text-white text-xs font-mono font-bold transition-all border border-neutral-700/80 flex items-center gap-2 cursor-pointer active:scale-95"
             >
               <span>+</span>
               <span>Submit Tool Baru</span>
@@ -389,7 +500,7 @@ export const AIToolsHub: React.FC = () => {
 
         {/* ACTIVE LINKLIST CURATION BANNER (If viewing a shared/filtered list) */}
         {activeLinkList && (
-          <div className="mb-8 p-6 rounded-3xl bg-gradient-to-r from-purple-900/40 via-purple-950/60 to-neutral-900 border-2 border-purple-500/40 text-white shadow-2xl relative overflow-hidden">
+          <div className="mb-8 p-6 sm:p-7 rounded-3xl bg-gradient-to-r from-purple-900/40 via-purple-950/60 to-neutral-900 border-2 border-purple-500/40 text-white shadow-2xl relative overflow-hidden">
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 border-b border-purple-500/20 pb-4 mb-4">
               <div>
                 <span className="px-2.5 py-0.5 rounded text-[11px] font-mono font-bold bg-purple-500/30 text-purple-300 border border-purple-400/30 uppercase tracking-wider">
@@ -399,7 +510,28 @@ export const AIToolsHub: React.FC = () => {
                   {activeLinkList.title}
                 </h2>
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex flex-wrap items-center gap-2">
+                {/* Edit LinkList & Notes Button */}
+                <button
+                  onClick={() => setEditingLinkList({ ...activeLinkList })}
+                  className="px-3.5 py-2 rounded-xl bg-purple-700/80 hover:bg-purple-600 text-white font-mono text-xs font-bold transition-all border border-purple-400/40 shadow-sm flex items-center gap-1.5 cursor-pointer active:scale-95"
+                  title="Edit Judul, Catatan, Video, dan Link"
+                >
+                  <span>✏️</span>
+                  <span>Edit Catatan & Info</span>
+                </button>
+
+                {/* Add Manual Link Button */}
+                <button
+                  onClick={() => setIsAddCustomLinkModalOpen(true)}
+                  className="px-3.5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-mono text-xs font-bold transition-all shadow-sm flex items-center gap-1.5 cursor-pointer active:scale-95"
+                  title="Tambah Tautan Manual Custom ke Playlist ini"
+                >
+                  <span>+</span>
+                  <span>Tambah Link Manual</span>
+                </button>
+
+                {/* Share Link Button */}
                 <button
                   onClick={() => copyShareLink(activeLinkList.id)}
                   className="px-3.5 py-2 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-mono text-xs font-bold transition-all shadow-md flex items-center gap-1.5 cursor-pointer active:scale-95"
@@ -407,36 +539,96 @@ export const AIToolsHub: React.FC = () => {
                   <span>🔗</span>
                   <span>Salin Link Share IG</span>
                 </button>
+
+                {/* Close Playlist */}
                 <button
                   onClick={() => {
                     setActiveLinkListId(null);
                     window.location.hash = 'ai-tools';
                   }}
-                  className="px-3.5 py-2 rounded-xl bg-neutral-800 hover:bg-neutral-700 text-neutral-300 hover:text-white font-mono text-xs transition-all border border-neutral-700 cursor-pointer"
+                  className="px-3 py-2 rounded-xl bg-neutral-800 hover:bg-neutral-700 text-neutral-300 hover:text-white font-mono text-xs transition-all border border-neutral-700 cursor-pointer"
                 >
                   ✕ Tutup Playlist
                 </button>
               </div>
             </div>
 
-            {activeLinkList.notes && (
-              <div className="p-4 rounded-2xl bg-neutral-900/70 border border-purple-500/20 text-neutral-300 text-xs sm:text-sm leading-relaxed mb-4">
-                <strong className="text-purple-400 font-mono block mb-1">📝 Catatan Khusus dari Mas Fahmi:</strong>
-                <p className="whitespace-pre-line">{activeLinkList.notes}</p>
+            {/* Notes Section with Inline Edit */}
+            <div className="p-4 rounded-2xl bg-neutral-900/70 border border-purple-500/20 text-neutral-300 text-xs sm:text-sm leading-relaxed mb-4">
+              <div className="flex items-center justify-between gap-2 mb-1.5">
+                <strong className="text-purple-400 font-mono block">📝 Catatan Khusus dari Mas Fahmi:</strong>
+                <button
+                  onClick={() => setEditingLinkList({ ...activeLinkList })}
+                  className="text-[11px] font-mono text-purple-300 hover:text-purple-200 underline cursor-pointer"
+                >
+                  ✏️ Edit Catatan
+                </button>
               </div>
-            )}
+              {activeLinkList.notes ? (
+                <p className="whitespace-pre-line text-neutral-200">{activeLinkList.notes}</p>
+              ) : (
+                <p className="text-neutral-500 italic text-xs">Belum ada catatan. Klik tombol edit di atas untuk menambahkan catatan bagi audiens Anda.</p>
+              )}
+            </div>
 
+            {/* Video Reference */}
             {activeLinkList.videoUrl && (
-              <div className="text-xs font-mono text-purple-300 flex items-center gap-2">
+              <div className="text-xs font-mono text-purple-300 flex items-center gap-2 mb-4">
                 <span>📹 Tonton Video Referensi:</span>
                 <a
                   href={activeLinkList.videoUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-purple-400 underline font-bold hover:text-purple-300"
+                  className="text-purple-400 underline font-bold hover:text-purple-300 break-all"
                 >
                   Buka Tautan Video ({activeLinkList.videoUrl}) ↗
                 </a>
+              </div>
+            )}
+
+            {/* Manual Custom Links in Banner */}
+            {activeLinkList.customLinks && activeLinkList.customLinks.length > 0 && (
+              <div className="pt-3 border-t border-purple-500/20">
+                <div className="flex items-center justify-between gap-2 mb-2">
+                  <span className="text-[11px] font-mono font-bold text-purple-300 uppercase tracking-wider">
+                    🔗 Tautan & Referensi Tambahan ({activeLinkList.customLinks.length}):
+                  </span>
+                  <button
+                    onClick={() => setIsAddCustomLinkModalOpen(true)}
+                    className="text-[11px] font-mono text-emerald-400 hover:text-emerald-300 underline cursor-pointer"
+                  >
+                    + Tambah Lagi
+                  </button>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5">
+                  {activeLinkList.customLinks.map((cl) => (
+                    <div
+                      key={cl.id}
+                      className="p-3 rounded-xl bg-neutral-900/90 border border-purple-500/30 flex items-start justify-between gap-2 text-xs"
+                    >
+                      <div className="overflow-hidden">
+                        <h4 className="font-bold text-white truncate">{cl.title}</h4>
+                        {cl.note && <p className="text-[11px] text-neutral-400 line-clamp-1 mt-0.5">{cl.note}</p>}
+                        <a
+                          href={cl.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-[11px] font-mono text-purple-400 hover:text-purple-300 underline inline-flex items-center gap-1 mt-1 font-semibold"
+                        >
+                          <span>Kunjungi Tautan</span>
+                          <span>↗</span>
+                        </a>
+                      </div>
+                      <button
+                        onClick={() => handleRemoveCustomLink(activeLinkList.id, cl.id)}
+                        className="text-neutral-500 hover:text-rose-400 text-xs px-1 cursor-pointer shrink-0"
+                        title="Hapus tautan ini"
+                      >
+                        ✕
+                      </button>
+                    </div>
+                  ))}
+                </div>
               </div>
             )}
           </div>
@@ -601,9 +793,22 @@ export const AIToolsHub: React.FC = () => {
 
                 {/* Card Footer */}
                 <div className="pt-3 border-t border-neutral-100 dark:border-neutral-800/80 flex items-center justify-between gap-3" onClick={(e) => e.stopPropagation()}>
-                  <div className="text-[11px] font-mono text-neutral-500 flex items-center gap-1">
-                    <span>👁️</span>
-                    <span>{(views[tool.id] || (120 + tool.name.length * 15))} views</span>
+                  <div className="flex items-center gap-2">
+                    <div className="text-[11px] font-mono text-neutral-500 flex items-center gap-1">
+                      <span>👁️</span>
+                      <span>{(views[tool.id] || (120 + tool.name.length * 15))} views</span>
+                    </div>
+
+                    {/* If viewing inside active LinkList: Provide 1-click Remove button */}
+                    {activeLinkList && (
+                      <button
+                        onClick={() => toggleToolInLinkList(activeLinkList.id, tool.id)}
+                        className="px-2 py-0.5 rounded text-[10px] font-mono text-rose-600 dark:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-950/40 border border-rose-200 dark:border-rose-900/40 transition-all cursor-pointer"
+                        title="Hapus tool ini dari playlist aktif"
+                      >
+                        ✕ Hapus dari List
+                      </button>
+                    )}
                   </div>
 
                   <a
@@ -748,7 +953,9 @@ export const AIToolsHub: React.FC = () => {
                     >
                       <div>
                         <h4 className="text-xs font-bold">{list.title}</h4>
-                        <span className="text-[10px] font-mono text-neutral-500">{tools.filter((t) => isToolInList(t, list.toolIds)).length} tool di dalamnya</span>
+                        <span className="text-[10px] font-mono text-neutral-500">
+                          {tools.filter((t) => isToolInList(t, list.toolIds)).length} tool • {(list.customLinks || []).length} link manual
+                        </span>
                       </div>
                       <span className={`px-2 py-1 rounded text-[11px] font-mono font-bold ${inList ? 'bg-purple-600 text-white' : 'bg-neutral-200 dark:bg-neutral-800'}`}>
                         {inList ? '✓ Ada' : '+ Tambah'}
@@ -809,7 +1016,7 @@ export const AIToolsHub: React.FC = () => {
 
                 <div>
                   <label className="block text-xs font-mono font-medium text-neutral-700 dark:text-neutral-300 mb-1">
-                    Catatan / Notes untuk Audiens (Opsional)
+                    Catatan / Notes untuk Audiens (Bisa Diedit Kapan Saja)
                   </label>
                   <textarea
                     rows={3}
@@ -822,7 +1029,7 @@ export const AIToolsHub: React.FC = () => {
 
                 <div>
                   <label className="block text-xs font-mono font-medium text-neutral-700 dark:text-neutral-300 mb-1">
-                    Tautan Video IG Reels / Shorts (Opsional)
+                    Tautan Video IG Reels / Shorts / YouTube (Opsional)
                   </label>
                   <input
                     type="url"
@@ -853,7 +1060,214 @@ export const AIToolsHub: React.FC = () => {
           </div>
         )}
 
-        {/* MODAL 4: MANAGE ALL LINKLISTS DRAWER */}
+        {/* MODAL 4: EDIT LINKLIST (TITLE, NOTES, VIDEO & CUSTOM LINKS) */}
+        {editingLinkList && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4 overflow-y-auto">
+            <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-xl w-full shadow-2xl relative text-neutral-900 dark:text-white my-8 max-h-[90vh] overflow-y-auto">
+              <button
+                onClick={() => setEditingLinkList(null)}
+                className="absolute top-5 right-5 text-neutral-400 hover:text-white font-mono text-xl cursor-pointer"
+              >
+                ✕
+              </button>
+
+              <h3 className="text-xl font-bold mb-1">✏️ Edit Catatan & Info LinkList</h3>
+              <p className="text-xs text-neutral-500 mb-6 font-mono">
+                Perbarui judul, catatan penjelasan untuk audiens, tautan video, atau kelola link manual.
+              </p>
+
+              <form onSubmit={handleSaveEditedLinkList} className="space-y-4">
+                <div>
+                  <label className="block text-xs font-mono font-medium text-neutral-700 dark:text-neutral-300 mb-1">
+                    Judul Playlist / LinkList *
+                  </label>
+                  <input
+                    type="text"
+                    required
+                    value={editingLinkList.title}
+                    onChange={(e) => setEditingLinkList({ ...editingLinkList, title: e.target.value })}
+                    className="w-full px-4 py-2.5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-950 text-xs font-mono focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-xs font-mono font-medium text-neutral-700 dark:text-neutral-300 mb-1">
+                    Catatan Khusus untuk Audiens (Edit Sesuka Hati)
+                  </label>
+                  <textarea
+                    rows={4}
+                    value={editingLinkList.notes || ''}
+                    onChange={(e) => setEditingLinkList({ ...editingLinkList, notes: e.target.value })}
+                    placeholder="Tuliskan catatan panduan, tips pemakaian, atau pengantar video..."
+                    className="w-full px-4 py-2.5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-950 text-xs font-mono focus:outline-none focus:ring-2 focus:ring-purple-500 resize-y"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-xs font-mono font-medium text-neutral-700 dark:text-neutral-300 mb-1">
+                    Tautan Video IG Reels / Shorts / YouTube
+                  </label>
+                  <input
+                    type="url"
+                    value={editingLinkList.videoUrl || ''}
+                    onChange={(e) => setEditingLinkList({ ...editingLinkList, videoUrl: e.target.value })}
+                    placeholder="https://www.instagram.com/reel/..."
+                    className="w-full px-4 py-2.5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-950 text-xs font-mono focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  />
+                </div>
+
+                {/* Custom Links Management inside Edit Modal */}
+                <div className="pt-2 border-t border-neutral-200 dark:border-neutral-800">
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-xs font-mono font-bold text-neutral-700 dark:text-neutral-300">
+                      🔗 Tautan Manual ({editingLinkList.customLinks?.length || 0})
+                    </span>
+                    <button
+                      type="button"
+                      onClick={() => setIsAddCustomLinkModalOpen(true)}
+                      className="px-2.5 py-1 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-mono text-[11px] font-bold cursor-pointer transition-all"
+                    >
+                      + Tambah Link Manual
+                    </button>
+                  </div>
+
+                  {(!editingLinkList.customLinks || editingLinkList.customLinks.length === 0) ? (
+                    <p className="text-[11px] font-mono text-neutral-500 italic py-2">
+                      Belum ada tautan manual custom. Anda bisa menambahkan link Google Form, WhatsApp, grup Telegram, atau URL produk lain.
+                    </p>
+                  ) : (
+                    <div className="space-y-2 max-h-40 overflow-y-auto pr-1">
+                      {editingLinkList.customLinks.map((cl) => (
+                        <div
+                          key={cl.id}
+                          className="p-2.5 rounded-xl bg-neutral-100 dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-800 flex items-center justify-between gap-2 text-xs"
+                        >
+                          <div className="truncate">
+                            <span className="font-bold">{cl.title}</span>
+                            <span className="text-[10px] text-neutral-500 font-mono block truncate">{cl.url}</span>
+                          </div>
+                          <button
+                            type="button"
+                            onClick={() => handleRemoveCustomLink(editingLinkList.id, cl.id)}
+                            className="px-2 py-1 text-rose-500 hover:text-rose-400 font-mono text-xs cursor-pointer"
+                          >
+                            Hapus
+                          </button>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+
+                <div className="pt-4 border-t border-neutral-200 dark:border-neutral-800 flex items-center justify-between gap-3">
+                  <button
+                    type="button"
+                    onClick={() => handleDeleteLinkList(editingLinkList.id)}
+                    className="text-xs font-mono text-rose-500 hover:underline cursor-pointer"
+                  >
+                    🗑️ Hapus Playlist Ini
+                  </button>
+
+                  <div className="flex items-center gap-2">
+                    <button
+                      type="button"
+                      onClick={() => setEditingLinkList(null)}
+                      className="px-4 py-2 rounded-xl text-xs font-mono border border-neutral-300 dark:border-neutral-700 cursor-pointer"
+                    >
+                      Batal
+                    </button>
+                    <button
+                      type="submit"
+                      className="px-5 py-2.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-mono text-xs font-bold transition-all shadow-md cursor-pointer"
+                    >
+                      Simpan Perubahan →
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        )}
+
+        {/* MODAL 5: ADD MANUAL CUSTOM LINK */}
+        {isAddCustomLinkModalOpen && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
+            <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-md w-full shadow-2xl relative text-neutral-900 dark:text-white">
+              <button
+                onClick={() => setIsAddCustomLinkModalOpen(false)}
+                className="absolute top-5 right-5 text-neutral-400 hover:text-white font-mono text-xl cursor-pointer"
+              >
+                ✕
+              </button>
+
+              <h3 className="text-xl font-bold mb-1">🔗 Tambah Link Manual ke Playlist</h3>
+              <p className="text-xs text-neutral-500 mb-5 font-mono">
+                Tambahkan link eksternal apa pun (form, landing page, grup WA/Telegram, affiliate link pribadi, dll) ke dalam playlist.
+              </p>
+
+              <form onSubmit={handleAddCustomLinkSubmit} className="space-y-4">
+                <div>
+                  <label className="block text-xs font-mono font-medium text-neutral-700 dark:text-neutral-300 mb-1">
+                    Judul Tautan / Nama Link *
+                  </label>
+                  <input
+                    type="text"
+                    required
+                    value={customLinkForm.title}
+                    onChange={(e) => setCustomLinkForm({ ...customLinkForm, title: e.target.value })}
+                    placeholder="Contoh: Template Prompt Canva Gratis"
+                    className="w-full px-4 py-2.5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-950 text-xs font-mono focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-xs font-mono font-medium text-neutral-700 dark:text-neutral-300 mb-1">
+                    URL Tautan Lengkap *
+                  </label>
+                  <input
+                    type="text"
+                    required
+                    value={customLinkForm.url}
+                    onChange={(e) => setCustomLinkForm({ ...customLinkForm, url: e.target.value })}
+                    placeholder="https://..."
+                    className="w-full px-4 py-2.5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-950 text-xs font-mono focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-xs font-mono font-medium text-neutral-700 dark:text-neutral-300 mb-1">
+                    Catatan Singkat (Opsional)
+                  </label>
+                  <input
+                    type="text"
+                    value={customLinkForm.note}
+                    onChange={(e) => setCustomLinkForm({ ...customLinkForm, note: e.target.value })}
+                    placeholder="Contoh: Link langsung unduh file zip"
+                    className="w-full px-4 py-2.5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-950 text-xs font-mono focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  />
+                </div>
+
+                <div className="pt-2 flex justify-end gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setIsAddCustomLinkModalOpen(false)}
+                    className="px-4 py-2 rounded-xl text-xs font-mono border border-neutral-300 dark:border-neutral-700 cursor-pointer"
+                  >
+                    Batal
+                  </button>
+                  <button
+                    type="submit"
+                    className="px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-mono text-xs font-bold transition-all shadow-md cursor-pointer"
+                  >
+                    Tambahkan Link →
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        )}
+
+        {/* MODAL 6: MANAGE ALL LINKLISTS DRAWER */}
         {isLinkListManagerOpen && (
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
             <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-xl w-full shadow-2xl relative text-neutral-900 dark:text-white max-h-[85vh] overflow-y-auto">
@@ -889,9 +1303,24 @@ export const AIToolsHub: React.FC = () => {
                       <div className="flex items-start justify-between gap-3">
                         <div>
                           <h4 className="font-bold text-sm text-neutral-900 dark:text-white">{list.title}</h4>
-                          <span className="text-[10px] font-mono text-neutral-500">{list.createdAt} • {tools.filter((t) => isToolInList(t, list.toolIds)).length} tools</span>
+                          <span className="text-[10px] font-mono text-neutral-500">
+                            {list.createdAt} • {tools.filter((t) => isToolInList(t, list.toolIds)).length} tools • {(list.customLinks || []).length} link manual
+                          </span>
                         </div>
                         <div className="flex items-center gap-1.5 shrink-0">
+                          {/* Edit button */}
+                          <button
+                            onClick={() => {
+                              setEditingLinkList({ ...list });
+                              setIsLinkListManagerOpen(false);
+                            }}
+                            className="px-2.5 py-1 rounded-lg bg-neutral-200 dark:bg-neutral-800 hover:bg-neutral-300 dark:hover:bg-neutral-700 text-neutral-800 dark:text-neutral-200 font-mono text-xs font-bold transition-all cursor-pointer"
+                            title="Edit Catatan & Info"
+                          >
+                            ✏️ Edit
+                          </button>
+
+                          {/* Open button */}
                           <button
                             onClick={() => {
                               setActiveLinkListId(list.id);
@@ -904,6 +1333,8 @@ export const AIToolsHub: React.FC = () => {
                           >
                             Buka ↗
                           </button>
+
+                          {/* Share button */}
                           <button
                             onClick={() => copyShareLink(list.id)}
                             className="px-2.5 py-1 rounded-lg bg-purple-600 hover:bg-purple-500 text-white font-mono text-xs font-bold transition-all cursor-pointer shadow-sm"
@@ -936,7 +1367,7 @@ export const AIToolsHub: React.FC = () => {
           </div>
         )}
 
-        {/* MODAL 5: SUBMIT NEW TOOL */}
+        {/* MODAL 7: SUBMIT NEW TOOL */}
         {isSubmitModalOpen && (
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
             <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-lg w-full shadow-2xl relative text-neutral-900 dark:text-white">
