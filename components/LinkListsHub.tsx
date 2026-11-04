@@ -794,9 +794,13 @@ export const LinkListsHub: React.FC = () => {
                           <div className="flex items-center gap-3 min-w-0">
                             <div className="w-10 h-10 rounded-xl bg-purple-100 dark:bg-purple-900/40 border border-purple-200 dark:border-purple-800/60 flex items-center justify-center shrink-0 overflow-hidden font-bold text-purple-600 dark:text-purple-300 text-sm">
                               {toolLogo ? (
-                                <img src={toolLogo} alt={toolName} className="w-full h-full object-contain p-1" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+                                <img src={toolLogo} alt={toolName} className="w-full h-full object-contain p-1" onError={(e) => {
+                                  const parent = e.currentTarget.parentElement;
+                                  e.currentTarget.remove();
+                                  if (parent) parent.textContent = toolName.slice(0, 2).toUpperCase();
+                                }} />
                               ) : (
-                                toolName.charAt(0).toUpperCase()
+                                toolName.slice(0, 2).toUpperCase()
                               )}
                             </div>
                             <div className="min-w-0">

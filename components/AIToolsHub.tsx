@@ -23,6 +23,38 @@ const SECURE_AFFILIATE_CSV_DATA = `Rank,Tool Name,Kategori,Pricing Model,Komisi 
 9,HeyGen,Video & Graphics,Free Trial,"20% Recurring",Rp 200.000 - Rp 1.200.000 / bln,30 Hari,https://www.heygen.com/affiliates,Avatar AI fotorealistik untuk presenter
 10,Rytr,AI Writing & SEO,Freemium,"30% Lifetime Recurring",Rp 90.000 - Rp 450.000 / bln,60 Hari,https://rytr.me/affiliate,Copywriting praktis untuk UMKM`;
 
+
+const AIToolLogoBadge: React.FC<{ logoUrl?: string; name: string; size?: 'sm' | 'lg' }> = ({ logoUrl, name, size = 'sm' }) => {
+  const [imgError, setImgError] = React.useState(false);
+  const isLg = size === 'lg';
+  const sizeClasses = isLg 
+    ? 'w-14 h-14 rounded-2xl p-1.5 text-2xl font-bold' 
+    : 'w-10 h-10 rounded-xl p-1 text-base font-bold';
+
+  if (logoUrl && !imgError) {
+    return (
+      <img
+        src={logoUrl}
+        alt={name}
+        className={`${sizeClasses} object-contain bg-white dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 shadow-sm shrink-0`}
+        onError={() => setImgError(true)}
+      />
+    );
+  }
+
+  const cleanName = (name || 'AI').trim();
+  const words = cleanName.split(/\s+/);
+  const initials = words.length >= 2 
+    ? (words[0][0] + words[1][0]).toUpperCase() 
+    : cleanName.slice(0, 2).toUpperCase();
+
+  return (
+    <div className={`${sizeClasses} bg-gradient-to-br from-purple-500/10 to-indigo-500/20 dark:from-purple-500/20 dark:to-indigo-500/30 border border-purple-300/40 dark:border-purple-500/40 text-purple-700 dark:text-purple-300 flex items-center justify-center font-mono shrink-0 shadow-sm`}>
+      {initials}
+    </div>
+  );
+};
+
 export const AIToolsHub: React.FC = () => {
   const { user, isOwner, isLoggedIn, openAuthModal, logout } = useAuth();
 
@@ -814,20 +846,7 @@ export const AIToolsHub: React.FC = () => {
                   {/* Card Header with Real Logo */}
                   <div className="flex items-start justify-between gap-3 mb-3">
                     <div className="flex items-center gap-3">
-                      {tool.logoUrl ? (
-                        <img
-                          src={tool.logoUrl}
-                          alt={tool.name}
-                          className="w-10 h-10 rounded-xl object-contain p-1 bg-white dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 shadow-sm shrink-0"
-                          onError={(e) => {
-                            (e.target as HTMLElement).style.display = 'none';
-                          }}
-                        />
-                      ) : (
-                        <div className="w-10 h-10 rounded-xl bg-purple-100 dark:bg-purple-500/10 border border-purple-200 dark:border-purple-500/30 text-purple-700 dark:text-purple-400 flex items-center justify-center font-bold text-base font-mono shrink-0">
-                          {(tool.name || 'AI').charAt(0)}
-                        </div>
-                      )}
+                      <AIToolLogoBadge logoUrl={tool.logoUrl} name={tool.name} size="sm" />
                       <div>
                         <h3 className="font-bold text-lg text-neutral-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-300 transition-colors flex items-center gap-1.5">
                           <span>{tool.name || 'AI Tool'}</span>
@@ -947,17 +966,7 @@ export const AIToolsHub: React.FC = () => {
               </button>
 
               <div className="flex items-center gap-4 mb-5">
-                {viewingTool.logoUrl ? (
-                  <img
-                    src={viewingTool.logoUrl}
-                    alt={viewingTool.name}
-                    className="w-14 h-14 rounded-2xl object-contain p-1.5 bg-neutral-100 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 shadow-sm shrink-0"
-                  />
-                ) : (
-                  <div className="w-14 h-14 rounded-2xl bg-purple-100 dark:bg-purple-500/20 text-purple-700 dark:text-purple-400 flex items-center justify-center font-bold text-2xl font-mono shrink-0">
-                    {viewingTool.name.charAt(0)}
-                  </div>
-                )}
+                <AIToolLogoBadge logoUrl={viewingTool.logoUrl} name={viewingTool.name} size="lg" />
                 <div>
                   <div className="flex items-center gap-2 mb-1">
                     <span className="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-purple-100 dark:bg-purple-500/20 text-purple-700 dark:text-purple-300">
