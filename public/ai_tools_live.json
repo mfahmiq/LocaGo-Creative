@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 12:04 WIB",
-  "total": 71,
+  "updatedAt": "04 Nov 2026, 12:11 WIB",
+  "total": 73,
   "items": [
+    {
+      "id": "ai-krisp",
+      "name": "Krisp",
+      "category": "Voice & Audio AI",
+      "pricingType": "Freemium",
+      "tagline": "Peredam Kebisingan Latar Belakang & Asisten Notulen Rapat AI Real-Time",
+      "description": "Aplikasi desktop yang memblokir suara gonggongan anjing, tangisan bayi, dan dengungan kipas angin saat Anda meeting di Zoom atau Google Meet, plus transkrip rapat otomatis.",
+      "features": [
+        "Peredam suara bising dua arah (mikrofon dan speaker)",
+        "Penghilang gema ruangan (room echo cancellation)",
+        "Transkrip dan ringkasan to-do list rapat instan",
+        "Berjalan lokal dengan konsumsi CPU rendah"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://krisp.ai/?via=locagocreative"
+    },
+    {
+      "id": "ai-udio-15",
+      "name": "Udio 1.5",
+      "category": "Voice & Audio AI",
+      "pricingType": "Freemium",
+      "tagline": "Studio Produksi Musik AI Canggih dengan Kontrol Stem & Aransemen Detail",
+      "description": "Generator musik AI dari mantan peneliti Google DeepMind yang menawarkan dinamika vokal yang luar biasa, pemisahan track instrumen (stem separation), dan kontrol melodi presisi.",
+      "features": [
+        "Pemisahan track audio instrumen & vokal (audio stems)",
+        "Dinamika vokal dan ekspresi penyanyi emosional",
+        "Ekspansi intro, outro, dan solo gitar fleksibel",
+        "Kualitas mastering audio 48kHz stereo"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.udio.com/?via=locagocreative"
+    },
     {
       "id": "ai-suno-ai-v35",
       "name": "Suno AI v3.5",
