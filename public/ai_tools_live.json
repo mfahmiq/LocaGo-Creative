@@ -1,7 +1,25 @@
 {
-  "updatedAt": "04 Nov 2026, 02:45 WIB",
-  "total": 35,
+  "updatedAt": "04 Nov 2026, 02:48 WIB",
+  "total": 36,
   "items": [
+    {
+      "id": "ai-recraft-ai",
+      "name": "Recraft AI",
+      "category": "Video & Graphics",
+      "pricingType": "Freemium",
+      "tagline": "Generator Desain Grafis AI Berbasis Vektor SVG & Palet Warna Brand",
+      "description": "Engine kecerdasan desain pertama yang menghasilkan file vektor murni (SVG) siap edit di Illustrator atau Figma, dengan konsistensi palet warna brand terstandarisasi.",
+      "features": [
+        "Ekspor format vektor SVG murni tanpa pixel pecah",
+        "Kustomisasi palet warna brand secara ketat",
+        "Variasi gaya: 3D icon, flat vector, pixel art, line art",
+        "Fitur mockup produk dan penghapus background otomatis"
+      ],
+      "logoUrl": "/logos/recraftai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.recraft.ai/?via=locagocreative"
+    },
     {
       "id": "ai-leonardo-ai",
       "name": "Leonardo AI",
