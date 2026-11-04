@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 21:52 WIB",
-  "total": 204,
+  "updatedAt": "04 Nov 2026, 21:58 WIB",
+  "total": 206,
   "items": [
+    {
+      "id": "ai-quillsynthesizer",
+      "name": "QuillSynthesizer",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "LLM-Ready Web Scraper Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "QuillSynthesizer adalah api ekstraksi data web modern yang mengubah situs kompleks menjadi markdown ramah llm. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/quillsynthesizer.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://quillsynthesizer.app"
+    },
+    {
+      "id": "ai-flowworkspace",
+      "name": "FlowWorkspace",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "Factual Search Grounding Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "FlowWorkspace adalah search engine api khusus untuk agen ai dengan sitasi sumber faktual real-time. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/flowworkspace.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://flowworkspace.co"
+    },
     {
       "id": "ai-echo-craft",
       "name": "Echo Craft",
