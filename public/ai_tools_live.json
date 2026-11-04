@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 05:44 WIB",
-  "total": 356,
+  "updatedAt": "05 Nov 2026, 05:50 WIB",
+  "total": 358,
   "items": [
+    {
+      "id": "ai-vanguardpulse-ai",
+      "name": "VanguardPulse AI",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Voice & Audio Synthesis Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "VanguardPulse AI adalah platform sintesis vokal dan aransemen musik instan berkualitas studio rekaman. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/vanguardpulse-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://vanguardpulseai.dev"
+    },
+    {
+      "id": "ai-kinetix-platform",
+      "name": "Kinetix Platform",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "Visual RAG Pipeline Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Kinetix Platform adalah platform low-code untuk merancang dan mempublikasikan workflow rag tanpa coding. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/kinetix-platform.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://kinetixplatform.io"
+    },
     {
       "id": "ai-astral-app-v8",
       "name": "Astral App v8",
