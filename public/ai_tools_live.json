@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 02:30 WIB",
-  "total": 30,
+  "updatedAt": "04 Nov 2026, 02:36 WIB",
+  "total": 32,
   "items": [
+    {
+      "id": "ai-heygen",
+      "name": "HeyGen",
+      "category": "Video & Graphics",
+      "pricingType": "Freemium",
+      "tagline": "Avatar AI Sinematik dengan Sinkronisasi Bibir Multi-Bahasa Sempurna",
+      "description": "Platform pembuatan video presentasi dan konten edukasi menggunakan avatar AI fotorealistik. Menghasilkan gerakan bibir dan ekspresi mikro yang sangat alami dari naskah teks.",
+      "features": [
+        "120+ avatar AI beragam etnis dan busana",
+        "Fitur Video Translate dengan kloning suara dan lip-sync",
+        "Custom avatar studio 4K hanya dari video HP",
+        "Integrasi integrasi API otomatis untuk skala besar"
+      ],
+      "logoUrl": "/logos/heygen.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://heygen.com/?via=locagocreative"
+    },
+    {
+      "id": "ai-continuedev",
+      "name": "Continue.dev",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "tagline": "Ekstensi AI Coding Open Source yang Menghubungkan Model Apapun ke VS Code",
+      "description": "Asisten coding AI 100% open-source yang memberi Anda kebebasan penuh menghubungkan model lokal (Ollama, LM Studio) atau API frontier (Claude, OpenAI) langsung ke sidebar editor.",
+      "features": [
+        "100% open-source dan bebas lisensi vendor",
+        "Dukungan model lokal via Ollama untuk coding offline",
+        "Fitur tab autocomplete dan chat inline di editor",
+        "Kustomisasi system prompt dan context provider"
+      ],
+      "logoUrl": "/logos/continuedev.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://continue.dev/?via=locagocreative"
+    },
     {
       "id": "ai-tabnine",
       "name": "Tabnine",
