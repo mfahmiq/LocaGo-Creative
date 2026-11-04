@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 03:53 WIB",
-  "total": 320,
+  "updatedAt": "05 Nov 2026, 03:59 WIB",
+  "total": 322,
   "items": [
+    {
+      "id": "ai-orbit-matrix",
+      "name": "Orbit Matrix",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Generative Visual Studio Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Orbit Matrix adalah studio visual generatif untuk menghasilkan aset gambar 3d, grafis vektor, dan mockup produk. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/orbit-matrix.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://orbitmatrix.dev"
+    },
+    {
+      "id": "ai-aura-assistant",
+      "name": "Aura Assistant",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Lightning Autocomplete Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Aura Assistant adalah mesin autocomplete kode berkecepatan tinggi dengan pemahaman konteks lintas berkas. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/aura-assistant.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://auraassistant.io"
+    },
     {
       "id": "ai-meta-pulse",
       "name": "Meta Pulse",
