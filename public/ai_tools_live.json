@@ -1,7 +1,25 @@
 {
-  "updatedAt": "04 Nov 2026, 17:27 WIB",
-  "total": 118,
+  "updatedAt": "04 Nov 2026, 17:33 WIB",
+  "total": 119,
   "items": [
+    {
+      "id": "ai-aurapulse",
+      "name": "AuraPulse",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "Lightning Autocomplete Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "AuraPulse adalah mesin autocomplete kode berkecepatan tinggi dengan pemahaman konteks lintas berkas. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/aurapulse.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://aurapulse.app"
+    },
     {
       "id": "ai-matrix-app",
       "name": "Matrix App",
