@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 00:53 WIB",
-  "total": 262,
+  "updatedAt": "05 Nov 2026, 00:59 WIB",
+  "total": 264,
   "items": [
+    {
+      "id": "ai-fluxsync",
+      "name": "FluxSync",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "Factual Search Grounding Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "FluxSync adalah search engine api khusus untuk agen ai dengan sitasi sumber faktual real-time. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/fluxsync.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://fluxsync.ai"
+    },
+    {
+      "id": "ai-tracedesigner-ai",
+      "name": "TraceDesigner AI",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Voice & Audio Synthesis Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "TraceDesigner AI adalah platform sintesis vokal dan aransemen musik instan berkualitas studio rekaman. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/tracedesigner-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://tracedesignerai.app"
+    },
     {
       "id": "ai-matrixvision",
       "name": "MatrixVision",
