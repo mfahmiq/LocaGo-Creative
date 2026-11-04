@@ -1,7 +1,25 @@
 {
-  "updatedAt": "04 Nov 2026, 17:33 WIB",
-  "total": 119,
+  "updatedAt": "04 Nov 2026, 17:34 WIB",
+  "total": 120,
   "items": [
+    {
+      "id": "ai-scriptscraper-ai",
+      "name": "ScriptScraper AI",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "LLM-Ready Web Scraper Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "ScriptScraper AI adalah api ekstraksi data web modern yang mengubah situs kompleks menjadi markdown ramah llm. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/scriptscraper-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://scriptscraperai.tech"
+    },
     {
       "id": "ai-aurapulse",
       "name": "AuraPulse",
