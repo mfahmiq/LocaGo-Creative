@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 04:36 WIB",
-  "total": 334,
+  "updatedAt": "05 Nov 2026, 04:42 WIB",
+  "total": 336,
   "items": [
+    {
+      "id": "ai-logic-audio",
+      "name": "Logic Audio",
+      "category": "Web & Scrapers",
+      "pricingType": "Free",
+      "tagline": "Smart Web Crawler Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Logic Audio adalah mesin perayap web cerdas dengan rotasi proxy otomatis dan bypass proteksi antibot. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/logic-audio.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://logicaudio.co"
+    },
+    {
+      "id": "ai-chronoapp",
+      "name": "ChronoApp",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Academic Research Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "ChronoApp adalah platform pencarian riset ilmiah dan ringkasan jurnal mendalam dengan rujukan sitasi asli. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/chronoapp.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://chronoapp.io"
+    },
     {
       "id": "ai-cortexstudio",
       "name": "CortexStudio",
