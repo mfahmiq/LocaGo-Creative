@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 20:31 WIB",
-  "total": 178,
+  "updatedAt": "04 Nov 2026, 20:37 WIB",
+  "total": 180,
   "items": [
+    {
+      "id": "ai-velohub",
+      "name": "VeloHub",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "AI Calendar Scheduler Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "VeloHub adalah asisten manajemen waktu dan kalender dinamis yang mengoptimalkan jadwal produktivitas. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/velohub.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://velohub.io"
+    },
+    {
+      "id": "ai-horizonvoice-ai",
+      "name": "HorizonVoice AI",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Cinematic Video Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "HorizonVoice AI adalah generator video sinematik dengan kontrol kamera dinamis dan konsistensi fisika nyata. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/horizonvoice-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://horizonvoiceai.io"
+    },
     {
       "id": "ai-pixel-search",
       "name": "Pixel Search",
