@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 03:40 WIB",
-  "total": 316,
+  "updatedAt": "05 Nov 2026, 03:46 WIB",
+  "total": 318,
   "items": [
+    {
+      "id": "ai-metascraper",
+      "name": "MetaScraper",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "IDE AI & CLI Code Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "MetaScraper adalah asisten pemrograman otonom yang mempercepat pengembangan aplikasi dan refactoring kode. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/metascraper.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://metascraper.dev"
+    },
+    {
+      "id": "ai-sonicgenerator",
+      "name": "SonicGenerator",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Smart Data Analyst Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "SonicGenerator adalah workspace analitik data cerdas untuk membedah spreadsheet dan membuat grafik interaktif. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/sonicgenerator.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://sonicgenerator.app"
+    },
     {
       "id": "ai-logicvision-ai",
       "name": "LogicVision AI",
