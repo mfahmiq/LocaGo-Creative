@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 20:12 WIB",
-  "total": 172,
+  "updatedAt": "04 Nov 2026, 20:18 WIB",
+  "total": 174,
   "items": [
+    {
+      "id": "ai-irisgraph-ai",
+      "name": "IrisGraph AI",
+      "category": "Web & Scrapers",
+      "pricingType": "Free",
+      "tagline": "Data Monitoring Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "IrisGraph AI adalah platform monitoring perubahan data web dan ekstraksi tabel berkala secara otomatis. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/irisgraph-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://irisgraphai.tech"
+    },
+    {
+      "id": "ai-script-logic",
+      "name": "Script Logic",
+      "category": "Agentic Automation",
+      "pricingType": "Paid",
+      "tagline": "Multi-Agent Orchestrator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Script Logic adalah framework orkestrasi multi-agen otonom untuk menyelesaikan tugas bisnis kompleks. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/script-logic.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://scriptlogic.app"
+    },
     {
       "id": "ai-sparknexus",
       "name": "SparkNexus",
