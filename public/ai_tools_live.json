@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 16:27 WIB",
-  "total": 98,
+  "updatedAt": "04 Nov 2026, 16:33 WIB",
+  "total": 100,
   "items": [
+    {
+      "id": "ai-groq-cloud",
+      "name": "Groq Cloud",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Inference Engine AI Tercepat di Dunia ditenagai Chip LPU (500+ Token per Detik)",
+      "description": "Penyedia infrastruktur inferensi revolusioner berbasis chip Language Processing Unit (LPU). Mampu menjalankan Llama 3 dan Mixtral dengan kecepatan lebih dari 500 token per detik.",
+      "features": [
+        "Kecepatan inferensi sub-detik (500+ tok/s)",
+        "Infrastruktur chip LPU mutakhir",
+        "Kompatibel penuh dengan SDK OpenAI",
+        "Free tier murah hati untuk developer"
+      ],
+      "logoUrl": "/logos/groq.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://groq.com"
+    },
+    {
+      "id": "ai-lm-studio",
+      "name": "LM Studio",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "Aplikasi Desktop GUI Elegan untuk Menjalankan dan Bereksperimen dengan LLM Lokal",
+      "description": "Aplikasi desktop visual yang memungkinkan pengguna mengunduh model GGUF dari Hugging Face, menguji prompt di antarmuka chat mewah, dan menjalankan local server API.",
+      "features": [
+        "Download model GGUF langsung dari Hugging Face",
+        "Tampilan chat multi-percakapan responsif",
+        "Server lokal OpenAI-compatible built-in",
+        "Konfigurasi parameter inferensi lengkap"
+      ],
+      "logoUrl": "/logos/lm-studio.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://lmstudio.ai"
+    },
     {
       "id": "ai-ollama",
       "name": "Ollama",
