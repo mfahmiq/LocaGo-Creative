@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 18:17 WIB",
-  "total": 135,
+  "updatedAt": "04 Nov 2026, 18:23 WIB",
+  "total": 137,
   "items": [
+    {
+      "id": "ai-velo-data",
+      "name": "Velo Data",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Viral Short-Form Editor Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Velo Data adalah editor video pendek otomatis dengan subtitle karaoke animasi dan deteksi hook viral. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/velo-data.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://velodata.ai"
+    },
+    {
+      "id": "ai-loom-designer",
+      "name": "Loom Designer",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Cinematic Video Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Loom Designer adalah generator video sinematik dengan kontrol kamera dinamis dan konsistensi fisika nyata. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/loom-designer.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://loomdesigner.dev"
+    },
     {
       "id": "ai-astralengine",
       "name": "AstralEngine",
