@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 19:25 WIB",
-  "total": 157,
+  "updatedAt": "04 Nov 2026, 19:32 WIB",
+  "total": 159,
   "items": [
+    {
+      "id": "ai-flow-craft",
+      "name": "Flow Craft",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Private Local AI Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Flow Craft adalah engine inferensi model lokal berkecepatan tinggi dengan perlindungan privasi data 100%. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/flow-craft.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://flowcraft.io"
+    },
+    {
+      "id": "ai-vaultmatrix",
+      "name": "VaultMatrix",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "tagline": "Code Quality & Security Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "VaultMatrix adalah platform inspeksi kualitas kode, deteksi bug otomatis, dan security auditing. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/vaultmatrix.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://vaultmatrix.ai"
+    },
     {
       "id": "ai-solisassistant",
       "name": "SolisAssistant",
