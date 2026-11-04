@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 01:30 WIB",
-  "total": 274,
+  "updatedAt": "05 Nov 2026, 01:36 WIB",
+  "total": 276,
   "items": [
+    {
+      "id": "ai-sentinellink-ai",
+      "name": "SentinelLink AI",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Multi-Agent Orchestrator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "SentinelLink AI adalah framework orkestrasi multi-agen otonom untuk menyelesaikan tugas bisnis kompleks. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/sentinellink-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://sentinellinkai.tech"
+    },
+    {
+      "id": "ai-loom-designer-v5",
+      "name": "Loom Designer v5",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "LLM-Ready Web Scraper Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Loom Designer v5 adalah api ekstraksi data web modern yang mengubah situs kompleks menjadi markdown ramah llm. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/loom-designer-v5.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://loomdesignerv5.app"
+    },
     {
       "id": "ai-modelhub-ai",
       "name": "ModelHub AI",
