@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 16:59 WIB",
-  "total": 109,
+  "updatedAt": "04 Nov 2026, 17:06 WIB",
+  "total": 111,
   "items": [
+    {
+      "id": "ai-apify",
+      "name": "Apify",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "Platform Cloud Scraping Web & Otomasi Data Terbesar dengan Ribuan Actor Siap Pakai",
+      "description": "Platform komputasi serverless untuk web scraping dan ekstraksi data skala raksasa. Menyediakan ribuan Actor siap pakai untuk scrape Instagram, Google Maps, TikTok, dan Amazon.",
+      "features": [
+        "Ribuan pre-built Actor web scrapers",
+        "Rotasi proxy residental otomatis anti-block",
+        "Integrasi webhook dan database cloud",
+        "Jadwal otomatisasi cron cloud"
+      ],
+      "logoUrl": "/logos/apify.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://apify.com"
+    },
+    {
+      "id": "ai-tavily-ai",
+      "name": "Tavily AI",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "Mesin Pencari Web yang Didesain Khusus untuk Agen AI dan Sistem RAG",
+      "description": "Search engine API khusus untuk model AI yang mengekstrak informasi faktual paling relevan, terverifikasi, dan bebas halusinasi dari web secara real-time.",
+      "features": [
+        "Hasil pencarian terstruktur ramah LLM",
+        "Penyaringan konten sampah dan duplikat",
+        "Skor relevansi dan sitasi sumber akurat",
+        "Diadopsi secara resmi oleh LangChain & CrewAI"
+      ],
+      "logoUrl": "/logos/tavily.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://tavily.com"
+    },
     {
       "id": "ai-jina-reader",
       "name": "Jina Reader",
