@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 06:03 WIB",
-  "total": 362,
+  "updatedAt": "05 Nov 2026, 06:09 WIB",
+  "total": 364,
   "items": [
+    {
+      "id": "ai-cyberapp-v4",
+      "name": "CyberApp v4",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Viral Short-Form Editor Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "CyberApp v4 adalah editor video pendek otomatis dengan subtitle karaoke animasi dan deteksi hook viral. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/cyberapp-v4.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://cyberappv4.dev"
+    },
+    {
+      "id": "ai-pulse-scraper",
+      "name": "Pulse Scraper",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "IDE AI & CLI Code Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Pulse Scraper adalah asisten pemrograman otonom yang mempercepat pengembangan aplikasi dan refactoring kode. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/pulse-scraper.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://pulsescraper.co"
+    },
     {
       "id": "ai-gridvector",
       "name": "GridVector",
