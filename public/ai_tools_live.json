@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 05:01 WIB",
-  "total": 342,
+  "updatedAt": "05 Nov 2026, 05:07 WIB",
+  "total": 344,
   "items": [
+    {
+      "id": "ai-meta-engine",
+      "name": "Meta Engine",
+      "category": "Web & Scrapers",
+      "pricingType": "Free",
+      "tagline": "Data Monitoring Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Meta Engine adalah platform monitoring perubahan data web dan ekstraksi tabel berkala secara otomatis. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/meta-engine.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://metaengine.tech"
+    },
+    {
+      "id": "ai-novaworkspace-ai",
+      "name": "NovaWorkspace AI",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Generative Visual Studio Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "NovaWorkspace AI adalah studio visual generatif untuk menghasilkan aset gambar 3d, grafis vektor, dan mockup produk. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/novaworkspace-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://novaworkspaceai.app"
+    },
     {
       "id": "ai-stratosscraper-ai",
       "name": "StratosScraper AI",
