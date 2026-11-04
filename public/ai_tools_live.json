@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 17:18 WIB",
-  "total": 115,
+  "updatedAt": "04 Nov 2026, 17:24 WIB",
+  "total": 117,
   "items": [
+    {
+      "id": "ai-pulsedirector",
+      "name": "PulseDirector",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Autonomous SaaS Integrator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "PulseDirector adalah asisten otomatisasi alur kerja saas yang mengintegrasikan ratusan api pihak ketiga. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/pulsedirector.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://pulsedirector.app"
+    },
+    {
+      "id": "ai-pulseforge-ai",
+      "name": "PulseForge AI",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "Fullstack App Generator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "PulseForge AI adalah generator arsitektur fullstack otomatis berbasis prompt bahasa alami. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/pulseforge-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://pulseforgeai.app"
+    },
     {
       "id": "ai-superhuman-ai",
       "name": "Superhuman AI",
@@ -537,7 +573,7 @@
         "Ringkasan ringkas dan daftar to-do tindak lanjut",
         "Pencarian rekaman audio berbasis kata kunci teks"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/otterai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://otter.ai/?via=locagocreative"
@@ -555,7 +591,7 @@
         "Format kartu fleksibel yang tidak kaku seperti slide lama",
         "Dukungan ekspor ke format PDF dan PowerPoint (.pptx)"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/gamma-app.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://gamma.app/?via=locagocreative"
@@ -573,7 +609,7 @@
         "Dukungan upload PDF, Google Docs, URL website, dan YouTube",
         "Tersedia 100% gratis dari Google Labs"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/notebooklm.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://notebooklm.google.com"
@@ -591,7 +627,7 @@
         "Dukungan potongan kode TypeScript di setiap langkah alur kerja",
         "Bebas self-host tanpa batasan kuota eksekusi"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/activepieces.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://www.activepieces.com"
@@ -609,7 +645,7 @@
         "Pilihan model AI frontier terkini dalam setiap node",
         "Template siap pakai untuk riset kompetitor dan SEO audit"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/gumloop.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://www.gumloop.com/?via=locagocreative"
@@ -627,7 +663,7 @@
         "Kemampuan mengambil keputusan berurutan (multi-step reasoning)",
         "Monitoring log aktivitas agen secara transparan"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/lindy-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://www.lindy.ai/?via=locagocreative"
@@ -645,7 +681,7 @@
         "Dukungan penulisan kode JavaScript/Python kustom di node",
         "Integrasi 400+ aplikasi dan API pihak ketiga"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/n8n.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://n8n.io"
@@ -663,7 +699,7 @@
         "Ekstensi browser untuk menulis di Google Docs & Gmail",
         "Keamanan data enterprise tanpa pelatihan model pada data Anda"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/jasper-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://www.jasper.ai/?via=locagocreative"
@@ -699,7 +735,7 @@
         "Pembuat icon pack 3D dan flat yang seragam",
         "Peringkat #1 di Artificial Analysis Image Benchmark"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/recraft-v3.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://www.recraft.ai/?via=locagocreative"
@@ -717,7 +753,7 @@
         "Gaya desain grafis, ilustrasi vektor, dan fotorealisme",
         "Fitur Magic Prompt untuk menyempurnakan ide mentah"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/ideogram-20.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://ideogram.ai/?via=locagocreative"
@@ -735,7 +771,7 @@
         "Tersedia varian Schnell (cepat), Dev (non-komersial), dan Pro (enterprise)",
         "Bisa dijalankan di GPU lokal via ComfyUI"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/flux1.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://blackforestlabs.ai"
@@ -771,7 +807,7 @@
         "Transkrip dan ringkasan to-do list rapat instan",
         "Berjalan lokal dengan konsumsi CPU rendah"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/krisp.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://krisp.ai/?via=locagocreative"
@@ -789,7 +825,7 @@
         "Ekspansi intro, outro, dan solo gitar fleksibel",
         "Kualitas mastering audio 48kHz stereo"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/udio-15.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://www.udio.com/?via=locagocreative"
@@ -825,7 +861,7 @@
         "Stabilisasi guncangan kamera tingkat lanjut",
         "De-interlacing dan restorasi video jadul"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/topaz-video-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://www.topazlabs.com/topaz-video-ai?via=locagocreative"
@@ -843,7 +879,7 @@
         "Magic B-rolls dari perpustakaan stok video premium",
         "Auto zoom-in dan zoom-out dinamis"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/submagic.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://www.submagic.co/?via=locagocreative"
@@ -861,7 +897,7 @@
         "Template teks dan font yang dapat disesuaikan",
         "Dukungan lebih dari 52 bahasa"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/klap.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://klap.app/?via=locagocreative"
@@ -879,7 +915,7 @@
         "Model fisika rigging karakter berbasis JST-1",
         "Dukungan Discord bot dan antarmuka web"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/viggle-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://viggle.ai/?via=locagocreative"
@@ -897,7 +933,7 @@
         "Ekspansi rasio kanvas (outpainting video)",
         "Sinkronisasi bibir dan audio bawaan"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/pika-20.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://pika.art/?via=locagocreative"
@@ -915,7 +951,7 @@
         "Rendering pencahayaan volumetrik dramatis",
         "Tersedia gratis untuk uji coba pengguna"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/hailuo-ai-(minimax).png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://hailuoai.com/video"
@@ -951,7 +987,7 @@
         "Integrasi lintas IDE (VS Code, JetBrains, Obsidian, Chrome)",
         "100% aman untuk kode confidential"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/pieces-for-developers.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://pieces.app/?via=locagocreative"
@@ -969,7 +1005,7 @@
         "Mendukung lebih dari 300 bahasa pemrograman",
         "Bebas di-host mandiri via Ollama atau vLLM"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/deepseek-coder-v2.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://www.deepseek.com"
@@ -987,7 +1023,7 @@
         "Deteksi dan perbaikan bug otomatis saat instalasi package",
         "Penyimpanan struktur proyek modular"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/pythagora.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://pythagora.ai/?via=locagocreative"
@@ -1005,7 +1041,7 @@
         "Ekstensi untuk VS Code dan JetBrains",
         "Review PR GitHub otomatis"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/qodo.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://www.qodo.ai/?via=locagocreative"
@@ -1023,7 +1059,7 @@
         "Dukungan multi-model (Claude, OpenAI, DeepSeek, Ollama)",
         "Pemetaan repositori cerdas berbasis AST"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/aider.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://aider.chat"
@@ -1041,7 +1077,7 @@
         "Pratinjau visual interaktif real-time",
         "Ekspor langsung ke GitHub"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/lovable.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://lovable.dev/?via=locagocreative"
@@ -1059,7 +1095,7 @@
         "Kemampuan mengeksekusi command dan tes otomatis",
         "Ditenagai model frontier Claude 3.5 Sonnet"
       ],
-      "logoUrl": null,
+      "logoUrl": "/logos/claude-code.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://anthropic.com/claude-code"
