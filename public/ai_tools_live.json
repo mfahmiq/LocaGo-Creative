@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 23:38 WIB",
-  "total": 238,
+  "updatedAt": "04 Nov 2026, 23:44 WIB",
+  "total": 240,
   "items": [
+    {
+      "id": "ai-aura-generator",
+      "name": "Aura Generator",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "Code Quality & Security Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Aura Generator adalah platform inspeksi kualitas kode, deteksi bug otomatis, dan security auditing. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/aura-generator.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://auragenerator.tech"
+    },
+    {
+      "id": "ai-hyperscraper",
+      "name": "HyperScraper",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Academic Research Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "HyperScraper adalah platform pencarian riset ilmiah dan ringkasan jurnal mendalam dengan rujukan sitasi asli. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/hyperscraper.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://hyperscraper.dev"
+    },
     {
       "id": "ai-titan-nexus",
       "name": "Titan Nexus",
