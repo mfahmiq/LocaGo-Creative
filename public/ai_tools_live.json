@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 02:48 WIB",
-  "total": 36,
+  "updatedAt": "04 Nov 2026, 02:54 WIB",
+  "total": 38,
   "items": [
+    {
+      "id": "ai-magnific-ai",
+      "name": "Magnific AI",
+      "category": "Video & Graphics",
+      "pricingType": "Paid",
+      "tagline": "Upscaler & Enhancer Gambar Paling Detail dengan Fitur Hallucination Control",
+      "description": "Software peningkatan resolusi gambar revolusioner yang tidak hanya memperbesar piksel, melainkan mereka ulang pori-pori kulit, serat kain, dan refleksi cahaya mikro dengan detail ultra-tajam.",
+      "features": [
+        "Slider Creativity & Hallucination fleksibel",
+        "Upscaling hingga resolusi 10K untuk keperluan billboard",
+        "Sangat efektif untuk memperbaiki gambar AI yang buram",
+        "Engine Relight untuk mengubah sudut pencahayaan objek"
+      ],
+      "logoUrl": "/logos/magnific-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://magnific.ai/"
+    },
+    {
+      "id": "ai-krea-ai",
+      "name": "Krea AI",
+      "category": "Video & Graphics",
+      "pricingType": "Freemium",
+      "tagline": "Kanvas Realtime Generation Generatif yang Mengikuti Sketsa Tangan Anda",
+      "description": "Alat lukis AI interaktif di mana goresan kuas atau bentuk geometris kasar di sisi kiri kanvas langsung diinterpretasikan menjadi lukisan realistis di sisi kanan tanpa jeda waktu.",
+      "features": [
+        "Generasi visual realtime 60 fps tanpa delay",
+        "AI Video Generation berbasis timeline",
+        "Image Enhancement & Upscale super tajam",
+        "Integrasi webcam dan screen capture input"
+      ],
+      "logoUrl": "/logos/kreaai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.krea.ai/"
+    },
     {
       "id": "ai-recraft-ai",
       "name": "Recraft AI",
