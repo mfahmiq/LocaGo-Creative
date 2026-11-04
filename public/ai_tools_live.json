@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 03:31 WIB",
-  "total": 50,
+  "updatedAt": "04 Nov 2026, 03:37 WIB",
+  "total": 52,
   "items": [
+    {
+      "id": "ai-surfer-seo",
+      "name": "Surfer SEO",
+      "category": "AI Writing & SEO",
+      "pricingType": "Paid",
+      "tagline": "Analisis Algoritma On-Page SEO untuk Memastikan Artikel Rangking #1 Google",
+      "description": "Alat bantu penulisan konten SEO berbasis perbandingan matematika terhadap 50 artikel teratas di Google. Menghitung kepadatan kata kunci, jumlah heading, dan struktur gambar optimal.",
+      "features": [
+        "Content Score real-time saat Anda mengetik naskah",
+        "Audit artikel lama untuk mendeteksi kata kunci yang kurang",
+        "Integrasi langsung dengan Google Docs dan WordPress",
+        "Pencari topik cluster berpotensi traffic organik tinggi"
+      ],
+      "logoUrl": "/logos/surfer.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://surferseo.com/?via=locagocreative"
+    },
+    {
+      "id": "ai-zapier-central",
+      "name": "Zapier Central",
+      "category": "Automation & No-Code",
+      "pricingType": "Freemium",
+      "tagline": "Agen AI Mandiri yang Dilatih Mengoperasikan 6.000+ Aplikasi Bisnis Anda",
+      "description": "Ekosistem bot otonom dari Zapier di mana agen AI tidak hanya merespon teks, namun dapat mengambil keputusan untuk membuat baris database, mengirim pesan Slack, dan mengupdate deal CRM.",
+      "features": [
+        "Akses ke 6.000+ integrasi ekosistem Zapier",
+        "Pelatihan agen dengan data dokumen dan spreadsheet bisnis",
+        "Pemicu aksi otomatis berdasarkan waktu atau event data",
+        "Histori audit eksekusi aksi agen yang transparan"
+      ],
+      "logoUrl": "/logos/zapier-central.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://zapier.com/central?via=locagocreative"
+    },
     {
       "id": "ai-activecampaign-ai",
       "name": "ActiveCampaign AI",
