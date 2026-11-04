@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 03:03 WIB",
-  "total": 304,
+  "updatedAt": "05 Nov 2026, 03:09 WIB",
+  "total": 306,
   "items": [
+    {
+      "id": "ai-sparkaudio-ai",
+      "name": "SparkAudio AI",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Cinematic Video Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "SparkAudio AI adalah generator video sinematik dengan kontrol kamera dinamis dan konsistensi fisika nyata. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/sparkaudio-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://sparkaudioai.dev"
+    },
+    {
+      "id": "ai-zephyr-pilot",
+      "name": "Zephyr Pilot",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Voice & Audio Synthesis Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Zephyr Pilot adalah platform sintesis vokal dan aransemen musik instan berkualitas studio rekaman. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/zephyr-pilot.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://zephyrpilot.ai"
+    },
     {
       "id": "ai-echo-pulse",
       "name": "Echo Pulse",
