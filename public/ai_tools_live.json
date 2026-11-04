@@ -1,7 +1,25 @@
 {
-  "updatedAt": "04 Nov 2026, 17:55 WIB",
-  "total": 127,
+  "updatedAt": "04 Nov 2026, 17:56 WIB",
+  "total": 128,
   "items": [
+    {
+      "id": "ai-cyberpilot",
+      "name": "CyberPilot",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "Code Quality & Security Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "CyberPilot adalah platform inspeksi kualitas kode, deteksi bug otomatis, dan security auditing. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/cyberpilot.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://cyberpilot.io"
+    },
     {
       "id": "ai-sonicpilot-ai",
       "name": "SonicPilot AI",
