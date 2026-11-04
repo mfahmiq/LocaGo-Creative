@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 17:58 WIB",
-  "total": 129,
+  "updatedAt": "04 Nov 2026, 18:05 WIB",
+  "total": 131,
   "items": [
+    {
+      "id": "ai-tensorvoice",
+      "name": "TensorVoice",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Viral Short-Form Editor Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "TensorVoice adalah editor video pendek otomatis dengan subtitle karaoke animasi dan deteksi hook viral. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/tensorvoice.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://tensorvoice.tech"
+    },
+    {
+      "id": "ai-lyricvision",
+      "name": "LyricVision",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Voice & Audio Synthesis Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "LyricVision adalah platform sintesis vokal dan aransemen musik instan berkualitas studio rekaman. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/lyricvision.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://lyricvision.co"
+    },
     {
       "id": "ai-dynamolink",
       "name": "DynamoLink",
