@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 11:40 WIB",
-  "total": 63,
+  "updatedAt": "04 Nov 2026, 11:46 WIB",
+  "total": 65,
   "items": [
+    {
+      "id": "ai-hailuo-ai-(minimax)",
+      "name": "Hailuo AI (MiniMax)",
+      "category": "Video & Graphics",
+      "pricingType": "Free",
+      "tagline": "Generator Gerakan Manusia & Video Aksi Paling Halus Tanpa Distorsi",
+      "description": "Model video AI dari MiniMax yang terkenal dengan kemampuannya merender pergerakan tubuh manusia, ekspresi wajah dinamis, dan adegan laga tanpa efek glitch atau karet.",
+      "features": [
+        "Gerakan anatomi manusia alami tanpa distorsi",
+        "Render pakaian dan rambut mengalir realistis",
+        "Rendering pencahayaan volumetrik dramatis",
+        "Tersedia gratis untuk uji coba pengguna"
+      ],
+      "logoUrl": null,
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://hailuoai.com/video"
+    },
+    {
+      "id": "ai-runway-gen-3-alpha",
+      "name": "Runway Gen-3 Alpha",
+      "category": "Video & Graphics",
+      "pricingType": "Paid",
+      "tagline": "Standar Industri Produksi Efek Visual & Video AI Sinematik Hollywood",
+      "description": "Platform generasi video kelas profesional yang digunakan oleh studio film dunia untuk menciptakan visual effect, kontrol gerak kamera presisi, dan transisi tingkat tinggi.",
+      "features": [
+        "Motion Brush untuk menggerakkan bagian spesifik gambar",
+        "Kontrol sudut kamera direktur profesional",
+        "Generasi ekspresi emosi manusia yang meyakinkan",
+        "Kualitas render fotorealistik hingga 4K"
+      ],
+      "logoUrl": "/logos/runway.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://runwayml.com/?via=locagocreative"
+    },
     {
       "id": "ai-pieces-for-developers",
       "name": "Pieces for Developers",
