@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 06:09 WIB",
-  "total": 364,
+  "updatedAt": "05 Nov 2026, 06:15 WIB",
+  "total": 366,
   "items": [
+    {
+      "id": "ai-echo-nexus",
+      "name": "Echo Nexus",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Smart Data Analyst Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Echo Nexus adalah workspace analitik data cerdas untuk membedah spreadsheet dan membuat grafik interaktif. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/echo-nexus.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://echonexus.ai"
+    },
+    {
+      "id": "ai-aetherdata",
+      "name": "AetherData",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Team Knowledge Vault Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "AetherData adalah sistem manajemen pengetahuan tim yang merangkum rapat dan dokumen kerja otomatis. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/aetherdata.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://aetherdata.app"
+    },
     {
       "id": "ai-cyberapp-v4",
       "name": "CyberApp v4",
