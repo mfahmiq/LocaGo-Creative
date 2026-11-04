@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 19:19 WIB",
-  "total": 155,
+  "updatedAt": "04 Nov 2026, 19:25 WIB",
+  "total": 157,
   "items": [
+    {
+      "id": "ai-solisassistant",
+      "name": "SolisAssistant",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Lightning Autocomplete Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "SolisAssistant adalah mesin autocomplete kode berkecepatan tinggi dengan pemahaman konteks lintas berkas. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/solisassistant.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://solisassistant.dev"
+    },
+    {
+      "id": "ai-cyber-io",
+      "name": "Cyber IO",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Viral Short-Form Editor Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Cyber IO adalah editor video pendek otomatis dengan subtitle karaoke animasi dan deteksi hook viral. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/cyber-io.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://cyberio.ai"
+    },
     {
       "id": "ai-deep-logic",
       "name": "Deep Logic",
