@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 00:34 WIB",
-  "total": 256,
+  "updatedAt": "05 Nov 2026, 00:40 WIB",
+  "total": 258,
   "items": [
+    {
+      "id": "ai-quillpipeline",
+      "name": "QuillPipeline",
+      "category": "Web & Scrapers",
+      "pricingType": "Free",
+      "tagline": "Smart Web Crawler Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "QuillPipeline adalah mesin perayap web cerdas dengan rotasi proxy otomatis dan bypass proteksi antibot. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/quillpipeline.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://quillpipeline.io"
+    },
+    {
+      "id": "ai-echovision",
+      "name": "EchoVision",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Viral Short-Form Editor Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "EchoVision adalah editor video pendek otomatis dengan subtitle karaoke animasi dan deteksi hook viral. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/echovision.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://echovision.dev"
+    },
     {
       "id": "ai-vaultplatform-ai",
       "name": "VaultPlatform AI",
