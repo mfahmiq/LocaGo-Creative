@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 06:28 WIB",
-  "total": 370,
+  "updatedAt": "05 Nov 2026, 06:34 WIB",
+  "total": 372,
   "items": [
+    {
+      "id": "ai-graph-brain",
+      "name": "Graph Brain",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "Data Monitoring Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Graph Brain adalah platform monitoring perubahan data web dan ekstraksi tabel berkala secara otomatis. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/graph-brain.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://graphbrain.io"
+    },
+    {
+      "id": "ai-pulsesystems-ai",
+      "name": "PulseSystems AI",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Cinematic Video Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "PulseSystems AI adalah generator video sinematik dengan kontrol kamera dinamis dan konsistensi fisika nyata. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/pulsesystems-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://pulsesystemsai.tech"
+    },
     {
       "id": "ai-pulse-copilot",
       "name": "Pulse CoPilot",
