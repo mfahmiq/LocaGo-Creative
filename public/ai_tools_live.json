@@ -1,7 +1,25 @@
 {
-  "updatedAt": "04 Nov 2026, 02:42 WIB",
-  "total": 34,
+  "updatedAt": "04 Nov 2026, 02:45 WIB",
+  "total": 35,
   "items": [
+    {
+      "id": "ai-leonardo-ai",
+      "name": "Leonardo AI",
+      "category": "Video & Graphics",
+      "pricingType": "Freemium",
+      "tagline": "Platform Desain Aset Game, Konsep Karakter & Ilustrasi Visual Pro",
+      "description": "Suite penciptaan aset grafis untuk studio game dan desainer grafis. Menyediakan fine-tuned models untuk gaya anime, fotografi studio, konsep 3D isometric, dan texture mapping.",
+      "features": [
+        "150 token generasi gratis harian",
+        "Fitur Canvas Editor inpainting dan outpainting presisi",
+        "Realtime Generation saat mengetik prompt",
+        "Universal Upscaler untuk resolusi cetak 4K"
+      ],
+      "logoUrl": "/logos/leonardoai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://leonardo.ai/?via=locagocreative"
+    },
     {
       "id": "ai-pika-labs",
       "name": "Pika Labs",
