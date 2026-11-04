@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 15:56 WIB",
-  "total": 88,
+  "updatedAt": "04 Nov 2026, 16:02 WIB",
+  "total": 90,
   "items": [
+    {
+      "id": "ai-openhands",
+      "name": "OpenHands",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "tagline": "Platform Agen Software Engineering Open-Source Pengganti Devin AI",
+      "description": "Platform agen otonom open-source (sebelumnya OpenDevin) yang mampu merencanakan fitur, memodifikasi berkas kode, mengeksekusi bash command di Docker, dan membuat PR.",
+      "features": [
+        "100% open-source & self-hostable",
+        "Eksekusi kode aman dalam kontainer Docker",
+        "Integrasi langsung dengan GitHub Issues",
+        "Mendukung LLM frontier lokal dan cloud"
+      ],
+      "logoUrl": "/logos/openhands.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://github.com/All-Hands-AI/OpenHands"
+    },
+    {
+      "id": "ai-warp-terminal",
+      "name": "Warp Terminal",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Terminal Modern Berbasis Rust dengan AI Command Search dan Kolaborasi Tim",
+      "description": "Terminal modern super cepat yang ditulis dengan Rust. Mengintegrasikan pencarian AI untuk sintaks shell rumit, blok eksekusi interaktif, dan notebook panduan tim.",
+      "features": [
+        "Pencarian sintaks CLI via natural language",
+        "Terminal blocks interaktif",
+        "Warp Drive untuk share workflow tim",
+        "Performa native berbasis Rust & GPU rendering"
+      ],
+      "logoUrl": "/logos/warp-terminal.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://warp.dev"
+    },
     {
       "id": "ai-amazon-q-developer",
       "name": "Amazon Q Developer",
