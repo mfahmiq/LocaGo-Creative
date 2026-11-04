@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 16:33 WIB",
-  "total": 100,
+  "updatedAt": "04 Nov 2026, 16:39 WIB",
+  "total": 102,
   "items": [
+    {
+      "id": "ai-llamaindex",
+      "name": "LlamaIndex",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "Framework Data Ingestion & Retrieval Terdepan untuk Aplikasi RAG dan Knowledge Agent",
+      "description": "Framework data engine terdepan yang menghubungkan sumber data privat (PDF, SQL, Notion, Slack) ke LLM dengan teknik indexing cerdas, query engine, dan retrieval canggih.",
+      "features": [
+        "Parser data terstruktur dan semi-terstruktur",
+        "Advanced indexing (vector, keyword, tree)",
+        "Evaluasi pipeline RAG komprehensif",
+        "LlamaHub dengan ratusan data connectors"
+      ],
+      "logoUrl": "/logos/llamaindex.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://llamaindex.ai"
+    },
+    {
+      "id": "ai-langchain",
+      "name": "LangChain",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "Framework Standar Industri Terpopuler Dunia untuk Membangun Aplikasi Bertenaga LLM",
+      "description": "Ekosistem framework open-source komprehensif yang menyediakan abstraksi chains, agents, memory, dan retrieval untuk menghubungkan model AI dengan data eksternal.",
+      "features": [
+        "Ratusan integrasi LLM dan tools",
+        "LangGraph untuk stateful multi-agent",
+        "Abstraksi LCEL (LangChain Expression Language)",
+        "Ekosistem monitoring LangSmith"
+      ],
+      "logoUrl": "/logos/langchain.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://langchain.com"
+    },
     {
       "id": "ai-groq-cloud",
       "name": "Groq Cloud",
