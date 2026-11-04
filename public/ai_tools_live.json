@@ -1,7 +1,25 @@
 {
-  "updatedAt": "04 Nov 2026, 15:55 WIB",
-  "total": 87,
+  "updatedAt": "04 Nov 2026, 15:56 WIB",
+  "total": 88,
   "items": [
+    {
+      "id": "ai-amazon-q-developer",
+      "name": "Amazon Q Developer",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Asisten AI AWS Terpadu untuk Modernisasi Kode, Arsitektur Cloud, dan Keamanan",
+      "description": "Asisten AI generatif dari AWS yang membantu mempercepat pengembangan aplikasi, melakukan upgrade Java/Python versi lama secara otomatis, dan mendesain arsitektur cloud AWS.",
+      "features": [
+        "Transformasi kode legacy otomatis",
+        "Pemeriksaan kerentanan keamanan real-time",
+        "Optimasi biaya dan arsitektur resource AWS",
+        "Dukungan integrasi CLI dan IDE"
+      ],
+      "logoUrl": "/logos/amazon-q.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://aws.amazon.com/q/developer"
+    },
     {
       "id": "ai-github-copilot",
       "name": "GitHub Copilot",
