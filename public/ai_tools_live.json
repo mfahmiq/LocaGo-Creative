@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 20:43 WIB",
-  "total": 182,
+  "updatedAt": "04 Nov 2026, 20:50 WIB",
+  "total": 184,
   "items": [
+    {
+      "id": "ai-streamlab-ai",
+      "name": "StreamLab AI",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "Data Monitoring Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "StreamLab AI adalah platform monitoring perubahan data web dan ekstraksi tabel berkala secara otomatis. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/streamlab-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://streamlabai.tech"
+    },
+    {
+      "id": "ai-matrixmind",
+      "name": "MatrixMind",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "Smart Web Crawler Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "MatrixMind adalah mesin perayap web cerdas dengan rotasi proxy otomatis dan bypass proteksi antibot. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/matrixmind.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://matrixmind.io"
+    },
     {
       "id": "ai-pilotmatrix",
       "name": "PilotMatrix",
