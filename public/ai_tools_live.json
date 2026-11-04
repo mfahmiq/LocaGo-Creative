@@ -1,7 +1,43 @@
 {
-  "updatedAt": "04 Nov 2026, 18:54 WIB",
-  "total": 147,
+  "updatedAt": "04 Nov 2026, 19:01 WIB",
+  "total": 149,
   "items": [
+    {
+      "id": "ai-cogni-ai",
+      "name": "Cogni AI",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Academic Research Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Cogni AI adalah platform pencarian riset ilmiah dan ringkasan jurnal mendalam dengan rujukan sitasi asli. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/cogni-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://cogniai.tech"
+    },
+    {
+      "id": "ai-flow-copilot",
+      "name": "Flow CoPilot",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Voice & Audio Synthesis Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Flow CoPilot adalah platform sintesis vokal dan aransemen musik instan berkualitas studio rekaman. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/flow-copilot.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://flowcopilot.app"
+    },
     {
       "id": "ai-vertex-generator",
       "name": "Vertex Generator",
