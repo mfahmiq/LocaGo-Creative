@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 07:05 WIB",
-  "total": 382,
+  "updatedAt": "05 Nov 2026, 07:11 WIB",
+  "total": 384,
   "items": [
+    {
+      "id": "ai-matrix-director",
+      "name": "Matrix Director",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "Lightning Autocomplete Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Matrix Director adalah mesin autocomplete kode berkecepatan tinggi dengan pemahaman konteks lintas berkas. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/matrix-director.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://matrixdirector.co"
+    },
+    {
+      "id": "ai-dynamo-pipeline",
+      "name": "Dynamo Pipeline",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "Factual Search Grounding Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Dynamo Pipeline adalah search engine api khusus untuk agen ai dengan sitasi sumber faktual real-time. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/dynamo-pipeline.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://dynamopipeline.ai"
+    },
     {
       "id": "ai-synapsepulse",
       "name": "SynapsePulse",
