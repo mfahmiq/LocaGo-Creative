@@ -1,406 +1,406 @@
 {
-  "updatedAt": "05 Nov 2026, 08:09 WIB",
-  "total": 25,
+  "updatedAt": "05 Nov 2026, 13:42 WIB",
+  "total": 16,
   "items": [
     {
-      "repo": "Gathin23/cleanyourtv",
-      "name": "cleanyourtv",
-      "oneSentencePitch": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-      "language": "Python",
-      "starsToday": 2890,
-      "totalStars": "52.0k",
-      "category": "Dev Tools & Automation",
-      "topics": [
-        "Breakout Star",
-        "Python",
-        "Dev Tools & Automation"
-      ],
-      "id": "gh-live-1",
-      "rank": 1
-    },
-    {
-      "repo": "vercel-labs/agent-desktop",
-      "name": "agent-desktop",
-      "oneSentencePitch": "Trending open-source repository on GitHub today.",
-      "language": "Rust",
-      "starsToday": 2470,
-      "totalStars": "15,123",
-      "category": "AI Agents & LLM",
-      "topics": [
-        "Trending Today",
-        "Rust",
-        "AI Agents & LLM"
-      ],
-      "id": "gh-live-2",
-      "rank": 2
-    },
-    {
-      "repo": "NVIDIA/auto-ontology",
+      "id": "gh-nvidia-auto-ontology",
       "name": "auto-ontology",
-      "oneSentencePitch": "Trending open-source repository on GitHub today.",
+      "owner": "NVIDIA",
+      "repo": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "category": "AI Agents & LLM",
       "language": "Python",
+      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "oneSentencePitch": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "rank": 1,
+      "totalStars": "5.7k",
       "starsToday": 2050,
-      "totalStars": "5,033",
-      "category": "Dev Tools & Automation",
+      "starsGrowthText": "+2,050 stars today",
+      "growthRate": "+2050 stars hari ini",
       "topics": [
-        "Trending Today",
-        "Python",
-        "Dev Tools & Automation"
+        "ai",
+        "python"
       ],
-      "id": "gh-live-3",
-      "rank": 3
+      "features": [
+        "Trending resmi #1 di GitHub Trending Today",
+        "Pertumbuhan pesat: +2,050 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
     },
     {
-      "repo": "JiaFeiMiao-K-Cat/DiscImageStudio",
-      "name": "DiscImageStudio",
-      "oneSentencePitch": "Trending open-source repository on GitHub today.",
-      "language": "C#",
-      "starsToday": 1778,
-      "totalStars": "6,618",
-      "category": "Productivity & Media",
-      "topics": [
-        "Trending Today",
-        "C#",
-        "Productivity & Media"
-      ],
-      "id": "gh-live-4",
-      "rank": 4
-    },
-    {
-      "repo": "deepseek-ai/DeepInfer",
-      "name": "DeepInfer",
-      "oneSentencePitch": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-      "language": "Python",
-      "starsToday": 1410,
-      "totalStars": "25.4k",
-      "category": "AI Agents & LLM",
-      "topics": [
-        "Breakout Star",
-        "Python",
-        "AI Agents & LLM"
-      ],
-      "id": "gh-live-5",
-      "rank": 5
-    },
-    {
-      "repo": "deepseek-ai/dsh-superagent-prototype",
-      "name": "dsh-superagent-prototype",
-      "oneSentencePitch": "Towards a More Autonomous Agent System",
-      "language": "TypeScript",
-      "starsToday": 1032,
-      "totalStars": "18.6k",
-      "category": "AI Agents & LLM",
-      "topics": [
-        "Breakout Star",
-        "TypeScript",
-        "AI Agents & LLM"
-      ],
-      "id": "gh-live-6",
-      "rank": 6
-    },
-    {
-      "repo": "Zagitta/gpu-unlock",
-      "name": "gpu-unlock",
-      "oneSentencePitch": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2\u00d7 FP16 / BF16 / TF32 tensor throughput",
-      "language": "C",
-      "starsToday": 924,
-      "totalStars": "16.6k",
-      "category": "AI Agents & LLM",
-      "topics": [
-        "Breakout Star",
-        "C",
-        "AI Agents & LLM"
-      ],
-      "id": "gh-live-7",
-      "rank": 7
-    },
-    {
-      "repo": "github/spec-kit",
-      "name": "spec-kit",
-      "oneSentencePitch": "Trending open-source repository on GitHub today.",
-      "language": "Python",
-      "starsToday": 808,
-      "totalStars": "147,310",
-      "category": "Dev Tools & Automation",
-      "topics": [
-        "Trending Today",
-        "Python",
-        "Dev Tools & Automation"
-      ],
-      "id": "gh-live-8",
-      "rank": 8
-    },
-    {
-      "repo": "storytold/craft-anything",
-      "name": "craft-anything",
-      "oneSentencePitch": "Craft Anything: understand how any software works, and craft your own.",
-      "language": "Rust",
-      "starsToday": 656,
-      "totalStars": "11.8k",
-      "category": "Dev Tools & Automation",
-      "topics": [
-        "Breakout Star",
-        "Rust",
-        "Dev Tools & Automation"
-      ],
-      "id": "gh-live-9",
-      "rank": 9
-    },
-    {
-      "repo": "harry0703/MoneyPrinterTurbo",
-      "name": "MoneyPrinterTurbo",
-      "oneSentencePitch": "Trending open-source repository on GitHub today.",
-      "language": "Python",
-      "starsToday": 617,
-      "totalStars": "138,975",
-      "category": "Dev Tools & Automation",
-      "topics": [
-        "Trending Today",
-        "Python",
-        "Dev Tools & Automation"
-      ],
-      "id": "gh-live-10",
-      "rank": 10
-    },
-    {
-      "repo": "pengchujin/aerial-tv",
-      "name": "aerial-tv",
-      "oneSentencePitch": "\u7ed9\u56fd\u4ea7\u7535\u89c6\u7684\u4e00\u5757\u5e72\u51c0\u684c\u9762\uff1a\u53c2\u7167 tvOS \u8bbe\u8ba1\u7684\u5f00\u6e90 Android TV \u684c\u9762\uff0c\u6ca1\u6709\u5e7f\u544a\uff0c\u5f00\u673a\u81ea\u52a8\u63a5\u7ba1\u3002A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
-      "language": "General",
-      "starsToday": 534,
-      "totalStars": "9.6k",
-      "category": "Dev Tools & Automation",
-      "topics": [
-        "Breakout Star",
-        "General",
-        "Dev Tools & Automation"
-      ],
-      "id": "gh-live-11",
-      "rank": 11
-    },
-    {
-      "repo": "max-sixty/worktrunk",
+      "id": "gh-max-sixty-worktrunk",
       "name": "worktrunk",
-      "oneSentencePitch": "Trending open-source repository on GitHub today.",
+      "owner": "max-sixty",
+      "repo": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "category": "AI Agents & LLM",
       "language": "Rust",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "oneSentencePitch": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "rank": 2,
+      "totalStars": "11.2k",
       "starsToday": 531,
-      "totalStars": "11,044",
+      "starsGrowthText": "+531 stars today",
+      "growthRate": "+531 stars hari ini",
+      "topics": [
+        "ai",
+        "rust"
+      ],
+      "features": [
+        "Trending resmi #2 di GitHub Trending Today",
+        "Pertumbuhan pesat: +531 stars today",
+        "Ditulis menggunakan bahasa Rust"
+      ]
+    },
+    {
+      "id": "gh-mattpocock-skills",
+      "name": "skills",
+      "owner": "mattpocock",
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "category": "AI Agents & LLM",
+      "language": "Shell",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "oneSentencePitch": "Skills for Real Engineers. Straight from my .agents directory.",
+      "rank": 3,
+      "totalStars": "313.7k",
+      "starsToday": 1379,
+      "starsGrowthText": "+1,379 stars today",
+      "growthRate": "+1379 stars hari ini",
+      "topics": [
+        "ai",
+        "shell"
+      ],
+      "features": [
+        "Trending resmi #3 di GitHub Trending Today",
+        "Pertumbuhan pesat: +1,379 stars today",
+        "Ditulis menggunakan bahasa Shell"
+      ]
+    },
+    {
+      "id": "gh-floci-io-floci",
+      "name": "floci",
+      "owner": "floci-io",
+      "repo": "floci-io/floci",
+      "url": "https://github.com/floci-io/floci",
       "category": "Dev Tools & Automation",
-      "topics": [
-        "Trending Today",
-        "Rust",
-        "Dev Tools & Automation"
-      ],
-      "id": "gh-live-12",
-      "rank": 12
-    },
-    {
-      "repo": "ccch1mneyyy/dsh-Go",
-      "name": "dsh-Go",
-      "oneSentencePitch": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
-      "language": "Dart",
-      "starsToday": 528,
-      "totalStars": "9.5k",
-      "category": "AI Agents & LLM",
-      "topics": [
-        "Breakout Star",
-        "Dart",
-        "AI Agents & LLM"
-      ],
-      "id": "gh-live-13",
-      "rank": 13
-    },
-    {
-      "repo": "heydamir/unslop",
-      "name": "unslop",
-      "oneSentencePitch": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-      "language": "JavaScript",
-      "starsToday": 482,
-      "totalStars": "8.7k",
-      "category": "AI Agents & LLM",
-      "topics": [
-        "Breakout Star",
-        "JavaScript",
-        "AI Agents & LLM"
-      ],
-      "id": "gh-live-14",
-      "rank": 14
-    },
-    {
-      "repo": "ly05010419/MacNativeGames",
-      "name": "MacNativeGames",
-      "oneSentencePitch": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
-      "language": "C",
-      "starsToday": 390,
-      "totalStars": "7.0k",
-      "category": "Dev Tools & Automation",
-      "topics": [
-        "Breakout Star",
-        "C",
-        "Dev Tools & Automation"
-      ],
-      "id": "gh-live-15",
-      "rank": 15
-    },
-    {
-      "repo": "unclebob/ub-mode",
-      "name": "ub-mode",
-      "oneSentencePitch": "Breakout open-source repository gaining momentum.",
-      "language": "General",
-      "starsToday": 388,
-      "totalStars": "7.0k",
-      "category": "AI Agents & LLM",
-      "topics": [
-        "Breakout Star",
-        "General",
-        "AI Agents & LLM"
-      ],
-      "id": "gh-live-16",
-      "rank": 16
-    },
-    {
-      "repo": "wangzan101/Mika",
-      "name": "Mika",
-      "oneSentencePitch": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
-      "language": "Kotlin",
-      "starsToday": 368,
-      "totalStars": "6.6k",
-      "category": "AI Agents & LLM",
-      "topics": [
-        "Breakout Star",
-        "Kotlin",
-        "AI Agents & LLM"
-      ],
-      "id": "gh-live-17",
-      "rank": 17
-    },
-    {
-      "repo": "xiaoyang111222/cn-math-taxonomy",
-      "name": "cn-math-taxonomy",
-      "oneSentencePitch": "\u6570\u5b66\uff08\u5c0f\u5b66\u5230\u9ad8\u4e2d\uff09\u3001\u82f1\u8bed\uff08\u4e09\u5e74\u7ea7\u5230\u9ad8\u4e2d\uff09\u3001\u521d\u4e2d\u7269\u7406\u7684\u77e5\u8bc6\u56fe\u8c31\uff1a1644 \u4e2a\u77e5\u8bc6\u70b9\u30012403 \u6761\u5148\u4fee\u8fb9\u30016723 \u9053\u9898\uff0c\u5bf9\u9f50\u8bfe\u6807\uff0c\u9644\u81ea\u9002\u5e94\u524d\u7f6e\u8bca\u65ad\u3002",
-      "language": "Python",
-      "starsToday": 365,
-      "totalStars": "6.6k",
-      "category": "Dev Tools & Automation",
-      "topics": [
-        "Breakout Star",
-        "Python",
-        "Dev Tools & Automation"
-      ],
-      "id": "gh-live-18",
-      "rank": 18
-    },
-    {
-      "repo": "FareedKhan-dev/kimi-k3-in-c",
-      "name": "kimi-k3-in-c",
-      "oneSentencePitch": "Trending open-source repository on GitHub today.",
-      "language": "C",
-      "starsToday": 351,
-      "totalStars": "10,303",
-      "category": "Dev Tools & Automation",
-      "topics": [
-        "Trending Today",
-        "C",
-        "Dev Tools & Automation"
-      ],
-      "id": "gh-live-19",
-      "rank": 19
-    },
-    {
-      "repo": "rddmwmddr/android-ad-cleaner",
-      "name": "android-ad-cleaner",
-      "oneSentencePitch": "\u5173\u6389\u56fd\u4ea7\u5b89\u5353\u624b\u673a\u7cfb\u7edf\u91cc\u7684\u5e7f\u544a\u3001\u70ed\u641c\u3001\u8d44\u8baf\u63a8\u8350\u548c\u8425\u9500\u63a8\u9001\u3002\u4e0d root\uff0c\u53ef\u8fd8\u539f\uff0c\u652f\u6301 AI \u667a\u80fd\u4f53\u4e00\u952e\u6267\u884c\u3002",
-      "language": "Python",
-      "starsToday": 350,
-      "totalStars": "6.3k",
-      "category": "AI Agents & LLM",
-      "topics": [
-        "Breakout Star",
-        "Python",
-        "AI Agents & LLM"
-      ],
-      "id": "gh-live-20",
-      "rank": 20
-    },
-    {
-      "repo": "l0ng-ai/openidea",
-      "name": "openidea",
-      "oneSentencePitch": "The IDE you know, rebuilt in Rust. IntelliJ IDEA\u2013style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
-      "language": "TypeScript",
-      "starsToday": 341,
-      "totalStars": "6.1k",
-      "category": "AI Agents & LLM",
-      "topics": [
-        "Breakout Star",
-        "TypeScript",
-        "AI Agents & LLM"
-      ],
-      "id": "gh-live-21",
-      "rank": 21
-    },
-    {
-      "repo": "anhao/ai-pose-gallery-zh",
-      "name": "ai-pose-gallery-zh",
-      "oneSentencePitch": "\u4e2d\u6587\u7248 AI \u59ff\u52bf\u53c2\u8003\u56fe\u5e93 \u00b7 1439 \u7ec4 / 2878 \u5f20\u56fe\u7247 / \u5b8c\u6574\u6c49\u5316 \u00b7 \u96f6\u4f9d\u8d56\u9759\u6001\u753b\u5eca",
-      "language": "TypeScript",
-      "starsToday": 330,
-      "totalStars": "5.9k",
-      "category": "AI Agents & LLM",
-      "topics": [
-        "Breakout Star",
-        "TypeScript",
-        "AI Agents & LLM"
-      ],
-      "id": "gh-live-22",
-      "rank": 22
-    },
-    {
-      "repo": "simbasjungles/free-my-tv",
-      "name": "free-my-tv",
-      "oneSentencePitch": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
       "language": "Java",
-      "starsToday": 327,
-      "totalStars": "5.9k",
-      "category": "Dev Tools & Automation",
+      "description": "Light, fluffy, and always free - The AWS Local Emulator alternative",
+      "oneSentencePitch": "Light, fluffy, and always free - The AWS Local Emulator alternative",
+      "rank": 4,
+      "totalStars": "29.8k",
+      "starsToday": 1090,
+      "starsGrowthText": "+1,090 stars today",
+      "growthRate": "+1090 stars hari ini",
       "topics": [
-        "Breakout Star",
-        "Java",
-        "Dev Tools & Automation"
+        "dev",
+        "java"
       ],
-      "id": "gh-live-23",
-      "rank": 23
+      "features": [
+        "Trending resmi #4 di GitHub Trending Today",
+        "Pertumbuhan pesat: +1,090 stars today",
+        "Ditulis menggunakan bahasa Java"
+      ]
     },
     {
-      "repo": "amosblomqvist/learnharness",
-      "name": "learnharness",
-      "oneSentencePitch": "Agent harness for learning difficult things.",
-      "language": "TypeScript",
-      "starsToday": 299,
-      "totalStars": "5.4k",
+      "id": "gh-thedotmack-claude-mem",
+      "name": "claude-mem",
+      "owner": "thedotmack",
+      "repo": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
       "category": "AI Agents & LLM",
+      "language": "TypeScript",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "oneSentencePitch": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "rank": 5,
+      "totalStars": "113.1k",
+      "starsToday": 1172,
+      "starsGrowthText": "+1,172 stars today",
+      "growthRate": "+1172 stars hari ini",
       "topics": [
-        "Breakout Star",
-        "TypeScript",
-        "AI Agents & LLM"
+        "ai",
+        "typescript"
       ],
-      "id": "gh-live-24",
-      "rank": 24
+      "features": [
+        "Trending resmi #5 di GitHub Trending Today",
+        "Pertumbuhan pesat: +1,172 stars today",
+        "Ditulis menggunakan bahasa TypeScript"
+      ]
     },
     {
-      "repo": "Jakeschincariol/day-trader-skill",
-      "name": "day-trader-skill",
-      "oneSentencePitch": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
-      "language": "Python",
-      "starsToday": 294,
-      "totalStars": "5.3k",
-      "category": "Dev Tools & Automation",
+      "id": "gh-vercel-labs-agent-desktop",
+      "name": "agent-desktop",
+      "owner": "vercel-labs",
+      "repo": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "category": "AI Agents & LLM",
+      "language": "Rust",
+      "description": "Computer use CLI for AI agents",
+      "oneSentencePitch": "Computer use CLI for AI agents",
+      "rank": 6,
+      "totalStars": "15.7k",
+      "starsToday": 2470,
+      "starsGrowthText": "+2,470 stars today",
+      "growthRate": "+2470 stars hari ini",
       "topics": [
-        "Breakout Star",
-        "Python",
-        "Dev Tools & Automation"
+        "ai",
+        "rust"
       ],
-      "id": "gh-live-25",
-      "rank": 25
+      "features": [
+        "Trending resmi #6 di GitHub Trending Today",
+        "Pertumbuhan pesat: +2,470 stars today",
+        "Ditulis menggunakan bahasa Rust"
+      ]
+    },
+    {
+      "id": "gh-github-spec-kit",
+      "name": "spec-kit",
+      "owner": "github",
+      "repo": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "category": "Dev Tools & Automation",
+      "language": "Python",
+      "description": "💫 Toolkit to help you get started with SDD or any other process!",
+      "oneSentencePitch": "💫 Toolkit to help you get started with SDD or any other process!",
+      "rank": 7,
+      "totalStars": "147.5k",
+      "starsToday": 808,
+      "starsGrowthText": "+808 stars today",
+      "growthRate": "+808 stars hari ini",
+      "topics": [
+        "dev",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #7 di GitHub Trending Today",
+        "Pertumbuhan pesat: +808 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
+      "id": "gh-the-pr-agent-pr-agent",
+      "name": "pr-agent",
+      "owner": "The-PR-Agent",
+      "repo": "The-PR-Agent/pr-agent",
+      "url": "https://github.com/The-PR-Agent/pr-agent",
+      "category": "AI Agents & LLM",
+      "language": "Python",
+      "description": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
+      "oneSentencePitch": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
+      "rank": 8,
+      "totalStars": "14.9k",
+      "starsToday": 280,
+      "starsGrowthText": "+280 stars today",
+      "growthRate": "+280 stars hari ini",
+      "topics": [
+        "ai",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #8 di GitHub Trending Today",
+        "Pertumbuhan pesat: +280 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
+      "id": "gh-harry0703-moneyprinterturbo",
+      "name": "MoneyPrinterTurbo",
+      "owner": "harry0703",
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "category": "AI Agents & LLM",
+      "language": "Python",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "oneSentencePitch": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "rank": 9,
+      "totalStars": "139.3k",
+      "starsToday": 617,
+      "starsGrowthText": "+617 stars today",
+      "growthRate": "+617 stars hari ini",
+      "topics": [
+        "ai",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #9 di GitHub Trending Today",
+        "Pertumbuhan pesat: +617 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
+      "id": "gh-garrytan-gstack",
+      "name": "gstack",
+      "owner": "garrytan",
+      "repo": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "category": "AI Agents & LLM",
+      "language": "TypeScript",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "oneSentencePitch": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "rank": 10,
+      "totalStars": "139.5k",
+      "starsToday": 290,
+      "starsGrowthText": "+290 stars today",
+      "growthRate": "+290 stars hari ini",
+      "topics": [
+        "ai",
+        "typescript"
+      ],
+      "features": [
+        "Trending resmi #10 di GitHub Trending Today",
+        "Pertumbuhan pesat: +290 stars today",
+        "Ditulis menggunakan bahasa TypeScript"
+      ]
+    },
+    {
+      "id": "gh-fareedkhan-dev-kimi-k3-in-c",
+      "name": "kimi-k3-in-c",
+      "owner": "FareedKhan-dev",
+      "repo": "FareedKhan-dev/kimi-k3-in-c",
+      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+      "category": "AI Agents & LLM",
+      "language": "C",
+      "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+      "oneSentencePitch": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+      "rank": 11,
+      "totalStars": "10.5k",
+      "starsToday": 351,
+      "starsGrowthText": "+351 stars today",
+      "growthRate": "+351 stars hari ini",
+      "topics": [
+        "ai",
+        "c"
+      ],
+      "features": [
+        "Trending resmi #11 di GitHub Trending Today",
+        "Pertumbuhan pesat: +351 stars today",
+        "Ditulis menggunakan bahasa C"
+      ]
+    },
+    {
+      "id": "gh-jiafeimiao-k-cat-discimagestudio",
+      "name": "DiscImageStudio",
+      "owner": "JiaFeiMiao-K-Cat",
+      "repo": "JiaFeiMiao-K-Cat/DiscImageStudio",
+      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+      "category": "Dev Tools & Automation",
+      "language": "C#",
+      "description": "High-growth open-source repository trending on GitHub.",
+      "oneSentencePitch": "High-growth open-source repository trending on GitHub.",
+      "rank": 12,
+      "totalStars": "6.8k",
+      "starsToday": 1778,
+      "starsGrowthText": "+1,778 stars today",
+      "growthRate": "+1778 stars hari ini",
+      "topics": [
+        "dev",
+        "c#"
+      ],
+      "features": [
+        "Trending resmi #12 di GitHub Trending Today",
+        "Pertumbuhan pesat: +1,778 stars today",
+        "Ditulis menggunakan bahasa C#"
+      ]
+    },
+    {
+      "id": "gh-michaelcade-90daysofdevops",
+      "name": "90DaysOfDevOps",
+      "owner": "MichaelCade",
+      "repo": "MichaelCade/90DaysOfDevOps",
+      "url": "https://github.com/MichaelCade/90DaysOfDevOps",
+      "category": "Dev Tools & Automation",
+      "language": "Shell",
+      "description": "This repository started out as a learning in public project for myself and has now become a structured learning map for many in the community. We have 3 years under our belt covering all things DevOps, including Principles, Processes, Tooling and Use Cases surrounding this vast topic.",
+      "oneSentencePitch": "This repository started out as a learning in public project for myself and has now become a structured learning map for many in the community. We have 3 years under our belt covering all things DevOps, including Principles, Processes, Tooling and Use Cases surrounding this vast topic.",
+      "rank": 13,
+      "totalStars": "30.6k",
+      "starsToday": 97,
+      "starsGrowthText": "+97 stars today",
+      "growthRate": "+97 stars hari ini",
+      "topics": [
+        "dev",
+        "shell"
+      ],
+      "features": [
+        "Trending resmi #13 di GitHub Trending Today",
+        "Pertumbuhan pesat: +97 stars today",
+        "Ditulis menggunakan bahasa Shell"
+      ]
+    },
+    {
+      "id": "gh-d4vinci-scrapling",
+      "name": "Scrapling",
+      "owner": "D4Vinci",
+      "repo": "D4Vinci/Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "category": "AI Agents & LLM",
+      "language": "Python",
+      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+      "oneSentencePitch": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+      "rank": 14,
+      "totalStars": "97.0k",
+      "starsToday": 2005,
+      "starsGrowthText": "+2,005 stars today",
+      "growthRate": "+2005 stars hari ini",
+      "topics": [
+        "ai",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #14 di GitHub Trending Today",
+        "Pertumbuhan pesat: +2,005 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
+      "id": "gh-thysrael-horizon",
+      "name": "Horizon",
+      "owner": "Thysrael",
+      "repo": "Thysrael/Horizon",
+      "url": "https://github.com/Thysrael/Horizon",
+      "category": "AI Agents & LLM",
+      "language": "Python",
+      "description": "📡 Your own AI-powered news radar. Generates daily briefings in English & Chinese. | 用 AI 构建你专属的新闻雷达",
+      "oneSentencePitch": "📡 Your own AI-powered news radar. Generates daily briefings in English & Chinese. | 用 AI 构建你专属的新闻雷达",
+      "rank": 15,
+      "totalStars": "12.7k",
+      "starsToday": 121,
+      "starsGrowthText": "+121 stars today",
+      "growthRate": "+121 stars hari ini",
+      "topics": [
+        "ai",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #15 di GitHub Trending Today",
+        "Pertumbuhan pesat: +121 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
+      "id": "gh-scenario-labs-skills",
+      "name": "skills",
+      "owner": "scenario-labs",
+      "repo": "scenario-labs/skills",
+      "url": "https://github.com/scenario-labs/skills",
+      "category": "AI Agents & LLM",
+      "language": "Python",
+      "description": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
+      "oneSentencePitch": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
+      "rank": 16,
+      "totalStars": "2.6k",
+      "starsToday": 224,
+      "starsGrowthText": "+224 stars today",
+      "growthRate": "+224 stars hari ini",
+      "topics": [
+        "ai",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #16 di GitHub Trending Today",
+        "Pertumbuhan pesat: +224 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
     }
   ]
 }
