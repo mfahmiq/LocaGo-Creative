@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 07:11 WIB",
-  "total": 384,
+  "updatedAt": "05 Nov 2026, 07:17 WIB",
+  "total": 386,
   "items": [
+    {
+      "id": "ai-zenith-platform",
+      "name": "Zenith Platform",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Academic Research Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Zenith Platform adalah platform pencarian riset ilmiah dan ringkasan jurnal mendalam dengan rujukan sitasi asli. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/zenith-platform.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://zenithplatform.ai"
+    },
+    {
+      "id": "ai-cogni-systems",
+      "name": "Cogni Systems",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Academic Research Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Cogni Systems adalah platform pencarian riset ilmiah dan ringkasan jurnal mendalam dengan rujukan sitasi asli. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/cogni-systems.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://cognisystems.io"
+    },
     {
       "id": "ai-matrix-director",
       "name": "Matrix Director",
