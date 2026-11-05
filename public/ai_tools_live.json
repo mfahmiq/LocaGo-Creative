@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 07:55 WIB",
-  "total": 398,
+  "updatedAt": "05 Nov 2026, 08:01 WIB",
+  "total": 400,
   "items": [
+    {
+      "id": "ai-orbit-audio",
+      "name": "Orbit Audio",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "Multi-Agent Orchestrator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Orbit Audio adalah framework orkestrasi multi-agen otonom untuk menyelesaikan tugas bisnis kompleks. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/orbit-audio.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://orbitaudio.tech"
+    },
+    {
+      "id": "ai-stratosscraper-ai-v5",
+      "name": "StratosScraper AI v5",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Team Knowledge Vault Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "StratosScraper AI v5 adalah sistem manajemen pengetahuan tim yang merangkum rapat dan dokumen kerja otomatis. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/stratosscraper-ai-v5.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://stratosscraperaiv5.app"
+    },
     {
       "id": "ai-stream-cloud",
       "name": "Stream Cloud",
