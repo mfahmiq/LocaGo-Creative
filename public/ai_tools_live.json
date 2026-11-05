@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 08:07 WIB",
-  "total": 402,
+  "updatedAt": "05 Nov 2026, 08:13 WIB",
+  "total": 404,
   "items": [
+    {
+      "id": "ai-apexplatform",
+      "name": "ApexPlatform",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Team Knowledge Vault Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "ApexPlatform adalah sistem manajemen pengetahuan tim yang merangkum rapat dan dokumen kerja otomatis. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/apexplatform.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://apexplatform.dev"
+    },
+    {
+      "id": "ai-helixhub",
+      "name": "HelixHub",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "Fullstack App Generator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "HelixHub adalah generator arsitektur fullstack otomatis berbasis prompt bahasa alami. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/helixhub.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://helixhub.app"
+    },
     {
       "id": "ai-soniccreator-ai",
       "name": "SonicCreator AI",
