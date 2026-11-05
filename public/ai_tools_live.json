@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 06:53 WIB",
-  "total": 378,
+  "updatedAt": "05 Nov 2026, 06:59 WIB",
+  "total": 380,
   "items": [
+    {
+      "id": "ai-tracedesigner",
+      "name": "TraceDesigner",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Code Quality & Security Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "TraceDesigner adalah platform inspeksi kualitas kode, deteksi bug otomatis, dan security auditing. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model AI Coding",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/tracedesigner.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://tracedesigner.dev"
+    },
+    {
+      "id": "ai-quantumsystems-ai",
+      "name": "QuantumSystems AI",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Voice & Audio Synthesis Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "QuantumSystems AI adalah platform sintesis vokal dan aransemen musik instan berkualitas studio rekaman. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/quantumsystems-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://quantumsystemsai.ai"
+    },
     {
       "id": "ai-omnisearch",
       "name": "OmniSearch",
