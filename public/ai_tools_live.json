@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 08:13 WIB",
-  "total": 404,
+  "updatedAt": "05 Nov 2026, 08:19 WIB",
+  "total": 406,
   "items": [
+    {
+      "id": "ai-graphbase",
+      "name": "GraphBase",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "Factual Search Grounding Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "GraphBase adalah search engine api khusus untuk agen ai dengan sitasi sumber faktual real-time. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/graphbase.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://graphbase.ai"
+    },
+    {
+      "id": "ai-aura-synthesizer",
+      "name": "Aura Synthesizer",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Team Knowledge Vault Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Aura Synthesizer adalah sistem manajemen pengetahuan tim yang merangkum rapat dan dokumen kerja otomatis. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/aura-synthesizer.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://aurasynthesizer.tech"
+    },
     {
       "id": "ai-apexplatform",
       "name": "ApexPlatform",
