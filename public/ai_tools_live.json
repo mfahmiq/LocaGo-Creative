@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 07:42 WIB",
-  "total": 394,
+  "updatedAt": "05 Nov 2026, 07:48 WIB",
+  "total": 396,
   "items": [
+    {
+      "id": "ai-helixvision-ai",
+      "name": "HelixVision AI",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "Private Local AI Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "HelixVision AI adalah engine inferensi model lokal berkecepatan tinggi dengan perlindungan privasi data 100%. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/helixvision-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://helixvisionai.co"
+    },
+    {
+      "id": "ai-stackops",
+      "name": "StackOps",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Smart Data Analyst Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "StackOps adalah workspace analitik data cerdas untuk membedah spreadsheet dan membuat grafik interaktif. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/stackops.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://stackops.dev"
+    },
     {
       "id": "ai-pioneerai",
       "name": "PioneerAI",
