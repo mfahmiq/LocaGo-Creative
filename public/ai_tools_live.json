@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 07:48 WIB",
-  "total": 396,
+  "updatedAt": "05 Nov 2026, 07:55 WIB",
+  "total": 398,
   "items": [
+    {
+      "id": "ai-stream-cloud",
+      "name": "Stream Cloud",
+      "category": "Agentic Automation",
+      "pricingType": "Paid",
+      "tagline": "Multi-Agent Orchestrator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Stream Cloud adalah framework orkestrasi multi-agen otonom untuk menyelesaikan tugas bisnis kompleks. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/stream-cloud.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://streamcloud.ai"
+    },
+    {
+      "id": "ai-stackreader",
+      "name": "StackReader",
+      "category": "Agentic Automation",
+      "pricingType": "Paid",
+      "tagline": "Visual RAG Pipeline Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "StackReader adalah platform low-code untuk merancang dan mempublikasikan workflow rag tanpa coding. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/stackreader.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://stackreader.ai"
+    },
     {
       "id": "ai-helixvision-ai",
       "name": "HelixVision AI",
