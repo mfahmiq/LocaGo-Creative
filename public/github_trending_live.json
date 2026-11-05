@@ -1,5 +1,5 @@
 {
-  "updatedAt": "06 Nov 2026, 03:44 WIB",
+  "updatedAt": "06 Nov 2026, 04:44 WIB",
   "total": 15,
   "items": [
     {
@@ -13,7 +13,7 @@
       "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "oneSentencePitch": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "rank": 1,
-      "totalStars": "7.1k",
+      "totalStars": "7.2k",
       "starsToday": 2707,
       "starsGrowthText": "+2,707 stars today",
       "growthRate": "+2707 stars hari ini",
@@ -38,7 +38,7 @@
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "oneSentencePitch": "Skills for Real Engineers. Straight from my .agents directory.",
       "rank": 2,
-      "totalStars": "315.0k",
+      "totalStars": "315.1k",
       "starsToday": 2053,
       "starsGrowthText": "+2,053 stars today",
       "growthRate": "+2053 stars hari ini",
@@ -113,7 +113,7 @@
       "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
       "oneSentencePitch": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
       "rank": 5,
-      "totalStars": "97.8k",
+      "totalStars": "97.9k",
       "starsToday": 1661,
       "starsGrowthText": "+1,661 stars today",
       "growthRate": "+1661 stars hari ini",
@@ -163,7 +163,7 @@
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "oneSentencePitch": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "rank": 7,
-      "totalStars": "11.4k",
+      "totalStars": "11.5k",
       "starsToday": 546,
       "starsGrowthText": "+546 stars today",
       "growthRate": "+546 stars hari ini",
