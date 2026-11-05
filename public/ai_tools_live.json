@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 07:17 WIB",
-  "total": 386,
+  "updatedAt": "05 Nov 2026, 07:24 WIB",
+  "total": 388,
   "items": [
+    {
+      "id": "ai-scriptgraph-ai",
+      "name": "ScriptGraph AI",
+      "category": "Agentic Automation",
+      "pricingType": "Paid",
+      "tagline": "Visual RAG Pipeline Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "ScriptGraph AI adalah platform low-code untuk merancang dan mempublikasikan workflow rag tanpa coding. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/scriptgraph-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://scriptgraphai.ai"
+    },
+    {
+      "id": "ai-hyperengine",
+      "name": "HyperEngine",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "Private Local AI Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "HyperEngine adalah engine inferensi model lokal berkecepatan tinggi dengan perlindungan privasi data 100%. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/hyperengine.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://hyperengine.io"
+    },
     {
       "id": "ai-zenith-platform",
       "name": "Zenith Platform",
