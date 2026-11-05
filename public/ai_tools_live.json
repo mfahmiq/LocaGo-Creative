@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 07:30 WIB",
-  "total": 390,
+  "updatedAt": "05 Nov 2026, 07:36 WIB",
+  "total": 392,
   "items": [
+    {
+      "id": "ai-dynamobrain",
+      "name": "DynamoBrain",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Voice & Audio Synthesis Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "DynamoBrain adalah platform sintesis vokal dan aransemen musik instan berkualitas studio rekaman. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/dynamobrain.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://dynamobrain.app"
+    },
+    {
+      "id": "ai-stellarcloud",
+      "name": "StellarCloud",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "AI Calendar Scheduler Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "StellarCloud adalah asisten manajemen waktu dan kalender dinamis yang mengoptimalkan jadwal produktivitas. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Productivity & Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/stellarcloud.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://stellarcloud.tech"
+    },
     {
       "id": "ai-dynamo-workspace",
       "name": "Dynamo Workspace",
