@@ -1,5 +1,5 @@
 {
-  "updatedAt": "05 Nov 2026, 19:43 WIB",
+  "updatedAt": "05 Nov 2026, 20:43 WIB",
   "total": 15,
   "items": [
     {
@@ -13,7 +13,7 @@
       "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "oneSentencePitch": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "rank": 1,
-      "totalStars": "6.4k",
+      "totalStars": "6.5k",
       "starsToday": 2707,
       "starsGrowthText": "+2,707 stars today",
       "growthRate": "+2707 stars hari ini",
@@ -38,7 +38,7 @@
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "oneSentencePitch": "Skills for Real Engineers. Straight from my .agents directory.",
       "rank": 2,
-      "totalStars": "314.2k",
+      "totalStars": "314.3k",
       "starsToday": 2053,
       "starsGrowthText": "+2,053 stars today",
       "growthRate": "+2053 stars hari ini",
@@ -63,7 +63,7 @@
       "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "oneSentencePitch": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "rank": 3,
-      "totalStars": "139.6k",
+      "totalStars": "139.7k",
       "starsToday": 608,
       "starsGrowthText": "+608 stars today",
       "growthRate": "+608 stars hari ini",
@@ -238,7 +238,7 @@
       "description": "Browser automation CLI for AI agents",
       "oneSentencePitch": "Browser automation CLI for AI agents",
       "rank": 10,
-      "totalStars": "45.6k",
+      "totalStars": "45.7k",
       "starsToday": 132,
       "starsGrowthText": "+132 stars today",
       "growthRate": "+132 stars hari ini",
