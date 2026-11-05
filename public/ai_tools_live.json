@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 08:26 WIB",
-  "total": 408,
+  "updatedAt": "05 Nov 2026, 08:32 WIB",
+  "total": 410,
   "items": [
+    {
+      "id": "ai-vault-workspace",
+      "name": "Vault Workspace",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Autonomous SaaS Integrator Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Vault Workspace adalah asisten otomatisasi alur kerja saas yang mengintegrasikan ratusan api pihak ketiga. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Agentic Automation",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/vault-workspace.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://vaultworkspace.ai"
+    },
+    {
+      "id": "ai-solisworkspace-ai",
+      "name": "SolisWorkspace AI",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Viral Short-Form Editor Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "SolisWorkspace AI adalah editor video pendek otomatis dengan subtitle karaoke animasi dan deteksi hook viral. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Generative Media",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/solisworkspace-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://solisworkspaceai.ai"
+    },
     {
       "id": "ai-flowsearch",
       "name": "FlowSearch",
