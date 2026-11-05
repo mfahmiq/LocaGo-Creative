@@ -1,7 +1,43 @@
 {
-  "updatedAt": "05 Nov 2026, 08:19 WIB",
-  "total": 406,
+  "updatedAt": "05 Nov 2026, 08:26 WIB",
+  "total": 408,
   "items": [
+    {
+      "id": "ai-flowsearch",
+      "name": "FlowSearch",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "Data Monitoring Engine Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "FlowSearch adalah platform monitoring perubahan data web dan ekstraksi tabel berkala secara otomatis. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/flowsearch.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://flowsearch.dev"
+    },
+    {
+      "id": "ai-pioneer-io",
+      "name": "Pioneer IO",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "Smart Web Crawler Berkecepatan Tinggi ditenagai Next-Gen Neural Engine",
+      "description": "Pioneer IO adalah mesin perayap web cerdas dengan rotasi proxy otomatis dan bypass proteksi antibot. Dilengkapi antarmuka intuitif, skalabilitas cloud tinggi, dan integrasi API instan.",
+      "features": [
+        "Akselerasi performa cerdas berbasis arsitektur model Web & Scrapers",
+        "Integrasi API tanpa batas ke ekosistem developer dan bisnis modern",
+        "Analisis cerdas real-time bebas latency dengan efisiensi tinggi",
+        "Keamanan data enterprise dengan enkripsi end-to-end terstandarisasi"
+      ],
+      "logoUrl": "/logos/pioneer-io.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://pioneerio.io"
+    },
     {
       "id": "ai-graphbase",
       "name": "GraphBase",
