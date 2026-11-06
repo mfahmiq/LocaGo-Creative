@@ -1,7 +1,25 @@
 {
-  "updatedAt": "06 Nov 2026, 22:27 WIB",
-  "total": 149,
+  "updatedAt": "06 Nov 2026, 22:57 WIB",
+  "total": 150,
   "items": [
+    {
+      "id": "ai-playlistai",
+      "name": "PlaylistAI",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "PlaylistAI - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "AI-powered playlist creator for Spotify and Apple Music",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/playlistai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.playlistai.app"
+    },
     {
       "id": "ai-trackedge",
       "name": "TrackEdge",
