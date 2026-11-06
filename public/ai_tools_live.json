@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 02:03 WIB",
-  "total": 157,
+  "updatedAt": "07 Nov 2026, 02:33 WIB",
+  "total": 158,
   "items": [
+    {
+      "id": "ai-deployed-yet",
+      "name": "Deployed Yet?",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Deployed Yet? - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Deployed Yet? adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/deployed-yet.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/deployed-yet"
+    },
     {
       "id": "ai-stockimg-ai",
       "name": "StockImg AI",
