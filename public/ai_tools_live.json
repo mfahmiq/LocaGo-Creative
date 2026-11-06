@@ -1,7 +1,25 @@
 {
-  "updatedAt": "06 Nov 2026, 18:16 WIB",
-  "total": 140,
+  "updatedAt": "06 Nov 2026, 18:46 WIB",
+  "total": 141,
   "items": [
+    {
+      "id": "ai-wanaka-studio",
+      "name": "Wanaka Studio",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Wanaka Studio - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Wanaka Studio adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/wanaka-studio.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/wanaka-studio"
+    },
     {
       "id": "ai-wan2-2-i2v-v3",
       "name": "Wan2 2 I2V V3",
