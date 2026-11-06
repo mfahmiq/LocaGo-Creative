@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 05:34 WIB",
-  "total": 164,
+  "updatedAt": "07 Nov 2026, 06:04 WIB",
+  "total": 165,
   "items": [
+    {
+      "id": "ai-illustroke",
+      "name": "Illustroke",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Illustroke - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to create vector illustrations from text prompts.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/illustroke.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://illustroke.com"
+    },
     {
       "id": "ai-samplette",
       "name": "Samplette",

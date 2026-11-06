@@ -1,6 +1,6 @@
 {
-  "updatedAt": "07 Nov 2026, 05:03 WIB",
-  "total": 18,
+  "updatedAt": "07 Nov 2026, 06:03 WIB",
+  "total": 17,
   "items": [
     {
       "id": "gh-zed-industries-zed",
@@ -13,7 +13,7 @@
       "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "oneSentencePitch": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "rank": 1,
-      "totalStars": "93.5k",
+      "totalStars": "93.6k",
       "starsToday": 292,
       "starsGrowthText": "+292 stars today",
       "growthRate": "+292 stars hari ini",
@@ -213,7 +213,7 @@
       "description": "The Prometheus monitoring system and time series database.",
       "oneSentencePitch": "The Prometheus monitoring system and time series database.",
       "rank": 9,
-      "totalStars": "67.1k",
+      "totalStars": "67.2k",
       "starsToday": 140,
       "starsGrowthText": "+140 stars today",
       "growthRate": "+140 stars hari ini",
@@ -278,31 +278,6 @@
       ]
     },
     {
-      "id": "gh-lz4-lz4",
-      "name": "lz4",
-      "owner": "lz4",
-      "repo": "lz4/lz4",
-      "url": "https://github.com/lz4/lz4",
-      "category": "Productivity & Media",
-      "language": "C",
-      "description": "Extremely Fast Compression algorithm",
-      "oneSentencePitch": "Extremely Fast Compression algorithm",
-      "rank": 12,
-      "totalStars": "12.6k",
-      "starsToday": 313,
-      "starsGrowthText": "+313 stars today",
-      "growthRate": "+313 stars hari ini",
-      "topics": [
-        "productivity",
-        "c"
-      ],
-      "features": [
-        "Trending resmi #12 di GitHub Trending Today",
-        "Pertumbuhan pesat: +313 stars today",
-        "Ditulis menggunakan bahasa C"
-      ]
-    },
-    {
       "id": "gh-nushell-nushell",
       "name": "nushell",
       "owner": "nushell",
@@ -312,8 +287,8 @@
       "language": "Rust",
       "description": "A new type of shell",
       "oneSentencePitch": "A new type of shell",
-      "rank": 13,
-      "totalStars": "40.9k",
+      "rank": 12,
+      "totalStars": "41.0k",
       "starsToday": 177,
       "starsGrowthText": "+177 stars today",
       "growthRate": "+177 stars hari ini",
@@ -322,7 +297,7 @@
         "rust"
       ],
       "features": [
-        "Trending resmi #13 di GitHub Trending Today",
+        "Trending resmi #12 di GitHub Trending Today",
         "Pertumbuhan pesat: +177 stars today",
         "Ditulis menggunakan bahasa Rust"
       ]
@@ -337,7 +312,7 @@
       "language": "Go",
       "description": "Distributed reliable key-value store for the most critical data of a distributed system",
       "oneSentencePitch": "Distributed reliable key-value store for the most critical data of a distributed system",
-      "rank": 14,
+      "rank": 13,
       "totalStars": "52.6k",
       "starsToday": 123,
       "starsGrowthText": "+123 stars today",
@@ -347,7 +322,7 @@
         "go"
       ],
       "features": [
-        "Trending resmi #14 di GitHub Trending Today",
+        "Trending resmi #13 di GitHub Trending Today",
         "Pertumbuhan pesat: +123 stars today",
         "Ditulis menggunakan bahasa Go"
       ]
@@ -362,7 +337,7 @@
       "language": "C",
       "description": "General purpose TLS and crypto library",
       "oneSentencePitch": "General purpose TLS and crypto library",
-      "rank": 15,
+      "rank": 14,
       "totalStars": "31.3k",
       "starsToday": 24,
       "starsGrowthText": "+24 stars today",
@@ -372,7 +347,7 @@
         "c"
       ],
       "features": [
-        "Trending resmi #15 di GitHub Trending Today",
+        "Trending resmi #14 di GitHub Trending Today",
         "Pertumbuhan pesat: +24 stars today",
         "Ditulis menggunakan bahasa C"
       ]
@@ -387,8 +362,8 @@
       "language": "Shell",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "oneSentencePitch": "Skills for Real Engineers. Straight from my .agents directory.",
-      "rank": 16,
-      "totalStars": "316.6k",
+      "rank": 15,
+      "totalStars": "316.7k",
       "starsToday": 2058,
       "starsGrowthText": "+2,058 stars today",
       "growthRate": "+2058 stars hari ini",
@@ -397,7 +372,7 @@
         "shell"
       ],
       "features": [
-        "Trending resmi #16 di GitHub Trending Today",
+        "Trending resmi #15 di GitHub Trending Today",
         "Pertumbuhan pesat: +2,058 stars today",
         "Ditulis menggunakan bahasa Shell"
       ]
@@ -412,8 +387,8 @@
       "language": "JavaScript",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "oneSentencePitch": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "rank": 17,
-      "totalStars": "63.8k",
+      "rank": 16,
+      "totalStars": "63.9k",
       "starsToday": 2524,
       "starsGrowthText": "+2,524 stars today",
       "growthRate": "+2524 stars hari ini",
@@ -422,7 +397,7 @@
         "javascript"
       ],
       "features": [
-        "Trending resmi #17 di GitHub Trending Today",
+        "Trending resmi #16 di GitHub Trending Today",
         "Pertumbuhan pesat: +2,524 stars today",
         "Ditulis menggunakan bahasa JavaScript"
       ]
@@ -437,8 +412,8 @@
       "language": "Rust",
       "description": "An extremely fast Python linter and code formatter, written in Rust.",
       "oneSentencePitch": "An extremely fast Python linter and code formatter, written in Rust.",
-      "rank": 18,
-      "totalStars": "50.6k",
+      "rank": 17,
+      "totalStars": "50.7k",
       "starsToday": 213,
       "starsGrowthText": "+213 stars today",
       "growthRate": "+213 stars hari ini",
@@ -447,7 +422,7 @@
         "rust"
       ],
       "features": [
-        "Trending resmi #18 di GitHub Trending Today",
+        "Trending resmi #17 di GitHub Trending Today",
         "Pertumbuhan pesat: +213 stars today",
         "Ditulis menggunakan bahasa Rust"
       ]
