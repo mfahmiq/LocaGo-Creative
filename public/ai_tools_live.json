@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 01:33 WIB",
-  "total": 156,
+  "updatedAt": "07 Nov 2026, 02:03 WIB",
+  "total": 157,
   "items": [
+    {
+      "id": "ai-stockimg-ai",
+      "name": "StockImg AI",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "StockImg AI - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "You can easily generate logos, book covers, posters and more using AI",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/stockimg-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://stockimg.ai"
+    },
     {
       "id": "ai-kaiber",
       "name": "Kaiber",
