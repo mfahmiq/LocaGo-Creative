@@ -1,7 +1,25 @@
 {
-  "updatedAt": "06 Nov 2026, 23:27 WIB",
-  "total": 151,
+  "updatedAt": "06 Nov 2026, 23:57 WIB",
+  "total": 152,
   "items": [
+    {
+      "id": "ai-writerzen",
+      "name": "WriterZen",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "WriterZen - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "A content creation platform that helps with ideas and SEO-optimized content",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/writerzen.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://writerzen.net"
+    },
     {
       "id": "ai-fileforensics",
       "name": "fileForensics",
