@@ -1,7 +1,403 @@
 {
-  "updatedAt": "05 Nov 2026, 15:03 WIB",
-  "total": 116,
+  "updatedAt": "06 Nov 2026, 17:16 WIB",
+  "total": 138,
   "items": [
+    {
+      "id": "ai-qwen-image-21-uncensored",
+      "name": "Qwen Image 21 Uncensored",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (274 Upvotes)",
+      "description": "Qwen Image 21 Uncensored adalah model dan aplikasi demo AI interaktif dari kreator a-test-user-in-the-wrold di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/qwen-image-21-uncensored.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/a-test-user-in-the-wrold/qwen-image-21-uncensored"
+    },
+    {
+      "id": "ai-qwen-2511-plus-flux-2-klein",
+      "name": "Qwen 2511 Plus Flux.2 Klein",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (335 Upvotes)",
+      "description": "Qwen 2511 Plus Flux.2 Klein adalah model dan aplikasi demo AI interaktif dari kreator AST-1320 di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/qwen-2511-plus-flux-2-klein.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
+    },
+    {
+      "id": "ai-lifeval",
+      "name": "LifeVal",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "LifeVal - Produk AI Baru Terpilih di Product Hunt",
+      "description": "LifeVal adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/lifeval.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/openai"
+    },
+    {
+      "id": "ai-speech-studio",
+      "name": "Speech Studio",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Speech Studio - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "AI realistic text-to-speech voice generator",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/speech-studio.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://speech.microsoft.com/portal"
+    },
+    {
+      "id": "ai-hindsight-models-and-inference-api",
+      "name": "Hindsight Models and Inference API",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Hindsight Models and Inference API - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Hindsight Models and Inference API adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/hindsight-models-and-inference-api.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/vectorize"
+    },
+    {
+      "id": "ai-mara",
+      "name": "MARA",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "MARA - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "Personalized responses to reviews in any language",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/mara.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.mara-solutions.com"
+    },
+    {
+      "id": "ai-ai-image-enlarger",
+      "name": "AI Image Enlarger",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "AI Image Enlarger - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "Use AI to upscale small or pixelated images",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/ai-image-enlarger.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://imglarger.com"
+    },
+    {
+      "id": "ai-hugging-face",
+      "name": "Hugging Face",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "Hugging Face - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "A database of Machine Learning experiments",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/hugging-face.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co"
+    },
+    {
+      "id": "ai-smartbids-ai",
+      "name": "SmartBids.ai",
+      "category": "Agentic Automation",
+      "pricingType": "Paid",
+      "tagline": "SmartBids.ai - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "AI-powered pricing software for real estate agents and brokerages",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/smartbids-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://smartbids.ai"
+    },
+    {
+      "id": "ai-qwen-image-2-1",
+      "name": "Qwen Image 2.1",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (511 Upvotes)",
+      "description": "Qwen Image 2.1 adalah model dan aplikasi demo AI interaktif dari kreator Qwen di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/qwen-image-2-1.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/Qwen/Qwen-Image-2.1"
+    },
+    {
+      "id": "ai-neuron-studio",
+      "name": "Neuron Studio",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (44 Upvotes)",
+      "description": "Neuron Studio adalah model dan aplikasi demo AI interaktif dari kreator webml-community di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/neuron-studio.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/webml-community/neuron-studio"
+    },
+    {
+      "id": "ai-marketingblocks-ai",
+      "name": "MarketingBlocks AI",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "MarketingBlocks AI - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "AI assistant that helps generate marketing assets in minutes, from copy and design to videos and graphics.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/marketingblocks-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://jvz2.com/c/2754055/389716"
+    },
+    {
+      "id": "ai-neuronwriter",
+      "name": "NeuronWriter",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "NeuronWriter - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "AI-based SEO optimization for online content",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/neuronwriter.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://neuronwriter.com"
+    },
+    {
+      "id": "ai-minimax-h3",
+      "name": "Minimax H3",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (294 Upvotes)",
+      "description": "Minimax H3 adalah model dan aplikasi demo AI interaktif dari kreator wank3r di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/minimax-h3.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/wank3r/minimax-h3"
+    },
+    {
+      "id": "ai-sheetai",
+      "name": "SheetAI",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "SheetAI - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "Google Sheets AI Add-on",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/sheetai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://sheetai.app"
+    },
+    {
+      "id": "ai-floot-payments",
+      "name": "Floot Payments ",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Floot Payments  - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Floot Payments  adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/floot-payments.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/floot"
+    },
+    {
+      "id": "ai-email-helper",
+      "name": "Email Helper",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Email Helper - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "Email generator that enables users to quickly generate business emails",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/email-helper.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://email-helper.vercel.app"
+    },
+    {
+      "id": "ai-lfm3-omni-2b-webgpu",
+      "name": "Lfm3 Omni 2B Webgpu",
+      "category": "Web & Scrapers",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (107 Upvotes)",
+      "description": "Lfm3 Omni 2B Webgpu adalah model dan aplikasi demo AI interaktif dari kreator LiquidAI di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/lfm3-omni-2b-webgpu.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/LiquidAI/LFM3-Omni-2B-WebGPU"
+    },
+    {
+      "id": "ai-resum",
+      "name": "Resum",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Resum - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Resum adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/resum.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/resum"
+    },
+    {
+      "id": "ai-fasth3-omni",
+      "name": "Fasth3 Omni",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (104 Upvotes)",
+      "description": "Fasth3 Omni adalah model dan aplikasi demo AI interaktif dari kreator FastVideo di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/fasth3-omni.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/FastVideo/FastH3-Omni"
+    },
+    {
+      "id": "ai-qwen-edit-image",
+      "name": "Qwen Edit Image",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (786 Upvotes)",
+      "description": "Qwen Edit Image adalah model dan aplikasi demo AI interaktif dari kreator kulkas2pintu di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/qwen-edit-image.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
+    },
+    {
+      "id": "ai-gpt2markdown",
+      "name": "GPT2Markdown",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "GPT2Markdown - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "Export your conversations with ChatGPT",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/gpt2markdown.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://chrome.google.com/webstore/detail/gpt2markdown/mlfimpibamecbdnofjnbkjomeieclnjl"
+    },
     {
       "id": "ai-hairdeck",
       "name": "Hairdeck",
