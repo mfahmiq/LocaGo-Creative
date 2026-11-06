@@ -1,7 +1,25 @@
 {
-  "updatedAt": "06 Nov 2026, 20:57 WIB",
-  "total": 146,
+  "updatedAt": "06 Nov 2026, 21:27 WIB",
+  "total": 147,
   "items": [
+    {
+      "id": "ai-country-filter-for-x",
+      "name": "Country Filter for X",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Country Filter for X - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Country Filter for X adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/country-filter-for-x.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/country-filter-for-x-2"
+    },
     {
       "id": "ai-qwen-image-2-1-uncensored-aio-loras",
       "name": "Qwen Image 2.1 Uncensored Aio Loras",
@@ -72,8 +90,7 @@
       "logoUrl": "/logos/hira.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://hira.ai/?ref=locagocreative",
-      "websiteUrl": "https://hira.ai"
+      "affiliateUrl": "https://www.producthunt.com/products/hira"
     },
     {
       "id": "ai-nemotron-transcribe",
@@ -109,8 +126,7 @@
       "logoUrl": "/logos/wanaka-studio.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://wanaka.studio/?ref=locagocreative",
-      "websiteUrl": "https://wanaka.studio"
+      "affiliateUrl": "https://www.producthunt.com/products/wanaka-studio"
     },
     {
       "id": "ai-wan2-2-i2v-v3",
@@ -146,8 +162,7 @@
       "logoUrl": "/logos/tellpip.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://tellpip.com/?ref=locagocreative",
-      "websiteUrl": "https://tellpip.com"
+      "affiliateUrl": "https://www.producthunt.com/products/tellpip"
     },
     {
       "id": "ai-qwen-image-21-uncensored",
@@ -183,8 +198,7 @@
       "logoUrl": "/logos/qwen-2511-plus-flux-2-klein.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein",
-      "websiteUrl": "https://chat.qwenlm.ai"
+      "affiliateUrl": "https://huggingface.co/spaces/AST-1320/Qwen-2511-Plus-Flux.2-klein"
     },
     {
       "id": "ai-lifeval",
@@ -202,8 +216,7 @@
       "logoUrl": "/logos/lifeval.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://lifeval.ai/?ref=locagocreative",
-      "websiteUrl": "https://lifeval.ai"
+      "affiliateUrl": "https://www.producthunt.com/products/openai"
     },
     {
       "id": "ai-speech-studio",
@@ -221,8 +234,7 @@
       "logoUrl": "/logos/speech-studio.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://speech.microsoft.com/portal",
-      "websiteUrl": "https://speech.microsoft.com"
+      "affiliateUrl": "https://speech.microsoft.com/portal"
     },
     {
       "id": "ai-hindsight-models-and-inference-api",
@@ -240,8 +252,7 @@
       "logoUrl": "/logos/hindsight-models-and-inference-api.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://hindsight.ai/?ref=locagocreative",
-      "websiteUrl": "https://hindsight.ai"
+      "affiliateUrl": "https://www.producthunt.com/products/vectorize"
     },
     {
       "id": "ai-mara",
@@ -259,8 +270,7 @@
       "logoUrl": "/logos/mara.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.mara-solutions.com",
-      "websiteUrl": "https://mara.solutions"
+      "affiliateUrl": "https://www.mara-solutions.com"
     },
     {
       "id": "ai-ai-image-enlarger",
@@ -278,8 +288,7 @@
       "logoUrl": "/logos/ai-image-enlarger.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://imglarger.com",
-      "websiteUrl": "https://imglarger.com"
+      "affiliateUrl": "https://imglarger.com"
     },
     {
       "id": "ai-hugging-face",
@@ -297,8 +306,7 @@
       "logoUrl": "/logos/hugging-face.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co",
-      "websiteUrl": "https://huggingface.co"
+      "affiliateUrl": "https://huggingface.co"
     },
     {
       "id": "ai-smartbids-ai",
@@ -316,8 +324,7 @@
       "logoUrl": "/logos/smartbids-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://smartbids.ai",
-      "websiteUrl": "https://smartbids.ai"
+      "affiliateUrl": "https://smartbids.ai"
     },
     {
       "id": "ai-qwen-image-2-1",
@@ -335,8 +342,7 @@
       "logoUrl": "/logos/qwen-image-2-1.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/Qwen/Qwen-Image-2.1",
-      "websiteUrl": "https://qwenlm.ai"
+      "affiliateUrl": "https://huggingface.co/spaces/Qwen/Qwen-Image-2.1"
     },
     {
       "id": "ai-neuron-studio",
@@ -354,8 +360,7 @@
       "logoUrl": "/logos/neuron-studio.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/webml-community/neuron-studio",
-      "websiteUrl": "https://neuronstudio.ai"
+      "affiliateUrl": "https://huggingface.co/spaces/webml-community/neuron-studio"
     },
     {
       "id": "ai-marketingblocks-ai",
@@ -373,8 +378,7 @@
       "logoUrl": "/logos/marketingblocks-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://jvz2.com/c/2754055/389716",
-      "websiteUrl": "https://marketingblocks.ai"
+      "affiliateUrl": "https://jvz2.com/c/2754055/389716"
     },
     {
       "id": "ai-neuronwriter",
@@ -392,8 +396,7 @@
       "logoUrl": "/logos/neuronwriter.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://neuronwriter.com",
-      "websiteUrl": "https://neuronwriter.com"
+      "affiliateUrl": "https://neuronwriter.com"
     },
     {
       "id": "ai-minimax-h3",
@@ -411,8 +414,7 @@
       "logoUrl": "/logos/minimax-h3.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/wank3r/minimax-h3",
-      "websiteUrl": "https://minimax.io"
+      "affiliateUrl": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
       "id": "ai-sheetai",
@@ -430,8 +432,7 @@
       "logoUrl": "/logos/sheetai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://sheetai.app",
-      "websiteUrl": "https://sheetai.app"
+      "affiliateUrl": "https://sheetai.app"
     },
     {
       "id": "ai-floot-payments",
@@ -449,8 +450,7 @@
       "logoUrl": "/logos/floot-payments.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://floot.com/?ref=locagocreative",
-      "websiteUrl": "https://floot.com"
+      "affiliateUrl": "https://www.producthunt.com/products/floot"
     },
     {
       "id": "ai-email-helper",
@@ -468,8 +468,7 @@
       "logoUrl": "/logos/email-helper.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://email-helper.vercel.app",
-      "websiteUrl": "https://emailhelper.ai"
+      "affiliateUrl": "https://email-helper.vercel.app"
     },
     {
       "id": "ai-lfm3-omni-2b-webgpu",
@@ -487,8 +486,7 @@
       "logoUrl": "/logos/lfm3-omni-2b-webgpu.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/LiquidAI/LFM3-Omni-2B-WebGPU",
-      "websiteUrl": "https://liquid.ai"
+      "affiliateUrl": "https://huggingface.co/spaces/LiquidAI/LFM3-Omni-2B-WebGPU"
     },
     {
       "id": "ai-resum",
@@ -506,8 +504,7 @@
       "logoUrl": "/logos/resum.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://resum.ai/?ref=locagocreative",
-      "websiteUrl": "https://resum.ai"
+      "affiliateUrl": "https://www.producthunt.com/products/resum"
     },
     {
       "id": "ai-fasth3-omni",
@@ -525,8 +522,7 @@
       "logoUrl": "/logos/fasth3-omni.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/FastVideo/FastH3-Omni",
-      "websiteUrl": "https://h3.ai"
+      "affiliateUrl": "https://huggingface.co/spaces/FastVideo/FastH3-Omni"
     },
     {
       "id": "ai-qwen-edit-image",
@@ -544,8 +540,7 @@
       "logoUrl": "/logos/qwen-edit-image.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE",
-      "websiteUrl": "https://qwenlm.ai"
+      "affiliateUrl": "https://huggingface.co/spaces/kulkas2pintu/QWEN_EDIT_IMAGE"
     },
     {
       "id": "ai-gpt2markdown",
@@ -563,8 +558,7 @@
       "logoUrl": "/logos/gpt2markdown.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://chrome.google.com/webstore/detail/gpt2markdown/mlfimpibamecbdnofjnbkjomeieclnjl",
-      "websiteUrl": "https://gpt2markdown.com"
+      "affiliateUrl": "https://chrome.google.com/webstore/detail/gpt2markdown/mlfimpibamecbdnofjnbkjomeieclnjl"
     },
     {
       "id": "ai-hairdeck",
