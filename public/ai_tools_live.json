@@ -1,7 +1,25 @@
 {
-  "updatedAt": "06 Nov 2026, 18:46 WIB",
-  "total": 141,
+  "updatedAt": "06 Nov 2026, 18:57 WIB",
+  "total": 142,
   "items": [
+    {
+      "id": "ai-nemotron-transcribe",
+      "name": "Nemotron Transcribe",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (42 Upvotes)",
+      "description": "Nemotron Transcribe adalah model dan aplikasi demo AI interaktif dari kreator nvidia di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/nemotron-transcribe.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/nvidia/nemotron-transcribe"
+    },
     {
       "id": "ai-wanaka-studio",
       "name": "Wanaka Studio",
