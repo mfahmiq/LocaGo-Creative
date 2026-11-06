@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 06:04 WIB",
-  "total": 165,
+  "updatedAt": "07 Nov 2026, 06:35 WIB",
+  "total": 166,
   "items": [
+    {
+      "id": "ai-beamfy",
+      "name": "Beamfy",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Beamfy - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Beamfy adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/beamfy.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/beamfy"
+    },
     {
       "id": "ai-illustroke",
       "name": "Illustroke",
