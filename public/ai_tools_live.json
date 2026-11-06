@@ -1,7 +1,25 @@
 {
-  "updatedAt": "06 Nov 2026, 17:46 WIB",
-  "total": 139,
+  "updatedAt": "06 Nov 2026, 18:16 WIB",
+  "total": 140,
   "items": [
+    {
+      "id": "ai-wan2-2-i2v-v3",
+      "name": "Wan2 2 I2V V3",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (211 Upvotes)",
+      "description": "Wan2 2 I2V V3 adalah model dan aplikasi demo AI interaktif dari kreator JCisHERE di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/wan2-2-i2v-v3.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/JCisHERE/wan2-2-i2v-v3"
+    },
     {
       "id": "ai-tellpip",
       "name": "TellPip",
