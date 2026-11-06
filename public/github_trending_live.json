@@ -1,5 +1,5 @@
 {
-  "updatedAt": "07 Nov 2026, 00:03 WIB",
+  "updatedAt": "07 Nov 2026, 01:03 WIB",
   "total": 18,
   "items": [
     {
@@ -38,7 +38,7 @@
       "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "oneSentencePitch": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "rank": 2,
-      "totalStars": "8.6k",
+      "totalStars": "8.7k",
       "starsToday": 2005,
       "starsGrowthText": "+2,005 stars today",
       "growthRate": "+2005 stars hari ini",
@@ -413,7 +413,7 @@
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "oneSentencePitch": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "rank": 17,
-      "totalStars": "63.3k",
+      "totalStars": "63.4k",
       "starsToday": 2524,
       "starsGrowthText": "+2,524 stars today",
       "growthRate": "+2524 stars hari ini",
@@ -438,7 +438,7 @@
       "description": "An extremely fast Python linter and code formatter, written in Rust.",
       "oneSentencePitch": "An extremely fast Python linter and code formatter, written in Rust.",
       "rank": 18,
-      "totalStars": "50.5k",
+      "totalStars": "50.6k",
       "starsToday": 107,
       "starsGrowthText": "+107 stars today",
       "growthRate": "+107 stars hari ini",

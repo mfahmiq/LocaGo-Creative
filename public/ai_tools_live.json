@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 00:33 WIB",
-  "total": 154,
+  "updatedAt": "07 Nov 2026, 01:03 WIB",
+  "total": 155,
   "items": [
+    {
+      "id": "ai-livereacting-for-chatgpt",
+      "name": "LiveReacting for ChatGPT",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "LiveReacting for ChatGPT - Produk AI Baru Terpilih di Product Hunt",
+      "description": "LiveReacting for ChatGPT adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/livereacting-for-chatgpt.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/livereacting"
+    },
     {
       "id": "ai-motionbricks-playground",
       "name": "Motionbricks Playground",
