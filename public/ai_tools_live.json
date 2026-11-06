@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 00:03 WIB",
-  "total": 153,
+  "updatedAt": "07 Nov 2026, 00:33 WIB",
+  "total": 154,
   "items": [
+    {
+      "id": "ai-motionbricks-playground",
+      "name": "Motionbricks Playground",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (29 Upvotes)",
+      "description": "Motionbricks Playground adalah model dan aplikasi demo AI interaktif dari kreator townbox di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/motionbricks-playground.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/townbox/motionbricks-playground"
+    },
     {
       "id": "ai-cardpointers-8",
       "name": "CardPointers 8",
