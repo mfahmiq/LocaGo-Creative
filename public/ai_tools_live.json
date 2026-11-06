@@ -1,7 +1,25 @@
 {
-  "updatedAt": "06 Nov 2026, 20:27 WIB",
-  "total": 145,
+  "updatedAt": "06 Nov 2026, 20:57 WIB",
+  "total": 146,
   "items": [
+    {
+      "id": "ai-qwen-image-2-1-uncensored-aio-loras",
+      "name": "Qwen Image 2.1 Uncensored Aio Loras",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (80 Upvotes)",
+      "description": "Qwen Image 2.1 Uncensored Aio Loras adalah model dan aplikasi demo AI interaktif dari kreator Guaryn di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/qwen-image-2-1-uncensored-aio-loras.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/Guaryn/qwen-image-2.1-uncensored-aio-loras"
+    },
     {
       "id": "ai-obituary-writer",
       "name": "Obituary Writer",
