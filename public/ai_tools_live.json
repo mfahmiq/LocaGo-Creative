@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 03:04 WIB",
-  "total": 159,
+  "updatedAt": "07 Nov 2026, 03:34 WIB",
+  "total": 160,
   "items": [
+    {
+      "id": "ai-hoppy-copy",
+      "name": "Hoppy Copy",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Hoppy Copy - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "AI-powered email and ad copywriting tool",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/hoppy-copy.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://hoppycopy.co"
+    },
     {
       "id": "ai-bookabout",
       "name": "BookAbout",
