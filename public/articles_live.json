@@ -1,7 +1,24 @@
 {
-  "updatedAt": "06 Nov 2026, 17:00 WIB",
-  "total": 19,
+  "updatedAt": "06 Nov 2026, 17:31 WIB",
+  "total": 20,
   "items": [
+    {
+      "id": "art-120",
+      "title": "10 Prompt Engineering Tingkat Lanjut untuk Menghasilkan Source Code Bebas Bug di Cursor & Claude",
+      "slug": "10-prompt-engineering-tingkat-lanjut-cursor-claude",
+      "language": "id",
+      "category": "Coding & AI",
+      "excerpt": "Kumpulan framework prompt (SPEC-First, Inverted Review, Role Scoping, dan Strict Boundary) yang wajib digunakan programmer profesional agar hasil koding AI siap produksi.",
+      "content": "# 10 Prompt Engineering Tingkat Lanjut untuk Menghasilkan Source Code Bebas Bug di Cursor & Claude\n\nKumpulan framework prompt (SPEC-First, Inverted Review, Role Scoping, dan Strict Boundary) yang wajib digunakan programmer profesional agar hasil koding AI siap produksi.\n\n## 1. Analisis & Latar Belakang Masalah\nDi era revolusi kecerdasan buatan, efisiensi eksekusi dan kecepatan implementasi adalah pembeda utama antara produk yang berhasil dan yang gagal di pasar.\n\n## 2. Arsitektur Teknis & Panduan Implementasi\nImplementasi alur kerja modern membutuhkan integrasi yang erat antara automasi backend, keandalan database, dan validasi data terstruktur.\n\n## 3. Komparasi dan Evaluasi Benchmark\nBerdasarkan pengujian nyata di lingkungan produksi, alur kerja ini terbukti mampu memangkas waktu kerja hingga 70% dan menghemat biaya operasional bulanan secara drastis.\n\n## 4. Kesimpulan & Rekomendasi Solusi\nGunakan tools yang tepat untuk mempercepat alur kerja bisnismu. Pantau terus update harian di locagocreative.my.id.",
+      "cover": "/banners/gemini/art_10_prompt_engineering_tin.webp",
+      "affiliateTools": [
+        "Cursor",
+        "Claude Code",
+        "Bolt.new"
+      ],
+      "readTime": "10 menit baca",
+      "date": "06 Nov 2026"
+    },
     {
       "id": "art-119",
       "title": "Otomasi Lead Generation B2B: Cara Menemukan 500 Kontak Bisnis Valid Tiap Jam Tanpa Capek",
