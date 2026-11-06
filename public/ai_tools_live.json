@@ -1,7 +1,25 @@
 {
-  "updatedAt": "06 Nov 2026, 17:16 WIB",
-  "total": 138,
+  "updatedAt": "06 Nov 2026, 17:46 WIB",
+  "total": 139,
   "items": [
+    {
+      "id": "ai-tellpip",
+      "name": "TellPip",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "TellPip - Produk AI Baru Terpilih di Product Hunt",
+      "description": "TellPip adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/tellpip.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/tellpip"
+    },
     {
       "id": "ai-qwen-image-21-uncensored",
       "name": "Qwen Image 21 Uncensored",
