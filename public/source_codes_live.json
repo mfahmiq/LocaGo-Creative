@@ -1,5 +1,5 @@
 {
-  "updatedAt": "06 Nov 2026, 19:35 WIB",
+  "updatedAt": "06 Nov 2026, 19:00 WIB",
   "total": 33,
   "items": [
     {
@@ -40,8 +40,8 @@
       ],
       "description": "Aplikasi pencatatan aset inventaris perusahaan, penomoran label QR code otomatis, pelacakan lokasi ruangan aset, dan riwayat pemeliharaan berkala.",
       "shortDesc": "Sistem pelacakan aset kantor dengan scan QR code, penanggung jawab ruangan, dan jadwal maintenance rutin.",
-      "thumbnail": "/banners/gemini/banner_pos_toko.webp",
-      "image": "/banners/gemini/banner_pos_toko.webp",
+      "thumbnail": "/banners/gemini/sc_inventaris_aset_kantor.webp",
+      "image": "/banners/gemini/sc_inventaris_aset_kantor.webp",
       "downloadsCount": 485,
       "rating": 4.9,
       "isPopular": true,
@@ -240,8 +240,8 @@
       ],
       "description": "Sistem kasir laundry otomatis dengan tracking status pakaian (cuci, kering, setrika, siap ambil) dan kirim nota digital otomatis via WhatsApp gateway.",
       "shortDesc": "Aplikasi kasir laundry kiloan & satuan lengkap dengan nota WhatsApp otomatis dan pelacakan status cucian.",
-      "thumbnail": "/banners/gemini/banner_pos_toko.webp",
-      "image": "/banners/gemini/banner_pos_toko.webp",
+      "thumbnail": "/banners/gemini/sc_laundry_kiloan_satuan.webp",
+      "image": "/banners/gemini/sc_laundry_kiloan_satuan.webp",
       "downloadsCount": 765,
       "rating": 4.95,
       "isPopular": false,
