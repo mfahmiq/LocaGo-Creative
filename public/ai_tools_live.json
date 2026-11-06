@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 04:04 WIB",
-  "total": 161,
+  "updatedAt": "07 Nov 2026, 04:34 WIB",
+  "total": 162,
   "items": [
+    {
+      "id": "ai-pika-h3-flex",
+      "name": "Pika H3 Flex",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (60 Upvotes)",
+      "description": "Pika H3 Flex adalah model dan aplikasi demo AI interaktif dari kreator Pika-Labs di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/pika-h3-flex.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/Pika-Labs/pika-h3-flex"
+    },
     {
       "id": "ai-lidcommit",
       "name": "LidCommit",
