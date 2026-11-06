@@ -1,535 +1,104 @@
 {
-  "updatedAt": "04 Nov 2026, 12:55 WIB",
-  "total": 23,
+  "updatedAt": "06 Nov 2026, 17:00 WIB",
+  "total": 27,
   "items": [
     {
-      "id": "sc-1",
-      "title": "Kasir Toko Kelontong UMKM",
-      "slug": "kasir-toko-kelontong-umkm",
-      "category": "PHP & Laravel",
+      "id": "sc-27",
+      "title": "Sistem Reservasi Meja Restoran & Order Menu QR",
+      "slug": "reservasi-meja-restoran-order-qr",
+      "category": "Vue & Nuxt",
       "techStack": [
-        "PHP 8.2",
-        "MySQL",
-        "Bootstrap 5"
+        "Nuxt 3",
+        "Vue 3",
+        "Supabase",
+        "TailwindCSS"
       ],
-      "description": "Aplikasi POS kasir ritel toko kelontong UMKM lengkap dengan pencatatan stok barang, barcode scanner webcam, dan fitur cetak struk kirim langsung via WhatsApp.",
-      "shortDesc": "Aplikasi POS kasir ritel toko kelontong UMKM lengkap dengan pencatatan stok barang, barcode scanner webcam, dan fitur ce...",
-      "thumbnail": "/banners/gemini/banner_pos_toko.webp",
-      "image": "/banners/gemini/banner_pos_toko.webp",
+      "description": "Sistem restoran modern di mana pelanggan bisa scan QR code di meja untuk memesan makanan langsung ke layar dapur (Kitchen Display System) tanpa instal aplikasi.",
+      "shortDesc": "Aplikasi order menu makanan via QR code meja restoran dengan integrasi Kitchen Display System langsung ke koki.",
+      "thumbnail": "/banners/gemini/sc_reservasi_meja_restoran_o.webp",
+      "image": "/banners/gemini/sc_reservasi_meja_restoran_o.webp",
       "downloadsCount": 450,
-      "rating": 4.9,
+      "rating": 4.94,
       "isPopular": true,
       "isFree": true,
       "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
+      "databaseType": "Supabase PostgreSQL",
       "fileSize": "16.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas zip ke web server lokal Anda.",
-        "Import file database .sql ke phpMyAdmin.",
-        "Konfigurasi koneksi database di file .env atau config.php.",
-        "Jalankan aplikasi di browser dan gunakan akun admin default."
-      ],
-      "keyFeatures": [
-        "Desain UI responsif dan clean",
-        "Manajemen hak akses role terpisah",
-        "Laporan dan ekspor data otomatis"
-      ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
       "downloadUrlFast": "https://lynk.id/dwollopus"
     },
     {
-      "id": "sc-10",
-      "title": "POS Kasir Ritel Multi-Cabang",
-      "slug": "pos-kasir-ritel-multi-cabang",
-      "category": "PHP & Laravel",
+      "id": "sc-26",
+      "title": "Portal Penggajian Karyawan & Slip Gaji PDF Otomatis",
+      "slug": "portal-penggajian-slip-gaji-pdf",
+      "category": "Python & Flask",
       "techStack": [
-        "PHP 8.2",
-        "Tailwind CSS",
-        "Struk WA"
+        "Python 3.12",
+        "Flask",
+        "SQLite",
+        "ReportLab PDF"
       ],
-      "description": "Aplikasi Point of Sale layar sentuh kasir toko dengan barcode scanner instan, manajemen stok multi-outlet, dan pengiriman invoice PDF ke nomor WhatsApp pembeli.",
-      "shortDesc": "Aplikasi Point of Sale layar sentuh kasir toko dengan barcode scanner instan, manajemen stok multi-outlet, dan pengirima...",
-      "thumbnail": "/banners/gemini/banner_pos_ritel.webp",
-      "image": "/banners/gemini/banner_pos_ritel.webp",
+      "description": "Sistem payroll otomatis dengan kalkulasi BPJS, PPh 21, lembur, absensi, dan pengiriman berkas slip gaji PDF ber-password ke email masing-masing karyawan.",
+      "shortDesc": "Aplikasi payroll dan penggajian karyawan otomatis dengan perhitungan pajak PPh 21 dan generate slip gaji PDF terenkripsi.",
+      "thumbnail": "/banners/gemini/sc_portal_penggajian_slip_ga.webp",
+      "image": "/banners/gemini/sc_portal_penggajian_slip_ga.webp",
       "downloadsCount": 485,
-      "rating": 4.9,
+      "rating": 4.96,
       "isPopular": true,
       "isFree": true,
       "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
+      "databaseType": "SQLite / MySQL",
       "fileSize": "16.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas zip ke web server lokal Anda.",
-        "Import file database .sql ke phpMyAdmin.",
-        "Konfigurasi koneksi database di file .env atau config.php.",
-        "Jalankan aplikasi di browser dan gunakan akun admin default."
-      ],
-      "keyFeatures": [
-        "Desain UI responsif dan clean",
-        "Manajemen hak akses role terpisah",
-        "Laporan dan ekspor data otomatis"
-      ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
       "downloadUrlFast": "https://lynk.id/dwollopus"
     },
     {
-      "id": "sc-11",
-      "title": "Aplikasi Kasir Apotek & Stok Obat",
-      "slug": "kasir-apotek-stok-obat",
+      "id": "sc-25",
+      "title": "Aplikasi Kasir Bengkel Motor & Servis Kendaraan",
+      "slug": "kasir-bengkel-motor-servis",
+      "category": "React & Node.js",
+      "techStack": [
+        "React 19",
+        "Express.js",
+        "PostgreSQL",
+        "TailwindCSS"
+      ],
+      "description": "Aplikasi pencatatan servis motor, riwayat kilometer kendaraan, stok suku cadang, dan reminder ganti oli otomatis ke nomor WhatsApp pelanggan.",
+      "shortDesc": "Sistem manajemen bengkel motor dengan riwayat servis, inventaris sparepart, dan reminder ganti oli otomatis.",
+      "thumbnail": "/banners/gemini/sc_kasir_bengkel_motor_servi.webp",
+      "image": "/banners/gemini/sc_kasir_bengkel_motor_servi.webp",
+      "downloadsCount": 520,
+      "rating": 4.92,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "PostgreSQL (.sql)",
+      "fileSize": "16.4 MB",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-24",
+      "title": "Sistem Informasi Manajemen Laundry Kiloan & Satuan",
+      "slug": "manajemen-laundry-kiloan-satuan",
       "category": "PHP & Laravel",
       "techStack": [
         "Laravel 11",
         "MySQL",
-        "Struk Thermal"
+        "TailwindCSS",
+        "WhatsApp API"
       ],
-      "description": "Sistem informasi manajemen apotek dan kasir penjualan obat lengkap dengan peringatan tanggal kadaluarsa (expired date), stok minimum otomatis, dan cetak struk kasir.",
-      "shortDesc": "Sistem informasi manajemen apotek dan kasir penjualan obat lengkap dengan peringatan tanggal kadaluarsa (expired date), ...",
+      "description": "Sistem kasir laundry otomatis dengan tracking status pakaian (cuci, kering, setrika, siap ambil) dan kirim nota digital otomatis via WhatsApp gateway.",
+      "shortDesc": "Aplikasi kasir laundry kiloan & satuan lengkap dengan nota WhatsApp otomatis dan pelacakan status cucian.",
       "thumbnail": "/banners/gemini/banner_pos_toko.webp",
       "image": "/banners/gemini/banner_pos_toko.webp",
-      "downloadsCount": 520,
-      "rating": 4.9,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "16.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas zip ke web server lokal Anda.",
-        "Import file database .sql ke phpMyAdmin.",
-        "Konfigurasi koneksi database di file .env atau config.php.",
-        "Jalankan aplikasi di browser dan gunakan akun admin default."
-      ],
-      "keyFeatures": [
-        "Desain UI responsif dan clean",
-        "Manajemen hak akses role terpisah",
-        "Laporan dan ekspor data otomatis"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
-    },
-    {
-      "id": "sc-12",
-      "title": "Sistem Booking Jadwal Barbershop & Salon",
-      "slug": "booking-barbershop-salon",
-      "category": "Next.js & React",
-      "techStack": [
-        "Next.js 14",
-        "Tailwind",
-        "WhatsApp API"
-      ],
-      "description": "Platform reservasi online jam potong rambut dan perawatan salon dengan kalender interaktif, pilihan kapster favorit, dan konfirmasi WhatsApp otomatis ke pelanggan.",
-      "shortDesc": "Platform reservasi online jam potong rambut dan perawatan salon dengan kalender interaktif, pilihan kapster favorit, dan...",
-      "thumbnail": "/banners/gemini/banner_katalog_umkm.webp",
-      "image": "/banners/gemini/banner_katalog_umkm.webp",
       "downloadsCount": 555,
-      "rating": 4.9,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "SQLite",
-      "fileSize": "16.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas zip ke web server lokal Anda.",
-        "Import file database .sql ke phpMyAdmin.",
-        "Konfigurasi koneksi database di file .env atau config.php.",
-        "Jalankan aplikasi di browser dan gunakan akun admin default."
-      ],
-      "keyFeatures": [
-        "Desain UI responsif dan clean",
-        "Manajemen hak akses role terpisah",
-        "Laporan dan ekspor data otomatis"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
-    },
-    {
-      "id": "sc-13",
-      "title": "Bot WhatsApp Auto-Forward Pesan Grup",
-      "slug": "bot-wa-auto-forward",
-      "category": "Python & AI",
-      "techStack": [
-        "Python 3.11",
-        "Baileys",
-        "SQLite"
-      ],
-      "description": "Skrip otomasi penerusan pesan otomatis antar channel dan grup WhatsApp bisnis dengan filter kata kunci terlarang dan penggantian link affiliate secara dinamis.",
-      "shortDesc": "Skrip otomasi penerusan pesan otomatis antar channel dan grup WhatsApp bisnis dengan filter kata kunci terlarang dan pen...",
-      "thumbnail": "/banners/gemini/banner_bot_wa.webp",
-      "image": "/banners/gemini/banner_bot_wa.webp",
-      "downloadsCount": 590,
-      "rating": 4.9,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "SQLite",
-      "fileSize": "16.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas zip ke web server lokal Anda.",
-        "Import file database .sql ke phpMyAdmin.",
-        "Konfigurasi koneksi database di file .env atau config.php.",
-        "Jalankan aplikasi di browser dan gunakan akun admin default."
-      ],
-      "keyFeatures": [
-        "Desain UI responsif dan clean",
-        "Manajemen hak akses role terpisah",
-        "Laporan dan ekspor data otomatis"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
-    },
-    {
-      "id": "sc-14",
-      "title": "Portal Pengaduan Warga Desa (E-Lapor)",
-      "slug": "portal-pengaduan-desa",
-      "category": "PHP & Laravel",
-      "techStack": [
-        "PHP 8.2",
-        "Bootstrap 5",
-        "MySQL"
-      ],
-      "description": "Aplikasi layanan aspirasi dan pengaduan masyarakat desa dengan bukti foto lokasi, tracking nomor tiket keluhan, dan disposisi langsung ke kepala seksi.",
-      "shortDesc": "Aplikasi layanan aspirasi dan pengaduan masyarakat desa dengan bukti foto lokasi, tracking nomor tiket keluhan, dan disp...",
-      "thumbnail": "/banners/gemini/banner_ams_surat.webp",
-      "image": "/banners/gemini/banner_ams_surat.webp",
-      "downloadsCount": 625,
-      "rating": 4.9,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "16.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas zip ke web server lokal Anda.",
-        "Import file database .sql ke phpMyAdmin.",
-        "Konfigurasi koneksi database di file .env atau config.php.",
-        "Jalankan aplikasi di browser dan gunakan akun admin default."
-      ],
-      "keyFeatures": [
-        "Desain UI responsif dan clean",
-        "Manajemen hak akses role terpisah",
-        "Laporan dan ekspor data otomatis"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
-    },
-    {
-      "id": "sc-15",
-      "title": "Dashboard Monitoring Suhu IoT ESP32",
-      "slug": "dashboard-monitoring-iot",
-      "category": "Python & AI",
-      "techStack": [
-        "FastAPI",
-        "WebSockets",
-        "Chart.js"
-      ],
-      "description": "Antarmuka pemantauan data sensor suhu, kelembaban, dan voltase listrik real-time via koneksi WebSocket dengan grafik interaktif 60 FPS dan alert bahaya.",
-      "shortDesc": "Antarmuka pemantauan data sensor suhu, kelembaban, dan voltase listrik real-time via koneksi WebSocket dengan grafik int...",
-      "thumbnail": "/banners/gemini/banner_billing_ps.webp",
-      "image": "/banners/gemini/banner_billing_ps.webp",
-      "downloadsCount": 660,
-      "rating": 4.9,
-      "isPopular": false,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "SQLite",
-      "fileSize": "16.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas zip ke web server lokal Anda.",
-        "Import file database .sql ke phpMyAdmin.",
-        "Konfigurasi koneksi database di file .env atau config.php.",
-        "Jalankan aplikasi di browser dan gunakan akun admin default."
-      ],
-      "keyFeatures": [
-        "Desain UI responsif dan clean",
-        "Manajemen hak akses role terpisah",
-        "Laporan dan ekspor data otomatis"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
-    },
-    {
-      "id": "sc-16",
-      "title": "Sistem Informasi Manajemen Kos & Kontrakan (SIMKOS)",
-      "slug": "simkos-manajemen-kos-kontrakan",
-      "category": "PHP & Laravel",
-      "techStack": [
-        "Laravel 11",
-        "MySQL",
-        "Tailwind CSS",
-        "WhatsApp Gateway"
-      ],
-      "description": "Aplikasi web pengelolaan kos-kosan dan kontrakan modern. Dilengkapi pencatatan penghuni, kamar, meteran listrik/air, cetak kuitansi PDF, dan notifikasi pengingat tagihan otomatis ke nomor WhatsApp penghuni sebelum tanggal jatuh tempo.",
-      "shortDesc": "Kelola kos-kosan, tagihan bulanan, dan auto-reminder WhatsApp penghuni secara otomatis.",
-      "thumbnail": "/banners/gemini/sc_kos_kontrakan.webp",
-      "image": "/banners/gemini/sc_kos_kontrakan.webp",
-      "downloadsCount": 695,
       "rating": 4.95,
-      "isPopular": false,
+      "isPopular": true,
       "isFree": true,
       "hasDatabase": true,
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas zip ke web server lokal Anda.",
-        "Import file database .sql ke phpMyAdmin.",
-        "Konfigurasi koneksi database di file .env atau config.php.",
-        "Jalankan aplikasi di browser dan gunakan akun admin default."
-      ],
-      "keyFeatures": [
-        "Desain UI responsif dan clean",
-        "Manajemen hak akses role terpisah",
-        "Laporan dan ekspor data otomatis"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
-    },
-    {
-      "id": "sc-17",
-      "title": "Aplikasi Presensi Karyawan GPS & Verifikasi Wajah Selfie",
-      "slug": "presensi-gps-selfie-karyawan",
-      "category": "PHP & Laravel",
-      "techStack": [
-        "Laravel 11",
-        "Leaflet.js GPS",
-        "Webcam.js",
-        "Bootstrap 5"
-      ],
-      "description": "Sistem presensi online berbasis mobile-web untuk karyawan lapangan dan kantor. Membatasi absensi hanya di dalam radius geofencing kantor yang ditentukan dan mewajibkan foto selfie langsung dari kamera ponsel untuk mencegah titip absen.",
-      "shortDesc": "Presensi mobile geofencing GPS anti titip-absen dengan foto selfie kamera realtime.",
-      "thumbnail": "/banners/gemini/sc_presensi_wajah.webp",
-      "image": "/banners/gemini/sc_presensi_wajah.webp",
-      "downloadsCount": 730,
-      "rating": 4.98,
-      "isPopular": false,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "16.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas zip ke web server lokal Anda.",
-        "Import file database .sql ke phpMyAdmin.",
-        "Konfigurasi koneksi database di file .env atau config.php.",
-        "Jalankan aplikasi di browser dan gunakan akun admin default."
-      ],
-      "keyFeatures": [
-        "Desain UI responsif dan clean",
-        "Manajemen hak akses role terpisah",
-        "Laporan dan ekspor data otomatis"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
-    },
-    {
-      "id": "sc-18",
-      "title": "Otomasi Invoice PDF Otomatis ke WhatsApp dari Google Sheet",
-      "slug": "otomasi-invoice-pdf-gas-whatsapp",
-      "category": "Google Apps Script",
-      "techStack": [
-        "Google Apps Script",
-        "Google Sheets",
-        "Google Docs Template",
-        "WhatsApp API"
-      ],
-      "description": "Skrip Google Apps Script siap pasang untuk toko online atau konsultan. Setiap kali ada baris transaksi baru di Google Sheet, script otomatis men-generate invoice PDF cantik berbasis template Google Docs lalu mengirimkannya langsung ke nomor WhatsApp pembeli via webhook.",
-      "shortDesc": "Generate invoice PDF dari baris Google Sheet lalu auto-kirim via WhatsApp dalam hitungan detik.",
-      "thumbnail": "/banners/gemini/sc_invoice_otomatis.webp",
-      "image": "/banners/gemini/sc_invoice_otomatis.webp",
-      "downloadsCount": 765,
-      "rating": 4.97,
-      "isPopular": false,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "Google Sheets",
-      "fileSize": "16.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas zip ke web server lokal Anda.",
-        "Import file database .sql ke phpMyAdmin.",
-        "Konfigurasi koneksi database di file .env atau config.php.",
-        "Jalankan aplikasi di browser dan gunakan akun admin default."
-      ],
-      "keyFeatures": [
-        "Desain UI responsif dan clean",
-        "Manajemen hak akses role terpisah",
-        "Laporan dan ekspor data otomatis"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
-    },
-    {
-      "id": "sc-19",
-      "title": "Multi-Tenant SaaS Starter Kit dengan Next.js 15, Supabase & Tailwind",
-      "slug": "multitenant-saas-starter-nextjs15-supabase",
-      "category": "Next.js & React",
-      "techStack": [
-        "Next.js 15 App Router",
-        "Supabase Auth & DB",
-        "Tailwind CSS",
-        "TypeScript"
-      ],
-      "description": "Boilerplate modern untuk membangun produk SaaS B2B Anda sendiri. Dilengkapi arsitektur multi-tenant (organisasi & tim), otentikasi SSR Supabase, manajemen role RBAC, proteksi middleware, dark mode, dan integrasi webhook pembayaran.",
-      "shortDesc": "Arsitektur boilerplate SaaS modern multi-organisasi dengan Next.js 15 dan Supabase siap produksi.",
-      "thumbnail": "/banners/gemini/sc_multitenant_saas.webp",
-      "image": "/banners/gemini/sc_multitenant_saas.webp",
-      "downloadsCount": 800,
-      "rating": 4.96,
-      "isPopular": false,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "PostgreSQL",
-      "fileSize": "16.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas zip ke web server lokal Anda.",
-        "Import file database .sql ke phpMyAdmin.",
-        "Konfigurasi koneksi database di file .env atau config.php.",
-        "Jalankan aplikasi di browser dan gunakan akun admin default."
-      ],
-      "keyFeatures": [
-        "Desain UI responsif dan clean",
-        "Manajemen hak akses role terpisah",
-        "Laporan dan ekspor data otomatis"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
-    },
-    {
-      "id": "sc-2",
-      "title": "Absensi Siswa QR Code GAS",
-      "slug": "absensi-siswa-qr-gas",
-      "category": "Google Apps Script",
-      "techStack": [
-        "Google Apps Script",
-        "Sheets",
-        "Fonnte WA"
-      ],
-      "description": "Sistem presensi guru & siswa berbasis scan kartu QR Code via kamera tablet atau laptop tanpa biaya server bulanan, terhubung otomatis ke notifikasi WhatsApp orang tua.",
-      "shortDesc": "Sistem presensi guru & siswa berbasis scan kartu QR Code via kamera tablet atau laptop tanpa biaya server bulanan, terhu...",
-      "thumbnail": "/banners/gemini/banner_absensi_gas.webp",
-      "image": "/banners/gemini/banner_absensi_gas.webp",
-      "downloadsCount": 835,
-      "rating": 4.9,
-      "isPopular": false,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "Google Sheets",
-      "fileSize": "16.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas zip ke web server lokal Anda.",
-        "Import file database .sql ke phpMyAdmin.",
-        "Konfigurasi koneksi database di file .env atau config.php.",
-        "Jalankan aplikasi di browser dan gunakan akun admin default."
-      ],
-      "keyFeatures": [
-        "Desain UI responsif dan clean",
-        "Manajemen hak akses role terpisah",
-        "Laporan dan ekspor data otomatis"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
-    },
-    {
-      "id": "sc-20",
-      "title": "Bot WhatsApp Customer Service Cerdas dengan Gemini 1.5 Flash & RAG",
-      "slug": "bot-whatsapp-gemini-ai-rag-python",
-      "category": "Python & AI",
-      "techStack": [
-        "Python 3.11",
-        "Google Gemini 1.5 Flash",
-        "ChromaDB",
-        "Flask Webhook"
-      ],
-      "description": "Source code bot WhatsApp customer service berbasis Python yang mampu membaca file PDF katalog produk atau FAQ perusahaan Anda (RAG). Bot menjawab pertanyaan pelanggan secara sopan, cepat, dan akurat 24 jam tanpa halusinasi.",
-      "shortDesc": "Bot CS WhatsApp cerdas 24/7 yang menjawab berdasarkan dokumen katalog Anda via Google Gemini.",
-      "thumbnail": "/banners/gemini/sc_bot_cs_gemini.webp",
-      "image": "/banners/gemini/sc_bot_cs_gemini.webp",
-      "downloadsCount": 870,
-      "rating": 4.99,
-      "isPopular": false,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "SQLite",
-      "fileSize": "16.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas zip ke web server lokal Anda.",
-        "Import file database .sql ke phpMyAdmin.",
-        "Konfigurasi koneksi database di file .env atau config.php.",
-        "Jalankan aplikasi di browser dan gunakan akun admin default."
-      ],
-      "keyFeatures": [
-        "Desain UI responsif dan clean",
-        "Manajemen hak akses role terpisah",
-        "Laporan dan ekspor data otomatis"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
-    },
-    {
-      "id": "sc-21",
-      "title": "Sistem Antrean Klinik & Suara Pemanggil AI Otomatis",
-      "slug": "sistem-antrean-klinik-suara-ai",
-      "category": "PHP & Laravel",
-      "techStack": [
-        "PHP 8.2",
-        "MySQL",
-        "Responsive Web Voice API",
-        "Tailwind CSS"
-      ],
-      "description": "Aplikasi antrean multi-loket untuk klinik kesehatan, apotek, atau bank. Dilengkapi layar display monitor untuk ruang tunggu dengan suara panggilan otomatis berbahasa Indonesia (contoh: 'Nomor Antrean A-15 menuju Loket 2'), serta cetak nomor antrean printer thermal.",
-      "shortDesc": "Display antrean layar monitor dan panggilan suara vokal natural untuk klinik & kantor layanan.",
-      "thumbnail": "/banners/gemini/sc_antrean_klinik.webp",
-      "image": "/banners/gemini/sc_antrean_klinik.webp",
-      "downloadsCount": 905,
-      "rating": 4.94,
-      "isPopular": false,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "16.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas zip ke web server lokal Anda.",
-        "Import file database .sql ke phpMyAdmin.",
-        "Konfigurasi koneksi database di file .env atau config.php.",
-        "Jalankan aplikasi di browser dan gunakan akun admin default."
-      ],
-      "keyFeatures": [
-        "Desain UI responsif dan clean",
-        "Manajemen hak akses role terpisah",
-        "Laporan dan ekspor data otomatis"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
-    },
-    {
-      "id": "sc-22",
-      "title": "CRM Follow-Up Pelanggan Otomatis via Google Sheets & WhatsApp",
-      "slug": "crm-followup-pelanggan-gas-whatsapp",
-      "category": "Google Apps Script",
-      "techStack": [
-        "Google Apps Script",
-        "Google Sheets",
-        "Fonnte / Waha API"
-      ],
-      "description": "Sistem CRM sederhana namun powerful berbasis spreadsheet. Menghitung jadwal follow up prospek secara otomatis (H+1 setelah tanya harga, H+3 penawaran diskon, H+7 edukasi manfaat) dan mengirim pesan terpersonalisasi secara otomatis setiap pagi.",
-      "shortDesc": "Otomasi jadwal follow up leads dan pesan terpersonalisasi langsung dari Google Sheet.",
-      "thumbnail": "/banners/gemini/sc_crm_sheets_wa.webp",
-      "image": "/banners/gemini/sc_crm_sheets_wa.webp",
-      "downloadsCount": 940,
-      "rating": 4.97,
-      "isPopular": false,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "Google Sheets",
-      "fileSize": "16.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas zip ke web server lokal Anda.",
-        "Import file database .sql ke phpMyAdmin.",
-        "Konfigurasi koneksi database di file .env atau config.php.",
-        "Jalankan aplikasi di browser dan gunakan akun admin default."
-      ],
-      "keyFeatures": [
-        "Desain UI responsif dan clean",
-        "Manajemen hak akses role terpisah",
-        "Laporan dan ekspor data otomatis"
-      ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
       "downloadUrlFast": "https://lynk.id/dwollopus"
     },
@@ -548,24 +117,235 @@
       "shortDesc": "Render otomatis video pendek format 9:16 lengkap dengan voiceover dan subtitle karaoke animasi.",
       "thumbnail": "/banners/gemini/sc_video_generator.webp",
       "image": "/banners/gemini/sc_video_generator.webp",
-      "downloadsCount": 975,
+      "downloadsCount": 590,
       "rating": 4.96,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "SQLite",
+      "fileSize": "16.4 MB",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-22",
+      "title": "CRM Follow-Up Pelanggan Otomatis via Google Sheets & WhatsApp",
+      "slug": "crm-followup-pelanggan-gas-whatsapp",
+      "category": "Google Apps Script",
+      "techStack": [
+        "Google Apps Script",
+        "Google Sheets",
+        "Fonnte / Waha API"
+      ],
+      "description": "Sistem CRM sederhana namun powerful berbasis spreadsheet. Menghitung jadwal follow up prospek secara otomatis (H+1 setelah tanya harga, H+3 penawaran diskon, H+7 edukasi manfaat) dan mengirim pesan terpersonalisasi secara otomatis setiap pagi.",
+      "shortDesc": "Otomasi jadwal follow up leads dan pesan terpersonalisasi langsung dari Google Sheet.",
+      "thumbnail": "/banners/gemini/sc_crm_sheets_wa.webp",
+      "image": "/banners/gemini/sc_crm_sheets_wa.webp",
+      "downloadsCount": 625,
+      "rating": 4.97,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "Google Sheets",
+      "fileSize": "16.4 MB",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-21",
+      "title": "Sistem Antrean Klinik & Suara Pemanggil AI Otomatis",
+      "slug": "sistem-antrean-klinik-suara-ai",
+      "category": "PHP & Laravel",
+      "techStack": [
+        "PHP 8.2",
+        "MySQL",
+        "Responsive Web Voice API",
+        "Tailwind CSS"
+      ],
+      "description": "Aplikasi antrean multi-loket untuk klinik kesehatan, apotek, atau bank. Dilengkapi layar display monitor untuk ruang tunggu dengan suara panggilan otomatis berbahasa Indonesia (contoh: 'Nomor Antrean A-15 menuju Loket 2'), serta cetak nomor antrean printer thermal.",
+      "shortDesc": "Display antrean layar monitor dan panggilan suara vokal natural untuk klinik & kantor layanan.",
+      "thumbnail": "/banners/gemini/sc_antrean_klinik.webp",
+      "image": "/banners/gemini/sc_antrean_klinik.webp",
+      "downloadsCount": 660,
+      "rating": 4.94,
+      "isPopular": false,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "16.4 MB",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-20",
+      "title": "Bot WhatsApp Customer Service Cerdas dengan Gemini 1.5 Flash & RAG",
+      "slug": "bot-whatsapp-gemini-ai-rag-python",
+      "category": "Python & AI",
+      "techStack": [
+        "Python 3.11",
+        "Google Gemini 1.5 Flash",
+        "ChromaDB",
+        "Flask Webhook"
+      ],
+      "description": "Source code bot WhatsApp customer service berbasis Python yang mampu membaca file PDF katalog produk atau FAQ perusahaan Anda (RAG). Bot menjawab pertanyaan pelanggan secara sopan, cepat, dan akurat 24 jam tanpa halusinasi.",
+      "shortDesc": "Bot CS WhatsApp cerdas 24/7 yang menjawab berdasarkan dokumen katalog Anda via Google Gemini.",
+      "thumbnail": "/banners/gemini/sc_bot_cs_gemini.webp",
+      "image": "/banners/gemini/sc_bot_cs_gemini.webp",
+      "downloadsCount": 695,
+      "rating": 4.99,
       "isPopular": false,
       "isFree": true,
       "hasDatabase": true,
       "databaseType": "SQLite",
       "fileSize": "16.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas zip ke web server lokal Anda.",
-        "Import file database .sql ke phpMyAdmin.",
-        "Konfigurasi koneksi database di file .env atau config.php.",
-        "Jalankan aplikasi di browser dan gunakan akun admin default."
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-19",
+      "title": "Multi-Tenant SaaS Starter Kit dengan Next.js 15, Supabase & Tailwind",
+      "slug": "multitenant-saas-starter-nextjs15-supabase",
+      "category": "Next.js & React",
+      "techStack": [
+        "Next.js 15 App Router",
+        "Supabase Auth & DB",
+        "Tailwind CSS",
+        "TypeScript"
       ],
-      "keyFeatures": [
-        "Desain UI responsif dan clean",
-        "Manajemen hak akses role terpisah",
-        "Laporan dan ekspor data otomatis"
+      "description": "Boilerplate modern untuk membangun produk SaaS B2B Anda sendiri. Dilengkapi arsitektur multi-tenant (organisasi & tim), otentikasi SSR Supabase, manajemen role RBAC, proteksi middleware, dark mode, dan integrasi webhook pembayaran.",
+      "shortDesc": "Arsitektur boilerplate SaaS modern multi-organisasi dengan Next.js 15 dan Supabase siap produksi.",
+      "thumbnail": "/banners/gemini/sc_multitenant_saas.webp",
+      "image": "/banners/gemini/sc_multitenant_saas.webp",
+      "downloadsCount": 730,
+      "rating": 4.96,
+      "isPopular": false,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "PostgreSQL",
+      "fileSize": "16.4 MB",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-16",
+      "title": "Sistem Informasi Manajemen Kos & Kontrakan (SIMKOS)",
+      "slug": "simkos-manajemen-kos-kontrakan",
+      "category": "PHP & Laravel",
+      "techStack": [
+        "Laravel 11",
+        "MySQL",
+        "Tailwind CSS",
+        "WhatsApp Gateway"
       ],
+      "description": "Aplikasi web pengelolaan kos-kosan dan kontrakan modern. Dilengkapi pencatatan penghuni, kamar, meteran listrik/air, cetak kuitansi PDF, dan notifikasi pengingat tagihan otomatis ke nomor WhatsApp penghuni sebelum tanggal jatuh tempo.",
+      "shortDesc": "Kelola kos-kosan, tagihan bulanan, dan auto-reminder WhatsApp penghuni secara otomatis.",
+      "thumbnail": "/banners/gemini/sc_kos_kontrakan.webp",
+      "image": "/banners/gemini/sc_kos_kontrakan.webp",
+      "downloadsCount": 765,
+      "rating": 4.95,
+      "isPopular": false,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "16.4 MB",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-17",
+      "title": "Aplikasi Presensi Karyawan GPS & Verifikasi Wajah Selfie",
+      "slug": "presensi-gps-selfie-karyawan",
+      "category": "PHP & Laravel",
+      "techStack": [
+        "Laravel 11",
+        "Leaflet.js GPS",
+        "Webcam.js",
+        "Bootstrap 5"
+      ],
+      "description": "Sistem presensi online berbasis mobile-web untuk karyawan lapangan dan kantor. Membatasi absensi hanya di dalam radius geofencing kantor yang ditentukan dan mewajibkan foto selfie langsung dari kamera ponsel untuk mencegah titip absen.",
+      "shortDesc": "Presensi mobile geofencing GPS anti titip-absen dengan foto selfie kamera realtime.",
+      "thumbnail": "/banners/gemini/sc_presensi_wajah.webp",
+      "image": "/banners/gemini/sc_presensi_wajah.webp",
+      "downloadsCount": 800,
+      "rating": 4.98,
+      "isPopular": false,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "16.4 MB",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-18",
+      "title": "Otomasi Invoice PDF Otomatis ke WhatsApp dari Google Sheet",
+      "slug": "otomasi-invoice-pdf-gas-whatsapp",
+      "category": "Google Apps Script",
+      "techStack": [
+        "Google Apps Script",
+        "Google Sheets",
+        "Google Docs Template",
+        "WhatsApp API"
+      ],
+      "description": "Skrip Google Apps Script siap pasang untuk toko online atau konsultan. Setiap kali ada baris transaksi baru di Google Sheet, script otomatis men-generate invoice PDF cantik berbasis template Google Docs lalu mengirimkannya langsung ke nomor WhatsApp pembeli via webhook.",
+      "shortDesc": "Generate invoice PDF dari baris Google Sheet lalu auto-kirim via WhatsApp dalam hitungan detik.",
+      "thumbnail": "/banners/gemini/sc_invoice_otomatis.webp",
+      "image": "/banners/gemini/sc_invoice_otomatis.webp",
+      "downloadsCount": 835,
+      "rating": 4.97,
+      "isPopular": false,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "Google Sheets",
+      "fileSize": "16.4 MB",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-1",
+      "title": "Kasir Toko Kelontong UMKM",
+      "slug": "kasir-toko-kelontong-umkm",
+      "category": "PHP & Laravel",
+      "techStack": [
+        "PHP 8.2",
+        "MySQL",
+        "Bootstrap 5"
+      ],
+      "description": "Aplikasi POS kasir ritel toko kelontong UMKM lengkap dengan pencatatan stok barang, barcode scanner webcam, dan fitur cetak struk kirim langsung via WhatsApp.",
+      "shortDesc": "Aplikasi POS kasir ritel toko kelontong UMKM lengkap dengan pencatatan stok barang, barcode scanner webcam, dan fitur ce...",
+      "thumbnail": "/banners/gemini/banner_pos_toko.webp",
+      "image": "/banners/gemini/banner_pos_toko.webp",
+      "downloadsCount": 870,
+      "rating": 4.9,
+      "isPopular": false,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "16.4 MB",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-2",
+      "title": "Absensi Siswa QR Code GAS",
+      "slug": "absensi-siswa-qr-gas",
+      "category": "Google Apps Script",
+      "techStack": [
+        "Google Apps Script",
+        "Sheets",
+        "Fonnte WA"
+      ],
+      "description": "Sistem presensi guru & siswa berbasis scan kartu QR Code via kamera tablet atau laptop tanpa biaya server bulanan, terhubung otomatis ke notifikasi WhatsApp orang tua.",
+      "shortDesc": "Sistem presensi guru & siswa berbasis scan kartu QR Code via kamera tablet atau laptop tanpa biaya server bulanan, terhu...",
+      "thumbnail": "/banners/gemini/banner_absensi_gas.webp",
+      "image": "/banners/gemini/banner_absensi_gas.webp",
+      "downloadsCount": 905,
+      "rating": 4.9,
+      "isPopular": false,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "Google Sheets",
+      "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
       "downloadUrlFast": "https://lynk.id/dwollopus"
     },
@@ -583,24 +363,13 @@
       "shortDesc": "Template website katalog etalase produk UMKM modern dan responsif dengan fitur multi-cart, perhitungan ongkir otomatis, ...",
       "thumbnail": "/banners/gemini/banner_katalog_umkm.webp",
       "image": "/banners/gemini/banner_katalog_umkm.webp",
-      "downloadsCount": 1010,
+      "downloadsCount": 940,
       "rating": 4.9,
       "isPopular": false,
       "isFree": true,
       "hasDatabase": true,
       "databaseType": "SQLite",
       "fileSize": "16.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas zip ke web server lokal Anda.",
-        "Import file database .sql ke phpMyAdmin.",
-        "Konfigurasi koneksi database di file .env atau config.php.",
-        "Jalankan aplikasi di browser dan gunakan akun admin default."
-      ],
-      "keyFeatures": [
-        "Desain UI responsif dan clean",
-        "Manajemen hak akses role terpisah",
-        "Laporan dan ekspor data otomatis"
-      ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
       "downloadUrlFast": "https://lynk.id/dwollopus"
     },
@@ -618,24 +387,13 @@
       "shortDesc": "Asisten chatbot WhatsApp cerdas untuk menangani customer service 24 jam nonstop, dilatih khusus menggunakan dokumen PDF ...",
       "thumbnail": "/banners/gemini/banner_bot_wa.webp",
       "image": "/banners/gemini/banner_bot_wa.webp",
-      "downloadsCount": 1045,
+      "downloadsCount": 975,
       "rating": 4.9,
       "isPopular": false,
       "isFree": true,
       "hasDatabase": true,
       "databaseType": "SQLite",
       "fileSize": "16.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas zip ke web server lokal Anda.",
-        "Import file database .sql ke phpMyAdmin.",
-        "Konfigurasi koneksi database di file .env atau config.php.",
-        "Jalankan aplikasi di browser dan gunakan akun admin default."
-      ],
-      "keyFeatures": [
-        "Desain UI responsif dan clean",
-        "Manajemen hak akses role terpisah",
-        "Laporan dan ekspor data otomatis"
-      ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
       "downloadUrlFast": "https://lynk.id/dwollopus"
     },
@@ -653,24 +411,13 @@
       "shortDesc": "Aplikasi desktop kasir billing rental PlayStation dan cafe gaming dengan penghitung waktu otomatis per nomor TV konsol d...",
       "thumbnail": "/banners/gemini/banner_billing_ps.webp",
       "image": "/banners/gemini/banner_billing_ps.webp",
-      "downloadsCount": 1080,
+      "downloadsCount": 1010,
       "rating": 4.9,
       "isPopular": false,
       "isFree": true,
       "hasDatabase": true,
       "databaseType": "SQLite",
       "fileSize": "16.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas zip ke web server lokal Anda.",
-        "Import file database .sql ke phpMyAdmin.",
-        "Konfigurasi koneksi database di file .env atau config.php.",
-        "Jalankan aplikasi di browser dan gunakan akun admin default."
-      ],
-      "keyFeatures": [
-        "Desain UI responsif dan clean",
-        "Manajemen hak akses role terpisah",
-        "Laporan dan ekspor data otomatis"
-      ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
       "downloadUrlFast": "https://lynk.id/dwollopus"
     },
@@ -688,24 +435,13 @@
       "shortDesc": "Platform galang dana dan donasi transparan 0% potongan biaya dengan integrasi QRIS dinamis, progress bar capaian dana re...",
       "thumbnail": "/banners/gemini/banner_portal_donasi.webp",
       "image": "/banners/gemini/banner_portal_donasi.webp",
-      "downloadsCount": 1115,
+      "downloadsCount": 1045,
       "rating": 4.9,
       "isPopular": false,
       "isFree": true,
       "hasDatabase": true,
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas zip ke web server lokal Anda.",
-        "Import file database .sql ke phpMyAdmin.",
-        "Konfigurasi koneksi database di file .env atau config.php.",
-        "Jalankan aplikasi di browser dan gunakan akun admin default."
-      ],
-      "keyFeatures": [
-        "Desain UI responsif dan clean",
-        "Manajemen hak akses role terpisah",
-        "Laporan dan ekspor data otomatis"
-      ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
       "downloadUrlFast": "https://lynk.id/dwollopus"
     },
@@ -723,24 +459,13 @@
       "shortDesc": "Sistem informasi akademik sekolah lengkap multi-role (Admin, Guru, Siswa, Kepala Sekolah) dengan modul kurikulum merdeka...",
       "thumbnail": "/banners/gemini/banner_siakad.webp",
       "image": "/banners/gemini/banner_siakad.webp",
-      "downloadsCount": 1150,
+      "downloadsCount": 1080,
       "rating": 4.9,
       "isPopular": false,
       "isFree": true,
       "hasDatabase": true,
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas zip ke web server lokal Anda.",
-        "Import file database .sql ke phpMyAdmin.",
-        "Konfigurasi koneksi database di file .env atau config.php.",
-        "Jalankan aplikasi di browser dan gunakan akun admin default."
-      ],
-      "keyFeatures": [
-        "Desain UI responsif dan clean",
-        "Manajemen hak akses role terpisah",
-        "Laporan dan ekspor data otomatis"
-      ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
       "downloadUrlFast": "https://lynk.id/dwollopus"
     },
@@ -758,24 +483,13 @@
       "shortDesc": "Aplikasi sirkulasi perpustakaan modern dengan katalog pencarian buku digital, pencetakan kartu anggota ber-barcode QR Co...",
       "thumbnail": "/banners/gemini/banner_siperpus.webp",
       "image": "/banners/gemini/banner_siperpus.webp",
-      "downloadsCount": 1185,
+      "downloadsCount": 1115,
       "rating": 4.9,
       "isPopular": false,
       "isFree": true,
       "hasDatabase": true,
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas zip ke web server lokal Anda.",
-        "Import file database .sql ke phpMyAdmin.",
-        "Konfigurasi koneksi database di file .env atau config.php.",
-        "Jalankan aplikasi di browser dan gunakan akun admin default."
-      ],
-      "keyFeatures": [
-        "Desain UI responsif dan clean",
-        "Manajemen hak akses role terpisah",
-        "Laporan dan ekspor data otomatis"
-      ],
       "downloadUrlFree": "https://www.dwollopus.eu.org",
       "downloadUrlFast": "https://lynk.id/dwollopus"
     },
@@ -793,6 +507,54 @@
       "shortDesc": "Aplikasi tata kelola kearsipan surat masuk, surat keluar, lembar disposisi digital pimpinan instansi pemerintah/sekolah,...",
       "thumbnail": "/banners/gemini/banner_ams_surat.webp",
       "image": "/banners/gemini/banner_ams_surat.webp",
+      "downloadsCount": 1150,
+      "rating": 4.9,
+      "isPopular": false,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "16.4 MB",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-10",
+      "title": "POS Kasir Ritel Multi-Cabang",
+      "slug": "pos-kasir-ritel-multi-cabang",
+      "category": "PHP & Laravel",
+      "techStack": [
+        "PHP 8.2",
+        "Tailwind CSS",
+        "Struk WA"
+      ],
+      "description": "Aplikasi Point of Sale layar sentuh kasir toko dengan barcode scanner instan, manajemen stok multi-outlet, dan pengiriman invoice PDF ke nomor WhatsApp pembeli.",
+      "shortDesc": "Aplikasi Point of Sale layar sentuh kasir toko dengan barcode scanner instan, manajemen stok multi-outlet, dan pengirima...",
+      "thumbnail": "/banners/gemini/banner_pos_ritel.webp",
+      "image": "/banners/gemini/banner_pos_ritel.webp",
+      "downloadsCount": 1185,
+      "rating": 4.9,
+      "isPopular": false,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "16.4 MB",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-11",
+      "title": "Aplikasi Kasir Apotek & Stok Obat",
+      "slug": "kasir-apotek-stok-obat",
+      "category": "PHP & Laravel",
+      "techStack": [
+        "Laravel 11",
+        "MySQL",
+        "Struk Thermal"
+      ],
+      "description": "Sistem informasi manajemen apotek dan kasir penjualan obat lengkap dengan peringatan tanggal kadaluarsa (expired date), stok minimum otomatis, dan cetak struk kasir.",
+      "shortDesc": "Sistem informasi manajemen apotek dan kasir penjualan obat lengkap dengan peringatan tanggal kadaluarsa (expired date), ...",
+      "thumbnail": "/banners/gemini/sc_kasir_apotek_obat.webp",
+      "image": "/banners/gemini/sc_kasir_apotek_obat.webp",
       "downloadsCount": 1220,
       "rating": 4.9,
       "isPopular": false,
@@ -800,17 +562,102 @@
       "hasDatabase": true,
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas zip ke web server lokal Anda.",
-        "Import file database .sql ke phpMyAdmin.",
-        "Konfigurasi koneksi database di file .env atau config.php.",
-        "Jalankan aplikasi di browser dan gunakan akun admin default."
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-12",
+      "title": "Sistem Booking Jadwal Barbershop & Salon",
+      "slug": "booking-barbershop-salon",
+      "category": "Next.js & React",
+      "techStack": [
+        "Next.js 14",
+        "Tailwind",
+        "WhatsApp API"
       ],
-      "keyFeatures": [
-        "Desain UI responsif dan clean",
-        "Manajemen hak akses role terpisah",
-        "Laporan dan ekspor data otomatis"
+      "description": "Platform reservasi online jam potong rambut dan perawatan salon dengan kalender interaktif, pilihan kapster favorit, dan konfirmasi WhatsApp otomatis ke pelanggan.",
+      "shortDesc": "Platform reservasi online jam potong rambut dan perawatan salon dengan kalender interaktif, pilihan kapster favorit, dan...",
+      "thumbnail": "/banners/gemini/sc_booking_barbershop.webp",
+      "image": "/banners/gemini/sc_booking_barbershop.webp",
+      "downloadsCount": 1255,
+      "rating": 4.9,
+      "isPopular": false,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "SQLite",
+      "fileSize": "16.4 MB",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-13",
+      "title": "Bot WhatsApp Auto-Forward Pesan Grup",
+      "slug": "bot-wa-auto-forward",
+      "category": "Python & AI",
+      "techStack": [
+        "Python 3.11",
+        "Baileys",
+        "SQLite"
       ],
+      "description": "Skrip otomasi penerusan pesan otomatis antar channel dan grup WhatsApp bisnis dengan filter kata kunci terlarang dan penggantian link affiliate secara dinamis.",
+      "shortDesc": "Skrip otomasi penerusan pesan otomatis antar channel dan grup WhatsApp bisnis dengan filter kata kunci terlarang dan pen...",
+      "thumbnail": "/banners/gemini/sc_wa_forward_relay.webp",
+      "image": "/banners/gemini/sc_wa_forward_relay.webp",
+      "downloadsCount": 1290,
+      "rating": 4.9,
+      "isPopular": false,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "SQLite",
+      "fileSize": "16.4 MB",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-14",
+      "title": "Portal Pengaduan Warga Desa (E-Lapor)",
+      "slug": "portal-pengaduan-desa",
+      "category": "PHP & Laravel",
+      "techStack": [
+        "PHP 8.2",
+        "Bootstrap 5",
+        "MySQL"
+      ],
+      "description": "Aplikasi layanan aspirasi dan pengaduan masyarakat desa dengan bukti foto lokasi, tracking nomor tiket keluhan, dan disposisi langsung ke kepala seksi.",
+      "shortDesc": "Aplikasi layanan aspirasi dan pengaduan masyarakat desa dengan bukti foto lokasi, tracking nomor tiket keluhan, dan disp...",
+      "thumbnail": "/banners/gemini/sc_portal_lapor_desa.webp",
+      "image": "/banners/gemini/sc_portal_lapor_desa.webp",
+      "downloadsCount": 1325,
+      "rating": 4.9,
+      "isPopular": false,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "16.4 MB",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
+    {
+      "id": "sc-15",
+      "title": "Dashboard Monitoring Suhu IoT ESP32",
+      "slug": "dashboard-monitoring-iot",
+      "category": "Python & AI",
+      "techStack": [
+        "FastAPI",
+        "WebSockets",
+        "Chart.js"
+      ],
+      "description": "Antarmuka pemantauan data sensor suhu, kelembaban, dan voltase listrik real-time via koneksi WebSocket dengan grafik interaktif 60 FPS dan alert bahaya.",
+      "shortDesc": "Antarmuka pemantauan data sensor suhu, kelembaban, dan voltase listrik real-time via koneksi WebSocket dengan grafik int...",
+      "thumbnail": "/banners/gemini/sc_iot_esp32_suhu.webp",
+      "image": "/banners/gemini/sc_iot_esp32_suhu.webp",
+      "downloadsCount": 1360,
+      "rating": 4.9,
+      "isPopular": false,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "SQLite",
+      "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
       "downloadUrlFast": "https://lynk.id/dwollopus"
     }
