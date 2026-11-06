@@ -1,7 +1,25 @@
 {
-  "updatedAt": "06 Nov 2026, 19:27 WIB",
-  "total": 143,
+  "updatedAt": "06 Nov 2026, 19:57 WIB",
+  "total": 144,
   "items": [
+    {
+      "id": "ai-fibo-2-0-editing",
+      "name": "Fibo 2.0 Editing",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (220 Upvotes)",
+      "description": "Fibo 2.0 Editing adalah model dan aplikasi demo AI interaktif dari kreator briaai di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/fibo-2-0-editing.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/briaai/Fibo-2.0-editing"
+    },
     {
       "id": "ai-hira",
       "name": "Hira",
