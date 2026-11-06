@@ -1,5 +1,5 @@
 {
-  "updatedAt": "07 Nov 2026, 03:03 WIB",
+  "updatedAt": "07 Nov 2026, 04:03 WIB",
   "total": 18,
   "items": [
     {
@@ -13,7 +13,7 @@
       "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "oneSentencePitch": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "rank": 1,
-      "totalStars": "93.4k",
+      "totalStars": "93.5k",
       "starsToday": 292,
       "starsGrowthText": "+292 stars today",
       "growthRate": "+292 stars hari ini",
@@ -38,7 +38,7 @@
       "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "oneSentencePitch": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "rank": 2,
-      "totalStars": "8.8k",
+      "totalStars": "8.9k",
       "starsToday": 2005,
       "starsGrowthText": "+2,005 stars today",
       "growthRate": "+2005 stars hari ini",
@@ -113,7 +113,7 @@
       "description": "Empowering everyone to build reliable and efficient software.",
       "oneSentencePitch": "Empowering everyone to build reliable and efficient software.",
       "rank": 5,
-      "totalStars": "121.3k",
+      "totalStars": "121.4k",
       "starsToday": 186,
       "starsGrowthText": "+186 stars today",
       "growthRate": "+186 stars hari ini",
@@ -188,7 +188,7 @@
       "description": "The Symfony PHP framework",
       "oneSentencePitch": "The Symfony PHP framework",
       "rank": 8,
-      "totalStars": "31.3k",
+      "totalStars": "31.4k",
       "starsToday": 89,
       "starsGrowthText": "+89 stars today",
       "growthRate": "+89 stars hari ini",
@@ -263,7 +263,7 @@
       "description": "Visual Studio Code",
       "oneSentencePitch": "Visual Studio Code",
       "rank": 11,
-      "totalStars": "194.9k",
+      "totalStars": "195.0k",
       "starsToday": 295,
       "starsGrowthText": "+295 stars today",
       "growthRate": "+295 stars hari ini",
@@ -314,16 +314,16 @@
       "oneSentencePitch": "A new type of shell",
       "rank": 13,
       "totalStars": "40.9k",
-      "starsToday": 88,
-      "starsGrowthText": "+88 stars today",
-      "growthRate": "+88 stars hari ini",
+      "starsToday": 177,
+      "starsGrowthText": "+177 stars today",
+      "growthRate": "+177 stars hari ini",
       "topics": [
         "dev",
         "rust"
       ],
       "features": [
         "Trending resmi #13 di GitHub Trending Today",
-        "Pertumbuhan pesat: +88 stars today",
+        "Pertumbuhan pesat: +177 stars today",
         "Ditulis menggunakan bahasa Rust"
       ]
     },
@@ -388,7 +388,7 @@
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "oneSentencePitch": "Skills for Real Engineers. Straight from my .agents directory.",
       "rank": 16,
-      "totalStars": "316.5k",
+      "totalStars": "316.6k",
       "starsToday": 2058,
       "starsGrowthText": "+2,058 stars today",
       "growthRate": "+2058 stars hari ini",
@@ -413,7 +413,7 @@
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "oneSentencePitch": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "rank": 17,
-      "totalStars": "63.6k",
+      "totalStars": "63.7k",
       "starsToday": 2524,
       "starsGrowthText": "+2,524 stars today",
       "growthRate": "+2524 stars hari ini",
@@ -439,16 +439,16 @@
       "oneSentencePitch": "An extremely fast Python linter and code formatter, written in Rust.",
       "rank": 18,
       "totalStars": "50.6k",
-      "starsToday": 107,
-      "starsGrowthText": "+107 stars today",
-      "growthRate": "+107 stars hari ini",
+      "starsToday": 213,
+      "starsGrowthText": "+213 stars today",
+      "growthRate": "+213 stars hari ini",
       "topics": [
         "dev",
         "rust"
       ],
       "features": [
         "Trending resmi #18 di GitHub Trending Today",
-        "Pertumbuhan pesat: +107 stars today",
+        "Pertumbuhan pesat: +213 stars today",
         "Ditulis menggunakan bahasa Rust"
       ]
     }
