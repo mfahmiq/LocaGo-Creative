@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 01:03 WIB",
-  "total": 155,
+  "updatedAt": "07 Nov 2026, 01:33 WIB",
+  "total": 156,
   "items": [
+    {
+      "id": "ai-kaiber",
+      "name": "Kaiber",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "Kaiber - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "Video generation engine, using your own images or text",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/kaiber.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://kaiber.ai"
+    },
     {
       "id": "ai-livereacting-for-chatgpt",
       "name": "LiveReacting for ChatGPT",
