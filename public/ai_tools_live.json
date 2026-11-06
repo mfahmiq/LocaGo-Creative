@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 05:04 WIB",
-  "total": 163,
+  "updatedAt": "07 Nov 2026, 05:34 WIB",
+  "total": 164,
   "items": [
+    {
+      "id": "ai-samplette",
+      "name": "Samplette",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Samplette - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "Randomized, uncleared music samples from YouTube",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/samplette.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://samplette.io"
+    },
     {
       "id": "ai-easein-health",
       "name": "EaseIn Health",
