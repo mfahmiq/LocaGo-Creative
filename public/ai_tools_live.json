@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 20:18 WIB",
-  "total": 196,
+  "updatedAt": "07 Nov 2026, 20:48 WIB",
+  "total": 197,
   "items": [
+    {
+      "id": "ai-cohere-io",
+      "name": "Cohere.io",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Cohere.io - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "Conversational AI Platform for Customer Support",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/cohere-io.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://cohere.io"
+    },
     {
       "id": "ai-omni-videos-custom-auto-prompt-high-quality",
       "name": "Omni Videos Custom Auto Prompt High Quality",
