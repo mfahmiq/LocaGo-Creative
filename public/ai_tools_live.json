@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 08:05 WIB",
-  "total": 169,
+  "updatedAt": "07 Nov 2026, 08:35 WIB",
+  "total": 170,
   "items": [
+    {
+      "id": "ai-wan2-2-fp8da-aoti-preview-2c-finishing",
+      "name": "Wan2 2 Fp8Da Aoti Preview 2C Finishing",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (71 Upvotes)",
+      "description": "Wan2 2 Fp8Da Aoti Preview 2C Finishing adalah model dan aplikasi demo AI interaktif dari kreator aaaa33311 di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/wan2-2-fp8da-aoti-preview-2c-finishing.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/aaaa33311/wan2-2-fp8da-aoti-preview-2c-finishing"
+    },
     {
       "id": "ai-virelo",
       "name": "Virelo",
