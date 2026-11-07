@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 06:35 WIB",
-  "total": 166,
+  "updatedAt": "07 Nov 2026, 07:05 WIB",
+  "total": 167,
   "items": [
+    {
+      "id": "ai-wan2-2-fp8da-aoti-faster",
+      "name": "Wan2 2 Fp8Da Aoti Faster",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (3809 Upvotes)",
+      "description": "Wan2 2 Fp8Da Aoti Faster adalah model dan aplikasi demo AI interaktif dari kreator zerogpu-aoti di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/wan2-2-fp8da-aoti-faster.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/zerogpu-aoti/wan2-2-fp8da-aoti-faster"
+    },
     {
       "id": "ai-beamfy",
       "name": "Beamfy",
