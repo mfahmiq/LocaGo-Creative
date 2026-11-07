@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 12:06 WIB",
-  "total": 177,
+  "updatedAt": "07 Nov 2026, 12:37 WIB",
+  "total": 178,
   "items": [
+    {
+      "id": "ai-daft-art",
+      "name": "Daft Art",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Daft Art - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "AI-created album covers",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/daft-art.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://daftart.ai"
+    },
     {
       "id": "ai-openmail",
       "name": "OpenMail",
