@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 16:09 WIB",
-  "total": 187,
+  "updatedAt": "07 Nov 2026, 16:39 WIB",
+  "total": 188,
   "items": [
+    {
+      "id": "ai-text-gpt",
+      "name": "Text GPT",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Text GPT - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "Access OpenAI&#x27;s GPT and Dall-E 2 through text messages",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/text-gpt.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://textgpt.net"
+    },
     {
       "id": "ai-artsmart-ai",
       "name": "ARTSMART AI",
