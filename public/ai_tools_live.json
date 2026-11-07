@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 05:21 WIB",
-  "total": 214,
+  "updatedAt": "08 Nov 2026, 05:39 WIB",
+  "total": 215,
   "items": [
+    {
+      "id": "ai-qwen-image-edit-rapid-aio-loras-experimental",
+      "name": "Qwen Image Edit Rapid Aio Loras Experimental",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (526 Upvotes)",
+      "description": "Qwen Image Edit Rapid Aio Loras Experimental adalah model dan aplikasi demo AI interaktif dari kreator aet256 di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/qwen-image-edit-rapid-aio-loras-experimental.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/aet256/Qwen-Image-Edit-Rapid-AIO-Loras-Experimental"
+    },
     {
       "id": "ai-p-h3-image",
       "name": "P H3 Image",
