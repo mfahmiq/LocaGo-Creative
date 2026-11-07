@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 19:48 WIB",
-  "total": 195,
+  "updatedAt": "07 Nov 2026, 20:18 WIB",
+  "total": 196,
   "items": [
+    {
+      "id": "ai-omni-videos-custom-auto-prompt-high-quality",
+      "name": "Omni Videos Custom Auto Prompt High Quality",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (414 Upvotes)",
+      "description": "Omni Videos Custom Auto Prompt High Quality adalah model dan aplikasi demo AI interaktif dari kreator vamo455 di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/omni-videos-custom-auto-prompt-high-quality.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/vamo455/Omni-videos-custom-auto_prompt_high-quality"
+    },
     {
       "id": "ai-quizgrowth",
       "name": "QuizGrowth",
