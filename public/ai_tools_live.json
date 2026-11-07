@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 08:35 WIB",
-  "total": 170,
+  "updatedAt": "07 Nov 2026, 09:05 WIB",
+  "total": 171,
   "items": [
+    {
+      "id": "ai-relayed",
+      "name": "Relayed",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "tagline": "Relayed - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "AI assistant for video calls",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/relayed.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://relayed.ai"
+    },
     {
       "id": "ai-wan2-2-fp8da-aoti-preview-2c-finishing",
       "name": "Wan2 2 Fp8Da Aoti Preview 2C Finishing",
