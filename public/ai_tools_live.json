@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 01:19 WIB",
-  "total": 206,
+  "updatedAt": "08 Nov 2026, 01:50 WIB",
+  "total": 207,
   "items": [
+    {
+      "id": "ai-resign-ai",
+      "name": "Resign.ai",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Resign.ai - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "Generate the perfect resignation letter",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/resign-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://resign.ai"
+    },
     {
       "id": "ai-jev-decision-index",
       "name": "Jev Decision Index",
