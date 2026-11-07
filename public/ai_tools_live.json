@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 22:19 WIB",
-  "total": 200,
+  "updatedAt": "07 Nov 2026, 22:49 WIB",
+  "total": 201,
   "items": [
+    {
+      "id": "ai-sonari",
+      "name": "Sonari",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Sonari - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Sonari adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/sonari.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/sonari"
+    },
     {
       "id": "ai-teach-anything",
       "name": "Teach Anything",
