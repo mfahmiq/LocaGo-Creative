@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 15:39 WIB",
-  "total": 186,
+  "updatedAt": "07 Nov 2026, 16:09 WIB",
+  "total": 187,
   "items": [
+    {
+      "id": "ai-artsmart-ai",
+      "name": "ARTSMART AI",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "ARTSMART AI - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "AI-powered image tool for creative fun and business purposes",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/artsmart-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://artsmart.ai"
+    },
     {
       "id": "ai-moss-image-character-catalog",
       "name": "Moss Image Character Catalog",
