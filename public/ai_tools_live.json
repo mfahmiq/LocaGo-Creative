@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 04:50 WIB",
-  "total": 213,
+  "updatedAt": "08 Nov 2026, 05:21 WIB",
+  "total": 214,
   "items": [
+    {
+      "id": "ai-p-h3-image",
+      "name": "P H3 Image",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (31 Upvotes)",
+      "description": "P H3 Image adalah model dan aplikasi demo AI interaktif dari kreator PrunaAI di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/p-h3-image.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/PrunaAI/P-H3-Image"
+    },
     {
       "id": "ai-remote-gaze",
       "name": "Remote Gaze",
