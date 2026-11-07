@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 21:48 WIB",
-  "total": 199,
+  "updatedAt": "07 Nov 2026, 22:19 WIB",
+  "total": 200,
   "items": [
+    {
+      "id": "ai-teach-anything",
+      "name": "Teach Anything",
+      "category": "Web & Scrapers",
+      "pricingType": "Free",
+      "tagline": "Teach Anything - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "Teaches you anything in seconds",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/teach-anything.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.teach-anything.com"
+    },
     {
       "id": "ai-magicalcore",
       "name": "MagicaLCore",
