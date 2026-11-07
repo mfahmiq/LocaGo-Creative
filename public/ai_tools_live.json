@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 21:18 WIB",
-  "total": 198,
+  "updatedAt": "07 Nov 2026, 21:48 WIB",
+  "total": 199,
   "items": [
+    {
+      "id": "ai-magicalcore",
+      "name": "MagicaLCore",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "MagicaLCore - Produk AI Baru Terpilih di Product Hunt",
+      "description": "MagicaLCore adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/magicalcore.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/magical-core-image-classifier"
+    },
     {
       "id": "ai-krev-ai",
       "name": "KREV AI",
