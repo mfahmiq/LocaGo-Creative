@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 19:18 WIB",
-  "total": 194,
+  "updatedAt": "07 Nov 2026, 19:48 WIB",
+  "total": 195,
   "items": [
+    {
+      "id": "ai-quizgrowth",
+      "name": "QuizGrowth",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "QuizGrowth - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "Turn your content into engaging quizzes",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/quizgrowth.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://quizgrowth.com"
+    },
     {
       "id": "ai-omni-image-editor",
       "name": "Omni Image Editor",
