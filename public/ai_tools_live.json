@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 05:39 WIB",
-  "total": 215,
+  "updatedAt": "08 Nov 2026, 06:09 WIB",
+  "total": 216,
   "items": [
+    {
+      "id": "ai-scrawl",
+      "name": "Scrawl",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Scrawl - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Scrawl adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/scrawl.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/scrawl-2"
+    },
     {
       "id": "ai-qwen-image-edit-rapid-aio-loras-experimental",
       "name": "Qwen Image Edit Rapid Aio Loras Experimental",
