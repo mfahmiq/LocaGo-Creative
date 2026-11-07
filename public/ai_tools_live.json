@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 15:09 WIB",
-  "total": 185,
+  "updatedAt": "07 Nov 2026, 15:39 WIB",
+  "total": 186,
   "items": [
+    {
+      "id": "ai-moss-image-character-catalog",
+      "name": "Moss Image Character Catalog",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (53 Upvotes)",
+      "description": "Moss Image Character Catalog adalah model dan aplikasi demo AI interaktif dari kreator hide1 di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/moss-image-character-catalog.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/hide1/MOSS-Image-Character-Catalog"
+    },
     {
       "id": "ai-ltx-2-3-10eros",
       "name": "Ltx 2.3 10Eros",
