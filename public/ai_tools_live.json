@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 18:48 WIB",
-  "total": 193,
+  "updatedAt": "07 Nov 2026, 19:18 WIB",
+  "total": 194,
   "items": [
+    {
+      "id": "ai-omni-image-editor",
+      "name": "Omni Image Editor",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (2893 Upvotes)",
+      "description": "Omni Image Editor adalah model dan aplikasi demo AI interaktif dari kreator selfit-camera di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/omni-image-editor.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/selfit-camera/Omni-Image-Editor"
+    },
     {
       "id": "ai-vinsage",
       "name": "VinSage",
