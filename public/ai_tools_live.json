@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 10:36 WIB",
-  "total": 174,
+  "updatedAt": "07 Nov 2026, 11:06 WIB",
+  "total": 175,
   "items": [
+    {
+      "id": "ai-peji",
+      "name": "Peji",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Peji - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Peji adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/peji.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/peji"
+    },
     {
       "id": "ai-contents-com",
       "name": "Contents.com",
