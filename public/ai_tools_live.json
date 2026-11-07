@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 02:20 WIB",
-  "total": 208,
+  "updatedAt": "08 Nov 2026, 02:50 WIB",
+  "total": 209,
   "items": [
+    {
+      "id": "ai-anime-ai",
+      "name": "Anime AI",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Anime AI - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "AI Anime Picture Generator",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/anime-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://animeai.app"
+    },
     {
       "id": "ai-profilepicture-ai",
       "name": "ProfilePicture.AI",
