@@ -1,5 +1,5 @@
 {
-  "updatedAt": "07 Nov 2026, 09:04 WIB",
+  "updatedAt": "07 Nov 2026, 10:04 WIB",
   "total": 17,
   "items": [
     {
@@ -38,7 +38,7 @@
       "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "oneSentencePitch": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "rank": 2,
-      "totalStars": "9.1k",
+      "totalStars": "9.2k",
       "starsToday": 2015,
       "starsGrowthText": "+2,015 stars today",
       "growthRate": "+2015 stars hari ini",
@@ -388,7 +388,7 @@
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "oneSentencePitch": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "rank": 16,
-      "totalStars": "64.1k",
+      "totalStars": "64.2k",
       "starsToday": 2548,
       "starsGrowthText": "+2,548 stars today",
       "growthRate": "+2548 stars hari ini",
