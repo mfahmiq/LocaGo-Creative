@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 14:45 WIB",
-  "total": 183,
+  "updatedAt": "07 Nov 2026, 14:51 WIB",
+  "total": 184,
   "items": [
+    {
+      "id": "ai-weight-space-programming-demo",
+      "name": "Weight Space Programming Demo",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (22 Upvotes)",
+      "description": "Weight Space Programming Demo adalah model dan aplikasi demo AI interaktif dari kreator ML-Intern-lab di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/weight-space-programming-demo.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/ML-Intern-lab/weight-space-programming-demo"
+    },
     {
       "id": "ai-rewind",
       "name": "Rewind",

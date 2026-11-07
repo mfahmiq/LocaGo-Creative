@@ -1,5 +1,5 @@
 {
-  "updatedAt": "07 Nov 2026, 14:45 WIB",
+  "updatedAt": "07 Nov 2026, 14:51 WIB",
   "total": 18,
   "items": [
     {
@@ -213,7 +213,7 @@
       "description": "The Prometheus monitoring system and time series database.",
       "oneSentencePitch": "The Prometheus monitoring system and time series database.",
       "rank": 9,
-      "totalStars": "67.2k",
+      "totalStars": "67.3k",
       "starsToday": 148,
       "starsGrowthText": "+148 stars today",
       "growthRate": "+148 stars hari ini",
@@ -338,7 +338,7 @@
       "description": "Distributed reliable key-value store for the most critical data of a distributed system",
       "oneSentencePitch": "Distributed reliable key-value store for the most critical data of a distributed system",
       "rank": 14,
-      "totalStars": "52.6k",
+      "totalStars": "52.7k",
       "starsToday": 128,
       "starsGrowthText": "+128 stars today",
       "growthRate": "+128 stars hari ini",
