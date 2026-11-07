@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 16:39 WIB",
-  "total": 188,
+  "updatedAt": "07 Nov 2026, 17:09 WIB",
+  "total": 189,
   "items": [
+    {
+      "id": "ai-chatgpt-for-chrome",
+      "name": "ChatGPT for Chrome",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "ChatGPT for Chrome - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "Chome extension for ChatGPT",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/chatgpt-for-chrome.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://chrome.google.com/webstore/detail/chatgpt-chrome-extension/cdjifpfganmhoojfclednjdnnpooaojb"
+    },
     {
       "id": "ai-text-gpt",
       "name": "Text GPT",
