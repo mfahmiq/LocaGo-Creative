@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 03:20 WIB",
-  "total": 210,
+  "updatedAt": "08 Nov 2026, 03:50 WIB",
+  "total": 211,
   "items": [
+    {
+      "id": "ai-brcks-chat",
+      "name": "BRCKS Chat",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "BRCKS Chat - Produk AI Baru Terpilih di Product Hunt",
+      "description": "BRCKS Chat adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/brcks-chat.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/brcks"
+    },
     {
       "id": "ai-namelix",
       "name": "Namelix",
