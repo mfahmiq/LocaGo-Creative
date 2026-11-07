@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 07:05 WIB",
-  "total": 167,
+  "updatedAt": "07 Nov 2026, 07:35 WIB",
+  "total": 168,
   "items": [
+    {
+      "id": "ai-free-ai-humanizer",
+      "name": "Free Ai Humanizer",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (185 Upvotes)",
+      "description": "Free Ai Humanizer adalah model dan aplikasi demo AI interaktif dari kreator fendouai di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/free-ai-humanizer.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/fendouai/free-ai-humanizer"
+    },
     {
       "id": "ai-wan2-2-fp8da-aoti-faster",
       "name": "Wan2 2 Fp8Da Aoti Faster",
