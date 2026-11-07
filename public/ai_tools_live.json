@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 13:37 WIB",
-  "total": 180,
+  "updatedAt": "07 Nov 2026, 14:07 WIB",
+  "total": 181,
   "items": [
+    {
+      "id": "ai-ava",
+      "name": "Ava",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (40 Upvotes)",
+      "description": "Ava adalah model dan aplikasi demo AI interaktif dari kreator townbox di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/ava.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/townbox/ava"
+    },
     {
       "id": "ai-basedash-verified-dashboards",
       "name": "Basedash Verified dashboards",
