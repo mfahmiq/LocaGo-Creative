@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 13:07 WIB",
-  "total": 179,
+  "updatedAt": "07 Nov 2026, 13:37 WIB",
+  "total": 180,
   "items": [
+    {
+      "id": "ai-basedash-verified-dashboards",
+      "name": "Basedash Verified dashboards",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Basedash Verified dashboards - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Basedash Verified dashboards adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/basedash-verified-dashboards.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/basedash"
+    },
     {
       "id": "ai-teamily-ai",
       "name": "Teamily AI",
