@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 18:09 WIB",
-  "total": 191,
+  "updatedAt": "07 Nov 2026, 18:39 WIB",
+  "total": 192,
   "items": [
+    {
+      "id": "ai-wan777",
+      "name": "Wan777",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (1302 Upvotes)",
+      "description": "Wan777 adalah model dan aplikasi demo AI interaktif dari kreator kulkas2pintu di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/wan777.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/kulkas2pintu/wan777"
+    },
     {
       "id": "ai-eyecon",
       "name": "Eyecon",
