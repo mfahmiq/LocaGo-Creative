@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 17:09 WIB",
-  "total": 189,
+  "updatedAt": "07 Nov 2026, 17:39 WIB",
+  "total": 190,
   "items": [
+    {
+      "id": "ai-bfs-best-face-swap",
+      "name": "Bfs Best Face Swap",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (760 Upvotes)",
+      "description": "Bfs Best Face Swap adalah model dan aplikasi demo AI interaktif dari kreator hugging-apps di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/bfs-best-face-swap.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/hugging-apps/bfs-best-face-swap"
+    },
     {
       "id": "ai-chatgpt-for-chrome",
       "name": "ChatGPT for Chrome",
