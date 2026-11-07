@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 11:06 WIB",
-  "total": 175,
+  "updatedAt": "07 Nov 2026, 11:36 WIB",
+  "total": 176,
   "items": [
+    {
+      "id": "ai-freeport-markets",
+      "name": "Freeport Markets",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Freeport Markets - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Freeport Markets adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/freeport-markets.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/freeport-markets"
+    },
     {
       "id": "ai-peji",
       "name": "Peji",
