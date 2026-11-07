@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 02:50 WIB",
-  "total": 209,
+  "updatedAt": "08 Nov 2026, 03:20 WIB",
+  "total": 210,
   "items": [
+    {
+      "id": "ai-namelix",
+      "name": "Namelix",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Namelix - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "AI business name generator",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/namelix.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://namelix.com"
+    },
     {
       "id": "ai-anime-ai",
       "name": "Anime AI",
