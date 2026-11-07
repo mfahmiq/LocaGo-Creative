@@ -1,405 +1,30 @@
 {
-  "updatedAt": "07 Nov 2026, 17:09 WIB",
-  "total": 18,
+  "updatedAt": "07 Nov 2026, 18:09 WIB",
+  "total": 15,
   "items": [
     {
-      "id": "gh-zed-industries-zed",
-      "name": "zed",
-      "owner": "zed-industries",
-      "repo": "zed-industries/zed",
-      "url": "https://github.com/zed-industries/zed",
-      "category": "Productivity & Media",
+      "id": "gh-vercel-labs-agent-browser",
+      "name": "agent-browser",
+      "owner": "vercel-labs",
+      "repo": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "category": "AI Agents & LLM",
       "language": "Rust",
-      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
-      "oneSentencePitch": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "description": "Browser automation CLI for AI agents",
+      "oneSentencePitch": "Browser automation CLI for AI agents",
       "rank": 1,
-      "totalStars": "94.0k",
-      "starsToday": 306,
-      "starsGrowthText": "+306 stars today",
-      "growthRate": "+306 stars hari ini",
+      "totalStars": "46.4k",
+      "starsToday": 622,
+      "starsGrowthText": "+622 stars today",
+      "growthRate": "+622 stars hari ini",
       "topics": [
-        "productivity",
+        "ai",
         "rust"
       ],
       "features": [
         "Trending resmi #1 di GitHub Trending Today",
-        "Pertumbuhan pesat: +306 stars today",
+        "Pertumbuhan pesat: +622 stars today",
         "Ditulis menggunakan bahasa Rust"
-      ]
-    },
-    {
-      "id": "gh-nvidia-auto-ontology",
-      "name": "auto-ontology",
-      "owner": "NVIDIA",
-      "repo": "NVIDIA/auto-ontology",
-      "url": "https://github.com/NVIDIA/auto-ontology",
-      "category": "AI Agents & LLM",
-      "language": "Python",
-      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
-      "oneSentencePitch": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
-      "rank": 2,
-      "totalStars": "9.5k",
-      "starsToday": 2015,
-      "starsGrowthText": "+2,015 stars today",
-      "growthRate": "+2015 stars hari ini",
-      "topics": [
-        "ai",
-        "python"
-      ],
-      "features": [
-        "Trending resmi #2 di GitHub Trending Today",
-        "Pertumbuhan pesat: +2,015 stars today",
-        "Ditulis menggunakan bahasa Python"
-      ]
-    },
-    {
-      "id": "gh-rails-rails",
-      "name": "rails",
-      "owner": "rails",
-      "repo": "rails/rails",
-      "url": "https://github.com/rails/rails",
-      "category": "AI Agents & LLM",
-      "language": "Ruby",
-      "description": "Ruby on Rails",
-      "oneSentencePitch": "Ruby on Rails",
-      "rank": 3,
-      "totalStars": "59.1k",
-      "starsToday": 142,
-      "starsGrowthText": "+142 stars today",
-      "growthRate": "+142 stars hari ini",
-      "topics": [
-        "ai",
-        "ruby"
-      ],
-      "features": [
-        "Trending resmi #3 di GitHub Trending Today",
-        "Pertumbuhan pesat: +142 stars today",
-        "Ditulis menggunakan bahasa Ruby"
-      ]
-    },
-    {
-      "id": "gh-mpv-player-mpv",
-      "name": "mpv",
-      "owner": "mpv-player",
-      "repo": "mpv-player/mpv",
-      "url": "https://github.com/mpv-player/mpv",
-      "category": "Productivity & Media",
-      "language": "C",
-      "description": "🎥 Command line media player",
-      "oneSentencePitch": "🎥 Command line media player",
-      "rank": 4,
-      "totalStars": "38.0k",
-      "starsToday": 37,
-      "starsGrowthText": "+37 stars today",
-      "growthRate": "+37 stars hari ini",
-      "topics": [
-        "productivity",
-        "c"
-      ],
-      "features": [
-        "Trending resmi #4 di GitHub Trending Today",
-        "Pertumbuhan pesat: +37 stars today",
-        "Ditulis menggunakan bahasa C"
-      ]
-    },
-    {
-      "id": "gh-rust-lang-rust",
-      "name": "rust",
-      "owner": "rust-lang",
-      "repo": "rust-lang/rust",
-      "url": "https://github.com/rust-lang/rust",
-      "category": "Dev Tools & Automation",
-      "language": "Rust",
-      "description": "Empowering everyone to build reliable and efficient software.",
-      "oneSentencePitch": "Empowering everyone to build reliable and efficient software.",
-      "rank": 5,
-      "totalStars": "121.6k",
-      "starsToday": 192,
-      "starsGrowthText": "+192 stars today",
-      "growthRate": "+192 stars hari ini",
-      "topics": [
-        "dev",
-        "rust"
-      ],
-      "features": [
-        "Trending resmi #5 di GitHub Trending Today",
-        "Pertumbuhan pesat: +192 stars today",
-        "Ditulis menggunakan bahasa Rust"
-      ]
-    },
-    {
-      "id": "gh-react-react",
-      "name": "react",
-      "owner": "react",
-      "repo": "react/react",
-      "url": "https://github.com/react/react",
-      "category": "Web & Scrapers",
-      "language": "JavaScript",
-      "description": "The library for web and native user interfaces.",
-      "oneSentencePitch": "The library for web and native user interfaces.",
-      "rank": 6,
-      "totalStars": "252.3k",
-      "starsToday": 248,
-      "starsGrowthText": "+248 stars today",
-      "growthRate": "+248 stars hari ini",
-      "topics": [
-        "web",
-        "javascript"
-      ],
-      "features": [
-        "Trending resmi #6 di GitHub Trending Today",
-        "Pertumbuhan pesat: +248 stars today",
-        "Ditulis menggunakan bahasa JavaScript"
-      ]
-    },
-    {
-      "id": "gh-angular-angular",
-      "name": "angular",
-      "owner": "angular",
-      "repo": "angular/angular",
-      "url": "https://github.com/angular/angular",
-      "category": "Web & Scrapers",
-      "language": "TypeScript",
-      "description": "Deliver web apps with confidence 🚀",
-      "oneSentencePitch": "Deliver web apps with confidence 🚀",
-      "rank": 7,
-      "totalStars": "101.5k",
-      "starsToday": 135,
-      "starsGrowthText": "+135 stars today",
-      "growthRate": "+135 stars hari ini",
-      "topics": [
-        "web",
-        "typescript"
-      ],
-      "features": [
-        "Trending resmi #7 di GitHub Trending Today",
-        "Pertumbuhan pesat: +135 stars today",
-        "Ditulis menggunakan bahasa TypeScript"
-      ]
-    },
-    {
-      "id": "gh-symfony-symfony",
-      "name": "symfony",
-      "owner": "symfony",
-      "repo": "symfony/symfony",
-      "url": "https://github.com/symfony/symfony",
-      "category": "Productivity & Media",
-      "language": "PHP",
-      "description": "The Symfony PHP framework",
-      "oneSentencePitch": "The Symfony PHP framework",
-      "rank": 8,
-      "totalStars": "31.5k",
-      "starsToday": 128,
-      "starsGrowthText": "+128 stars today",
-      "growthRate": "+128 stars hari ini",
-      "topics": [
-        "productivity",
-        "php"
-      ],
-      "features": [
-        "Trending resmi #8 di GitHub Trending Today",
-        "Pertumbuhan pesat: +128 stars today",
-        "Ditulis menggunakan bahasa PHP"
-      ]
-    },
-    {
-      "id": "gh-prometheus-prometheus",
-      "name": "prometheus",
-      "owner": "prometheus",
-      "repo": "prometheus/prometheus",
-      "url": "https://github.com/prometheus/prometheus",
-      "category": "Productivity & Media",
-      "language": "Go",
-      "description": "The Prometheus monitoring system and time series database.",
-      "oneSentencePitch": "The Prometheus monitoring system and time series database.",
-      "rank": 9,
-      "totalStars": "67.3k",
-      "starsToday": 148,
-      "starsGrowthText": "+148 stars today",
-      "growthRate": "+148 stars hari ini",
-      "topics": [
-        "productivity",
-        "go"
-      ],
-      "features": [
-        "Trending resmi #9 di GitHub Trending Today",
-        "Pertumbuhan pesat: +148 stars today",
-        "Ditulis menggunakan bahasa Go"
-      ]
-    },
-    {
-      "id": "gh-google-skills",
-      "name": "skills",
-      "owner": "google",
-      "repo": "google/skills",
-      "url": "https://github.com/google/skills",
-      "category": "AI Agents & LLM",
-      "language": "Python",
-      "description": "Agent Skills for Google products and technologies",
-      "oneSentencePitch": "Agent Skills for Google products and technologies",
-      "rank": 10,
-      "totalStars": "23.0k",
-      "starsToday": 534,
-      "starsGrowthText": "+534 stars today",
-      "growthRate": "+534 stars hari ini",
-      "topics": [
-        "ai",
-        "python"
-      ],
-      "features": [
-        "Trending resmi #10 di GitHub Trending Today",
-        "Pertumbuhan pesat: +534 stars today",
-        "Ditulis menggunakan bahasa Python"
-      ]
-    },
-    {
-      "id": "gh-microsoft-vscode",
-      "name": "vscode",
-      "owner": "microsoft",
-      "repo": "microsoft/vscode",
-      "url": "https://github.com/microsoft/vscode",
-      "category": "Productivity & Media",
-      "language": "TypeScript",
-      "description": "Visual Studio Code",
-      "oneSentencePitch": "Visual Studio Code",
-      "rank": 11,
-      "totalStars": "195.1k",
-      "starsToday": 301,
-      "starsGrowthText": "+301 stars today",
-      "growthRate": "+301 stars hari ini",
-      "topics": [
-        "productivity",
-        "typescript"
-      ],
-      "features": [
-        "Trending resmi #11 di GitHub Trending Today",
-        "Pertumbuhan pesat: +301 stars today",
-        "Ditulis menggunakan bahasa TypeScript"
-      ]
-    },
-    {
-      "id": "gh-lz4-lz4",
-      "name": "lz4",
-      "owner": "lz4",
-      "repo": "lz4/lz4",
-      "url": "https://github.com/lz4/lz4",
-      "category": "Productivity & Media",
-      "language": "C",
-      "description": "Extremely Fast Compression algorithm",
-      "oneSentencePitch": "Extremely Fast Compression algorithm",
-      "rank": 12,
-      "totalStars": "12.7k",
-      "starsToday": 315,
-      "starsGrowthText": "+315 stars today",
-      "growthRate": "+315 stars hari ini",
-      "topics": [
-        "productivity",
-        "c"
-      ],
-      "features": [
-        "Trending resmi #12 di GitHub Trending Today",
-        "Pertumbuhan pesat: +315 stars today",
-        "Ditulis menggunakan bahasa C"
-      ]
-    },
-    {
-      "id": "gh-nushell-nushell",
-      "name": "nushell",
-      "owner": "nushell",
-      "repo": "nushell/nushell",
-      "url": "https://github.com/nushell/nushell",
-      "category": "Dev Tools & Automation",
-      "language": "Rust",
-      "description": "A new type of shell",
-      "oneSentencePitch": "A new type of shell",
-      "rank": 13,
-      "totalStars": "41.0k",
-      "starsToday": 131,
-      "starsGrowthText": "+131 stars today",
-      "growthRate": "+131 stars hari ini",
-      "topics": [
-        "dev",
-        "rust"
-      ],
-      "features": [
-        "Trending resmi #13 di GitHub Trending Today",
-        "Pertumbuhan pesat: +131 stars today",
-        "Ditulis menggunakan bahasa Rust"
-      ]
-    },
-    {
-      "id": "gh-etcd-io-etcd",
-      "name": "etcd",
-      "owner": "etcd-io",
-      "repo": "etcd-io/etcd",
-      "url": "https://github.com/etcd-io/etcd",
-      "category": "Productivity & Media",
-      "language": "Go",
-      "description": "Distributed reliable key-value store for the most critical data of a distributed system",
-      "oneSentencePitch": "Distributed reliable key-value store for the most critical data of a distributed system",
-      "rank": 14,
-      "totalStars": "52.7k",
-      "starsToday": 128,
-      "starsGrowthText": "+128 stars today",
-      "growthRate": "+128 stars hari ini",
-      "topics": [
-        "productivity",
-        "go"
-      ],
-      "features": [
-        "Trending resmi #14 di GitHub Trending Today",
-        "Pertumbuhan pesat: +128 stars today",
-        "Ditulis menggunakan bahasa Go"
-      ]
-    },
-    {
-      "id": "gh-openssl-openssl",
-      "name": "openssl",
-      "owner": "openssl",
-      "repo": "openssl/openssl",
-      "url": "https://github.com/openssl/openssl",
-      "category": "Productivity & Media",
-      "language": "C",
-      "description": "General purpose TLS and crypto library",
-      "oneSentencePitch": "General purpose TLS and crypto library",
-      "rank": 15,
-      "totalStars": "31.4k",
-      "starsToday": 26,
-      "starsGrowthText": "+26 stars today",
-      "growthRate": "+26 stars hari ini",
-      "topics": [
-        "productivity",
-        "c"
-      ],
-      "features": [
-        "Trending resmi #15 di GitHub Trending Today",
-        "Pertumbuhan pesat: +26 stars today",
-        "Ditulis menggunakan bahasa C"
-      ]
-    },
-    {
-      "id": "gh-mattpocock-skills",
-      "name": "skills",
-      "owner": "mattpocock",
-      "repo": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "category": "AI Agents & LLM",
-      "language": "Shell",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "oneSentencePitch": "Skills for Real Engineers. Straight from my .agents directory.",
-      "rank": 16,
-      "totalStars": "317.1k",
-      "starsToday": 2070,
-      "starsGrowthText": "+2,070 stars today",
-      "growthRate": "+2070 stars hari ini",
-      "topics": [
-        "ai",
-        "shell"
-      ],
-      "features": [
-        "Trending resmi #16 di GitHub Trending Today",
-        "Pertumbuhan pesat: +2,070 stars today",
-        "Ditulis menggunakan bahasa Shell"
       ]
     },
     {
@@ -412,8 +37,8 @@
       "language": "JavaScript",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "oneSentencePitch": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "rank": 17,
-      "totalStars": "64.6k",
+      "rank": 2,
+      "totalStars": "64.7k",
       "starsToday": 2548,
       "starsGrowthText": "+2,548 stars today",
       "growthRate": "+2548 stars hari ini",
@@ -422,9 +47,184 @@
         "javascript"
       ],
       "features": [
-        "Trending resmi #17 di GitHub Trending Today",
+        "Trending resmi #2 di GitHub Trending Today",
         "Pertumbuhan pesat: +2,548 stars today",
         "Ditulis menggunakan bahasa JavaScript"
+      ]
+    },
+    {
+      "id": "gh-google-skills",
+      "name": "skills",
+      "owner": "google",
+      "repo": "google/skills",
+      "url": "https://github.com/google/skills",
+      "category": "AI Agents & LLM",
+      "language": "Python",
+      "description": "Agent Skills for Google products and technologies",
+      "oneSentencePitch": "Agent Skills for Google products and technologies",
+      "rank": 3,
+      "totalStars": "23.0k",
+      "starsToday": 534,
+      "starsGrowthText": "+534 stars today",
+      "growthRate": "+534 stars hari ini",
+      "topics": [
+        "ai",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #3 di GitHub Trending Today",
+        "Pertumbuhan pesat: +534 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
+      "id": "gh-mattpocock-skills",
+      "name": "skills",
+      "owner": "mattpocock",
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "category": "AI Agents & LLM",
+      "language": "Shell",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "oneSentencePitch": "Skills for Real Engineers. Straight from my .agents directory.",
+      "rank": 4,
+      "totalStars": "317.1k",
+      "starsToday": 2070,
+      "starsGrowthText": "+2,070 stars today",
+      "growthRate": "+2070 stars hari ini",
+      "topics": [
+        "ai",
+        "shell"
+      ],
+      "features": [
+        "Trending resmi #4 di GitHub Trending Today",
+        "Pertumbuhan pesat: +2,070 stars today",
+        "Ditulis menggunakan bahasa Shell"
+      ]
+    },
+    {
+      "id": "gh-anthropics-skills",
+      "name": "skills",
+      "owner": "anthropics",
+      "repo": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "category": "AI Agents & LLM",
+      "language": "Python",
+      "description": "Public repository for Agent Skills",
+      "oneSentencePitch": "Public repository for Agent Skills",
+      "rank": 5,
+      "totalStars": "188.3k",
+      "starsToday": 386,
+      "starsGrowthText": "+386 stars today",
+      "growthRate": "+386 stars hari ini",
+      "topics": [
+        "ai",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #5 di GitHub Trending Today",
+        "Pertumbuhan pesat: +386 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
+      "id": "gh-meta-astryx",
+      "name": "astryx",
+      "owner": "meta",
+      "repo": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "category": "AI Agents & LLM",
+      "language": "TypeScript",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "oneSentencePitch": "An open source design system that's fully customizable and agent ready",
+      "rank": 6,
+      "totalStars": "14.1k",
+      "starsToday": 198,
+      "starsGrowthText": "+198 stars today",
+      "growthRate": "+198 stars hari ini",
+      "topics": [
+        "ai",
+        "typescript"
+      ],
+      "features": [
+        "Trending resmi #6 di GitHub Trending Today",
+        "Pertumbuhan pesat: +198 stars today",
+        "Ditulis menggunakan bahasa TypeScript"
+      ]
+    },
+    {
+      "id": "gh-prometheus-prometheus",
+      "name": "prometheus",
+      "owner": "prometheus",
+      "repo": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "category": "Productivity & Media",
+      "language": "Go",
+      "description": "The Prometheus monitoring system and time series database.",
+      "oneSentencePitch": "The Prometheus monitoring system and time series database.",
+      "rank": 7,
+      "totalStars": "67.3k",
+      "starsToday": 148,
+      "starsGrowthText": "+148 stars today",
+      "growthRate": "+148 stars hari ini",
+      "topics": [
+        "productivity",
+        "go"
+      ],
+      "features": [
+        "Trending resmi #7 di GitHub Trending Today",
+        "Pertumbuhan pesat: +148 stars today",
+        "Ditulis menggunakan bahasa Go"
+      ]
+    },
+    {
+      "id": "gh-sherlock-project-sherlock",
+      "name": "sherlock",
+      "owner": "sherlock-project",
+      "repo": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "category": "Productivity & Media",
+      "language": "Python",
+      "description": "Hunt down social media accounts by username across social networks",
+      "oneSentencePitch": "Hunt down social media accounts by username across social networks",
+      "rank": 8,
+      "totalStars": "99.2k",
+      "starsToday": 1761,
+      "starsGrowthText": "+1,761 stars today",
+      "growthRate": "+1761 stars hari ini",
+      "topics": [
+        "productivity",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #8 di GitHub Trending Today",
+        "Pertumbuhan pesat: +1,761 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
+      "id": "gh-milind-soni-openmausbot",
+      "name": "OpenMausBot",
+      "owner": "milind-soni",
+      "repo": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "category": "Productivity & Media",
+      "language": "TypeScript",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "oneSentencePitch": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "rank": 9,
+      "totalStars": "16.1k",
+      "starsToday": 1986,
+      "starsGrowthText": "+1,986 stars today",
+      "growthRate": "+1986 stars hari ini",
+      "topics": [
+        "productivity",
+        "typescript"
+      ],
+      "features": [
+        "Trending resmi #9 di GitHub Trending Today",
+        "Pertumbuhan pesat: +1,986 stars today",
+        "Ditulis menggunakan bahasa TypeScript"
       ]
     },
     {
@@ -437,7 +237,7 @@
       "language": "Rust",
       "description": "An extremely fast Python linter and code formatter, written in Rust.",
       "oneSentencePitch": "An extremely fast Python linter and code formatter, written in Rust.",
-      "rank": 18,
+      "rank": 10,
       "totalStars": "50.8k",
       "starsToday": 169,
       "starsGrowthText": "+169 stars today",
@@ -447,9 +247,134 @@
         "rust"
       ],
       "features": [
-        "Trending resmi #18 di GitHub Trending Today",
+        "Trending resmi #10 di GitHub Trending Today",
         "Pertumbuhan pesat: +169 stars today",
         "Ditulis menggunakan bahasa Rust"
+      ]
+    },
+    {
+      "id": "gh-tailwindlabs-tailwindcss",
+      "name": "tailwindcss",
+      "owner": "tailwindlabs",
+      "repo": "tailwindlabs/tailwindcss",
+      "url": "https://github.com/tailwindlabs/tailwindcss",
+      "category": "AI Agents & LLM",
+      "language": "TypeScript",
+      "description": "A utility-first CSS framework for rapid UI development.",
+      "oneSentencePitch": "A utility-first CSS framework for rapid UI development.",
+      "rank": 11,
+      "totalStars": "98.2k",
+      "starsToday": 152,
+      "starsGrowthText": "+152 stars today",
+      "growthRate": "+152 stars hari ini",
+      "topics": [
+        "ai",
+        "typescript"
+      ],
+      "features": [
+        "Trending resmi #11 di GitHub Trending Today",
+        "Pertumbuhan pesat: +152 stars today",
+        "Ditulis menggunakan bahasa TypeScript"
+      ]
+    },
+    {
+      "id": "gh-mbillow-localthings",
+      "name": "localthings",
+      "owner": "mbillow",
+      "repo": "mbillow/localthings",
+      "url": "https://github.com/mbillow/localthings",
+      "category": "Productivity & Media",
+      "language": "Python",
+      "description": "Control your Samsung appliances from Home Assistant over your home network, with no cloud account.",
+      "oneSentencePitch": "Control your Samsung appliances from Home Assistant over your home network, with no cloud account.",
+      "rank": 12,
+      "totalStars": "927",
+      "starsToday": 184,
+      "starsGrowthText": "+184 stars today",
+      "growthRate": "+184 stars hari ini",
+      "topics": [
+        "productivity",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #12 di GitHub Trending Today",
+        "Pertumbuhan pesat: +184 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
+      "id": "gh-zed-industries-zed",
+      "name": "zed",
+      "owner": "zed-industries",
+      "repo": "zed-industries/zed",
+      "url": "https://github.com/zed-industries/zed",
+      "category": "Productivity & Media",
+      "language": "Rust",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "oneSentencePitch": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "rank": 13,
+      "totalStars": "94.0k",
+      "starsToday": 306,
+      "starsGrowthText": "+306 stars today",
+      "growthRate": "+306 stars hari ini",
+      "topics": [
+        "productivity",
+        "rust"
+      ],
+      "features": [
+        "Trending resmi #13 di GitHub Trending Today",
+        "Pertumbuhan pesat: +306 stars today",
+        "Ditulis menggunakan bahasa Rust"
+      ]
+    },
+    {
+      "id": "gh-ranxianglei-billion-context",
+      "name": "billion-context",
+      "owner": "ranxianglei",
+      "repo": "ranxianglei/billion-context",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "category": "Productivity & Media",
+      "language": "TypeScript",
+      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+      "oneSentencePitch": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+      "rank": 14,
+      "totalStars": "4.4k",
+      "starsToday": 185,
+      "starsGrowthText": "+185 stars today",
+      "growthRate": "+185 stars hari ini",
+      "topics": [
+        "productivity",
+        "typescript"
+      ],
+      "features": [
+        "Trending resmi #14 di GitHub Trending Today",
+        "Pertumbuhan pesat: +185 stars today",
+        "Ditulis menggunakan bahasa TypeScript"
+      ]
+    },
+    {
+      "id": "gh-dsx-ai-factory-nvke",
+      "name": "nvke",
+      "owner": "dsx-ai-factory",
+      "repo": "dsx-ai-factory/nvke",
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "category": "Productivity & Media",
+      "language": "Go",
+      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "oneSentencePitch": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "rank": 15,
+      "totalStars": "328",
+      "starsToday": 125,
+      "starsGrowthText": "+125 stars today",
+      "growthRate": "+125 stars hari ini",
+      "topics": [
+        "productivity",
+        "go"
+      ],
+      "features": [
+        "Trending resmi #15 di GitHub Trending Today",
+        "Pertumbuhan pesat: +125 stars today",
+        "Ditulis menggunakan bahasa Go"
       ]
     }
   ]

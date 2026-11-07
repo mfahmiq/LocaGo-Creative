@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 17:39 WIB",
-  "total": 190,
+  "updatedAt": "07 Nov 2026, 18:09 WIB",
+  "total": 191,
   "items": [
+    {
+      "id": "ai-eyecon",
+      "name": "Eyecon",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Eyecon - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Eyecon adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/eyecon.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/eyecon-auto-pause-video"
+    },
     {
       "id": "ai-bfs-best-face-swap",
       "name": "Bfs Best Face Swap",
