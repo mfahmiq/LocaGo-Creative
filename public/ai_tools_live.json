@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 00:49 WIB",
-  "total": 205,
+  "updatedAt": "08 Nov 2026, 01:19 WIB",
+  "total": 206,
   "items": [
+    {
+      "id": "ai-jev-decision-index",
+      "name": "Jev Decision Index",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (871 Upvotes)",
+      "description": "Jev Decision Index adalah model dan aplikasi demo AI interaktif dari kreator multimodalart di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/jev-decision-index.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
+    },
     {
       "id": "ai-knowledgegraph-gpt",
       "name": "KnowledgeGraph GPT",
