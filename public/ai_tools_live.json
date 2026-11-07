@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 03:50 WIB",
-  "total": 211,
+  "updatedAt": "08 Nov 2026, 04:20 WIB",
+  "total": 212,
   "items": [
+    {
+      "id": "ai-resolveai",
+      "name": "ResolveAI",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "ResolveAI - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "AI-powered customer support",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/resolveai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://resolveai.co"
+    },
     {
       "id": "ai-brcks-chat",
       "name": "BRCKS Chat",
