@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 22:49 WIB",
-  "total": 201,
+  "updatedAt": "07 Nov 2026, 23:19 WIB",
+  "total": 202,
   "items": [
+    {
+      "id": "ai-pasteguard-for-mac",
+      "name": "PasteGuard for Mac",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "PasteGuard for Mac - Produk AI Baru Terpilih di Product Hunt",
+      "description": "PasteGuard for Mac adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/pasteguard-for-mac.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/pasteguard-2"
+    },
     {
       "id": "ai-sonari",
       "name": "Sonari",
