@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 01:50 WIB",
-  "total": 207,
+  "updatedAt": "08 Nov 2026, 02:20 WIB",
+  "total": 208,
   "items": [
+    {
+      "id": "ai-profilepicture-ai",
+      "name": "ProfilePicture.AI",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "ProfilePicture.AI - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "Make a profile picture - Changes Background on your picture",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/profilepicture-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.profilepicture.ai/free-pfp-maker"
+    },
     {
       "id": "ai-resign-ai",
       "name": "Resign.ai",
