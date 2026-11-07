@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 12:37 WIB",
-  "total": 178,
+  "updatedAt": "07 Nov 2026, 13:07 WIB",
+  "total": 179,
   "items": [
+    {
+      "id": "ai-teamily-ai",
+      "name": "Teamily AI",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Teamily AI - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Teamily AI adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/teamily-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/teamily-ai-human-ai-social-network"
+    },
     {
       "id": "ai-daft-art",
       "name": "Daft Art",
