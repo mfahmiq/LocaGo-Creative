@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 23:49 WIB",
-  "total": 203,
+  "updatedAt": "08 Nov 2026, 00:19 WIB",
+  "total": 204,
   "items": [
+    {
+      "id": "ai-deepzen",
+      "name": "DeepZen",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "DeepZen - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "Text-to-speech with lifelike audio",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/deepzen.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://deepzen.io"
+    },
     {
       "id": "ai-fedora-linux-45",
       "name": "Fedora Linux 45",
