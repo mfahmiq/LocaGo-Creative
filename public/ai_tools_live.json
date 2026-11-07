@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 14:51 WIB",
-  "total": 184,
+  "updatedAt": "07 Nov 2026, 15:09 WIB",
+  "total": 185,
   "items": [
+    {
+      "id": "ai-ltx-2-3-10eros",
+      "name": "Ltx 2.3 10Eros",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (150 Upvotes)",
+      "description": "Ltx 2.3 10Eros adalah model dan aplikasi demo AI interaktif dari kreator rdata92 di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/ltx-2-3-10eros.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/rdata92/LTX-2.3-10Eros"
+    },
     {
       "id": "ai-weight-space-programming-demo",
       "name": "Weight Space Programming Demo",
