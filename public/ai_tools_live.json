@@ -1,7 +1,25 @@
 {
-  "updatedAt": "07 Nov 2026, 09:05 WIB",
-  "total": 171,
+  "updatedAt": "07 Nov 2026, 09:36 WIB",
+  "total": 172,
   "items": [
+    {
+      "id": "ai-gptkit",
+      "name": "GPTKit",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "GPTKit - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "AI text generation detection tool",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/gptkit.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://gptkit.ai"
+    },
     {
       "id": "ai-relayed",
       "name": "Relayed",
