@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 08:45 WIB",
-  "total": 222,
+  "updatedAt": "08 Nov 2026, 09:15 WIB",
+  "total": 223,
   "items": [
+    {
+      "id": "ai-figstack",
+      "name": "Figstack",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Figstack - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "Help developers quickly understand, document, and optimize their code.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/figstack.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://figstack.com"
+    },
     {
       "id": "ai-sendu",
       "name": "Sendu",
