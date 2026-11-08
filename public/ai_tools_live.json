@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 14:16 WIB",
-  "total": 233,
+  "updatedAt": "08 Nov 2026, 14:46 WIB",
+  "total": 234,
   "items": [
+    {
+      "id": "ai-mellow-kids",
+      "name": "Mellow Kids",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Mellow Kids - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Mellow Kids adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/mellow-kids.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/mellow-kids"
+    },
     {
       "id": "ai-idol",
       "name": "Idol",
