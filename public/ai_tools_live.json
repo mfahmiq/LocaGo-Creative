@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 01:58 WIB",
-  "total": 257,
+  "updatedAt": "09 Nov 2026, 02:28 WIB",
+  "total": 258,
   "items": [
+    {
+      "id": "ai-moatly",
+      "name": "Moatly",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Moatly - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Moatly adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/moatly.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/moatly-2"
+    },
     {
       "id": "ai-outages-live",
       "name": "outages.live",
