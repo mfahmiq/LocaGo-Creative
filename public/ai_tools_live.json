@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 20:27 WIB",
-  "total": 246,
+  "updatedAt": "08 Nov 2026, 20:57 WIB",
+  "total": 247,
   "items": [
+    {
+      "id": "ai-pornflux-i2v-6e9et",
+      "name": "Pornflux I2V 6E9Et",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (105 Upvotes)",
+      "description": "Pornflux I2V 6E9Et adalah model dan aplikasi demo AI interaktif dari kreator Tanyakhan di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/pornflux-i2v-6e9et.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/Tanyakhan/pornflux-i2v-6e9et"
+    },
     {
       "id": "ai-akkio",
       "name": "Akkio",
