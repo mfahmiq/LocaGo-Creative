@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 19:27 WIB",
-  "total": 244,
+  "updatedAt": "08 Nov 2026, 19:57 WIB",
+  "total": 245,
   "items": [
+    {
+      "id": "ai-dadabots",
+      "name": "Dadabots",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "Dadabots - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "Live-steaming AI-Generated Music 24/7",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/dadabots.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://dadabots.com"
+    },
     {
       "id": "ai-zero-wire",
       "name": "Zero Wire",
