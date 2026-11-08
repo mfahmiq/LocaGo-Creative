@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 05:29 WIB",
-  "total": 264,
+  "updatedAt": "09 Nov 2026, 05:59 WIB",
+  "total": 265,
   "items": [
+    {
+      "id": "ai-scribble-diffusion",
+      "name": "Scribble Diffusion",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Scribble Diffusion - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "A diffusion tool to transform sketches into refined images.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/scribble-diffusion.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://scribblediffusion.com"
+    },
     {
       "id": "ai-google-omni-1-2-flash",
       "name": "Google Omni 1.2 Flash",
