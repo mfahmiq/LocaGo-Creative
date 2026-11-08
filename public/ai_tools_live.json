@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 05:59 WIB",
-  "total": 265,
+  "updatedAt": "09 Nov 2026, 06:29 WIB",
+  "total": 266,
   "items": [
+    {
+      "id": "ai-hitpaw-photo-enhancer",
+      "name": "HitPaw Photo Enhancer",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "HitPaw Photo Enhancer - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "A software for improving image quality and resolution.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/hitpaw-photo-enhancer.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.hitpaw.com/photo-enhancer.html"
+    },
     {
       "id": "ai-scribble-diffusion",
       "name": "Scribble Diffusion",
