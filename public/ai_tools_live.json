@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 17:17 WIB",
-  "total": 239,
+  "updatedAt": "08 Nov 2026, 17:27 WIB",
+  "total": 240,
   "items": [
+    {
+      "id": "ai-green-screen-ai",
+      "name": "Green Screen AI",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Green Screen AI - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "Change the background of any image",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/green-screen-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://greenscreenai.com"
+    },
     {
       "id": "ai-chorus-weather",
       "name": "Chorus Weather",
