@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 07:39 WIB",
-  "total": 219,
+  "updatedAt": "08 Nov 2026, 07:45 WIB",
+  "total": 220,
   "items": [
+    {
+      "id": "ai-minimax-h3-turbo-lora-uncensored-workflow",
+      "name": "Minimax H3 Turbo Lora Uncensored Workflow",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (34 Upvotes)",
+      "description": "Minimax H3 Turbo Lora Uncensored Workflow adalah model dan aplikasi demo AI interaktif dari kreator umaircxnd di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/minimax-h3-turbo-lora-uncensored-workflow.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/umaircxnd/MiniMax-H3-Turbo-Lora-UNCENSORED-Workflow"
+    },
     {
       "id": "ai-audio8-tts-realistic-air",
       "name": "Audio8 Tts Realistic Air",

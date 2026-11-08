@@ -1,5 +1,5 @@
 {
-  "updatedAt": "08 Nov 2026, 07:39 WIB",
+  "updatedAt": "08 Nov 2026, 07:45 WIB",
   "total": 15,
   "items": [
     {
@@ -363,7 +363,7 @@
       "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
       "oneSentencePitch": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
       "rank": 15,
-      "totalStars": "556",
+      "totalStars": "557",
       "starsToday": 123,
       "starsGrowthText": "+123 stars today",
       "growthRate": "+123 stars hari ini",
