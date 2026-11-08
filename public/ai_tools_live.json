@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 21:27 WIB",
-  "total": 248,
+  "updatedAt": "08 Nov 2026, 21:57 WIB",
+  "total": 249,
   "items": [
+    {
+      "id": "ai-krea-2-turbo-v2",
+      "name": "Krea 2 Turbo V2",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (55 Upvotes)",
+      "description": "Krea 2 Turbo V2 adalah model dan aplikasi demo AI interaktif dari kreator Intruzo di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/krea-2-turbo-v2.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/Intruzo/Krea-2-Turbo_v2"
+    },
     {
       "id": "ai-datashake-mcp",
       "name": "Datashake MCP",
