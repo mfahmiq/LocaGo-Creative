@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 04:59 WIB",
-  "total": 263,
+  "updatedAt": "09 Nov 2026, 05:29 WIB",
+  "total": 264,
   "items": [
+    {
+      "id": "ai-google-omni-1-2-flash",
+      "name": "Google Omni 1.2 Flash",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Google Omni 1.2 Flash - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Google Omni 1.2 Flash adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/google-omni-1-2-flash.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/google-omni-1-2-flash"
+    },
     {
       "id": "ai-noty-ai",
       "name": "Noty.ai",
