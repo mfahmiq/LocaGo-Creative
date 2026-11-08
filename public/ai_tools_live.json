@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 00:28 WIB",
-  "total": 254,
+  "updatedAt": "09 Nov 2026, 00:58 WIB",
+  "total": 255,
   "items": [
+    {
+      "id": "ai-parsio",
+      "name": "Parsio",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "Parsio - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "A tool to automate data extraction from various files formats.",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/parsio.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://parsio.io"
+    },
     {
       "id": "ai-wp-ai-chat",
       "name": "WP AI Chat",
