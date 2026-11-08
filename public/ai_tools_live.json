@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 02:58 WIB",
-  "total": 259,
+  "updatedAt": "09 Nov 2026, 03:29 WIB",
+  "total": 260,
   "items": [
+    {
+      "id": "ai-b7labs",
+      "name": "B7Labs",
+      "category": "Web & Scrapers",
+      "pricingType": "Free",
+      "tagline": "B7Labs - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "A tool for summarizing webpages.",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/b7labs.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://b7labs.co/converse"
+    },
     {
       "id": "ai-rex-beta",
       "name": "Rex (Beta)",
