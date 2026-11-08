@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 22:57 WIB",
-  "total": 251,
+  "updatedAt": "08 Nov 2026, 23:27 WIB",
+  "total": 252,
   "items": [
+    {
+      "id": "ai-gorilla-terminal",
+      "name": "Gorilla Terminal",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "Gorilla Terminal - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "A platform for investment research and analysis.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/gorilla-terminal.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://gorillaterminal.com"
+    },
     {
       "id": "ai-trellis-2",
       "name": "Trellis.2",
