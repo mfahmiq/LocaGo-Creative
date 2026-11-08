@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 20:57 WIB",
-  "total": 247,
+  "updatedAt": "08 Nov 2026, 21:27 WIB",
+  "total": 248,
   "items": [
+    {
+      "id": "ai-datashake-mcp",
+      "name": "Datashake MCP",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "Datashake MCP - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Datashake MCP adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/datashake-mcp.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/datashake-hub"
+    },
     {
       "id": "ai-pornflux-i2v-6e9et",
       "name": "Pornflux I2V 6E9Et",
