@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 17:27 WIB",
-  "total": 240,
+  "updatedAt": "08 Nov 2026, 17:57 WIB",
+  "total": 241,
   "items": [
+    {
+      "id": "ai-phonon",
+      "name": "Phonon",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (117 Upvotes)",
+      "description": "Phonon adalah model dan aplikasi demo AI interaktif dari kreator gradium di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/phonon.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/gradium/phonon"
+    },
     {
       "id": "ai-green-screen-ai",
       "name": "Green Screen AI",
