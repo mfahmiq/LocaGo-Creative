@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 23:27 WIB",
-  "total": 252,
+  "updatedAt": "08 Nov 2026, 23:57 WIB",
+  "total": 253,
   "items": [
+    {
+      "id": "ai-sequence-tool",
+      "name": "Sequence Tool",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Sequence Tool - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Sequence Tool adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/sequence-tool.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/sequence-tool"
+    },
     {
       "id": "ai-gorilla-terminal",
       "name": "Gorilla Terminal",
