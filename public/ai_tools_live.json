@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 10:46 WIB",
-  "total": 226,
+  "updatedAt": "08 Nov 2026, 11:16 WIB",
+  "total": 227,
   "items": [
+    {
+      "id": "ai-simready-central",
+      "name": "Simready Central",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (374 Upvotes)",
+      "description": "Simready Central adalah model dan aplikasi demo AI interaktif dari kreator nvidia di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/simready-central.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/nvidia/simready-central"
+    },
     {
       "id": "ai-scalekit",
       "name": "Scalekit",
