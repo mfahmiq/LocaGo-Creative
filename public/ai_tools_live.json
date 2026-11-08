@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 01:28 WIB",
-  "total": 256,
+  "updatedAt": "09 Nov 2026, 01:58 WIB",
+  "total": 257,
   "items": [
+    {
+      "id": "ai-outages-live",
+      "name": "outages.live",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "outages.live - Produk AI Baru Terpilih di Product Hunt",
+      "description": "outages.live adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/outages-live.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/polylane"
+    },
     {
       "id": "ai-kayet",
       "name": "kayet",
