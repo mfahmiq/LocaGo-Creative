@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 17:57 WIB",
-  "total": 241,
+  "updatedAt": "08 Nov 2026, 18:27 WIB",
+  "total": 242,
   "items": [
+    {
+      "id": "ai-contentin",
+      "name": "ContentIn",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "ContentIn - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "An AI-powered content creation and scheduling tool for LinkedIn",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/contentin.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://contentin.io"
+    },
     {
       "id": "ai-phonon",
       "name": "Phonon",
