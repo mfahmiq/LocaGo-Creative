@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 14:46 WIB",
-  "total": 234,
+  "updatedAt": "08 Nov 2026, 15:16 WIB",
+  "total": 235,
   "items": [
+    {
+      "id": "ai-minimax-h3-turbo-lora-uncensored",
+      "name": "Minimax H3 Turbo Lora Uncensored",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (103 Upvotes)",
+      "description": "Minimax H3 Turbo Lora Uncensored adalah model dan aplikasi demo AI interaktif dari kreator baka999 di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/minimax-h3-turbo-lora-uncensored.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/baka999/MiniMax-H3-Turbo-Lora-UNCENSORED"
+    },
     {
       "id": "ai-mellow-kids",
       "name": "Mellow Kids",
