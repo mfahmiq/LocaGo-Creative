@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 16:47 WIB",
-  "total": 238,
+  "updatedAt": "08 Nov 2026, 17:17 WIB",
+  "total": 239,
   "items": [
+    {
+      "id": "ai-chorus-weather",
+      "name": "Chorus Weather",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Chorus Weather - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Chorus Weather adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/chorus-weather.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/chorus-weather"
+    },
     {
       "id": "ai-nexupira",
       "name": "NEXUPIRA",
