@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 13:46 WIB",
-  "total": 232,
+  "updatedAt": "08 Nov 2026, 14:16 WIB",
+  "total": 233,
   "items": [
+    {
+      "id": "ai-idol",
+      "name": "Idol",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (132 Upvotes)",
+      "description": "Idol adalah model dan aplikasi demo AI interaktif dari kreator speridlabs di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/idol.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/speridlabs/idol"
+    },
     {
       "id": "ai-qwen-image-2-1-realtime",
       "name": "Qwen Image 2 1 Realtime",
