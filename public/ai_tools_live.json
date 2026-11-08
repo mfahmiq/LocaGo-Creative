@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 23:57 WIB",
-  "total": 253,
+  "updatedAt": "09 Nov 2026, 00:28 WIB",
+  "total": 254,
   "items": [
+    {
+      "id": "ai-wp-ai-chat",
+      "name": "WP AI Chat",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "WP AI Chat - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "A chat widget for your website, train with your own data in minutes.",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/wp-ai-chat.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://egp--otc-publishing.thrivecart.com/wp-ai-chat"
+    },
     {
       "id": "ai-sequence-tool",
       "name": "Sequence Tool",
