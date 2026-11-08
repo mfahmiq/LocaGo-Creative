@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 11:16 WIB",
-  "total": 227,
+  "updatedAt": "08 Nov 2026, 11:46 WIB",
+  "total": 228,
   "items": [
+    {
+      "id": "ai-orphex-mcp",
+      "name": "Orphex MCP",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Orphex MCP - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Orphex MCP adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/orphex-mcp.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/orphex-mcp-let-s-do-agentic-marketing"
+    },
     {
       "id": "ai-simready-central",
       "name": "Simready Central",
