@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 15:16 WIB",
-  "total": 235,
+  "updatedAt": "08 Nov 2026, 15:46 WIB",
+  "total": 236,
   "items": [
+    {
+      "id": "ai-holdtalk",
+      "name": "HoldTalk",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "HoldTalk - Produk AI Baru Terpilih di Product Hunt",
+      "description": "HoldTalk adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/holdtalk.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/holdtalk"
+    },
     {
       "id": "ai-minimax-h3-turbo-lora-uncensored",
       "name": "Minimax H3 Turbo Lora Uncensored",
