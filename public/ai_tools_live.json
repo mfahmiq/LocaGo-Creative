@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 22:27 WIB",
-  "total": 250,
+  "updatedAt": "08 Nov 2026, 22:57 WIB",
+  "total": 251,
   "items": [
+    {
+      "id": "ai-trellis-2",
+      "name": "Trellis.2",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (2338 Upvotes)",
+      "description": "Trellis.2 adalah model dan aplikasi demo AI interaktif dari kreator microsoft di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/trellis-2.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/microsoft/TRELLIS.2"
+    },
     {
       "id": "ai-dessn",
       "name": "Dessn",
