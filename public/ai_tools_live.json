@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 11:46 WIB",
-  "total": 228,
+  "updatedAt": "08 Nov 2026, 12:16 WIB",
+  "total": 229,
   "items": [
+    {
+      "id": "ai-powerships",
+      "name": "PowerShips",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "PowerShips - Produk AI Baru Terpilih di Product Hunt",
+      "description": "PowerShips adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/powerships.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/powerships"
+    },
     {
       "id": "ai-orphex-mcp",
       "name": "Orphex MCP",
