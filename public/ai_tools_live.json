@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 12:16 WIB",
-  "total": 229,
+  "updatedAt": "08 Nov 2026, 12:46 WIB",
+  "total": 230,
   "items": [
+    {
+      "id": "ai-opusclip-4-0",
+      "name": "OpusClip 4.0",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "OpusClip 4.0 - Produk AI Baru Terpilih di Product Hunt",
+      "description": "OpusClip 4.0 adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/opusclip-4-0.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/opusclip"
+    },
     {
       "id": "ai-powerships",
       "name": "PowerShips",
