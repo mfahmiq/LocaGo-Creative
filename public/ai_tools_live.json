@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 02:28 WIB",
-  "total": 258,
+  "updatedAt": "09 Nov 2026, 02:58 WIB",
+  "total": 259,
   "items": [
+    {
+      "id": "ai-rex-beta",
+      "name": "Rex (Beta)",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Rex (Beta) - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Rex (Beta) adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/rex-beta.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/superlogical"
+    },
     {
       "id": "ai-moatly",
       "name": "Moatly",
