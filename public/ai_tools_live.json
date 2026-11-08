@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 07:09 WIB",
-  "total": 218,
+  "updatedAt": "08 Nov 2026, 07:39 WIB",
+  "total": 219,
   "items": [
+    {
+      "id": "ai-audio8-tts-realistic-air",
+      "name": "Audio8 Tts Realistic Air",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (25 Upvotes)",
+      "description": "Audio8 Tts Realistic Air adalah model dan aplikasi demo AI interaktif dari kreator Edge0 di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/audio8-tts-realistic-air.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/Edge0/Audio8-TTS-Realistic-Air"
+    },
     {
       "id": "ai-faceswap-headswap",
       "name": "Faceswap Headswap",
