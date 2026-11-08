@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 09:15 WIB",
-  "total": 223,
+  "updatedAt": "08 Nov 2026, 09:45 WIB",
+  "total": 224,
   "items": [
+    {
+      "id": "ai-render-sandboxes",
+      "name": "Render Sandboxes",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Render Sandboxes - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Render Sandboxes adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/render-sandboxes.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/render"
+    },
     {
       "id": "ai-figstack",
       "name": "Figstack",
