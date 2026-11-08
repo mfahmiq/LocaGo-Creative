@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 06:39 WIB",
-  "total": 217,
+  "updatedAt": "08 Nov 2026, 07:09 WIB",
+  "total": 218,
   "items": [
+    {
+      "id": "ai-faceswap-headswap",
+      "name": "Faceswap Headswap",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (103 Upvotes)",
+      "description": "Faceswap Headswap adalah model dan aplikasi demo AI interaktif dari kreator keysersoze di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/faceswap-headswap.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/keysersoze/Faceswap-Headswap"
+    },
     {
       "id": "ai-qualitylayer",
       "name": "QualityLayer",
