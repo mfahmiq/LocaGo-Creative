@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 19:57 WIB",
-  "total": 245,
+  "updatedAt": "08 Nov 2026, 20:27 WIB",
+  "total": 246,
   "items": [
+    {
+      "id": "ai-akkio",
+      "name": "Akkio",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "Akkio - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "Build and deploy AI with your business data",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/akkio.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.akkio.com"
+    },
     {
       "id": "ai-dadabots",
       "name": "Dadabots",
