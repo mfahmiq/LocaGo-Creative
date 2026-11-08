@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 09:45 WIB",
-  "total": 224,
+  "updatedAt": "08 Nov 2026, 10:16 WIB",
+  "total": 225,
   "items": [
+    {
+      "id": "ai-hints",
+      "name": "Hints",
+      "category": "Agentic Automation",
+      "pricingType": "Paid",
+      "tagline": "Hints - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "Create and update tickets and sales pipeline from messengers, email, or SMS",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/hints.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://hints.so"
+    },
     {
       "id": "ai-render-sandboxes",
       "name": "Render Sandboxes",
