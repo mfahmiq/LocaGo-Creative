@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 13:16 WIB",
-  "total": 231,
+  "updatedAt": "08 Nov 2026, 13:46 WIB",
+  "total": 232,
   "items": [
+    {
+      "id": "ai-qwen-image-2-1-realtime",
+      "name": "Qwen Image 2 1 Realtime",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (168 Upvotes)",
+      "description": "Qwen Image 2 1 Realtime adalah model dan aplikasi demo AI interaktif dari kreator linoyts di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/qwen-image-2-1-realtime.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime"
+    },
     {
       "id": "ai-steve-ai",
       "name": "Steve AI",
