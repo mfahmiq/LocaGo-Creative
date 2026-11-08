@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 15:46 WIB",
-  "total": 236,
+  "updatedAt": "08 Nov 2026, 16:17 WIB",
+  "total": 237,
   "items": [
+    {
+      "id": "ai-promptheus",
+      "name": "Promptheus",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Promptheus - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "Use your voice to talk to ChatGPT",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/promptheus.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://chrome.google.com/webstore/detail/promptheus-converse-with/eipjdkbchadnamipponehljdnflolfki"
+    },
     {
       "id": "ai-holdtalk",
       "name": "HoldTalk",
