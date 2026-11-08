@@ -1,7 +1,25 @@
 {
-  "updatedAt": "08 Nov 2026, 12:46 WIB",
-  "total": 230,
+  "updatedAt": "08 Nov 2026, 13:16 WIB",
+  "total": 231,
   "items": [
+    {
+      "id": "ai-steve-ai",
+      "name": "Steve AI",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Steve AI - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "AI-powered video creation tool",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/steve-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.steve.ai"
+    },
     {
       "id": "ai-opusclip-4-0",
       "name": "OpusClip 4.0",
