@@ -1,5 +1,5 @@
 {
-  "updatedAt": "10 Nov 2026, 03:30 WIB",
+  "updatedAt": "10 Nov 2026, 04:31 WIB",
   "total": 11,
   "items": [
     {
@@ -38,7 +38,7 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "oneSentencePitch": "An open source design system that's fully customizable and agent ready",
       "rank": 2,
-      "totalStars": "19.6k",
+      "totalStars": "19.7k",
       "starsToday": 3324,
       "starsGrowthText": "+3,324 stars today",
       "growthRate": "+3324 stars hari ini",
@@ -113,7 +113,7 @@
       "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
       "oneSentencePitch": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
       "rank": 5,
-      "totalStars": "19.9k",
+      "totalStars": "20.0k",
       "starsToday": 560,
       "starsGrowthText": "+560 stars today",
       "growthRate": "+560 stars hari ini",
@@ -213,7 +213,7 @@
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "oneSentencePitch": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "rank": 9,
-      "totalStars": "68.7k",
+      "totalStars": "68.8k",
       "starsToday": 505,
       "starsGrowthText": "+505 stars today",
       "growthRate": "+505 stars hari ini",
@@ -238,7 +238,7 @@
       "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
       "oneSentencePitch": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
       "rank": 10,
-      "totalStars": "5.8k",
+      "totalStars": "5.9k",
       "starsToday": 31,
       "starsGrowthText": "+31 stars today",
       "growthRate": "+31 stars hari ini",
