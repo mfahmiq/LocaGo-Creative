@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 22:02 WIB",
-  "total": 296,
+  "updatedAt": "09 Nov 2026, 22:33 WIB",
+  "total": 297,
   "items": [
+    {
+      "id": "ai-heydoc",
+      "name": "HeyDoc",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "HeyDoc - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "A chat bot for personalized medical assistance and guidance.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/heydoc.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://heydoc.ai"
+    },
     {
       "id": "ai-easywrite-pro",
       "name": "Easywrite.pro",
