@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 15:01 WIB",
-  "total": 283,
+  "updatedAt": "09 Nov 2026, 15:31 WIB",
+  "total": 284,
   "items": [
+    {
+      "id": "ai-emvoice",
+      "name": "Emvoice",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Emvoice - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "A daw plugin to generate realistic vocal performances from text.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/emvoice.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://emvoiceapp.com"
+    },
     {
       "id": "ai-edgebar",
       "name": "EdgeBar",
