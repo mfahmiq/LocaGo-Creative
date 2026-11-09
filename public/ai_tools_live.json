@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 10:00 WIB",
-  "total": 273,
+  "updatedAt": "09 Nov 2026, 10:30 WIB",
+  "total": 274,
   "items": [
+    {
+      "id": "ai-heyphoto",
+      "name": "HeyPhoto",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "HeyPhoto - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "An online face editing tool to modify facial features, adding makeup and hairstyles.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/heyphoto.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://hey-photo.com"
+    },
     {
       "id": "ai-datingbyai",
       "name": "DatingbyAI",
