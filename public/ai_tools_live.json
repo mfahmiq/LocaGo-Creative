@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 19:02 WIB",
-  "total": 291,
+  "updatedAt": "09 Nov 2026, 19:32 WIB",
+  "total": 292,
   "items": [
+    {
+      "id": "ai-ai-checklist-generator",
+      "name": "AI Checklist Generator",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "AI Checklist Generator - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to generate checklists for various industries.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/ai-checklist-generator.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://checklistgenerator.ai"
+    },
     {
       "id": "ai-ultrascale-playbook",
       "name": "Ultrascale Playbook",
