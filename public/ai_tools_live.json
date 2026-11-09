@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 21:32 WIB",
-  "total": 295,
+  "updatedAt": "09 Nov 2026, 22:02 WIB",
+  "total": 296,
   "items": [
+    {
+      "id": "ai-easywrite-pro",
+      "name": "Easywrite.pro",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Easywrite.pro - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A writing platform to generate content.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/easywrite-pro.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://easywrite.pro"
+    },
     {
       "id": "ai-unicorn-platform",
       "name": "Unicorn Platform",
