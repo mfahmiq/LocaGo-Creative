@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 16:01 WIB",
-  "total": 285,
+  "updatedAt": "09 Nov 2026, 16:31 WIB",
+  "total": 286,
   "items": [
+    {
+      "id": "ai-ravyn",
+      "name": "Ravyn",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Ravyn - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A platform for sales and CRM.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/ravyn.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://ravyn.app"
+    },
     {
       "id": "ai-tilde",
       "name": "Tilde ",
