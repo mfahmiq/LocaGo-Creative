@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 18:02 WIB",
-  "total": 289,
+  "updatedAt": "09 Nov 2026, 18:32 WIB",
+  "total": 290,
   "items": [
+    {
+      "id": "ai-quest",
+      "name": "Quest",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Quest - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Quest adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/quest.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/quest-d8e9c4e8-cc0d-4b07-baee-e3dbf712c279"
+    },
     {
       "id": "ai-coverdesign-ai",
       "name": "CoverDesign AI",
