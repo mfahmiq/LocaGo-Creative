@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 03:34 WIB",
-  "total": 307,
+  "updatedAt": "10 Nov 2026, 04:04 WIB",
+  "total": 308,
   "items": [
+    {
+      "id": "ai-agent-clan",
+      "name": "Agent Clan",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Agent Clan - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Agent Clan adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/agent-clan.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/agent-clan"
+    },
     {
       "id": "ai-rankfender-v3-0",
       "name": "Rankfender v3.0",
