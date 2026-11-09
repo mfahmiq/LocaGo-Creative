@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 21:02 WIB",
-  "total": 294,
+  "updatedAt": "09 Nov 2026, 21:32 WIB",
+  "total": 295,
   "items": [
+    {
+      "id": "ai-unicorn-platform",
+      "name": "Unicorn Platform",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "Unicorn Platform - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "A no-code tool for website and blog building.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/unicorn-platform.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://unicornplatform.com"
+    },
     {
       "id": "ai-muse-realtime-avatar",
       "name": "Muse Realtime Avatar",
