@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 05:34 WIB",
-  "total": 311,
+  "updatedAt": "10 Nov 2026, 06:05 WIB",
+  "total": 312,
   "items": [
+    {
+      "id": "ai-trace-by-context-dev",
+      "name": "Trace by Context.dev",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Trace by Context.dev - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Trace by Context.dev adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/trace-by-context-dev.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/context-dev"
+    },
     {
       "id": "ai-notchx",
       "name": "NotchX",
