@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 02:03 WIB",
-  "total": 304,
+  "updatedAt": "10 Nov 2026, 02:33 WIB",
+  "total": 305,
   "items": [
+    {
+      "id": "ai-rosebud",
+      "name": "Rosebud",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Rosebud - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "The AI-powered personal growth journal",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/rosebud.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://my.rosebud.app"
+    },
     {
       "id": "ai-restogpt",
       "name": "RestoGPT",
