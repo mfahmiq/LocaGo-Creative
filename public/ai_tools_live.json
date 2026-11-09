@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 14:01 WIB",
-  "total": 281,
+  "updatedAt": "09 Nov 2026, 14:31 WIB",
+  "total": 282,
   "items": [
+    {
+      "id": "ai-matterseek",
+      "name": "Matterseek",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (3077 Upvotes)",
+      "description": "Matterseek adalah model dan aplikasi demo AI interaktif dari kreator YuyaoTechnology di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/matterseek.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/YuyaoTechnology/MatterSeek"
+    },
     {
       "id": "ai-orgsync",
       "name": "OrgSync",
