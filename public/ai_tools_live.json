@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 20:32 WIB",
-  "total": 293,
+  "updatedAt": "09 Nov 2026, 21:02 WIB",
+  "total": 294,
   "items": [
+    {
+      "id": "ai-muse-realtime-avatar",
+      "name": "Muse Realtime Avatar",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Muse Realtime Avatar - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Muse Realtime Avatar adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/muse-realtime-avatar.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/meta-ai"
+    },
     {
       "id": "ai-the-writer-s-quarter",
       "name": "The Writer's Quarter",
