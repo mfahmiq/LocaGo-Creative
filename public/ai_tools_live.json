@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 13:01 WIB",
-  "total": 279,
+  "updatedAt": "09 Nov 2026, 13:31 WIB",
+  "total": 280,
   "items": [
+    {
+      "id": "ai-sage2-by-levanto-labs",
+      "name": "Sage2 by Levanto Labs",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Sage2 by Levanto Labs - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Sage2 by Levanto Labs adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/sage2-by-levanto-labs.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/sagecraft"
+    },
     {
       "id": "ai-nolan",
       "name": "Nolan",
