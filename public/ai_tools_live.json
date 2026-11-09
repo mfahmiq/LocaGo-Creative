@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 12:31 WIB",
-  "total": 278,
+  "updatedAt": "09 Nov 2026, 13:01 WIB",
+  "total": 279,
   "items": [
+    {
+      "id": "ai-nolan",
+      "name": "Nolan",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Nolan - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool for script writing.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/nolan.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.nolanai.app"
+    },
     {
       "id": "ai-seam",
       "name": "seam",
