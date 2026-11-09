@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 15:31 WIB",
-  "total": 284,
+  "updatedAt": "09 Nov 2026, 16:01 WIB",
+  "total": 285,
   "items": [
+    {
+      "id": "ai-tilde",
+      "name": "Tilde ",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Tilde  - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Tilde  adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/tilde.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/tilde-for-mac"
+    },
     {
       "id": "ai-emvoice",
       "name": "Emvoice",
