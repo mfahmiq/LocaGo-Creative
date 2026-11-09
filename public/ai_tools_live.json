@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 11:30 WIB",
-  "total": 276,
+  "updatedAt": "09 Nov 2026, 12:00 WIB",
+  "total": 277,
   "items": [
+    {
+      "id": "ai-docsalot-for-customer-support",
+      "name": "DocsAlot for customer support",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "DocsAlot for customer support - Produk AI Baru Terpilih di Product Hunt",
+      "description": "DocsAlot for customer support adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/docsalot-for-customer-support.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/docsalot-2"
+    },
     {
       "id": "ai-inkling-2-small",
       "name": "Inkling 2 Small",
