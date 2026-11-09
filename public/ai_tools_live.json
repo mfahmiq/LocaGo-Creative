@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 06:05 WIB",
-  "total": 312,
+  "updatedAt": "10 Nov 2026, 06:35 WIB",
+  "total": 313,
   "items": [
+    {
+      "id": "ai-zigzag-browser",
+      "name": "Zigzag Browser",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Zigzag Browser - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Zigzag Browser adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/zigzag-browser.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/zigzag-3"
+    },
     {
       "id": "ai-trace-by-context-dev",
       "name": "Trace by Context.dev",
