@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 17:32 WIB",
-  "total": 288,
+  "updatedAt": "09 Nov 2026, 18:02 WIB",
+  "total": 289,
   "items": [
+    {
+      "id": "ai-coverdesign-ai",
+      "name": "CoverDesign AI",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "CoverDesign AI - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "A tool to create book cover designs.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/coverdesign-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://coverdesignai.com"
+    },
     {
       "id": "ai-duly",
       "name": "Duly",
