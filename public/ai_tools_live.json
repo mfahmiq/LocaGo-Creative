@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 09:30 WIB",
-  "total": 272,
+  "updatedAt": "09 Nov 2026, 10:00 WIB",
+  "total": 273,
   "items": [
+    {
+      "id": "ai-datingbyai",
+      "name": "DatingbyAI",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "DatingbyAI - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to generate personalized dating profiles.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/datingbyai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://datingbyai.com"
+    },
     {
       "id": "ai-textly",
       "name": "Textly",
