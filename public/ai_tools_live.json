@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 14:31 WIB",
-  "total": 282,
+  "updatedAt": "09 Nov 2026, 15:01 WIB",
+  "total": 283,
   "items": [
+    {
+      "id": "ai-edgebar",
+      "name": "EdgeBar",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "EdgeBar - Produk AI Baru Terpilih di Product Hunt",
+      "description": "EdgeBar adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/edgebar.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/edgebar"
+    },
     {
       "id": "ai-matterseek",
       "name": "Matterseek",
