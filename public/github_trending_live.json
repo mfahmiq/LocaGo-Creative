@@ -1,5 +1,5 @@
 {
-  "updatedAt": "09 Nov 2026, 18:29 WIB",
+  "updatedAt": "09 Nov 2026, 19:29 WIB",
   "total": 11,
   "items": [
     {
@@ -13,17 +13,17 @@
       "description": "Public repository for Agent Skills",
       "oneSentencePitch": "Public repository for Agent Skills",
       "rank": 1,
-      "totalStars": "190.1k",
-      "starsToday": 792,
-      "starsGrowthText": "+792 stars today",
-      "growthRate": "+792 stars hari ini",
+      "totalStars": "190.2k",
+      "starsToday": 1052,
+      "starsGrowthText": "+1,052 stars today",
+      "growthRate": "+1052 stars hari ini",
       "topics": [
         "ai",
         "python"
       ],
       "features": [
         "Trending resmi #1 di GitHub Trending Today",
-        "Pertumbuhan pesat: +792 stars today",
+        "Pertumbuhan pesat: +1,052 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -38,17 +38,17 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "oneSentencePitch": "An open source design system that's fully customizable and agent ready",
       "rank": 2,
-      "totalStars": "18.2k",
-      "starsToday": 875,
-      "starsGrowthText": "+875 stars today",
-      "growthRate": "+875 stars hari ini",
+      "totalStars": "18.4k",
+      "starsToday": 3324,
+      "starsGrowthText": "+3,324 stars today",
+      "growthRate": "+3324 stars hari ini",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #2 di GitHub Trending Today",
-        "Pertumbuhan pesat: +875 stars today",
+        "Pertumbuhan pesat: +3,324 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -63,17 +63,17 @@
       "description": "Hunt down social media accounts by username across social networks",
       "oneSentencePitch": "Hunt down social media accounts by username across social networks",
       "rank": 3,
-      "totalStars": "105.8k",
-      "starsToday": 2373,
-      "starsGrowthText": "+2,373 stars today",
-      "growthRate": "+2373 stars hari ini",
+      "totalStars": "105.9k",
+      "starsToday": 4294,
+      "starsGrowthText": "+4,294 stars today",
+      "growthRate": "+4294 stars hari ini",
       "topics": [
         "productivity",
         "python"
       ],
       "features": [
         "Trending resmi #3 di GitHub Trending Today",
-        "Pertumbuhan pesat: +2,373 stars today",
+        "Pertumbuhan pesat: +4,294 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -89,16 +89,16 @@
       "oneSentencePitch": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
       "rank": 4,
       "totalStars": "16.7k",
-      "starsToday": 41,
-      "starsGrowthText": "+41 stars today",
-      "growthRate": "+41 stars hari ini",
+      "starsToday": 579,
+      "starsGrowthText": "+579 stars today",
+      "growthRate": "+579 stars hari ini",
       "topics": [
         "productivity",
         "c++"
       ],
       "features": [
         "Trending resmi #4 di GitHub Trending Today",
-        "Pertumbuhan pesat: +41 stars today",
+        "Pertumbuhan pesat: +579 stars today",
         "Ditulis menggunakan bahasa C++"
       ]
     },
@@ -114,16 +114,16 @@
       "oneSentencePitch": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
       "rank": 5,
       "totalStars": "19.7k",
-      "starsToday": 32,
-      "starsGrowthText": "+32 stars today",
-      "growthRate": "+32 stars hari ini",
+      "starsToday": 560,
+      "starsGrowthText": "+560 stars today",
+      "growthRate": "+560 stars hari ini",
       "topics": [
         "ai",
         "python"
       ],
       "features": [
         "Trending resmi #5 di GitHub Trending Today",
-        "Pertumbuhan pesat: +32 stars today",
+        "Pertumbuhan pesat: +560 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -138,7 +138,7 @@
       "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
       "oneSentencePitch": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
       "rank": 6,
-      "totalStars": "31.8k",
+      "totalStars": "31.9k",
       "starsToday": 215,
       "starsGrowthText": "+215 stars today",
       "growthRate": "+215 stars hari ini",
@@ -164,16 +164,16 @@
       "oneSentencePitch": "Browser automation CLI for AI agents",
       "rank": 7,
       "totalStars": "48.1k",
-      "starsToday": 815,
-      "starsGrowthText": "+815 stars today",
-      "growthRate": "+815 stars hari ini",
+      "starsToday": 914,
+      "starsGrowthText": "+914 stars today",
+      "growthRate": "+914 stars hari ini",
       "topics": [
         "ai",
         "rust"
       ],
       "features": [
         "Trending resmi #7 di GitHub Trending Today",
-        "Pertumbuhan pesat: +815 stars today",
+        "Pertumbuhan pesat: +914 stars today",
         "Ditulis menggunakan bahasa Rust"
       ]
     },
@@ -188,7 +188,7 @@
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "oneSentencePitch": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "rank": 8,
-      "totalStars": "103.1k",
+      "totalStars": "103.2k",
       "starsToday": 203,
       "starsGrowthText": "+203 stars today",
       "growthRate": "+203 stars hari ini",
@@ -213,7 +213,7 @@
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "oneSentencePitch": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "rank": 9,
-      "totalStars": "68.4k",
+      "totalStars": "68.5k",
       "starsToday": 505,
       "starsGrowthText": "+505 stars today",
       "growthRate": "+505 stars hari ini",
@@ -238,7 +238,7 @@
       "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
       "oneSentencePitch": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
       "rank": 10,
-      "totalStars": "5.5k",
+      "totalStars": "5.6k",
       "starsToday": 31,
       "starsGrowthText": "+31 stars today",
       "growthRate": "+31 stars hari ini",
@@ -263,17 +263,17 @@
       "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "oneSentencePitch": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "rank": 11,
-      "totalStars": "19.1k",
-      "starsToday": 1439,
-      "starsGrowthText": "+1,439 stars today",
-      "growthRate": "+1439 stars hari ini",
+      "totalStars": "19.2k",
+      "starsToday": 1589,
+      "starsGrowthText": "+1,589 stars today",
+      "growthRate": "+1589 stars hari ini",
       "topics": [
         "productivity",
         "typescript"
       ],
       "features": [
         "Trending resmi #11 di GitHub Trending Today",
-        "Pertumbuhan pesat: +1,439 stars today",
+        "Pertumbuhan pesat: +1,589 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     }
