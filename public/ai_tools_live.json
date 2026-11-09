@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 03:04 WIB",
-  "total": 306,
+  "updatedAt": "10 Nov 2026, 03:34 WIB",
+  "total": 307,
   "items": [
+    {
+      "id": "ai-rankfender-v3-0",
+      "name": "Rankfender v3.0",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Rankfender v3.0 - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Rankfender v3.0 adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/rankfender-v3-0.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/rankfender"
+    },
     {
       "id": "ai-plainmail",
       "name": "Plainmail",
