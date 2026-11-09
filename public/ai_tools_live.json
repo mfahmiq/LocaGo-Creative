@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 23:03 WIB",
-  "total": 298,
+  "updatedAt": "09 Nov 2026, 23:33 WIB",
+  "total": 299,
   "items": [
+    {
+      "id": "ai-memorias",
+      "name": "Memorias",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Memorias - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Memorias adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/memorias.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/memorias-3"
+    },
     {
       "id": "ai-capnot",
       "name": "Capnot",
