@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 16:31 WIB",
-  "total": 286,
+  "updatedAt": "09 Nov 2026, 17:02 WIB",
+  "total": 287,
   "items": [
+    {
+      "id": "ai-yesil-health",
+      "name": "Yesil Health",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Yesil Health - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "An health assistance app for personalized health advice and recommendations.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/yesil-health.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://yesilhealth.com"
+    },
     {
       "id": "ai-ravyn",
       "name": "Ravyn",
