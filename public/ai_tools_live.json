@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 01:33 WIB",
-  "total": 303,
+  "updatedAt": "10 Nov 2026, 02:03 WIB",
+  "total": 304,
   "items": [
+    {
+      "id": "ai-restogpt",
+      "name": "RestoGPT",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "RestoGPT - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool for creating restaurant online ordering storefronts.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/restogpt.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://restogpt.ai"
+    },
     {
       "id": "ai-kapwing",
       "name": "Kapwing",
