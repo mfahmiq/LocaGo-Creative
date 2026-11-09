@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 22:33 WIB",
-  "total": 297,
+  "updatedAt": "09 Nov 2026, 23:03 WIB",
+  "total": 298,
   "items": [
+    {
+      "id": "ai-capnot",
+      "name": "Capnot",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Capnot - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Capnot adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/capnot.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/capnot"
+    },
     {
       "id": "ai-heydoc",
       "name": "HeyDoc",
