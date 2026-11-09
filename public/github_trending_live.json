@@ -1,406 +1,231 @@
 {
-  "updatedAt": "09 Nov 2026, 06:31 WIB",
-  "total": 25,
+  "updatedAt": "09 Nov 2026, 07:28 WIB",
+  "total": 9,
   "items": [
     {
-      "repo": "sherlock-project/sherlock",
+      "id": "gh-sherlock-project-sherlock",
       "name": "sherlock",
-      "oneSentencePitch": "Trending open-source repository on GitHub today.",
+      "owner": "sherlock-project",
+      "repo": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "category": "Productivity & Media",
       "language": "Python",
-      "starsToday": 2372,
-      "totalStars": "103,359",
-      "category": "Dev Tools & Automation",
+      "description": "Hunt down social media accounts by username across social networks",
+      "oneSentencePitch": "Hunt down social media accounts by username across social networks",
+      "rank": 1,
+      "totalStars": "103.5k",
+      "starsToday": 2373,
+      "starsGrowthText": "+2,373 stars today",
+      "growthRate": "+2373 stars hari ini",
       "topics": [
-        "Trending Today",
-        "Python",
-        "Dev Tools & Automation"
+        "productivity",
+        "python"
       ],
-      "id": "gh-live-1",
-      "rank": 1
+      "features": [
+        "Trending resmi #1 di GitHub Trending Today",
+        "Pertumbuhan pesat: +2,373 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
     },
     {
-      "repo": "storytold/craft-anything",
-      "name": "craft-anything",
-      "oneSentencePitch": "Craft Anything: understand how any software works, and craft your own.",
-      "language": "Rust",
-      "starsToday": 1251,
-      "totalStars": "22.5k",
-      "category": "Dev Tools & Automation",
-      "topics": [
-        "Breakout Star",
-        "Rust",
-        "Dev Tools & Automation"
-      ],
-      "id": "gh-live-2",
-      "rank": 2
-    },
-    {
-      "repo": "deepseek-ai/dsh-superagent-prototype",
-      "name": "dsh-superagent-prototype",
-      "oneSentencePitch": "Towards a More Autonomous Agent System",
-      "language": "TypeScript",
-      "starsToday": 1176,
-      "totalStars": "21.2k",
-      "category": "AI Agents & LLM",
-      "topics": [
-        "Breakout Star",
-        "TypeScript",
-        "AI Agents & LLM"
-      ],
-      "id": "gh-live-3",
-      "rank": 3
-    },
-    {
-      "repo": "ccch1mneyyy/dsh-Go",
-      "name": "dsh-Go",
-      "oneSentencePitch": "dsh-go \u2014 DeepSeek Harness \u88c5\u8fdb\u53e3\u888b\uff1a\u624b\u673a\u672c\u673a\u8fd0\u884c\uff0c\u4e5f\u80fd\u9065\u63a7\u4f60\u7684\u7535\u8111\u3002",
-      "language": "Dart",
-      "starsToday": 890,
-      "totalStars": "16.0k",
-      "category": "AI Agents & LLM",
-      "topics": [
-        "Breakout Star",
-        "Dart",
-        "AI Agents & LLM"
-      ],
-      "id": "gh-live-4",
-      "rank": 4
-    },
-    {
-      "repo": "meta/astryx",
-      "name": "astryx",
-      "oneSentencePitch": "Trending open-source repository on GitHub today.",
-      "language": "TypeScript",
-      "starsToday": 863,
-      "totalStars": "16,601",
-      "category": "Dev Tools & Automation",
-      "topics": [
-        "Trending Today",
-        "TypeScript",
-        "Dev Tools & Automation"
-      ],
-      "id": "gh-live-5",
-      "rank": 5
-    },
-    {
-      "repo": "vercel-labs/agent-browser",
-      "name": "agent-browser",
-      "oneSentencePitch": "Trending open-source repository on GitHub today.",
-      "language": "Rust",
-      "starsToday": 812,
-      "totalStars": "47,552",
-      "category": "AI Agents & LLM",
-      "topics": [
-        "Trending Today",
-        "Rust",
-        "AI Agents & LLM"
-      ],
-      "id": "gh-live-6",
-      "rank": 6
-    },
-    {
-      "repo": "anthropics/skills",
-      "name": "skills",
-      "oneSentencePitch": "Trending open-source repository on GitHub today.",
-      "language": "Python",
-      "starsToday": 793,
-      "totalStars": "189,589",
-      "category": "Dev Tools & Automation",
-      "topics": [
-        "Trending Today",
-        "Python",
-        "Dev Tools & Automation"
-      ],
-      "id": "gh-live-7",
-      "rank": 7
-    },
-    {
-      "repo": "heydamir/unslop",
-      "name": "unslop",
-      "oneSentencePitch": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-      "language": "JavaScript",
-      "starsToday": 664,
-      "totalStars": "12.0k",
-      "category": "AI Agents & LLM",
-      "topics": [
-        "Breakout Star",
-        "JavaScript",
-        "AI Agents & LLM"
-      ],
-      "id": "gh-live-8",
-      "rank": 8
-    },
-    {
-      "repo": "pengchujin/aerial-tv",
-      "name": "aerial-tv",
-      "oneSentencePitch": "\u7ed9\u56fd\u4ea7\u7535\u89c6\u7684\u4e00\u5757\u5e72\u51c0\u684c\u9762\uff1a\u53c2\u7167 tvOS \u8bbe\u8ba1\u7684\u5f00\u6e90 Android TV \u684c\u9762\uff0c\u6ca1\u6709\u5e7f\u544a\uff0c\u5f00\u673a\u81ea\u52a8\u63a5\u7ba1\u3002A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
-      "language": "Kotlin",
-      "starsToday": 596,
-      "totalStars": "10.7k",
-      "category": "Dev Tools & Automation",
-      "topics": [
-        "Breakout Star",
-        "Kotlin",
-        "Dev Tools & Automation"
-      ],
-      "id": "gh-live-9",
-      "rank": 9
-    },
-    {
-      "repo": "ranxianglei/billion-context",
-      "name": "billion-context",
-      "oneSentencePitch": "Trending open-source repository on GitHub today.",
-      "language": "TypeScript",
-      "starsToday": 460,
-      "totalStars": "5,110",
-      "category": "Dev Tools & Automation",
-      "topics": [
-        "Trending Today",
-        "TypeScript",
-        "Dev Tools & Automation"
-      ],
-      "id": "gh-live-10",
-      "rank": 10
-    },
-    {
-      "repo": "l0ng-ai/openidea",
-      "name": "openidea",
-      "oneSentencePitch": "The IDE you know, rebuilt in Rust. IntelliJ IDEA\u2013style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
-      "language": "TypeScript",
-      "starsToday": 435,
-      "totalStars": "7.8k",
-      "category": "AI Agents & LLM",
-      "topics": [
-        "Breakout Star",
-        "TypeScript",
-        "AI Agents & LLM"
-      ],
-      "id": "gh-live-11",
-      "rank": 11
-    },
-    {
-      "repo": "wangzan101/Mika",
-      "name": "Mika",
-      "oneSentencePitch": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
-      "language": "Kotlin",
-      "starsToday": 429,
-      "totalStars": "7.7k",
-      "category": "AI Agents & LLM",
-      "topics": [
-        "Breakout Star",
-        "Kotlin",
-        "AI Agents & LLM"
-      ],
-      "id": "gh-live-12",
-      "rank": 12
-    },
-    {
-      "repo": "unclebob/ub-mode",
-      "name": "ub-mode",
-      "oneSentencePitch": "Breakout open-source repository gaining momentum.",
-      "language": "General",
-      "starsToday": 408,
-      "totalStars": "7.4k",
-      "category": "AI Agents & LLM",
-      "topics": [
-        "Breakout Star",
-        "General",
-        "AI Agents & LLM"
-      ],
-      "id": "gh-live-13",
-      "rank": 13
-    },
-    {
-      "repo": "rddmwmddr/android-ad-cleaner",
-      "name": "android-ad-cleaner",
-      "oneSentencePitch": "\u5173\u6389\u56fd\u4ea7\u5b89\u5353\u624b\u673a\u7cfb\u7edf\u91cc\u7684\u5e7f\u544a\u3001\u70ed\u641c\u3001\u8d44\u8baf\u63a8\u8350\u548c\u8425\u9500\u63a8\u9001\u3002\u4e0d root\uff0c\u53ef\u8fd8\u539f\uff0c\u652f\u6301 AI \u667a\u80fd\u4f53\u4e00\u952e\u6267\u884c\u3002",
-      "language": "Python",
-      "starsToday": 394,
-      "totalStars": "7.1k",
-      "category": "AI Agents & LLM",
-      "topics": [
-        "Breakout Star",
-        "Python",
-        "AI Agents & LLM"
-      ],
-      "id": "gh-live-14",
-      "rank": 14
-    },
-    {
-      "repo": "zortos293/Lichii",
-      "name": "Lichii",
-      "oneSentencePitch": "VERY experimental Nintendo Switch 2 emulator",
-      "language": "C++",
-      "starsToday": 377,
-      "totalStars": "6.8k",
-      "category": "Dev Tools & Automation",
-      "topics": [
-        "Breakout Star",
-        "C++",
-        "Dev Tools & Automation"
-      ],
-      "id": "gh-live-15",
-      "rank": 15
-    },
-    {
-      "repo": "anhao/ai-pose-gallery-zh",
-      "name": "ai-pose-gallery-zh",
-      "oneSentencePitch": "\u4e2d\u6587\u7248 AI \u59ff\u52bf\u53c2\u8003\u56fe\u5e93 \u00b7 1439 \u7ec4 / 2878 \u5f20\u56fe\u7247 / \u5b8c\u6574\u6c49\u5316 \u00b7 \u96f6\u4f9d\u8d56\u9759\u6001\u753b\u5eca",
-      "language": "TypeScript",
-      "starsToday": 357,
-      "totalStars": "6.4k",
-      "category": "AI Agents & LLM",
-      "topics": [
-        "Breakout Star",
-        "TypeScript",
-        "AI Agents & LLM"
-      ],
-      "id": "gh-live-16",
-      "rank": 16
-    },
-    {
-      "repo": "dsx-ai-factory/nvke",
+      "id": "gh-dsx-ai-factory-nvke",
       "name": "nvke",
-      "oneSentencePitch": "Trending open-source repository on GitHub today.",
+      "owner": "dsx-ai-factory",
+      "repo": "dsx-ai-factory/nvke",
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "category": "Productivity & Media",
       "language": "Go",
+      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "oneSentencePitch": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "rank": 2,
+      "totalStars": "844",
       "starsToday": 345,
-      "totalStars": "828",
+      "starsGrowthText": "+345 stars today",
+      "growthRate": "+345 stars hari ini",
+      "topics": [
+        "productivity",
+        "go"
+      ],
+      "features": [
+        "Trending resmi #2 di GitHub Trending Today",
+        "Pertumbuhan pesat: +345 stars today",
+        "Ditulis menggunakan bahasa Go"
+      ]
+    },
+    {
+      "id": "gh-milind-soni-openmausbot",
+      "name": "OpenMausBot",
+      "owner": "milind-soni",
+      "repo": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "category": "Productivity & Media",
+      "language": "TypeScript",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "oneSentencePitch": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "rank": 3,
+      "totalStars": "18.2k",
+      "starsToday": 1439,
+      "starsGrowthText": "+1,439 stars today",
+      "growthRate": "+1439 stars hari ini",
+      "topics": [
+        "productivity",
+        "typescript"
+      ],
+      "features": [
+        "Trending resmi #3 di GitHub Trending Today",
+        "Pertumbuhan pesat: +1,439 stars today",
+        "Ditulis menggunakan bahasa TypeScript"
+      ]
+    },
+    {
+      "id": "gh-anthropics-claude-quickstarts",
+      "name": "claude-quickstarts",
+      "owner": "anthropics",
+      "repo": "anthropics/claude-quickstarts",
+      "url": "https://github.com/anthropics/claude-quickstarts",
       "category": "AI Agents & LLM",
-      "topics": [
-        "Trending Today",
-        "Go",
-        "AI Agents & LLM"
-      ],
-      "id": "gh-live-17",
-      "rank": 17
-    },
-    {
-      "repo": "Jakeschincariol/day-trader-skill",
-      "name": "day-trader-skill",
-      "oneSentencePitch": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
       "language": "Python",
-      "starsToday": 343,
-      "totalStars": "6.2k",
-      "category": "Dev Tools & Automation",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "oneSentencePitch": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "rank": 4,
+      "totalStars": "19.4k",
+      "starsToday": 32,
+      "starsGrowthText": "+32 stars today",
+      "growthRate": "+32 stars hari ini",
       "topics": [
-        "Breakout Star",
-        "Python",
-        "Dev Tools & Automation"
+        "ai",
+        "python"
       ],
-      "id": "gh-live-18",
-      "rank": 18
+      "features": [
+        "Trending resmi #4 di GitHub Trending Today",
+        "Pertumbuhan pesat: +32 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
     },
     {
-      "repo": "simbasjungles/free-my-tv",
-      "name": "free-my-tv",
-      "oneSentencePitch": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
-      "language": "Java",
-      "starsToday": 340,
-      "totalStars": "6.1k",
-      "category": "Dev Tools & Automation",
-      "topics": [
-        "Breakout Star",
-        "Java",
-        "Dev Tools & Automation"
-      ],
-      "id": "gh-live-19",
-      "rank": 19
-    },
-    {
-      "repo": "patch-gg/pixelfx",
-      "name": "pixelfx",
-      "oneSentencePitch": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
-      "language": "JavaScript",
-      "starsToday": 337,
-      "totalStars": "6.1k",
-      "category": "Dev Tools & Automation",
-      "topics": [
-        "Breakout Star",
-        "JavaScript",
-        "Dev Tools & Automation"
-      ],
-      "id": "gh-live-20",
-      "rank": 20
-    },
-    {
-      "repo": "valentderah/totk-pc-recomp",
-      "name": "totk-pc-recomp",
-      "oneSentencePitch": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
-      "language": "C",
-      "starsToday": 328,
-      "totalStars": "5.9k",
-      "category": "Dev Tools & Automation",
-      "topics": [
-        "Breakout Star",
-        "C",
-        "Dev Tools & Automation"
-      ],
-      "id": "gh-live-21",
-      "rank": 21
-    },
-    {
-      "repo": "Eglantine-Community/Eglantine",
-      "name": "Eglantine",
-      "oneSentencePitch": "VERY experimental Nintendo Switch 2 emulator",
-      "language": "C++",
-      "starsToday": 301,
-      "totalStars": "5.4k",
-      "category": "Dev Tools & Automation",
-      "topics": [
-        "Breakout Star",
-        "C++",
-        "Dev Tools & Automation"
-      ],
-      "id": "gh-live-22",
-      "rank": 22
-    },
-    {
-      "repo": "LNPANDY/NX2Apple",
-      "name": "NX2Apple",
-      "oneSentencePitch": "Play your own Switch games on iPhone/iPad \u2014 one-click macOS app, no terminal. | \u628a Switch \u6e38\u620f\u88c5\u8fdb iPhone\uff1a\u56fe\u5f62\u754c\u9762\u4e00\u952e\u6784\u5efa\uff0c\u4e0d\u7528\u547d\u4ee4\u884c\u3002Bring your own game.",
-      "language": "Swift",
-      "starsToday": 295,
-      "totalStars": "5.3k",
-      "category": "Dev Tools & Automation",
-      "topics": [
-        "Breakout Star",
-        "Swift",
-        "Dev Tools & Automation"
-      ],
-      "id": "gh-live-23",
-      "rank": 23
-    },
-    {
-      "repo": "anomalyco/rune",
-      "name": "rune",
-      "oneSentencePitch": "Rune: Native UI framework",
+      "id": "gh-vercel-labs-agent-browser",
+      "name": "agent-browser",
+      "owner": "vercel-labs",
+      "repo": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "category": "AI Agents & LLM",
       "language": "Rust",
-      "starsToday": 282,
-      "totalStars": "5.1k",
-      "category": "Dev Tools & Automation",
+      "description": "Browser automation CLI for AI agents",
+      "oneSentencePitch": "Browser automation CLI for AI agents",
+      "rank": 5,
+      "totalStars": "47.6k",
+      "starsToday": 815,
+      "starsGrowthText": "+815 stars today",
+      "growthRate": "+815 stars hari ini",
       "topics": [
-        "Breakout Star",
-        "Rust",
-        "Dev Tools & Automation"
+        "ai",
+        "rust"
       ],
-      "id": "gh-live-24",
-      "rank": 24
+      "features": [
+        "Trending resmi #5 di GitHub Trending Today",
+        "Pertumbuhan pesat: +815 stars today",
+        "Ditulis menggunakan bahasa Rust"
+      ]
     },
     {
-      "repo": "JustAResearcher/gpu-unlock-ada",
-      "name": "gpu-unlock-ada",
-      "oneSentencePitch": "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally",
-      "language": "C",
-      "starsToday": 269,
-      "totalStars": "4.8k",
-      "category": "Dev Tools & Automation",
+      "id": "gh-meta-astryx",
+      "name": "astryx",
+      "owner": "meta",
+      "repo": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "category": "AI Agents & LLM",
+      "language": "TypeScript",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "oneSentencePitch": "An open source design system that's fully customizable and agent ready",
+      "rank": 6,
+      "totalStars": "16.7k",
+      "starsToday": 875,
+      "starsGrowthText": "+875 stars today",
+      "growthRate": "+875 stars hari ini",
       "topics": [
-        "Breakout Star",
-        "C",
-        "Dev Tools & Automation"
+        "ai",
+        "typescript"
       ],
-      "id": "gh-live-25",
-      "rank": 25
+      "features": [
+        "Trending resmi #6 di GitHub Trending Today",
+        "Pertumbuhan pesat: +875 stars today",
+        "Ditulis menggunakan bahasa TypeScript"
+      ]
+    },
+    {
+      "id": "gh-anthropics-skills",
+      "name": "skills",
+      "owner": "anthropics",
+      "repo": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "category": "AI Agents & LLM",
+      "language": "Python",
+      "description": "Public repository for Agent Skills",
+      "oneSentencePitch": "Public repository for Agent Skills",
+      "rank": 7,
+      "totalStars": "189.6k",
+      "starsToday": 792,
+      "starsGrowthText": "+792 stars today",
+      "growthRate": "+792 stars hari ini",
+      "topics": [
+        "ai",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #7 di GitHub Trending Today",
+        "Pertumbuhan pesat: +792 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
+      "id": "gh-google-deepmind-mujoco",
+      "name": "mujoco",
+      "owner": "google-deepmind",
+      "repo": "google-deepmind/mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "category": "Productivity & Media",
+      "language": "C++",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "oneSentencePitch": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "rank": 8,
+      "totalStars": "16.4k",
+      "starsToday": 41,
+      "starsGrowthText": "+41 stars today",
+      "growthRate": "+41 stars hari ini",
+      "topics": [
+        "productivity",
+        "c++"
+      ],
+      "features": [
+        "Trending resmi #8 di GitHub Trending Today",
+        "Pertumbuhan pesat: +41 stars today",
+        "Ditulis menggunakan bahasa C++"
+      ]
+    },
+    {
+      "id": "gh-ranxianglei-billion-context",
+      "name": "billion-context",
+      "owner": "ranxianglei",
+      "repo": "ranxianglei/billion-context",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "category": "Productivity & Media",
+      "language": "TypeScript",
+      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+      "oneSentencePitch": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+      "rank": 9,
+      "totalStars": "5.1k",
+      "starsToday": 460,
+      "starsGrowthText": "+460 stars today",
+      "growthRate": "+460 stars hari ini",
+      "topics": [
+        "productivity",
+        "typescript"
+      ],
+      "features": [
+        "Trending resmi #9 di GitHub Trending Today",
+        "Pertumbuhan pesat: +460 stars today",
+        "Ditulis menggunakan bahasa TypeScript"
+      ]
     }
   ]
 }

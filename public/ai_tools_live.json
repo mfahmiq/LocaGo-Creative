@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 07:00 WIB",
-  "total": 267,
+  "updatedAt": "09 Nov 2026, 07:30 WIB",
+  "total": 268,
   "items": [
+    {
+      "id": "ai-wishpond-ai",
+      "name": "Wishpond AI",
+      "category": "Web & Scrapers",
+      "pricingType": "Free",
+      "tagline": "Wishpond AI - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "A platform to generate websites and website builder.",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/wishpond-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://wishpond.com"
+    },
     {
       "id": "ai-pico",
       "name": "Pico",
