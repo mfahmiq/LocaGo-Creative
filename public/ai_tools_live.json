@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 06:29 WIB",
-  "total": 266,
+  "updatedAt": "09 Nov 2026, 07:00 WIB",
+  "total": 267,
   "items": [
+    {
+      "id": "ai-pico",
+      "name": "Pico",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "tagline": "Pico - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "A tool to build web apps and shareable applications.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/pico.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://picoapps.xyz"
+    },
     {
       "id": "ai-hitpaw-photo-enhancer",
       "name": "HitPaw Photo Enhancer",
