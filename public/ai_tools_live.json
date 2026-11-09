@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 08:30 WIB",
-  "total": 270,
+  "updatedAt": "09 Nov 2026, 09:00 WIB",
+  "total": 271,
   "items": [
+    {
+      "id": "ai-prompt-hunt",
+      "name": "Prompt Hunt",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "Prompt Hunt - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "A tool to create, edit and share consistent graphics assets and themes.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/prompt-hunt.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.prompthunt.com"
+    },
     {
       "id": "ai-dino-kids",
       "name": "Dino Kids",
