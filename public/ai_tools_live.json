@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 08:00 WIB",
-  "total": 269,
+  "updatedAt": "09 Nov 2026, 08:30 WIB",
+  "total": 270,
   "items": [
+    {
+      "id": "ai-dino-kids",
+      "name": "Dino Kids",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Dino Kids - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Dino Kids adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/dino-kids.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/dino-kids"
+    },
     {
       "id": "ai-deal-pilot",
       "name": "Deal Pilot",
