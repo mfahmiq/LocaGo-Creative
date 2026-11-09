@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 04:34 WIB",
-  "total": 309,
+  "updatedAt": "10 Nov 2026, 05:04 WIB",
+  "total": 310,
   "items": [
+    {
+      "id": "ai-stability-for-blender",
+      "name": "Stability for Blender",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Stability for Blender - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A stability addon for Blender software.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/stability-for-blender.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://platform.stability.ai/docs/integrations/blender"
+    },
     {
       "id": "ai-coursebox",
       "name": "Coursebox",
