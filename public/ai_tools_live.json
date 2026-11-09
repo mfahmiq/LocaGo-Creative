@@ -1,7 +1,25 @@
 {
-  "updatedAt": "09 Nov 2026, 23:33 WIB",
-  "total": 299,
+  "updatedAt": "10 Nov 2026, 00:03 WIB",
+  "total": 300,
   "items": [
+    {
+      "id": "ai-pdf-parser",
+      "name": "PDF Parser",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "PDF Parser - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "A tool to analyze, visualize, and communicate data for insights.",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/pdf-parser.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://pdfparser.co"
+    },
     {
       "id": "ai-memorias",
       "name": "Memorias",
