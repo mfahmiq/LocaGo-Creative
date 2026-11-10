@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 05:05 WIB",
-  "total": 361,
+  "updatedAt": "11 Nov 2026, 05:35 WIB",
+  "total": 362,
   "items": [
+    {
+      "id": "ai-lotusq",
+      "name": "LotusQ",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "LotusQ - Produk AI Baru Terpilih di Product Hunt",
+      "description": "LotusQ adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/lotusq.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/lotusq"
+    },
     {
       "id": "ai-tokens-by-ui-colors",
       "name": "Tokens by UI Colors",
