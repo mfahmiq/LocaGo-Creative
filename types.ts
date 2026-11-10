@@ -33,27 +33,40 @@ export interface Step {
 
 export type NavigationTab = 'agency' | 'source-code' | 'github-trending' | 'ai-tools' | 'linklists' | 'articles';
 
+export interface SourceCodeCredential {
+  role: string;
+  username: string;
+  password: string;
+}
+
 export interface SourceCodeItem {
   id: string;
   title: string;
   slug: string;
-  category: 'PHP & Laravel' | 'Google Apps Script' | 'Python & AI' | 'Next.js & React' | 'Mobile & Desktop';
+  category: string;
   techStack: string[];
   description: string;
   shortDesc: string;
+  howItWorks?: string;
+  requirements?: string;
+  screenshots?: string[];
+  defaultCredentials?: SourceCodeCredential[];
+  updatedAt?: string;
+  releaseDate?: string;
+  recentFastDownloads?: number;
   thumbnail: string;
   downloadsCount: number;
   rating: number;
   isPopular?: boolean;
   isFree: boolean;
   hasDatabase: boolean;
-  databaseType?: 'MySQL (.sql)' | 'Google Sheets' | 'SQLite' | 'PostgreSQL';
+  databaseType?: string;
   demoUrl?: string;
   fileSize: string;
   tutorialSteps: string[];
   keyFeatures: string[];
   downloadUrlFree: string; // Goes to safelink loop dwollopus.eu.org
-  downloadUrlFast: string; // Direct VIP link / Saweria donation
+  downloadUrlFast: string; // Direct VIP link / QRIS donation
 }
 
 export interface GitHubTrendingItem {

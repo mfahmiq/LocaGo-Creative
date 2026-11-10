@@ -6,6 +6,57 @@ export const WA_CONSULT_URL = 'https://wa.me/6285189393354?text=Halo%20LocaGo%20
 
 export const SOURCE_CODE_LIST: SourceCodeItem[] = [
   {
+    id: 'sc-00',
+    title: 'LocaGo Open-Source Super-Vault: 100+ Tools Pengganti SaaS, 20 Prompt Claude Code & Script Scraper',
+    slug: 'locago-open-source-super-vault-100-tools-prompts',
+    category: 'Python & AI',
+    techStack: ['Python 3.11', 'Claude Code', 'Docker', 'Self-Hosted', 'Markdown'],
+    description: 'Paket bundel eksklusif berisi kurasi 100+ repositori open-source terbaik pengganti software langganan mahal (CRM, Analytics, AI Agent, Automation, Desain, PDF, DevOps) lengkap dengan 20 System Prompt production-grade untuk Claude Code/Cursor, starter script Python penarik prospek lokal, serta panduan setup VPS Rp 50rb/bulan.\n\nDirancang khusus untuk developer, freelancer, dan tech founder yang ingin memangkas biaya langganan SaaS bulanan hingga 90% dan mempercepat workflow pembuatan aplikasi klien.',
+    shortDesc: 'Bundle 100+ tools open-source pengganti SaaS mahal, 20 system prompt Claude Code/Cursor, dan starter script Python.',
+    howItWorks: 'Seluruh materi dikemas dalam arsip ZIP terstruktur yang terdiri dari 4 modul utama: (1) Katalog 100+ Open-Source pengganti SaaS lengkap dengan link GitHub dan fungsi utamanya; (2) Koleksi 20 System Prompt arsitektur full-stack dan anti-AI-slop; (3) Script Python starter untuk memformat dan mengekspor database prospek UMKM lokal ke CSV; (4) Panduan langkah demi langkah inisialisasi Ubuntu VPS, Swap 4GB, Docker, dan auto-SSL Caddy.',
+    requirements: 'Text Editor (VS Code / Cursor), Python 3.10+ (opsional untuk script starter), Git.',
+    screenshots: [
+      '/banners/gemini/art_cuan_digital_source_code.webp',
+      '/banners/gemini/art_membangun_multi_agent_cod.webp',
+      '/banners/gemini/art_10_prompt_engineering_tin.webp'
+    ],
+    defaultCredentials: [
+      { role: 'Akses Dokumen', username: 'Tanpa Password', password: 'Langsung Ekstrak ZIP' }
+    ],
+    updatedAt: '10 November 2026',
+    releaseDate: '10 November 2026',
+    recentFastDownloads: 64,
+    thumbnail: '/banners/gemini/art_cuan_digital_source_code.webp',
+    downloadsCount: 2840,
+    rating: 5.0,
+    isPopular: true,
+    isFree: true,
+    hasDatabase: false,
+    databaseType: 'Markdown & Python (.zip)',
+    fileSize: '8.4 MB',
+    tutorialSteps: [
+      'Klik tombol Download Tanpa Iklan (Donasi QRIS mulai Rp 3.000) atau Jalur Gratis di samping.',
+      'Ekstrak file `00_OpenSource_Super_Vault_100_Tools_Prompts.zip` ke folder kerja Anda.',
+      'Buka `01_100_Open_Source_Alternatives_SaaS.md` di VS Code, Obsidian, atau Notion untuk daftar lengkap 100+ tools.',
+      'Salin system prompt dari `02_Claude_Code_Cursor_System_Prompts.md` ke dalam `.cursorrules` atau `CLAUDE.md` proyek Anda.',
+      'Jalankan `python 03_Automated_Lead_Scraper_Starter.py` untuk menguji generator CSV prospek UMKM lokal.'
+    ],
+    keyFeatures: [
+      '100+ Kurasi Open-Source terbagi rapi: AI & LLM, Workflow & Scraping, CRM & Bisnis, DevOps & Media',
+      '20 System Prompt Claude Code & Cursor untuk arsitektur full-stack bebas AI-slop',
+      'Starter script Python ekstraksi & pemformatan prospek bisnis lokal ke CSV',
+      'Panduan setup VPS murah Rp 50rb/bulan + konfigurasi Swap 4GB anti-crash',
+      'Template konfigurasi reverse proxy Caddy auto-HTTPS satu baris',
+      'Daftar pengganti Zapier, Notion, Figma, Salesforce, HubSpot, dan Intercom 100% gratis',
+      'Rekomendasi stack Local LLM (Ollama + OpenWebUI + Continue.dev) hemat token API',
+      'Bebas lisensi komersial: boleh dipakai untuk proyek internal maupun klien agensi',
+      'Format Markdown bersih yang langsung kompatibel dengan Obsidian & Notion',
+      'Update berkala mengikuti tren repositori GitHub terbaru'
+    ],
+    downloadUrlFree: `${SAFELINK_BASE_URL}?item=locago-open-source-super-vault-100-tools-prompts&step=1&target=drive`,
+    downloadUrlFast: '/downloads/00_OpenSource_Super_Vault_100_Tools_Prompts.zip'
+  },
+  {
     id: 'sc-1',
     title: 'Sistem Kasir & POS Toko Kelontong UMKM + Struk WA Otomatis',
     slug: 'pos-toko-kelontong-umkm-wa',
