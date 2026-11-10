@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 00:04 WIB",
-  "total": 351,
+  "updatedAt": "11 Nov 2026, 00:34 WIB",
+  "total": 352,
   "items": [
+    {
+      "id": "ai-image-to-video",
+      "name": "Image To Video",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (197 Upvotes)",
+      "description": "Image To Video adalah model dan aplikasi demo AI interaktif dari kreator thea2026 di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/image-to-video.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/thea2026/image-to-video"
+    },
     {
       "id": "ai-sendoff",
       "name": "Sendoff",
