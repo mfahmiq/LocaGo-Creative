@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 13:06 WIB",
-  "total": 326,
+  "updatedAt": "10 Nov 2026, 13:36 WIB",
+  "total": 327,
   "items": [
+    {
+      "id": "ai-wonder-dev-view",
+      "name": "Wonder Dev View",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Wonder Dev View - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Wonder Dev View adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/wonder-dev-view.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/wonder-dev-view"
+    },
     {
       "id": "ai-scrip-ai",
       "name": "Scrip AI",
