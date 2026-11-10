@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 09:06 WIB",
-  "total": 318,
+  "updatedAt": "10 Nov 2026, 09:36 WIB",
+  "total": 319,
   "items": [
+    {
+      "id": "ai-notchisland",
+      "name": "NotchIsland",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "NotchIsland - Produk AI Baru Terpilih di Product Hunt",
+      "description": "NotchIsland adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/notchisland.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/notchisland-2"
+    },
     {
       "id": "ai-ai-mail-assistant",
       "name": "AI Mail Assistant",
