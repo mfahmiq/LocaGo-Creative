@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 02:04 WIB",
-  "total": 355,
+  "updatedAt": "11 Nov 2026, 02:35 WIB",
+  "total": 356,
   "items": [
+    {
+      "id": "ai-theoassist",
+      "name": "TheoAssist",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "TheoAssist - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "A chat and research tool built around the bible",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/theoassist.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://theoassist.com"
+    },
     {
       "id": "ai-zus",
       "name": "ZUS",
