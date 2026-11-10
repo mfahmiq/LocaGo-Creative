@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 06:06 WIB",
-  "total": 363,
+  "updatedAt": "11 Nov 2026, 06:36 WIB",
+  "total": 364,
   "items": [
+    {
+      "id": "ai-wipecraft",
+      "name": "Wipecraft",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Wipecraft - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Wipecraft adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/wipecraft.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/wipecraft"
+    },
     {
       "id": "ai-seldon",
       "name": "Seldon",
