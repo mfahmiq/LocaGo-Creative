@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 04:35 WIB",
-  "total": 360,
+  "updatedAt": "11 Nov 2026, 05:05 WIB",
+  "total": 361,
   "items": [
+    {
+      "id": "ai-tokens-by-ui-colors",
+      "name": "Tokens by UI Colors",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Tokens by UI Colors - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Tokens by UI Colors adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/tokens-by-ui-colors.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/tokens-by-ui-colors"
+    },
     {
       "id": "ai-ellie",
       "name": "Ellie",
