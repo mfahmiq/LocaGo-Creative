@@ -1,6 +1,6 @@
 {
-  "updatedAt": "10 Nov 2026, 21:53 WIB",
-  "total": 44,
+  "updatedAt": "10 Nov 2026, 22:54 WIB",
+  "total": 45,
   "items": [
     {
       "id": "sc-00",
@@ -64,6 +64,66 @@
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=locago-open-source-super-vault-100-tools-prompts&step=1&max=8",
       "downloadUrlFast": "/downloads/locago-open-source-super-vault-100-tools-prompts.zip"
+    },
+    {
+      "id": "sc-45",
+      "title": "Aplikasi Hospital Management Python Mysql Modern & Full Database",
+      "slug": "hospital-management-python-mysql",
+      "category": "PHP & Laravel",
+      "techStack": [
+        "PHP 8.2",
+        "Laravel 11",
+        "MySQL",
+        "Livewire"
+      ],
+      "description": "A Python and MySQL-based Hospital Management System developed as a Class XII Computer Science project, featuring patient registration, appointment scheduling, and relational database management. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi, validasi otomatis, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nDilengkapi skema database (MySQL (.sql)) lengkap dengan data contoh realistis.",
+      "shortDesc": "Aplikasi Aplikasi Hospital Management Python Mysql Modern & Full Database dengan database MySQL (.sql), data contoh, dan tutorial instalasi lengkap.",
+      "howItWorks": "Data utama tersimpan di MySQL (.sql) dengan struktur relasional yang ternormalisasi: tabel pengguna, log transaksi, serta pengaturan sistem. Aplikasi dibangun dengan PHP 8.2, Laravel 11, MySQL, Livewire dan proteksi keamanan berlapis.",
+      "requirements": "PHP 8.2+ / Node.js / Python, Web Server Lokal (XAMPP / Laragon).",
+      "screenshots": [
+        "/screenshots/hospital-management-python-mysql/screenshot_1.webp",
+        "/screenshots/hospital-management-python-mysql/screenshot_2.webp",
+        "/screenshots/hospital-management-python-mysql/screenshot_3.webp",
+        "/screenshots/hospital-management-python-mysql/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@locago.my.id",
+          "password": "password123"
+        },
+        {
+          "role": "Operator / Staf",
+          "username": "operator@locago.my.id",
+          "password": "password123"
+        }
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "10 November 2026",
+      "recentFastDownloads": 24,
+      "thumbnail": "/screenshots/hospital-management-python-mysql/screenshot_1.webp",
+      "downloadsCount": 762,
+      "rating": 4.9,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "15.6 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `hospital-management-python-mysql.zip` ke web server lokal Anda.",
+        "Import berkas `database.sql` ke database Anda.",
+        "Konfigurasi koneksi database di file konfigurasi.",
+        "Buka di browser dan login menggunakan akun admin default."
+      ],
+      "keyFeatures": [
+        "Dashboard utama: ringkasan metrik harian dan grafik tren real-time",
+        "Manajemen data master lengkap dengan pencarian instan dan filter",
+        "Hak akses multi-role (Admin dan Operator) terpisah aman",
+        "Cetak nota / invoice PDF dan ekspor laporan ke CSV",
+        "Skema database MySQL (.sql) lengkap data contoh simulasi"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=hospital-management-python-mysql&step=1&max=8",
+      "downloadUrlFast": "/downloads/hospital-management-python-mysql.zip"
     },
     {
       "id": "sc-44",
