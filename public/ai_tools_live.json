@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 17:24 WIB",
-  "total": 336,
+  "updatedAt": "10 Nov 2026, 17:45 WIB",
+  "total": 337,
   "items": [
+    {
+      "id": "ai-livereview",
+      "name": "LiveReview",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "LiveReview - Produk AI Baru Terpilih di Product Hunt",
+      "description": "LiveReview adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/livereview.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/livereview"
+    },
     {
       "id": "ai-mechvibes-3",
       "name": "Mechvibes 3",

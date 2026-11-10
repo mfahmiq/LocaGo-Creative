@@ -1,5 +1,306 @@
 {
-  "updatedAt": "10 Nov 2026, 17:24 WIB",
-  "total": 0,
-  "items": []
+  "updatedAt": "10 Nov 2026, 17:45 WIB",
+  "total": 12,
+  "items": [
+    {
+      "id": "gh-meta-astryx",
+      "name": "astryx",
+      "owner": "meta",
+      "repo": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "category": "AI Agents & LLM",
+      "language": "TypeScript",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "oneSentencePitch": "An open source design system that's fully customizable and agent ready",
+      "rank": 1,
+      "totalStars": "21.2k",
+      "starsToday": 3278,
+      "starsGrowthText": "+3,278 stars today",
+      "growthRate": "+3278 stars hari ini",
+      "topics": [
+        "ai",
+        "typescript"
+      ],
+      "features": [
+        "Trending resmi #1 di GitHub Trending Today",
+        "Pertumbuhan pesat: +3,278 stars today",
+        "Ditulis menggunakan bahasa TypeScript"
+      ]
+    },
+    {
+      "id": "gh-anthropics-skills",
+      "name": "skills",
+      "owner": "anthropics",
+      "repo": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "category": "AI Agents & LLM",
+      "language": "Python",
+      "description": "Public repository for Agent Skills",
+      "oneSentencePitch": "Public repository for Agent Skills",
+      "rank": 2,
+      "totalStars": "191.7k",
+      "starsToday": 1038,
+      "starsGrowthText": "+1,038 stars today",
+      "growthRate": "+1038 stars hari ini",
+      "topics": [
+        "ai",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #2 di GitHub Trending Today",
+        "Pertumbuhan pesat: +1,038 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
+      "id": "gh-addyosmani-agent-skills",
+      "name": "agent-skills",
+      "owner": "addyosmani",
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "category": "AI Agents & LLM",
+      "language": "JavaScript",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "oneSentencePitch": "Production-grade engineering skills for AI coding agents.",
+      "rank": 3,
+      "totalStars": "114.8k",
+      "starsToday": 465,
+      "starsGrowthText": "+465 stars today",
+      "growthRate": "+465 stars hari ini",
+      "topics": [
+        "ai",
+        "javascript"
+      ],
+      "features": [
+        "Trending resmi #3 di GitHub Trending Today",
+        "Pertumbuhan pesat: +465 stars today",
+        "Ditulis menggunakan bahasa JavaScript"
+      ]
+    },
+    {
+      "id": "gh-anthropics-claude-quickstarts",
+      "name": "claude-quickstarts",
+      "owner": "anthropics",
+      "repo": "anthropics/claude-quickstarts",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "category": "AI Agents & LLM",
+      "language": "Python",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "oneSentencePitch": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "rank": 4,
+      "totalStars": "20.2k",
+      "starsToday": 551,
+      "starsGrowthText": "+551 stars today",
+      "growthRate": "+551 stars hari ini",
+      "topics": [
+        "ai",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #4 di GitHub Trending Today",
+        "Pertumbuhan pesat: +551 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
+      "id": "gh-google-deepmind-mujoco",
+      "name": "mujoco",
+      "owner": "google-deepmind",
+      "repo": "google-deepmind/mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "category": "Productivity & Media",
+      "language": "C++",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "oneSentencePitch": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "rank": 5,
+      "totalStars": "17.1k",
+      "starsToday": 574,
+      "starsGrowthText": "+574 stars today",
+      "growthRate": "+574 stars hari ini",
+      "topics": [
+        "productivity",
+        "c++"
+      ],
+      "features": [
+        "Trending resmi #5 di GitHub Trending Today",
+        "Pertumbuhan pesat: +574 stars today",
+        "Ditulis menggunakan bahasa C++"
+      ]
+    },
+    {
+      "id": "gh-we-promise-sure",
+      "name": "sure",
+      "owner": "we-promise",
+      "repo": "we-promise/sure",
+      "url": "https://github.com/we-promise/sure",
+      "category": "Productivity & Media",
+      "language": "Ruby",
+      "description": "The personal finance app for everyone (by everyone)",
+      "oneSentencePitch": "The personal finance app for everyone (by everyone)",
+      "rank": 6,
+      "totalStars": "11.4k",
+      "starsToday": 184,
+      "starsGrowthText": "+184 stars today",
+      "growthRate": "+184 stars hari ini",
+      "topics": [
+        "productivity",
+        "ruby"
+      ],
+      "features": [
+        "Trending resmi #6 di GitHub Trending Today",
+        "Pertumbuhan pesat: +184 stars today",
+        "Ditulis menggunakan bahasa Ruby"
+      ]
+    },
+    {
+      "id": "gh-homeassistant-ai-ha-mcp",
+      "name": "ha-mcp",
+      "owner": "homeassistant-ai",
+      "repo": "homeassistant-ai/ha-mcp",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "category": "AI Agents & LLM",
+      "language": "Python",
+      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+      "oneSentencePitch": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+      "rank": 7,
+      "totalStars": "6.3k",
+      "starsToday": 31,
+      "starsGrowthText": "+31 stars today",
+      "growthRate": "+31 stars hari ini",
+      "topics": [
+        "ai",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #7 di GitHub Trending Today",
+        "Pertumbuhan pesat: +31 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
+      "id": "gh-vercel-labs-agent-browser",
+      "name": "agent-browser",
+      "owner": "vercel-labs",
+      "repo": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "category": "AI Agents & LLM",
+      "language": "Rust",
+      "description": "Browser automation CLI for AI agents",
+      "oneSentencePitch": "Browser automation CLI for AI agents",
+      "rank": 8,
+      "totalStars": "48.9k",
+      "starsToday": 916,
+      "starsGrowthText": "+916 stars today",
+      "growthRate": "+916 stars hari ini",
+      "topics": [
+        "ai",
+        "rust"
+      ],
+      "features": [
+        "Trending resmi #8 di GitHub Trending Today",
+        "Pertumbuhan pesat: +916 stars today",
+        "Ditulis menggunakan bahasa Rust"
+      ]
+    },
+    {
+      "id": "gh-sherlock-project-sherlock",
+      "name": "sherlock",
+      "owner": "sherlock-project",
+      "repo": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "category": "Productivity & Media",
+      "language": "Python",
+      "description": "Hunt down social media accounts by username across social networks",
+      "oneSentencePitch": "Hunt down social media accounts by username across social networks",
+      "rank": 9,
+      "totalStars": "108.1k",
+      "starsToday": 4267,
+      "starsGrowthText": "+4,267 stars today",
+      "growthRate": "+4267 stars hari ini",
+      "topics": [
+        "productivity",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #9 di GitHub Trending Today",
+        "Pertumbuhan pesat: +4,267 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
+      "id": "gh-tokio-rs-topcoat",
+      "name": "topcoat",
+      "owner": "tokio-rs",
+      "repo": "tokio-rs/topcoat",
+      "url": "https://github.com/tokio-rs/topcoat",
+      "category": "Web & Scrapers",
+      "language": "Rust",
+      "description": "A batteries-included framework for building web apps",
+      "oneSentencePitch": "A batteries-included framework for building web apps",
+      "rank": 10,
+      "totalStars": "6.6k",
+      "starsToday": 192,
+      "starsGrowthText": "+192 stars today",
+      "growthRate": "+192 stars hari ini",
+      "topics": [
+        "web",
+        "rust"
+      ],
+      "features": [
+        "Trending resmi #10 di GitHub Trending Today",
+        "Pertumbuhan pesat: +192 stars today",
+        "Ditulis menggunakan bahasa Rust"
+      ]
+    },
+    {
+      "id": "gh-ranxianglei-billion-context",
+      "name": "billion-context",
+      "owner": "ranxianglei",
+      "repo": "ranxianglei/billion-context",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "category": "Productivity & Media",
+      "language": "TypeScript",
+      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+      "oneSentencePitch": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+      "rank": 11,
+      "totalStars": "5.9k",
+      "starsToday": 760,
+      "starsGrowthText": "+760 stars today",
+      "growthRate": "+760 stars hari ini",
+      "topics": [
+        "productivity",
+        "typescript"
+      ],
+      "features": [
+        "Trending resmi #11 di GitHub Trending Today",
+        "Pertumbuhan pesat: +760 stars today",
+        "Ditulis menggunakan bahasa TypeScript"
+      ]
+    },
+    {
+      "id": "gh-mattpocock-skills",
+      "name": "skills",
+      "owner": "mattpocock",
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "category": "AI Agents & LLM",
+      "language": "Shell",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "oneSentencePitch": "Skills for Real Engineers. Straight from my .agents directory.",
+      "rank": 12,
+      "totalStars": "320.2k",
+      "starsToday": 1223,
+      "starsGrowthText": "+1,223 stars today",
+      "growthRate": "+1223 stars hari ini",
+      "topics": [
+        "ai",
+        "shell"
+      ],
+      "features": [
+        "Trending resmi #12 di GitHub Trending Today",
+        "Pertumbuhan pesat: +1,223 stars today",
+        "Ditulis menggunakan bahasa Shell"
+      ]
+    }
+  ]
 }
