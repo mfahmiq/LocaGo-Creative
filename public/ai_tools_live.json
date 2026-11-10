@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 02:35 WIB",
-  "total": 356,
+  "updatedAt": "11 Nov 2026, 03:05 WIB",
+  "total": 357,
   "items": [
+    {
+      "id": "ai-foragent",
+      "name": "ForAgent",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "ForAgent - Produk AI Baru Terpilih di Product Hunt",
+      "description": "ForAgent adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/foragent.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/foragent"
+    },
     {
       "id": "ai-theoassist",
       "name": "TheoAssist",
