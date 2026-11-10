@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 15:07 WIB",
-  "total": 330,
+  "updatedAt": "10 Nov 2026, 15:37 WIB",
+  "total": 331,
   "items": [
+    {
+      "id": "ai-switchy",
+      "name": "Switchy",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Switchy - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Switchy adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/switchy.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/switchy"
+    },
     {
       "id": "ai-geniea",
       "name": "Geniea",
