@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 11:36 WIB",
-  "total": 323,
+  "updatedAt": "10 Nov 2026, 12:06 WIB",
+  "total": 324,
   "items": [
+    {
+      "id": "ai-nomac",
+      "name": "NoMac",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "NoMac - Produk AI Baru Terpilih di Product Hunt",
+      "description": "NoMac adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/nomac.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/nomac"
+    },
     {
       "id": "ai-car-concepts-ai",
       "name": "Car Concepts AI",
