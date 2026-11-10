@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 19:33 WIB",
-  "total": 342,
+  "updatedAt": "10 Nov 2026, 20:03 WIB",
+  "total": 343,
   "items": [
+    {
+      "id": "ai-tacotranslate",
+      "name": "TacoTranslate",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "TacoTranslate - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "Automates the process of localizing React applications for new markets",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/tacotranslate.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://tacotranslate.com"
+    },
     {
       "id": "ai-codemate",
       "name": "CodeMate",
