@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 05:35 WIB",
-  "total": 362,
+  "updatedAt": "11 Nov 2026, 06:06 WIB",
+  "total": 363,
   "items": [
+    {
+      "id": "ai-seldon",
+      "name": "Seldon",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Seldon - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Seldon adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/seldon.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/seldon"
+    },
     {
       "id": "ai-lotusq",
       "name": "LotusQ",
