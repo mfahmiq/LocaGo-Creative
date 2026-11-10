@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 11:06 WIB",
-  "total": 322,
+  "updatedAt": "10 Nov 2026, 11:36 WIB",
+  "total": 323,
   "items": [
+    {
+      "id": "ai-car-concepts-ai",
+      "name": "Car Concepts AI",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Car Concepts AI - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "A tool for car wrap generatoration and create unique car designs.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/car-concepts-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.carconceptsai.com"
+    },
     {
       "id": "ai-outset-ai",
       "name": "Outset.ai",
