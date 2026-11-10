@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 17:07 WIB",
-  "total": 334,
+  "updatedAt": "10 Nov 2026, 17:21 WIB",
+  "total": 335,
   "items": [
+    {
+      "id": "ai-ghola",
+      "name": "Ghola",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Ghola - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A platform to train and talking to public figures for insights.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/ghola.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.ghola.ai"
+    },
     {
       "id": "ai-wonderplan",
       "name": "Wonderplan",
