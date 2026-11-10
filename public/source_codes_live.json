@@ -1,7 +1,69 @@
 {
   "updatedAt": "06 Nov 2026, 19:00 WIB",
-  "total": 33,
+  "total": 34,
   "items": [
+    {
+      "id": "sc-00",
+      "title": "LocaGo Open-Source Super-Vault: 100+ Tools Pengganti SaaS, 20 Prompt Claude Code & Script Scraper",
+      "slug": "locago-open-source-super-vault-100-tools-prompts",
+      "category": "Python & AI",
+      "techStack": [
+        "Python 3.11",
+        "Claude Code",
+        "Docker",
+        "Self-Hosted",
+        "Markdown"
+      ],
+      "description": "Paket bundel eksklusif berisi kurasi 100+ repositori open-source terbaik pengganti software langganan mahal (CRM, Analytics, AI Agent, Automation, Desain, PDF, DevOps) lengkap dengan 20 System Prompt production-grade untuk Claude Code/Cursor, starter script Python penarik prospek lokal, serta panduan setup VPS Rp 50rb/bulan.\n\nDirancang khusus untuk developer, freelancer, dan tech founder yang ingin memangkas biaya langganan SaaS bulanan hingga 90% dan mempercepat workflow pembuatan aplikasi klien.",
+      "shortDesc": "Bundle 100+ tools open-source pengganti SaaS mahal, 20 system prompt Claude Code/Cursor, dan starter script Python.",
+      "howItWorks": "Seluruh materi dikemas dalam arsip ZIP terstruktur yang terdiri dari 4 modul utama: (1) Katalog 100+ Open-Source pengganti SaaS lengkap dengan link GitHub dan fungsi utamanya; (2) Koleksi 20 System Prompt arsitektur full-stack dan anti-AI-slop; (3) Script Python starter untuk memformat dan mengekspor database prospek UMKM lokal ke CSV; (4) Panduan langkah demi langkah inisialisasi Ubuntu VPS, Swap 4GB, Docker, dan auto-SSL Caddy.\n\nAnda cukup mengunduh satu file ZIP, mengekstraknya di laptop atau server, lalu langsung menyalin prompt maupun menjalankan script tanpa ketergantungan library berbayar.",
+      "requirements": "Text Editor (VS Code / Cursor), Python 3.10+ (opsional untuk script starter), Git.",
+      "screenshots": [
+        "/banners/gemini/art_cuan_digital_source_code.webp",
+        "/banners/gemini/art_membangun_multi_agent_cod.webp",
+        "/banners/gemini/art_10_prompt_engineering_tin.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Akses Dokumen",
+          "username": "Tanpa Password",
+          "password": "Langsung Ekstrak ZIP"
+        }
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "10 November 2026",
+      "recentFastDownloads": 64,
+      "thumbnail": "/banners/gemini/art_cuan_digital_source_code.webp",
+      "image": "/banners/gemini/art_cuan_digital_source_code.webp",
+      "downloadsCount": 2840,
+      "rating": 5.0,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": false,
+      "databaseType": "Markdown & Python (.zip)",
+      "fileSize": "8.4 MB",
+      "tutorialSteps": [
+        "Klik tombol Download Tanpa Iklan (Donasi QRIS mulai Rp 3.000) atau Jalur Gratis di samping.",
+        "Ekstrak file `00_OpenSource_Super_Vault_100_Tools_Prompts.zip` ke folder kerja Anda.",
+        "Buka `01_100_Open_Source_Alternatives_SaaS.md` di VS Code, Obsidian, atau Notion untuk daftar lengkap 100+ tools.",
+        "Salin system prompt dari `02_Claude_Code_Cursor_System_Prompts.md` ke dalam `.cursorrules` atau `CLAUDE.md` proyek Anda.",
+        "Jalankan `python 03_Automated_Lead_Scraper_Starter.py` untuk menguji generator CSV prospek UMKM lokal."
+      ],
+      "keyFeatures": [
+        "100+ Kurasi Open-Source terbagi rapi: AI & LLM, Workflow & Scraping, CRM & Bisnis, DevOps & Media",
+        "20 System Prompt Claude Code & Cursor untuk arsitektur full-stack bebas AI-slop",
+        "Starter script Python ekstraksi & pemformatan prospek bisnis lokal ke CSV",
+        "Panduan setup VPS murah Rp 50rb/bulan + konfigurasi Swap 4GB anti-crash",
+        "Template konfigurasi reverse proxy Caddy auto-HTTPS satu baris",
+        "Daftar pengganti Zapier, Notion, Figma, Salesforce, HubSpot, dan Intercom 100% gratis",
+        "Rekomendasi stack Local LLM (Ollama + OpenWebUI + Continue.dev) hemat token API",
+        "Bebas lisensi komersial: boleh dipakai untuk proyek internal maupun klien agensi",
+        "Format Markdown bersih yang langsung kompatibel dengan Obsidian & Notion",
+        "Update berkala mengikuti tren repositori GitHub terbaru"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=locago-open-source-super-vault-100-tools-prompts&step=1&max=8",
+      "downloadUrlFast": "/downloads/00_OpenSource_Super_Vault_100_Tools_Prompts.zip"
+    },
     {
       "id": "sc-33",
       "title": "Platform Kursus Online & LMS Sekolah Mandiri",
@@ -13,7 +75,7 @@
         "MongoDB",
         "TailwindCSS"
       ],
-      "description": "Learning Management System (LMS) modern dengan fitur video player proteksi unduh, kuis pilihan ganda otomatis nilai, forum diskusi materi, dan sertifikat kelulusan digital.",
+      "description": "Learning Management System (LMS) modern dengan fitur video player proteksi unduh, kuis pilihan ganda otomatis nilai, forum diskusi materi, dan sertifikat kelulusan digital. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (MongoDB (.json)) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Aplikasi web LMS kursus online dengan kurikulum video bertingkat, kuis evaluasi otomatis, dan sertifikat PDF digital.",
       "thumbnail": "/banners/gemini/sc_platform_kursus_online_lm.webp",
       "image": "/banners/gemini/sc_platform_kursus_online_lm.webp",
@@ -25,7 +87,52 @@
       "databaseType": "MongoDB (.json)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/01_POS_Kasir_Toko_Kelontong_UMKM.zip",
+      "screenshots": [
+        "/banners/gemini/sc_platform_kursus_online_lm.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "28 Oktober 2026",
+      "recentFastDownloads": 18,
+      "howItWorks": "Data utama tersimpan di MongoDB (.json) dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan React 19, Node.js, MongoDB, TailwindCSS dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "Node.js 18+ / 20+, npm atau pnpm, Browser modern.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Platform Kursus Online & LMS Sekola)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (React 19, Node.js, MongoDB, TailwindCSS) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `platform-kursus-online-lms-sekolah.zip` ke folder `C:\\xampp\\htdocs\\platform-kursus-online-lms-sekolah` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (MongoDB (.json)), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/platform-kursus-online-lms-sekolah` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-32",
@@ -38,7 +145,7 @@
         "Bootstrap 5",
         "QR Scanner"
       ],
-      "description": "Aplikasi pencatatan aset inventaris perusahaan, penomoran label QR code otomatis, pelacakan lokasi ruangan aset, dan riwayat pemeliharaan berkala.",
+      "description": "Aplikasi pencatatan aset inventaris perusahaan, penomoran label QR code otomatis, pelacakan lokasi ruangan aset, dan riwayat pemeliharaan berkala. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (MySQL (.sql)) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Sistem pelacakan aset kantor dengan scan QR code, penanggung jawab ruangan, dan jadwal maintenance rutin.",
       "thumbnail": "/banners/gemini/sc_inventaris_aset_kantor.webp",
       "image": "/banners/gemini/sc_inventaris_aset_kantor.webp",
@@ -50,7 +157,52 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/02_Absensi_Sekolah_QR_Code_GAS.zip",
+      "screenshots": [
+        "/banners/gemini/sc_inventaris_aset_kantor.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "27 Oktober 2026",
+      "recentFastDownloads": 25,
+      "howItWorks": "Data utama tersimpan di MySQL (.sql) dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan Laravel 11, MySQL, Bootstrap 5, QR Scanner dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "PHP 8.2+ (XAMPP / Laragon), MySQL / MariaDB, Composer.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Sistem Manajemen Inventaris & Aset )",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (Laravel 11, MySQL, Bootstrap 5, QR Scanner) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `manajemen-inventaris-aset-kantor.zip` ke folder `C:\\xampp\\htdocs\\manajemen-inventaris-aset-kantor` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (MySQL (.sql)), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/manajemen-inventaris-aset-kantor` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-31",
@@ -63,7 +215,7 @@
         "TailwindCSS",
         "Prisma"
       ],
-      "description": "Kloning Lynk.id / Linktree mandiri: pengguna bisa membuat halaman profil bio link kustom dengan tombol tautan, embed video YouTube, dan formulir lead capture.",
+      "description": "Kloning Lynk.id / Linktree mandiri: pengguna bisa membuat halaman profil bio link kustom dengan tombol tautan, embed video YouTube, dan formulir lead capture. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (PostgreSQL / SQLite) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Aplikasi web bio link builder interaktif dengan kustomisasi tema, analytics klik pengunjung, dan lead magnet form.",
       "thumbnail": "/banners/gemini/sc_landing_page_generator_bi.webp",
       "image": "/banners/gemini/sc_landing_page_generator_bi.webp",
@@ -75,7 +227,52 @@
       "databaseType": "PostgreSQL / SQLite",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/03_Landing_Page_Katalog_UMKM_Nextjs.zip",
+      "screenshots": [
+        "/banners/gemini/sc_landing_page_generator_bi.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "26 Oktober 2026",
+      "recentFastDownloads": 32,
+      "howItWorks": "Data utama tersimpan di PostgreSQL / SQLite dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan Next.js 15, TypeScript, TailwindCSS, Prisma dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "Node.js 18+ / 20+, npm atau pnpm, Browser modern.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Landing Page Generator & Bio Link C)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (Next.js 15, TypeScript, TailwindCSS, Prisma) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `landing-page-generator-bio-link.zip` ke folder `C:\\xampp\\htdocs\\landing-page-generator-bio-link` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (PostgreSQL / SQLite), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/landing-page-generator-bio-link` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-30",
@@ -88,7 +285,7 @@
         "Bootstrap 5",
         "Chart.js"
       ],
-      "description": "Sistem RME standar SatuSehat Kemenkes untuk klinik pratama: pencatatan anamnesis dokter, diagnosa ICD-10, resep obat apotek, dan riwayat kunjungan pasien.",
+      "description": "Sistem RME standar SatuSehat Kemenkes untuk klinik pratama: pencatatan anamnesis dokter, diagnosa ICD-10, resep obat apotek, dan riwayat kunjungan pasien. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (MySQL (.sql)) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Aplikasi RME klinik pratama dengan modul pendaftaran, diagnosis ICD-10 dokter, farmasi obat, dan laporan kunjungan.",
       "thumbnail": "/banners/gemini/sc_rekam_medis_elektronik_rm.webp",
       "image": "/banners/gemini/sc_rekam_medis_elektronik_rm.webp",
@@ -100,7 +297,52 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/04_Bot_WhatsApp_AI_Customer_Service.zip",
+      "screenshots": [
+        "/banners/gemini/sc_rekam_medis_elektronik_rm.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "25 Oktober 2026",
+      "recentFastDownloads": 39,
+      "howItWorks": "Data utama tersimpan di MySQL (.sql) dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan CodeIgniter 4, MySQL, Bootstrap 5, Chart.js dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "PHP 8.2+ (XAMPP / Laragon), MySQL / MariaDB, Composer.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Sistem Informasi Rekam Medis Elektr)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (CodeIgniter 4, MySQL, Bootstrap 5, Chart.js) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `rekam-medis-elektronik-rme-klinik.zip` ke folder `C:\\xampp\\htdocs\\rekam-medis-elektronik-rme-klinik` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (MySQL (.sql)), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/rekam-medis-elektronik-rme-klinik` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-29",
@@ -113,7 +355,7 @@
         "Livewire 3",
         "Alpine.js"
       ],
-      "description": "Aplikasi POS kasir butik dengan dukungan variasi ukuran (S, M, L, XL), warna produk, barcode generator otomatis, dan laporan margin laba bersih harian.",
+      "description": "Aplikasi POS kasir butik dengan dukungan variasi ukuran (S, M, L, XL), warna produk, barcode generator otomatis, dan laporan margin laba bersih harian. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (MySQL (.sql)) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Aplikasi kasir butik fashion dengan manajemen ukuran & warna produk, cetak barcode label, dan laporan laba bersih.",
       "thumbnail": "/banners/gemini/sc_kasir_toko_baju_butik_fas.webp",
       "image": "/banners/gemini/sc_kasir_toko_baju_butik_fas.webp",
@@ -125,7 +367,52 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/05_Billing_Rental_PS_Cafe_Gaming.zip",
+      "screenshots": [
+        "/banners/gemini/sc_kasir_toko_baju_butik_fas.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "24 Oktober 2026",
+      "recentFastDownloads": 46,
+      "howItWorks": "Data utama tersimpan di MySQL (.sql) dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan Laravel 11, MySQL, Livewire 3, Alpine.js dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "PHP 8.2+ (XAMPP / Laragon), MySQL / MariaDB, Composer.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Aplikasi Kasir Toko Baju & Butik Fa)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (Laravel 11, MySQL, Livewire 3, Alpine.js) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `kasir-toko-baju-butik-fashion.zip` ke folder `C:\\xampp\\htdocs\\kasir-toko-baju-butik-fashion` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (MySQL (.sql)), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/kasir-toko-baju-butik-fashion` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-28",
@@ -138,7 +425,7 @@
         "Docker SDK",
         "psutil"
       ],
-      "description": "Bot Telegram mandiri untuk memantau penggunaan RAM, CPU, disk, dan status container Docker di VPS. Otomatis kirim pesan darurat saat server down atau RAM >90%.",
+      "description": "Bot Telegram mandiri untuk memantau penggunaan RAM, CPU, disk, dan status container Docker di VPS. Otomatis kirim pesan darurat saat server down atau RAM >90%. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (JSON Config) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Bot Telegram alerting untuk memantau kesehatan server Linux, Docker container, dan penggunaan RAM/CPU 24/7.",
       "thumbnail": "/banners/gemini/sc_bot_telegram_monitoring_s.webp",
       "image": "/banners/gemini/sc_bot_telegram_monitoring_s.webp",
@@ -150,7 +437,52 @@
       "databaseType": "JSON Config",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/06_Portal_Donasi_Crowdfunding_Laravel.zip",
+      "screenshots": [
+        "/banners/gemini/sc_bot_telegram_monitoring_s.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "23 Oktober 2026",
+      "recentFastDownloads": 53,
+      "howItWorks": "Data utama tersimpan di JSON Config dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan Python 3.12, python-telegram-bot, Docker SDK, psutil dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "Python 3.10+, pip / virtualenv, SQLite / PostgreSQL.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Bot Telegram Notifikasi Server & He)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (Python 3.12, python-telegram-bot, Docker SDK, psutil) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `bot-telegram-monitoring-server-vps.zip` ke folder `C:\\xampp\\htdocs\\bot-telegram-monitoring-server-vps` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (JSON Config), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/bot-telegram-monitoring-server-vps` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-27",
@@ -163,7 +495,7 @@
         "Supabase",
         "TailwindCSS"
       ],
-      "description": "Sistem restoran modern di mana pelanggan bisa scan QR code di meja untuk memesan makanan langsung ke layar dapur (Kitchen Display System) tanpa instal aplikasi.",
+      "description": "Sistem restoran modern di mana pelanggan bisa scan QR code di meja untuk memesan makanan langsung ke layar dapur (Kitchen Display System) tanpa instal aplikasi. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (Supabase PostgreSQL) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Aplikasi order menu makanan via QR code meja restoran dengan integrasi Kitchen Display System langsung ke koki.",
       "thumbnail": "/banners/gemini/sc_reservasi_meja_restoran_o.webp",
       "image": "/banners/gemini/sc_reservasi_meja_restoran_o.webp",
@@ -175,7 +507,52 @@
       "databaseType": "Supabase PostgreSQL",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/07_SIAKAD_Sekolah_Modern_Laravel.zip",
+      "screenshots": [
+        "/banners/gemini/sc_reservasi_meja_restoran_o.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "22 Oktober 2026",
+      "recentFastDownloads": 60,
+      "howItWorks": "Data utama tersimpan di Supabase PostgreSQL dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan Nuxt 3, Vue 3, Supabase, TailwindCSS dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "Browser Modern, Web Server Lokal / Cloud Hosting.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Sistem Reservasi Meja Restoran & Or)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (Nuxt 3, Vue 3, Supabase, TailwindCSS) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `reservasi-meja-restoran-order-qr.zip` ke folder `C:\\xampp\\htdocs\\reservasi-meja-restoran-order-qr` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (Supabase PostgreSQL), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/reservasi-meja-restoran-order-qr` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-26",
@@ -188,7 +565,7 @@
         "SQLite",
         "ReportLab PDF"
       ],
-      "description": "Sistem payroll otomatis dengan kalkulasi BPJS, PPh 21, lembur, absensi, dan pengiriman berkas slip gaji PDF ber-password ke email masing-masing karyawan.",
+      "description": "Sistem payroll otomatis dengan kalkulasi BPJS, PPh 21, lembur, absensi, dan pengiriman berkas slip gaji PDF ber-password ke email masing-masing karyawan. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (SQLite / MySQL) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Aplikasi payroll dan penggajian karyawan otomatis dengan perhitungan pajak PPh 21 dan generate slip gaji PDF terenkripsi.",
       "thumbnail": "/banners/gemini/sc_portal_penggajian_slip_ga.webp",
       "image": "/banners/gemini/sc_portal_penggajian_slip_ga.webp",
@@ -200,7 +577,52 @@
       "databaseType": "SQLite / MySQL",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/08_SIPERPUS_Perpustakaan_Digital_CI4.zip",
+      "screenshots": [
+        "/banners/gemini/sc_portal_penggajian_slip_ga.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "21 Oktober 2026",
+      "recentFastDownloads": 22,
+      "howItWorks": "Data utama tersimpan di SQLite / MySQL dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan Python 3.12, Flask, SQLite, ReportLab PDF dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "Python 3.10+, pip / virtualenv, SQLite / PostgreSQL.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Portal Penggajian Karyawan & Slip G)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (Python 3.12, Flask, SQLite, ReportLab PDF) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `portal-penggajian-slip-gaji-pdf.zip` ke folder `C:\\xampp\\htdocs\\portal-penggajian-slip-gaji-pdf` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (SQLite / MySQL), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/portal-penggajian-slip-gaji-pdf` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-25",
@@ -213,7 +635,7 @@
         "PostgreSQL",
         "TailwindCSS"
       ],
-      "description": "Aplikasi pencatatan servis motor, riwayat kilometer kendaraan, stok suku cadang, dan reminder ganti oli otomatis ke nomor WhatsApp pelanggan.",
+      "description": "Aplikasi pencatatan servis motor, riwayat kilometer kendaraan, stok suku cadang, dan reminder ganti oli otomatis ke nomor WhatsApp pelanggan. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (PostgreSQL (.sql)) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Sistem manajemen bengkel motor dengan riwayat servis, inventaris sparepart, dan reminder ganti oli otomatis.",
       "thumbnail": "/banners/gemini/sc_kasir_bengkel_motor_servi.webp",
       "image": "/banners/gemini/sc_kasir_bengkel_motor_servi.webp",
@@ -225,7 +647,52 @@
       "databaseType": "PostgreSQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/09_Manajemen_Surat_Disposisi_Dinas.zip",
+      "screenshots": [
+        "/banners/gemini/sc_kasir_bengkel_motor_servi.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "20 Oktober 2026",
+      "recentFastDownloads": 29,
+      "howItWorks": "Data utama tersimpan di PostgreSQL (.sql) dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan React 19, Express.js, PostgreSQL, TailwindCSS dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "Node.js 18+ / 20+, npm atau pnpm, Browser modern.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Aplikasi Kasir Bengkel Motor & Serv)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (React 19, Express.js, PostgreSQL, TailwindCSS) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `kasir-bengkel-motor-servis.zip` ke folder `C:\\xampp\\htdocs\\kasir-bengkel-motor-servis` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (PostgreSQL (.sql)), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/kasir-bengkel-motor-servis` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-24",
@@ -238,7 +705,7 @@
         "TailwindCSS",
         "WhatsApp API"
       ],
-      "description": "Sistem kasir laundry otomatis dengan tracking status pakaian (cuci, kering, setrika, siap ambil) dan kirim nota digital otomatis via WhatsApp gateway.",
+      "description": "Sistem kasir laundry otomatis dengan tracking status pakaian (cuci, kering, setrika, siap ambil) dan kirim nota digital otomatis via WhatsApp gateway. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (MySQL (.sql)) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Aplikasi kasir laundry kiloan & satuan lengkap dengan nota WhatsApp otomatis dan pelacakan status cucian.",
       "thumbnail": "/banners/gemini/sc_laundry_kiloan_satuan.webp",
       "image": "/banners/gemini/sc_laundry_kiloan_satuan.webp",
@@ -250,7 +717,52 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/10_POS_Kasir_Ritel_Modern_Multi_Cabang.zip",
+      "screenshots": [
+        "/banners/gemini/sc_laundry_kiloan_satuan.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "19 Oktober 2026",
+      "recentFastDownloads": 36,
+      "howItWorks": "Data utama tersimpan di MySQL (.sql) dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan Laravel 11, MySQL, TailwindCSS, WhatsApp API dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "PHP 8.2+ (XAMPP / Laragon), MySQL / MariaDB, Composer.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Sistem Informasi Manajemen Laundry )",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (Laravel 11, MySQL, TailwindCSS, WhatsApp API) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `manajemen-laundry-kiloan-satuan.zip` ke folder `C:\\xampp\\htdocs\\manajemen-laundry-kiloan-satuan` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (MySQL (.sql)), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/manajemen-laundry-kiloan-satuan` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-23",
@@ -263,7 +775,7 @@
         "Edge-TTS",
         "Pillow"
       ],
-      "description": "Script otomasi video Python yang menerima masukan naskah teks, kemudian secara otomatis merender audio voiceover jernih (Edge-TTS), memotong klip background video 9:16, memasang subtitle bergaya karaoke kata-per-kata, dan menghasilkan video MP4 siap upload.",
+      "description": "Script otomasi video Python yang menerima masukan naskah teks, kemudian secara otomatis merender audio voiceover jernih (Edge-TTS), memotong klip background video 9:16, memasang subtitle bergaya karaoke kata-per-kata, dan menghasilkan video MP4 siap upload. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (SQLite) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Render otomatis video pendek format 9:16 lengkap dengan voiceover dan subtitle karaoke animasi.",
       "thumbnail": "/banners/gemini/sc_video_generator.webp",
       "image": "/banners/gemini/sc_video_generator.webp",
@@ -275,7 +787,52 @@
       "databaseType": "SQLite",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/01_POS_Kasir_Toko_Kelontong_UMKM.zip",
+      "screenshots": [
+        "/banners/gemini/sc_video_generator.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "18 Oktober 2026",
+      "recentFastDownloads": 43,
+      "howItWorks": "Data utama tersimpan di SQLite dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan Python 3.11, MoviePy, Edge-TTS, Pillow dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "Python 3.10+, pip / virtualenv, SQLite / PostgreSQL.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Generator Video Pendek Otomatis dar)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (Python 3.11, MoviePy, Edge-TTS, Pillow) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `auto-short-video-generator-python.zip` ke folder `C:\\xampp\\htdocs\\auto-short-video-generator-python` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (SQLite), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/auto-short-video-generator-python` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-22",
@@ -287,7 +844,7 @@
         "Google Sheets",
         "Fonnte / Waha API"
       ],
-      "description": "Sistem CRM sederhana namun powerful berbasis spreadsheet. Menghitung jadwal follow up prospek secara otomatis (H+1 setelah tanya harga, H+3 penawaran diskon, H+7 edukasi manfaat) dan mengirim pesan terpersonalisasi secara otomatis setiap pagi.",
+      "description": "Sistem CRM sederhana namun powerful berbasis spreadsheet. Menghitung jadwal follow up prospek secara otomatis (H+1 setelah tanya harga, H+3 penawaran diskon, H+7 edukasi manfaat) dan mengirim pesan terpersonalisasi secara otomatis setiap pagi. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (Google Sheets) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Otomasi jadwal follow up leads dan pesan terpersonalisasi langsung dari Google Sheet.",
       "thumbnail": "/banners/gemini/sc_crm_sheets_wa.webp",
       "image": "/banners/gemini/sc_crm_sheets_wa.webp",
@@ -299,7 +856,52 @@
       "databaseType": "Google Sheets",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/02_Absensi_Sekolah_QR_Code_GAS.zip",
+      "screenshots": [
+        "/banners/gemini/sc_crm_sheets_wa.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "17 Oktober 2026",
+      "recentFastDownloads": 50,
+      "howItWorks": "Data utama tersimpan di Google Sheets dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan Google Apps Script, Google Sheets, Fonnte / Waha API dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "Browser Modern, Web Server Lokal / Cloud Hosting.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (CRM Follow-Up Pelanggan Otomatis vi)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (Google Apps Script, Google Sheets, Fonnte / Waha API) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `crm-followup-pelanggan-gas-whatsapp.zip` ke folder `C:\\xampp\\htdocs\\crm-followup-pelanggan-gas-whatsapp` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (Google Sheets), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/crm-followup-pelanggan-gas-whatsapp` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-21",
@@ -312,7 +914,7 @@
         "Responsive Web Voice API",
         "Tailwind CSS"
       ],
-      "description": "Aplikasi antrean multi-loket untuk klinik kesehatan, apotek, atau bank. Dilengkapi layar display monitor untuk ruang tunggu dengan suara panggilan otomatis berbahasa Indonesia (contoh: 'Nomor Antrean A-15 menuju Loket 2'), serta cetak nomor antrean printer thermal.",
+      "description": "Aplikasi antrean multi-loket untuk klinik kesehatan, apotek, atau bank. Dilengkapi layar display monitor untuk ruang tunggu dengan suara panggilan otomatis berbahasa Indonesia (contoh: 'Nomor Antrean A-15 menuju Loket 2'), serta cetak nomor antrean printer thermal. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (MySQL (.sql)) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Display antrean layar monitor dan panggilan suara vokal natural untuk klinik & kantor layanan.",
       "thumbnail": "/banners/gemini/sc_antrean_klinik.webp",
       "image": "/banners/gemini/sc_antrean_klinik.webp",
@@ -324,7 +926,52 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/03_Landing_Page_Katalog_UMKM_Nextjs.zip",
+      "screenshots": [
+        "/banners/gemini/sc_antrean_klinik.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "16 Oktober 2026",
+      "recentFastDownloads": 57,
+      "howItWorks": "Data utama tersimpan di MySQL (.sql) dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan PHP 8.2, MySQL, Responsive Web Voice API, Tailwind CSS dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "PHP 8.2+ (XAMPP / Laragon), MySQL / MariaDB, Composer.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Sistem Antrean Klinik & Suara Peman)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (PHP 8.2, MySQL, Responsive Web Voice API, Tailwind CSS) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `sistem-antrean-klinik-suara-ai.zip` ke folder `C:\\xampp\\htdocs\\sistem-antrean-klinik-suara-ai` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (MySQL (.sql)), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/sistem-antrean-klinik-suara-ai` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-20",
@@ -337,7 +984,7 @@
         "ChromaDB",
         "Flask Webhook"
       ],
-      "description": "Source code bot WhatsApp customer service berbasis Python yang mampu membaca file PDF katalog produk atau FAQ perusahaan Anda (RAG). Bot menjawab pertanyaan pelanggan secara sopan, cepat, dan akurat 24 jam tanpa halusinasi.",
+      "description": "Source code bot WhatsApp customer service berbasis Python yang mampu membaca file PDF katalog produk atau FAQ perusahaan Anda (RAG). Bot menjawab pertanyaan pelanggan secara sopan, cepat, dan akurat 24 jam tanpa halusinasi. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (SQLite) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Bot CS WhatsApp cerdas 24/7 yang menjawab berdasarkan dokumen katalog Anda via Google Gemini.",
       "thumbnail": "/banners/gemini/sc_bot_cs_gemini.webp",
       "image": "/banners/gemini/sc_bot_cs_gemini.webp",
@@ -349,7 +996,52 @@
       "databaseType": "SQLite",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/04_Bot_WhatsApp_AI_Customer_Service.zip",
+      "screenshots": [
+        "/banners/gemini/sc_bot_cs_gemini.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "15 Oktober 2026",
+      "recentFastDownloads": 19,
+      "howItWorks": "Data utama tersimpan di SQLite dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan Python 3.11, Google Gemini 1.5 Flash, ChromaDB, Flask Webhook dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "Python 3.10+, pip / virtualenv, SQLite / PostgreSQL.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Bot WhatsApp Customer Service Cerda)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (Python 3.11, Google Gemini 1.5 Flash, ChromaDB, Flask Webhook) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `bot-whatsapp-gemini-ai-rag-python.zip` ke folder `C:\\xampp\\htdocs\\bot-whatsapp-gemini-ai-rag-python` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (SQLite), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/bot-whatsapp-gemini-ai-rag-python` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-19",
@@ -362,7 +1054,7 @@
         "Tailwind CSS",
         "TypeScript"
       ],
-      "description": "Boilerplate modern untuk membangun produk SaaS B2B Anda sendiri. Dilengkapi arsitektur multi-tenant (organisasi & tim), otentikasi SSR Supabase, manajemen role RBAC, proteksi middleware, dark mode, dan integrasi webhook pembayaran.",
+      "description": "Boilerplate modern untuk membangun produk SaaS B2B Anda sendiri. Dilengkapi arsitektur multi-tenant (organisasi & tim), otentikasi SSR Supabase, manajemen role RBAC, proteksi middleware, dark mode, dan integrasi webhook pembayaran. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (PostgreSQL) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Arsitektur boilerplate SaaS modern multi-organisasi dengan Next.js 15 dan Supabase siap produksi.",
       "thumbnail": "/banners/gemini/sc_multitenant_saas.webp",
       "image": "/banners/gemini/sc_multitenant_saas.webp",
@@ -374,7 +1066,52 @@
       "databaseType": "PostgreSQL",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/05_Billing_Rental_PS_Cafe_Gaming.zip",
+      "screenshots": [
+        "/banners/gemini/sc_multitenant_saas.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "14 Oktober 2026",
+      "recentFastDownloads": 26,
+      "howItWorks": "Data utama tersimpan di PostgreSQL dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan Next.js 15 App Router, Supabase Auth & DB, Tailwind CSS, TypeScript dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "Node.js 18+ / 20+, npm atau pnpm, Browser modern.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Multi-Tenant SaaS Starter Kit denga)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (Next.js 15 App Router, Supabase Auth & DB, Tailwind CSS, TypeScript) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `multitenant-saas-starter-nextjs15-supabase.zip` ke folder `C:\\xampp\\htdocs\\multitenant-saas-starter-nextjs15-supabase` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (PostgreSQL), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/multitenant-saas-starter-nextjs15-supabase` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-16",
@@ -387,7 +1124,7 @@
         "Tailwind CSS",
         "WhatsApp Gateway"
       ],
-      "description": "Aplikasi web pengelolaan kos-kosan dan kontrakan modern. Dilengkapi pencatatan penghuni, kamar, meteran listrik/air, cetak kuitansi PDF, dan notifikasi pengingat tagihan otomatis ke nomor WhatsApp penghuni sebelum tanggal jatuh tempo.",
+      "description": "Aplikasi web pengelolaan kos-kosan dan kontrakan modern. Dilengkapi pencatatan penghuni, kamar, meteran listrik/air, cetak kuitansi PDF, dan notifikasi pengingat tagihan otomatis ke nomor WhatsApp penghuni sebelum tanggal jatuh tempo. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (MySQL (.sql)) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Kelola kos-kosan, tagihan bulanan, dan auto-reminder WhatsApp penghuni secara otomatis.",
       "thumbnail": "/banners/gemini/sc_kos_kontrakan.webp",
       "image": "/banners/gemini/sc_kos_kontrakan.webp",
@@ -399,7 +1136,52 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/06_Portal_Donasi_Crowdfunding_Laravel.zip",
+      "screenshots": [
+        "/banners/gemini/sc_kos_kontrakan.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "13 Oktober 2026",
+      "recentFastDownloads": 33,
+      "howItWorks": "Data utama tersimpan di MySQL (.sql) dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan Laravel 11, MySQL, Tailwind CSS, WhatsApp Gateway dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "PHP 8.2+ (XAMPP / Laragon), MySQL / MariaDB, Composer.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Sistem Informasi Manajemen Kos & Ko)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (Laravel 11, MySQL, Tailwind CSS, WhatsApp Gateway) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `simkos-manajemen-kos-kontrakan.zip` ke folder `C:\\xampp\\htdocs\\simkos-manajemen-kos-kontrakan` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (MySQL (.sql)), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/simkos-manajemen-kos-kontrakan` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-17",
@@ -412,7 +1194,7 @@
         "Webcam.js",
         "Bootstrap 5"
       ],
-      "description": "Sistem presensi online berbasis mobile-web untuk karyawan lapangan dan kantor. Membatasi absensi hanya di dalam radius geofencing kantor yang ditentukan dan mewajibkan foto selfie langsung dari kamera ponsel untuk mencegah titip absen.",
+      "description": "Sistem presensi online berbasis mobile-web untuk karyawan lapangan dan kantor. Membatasi absensi hanya di dalam radius geofencing kantor yang ditentukan dan mewajibkan foto selfie langsung dari kamera ponsel untuk mencegah titip absen. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (MySQL (.sql)) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Presensi mobile geofencing GPS anti titip-absen dengan foto selfie kamera realtime.",
       "thumbnail": "/banners/gemini/sc_presensi_wajah.webp",
       "image": "/banners/gemini/sc_presensi_wajah.webp",
@@ -424,7 +1206,52 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/07_SIAKAD_Sekolah_Modern_Laravel.zip",
+      "screenshots": [
+        "/banners/gemini/sc_presensi_wajah.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "12 Oktober 2026",
+      "recentFastDownloads": 40,
+      "howItWorks": "Data utama tersimpan di MySQL (.sql) dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan Laravel 11, Leaflet.js GPS, Webcam.js, Bootstrap 5 dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "PHP 8.2+ (XAMPP / Laragon), MySQL / MariaDB, Composer.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Aplikasi Presensi Karyawan GPS & Ve)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (Laravel 11, Leaflet.js GPS, Webcam.js, Bootstrap 5) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `presensi-gps-selfie-karyawan.zip` ke folder `C:\\xampp\\htdocs\\presensi-gps-selfie-karyawan` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (MySQL (.sql)), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/presensi-gps-selfie-karyawan` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-18",
@@ -437,7 +1264,7 @@
         "Google Docs Template",
         "WhatsApp API"
       ],
-      "description": "Skrip Google Apps Script siap pasang untuk toko online atau konsultan. Setiap kali ada baris transaksi baru di Google Sheet, script otomatis men-generate invoice PDF cantik berbasis template Google Docs lalu mengirimkannya langsung ke nomor WhatsApp pembeli via webhook.",
+      "description": "Skrip Google Apps Script siap pasang untuk toko online atau konsultan. Setiap kali ada baris transaksi baru di Google Sheet, script otomatis men-generate invoice PDF cantik berbasis template Google Docs lalu mengirimkannya langsung ke nomor WhatsApp pembeli via webhook. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (Google Sheets) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Generate invoice PDF dari baris Google Sheet lalu auto-kirim via WhatsApp dalam hitungan detik.",
       "thumbnail": "/banners/gemini/sc_invoice_otomatis.webp",
       "image": "/banners/gemini/sc_invoice_otomatis.webp",
@@ -449,7 +1276,52 @@
       "databaseType": "Google Sheets",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/08_SIPERPUS_Perpustakaan_Digital_CI4.zip",
+      "screenshots": [
+        "/banners/gemini/sc_invoice_otomatis.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "11 Oktober 2026",
+      "recentFastDownloads": 47,
+      "howItWorks": "Data utama tersimpan di Google Sheets dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan Google Apps Script, Google Sheets, Google Docs Template, WhatsApp API dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "Browser Modern, Web Server Lokal / Cloud Hosting.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Otomasi Invoice PDF Otomatis ke Wha)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (Google Apps Script, Google Sheets, Google Docs Template, WhatsApp API) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `otomasi-invoice-pdf-gas-whatsapp.zip` ke folder `C:\\xampp\\htdocs\\otomasi-invoice-pdf-gas-whatsapp` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (Google Sheets), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/otomasi-invoice-pdf-gas-whatsapp` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-1",
@@ -461,7 +1333,7 @@
         "MySQL",
         "Bootstrap 5"
       ],
-      "description": "Aplikasi POS kasir ritel toko kelontong UMKM lengkap dengan pencatatan stok barang, barcode scanner webcam, dan fitur cetak struk kirim langsung via WhatsApp.",
+      "description": "Aplikasi POS kasir ritel toko kelontong UMKM lengkap dengan pencatatan stok barang, barcode scanner webcam, dan fitur cetak struk kirim langsung via WhatsApp. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (MySQL (.sql)) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Aplikasi POS kasir ritel toko kelontong UMKM lengkap dengan pencatatan stok barang, barcode scanner webcam, dan fitur ce...",
       "thumbnail": "/banners/gemini/banner_pos_toko.webp",
       "image": "/banners/gemini/banner_pos_toko.webp",
@@ -473,7 +1345,52 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/09_Manajemen_Surat_Disposisi_Dinas.zip",
+      "screenshots": [
+        "/banners/gemini/banner_pos_toko.webp",
+        "/banners/gemini/banner_siakad.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "10 Oktober 2026",
+      "recentFastDownloads": 54,
+      "howItWorks": "Data utama tersimpan di MySQL (.sql) dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan PHP 8.2, MySQL, Bootstrap 5 dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "PHP 8.2+ (XAMPP / Laragon), MySQL / MariaDB, Composer.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Kasir Toko Kelontong UMKM)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (PHP 8.2, MySQL, Bootstrap 5) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `kasir-toko-kelontong-umkm.zip` ke folder `C:\\xampp\\htdocs\\kasir-toko-kelontong-umkm` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (MySQL (.sql)), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/kasir-toko-kelontong-umkm` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-2",
@@ -485,7 +1402,7 @@
         "Sheets",
         "Fonnte WA"
       ],
-      "description": "Sistem presensi guru & siswa berbasis scan kartu QR Code via kamera tablet atau laptop tanpa biaya server bulanan, terhubung otomatis ke notifikasi WhatsApp orang tua.",
+      "description": "Sistem presensi guru & siswa berbasis scan kartu QR Code via kamera tablet atau laptop tanpa biaya server bulanan, terhubung otomatis ke notifikasi WhatsApp orang tua. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (Google Sheets) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Sistem presensi guru & siswa berbasis scan kartu QR Code via kamera tablet atau laptop tanpa biaya server bulanan, terhu...",
       "thumbnail": "/banners/gemini/banner_absensi_gas.webp",
       "image": "/banners/gemini/banner_absensi_gas.webp",
@@ -497,7 +1414,52 @@
       "databaseType": "Google Sheets",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/10_POS_Kasir_Ritel_Modern_Multi_Cabang.zip",
+      "screenshots": [
+        "/banners/gemini/banner_absensi_gas.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "9 Oktober 2026",
+      "recentFastDownloads": 61,
+      "howItWorks": "Data utama tersimpan di Google Sheets dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan Google Apps Script, Sheets, Fonnte WA dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "Browser Modern, Web Server Lokal / Cloud Hosting.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Absensi Siswa QR Code GAS)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (Google Apps Script, Sheets, Fonnte WA) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `absensi-siswa-qr-gas.zip` ke folder `C:\\xampp\\htdocs\\absensi-siswa-qr-gas` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (Google Sheets), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/absensi-siswa-qr-gas` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-3",
@@ -509,7 +1471,7 @@
         "Tailwind CSS",
         "TypeScript"
       ],
-      "description": "Template website katalog etalase produk UMKM modern dan responsif dengan fitur multi-cart, perhitungan ongkir otomatis, dan tombol direct checkout WhatsApp.",
+      "description": "Template website katalog etalase produk UMKM modern dan responsif dengan fitur multi-cart, perhitungan ongkir otomatis, dan tombol direct checkout WhatsApp. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (SQLite) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Template website katalog etalase produk UMKM modern dan responsif dengan fitur multi-cart, perhitungan ongkir otomatis, ...",
       "thumbnail": "/banners/gemini/banner_katalog_umkm.webp",
       "image": "/banners/gemini/banner_katalog_umkm.webp",
@@ -521,7 +1483,52 @@
       "databaseType": "SQLite",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/01_POS_Kasir_Toko_Kelontong_UMKM.zip",
+      "screenshots": [
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_ams_surat.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "28 Oktober 2026",
+      "recentFastDownloads": 23,
+      "howItWorks": "Data utama tersimpan di SQLite dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan Next.js 14, Tailwind CSS, TypeScript dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "Node.js 18+ / 20+, npm atau pnpm, Browser modern.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Landing Page Katalog Produk UMKM)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (Next.js 14, Tailwind CSS, TypeScript) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `katalog-produk-umkm-nextjs.zip` ke folder `C:\\xampp\\htdocs\\katalog-produk-umkm-nextjs` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (SQLite), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/katalog-produk-umkm-nextjs` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-4",
@@ -533,7 +1540,7 @@
         "FastAPI",
         "LLM RAG"
       ],
-      "description": "Asisten chatbot WhatsApp cerdas untuk menangani customer service 24 jam nonstop, dilatih khusus menggunakan dokumen PDF profil bisnis dan katalog produk.",
+      "description": "Asisten chatbot WhatsApp cerdas untuk menangani customer service 24 jam nonstop, dilatih khusus menggunakan dokumen PDF profil bisnis dan katalog produk. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (SQLite) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Asisten chatbot WhatsApp cerdas untuk menangani customer service 24 jam nonstop, dilatih khusus menggunakan dokumen PDF ...",
       "thumbnail": "/banners/gemini/banner_bot_wa.webp",
       "image": "/banners/gemini/banner_bot_wa.webp",
@@ -545,7 +1552,52 @@
       "databaseType": "SQLite",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/02_Absensi_Sekolah_QR_Code_GAS.zip",
+      "screenshots": [
+        "/banners/gemini/banner_bot_wa.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "27 Oktober 2026",
+      "recentFastDownloads": 30,
+      "howItWorks": "Data utama tersimpan di SQLite dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan Python 3.11, FastAPI, LLM RAG dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "Python 3.10+, pip / virtualenv, SQLite / PostgreSQL.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Bot WhatsApp CS AI Dokumen Bisnis)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (Python 3.11, FastAPI, LLM RAG) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `bot-whatsapp-cs-ai.zip` ke folder `C:\\xampp\\htdocs\\bot-whatsapp-cs-ai` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (SQLite), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/bot-whatsapp-cs-ai` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-5",
@@ -557,7 +1609,7 @@
         "CustomTkinter",
         "SQLite"
       ],
-      "description": "Aplikasi desktop kasir billing rental PlayStation dan cafe gaming dengan penghitung waktu otomatis per nomor TV konsol dan alarm audio saat durasi sewa habis.",
+      "description": "Aplikasi desktop kasir billing rental PlayStation dan cafe gaming dengan penghitung waktu otomatis per nomor TV konsol dan alarm audio saat durasi sewa habis. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (SQLite) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Aplikasi desktop kasir billing rental PlayStation dan cafe gaming dengan penghitung waktu otomatis per nomor TV konsol d...",
       "thumbnail": "/banners/gemini/banner_billing_ps.webp",
       "image": "/banners/gemini/banner_billing_ps.webp",
@@ -569,7 +1621,52 @@
       "databaseType": "SQLite",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/03_Landing_Page_Katalog_UMKM_Nextjs.zip",
+      "screenshots": [
+        "/banners/gemini/banner_billing_ps.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "26 Oktober 2026",
+      "recentFastDownloads": 37,
+      "howItWorks": "Data utama tersimpan di SQLite dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan Python Desktop, CustomTkinter, SQLite dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "Python 3.10+, pip / virtualenv, SQLite / PostgreSQL.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Billing Rental PS & Game Cafe)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (Python Desktop, CustomTkinter, SQLite) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `billing-rental-ps-cafe.zip` ke folder `C:\\xampp\\htdocs\\billing-rental-ps-cafe` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (SQLite), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/billing-rental-ps-cafe` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-6",
@@ -581,7 +1678,7 @@
         "Tailwind CSS",
         "QRIS"
       ],
-      "description": "Platform galang dana dan donasi transparan 0% potongan biaya dengan integrasi QRIS dinamis, progress bar capaian dana real-time, dan buku doa donatur.",
+      "description": "Platform galang dana dan donasi transparan 0% potongan biaya dengan integrasi QRIS dinamis, progress bar capaian dana real-time, dan buku doa donatur. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (MySQL (.sql)) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Platform galang dana dan donasi transparan 0% potongan biaya dengan integrasi QRIS dinamis, progress bar capaian dana re...",
       "thumbnail": "/banners/gemini/banner_portal_donasi.webp",
       "image": "/banners/gemini/banner_portal_donasi.webp",
@@ -593,7 +1690,52 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/04_Bot_WhatsApp_AI_Customer_Service.zip",
+      "screenshots": [
+        "/banners/gemini/banner_portal_donasi.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "25 Oktober 2026",
+      "recentFastDownloads": 44,
+      "howItWorks": "Data utama tersimpan di MySQL (.sql) dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan Laravel 11, Tailwind CSS, QRIS dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "PHP 8.2+ (XAMPP / Laragon), MySQL / MariaDB, Composer.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Portal Donasi & Crowdfunding Online)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (Laravel 11, Tailwind CSS, QRIS) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `portal-donasi-crowdfunding.zip` ke folder `C:\\xampp\\htdocs\\portal-donasi-crowdfunding` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (MySQL (.sql)), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/portal-donasi-crowdfunding` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-7",
@@ -605,7 +1747,7 @@
         "Livewire",
         "MySQL"
       ],
-      "description": "Sistem informasi akademik sekolah lengkap multi-role (Admin, Guru, Siswa, Kepala Sekolah) dengan modul kurikulum merdeka, jadwal KBM, dan cetak e-Rapot PDF.",
+      "description": "Sistem informasi akademik sekolah lengkap multi-role (Admin, Guru, Siswa, Kepala Sekolah) dengan modul kurikulum merdeka, jadwal KBM, dan cetak e-Rapot PDF. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (MySQL (.sql)) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Sistem informasi akademik sekolah lengkap multi-role (Admin, Guru, Siswa, Kepala Sekolah) dengan modul kurikulum merdeka...",
       "thumbnail": "/banners/gemini/banner_siakad.webp",
       "image": "/banners/gemini/banner_siakad.webp",
@@ -617,7 +1759,52 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/05_Billing_Rental_PS_Cafe_Gaming.zip",
+      "screenshots": [
+        "/banners/gemini/banner_siakad.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "24 Oktober 2026",
+      "recentFastDownloads": 51,
+      "howItWorks": "Data utama tersimpan di MySQL (.sql) dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan Laravel 11, Livewire, MySQL dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "PHP 8.2+ (XAMPP / Laragon), MySQL / MariaDB, Composer.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (SIAKAD Sekolah Kurikulum Merdeka)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (Laravel 11, Livewire, MySQL) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `siakad-sekolah-modern.zip` ke folder `C:\\xampp\\htdocs\\siakad-sekolah-modern` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (MySQL (.sql)), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/siakad-sekolah-modern` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-8",
@@ -629,7 +1816,7 @@
         "Bootstrap 5",
         "MySQL"
       ],
-      "description": "Aplikasi sirkulasi perpustakaan modern dengan katalog pencarian buku digital, pencetakan kartu anggota ber-barcode QR Code, dan kalkulasi denda otomatis.",
+      "description": "Aplikasi sirkulasi perpustakaan modern dengan katalog pencarian buku digital, pencetakan kartu anggota ber-barcode QR Code, dan kalkulasi denda otomatis. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (MySQL (.sql)) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Aplikasi sirkulasi perpustakaan modern dengan katalog pencarian buku digital, pencetakan kartu anggota ber-barcode QR Co...",
       "thumbnail": "/banners/gemini/banner_siperpus.webp",
       "image": "/banners/gemini/banner_siperpus.webp",
@@ -641,7 +1828,52 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/06_Portal_Donasi_Crowdfunding_Laravel.zip",
+      "screenshots": [
+        "/banners/gemini/banner_siperpus.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "23 Oktober 2026",
+      "recentFastDownloads": 58,
+      "howItWorks": "Data utama tersimpan di MySQL (.sql) dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan CodeIgniter 4, Bootstrap 5, MySQL dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "PHP 8.2+ (XAMPP / Laragon), MySQL / MariaDB, Composer.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (SIPERPUS Perpustakaan Digital QR)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (CodeIgniter 4, Bootstrap 5, MySQL) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `siperpus-digital-qr.zip` ke folder `C:\\xampp\\htdocs\\siperpus-digital-qr` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (MySQL (.sql)), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/siperpus-digital-qr` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-9",
@@ -653,7 +1885,7 @@
         "Tailwind CSS",
         "MySQLi"
       ],
-      "description": "Aplikasi tata kelola kearsipan surat masuk, surat keluar, lembar disposisi digital pimpinan instansi pemerintah/sekolah, dan penampil PDF viewer browser.",
+      "description": "Aplikasi tata kelola kearsipan surat masuk, surat keluar, lembar disposisi digital pimpinan instansi pemerintah/sekolah, dan penampil PDF viewer browser. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (MySQL (.sql)) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Aplikasi tata kelola kearsipan surat masuk, surat keluar, lembar disposisi digital pimpinan instansi pemerintah/sekolah,...",
       "thumbnail": "/banners/gemini/banner_ams_surat.webp",
       "image": "/banners/gemini/banner_ams_surat.webp",
@@ -665,7 +1897,52 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/07_SIAKAD_Sekolah_Modern_Laravel.zip",
+      "screenshots": [
+        "/banners/gemini/banner_ams_surat.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "22 Oktober 2026",
+      "recentFastDownloads": 20,
+      "howItWorks": "Data utama tersimpan di MySQL (.sql) dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan PHP 8.2, Tailwind CSS, MySQLi dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "PHP 8.2+ (XAMPP / Laragon), MySQL / MariaDB, Composer.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Manajemen Surat & Disposisi Dinas)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (PHP 8.2, Tailwind CSS, MySQLi) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `manajemen-surat-disposisi.zip` ke folder `C:\\xampp\\htdocs\\manajemen-surat-disposisi` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (MySQL (.sql)), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/manajemen-surat-disposisi` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-10",
@@ -677,7 +1954,7 @@
         "Tailwind CSS",
         "Struk WA"
       ],
-      "description": "Aplikasi Point of Sale layar sentuh kasir toko dengan barcode scanner instan, manajemen stok multi-outlet, dan pengiriman invoice PDF ke nomor WhatsApp pembeli.",
+      "description": "Aplikasi Point of Sale layar sentuh kasir toko dengan barcode scanner instan, manajemen stok multi-outlet, dan pengiriman invoice PDF ke nomor WhatsApp pembeli. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (MySQL (.sql)) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Aplikasi Point of Sale layar sentuh kasir toko dengan barcode scanner instan, manajemen stok multi-outlet, dan pengirima...",
       "thumbnail": "/banners/gemini/banner_pos_ritel.webp",
       "image": "/banners/gemini/banner_pos_ritel.webp",
@@ -689,7 +1966,52 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/08_SIPERPUS_Perpustakaan_Digital_CI4.zip",
+      "screenshots": [
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_siakad.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "21 Oktober 2026",
+      "recentFastDownloads": 27,
+      "howItWorks": "Data utama tersimpan di MySQL (.sql) dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan PHP 8.2, Tailwind CSS, Struk WA dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "PHP 8.2+ (XAMPP / Laragon), MySQL / MariaDB, Composer.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (POS Kasir Ritel Multi-Cabang)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (PHP 8.2, Tailwind CSS, Struk WA) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `pos-kasir-ritel-multi-cabang.zip` ke folder `C:\\xampp\\htdocs\\pos-kasir-ritel-multi-cabang` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (MySQL (.sql)), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/pos-kasir-ritel-multi-cabang` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-11",
@@ -701,7 +2023,7 @@
         "MySQL",
         "Struk Thermal"
       ],
-      "description": "Sistem informasi manajemen apotek dan kasir penjualan obat lengkap dengan peringatan tanggal kadaluarsa (expired date), stok minimum otomatis, dan cetak struk kasir.",
+      "description": "Sistem informasi manajemen apotek dan kasir penjualan obat lengkap dengan peringatan tanggal kadaluarsa (expired date), stok minimum otomatis, dan cetak struk kasir. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (MySQL (.sql)) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Sistem informasi manajemen apotek dan kasir penjualan obat lengkap dengan peringatan tanggal kadaluarsa (expired date), ...",
       "thumbnail": "/banners/gemini/sc_kasir_apotek_obat.webp",
       "image": "/banners/gemini/sc_kasir_apotek_obat.webp",
@@ -713,7 +2035,52 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/09_Manajemen_Surat_Disposisi_Dinas.zip",
+      "screenshots": [
+        "/banners/gemini/sc_kasir_apotek_obat.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "20 Oktober 2026",
+      "recentFastDownloads": 34,
+      "howItWorks": "Data utama tersimpan di MySQL (.sql) dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan Laravel 11, MySQL, Struk Thermal dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "PHP 8.2+ (XAMPP / Laragon), MySQL / MariaDB, Composer.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Aplikasi Kasir Apotek & Stok Obat)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (Laravel 11, MySQL, Struk Thermal) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `kasir-apotek-stok-obat.zip` ke folder `C:\\xampp\\htdocs\\kasir-apotek-stok-obat` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (MySQL (.sql)), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/kasir-apotek-stok-obat` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-12",
@@ -725,7 +2092,7 @@
         "Tailwind",
         "WhatsApp API"
       ],
-      "description": "Platform reservasi online jam potong rambut dan perawatan salon dengan kalender interaktif, pilihan kapster favorit, dan konfirmasi WhatsApp otomatis ke pelanggan.",
+      "description": "Platform reservasi online jam potong rambut dan perawatan salon dengan kalender interaktif, pilihan kapster favorit, dan konfirmasi WhatsApp otomatis ke pelanggan. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (SQLite) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Platform reservasi online jam potong rambut dan perawatan salon dengan kalender interaktif, pilihan kapster favorit, dan...",
       "thumbnail": "/banners/gemini/sc_booking_barbershop.webp",
       "image": "/banners/gemini/sc_booking_barbershop.webp",
@@ -737,7 +2104,52 @@
       "databaseType": "SQLite",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/10_POS_Kasir_Ritel_Modern_Multi_Cabang.zip",
+      "screenshots": [
+        "/banners/gemini/sc_booking_barbershop.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "19 Oktober 2026",
+      "recentFastDownloads": 41,
+      "howItWorks": "Data utama tersimpan di SQLite dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan Next.js 14, Tailwind, WhatsApp API dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "Node.js 18+ / 20+, npm atau pnpm, Browser modern.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Sistem Booking Jadwal Barbershop & )",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (Next.js 14, Tailwind, WhatsApp API) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `booking-barbershop-salon.zip` ke folder `C:\\xampp\\htdocs\\booking-barbershop-salon` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (SQLite), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/booking-barbershop-salon` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-13",
@@ -749,7 +2161,7 @@
         "Baileys",
         "SQLite"
       ],
-      "description": "Skrip otomasi penerusan pesan otomatis antar channel dan grup WhatsApp bisnis dengan filter kata kunci terlarang dan penggantian link affiliate secara dinamis.",
+      "description": "Skrip otomasi penerusan pesan otomatis antar channel dan grup WhatsApp bisnis dengan filter kata kunci terlarang dan penggantian link affiliate secara dinamis. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (SQLite) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Skrip otomasi penerusan pesan otomatis antar channel dan grup WhatsApp bisnis dengan filter kata kunci terlarang dan pen...",
       "thumbnail": "/banners/gemini/sc_wa_forward_relay.webp",
       "image": "/banners/gemini/sc_wa_forward_relay.webp",
@@ -761,7 +2173,52 @@
       "databaseType": "SQLite",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/01_POS_Kasir_Toko_Kelontong_UMKM.zip",
+      "screenshots": [
+        "/banners/gemini/sc_wa_forward_relay.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "18 Oktober 2026",
+      "recentFastDownloads": 48,
+      "howItWorks": "Data utama tersimpan di SQLite dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan Python 3.11, Baileys, SQLite dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "Python 3.10+, pip / virtualenv, SQLite / PostgreSQL.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Bot WhatsApp Auto-Forward Pesan Gru)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (Python 3.11, Baileys, SQLite) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `bot-wa-auto-forward.zip` ke folder `C:\\xampp\\htdocs\\bot-wa-auto-forward` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (SQLite), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/bot-wa-auto-forward` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-14",
@@ -773,7 +2230,7 @@
         "Bootstrap 5",
         "MySQL"
       ],
-      "description": "Aplikasi layanan aspirasi dan pengaduan masyarakat desa dengan bukti foto lokasi, tracking nomor tiket keluhan, dan disposisi langsung ke kepala seksi.",
+      "description": "Aplikasi layanan aspirasi dan pengaduan masyarakat desa dengan bukti foto lokasi, tracking nomor tiket keluhan, dan disposisi langsung ke kepala seksi. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (MySQL (.sql)) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Aplikasi layanan aspirasi dan pengaduan masyarakat desa dengan bukti foto lokasi, tracking nomor tiket keluhan, dan disp...",
       "thumbnail": "/banners/gemini/sc_portal_lapor_desa.webp",
       "image": "/banners/gemini/sc_portal_lapor_desa.webp",
@@ -785,7 +2242,52 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/02_Absensi_Sekolah_QR_Code_GAS.zip",
+      "screenshots": [
+        "/banners/gemini/sc_portal_lapor_desa.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "17 Oktober 2026",
+      "recentFastDownloads": 55,
+      "howItWorks": "Data utama tersimpan di MySQL (.sql) dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan PHP 8.2, Bootstrap 5, MySQL dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "PHP 8.2+ (XAMPP / Laragon), MySQL / MariaDB, Composer.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Portal Pengaduan Warga Desa (E-Lapo)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (PHP 8.2, Bootstrap 5, MySQL) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `portal-pengaduan-desa.zip` ke folder `C:\\xampp\\htdocs\\portal-pengaduan-desa` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (MySQL (.sql)), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/portal-pengaduan-desa` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     },
     {
       "id": "sc-15",
@@ -797,7 +2299,7 @@
         "WebSockets",
         "Chart.js"
       ],
-      "description": "Antarmuka pemantauan data sensor suhu, kelembaban, dan voltase listrik real-time via koneksi WebSocket dengan grafik interaktif 60 FPS dan alert bahaya.",
+      "description": "Antarmuka pemantauan data sensor suhu, kelembaban, dan voltase listrik real-time via koneksi WebSocket dengan grafik interaktif 60 FPS dan alert bahaya. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi/data master, validasi otomatis di sisi server, pembaruan status secara real-time, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nPemilik usaha atau administrator langsung mengetahui metrik performa harian, riwayat aktivitas pengguna, serta peringatan dini jika terjadi anomali data. Paket unduhan sudah menyertakan skema database (SQLite) lengkap dengan data contoh realistis sehingga aplikasi bisa langsung didemokan tanpa perlu mengisi data dari nol.",
       "shortDesc": "Antarmuka pemantauan data sensor suhu, kelembaban, dan voltase listrik real-time via koneksi WebSocket dengan grafik int...",
       "thumbnail": "/banners/gemini/sc_iot_esp32_suhu.webp",
       "image": "/banners/gemini/sc_iot_esp32_suhu.webp",
@@ -809,7 +2311,52 @@
       "databaseType": "SQLite",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
+      "downloadUrlFast": "/downloads/03_Landing_Page_Katalog_UMKM_Nextjs.zip",
+      "screenshots": [
+        "/banners/gemini/sc_iot_esp32_suhu.webp",
+        "/banners/gemini/banner_pos_ritel.webp",
+        "/banners/gemini/banner_katalog_umkm.webp",
+        "/banners/gemini/art_cuan_digital_source_code.webp"
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "16 Oktober 2026",
+      "recentFastDownloads": 62,
+      "howItWorks": "Data utama tersimpan di SQLite dengan struktur relasional yang ternormalisasi: tabel master pengguna, entitas utama aplikasi, log transaksi, serta pengaturan sistem. Setiap perubahan data penting melewati lapisan validasi transaksi (atomic transaction) untuk mencegah duplikasi maupun inkonsistensi saldo/status saat diakses bersamaan.\n\nAplikasi dibangun menggunakan FastAPI, WebSockets, Chart.js dengan pemisahan hak akses multi-peran (Role-Based Access Control). Keamanan dilengkapi proteksi CSRF, hashing password bcrypt, sanitasi input anti-SQL Injection, dan antarmuka responsif yang nyaman dibuka melalui layar HP maupun desktop.",
+      "requirements": "Python 3.10+, pip / virtualenv, SQLite / PostgreSQL.",
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@aplikasi.test",
+          "password": "password123"
+        },
+        {
+          "role": "Staf / Operator",
+          "username": "operator@aplikasi.test",
+          "password": "password123"
+        }
+      ],
+      "keyFeatures": [
+        "Dashboard analitik utama: ringkasan metrik harian, grafik tren 30 hari, dan status aktif (Dashboard Monitoring Suhu IoT ESP32)",
+        "Manajemen data master lengkap dengan pencarian instan, filter multi-kriteria, dan pagination cepat",
+        "Sistem hak akses multi-role (Admin/Owner, Operator/Kasir, Supervisor) dengan pembatasan menu ketat",
+        "Validasi input berlapis & transaksi database aman anti-bentrok saat diakses bersamaan",
+        "Cetak dokumen resmi (Nota / Invoice / Laporan PDF) siap print thermal maupun kertas A4",
+        "Ekspor rekapitulasi laporan periodik ke format CSV & Excel bebas formula injection",
+        "Integrasi notifikasi pesan otomatis ke WhatsApp untuk konfirmasi status transaksi real-time",
+        "Riwayat audit log (activity log) mencatat setiap penambahan, perubahan, dan penghapusan data",
+        "Data contoh (seed data) siap pakai untuk simulasi & presentasi tanpa input manual dari nol",
+        "Desain antarmuka responsif mobile-first yang ringan dibuka di HP Android/iOS maupun PC",
+        "Keamanan standar produksi: proteksi CSRF, password bcrypt, prepared statements, dan rate limit login",
+        "Kode bersih terstruktur rapi (FastAPI, WebSockets, Chart.js) yang mudah dimodifikasi untuk skripsi maupun proyek klien"
+      ],
+      "tutorialSteps": [
+        "Ekstrak file ZIP `dashboard-monitoring-iot.zip` ke folder `C:\\xampp\\htdocs\\dashboard-monitoring-iot` (Windows Laragon/XAMPP) atau direktori kerja Anda.",
+        "Nyalakan layanan web server dan database (SQLite), lalu buat database baru sesuai nama proyek.",
+        "Jalankan skrip instalasi otomatis atau import file `database.sql` yang sudah tersedia di dalam folder utama (lengkap dengan tabel & data contoh).",
+        "Salin file `.env.example` menjadi `.env` (atau buka file konfigurasi database), lalu sesuaikan kredensial koneksi database lokal Anda.",
+        "Buka `http://localhost/dashboard-monitoring-iot` atau `http://127.0.0.1:8000` di browser lalu masuk menggunakan akun default Admin / Operator.",
+        "Buka menu Pengaturan di dalam aplikasi untuk mengganti nama instansi/usaha, logo, nomor WhatsApp gateway, dan kata sandi akun."
+      ]
     }
   ]
 }
