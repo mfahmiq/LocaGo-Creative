@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 04:05 WIB",
-  "total": 359,
+  "updatedAt": "11 Nov 2026, 04:35 WIB",
+  "total": 360,
   "items": [
+    {
+      "id": "ai-ellie",
+      "name": "Ellie",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Ellie - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "Craft intelligent replies to emails",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/ellie.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://ellieai.com"
+    },
     {
       "id": "ai-bedtimestory-ai",
       "name": "BedtimeStory.ai",
