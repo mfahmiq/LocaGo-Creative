@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 22:34 WIB",
-  "total": 348,
+  "updatedAt": "10 Nov 2026, 23:04 WIB",
+  "total": 349,
   "items": [
+    {
+      "id": "ai-exa-monitors-v2",
+      "name": "Exa Monitors v2",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Exa Monitors v2 - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Exa Monitors v2 adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/exa-monitors-v2.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/exa-ai"
+    },
     {
       "id": "ai-fleeep",
       "name": "Fleeep",
