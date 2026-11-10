@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 01:04 WIB",
-  "total": 353,
+  "updatedAt": "11 Nov 2026, 01:34 WIB",
+  "total": 354,
   "items": [
+    {
+      "id": "ai-monster-mash",
+      "name": "Monster Mash",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Monster Mash - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "Convert drawn images into 3D images and then animate them",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/monster-mash.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://monstermash.zone"
+    },
     {
       "id": "ai-yourmove",
       "name": "YourMove",
