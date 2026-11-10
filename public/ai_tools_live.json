@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 20:03 WIB",
-  "total": 343,
+  "updatedAt": "10 Nov 2026, 20:33 WIB",
+  "total": 344,
   "items": [
+    {
+      "id": "ai-echofox",
+      "name": "EchoFox",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "EchoFox - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "An app for transcription assistant.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/echofox.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://echofox.pro"
+    },
     {
       "id": "ai-tacotranslate",
       "name": "TacoTranslate",
