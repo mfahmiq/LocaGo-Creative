@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 10:06 WIB",
-  "total": 320,
+  "updatedAt": "10 Nov 2026, 10:36 WIB",
+  "total": 321,
   "items": [
+    {
+      "id": "ai-notability",
+      "name": "Notability",
+      "category": "Agentic Automation",
+      "pricingType": "Free",
+      "tagline": "Notability - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "A telegrambot to organize notes in Notion.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/notability.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://notability.ai"
+    },
     {
       "id": "ai-makeforms",
       "name": "MakeForms",
