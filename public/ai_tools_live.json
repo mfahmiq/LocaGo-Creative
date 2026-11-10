@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 03:05 WIB",
-  "total": 357,
+  "updatedAt": "11 Nov 2026, 03:35 WIB",
+  "total": 358,
   "items": [
+    {
+      "id": "ai-openring",
+      "name": "openring",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "openring - Produk AI Baru Terpilih di Product Hunt",
+      "description": "openring adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/openring.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/openring"
+    },
     {
       "id": "ai-foragent",
       "name": "ForAgent",
