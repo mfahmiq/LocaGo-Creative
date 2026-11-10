@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 14:06 WIB",
-  "total": 328,
+  "updatedAt": "10 Nov 2026, 14:37 WIB",
+  "total": 329,
   "items": [
+    {
+      "id": "ai-klynk",
+      "name": "Klynk",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Klynk - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to create personalized email campaigns.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/klynk.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://klynk.ai"
+    },
     {
       "id": "ai-axl",
       "name": "AXL",
