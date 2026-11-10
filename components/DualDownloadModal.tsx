@@ -86,6 +86,49 @@ export const DualDownloadModal: React.FC<DualDownloadModalProps> = ({
     }
   };
 
+  const handleSnapPay = async () => {
+    setIsChecking(true);
+    setStatusNote('Membuka gerbang pembayaran resmi Midtrans Snap...');
+    try {
+      const res = await fetch('/api/midtrans-token', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          amount: totalAmount,
+          slug: item.slug,
+          title: item.title,
+        }),
+      });
+      const data = await res.json();
+      if (data.token && (window as any).snap) {
+        (window as any).snap.pay(data.token, {
+          onSuccess: () => {
+            setStep('settled');
+            setIsChecking(false);
+          },
+          onPending: () => {
+            setStatusNote('Menunggu penyelesaian pembayaran di Midtrans...');
+            setIsChecking(false);
+          },
+          onError: () => {
+            setStatusNote('Pembayaran belum selesai atau dibatalkan.');
+            setIsChecking(false);
+          },
+          onClose: () => {
+            setIsChecking(false);
+          },
+        });
+        return;
+      }
+      if (data.redirectUrl && data.redirectUrl !== '#') {
+        window.open(data.redirectUrl, '_blank', 'noopener,noreferrer');
+      }
+    } catch {
+      // fallback
+    }
+    setIsChecking(false);
+  };
+
   const handleCheckPaymentStatus = async () => {
     if (parseInt(customInput || '0', 10) < MINIMUM_DONATION) {
       setStatusNote(`Minimal donasi adalah Rp ${MINIMUM_DONATION.toLocaleString('id-ID')}`);
@@ -268,8 +311,18 @@ export const DualDownloadModal: React.FC<DualDownloadModalProps> = ({
                 </div>
               )}
 
-              {/* Two Action Buttons Below QR ala Papicode */}
+              {/* Action Buttons Below QR ala Papicode + Midtrans Snap */}
               <div className="space-y-2.5 pt-1">
+                <button
+                  type="button"
+                  onClick={handleSnapPay}
+                  disabled={isChecking || parseInt(customInput || '0', 10) < MINIMUM_DONATION}
+                  className="w-full h-11 rounded-xl bg-neutral-900 dark:bg-white hover:bg-neutral-800 dark:hover:bg-neutral-100 disabled:opacity-50 text-white dark:text-neutral-950 font-bold text-xs transition-all shadow-sm flex items-center justify-center gap-2 cursor-pointer"
+                >
+                  <span>💳</span>
+                  <span>Bayar Otomatis via Midtrans (GoPay, QRIS, VA)</span>
+                </button>
+
                 <button
                   type="button"
                   onClick={handleDownloadQrImage}
