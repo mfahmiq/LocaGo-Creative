@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 23:34 WIB",
-  "total": 350,
+  "updatedAt": "11 Nov 2026, 00:04 WIB",
+  "total": 351,
   "items": [
+    {
+      "id": "ai-sendoff",
+      "name": "Sendoff",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Sendoff - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Sendoff adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/sendoff.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/sendoff-2"
+    },
     {
       "id": "ai-make0-brain-oss",
       "name": "Make0 Brain OSS",
