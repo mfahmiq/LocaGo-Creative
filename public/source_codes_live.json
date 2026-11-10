@@ -1,6 +1,6 @@
 {
-  "updatedAt": "06 Nov 2026, 19:00 WIB",
-  "total": 34,
+  "updatedAt": "10 Nov 2026, 12:27 WIB",
+  "total": 35,
   "items": [
     {
       "id": "sc-00",
@@ -64,6 +64,66 @@
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=locago-open-source-super-vault-100-tools-prompts&step=1&max=8",
       "downloadUrlFast": "/downloads/00_OpenSource_Super_Vault_100_Tools_Prompts.zip"
+    },
+    {
+      "id": "sc-35",
+      "title": "Aplikasi Opensourcepos Modern & Full Database",
+      "slug": "opensourcepos",
+      "category": "PHP & Laravel",
+      "techStack": [
+        "PHP 8.2",
+        "Laravel 11",
+        "MySQL",
+        "Tailwind CSS"
+      ],
+      "description": "Open Source Point of Sale is a web based point of sale application written in PHP using CodeIgniter framework. It uses MySQL as the data back end and has a Bootstrap 3 based user interface. If you like this project, please give it a star! Doing so helps maintain Popular OSS status for the project. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi, validasi otomatis, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nDilengkapi skema database (MySQL (.sql)) lengkap dengan data contoh realistis.",
+      "shortDesc": "Aplikasi Aplikasi Opensourcepos Modern & Full Database dengan database MySQL (.sql), data contoh, dan tutorial instalasi lengkap.",
+      "howItWorks": "Data utama tersimpan di MySQL (.sql) dengan struktur relasional yang ternormalisasi: tabel pengguna, log transaksi, serta pengaturan sistem. Aplikasi dibangun dengan PHP 8.2, Laravel 11, MySQL, Tailwind CSS dan proteksi keamanan berlapis.",
+      "requirements": "PHP 8.2+ / Node.js / Python, Web Server Lokal (XAMPP / Laragon).",
+      "screenshots": [
+        "/screenshots/opensourcepos/screenshot_1.webp",
+        "/screenshots/opensourcepos/screenshot_2.webp",
+        "/screenshots/opensourcepos/screenshot_3.webp",
+        "/screenshots/opensourcepos/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@locago.my.id",
+          "password": "password123"
+        },
+        {
+          "role": "Operator / Staf",
+          "username": "operator@locago.my.id",
+          "password": "password123"
+        }
+      ],
+      "updatedAt": "10 November 2026",
+      "releaseDate": "10 November 2026",
+      "recentFastDownloads": 31,
+      "thumbnail": "/screenshots/opensourcepos/screenshot_1.webp",
+      "downloadsCount": 553,
+      "rating": 4.9,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "17.7 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `opensourcepos.zip` ke web server lokal Anda.",
+        "Import berkas `database.sql` ke database Anda.",
+        "Konfigurasi koneksi database di file konfigurasi.",
+        "Buka di browser dan login menggunakan akun admin default."
+      ],
+      "keyFeatures": [
+        "Dashboard utama: ringkasan metrik harian dan grafik tren real-time",
+        "Manajemen data master lengkap dengan pencarian instan dan filter",
+        "Hak akses multi-role (Admin dan Operator) terpisah aman",
+        "Cetak nota / invoice PDF dan ekspor laporan ke CSV",
+        "Skema database MySQL (.sql) lengkap data contoh simulasi"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=opensourcepos&step=1&max=8",
+      "downloadUrlFast": "/downloads/opensourcepos.zip"
     },
     {
       "id": "sc-33",
