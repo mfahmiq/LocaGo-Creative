@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 17:21 WIB",
-  "total": 335,
+  "updatedAt": "10 Nov 2026, 17:24 WIB",
+  "total": 336,
   "items": [
+    {
+      "id": "ai-mechvibes-3",
+      "name": "Mechvibes 3",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Mechvibes 3 - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Mechvibes 3 adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/mechvibes-3.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/mechvibes"
+    },
     {
       "id": "ai-ghola",
       "name": "Ghola",
