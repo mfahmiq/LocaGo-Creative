@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 09:36 WIB",
-  "total": 319,
+  "updatedAt": "10 Nov 2026, 10:06 WIB",
+  "total": 320,
   "items": [
+    {
+      "id": "ai-makeforms",
+      "name": "MakeForms",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "MakeForms - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A platform to create, share, and track forms securely.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/makeforms.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://makeforms.io"
+    },
     {
       "id": "ai-notchisland",
       "name": "NotchIsland",
