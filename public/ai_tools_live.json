@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 08:35 WIB",
-  "total": 317,
+  "updatedAt": "10 Nov 2026, 09:06 WIB",
+  "total": 318,
   "items": [
+    {
+      "id": "ai-ai-mail-assistant",
+      "name": "AI Mail Assistant",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "AI Mail Assistant - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A Gmail add-on for emails.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/ai-mail-assistant.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://workspace.google.com/marketplace/app/ai_mail_assistant_chatgpt_for_gmail/793320270264"
+    },
     {
       "id": "ai-keypause",
       "name": "Keypause",
