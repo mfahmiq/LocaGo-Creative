@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 16:37 WIB",
-  "total": 333,
+  "updatedAt": "10 Nov 2026, 17:07 WIB",
+  "total": 334,
   "items": [
+    {
+      "id": "ai-wonderplan",
+      "name": "Wonderplan",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Wonderplan - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to generate personalised travel plan.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/wonderplan.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://wonderplan.ai"
+    },
     {
       "id": "ai-instagram-edits-for-desktop",
       "name": "Instagram Edits for Desktop",
