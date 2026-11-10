@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 18:33 WIB",
-  "total": 340,
+  "updatedAt": "10 Nov 2026, 19:03 WIB",
+  "total": 341,
   "items": [
+    {
+      "id": "ai-buildferry",
+      "name": "BuildFerry",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "BuildFerry - Produk AI Baru Terpilih di Product Hunt",
+      "description": "BuildFerry adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/buildferry.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/buildferry"
+    },
     {
       "id": "ai-typo",
       "name": "Typo",
