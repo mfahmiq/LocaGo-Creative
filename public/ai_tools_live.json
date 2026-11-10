@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 06:35 WIB",
-  "total": 313,
+  "updatedAt": "10 Nov 2026, 07:05 WIB",
+  "total": 314,
   "items": [
+    {
+      "id": "ai-h3-turbo-lora",
+      "name": "H3 Turbo Lora",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (53 Upvotes)",
+      "description": "H3 Turbo Lora adalah model dan aplikasi demo AI interaktif dari kreator ppxxyy di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/h3-turbo-lora.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/ppxxyy/H3-Turbo-Lora"
+    },
     {
       "id": "ai-zigzag-browser",
       "name": "Zigzag Browser",
