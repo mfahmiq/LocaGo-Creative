@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 00:34 WIB",
-  "total": 352,
+  "updatedAt": "11 Nov 2026, 01:04 WIB",
+  "total": 353,
   "items": [
+    {
+      "id": "ai-yourmove",
+      "name": "YourMove",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "YourMove - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "AI-generated flirting support",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/yourmove.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://yourmove.ai"
+    },
     {
       "id": "ai-image-to-video",
       "name": "Image To Video",
