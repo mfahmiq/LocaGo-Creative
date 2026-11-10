@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 03:35 WIB",
-  "total": 358,
+  "updatedAt": "11 Nov 2026, 04:05 WIB",
+  "total": 359,
   "items": [
+    {
+      "id": "ai-bedtimestory-ai",
+      "name": "BedtimeStory.ai",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "BedtimeStory.ai - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "Create personalized, instant bedtime stories",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/bedtimestory-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://bedtimestory.ai"
+    },
     {
       "id": "ai-openring",
       "name": "openring",
