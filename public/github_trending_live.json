@@ -1,5 +1,5 @@
 {
-  "updatedAt": "10 Nov 2026, 17:57 WIB",
+  "updatedAt": "10 Nov 2026, 18:33 WIB",
   "total": 12,
   "items": [
     {
@@ -14,16 +14,16 @@
       "oneSentencePitch": "An open source design system that's fully customizable and agent ready",
       "rank": 1,
       "totalStars": "21.3k",
-      "starsToday": 3278,
-      "starsGrowthText": "+3,278 stars today",
-      "growthRate": "+3278 stars hari ini",
+      "starsToday": 3111,
+      "starsGrowthText": "+3,111 stars today",
+      "growthRate": "+3111 stars hari ini",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #1 di GitHub Trending Today",
-        "Pertumbuhan pesat: +3,278 stars today",
+        "Pertumbuhan pesat: +3,111 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -39,16 +39,16 @@
       "oneSentencePitch": "Public repository for Agent Skills",
       "rank": 2,
       "totalStars": "191.7k",
-      "starsToday": 1038,
-      "starsGrowthText": "+1,038 stars today",
-      "growthRate": "+1038 stars hari ini",
+      "starsToday": 1676,
+      "starsGrowthText": "+1,676 stars today",
+      "growthRate": "+1676 stars hari ini",
       "topics": [
         "ai",
         "python"
       ],
       "features": [
         "Trending resmi #2 di GitHub Trending Today",
-        "Pertumbuhan pesat: +1,038 stars today",
+        "Pertumbuhan pesat: +1,676 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -89,16 +89,16 @@
       "oneSentencePitch": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
       "rank": 4,
       "totalStars": "20.2k",
-      "starsToday": 551,
-      "starsGrowthText": "+551 stars today",
-      "growthRate": "+551 stars hari ini",
+      "starsToday": 530,
+      "starsGrowthText": "+530 stars today",
+      "growthRate": "+530 stars hari ini",
       "topics": [
         "ai",
         "python"
       ],
       "features": [
         "Trending resmi #4 di GitHub Trending Today",
-        "Pertumbuhan pesat: +551 stars today",
+        "Pertumbuhan pesat: +530 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -113,17 +113,17 @@
       "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
       "oneSentencePitch": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
       "rank": 5,
-      "totalStars": "17.1k",
-      "starsToday": 574,
-      "starsGrowthText": "+574 stars today",
-      "growthRate": "+574 stars hari ini",
+      "totalStars": "17.2k",
+      "starsToday": 453,
+      "starsGrowthText": "+453 stars today",
+      "growthRate": "+453 stars hari ini",
       "topics": [
         "productivity",
         "c++"
       ],
       "features": [
         "Trending resmi #5 di GitHub Trending Today",
-        "Pertumbuhan pesat: +574 stars today",
+        "Pertumbuhan pesat: +453 stars today",
         "Ditulis menggunakan bahasa C++"
       ]
     },
@@ -164,16 +164,16 @@
       "oneSentencePitch": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
       "rank": 7,
       "totalStars": "6.3k",
-      "starsToday": 31,
-      "starsGrowthText": "+31 stars today",
-      "growthRate": "+31 stars hari ini",
+      "starsToday": 792,
+      "starsGrowthText": "+792 stars today",
+      "growthRate": "+792 stars hari ini",
       "topics": [
         "ai",
         "python"
       ],
       "features": [
         "Trending resmi #7 di GitHub Trending Today",
-        "Pertumbuhan pesat: +31 stars today",
+        "Pertumbuhan pesat: +792 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -189,16 +189,16 @@
       "oneSentencePitch": "Browser automation CLI for AI agents",
       "rank": 8,
       "totalStars": "48.9k",
-      "starsToday": 916,
-      "starsGrowthText": "+916 stars today",
-      "growthRate": "+916 stars hari ini",
+      "starsToday": 775,
+      "starsGrowthText": "+775 stars today",
+      "growthRate": "+775 stars hari ini",
       "topics": [
         "ai",
         "rust"
       ],
       "features": [
         "Trending resmi #8 di GitHub Trending Today",
-        "Pertumbuhan pesat: +916 stars today",
+        "Pertumbuhan pesat: +775 stars today",
         "Ditulis menggunakan bahasa Rust"
       ]
     },
@@ -213,17 +213,17 @@
       "description": "Hunt down social media accounts by username across social networks",
       "oneSentencePitch": "Hunt down social media accounts by username across social networks",
       "rank": 9,
-      "totalStars": "108.1k",
-      "starsToday": 4267,
-      "starsGrowthText": "+4,267 stars today",
-      "growthRate": "+4267 stars hari ini",
+      "totalStars": "108.2k",
+      "starsToday": 2387,
+      "starsGrowthText": "+2,387 stars today",
+      "growthRate": "+2387 stars hari ini",
       "topics": [
         "productivity",
         "python"
       ],
       "features": [
         "Trending resmi #9 di GitHub Trending Today",
-        "Pertumbuhan pesat: +4,267 stars today",
+        "Pertumbuhan pesat: +2,387 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -264,16 +264,16 @@
       "oneSentencePitch": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
       "rank": 11,
       "totalStars": "5.9k",
-      "starsToday": 760,
-      "starsGrowthText": "+760 stars today",
-      "growthRate": "+760 stars hari ini",
+      "starsToday": 374,
+      "starsGrowthText": "+374 stars today",
+      "growthRate": "+374 stars hari ini",
       "topics": [
         "productivity",
         "typescript"
       ],
       "features": [
         "Trending resmi #11 di GitHub Trending Today",
-        "Pertumbuhan pesat: +760 stars today",
+        "Pertumbuhan pesat: +374 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
