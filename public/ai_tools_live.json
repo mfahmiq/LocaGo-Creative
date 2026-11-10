@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 07:35 WIB",
-  "total": 315,
+  "updatedAt": "10 Nov 2026, 08:05 WIB",
+  "total": 316,
   "items": [
+    {
+      "id": "ai-harness-lens",
+      "name": "Harness Lens",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (83 Upvotes)",
+      "description": "Harness Lens adalah model dan aplikasi demo AI interaktif dari kreator harness-hub di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/harness-lens.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/harness-hub/harness-lens"
+    },
     {
       "id": "ai-talkface",
       "name": "Talkface",
