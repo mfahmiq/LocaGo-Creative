@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 07:05 WIB",
-  "total": 314,
+  "updatedAt": "10 Nov 2026, 07:35 WIB",
+  "total": 315,
   "items": [
+    {
+      "id": "ai-talkface",
+      "name": "Talkface",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Talkface - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "An app for language learning with personalized curriculum.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/talkface.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://talkface.ai"
+    },
     {
       "id": "ai-h3-turbo-lora",
       "name": "H3 Turbo Lora",
