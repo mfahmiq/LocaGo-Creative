@@ -1,7 +1,61 @@
 {
-  "updatedAt": "10 Nov 2026, 20:33 WIB",
-  "total": 344,
+  "updatedAt": "10 Nov 2026, 22:04 WIB",
+  "total": 347,
   "items": [
+    {
+      "id": "ai-frameboy-by-world-labs",
+      "name": "Frameboy by World Labs",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Frameboy by World Labs - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Frameboy by World Labs adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/frameboy-by-world-labs.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/marble-by-world-labs"
+    },
+    {
+      "id": "ai-moe-blogpost",
+      "name": "Moe Blogpost",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (368 Upvotes)",
+      "description": "Moe Blogpost adalah model dan aplikasi demo AI interaktif dari kreator huggingface di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/moe-blogpost.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/huggingface/moe-blogpost"
+    },
+    {
+      "id": "ai-harness-leaderboard",
+      "name": "Harness Leaderboard",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (151 Upvotes)",
+      "description": "Harness Leaderboard adalah model dan aplikasi demo AI interaktif dari kreator joelniklaus di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/harness-leaderboard.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
+    },
     {
       "id": "ai-echofox",
       "name": "EchoFox",

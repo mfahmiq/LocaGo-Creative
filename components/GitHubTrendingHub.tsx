@@ -2,8 +2,18 @@ import React, { useState, useMemo, useEffect } from 'react';
 import { GITHUB_TRENDING_LIST } from '../lib/data';
 import { GitHubTrendingItem } from '../types';
 
+interface TrendingLivePayload {
+  updatedAt?: string;
+  total?: number;
+  items?: GitHubTrendingItem[];
+  daily?: GitHubTrendingItem[];
+  weekly?: GitHubTrendingItem[];
+  monthly?: GitHubTrendingItem[];
+}
+
 export const GitHubTrendingHub: React.FC = () => {
   const [repos, setRepos] = useState<GitHubTrendingItem[]>(GITHUB_TRENDING_LIST);
+  const [trendingPayload, setTrendingPayload] = useState<TrendingLivePayload | null>(null);
   const [timeframe, setTimeframe] = useState<'daily' | 'weekly' | 'monthly'>('daily');
   const [selectedLanguage, setSelectedLanguage] = useState<string>('Semua');
   const [selectedTopic, setSelectedTopic] = useState<string>('Semua');
@@ -13,16 +23,19 @@ export const GitHubTrendingHub: React.FC = () => {
 
   // Load live JSON if available on mount
   useEffect(() => {
-    fetch('/github_trending_live.json')
+    fetch('/github_trending_live.json?t=' + Date.now())
       .then((res) => {
         if (!res.ok) throw new Error('Live JSON not found');
         return res.json();
       })
-      .then((data) => {
-        if (data.items && data.items.length > 0) {
+      .then((data: TrendingLivePayload) => {
+        setTrendingPayload(data);
+        if (data.daily && data.daily.length > 0) {
+          setRepos(data.daily);
+        } else if (data.items && data.items.length > 0) {
           setRepos(data.items);
-          if (data.updatedAt) setLastUpdated(data.updatedAt);
         }
+        if (data.updatedAt) setLastUpdated(data.updatedAt);
       })
       .catch(() => {
         // Fallback to static GITHUB_TRENDING_LIST
@@ -109,10 +122,23 @@ export const GitHubTrendingHub: React.FC = () => {
     }
   };
 
-  const filteredAndRankedRepos = useMemo(() => {
-    const multiplier = timeframe === 'daily' ? 1 : timeframe === 'weekly' ? 6.2 : 24.5;
+  const currentActiveList = useMemo(() => {
+    if (trendingPayload) {
+      if (timeframe === 'weekly' && trendingPayload.weekly && trendingPayload.weekly.length > 0) {
+        return trendingPayload.weekly;
+      }
+      if (timeframe === 'monthly' && trendingPayload.monthly && trendingPayload.monthly.length > 0) {
+        return trendingPayload.monthly;
+      }
+      if (timeframe === 'daily' && trendingPayload.daily && trendingPayload.daily.length > 0) {
+        return trendingPayload.daily;
+      }
+    }
+    return repos;
+  }, [trendingPayload, timeframe, repos]);
 
-    return repos
+  const filteredAndRankedRepos = useMemo(() => {
+    return currentActiveList
       .filter((repo) => {
         const matchLang = selectedLanguage === 'Semua' || repo.language === selectedLanguage;
         const matchTopic = selectedTopic === 'Semua' || repo.category === selectedTopic;
@@ -123,17 +149,16 @@ export const GitHubTrendingHub: React.FC = () => {
         return matchLang && matchTopic && matchSearch;
       })
       .map((repo, idx) => {
-        const calculatedGain = Math.round(repo.starsToday * multiplier);
-        const upvoteVal = upvotes[repo.id] !== undefined ? upvotes[repo.id] : calculatedGain;
+        const upvoteVal = upvotes[repo.id] !== undefined ? upvotes[repo.id] : repo.starsToday;
         return {
           ...repo,
           rank: idx + 1,
-          calculatedGain,
+          calculatedGain: repo.starsToday,
           upvotesCount: upvoteVal,
           isUpvoted: !!userVoted[repo.id]
         };
       })
-      .sort((a, b) => b.calculatedGain - a.calculatedGain);
+      .sort((a, b) => b.starsToday - a.starsToday);
   }, [repos, timeframe, selectedLanguage, selectedTopic, searchQuery, upvotes, userVoted]);
 
   return (

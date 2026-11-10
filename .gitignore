@@ -27,3 +27,7 @@ dist-ssr
 .vercel
 image.png_*
 private_vault
+.env
+.env.*
+*.env
+

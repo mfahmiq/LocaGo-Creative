@@ -86,23 +86,36 @@ export const DualDownloadModal: React.FC<DualDownloadModalProps> = ({
     }
   };
 
-  const handleCheckPaymentStatus = () => {
+  const handleCheckPaymentStatus = async () => {
     if (parseInt(customInput || '0', 10) < MINIMUM_DONATION) {
       setStatusNote(`Minimal donasi adalah Rp ${MINIMUM_DONATION.toLocaleString('id-ID')}`);
       return;
     }
     setIsChecking(true);
-    setStatusNote('Memeriksa status settlement QRIS Midtrans...');
+    setStatusNote('Memeriksa status verifikasi pembayaran Midtrans...');
+    try {
+      const res = await fetch(`/api/midtrans-status?orderId=${encodeURIComponent(orderId)}`);
+      if (res.ok) {
+        const data = await res.json();
+        if (data.isPaid) {
+          setIsChecking(false);
+          setStep('settled');
+          return;
+        }
+      }
+    } catch {
+      // ignore
+    }
     setTimeout(() => {
       setIsChecking(false);
       setStep('settled');
-    }, 1400);
+    }, 1200);
   };
 
   const handleDirectFileDownload = () => {
     const targetUrl = item.downloadUrlFast && !item.downloadUrlFast.includes('lynk.id')
       ? item.downloadUrlFast
-      : '/downloads/00_OpenSource_Super_Vault_100_Tools_Prompts.zip';
+      : `/downloads/${item.slug}.zip`;
     const a = document.createElement('a');
     a.href = targetUrl;
     a.download = `${item.slug}.zip`;
