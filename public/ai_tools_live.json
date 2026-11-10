@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 22:04 WIB",
-  "total": 347,
+  "updatedAt": "10 Nov 2026, 22:34 WIB",
+  "total": 348,
   "items": [
+    {
+      "id": "ai-fleeep",
+      "name": "Fleeep",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Fleeep - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Fleeep adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/fleeep.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/fleeep"
+    },
     {
       "id": "ai-frameboy-by-world-labs",
       "name": "Frameboy by World Labs",
