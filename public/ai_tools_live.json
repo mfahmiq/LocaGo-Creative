@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 15:37 WIB",
-  "total": 331,
+  "updatedAt": "10 Nov 2026, 16:07 WIB",
+  "total": 332,
   "items": [
+    {
+      "id": "ai-archie",
+      "name": "Archie",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Archie - Produk AI Baru Terpilih di Product Hunt",
+      "description": "Archie adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/archie.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/archie-3"
+    },
     {
       "id": "ai-switchy",
       "name": "Switchy",
