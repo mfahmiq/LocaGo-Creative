@@ -1,7 +1,25 @@
 {
-  "updatedAt": "10 Nov 2026, 17:45 WIB",
-  "total": 337,
+  "updatedAt": "10 Nov 2026, 17:57 WIB",
+  "total": 338,
   "items": [
+    {
+      "id": "ai-the-drive-ai",
+      "name": "The Drive AI",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "The Drive AI - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to manage, ask questions, and create content from stored files.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/the-drive-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://thedrive.ai"
+    },
     {
       "id": "ai-livereview",
       "name": "LiveReview",
