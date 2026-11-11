@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 15:08 WIB",
-  "total": 269,
+  "updatedAt": "11 Nov 2026, 15:21 WIB",
+  "total": 270,
   "items": [
+    {
+      "id": "ai-outfits-ai",
+      "name": "Outfits AI",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Outfits AI - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "Use AI to see what you&#x27;d look like in different outfits",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/outfits-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.outfitsai.com"
+    },
     {
       "id": "ai-expertai",
       "name": "ExpertAI",
