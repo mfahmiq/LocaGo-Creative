@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 05:35 WIB",
-  "total": 270,
+  "updatedAt": "12 Nov 2026, 06:05 WIB",
+  "total": 271,
   "items": [
+    {
+      "id": "ai-realtygenius-ai",
+      "name": "RealtyGenius.AI",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "RealtyGenius.AI - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A real estate assistant to help with securely manage and collaborate on projects.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/realtygenius-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://realtygenius.ai"
+    },
     {
       "id": "ai-norby-ai",
       "name": "Norby AI",
