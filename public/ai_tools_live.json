@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 12:07 WIB",
-  "total": 263,
+  "updatedAt": "11 Nov 2026, 12:37 WIB",
+  "total": 264,
   "items": [
+    {
+      "id": "ai-chatbotkit",
+      "name": "ChatBotKit",
+      "category": "Agentic Automation",
+      "pricingType": "Paid",
+      "tagline": "ChatBotKit - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "AI chatbot platform",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/chatbotkit.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://chatbotkit.com"
+    },
     {
       "id": "ai-sand3d-explorer",
       "name": "Sand3D Explorer",
