@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 13:07 WIB",
-  "total": 265,
+  "updatedAt": "11 Nov 2026, 13:37 WIB",
+  "total": 266,
   "items": [
+    {
+      "id": "ai-qwen3-tts",
+      "name": "Qwen3 Tts",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (2401 Upvotes)",
+      "description": "Qwen3 Tts adalah model dan aplikasi demo AI interaktif dari kreator Qwen di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/qwen3-tts.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/Qwen/Qwen3-TTS"
+    },
     {
       "id": "ai-buzz-mail",
       "name": "Buzz Mail",
