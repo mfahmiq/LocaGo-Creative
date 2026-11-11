@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 21:58 WIB",
-  "total": 254,
+  "updatedAt": "11 Nov 2026, 22:29 WIB",
+  "total": 255,
   "items": [
+    {
+      "id": "ai-decoherence",
+      "name": "Decoherence",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "Decoherence - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "A tool to Create AI animations and synchronize them with your music.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/decoherence.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://decoherence.co"
+    },
     {
       "id": "ai-cascadeur",
       "name": "Cascadeur",
