@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 16:21 WIB",
-  "total": 272,
+  "updatedAt": "11 Nov 2026, 16:51 WIB",
+  "total": 273,
   "items": [
+    {
+      "id": "ai-mapsgpt",
+      "name": "MapsGPT",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "MapsGPT - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "Helps users quickly find and explore interesting places near them",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/mapsgpt.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.mapsgpt.com"
+    },
     {
       "id": "ai-minimax-h3-turbo",
       "name": "Minimax H3 Turbo",
