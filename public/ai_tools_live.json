@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 00:33 WIB",
-  "total": 260,
+  "updatedAt": "12 Nov 2026, 01:03 WIB",
+  "total": 261,
   "items": [
+    {
+      "id": "ai-clip-interrogator",
+      "name": "Clip Interrogator",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Clip Interrogator - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "Plug-in an image and it will attempt to give you a prompt to replicate that image",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/clip-interrogator.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://colab.research.google.com/github/pharmapsychotic/clip-interrogator/blob/main/clip_interrogator.ipynb"
+    },
     {
       "id": "ai-atomic",
       "name": "Atomic",
