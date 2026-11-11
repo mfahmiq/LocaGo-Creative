@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 07:36 WIB",
-  "total": 366,
+  "updatedAt": "11 Nov 2026, 08:06 WIB",
+  "total": 367,
   "items": [
+    {
+      "id": "ai-hitpay-agentic-discovery",
+      "name": "HitPay Agentic Discovery",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "HitPay Agentic Discovery - Produk AI Baru Terpilih di Product Hunt",
+      "description": "HitPay Agentic Discovery adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/hitpay-agentic-discovery.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/hitpay-agentic-discovery"
+    },
     {
       "id": "ai-quotedpart",
       "name": "QuotedPart",
