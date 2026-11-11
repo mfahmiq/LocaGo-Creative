@@ -1,4 +1,20 @@
 import React, { useState, useEffect } from 'react';
+import { 
+  X, 
+  Package, 
+  QrCode, 
+  Zap, 
+  Landmark, 
+  CreditCard, 
+  Key, 
+  Check, 
+  CheckCircle2, 
+  Copy, 
+  Download, 
+  Cloud, 
+  Sparkles, 
+  Lock 
+} from 'lucide-react';
 import { SourceCodeItem } from '../types';
 
 interface DualDownloadModalProps {
@@ -199,7 +215,7 @@ export const DualDownloadModal: React.FC<DualDownloadModalProps> = ({
           setIsAlreadyUnlocked(true);
           setIsChecking(false);
           setStep('settled');
-          setStatusNote('✓ Akses berhasil dipulihkan!');
+          setStatusNote('Akses berhasil dipulihkan!');
           return;
         }
       }
@@ -249,8 +265,15 @@ export const DualDownloadModal: React.FC<DualDownloadModalProps> = ({
               <h3 className="text-sm font-extrabold text-neutral-900 dark:text-white leading-none">
                 Pembayaran LocaGo Creative
               </h3>
-              <span className="text-[11px] text-neutral-500 font-mono">
-                {isAlreadyUnlocked ? '✓ Status: Akses Terverifikasi' : `Midtrans Official Gateway • ${orderId}`}
+              <span className="text-[11px] text-neutral-500 font-mono flex items-center gap-1 mt-0.5">
+                {isAlreadyUnlocked ? (
+                  <>
+                    <CheckCircle2 className="w-3 h-3 text-emerald-500" />
+                    <span>Status: Akses Terverifikasi</span>
+                  </>
+                ) : (
+                  `Midtrans Official Gateway • ${orderId}`
+                )}
               </span>
             </div>
           </div>
@@ -259,7 +282,7 @@ export const DualDownloadModal: React.FC<DualDownloadModalProps> = ({
             className="w-8 h-8 flex items-center justify-center text-neutral-400 hover:text-neutral-700 dark:hover:text-white rounded-lg hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors cursor-pointer"
             aria-label="Tutup modal"
           >
-            ✕
+            <X className="w-5 h-5" />
           </button>
         </div>
 
@@ -281,8 +304,8 @@ export const DualDownloadModal: React.FC<DualDownloadModalProps> = ({
                       Ukuran: {item.fileSize} • {item.databaseType || 'Full SQL Database'}
                     </p>
                   </div>
-                  <div className="w-10 h-10 rounded-xl bg-emerald-100 dark:bg-emerald-900/40 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-lg flex-shrink-0">
-                    📦
+                  <div className="w-10 h-10 rounded-xl bg-emerald-100 dark:bg-emerald-900/40 text-emerald-600 dark:text-emerald-400 flex items-center justify-center flex-shrink-0">
+                    <Package className="w-5 h-5" />
                   </div>
                 </div>
               </div>
@@ -343,15 +366,24 @@ export const DualDownloadModal: React.FC<DualDownloadModalProps> = ({
                 </div>
                 <div className="grid grid-cols-3 gap-1.5 text-center text-[11px]">
                   <div className="p-2 rounded-lg bg-white dark:bg-neutral-800 border border-neutral-200/80 dark:border-neutral-700 font-medium text-neutral-800 dark:text-neutral-200">
-                    <span className="block font-bold text-emerald-600 dark:text-emerald-400">📱 QRIS</span>
+                    <span className="flex items-center justify-center gap-1 font-bold text-emerald-600 dark:text-emerald-400">
+                      <QrCode className="w-3.5 h-3.5" />
+                      <span>QRIS</span>
+                    </span>
                     <span className="text-[10px] text-neutral-500">Semua Bank & E-Wallet</span>
                   </div>
                   <div className="p-2 rounded-lg bg-white dark:bg-neutral-800 border border-neutral-200/80 dark:border-neutral-700 font-medium text-neutral-800 dark:text-neutral-200">
-                    <span className="block font-bold text-blue-600 dark:text-blue-400">⚡ GoPay</span>
+                    <span className="flex items-center justify-center gap-1 font-bold text-blue-600 dark:text-blue-400">
+                      <Zap className="w-3.5 h-3.5" />
+                      <span>GoPay</span>
+                    </span>
                     <span className="text-[10px] text-neutral-500">GoPay & ShopeePay</span>
                   </div>
                   <div className="p-2 rounded-lg bg-white dark:bg-neutral-800 border border-neutral-200/80 dark:border-neutral-700 font-medium text-neutral-800 dark:text-neutral-200">
-                    <span className="block font-bold text-indigo-600 dark:text-indigo-400">🏦 VA Bank</span>
+                    <span className="flex items-center justify-center gap-1 font-bold text-indigo-600 dark:text-indigo-400">
+                      <Landmark className="w-3.5 h-3.5" />
+                      <span>VA Bank</span>
+                    </span>
                     <span className="text-[10px] text-neutral-500">BCA, Mandiri, BRI, BNI</span>
                   </div>
                 </div>
@@ -368,8 +400,9 @@ export const DualDownloadModal: React.FC<DualDownloadModalProps> = ({
                   </span>
                 </div>
                 <div className="text-right">
-                  <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-[11px] font-bold bg-emerald-200/60 dark:bg-emerald-900/60 text-emerald-800 dark:text-emerald-300">
-                    <span>⚡</span> Akses Permanen
+                  <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-bold bg-emerald-200/60 dark:bg-emerald-900/60 text-emerald-800 dark:text-emerald-300">
+                    <Zap className="w-3 h-3 text-emerald-600 dark:text-emerald-400" />
+                    <span>Akses Permanen</span>
                   </span>
                 </div>
               </div>
@@ -392,7 +425,7 @@ export const DualDownloadModal: React.FC<DualDownloadModalProps> = ({
                     <span>Membuka Midtrans Snap...</span>
                   ) : (
                     <>
-                      <span>💳</span>
+                      <CreditCard className="w-4 h-4" />
                       <span>Bayar Otomatis via Midtrans (Rp {totalAmount.toLocaleString('id-ID')})</span>
                     </>
                   )}
@@ -404,9 +437,10 @@ export const DualDownloadModal: React.FC<DualDownloadModalProps> = ({
                     <button
                       type="button"
                       onClick={() => setShowRestoreInput(true)}
-                      className="text-xs text-neutral-500 hover:text-emerald-600 dark:hover:text-emerald-400 font-medium transition-colors cursor-pointer"
+                      className="inline-flex items-center gap-1.5 text-xs text-neutral-500 hover:text-emerald-600 dark:hover:text-emerald-400 font-medium transition-colors cursor-pointer"
                     >
-                      🔑 Sudah pernah bayar? Pulihkan Akses
+                      <Key className="w-3.5 h-3.5" />
+                      <span>Sudah pernah bayar? Pulihkan Akses</span>
                     </button>
                   ) : (
                     <div className="p-3 rounded-xl bg-neutral-100 dark:bg-neutral-800/80 border border-neutral-200 dark:border-neutral-700 space-y-2 animate-fade-in text-left">
@@ -441,8 +475,8 @@ export const DualDownloadModal: React.FC<DualDownloadModalProps> = ({
           ) : (
             /* Step Settled: Unlocked Instant Download with Google Drive Backup & Copy Order ID */
             <div className="py-5 text-center space-y-4 animate-fade-in">
-              <div className="w-16 h-16 rounded-full bg-emerald-100 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center mx-auto text-3xl font-bold border-2 border-emerald-300 dark:border-emerald-700 shadow-sm">
-                ✓
+              <div className="w-16 h-16 rounded-full bg-emerald-100 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center mx-auto border-2 border-emerald-300 dark:border-emerald-700 shadow-sm">
+                <Check className="w-8 h-8 stroke-[3]" />
               </div>
               <div>
                 <span className="px-3 py-1 rounded-full text-xs font-mono font-bold bg-emerald-100 text-emerald-800 dark:bg-emerald-900/60 dark:text-emerald-300">
@@ -477,10 +511,20 @@ export const DualDownloadModal: React.FC<DualDownloadModalProps> = ({
                     <button
                       type="button"
                       onClick={handleCopyOrderId}
-                      className="text-xs text-emerald-600 dark:text-emerald-400 hover:underline cursor-pointer"
+                      className="text-xs text-emerald-600 dark:text-emerald-400 hover:underline cursor-pointer inline-flex items-center gap-1"
                       title="Salin Order ID"
                     >
-                      {copySuccess ? '✓ Tersalin' : '📋 Salin'}
+                      {copySuccess ? (
+                        <>
+                          <Check className="w-3 h-3 text-emerald-500" />
+                          <span>Tersalin</span>
+                        </>
+                      ) : (
+                        <>
+                          <Copy className="w-3 h-3" />
+                          <span>Salin</span>
+                        </>
+                      )}
                     </button>
                   </div>
                 </div>
@@ -493,7 +537,7 @@ export const DualDownloadModal: React.FC<DualDownloadModalProps> = ({
                   onClick={handleDirectFileDownload}
                   className="w-full h-12 rounded-xl bg-emerald-600 hover:bg-emerald-700 active:scale-[0.99] text-white font-extrabold text-sm shadow-lg shadow-emerald-600/30 transition-all flex items-center justify-center gap-2 cursor-pointer"
                 >
-                  <span>⬇️</span>
+                  <Download className="w-4 h-4" />
                   <span>Download File ZIP (Server Langsung)</span>
                 </button>
 
@@ -504,15 +548,18 @@ export const DualDownloadModal: React.FC<DualDownloadModalProps> = ({
                     rel="noopener noreferrer"
                     className="w-full h-11 rounded-xl border border-emerald-300 dark:border-emerald-700 bg-emerald-50/70 dark:bg-emerald-950/30 hover:bg-emerald-100 dark:hover:bg-emerald-900/40 text-emerald-800 dark:text-emerald-300 font-bold text-xs transition-all flex items-center justify-center gap-2 cursor-pointer"
                   >
-                    <span>☁️</span>
+                    <Cloud className="w-4 h-4" />
                     <span>Download Cadangan via Google Drive (Cloud Mirror)</span>
                   </a>
                 )}
               </div>
 
               {/* Note about persistent access */}
-              <div className="p-3 rounded-lg bg-neutral-100/80 dark:bg-neutral-800/50 text-neutral-500 dark:text-neutral-400 text-[11px] leading-relaxed text-left">
-                💡 <strong>Tips:</strong> Akses unduhan ini telah tersimpan di browser perangkat Anda. Jika unduhan gagal, file hilang, atau Anda ingin mendownload ulang nanti, cukup buka kembali halaman ini kapan saja.
+              <div className="p-3 rounded-lg bg-neutral-100/80 dark:bg-neutral-800/50 text-neutral-500 dark:text-neutral-400 text-[11px] leading-relaxed text-left flex items-start gap-2">
+                <Sparkles className="w-4 h-4 text-amber-500 shrink-0 mt-0.5" />
+                <div>
+                  <strong>Tips:</strong> Akses unduhan ini telah tersimpan di browser perangkat Anda. Jika unduhan gagal, file hilang, atau Anda ingin mendownload ulang nanti, cukup buka kembali halaman ini kapan saja.
+                </div>
               </div>
             </div>
           )}
@@ -520,8 +567,8 @@ export const DualDownloadModal: React.FC<DualDownloadModalProps> = ({
 
         {/* Footer Info */}
         <div className="px-5 py-3 border-t border-neutral-100 dark:border-neutral-800 bg-neutral-50/80 dark:bg-neutral-900/80 flex items-center justify-between text-[11px] text-neutral-500">
-          <span className="flex items-center gap-1">
-            <span>🔒</span>
+          <span className="flex items-center gap-1.5">
+            <Lock className="w-3.5 h-3.5 text-neutral-400" />
             <span>Midtrans Official 256-bit Encrypted</span>
           </span>
           <span className="font-medium text-neutral-400">LocaGo Creative Vault</span>

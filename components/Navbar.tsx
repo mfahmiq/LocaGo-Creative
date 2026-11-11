@@ -1,4 +1,17 @@
 import React, { useState, useEffect } from 'react';
+import { 
+  Building2, 
+  Package, 
+  Flame, 
+  Bot, 
+  FolderGit2, 
+  Newspaper, 
+  Crown, 
+  User, 
+  Lock, 
+  X, 
+  Coffee 
+} from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 import { useLanguage } from '../context/LanguageContext';
 import { useAuth } from '../context/AuthContext';
@@ -234,16 +247,16 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
             {/* User Auth Status Pill */}
             {isLoggedIn ? (
               <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 text-xs font-mono shadow-sm">
-                <span>{isOwner ? '👑' : '👤'}</span>
+                {isOwner ? <Crown className="w-3.5 h-3.5 text-amber-500" /> : <User className="w-3.5 h-3.5 text-neutral-400" />}
                 <span className="font-bold text-neutral-800 dark:text-neutral-200 whitespace-nowrap">
                   {displayName}
                 </span>
                 <button
                   onClick={logout}
-                  className="text-neutral-400 hover:text-rose-500 ml-1 cursor-pointer font-bold transition-colors"
+                  className="text-neutral-400 hover:text-rose-500 ml-1 cursor-pointer font-bold transition-colors p-0.5"
                   title="Keluar akun"
                 >
-                  ✕
+                  <X className="w-3 h-3" />
                 </button>
               </div>
             ) : (
@@ -251,7 +264,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                 onClick={openAuthModal}
                 className="h-8 px-3 rounded-xl border border-neutral-200 dark:border-neutral-800 hover:border-purple-500 bg-neutral-50 dark:bg-neutral-900 text-xs font-mono font-bold text-neutral-700 dark:text-neutral-300 transition-all flex items-center gap-1.5 cursor-pointer shadow-sm whitespace-nowrap active:scale-95"
               >
-                <span>🔐</span>
+                <Lock className="w-3.5 h-3.5 text-neutral-500" />
                 <span>Masuk</span>
               </button>
             )}
@@ -289,7 +302,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
               rel="noopener noreferrer"
               className="h-8 px-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-mono font-bold transition-all shadow-sm active:scale-95 flex items-center gap-1.5 whitespace-nowrap shrink-0"
             >
-              <span>☕</span>
+              <Coffee className="w-3.5 h-3.5" />
               <span>Donasi 2rb</span>
             </a>
           </div>
@@ -347,9 +360,9 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
             <span className="font-bold text-sm text-neutral-900 dark:text-white">Menu Navigasi</span>
             <button
               onClick={() => setMobileMenuOpen(false)}
-              className="p-1 rounded text-neutral-400 hover:text-white font-mono text-lg cursor-pointer"
+              className="p-1 rounded text-neutral-400 hover:text-neutral-700 dark:hover:text-white font-mono cursor-pointer"
             >
-              ✕
+              <X className="w-5 h-5" />
             </button>
           </div>
 
@@ -358,8 +371,8 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
             {isLoggedIn ? (
               <div className="p-3 rounded-2xl bg-neutral-50 dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-800 flex items-center justify-between">
                 <div>
-                  <div className="text-xs font-bold text-neutral-900 dark:text-white flex items-center gap-1">
-                    <span>{isOwner ? '👑' : '👤'}</span>
+                  <div className="text-xs font-bold text-neutral-900 dark:text-white flex items-center gap-1.5">
+                    {isOwner ? <Crown className="w-3.5 h-3.5 text-amber-500" /> : <User className="w-3.5 h-3.5 text-neutral-400" />}
                     <span>{user?.name}</span>
                   </div>
                   <span className="text-[10px] font-mono text-neutral-500">{user?.email}</span>
@@ -379,7 +392,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                 }}
                 className="w-full py-2.5 rounded-xl bg-purple-600 text-white font-mono text-xs font-bold shadow-md flex items-center justify-center gap-2 cursor-pointer active:scale-95"
               >
-                <span>🔐</span>
+                <Lock className="w-3.5 h-3.5" />
                 <span>Masuk / Daftar Akun</span>
               </button>
             )}
@@ -394,8 +407,9 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                   : 'border-neutral-100 dark:border-neutral-800/80 bg-neutral-50/50 dark:bg-neutral-900/40'
               }`}
             >
-              <span className="text-sm font-semibold text-neutral-900 dark:text-white">
-                🏢 Layanan Website
+              <span className="text-sm font-semibold text-neutral-900 dark:text-white flex items-center gap-2">
+                <Building2 className="w-4 h-4 text-neutral-500 dark:text-neutral-400" />
+                <span>Layanan Website</span>
               </span>
               <span className="font-mono text-xs text-neutral-400">01 →</span>
             </button>
@@ -409,8 +423,9 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
               }`}
             >
               <div className="flex items-center gap-2">
+                <Package className="w-4 h-4 text-emerald-500" />
                 <span className="text-sm font-semibold text-neutral-900 dark:text-white">
-                  📦 Source Code Gratis
+                  Source Code Gratis
                 </span>
                 <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-emerald-600 text-white font-mono">
                   {scCount}
@@ -428,8 +443,9 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
               }`}
             >
               <div className="flex items-center gap-2">
+                <Flame className="w-4 h-4 text-blue-500" />
                 <span className="text-sm font-semibold text-neutral-900 dark:text-white">
-                  🔥 GitHub Trending Harian
+                  GitHub Trending Harian
                 </span>
                 <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-blue-600 text-white font-mono">
                   Live
@@ -447,8 +463,9 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
               }`}
             >
               <div className="flex items-center gap-2">
+                <Bot className="w-4 h-4 text-purple-500" />
                 <span className="text-sm font-semibold text-neutral-900 dark:text-white">
-                  🤖 Katalog AI Tools & Otomasi
+                  Katalog AI Tools & Otomasi
                 </span>
                 <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-purple-600 text-white font-mono">
                   {toolsCount}+
@@ -466,8 +483,9 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
               }`}
             >
               <div className="flex items-center gap-2">
+                <FolderGit2 className="w-4 h-4 text-purple-500" />
                 <span className="text-sm font-semibold text-neutral-900 dark:text-white">
-                  🗂️ Library Playlist AI
+                  Library Playlist AI
                 </span>
                 <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-purple-600 text-white font-mono">
                   {playlistCount}
@@ -485,8 +503,9 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
               }`}
             >
               <div className="flex items-center gap-2">
+                <Newspaper className="w-4 h-4 text-emerald-500" />
                 <span className="text-sm font-semibold text-neutral-900 dark:text-white">
-                  📰 Artikel & Panduan AI
+                  Artikel & Panduan AI
                 </span>
                 <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-emerald-600 text-white font-mono">
                   {articlesCount}
@@ -501,9 +520,10 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
               href="https://lynk.id/dwollopus"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-1 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-mono font-bold text-center transition-all shadow-sm active:scale-95"
+              className="flex-1 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-mono font-bold text-center transition-all shadow-sm active:scale-95 inline-flex items-center justify-center gap-2"
             >
-              ☕ Donasi 2rb & Download Cepat
+              <Coffee className="w-4 h-4" />
+              <span>Donasi 2rb & Download Cepat</span>
             </a>
           </div>
         </div>

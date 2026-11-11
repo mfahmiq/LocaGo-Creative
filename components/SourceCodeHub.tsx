@@ -1,4 +1,24 @@
 import React, { useState, useMemo, useEffect } from 'react';
+import { 
+  Download, 
+  Calendar, 
+  Database, 
+  Maximize2, 
+  Check, 
+  Sparkles, 
+  Code2, 
+  Package, 
+  Tag, 
+  MessageSquare, 
+  Link as LinkIcon, 
+  Zap, 
+  X, 
+  Flame, 
+  Star, 
+  BookOpen, 
+  ShieldCheck, 
+  Coffee 
+} from 'lucide-react';
 import { SOURCE_CODE_LIST, WA_CONSULT_URL } from '../lib/data';
 import { SourceCodeItem } from '../types';
 import { DualDownloadModal } from './DualDownloadModal';
@@ -188,16 +208,16 @@ export const SourceCodeHub: React.FC = () => {
             {/* Meta Download Count & Updated Date */}
             <div className="mt-3 flex flex-wrap items-center gap-x-5 gap-y-1 text-xs sm:text-sm text-neutral-500 dark:text-neutral-400">
               <span className="flex items-center gap-1.5 font-medium">
-                <span>⬇️</span>
+                <Download className="w-3.5 h-3.5" />
                 <span>{selectedItem.downloadsCount.toLocaleString('id-ID')} download</span>
               </span>
               <span className="flex items-center gap-1.5">
-                <span>📅</span>
+                <Calendar className="w-3.5 h-3.5" />
                 <span>Diperbarui {selectedItem.updatedAt || '10 November 2026'}</span>
               </span>
               {selectedItem.hasDatabase && (
                 <span className="flex items-center gap-1.5 text-emerald-700 dark:text-emerald-400 font-semibold">
-                  <span>💾</span>
+                  <Database className="w-3.5 h-3.5" />
                   <span>Database: {selectedItem.databaseType || 'MySQL (.sql)'}</span>
                 </span>
               )}
@@ -229,7 +249,8 @@ export const SourceCodeHub: React.FC = () => {
                   />
                 </button>
                 <span className="pointer-events-none absolute bottom-3 right-3 flex items-center gap-1.5 rounded-lg bg-neutral-900/80 px-2.5 py-1.5 text-xs font-semibold text-white opacity-90 group-hover:opacity-100 transition-opacity">
-                  <span>🔍 Perbesar</span>
+                  <Maximize2 className="w-3.5 h-3.5" />
+                  <span>Perbesar</span>
                 </span>
 
                 {/* Prev / Next Arrows */}
@@ -361,8 +382,8 @@ export const SourceCodeHub: React.FC = () => {
                         key={idx}
                         className="flex items-start gap-3 text-[14px] sm:text-[15px] leading-snug text-neutral-800 dark:text-neutral-200"
                       >
-                        <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-100 dark:bg-emerald-950 text-emerald-600 dark:text-emerald-400 text-xs font-bold">
-                          ✓
+                        <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-100 dark:bg-emerald-950 text-emerald-600 dark:text-emerald-400">
+                          <Check className="w-3.5 h-3.5 stroke-[3]" />
                         </span>
                         <span>{feat}</span>
                       </li>
@@ -447,7 +468,7 @@ export const SourceCodeHub: React.FC = () => {
                   onClick={() => setActiveModalItem(selectedItem)}
                   className="mt-4 flex h-12 w-full items-center justify-center gap-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 px-4 text-[15px] font-semibold text-white transition-all shadow-sm active:scale-95 cursor-pointer"
                 >
-                  <span>✨</span>
+                  <Sparkles className="w-4 h-4" />
                   <span>Download Tanpa Iklan · Donasi QRIS</span>
                 </button>
 
@@ -458,7 +479,7 @@ export const SourceCodeHub: React.FC = () => {
                 </p>
 
                 <p className="mt-2.5 flex items-center justify-center gap-1.5 text-xs font-semibold text-emerald-600 dark:text-emerald-400">
-                  <span>✓</span>
+                  <Check className="w-3.5 h-3.5" />
                   <span>
                     {selectedItem.recentFastDownloads || 34} orang memilih tanpa iklan dalam 7 hari terakhir
                   </span>
@@ -470,7 +491,7 @@ export const SourceCodeHub: React.FC = () => {
                   onClick={() => handleFreeSafelinkDownload(selectedItem)}
                   className="inline-flex items-center justify-center gap-2 rounded-xl font-semibold transition-colors border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 hover:bg-neutral-50 dark:hover:bg-neutral-700 h-11 px-5 text-sm mt-3 w-full cursor-pointer"
                 >
-                  <span>⬇️</span>
+                  <Download className="w-4 h-4" />
                   <span>Download Gratis (lewat iklan)</span>
                 </button>
 
@@ -483,7 +504,7 @@ export const SourceCodeHub: React.FC = () => {
               <dl className="divide-y divide-neutral-200 dark:divide-neutral-800 rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 px-5 text-sm shadow-sm">
                 <div className="flex items-center justify-between gap-3 py-3">
                   <dt className="flex items-center gap-2 text-neutral-500">
-                    <span>💻</span>
+                    <Code2 className="w-4 h-4" />
                     <span>Teknologi</span>
                   </dt>
                   <dd className="font-semibold text-neutral-900 dark:text-white text-right">
@@ -492,7 +513,7 @@ export const SourceCodeHub: React.FC = () => {
                 </div>
                 <div className="flex items-center justify-between gap-3 py-3">
                   <dt className="flex items-center gap-2 text-neutral-500">
-                    <span>💾</span>
+                    <Database className="w-4 h-4" />
                     <span>Database</span>
                   </dt>
                   <dd className="font-semibold text-neutral-900 dark:text-white">
@@ -501,7 +522,7 @@ export const SourceCodeHub: React.FC = () => {
                 </div>
                 <div className="flex items-center justify-between gap-3 py-3">
                   <dt className="flex items-center gap-2 text-neutral-500">
-                    <span>📦</span>
+                    <Package className="w-4 h-4" />
                     <span>Ukuran File</span>
                   </dt>
                   <dd className="font-semibold font-mono text-neutral-900 dark:text-white">
@@ -510,7 +531,7 @@ export const SourceCodeHub: React.FC = () => {
                 </div>
                 <div className="flex items-center justify-between gap-3 py-3">
                   <dt className="flex items-center gap-2 text-neutral-500">
-                    <span>🏷️</span>
+                    <Tag className="w-4 h-4" />
                     <span>Lisensi</span>
                   </dt>
                   <dd className="font-semibold text-emerald-600 dark:text-emerald-400">
@@ -519,7 +540,7 @@ export const SourceCodeHub: React.FC = () => {
                 </div>
                 <div className="flex items-center justify-between gap-3 py-3">
                   <dt className="flex items-center gap-2 text-neutral-500">
-                    <span>⬇️</span>
+                    <Download className="w-4 h-4" />
                     <span>Download</span>
                   </dt>
                   <dd className="font-semibold font-mono text-neutral-900 dark:text-white">
@@ -528,7 +549,7 @@ export const SourceCodeHub: React.FC = () => {
                 </div>
                 <div className="flex items-center justify-between gap-3 py-3">
                   <dt className="flex items-center gap-2 text-neutral-500">
-                    <span>📅</span>
+                    <Calendar className="w-4 h-4" />
                     <span>Rilis</span>
                   </dt>
                   <dd className="font-semibold text-neutral-900 dark:text-white">
@@ -545,7 +566,7 @@ export const SourceCodeHub: React.FC = () => {
                   rel="noopener noreferrer"
                   className="flex h-10 flex-1 items-center justify-center gap-2 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 text-xs font-semibold text-neutral-800 dark:text-neutral-200 transition-colors hover:border-emerald-600 hover:text-emerald-600"
                 >
-                  <span>💬</span>
+                  <MessageSquare className="w-4 h-4" />
                   <span>Bagikan WA</span>
                 </a>
                 <button
@@ -553,7 +574,7 @@ export const SourceCodeHub: React.FC = () => {
                   onClick={() => handleCopyShareLink(selectedItem)}
                   className="flex h-10 flex-1 items-center justify-center gap-2 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 text-xs font-semibold text-neutral-800 dark:text-neutral-200 transition-colors hover:border-emerald-600 hover:text-emerald-600 cursor-pointer"
                 >
-                  <span>🔗</span>
+                  <LinkIcon className="w-4 h-4" />
                   <span>{copiedLink ? 'Tersalin!' : 'Salin link'}</span>
                 </button>
               </div>
@@ -569,7 +590,8 @@ export const SourceCodeHub: React.FC = () => {
                   rel="noopener noreferrer"
                   className="mt-2 inline-flex items-center gap-1.5 text-xs font-mono font-bold text-emerald-600 dark:text-emerald-400 hover:underline"
                 >
-                  <span>⚡ Konsultasi Tim Engineer LocaGo Creative</span>
+                  <Zap className="w-3.5 h-3.5" />
+                  <span>Konsultasi Tim Engineer LocaGo Creative</span>
                 </a>
               </div>
             </div>
@@ -616,7 +638,10 @@ export const SourceCodeHub: React.FC = () => {
                     {sim.title}
                   </h3>
                   <div className="mt-auto flex items-center justify-between pt-3 text-xs text-neutral-500 font-mono">
-                    <span>⬇️ {sim.downloadsCount}x</span>
+                    <span className="flex items-center gap-1">
+                      <Download className="w-3 h-3" />
+                      <span>{sim.downloadsCount}x</span>
+                    </span>
                     <span className="text-emerald-600 dark:text-emerald-400 font-semibold">
                       Detail →
                     </span>
@@ -637,9 +662,10 @@ export const SourceCodeHub: React.FC = () => {
               <button
                 type="button"
                 onClick={() => setIsLightboxOpen(false)}
-                className="absolute -top-10 right-0 text-white text-sm font-mono bg-neutral-800 px-3 py-1 rounded-lg hover:bg-neutral-700 cursor-pointer"
+                className="absolute -top-10 right-0 text-white text-sm font-mono bg-neutral-800 px-3 py-1 rounded-lg hover:bg-neutral-700 cursor-pointer inline-flex items-center gap-1.5"
               >
-                ✕ Tutup Preview
+                <X className="w-4 h-4" />
+                <span>Tutup Preview</span>
               </button>
               <img
                 src={currentScreenshot}
@@ -666,8 +692,9 @@ export const SourceCodeHub: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6">
         {/* Header Hero ala Papicode */}
         <div className="text-center max-w-3xl mx-auto mb-10">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-400 text-xs font-mono font-medium mb-4 border border-emerald-200 dark:border-emerald-800">
-            <span>✨ Source Code Siap Pakai & Database Lengkap</span>
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-400 text-xs font-mono font-medium mb-4 border border-emerald-200 dark:border-emerald-800">
+            <Sparkles className="w-3.5 h-3.5" />
+            <span>Source Code Siap Pakai & Database Lengkap</span>
           </div>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-neutral-900 dark:text-white tracking-tight leading-tight">
             Source code siap pakai untuk tugas, skripsi, dan usahamu.
@@ -705,11 +732,13 @@ export const SourceCodeHub: React.FC = () => {
             <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
               <div className="space-y-2 max-w-3xl">
                 <div className="flex flex-wrap items-center gap-2">
-                  <span className="px-2.5 py-0.5 rounded-full bg-emerald-600 text-white text-[11px] font-mono font-bold uppercase tracking-wider">
-                    🔥 Bundle Spesial Developer
+                  <span className="px-2.5 py-0.5 rounded-full bg-emerald-600 text-white text-[11px] font-mono font-bold uppercase tracking-wider inline-flex items-center gap-1">
+                    <Flame className="w-3 h-3" />
+                    <span>Bundle Spesial Developer</span>
                   </span>
-                  <span className="text-xs font-mono text-emerald-700 dark:text-emerald-400 font-semibold">
-                    ⬇️ {superVaultItem.downloadsCount.toLocaleString('id-ID')}x diunduh
+                  <span className="text-xs font-mono text-emerald-700 dark:text-emerald-400 font-semibold inline-flex items-center gap-1">
+                    <Download className="w-3 h-3" />
+                    <span>{superVaultItem.downloadsCount.toLocaleString('id-ID')}x diunduh</span>
                   </span>
                 </div>
                 <h2
@@ -733,9 +762,10 @@ export const SourceCodeHub: React.FC = () => {
                 <button
                   type="button"
                   onClick={() => setActiveModalItem(superVaultItem)}
-                  className="flex-1 sm:flex-initial px-5 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-mono text-xs font-bold shadow-sm transition-all cursor-pointer"
+                  className="flex-1 sm:flex-initial px-5 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-mono text-xs font-bold shadow-sm transition-all cursor-pointer inline-flex items-center justify-center gap-1.5"
                 >
-                  ⚡ Download via QRIS Donasi
+                  <Zap className="w-3.5 h-3.5" />
+                  <span>Download via QRIS Donasi</span>
                 </button>
               </div>
             </div>
@@ -819,8 +849,9 @@ export const SourceCodeHub: React.FC = () => {
                       {item.category}
                     </span>
                     {item.isPopular && (
-                      <span className="px-2 py-1 rounded-md text-[10px] font-mono font-bold bg-amber-500 text-white uppercase tracking-wider">
-                        Populer 🔥
+                      <span className="px-2 py-1 rounded-md text-[10px] font-mono font-bold bg-amber-500 text-white uppercase tracking-wider inline-flex items-center gap-1">
+                        <span>Populer</span>
+                        <Flame className="w-3 h-3" />
                       </span>
                     )}
                   </div>
@@ -857,9 +888,18 @@ export const SourceCodeHub: React.FC = () => {
                   {/* Card Meta & Action CTA */}
                   <div className="mt-5 pt-4 border-t border-neutral-100 dark:border-neutral-800 flex items-center justify-between">
                     <div className="flex items-center gap-3 text-[11px] font-mono text-neutral-500">
-                      <span>⬇️ {item.downloadsCount}x</span>
-                      <span>⭐ {item.rating}</span>
-                      <span>📦 {item.fileSize}</span>
+                      <span className="flex items-center gap-1">
+                        <Download className="w-3 h-3" />
+                        <span>{item.downloadsCount}x</span>
+                      </span>
+                      <span className="flex items-center gap-1">
+                        <Star className="w-3 h-3 fill-amber-400 text-amber-400" />
+                        <span>{item.rating}</span>
+                      </span>
+                      <span className="flex items-center gap-1">
+                        <Package className="w-3 h-3" />
+                        <span>{item.fileSize}</span>
+                      </span>
                     </div>
                     <div className="flex items-center gap-1.5">
                       <button
@@ -868,10 +908,11 @@ export const SourceCodeHub: React.FC = () => {
                           e.stopPropagation();
                           setActiveModalItem(item);
                         }}
-                        className="px-2.5 py-1.5 rounded-lg bg-emerald-50 hover:bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-400 font-mono text-[11px] font-bold border border-emerald-200 dark:border-emerald-800 transition-all cursor-pointer"
+                        className="px-2.5 py-1.5 rounded-lg bg-emerald-50 hover:bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-400 font-mono text-[11px] font-bold border border-emerald-200 dark:border-emerald-800 transition-all cursor-pointer inline-flex items-center gap-1"
                         title="Download Tanpa Iklan via QRIS"
                       >
-                        ⚡ QRIS
+                        <Zap className="w-3 h-3" />
+                        <span>QRIS</span>
                       </button>
                       <button
                         type="button"
@@ -908,7 +949,9 @@ export const SourceCodeHub: React.FC = () => {
         {/* Feature Value Banner */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-4 gap-6 p-6 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800">
           <div className="flex items-start gap-3">
-            <span className="text-2xl">⚡</span>
+            <div className="p-2 rounded-xl bg-amber-500/10 text-amber-500 border border-amber-500/20 shrink-0">
+              <Zap className="w-5 h-5" />
+            </div>
             <div>
               <h4 className="font-bold text-sm text-neutral-900 dark:text-white">Siap Dijalankan</h4>
               <p className="text-xs text-neutral-500 mt-1">
@@ -917,7 +960,9 @@ export const SourceCodeHub: React.FC = () => {
             </div>
           </div>
           <div className="flex items-start gap-3">
-            <span className="text-2xl">📖</span>
+            <div className="p-2 rounded-xl bg-blue-500/10 text-blue-500 border border-blue-500/20 shrink-0">
+              <BookOpen className="w-5 h-5" />
+            </div>
             <div>
               <h4 className="font-bold text-sm text-neutral-900 dark:text-white">Cara Kerja & Instalasi</h4>
               <p className="text-xs text-neutral-500 mt-1">
@@ -926,7 +971,9 @@ export const SourceCodeHub: React.FC = () => {
             </div>
           </div>
           <div className="flex items-start gap-3">
-            <span className="text-2xl">🛡️</span>
+            <div className="p-2 rounded-xl bg-emerald-500/10 text-emerald-500 border border-emerald-500/20 shrink-0">
+              <ShieldCheck className="w-5 h-5" />
+            </div>
             <div>
               <h4 className="font-bold text-sm text-neutral-900 dark:text-white">Kode yang Aman</h4>
               <p className="text-xs text-neutral-500 mt-1">
@@ -935,7 +982,9 @@ export const SourceCodeHub: React.FC = () => {
             </div>
           </div>
           <div className="flex items-start gap-3">
-            <span className="text-2xl">☕</span>
+            <div className="p-2 rounded-xl bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 shrink-0">
+              <Coffee className="w-5 h-5" />
+            </div>
             <div>
               <h4 className="font-bold text-sm text-neutral-900 dark:text-white">Donasi QRIS Otomatis</h4>
               <p className="text-xs text-neutral-500 mt-1">

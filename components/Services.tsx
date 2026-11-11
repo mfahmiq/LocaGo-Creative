@@ -189,8 +189,8 @@ const Services: React.FC = () => {
           <a
             href={`https://wa.me/62895336377648?text=${encodeURIComponent(
               language === 'en'
-                ? 'Hello LocaGo Creative! I would like to discuss my custom digital project requirements. 🚀'
-                : 'Halo LocaGo Creative! Saya ingin diskusi tentang kebutuhan digital saya. 🚀'
+                ? 'Hello LocaGo Creative! I would like to discuss my custom digital project requirements.'
+                : 'Halo LocaGo Creative! Saya ingin diskusi tentang kebutuhan digital saya.'
             )}`}
             target="_blank"
             rel="noopener noreferrer"

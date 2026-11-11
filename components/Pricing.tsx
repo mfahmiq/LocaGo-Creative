@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { Check } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { retrieveRelevantContext } from '../services/ragService';
 
@@ -486,58 +487,58 @@ const AIChatSection: React.FC = () => {
     let waText = '';
     if (overrideMsg) {
       waText = language === 'en'
-        ? `Hello Mas Fahmi (LocaGo Creative)! 🚀\n\n${overrideMsg}\n\n[Ticket Number: #${ticketId} | Verif: #VERIF-${checksum}]`
-        : `Halo Mas Fahmi (LocaGo Creative)! 🚀\n\n${overrideMsg}\n\n[Nomor Tiket: #${ticketId} | Verif: #VERIF-${checksum}]`;
+        ? `Hello Mas Fahmi (LocaGo Creative)!\n\n${overrideMsg}\n\n[Ticket Number: #${ticketId} | Verif: #VERIF-${checksum}]`
+        : `Halo Mas Fahmi (LocaGo Creative)!\n\n${overrideMsg}\n\n[Nomor Tiket: #${ticketId} | Verif: #VERIF-${checksum}]`;
     } else {
       const formattedFeatures = details.featureList.map(f => `  • ${f}`).join('\n');
 
       waText = language === 'en'
-        ? `Hello Mas Fahmi (Founder & Lead Developer LocaGo Creative)! 🚀
+        ? `Hello Mas Fahmi (Founder & Lead Developer LocaGo Creative)!
 I'd like to confirm and lock our project agreement from the website consultation:
 
-📋 OFFICIAL AGREEMENT TICKET
+[OFFICIAL AGREEMENT TICKET]
 • Ticket Number: #${ticketId}
 • Session Time: ${timestamp}
 • Client Profile: ${details.profileLabel}
 
-🛠️ SYSTEM & FEATURE SPECIFICATIONS:
+SYSTEM & FEATURE SPECIFICATIONS:
 • System Type: ${details.systemType}
 • Core Features:
 ${formattedFeatures}
 
-💰 INVESTMENT VALUE:
+INVESTMENT VALUE:
 • Target Budget: ${details.investmentValue}
 
-⏱️ ESTIMATED TIMELINE & SCHEDULE:
+ESTIMATED TIMELINE & SCHEDULE:
 • Estimated Duration: ${details.durationEstimate}
 • Start Schedule: Subject to developer queue (Mas Fahmi, when can we start development?)
 
-💬 AI CONSULTATION SUMMARY:
+AI CONSULTATION SUMMARY:
 ${details.summaryText}
 
 [Verification Code: #VERIF-${checksum}]
 Please confirm development slot availability and next steps. Thank you!`
-        : `Halo Mas Fahmi (Founder & Lead Developer LocaGo Creative)! 🚀
+        : `Halo Mas Fahmi (Founder & Lead Developer LocaGo Creative)!
 Saya ingin konfirmasi dan mengunci kesepakatan hasil diskusi AI dari website:
 
-📋 TIKET KESEPAKATAN PROYEK RESMI
+[TIKET KESEPAKATAN PROYEK RESMI]
 • Nomor Tiket: #${ticketId}
 • Waktu Sesi: ${timestamp}
 • Profil Klien: ${details.profileLabel}
 
-🛠️ SPESIFIKASI SISTEM & FITUR:
+SPESIFIKASI SISTEM & FITUR:
 • Jenis Sistem: ${details.systemType}
 • Rincian Fitur Utama:
 ${formattedFeatures}
 
-💰 NILAI INVESTASI:
+NILAI INVESTASI:
 • Target Anggaran: ${details.investmentValue}
 
-⏱️ ESTIMASI WAKTU & JADWAL PENGERJAAN:
+ESTIMASI WAKTU & JADWAL PENGERJAAN:
 • Estimasi Durasi: ${details.durationEstimate}
 • Jadwal Mulai: Menyesuaikan slot antrian pengerjaan Mas Fahmi (bisa disesuaikan mulai kapan ya Mas?)
 
-💬 RANGKUMAN HASIL DISKUSI AI:
+RANGKUMAN HASIL DISKUSI AI:
 ${details.summaryText}
 
 [Kode Verifikasi Keaslian: #VERIF-${checksum}]
@@ -668,7 +669,7 @@ Agar konsultasi dan rencana proyek digital Anda tidak tertunda, Mas Fahmi (Found
 
   const buildWAMessage = () => {
     const last = messages.filter(m => m.role === 'assistant').pop();
-    return `Halo Mas Fahmi / LocaGo Creative! 🚀\n\nSaya ingin konsultasi proyek dari website LocaGo.\n\n${
+    return `Halo Mas Fahmi / LocaGo Creative!\n\nSaya ingin konsultasi proyek dari website LocaGo.\n\n${
       last ? `Hasil ringkasan AI:\n${last.content.substring(0, 300)}...` : ''
     }\n\nMohon info detail dan kesepakatan lebih lanjut. Terima kasih!`;
   };
@@ -774,7 +775,7 @@ Agar konsultasi dan rencana proyek digital Anda tidak tertunda, Mas Fahmi (Found
                         </button>
                         {syncedTicket && (
                           <p className="text-[11px] font-mono text-emerald-600 dark:text-emerald-400 flex items-center gap-1 font-semibold">
-                            <span>✓</span>{' '}
+                            <Check className="w-3.5 h-3.5 inline mr-1" />
                             {language === 'en'
                               ? `Official Ticket #${syncedTicket} synced to system`
                               : `Tiket resmi #${syncedTicket} tersimpan di Google Sheet & sistem`}
@@ -1053,8 +1054,8 @@ Agar konsultasi dan rencana proyek digital Anda tidak tertunda, Mas Fahmi (Found
             <button
               onClick={() => handleWhatsAppRedirect(
                 language === 'en'
-                  ? 'Hello Mas Fahmi / LocaGo Creative! I would like to consult about software & system development 🚀'
-                  : 'Halo Mas Fahmi / LocaGo Creative! Saya ingin konsultasi langsung tentang pembuatan sistem/software 🚀'
+                  ? 'Hello Mas Fahmi / LocaGo Creative! I would like to consult about software & system development'
+                  : 'Halo Mas Fahmi / LocaGo Creative! Saya ingin konsultasi langsung tentang pembuatan sistem/software'
               )}
               disabled={isSyncing}
               className="flex items-center justify-center gap-2.5 w-full py-3 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-medium text-sm transition-all active:scale-[0.98] shadow-sm cursor-pointer disabled:opacity-50"

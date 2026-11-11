@@ -1,4 +1,27 @@
 import React, { useState, useMemo, useEffect } from 'react';
+import { 
+  Sparkles, 
+  Crown, 
+  User, 
+  Lock, 
+  Search, 
+  FolderGit2, 
+  FolderOpen, 
+  Download, 
+  Pencil, 
+  Link as LinkIcon, 
+  X, 
+  FileText, 
+  Video, 
+  ArrowUpRight, 
+  Heart, 
+  Check, 
+  Eye, 
+  Lightbulb, 
+  BookOpen, 
+  Zap, 
+  Trash2 
+} from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { AI_TOOLS_LIST } from '../lib/data';
 import { AIToolItem, LinkListItem, CustomLinkItem } from '../types';
@@ -286,7 +309,7 @@ export const AIToolsHub: React.FC = () => {
   const toggleToolInLinkList = (listId: string, toolId: string) => {
     const targetList = linkLists.find((l) => l.id === listId);
     if (!targetList || !canUserEditLinkList(targetList, user)) {
-      showToast('⚠️ Anda hanya dapat mengubah playlist milik Anda sendiri.');
+      showToast('Anda hanya dapat mengubah playlist milik Anda sendiri.');
       return;
     }
 
@@ -340,7 +363,7 @@ export const AIToolsHub: React.FC = () => {
   const handleSaveEditedLinkList = (e: React.FormEvent) => {
     e.preventDefault();
     if (!editingLinkList || !canUserEditLinkList(editingLinkList, user)) {
-      showToast('⚠️ Anda tidak memiliki izin untuk mengedit playlist ini.');
+      showToast('Anda tidak memiliki izin untuk mengedit playlist ini.');
       return;
     }
 
@@ -349,7 +372,7 @@ export const AIToolsHub: React.FC = () => {
     );
     saveLinkLists(updated);
     setEditingLinkList(null);
-    showToast('✅ Catatan dan info LinkList berhasil disimpan!');
+    showToast('Catatan dan info LinkList berhasil disimpan!');
   };
 
   // Add a manual custom link (Enforces auto-catalog deduplication & anti-affiliate rules!)
@@ -365,7 +388,7 @@ export const AIToolsHub: React.FC = () => {
 
     const targetList = linkLists.find((l) => l.id === targetListId);
     if (!targetList || !canUserEditLinkList(targetList, user)) {
-      showToast('⚠️ Anda tidak dapat menambahkan tautan ke playlist milik orang lain.');
+      showToast('Anda tidak dapat menambahkan tautan ke playlist milik orang lain.');
       return;
     }
 
@@ -386,14 +409,14 @@ export const AIToolsHub: React.FC = () => {
       saveLinkLists(updated);
       setCustomLinkForm({ title: '', url: '', note: '' });
       setIsAddCustomLinkModalOpen(false);
-      showToast(`✨ Tool Terdeteksi! "${matched.name}" telah terdaftar di LocaGo. Otomatis dimasukkan ke daftar tools resmi.`);
+      showToast(`Tool Terdeteksi! "${matched.name}" telah terdaftar di LocaGo. Otomatis dimasukkan ke daftar tools resmi.`);
       return;
     }
 
     // 2. RULE: Non-owner cannot add external affiliate parameters!
     const { cleanUrl, wasSanitized, reason } = sanitizeExternalUrl(rawUrl, isOwner);
     if (wasSanitized && !isOwner) {
-      showToast(`⚠️ ${reason || 'Parameter affiliate eksternal telah dibersihkan secara otomatis.'}`);
+      showToast(`${reason || 'Parameter affiliate eksternal telah dibersihkan secara otomatis.'}`);
     }
 
     const newCustomItem: CustomLinkItem = {
@@ -426,14 +449,14 @@ export const AIToolsHub: React.FC = () => {
 
     setCustomLinkForm({ title: '', url: '', note: '' });
     setIsAddCustomLinkModalOpen(false);
-    showToast(`✅ Link manual "${newCustomItem.title}" berhasil ditambahkan!`);
+    showToast(`Link manual "${newCustomItem.title}" berhasil ditambahkan!`);
   };
 
   // Remove a manual custom link
   const handleRemoveCustomLink = (listId: string, customLinkId: string) => {
     const targetList = linkLists.find((l) => l.id === listId);
     if (!targetList || !canUserEditLinkList(targetList, user)) {
-      showToast('⚠️ Anda tidak dapat menghapus tautan dari playlist ini.');
+      showToast('Anda tidak dapat menghapus tautan dari playlist ini.');
       return;
     }
 
@@ -462,7 +485,7 @@ export const AIToolsHub: React.FC = () => {
   const handleDeleteLinkList = (listId: string) => {
     const targetList = linkLists.find((l) => l.id === listId);
     if (!targetList || !canUserEditLinkList(targetList, user)) {
-      showToast('⚠️ Anda tidak memiliki hak akses untuk menghapus playlist ini.');
+      showToast('Anda tidak memiliki hak akses untuk menghapus playlist ini.');
       return;
     }
 
@@ -482,13 +505,13 @@ export const AIToolsHub: React.FC = () => {
   const copyShareLink = (listId: string) => {
     const url = `${window.location.origin}/#ai-tools#linklist=${listId}`;
     navigator.clipboard.writeText(url);
-    showToast('✅ Tautan LinkList berhasil disalin! Siap dikirim ke DM Instagram!');
+    showToast('Tautan LinkList berhasil disalin! Siap dikirim ke DM Instagram!');
   };
 
   // Secure download of private affiliate CSV (Exclusively for Mas Fahmi)
   const handleDownloadAffiliateCSV = () => {
     if (!isOwner) {
-      showToast('⚠️ Fitur ini hanya dapat diakses oleh Owner (Mas Fahmi).');
+      showToast('Fitur ini hanya dapat diakses oleh Owner (Mas Fahmi).');
       return;
     }
     const blob = new Blob([SECURE_AFFILIATE_CSV_DATA], { type: 'text/csv;charset=utf-8;' });
@@ -499,7 +522,7 @@ export const AIToolsHub: React.FC = () => {
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-    showToast('📥 Berkas Data Affiliate Leads berhasil diunduh secara privat!');
+    showToast('Berkas Data Affiliate Leads berhasil diunduh secara privat!');
   };
 
   // Filter tools (strict gatekeeper: must have valid logoUrl and must not link to producthunt.com)
@@ -555,7 +578,7 @@ export const AIToolsHub: React.FC = () => {
       {/* Toast Notification */}
       {toastMessage && (
         <div className="fixed bottom-6 right-6 z-50 px-4 py-3 rounded-xl bg-purple-600 text-white font-mono text-xs shadow-2xl flex items-center gap-2 animate-bounce">
-          <span>✨</span>
+          <Sparkles className="w-4 h-4 text-amber-300 shrink-0" />
           <span>{toastMessage}</span>
         </div>
       )}
@@ -581,7 +604,7 @@ export const AIToolsHub: React.FC = () => {
               href="#linklists"
               className="px-4 py-2.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white text-xs font-mono font-bold transition-all shadow-md flex items-center gap-2 cursor-pointer active:scale-95"
             >
-              <span>🗂️</span>
+              <FolderGit2 className="w-4 h-4" />
               <span>Library Playlist Publik ({linkLists.length})</span>
             </a>
 
@@ -590,7 +613,7 @@ export const AIToolsHub: React.FC = () => {
               onClick={() => setIsLinkListManagerOpen(true)}
               className="px-4 py-2.5 rounded-xl bg-neutral-100 dark:bg-neutral-900 hover:bg-neutral-200 dark:hover:bg-neutral-800 text-neutral-800 dark:text-neutral-200 text-xs font-mono font-bold transition-all border border-neutral-300 dark:border-neutral-800 flex items-center gap-2 cursor-pointer"
             >
-              <span>📂</span>
+              <FolderOpen className="w-4 h-4" />
               <span>Koleksi Cepat</span>
             </button>
 
@@ -601,7 +624,7 @@ export const AIToolsHub: React.FC = () => {
                 className="px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-mono font-bold transition-all shadow-md flex items-center gap-2 cursor-pointer active:scale-95 border border-emerald-400/30"
                 title="Khusus Mas Fahmi: Unduh Data Affiliate Leads"
               >
-                <span>📥</span>
+                <Download className="w-4 h-4" />
                 <span>Data Affiliate CSV (Owner)</span>
               </button>
             )}
@@ -609,7 +632,7 @@ export const AIToolsHub: React.FC = () => {
             {/* Auth Button / Status */}
             {isLoggedIn ? (
               <div className="flex items-center gap-2 px-3.5 py-1.5 rounded-xl bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 text-xs font-mono">
-                <span>{isOwner ? '👑' : '👤'}</span>
+                {isOwner ? <Crown className="w-3.5 h-3.5 text-amber-500" /> : <User className="w-3.5 h-3.5 text-neutral-400" />}
                 <span className="font-bold">{user?.name}</span>
                 <button
                   onClick={logout}
@@ -623,7 +646,7 @@ export const AIToolsHub: React.FC = () => {
                 onClick={openAuthModal}
                 className="px-3 py-2 rounded-xl text-neutral-400 hover:text-neutral-700 dark:hover:text-neutral-200 text-xs font-mono flex items-center gap-1.5 cursor-pointer opacity-70 hover:opacity-100 transition-opacity"
               >
-                <span>🔐</span>
+                <Lock className="w-3.5 h-3.5" />
                 <span>Masuk / Daftar</span>
               </button>
             )}
@@ -636,8 +659,9 @@ export const AIToolsHub: React.FC = () => {
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 border-b border-purple-500/20 pb-4 mb-4">
               <div>
                 <div className="flex items-center gap-2 mb-1">
-                  <span className="px-2.5 py-0.5 rounded text-[11px] font-mono font-bold bg-purple-500/30 text-purple-300 border border-purple-400/30 uppercase tracking-wider">
-                    📂 Kurasi Playlist Khusus Konten
+                  <span className="px-2.5 py-0.5 rounded text-[11px] font-mono font-bold bg-purple-500/30 text-purple-300 border border-purple-400/30 uppercase tracking-wider inline-flex items-center gap-1.5">
+                    <FolderOpen className="w-3.5 h-3.5" />
+                    <span>Kurasi Playlist Khusus Konten</span>
                   </span>
                   <span className="text-xs font-mono text-neutral-400">
                     oleh <strong className="text-white">{activeLinkList.authorName || 'Kreator LocaGo'}</strong>
@@ -655,7 +679,7 @@ export const AIToolsHub: React.FC = () => {
                     className="px-3.5 py-2 rounded-xl bg-purple-700/80 hover:bg-purple-600 text-white font-mono text-xs font-bold transition-all border border-purple-400/40 shadow-sm flex items-center gap-1.5 cursor-pointer active:scale-95"
                     title="Edit Judul, Catatan, Video, dan Link"
                   >
-                    <span>✏️</span>
+                    <Pencil className="w-3.5 h-3.5" />
                     <span>Edit Catatan & Info</span>
                   </button>
                 )}
@@ -677,7 +701,7 @@ export const AIToolsHub: React.FC = () => {
                   onClick={() => copyShareLink(activeLinkList.id)}
                   className="px-3.5 py-2 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-mono text-xs font-bold transition-all shadow-md flex items-center gap-1.5 cursor-pointer active:scale-95"
                 >
-                  <span>🔗</span>
+                  <LinkIcon className="w-3.5 h-3.5" />
                   <span>Salin Link Share IG</span>
                 </button>
 
@@ -689,7 +713,7 @@ export const AIToolsHub: React.FC = () => {
                   }}
                   className="px-3 py-2 rounded-xl bg-neutral-800 hover:bg-neutral-700 text-neutral-300 hover:text-white font-mono text-xs transition-all border border-neutral-700 cursor-pointer"
                 >
-                  ✕ Tutup Playlist
+                  Tutup Playlist
                 </button>
               </div>
             </div>
@@ -697,15 +721,16 @@ export const AIToolsHub: React.FC = () => {
             {/* Notes Section: Clean view for public, with inline edit button ONLY for authorized author/owner */}
             <div className="p-4 rounded-2xl bg-neutral-900/70 border border-purple-500/20 text-neutral-300 text-xs sm:text-sm leading-relaxed mb-4">
               <div className="flex items-center justify-between gap-2 mb-1.5">
-                <strong className="text-purple-400 font-mono block">
-                  📝 Catatan Khusus dari {activeLinkList.authorName || 'Kreator'}:
+                <strong className="text-purple-400 font-mono flex items-center gap-1.5">
+                  <FileText className="w-4 h-4 text-purple-400 shrink-0" />
+                  <span>Catatan Khusus dari {activeLinkList.authorName || 'Kreator'}:</span>
                 </strong>
                 {canEditActiveList && (
                   <button
                     onClick={() => setEditingLinkList({ ...activeLinkList })}
                     className="text-[11px] font-mono text-purple-300 hover:text-purple-200 underline cursor-pointer"
                   >
-                    ✏️ Edit Catatan
+                    Edit Catatan
                   </button>
                 )}
               </div>
@@ -719,14 +744,14 @@ export const AIToolsHub: React.FC = () => {
             {/* Video Reference */}
             {activeLinkList.videoUrl && (
               <div className="text-xs font-mono text-purple-300 flex items-center gap-2 mb-4">
-                <span>📹 Tonton Video Referensi:</span>
+                <span className="inline-flex items-center gap-1.5"><Video className="w-4 h-4 text-rose-400" /> <span>Tonton Video Referensi:</span></span>
                 <a
                   href={activeLinkList.videoUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-purple-400 underline font-bold hover:text-purple-300 break-all"
                 >
-                  Buka Tautan Video ({activeLinkList.videoUrl}) ↗
+                  Buka Tautan Video ({activeLinkList.videoUrl}) →
                 </a>
               </div>
             )}
@@ -735,8 +760,9 @@ export const AIToolsHub: React.FC = () => {
             {activeLinkList.customLinks && activeLinkList.customLinks.length > 0 && (
               <div className="pt-3 border-t border-purple-500/20">
                 <div className="flex items-center justify-between gap-2 mb-2">
-                  <span className="text-[11px] font-mono font-bold text-purple-300 uppercase tracking-wider">
-                    🔗 Tautan & Referensi Tambahan ({activeLinkList.customLinks.length}):
+                  <span className="text-[11px] font-mono font-bold text-purple-300 uppercase tracking-wider inline-flex items-center gap-1.5">
+                    <LinkIcon className="w-3.5 h-3.5 text-purple-300" />
+                    <span>Tautan & Referensi Tambahan ({activeLinkList.customLinks.length}):</span>
                   </span>
                   {canEditActiveList && (
                     <button
@@ -763,17 +789,17 @@ export const AIToolsHub: React.FC = () => {
                           className="text-[11px] font-mono text-purple-400 hover:text-purple-300 underline inline-flex items-center gap-1 mt-1 font-semibold"
                         >
                           <span>Kunjungi Tautan</span>
-                          <span>↗</span>
+                          <ArrowUpRight className="w-3 h-3" />
                         </a>
                       </div>
                       {/* Delete button: ONLY FOR AUTHOR OR OWNER */}
                       {canEditActiveList && (
                         <button
                           onClick={() => handleRemoveCustomLink(activeLinkList.id, cl.id)}
-                          className="text-neutral-500 hover:text-rose-400 text-xs px-1 cursor-pointer shrink-0"
+                          className="text-neutral-500 hover:text-rose-400 text-xs p-1 cursor-pointer shrink-0"
                           title="Hapus tautan ini"
                         >
-                          ✕
+                          <X className="w-3.5 h-3.5" />
                         </button>
                       )}
                     </div>
@@ -795,7 +821,7 @@ export const AIToolsHub: React.FC = () => {
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-950 text-neutral-900 dark:text-white text-xs font-mono focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all placeholder:text-neutral-400"
               />
-              <span className="absolute left-3.5 top-3 text-neutral-400 text-xs">🔍</span>
+              <Search className="absolute left-3.5 top-3.5 w-4 h-4 text-neutral-400" />
             </div>
 
             <div className="flex items-center gap-3 w-full sm:w-auto justify-end">
@@ -903,7 +929,7 @@ export const AIToolsHub: React.FC = () => {
                         }`}
                         title="Upvote tool ini"
                       >
-                        <span>{hasVoted ? '❤️' : '🤍'}</span>
+                        <Heart className={`w-3.5 h-3.5 ${hasVoted ? 'fill-rose-500 text-rose-500' : 'text-neutral-400'}`} />
                         <span>{voteVal}</span>
                       </button>
                     </div>
@@ -922,7 +948,7 @@ export const AIToolsHub: React.FC = () => {
                     <ul className="space-y-1 mb-5">
                       {tool.features.slice(0, 3).map((feat, idx) => (
                         <li key={idx} className="text-[11px] text-neutral-500 dark:text-neutral-400 flex items-start gap-1.5">
-                          <span className="text-purple-500 font-bold shrink-0">✓</span>
+                          <Check className="w-3.5 h-3.5 text-purple-500 shrink-0" />
                           <span className="line-clamp-1">{feat}</span>
                         </li>
                       ))}
@@ -934,7 +960,7 @@ export const AIToolsHub: React.FC = () => {
                 <div className="pt-3 border-t border-neutral-100 dark:border-neutral-800/80 flex items-center justify-between gap-3" onClick={(e) => e.stopPropagation()}>
                   <div className="flex items-center gap-2">
                     <div className="text-[11px] font-mono text-neutral-500 flex items-center gap-1">
-                      <span>👁️</span>
+                      <Eye className="w-3.5 h-3.5" />
                       <span>{(views[tool.id] || (120 + tool.name.length * 15))} views</span>
                     </div>
 
@@ -942,10 +968,11 @@ export const AIToolsHub: React.FC = () => {
                     {activeLinkList && canEditActiveList && (
                       <button
                         onClick={() => toggleToolInLinkList(activeLinkList.id, tool.id)}
-                        className="px-2 py-0.5 rounded text-[10px] font-mono text-rose-600 dark:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-950/40 border border-rose-200 dark:border-rose-900/40 transition-all cursor-pointer"
+                        className="px-2 py-0.5 rounded text-[10px] font-mono text-rose-600 dark:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-950/40 border border-rose-200 dark:border-rose-900/40 transition-all cursor-pointer inline-flex items-center gap-1"
                         title="Hapus tool ini dari playlist"
                       >
-                        ✕ Hapus
+                        <X className="w-3 h-3" />
+                        <span>Hapus</span>
                       </button>
                     )}
                   </div>
@@ -958,7 +985,7 @@ export const AIToolsHub: React.FC = () => {
                     className="py-2 px-4 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-mono text-xs font-bold transition-all shadow-sm active:scale-95 flex items-center gap-1.5 cursor-pointer"
                   >
                     <span>Kunjungi {tool.name}</span>
-                    <span>↗</span>
+                    <ArrowUpRight className="w-3.5 h-3.5" />
                   </a>
                 </div>
               </div>
@@ -972,9 +999,10 @@ export const AIToolsHub: React.FC = () => {
             <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-2xl w-full shadow-2xl relative my-8 max-h-[90vh] overflow-y-auto text-neutral-900 dark:text-white">
               <button
                 onClick={() => setViewingTool(null)}
-                className="absolute top-5 right-5 text-neutral-400 hover:text-white font-mono text-xl cursor-pointer"
+                className="absolute top-5 right-5 text-neutral-400 hover:text-neutral-700 dark:hover:text-white font-mono cursor-pointer p-1"
+                aria-label="Tutup"
               >
-                ✕
+                <X className="w-5 h-5" />
               </button>
 
               <div className="flex items-center gap-4 mb-5">
@@ -993,14 +1021,16 @@ export const AIToolsHub: React.FC = () => {
               </div>
 
               {/* Tagline */}
-              <div className="mb-4 p-3.5 rounded-xl bg-purple-50 dark:bg-purple-950/30 border border-purple-200 dark:border-purple-800/40 text-purple-900 dark:text-purple-200 font-medium text-sm leading-relaxed">
-                💡 {viewingTool.tagline}
+              <div className="mb-4 p-3.5 rounded-xl bg-purple-50 dark:bg-purple-950/30 border border-purple-200 dark:border-purple-800/40 text-purple-900 dark:text-purple-200 font-medium text-sm leading-relaxed flex items-start gap-2">
+                <Lightbulb className="w-4 h-4 text-amber-500 shrink-0 mt-0.5" />
+                <span>{viewingTool.tagline}</span>
               </div>
 
               {/* Full Narrative Description */}
               <div className="space-y-3 mb-6 text-sm text-neutral-700 dark:text-neutral-300 leading-relaxed whitespace-pre-line">
-                <strong className="text-xs font-mono font-bold text-neutral-500 uppercase tracking-wider block">
-                  📖 Ulasan Lengkap & Fungsionalitas Riil:
+                <strong className="text-xs font-mono font-bold text-neutral-500 uppercase tracking-wider flex items-center gap-1.5 mb-1">
+                  <BookOpen className="w-4 h-4 text-purple-500" />
+                  <span>Ulasan Lengkap & Fungsionalitas Riil:</span>
                 </strong>
                 <p>{viewingTool.description}</p>
               </div>
@@ -1008,13 +1038,14 @@ export const AIToolsHub: React.FC = () => {
               {/* Features List */}
               {viewingTool.features && viewingTool.features.length > 0 && (
                 <div className="mb-6">
-                  <strong className="text-xs font-mono font-bold text-neutral-500 uppercase tracking-wider block mb-2">
-                    ⚡ Fitur Utama & Keunggulan:
+                  <strong className="text-xs font-mono font-bold text-neutral-500 uppercase tracking-wider flex items-center gap-1.5 mb-2">
+                    <Zap className="w-4 h-4 text-amber-500" />
+                    <span>Fitur Utama & Keunggulan:</span>
                   </strong>
                   <div className="grid sm:grid-cols-2 gap-2">
                     {viewingTool.features.map((feat, i) => (
                       <div key={i} className="p-2.5 rounded-xl bg-neutral-50 dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-800 text-xs flex items-start gap-2">
-                        <span className="text-purple-500 font-bold shrink-0">✓</span>
+                        <Check className="w-3.5 h-3.5 text-purple-500 shrink-0" />
                         <span>{feat}</span>
                       </div>
                     ))}
@@ -1043,7 +1074,7 @@ export const AIToolsHub: React.FC = () => {
                     }}
                     className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 text-neutral-600 dark:text-neutral-400 font-mono text-xs cursor-pointer"
                   >
-                    🔐 Masuk untuk membuat Playlist
+                    <span className="inline-flex items-center gap-1.5"><Lock className="w-3.5 h-3.5" /> <span>Masuk untuk membuat Playlist</span></span>
                   </button>
                 )}
 
@@ -1054,7 +1085,7 @@ export const AIToolsHub: React.FC = () => {
                   className="w-full sm:w-auto px-6 py-2.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-mono text-xs font-bold transition-all shadow-md flex items-center justify-center gap-2 cursor-pointer active:scale-95"
                 >
                   <span>Buka Website Resmi {viewingTool.name}</span>
-                  <span>↗</span>
+                  <ArrowUpRight className="w-4 h-4" />
                 </a>
               </div>
             </div>
@@ -1067,9 +1098,10 @@ export const AIToolsHub: React.FC = () => {
             <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-md w-full shadow-2xl relative text-neutral-900 dark:text-white">
               <button
                 onClick={() => setToolToAddToLinkList(null)}
-                className="absolute top-5 right-5 text-neutral-400 hover:text-white font-mono text-xl cursor-pointer"
+                className="absolute top-5 right-5 text-neutral-400 hover:text-neutral-700 dark:hover:text-white font-mono cursor-pointer p-1"
+                aria-label="Tutup"
               >
-                ✕
+                <X className="w-5 h-5" />
               </button>
 
               <h3 className="text-lg font-bold mb-1">
@@ -1101,7 +1133,7 @@ export const AIToolsHub: React.FC = () => {
                           </span>
                         </div>
                         <span className={`px-2 py-1 rounded text-[11px] font-mono font-bold ${inList ? 'bg-purple-600 text-white' : 'bg-neutral-200 dark:bg-neutral-800'}`}>
-                          {inList ? '✓ Ada' : '+ Tambah'}
+                          {inList ? <span className="inline-flex items-center gap-1"><Check className="w-3 h-3" /> Ada</span> : '+ Tambah'}
                         </span>
                       </div>
                     );
@@ -1132,9 +1164,10 @@ export const AIToolsHub: React.FC = () => {
             <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-lg w-full shadow-2xl relative text-neutral-900 dark:text-white">
               <button
                 onClick={() => setIsCreateListModalOpen(false)}
-                className="absolute top-5 right-5 text-neutral-400 hover:text-white font-mono text-xl cursor-pointer"
+                className="absolute top-5 right-5 text-neutral-400 hover:text-neutral-700 dark:hover:text-white font-mono cursor-pointer p-1"
+                aria-label="Tutup"
               >
-                ✕
+                <X className="w-5 h-5" />
               </button>
 
               <h3 className="text-xl font-bold mb-2">Buat Playlist Baru (Koleksi IG)</h3>
@@ -1209,12 +1242,13 @@ export const AIToolsHub: React.FC = () => {
             <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-xl w-full shadow-2xl relative text-neutral-900 dark:text-white my-8 max-h-[90vh] overflow-y-auto">
               <button
                 onClick={() => setEditingLinkList(null)}
-                className="absolute top-5 right-5 text-neutral-400 hover:text-white font-mono text-xl cursor-pointer"
+                className="absolute top-5 right-5 text-neutral-400 hover:text-neutral-700 dark:hover:text-white font-mono cursor-pointer p-1"
+                aria-label="Tutup"
               >
-                ✕
+                <X className="w-5 h-5" />
               </button>
 
-              <h3 className="text-xl font-bold mb-1">✏️ Edit Catatan & Info LinkList</h3>
+              <h3 className="text-xl font-bold mb-1">Edit Catatan & Info LinkList</h3>
               <p className="text-xs text-neutral-500 mb-6 font-mono">
                 Perbarui judul, catatan penjelasan untuk audiens, tautan video, atau kelola link manual.
               </p>
@@ -1262,8 +1296,9 @@ export const AIToolsHub: React.FC = () => {
                 {/* Custom Links Management inside Edit Modal */}
                 <div className="pt-2 border-t border-neutral-200 dark:border-neutral-800">
                   <div className="flex items-center justify-between mb-2">
-                    <span className="text-xs font-mono font-bold text-neutral-700 dark:text-neutral-300">
-                      🔗 Tautan Manual ({editingLinkList.customLinks?.length || 0})
+                    <span className="text-xs font-mono font-bold text-neutral-700 dark:text-neutral-300 inline-flex items-center gap-1.5">
+                      <LinkIcon className="w-3.5 h-3.5 text-purple-500" />
+                      <span>Tautan Manual ({editingLinkList.customLinks?.length || 0})</span>
                     </span>
                     <button
                       type="button"
@@ -1308,7 +1343,7 @@ export const AIToolsHub: React.FC = () => {
                     onClick={() => handleDeleteLinkList(editingLinkList.id)}
                     className="text-xs font-mono text-rose-500 hover:underline cursor-pointer"
                   >
-                    🗑️ Hapus Playlist Ini
+                    <span className="inline-flex items-center gap-1.5"><Trash2 className="w-3.5 h-3.5 text-rose-500" /> <span>Hapus Playlist Ini</span></span>
                   </button>
 
                   <div className="flex items-center gap-2">
@@ -1338,12 +1373,13 @@ export const AIToolsHub: React.FC = () => {
             <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-md w-full shadow-2xl relative text-neutral-900 dark:text-white">
               <button
                 onClick={() => setIsAddCustomLinkModalOpen(false)}
-                className="absolute top-5 right-5 text-neutral-400 hover:text-white font-mono text-xl cursor-pointer"
+                className="absolute top-5 right-5 text-neutral-400 hover:text-neutral-700 dark:hover:text-white font-mono cursor-pointer p-1"
+                aria-label="Tutup"
               >
-                ✕
+                <X className="w-5 h-5" />
               </button>
 
-              <h3 className="text-xl font-bold mb-1">🔗 Tambah Link Manual ke Playlist</h3>
+              <h3 className="text-xl font-bold mb-1 flex items-center gap-2"><LinkIcon className="w-5 h-5 text-purple-500" /> <span>Tambah Link Manual ke Playlist</span></h3>
               <p className="text-xs text-neutral-500 mb-5 font-mono">
                 Tambahkan link eksternal (form, landing page, grup WA/Telegram, atau tool). Sistem akan otomatis mendeteksi tool katalog & membersihkan parameter affiliate.
               </p>
@@ -1416,9 +1452,10 @@ export const AIToolsHub: React.FC = () => {
             <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-xl w-full shadow-2xl relative text-neutral-900 dark:text-white max-h-[85vh] overflow-y-auto">
               <button
                 onClick={() => setIsLinkListManagerOpen(false)}
-                className="absolute top-5 right-5 text-neutral-400 hover:text-white font-mono text-xl cursor-pointer"
+                className="absolute top-5 right-5 text-neutral-400 hover:text-neutral-700 dark:hover:text-white font-mono cursor-pointer p-1"
+                aria-label="Tutup"
               >
-                ✕
+                <X className="w-5 h-5" />
               </button>
 
               <div className="flex items-center justify-between gap-4 mb-4">
@@ -1471,7 +1508,7 @@ export const AIToolsHub: React.FC = () => {
                                 className="px-2.5 py-1 rounded-lg bg-neutral-200 dark:bg-neutral-800 hover:bg-neutral-300 dark:hover:bg-neutral-700 text-neutral-800 dark:text-neutral-200 font-mono text-xs font-bold transition-all cursor-pointer"
                                 title="Edit Playlist"
                               >
-                                ✏️ Edit
+                                <span className="inline-flex items-center gap-1"><Pencil className="w-3 h-3" /> <span>Edit</span></span>
                               </button>
                             )}
 
@@ -1485,7 +1522,7 @@ export const AIToolsHub: React.FC = () => {
                               }}
                               className="px-2.5 py-1 rounded-lg bg-neutral-200 dark:bg-neutral-800 hover:bg-purple-600 hover:text-white font-mono text-xs font-bold transition-all cursor-pointer"
                             >
-                              Buka ↗
+                              Buka <ArrowUpRight className="w-3 h-3 inline ml-1" />
                             </button>
 
                             <button
@@ -1493,7 +1530,7 @@ export const AIToolsHub: React.FC = () => {
                               className="px-2.5 py-1 rounded-lg bg-purple-600 hover:bg-purple-500 text-white font-mono text-xs font-bold transition-all cursor-pointer shadow-sm"
                               title="Salin Link Publik"
                             >
-                              🔗 Share
+                              <span className="inline-flex items-center gap-1"><LinkIcon className="w-3 h-3" /> <span>Share</span></span>
                             </button>
                           </div>
                         </div>
@@ -1535,9 +1572,10 @@ export const AIToolsHub: React.FC = () => {
             <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-lg w-full shadow-2xl relative text-neutral-900 dark:text-white">
               <button
                 onClick={() => setIsSubmitModalOpen(false)}
-                className="absolute top-5 right-5 text-neutral-400 hover:text-white font-mono text-xl cursor-pointer"
+                className="absolute top-5 right-5 text-neutral-400 hover:text-neutral-700 dark:hover:text-white font-mono cursor-pointer p-1"
+                aria-label="Tutup"
               >
-                ✕
+                <X className="w-5 h-5" />
               </button>
 
               <h3 className="text-xl font-bold mb-2">Submit Tool AI Baru</h3>
@@ -1547,8 +1585,8 @@ export const AIToolsHub: React.FC = () => {
 
               {submitSuccess ? (
                 <div className="py-10 text-center space-y-2">
-                  <div className="w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-500 flex items-center justify-center text-xl mx-auto">
-                    ✓
+                  <div className="w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-500 flex items-center justify-center mx-auto">
+                    <Check className="w-6 h-6 stroke-[3]" />
                   </div>
                   <h4 className="font-bold text-base">Permohonan Berhasil Dikirim!</h4>
                   <p className="text-xs text-neutral-500">Mengarahkan ke WhatsApp admin LocaGo...</p>

@@ -1,4 +1,5 @@
 import React, { Component, ErrorInfo, ReactNode } from 'react';
+import { AlertTriangle, RefreshCw } from 'lucide-react';
 
 interface Props {
   children: ReactNode;
@@ -33,8 +34,8 @@ export class ErrorBoundary extends Component<Props, State> {
     if (this.state.hasError) {
       return (
         <div className="pt-32 pb-24 px-6 text-center max-w-xl mx-auto">
-          <div className="w-16 h-16 rounded-2xl bg-amber-500/10 text-amber-500 flex items-center justify-center text-3xl mx-auto mb-4 border border-amber-500/20">
-            ⚠️
+          <div className="w-16 h-16 rounded-2xl bg-amber-500/10 text-amber-500 flex items-center justify-center mx-auto mb-4 border border-amber-500/20">
+            <AlertTriangle className="w-8 h-8" />
           </div>
           <h2 className="text-xl font-bold text-neutral-900 dark:text-white mb-2">
             {this.props.fallbackTitle || 'Halaman Sedang Memuat Ulang'}
@@ -44,9 +45,10 @@ export class ErrorBoundary extends Component<Props, State> {
           </p>
           <button
             onClick={this.handleReload}
-            className="px-5 py-2.5 rounded-xl bg-purple-600 hover:bg-purple-700 text-white font-mono text-xs font-bold transition-all shadow-md active:scale-95 cursor-pointer"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-purple-600 hover:bg-purple-700 text-white font-mono text-xs font-bold transition-all shadow-md active:scale-95 cursor-pointer"
           >
-            🔄 Muat Ulang Halaman
+            <RefreshCw className="w-4 h-4" />
+            <span>Muat Ulang Halaman</span>
           </button>
         </div>
       );

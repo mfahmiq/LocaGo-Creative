@@ -7,7 +7,7 @@ const WA_NUMBER = '62895336377648';
 const Hero: React.FC = () => {
   const { t, language } = useLanguage();
 
-  const waUrl = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent('Halo LocaGo Creative! Saya ingin konsultasi dan cek penawaran untuk proyek digital saya. 🚀')}`;
+  const waUrl = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent('Halo LocaGo Creative! Saya ingin konsultasi dan cek penawaran untuk proyek digital saya.')}`;
 
   const badges = language === 'en'
     ? ['99+ Projects', 'WhatsApp AI', 'Premium Website', 'School Systems']
@@ -84,7 +84,7 @@ const Hero: React.FC = () => {
             {/* Monospace Eyebrow Badge */}
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 text-xs font-mono text-neutral-700 dark:text-neutral-300 mb-6 shadow-sm">
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
-              <span className="tracking-wide">{t.hero.badge.replace(/^🚀\s*/, '')}</span>
+              <span className="tracking-wide">{t.hero.badge}</span>
             </div>
 
             {/* Main Headline */}

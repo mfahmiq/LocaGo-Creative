@@ -1,5 +1,6 @@
 
 import React, { useState, useRef, useEffect } from 'react';
+import { Zap, Sparkles, Cpu, QrCode, Bot, BarChart3 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 const WA_NUMBER = '62895336377648';
@@ -13,31 +14,31 @@ interface Message {
 const DEMO_QA: { trigger: string[]; response: string }[] = [
   {
     trigger: ['100k', '150k', '200k', '250k', '100rb', '150rb', '200rb', '250rb', 'kurang dari 300', 'dibawah 300', 'di bawah 300', 'under 300'],
-    response: '🤝 Terima kasih atas keterbukaan budget Kakak! Di LocaGo Creative, kami selalu mencari jalan keluar terbaik tanpa membebani keuangan.\n\nJika boleh kami tawar secara santun, bagaimana jika anggarannya kita sepakati di **minimal Rp 300.000 ke atas**?\n\nDi angka Rp 300.000 tersebut, solusinya adalah sistem otomasi cerdas **Google Apps Script + Google Sheets / Excel**:\n- 100% Bebas biaya server & database selamanya (tanpa biaya langganan bulanan)\n- Formulir input web mandiri, rumus otomatis, & rekap data rapi yang bisa diakses di HP & laptop\n- Langsung siap pakai untuk operasional bisnis Kakak!\n\nBagaimana menurut Kakak? Yuk diskusikan langsung bersama Mas Fahmi via WhatsApp!'
+    response: 'Terima kasih atas keterbukaan budget Kakak! Di LocaGo Creative, kami selalu mencari jalan keluar terbaik tanpa membebani keuangan.\n\nJika boleh kami tawar secara santun, bagaimana jika anggarannya kita sepakati di **minimal Rp 300.000 ke atas**?\n\nDi angka Rp 300.000 tersebut, solusinya adalah sistem otomasi cerdas **Google Apps Script + Google Sheets / Excel**:\n- 100% Bebas biaya server & database selamanya (tanpa biaya langganan bulanan)\n- Formulir input web mandiri, rumus otomatis, & rekap data rapi yang bisa diakses di HP & laptop\n- Langsung siap pakai untuk operasional bisnis Kakak!\n\nBagaimana menurut Kakak? Yuk diskusikan langsung bersama Mas Fahmi via WhatsApp!'
   },
   {
     trigger: ['500k', '400k', '300k', '500rb', '400rb', '300rb', 'appscript', 'app script', 'google apps script', 'google sheet'],
-    response: '💡 Untuk budget Rp 300.000 - Rp 500.000, solusi andalan kami adalah **Google Apps Script (GAS) + Google Sheets / Excel**:\n- 100% Gratis biaya hosting & server selamanya\n- Input form web mandiri & rekapitulasi data otomatis real-time\n- Cocok untuk kasir, stok barang, absensi, atau pembukuan usaha\n\nSemuanya selalu ada solusinya di LocaGo Creative! Diskusi detailnya yuk di WhatsApp.'
+    response: 'Untuk budget Rp 300.000 - Rp 500.000, solusi andalan kami adalah **Google Apps Script (GAS) + Google Sheets / Excel**:\n- 100% Gratis biaya hosting & server selamanya\n- Input form web mandiri & rekapitulasi data otomatis real-time\n- Cocok untuk kasir, stok barang, absensi, atau pembukuan usaha\n\nSemuanya selalu ada solusinya di LocaGo Creative! Diskusi detailnya yuk di WhatsApp.'
   },
   {
     trigger: ['harga', 'biaya', 'berapa', 'cost', 'price', 'tarif'],
-    response: 'Harga kami sangat fleksibel karena seluruh sistem dibangun 100% custom dari nol tanpa template! 🎯\n\nAgar kami bisa memberikan solusi yang paling tepat, **boleh kami tahu kira-kira berapa target alokasi budget yang Kakak siapkan?**\n\nKami akan menyesuaikan skala fitur dan teknologinya langsung dengan budget Kakak sebagai bare minimum harga:\n- Budget mikro (Rp 300.000 - Rp 500.000): Solusi otomasi cerdas Google Apps Script + Google Sheets tanpa biaya server selamanya\n- Paket website custom (Landing Page / Company Profile): Mulai Rp 1.500.000 sudah terima beres termasuk domain & cloud hosting 1 tahun penuh\n\nBerapa kisaran budget Kakak saat ini? Mari ceritakan atau langsung konsultasi bersama Mas Fahmi via WhatsApp ya!'
+    response: 'Harga kami sangat fleksibel karena seluruh sistem dibangun 100% custom dari nol tanpa template!\n\nAgar kami bisa memberikan solusi yang paling tepat, **boleh kami tahu kira-kira berapa target alokasi budget yang Kakak siapkan?**\n\nKami akan menyesuaikan skala fitur dan teknologinya langsung dengan budget Kakak sebagai bare minimum harga:\n- Budget mikro (Rp 300.000 - Rp 500.000): Solusi otomasi cerdas Google Apps Script + Google Sheets tanpa biaya server selamanya\n- Paket website custom (Landing Page / Company Profile): Mulai Rp 1.500.000 sudah terima beres termasuk domain & cloud hosting 1 tahun penuh\n\nBerapa kisaran budget Kakak saat ini? Mari ceritakan atau langsung konsultasi bersama Mas Fahmi via WhatsApp ya!'
   },
   {
     trigger: ['chatbot', 'whatsapp', 'bot', 'ai', 'otomasi', 'automation'],
-    response: '🤖 Layanan AI Chatbot WhatsApp kami bisa:\n- Membalas pesan pelanggan 24/7 secara otomatis\n- Mengelola pesanan & FAQ\n- Integrasi dengan sistem inventory\n- Notifikasi proaktif ke pelanggan\n\nTersedia untuk bisnis kecil hingga korporat. Tertarik? Tanya lebih lanjut via WhatsApp!'
+    response: 'Layanan AI Chatbot WhatsApp kami bisa:\n- Membalas pesan pelanggan 24/7 secara otomatis\n- Mengelola pesanan & FAQ\n- Integrasi dengan sistem inventory\n- Notifikasi proaktif ke pelanggan\n\nTersedia untuk bisnis kecil hingga korporat. Tertarik? Tanya lebih lanjut via WhatsApp!'
   },
   {
     trigger: ['sekolah', 'guru', 'absensi', 'presensi', 'qr', 'rps', 'rppp', 'tabungan'],
-    response: '🏫 Untuk institusi pendidikan, kami punya:\n\n1. **Presensi QR Code + WA Alert** — Siswa scan QR, orang tua langsung dapat notifikasi WA\n2. **Tabungan Digital** — Kelola tabungan siswa dengan dashboard admin\n3. **AI Generator RPS** — Buat Rencana Pembelajaran otomatis dalam hitungan detik\n\nSemua sistem bisa dikustomisasi sesuai kebutuhan sekolah Anda! 📚'
+    response: 'Untuk institusi pendidikan, kami punya:\n\n1. **Presensi QR Code + WA Alert** — Siswa scan QR, orang tua langsung dapat notifikasi WA\n2. **Tabungan Digital** — Kelola tabungan siswa dengan dashboard admin\n3. **AI Generator RPS** — Buat Rencana Pembelajaran otomatis dalam hitungan detik\n\nSemua sistem bisa dikustomisasi sesuai kebutuhan sekolah Anda!'
   },
   {
     trigger: ['mahasiswa', 'tugas', 'skripsi', 'coding', 'script', 'gas', 'google apps'],
-    response: '👨‍💻 Untuk mahasiswa & perorangan, kami siap bantu:\n\n- **Google Apps Script** — Otomasi spreadsheet, laporan, & integrasi data\n- **Bantuan Coding** — Debug, algoritma, tugas pemrograman\n- **Aplikasi Custom** — Desktop (Python/Electron) atau Android\n\nHarga sangat terjangkau untuk kantong mahasiswa! Diskusi dulu via WhatsApp gratis.'
+    response: 'Untuk mahasiswa & perorangan, kami siap bantu:\n\n- **Google Apps Script** — Otomasi spreadsheet, laporan, & integrasi data\n- **Bantuan Coding** — Debug, algoritma, tugas pemrograman\n- **Aplikasi Custom** — Desktop (Python/Electron) atau Android\n\nHarga sangat terjangkau untuk kantong mahasiswa! Diskusi dulu via WhatsApp gratis.'
   },
   {
     trigger: ['lama', 'berapa lama', 'waktu', 'durasi', 'selesai'],
-    response: '⏱️ Estimasi waktu pengerjaan:\n\n- Landing Page sederhana: **3-5 hari kerja**\n- Website dengan fitur medium: **1-2 minggu**\n- Sistem kompleks (chatbot, dashboard): **2-4 minggu**\n- Proyek enterprise custom: **1-3 bulan**\n\nSemua tergantung kompleksitas fitur yang dipilih. Konsultasikan dulu biar lebih akurat!'
+    response: 'Estimasi waktu pengerjaan:\n\n- Landing Page sederhana: **3-5 hari kerja**\n- Website dengan fitur medium: **1-2 minggu**\n- Sistem kompleks (chatbot, dashboard): **2-4 minggu**\n- Proyek enterprise custom: **1-3 bulan**\n\nSemua tergantung kompleksitas fitur yang dipilih. Konsultasikan dulu biar lebih akurat!'
   },
 ];
 
@@ -48,7 +49,7 @@ function getDemoResponse(input: string): string {
       return qa.response;
     }
   }
-  return `Terima kasih sudah bertanya! 😊 Pertanyaan Anda tentang "${input}" akan kami jawab lebih detail via WhatsApp. Tim kami siap konsultasi gratis dan membantu menemukan solusi terbaik untuk kebutuhan digital Anda! 🚀`;
+  return `Terima kasih sudah bertanya! Pertanyaan Anda tentang "${input}" akan kami jawab lebih detail via WhatsApp. Tim kami siap konsultasi gratis dan membantu menemukan solusi terbaik untuk kebutuhan digital Anda!`;
 }
 
 function formatMessage(text: string): React.ReactNode {
@@ -132,7 +133,7 @@ Nomor WA: 62895336377648. Jawab dengan ramah, informatif, dan solutif. Gunakan b
         const reply = data.choices?.[0]?.message?.content || 'Maaf, terjadi kesalahan. Silakan coba lagi.';
         setMessages(prev => [...prev, { role: 'assistant', content: reply }]);
       } catch {
-        setMessages(prev => [...prev, { role: 'assistant', content: 'Maaf, koneksi AI terputus. Silakan hubungi kami via WhatsApp untuk konsultasi langsung! 📱' }]);
+        setMessages(prev => [...prev, { role: 'assistant', content: 'Maaf, koneksi AI terputus. Silakan hubungi kami via WhatsApp untuk konsultasi langsung!' }]);
       }
     } else {
       // Demo mode with pre-loaded responses
@@ -143,6 +144,21 @@ Nomor WA: 62895336377648. Jawab dengan ramah, informatif, dan solutif. Gunakan b
 
     setLoading(false);
     inputRef.current?.focus();
+  };
+
+  const getFeatureIcon = (idx: number) => {
+    switch (idx) {
+      case 0:
+        return <Cpu className="w-8 h-8 text-neutral-800 dark:text-neutral-200" />;
+      case 1:
+        return <QrCode className="w-8 h-8 text-neutral-800 dark:text-neutral-200" />;
+      case 2:
+        return <Bot className="w-8 h-8 text-neutral-800 dark:text-neutral-200" />;
+      case 3:
+        return <BarChart3 className="w-8 h-8 text-neutral-800 dark:text-neutral-200" />;
+      default:
+        return <Sparkles className="w-8 h-8 text-neutral-800 dark:text-neutral-200" />;
+    }
   };
 
   const features: Array<{ title: string; desc: string; emoji: string }> = dt.features || [];
@@ -159,8 +175,9 @@ Nomor WA: 62895336377648. Jawab dengan ramah, informatif, dan solutif. Gunakan b
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         {/* Header */}
         <div className="text-center mb-14">
-          <div className="inline-block mb-4 px-4 py-1.5 rounded-full border border-emerald-200 dark:border-emerald-500/30 bg-emerald-50 dark:bg-emerald-500/10 text-sm font-semibold text-emerald-700 dark:text-emerald-400">
-            {dt.badge || '⚡ Live Demo'}
+          <div className="inline-flex items-center gap-1.5 mb-4 px-4 py-1.5 rounded-full border border-emerald-200 dark:border-emerald-500/30 bg-emerald-50 dark:bg-emerald-500/10 text-sm font-semibold text-emerald-700 dark:text-emerald-400">
+            <Zap className="w-3.5 h-3.5" />
+            <span>{dt.badge || 'Live Demo'}</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-white mb-4">
             {dt.title || 'Coba Sistem AI Kami'} <span className="text-gradient">{dt.titleHighlight || 'Langsung Sekarang'}</span>
@@ -169,8 +186,9 @@ Nomor WA: 62895336377648. Jawab dengan ramah, informatif, dan solutif. Gunakan b
             {dt.description || 'Tanya apa saja tentang layanan kami.'}
           </p>
           {!isLiveMode && (
-            <div className="mt-3 inline-block px-4 py-1.5 rounded-full bg-amber-50 dark:bg-amber-500/10 border border-amber-200 dark:border-amber-500/30 text-amber-700 dark:text-amber-400 text-xs font-medium">
-              {dt.demoMode || '🎭 Mode Demo — Tambahkan VITE_GROQ_API_KEY untuk AI live'}
+            <div className="mt-3 inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-amber-50 dark:bg-amber-500/10 border border-amber-200 dark:border-amber-500/30 text-amber-700 dark:text-amber-400 text-xs font-medium">
+              <Sparkles className="w-3.5 h-3.5" />
+              <span>{dt.demoMode || 'Mode Demo — Tambahkan VITE_GROQ_API_KEY untuk AI live'}</span>
             </div>
           )}
         </div>
@@ -275,7 +293,7 @@ Nomor WA: 62895336377648. Jawab dengan ramah, informatif, dan solutif. Gunakan b
             {/* WA link */}
             <div className="px-4 pb-4">
               <a
-                href={`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent('Halo LocaGo Creative! Saya ingin konsultasi langsung 🚀')}`}
+                href={`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent('Halo LocaGo Creative! Saya ingin konsultasi langsung.')}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full flex items-center justify-center gap-2 py-2.5 rounded-xl bg-green-50 dark:bg-green-600/20 border border-green-200 dark:border-green-500/30 text-green-700 dark:text-green-400 hover:bg-green-100 dark:hover:bg-green-600/30 text-sm font-semibold transition-all"
@@ -311,7 +329,7 @@ Nomor WA: 62895336377648. Jawab dengan ramah, informatif, dan solutif. Gunakan b
                         <div className="h-1.5 bg-slate-400/30 dark:bg-slate-600/40 rounded w-1/2 animate-pulse" style={{ animationDelay: '200ms' }}></div>
                         <div className="h-1.5 bg-slate-400/30 dark:bg-slate-600/40 rounded w-2/3 animate-pulse" style={{ animationDelay: '400ms' }}></div>
                       </div>
-                      <span className="text-3xl relative z-10 group-hover:scale-110 transition-transform duration-300">{feat.emoji}</span>
+                      <div className="relative z-10 group-hover:scale-110 transition-transform duration-300">{getFeatureIcon(idx)}</div>
                     </div>
 
                     <h4 className="font-bold text-slate-800 dark:text-white text-sm mb-1 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">{feat.title}</h4>

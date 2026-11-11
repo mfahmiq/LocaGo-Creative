@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { X, Crown, CheckCircle2, AlertCircle } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
 export const AuthModal: React.FC = () => {
@@ -24,7 +25,7 @@ export const AuthModal: React.FC = () => {
     setIsLoading(false);
 
     if (res.success) {
-      setSuccessMsg('✅ Login berhasil! Selamat datang kembali.');
+      setSuccessMsg('Login berhasil! Selamat datang kembali.');
       setTimeout(() => {
         closeAuthModal();
         setSuccessMsg(null);
@@ -43,7 +44,7 @@ export const AuthModal: React.FC = () => {
     setIsLoading(false);
 
     if (res.success) {
-      setSuccessMsg('🎉 Akun berhasil didaftarkan! Mengarahkan ke dashboard...');
+      setSuccessMsg('Akun berhasil didaftarkan! Mengarahkan ke dashboard...');
       setTimeout(() => {
         closeAuthModal();
         setSuccessMsg(null);
@@ -58,13 +59,13 @@ export const AuthModal: React.FC = () => {
     setErrorMsg(null);
     const ok = loginWithOwnerPin(ownerPin);
     if (ok) {
-      setSuccessMsg('👑 Mode Owner Terverifikasi! Selamat datang Mas Fahmi.');
+      setSuccessMsg('Mode Owner Terverifikasi! Selamat datang Mas Fahmi.');
       setTimeout(() => {
         closeAuthModal();
         setSuccessMsg(null);
       }, 800);
     } else {
-      setErrorMsg('⚠️ PIN Owner salah. Akses ditolak.');
+      setErrorMsg('PIN Owner salah. Akses ditolak.');
     }
   };
 
@@ -73,9 +74,10 @@ export const AuthModal: React.FC = () => {
       <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-md w-full shadow-2xl relative text-neutral-900 dark:text-white my-8">
         <button
           onClick={closeAuthModal}
-          className="absolute top-5 right-5 text-neutral-400 hover:text-white font-mono text-xl cursor-pointer"
+          className="absolute top-5 right-5 text-neutral-400 hover:text-neutral-700 dark:hover:text-white font-mono cursor-pointer p-1"
+          aria-label="Tutup modal"
         >
-          ✕
+          <X className="w-5 h-5" />
         </button>
 
         {/* Tab Switcher */}
@@ -112,19 +114,24 @@ export const AuthModal: React.FC = () => {
             }`}
             title="Akses Cepat Owner"
           >
-            👑 Owner
+            <span className="inline-flex items-center gap-1">
+              <Crown className="w-3.5 h-3.5" />
+              <span>Owner</span>
+            </span>
           </button>
         </div>
 
         {/* Feedback Alerts */}
         {errorMsg && (
-          <div className="mb-4 p-3 rounded-xl bg-rose-500/10 border border-rose-500/30 text-rose-600 dark:text-rose-400 text-xs font-mono leading-relaxed">
-            {errorMsg}
+          <div className="mb-4 p-3 rounded-xl bg-rose-500/10 border border-rose-500/30 text-rose-600 dark:text-rose-400 text-xs font-mono leading-relaxed flex items-center gap-2">
+            <AlertCircle className="w-4 h-4 shrink-0" />
+            <span>{errorMsg}</span>
           </div>
         )}
         {successMsg && (
-          <div className="mb-4 p-3 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-600 dark:text-emerald-400 text-xs font-mono leading-relaxed">
-            {successMsg}
+          <div className="mb-4 p-3 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-600 dark:text-emerald-400 text-xs font-mono leading-relaxed flex items-center gap-2">
+            <CheckCircle2 className="w-4 h-4 shrink-0" />
+            <span>{successMsg}</span>
           </div>
         )}
 
@@ -243,8 +250,8 @@ export const AuthModal: React.FC = () => {
         {tab === 'owner_pin' && (
           <form onSubmit={handlePinSubmit} className="space-y-4">
             <div className="text-center">
-              <div className="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/20 text-amber-500 flex items-center justify-center text-xl mx-auto mb-2">
-                👑
+              <div className="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/20 text-amber-500 flex items-center justify-center mx-auto mb-2">
+                <Crown className="w-6 h-6" />
               </div>
               <h3 className="text-lg font-bold">Akses Cepat Owner (Mas Fahmi)</h3>
               <p className="text-xs text-neutral-500 font-mono mt-1">

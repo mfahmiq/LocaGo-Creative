@@ -60,7 +60,7 @@ const Contact: React.FC = () => {
 
     // Format the message for WhatsApp
     const text = encodeURIComponent(
-      `Halo Mas Fahmi / LocaGo Creative! 🚀\nSaya ingin konsultasi dan memulai proyek digital.\n\n*Nama:* ${formData.name}\n*WhatsApp:* ${formData.phone}\n*Email:* ${formData.email}\n*Pekerjaan/Bisnis:* ${formData.job}\n*Minat Proyek:* ${formData.package}\n\n*Detail Kebutuhan:*\n${formData.message}`
+      `Halo Mas Fahmi / LocaGo Creative!\nSaya ingin konsultasi dan memulai proyek digital.\n\n*Nama:* ${formData.name}\n*WhatsApp:* ${formData.phone}\n*Email:* ${formData.email}\n*Pekerjaan/Bisnis:* ${formData.job}\n*Minat Proyek:* ${formData.package}\n\n*Detail Kebutuhan:*\n${formData.message}`
     );
 
     // Redirect to WhatsApp

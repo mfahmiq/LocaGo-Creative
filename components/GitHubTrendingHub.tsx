@@ -1,4 +1,15 @@
 import React, { useState, useMemo, useEffect } from 'react';
+import { 
+  Zap, 
+  Calendar, 
+  Trophy, 
+  RefreshCw, 
+  ArrowUpRight, 
+  Flame, 
+  Heart, 
+  CheckCircle2, 
+  AlertCircle 
+} from 'lucide-react';
 import { GITHUB_TRENDING_LIST } from '../lib/data';
 import { GitHubTrendingItem } from '../types';
 
@@ -130,10 +141,10 @@ export const GitHubTrendingHub: React.FC = () => {
       if (data) {
         applyTrendingPayload(data, timeframe);
         setLastUpdated(data.updatedAt || `Hari ini, ${timeStr} (Sinkron Live)`);
-        setSyncNotice(`✓ Data live GitHub Trending (${timeframe}) diperbarui pada ${timeStr} — urutan #1..N tersinkron resmi!`);
+        setSyncNotice(`Data live GitHub Trending (${timeframe}) diperbarui pada ${timeStr} — urutan #1..N tersinkron resmi!`);
         setTimeout(() => setSyncNotice(null), 3500);
       } else {
-        setSyncNotice('⚠ Gagal mengambil data live terbaru. Menampilkan data tersimpan.');
+        setSyncNotice('Gagal mengambil data live terbaru. Menampilkan data tersimpan.');
         setTimeout(() => setSyncNotice(null), 3500);
       }
     } catch {
@@ -224,33 +235,36 @@ export const GitHubTrendingHub: React.FC = () => {
             <div className="flex items-center bg-neutral-100 dark:bg-neutral-950 p-1.5 rounded-xl border border-neutral-200 dark:border-neutral-800 w-full sm:w-auto">
               <button
                 onClick={() => setTimeframe('daily')}
-                className={`flex-1 sm:flex-initial px-4 py-1.5 rounded-lg text-xs font-mono font-bold transition-all cursor-pointer ${
+                className={`flex-1 sm:flex-initial px-4 py-1.5 rounded-lg text-xs font-mono font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
                   timeframe === 'daily'
                     ? 'bg-blue-600 text-white shadow-sm'
                     : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white'
                 }`}
               >
-                ⚡ Hari Ini (Daily)
+                <Zap className="w-3.5 h-3.5" />
+                <span>Hari Ini (Daily)</span>
               </button>
               <button
                 onClick={() => setTimeframe('weekly')}
-                className={`flex-1 sm:flex-initial px-4 py-1.5 rounded-lg text-xs font-mono font-bold transition-all cursor-pointer ${
+                className={`flex-1 sm:flex-initial px-4 py-1.5 rounded-lg text-xs font-mono font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
                   timeframe === 'weekly'
                     ? 'bg-blue-600 text-white shadow-sm'
                     : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white'
                 }`}
               >
-                📅 Minggu Ini
+                <Calendar className="w-3.5 h-3.5" />
+                <span>Minggu Ini</span>
               </button>
               <button
                 onClick={() => setTimeframe('monthly')}
-                className={`flex-1 sm:flex-initial px-4 py-1.5 rounded-lg text-xs font-mono font-bold transition-all cursor-pointer ${
+                className={`flex-1 sm:flex-initial px-4 py-1.5 rounded-lg text-xs font-mono font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
                   timeframe === 'monthly'
                     ? 'bg-blue-600 text-white shadow-sm'
                     : 'text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white'
                 }`}
               >
-                🏆 Bulan Ini
+                <Trophy className="w-3.5 h-3.5" />
+                <span>Bulan Ini</span>
               </button>
             </div>
 
@@ -264,7 +278,7 @@ export const GitHubTrendingHub: React.FC = () => {
                 disabled={isLiveLoading}
                 className="px-3.5 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white border border-blue-500 text-xs font-mono font-bold transition-all flex items-center gap-1.5 cursor-pointer disabled:opacity-50 shadow-sm"
               >
-                <span className={isLiveLoading ? 'animate-spin' : ''}>🔄</span>
+                <RefreshCw className={`w-3.5 h-3.5 ${isLiveLoading ? 'animate-spin' : ''}`} />
                 <span>{isLiveLoading ? 'Sinkronisasi...' : 'Cek Live'}</span>
               </button>
             </div>
@@ -272,7 +286,7 @@ export const GitHubTrendingHub: React.FC = () => {
 
           {syncNotice && (
             <div className="p-2.5 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800/60 text-emerald-700 dark:text-emerald-300 text-xs font-mono flex items-center gap-2 animate-fadeIn">
-              <span>⚡</span>
+              <CheckCircle2 className="w-4 h-4 text-emerald-500 shrink-0" />
               <span>{syncNotice}</span>
             </div>
           )}
@@ -373,7 +387,7 @@ export const GitHubTrendingHub: React.FC = () => {
                           className="hover:underline flex items-center gap-1.5"
                         >
                           <span>{repo.repo}</span>
-                          <span className="text-neutral-400 text-xs">↗</span>
+                          <ArrowUpRight className="w-3.5 h-3.5 text-neutral-400" />
                         </a>
                       </h3>
 
@@ -384,8 +398,9 @@ export const GitHubTrendingHub: React.FC = () => {
                       )}
 
                       {isTop3 && (
-                        <span className="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-rose-100 dark:bg-rose-500/10 text-rose-700 dark:text-rose-400 border border-rose-200 dark:border-rose-500/20">
-                          🔥 Breakout
+                        <span className="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-rose-100 dark:bg-rose-500/10 text-rose-700 dark:text-rose-400 border border-rose-200 dark:border-rose-500/20 inline-flex items-center gap-1">
+                          <Flame className="w-3 h-3 text-rose-500" />
+                          <span>Breakout</span>
                         </span>
                       )}
                     </div>
@@ -436,7 +451,7 @@ export const GitHubTrendingHub: React.FC = () => {
                     }`}
                     title="Dukung / Upvote repo ini"
                   >
-                    <span>{repo.isUpvoted ? '❤️' : '🤍'}</span>
+                    <Heart className={`w-3.5 h-3.5 ${repo.isUpvoted ? 'fill-rose-500 text-rose-500' : 'text-neutral-400'}`} />
                     <span>{repo.upvotesCount}</span>
                   </button>
 

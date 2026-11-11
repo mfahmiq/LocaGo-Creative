@@ -1,7 +1,7 @@
 # WORKFLOW STANDARDS — LOCAGO CREATIVE ECOSYSTEM
 ---
 
-## 🌐 STANDAR MUTU PRODUKSI & WORKFLOW EKOSISTEM LOCAGO CREATIVE (MUTLAK)
+## STANDAR MUTU PRODUKSI & WORKFLOW EKOSISTEM LOCAGO CREATIVE (MUTLAK)
 Setiap agen (Hermes, Arka, spesialis frontend, backend, content creator, dan daemon otomatisasi) WAJIB mematuhi 5 pilar workflow ekosistem LocaGo Creative berikut tanpa terkecuali:
 
 1. **AI Tools Ingestion (Anti-Broken Logo):**

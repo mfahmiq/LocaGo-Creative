@@ -1,4 +1,25 @@
 import React, { useState, useMemo, useEffect } from 'react';
+import { 
+  Sparkles, 
+  Crown, 
+  User, 
+  Lock, 
+  Search, 
+  Users, 
+  Star, 
+  FolderGit2, 
+  Link as LinkIcon, 
+  ArrowUpRight, 
+  Pencil, 
+  Trash2, 
+  X, 
+  Wrench, 
+  Check, 
+  Calendar, 
+  Eye, 
+  FileText, 
+  Video 
+} from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { LinkListItem, AIToolItem } from '../types';
 import { AI_TOOLS_LIST } from '../lib/data';
@@ -117,7 +138,7 @@ export const LinkListsHub: React.FC = () => {
   const copyShareLink = (id: string) => {
     const url = `${window.location.origin}/#ai-tools#linklist=${id}`;
     navigator.clipboard.writeText(url);
-    showToast('✅ Tautan LinkList berhasil disalin! Siap dibagikan ke Instagram DM/Reels.');
+    showToast('Tautan LinkList berhasil disalin! Siap dibagikan ke Instagram DM/Reels.');
   };
 
   const openPlaylist = (id: string) => {
@@ -147,7 +168,7 @@ export const LinkListsHub: React.FC = () => {
   // Open Edit Modal
   const handleOpenEdit = (item: LinkListItem) => {
     if (!canUserEditLinkList(item, user)) {
-      showToast('⚠️ Anda tidak memiliki izin untuk mengedit playlist ini.');
+      showToast('Anda tidak memiliki izin untuk mengedit playlist ini.');
       return;
     }
     setEditingList(item);
@@ -176,14 +197,14 @@ export const LinkListsHub: React.FC = () => {
       setFormManualLinkTitle('');
       setFormManualLinkUrl('');
       setFormManualLinkNote('');
-      showToast(`✨ Tool Terdeteksi! "${matchedTool.name}" telah terdaftar di LocaGo Creative. Otomatis dihubungkan menggunakan tautan resmi.`);
+      showToast(`Tool Terdeteksi! "${matchedTool.name}" telah terdaftar di LocaGo Creative. Otomatis dihubungkan menggunakan tautan resmi.`);
       return;
     }
 
     // 2. Not in catalog -> Run Anti-Affiliate Sanitizer
     const { cleanUrl, wasSanitized, reason } = sanitizeExternalUrl(rawUrl, isOwner);
     if (wasSanitized && !isOwner) {
-      showToast(`⚠️ ${reason || 'Tautan affiliate eksternal telah dinetralkan secara otomatis.'}`);
+      showToast(`${reason || 'Tautan affiliate eksternal telah dinetralkan secara otomatis.'}`);
     }
 
     const newLink = {
@@ -197,7 +218,7 @@ export const LinkListsHub: React.FC = () => {
     setFormManualLinkTitle('');
     setFormManualLinkUrl('');
     setFormManualLinkNote('');
-    showToast(`✅ Link manual "${rawTitle}" berhasil ditambahkan!`);
+    showToast(`Link manual "${rawTitle}" berhasil ditambahkan!`);
   };
 
   // Submit Create List
@@ -223,7 +244,7 @@ export const LinkListsHub: React.FC = () => {
 
     saveLists([newList, ...linkLists]);
     setIsCreateModalOpen(false);
-    showToast(`🎉 Playlist "${newList.title}" berhasil dibuat dan siap dibagikan!`);
+    showToast(`Playlist "${newList.title}" berhasil dibuat dan siap dibagikan!`);
   };
 
   // Submit Edit List
@@ -247,14 +268,14 @@ export const LinkListsHub: React.FC = () => {
 
     saveLists(updated);
     setEditingList(null);
-    showToast('✅ Perubahan playlist berhasil disimpan!');
+    showToast('Perubahan playlist berhasil disimpan!');
   };
 
   // Delete List
   const handleDeleteList = (id: string) => {
     const target = linkLists.find((l) => l.id === id);
     if (!target || !canUserEditLinkList(target, user)) {
-      showToast('⚠️ Anda tidak memiliki izin untuk menghapus playlist ini.');
+      showToast('Anda tidak memiliki izin untuk menghapus playlist ini.');
       return;
     }
 
@@ -271,7 +292,7 @@ export const LinkListsHub: React.FC = () => {
       {/* Toast Alert */}
       {toastMessage && (
         <div className="fixed bottom-6 right-6 z-50 px-4 py-3 rounded-xl bg-purple-600 text-white font-mono text-xs shadow-2xl flex items-center gap-2 animate-bounce">
-          <span>✨</span>
+          <Sparkles className="w-4 h-4 text-amber-300 shrink-0" />
           <span>{toastMessage}</span>
         </div>
       )}
@@ -302,7 +323,7 @@ export const LinkListsHub: React.FC = () => {
 
             {isLoggedIn ? (
               <div className="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 text-xs font-mono">
-                <span>{isOwner ? '👑' : '👤'}</span>
+                {isOwner ? <Crown className="w-3.5 h-3.5 text-amber-500" /> : <User className="w-3.5 h-3.5 text-neutral-400" />}
                 <span className="font-bold">{user?.name}</span>
                 <span className="text-[10px] text-neutral-500">({isOwner ? 'Owner' : 'Member'})</span>
               </div>
@@ -311,7 +332,7 @@ export const LinkListsHub: React.FC = () => {
                 onClick={openAuthModal}
                 className="px-4 py-2.5 rounded-xl bg-neutral-900 dark:bg-neutral-800 hover:bg-neutral-800 dark:hover:bg-neutral-700 text-white font-mono text-xs font-bold transition-all border border-neutral-700 flex items-center gap-2 cursor-pointer"
               >
-                <span>🔐</span>
+                <Lock className="w-3.5 h-3.5" />
                 <span>Masuk / Daftar Akun</span>
               </button>
             )}
@@ -329,7 +350,7 @@ export const LinkListsHub: React.FC = () => {
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-950 text-xs font-mono focus:outline-none focus:ring-2 focus:ring-purple-500"
               />
-              <span className="absolute left-3.5 top-3 text-neutral-400 text-xs">🔍</span>
+              <Search className="absolute left-3.5 top-3.5 w-4 h-4 text-neutral-400" />
             </div>
 
             <div className="flex items-center gap-2 overflow-x-auto w-full sm:w-auto">
@@ -352,7 +373,7 @@ export const LinkListsHub: React.FC = () => {
                     : 'bg-neutral-100 dark:bg-neutral-950 text-neutral-600 dark:text-neutral-400 border border-neutral-200 dark:border-neutral-800'
                 }`}
               >
-                👑 Kurasi Mas Fahmi
+                <span className="inline-flex items-center gap-1.5"><Crown className="w-3.5 h-3.5 text-amber-500" /><span>Kurasi Mas Fahmi</span></span>
               </button>
 
               <button
@@ -363,7 +384,7 @@ export const LinkListsHub: React.FC = () => {
                     : 'bg-neutral-100 dark:bg-neutral-950 text-neutral-600 dark:text-neutral-400 border border-neutral-200 dark:border-neutral-800'
                 }`}
               >
-                👥 Komunitas
+                <span className="inline-flex items-center gap-1.5"><Users className="w-3.5 h-3.5" /><span>Komunitas</span></span>
               </button>
 
               {isLoggedIn && (
@@ -375,7 +396,7 @@ export const LinkListsHub: React.FC = () => {
                       : 'bg-neutral-100 dark:bg-neutral-950 text-neutral-600 dark:text-neutral-400 border border-neutral-200 dark:border-neutral-800'
                   }`}
                 >
-                  ⭐ Milik Saya
+                  <span className="inline-flex items-center gap-1.5"><Star className="w-3.5 h-3.5 text-amber-400" /><span>Milik Saya</span></span>
                 </button>
               )}
             </div>
@@ -407,7 +428,7 @@ export const LinkListsHub: React.FC = () => {
                           : 'bg-purple-50 dark:bg-purple-950/40 text-purple-700 dark:text-purple-300 border-purple-200 dark:border-purple-800'
                       }`}
                     >
-                      {isOfficial ? '👑 Kurasi Resmi Mas Fahmi' : `👤 ${list.authorName || 'Member'}`}
+                      {isOfficial ? <span className="inline-flex items-center gap-1"><Crown className="w-3 h-3 text-amber-500" /> Kurasi Resmi Mas Fahmi</span> : <span className="inline-flex items-center gap-1"><User className="w-3 h-3 text-neutral-400" /> {list.authorName || 'Member'}</span>}
                     </span>
 
                     <span className="text-[10px] font-mono text-neutral-400">{list.createdAt}</span>
@@ -428,9 +449,9 @@ export const LinkListsHub: React.FC = () => {
                   {/* Tools preview badges */}
                   <div className="space-y-2 mb-5">
                     <div className="flex items-center gap-2 text-[11px] font-mono text-neutral-500">
-                      <span>🗂️ {list.toolIds.length} tools terpilih</span>
+                      <span className="inline-flex items-center gap-1"><FolderGit2 className="w-3 h-3" /> <span>{list.toolIds.length} tools terpilih</span></span>
                       <span>•</span>
-                      <span>🔗 {(list.customLinks || []).length} link manual</span>
+                      <span className="inline-flex items-center gap-1"><LinkIcon className="w-3 h-3" /> <span>{(list.customLinks || []).length} link manual</span></span>
                     </div>
 
                     <div className="flex flex-wrap gap-1.5">
@@ -462,15 +483,16 @@ export const LinkListsHub: React.FC = () => {
                       className="px-3.5 py-2 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-mono text-xs font-bold transition-all shadow-sm active:scale-95 cursor-pointer flex items-center gap-1"
                     >
                       <span>Buka</span>
-                      <span>↗</span>
+                      <ArrowUpRight className="w-3.5 h-3.5" />
                     </button>
 
                     <button
                       onClick={() => copyShareLink(list.id)}
-                      className="px-3 py-2 rounded-xl bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 text-neutral-800 dark:text-neutral-200 font-mono text-xs font-bold transition-all cursor-pointer"
+                      className="px-3 py-2 rounded-xl bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 text-neutral-800 dark:text-neutral-200 font-mono text-xs font-bold transition-all cursor-pointer inline-flex items-center gap-1.5"
                       title="Salin Link Share"
                     >
-                      🔗 Share
+                      <LinkIcon className="w-3.5 h-3.5" />
+                      <span>Share</span>
                     </button>
                   </div>
 
@@ -478,17 +500,18 @@ export const LinkListsHub: React.FC = () => {
                     <div className="flex items-center gap-1">
                       <button
                         onClick={() => handleOpenEdit(list)}
-                        className="px-2.5 py-1.5 rounded-lg bg-neutral-200 dark:bg-neutral-800 hover:bg-neutral-300 text-neutral-800 dark:text-neutral-200 font-mono text-xs font-bold transition-all cursor-pointer"
+                        className="px-2.5 py-1.5 rounded-lg bg-neutral-200 dark:bg-neutral-800 hover:bg-neutral-300 text-neutral-800 dark:text-neutral-200 font-mono text-xs font-bold transition-all cursor-pointer inline-flex items-center gap-1"
                         title="Edit Playlist Saya"
                       >
-                        ✏️ Edit
+                        <Pencil className="w-3 h-3" />
+                        <span>Edit</span>
                       </button>
                       <button
                         onClick={() => handleDeleteList(list.id)}
                         className="p-1.5 text-neutral-400 hover:text-rose-500 transition-colors cursor-pointer"
                         title="Hapus Playlist"
                       >
-                        🗑️
+                        <Trash2 className="w-3.5 h-3.5" />
                       </button>
                     </div>
                   )}
@@ -507,13 +530,14 @@ export const LinkListsHub: React.FC = () => {
                   setIsCreateModalOpen(false);
                   setEditingList(null);
                 }}
-                className="absolute top-5 right-5 text-neutral-400 hover:text-white font-mono text-xl cursor-pointer"
+                className="absolute top-5 right-5 text-neutral-400 hover:text-neutral-700 dark:hover:text-white font-mono cursor-pointer p-1"
+                aria-label="Tutup modal"
               >
-                ✕
+                <X className="w-5 h-5" />
               </button>
 
               <h3 className="text-xl font-bold mb-1">
-                {editingList ? '✏️ Edit Playlist LinkList' : '✨ Buat Playlist LinkList Baru'}
+                {editingList ? <span className="inline-flex items-center gap-2"><Pencil className="w-5 h-5" /> Edit Playlist LinkList</span> : <span className="inline-flex items-center gap-2"><Sparkles className="w-5 h-5 text-amber-500" /> Buat Playlist LinkList Baru</span>}
               </h3>
               <p className="text-xs text-neutral-500 font-mono mb-6">
                 Kurasi tool AI dan link rekomendasi untuk konten media sosial Anda.
@@ -562,8 +586,9 @@ export const LinkListsHub: React.FC = () => {
 
                 {/* SECTION: SELECT TOOLS FROM CATALOG */}
                 <div className="pt-3 border-t border-neutral-200 dark:border-neutral-800">
-                  <label className="block text-xs font-mono font-bold text-neutral-700 dark:text-neutral-300 mb-2">
-                    🛠️ Pilih Tool AI dari Katalog LocaGo ({selectedToolIds.length} dipilih)
+                  <label className="block text-xs font-mono font-bold text-neutral-700 dark:text-neutral-300 mb-2 flex items-center gap-1.5">
+                    <Wrench className="w-4 h-4 text-purple-500" />
+                    <span>Pilih Tool AI dari Katalog LocaGo ({selectedToolIds.length} dipilih)</span>
                   </label>
                   <input
                     type="text"
@@ -595,7 +620,7 @@ export const LinkListsHub: React.FC = () => {
                                 : 'bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-neutral-200'
                             }`}
                           >
-                            {isSelected ? '✓ ' : '+ '}
+                            {isSelected ? <Check className="w-3 h-3 inline mr-1" /> : '+ '}
                             {t.name}
                           </button>
                         );
@@ -606,8 +631,9 @@ export const LinkListsHub: React.FC = () => {
                 {/* SECTION: ADD MANUAL CUSTOM LINK */}
                 <div className="pt-3 border-t border-neutral-200 dark:border-neutral-800">
                   <div className="flex items-center justify-between mb-2">
-                    <label className="block text-xs font-mono font-bold text-neutral-700 dark:text-neutral-300">
-                      🔗 Tambah Tautan Manual Custom ({pendingCustomLinks.length} tautan)
+                    <label className="block text-xs font-mono font-bold text-neutral-700 dark:text-neutral-300 flex items-center gap-1.5">
+                      <LinkIcon className="w-4 h-4 text-purple-500" />
+                      <span>Tambah Tautan Manual Custom ({pendingCustomLinks.length} tautan)</span>
                     </label>
                     <span className="text-[10px] font-mono text-purple-600 dark:text-purple-400">
                       Auto-Deduplikasi Aktif
@@ -710,15 +736,15 @@ export const LinkListsHub: React.FC = () => {
                   <div className="flex items-center gap-2 mb-2 flex-wrap">
                     {viewingList.isOfficial ? (
                       <span className="text-[10px] font-mono px-2.5 py-0.5 rounded-full bg-amber-500/10 text-amber-600 dark:text-amber-400 border border-amber-500/20 font-bold">
-                        👑 Kurasi Resmi Mas Fahmi
+                        <span className="inline-flex items-center gap-1"><Crown className="w-3 h-3 text-amber-500" /> Kurasi Resmi Mas Fahmi</span>
                       </span>
                     ) : (
                       <span className="text-[10px] font-mono px-2.5 py-0.5 rounded-full bg-purple-500/10 text-purple-600 dark:text-purple-400 border border-purple-500/20 font-bold">
-                        👥 Kurasi Komunitas
+                        <span className="inline-flex items-center gap-1"><Users className="w-3 h-3 text-purple-400" /> Kurasi Komunitas</span>
                       </span>
                     )}
-                    <span className="text-[11px] text-neutral-400 font-mono">📅 {viewingList.createdAt}</span>
-                    <span className="text-[11px] text-neutral-400 font-mono">👁️ {viewingList.views || 350} views</span>
+                    <span className="text-[11px] text-neutral-400 font-mono inline-flex items-center gap-1"><Calendar className="w-3 h-3" /> {viewingList.createdAt}</span>
+                    <span className="text-[11px] text-neutral-400 font-mono inline-flex items-center gap-1"><Eye className="w-3 h-3" /> {viewingList.views || 350} views</span>
                   </div>
                   <h2 className="text-xl font-bold text-neutral-900 dark:text-white leading-snug">
                     {viewingList.title}
@@ -733,7 +759,7 @@ export const LinkListsHub: React.FC = () => {
                   className="w-8 h-8 rounded-full bg-neutral-100 dark:bg-neutral-800 text-neutral-500 hover:text-neutral-900 dark:hover:text-white flex items-center justify-center font-bold text-sm cursor-pointer shrink-0 transition-all"
                   title="Tutup"
                 >
-                  ✕
+                  <X className="w-4 h-4" />
                 </button>
               </div>
 
@@ -742,7 +768,7 @@ export const LinkListsHub: React.FC = () => {
                 {/* Notes */}
                 {viewingList.notes && (
                   <div className="p-3.5 rounded-xl bg-purple-50 dark:bg-purple-950/30 border border-purple-200 dark:border-purple-900/50 text-xs text-neutral-700 dark:text-neutral-300 leading-relaxed flex items-start gap-2.5">
-                    <span className="text-base shrink-0">📝</span>
+                    <FileText className="w-4 h-4 text-purple-600 dark:text-purple-400 shrink-0 mt-0.5" />
                     <div>
                       <div className="font-bold text-purple-700 dark:text-purple-300 mb-0.5 font-mono text-[11px]">Catatan Khusus Kreator:</div>
                       {viewingList.notes}
@@ -754,7 +780,7 @@ export const LinkListsHub: React.FC = () => {
                 {viewingList.videoUrl && (
                   <div className="flex items-center justify-between p-3 rounded-xl bg-neutral-100 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 text-xs">
                     <div className="flex items-center gap-2 truncate">
-                      <span>📹</span>
+                      <Video className="w-4 h-4 text-rose-500 shrink-0" />
                       <span className="text-neutral-700 dark:text-neutral-300 truncate">Tonton Video Pembahasan:</span>
                     </div>
                     <a
@@ -763,7 +789,7 @@ export const LinkListsHub: React.FC = () => {
                       rel="noopener noreferrer"
                       className="text-purple-600 dark:text-purple-400 font-bold hover:underline shrink-0 ml-2"
                     >
-                      Buka Tautan Video ↗
+                      Buka Tautan Video <ArrowUpRight className="w-3.5 h-3.5 inline ml-1" />
                     </a>
                   </div>
                 )}
@@ -820,7 +846,7 @@ export const LinkListsHub: React.FC = () => {
                             rel="noopener noreferrer"
                             className="px-3.5 py-1.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-mono text-xs font-bold shrink-0 transition-all shadow-sm active:scale-95"
                           >
-                            Buka ↗
+                            Buka <ArrowUpRight className="w-3.5 h-3.5 inline ml-1" />
                           </a>
                         </div>
                       );
@@ -850,7 +876,7 @@ export const LinkListsHub: React.FC = () => {
                             rel="noopener noreferrer"
                             className="px-3 py-1.5 rounded-xl bg-neutral-200 dark:bg-neutral-800 hover:bg-neutral-300 dark:hover:bg-neutral-700 text-neutral-800 dark:text-neutral-200 font-mono text-xs font-bold shrink-0 transition-all"
                           >
-                            Kunjungi ↗
+                            Kunjungi <ArrowUpRight className="w-3.5 h-3.5 inline ml-1" />
                           </a>
                         </div>
                       ))}
@@ -865,7 +891,7 @@ export const LinkListsHub: React.FC = () => {
                   onClick={() => copyShareLink(viewingList.id)}
                   className="px-4 py-2 rounded-xl border border-neutral-300 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800 font-mono text-xs font-bold text-neutral-700 dark:text-neutral-300 cursor-pointer flex items-center gap-1.5 transition-all"
                 >
-                  <span>🔗 Salin Link Share</span>
+                  <span className="inline-flex items-center gap-1.5"><LinkIcon className="w-3.5 h-3.5" /> <span>Salin Link Share</span></span>
                 </button>
 
                 <div className="flex items-center gap-2">
