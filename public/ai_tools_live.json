@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 12:37 WIB",
-  "total": 264,
+  "updatedAt": "11 Nov 2026, 13:07 WIB",
+  "total": 265,
   "items": [
+    {
+      "id": "ai-buzz-mail",
+      "name": "Buzz Mail",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Buzz Mail - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "AI email assistant",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/buzz-mail.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://workspace.google.com/marketplace/app/buzz_mail/650469784389"
+    },
     {
       "id": "ai-chatbotkit",
       "name": "ChatBotKit",
