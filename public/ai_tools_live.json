@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 08:36 WIB",
-  "total": 368,
+  "updatedAt": "11 Nov 2026, 09:06 WIB",
+  "total": 369,
   "items": [
+    {
+      "id": "ai-veilcc",
+      "name": "VeilCC",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "VeilCC - Produk AI Baru Terpilih di Product Hunt",
+      "description": "VeilCC adalah produk AI baru terverifikasi yang diluncurkan di Product Hunt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/veilcc.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.producthunt.com/products/veilcc"
+    },
     {
       "id": "ai-mem",
       "name": "Mem",
