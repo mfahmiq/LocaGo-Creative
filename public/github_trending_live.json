@@ -1,5 +1,5 @@
 {
-  "updatedAt": "11 Nov 2026, 06:34 WIB",
+  "updatedAt": "11 Nov 2026, 07:34 WIB",
   "total": 12,
   "items": [
     {
@@ -13,17 +13,17 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "oneSentencePitch": "An open source design system that's fully customizable and agent ready",
       "rank": 1,
-      "totalStars": "22.7k",
-      "starsToday": 3111,
-      "starsGrowthText": "+3,111 stars today",
-      "growthRate": "+3111 stars hari ini",
+      "totalStars": "22.8k",
+      "starsToday": 3108,
+      "starsGrowthText": "+3,108 stars today",
+      "growthRate": "+3108 stars hari ini",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #1 di GitHub Trending Today",
-        "Pertumbuhan pesat: +3,111 stars today",
+        "Pertumbuhan pesat: +3,108 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -39,16 +39,16 @@
       "oneSentencePitch": "Public repository for Agent Skills",
       "rank": 2,
       "totalStars": "192.3k",
-      "starsToday": 1676,
-      "starsGrowthText": "+1,676 stars today",
-      "growthRate": "+1676 stars hari ini",
+      "starsToday": 1679,
+      "starsGrowthText": "+1,679 stars today",
+      "growthRate": "+1679 stars hari ini",
       "topics": [
         "ai",
         "python"
       ],
       "features": [
         "Trending resmi #2 di GitHub Trending Today",
-        "Pertumbuhan pesat: +1,676 stars today",
+        "Pertumbuhan pesat: +1,679 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -63,7 +63,7 @@
       "description": "Production-grade engineering skills for AI coding agents.",
       "oneSentencePitch": "Production-grade engineering skills for AI coding agents.",
       "rank": 3,
-      "totalStars": "115.1k",
+      "totalStars": "115.2k",
       "starsToday": 465,
       "starsGrowthText": "+465 stars today",
       "growthRate": "+465 stars hari ini",
@@ -89,16 +89,16 @@
       "oneSentencePitch": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
       "rank": 4,
       "totalStars": "20.5k",
-      "starsToday": 530,
-      "starsGrowthText": "+530 stars today",
-      "growthRate": "+530 stars hari ini",
+      "starsToday": 531,
+      "starsGrowthText": "+531 stars today",
+      "growthRate": "+531 stars hari ini",
       "topics": [
         "ai",
         "python"
       ],
       "features": [
         "Trending resmi #4 di GitHub Trending Today",
-        "Pertumbuhan pesat: +530 stars today",
+        "Pertumbuhan pesat: +531 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -114,16 +114,16 @@
       "oneSentencePitch": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
       "rank": 5,
       "totalStars": "17.3k",
-      "starsToday": 453,
-      "starsGrowthText": "+453 stars today",
-      "growthRate": "+453 stars hari ini",
+      "starsToday": 456,
+      "starsGrowthText": "+456 stars today",
+      "growthRate": "+456 stars hari ini",
       "topics": [
         "productivity",
         "c++"
       ],
       "features": [
         "Trending resmi #5 di GitHub Trending Today",
-        "Pertumbuhan pesat: +453 stars today",
+        "Pertumbuhan pesat: +456 stars today",
         "Ditulis menggunakan bahasa C++"
       ]
     },
@@ -139,16 +139,16 @@
       "oneSentencePitch": "The personal finance app for everyone (by everyone)",
       "rank": 6,
       "totalStars": "11.9k",
-      "starsToday": 184,
-      "starsGrowthText": "+184 stars today",
-      "growthRate": "+184 stars hari ini",
+      "starsToday": 159,
+      "starsGrowthText": "+159 stars today",
+      "growthRate": "+159 stars hari ini",
       "topics": [
         "productivity",
         "ruby"
       ],
       "features": [
         "Trending resmi #6 di GitHub Trending Today",
-        "Pertumbuhan pesat: +184 stars today",
+        "Pertumbuhan pesat: +159 stars today",
         "Ditulis menggunakan bahasa Ruby"
       ]
     },
@@ -164,16 +164,16 @@
       "oneSentencePitch": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
       "rank": 7,
       "totalStars": "6.6k",
-      "starsToday": 792,
-      "starsGrowthText": "+792 stars today",
-      "growthRate": "+792 stars hari ini",
+      "starsToday": 790,
+      "starsGrowthText": "+790 stars today",
+      "growthRate": "+790 stars hari ini",
       "topics": [
         "ai",
         "python"
       ],
       "features": [
         "Trending resmi #7 di GitHub Trending Today",
-        "Pertumbuhan pesat: +792 stars today",
+        "Pertumbuhan pesat: +790 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -189,16 +189,16 @@
       "oneSentencePitch": "Browser automation CLI for AI agents",
       "rank": 8,
       "totalStars": "49.2k",
-      "starsToday": 775,
-      "starsGrowthText": "+775 stars today",
-      "growthRate": "+775 stars hari ini",
+      "starsToday": 780,
+      "starsGrowthText": "+780 stars today",
+      "growthRate": "+780 stars hari ini",
       "topics": [
         "ai",
         "rust"
       ],
       "features": [
         "Trending resmi #8 di GitHub Trending Today",
-        "Pertumbuhan pesat: +775 stars today",
+        "Pertumbuhan pesat: +780 stars today",
         "Ditulis menggunakan bahasa Rust"
       ]
     },
@@ -213,17 +213,17 @@
       "description": "Hunt down social media accounts by username across social networks",
       "oneSentencePitch": "Hunt down social media accounts by username across social networks",
       "rank": 9,
-      "totalStars": "108.9k",
-      "starsToday": 2387,
-      "starsGrowthText": "+2,387 stars today",
-      "growthRate": "+2387 stars hari ini",
+      "totalStars": "109.0k",
+      "starsToday": 2393,
+      "starsGrowthText": "+2,393 stars today",
+      "growthRate": "+2393 stars hari ini",
       "topics": [
         "productivity",
         "python"
       ],
       "features": [
         "Trending resmi #9 di GitHub Trending Today",
-        "Pertumbuhan pesat: +2,387 stars today",
+        "Pertumbuhan pesat: +2,393 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -264,16 +264,16 @@
       "oneSentencePitch": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
       "rank": 11,
       "totalStars": "6.3k",
-      "starsToday": 374,
-      "starsGrowthText": "+374 stars today",
-      "growthRate": "+374 stars hari ini",
+      "starsToday": 375,
+      "starsGrowthText": "+375 stars today",
+      "growthRate": "+375 stars hari ini",
       "topics": [
         "productivity",
         "typescript"
       ],
       "features": [
         "Trending resmi #11 di GitHub Trending Today",
-        "Pertumbuhan pesat: +374 stars today",
+        "Pertumbuhan pesat: +375 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -289,16 +289,16 @@
       "oneSentencePitch": "Skills for Real Engineers. Straight from my .agents directory.",
       "rank": 12,
       "totalStars": "320.9k",
-      "starsToday": 1223,
-      "starsGrowthText": "+1,223 stars today",
-      "growthRate": "+1223 stars hari ini",
+      "starsToday": 1225,
+      "starsGrowthText": "+1,225 stars today",
+      "growthRate": "+1225 stars hari ini",
       "topics": [
         "ai",
         "shell"
       ],
       "features": [
         "Trending resmi #12 di GitHub Trending Today",
-        "Pertumbuhan pesat: +1,223 stars today",
+        "Pertumbuhan pesat: +1,225 stars today",
         "Ditulis menggunakan bahasa Shell"
       ]
     }
