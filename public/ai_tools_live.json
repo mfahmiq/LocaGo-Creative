@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 22:29 WIB",
-  "total": 255,
+  "updatedAt": "11 Nov 2026, 22:57 WIB",
+  "total": 256,
   "items": [
+    {
+      "id": "ai-point-e",
+      "name": "Point-e",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Point-e - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "AI Generative 3D Models",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/point-e.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://github.com/openai/point-e"
+    },
     {
       "id": "ai-decoherence",
       "name": "Decoherence",
