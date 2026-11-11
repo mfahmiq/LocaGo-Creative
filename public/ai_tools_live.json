@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 04:04 WIB",
-  "total": 267,
+  "updatedAt": "12 Nov 2026, 04:34 WIB",
+  "total": 268,
   "items": [
+    {
+      "id": "ai-clonedub",
+      "name": "CloneDub",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "CloneDub - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "A tool to converts audio files, YouTube links, and audio links into other languages.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/clonedub.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.clonedub.com"
+    },
     {
       "id": "ai-tweetify-it",
       "name": "Tweetify It",
