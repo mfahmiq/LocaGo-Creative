@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 23:58 WIB",
-  "total": 258,
+  "updatedAt": "12 Nov 2026, 00:03 WIB",
+  "total": 259,
   "items": [
+    {
+      "id": "ai-supermeme-ai",
+      "name": "Supermeme.ai",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Supermeme.ai - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "An AI-powered meme generator",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/supermeme-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.supermeme.ai"
+    },
     {
       "id": "ai-polycam",
       "name": "Polycam",
