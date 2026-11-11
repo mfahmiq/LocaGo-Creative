@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 03:04 WIB",
-  "total": 265,
+  "updatedAt": "12 Nov 2026, 03:34 WIB",
+  "total": 266,
   "items": [
+    {
+      "id": "ai-neural-frames",
+      "name": "Neural Frames",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Neural Frames - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "A platform to convert text into video.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/neural-frames.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.neuralframes.com"
+    },
     {
       "id": "ai-vectorizer-ai",
       "name": "Vectorizer.AI",
