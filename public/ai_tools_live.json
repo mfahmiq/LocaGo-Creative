@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 06:05 WIB",
-  "total": 271,
+  "updatedAt": "12 Nov 2026, 06:35 WIB",
+  "total": 272,
   "items": [
+    {
+      "id": "ai-copilotly",
+      "name": "Copilotly",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "Copilotly - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "An ai assistant to improve writing, research, and problem-solving.",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/copilotly.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.copilotly.com"
+    },
     {
       "id": "ai-realtygenius-ai",
       "name": "RealtyGenius.AI",
