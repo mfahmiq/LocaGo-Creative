@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 11:37 WIB",
-  "total": 262,
+  "updatedAt": "11 Nov 2026, 12:07 WIB",
+  "total": 263,
   "items": [
+    {
+      "id": "ai-sand3d-explorer",
+      "name": "Sand3D Explorer",
+      "category": "Generative Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (23 Upvotes)",
+      "description": "Sand3D Explorer adalah model dan aplikasi demo AI interaktif dari kreator Sandflow di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/sand3d-explorer.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/Sandflow/sand3d-explorer"
+    },
     {
       "id": "ai-avatar-ai",
       "name": "Avatar AI",
