@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 16:51 WIB",
-  "total": 273,
+  "updatedAt": "11 Nov 2026, 17:06 WIB",
+  "total": 274,
   "items": [
+    {
+      "id": "ai-voila",
+      "name": "Voila",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Voila - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A Google Chrome Extension to automatically creating copy, summarizing and translating text, responding to emails.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/voila.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.getvoila.ai"
+    },
     {
       "id": "ai-mapsgpt",
       "name": "MapsGPT",
