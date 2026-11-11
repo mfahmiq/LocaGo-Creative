@@ -67,6 +67,7 @@ export interface SourceCodeItem {
   keyFeatures: string[];
   downloadUrlFree: string; // Goes to safelink loop dwollopus.eu.org
   downloadUrlFast: string; // Direct VIP link / QRIS donation
+  driveUrl?: string;
 }
 
 export interface GitHubTrendingItem {
