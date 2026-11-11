@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 14:38 WIB",
-  "total": 268,
+  "updatedAt": "11 Nov 2026, 15:08 WIB",
+  "total": 269,
   "items": [
+    {
+      "id": "ai-expertai",
+      "name": "ExpertAI",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "ExpertAI - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "Connects users with AI &quot;experts&quot; in a variety of fields",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/expertai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.experai.com"
+    },
     {
       "id": "ai-cloudinary",
       "name": "Cloudinary",
