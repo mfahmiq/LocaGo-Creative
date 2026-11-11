@@ -4,6 +4,7 @@ import { GitHubTrendingItem } from '../types';
 
 interface TrendingLivePayload {
   updatedAt?: string;
+  timeframe?: 'daily' | 'weekly' | 'monthly';
   total?: number;
   items?: GitHubTrendingItem[];
   daily?: GitHubTrendingItem[];
@@ -21,26 +22,61 @@ export const GitHubTrendingHub: React.FC = () => {
   const [isLiveLoading, setIsLiveLoading] = useState<boolean>(false);
   const [lastUpdated, setLastUpdated] = useState<string>('Hari ini, Real-Time');
 
-  // Load live JSON if available on mount
-  useEffect(() => {
-    fetch('/github_trending_live.json?t=' + Date.now())
-      .then((res) => {
-        if (!res.ok) throw new Error('Live JSON not found');
-        return res.json();
-      })
-      .then((data: TrendingLivePayload) => {
-        setTrendingPayload(data);
-        if (data.daily && data.daily.length > 0) {
-          setRepos(data.daily);
-        } else if (data.items && data.items.length > 0) {
-          setRepos(data.items);
+  const applyTrendingPayload = (data: TrendingLivePayload, tf: 'daily' | 'weekly' | 'monthly') => {
+    setTrendingPayload(data);
+    const activeItems =
+      (tf === 'weekly' && data.weekly && data.weekly.length > 0 ? data.weekly : null) ||
+      (tf === 'monthly' && data.monthly && data.monthly.length > 0 ? data.monthly : null) ||
+      (tf === 'daily' && data.daily && data.daily.length > 0 ? data.daily : null) ||
+      (data.items && data.items.length > 0 ? data.items : null);
+    if (activeItems) {
+      setRepos(activeItems);
+    }
+    if (data.updatedAt) {
+      setLastUpdated(data.updatedAt);
+    }
+  };
+
+  const fetchTrendingPayload = async (tf: 'daily' | 'weekly' | 'monthly', bustCache = false): Promise<TrendingLivePayload | null> => {
+    const cacheParam = bustCache ? `&t=${Date.now()}` : '';
+    try {
+      const apiRes = await fetch(`/api/github-trending?since=${tf}${cacheParam}`);
+      if (apiRes.ok) {
+        const data: TrendingLivePayload = await apiRes.json();
+        if (data && ((data.items && data.items.length > 0) || (data[tf] && data[tf]!.length > 0))) {
+          return data;
         }
-        if (data.updatedAt) setLastUpdated(data.updatedAt);
-      })
-      .catch(() => {
-        // Fallback to static GITHUB_TRENDING_LIST
-      });
-  }, []);
+      }
+    } catch {
+      // Fallback to static live shard
+    }
+
+    try {
+      const fallbackRes = await fetch(`/github_trending_live.json?t=${Date.now()}`);
+      if (fallbackRes.ok) {
+        const data: TrendingLivePayload = await fallbackRes.json();
+        if (data && ((data.items && data.items.length > 0) || (data[tf] && data[tf]!.length > 0))) {
+          return data;
+        }
+      }
+    } catch {
+      // Fallback to static GITHUB_TRENDING_LIST
+    }
+    return null;
+  };
+
+  // Fetch live data on mount and whenever timeframe changes
+  useEffect(() => {
+    let cancelled = false;
+    fetchTrendingPayload(timeframe).then((data) => {
+      if (!cancelled && data) {
+        applyTrendingPayload(data, timeframe);
+      }
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [timeframe]);
 
   // Upvotes state stored in localStorage
   const [upvotes, setUpvotes] = useState<Record<string, number>>(() => {
@@ -61,7 +97,6 @@ export const GitHubTrendingHub: React.FC = () => {
     }
   });
 
-  const languages = ['Semua', 'TypeScript', 'Python', 'Rust', 'Go', 'JavaScript', 'C'];
   const topics = ['Semua', 'AI Agents & LLM', 'Dev Tools & Automation', 'Web & Scrapers', 'Productivity & Media'];
 
   const toggleUpvote = (id: string, defaultStars: number) => {
@@ -91,34 +126,21 @@ export const GitHubTrendingHub: React.FC = () => {
       const now = new Date();
       const timeStr = `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}:${now.getSeconds().toString().padStart(2, '0')} WIB`;
 
-      // Try fetching live file with cache-buster
-      const res = await fetch('/github_trending_live.json?t=' + Date.now());
-      let itemsList = repos;
-      if (res.ok) {
-        const data = await res.json();
-        if (data.items && data.items.length > 0) {
-          itemsList = data.items;
-        }
+      const data = await fetchTrendingPayload(timeframe, true);
+      if (data) {
+        applyTrendingPayload(data, timeframe);
+        setLastUpdated(data.updatedAt || `Hari ini, ${timeStr} (Sinkron Live)`);
+        setSyncNotice(`✓ Data live GitHub Trending (${timeframe}) diperbarui pada ${timeStr} — urutan #1..N tersinkron resmi!`);
+        setTimeout(() => setSyncNotice(null), 3500);
+      } else {
+        setSyncNotice('⚠ Gagal mengambil data live terbaru. Menampilkan data tersimpan.');
+        setTimeout(() => setSyncNotice(null), 3500);
       }
-
-      // Apply real-time live delta momentum simulation (stars pulse + rank shift)
-      const updated = itemsList.map((repo) => {
-        const delta = Math.floor(Math.random() * 8) + 1; // Realtime live stars delta
-        return {
-          ...repo,
-          starsToday: repo.starsToday + delta
-        };
-      });
-
-      setRepos(updated);
-      setLastUpdated(`Hari ini, ${timeStr} (Sinkron Live)`);
-      setSyncNotice(`✓ Data live diperbarui pada ${timeStr} — ranking & stars velocity terkalibrasi!`);
-      setTimeout(() => setSyncNotice(null), 3500);
     } catch {
       const now = new Date();
       setLastUpdated(`Hari ini, ${now.toLocaleTimeString('id-ID')} WIB`);
     } finally {
-      setTimeout(() => setIsLiveLoading(false), 500);
+      setIsLiveLoading(false);
     }
   };
 
@@ -133,33 +155,50 @@ export const GitHubTrendingHub: React.FC = () => {
       if (timeframe === 'daily' && trendingPayload.daily && trendingPayload.daily.length > 0) {
         return trendingPayload.daily;
       }
+      if (trendingPayload.items && trendingPayload.items.length > 0) {
+        return trendingPayload.items;
+      }
     }
     return repos;
   }, [trendingPayload, timeframe, repos]);
 
+  const languages = useMemo(() => {
+    const uniqueLangs = Array.from(
+      new Set(currentActiveList.map((r) => r.language).filter((l): l is string => Boolean(l)))
+    );
+    return ['Semua', ...uniqueLangs];
+  }, [currentActiveList]);
+
+  useEffect(() => {
+    if (selectedLanguage !== 'Semua' && !languages.includes(selectedLanguage)) {
+      setSelectedLanguage('Semua');
+    }
+  }, [languages, selectedLanguage]);
+
   const filteredAndRankedRepos = useMemo(() => {
+    const query = searchQuery.trim().toLowerCase();
     return currentActiveList
       .filter((repo) => {
         const matchLang = selectedLanguage === 'Semua' || repo.language === selectedLanguage;
         const matchTopic = selectedTopic === 'Semua' || repo.category === selectedTopic;
         const matchSearch =
-          repo.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          repo.repo.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          (repo.oneSentencePitch && repo.oneSentencePitch.toLowerCase().includes(searchQuery.toLowerCase()));
+          !query ||
+          repo.name.toLowerCase().includes(query) ||
+          repo.repo.toLowerCase().includes(query) ||
+          (repo.oneSentencePitch && repo.oneSentencePitch.toLowerCase().includes(query));
         return matchLang && matchTopic && matchSearch;
       })
       .map((repo, idx) => {
         const upvoteVal = upvotes[repo.id] !== undefined ? upvotes[repo.id] : repo.starsToday;
         return {
           ...repo,
-          rank: idx + 1,
+          rank: repo.rank ?? idx + 1,
           calculatedGain: repo.starsToday,
           upvotesCount: upvoteVal,
           isUpvoted: !!userVoted[repo.id]
         };
-      })
-      .sort((a, b) => b.starsToday - a.starsToday);
-  }, [repos, timeframe, selectedLanguage, selectedTopic, searchQuery, upvotes, userVoted]);
+      });
+  }, [currentActiveList, selectedLanguage, selectedTopic, searchQuery, upvotes, userVoted]);
 
   return (
     <section id="github-trending" className="pt-28 pb-20 bg-neutral-50/60 dark:bg-neutral-950 text-neutral-900 dark:text-white min-h-screen relative overflow-hidden transition-colors duration-200">
@@ -298,7 +337,7 @@ export const GitHubTrendingHub: React.FC = () => {
         {/* Repos Card Grid */}
         <div className="space-y-4">
           {filteredAndRankedRepos.map((repo, index) => {
-            const rank = index + 1;
+            const rank = repo.rank || index + 1;
             const isTop3 = rank <= 3;
 
             return (
