@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 19:58 WIB",
-  "total": 250,
+  "updatedAt": "11 Nov 2026, 20:28 WIB",
+  "total": 251,
   "items": [
+    {
+      "id": "ai-jetboost",
+      "name": "Jetboost",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "Jetboost - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "Adds additional sorting and search functionality to WebFlow",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/jetboost.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.jetboost.io"
+    },
     {
       "id": "ai-bhuman",
       "name": "BHuman",
