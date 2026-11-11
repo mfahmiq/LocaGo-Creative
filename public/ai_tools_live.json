@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 01:03 WIB",
-  "total": 261,
+  "updatedAt": "12 Nov 2026, 01:33 WIB",
+  "total": 262,
   "items": [
+    {
+      "id": "ai-makelanding",
+      "name": "Makelanding",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Makelanding - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to generate customized landing pages.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/makelanding.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://makelanding.ai"
+    },
     {
       "id": "ai-clip-interrogator",
       "name": "Clip Interrogator",
