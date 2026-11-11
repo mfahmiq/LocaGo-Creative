@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 20:28 WIB",
-  "total": 251,
+  "updatedAt": "11 Nov 2026, 20:58 WIB",
+  "total": 252,
   "items": [
+    {
+      "id": "ai-mubert",
+      "name": "Mubert",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Mubert - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "AI generated music",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/mubert.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://mubert.com/render/pricing"
+    },
     {
       "id": "ai-jetboost",
       "name": "Jetboost",
