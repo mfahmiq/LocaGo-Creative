@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 23:27 WIB",
-  "total": 257,
+  "updatedAt": "11 Nov 2026, 23:58 WIB",
+  "total": 258,
   "items": [
+    {
+      "id": "ai-polycam",
+      "name": "Polycam",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Polycam - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "Scan real world items into 3D images",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/polycam.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://poly.cam"
+    },
     {
       "id": "ai-legalese-decoder",
       "name": "Legalese Decoder",
