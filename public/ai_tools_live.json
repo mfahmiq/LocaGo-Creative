@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 13:37 WIB",
-  "total": 266,
+  "updatedAt": "11 Nov 2026, 14:07 WIB",
+  "total": 267,
   "items": [
+    {
+      "id": "ai-sivi",
+      "name": "Sivi",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Sivi - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "A tool to turn your text into full visual designs.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/sivi.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://sivi.ai"
+    },
     {
       "id": "ai-qwen3-tts",
       "name": "Qwen3 Tts",
