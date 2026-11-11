@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 15:51 WIB",
-  "total": 271,
+  "updatedAt": "11 Nov 2026, 16:21 WIB",
+  "total": 272,
   "items": [
+    {
+      "id": "ai-minimax-h3-turbo",
+      "name": "Minimax H3 Turbo",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (77 Upvotes)",
+      "description": "Minimax H3 Turbo adalah model dan aplikasi demo AI interaktif dari kreator observantdistressed di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/minimax-h3-turbo.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/observantdistressed/minimax-h3-turbo"
+    },
     {
       "id": "ai-docuchat",
       "name": "DocuChat",
