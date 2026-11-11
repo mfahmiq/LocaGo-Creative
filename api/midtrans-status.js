@@ -14,8 +14,12 @@ export default async function handler(req, res) {
   }
 
   try {
-    const FALLBACK_KEY = Buffer.from('TWlkLXNlcnZlci1qX0hrR1A0bktyT3MxYWdKbjllQWlJOWw=', 'base64').toString('ascii');
-    const serverKey = process.env.MIDTRANS_SERVER_KEY || FALLBACK_KEY;
+    const serverKey = process.env.MIDTRANS_SERVER_KEY;
+    if (!serverKey) {
+      console.error('Missing MIDTRANS_SERVER_KEY in environment variables');
+      return res.status(500).json({ error: 'Server key Midtrans belum dikonfigurasi di environment Vercel.' });
+    }
+
     const isSandbox = serverKey.startsWith('SB-');
     const apiUrl = isSandbox 
       ? `https://api.sandbox.midtrans.com/v2/${encodeURIComponent(orderId)}/status`

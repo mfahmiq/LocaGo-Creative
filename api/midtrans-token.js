@@ -18,9 +18,12 @@ export default async function handler(req, res) {
     const donationAmount = Math.max(3000, parseInt(amount || 3000, 10));
     const orderId = customOrderId || `LOCAGO-${Date.now().toString().slice(-6)}-${Math.floor(Math.random() * 899 + 100)}`;
 
-    // Obfuscated production server key fallback to prevent GitHub push protection rejection while guaranteeing live functionality
-    const FALLBACK_KEY = Buffer.from('TWlkLXNlcnZlci1qX0hrR1A0bktyT3MxYWdKbjllQWlJOWw=', 'base64').toString('ascii');
-    const serverKey = process.env.MIDTRANS_SERVER_KEY || FALLBACK_KEY;
+    const serverKey = process.env.MIDTRANS_SERVER_KEY;
+    if (!serverKey) {
+      console.error('Missing MIDTRANS_SERVER_KEY in environment variables');
+      return res.status(500).json({ error: 'Server key Midtrans belum dikonfigurasi di environment Vercel.' });
+    }
+
     const isSandbox = serverKey.startsWith('SB-');
     const snapUrl = isSandbox ? 'https://app.sandbox.midtrans.com/snap/v1/transactions' : 'https://app.midtrans.com/snap/v1/transactions';
 
@@ -58,7 +61,7 @@ export default async function handler(req, res) {
 
     const data = await midtransRes.json();
     if (!midtransRes.ok || !data.token) {
-      console.error('Midtrans API error:', data);
+      console.error('Midtrans API error response:', data);
       return res.status(midtransRes.status || 500).json({
         error: (data.error_messages && data.error_messages.join(', ')) || 'Gagal menghasilkan token pembayaran Midtrans',
         details: data
