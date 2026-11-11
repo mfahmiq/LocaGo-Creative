@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 18:57 WIB",
-  "total": 248,
+  "updatedAt": "11 Nov 2026, 19:28 WIB",
+  "total": 249,
   "items": [
+    {
+      "id": "ai-universal-data-generator",
+      "name": "Universal Data Generator",
+      "category": "Web & Scrapers",
+      "pricingType": "Free",
+      "tagline": "Universal Data Generator - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "Use AI to generate lists of data",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/universal-data-generator.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://generate.universaldata.io"
+    },
     {
       "id": "ai-magic-eraser",
       "name": "Magic Eraser",
