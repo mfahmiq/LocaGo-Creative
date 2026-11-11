@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 10:06 WIB",
-  "total": 371,
+  "updatedAt": "11 Nov 2026, 10:36 WIB",
+  "total": 372,
   "items": [
+    {
+      "id": "ai-smol-training-playbook",
+      "name": "Smol Training Playbook",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Aplikasi AI Interaktif Komunitas Hugging Face (3372 Upvotes)",
+      "description": "Smol Training Playbook adalah model dan aplikasi demo AI interaktif dari kreator HuggingFaceTB di Hugging Face Spaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/smol-training-playbook.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook"
+    },
     {
       "id": "ai-viral-curation",
       "name": "Viral Curation",
