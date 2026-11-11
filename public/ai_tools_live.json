@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 17:26 WIB",
-  "total": 245,
+  "updatedAt": "11 Nov 2026, 17:56 WIB",
+  "total": 246,
   "items": [
+    {
+      "id": "ai-elephas",
+      "name": "Elephas",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Elephas - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "AI writing assistant for Apple products",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/elephas.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://elephas.app"
+    },
     {
       "id": "ai-hitpaw-ai-art-generator",
       "name": "HitPaw AI Art Generator",
