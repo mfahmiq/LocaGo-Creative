@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 22:57 WIB",
-  "total": 256,
+  "updatedAt": "11 Nov 2026, 23:27 WIB",
+  "total": 257,
   "items": [
+    {
+      "id": "ai-legalese-decoder",
+      "name": "Legalese Decoder",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Legalese Decoder - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "Translate Legal docs to plain English",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/legalese-decoder.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://legalesedecoder.com"
+    },
     {
       "id": "ai-point-e",
       "name": "Point-e",
