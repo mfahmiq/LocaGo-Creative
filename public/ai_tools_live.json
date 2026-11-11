@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 00:03 WIB",
-  "total": 259,
+  "updatedAt": "12 Nov 2026, 00:33 WIB",
+  "total": 260,
   "items": [
+    {
+      "id": "ai-atomic",
+      "name": "Atomic",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Atomic - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "AI-powered calendar assistant that helps users streamline their schedules",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/atomic.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.atomiclife.app"
+    },
     {
       "id": "ai-supermeme-ai",
       "name": "Supermeme.ai",
