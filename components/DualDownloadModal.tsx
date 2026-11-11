@@ -94,13 +94,14 @@ export const DualDownloadModal: React.FC<DualDownloadModalProps> = ({
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
+          orderId,
           amount: totalAmount,
           slug: item.slug,
           title: item.title,
         }),
       });
       const data = await res.json();
-      if (data.token && (window as any).snap) {
+      if (data.token && data.token !== 'mock-token' && (window as any).snap) {
         (window as any).snap.pay(data.token, {
           onSuccess: () => {
             setStep('settled');
@@ -122,9 +123,16 @@ export const DualDownloadModal: React.FC<DualDownloadModalProps> = ({
       }
       if (data.redirectUrl && data.redirectUrl !== '#') {
         window.open(data.redirectUrl, '_blank', 'noopener,noreferrer');
+        setIsChecking(false);
+        return;
+      }
+      if (data.error) {
+        setStatusNote(`Gagal: ${data.error}`);
+      } else {
+        setStatusNote('Gagal membuka popup pembayaran. Silakan gunakan QRIS di atas.');
       }
     } catch {
-      // fallback
+      setStatusNote('Terjadi kesalahan koneksi ke server Midtrans.');
     }
     setIsChecking(false);
   };
