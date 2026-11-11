@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 15:21 WIB",
-  "total": 270,
+  "updatedAt": "11 Nov 2026, 15:51 WIB",
+  "total": 271,
   "items": [
+    {
+      "id": "ai-docuchat",
+      "name": "DocuChat",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "DocuChat - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "Enables users to ask questions and get answers from large bodies of text",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/docuchat.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.docuchat.io"
+    },
     {
       "id": "ai-outfits-ai",
       "name": "Outfits AI",
