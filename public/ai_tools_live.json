@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 09:36 WIB",
-  "total": 370,
+  "updatedAt": "11 Nov 2026, 10:06 WIB",
+  "total": 371,
   "items": [
+    {
+      "id": "ai-viral-curation",
+      "name": "Viral Curation",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Viral Curation - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "Curates and publishes viral content to social media and blogs",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/viral-curation.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://viralcuration.com"
+    },
     {
       "id": "ai-ownkube",
       "name": "Ownkube",
