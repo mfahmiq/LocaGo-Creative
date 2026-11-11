@@ -26,6 +26,11 @@ const SECURE_AFFILIATE_CSV_DATA = `Rank,Tool Name,Kategori,Pricing Model,Komisi 
 
 const AIToolLogoBadge: React.FC<{ logoUrl?: string; name: string; size?: 'sm' | 'lg' }> = ({ logoUrl, name, size = 'sm' }) => {
   const [imgError, setImgError] = React.useState(false);
+
+  useEffect(() => {
+    setImgError(false);
+  }, [logoUrl]);
+
   const isLg = size === 'lg';
   const sizeClasses = isLg 
     ? 'w-14 h-14 rounded-2xl p-1.5 text-2xl font-bold' 
@@ -36,6 +41,8 @@ const AIToolLogoBadge: React.FC<{ logoUrl?: string; name: string; size?: 'sm' | 
       <img
         src={logoUrl}
         alt={name}
+        loading="lazy"
+        decoding="async"
         className={`${sizeClasses} object-contain bg-white dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 shadow-sm shrink-0`}
         onError={() => setImgError(true)}
       />
@@ -495,9 +502,14 @@ export const AIToolsHub: React.FC = () => {
     showToast('📥 Berkas Data Affiliate Leads berhasil diunduh secara privat!');
   };
 
-  // Filter tools
+  // Filter tools (strict gatekeeper: must have valid logoUrl and must not link to producthunt.com)
   const filteredAndSortedTools = useMemo(() => {
-    let baseList = tools || [];
+    let baseList = (tools || []).filter(
+      (tool) =>
+        tool &&
+        Boolean(tool.logoUrl && tool.logoUrl.trim()) &&
+        Boolean(tool.affiliateUrl && !tool.affiliateUrl.toLowerCase().includes('producthunt.com'))
+    );
 
     // If an active LinkList is selected, display all tools belonging to that LinkList!
     if (activeLinkList) {
