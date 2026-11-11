@@ -1,6 +1,6 @@
 {
-  "updatedAt": "11 Nov 2026, 22:04 WIB",
-  "total": 79,
+  "updatedAt": "11 Nov 2026, 22:37 WIB",
+  "total": 80,
   "items": [
     {
       "id": "sc-00",
@@ -65,6 +65,66 @@
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=locago-open-source-super-vault-100-tools-prompts&step=1&max=8",
       "downloadUrlFast": "/downloads/locago-open-source-super-vault-100-tools-prompts.zip",
       "driveUrl": "https://drive.google.com/file/d/10t-RvdDrJA5NF0a9qRkj5gE_VAVorl9J/view?usp=drivesdk"
+    },
+    {
+      "id": "sc-80",
+      "title": "Aplikasi School Management System Web Programing Project In Php Modern & Full Database",
+      "slug": "school-management-system-web-programing-project-in-php",
+      "category": "PHP & Laravel",
+      "techStack": [
+        "PHP 8.2",
+        "Bootstrap 5",
+        "MySQL"
+      ],
+      "description": "Aplikasi web school-management-system-web-programing-project-in-PHP siap pakai. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi, validasi otomatis, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nDilengkapi skema database (MySQL (.sql)) lengkap dengan data contoh realistis.",
+      "shortDesc": "Aplikasi Aplikasi School Management System Web Programing Project In Php Modern & Full Database dengan database MySQL (.sql), data contoh, dan tutorial instalasi lengkap.",
+      "howItWorks": "Data utama tersimpan di MySQL (.sql) dengan struktur relasional yang ternormalisasi: tabel pengguna, log transaksi, serta pengaturan sistem. Aplikasi dibangun dengan PHP 8.2, Bootstrap 5, MySQL dan proteksi keamanan berlapis.",
+      "requirements": "PHP 8.2+ / Node.js / Python, Web Server Lokal (XAMPP / Laragon).",
+      "screenshots": [
+        "/screenshots/school-management-system-web-programing-project-in-php/screenshot_1.webp",
+        "/screenshots/school-management-system-web-programing-project-in-php/screenshot_2.webp",
+        "/screenshots/school-management-system-web-programing-project-in-php/screenshot_3.webp",
+        "/screenshots/school-management-system-web-programing-project-in-php/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@locago.my.id",
+          "password": "password123"
+        },
+        {
+          "role": "Operator / Staf",
+          "username": "operator@locago.my.id",
+          "password": "password123"
+        }
+      ],
+      "updatedAt": "11 November 2026",
+      "releaseDate": "11 November 2026",
+      "recentFastDownloads": 45,
+      "thumbnail": "/screenshots/school-management-system-web-programing-project-in-php/screenshot_1.webp",
+      "downloadsCount": 448,
+      "rating": 4.9,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "22.6 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `school-management-system-web-programing-project-in-php.zip` ke web server lokal Anda.",
+        "Import berkas `database.sql` ke database Anda.",
+        "Konfigurasi koneksi database di file konfigurasi.",
+        "Buka di browser dan login menggunakan akun admin default."
+      ],
+      "keyFeatures": [
+        "Dashboard utama: ringkasan metrik harian dan grafik tren real-time",
+        "Manajemen data master lengkap dengan pencarian instan dan filter",
+        "Hak akses multi-role (Admin dan Operator) terpisah aman",
+        "Cetak nota / invoice PDF dan ekspor laporan ke CSV",
+        "Skema database MySQL (.sql) lengkap data contoh simulasi"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=school-management-system-web-programing-project-in-php&step=1&max=8",
+      "downloadUrlFast": "/downloads/school-management-system-web-programing-project-in-php.zip",
+      "driveUrl": "https://drive.google.com/file/d/1zPdVgMkGFfiCX7ZXrPhP9p9y-N4s_RjH/view?usp=drivesdk"
     },
     {
       "id": "sc-79",
