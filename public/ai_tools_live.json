@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 20:58 WIB",
-  "total": 252,
+  "updatedAt": "11 Nov 2026, 21:28 WIB",
+  "total": 253,
   "items": [
+    {
+      "id": "ai-ai-time-machine",
+      "name": "AI Time Machine",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "AI Time Machine - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "Create historic looking AI avatars and profile pics",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/ai-time-machine.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.myheritage.com/ai-time-machine"
+    },
     {
       "id": "ai-mubert",
       "name": "Mubert",
