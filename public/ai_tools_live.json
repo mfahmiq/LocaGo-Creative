@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 03:34 WIB",
-  "total": 266,
+  "updatedAt": "12 Nov 2026, 04:04 WIB",
+  "total": 267,
   "items": [
+    {
+      "id": "ai-tweetify-it",
+      "name": "Tweetify It",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Tweetify It - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to transform long-form content into personalised social media posts.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/tweetify-it.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://tweetify.it"
+    },
     {
       "id": "ai-neural-frames",
       "name": "Neural Frames",
