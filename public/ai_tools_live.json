@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 02:03 WIB",
-  "total": 263,
+  "updatedAt": "12 Nov 2026, 02:33 WIB",
+  "total": 264,
   "items": [
+    {
+      "id": "ai-smartsuite",
+      "name": "SmartSuite",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "SmartSuite - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "A comprehensive platform for work management with collaboration and automation.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/smartsuite.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.smartsuite.com"
+    },
     {
       "id": "ai-podcastai",
       "name": "PodcastAI",
