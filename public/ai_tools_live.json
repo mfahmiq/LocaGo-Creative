@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 14:07 WIB",
-  "total": 267,
+  "updatedAt": "11 Nov 2026, 14:38 WIB",
+  "total": 268,
   "items": [
+    {
+      "id": "ai-cloudinary",
+      "name": "Cloudinary",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Cloudinary - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "APIs to develop AI Art Software",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/cloudinary.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://cloudinary.com"
+    },
     {
       "id": "ai-sivi",
       "name": "Sivi",
