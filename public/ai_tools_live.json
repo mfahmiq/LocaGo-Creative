@@ -1,7 +1,25 @@
 {
-  "updatedAt": "11 Nov 2026, 18:27 WIB",
-  "total": 247,
+  "updatedAt": "11 Nov 2026, 18:57 WIB",
+  "total": 248,
   "items": [
+    {
+      "id": "ai-magic-eraser",
+      "name": "Magic Eraser",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Magic Eraser - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "Remove unwanted elements from images",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/magic-eraser.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://magicstudio.com/magiceraser"
+    },
     {
       "id": "ai-watermark-remover",
       "name": "Watermark Remover",
