@@ -1,6 +1,6 @@
 {
-  "updatedAt": "12 Nov 2026, 01:04 WIB",
-  "total": 85,
+  "updatedAt": "12 Nov 2026, 01:44 WIB",
+  "total": 86,
   "items": [
     {
       "id": "sc-00",
@@ -65,6 +65,67 @@
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=locago-open-source-super-vault-100-tools-prompts&step=1&max=8",
       "downloadUrlFast": "/downloads/locago-open-source-super-vault-100-tools-prompts.zip",
       "driveUrl": "https://drive.google.com/file/d/10t-RvdDrJA5NF0a9qRkj5gE_VAVorl9J/view?usp=drivesdk"
+    },
+    {
+      "id": "sc-86",
+      "title": "Bot Telegram Monitoring Server & Docker Alert",
+      "slug": "bot-telegram-monitoring-docker-alert",
+      "category": "Python & AI",
+      "techStack": [
+        "Python 3.11",
+        "Docker SDK",
+        "SQLite",
+        "Telegram Bot"
+      ],
+      "description": "Source code lengkap Bot Telegram Monitoring Server & Docker Alert dengan database SQL, data dummy simulasi, dan panduan instalasi. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi, validasi otomatis, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nDilengkapi skema database (SQLite) lengkap dengan data contoh realistis.",
+      "shortDesc": "Aplikasi Bot Telegram Monitoring Server & Docker Alert dengan database SQLite, data contoh, dan tutorial instalasi lengkap.",
+      "howItWorks": "Data utama tersimpan di SQLite dengan struktur relasional yang ternormalisasi: tabel pengguna, log transaksi, serta pengaturan sistem. Aplikasi dibangun dengan Python 3.11, Docker SDK, SQLite, Telegram Bot dan proteksi keamanan berlapis.",
+      "requirements": "PHP 8.2+ / Node.js / Python, Web Server Lokal (XAMPP / Laragon).",
+      "screenshots": [
+        "/screenshots/bot-telegram-monitoring-docker-alert/screenshot_1.webp",
+        "/screenshots/bot-telegram-monitoring-docker-alert/screenshot_2.webp",
+        "/screenshots/bot-telegram-monitoring-docker-alert/screenshot_3.webp",
+        "/screenshots/bot-telegram-monitoring-docker-alert/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@locago.my.id",
+          "password": "password123"
+        },
+        {
+          "role": "Operator / Staf",
+          "username": "operator@locago.my.id",
+          "password": "password123"
+        }
+      ],
+      "updatedAt": "12 November 2026",
+      "releaseDate": "12 November 2026",
+      "recentFastDownloads": 27,
+      "thumbnail": "/screenshots/bot-telegram-monitoring-docker-alert/screenshot_1.webp",
+      "downloadsCount": 545,
+      "rating": 4.9,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "SQLite",
+      "fileSize": "27.8 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `bot-telegram-monitoring-docker-alert.zip` ke web server lokal Anda.",
+        "Import berkas `database.sql` ke database Anda.",
+        "Konfigurasi koneksi database di file konfigurasi.",
+        "Buka di browser dan login menggunakan akun admin default."
+      ],
+      "keyFeatures": [
+        "Dashboard utama: ringkasan metrik harian dan grafik tren real-time",
+        "Manajemen data master lengkap dengan pencarian instan dan filter",
+        "Hak akses multi-role (Admin dan Operator) terpisah aman",
+        "Cetak nota / invoice PDF dan ekspor laporan ke CSV",
+        "Skema database SQLite lengkap data contoh simulasi"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=bot-telegram-monitoring-docker-alert&step=1&max=8",
+      "downloadUrlFast": "/downloads/bot-telegram-monitoring-docker-alert.zip",
+      "driveUrl": "https://drive.google.com/file/d/1EQXWARWn7UWsvXoBFSdOOjjucsYMSaj5/view?usp=drivesdk"
     },
     {
       "id": "sc-85",
