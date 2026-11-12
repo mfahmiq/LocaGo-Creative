@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 06:10 WIB",
-  "total": 320,
+  "updatedAt": "13 Nov 2026, 06:40 WIB",
+  "total": 321,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-lockedin-ai",
+      "name": "LockedIn AI",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "LockedIn AI - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool for real-time guidance for professional online interviews and interactions.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/lockedin-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.lockedinai.com"
     },
     {
       "id": "ai-yahini",
