@@ -1,7 +1,32 @@
 {
   "updatedAt": "12 Nov 2026, 00:03 WIB",
-  "total": 8,
+  "total": 9,
   "items": [
+    {
+      "id": "list-scraping-freelance",
+      "title": "Blueprint Scraping Data & Mesin Klien Freelancer 2026",
+      "notes": "Tools lengkap untuk scrape jutaan database bisnis lokal tanpa coding ribet, serta monetisasi jasa data & automasi untuk freelancer dan agensi.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [
+        "ai-leadmasters",
+        "ai-browse-ai",
+        "tool-make",
+        "ai-n8n"
+      ],
+      "customLinks": [
+        {
+          "id": "cl-leadmasters-main",
+          "title": "🌟 LeadMasters AI (Scrape Google Maps & WhatsApp Bisnis)",
+          "url": "https://leadmasters.my.id",
+          "note": "Akses unlimited lead lokal, nomor WA valid, email bisnis & AI outreach generator."
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "12 Nov 2026",
+      "views": 2100
+    },
     {
       "id": "list-creator-tools",
       "title": "Top 5 AI Tools Konten Kreator IG & Video Editor",
@@ -30,9 +55,9 @@
     },
     {
       "id": "list-coding-stack",
-      "title": "Stack AI Coding & Software Engineer Modern 2026",
-      "notes": "Toolkit pemrograman wajib developer solo untuk merilis fullstack web application 10x lebih cepat dengan bantuan coding agents.",
-      "videoUrl": "https://www.youtube.com",
+      "title": "Stack AI Coding Agent & Autonomous Dev 2026 (Free & Self-Hosted)",
+      "notes": "Kumpulan tools AI coding agent offline/lokal (Aider, Ollama, Qwen2.5-Coder, Continue) tanpa biaya langganan, plus mesin cari klien freelance developer.",
+      "videoUrl": "https://www.instagram.com/reel/DCQ...",
       "toolIds": [
         "tool-cursor",
         "ai-supermaven",
@@ -40,7 +65,20 @@
         "ai-lovable",
         "ai-claude-code"
       ],
-      "customLinks": [],
+      "customLinks": [
+        {
+          "id": "cl-leadmasters-freelance",
+          "title": "⚡ LeadMasters AI (Mesin Otomatis Cari Klien Proyek Coding & B2B)",
+          "url": "https://leadmasters.my.id",
+          "note": "Wajib dipakai developer & freelancer buat cari kontak WhatsApp owner bisnis se-Indonesia dalam 3 detik."
+        },
+        {
+          "id": "cl-aider-repo",
+          "title": "GitHub Repo: Aider AI Pair Programmer",
+          "url": "https://github.com/paul-gauthier/aider",
+          "note": "Terminal-based AI coding assistant terbaik terintegrasi Ollama local."
+        }
+      ],
       "isOfficial": true,
       "authorName": "Mas Fahmi (LocaGo Creative)",
       "authorEmail": "fahmi@locagocreative.my.id",
