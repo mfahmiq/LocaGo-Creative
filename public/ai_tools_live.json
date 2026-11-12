@@ -1,6 +1,6 @@
 {
-  "updatedAt": "12 Nov 2026, 22:08 WIB",
-  "total": 304,
+  "updatedAt": "12 Nov 2026, 22:38 WIB",
+  "total": 305,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-xspacegpt",
+      "name": "XspaceGPT",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "XspaceGPT - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "A tool to convert Twitter Spaces into MP3s, text, summaries, and mind maps.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/xspacegpt.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://twitterspacegpt.com"
     },
     {
       "id": "ai-unbaited",
