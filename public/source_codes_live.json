@@ -1,6 +1,6 @@
 {
-  "updatedAt": "12 Nov 2026, 19:01 WIB",
-  "total": 117,
+  "updatedAt": "12 Nov 2026, 19:06 WIB",
+  "total": 118,
   "items": [
     {
       "id": "sc-00",
@@ -65,6 +65,66 @@
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=locago-open-source-super-vault-100-tools-prompts&step=1&max=8",
       "downloadUrlFast": "/downloads/locago-open-source-super-vault-100-tools-prompts.zip",
       "driveUrl": "https://drive.google.com/file/d/10t-RvdDrJA5NF0a9qRkj5gE_VAVorl9J/view?usp=drivesdk"
+    },
+    {
+      "id": "sc-118",
+      "title": "Aplikasi Rosariosis Modern & Full Database",
+      "slug": "rosariosis",
+      "category": "PHP & Laravel",
+      "techStack": [
+        "PHP 8.2",
+        "Bootstrap 5",
+        "MySQL"
+      ],
+      "description": "RosarioSIS Student Information System for school management. GitLab mirror: https://gitlab.com/francoisjacquet/rosariosis/ Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi, validasi otomatis, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nDilengkapi skema database (MySQL (.sql)) lengkap dengan data contoh realistis.",
+      "shortDesc": "Aplikasi Aplikasi Rosariosis Modern & Full Database dengan database MySQL (.sql), data contoh, dan tutorial instalasi lengkap.",
+      "howItWorks": "Data utama tersimpan di MySQL (.sql) dengan struktur relasional yang ternormalisasi: tabel pengguna, log transaksi, serta pengaturan sistem. Aplikasi dibangun dengan PHP 8.2, Bootstrap 5, MySQL dan proteksi keamanan berlapis.",
+      "requirements": "PHP 8.2+ / Node.js / Python, Web Server Lokal (XAMPP / Laragon).",
+      "screenshots": [
+        "/screenshots/rosariosis/screenshot_1.webp",
+        "/screenshots/rosariosis/screenshot_2.webp",
+        "/screenshots/rosariosis/screenshot_3.webp",
+        "/screenshots/rosariosis/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@locago.my.id",
+          "password": "password123"
+        },
+        {
+          "role": "Operator / Staf",
+          "username": "operator@locago.my.id",
+          "password": "password123"
+        }
+      ],
+      "updatedAt": "12 November 2026",
+      "releaseDate": "12 November 2026",
+      "recentFastDownloads": 40,
+      "thumbnail": "/screenshots/rosariosis/screenshot_1.webp",
+      "downloadsCount": 433,
+      "rating": 4.9,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "20.1 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `rosariosis.zip` ke web server lokal Anda.",
+        "Import berkas `database.sql` ke database Anda.",
+        "Konfigurasi koneksi database di file konfigurasi.",
+        "Buka di browser dan login menggunakan akun admin default."
+      ],
+      "keyFeatures": [
+        "Dashboard utama: ringkasan metrik harian dan grafik tren real-time",
+        "Manajemen data master lengkap dengan pencarian instan dan filter",
+        "Hak akses multi-role (Admin dan Operator) terpisah aman",
+        "Cetak nota / invoice PDF dan ekspor laporan ke CSV",
+        "Skema database MySQL (.sql) lengkap data contoh simulasi"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=rosariosis&step=1&max=8",
+      "downloadUrlFast": "/downloads/rosariosis.zip",
+      "driveUrl": ""
     },
     {
       "id": "sc-117",
