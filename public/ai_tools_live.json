@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 01:39 WIB",
-  "total": 311,
+  "updatedAt": "13 Nov 2026, 02:09 WIB",
+  "total": 312,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-boords",
+      "name": "Boords",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Boords - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to generate storyboards.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/boords.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://boords.com"
     },
     {
       "id": "ai-pikzels",
