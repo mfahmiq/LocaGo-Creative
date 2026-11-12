@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 14:07 WIB",
-  "total": 287,
+  "updatedAt": "12 Nov 2026, 14:37 WIB",
+  "total": 288,
   "items": [
+    {
+      "id": "ai-dewstack",
+      "name": "Dewstack",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Dewstack - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A platform to create, manage, and host intelligent documents.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/dewstack.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://dewstack.com"
+    },
     {
       "id": "ai-squirrly-seo",
       "name": "Squirrly SEO",
