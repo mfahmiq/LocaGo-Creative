@@ -1,6 +1,6 @@
 {
-  "updatedAt": "12 Nov 2026, 23:09 WIB",
-  "total": 306,
+  "updatedAt": "12 Nov 2026, 23:39 WIB",
+  "total": 307,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-together-ai",
+      "name": "Together AI",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Together AI - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool for generative AI development to build, deploy, and scaling.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/together-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.together.ai"
     },
     {
       "id": "ai-rabbitholes",
