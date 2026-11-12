@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 11:06 WIB",
-  "total": 281,
+  "updatedAt": "12 Nov 2026, 11:36 WIB",
+  "total": 282,
   "items": [
+    {
+      "id": "ai-ai-diary",
+      "name": "AI Diary",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "AI Diary - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool for journaling and personal diary.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/ai-diary.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://aidiary.io"
+    },
     {
       "id": "ai-podsift",
       "name": "Podsift",
