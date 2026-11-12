@@ -1,6 +1,6 @@
 {
-  "updatedAt": "12 Nov 2026, 04:04 WIB",
-  "total": 89,
+  "updatedAt": "12 Nov 2026, 04:48 WIB",
+  "total": 90,
   "items": [
     {
       "id": "sc-00",
@@ -65,6 +65,67 @@
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=locago-open-source-super-vault-100-tools-prompts&step=1&max=8",
       "downloadUrlFast": "/downloads/locago-open-source-super-vault-100-tools-prompts.zip",
       "driveUrl": "https://drive.google.com/file/d/10t-RvdDrJA5NF0a9qRkj5gE_VAVorl9J/view?usp=drivesdk"
+    },
+    {
+      "id": "sc-90",
+      "title": "Aplikasi Pnlcs Modern & Full Database",
+      "slug": "pnlcs",
+      "category": "PHP & Laravel",
+      "techStack": [
+        "Laravel 11",
+        "MySQL",
+        "PDF Generator",
+        "Midtrans"
+      ],
+      "description": "🧾 Open-source WHMCS alternative — self-hosted hosting billing & client portal. Laravel 13 + MySQL. Invoicing, domains, SSL, tickets, reseller, multi-language (30 locales), 16 themes. Free & MIT-licensed. Docs: https://docs.pnlcs.com Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi, validasi otomatis, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nDilengkapi skema database (MySQL (.sql)) lengkap dengan data contoh realistis.",
+      "shortDesc": "Aplikasi Aplikasi Pnlcs Modern & Full Database dengan database MySQL (.sql), data contoh, dan tutorial instalasi lengkap.",
+      "howItWorks": "Data utama tersimpan di MySQL (.sql) dengan struktur relasional yang ternormalisasi: tabel pengguna, log transaksi, serta pengaturan sistem. Aplikasi dibangun dengan Laravel 11, MySQL, PDF Generator, Midtrans dan proteksi keamanan berlapis.",
+      "requirements": "PHP 8.2+ / Node.js / Python, Web Server Lokal (XAMPP / Laragon).",
+      "screenshots": [
+        "/screenshots/pnlcs/screenshot_1.webp",
+        "/screenshots/pnlcs/screenshot_2.webp",
+        "/screenshots/pnlcs/screenshot_3.webp",
+        "/screenshots/pnlcs/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@locago.my.id",
+          "password": "password123"
+        },
+        {
+          "role": "Operator / Staf",
+          "username": "operator@locago.my.id",
+          "password": "password123"
+        }
+      ],
+      "updatedAt": "12 November 2026",
+      "releaseDate": "12 November 2026",
+      "recentFastDownloads": 37,
+      "thumbnail": "/screenshots/pnlcs/screenshot_1.webp",
+      "downloadsCount": 809,
+      "rating": 4.9,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "21.1 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `pnlcs.zip` ke web server lokal Anda.",
+        "Import berkas `database.sql` ke database Anda.",
+        "Konfigurasi koneksi database di file konfigurasi.",
+        "Buka di browser dan login menggunakan akun admin default."
+      ],
+      "keyFeatures": [
+        "Dashboard utama: ringkasan metrik harian dan grafik tren real-time",
+        "Manajemen data master lengkap dengan pencarian instan dan filter",
+        "Hak akses multi-role (Admin dan Operator) terpisah aman",
+        "Cetak nota / invoice PDF dan ekspor laporan ke CSV",
+        "Skema database MySQL (.sql) lengkap data contoh simulasi"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=pnlcs&step=1&max=8",
+      "downloadUrlFast": "/downloads/pnlcs.zip",
+      "driveUrl": "https://drive.google.com/file/d/1Y-eF7_8btgGbudpOEe57X-Un3fbFp-tg/view?usp=drivesdk"
     },
     {
       "id": "sc-89",
