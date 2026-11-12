@@ -1,6 +1,6 @@
 {
-  "updatedAt": "12 Nov 2026, 19:38 WIB",
-  "total": 299,
+  "updatedAt": "12 Nov 2026, 20:08 WIB",
+  "total": 300,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-opinionstage",
+      "name": "OpinionStage",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "OpinionStage - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A platform for creating and sharing interactive quizzes, surveys, and polls to engage audiences and gather insights.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/opinionstage.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.opinionstage.com/ai"
     },
     {
       "id": "ai-leadsnavi",
