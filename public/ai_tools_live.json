@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 13:06 WIB",
-  "total": 285,
+  "updatedAt": "12 Nov 2026, 13:37 WIB",
+  "total": 286,
   "items": [
+    {
+      "id": "ai-skedpal",
+      "name": "SkedPal",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "SkedPal - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to combine todo list and calendar for time management.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/skedpal.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://skedpal.com"
+    },
     {
       "id": "ai-super-ai",
       "name": "Super.AI",
