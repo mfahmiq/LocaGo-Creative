@@ -1,6 +1,6 @@
 {
-  "updatedAt": "12 Nov 2026, 20:38 WIB",
-  "total": 301,
+  "updatedAt": "12 Nov 2026, 21:08 WIB",
+  "total": 302,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-feta",
+      "name": "Feta",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Feta - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "A tool automate meeting workflows for product and engineering teams.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/feta.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://feta.io"
     },
     {
       "id": "ai-jsonify",
