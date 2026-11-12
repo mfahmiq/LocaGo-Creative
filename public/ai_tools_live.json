@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 16:07 WIB",
-  "total": 291,
+  "updatedAt": "12 Nov 2026, 16:37 WIB",
+  "total": 292,
   "items": [
+    {
+      "id": "ai-jetpack-ai-assistant",
+      "name": "Jetpack AI Assistant",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Jetpack AI Assistant - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "Automatic content creation built-into WordPress",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/jetpack-ai-assistant.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://jetpack.com/ai"
+    },
     {
       "id": "ai-trips-tripadvisor",
       "name": "Trips (TripAdvisor)",
