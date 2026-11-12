@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 15:37 WIB",
-  "total": 290,
+  "updatedAt": "12 Nov 2026, 16:07 WIB",
+  "total": 291,
   "items": [
+    {
+      "id": "ai-trips-tripadvisor",
+      "name": "Trips (TripAdvisor)",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Trips (TripAdvisor) - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to generate personalized, day-by-day itineraries.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/trips-tripadvisor.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.tripadvisor.com/Trips"
+    },
     {
       "id": "ai-jam",
       "name": "Jam",
