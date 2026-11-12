@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 12:36 WIB",
-  "total": 284,
+  "updatedAt": "12 Nov 2026, 13:06 WIB",
+  "total": 285,
   "items": [
+    {
+      "id": "ai-super-ai",
+      "name": "Super.AI",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Super.AI - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A platform to process documents.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/super-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://super.ai"
+    },
     {
       "id": "ai-eesel-ai",
       "name": "eesel.ai",
