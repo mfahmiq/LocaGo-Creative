@@ -1,6 +1,6 @@
 {
-  "updatedAt": "12 Nov 2026, 07:05 WIB",
-  "total": 95,
+  "updatedAt": "12 Nov 2026, 07:51 WIB",
+  "total": 96,
   "items": [
     {
       "id": "sc-00",
@@ -65,6 +65,67 @@
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=locago-open-source-super-vault-100-tools-prompts&step=1&max=8",
       "downloadUrlFast": "/downloads/locago-open-source-super-vault-100-tools-prompts.zip",
       "driveUrl": "https://drive.google.com/file/d/10t-RvdDrJA5NF0a9qRkj5gE_VAVorl9J/view?usp=drivesdk"
+    },
+    {
+      "id": "sc-96",
+      "title": "Aplikasi Ecosort Ai Modern & Full Database",
+      "slug": "ecosort-ai",
+      "category": "Python & AI",
+      "techStack": [
+        "Python 3.11",
+        "FastAPI",
+        "SQLite",
+        "Chart.js"
+      ],
+      "description": "EcoSort AI is a real-time waste detection and monitoring web dashboard built with YOLO, ByteTrack, OpenCV, and FastAPI. It detects, tracks, and counts 6 waste categories on a sorting table via a webcam, featuring live analytics, detection history, rule-based notifications, and automated PDF reports. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi, validasi otomatis, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nDilengkapi skema database (SQLite) lengkap dengan data contoh realistis.",
+      "shortDesc": "Aplikasi Aplikasi Ecosort Ai Modern & Full Database dengan database SQLite, data contoh, dan tutorial instalasi lengkap.",
+      "howItWorks": "Data utama tersimpan di SQLite dengan struktur relasional yang ternormalisasi: tabel pengguna, log transaksi, serta pengaturan sistem. Aplikasi dibangun dengan Python 3.11, FastAPI, SQLite, Chart.js dan proteksi keamanan berlapis.",
+      "requirements": "PHP 8.2+ / Node.js / Python, Web Server Lokal (XAMPP / Laragon).",
+      "screenshots": [
+        "/screenshots/ecosort-ai/screenshot_1.webp",
+        "/screenshots/ecosort-ai/screenshot_2.webp",
+        "/screenshots/ecosort-ai/screenshot_3.webp",
+        "/screenshots/ecosort-ai/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@locago.my.id",
+          "password": "password123"
+        },
+        {
+          "role": "Operator / Staf",
+          "username": "operator@locago.my.id",
+          "password": "password123"
+        }
+      ],
+      "updatedAt": "12 November 2026",
+      "releaseDate": "12 November 2026",
+      "recentFastDownloads": 47,
+      "thumbnail": "/screenshots/ecosort-ai/screenshot_1.webp",
+      "downloadsCount": 613,
+      "rating": 4.9,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "SQLite",
+      "fileSize": "27.8 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `ecosort-ai.zip` ke web server lokal Anda.",
+        "Import berkas `database.sql` ke database Anda.",
+        "Konfigurasi koneksi database di file konfigurasi.",
+        "Buka di browser dan login menggunakan akun admin default."
+      ],
+      "keyFeatures": [
+        "Dashboard utama: ringkasan metrik harian dan grafik tren real-time",
+        "Manajemen data master lengkap dengan pencarian instan dan filter",
+        "Hak akses multi-role (Admin dan Operator) terpisah aman",
+        "Cetak nota / invoice PDF dan ekspor laporan ke CSV",
+        "Skema database SQLite lengkap data contoh simulasi"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=ecosort-ai&step=1&max=8",
+      "downloadUrlFast": "/downloads/ecosort-ai.zip",
+      "driveUrl": ""
     },
     {
       "id": "sc-95",
