@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 09:36 WIB",
-  "total": 278,
+  "updatedAt": "12 Nov 2026, 10:06 WIB",
+  "total": 279,
   "items": [
+    {
+      "id": "ai-roll",
+      "name": "Roll",
+      "category": "AI Coding",
+      "pricingType": "Free",
+      "tagline": "Roll - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "An iOS app to create and edit videos.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/roll.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://apps.apple.com/pk/app/roll-ai-for-video/id1615909124"
+    },
     {
       "id": "ai-robin-ai",
       "name": "Robin AI",
