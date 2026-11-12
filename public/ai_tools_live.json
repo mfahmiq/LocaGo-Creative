@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 14:37 WIB",
-  "total": 288,
+  "updatedAt": "12 Nov 2026, 15:07 WIB",
+  "total": 289,
   "items": [
+    {
+      "id": "ai-deep-agency",
+      "name": "Deep Agency",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Deep Agency - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "A virtual photo studio platform.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/deep-agency.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.deepagency.com"
+    },
     {
       "id": "ai-dewstack",
       "name": "Dewstack",
