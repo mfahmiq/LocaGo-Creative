@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 00:09 WIB",
-  "total": 308,
+  "updatedAt": "13 Nov 2026, 00:39 WIB",
+  "total": 309,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-poper",
+      "name": "Poper",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "Poper - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "A tool to create popups for website engagement and conversions.",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/poper.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.poper.ai"
     },
     {
       "id": "ai-ilus-ai",
