@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 10:36 WIB",
-  "total": 280,
+  "updatedAt": "12 Nov 2026, 11:06 WIB",
+  "total": 281,
   "items": [
+    {
+      "id": "ai-podsift",
+      "name": "Podsift",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Podsift - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool that sends AI-generated podcast summaries to your inbox.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/podsift.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.podsift.com"
+    },
     {
       "id": "ai-candlestick",
       "name": "Candlestick",
