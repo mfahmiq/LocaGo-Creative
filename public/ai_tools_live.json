@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 16:37 WIB",
-  "total": 292,
+  "updatedAt": "12 Nov 2026, 17:07 WIB",
+  "total": 293,
   "items": [
+    {
+      "id": "ai-myreader-ai",
+      "name": "Myreader AI",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "Myreader AI - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "A tool to ask and answer questions about book content.",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/myreader-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.myreader.ai"
+    },
     {
       "id": "ai-jetpack-ai-assistant",
       "name": "Jetpack AI Assistant",
