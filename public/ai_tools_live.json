@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 07:35 WIB",
-  "total": 274,
+  "updatedAt": "12 Nov 2026, 08:05 WIB",
+  "total": 275,
   "items": [
+    {
+      "id": "ai-storyd",
+      "name": "Storyd",
+      "category": "Web & Scrapers",
+      "pricingType": "Free",
+      "tagline": "Storyd - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "A tool for data presentations.",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/storyd.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.storyd.ai"
+    },
     {
       "id": "ai-gentrace",
       "name": "Gentrace",
