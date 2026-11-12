@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 18:07 WIB",
-  "total": 295,
+  "updatedAt": "12 Nov 2026, 18:38 WIB",
+  "total": 296,
   "items": [
+    {
+      "id": "ai-storyboarder-ai",
+      "name": "Storyboarder.ai",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Storyboarder.ai - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool for film storyboarding with AI-generated visuals.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/storyboarder-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://storyboarder.ai"
+    },
     {
       "id": "ai-magickpen",
       "name": "MagickPen",
