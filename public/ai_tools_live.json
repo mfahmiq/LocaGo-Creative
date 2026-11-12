@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 13:37 WIB",
-  "total": 286,
+  "updatedAt": "12 Nov 2026, 14:07 WIB",
+  "total": 287,
   "items": [
+    {
+      "id": "ai-squirrly-seo",
+      "name": "Squirrly SEO",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Squirrly SEO - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "An all-in-one SEO suite.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/squirrly-seo.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://squirrly.idevaffiliate.com/idevaffiliate.php"
+    },
     {
       "id": "ai-skedpal",
       "name": "SkedPal",
