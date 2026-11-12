@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 09:05 WIB",
-  "total": 277,
+  "updatedAt": "12 Nov 2026, 09:36 WIB",
+  "total": 278,
   "items": [
+    {
+      "id": "ai-robin-ai",
+      "name": "Robin AI",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Robin AI - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool for automating sales funnel.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/robin-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.hellorobin.ai"
+    },
     {
       "id": "ai-uizard",
       "name": "Uizard",
