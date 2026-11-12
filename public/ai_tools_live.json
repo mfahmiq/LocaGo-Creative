@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 08:35 WIB",
-  "total": 276,
+  "updatedAt": "12 Nov 2026, 09:05 WIB",
+  "total": 277,
   "items": [
+    {
+      "id": "ai-uizard",
+      "name": "Uizard",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Uizard - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to create UI, wireframes, prototypes, and mockups.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/uizard.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://uizard.io"
+    },
     {
       "id": "ai-team-gpt",
       "name": "Team-GPT",
