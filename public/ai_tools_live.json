@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 08:05 WIB",
-  "total": 275,
+  "updatedAt": "12 Nov 2026, 08:35 WIB",
+  "total": 276,
   "items": [
+    {
+      "id": "ai-team-gpt",
+      "name": "Team-GPT",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Team-GPT - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool for teams to collaborate in chatgpt.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/team-gpt.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://team-gpt.com"
+    },
     {
       "id": "ai-storyd",
       "name": "Storyd",
