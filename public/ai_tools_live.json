@@ -1,6 +1,6 @@
 {
-  "updatedAt": "12 Nov 2026, 12:11 WIB",
-  "total": 298,
+  "updatedAt": "12 Nov 2026, 19:38 WIB",
+  "total": 299,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -18,8 +18,25 @@
       "logoUrl": "/logos/leadmasters.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://leadmasters.my.id",
-      "websiteUrl": "https://leadmasters.my.id"
+      "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-leadsnavi",
+      "name": "LeadsNavi",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "LeadsNavi - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "A tool to identify website visitors and provide actionable B2B lead generation insights.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/leadsnavi.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.leadsnavi.com"
     },
     {
       "id": "ai-easysub",
@@ -37,8 +54,7 @@
       "logoUrl": "/logos/easysub.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://easyssub.com",
-      "websiteUrl": "https://easyssub.com"
+      "affiliateUrl": "https://easyssub.com"
     },
     {
       "id": "ai-storyboarder-ai",
@@ -56,8 +72,7 @@
       "logoUrl": "/logos/storyboarder-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://storyboarder.ai",
-      "websiteUrl": "https://storyboarder.ai"
+      "affiliateUrl": "https://storyboarder.ai"
     },
     {
       "id": "ai-magickpen",
@@ -75,8 +90,7 @@
       "logoUrl": "/logos/magickpen.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://magickpen.com",
-      "websiteUrl": "https://magickpen.com"
+      "affiliateUrl": "https://magickpen.com"
     },
     {
       "id": "ai-capcut",
@@ -94,8 +108,7 @@
       "logoUrl": "/logos/capcut.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.capcut.com/tools/ai-image-upscaler",
-      "websiteUrl": "https://www.capcut.com/tools/ai-image-upscaler"
+      "affiliateUrl": "https://www.capcut.com/tools/ai-image-upscaler"
     },
     {
       "id": "ai-myreader-ai",
@@ -113,8 +126,7 @@
       "logoUrl": "/logos/myreader-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.myreader.ai",
-      "websiteUrl": "https://www.myreader.ai"
+      "affiliateUrl": "https://www.myreader.ai"
     },
     {
       "id": "ai-jetpack-ai-assistant",
@@ -132,8 +144,7 @@
       "logoUrl": "/logos/jetpack-ai-assistant.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://jetpack.com/ai",
-      "websiteUrl": "https://jetpack.com/ai"
+      "affiliateUrl": "https://jetpack.com/ai"
     },
     {
       "id": "ai-trips-tripadvisor",
@@ -151,8 +162,7 @@
       "logoUrl": "/logos/trips-tripadvisor.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.tripadvisor.com/Trips",
-      "websiteUrl": "https://www.tripadvisor.com/Trips"
+      "affiliateUrl": "https://www.tripadvisor.com/Trips"
     },
     {
       "id": "ai-jam",
@@ -170,8 +180,7 @@
       "logoUrl": "/logos/jam.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://jam.dev/jamgpt",
-      "websiteUrl": "https://jam.dev/jamgpt"
+      "affiliateUrl": "https://jam.dev/jamgpt"
     },
     {
       "id": "ai-deep-agency",
@@ -189,8 +198,7 @@
       "logoUrl": "/logos/deep-agency.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.deepagency.com",
-      "websiteUrl": "https://www.deepagency.com"
+      "affiliateUrl": "https://www.deepagency.com"
     },
     {
       "id": "ai-dewstack",
@@ -208,8 +216,7 @@
       "logoUrl": "/logos/dewstack.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://dewstack.com",
-      "websiteUrl": "https://dewstack.com"
+      "affiliateUrl": "https://dewstack.com"
     },
     {
       "id": "ai-squirrly-seo",
@@ -227,8 +234,7 @@
       "logoUrl": "/logos/squirrly-seo.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://squirrly.idevaffiliate.com/idevaffiliate.php",
-      "websiteUrl": "https://squirrly.idevaffiliate.com/idevaffiliate.php"
+      "affiliateUrl": "https://squirrly.idevaffiliate.com/idevaffiliate.php"
     },
     {
       "id": "ai-skedpal",
@@ -246,8 +252,7 @@
       "logoUrl": "/logos/skedpal.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://skedpal.com",
-      "websiteUrl": "https://skedpal.com"
+      "affiliateUrl": "https://skedpal.com"
     },
     {
       "id": "ai-super-ai",
@@ -265,8 +270,7 @@
       "logoUrl": "/logos/super-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://super.ai",
-      "websiteUrl": "https://super.ai"
+      "affiliateUrl": "https://super.ai"
     },
     {
       "id": "ai-eesel-ai",
@@ -284,8 +288,7 @@
       "logoUrl": "/logos/eesel-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.eesel.ai",
-      "websiteUrl": "https://www.eesel.ai"
+      "affiliateUrl": "https://www.eesel.ai"
     },
     {
       "id": "ai-ai-face-swapper",
@@ -303,8 +306,7 @@
       "logoUrl": "/logos/ai-face-swapper.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://icons8.com/swapper",
-      "websiteUrl": "https://icons8.com/swapper"
+      "affiliateUrl": "https://icons8.com/swapper"
     },
     {
       "id": "ai-ai-diary",
@@ -322,8 +324,7 @@
       "logoUrl": "/logos/ai-diary.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://aidiary.io",
-      "websiteUrl": "https://aidiary.io"
+      "affiliateUrl": "https://aidiary.io"
     },
     {
       "id": "ai-podsift",
@@ -341,8 +342,7 @@
       "logoUrl": "/logos/podsift.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.podsift.com",
-      "websiteUrl": "https://www.podsift.com"
+      "affiliateUrl": "https://www.podsift.com"
     },
     {
       "id": "ai-candlestick",
@@ -360,8 +360,7 @@
       "logoUrl": "/logos/candlestick.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://candlestick.ai",
-      "websiteUrl": "https://candlestick.ai"
+      "affiliateUrl": "https://candlestick.ai"
     },
     {
       "id": "ai-roll",
@@ -379,8 +378,7 @@
       "logoUrl": "/logos/roll.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://apps.apple.com/pk/app/roll-ai-for-video/id1615909124",
-      "websiteUrl": "https://apps.apple.com/pk/app/roll-ai-for-video/id1615909124"
+      "affiliateUrl": "https://apps.apple.com/pk/app/roll-ai-for-video/id1615909124"
     },
     {
       "id": "ai-robin-ai",
@@ -398,8 +396,7 @@
       "logoUrl": "/logos/robin-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.hellorobin.ai",
-      "websiteUrl": "https://www.hellorobin.ai"
+      "affiliateUrl": "https://www.hellorobin.ai"
     },
     {
       "id": "ai-uizard",
@@ -417,8 +414,7 @@
       "logoUrl": "/logos/uizard.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://uizard.io",
-      "websiteUrl": "https://uizard.io"
+      "affiliateUrl": "https://uizard.io"
     },
     {
       "id": "ai-team-gpt",
@@ -436,8 +432,7 @@
       "logoUrl": "/logos/team-gpt.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://team-gpt.com",
-      "websiteUrl": "https://team-gpt.com"
+      "affiliateUrl": "https://team-gpt.com"
     },
     {
       "id": "ai-storyd",
@@ -455,8 +450,7 @@
       "logoUrl": "/logos/storyd.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.storyd.ai",
-      "websiteUrl": "https://www.storyd.ai"
+      "affiliateUrl": "https://www.storyd.ai"
     },
     {
       "id": "ai-gentrace",
@@ -474,8 +468,7 @@
       "logoUrl": "/logos/gentrace.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://gentrace.ai",
-      "websiteUrl": "https://gentrace.ai"
+      "affiliateUrl": "https://gentrace.ai"
     },
     {
       "id": "ai-wondershare-virbo",
@@ -493,8 +486,7 @@
       "logoUrl": "/logos/wondershare-virbo.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://virbo.wondershare.com",
-      "websiteUrl": "https://virbo.wondershare.com"
+      "affiliateUrl": "https://virbo.wondershare.com"
     },
     {
       "id": "ai-copilotly",
@@ -512,8 +504,7 @@
       "logoUrl": "/logos/copilotly.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.copilotly.com",
-      "websiteUrl": "https://www.copilotly.com"
+      "affiliateUrl": "https://www.copilotly.com"
     },
     {
       "id": "ai-realtygenius-ai",
@@ -531,8 +522,7 @@
       "logoUrl": "/logos/realtygenius-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://realtygenius.ai",
-      "websiteUrl": "https://realtygenius.ai"
+      "affiliateUrl": "https://realtygenius.ai"
     },
     {
       "id": "ai-norby-ai",
@@ -550,8 +540,7 @@
       "logoUrl": "/logos/norby-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://norby.io",
-      "websiteUrl": "https://norby.io"
+      "affiliateUrl": "https://norby.io"
     },
     {
       "id": "ai-neuralbox",
@@ -569,8 +558,7 @@
       "logoUrl": "/logos/neuralbox.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://neural.cam/neuralbox",
-      "websiteUrl": "https://neural.cam/neuralbox"
+      "affiliateUrl": "https://neural.cam/neuralbox"
     },
     {
       "id": "ai-clonedub",
@@ -588,8 +576,7 @@
       "logoUrl": "/logos/clonedub.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.clonedub.com",
-      "websiteUrl": "https://www.clonedub.com"
+      "affiliateUrl": "https://www.clonedub.com"
     },
     {
       "id": "ai-tweetify-it",
@@ -607,8 +594,7 @@
       "logoUrl": "/logos/tweetify-it.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://tweetify.it",
-      "websiteUrl": "https://tweetify.it"
+      "affiliateUrl": "https://tweetify.it"
     },
     {
       "id": "ai-neural-frames",
@@ -626,8 +612,7 @@
       "logoUrl": "/logos/neural-frames.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.neuralframes.com",
-      "websiteUrl": "https://www.neuralframes.com"
+      "affiliateUrl": "https://www.neuralframes.com"
     },
     {
       "id": "ai-vectorizer-ai",
@@ -645,8 +630,7 @@
       "logoUrl": "/logos/vectorizer-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://vectorizer.ai",
-      "websiteUrl": "https://vectorizer.ai"
+      "affiliateUrl": "https://vectorizer.ai"
     },
     {
       "id": "ai-smartsuite",
@@ -664,8 +648,7 @@
       "logoUrl": "/logos/smartsuite.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.smartsuite.com",
-      "websiteUrl": "https://www.smartsuite.com"
+      "affiliateUrl": "https://www.smartsuite.com"
     },
     {
       "id": "ai-podcastai",
@@ -683,8 +666,7 @@
       "logoUrl": "/logos/podcastai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://podcastai.com",
-      "websiteUrl": "https://podcastai.com"
+      "affiliateUrl": "https://podcastai.com"
     },
     {
       "id": "ai-makelanding",
@@ -702,8 +684,7 @@
       "logoUrl": "/logos/makelanding.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://makelanding.ai",
-      "websiteUrl": "https://makelanding.ai"
+      "affiliateUrl": "https://makelanding.ai"
     },
     {
       "id": "ai-clip-interrogator",
@@ -721,8 +702,7 @@
       "logoUrl": "/logos/clip-interrogator.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://colab.research.google.com/github/pharmapsychotic/clip-interrogator/blob/main/clip_interrogator.ipynb",
-      "websiteUrl": "https://colab.research.google.com/github/pharmapsychotic/clip-interrogator/blob/main/clip_interrogator.ipynb"
+      "affiliateUrl": "https://colab.research.google.com/github/pharmapsychotic/clip-interrogator/blob/main/clip_interrogator.ipynb"
     },
     {
       "id": "ai-atomic",
@@ -740,8 +720,7 @@
       "logoUrl": "/logos/atomic.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.atomiclife.app",
-      "websiteUrl": "https://www.atomiclife.app"
+      "affiliateUrl": "https://www.atomiclife.app"
     },
     {
       "id": "ai-supermeme-ai",
@@ -759,8 +738,7 @@
       "logoUrl": "/logos/supermeme-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.supermeme.ai",
-      "websiteUrl": "https://www.supermeme.ai"
+      "affiliateUrl": "https://www.supermeme.ai"
     },
     {
       "id": "ai-polycam",
@@ -778,8 +756,7 @@
       "logoUrl": "/logos/polycam.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://poly.cam",
-      "websiteUrl": "https://poly.cam"
+      "affiliateUrl": "https://poly.cam"
     },
     {
       "id": "ai-legalese-decoder",
@@ -797,8 +774,7 @@
       "logoUrl": "/logos/legalese-decoder.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://legalesedecoder.com",
-      "websiteUrl": "https://legalesedecoder.com"
+      "affiliateUrl": "https://legalesedecoder.com"
     },
     {
       "id": "ai-point-e",
@@ -816,8 +792,7 @@
       "logoUrl": "/logos/point-e.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://github.com/openai/point-e",
-      "websiteUrl": "https://github.com/openai/point-e"
+      "affiliateUrl": "https://github.com/openai/point-e"
     },
     {
       "id": "ai-decoherence",
@@ -835,8 +810,7 @@
       "logoUrl": "/logos/decoherence.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://decoherence.co",
-      "websiteUrl": "https://decoherence.co"
+      "affiliateUrl": "https://decoherence.co"
     },
     {
       "id": "ai-cascadeur",
@@ -854,8 +828,7 @@
       "logoUrl": "/logos/cascadeur.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://cascadeur.com",
-      "websiteUrl": "https://cascadeur.com"
+      "affiliateUrl": "https://cascadeur.com"
     },
     {
       "id": "ai-ai-time-machine",
@@ -873,8 +846,7 @@
       "logoUrl": "/logos/ai-time-machine.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.myheritage.com/ai-time-machine",
-      "websiteUrl": "https://www.myheritage.com/ai-time-machine"
+      "affiliateUrl": "https://www.myheritage.com/ai-time-machine"
     },
     {
       "id": "ai-mubert",
@@ -892,8 +864,7 @@
       "logoUrl": "/logos/mubert.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://mubert.com/render/pricing",
-      "websiteUrl": "https://mubert.com/render/pricing"
+      "affiliateUrl": "https://mubert.com/render/pricing"
     },
     {
       "id": "ai-jetboost",
@@ -911,8 +882,7 @@
       "logoUrl": "/logos/jetboost.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.jetboost.io",
-      "websiteUrl": "https://www.jetboost.io"
+      "affiliateUrl": "https://www.jetboost.io"
     },
     {
       "id": "ai-bhuman",
@@ -930,8 +900,7 @@
       "logoUrl": "/logos/bhuman.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://app.bhuman.ai",
-      "websiteUrl": "https://app.bhuman.ai"
+      "affiliateUrl": "https://app.bhuman.ai"
     },
     {
       "id": "ai-universal-data-generator",
@@ -949,8 +918,7 @@
       "logoUrl": "/logos/universal-data-generator.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://generate.universaldata.io",
-      "websiteUrl": "https://generate.universaldata.io"
+      "affiliateUrl": "https://generate.universaldata.io"
     },
     {
       "id": "ai-magic-eraser",
@@ -968,8 +936,7 @@
       "logoUrl": "/logos/magic-eraser.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://magicstudio.com/magiceraser",
-      "websiteUrl": "https://magicstudio.com/magiceraser"
+      "affiliateUrl": "https://magicstudio.com/magiceraser"
     },
     {
       "id": "ai-watermark-remover",
@@ -987,8 +954,7 @@
       "logoUrl": "/logos/watermark-remover.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.watermarkremover.io",
-      "websiteUrl": "https://www.watermarkremover.io"
+      "affiliateUrl": "https://www.watermarkremover.io"
     },
     {
       "id": "ai-elephas",
@@ -1006,8 +972,7 @@
       "logoUrl": "/logos/elephas.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://elephas.app",
-      "websiteUrl": "https://elephas.app"
+      "affiliateUrl": "https://elephas.app"
     },
     {
       "id": "ai-hitpaw-ai-art-generator",
@@ -1025,8 +990,7 @@
       "logoUrl": "/logos/hitpaw-ai-art-generator.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.hitpaw.ai",
-      "websiteUrl": "https://www.hitpaw.ai"
+      "affiliateUrl": "https://www.hitpaw.ai"
     },
     {
       "id": "ai-voila",
@@ -1044,8 +1008,7 @@
       "logoUrl": "/logos/voila.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.getvoila.ai",
-      "websiteUrl": "https://www.getvoila.ai"
+      "affiliateUrl": "https://www.getvoila.ai"
     },
     {
       "id": "ai-mapsgpt",
@@ -1063,8 +1026,7 @@
       "logoUrl": "/logos/mapsgpt.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.mapsgpt.com",
-      "websiteUrl": "https://www.mapsgpt.com"
+      "affiliateUrl": "https://www.mapsgpt.com"
     },
     {
       "id": "ai-minimax-h3-turbo",
@@ -1082,8 +1044,7 @@
       "logoUrl": "/logos/minimax-h3-turbo.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/observantdistressed/minimax-h3-turbo",
-      "websiteUrl": "https://huggingface.co/spaces/observantdistressed/minimax-h3-turbo"
+      "affiliateUrl": "https://huggingface.co/spaces/observantdistressed/minimax-h3-turbo"
     },
     {
       "id": "ai-docuchat",
@@ -1101,8 +1062,7 @@
       "logoUrl": "/logos/docuchat.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.docuchat.io",
-      "websiteUrl": "https://www.docuchat.io"
+      "affiliateUrl": "https://www.docuchat.io"
     },
     {
       "id": "ai-outfits-ai",
@@ -1120,8 +1080,7 @@
       "logoUrl": "/logos/outfits-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.outfitsai.com",
-      "websiteUrl": "https://www.outfitsai.com"
+      "affiliateUrl": "https://www.outfitsai.com"
     },
     {
       "id": "ai-cloudinary",
@@ -1139,8 +1098,7 @@
       "logoUrl": "/logos/cloudinary.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://cloudinary.com",
-      "websiteUrl": "https://cloudinary.com"
+      "affiliateUrl": "https://cloudinary.com"
     },
     {
       "id": "ai-sivi",
@@ -1158,8 +1116,7 @@
       "logoUrl": "/logos/sivi.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://sivi.ai",
-      "websiteUrl": "https://sivi.ai"
+      "affiliateUrl": "https://sivi.ai"
     },
     {
       "id": "ai-chatbotkit",
@@ -1177,8 +1134,7 @@
       "logoUrl": "/logos/chatbotkit.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://chatbotkit.com",
-      "websiteUrl": "https://chatbotkit.com"
+      "affiliateUrl": "https://chatbotkit.com"
     },
     {
       "id": "ai-avatar-ai",
@@ -1196,8 +1152,7 @@
       "logoUrl": "/logos/avatar-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://avatarai.me",
-      "websiteUrl": "https://avatarai.me"
+      "affiliateUrl": "https://avatarai.me"
     },
     {
       "id": "ai-mem",
@@ -1215,8 +1170,7 @@
       "logoUrl": "/logos/mem.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://get.mem.ai",
-      "websiteUrl": "https://get.mem.ai"
+      "affiliateUrl": "https://get.mem.ai"
     },
     {
       "id": "ai-ellie",
@@ -1234,8 +1188,7 @@
       "logoUrl": "/logos/ellie.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://ellieai.com",
-      "websiteUrl": "https://ellieai.com"
+      "affiliateUrl": "https://ellieai.com"
     },
     {
       "id": "ai-bedtimestory-ai",
@@ -1253,8 +1206,7 @@
       "logoUrl": "/logos/bedtimestory-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://bedtimestory.ai",
-      "websiteUrl": "https://bedtimestory.ai"
+      "affiliateUrl": "https://bedtimestory.ai"
     },
     {
       "id": "ai-theoassist",
@@ -1272,8 +1224,7 @@
       "logoUrl": "/logos/theoassist.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://theoassist.com",
-      "websiteUrl": "https://theoassist.com"
+      "affiliateUrl": "https://theoassist.com"
     },
     {
       "id": "ai-monster-mash",
@@ -1291,8 +1242,7 @@
       "logoUrl": "/logos/monster-mash.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://monstermash.zone",
-      "websiteUrl": "https://monstermash.zone"
+      "affiliateUrl": "https://monstermash.zone"
     },
     {
       "id": "ai-yourmove",
@@ -1310,8 +1260,7 @@
       "logoUrl": "/logos/yourmove.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://yourmove.ai",
-      "websiteUrl": "https://yourmove.ai"
+      "affiliateUrl": "https://yourmove.ai"
     },
     {
       "id": "ai-moe-blogpost",
@@ -1329,8 +1278,7 @@
       "logoUrl": "/logos/moe-blogpost.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/huggingface/moe-blogpost",
-      "websiteUrl": "https://huggingface.co/spaces/huggingface/moe-blogpost"
+      "affiliateUrl": "https://huggingface.co/spaces/huggingface/moe-blogpost"
     },
     {
       "id": "ai-harness-leaderboard",
@@ -1348,8 +1296,7 @@
       "logoUrl": "/logos/harness-leaderboard.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard",
-      "websiteUrl": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
+      "affiliateUrl": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard"
     },
     {
       "id": "ai-echofox",
@@ -1367,8 +1314,7 @@
       "logoUrl": "/logos/echofox.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://echofox.pro",
-      "websiteUrl": "https://echofox.pro"
+      "affiliateUrl": "https://echofox.pro"
     },
     {
       "id": "ai-tacotranslate",
@@ -1386,8 +1332,7 @@
       "logoUrl": "/logos/tacotranslate.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://tacotranslate.com",
-      "websiteUrl": "https://tacotranslate.com"
+      "affiliateUrl": "https://tacotranslate.com"
     },
     {
       "id": "ai-codemate",
@@ -1405,8 +1350,7 @@
       "logoUrl": "/logos/codemate.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.codemate.ai",
-      "websiteUrl": "https://www.codemate.ai"
+      "affiliateUrl": "https://www.codemate.ai"
     },
     {
       "id": "ai-typo",
@@ -1424,8 +1368,7 @@
       "logoUrl": "/logos/typo.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://typoapp.io",
-      "websiteUrl": "https://typoapp.io"
+      "affiliateUrl": "https://typoapp.io"
     },
     {
       "id": "ai-the-drive-ai",
@@ -1443,8 +1386,7 @@
       "logoUrl": "/logos/the-drive-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://thedrive.ai",
-      "websiteUrl": "https://thedrive.ai"
+      "affiliateUrl": "https://thedrive.ai"
     },
     {
       "id": "ai-ghola",
@@ -1462,8 +1404,7 @@
       "logoUrl": "/logos/ghola.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.ghola.ai",
-      "websiteUrl": "https://www.ghola.ai"
+      "affiliateUrl": "https://www.ghola.ai"
     },
     {
       "id": "ai-wonderplan",
@@ -1481,8 +1422,7 @@
       "logoUrl": "/logos/wonderplan.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://wonderplan.ai",
-      "websiteUrl": "https://wonderplan.ai"
+      "affiliateUrl": "https://wonderplan.ai"
     },
     {
       "id": "ai-geniea",
@@ -1500,8 +1440,7 @@
       "logoUrl": "/logos/geniea.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://geniea.com",
-      "websiteUrl": "https://geniea.com"
+      "affiliateUrl": "https://geniea.com"
     },
     {
       "id": "ai-scrip-ai",
@@ -1519,8 +1458,7 @@
       "logoUrl": "/logos/scrip-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://scripai.com",
-      "websiteUrl": "https://scripai.com"
+      "affiliateUrl": "https://scripai.com"
     },
     {
       "id": "ai-promptmetheus",
@@ -1538,8 +1476,7 @@
       "logoUrl": "/logos/promptmetheus.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://promptmetheus.com",
-      "websiteUrl": "https://promptmetheus.com"
+      "affiliateUrl": "https://promptmetheus.com"
     },
     {
       "id": "ai-car-concepts-ai",
@@ -1557,8 +1494,7 @@
       "logoUrl": "/logos/car-concepts-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.carconceptsai.com",
-      "websiteUrl": "https://www.carconceptsai.com"
+      "affiliateUrl": "https://www.carconceptsai.com"
     },
     {
       "id": "ai-outset-ai",
@@ -1576,8 +1512,7 @@
       "logoUrl": "/logos/outset-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.outset.ai",
-      "websiteUrl": "https://www.outset.ai"
+      "affiliateUrl": "https://www.outset.ai"
     },
     {
       "id": "ai-notability",
@@ -1595,8 +1530,7 @@
       "logoUrl": "/logos/notability.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://notability.ai",
-      "websiteUrl": "https://notability.ai"
+      "affiliateUrl": "https://notability.ai"
     },
     {
       "id": "ai-makeforms",
@@ -1614,8 +1548,7 @@
       "logoUrl": "/logos/makeforms.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://makeforms.io",
-      "websiteUrl": "https://makeforms.io"
+      "affiliateUrl": "https://makeforms.io"
     },
     {
       "id": "ai-harness-lens",
@@ -1633,8 +1566,7 @@
       "logoUrl": "/logos/harness-lens.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/harness-hub/harness-lens",
-      "websiteUrl": "https://huggingface.co/spaces/harness-hub/harness-lens"
+      "affiliateUrl": "https://huggingface.co/spaces/harness-hub/harness-lens"
     },
     {
       "id": "ai-talkface",
@@ -1652,8 +1584,7 @@
       "logoUrl": "/logos/talkface.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://talkface.ai",
-      "websiteUrl": "https://talkface.ai"
+      "affiliateUrl": "https://talkface.ai"
     },
     {
       "id": "ai-stability-for-blender",
@@ -1671,8 +1602,7 @@
       "logoUrl": "/logos/stability-for-blender.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://platform.stability.ai/docs/integrations/blender",
-      "websiteUrl": "https://platform.stability.ai/docs/integrations/blender"
+      "affiliateUrl": "https://platform.stability.ai/docs/integrations/blender"
     },
     {
       "id": "ai-coursebox",
@@ -1690,8 +1620,7 @@
       "logoUrl": "/logos/coursebox.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.coursebox.ai",
-      "websiteUrl": "https://www.coursebox.ai"
+      "affiliateUrl": "https://www.coursebox.ai"
     },
     {
       "id": "ai-rosebud",
@@ -1709,8 +1638,7 @@
       "logoUrl": "/logos/rosebud.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://my.rosebud.app",
-      "websiteUrl": "https://my.rosebud.app"
+      "affiliateUrl": "https://my.rosebud.app"
     },
     {
       "id": "ai-restogpt",
@@ -1728,8 +1656,7 @@
       "logoUrl": "/logos/restogpt.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://restogpt.ai",
-      "websiteUrl": "https://restogpt.ai"
+      "affiliateUrl": "https://restogpt.ai"
     },
     {
       "id": "ai-kapwing",
@@ -1747,8 +1674,7 @@
       "logoUrl": "/logos/kapwing.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.kapwing.com/ai",
-      "websiteUrl": "https://www.kapwing.com/ai"
+      "affiliateUrl": "https://www.kapwing.com/ai"
     },
     {
       "id": "ai-pdf-parser",
@@ -1766,8 +1692,7 @@
       "logoUrl": "/logos/pdf-parser.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://pdfparser.co",
-      "websiteUrl": "https://pdfparser.co"
+      "affiliateUrl": "https://pdfparser.co"
     },
     {
       "id": "ai-heydoc",
@@ -1785,8 +1710,7 @@
       "logoUrl": "/logos/heydoc.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://heydoc.ai",
-      "websiteUrl": "https://heydoc.ai"
+      "affiliateUrl": "https://heydoc.ai"
     },
     {
       "id": "ai-easywrite-pro",
@@ -1804,8 +1728,7 @@
       "logoUrl": "/logos/easywrite-pro.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://easywrite.pro",
-      "websiteUrl": "https://easywrite.pro"
+      "affiliateUrl": "https://easywrite.pro"
     },
     {
       "id": "ai-unicorn-platform",
@@ -1823,8 +1746,7 @@
       "logoUrl": "/logos/unicorn-platform.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://unicornplatform.com",
-      "websiteUrl": "https://unicornplatform.com"
+      "affiliateUrl": "https://unicornplatform.com"
     },
     {
       "id": "ai-ai-checklist-generator",
@@ -1842,8 +1764,7 @@
       "logoUrl": "/logos/ai-checklist-generator.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://checklistgenerator.ai",
-      "websiteUrl": "https://checklistgenerator.ai"
+      "affiliateUrl": "https://checklistgenerator.ai"
     },
     {
       "id": "ai-ultrascale-playbook",
@@ -1861,8 +1782,7 @@
       "logoUrl": "/logos/ultrascale-playbook.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/nanotron/ultrascale-playbook",
-      "websiteUrl": "https://huggingface.co/spaces/nanotron/ultrascale-playbook"
+      "affiliateUrl": "https://huggingface.co/spaces/nanotron/ultrascale-playbook"
     },
     {
       "id": "ai-coverdesign-ai",
@@ -1880,8 +1800,7 @@
       "logoUrl": "/logos/coverdesign-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://coverdesignai.com",
-      "websiteUrl": "https://coverdesignai.com"
+      "affiliateUrl": "https://coverdesignai.com"
     },
     {
       "id": "ai-yesil-health",
@@ -1899,8 +1818,7 @@
       "logoUrl": "/logos/yesil-health.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://yesilhealth.com",
-      "websiteUrl": "https://yesilhealth.com"
+      "affiliateUrl": "https://yesilhealth.com"
     },
     {
       "id": "ai-ravyn",
@@ -1918,8 +1836,7 @@
       "logoUrl": "/logos/ravyn.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://ravyn.app",
-      "websiteUrl": "https://ravyn.app"
+      "affiliateUrl": "https://ravyn.app"
     },
     {
       "id": "ai-emvoice",
@@ -1937,8 +1854,7 @@
       "logoUrl": "/logos/emvoice.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://emvoiceapp.com",
-      "websiteUrl": "https://emvoiceapp.com"
+      "affiliateUrl": "https://emvoiceapp.com"
     },
     {
       "id": "ai-matterseek",
@@ -1956,8 +1872,7 @@
       "logoUrl": "/logos/matterseek.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/YuyaoTechnology/MatterSeek",
-      "websiteUrl": "https://huggingface.co/spaces/YuyaoTechnology/MatterSeek"
+      "affiliateUrl": "https://huggingface.co/spaces/YuyaoTechnology/MatterSeek"
     },
     {
       "id": "ai-nolan",
@@ -1975,8 +1890,7 @@
       "logoUrl": "/logos/nolan.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.nolanai.app",
-      "websiteUrl": "https://www.nolanai.app"
+      "affiliateUrl": "https://www.nolanai.app"
     },
     {
       "id": "ai-heyphoto",
@@ -1994,8 +1908,7 @@
       "logoUrl": "/logos/heyphoto.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://hey-photo.com",
-      "websiteUrl": "https://hey-photo.com"
+      "affiliateUrl": "https://hey-photo.com"
     },
     {
       "id": "ai-datingbyai",
@@ -2013,8 +1926,7 @@
       "logoUrl": "/logos/datingbyai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://datingbyai.com",
-      "websiteUrl": "https://datingbyai.com"
+      "affiliateUrl": "https://datingbyai.com"
     },
     {
       "id": "ai-prompt-hunt",
@@ -2032,8 +1944,7 @@
       "logoUrl": "/logos/prompt-hunt.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.prompthunt.com",
-      "websiteUrl": "https://www.prompthunt.com"
+      "affiliateUrl": "https://www.prompthunt.com"
     },
     {
       "id": "ai-wishpond-ai",
@@ -2051,8 +1962,7 @@
       "logoUrl": "/logos/wishpond-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://wishpond.com",
-      "websiteUrl": "https://wishpond.com"
+      "affiliateUrl": "https://wishpond.com"
     },
     {
       "id": "ai-pico",
@@ -2070,8 +1980,7 @@
       "logoUrl": "/logos/pico.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://picoapps.xyz",
-      "websiteUrl": "https://picoapps.xyz"
+      "affiliateUrl": "https://picoapps.xyz"
     },
     {
       "id": "ai-hitpaw-photo-enhancer",
@@ -2089,8 +1998,7 @@
       "logoUrl": "/logos/hitpaw-photo-enhancer.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.hitpaw.com/photo-enhancer.html",
-      "websiteUrl": "https://www.hitpaw.com/photo-enhancer.html"
+      "affiliateUrl": "https://www.hitpaw.com/photo-enhancer.html"
     },
     {
       "id": "ai-scribble-diffusion",
@@ -2108,8 +2016,7 @@
       "logoUrl": "/logos/scribble-diffusion.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://scribblediffusion.com",
-      "websiteUrl": "https://scribblediffusion.com"
+      "affiliateUrl": "https://scribblediffusion.com"
     },
     {
       "id": "ai-noty-ai",
@@ -2127,8 +2034,7 @@
       "logoUrl": "/logos/noty-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://noty.ai",
-      "websiteUrl": "https://noty.ai"
+      "affiliateUrl": "https://noty.ai"
     },
     {
       "id": "ai-clearmind",
@@ -2146,8 +2052,7 @@
       "logoUrl": "/logos/clearmind.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.clearmind.plus",
-      "websiteUrl": "https://www.clearmind.plus"
+      "affiliateUrl": "https://www.clearmind.plus"
     },
     {
       "id": "ai-10web",
@@ -2165,8 +2070,7 @@
       "logoUrl": "/logos/10web.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://10web.io",
-      "websiteUrl": "https://10web.io"
+      "affiliateUrl": "https://10web.io"
     },
     {
       "id": "ai-parsio",
@@ -2184,8 +2088,7 @@
       "logoUrl": "/logos/parsio.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://parsio.io",
-      "websiteUrl": "https://parsio.io"
+      "affiliateUrl": "https://parsio.io"
     },
     {
       "id": "ai-wp-ai-chat",
@@ -2203,8 +2106,7 @@
       "logoUrl": "/logos/wp-ai-chat.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://egp--otc-publishing.thrivecart.com/wp-ai-chat",
-      "websiteUrl": "https://egp--otc-publishing.thrivecart.com/wp-ai-chat"
+      "affiliateUrl": "https://egp--otc-publishing.thrivecart.com/wp-ai-chat"
     },
     {
       "id": "ai-gorilla-terminal",
@@ -2222,8 +2124,7 @@
       "logoUrl": "/logos/gorilla-terminal.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://gorillaterminal.com",
-      "websiteUrl": "https://gorillaterminal.com"
+      "affiliateUrl": "https://gorillaterminal.com"
     },
     {
       "id": "ai-trellis-2",
@@ -2241,8 +2142,7 @@
       "logoUrl": "/logos/trellis-2.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/microsoft/TRELLIS.2",
-      "websiteUrl": "https://huggingface.co/spaces/microsoft/TRELLIS.2"
+      "affiliateUrl": "https://huggingface.co/spaces/microsoft/TRELLIS.2"
     },
     {
       "id": "ai-pornflux-i2v-6e9et",
@@ -2260,8 +2160,7 @@
       "logoUrl": "/logos/pornflux-i2v-6e9et.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/Tanyakhan/pornflux-i2v-6e9et",
-      "websiteUrl": "https://huggingface.co/spaces/Tanyakhan/pornflux-i2v-6e9et"
+      "affiliateUrl": "https://huggingface.co/spaces/Tanyakhan/pornflux-i2v-6e9et"
     },
     {
       "id": "ai-akkio",
@@ -2279,8 +2178,7 @@
       "logoUrl": "/logos/akkio.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.akkio.com",
-      "websiteUrl": "https://www.akkio.com"
+      "affiliateUrl": "https://www.akkio.com"
     },
     {
       "id": "ai-dadabots",
@@ -2298,8 +2196,7 @@
       "logoUrl": "/logos/dadabots.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://dadabots.com",
-      "websiteUrl": "https://dadabots.com"
+      "affiliateUrl": "https://dadabots.com"
     },
     {
       "id": "ai-contentin",
@@ -2317,8 +2214,7 @@
       "logoUrl": "/logos/contentin.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://contentin.io",
-      "websiteUrl": "https://contentin.io"
+      "affiliateUrl": "https://contentin.io"
     },
     {
       "id": "ai-phonon",
@@ -2336,8 +2232,7 @@
       "logoUrl": "/logos/phonon.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/gradium/phonon",
-      "websiteUrl": "https://huggingface.co/spaces/gradium/phonon"
+      "affiliateUrl": "https://huggingface.co/spaces/gradium/phonon"
     },
     {
       "id": "ai-green-screen-ai",
@@ -2355,8 +2250,7 @@
       "logoUrl": "/logos/green-screen-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://greenscreenai.com",
-      "websiteUrl": "https://greenscreenai.com"
+      "affiliateUrl": "https://greenscreenai.com"
     },
     {
       "id": "ai-idol",
@@ -2374,8 +2268,7 @@
       "logoUrl": "/logos/idol.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/speridlabs/idol",
-      "websiteUrl": "https://huggingface.co/spaces/speridlabs/idol"
+      "affiliateUrl": "https://huggingface.co/spaces/speridlabs/idol"
     },
     {
       "id": "ai-qwen-image-2-1-realtime",
@@ -2393,8 +2286,7 @@
       "logoUrl": "/logos/qwen-image-2-1-realtime.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime",
-      "websiteUrl": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime"
+      "affiliateUrl": "https://huggingface.co/spaces/linoyts/qwen-image-2-1-realtime"
     },
     {
       "id": "ai-steve-ai",
@@ -2412,8 +2304,7 @@
       "logoUrl": "/logos/steve-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.steve.ai",
-      "websiteUrl": "https://www.steve.ai"
+      "affiliateUrl": "https://www.steve.ai"
     },
     {
       "id": "ai-simready-central",
@@ -2431,8 +2322,7 @@
       "logoUrl": "/logos/simready-central.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/nvidia/simready-central",
-      "websiteUrl": "https://huggingface.co/spaces/nvidia/simready-central"
+      "affiliateUrl": "https://huggingface.co/spaces/nvidia/simready-central"
     },
     {
       "id": "ai-hints",
@@ -2450,8 +2340,7 @@
       "logoUrl": "/logos/hints.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://hints.so",
-      "websiteUrl": "https://hints.so"
+      "affiliateUrl": "https://hints.so"
     },
     {
       "id": "ai-figstack",
@@ -2469,8 +2358,7 @@
       "logoUrl": "/logos/figstack.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://figstack.com",
-      "websiteUrl": "https://figstack.com"
+      "affiliateUrl": "https://figstack.com"
     },
     {
       "id": "ai-motionit-ai",
@@ -2488,8 +2376,7 @@
       "logoUrl": "/logos/motionit-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.motionit.ai",
-      "websiteUrl": "https://www.motionit.ai"
+      "affiliateUrl": "https://www.motionit.ai"
     },
     {
       "id": "ai-audio8-tts-realistic-air",
@@ -2507,8 +2394,7 @@
       "logoUrl": "/logos/audio8-tts-realistic-air.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/Edge0/Audio8-TTS-Realistic-Air",
-      "websiteUrl": "https://huggingface.co/spaces/Edge0/Audio8-TTS-Realistic-Air"
+      "affiliateUrl": "https://huggingface.co/spaces/Edge0/Audio8-TTS-Realistic-Air"
     },
     {
       "id": "ai-p-h3-image",
@@ -2526,8 +2412,7 @@
       "logoUrl": "/logos/p-h3-image.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/PrunaAI/P-H3-Image",
-      "websiteUrl": "https://huggingface.co/spaces/PrunaAI/P-H3-Image"
+      "affiliateUrl": "https://huggingface.co/spaces/PrunaAI/P-H3-Image"
     },
     {
       "id": "ai-resolveai",
@@ -2545,8 +2430,7 @@
       "logoUrl": "/logos/resolveai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://resolveai.co",
-      "websiteUrl": "https://resolveai.co"
+      "affiliateUrl": "https://resolveai.co"
     },
     {
       "id": "ai-namelix",
@@ -2564,8 +2448,7 @@
       "logoUrl": "/logos/namelix.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://namelix.com",
-      "websiteUrl": "https://namelix.com"
+      "affiliateUrl": "https://namelix.com"
     },
     {
       "id": "ai-anime-ai",
@@ -2583,8 +2466,7 @@
       "logoUrl": "/logos/anime-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://animeai.app",
-      "websiteUrl": "https://animeai.app"
+      "affiliateUrl": "https://animeai.app"
     },
     {
       "id": "ai-profilepicture-ai",
@@ -2602,8 +2484,7 @@
       "logoUrl": "/logos/profilepicture-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.profilepicture.ai/free-pfp-maker",
-      "websiteUrl": "https://www.profilepicture.ai/free-pfp-maker"
+      "affiliateUrl": "https://www.profilepicture.ai/free-pfp-maker"
     },
     {
       "id": "ai-resign-ai",
@@ -2621,8 +2502,7 @@
       "logoUrl": "/logos/resign-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://resign.ai",
-      "websiteUrl": "https://resign.ai"
+      "affiliateUrl": "https://resign.ai"
     },
     {
       "id": "ai-jev-decision-index",
@@ -2640,8 +2520,7 @@
       "logoUrl": "/logos/jev-decision-index.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/multimodalart/jev-decision-index",
-      "websiteUrl": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
+      "affiliateUrl": "https://huggingface.co/spaces/multimodalart/jev-decision-index"
     },
     {
       "id": "ai-knowledgegraph-gpt",
@@ -2659,8 +2538,7 @@
       "logoUrl": "/logos/knowledgegraph-gpt.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://celebrated-kitten-367f1f.netlify.app",
-      "websiteUrl": "https://celebrated-kitten-367f1f.netlify.app"
+      "affiliateUrl": "https://celebrated-kitten-367f1f.netlify.app"
     },
     {
       "id": "ai-deepzen",
@@ -2678,8 +2556,7 @@
       "logoUrl": "/logos/deepzen.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://deepzen.io",
-      "websiteUrl": "https://deepzen.io"
+      "affiliateUrl": "https://deepzen.io"
     },
     {
       "id": "ai-teach-anything",
@@ -2697,8 +2574,7 @@
       "logoUrl": "/logos/teach-anything.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.teach-anything.com",
-      "websiteUrl": "https://www.teach-anything.com"
+      "affiliateUrl": "https://www.teach-anything.com"
     },
     {
       "id": "ai-cohere-io",
@@ -2716,8 +2592,7 @@
       "logoUrl": "/logos/cohere-io.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://cohere.io",
-      "websiteUrl": "https://cohere.io"
+      "affiliateUrl": "https://cohere.io"
     },
     {
       "id": "ai-quizgrowth",
@@ -2735,8 +2610,7 @@
       "logoUrl": "/logos/quizgrowth.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://quizgrowth.com",
-      "websiteUrl": "https://quizgrowth.com"
+      "affiliateUrl": "https://quizgrowth.com"
     },
     {
       "id": "ai-bfs-best-face-swap",
@@ -2754,8 +2628,7 @@
       "logoUrl": "/logos/bfs-best-face-swap.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/hugging-apps/bfs-best-face-swap",
-      "websiteUrl": "https://huggingface.co/spaces/hugging-apps/bfs-best-face-swap"
+      "affiliateUrl": "https://huggingface.co/spaces/hugging-apps/bfs-best-face-swap"
     },
     {
       "id": "ai-text-gpt",
@@ -2773,8 +2646,7 @@
       "logoUrl": "/logos/text-gpt.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://textgpt.net",
-      "websiteUrl": "https://textgpt.net"
+      "affiliateUrl": "https://textgpt.net"
     },
     {
       "id": "ai-artsmart-ai",
@@ -2792,8 +2664,7 @@
       "logoUrl": "/logos/artsmart-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://artsmart.ai",
-      "websiteUrl": "https://artsmart.ai"
+      "affiliateUrl": "https://artsmart.ai"
     },
     {
       "id": "ai-moss-image-character-catalog",
@@ -2811,8 +2682,7 @@
       "logoUrl": "/logos/moss-image-character-catalog.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/hide1/MOSS-Image-Character-Catalog",
-      "websiteUrl": "https://huggingface.co/spaces/hide1/MOSS-Image-Character-Catalog"
+      "affiliateUrl": "https://huggingface.co/spaces/hide1/MOSS-Image-Character-Catalog"
     },
     {
       "id": "ai-weight-space-programming-demo",
@@ -2830,8 +2700,7 @@
       "logoUrl": "/logos/weight-space-programming-demo.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/ML-Intern-lab/weight-space-programming-demo",
-      "websiteUrl": "https://huggingface.co/spaces/ML-Intern-lab/weight-space-programming-demo"
+      "affiliateUrl": "https://huggingface.co/spaces/ML-Intern-lab/weight-space-programming-demo"
     },
     {
       "id": "ai-rewind",
@@ -2849,8 +2718,7 @@
       "logoUrl": "/logos/rewind.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.rewind.ai",
-      "websiteUrl": "https://www.rewind.ai"
+      "affiliateUrl": "https://www.rewind.ai"
     },
     {
       "id": "ai-ava",
@@ -2868,8 +2736,7 @@
       "logoUrl": "/logos/ava.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/townbox/ava",
-      "websiteUrl": "https://huggingface.co/spaces/townbox/ava"
+      "affiliateUrl": "https://huggingface.co/spaces/townbox/ava"
     },
     {
       "id": "ai-daft-art",
@@ -2887,8 +2754,7 @@
       "logoUrl": "/logos/daft-art.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://daftart.ai",
-      "websiteUrl": "https://daftart.ai"
+      "affiliateUrl": "https://daftart.ai"
     },
     {
       "id": "ai-contents-com",
@@ -2906,8 +2772,7 @@
       "logoUrl": "/logos/contents-com.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.contents.com",
-      "websiteUrl": "https://www.contents.com"
+      "affiliateUrl": "https://www.contents.com"
     },
     {
       "id": "ai-gptkit",
@@ -2925,8 +2790,7 @@
       "logoUrl": "/logos/gptkit.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://gptkit.ai",
-      "websiteUrl": "https://gptkit.ai"
+      "affiliateUrl": "https://gptkit.ai"
     },
     {
       "id": "ai-relayed",
@@ -2944,8 +2808,7 @@
       "logoUrl": "/logos/relayed.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://relayed.ai",
-      "websiteUrl": "https://relayed.ai"
+      "affiliateUrl": "https://relayed.ai"
     },
     {
       "id": "ai-wan2-2-fp8da-aoti-faster",
@@ -2963,8 +2826,7 @@
       "logoUrl": "/logos/wan2-2-fp8da-aoti-faster.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/zerogpu-aoti/wan2-2-fp8da-aoti-faster",
-      "websiteUrl": "https://huggingface.co/spaces/zerogpu-aoti/wan2-2-fp8da-aoti-faster"
+      "affiliateUrl": "https://huggingface.co/spaces/zerogpu-aoti/wan2-2-fp8da-aoti-faster"
     },
     {
       "id": "ai-illustroke",
@@ -2982,8 +2844,7 @@
       "logoUrl": "/logos/illustroke.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://illustroke.com",
-      "websiteUrl": "https://illustroke.com"
+      "affiliateUrl": "https://illustroke.com"
     },
     {
       "id": "ai-samplette",
@@ -3001,8 +2862,7 @@
       "logoUrl": "/logos/samplette.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://samplette.io",
-      "websiteUrl": "https://samplette.io"
+      "affiliateUrl": "https://samplette.io"
     },
     {
       "id": "ai-pika-h3-flex",
@@ -3020,8 +2880,7 @@
       "logoUrl": "/logos/pika-h3-flex.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/Pika-Labs/pika-h3-flex",
-      "websiteUrl": "https://huggingface.co/spaces/Pika-Labs/pika-h3-flex"
+      "affiliateUrl": "https://huggingface.co/spaces/Pika-Labs/pika-h3-flex"
     },
     {
       "id": "ai-hoppy-copy",
@@ -3039,8 +2898,7 @@
       "logoUrl": "/logos/hoppy-copy.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://hoppycopy.co",
-      "websiteUrl": "https://hoppycopy.co"
+      "affiliateUrl": "https://hoppycopy.co"
     },
     {
       "id": "ai-stockimg-ai",
@@ -3058,8 +2916,7 @@
       "logoUrl": "/logos/stockimg-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://stockimg.ai",
-      "websiteUrl": "https://stockimg.ai"
+      "affiliateUrl": "https://stockimg.ai"
     },
     {
       "id": "ai-kaiber",
@@ -3077,8 +2934,7 @@
       "logoUrl": "/logos/kaiber.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://kaiber.ai",
-      "websiteUrl": "https://kaiber.ai"
+      "affiliateUrl": "https://kaiber.ai"
     },
     {
       "id": "ai-motionbricks-playground",
@@ -3096,8 +2952,7 @@
       "logoUrl": "/logos/motionbricks-playground.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/townbox/motionbricks-playground",
-      "websiteUrl": "https://huggingface.co/spaces/townbox/motionbricks-playground"
+      "affiliateUrl": "https://huggingface.co/spaces/townbox/motionbricks-playground"
     },
     {
       "id": "ai-writerzen",
@@ -3115,8 +2970,7 @@
       "logoUrl": "/logos/writerzen.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://writerzen.net",
-      "websiteUrl": "https://writerzen.net"
+      "affiliateUrl": "https://writerzen.net"
     },
     {
       "id": "ai-playlistai",
@@ -3134,8 +2988,7 @@
       "logoUrl": "/logos/playlistai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.playlistai.app",
-      "websiteUrl": "https://www.playlistai.app"
+      "affiliateUrl": "https://www.playlistai.app"
     },
     {
       "id": "ai-qwen-image-2-1-uncensored-aio-loras",
@@ -3153,8 +3006,7 @@
       "logoUrl": "/logos/qwen-image-2-1-uncensored-aio-loras.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/Guaryn/qwen-image-2.1-uncensored-aio-loras",
-      "websiteUrl": "https://huggingface.co/spaces/Guaryn/qwen-image-2.1-uncensored-aio-loras"
+      "affiliateUrl": "https://huggingface.co/spaces/Guaryn/qwen-image-2.1-uncensored-aio-loras"
     },
     {
       "id": "ai-obituary-writer",
@@ -3172,8 +3024,7 @@
       "logoUrl": "/logos/obituary-writer.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://akeeva.co/obituary-writer",
-      "websiteUrl": "https://akeeva.co/obituary-writer"
+      "affiliateUrl": "https://akeeva.co/obituary-writer"
     },
     {
       "id": "ai-fibo-2-0-editing",
@@ -3191,8 +3042,7 @@
       "logoUrl": "/logos/fibo-2-0-editing.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/briaai/Fibo-2.0-editing",
-      "websiteUrl": "https://huggingface.co/spaces/briaai/Fibo-2.0-editing"
+      "affiliateUrl": "https://huggingface.co/spaces/briaai/Fibo-2.0-editing"
     },
     {
       "id": "ai-nemotron-transcribe",
@@ -3210,8 +3060,7 @@
       "logoUrl": "/logos/nemotron-transcribe.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/nvidia/nemotron-transcribe",
-      "websiteUrl": "https://huggingface.co/spaces/nvidia/nemotron-transcribe"
+      "affiliateUrl": "https://huggingface.co/spaces/nvidia/nemotron-transcribe"
     },
     {
       "id": "ai-speech-studio",
@@ -3229,8 +3078,7 @@
       "logoUrl": "/logos/speech-studio.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://speech.microsoft.com/portal",
-      "websiteUrl": "https://speech.microsoft.com/portal"
+      "affiliateUrl": "https://speech.microsoft.com/portal"
     },
     {
       "id": "ai-mara",
@@ -3248,8 +3096,7 @@
       "logoUrl": "/logos/mara.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.mara-solutions.com",
-      "websiteUrl": "https://www.mara-solutions.com"
+      "affiliateUrl": "https://www.mara-solutions.com"
     },
     {
       "id": "ai-ai-image-enlarger",
@@ -3267,8 +3114,7 @@
       "logoUrl": "/logos/ai-image-enlarger.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://imglarger.com",
-      "websiteUrl": "https://imglarger.com"
+      "affiliateUrl": "https://imglarger.com"
     },
     {
       "id": "ai-hugging-face",
@@ -3286,8 +3132,7 @@
       "logoUrl": "/logos/hugging-face.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co",
-      "websiteUrl": "https://huggingface.co"
+      "affiliateUrl": "https://huggingface.co"
     },
     {
       "id": "ai-smartbids-ai",
@@ -3305,8 +3150,7 @@
       "logoUrl": "/logos/smartbids-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://smartbids.ai",
-      "websiteUrl": "https://smartbids.ai"
+      "affiliateUrl": "https://smartbids.ai"
     },
     {
       "id": "ai-qwen-image-2-1",
@@ -3324,8 +3168,7 @@
       "logoUrl": "/logos/qwen-image-2-1.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/Qwen/Qwen-Image-2.1",
-      "websiteUrl": "https://huggingface.co/spaces/Qwen/Qwen-Image-2.1"
+      "affiliateUrl": "https://huggingface.co/spaces/Qwen/Qwen-Image-2.1"
     },
     {
       "id": "ai-neuron-studio",
@@ -3343,8 +3186,7 @@
       "logoUrl": "/logos/neuron-studio.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/webml-community/neuron-studio",
-      "websiteUrl": "https://huggingface.co/spaces/webml-community/neuron-studio"
+      "affiliateUrl": "https://huggingface.co/spaces/webml-community/neuron-studio"
     },
     {
       "id": "ai-marketingblocks-ai",
@@ -3362,8 +3204,7 @@
       "logoUrl": "/logos/marketingblocks-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://jvz2.com/c/2754055/389716",
-      "websiteUrl": "https://jvz2.com/c/2754055/389716"
+      "affiliateUrl": "https://jvz2.com/c/2754055/389716"
     },
     {
       "id": "ai-neuronwriter",
@@ -3381,8 +3222,7 @@
       "logoUrl": "/logos/neuronwriter.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://neuronwriter.com",
-      "websiteUrl": "https://neuronwriter.com"
+      "affiliateUrl": "https://neuronwriter.com"
     },
     {
       "id": "ai-minimax-h3",
@@ -3400,8 +3240,7 @@
       "logoUrl": "/logos/minimax-h3.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/wank3r/minimax-h3",
-      "websiteUrl": "https://huggingface.co/spaces/wank3r/minimax-h3"
+      "affiliateUrl": "https://huggingface.co/spaces/wank3r/minimax-h3"
     },
     {
       "id": "ai-sheetai",
@@ -3419,8 +3258,7 @@
       "logoUrl": "/logos/sheetai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://sheetai.app",
-      "websiteUrl": "https://sheetai.app"
+      "affiliateUrl": "https://sheetai.app"
     },
     {
       "id": "ai-email-helper",
@@ -3438,8 +3276,7 @@
       "logoUrl": "/logos/email-helper.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://email-helper.vercel.app",
-      "websiteUrl": "https://email-helper.vercel.app"
+      "affiliateUrl": "https://email-helper.vercel.app"
     },
     {
       "id": "ai-lfm3-omni-2b-webgpu",
@@ -3457,8 +3294,7 @@
       "logoUrl": "/logos/lfm3-omni-2b-webgpu.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/LiquidAI/LFM3-Omni-2B-WebGPU",
-      "websiteUrl": "https://huggingface.co/spaces/LiquidAI/LFM3-Omni-2B-WebGPU"
+      "affiliateUrl": "https://huggingface.co/spaces/LiquidAI/LFM3-Omni-2B-WebGPU"
     },
     {
       "id": "ai-fasth3-omni",
@@ -3476,8 +3312,7 @@
       "logoUrl": "/logos/fasth3-omni.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://huggingface.co/spaces/FastVideo/FastH3-Omni",
-      "websiteUrl": "https://huggingface.co/spaces/FastVideo/FastH3-Omni"
+      "affiliateUrl": "https://huggingface.co/spaces/FastVideo/FastH3-Omni"
     },
     {
       "id": "ai-gpt2markdown",
@@ -3495,8 +3330,7 @@
       "logoUrl": "/logos/gpt2markdown.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://chrome.google.com/webstore/detail/gpt2markdown/mlfimpibamecbdnofjnbkjomeieclnjl",
-      "websiteUrl": "https://chrome.google.com/webstore/detail/gpt2markdown/mlfimpibamecbdnofjnbkjomeieclnjl"
+      "affiliateUrl": "https://chrome.google.com/webstore/detail/gpt2markdown/mlfimpibamecbdnofjnbkjomeieclnjl"
     },
     {
       "id": "ai-stork-ai",
@@ -3514,8 +3348,7 @@
       "logoUrl": "/logos/stork-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.stork.ai",
-      "websiteUrl": "https://www.stork.ai"
+      "affiliateUrl": "https://www.stork.ai"
     },
     {
       "id": "ai-motion-ai",
@@ -3533,8 +3366,7 @@
       "logoUrl": "/logos/motion.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://usemotion.com",
-      "websiteUrl": "https://usemotion.com"
+      "affiliateUrl": "https://usemotion.com"
     },
     {
       "id": "ai-superhuman-ai",
@@ -3552,8 +3384,7 @@
       "logoUrl": "/logos/superhuman.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://superhuman.com",
-      "websiteUrl": "https://superhuman.com"
+      "affiliateUrl": "https://superhuman.com"
     },
     {
       "id": "ai-taskade",
@@ -3571,8 +3402,7 @@
       "logoUrl": "/logos/taskade.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://taskade.com",
-      "websiteUrl": "https://taskade.com"
+      "affiliateUrl": "https://taskade.com"
     },
     {
       "id": "ai-julius-ai",
@@ -3590,8 +3420,7 @@
       "logoUrl": "/logos/julius-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://julius.ai",
-      "websiteUrl": "https://julius.ai"
+      "affiliateUrl": "https://julius.ai"
     },
     {
       "id": "ai-apify",
@@ -3609,8 +3438,7 @@
       "logoUrl": "/logos/apify.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://apify.com",
-      "websiteUrl": "https://apify.com"
+      "affiliateUrl": "https://apify.com"
     },
     {
       "id": "ai-tavily-ai",
@@ -3628,8 +3456,7 @@
       "logoUrl": "/logos/tavily.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://tavily.com",
-      "websiteUrl": "https://tavily.com"
+      "affiliateUrl": "https://tavily.com"
     },
     {
       "id": "ai-jina-reader",
@@ -3647,8 +3474,7 @@
       "logoUrl": "/logos/jina-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://jina.ai/reader",
-      "websiteUrl": "https://jina.ai/reader"
+      "affiliateUrl": "https://jina.ai/reader"
     },
     {
       "id": "ai-firecrawl",
@@ -3666,8 +3492,7 @@
       "logoUrl": "/logos/firecrawl.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://firecrawl.dev",
-      "websiteUrl": "https://firecrawl.dev"
+      "affiliateUrl": "https://firecrawl.dev"
     },
     {
       "id": "ai-spline-ai",
@@ -3685,8 +3510,7 @@
       "logoUrl": "/logos/spline.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://spline.design/ai",
-      "websiteUrl": "https://spline.design/ai"
+      "affiliateUrl": "https://spline.design/ai"
     },
     {
       "id": "ai-tripo3d",
@@ -3704,8 +3528,7 @@
       "logoUrl": "/logos/tripo3d.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://tripo3d.ai",
-      "websiteUrl": "https://tripo3d.ai"
+      "affiliateUrl": "https://tripo3d.ai"
     },
     {
       "id": "ai-meshy-ai",
@@ -3723,8 +3546,7 @@
       "logoUrl": "/logos/meshy.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://meshy.ai",
-      "websiteUrl": "https://meshy.ai"
+      "affiliateUrl": "https://meshy.ai"
     },
     {
       "id": "ai-recraft",
@@ -3742,8 +3564,7 @@
       "logoUrl": "/logos/recraft.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://recraft.ai",
-      "websiteUrl": "https://recraft.ai"
+      "affiliateUrl": "https://recraft.ai"
     },
     {
       "id": "ai-udio",
@@ -3761,8 +3582,7 @@
       "logoUrl": "/logos/udio.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://udio.com",
-      "websiteUrl": "https://udio.com"
+      "affiliateUrl": "https://udio.com"
     },
     {
       "id": "ai-llamaindex",
@@ -3780,8 +3600,7 @@
       "logoUrl": "/logos/llamaindex.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://llamaindex.ai",
-      "websiteUrl": "https://llamaindex.ai"
+      "affiliateUrl": "https://llamaindex.ai"
     },
     {
       "id": "ai-langchain",
@@ -3799,8 +3618,7 @@
       "logoUrl": "/logos/langchain.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://langchain.com",
-      "websiteUrl": "https://langchain.com"
+      "affiliateUrl": "https://langchain.com"
     },
     {
       "id": "ai-groq-cloud",
@@ -3818,8 +3636,7 @@
       "logoUrl": "/logos/groq.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://groq.com",
-      "websiteUrl": "https://groq.com"
+      "affiliateUrl": "https://groq.com"
     },
     {
       "id": "ai-lm-studio",
@@ -3837,8 +3654,7 @@
       "logoUrl": "/logos/lm-studio.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://lmstudio.ai",
-      "websiteUrl": "https://lmstudio.ai"
+      "affiliateUrl": "https://lmstudio.ai"
     },
     {
       "id": "ai-ollama",
@@ -3856,8 +3672,7 @@
       "logoUrl": "/logos/ollama.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://ollama.com",
-      "websiteUrl": "https://ollama.com"
+      "affiliateUrl": "https://ollama.com"
     },
     {
       "id": "ai-difyai",
@@ -3875,8 +3690,7 @@
       "logoUrl": "/logos/dify.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://dify.ai",
-      "websiteUrl": "https://dify.ai"
+      "affiliateUrl": "https://dify.ai"
     },
     {
       "id": "ai-flowise",
@@ -3894,8 +3708,7 @@
       "logoUrl": "/logos/flowise.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://flowiseai.com",
-      "websiteUrl": "https://flowiseai.com"
+      "affiliateUrl": "https://flowiseai.com"
     },
     {
       "id": "ai-langflow",
@@ -3913,8 +3726,7 @@
       "logoUrl": "/logos/langflow.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://langflow.org",
-      "websiteUrl": "https://langflow.org"
+      "affiliateUrl": "https://langflow.org"
     },
     {
       "id": "ai-autogen",
@@ -3932,8 +3744,7 @@
       "logoUrl": "/logos/autogen.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://github.com/microsoft/autogen",
-      "websiteUrl": "https://github.com/microsoft/autogen"
+      "affiliateUrl": "https://github.com/microsoft/autogen"
     },
     {
       "id": "ai-crewai",
@@ -3951,8 +3762,7 @@
       "logoUrl": "/logos/crewai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://crewai.com",
-      "websiteUrl": "https://crewai.com"
+      "affiliateUrl": "https://crewai.com"
     },
     {
       "id": "ai-qwen-25-coder",
@@ -3970,8 +3780,7 @@
       "logoUrl": "/logos/qwen.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://github.com/QwenLM/Qwen2.5-Coder",
-      "websiteUrl": "https://github.com/QwenLM/Qwen2.5-Coder"
+      "affiliateUrl": "https://github.com/QwenLM/Qwen2.5-Coder"
     },
     {
       "id": "ai-devin-ai",
@@ -3989,8 +3798,7 @@
       "logoUrl": "/logos/devin.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://cognition.ai",
-      "websiteUrl": "https://cognition.ai"
+      "affiliateUrl": "https://cognition.ai"
     },
     {
       "id": "ai-openhands",
@@ -4008,8 +3816,7 @@
       "logoUrl": "/logos/openhands.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://github.com/All-Hands-AI/OpenHands",
-      "websiteUrl": "https://github.com/All-Hands-AI/OpenHands"
+      "affiliateUrl": "https://github.com/All-Hands-AI/OpenHands"
     },
     {
       "id": "ai-warp-terminal",
@@ -4027,8 +3834,7 @@
       "logoUrl": "/logos/warp-terminal.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://warp.dev",
-      "websiteUrl": "https://warp.dev"
+      "affiliateUrl": "https://warp.dev"
     },
     {
       "id": "ai-amazon-q-developer",
@@ -4046,8 +3852,7 @@
       "logoUrl": "/logos/amazon-q.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://aws.amazon.com/q/developer",
-      "websiteUrl": "https://aws.amazon.com/q/developer"
+      "affiliateUrl": "https://aws.amazon.com/q/developer"
     },
     {
       "id": "ai-github-copilot",
@@ -4065,8 +3870,7 @@
       "logoUrl": "/logos/github-copilot.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://github.com/features/copilot",
-      "websiteUrl": "https://github.com/features/copilot"
+      "affiliateUrl": "https://github.com/features/copilot"
     },
     {
       "id": "ai-otterai",
@@ -4084,8 +3888,7 @@
       "logoUrl": "/logos/otterai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://otter.ai/?via=locagocreative",
-      "websiteUrl": "https://otter.ai/?via=locagocreative"
+      "affiliateUrl": "https://otter.ai/?via=locagocreative"
     },
     {
       "id": "ai-gamma-app",
@@ -4103,8 +3906,7 @@
       "logoUrl": "/logos/gamma-app.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://gamma.app/?via=locagocreative",
-      "websiteUrl": "https://gamma.app/?via=locagocreative"
+      "affiliateUrl": "https://gamma.app/?via=locagocreative"
     },
     {
       "id": "ai-notebooklm",
@@ -4122,8 +3924,7 @@
       "logoUrl": "/logos/notebooklm.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://notebooklm.google.com",
-      "websiteUrl": "https://notebooklm.google.com"
+      "affiliateUrl": "https://notebooklm.google.com"
     },
     {
       "id": "ai-activepieces",
@@ -4141,8 +3942,7 @@
       "logoUrl": "/logos/activepieces.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.activepieces.com",
-      "websiteUrl": "https://www.activepieces.com"
+      "affiliateUrl": "https://www.activepieces.com"
     },
     {
       "id": "ai-gumloop",
@@ -4160,8 +3960,7 @@
       "logoUrl": "/logos/gumloop.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.gumloop.com/?via=locagocreative",
-      "websiteUrl": "https://www.gumloop.com/?via=locagocreative"
+      "affiliateUrl": "https://www.gumloop.com/?via=locagocreative"
     },
     {
       "id": "ai-lindy-ai",
@@ -4179,8 +3978,7 @@
       "logoUrl": "/logos/lindy-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.lindy.ai/?via=locagocreative",
-      "websiteUrl": "https://www.lindy.ai/?via=locagocreative"
+      "affiliateUrl": "https://www.lindy.ai/?via=locagocreative"
     },
     {
       "id": "ai-n8n",
@@ -4198,8 +3996,7 @@
       "logoUrl": "/logos/n8n.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://n8n.io",
-      "websiteUrl": "https://n8n.io"
+      "affiliateUrl": "https://n8n.io"
     },
     {
       "id": "ai-jasper-ai",
@@ -4217,8 +4014,7 @@
       "logoUrl": "/logos/jasper-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.jasper.ai/?via=locagocreative",
-      "websiteUrl": "https://www.jasper.ai/?via=locagocreative"
+      "affiliateUrl": "https://www.jasper.ai/?via=locagocreative"
     },
     {
       "id": "ai-perplexity-pro",
@@ -4236,8 +4032,7 @@
       "logoUrl": "/logos/perplexity.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.perplexity.ai/pro?via=locagocreative",
-      "websiteUrl": "https://www.perplexity.ai/pro?via=locagocreative"
+      "affiliateUrl": "https://www.perplexity.ai/pro?via=locagocreative"
     },
     {
       "id": "ai-recraft-v3",
@@ -4255,8 +4050,7 @@
       "logoUrl": "/logos/recraft-v3.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.recraft.ai/?via=locagocreative",
-      "websiteUrl": "https://www.recraft.ai/?via=locagocreative"
+      "affiliateUrl": "https://www.recraft.ai/?via=locagocreative"
     },
     {
       "id": "ai-ideogram-20",
@@ -4274,8 +4068,7 @@
       "logoUrl": "/logos/ideogram-20.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://ideogram.ai/?via=locagocreative",
-      "websiteUrl": "https://ideogram.ai/?via=locagocreative"
+      "affiliateUrl": "https://ideogram.ai/?via=locagocreative"
     },
     {
       "id": "ai-flux1",
@@ -4293,8 +4086,7 @@
       "logoUrl": "/logos/flux1.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://blackforestlabs.ai",
-      "websiteUrl": "https://blackforestlabs.ai"
+      "affiliateUrl": "https://blackforestlabs.ai"
     },
     {
       "id": "ai-midjourney-v61",
@@ -4312,8 +4104,7 @@
       "logoUrl": "/logos/midjourney.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.midjourney.com",
-      "websiteUrl": "https://www.midjourney.com"
+      "affiliateUrl": "https://www.midjourney.com"
     },
     {
       "id": "ai-krisp",
@@ -4331,8 +4122,7 @@
       "logoUrl": "/logos/krisp.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://krisp.ai/?via=locagocreative",
-      "websiteUrl": "https://krisp.ai/?via=locagocreative"
+      "affiliateUrl": "https://krisp.ai/?via=locagocreative"
     },
     {
       "id": "ai-udio-15",
@@ -4350,8 +4140,7 @@
       "logoUrl": "/logos/udio-15.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.udio.com/?via=locagocreative",
-      "websiteUrl": "https://www.udio.com/?via=locagocreative"
+      "affiliateUrl": "https://www.udio.com/?via=locagocreative"
     },
     {
       "id": "ai-suno-ai-v35",
@@ -4369,8 +4158,7 @@
       "logoUrl": "/logos/suno.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://suno.com/?via=locagocreative",
-      "websiteUrl": "https://suno.com/?via=locagocreative"
+      "affiliateUrl": "https://suno.com/?via=locagocreative"
     },
     {
       "id": "ai-topaz-video-ai",
@@ -4388,8 +4176,7 @@
       "logoUrl": "/logos/topaz-video-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.topazlabs.com/topaz-video-ai?via=locagocreative",
-      "websiteUrl": "https://www.topazlabs.com/topaz-video-ai?via=locagocreative"
+      "affiliateUrl": "https://www.topazlabs.com/topaz-video-ai?via=locagocreative"
     },
     {
       "id": "ai-submagic",
@@ -4407,8 +4194,7 @@
       "logoUrl": "/logos/submagic.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.submagic.co/?via=locagocreative",
-      "websiteUrl": "https://www.submagic.co/?via=locagocreative"
+      "affiliateUrl": "https://www.submagic.co/?via=locagocreative"
     },
     {
       "id": "ai-klap",
@@ -4426,8 +4212,7 @@
       "logoUrl": "/logos/klap.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://klap.app/?via=locagocreative",
-      "websiteUrl": "https://klap.app/?via=locagocreative"
+      "affiliateUrl": "https://klap.app/?via=locagocreative"
     },
     {
       "id": "ai-viggle-ai",
@@ -4445,8 +4230,7 @@
       "logoUrl": "/logos/viggle-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://viggle.ai/?via=locagocreative",
-      "websiteUrl": "https://viggle.ai/?via=locagocreative"
+      "affiliateUrl": "https://viggle.ai/?via=locagocreative"
     },
     {
       "id": "ai-pika-20",
@@ -4464,8 +4248,7 @@
       "logoUrl": "/logos/pika-20.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://pika.art/?via=locagocreative",
-      "websiteUrl": "https://pika.art/?via=locagocreative"
+      "affiliateUrl": "https://pika.art/?via=locagocreative"
     },
     {
       "id": "ai-hailuo-ai-(minimax)",
@@ -4483,8 +4266,7 @@
       "logoUrl": "/logos/hailuo-ai-(minimax).png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://hailuoai.com/video",
-      "websiteUrl": "https://hailuoai.com/video"
+      "affiliateUrl": "https://hailuoai.com/video"
     },
     {
       "id": "ai-runway-gen-3-alpha",
@@ -4502,8 +4284,7 @@
       "logoUrl": "/logos/runway.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://runwayml.com/?via=locagocreative",
-      "websiteUrl": "https://runwayml.com/?via=locagocreative"
+      "affiliateUrl": "https://runwayml.com/?via=locagocreative"
     },
     {
       "id": "ai-pieces-for-developers",
@@ -4521,8 +4302,7 @@
       "logoUrl": "/logos/pieces-for-developers.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://pieces.app/?via=locagocreative",
-      "websiteUrl": "https://pieces.app/?via=locagocreative"
+      "affiliateUrl": "https://pieces.app/?via=locagocreative"
     },
     {
       "id": "ai-deepseek-coder-v2",
@@ -4540,8 +4320,7 @@
       "logoUrl": "/logos/deepseek-coder-v2.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.deepseek.com",
-      "websiteUrl": "https://www.deepseek.com"
+      "affiliateUrl": "https://www.deepseek.com"
     },
     {
       "id": "ai-pythagora",
@@ -4559,8 +4338,7 @@
       "logoUrl": "/logos/pythagora.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://pythagora.ai/?via=locagocreative",
-      "websiteUrl": "https://pythagora.ai/?via=locagocreative"
+      "affiliateUrl": "https://pythagora.ai/?via=locagocreative"
     },
     {
       "id": "ai-qodo",
@@ -4578,8 +4356,7 @@
       "logoUrl": "/logos/qodo.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.qodo.ai/?via=locagocreative",
-      "websiteUrl": "https://www.qodo.ai/?via=locagocreative"
+      "affiliateUrl": "https://www.qodo.ai/?via=locagocreative"
     },
     {
       "id": "ai-aider",
@@ -4597,8 +4374,7 @@
       "logoUrl": "/logos/aider.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://aider.chat",
-      "websiteUrl": "https://aider.chat"
+      "affiliateUrl": "https://aider.chat"
     },
     {
       "id": "ai-lovable",
@@ -4616,8 +4392,7 @@
       "logoUrl": "/logos/lovable.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://lovable.dev/?via=locagocreative",
-      "websiteUrl": "https://lovable.dev/?via=locagocreative"
+      "affiliateUrl": "https://lovable.dev/?via=locagocreative"
     },
     {
       "id": "ai-claude-code",
@@ -4635,8 +4410,7 @@
       "logoUrl": "/logos/claude-code.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://anthropic.com/claude-code",
-      "websiteUrl": "https://anthropic.com/claude-code"
+      "affiliateUrl": "https://anthropic.com/claude-code"
     },
     {
       "id": "ai-writesonic",
@@ -4654,8 +4428,7 @@
       "logoUrl": "/logos/writesonic.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://writesonic.com/?via=locagocreative",
-      "websiteUrl": "https://writesonic.com/?via=locagocreative"
+      "affiliateUrl": "https://writesonic.com/?via=locagocreative"
     },
     {
       "id": "ai-quillbot",
@@ -4673,8 +4446,7 @@
       "logoUrl": "/logos/quillbot.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://quillbot.com/?via=locagocreative",
-      "websiteUrl": "https://quillbot.com/?via=locagocreative"
+      "affiliateUrl": "https://quillbot.com/?via=locagocreative"
     },
     {
       "id": "ai-koalawriter",
@@ -4692,8 +4464,7 @@
       "logoUrl": "/logos/koala.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://koala.sh/?via=locagocreative",
-      "websiteUrl": "https://koala.sh/?via=locagocreative"
+      "affiliateUrl": "https://koala.sh/?via=locagocreative"
     },
     {
       "id": "ai-fraseio",
@@ -4711,8 +4482,7 @@
       "logoUrl": "/logos/fraseio.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.frase.io/?via=locagocreative",
-      "websiteUrl": "https://www.frase.io/?via=locagocreative"
+      "affiliateUrl": "https://www.frase.io/?via=locagocreative"
     },
     {
       "id": "ai-surfer-seo",
@@ -4730,8 +4500,7 @@
       "logoUrl": "/logos/surfer.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://surferseo.com/?via=locagocreative",
-      "websiteUrl": "https://surferseo.com/?via=locagocreative"
+      "affiliateUrl": "https://surferseo.com/?via=locagocreative"
     },
     {
       "id": "ai-zapier-central",
@@ -4749,8 +4518,7 @@
       "logoUrl": "/logos/zapier-central.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://zapier.com/central?via=locagocreative",
-      "websiteUrl": "https://zapier.com/central?via=locagocreative"
+      "affiliateUrl": "https://zapier.com/central?via=locagocreative"
     },
     {
       "id": "ai-activecampaign-ai",
@@ -4768,8 +4536,7 @@
       "logoUrl": "/logos/activecampaign-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.activecampaign.com/?via=locagocreative",
-      "websiteUrl": "https://www.activecampaign.com/?via=locagocreative"
+      "affiliateUrl": "https://www.activecampaign.com/?via=locagocreative"
     },
     {
       "id": "ai-browse-ai",
@@ -4787,8 +4554,7 @@
       "logoUrl": "/logos/browse-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://browse.ai/?via=locagocreative",
-      "websiteUrl": "https://browse.ai/?via=locagocreative"
+      "affiliateUrl": "https://browse.ai/?via=locagocreative"
     },
     {
       "id": "ai-bardeen-ai",
@@ -4806,8 +4572,7 @@
       "logoUrl": "/logos/bardeenai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.bardeen.ai/?via=locagocreative",
-      "websiteUrl": "https://www.bardeen.ai/?via=locagocreative"
+      "affiliateUrl": "https://www.bardeen.ai/?via=locagocreative"
     },
     {
       "id": "ai-voiceflow",
@@ -4825,8 +4590,7 @@
       "logoUrl": "/logos/voiceflow.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.voiceflow.com/?via=locagocreative",
-      "websiteUrl": "https://www.voiceflow.com/?via=locagocreative"
+      "affiliateUrl": "https://www.voiceflow.com/?via=locagocreative"
     },
     {
       "id": "ai-soundraw",
@@ -4844,8 +4608,7 @@
       "logoUrl": "/logos/soundraw.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://soundraw.io/?via=locagocreative",
-      "websiteUrl": "https://soundraw.io/?via=locagocreative"
+      "affiliateUrl": "https://soundraw.io/?via=locagocreative"
     },
     {
       "id": "ai-udio-ai",
@@ -4863,8 +4626,7 @@
       "logoUrl": "/logos/udio-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.udio.com/",
-      "websiteUrl": "https://www.udio.com/"
+      "affiliateUrl": "https://www.udio.com/"
     },
     {
       "id": "ai-krisp-ai",
@@ -4882,8 +4644,7 @@
       "logoUrl": "/logos/krispai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://krisp.ai/?via=locagocreative",
-      "websiteUrl": "https://krisp.ai/?via=locagocreative"
+      "affiliateUrl": "https://krisp.ai/?via=locagocreative"
     },
     {
       "id": "ai-speechify",
@@ -4901,8 +4662,7 @@
       "logoUrl": "/logos/speechify.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://speechify.com/?via=locagocreative",
-      "websiteUrl": "https://speechify.com/?via=locagocreative"
+      "affiliateUrl": "https://speechify.com/?via=locagocreative"
     },
     {
       "id": "ai-murf-ai",
@@ -4920,8 +4680,7 @@
       "logoUrl": "/logos/murfai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://murf.ai/?via=locagocreative",
-      "websiteUrl": "https://murf.ai/?via=locagocreative"
+      "affiliateUrl": "https://murf.ai/?via=locagocreative"
     },
     {
       "id": "ai-descript",
@@ -4939,8 +4698,7 @@
       "logoUrl": "/logos/descript.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.descript.com/?via=locagocreative",
-      "websiteUrl": "https://www.descript.com/?via=locagocreative"
+      "affiliateUrl": "https://www.descript.com/?via=locagocreative"
     },
     {
       "id": "ai-opus-clip",
@@ -4958,8 +4716,7 @@
       "logoUrl": "/logos/opus.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.opus.pro/?via=locagocreative",
-      "websiteUrl": "https://www.opus.pro/?via=locagocreative"
+      "affiliateUrl": "https://www.opus.pro/?via=locagocreative"
     },
     {
       "id": "ai-magnific-ai",
@@ -4977,8 +4734,7 @@
       "logoUrl": "/logos/magnific-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://magnific.ai/",
-      "websiteUrl": "https://magnific.ai/"
+      "affiliateUrl": "https://magnific.ai/"
     },
     {
       "id": "ai-krea-ai",
@@ -4996,8 +4752,7 @@
       "logoUrl": "/logos/kreaai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.krea.ai/",
-      "websiteUrl": "https://www.krea.ai/"
+      "affiliateUrl": "https://www.krea.ai/"
     },
     {
       "id": "ai-recraft-ai",
@@ -5015,8 +4770,7 @@
       "logoUrl": "/logos/recraftai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.recraft.ai/?via=locagocreative",
-      "websiteUrl": "https://www.recraft.ai/?via=locagocreative"
+      "affiliateUrl": "https://www.recraft.ai/?via=locagocreative"
     },
     {
       "id": "ai-leonardo-ai",
@@ -5034,8 +4788,7 @@
       "logoUrl": "/logos/leonardoai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://leonardo.ai/?via=locagocreative",
-      "websiteUrl": "https://leonardo.ai/?via=locagocreative"
+      "affiliateUrl": "https://leonardo.ai/?via=locagocreative"
     },
     {
       "id": "ai-pika-labs",
@@ -5053,8 +4806,7 @@
       "logoUrl": "/logos/pika-labs.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://pika.art/",
-      "websiteUrl": "https://pika.art/"
+      "affiliateUrl": "https://pika.art/"
     },
     {
       "id": "ai-luma-dream-machine",
@@ -5072,8 +4824,7 @@
       "logoUrl": "/logos/luma.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://lumalabs.ai/dream-machine",
-      "websiteUrl": "https://lumalabs.ai/dream-machine"
+      "affiliateUrl": "https://lumalabs.ai/dream-machine"
     },
     {
       "id": "ai-heygen",
@@ -5091,8 +4842,7 @@
       "logoUrl": "/logos/heygen.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://heygen.com/?via=locagocreative",
-      "websiteUrl": "https://heygen.com/?via=locagocreative"
+      "affiliateUrl": "https://heygen.com/?via=locagocreative"
     },
     {
       "id": "ai-continuedev",
@@ -5110,8 +4860,7 @@
       "logoUrl": "/logos/continuedev.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://continue.dev/?via=locagocreative",
-      "websiteUrl": "https://continue.dev/?via=locagocreative"
+      "affiliateUrl": "https://continue.dev/?via=locagocreative"
     },
     {
       "id": "ai-tabnine",
@@ -5129,8 +4878,7 @@
       "logoUrl": "/logos/tabnine.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.tabnine.com/?via=locagocreative",
-      "websiteUrl": "https://www.tabnine.com/?via=locagocreative"
+      "affiliateUrl": "https://www.tabnine.com/?via=locagocreative"
     },
     {
       "id": "ai-sourcegraph-cody",
@@ -5148,8 +4896,7 @@
       "logoUrl": "/logos/sourcegraph-cody.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://sourcegraph.com/cody?via=locagocreative",
-      "websiteUrl": "https://sourcegraph.com/cody?via=locagocreative"
+      "affiliateUrl": "https://sourcegraph.com/cody?via=locagocreative"
     },
     {
       "id": "ai-windsurf",
@@ -5167,8 +4914,7 @@
       "logoUrl": "/logos/windsurf-by-codeium.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://codeium.com/windsurf?via=locagocreative",
-      "websiteUrl": "https://codeium.com/windsurf?via=locagocreative"
+      "affiliateUrl": "https://codeium.com/windsurf?via=locagocreative"
     },
     {
       "id": "ai-supermaven",
@@ -5186,8 +4932,7 @@
       "logoUrl": "/logos/supermaven.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://supermaven.com/?via=locagocreative",
-      "websiteUrl": "https://supermaven.com/?via=locagocreative"
+      "affiliateUrl": "https://supermaven.com/?via=locagocreative"
     },
     {
       "id": "ai-invideo-ai",
@@ -5205,8 +4950,7 @@
       "logoUrl": "/logos/invideo-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://invideo.io/?via=locagocreative",
-      "websiteUrl": "https://invideo.io/?via=locagocreative"
+      "affiliateUrl": "https://invideo.io/?via=locagocreative"
     },
     {
       "id": "ai-fliki",
@@ -5224,8 +4968,7 @@
       "logoUrl": "/logos/fliki.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://fliki.ai/?via=locagocreative",
-      "websiteUrl": "https://fliki.ai/?via=locagocreative"
+      "affiliateUrl": "https://fliki.ai/?via=locagocreative"
     },
     {
       "id": "ai-colossyan",
@@ -5243,8 +4986,7 @@
       "logoUrl": "/logos/colossyan.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://colossyan.com/?via=locagocreative",
-      "websiteUrl": "https://colossyan.com/?via=locagocreative"
+      "affiliateUrl": "https://colossyan.com/?via=locagocreative"
     },
     {
       "id": "ai-deepbrain-ai",
@@ -5262,8 +5004,7 @@
       "logoUrl": "/logos/deepbrain-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://deepbrain.io/?via=locagocreative",
-      "websiteUrl": "https://deepbrain.io/?via=locagocreative"
+      "affiliateUrl": "https://deepbrain.io/?via=locagocreative"
     },
     {
       "id": "ai-scalenut",
@@ -5281,8 +5022,7 @@
       "logoUrl": "/logos/scalenut.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://scalenut.com/?via=locagocreative",
-      "websiteUrl": "https://scalenut.com/?via=locagocreative"
+      "affiliateUrl": "https://scalenut.com/?via=locagocreative"
     },
     {
       "id": "tool-cursor",
@@ -5300,8 +5040,7 @@
       "logoUrl": "/logos/cursor.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://cursor.com/?via=locagocreative",
-      "websiteUrl": "https://cursor.com/?via=locagocreative"
+      "affiliateUrl": "https://cursor.com/?via=locagocreative"
     },
     {
       "id": "tool-bolt",
@@ -5319,8 +5058,7 @@
       "logoUrl": "/logos/bolt.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://bolt.new/?via=locagocreative",
-      "websiteUrl": "https://bolt.new/?via=locagocreative"
+      "affiliateUrl": "https://bolt.new/?via=locagocreative"
     },
     {
       "id": "tool-v0",
@@ -5338,8 +5076,7 @@
       "logoUrl": "/logos/v0.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://v0.dev/?ref=locagocreative",
-      "websiteUrl": "https://v0.dev/?ref=locagocreative"
+      "affiliateUrl": "https://v0.dev/?ref=locagocreative"
     },
     {
       "id": "tool-elevenlabs",
@@ -5357,8 +5094,7 @@
       "logoUrl": "/logos/elevenlabs.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://elevenlabs.io/?from=locagocreative",
-      "websiteUrl": "https://elevenlabs.io/?from=locagocreative"
+      "affiliateUrl": "https://elevenlabs.io/?from=locagocreative"
     },
     {
       "id": "tool-make",
@@ -5376,8 +5112,7 @@
       "logoUrl": "/logos/make.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.make.com/en/register?pc=locagocreative",
-      "websiteUrl": "https://www.make.com/en/register?pc=locagocreative"
+      "affiliateUrl": "https://www.make.com/en/register?pc=locagocreative"
     },
     {
       "id": "tool-runway",
@@ -5395,8 +5130,7 @@
       "logoUrl": "/logos/runway.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://runwayml.com/",
-      "websiteUrl": "https://runwayml.com/"
+      "affiliateUrl": "https://runwayml.com/"
     },
     {
       "id": "tool-midjourney",
@@ -5414,8 +5148,7 @@
       "logoUrl": "/logos/midjourney.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.midjourney.com/",
-      "websiteUrl": "https://www.midjourney.com/"
+      "affiliateUrl": "https://www.midjourney.com/"
     },
     {
       "id": "tool-kling",
@@ -5433,8 +5166,7 @@
       "logoUrl": "/logos/kling-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://klingai.com/",
-      "websiteUrl": "https://klingai.com/"
+      "affiliateUrl": "https://klingai.com/"
     },
     {
       "id": "tool-replit",
@@ -5452,8 +5184,7 @@
       "logoUrl": "/logos/replit.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://replit.com/",
-      "websiteUrl": "https://replit.com/"
+      "affiliateUrl": "https://replit.com/"
     },
     {
       "id": "tool-chatbase",
@@ -5471,8 +5202,7 @@
       "logoUrl": "/logos/chatbase.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.chatbase.co/",
-      "websiteUrl": "https://www.chatbase.co/"
+      "affiliateUrl": "https://www.chatbase.co/"
     },
     {
       "id": "tool-phind",
@@ -5490,8 +5220,7 @@
       "logoUrl": "/logos/phind.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.phind.com/",
-      "websiteUrl": "https://www.phind.com/"
+      "affiliateUrl": "https://www.phind.com/"
     },
     {
       "id": "tool-blackbox",
@@ -5509,8 +5238,7 @@
       "logoUrl": "/logos/blackbox-ai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.blackbox.ai/",
-      "websiteUrl": "https://www.blackbox.ai/"
+      "affiliateUrl": "https://www.blackbox.ai/"
     },
     {
       "id": "tool-systeme",
@@ -5528,8 +5256,7 @@
       "logoUrl": "/logos/systeme.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://systeme.io/id?sa=sa0285473359ae5985c82865330cf1a062d892e972",
-      "websiteUrl": "https://systeme.io/id?sa=sa0285473359ae5985c82865330cf1a062d892e972"
+      "affiliateUrl": "https://systeme.io/id?sa=sa0285473359ae5985c82865330cf1a062d892e972"
     },
     {
       "id": "tool-perplexity",
@@ -5547,8 +5274,7 @@
       "logoUrl": "/logos/perplexity.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.perplexity.ai/",
-      "websiteUrl": "https://www.perplexity.ai/"
+      "affiliateUrl": "https://www.perplexity.ai/"
     },
     {
       "id": "tool-coderabbit",
@@ -5566,8 +5292,7 @@
       "logoUrl": "/logos/coderabbit.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://coderabbit.ai/",
-      "websiteUrl": "https://coderabbit.ai/"
+      "affiliateUrl": "https://coderabbit.ai/"
     },
     {
       "id": "tool-kite",
@@ -5585,8 +5310,7 @@
       "logoUrl": "/logos/kite.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://kite.com/?via=locagocreative",
-      "websiteUrl": "https://kite.com/?via=locagocreative"
+      "affiliateUrl": "https://kite.com/?via=locagocreative"
     },
     {
       "id": "tool-rytr",
@@ -5604,8 +5328,7 @@
       "logoUrl": "/logos/rytr.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://rytr.me/?via=locagocreative",
-      "websiteUrl": "https://rytr.me/?via=locagocreative"
+      "affiliateUrl": "https://rytr.me/?via=locagocreative"
     },
     {
       "id": "tool-shortlyai",
@@ -5623,8 +5346,7 @@
       "logoUrl": "/logos/shortlyai.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.shortlyai.com/",
-      "websiteUrl": "https://www.shortlyai.com/"
+      "affiliateUrl": "https://www.shortlyai.com/"
     },
     {
       "id": "tool-notionai",
@@ -5642,8 +5364,7 @@
       "logoUrl": "/logos/notion.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://www.notion.so/product/ai",
-      "websiteUrl": "https://www.notion.so/product/ai"
+      "affiliateUrl": "https://www.notion.so/product/ai"
     },
     {
       "id": "tool-suno",
@@ -5661,8 +5382,7 @@
       "logoUrl": "/logos/suno.png",
       "screenshotUrl": null,
       "demoVideoUrl": null,
-      "affiliateUrl": "https://suno.com/",
-      "websiteUrl": "https://suno.com/"
+      "affiliateUrl": "https://suno.com/"
     }
   ]
 }
