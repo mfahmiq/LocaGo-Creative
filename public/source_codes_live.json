@@ -1,6 +1,6 @@
 {
-  "updatedAt": "12 Nov 2026, 01:44 WIB",
-  "total": 86,
+  "updatedAt": "12 Nov 2026, 03:04 WIB",
+  "total": 87,
   "items": [
     {
       "id": "sc-00",
@@ -65,6 +65,67 @@
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=locago-open-source-super-vault-100-tools-prompts&step=1&max=8",
       "downloadUrlFast": "/downloads/locago-open-source-super-vault-100-tools-prompts.zip",
       "driveUrl": "https://drive.google.com/file/d/10t-RvdDrJA5NF0a9qRkj5gE_VAVorl9J/view?usp=drivesdk"
+    },
+    {
+      "id": "sc-87",
+      "title": "Aplikasi Service Booking System Modern & Full Database",
+      "slug": "service-booking-system",
+      "category": "Next.js & React",
+      "techStack": [
+        "Next.js 15",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "Prisma"
+      ],
+      "description": "Aplikasi web Service-Booking-System siap pakai. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi, validasi otomatis, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nDilengkapi skema database (PostgreSQL (.sql)) lengkap dengan data contoh realistis.",
+      "shortDesc": "Aplikasi Aplikasi Service Booking System Modern & Full Database dengan database PostgreSQL (.sql), data contoh, dan tutorial instalasi lengkap.",
+      "howItWorks": "Data utama tersimpan di PostgreSQL (.sql) dengan struktur relasional yang ternormalisasi: tabel pengguna, log transaksi, serta pengaturan sistem. Aplikasi dibangun dengan Next.js 15, Tailwind CSS, PostgreSQL, Prisma dan proteksi keamanan berlapis.",
+      "requirements": "PHP 8.2+ / Node.js / Python, Web Server Lokal (XAMPP / Laragon).",
+      "screenshots": [
+        "/screenshots/service-booking-system/screenshot_1.webp",
+        "/screenshots/service-booking-system/screenshot_2.webp",
+        "/screenshots/service-booking-system/screenshot_3.webp",
+        "/screenshots/service-booking-system/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@locago.my.id",
+          "password": "password123"
+        },
+        {
+          "role": "Operator / Staf",
+          "username": "operator@locago.my.id",
+          "password": "password123"
+        }
+      ],
+      "updatedAt": "12 November 2026",
+      "releaseDate": "12 November 2026",
+      "recentFastDownloads": 44,
+      "thumbnail": "/screenshots/service-booking-system/screenshot_1.webp",
+      "downloadsCount": 382,
+      "rating": 4.9,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "PostgreSQL (.sql)",
+      "fileSize": "21.2 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `service-booking-system.zip` ke web server lokal Anda.",
+        "Import berkas `database.sql` ke database Anda.",
+        "Konfigurasi koneksi database di file konfigurasi.",
+        "Buka di browser dan login menggunakan akun admin default."
+      ],
+      "keyFeatures": [
+        "Dashboard utama: ringkasan metrik harian dan grafik tren real-time",
+        "Manajemen data master lengkap dengan pencarian instan dan filter",
+        "Hak akses multi-role (Admin dan Operator) terpisah aman",
+        "Cetak nota / invoice PDF dan ekspor laporan ke CSV",
+        "Skema database PostgreSQL (.sql) lengkap data contoh simulasi"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=service-booking-system&step=1&max=8",
+      "downloadUrlFast": "/downloads/service-booking-system.zip",
+      "driveUrl": "https://drive.google.com/file/d/1C8Gp5f0UL9gM8c3v1qXxuxWkEUh2nnpE/view?usp=drivesdk"
     },
     {
       "id": "sc-86",
