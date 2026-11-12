@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 03:40 WIB",
-  "total": 315,
+  "updatedAt": "13 Nov 2026, 04:10 WIB",
+  "total": 316,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-cockatoo",
+      "name": "Cockatoo",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Cockatoo - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "A tool for speech-to-text transcription in over 90 languages.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/cockatoo.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.cockatoo.com"
     },
     {
       "id": "ai-zocket",
