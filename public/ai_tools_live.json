@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 10:06 WIB",
-  "total": 279,
+  "updatedAt": "12 Nov 2026, 10:36 WIB",
+  "total": 280,
   "items": [
+    {
+      "id": "ai-candlestick",
+      "name": "Candlestick",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Candlestick - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "An app for investors to pick stocks.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/candlestick.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://candlestick.ai"
+    },
     {
       "id": "ai-roll",
       "name": "Roll",
