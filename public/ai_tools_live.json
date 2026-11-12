@@ -1,6 +1,6 @@
 {
-  "updatedAt": "12 Nov 2026, 21:08 WIB",
-  "total": 302,
+  "updatedAt": "12 Nov 2026, 21:38 WIB",
+  "total": 303,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-google-gemini",
+      "name": "Google Gemini",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "Google Gemini - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "Google&#x27;s web-connected chat platform",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/google-gemini.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://bard.google.com"
     },
     {
       "id": "ai-feta",
