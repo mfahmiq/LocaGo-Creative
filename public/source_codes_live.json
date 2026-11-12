@@ -1,6 +1,6 @@
 {
-  "updatedAt": "12 Nov 2026, 03:47 WIB",
-  "total": 88,
+  "updatedAt": "12 Nov 2026, 04:04 WIB",
+  "total": 89,
   "items": [
     {
       "id": "sc-00",
@@ -65,6 +65,66 @@
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=locago-open-source-super-vault-100-tools-prompts&step=1&max=8",
       "downloadUrlFast": "/downloads/locago-open-source-super-vault-100-tools-prompts.zip",
       "driveUrl": "https://drive.google.com/file/d/10t-RvdDrJA5NF0a9qRkj5gE_VAVorl9J/view?usp=drivesdk"
+    },
+    {
+      "id": "sc-89",
+      "title": "Aplikasi Nyigisha E Learning Modern & Full Database",
+      "slug": "nyigisha-e-learning",
+      "category": "PHP & Laravel",
+      "techStack": [
+        "PHP 8.2",
+        "Bootstrap 5",
+        "MySQL"
+      ],
+      "description": "This is a school management system that is developed in PHP and it is aimed in easing the process of accessing the school's learning materials including books  which can help the students to gain more knowledge and also help the school administration to digitize almost every operation conducted natively Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi, validasi otomatis, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nDilengkapi skema database (MySQL (.sql)) lengkap dengan data contoh realistis.",
+      "shortDesc": "Aplikasi Aplikasi Nyigisha E Learning Modern & Full Database dengan database MySQL (.sql), data contoh, dan tutorial instalasi lengkap.",
+      "howItWorks": "Data utama tersimpan di MySQL (.sql) dengan struktur relasional yang ternormalisasi: tabel pengguna, log transaksi, serta pengaturan sistem. Aplikasi dibangun dengan PHP 8.2, Bootstrap 5, MySQL dan proteksi keamanan berlapis.",
+      "requirements": "PHP 8.2+ / Node.js / Python, Web Server Lokal (XAMPP / Laragon).",
+      "screenshots": [
+        "/screenshots/nyigisha-e-learning/screenshot_1.webp",
+        "/screenshots/nyigisha-e-learning/screenshot_2.webp",
+        "/screenshots/nyigisha-e-learning/screenshot_3.webp",
+        "/screenshots/nyigisha-e-learning/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@locago.my.id",
+          "password": "password123"
+        },
+        {
+          "role": "Operator / Staf",
+          "username": "operator@locago.my.id",
+          "password": "password123"
+        }
+      ],
+      "updatedAt": "12 November 2026",
+      "releaseDate": "12 November 2026",
+      "recentFastDownloads": 32,
+      "thumbnail": "/screenshots/nyigisha-e-learning/screenshot_1.webp",
+      "downloadsCount": 748,
+      "rating": 4.9,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "25.7 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `nyigisha-e-learning.zip` ke web server lokal Anda.",
+        "Import berkas `database.sql` ke database Anda.",
+        "Konfigurasi koneksi database di file konfigurasi.",
+        "Buka di browser dan login menggunakan akun admin default."
+      ],
+      "keyFeatures": [
+        "Dashboard utama: ringkasan metrik harian dan grafik tren real-time",
+        "Manajemen data master lengkap dengan pencarian instan dan filter",
+        "Hak akses multi-role (Admin dan Operator) terpisah aman",
+        "Cetak nota / invoice PDF dan ekspor laporan ke CSV",
+        "Skema database MySQL (.sql) lengkap data contoh simulasi"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=nyigisha-e-learning&step=1&max=8",
+      "downloadUrlFast": "/downloads/nyigisha-e-learning.zip",
+      "driveUrl": "https://drive.google.com/file/d/1QvfI4oFjMmmPO3-0xQDueMmFxO96MKJ7/view?usp=drivesdk"
     },
     {
       "id": "sc-88",
