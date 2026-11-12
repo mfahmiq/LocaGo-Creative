@@ -1,6 +1,6 @@
 {
-  "updatedAt": "12 Nov 2026, 20:08 WIB",
-  "total": 300,
+  "updatedAt": "12 Nov 2026, 20:38 WIB",
+  "total": 301,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-jsonify",
+      "name": "Jsonify",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "Jsonify - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "A tool to automate data extraction and synchronization from various online sources into structured formats.",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/jsonify.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://jsonify.com"
     },
     {
       "id": "ai-opinionstage",
