@@ -1,6 +1,6 @@
 {
-  "updatedAt": "12 Nov 2026, 04:48 WIB",
-  "total": 90,
+  "updatedAt": "12 Nov 2026, 05:04 WIB",
+  "total": 91,
   "items": [
     {
       "id": "sc-00",
@@ -65,6 +65,67 @@
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=locago-open-source-super-vault-100-tools-prompts&step=1&max=8",
       "downloadUrlFast": "/downloads/locago-open-source-super-vault-100-tools-prompts.zip",
       "driveUrl": "https://drive.google.com/file/d/10t-RvdDrJA5NF0a9qRkj5gE_VAVorl9J/view?usp=drivesdk"
+    },
+    {
+      "id": "sc-91",
+      "title": "Aplikasi Cmpe281 System Dashboard Component Modern & Full Database",
+      "slug": "cmpe281-system-dashboard-component",
+      "category": "Python & AI",
+      "techStack": [
+        "Python 3.11",
+        "FastAPI",
+        "SQLite",
+        "Chart.js"
+      ],
+      "description": "SafeNest System Dashboard (CMPE 281): role-based home-safety monitoring with a live San Jose map, floor maps, alert charts and reports. React + FastAPI + Redis WebSocket, with stubbed neighbor services. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi, validasi otomatis, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nDilengkapi skema database (SQLite) lengkap dengan data contoh realistis.",
+      "shortDesc": "Aplikasi Aplikasi Cmpe281 System Dashboard Component Modern & Full Database dengan database SQLite, data contoh, dan tutorial instalasi lengkap.",
+      "howItWorks": "Data utama tersimpan di SQLite dengan struktur relasional yang ternormalisasi: tabel pengguna, log transaksi, serta pengaturan sistem. Aplikasi dibangun dengan Python 3.11, FastAPI, SQLite, Chart.js dan proteksi keamanan berlapis.",
+      "requirements": "PHP 8.2+ / Node.js / Python, Web Server Lokal (XAMPP / Laragon).",
+      "screenshots": [
+        "/screenshots/cmpe281-system-dashboard-component/screenshot_1.webp",
+        "/screenshots/cmpe281-system-dashboard-component/screenshot_2.webp",
+        "/screenshots/cmpe281-system-dashboard-component/screenshot_3.webp",
+        "/screenshots/cmpe281-system-dashboard-component/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@locago.my.id",
+          "password": "password123"
+        },
+        {
+          "role": "Operator / Staf",
+          "username": "operator@locago.my.id",
+          "password": "password123"
+        }
+      ],
+      "updatedAt": "12 November 2026",
+      "releaseDate": "12 November 2026",
+      "recentFastDownloads": 57,
+      "thumbnail": "/screenshots/cmpe281-system-dashboard-component/screenshot_1.webp",
+      "downloadsCount": 602,
+      "rating": 4.9,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "SQLite",
+      "fileSize": "20.9 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `cmpe281-system-dashboard-component.zip` ke web server lokal Anda.",
+        "Import berkas `database.sql` ke database Anda.",
+        "Konfigurasi koneksi database di file konfigurasi.",
+        "Buka di browser dan login menggunakan akun admin default."
+      ],
+      "keyFeatures": [
+        "Dashboard utama: ringkasan metrik harian dan grafik tren real-time",
+        "Manajemen data master lengkap dengan pencarian instan dan filter",
+        "Hak akses multi-role (Admin dan Operator) terpisah aman",
+        "Cetak nota / invoice PDF dan ekspor laporan ke CSV",
+        "Skema database SQLite lengkap data contoh simulasi"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=cmpe281-system-dashboard-component&step=1&max=8",
+      "downloadUrlFast": "/downloads/cmpe281-system-dashboard-component.zip",
+      "driveUrl": "https://drive.google.com/file/d/1K2TYJNUSITIQKUJzGC9AB4Ta6bdcKUlD/view?usp=drivesdk"
     },
     {
       "id": "sc-90",
