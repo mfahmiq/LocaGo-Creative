@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 17:07 WIB",
-  "total": 293,
+  "updatedAt": "12 Nov 2026, 17:37 WIB",
+  "total": 294,
   "items": [
+    {
+      "id": "ai-capcut",
+      "name": "CapCut",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "CapCut - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "A comprehensive online creative suite to create high-quality videos and images",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/capcut.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.capcut.com/tools/ai-image-upscaler"
+    },
     {
       "id": "ai-myreader-ai",
       "name": "Myreader AI",
