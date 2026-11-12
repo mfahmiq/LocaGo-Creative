@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 11:36 WIB",
-  "total": 282,
+  "updatedAt": "12 Nov 2026, 12:06 WIB",
+  "total": 283,
   "items": [
+    {
+      "id": "ai-ai-face-swapper",
+      "name": "AI Face Swapper",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "AI Face Swapper - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "A tool to swap faces in images.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/ai-face-swapper.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://icons8.com/swapper"
+    },
     {
       "id": "ai-ai-diary",
       "name": "AI Diary",
