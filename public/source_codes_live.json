@@ -1,6 +1,6 @@
 {
-  "updatedAt": "12 Nov 2026, 13:57 WIB",
-  "total": 108,
+  "updatedAt": "12 Nov 2026, 14:58 WIB",
+  "total": 109,
   "items": [
     {
       "id": "sc-00",
@@ -65,6 +65,67 @@
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=locago-open-source-super-vault-100-tools-prompts&step=1&max=8",
       "downloadUrlFast": "/downloads/locago-open-source-super-vault-100-tools-prompts.zip",
       "driveUrl": "https://drive.google.com/file/d/10t-RvdDrJA5NF0a9qRkj5gE_VAVorl9J/view?usp=drivesdk"
+    },
+    {
+      "id": "sc-109",
+      "title": "Aplikasi Garimpei Modern & Full Database",
+      "slug": "garimpei",
+      "category": "Python & AI",
+      "techStack": [
+        "Python 3.11",
+        "FastAPI",
+        "SQLite",
+        "Chart.js"
+      ],
+      "description": "Price monitoring for Brazilian marketplaces: Celery + Playwright scrapers, FastAPI, PostgreSQL, email alerts and a React dashboard Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi, validasi otomatis, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nDilengkapi skema database (SQLite) lengkap dengan data contoh realistis.",
+      "shortDesc": "Aplikasi Aplikasi Garimpei Modern & Full Database dengan database SQLite, data contoh, dan tutorial instalasi lengkap.",
+      "howItWorks": "Data utama tersimpan di SQLite dengan struktur relasional yang ternormalisasi: tabel pengguna, log transaksi, serta pengaturan sistem. Aplikasi dibangun dengan Python 3.11, FastAPI, SQLite, Chart.js dan proteksi keamanan berlapis.",
+      "requirements": "PHP 8.2+ / Node.js / Python, Web Server Lokal (XAMPP / Laragon).",
+      "screenshots": [
+        "/screenshots/garimpei/screenshot_1.webp",
+        "/screenshots/garimpei/screenshot_2.webp",
+        "/screenshots/garimpei/screenshot_3.webp",
+        "/screenshots/garimpei/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@locago.my.id",
+          "password": "password123"
+        },
+        {
+          "role": "Operator / Staf",
+          "username": "operator@locago.my.id",
+          "password": "password123"
+        }
+      ],
+      "updatedAt": "12 November 2026",
+      "releaseDate": "12 November 2026",
+      "recentFastDownloads": 51,
+      "thumbnail": "/screenshots/garimpei/screenshot_1.webp",
+      "downloadsCount": 451,
+      "rating": 4.9,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "SQLite",
+      "fileSize": "20.7 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `garimpei.zip` ke web server lokal Anda.",
+        "Import berkas `database.sql` ke database Anda.",
+        "Konfigurasi koneksi database di file konfigurasi.",
+        "Buka di browser dan login menggunakan akun admin default."
+      ],
+      "keyFeatures": [
+        "Dashboard utama: ringkasan metrik harian dan grafik tren real-time",
+        "Manajemen data master lengkap dengan pencarian instan dan filter",
+        "Hak akses multi-role (Admin dan Operator) terpisah aman",
+        "Cetak nota / invoice PDF dan ekspor laporan ke CSV",
+        "Skema database SQLite lengkap data contoh simulasi"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=garimpei&step=1&max=8",
+      "downloadUrlFast": "/downloads/garimpei.zip",
+      "driveUrl": ""
     },
     {
       "id": "sc-108",
