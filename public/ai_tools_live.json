@@ -1,6 +1,6 @@
 {
-  "updatedAt": "12 Nov 2026, 23:39 WIB",
-  "total": 307,
+  "updatedAt": "13 Nov 2026, 00:09 WIB",
+  "total": 308,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-ilus-ai",
+      "name": "Ilus AI",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Ilus AI - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to generate custom, stylistically consistent illustrations.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/ilus-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://ilus.ai"
     },
     {
       "id": "ai-together-ai",
