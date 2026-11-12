@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 07:05 WIB",
-  "total": 273,
+  "updatedAt": "12 Nov 2026, 07:35 WIB",
+  "total": 274,
   "items": [
+    {
+      "id": "ai-gentrace",
+      "name": "Gentrace",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Gentrace - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to automate grading, monitoring, and production management with AI and heuristic evaluators.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/gentrace.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://gentrace.ai"
+    },
     {
       "id": "ai-wondershare-virbo",
       "name": "Wondershare Virbo",
