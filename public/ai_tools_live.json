@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 17:37 WIB",
-  "total": 294,
+  "updatedAt": "12 Nov 2026, 18:07 WIB",
+  "total": 295,
   "items": [
+    {
+      "id": "ai-magickpen",
+      "name": "MagickPen",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "MagickPen - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool for writing assistance.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/magickpen.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://magickpen.com"
+    },
     {
       "id": "ai-capcut",
       "name": "CapCut",
