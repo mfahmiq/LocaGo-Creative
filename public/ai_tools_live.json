@@ -1,7 +1,25 @@
 {
-  "updatedAt": "12 Nov 2026, 15:07 WIB",
-  "total": 289,
+  "updatedAt": "12 Nov 2026, 15:37 WIB",
+  "total": 290,
   "items": [
+    {
+      "id": "ai-jam",
+      "name": "Jam",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Jam - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "A code debugging tool with code analysis and suggestions.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/jam.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://jam.dev/jamgpt"
+    },
     {
       "id": "ai-deep-agency",
       "name": "Deep Agency",
