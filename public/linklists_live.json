@@ -1,11 +1,11 @@
 {
-  "updatedAt": "12 Nov 2026, 00:03 WIB",
+  "updatedAt": "2026-11-12T12:49:17.989529",
   "total": 9,
   "items": [
     {
       "id": "list-scraping-freelance",
       "title": "Blueprint Scraping Data & Mesin Klien Freelancer 2026",
-      "notes": "Tools lengkap untuk scrape jutaan database bisnis lokal tanpa coding ribet, serta monetisasi jasa data & automasi untuk freelancer dan agensi.",
+      "notes": "🔥 Blueprint scraping ribuan data bisnis lokal & direktori tanpa coding dan tanpa biaya mahal.\n\n🛠️ Langkah-Langkah Penggunaan & Setup:\n1. Opsi CLI Gratis: pip install crawl4ai && crawl4ai-setup untuk scrape web berbasis markdown.\n2. Opsi 1-Klik Otomatis: Buka https://leadmasters.my.id dan unduh LeadMasters Desktop.\n3. Masukkan target niche (contoh: Kafe, Bengkel, Klinik) dan kota tujuan.\n4. Klik Start Discovery: kumpulkan 500 kontak WA, alamat, rating dalam 2-5 menit.\n5. Ekspor ke CSV/Excel dan tawarkan jasa web/sosmed langsung ke pemilik usaha.",
       "videoUrl": "https://www.instagram.com/locagocreative",
       "toolIds": [
         "ai-leadmasters",
@@ -16,9 +16,15 @@
       "customLinks": [
         {
           "id": "cl-leadmasters-main",
-          "title": "🌟 LeadMasters AI (Scrape Google Maps & WhatsApp Bisnis)",
+          "title": "🌟 LeadMasters AI (Mesin Scrape Google Maps & WA Bisnis)",
           "url": "https://leadmasters.my.id",
           "note": "Akses unlimited lead lokal, nomor WA valid, email bisnis & AI outreach generator."
+        },
+        {
+          "id": "cl-crawl4ai",
+          "title": "📂 GitHub Repo: Crawl4AI Open-Source Scraper",
+          "url": "https://github.com/unclecode/crawl4ai",
+          "note": "Web crawler ultra-cepat yang dirancang khusus untuk LLM dan AI pipeline."
         }
       ],
       "isOfficial": true,
@@ -30,7 +36,7 @@
     {
       "id": "list-creator-tools",
       "title": "Top 5 AI Tools Konten Kreator IG & Video Editor",
-      "notes": "Kumpulan tool AI wajib untuk memproduksi video Reels, voiceover studio, dan aset visual siap FYP tanpa repot rekaman berulang kali.",
+      "notes": "🔥 5 AI Tools gratis untuk creator video pendek (Reels, TikTok, YouTube Shorts).\n\n🛠️ Workflow Produksi Cepat:\n1. Buat naskah hook menggelegar 3 detik pertama pakai ChatGPT/DeepSeek.\n2. Dubbing audio natural dengan VoiceStudio atau Fish Audio.\n3. Buat aset bento grid tajam dan grafis kontras tinggi di editor video favorit.\n4. Tambahkan sound effect transisi (pop, swoosh) dan background musik ducking -22dB.\n5. Sisipkan CTA linklist bio untuk arahkan penonton ke funnel bisnismu.",
       "videoUrl": "https://www.instagram.com/locagocreative",
       "toolIds": [
         "ai-invideo-ai",
@@ -56,7 +62,7 @@
     {
       "id": "list-coding-stack",
       "title": "Stack AI Coding Agent & Autonomous Dev 2026 (Free & Self-Hosted)",
-      "notes": "Kumpulan tools AI coding agent offline/lokal (Aider, Ollama, Qwen2.5-Coder, Continue) tanpa biaya langganan, plus mesin cari klien freelance developer.",
+      "notes": "🔥 Stack AI Coding Agent lokal & mandiri tanpa biaya langganan bulanan mahal.\n\n🛠️ Langkah-Langkah Instalasi & Setup Cepat:\n1. Install Ollama di terminal: curl -fsSL https://ollama.com/install.sh | sh\n2. Tarik model coding lokal: ollama run qwen2.5-coder:7b\n3. Install Aider CLI: pip install aider-chat\n4. Jalankan Aider bareng model lokal: aider --model ollama/qwen2.5-coder:7b\n5. Pasang ekstensi Continue di VS Code untuk auto-complete in-editor.\n6. Cari klien proyek software & website lokal otomatis pakai LeadMasters (leadmasters.my.id)!",
       "videoUrl": "https://www.instagram.com/reel/DCQ...",
       "toolIds": [
         "tool-cursor",
@@ -67,16 +73,22 @@
       ],
       "customLinks": [
         {
-          "id": "cl-leadmasters-freelance",
-          "title": "⚡ LeadMasters AI (Mesin Otomatis Cari Klien Proyek Coding & B2B)",
-          "url": "https://leadmasters.my.id",
-          "note": "Wajib dipakai developer & freelancer buat cari kontak WhatsApp owner bisnis se-Indonesia dalam 3 detik."
+          "id": "cl-aider-repo",
+          "title": "📂 GitHub Repo: Aider AI Pair Programmer",
+          "url": "https://github.com/paul-gauthier/aider",
+          "note": "CLI AI assistant terbaik untuk edit & refactor multi-file di terminal."
         },
         {
-          "id": "cl-aider-repo",
-          "title": "GitHub Repo: Aider AI Pair Programmer",
-          "url": "https://github.com/paul-gauthier/aider",
-          "note": "Terminal-based AI coding assistant terbaik terintegrasi Ollama local."
+          "id": "cl-ollama-site",
+          "title": "🌐 Ollama Local LLM Runner",
+          "url": "https://ollama.com",
+          "note": "Engine open-source untuk jalankan model AI di GPU/CPU lokal 100% offline."
+        },
+        {
+          "id": "cl-leadmasters-dev",
+          "title": "⚡ LeadMasters AI (Mesin Cari Klien Freelance & Software)",
+          "url": "https://leadmasters.my.id",
+          "note": "Cari kontak WhatsApp owner bisnis lokal se-Indonesia dalam hitungan detik."
         }
       ],
       "isOfficial": true,
@@ -88,7 +100,7 @@
     {
       "id": "list-automation-leads",
       "title": "Toolkit Otomasi Bisnis & Lead Generation WhatsApp",
-      "notes": "Alat otomatisasi tanpa koding untuk menangkap lead, integrasi database Google Sheets, dan auto-reply chat pelanggan 24/7.",
+      "notes": "🔥 Toolkit otomasi bisnis & lead generation WhatsApp autopilot.\n\n🛠️ Langkah Eksekusi:\n1. Akses platform https://leadmasters.my.id.\n2. Tentukan target pasar spesifik di kotamu (contoh: Kafe Jakarta Selatan).\n3. Biarkan engine mengumpulkan data terverifikasi (Nomor WA, rating, alamat, medsos).\n4. Gunakan template pesan ramah dan bernilai untuk menyapa calon klien.\n5. Nikmati konversi klien baru tanpa biaya iklan berbayar!",
       "videoUrl": "",
       "toolIds": [
         "tool-chatbase",
@@ -97,7 +109,14 @@
         "ai-browse-ai",
         "ai-activepieces"
       ],
-      "customLinks": [],
+      "customLinks": [
+        {
+          "id": "cl-leadmasters-auto",
+          "title": "🚀 Akses LeadMasters AI Resmi",
+          "url": "https://leadmasters.my.id",
+          "note": "Aplikasi penarik prospek Google Maps & WhatsApp nomor 1 di Indonesia."
+        }
+      ],
       "isOfficial": true,
       "authorName": "Mas Fahmi (LocaGo Creative)",
       "authorEmail": "fahmi@locagocreative.my.id",
@@ -150,7 +169,7 @@
     {
       "id": "list-voiceover-studio",
       "title": "Stack AI Voiceover & Dubbing Multi-Bahasa Super Natural",
-      "notes": "Pilihan generator suara AI terbaik untuk dubbing video YouTube, rekaman narasi iklan TV/Radio, dan buku audio ekspresif.",
+      "notes": "🔥 Stack Voice AI & kloning suara natural tanpa watermark dan tanpa limit kuota kredit.\n\n🛠️ Langkah-Langkah Instalasi:\n1. Clone repositori: git clone https://github.com/debpalash/VoiceStudio\n2. Masuk direktori: cd VoiceStudio && pip install -r requirements.txt\n3. Jalankan antarmuka: python webui.py\n4. Rekam atau upload sampel suara jernih 10-15 detik.\n5. Masukkan naskah narasimu dan render suara studio tanpa watermark.",
       "videoUrl": "",
       "toolIds": [
         "tool-elevenlabs",
@@ -159,7 +178,20 @@
         "ai-speechify",
         "ai-descript"
       ],
-      "customLinks": [],
+      "customLinks": [
+        {
+          "id": "cl-voicestudio-repo",
+          "title": "📂 GitHub Repo: VoiceStudio Neural Audio",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "note": "107k+ stars di GitHub, dukungan multi-model TTS & voice cloning."
+        },
+        {
+          "id": "cl-leadmasters-voice",
+          "title": "⚡ LeadMasters AI (Monetisasi Jasa Voiceover & Video)",
+          "url": "https://leadmasters.my.id",
+          "note": "Cari kontak pemilik brand lokal untuk tawarkan jasa video voiceover agency."
+        }
+      ],
       "isOfficial": false,
       "authorName": "Anisa Putri (Voice Talent)",
       "authorEmail": "anisa@voicetalent.id",
