@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 16:43 WIB",
-  "total": 341,
+  "updatedAt": "13 Nov 2026, 17:13 WIB",
+  "total": 342,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-ankon-ai",
+      "name": "Ankon AI",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "Ankon AI - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "Turns topics, scripts, or PDFs into narrated whiteboard videos.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/ankon-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://ankonai.com"
     },
     {
       "id": "ai-moxie-docs",
