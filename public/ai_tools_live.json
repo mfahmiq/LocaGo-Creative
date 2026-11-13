@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 12:12 WIB",
-  "total": 332,
+  "updatedAt": "13 Nov 2026, 12:42 WIB",
+  "total": 333,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-voicestars",
+      "name": "Voicestars",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Voicestars - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "A tool to create AI covers of popular songs.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/voicestars.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://voicestars.co"
     },
     {
       "id": "ai-inbox-zero",
