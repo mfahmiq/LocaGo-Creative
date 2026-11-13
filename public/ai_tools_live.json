@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 15:12 WIB",
-  "total": 338,
+  "updatedAt": "13 Nov 2026, 15:43 WIB",
+  "total": 339,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-gedo",
+      "name": "Gedo",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Gedo - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "AI-powered personal Life OS for goal planning and self-memory.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/gedo.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://gedo.ai"
     },
     {
       "id": "ai-zof",
