@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 06:40 WIB",
-  "total": 321,
+  "updatedAt": "13 Nov 2026, 07:10 WIB",
+  "total": 322,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-podify",
+      "name": "Podify",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Podify - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool for networking to create and engage with niche micro-communities.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/podify.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://podify.io"
     },
     {
       "id": "ai-lockedin-ai",
