@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 12:42 WIB",
-  "total": 333,
+  "updatedAt": "13 Nov 2026, 13:12 WIB",
+  "total": 334,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-tonebird",
+      "name": "ToneBird",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "ToneBird - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "AI reply assistant that drafts messages in your voice across apps.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/tonebird.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://tonebird.ai"
     },
     {
       "id": "ai-voicestars",
