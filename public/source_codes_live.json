@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 16:09 WIB",
-  "total": 156,
+  "updatedAt": "13 Nov 2026, 16:23 WIB",
+  "total": 157,
   "items": [
     {
       "id": "sc-00",
@@ -65,6 +65,67 @@
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=locago-open-source-super-vault-100-tools-prompts&step=1&max=8",
       "downloadUrlFast": "/downloads/locago-open-source-super-vault-100-tools-prompts.zip",
       "driveUrl": "https://drive.google.com/file/d/10t-RvdDrJA5NF0a9qRkj5gE_VAVorl9J/view?usp=drivesdk"
+    },
+    {
+      "id": "sc-157",
+      "title": "Aplikasi Capstone Project Acrylink Modern & Full Database",
+      "slug": "capstone-project-acrylink",
+      "category": "PHP & Laravel",
+      "techStack": [
+        "PHP 8.2",
+        "Laravel 11",
+        "MySQL",
+        "Tailwind CSS"
+      ],
+      "description": "This is our Capstone Project System - AcryLink: Anomaly Detections and Fraud Monitoring for Point-of-Sale (POS) and Inventory Management System Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi, validasi otomatis, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nDilengkapi skema database (MySQL (.sql)) lengkap dengan data contoh realistis.",
+      "shortDesc": "Aplikasi Aplikasi Capstone Project Acrylink Modern & Full Database dengan database MySQL (.sql), data contoh, dan tutorial instalasi lengkap.",
+      "howItWorks": "Data utama tersimpan di MySQL (.sql) dengan struktur relasional yang ternormalisasi: tabel pengguna, log transaksi, serta pengaturan sistem. Aplikasi dibangun dengan PHP 8.2, Laravel 11, MySQL, Tailwind CSS dan proteksi keamanan berlapis.",
+      "requirements": "PHP 8.2+ / Node.js / Python, Web Server Lokal (XAMPP / Laragon).",
+      "screenshots": [
+        "/screenshots/capstone-project-acrylink/screenshot_1.webp",
+        "/screenshots/capstone-project-acrylink/screenshot_2.webp",
+        "/screenshots/capstone-project-acrylink/screenshot_3.webp",
+        "/screenshots/capstone-project-acrylink/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@locago.my.id",
+          "password": "password123"
+        },
+        {
+          "role": "Operator / Staf",
+          "username": "operator@locago.my.id",
+          "password": "password123"
+        }
+      ],
+      "updatedAt": "13 November 2026",
+      "releaseDate": "13 November 2026",
+      "recentFastDownloads": 57,
+      "thumbnail": "/screenshots/capstone-project-acrylink/screenshot_1.webp",
+      "downloadsCount": 753,
+      "rating": 4.9,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "12.4 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `capstone-project-acrylink.zip` ke web server lokal Anda.",
+        "Import berkas `database.sql` ke database Anda.",
+        "Konfigurasi koneksi database di file konfigurasi.",
+        "Buka di browser dan login menggunakan akun admin default."
+      ],
+      "keyFeatures": [
+        "Dashboard utama: ringkasan metrik harian dan grafik tren real-time",
+        "Manajemen data master lengkap dengan pencarian instan dan filter",
+        "Hak akses multi-role (Admin dan Operator) terpisah aman",
+        "Cetak nota / invoice PDF dan ekspor laporan ke CSV",
+        "Skema database MySQL (.sql) lengkap data contoh simulasi"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=capstone-project-acrylink&step=1&max=8",
+      "downloadUrlFast": "/downloads/capstone-project-acrylink.zip",
+      "driveUrl": "https://drive.google.com/file/d/1c51howMZ-Z_KF-K0JOP37mvTllSoLHuL/view?usp=drivesdk"
     },
     {
       "id": "sc-156",
