@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 09:11 WIB",
-  "total": 326,
+  "updatedAt": "13 Nov 2026, 09:41 WIB",
+  "total": 327,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-fileread",
+      "name": "Fileread",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "Fileread - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "A tool for legal document analysis to discover and review.",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/fileread.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://fileread.com"
     },
     {
       "id": "ai-relume",
