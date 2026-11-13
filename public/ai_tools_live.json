@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 18:13 WIB",
-  "total": 344,
+  "updatedAt": "13 Nov 2026, 18:43 WIB",
+  "total": 345,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-botmaker",
+      "name": "Botmaker",
+      "category": "Agentic Automation",
+      "pricingType": "Paid",
+      "tagline": "Botmaker - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "Build AI agents for WhatsApp, email, voice, and chat channels.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/botmaker.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://botmaker.com/en"
     },
     {
       "id": "ai-carly-ai",
