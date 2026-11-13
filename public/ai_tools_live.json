@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 23:45 WIB",
-  "total": 355,
+  "updatedAt": "14 Nov 2026, 00:15 WIB",
+  "total": 356,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-palabra-ai",
+      "name": "Palabra.ai",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Palabra.ai - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "A tool to translate speech and text in real time.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/palabra-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.palabra.ai"
     },
     {
       "id": "ai-screenpipe",
