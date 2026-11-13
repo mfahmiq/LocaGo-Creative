@@ -1,6 +1,6 @@
 {
-  "updatedAt": "14 Nov 2026, 02:15 WIB",
-  "total": 360,
+  "updatedAt": "14 Nov 2026, 02:45 WIB",
+  "total": 361,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-saltfish",
+      "name": "Saltfish",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Saltfish - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to create AI product demos and marketing assets.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/saltfish.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://saltfish.ai"
     },
     {
       "id": "ai-chordgen",
