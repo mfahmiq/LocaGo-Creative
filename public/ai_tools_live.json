@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 09:41 WIB",
-  "total": 327,
+  "updatedAt": "13 Nov 2026, 10:11 WIB",
+  "total": 328,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-phew-ai-tab",
+      "name": "Phew AI Tab",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Phew AI Tab - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A browse extension to automatically organize browser tabs into grouped vertical layouts.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/phew-ai-tab.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://phewtab.com"
     },
     {
       "id": "ai-fileread",
