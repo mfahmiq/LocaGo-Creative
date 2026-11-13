@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 17:43 WIB",
-  "total": 343,
+  "updatedAt": "13 Nov 2026, 18:13 WIB",
+  "total": 344,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-carly-ai",
+      "name": "Carly AI",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Carly AI - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "AI agent platform that manages email, scheduling, and CRM via email.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/carly-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.usecarly.com"
     },
     {
       "id": "ai-auxx-ai",
