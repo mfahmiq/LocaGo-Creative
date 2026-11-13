@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 19:13 WIB",
-  "total": 346,
+  "updatedAt": "13 Nov 2026, 19:44 WIB",
+  "total": 347,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-ziggle",
+      "name": "Ziggle",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Ziggle - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to generate animated characters from text prompts.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/ziggle.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://ziggle.art"
     },
     {
       "id": "ai-needle",
