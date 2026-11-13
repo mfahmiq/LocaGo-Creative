@@ -1,6 +1,6 @@
 {
-  "updatedAt": "14 Nov 2026, 03:45 WIB",
-  "total": 363,
+  "updatedAt": "14 Nov 2026, 04:16 WIB",
+  "total": 364,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-clera",
+      "name": "Clera",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Clera - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "A tool to turn Instagram Reels into searchable notes.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/clera.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://clera.me"
     },
     {
       "id": "ai-cut-express",
