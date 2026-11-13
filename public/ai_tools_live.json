@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 07:41 WIB",
-  "total": 323,
+  "updatedAt": "13 Nov 2026, 08:11 WIB",
+  "total": 324,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-recut",
+      "name": "Recut",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "Recut - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "A tool to remove silent segments from audio and video files.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/recut.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://getrecut.com"
     },
     {
       "id": "ai-aptlystar-ai",
