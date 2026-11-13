@@ -1,6 +1,6 @@
 {
-  "updatedAt": "14 Nov 2026, 01:15 WIB",
-  "total": 358,
+  "updatedAt": "14 Nov 2026, 01:45 WIB",
+  "total": 359,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-scaletrics",
+      "name": "Scaletrics",
+      "category": "Agentic Automation",
+      "pricingType": "Paid",
+      "tagline": "Scaletrics - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "AI-powered PPC optimization platform for continuous ad performance.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/scaletrics.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.scaletrics.com"
     },
     {
       "id": "ai-runner-ai",
