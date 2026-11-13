@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 20:44 WIB",
-  "total": 349,
+  "updatedAt": "13 Nov 2026, 21:14 WIB",
+  "total": 350,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-tale",
+      "name": "Tale",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Tale - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "Open-source project workspace for teams and AI agents.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/tale.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://tale.dev"
     },
     {
       "id": "ai-locul",
