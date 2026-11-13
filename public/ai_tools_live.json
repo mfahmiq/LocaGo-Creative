@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 13:12 WIB",
-  "total": 334,
+  "updatedAt": "13 Nov 2026, 13:42 WIB",
+  "total": 335,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-sayora",
+      "name": "Sayora",
+      "category": "Agentic Automation",
+      "pricingType": "Paid",
+      "tagline": "Sayora - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "AI receptionist that answers calls for UK small businesses.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/sayora.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://sayora.ai"
     },
     {
       "id": "ai-tonebird",
