@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 03:07 WIB",
-  "total": 131,
+  "updatedAt": "13 Nov 2026, 04:08 WIB",
+  "total": 132,
   "items": [
     {
       "id": "sc-00",
@@ -65,6 +65,67 @@
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=locago-open-source-super-vault-100-tools-prompts&step=1&max=8",
       "downloadUrlFast": "/downloads/locago-open-source-super-vault-100-tools-prompts.zip",
       "driveUrl": "https://drive.google.com/file/d/10t-RvdDrJA5NF0a9qRkj5gE_VAVorl9J/view?usp=drivesdk"
+    },
+    {
+      "id": "sc-132",
+      "title": "Aplikasi Shoppilot Ai Modern & Full Database",
+      "slug": "shoppilot-ai",
+      "category": "Next.js & React",
+      "techStack": [
+        "Next.js 15",
+        "TypeScript",
+        "Tailwind CSS",
+        "Stripe/QRIS"
+      ],
+      "description": "ShopPilot AI — TypeScript MERN e-commerce (React, Express, MongoDB) Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi, validasi otomatis, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nDilengkapi skema database (PostgreSQL (.sql)) lengkap dengan data contoh realistis.",
+      "shortDesc": "Aplikasi Aplikasi Shoppilot Ai Modern & Full Database dengan database PostgreSQL (.sql), data contoh, dan tutorial instalasi lengkap.",
+      "howItWorks": "Data utama tersimpan di PostgreSQL (.sql) dengan struktur relasional yang ternormalisasi: tabel pengguna, log transaksi, serta pengaturan sistem. Aplikasi dibangun dengan Next.js 15, TypeScript, Tailwind CSS, Stripe/QRIS dan proteksi keamanan berlapis.",
+      "requirements": "PHP 8.2+ / Node.js / Python, Web Server Lokal (XAMPP / Laragon).",
+      "screenshots": [
+        "/screenshots/shoppilot-ai/screenshot_1.webp",
+        "/screenshots/shoppilot-ai/screenshot_2.webp",
+        "/screenshots/shoppilot-ai/screenshot_3.webp",
+        "/screenshots/shoppilot-ai/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@locago.my.id",
+          "password": "password123"
+        },
+        {
+          "role": "Operator / Staf",
+          "username": "operator@locago.my.id",
+          "password": "password123"
+        }
+      ],
+      "updatedAt": "13 November 2026",
+      "releaseDate": "13 November 2026",
+      "recentFastDownloads": 40,
+      "thumbnail": "/screenshots/shoppilot-ai/screenshot_1.webp",
+      "downloadsCount": 828,
+      "rating": 4.9,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "PostgreSQL (.sql)",
+      "fileSize": "22.3 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `shoppilot-ai.zip` ke web server lokal Anda.",
+        "Import berkas `database.sql` ke database Anda.",
+        "Konfigurasi koneksi database di file konfigurasi.",
+        "Buka di browser dan login menggunakan akun admin default."
+      ],
+      "keyFeatures": [
+        "Dashboard utama: ringkasan metrik harian dan grafik tren real-time",
+        "Manajemen data master lengkap dengan pencarian instan dan filter",
+        "Hak akses multi-role (Admin dan Operator) terpisah aman",
+        "Cetak nota / invoice PDF dan ekspor laporan ke CSV",
+        "Skema database PostgreSQL (.sql) lengkap data contoh simulasi"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=shoppilot-ai&step=1&max=8",
+      "downloadUrlFast": "/downloads/shoppilot-ai.zip",
+      "driveUrl": "https://drive.google.com/file/d/19vszrcbL1lnBk7MwjxFTZa8Bg_VesAJ8/view?usp=drivesdk"
     },
     {
       "id": "sc-131",
