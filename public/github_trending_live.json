@@ -1,5 +1,5 @@
 {
-  "updatedAt": "13 Nov 2026, 23:09 WIB",
+  "updatedAt": "14 Nov 2026, 00:09 WIB",
   "total": 12,
   "items": [
     {
@@ -13,7 +13,7 @@
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "oneSentencePitch": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "rank": 1,
-      "totalStars": "50.3k",
+      "totalStars": "50.4k",
       "starsToday": 206,
       "starsGrowthText": "+206 stars today",
       "growthRate": "+206 stars today",
@@ -38,7 +38,7 @@
       "description": "Keep your coding agent up to date with the latest web best practices",
       "oneSentencePitch": "Keep your coding agent up to date with the latest web best practices",
       "rank": 2,
-      "totalStars": "4.4k",
+      "totalStars": "4.5k",
       "starsToday": 1875,
       "starsGrowthText": "+1,875 stars today",
       "growthRate": "+1,875 stars today",
@@ -63,7 +63,7 @@
       "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
       "oneSentencePitch": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
       "rank": 3,
-      "totalStars": "12.9k",
+      "totalStars": "13.0k",
       "starsToday": 754,
       "starsGrowthText": "+754 stars today",
       "growthRate": "+754 stars today",
@@ -315,7 +315,7 @@
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "oneSentencePitch": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "rank": 1,
-      "totalStars": "50.3k",
+      "totalStars": "50.4k",
       "starsToday": 206,
       "starsGrowthText": "+206 stars today",
       "growthRate": "+206 stars today",
@@ -340,7 +340,7 @@
       "description": "Keep your coding agent up to date with the latest web best practices",
       "oneSentencePitch": "Keep your coding agent up to date with the latest web best practices",
       "rank": 2,
-      "totalStars": "4.4k",
+      "totalStars": "4.5k",
       "starsToday": 1875,
       "starsGrowthText": "+1,875 stars today",
       "growthRate": "+1,875 stars today",
@@ -365,7 +365,7 @@
       "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
       "oneSentencePitch": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
       "rank": 3,
-      "totalStars": "12.9k",
+      "totalStars": "13.0k",
       "starsToday": 754,
       "starsGrowthText": "+754 stars today",
       "growthRate": "+754 stars today",
@@ -707,6 +707,31 @@
       ]
     },
     {
+      "id": "gh-google-elephant-goldfish-model",
+      "name": "elephant-goldfish-model",
+      "owner": "google",
+      "repo": "google/elephant-goldfish-model",
+      "url": "https://github.com/google/elephant-goldfish-model",
+      "category": "AI Agents & LLM",
+      "language": "Python",
+      "description": "Open-source plugin for designing and reviewing software with agents",
+      "oneSentencePitch": "Open-source plugin for designing and reviewing software with agents",
+      "rank": 5,
+      "totalStars": "18.5k",
+      "starsToday": 5555,
+      "starsGrowthText": "+5,555 stars this week",
+      "growthRate": "+5,555 stars this week",
+      "topics": [
+        "ai",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #5 di GitHub (?since=weekly)",
+        "Pertumbuhan pesat: +5,555 stars this week",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
       "id": "gh-zhulinsen-daily_stock_analysis",
       "name": "daily_stock_analysis",
       "owner": "ZhuLinsen",
@@ -716,7 +741,7 @@
       "language": "Python",
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "oneSentencePitch": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "rank": 5,
+      "rank": 6,
       "totalStars": "71.4k",
       "starsToday": 3569,
       "starsGrowthText": "+3,569 stars this week",
@@ -726,7 +751,7 @@
         "python"
       ],
       "features": [
-        "Trending resmi #5 di GitHub (?since=weekly)",
+        "Trending resmi #6 di GitHub (?since=weekly)",
         "Pertumbuhan pesat: +3,569 stars this week",
         "Ditulis menggunakan bahasa Python"
       ]
@@ -741,7 +766,7 @@
       "language": "Python",
       "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "oneSentencePitch": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
-      "rank": 6,
+      "rank": 7,
       "totalStars": "12.5k",
       "starsToday": 5802,
       "starsGrowthText": "+5,802 stars this week",
@@ -751,7 +776,7 @@
         "python"
       ],
       "features": [
-        "Trending resmi #6 di GitHub (?since=weekly)",
+        "Trending resmi #7 di GitHub (?since=weekly)",
         "Pertumbuhan pesat: +5,802 stars this week",
         "Ditulis menggunakan bahasa Python"
       ]
@@ -766,7 +791,7 @@
       "language": "C++",
       "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
       "oneSentencePitch": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
-      "rank": 7,
+      "rank": 8,
       "totalStars": "17.8k",
       "starsToday": 1671,
       "starsGrowthText": "+1,671 stars this week",
@@ -776,7 +801,7 @@
         "c++"
       ],
       "features": [
-        "Trending resmi #7 di GitHub (?since=weekly)",
+        "Trending resmi #8 di GitHub (?since=weekly)",
         "Pertumbuhan pesat: +1,671 stars this week",
         "Ditulis menggunakan bahasa C++"
       ]
@@ -791,7 +816,7 @@
       "language": "Shell",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "oneSentencePitch": "Skills for Real Engineers. Straight from my .agents directory.",
-      "rank": 8,
+      "rank": 9,
       "totalStars": "323.6k",
       "starsToday": 8731,
       "starsGrowthText": "+8,731 stars this week",
@@ -801,7 +826,7 @@
         "shell"
       ],
       "features": [
-        "Trending resmi #8 di GitHub (?since=weekly)",
+        "Trending resmi #9 di GitHub (?since=weekly)",
         "Pertumbuhan pesat: +8,731 stars this week",
         "Ditulis menggunakan bahasa Shell"
       ]
@@ -816,8 +841,8 @@
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "oneSentencePitch": "Production-grade engineering skills for AI coding agents.",
-      "rank": 9,
-      "totalStars": "117.0k",
+      "rank": 10,
+      "totalStars": "117.1k",
       "starsToday": 3199,
       "starsGrowthText": "+3,199 stars this week",
       "growthRate": "+3,199 stars this week",
@@ -826,7 +851,7 @@
         "javascript"
       ],
       "features": [
-        "Trending resmi #9 di GitHub (?since=weekly)",
+        "Trending resmi #10 di GitHub (?since=weekly)",
         "Pertumbuhan pesat: +3,199 stars this week",
         "Ditulis menggunakan bahasa JavaScript"
       ]
@@ -841,7 +866,7 @@
       "language": "JavaScript",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "oneSentencePitch": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "rank": 10,
+      "rank": 11,
       "totalStars": "71.7k",
       "starsToday": 10700,
       "starsGrowthText": "+10,700 stars this week",
@@ -851,7 +876,7 @@
         "javascript"
       ],
       "features": [
-        "Trending resmi #10 di GitHub (?since=weekly)",
+        "Trending resmi #11 di GitHub (?since=weekly)",
         "Pertumbuhan pesat: +10,700 stars this week",
         "Ditulis menggunakan bahasa JavaScript"
       ]
@@ -866,7 +891,7 @@
       "language": "Rust",
       "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "oneSentencePitch": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
-      "rank": 11,
+      "rank": 12,
       "totalStars": "94.9k",
       "starsToday": 2339,
       "starsGrowthText": "+2,339 stars this week",
@@ -876,7 +901,7 @@
         "rust"
       ],
       "features": [
-        "Trending resmi #11 di GitHub (?since=weekly)",
+        "Trending resmi #12 di GitHub (?since=weekly)",
         "Pertumbuhan pesat: +2,339 stars this week",
         "Ditulis menggunakan bahasa Rust"
       ]
@@ -891,7 +916,7 @@
       "language": "Python",
       "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
       "oneSentencePitch": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
-      "rank": 12,
+      "rank": 13,
       "totalStars": "20.8k",
       "starsToday": 1710,
       "starsGrowthText": "+1,710 stars this week",
@@ -901,7 +926,7 @@
         "python"
       ],
       "features": [
-        "Trending resmi #12 di GitHub (?since=weekly)",
+        "Trending resmi #13 di GitHub (?since=weekly)",
         "Pertumbuhan pesat: +1,710 stars this week",
         "Ditulis menggunakan bahasa Python"
       ]
@@ -916,7 +941,7 @@
       "language": "Rust",
       "description": "Computer use CLI for AI agents",
       "oneSentencePitch": "Computer use CLI for AI agents",
-      "rank": 13,
+      "rank": 14,
       "totalStars": "23.2k",
       "starsToday": 6414,
       "starsGrowthText": "+6,414 stars this week",
@@ -926,7 +951,7 @@
         "rust"
       ],
       "features": [
-        "Trending resmi #13 di GitHub (?since=weekly)",
+        "Trending resmi #14 di GitHub (?since=weekly)",
         "Pertumbuhan pesat: +6,414 stars this week",
         "Ditulis menggunakan bahasa Rust"
       ]
@@ -941,7 +966,7 @@
       "language": "TypeScript",
       "description": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
       "oneSentencePitch": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
-      "rank": 14,
+      "rank": 15,
       "totalStars": "85.3k",
       "starsToday": 1186,
       "starsGrowthText": "+1,186 stars this week",
@@ -951,7 +976,7 @@
         "typescript"
       ],
       "features": [
-        "Trending resmi #14 di GitHub (?since=weekly)",
+        "Trending resmi #15 di GitHub (?since=weekly)",
         "Pertumbuhan pesat: +1,186 stars this week",
         "Ditulis menggunakan bahasa TypeScript"
       ]
@@ -994,7 +1019,7 @@
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "oneSentencePitch": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "rank": 2,
-      "totalStars": "457.0k",
+      "totalStars": "457.1k",
       "starsToday": 325178,
       "starsGrowthText": "+325,178 stars this month",
       "growthRate": "+325,178 stars this month",
@@ -1069,7 +1094,7 @@
       "description": "The best way to control Claude Code, Codex and more from any computer or phone",
       "oneSentencePitch": "The best way to control Claude Code, Codex and more from any computer or phone",
       "rank": 5,
-      "totalStars": "59.2k",
+      "totalStars": "59.3k",
       "starsToday": 30926,
       "starsGrowthText": "+30,926 stars this month",
       "growthRate": "+30,926 stars this month",
@@ -1194,7 +1219,7 @@
       "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
       "oneSentencePitch": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
       "rank": 10,
-      "totalStars": "28.9k",
+      "totalStars": "29.0k",
       "starsToday": 9819,
       "starsGrowthText": "+9,819 stars this month",
       "growthRate": "+9,819 stars this month",
@@ -1219,7 +1244,7 @@
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "oneSentencePitch": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "rank": 11,
-      "totalStars": "109.7k",
+      "totalStars": "109.8k",
       "starsToday": 49960,
       "starsGrowthText": "+49,960 stars this month",
       "growthRate": "+49,960 stars this month",
