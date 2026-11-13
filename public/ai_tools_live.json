@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 08:11 WIB",
-  "total": 324,
+  "updatedAt": "13 Nov 2026, 08:41 WIB",
+  "total": 325,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-memorylane",
+      "name": "MemoryLane",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "MemoryLane - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to transform personal recollections into custom-printed books through storytelling.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/memorylane.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://memorylane.co"
     },
     {
       "id": "ai-recut",
