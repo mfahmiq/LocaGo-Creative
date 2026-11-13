@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-12T12:49:17.989529",
-  "total": 9,
+  "updatedAt": "2026-11-13T05:56:00.347913",
+  "total": 11,
   "items": [
     {
       "id": "list-scraping-freelance",
@@ -234,6 +234,69 @@
       "authorEmail": "eko@growthfunnel.id",
       "createdAt": "04 Nov 2026",
       "views": 890
+    },
+    {
+      "id": "list-local-llm-brain",
+      "title": "Local AI Brain: Stack LLM 70B Offline Tanpa Internet",
+      "notes": "🔥 Panduan menjalankan model AI 70B di laptop lokal tanpa kuota internet dan tanpa biaya API bulanan.\n\n🛠️ Langkah Setup:\n1. Unduh Ollama atau LM Studio untuk manajemen bobot model (GGUF).\n2. Pasang WebUI Open-WebUI untuk antarmuka chat mirip ChatGPT.\n3. Integrasikan ke VS Code atau editor kode via Continue.dev.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [
+        "ai-ollama",
+        "ai-lm-studio",
+        "ai-jan",
+        "ai-vllm",
+        "ai-deepseek"
+      ],
+      "customLinks": [
+        {
+          "id": "cl-ollama",
+          "title": "🚀 Ollama Official (Local Runner)",
+          "url": "https://ollama.com",
+          "note": "Get up and running with large language models locally."
+        },
+        {
+          "id": "cl-lmstudio",
+          "title": "🖥️ LM Studio",
+          "url": "https://lmstudio.ai",
+          "note": "Discover, download, and run local LLMs on your computer."
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "13 Nov 2026",
+      "views": 1850
+    },
+    {
+      "id": "list-app-builder-nocode",
+      "title": "AI App Builder & Web Generator Tanpa Coding 2026",
+      "notes": "🔥 Buat aplikasi web, SaaS, dan dashboard interaktif dalam hitungan detik dari satu prompt teks.\n\n🛠️ Rekomendasi Tools:\n1. Bolt.new: Web container full-stack langsung deploy di browser.\n2. Lovable.dev: Bangun prototipe SaaS dengan UI super bersih.\n3. v0 by Vercel: Generator antarmuka React Tailwind tercantik.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [
+        "ai-bolt-new",
+        "ai-lovable",
+        "ai-v0-dev",
+        "ai-replit-agent"
+      ],
+      "customLinks": [
+        {
+          "id": "cl-bolt",
+          "title": "⚡ Bolt.new (Fullstack Prompt Builder)",
+          "url": "https://bolt.new",
+          "note": "Build full-stack web applications in the browser."
+        },
+        {
+          "id": "cl-lovable",
+          "title": "💖 Lovable AI",
+          "url": "https://lovable.dev",
+          "note": "The last piece of software you will ever need."
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "13 Nov 2026",
+      "views": 1920
     }
   ]
 }
