@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 10:11 WIB",
-  "total": 328,
+  "updatedAt": "13 Nov 2026, 10:41 WIB",
+  "total": 329,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-circleback",
+      "name": "Circleback",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Circleback - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A platform for meeting assistant to automate meeting organization, transcription, summarization, and action item assignment.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/circleback.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://circleback.ai"
     },
     {
       "id": "ai-phew-ai-tab",
