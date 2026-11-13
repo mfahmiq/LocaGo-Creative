@@ -1,6 +1,6 @@
 {
-  "updatedAt": "14 Nov 2026, 03:15 WIB",
-  "total": 362,
+  "updatedAt": "14 Nov 2026, 03:45 WIB",
+  "total": 363,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-cut-express",
+      "name": "Cut Express",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "Cut Express - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "Edit videos by chatting with Claude AI via MCP.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/cut-express.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://cut.express"
     },
     {
       "id": "ai-storybook-studio",
