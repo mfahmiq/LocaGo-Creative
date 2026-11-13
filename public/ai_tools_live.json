@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 21:44 WIB",
-  "total": 351,
+  "updatedAt": "13 Nov 2026, 22:14 WIB",
+  "total": 352,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-language-model-builder",
+      "name": "Language Model Builder",
+      "category": "Web & Scrapers",
+      "pricingType": "Free",
+      "tagline": "Language Model Builder - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "Free Mac app for building a small language model from scratch.",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/language-model-builder.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://languagemodelbuilder.com"
     },
     {
       "id": "ai-flowsavvy",
