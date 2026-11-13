@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 13:42 WIB",
-  "total": 335,
+  "updatedAt": "13 Nov 2026, 14:12 WIB",
+  "total": 336,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-native-soil",
+      "name": "Native Soil",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Native Soil - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "A tool to save and transfer AI workflow state.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/native-soil.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://nativesoil.dev"
     },
     {
       "id": "ai-sayora",
