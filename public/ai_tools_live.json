@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 08:41 WIB",
-  "total": 325,
+  "updatedAt": "13 Nov 2026, 09:11 WIB",
+  "total": 326,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-relume",
+      "name": "Relume",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Relume - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "A tool for website creation with sitemaps, wireframes, and designs.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/relume.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.relume.io"
     },
     {
       "id": "ai-memorylane",
