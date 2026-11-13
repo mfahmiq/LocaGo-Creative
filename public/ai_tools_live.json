@@ -1,6 +1,6 @@
 {
-  "updatedAt": "14 Nov 2026, 04:16 WIB",
-  "total": 364,
+  "updatedAt": "14 Nov 2026, 04:46 WIB",
+  "total": 365,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-hellomatik",
+      "name": "Hellomatik",
+      "category": "Agentic Automation",
+      "pricingType": "Paid",
+      "tagline": "Hellomatik - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "AI agents that automate business operations using company data.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/hellomatik.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://hellomatik.com"
     },
     {
       "id": "ai-clera",
