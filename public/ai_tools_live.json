@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 11:41 WIB",
-  "total": 331,
+  "updatedAt": "13 Nov 2026, 12:12 WIB",
+  "total": 332,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-inbox-zero",
+      "name": "Inbox Zero",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Inbox Zero - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to automate email organization and cleanup.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/inbox-zero.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.getinboxzero.com"
     },
     {
       "id": "ai-aippt",
