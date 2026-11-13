@@ -1,6 +1,6 @@
 {
-  "updatedAt": "13 Nov 2026, 21:14 WIB",
-  "total": 350,
+  "updatedAt": "13 Nov 2026, 21:44 WIB",
+  "total": 351,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-flowsavvy",
+      "name": "FlowSavvy",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "FlowSavvy - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "AI calendar that auto-schedules and reschedules your tasks.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/flowsavvy.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://flowsavvy.app"
     },
     {
       "id": "ai-tale",
