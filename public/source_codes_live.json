@@ -1,7 +1,64 @@
 {
-  "updatedAt": "14 Nov 2026, 10:24 WIB",
-  "total": 1,
+  "updatedAt": "14 Nov 2026, 03:26 WIB",
+  "total": 2,
   "items": [
+    {
+      "id": "sc-2",
+      "title": "Sistem Informasi Akademik & Kesiswaan - Simanis",
+      "slug": "simanis",
+      "category": "Pendidikan & Akademik",
+      "techStack": [
+        "CodeIgniter",
+        "PHP",
+        "MySQL"
+      ],
+      "description": "SIMANIS merupakan Sistem Informasi Manajemen Absensi dan NIlai Siswa. Aplikasi ini digunakan untuk memasukkan absensi dan nilai ulangan bagi tiap siswa di sekolah.\n\nProyek riil open-source asli dari GitHub (https://github.com/abosmond/simanis). Dilengkapi file database lengkap (simanis.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Informasi Akademik & Kesiswaan - Simanis dengan database simanis.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/simanis/screenshot_1.webp",
+        "/screenshots/simanis/screenshot_2.webp",
+        "/screenshots/simanis/screenshot_3.webp",
+        "/screenshots/simanis/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "14 November 2026",
+      "releaseDate": "14 November 2026",
+      "recentFastDownloads": 45,
+      "thumbnail": "/screenshots/simanis/screenshot_1.webp",
+      "downloadsCount": 916,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "994 KB",
+      "tutorialSteps": [
+        "Ekstrak berkas `simanis.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `simanis.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/simanis` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (abosmond/simanis) dengan source code lengkap",
+        "Disertai database asli (simanis.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=simanis&step=1&max=8",
+      "downloadUrlFast": "/downloads/simanis.zip",
+      "driveUrl": "https://drive.google.com/file/d/1AP9GCCl3-HVa6ahh_GvJPoQk2PckO9I5/view?usp=drivesdk",
+      "githubRepo": "https://github.com/abosmond/simanis",
+      "stars": 47
+    },
     {
       "id": "sc-24",
       "title": "Sistem Informasi Manajemen Laundry Kiloan & Satuan",
@@ -27,5 +84,6 @@
       "downloadUrlFree": "https://www.dwollopus.eu.org",
       "downloadUrlFast": "https://lynk.id/dwollopus"
     }
-  ]
+  ],
+  "driveFolderUrl": "https://drive.google.com/drive/folders/1HTUnGXUzyYiHK7qdQCyEmIt3wUEgk-fe"
 }
