@@ -1,6 +1,6 @@
 {
-  "updatedAt": "14 Nov 2026, 14:19 WIB",
-  "total": 384,
+  "updatedAt": "14 Nov 2026, 14:49 WIB",
+  "total": 385,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-lifesight",
+      "name": "Lifesight",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Lifesight - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A platform to measure and optimize omni channels marketing using analytics.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/lifesight.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.lifesight.io"
     },
     {
       "id": "ai-ui-bakery",
