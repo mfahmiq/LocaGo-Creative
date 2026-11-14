@@ -1,5 +1,5 @@
 {
-  "updatedAt": "14 Nov 2026, 18:14 WIB",
+  "updatedAt": "14 Nov 2026, 19:14 WIB",
   "total": 12,
   "items": [
     {
@@ -14,16 +14,16 @@
       "oneSentencePitch": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "rank": 1,
       "totalStars": "51.0k",
-      "starsToday": 215,
-      "starsGrowthText": "+215 stars today",
-      "growthRate": "+215 stars today",
+      "starsToday": 897,
+      "starsGrowthText": "+897 stars today",
+      "growthRate": "+897 stars today",
       "topics": [
         "ai",
         "go"
       ],
       "features": [
         "Trending resmi #1 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +215 stars today",
+        "Pertumbuhan pesat: +897 stars today",
         "Ditulis menggunakan bahasa Go"
       ]
     },
@@ -39,16 +39,16 @@
       "oneSentencePitch": "Keep your coding agent up to date with the latest web best practices",
       "rank": 2,
       "totalStars": "5.3k",
-      "starsToday": 1925,
-      "starsGrowthText": "+1,925 stars today",
-      "growthRate": "+1,925 stars today",
+      "starsToday": 1225,
+      "starsGrowthText": "+1,225 stars today",
+      "growthRate": "+1,225 stars today",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #2 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +1,925 stars today",
+        "Pertumbuhan pesat: +1,225 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -64,16 +64,16 @@
       "oneSentencePitch": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
       "rank": 3,
       "totalStars": "13.4k",
-      "starsToday": 751,
-      "starsGrowthText": "+751 stars today",
-      "growthRate": "+751 stars today",
+      "starsToday": 599,
+      "starsGrowthText": "+599 stars today",
+      "growthRate": "+599 stars today",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #3 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +751 stars today",
+        "Pertumbuhan pesat: +599 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -88,17 +88,17 @@
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "oneSentencePitch": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "rank": 4,
-      "totalStars": "72.0k",
-      "starsToday": 256,
-      "starsGrowthText": "+256 stars today",
-      "growthRate": "+256 stars today",
+      "totalStars": "72.1k",
+      "starsToday": 867,
+      "starsGrowthText": "+867 stars today",
+      "growthRate": "+867 stars today",
       "topics": [
         "ai",
         "python"
       ],
       "features": [
         "Trending resmi #4 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +256 stars today",
+        "Pertumbuhan pesat: +867 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -114,16 +114,16 @@
       "oneSentencePitch": "The personal finance app for everyone (by everyone)",
       "rank": 5,
       "totalStars": "15.0k",
-      "starsToday": 925,
-      "starsGrowthText": "+925 stars today",
-      "growthRate": "+925 stars today",
+      "starsToday": 659,
+      "starsGrowthText": "+659 stars today",
+      "growthRate": "+659 stars today",
       "topics": [
         "productivity",
         "ruby"
       ],
       "features": [
         "Trending resmi #5 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +925 stars today",
+        "Pertumbuhan pesat: +659 stars today",
         "Ditulis menggunakan bahasa Ruby"
       ]
     },
@@ -138,17 +138,17 @@
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "oneSentencePitch": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "rank": 6,
-      "totalStars": "10.6k",
-      "starsToday": 108,
-      "starsGrowthText": "+108 stars today",
-      "growthRate": "+108 stars today",
+      "totalStars": "10.7k",
+      "starsToday": 412,
+      "starsGrowthText": "+412 stars today",
+      "growthRate": "+412 stars today",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #6 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +108 stars today",
+        "Pertumbuhan pesat: +412 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -164,16 +164,16 @@
       "oneSentencePitch": "A fancy self-hosted monitoring tool",
       "rank": 7,
       "totalStars": "94.0k",
-      "starsToday": 71,
-      "starsGrowthText": "+71 stars today",
-      "growthRate": "+71 stars today",
+      "starsToday": 432,
+      "starsGrowthText": "+432 stars today",
+      "growthRate": "+432 stars today",
       "topics": [
         "dev",
         "javascript"
       ],
       "features": [
         "Trending resmi #7 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +71 stars today",
+        "Pertumbuhan pesat: +432 stars today",
         "Ditulis menggunakan bahasa JavaScript"
       ]
     },
@@ -189,16 +189,16 @@
       "oneSentencePitch": "A hive mind communication platform",
       "rank": 8,
       "totalStars": "37.4k",
-      "starsToday": 97,
-      "starsGrowthText": "+97 stars today",
-      "growthRate": "+97 stars today",
+      "starsToday": 275,
+      "starsGrowthText": "+275 stars today",
+      "growthRate": "+275 stars today",
       "topics": [
         "productivity",
         "rust"
       ],
       "features": [
         "Trending resmi #8 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +97 stars today",
+        "Pertumbuhan pesat: +275 stars today",
         "Ditulis menggunakan bahasa Rust"
       ]
     },
@@ -214,16 +214,16 @@
       "oneSentencePitch": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "rank": 9,
       "totalStars": "4.4k",
-      "starsToday": 69,
-      "starsGrowthText": "+69 stars today",
-      "growthRate": "+69 stars today",
+      "starsToday": 556,
+      "starsGrowthText": "+556 stars today",
+      "growthRate": "+556 stars today",
       "topics": [
         "ai",
         "python"
       ],
       "features": [
         "Trending resmi #9 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +69 stars today",
+        "Pertumbuhan pesat: +556 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -239,16 +239,16 @@
       "oneSentencePitch": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
       "rank": 10,
       "totalStars": "9.7k",
-      "starsToday": 256,
-      "starsGrowthText": "+256 stars today",
-      "growthRate": "+256 stars today",
+      "starsToday": 490,
+      "starsGrowthText": "+490 stars today",
+      "growthRate": "+490 stars today",
       "topics": [
         "ai",
         "go"
       ],
       "features": [
         "Trending resmi #10 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +256 stars today",
+        "Pertumbuhan pesat: +490 stars today",
         "Ditulis menggunakan bahasa Go"
       ]
     },
@@ -264,16 +264,16 @@
       "oneSentencePitch": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
       "rank": 11,
       "totalStars": "1.8k",
-      "starsToday": 256,
-      "starsGrowthText": "+256 stars today",
-      "growthRate": "+256 stars today",
+      "starsToday": 423,
+      "starsGrowthText": "+423 stars today",
+      "growthRate": "+423 stars today",
       "topics": [
         "ai",
         "c++"
       ],
       "features": [
         "Trending resmi #11 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +256 stars today",
+        "Pertumbuhan pesat: +423 stars today",
         "Ditulis menggunakan bahasa C++"
       ]
     },
@@ -289,16 +289,16 @@
       "oneSentencePitch": "Chrome DevTools for coding agents",
       "rank": 12,
       "totalStars": "55.9k",
-      "starsToday": 67,
-      "starsGrowthText": "+67 stars today",
-      "growthRate": "+67 stars today",
+      "starsToday": 673,
+      "starsGrowthText": "+673 stars today",
+      "growthRate": "+673 stars today",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #12 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +67 stars today",
+        "Pertumbuhan pesat: +673 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     }
@@ -316,16 +316,16 @@
       "oneSentencePitch": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "rank": 1,
       "totalStars": "51.0k",
-      "starsToday": 215,
-      "starsGrowthText": "+215 stars today",
-      "growthRate": "+215 stars today",
+      "starsToday": 897,
+      "starsGrowthText": "+897 stars today",
+      "growthRate": "+897 stars today",
       "topics": [
         "ai",
         "go"
       ],
       "features": [
         "Trending resmi #1 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +215 stars today",
+        "Pertumbuhan pesat: +897 stars today",
         "Ditulis menggunakan bahasa Go"
       ]
     },
@@ -341,16 +341,16 @@
       "oneSentencePitch": "Keep your coding agent up to date with the latest web best practices",
       "rank": 2,
       "totalStars": "5.3k",
-      "starsToday": 1925,
-      "starsGrowthText": "+1,925 stars today",
-      "growthRate": "+1,925 stars today",
+      "starsToday": 1225,
+      "starsGrowthText": "+1,225 stars today",
+      "growthRate": "+1,225 stars today",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #2 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +1,925 stars today",
+        "Pertumbuhan pesat: +1,225 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -366,16 +366,16 @@
       "oneSentencePitch": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
       "rank": 3,
       "totalStars": "13.4k",
-      "starsToday": 751,
-      "starsGrowthText": "+751 stars today",
-      "growthRate": "+751 stars today",
+      "starsToday": 599,
+      "starsGrowthText": "+599 stars today",
+      "growthRate": "+599 stars today",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #3 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +751 stars today",
+        "Pertumbuhan pesat: +599 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -390,17 +390,17 @@
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "oneSentencePitch": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "rank": 4,
-      "totalStars": "72.0k",
-      "starsToday": 256,
-      "starsGrowthText": "+256 stars today",
-      "growthRate": "+256 stars today",
+      "totalStars": "72.1k",
+      "starsToday": 867,
+      "starsGrowthText": "+867 stars today",
+      "growthRate": "+867 stars today",
       "topics": [
         "ai",
         "python"
       ],
       "features": [
         "Trending resmi #4 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +256 stars today",
+        "Pertumbuhan pesat: +867 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -416,16 +416,16 @@
       "oneSentencePitch": "The personal finance app for everyone (by everyone)",
       "rank": 5,
       "totalStars": "15.0k",
-      "starsToday": 925,
-      "starsGrowthText": "+925 stars today",
-      "growthRate": "+925 stars today",
+      "starsToday": 659,
+      "starsGrowthText": "+659 stars today",
+      "growthRate": "+659 stars today",
       "topics": [
         "productivity",
         "ruby"
       ],
       "features": [
         "Trending resmi #5 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +925 stars today",
+        "Pertumbuhan pesat: +659 stars today",
         "Ditulis menggunakan bahasa Ruby"
       ]
     },
@@ -440,17 +440,17 @@
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "oneSentencePitch": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "rank": 6,
-      "totalStars": "10.6k",
-      "starsToday": 108,
-      "starsGrowthText": "+108 stars today",
-      "growthRate": "+108 stars today",
+      "totalStars": "10.7k",
+      "starsToday": 412,
+      "starsGrowthText": "+412 stars today",
+      "growthRate": "+412 stars today",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #6 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +108 stars today",
+        "Pertumbuhan pesat: +412 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -466,16 +466,16 @@
       "oneSentencePitch": "A fancy self-hosted monitoring tool",
       "rank": 7,
       "totalStars": "94.0k",
-      "starsToday": 71,
-      "starsGrowthText": "+71 stars today",
-      "growthRate": "+71 stars today",
+      "starsToday": 432,
+      "starsGrowthText": "+432 stars today",
+      "growthRate": "+432 stars today",
       "topics": [
         "dev",
         "javascript"
       ],
       "features": [
         "Trending resmi #7 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +71 stars today",
+        "Pertumbuhan pesat: +432 stars today",
         "Ditulis menggunakan bahasa JavaScript"
       ]
     },
@@ -491,16 +491,16 @@
       "oneSentencePitch": "A hive mind communication platform",
       "rank": 8,
       "totalStars": "37.4k",
-      "starsToday": 97,
-      "starsGrowthText": "+97 stars today",
-      "growthRate": "+97 stars today",
+      "starsToday": 275,
+      "starsGrowthText": "+275 stars today",
+      "growthRate": "+275 stars today",
       "topics": [
         "productivity",
         "rust"
       ],
       "features": [
         "Trending resmi #8 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +97 stars today",
+        "Pertumbuhan pesat: +275 stars today",
         "Ditulis menggunakan bahasa Rust"
       ]
     },
@@ -516,16 +516,16 @@
       "oneSentencePitch": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "rank": 9,
       "totalStars": "4.4k",
-      "starsToday": 69,
-      "starsGrowthText": "+69 stars today",
-      "growthRate": "+69 stars today",
+      "starsToday": 556,
+      "starsGrowthText": "+556 stars today",
+      "growthRate": "+556 stars today",
       "topics": [
         "ai",
         "python"
       ],
       "features": [
         "Trending resmi #9 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +69 stars today",
+        "Pertumbuhan pesat: +556 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -541,16 +541,16 @@
       "oneSentencePitch": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
       "rank": 10,
       "totalStars": "9.7k",
-      "starsToday": 256,
-      "starsGrowthText": "+256 stars today",
-      "growthRate": "+256 stars today",
+      "starsToday": 490,
+      "starsGrowthText": "+490 stars today",
+      "growthRate": "+490 stars today",
       "topics": [
         "ai",
         "go"
       ],
       "features": [
         "Trending resmi #10 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +256 stars today",
+        "Pertumbuhan pesat: +490 stars today",
         "Ditulis menggunakan bahasa Go"
       ]
     },
@@ -566,16 +566,16 @@
       "oneSentencePitch": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
       "rank": 11,
       "totalStars": "1.8k",
-      "starsToday": 256,
-      "starsGrowthText": "+256 stars today",
-      "growthRate": "+256 stars today",
+      "starsToday": 423,
+      "starsGrowthText": "+423 stars today",
+      "growthRate": "+423 stars today",
       "topics": [
         "ai",
         "c++"
       ],
       "features": [
         "Trending resmi #11 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +256 stars today",
+        "Pertumbuhan pesat: +423 stars today",
         "Ditulis menggunakan bahasa C++"
       ]
     },
@@ -591,16 +591,16 @@
       "oneSentencePitch": "Chrome DevTools for coding agents",
       "rank": 12,
       "totalStars": "55.9k",
-      "starsToday": 67,
-      "starsGrowthText": "+67 stars today",
-      "growthRate": "+67 stars today",
+      "starsToday": 673,
+      "starsGrowthText": "+673 stars today",
+      "growthRate": "+673 stars today",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #12 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +67 stars today",
+        "Pertumbuhan pesat: +673 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     }
@@ -617,7 +617,7 @@
       "description": "Hunt down social media accounts by username across social networks",
       "oneSentencePitch": "Hunt down social media accounts by username across social networks",
       "rank": 1,
-      "totalStars": "111.4k",
+      "totalStars": "111.5k",
       "starsToday": 13364,
       "starsGrowthText": "+13,364 stars this week",
       "growthRate": "+13,364 stars this week",
@@ -742,7 +742,7 @@
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "oneSentencePitch": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "rank": 6,
-      "totalStars": "72.0k",
+      "totalStars": "72.1k",
       "starsToday": 3778,
       "starsGrowthText": "+3,778 stars this week",
       "growthRate": "+3,778 stars this week",
@@ -942,7 +942,7 @@
       "description": "Computer use CLI for AI agents",
       "oneSentencePitch": "Computer use CLI for AI agents",
       "rank": 14,
-      "totalStars": "23.5k",
+      "totalStars": "23.6k",
       "starsToday": 5408,
       "starsGrowthText": "+5,408 stars this week",
       "growthRate": "+5,408 stars this week",
@@ -1019,7 +1019,7 @@
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "oneSentencePitch": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "rank": 2,
-      "totalStars": "458.6k",
+      "totalStars": "458.7k",
       "starsToday": 271084,
       "starsGrowthText": "+271,084 stars this month",
       "growthRate": "+271,084 stars this month",
@@ -1094,7 +1094,7 @@
       "description": "The best way to control Claude Code, Codex and more from any computer or phone",
       "oneSentencePitch": "The best way to control Claude Code, Codex and more from any computer or phone",
       "rank": 5,
-      "totalStars": "60.0k",
+      "totalStars": "60.1k",
       "starsToday": 32057,
       "starsGrowthText": "+32,057 stars this month",
       "growthRate": "+32,057 stars this month",
@@ -1319,7 +1319,7 @@
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "oneSentencePitch": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "rank": 14,
-      "totalStars": "47.2k",
+      "totalStars": "47.3k",
       "starsToday": 9580,
       "starsGrowthText": "+9,580 stars this month",
       "growthRate": "+9,580 stars this month",
