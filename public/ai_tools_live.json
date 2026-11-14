@@ -1,6 +1,6 @@
 {
-  "updatedAt": "15 Nov 2026, 02:27 WIB",
-  "total": 408,
+  "updatedAt": "15 Nov 2026, 02:57 WIB",
+  "total": 409,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-limitless",
+      "name": "Limitless",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Limitless - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "An augments human intelligence by transcribing and summarizing conversations.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/limitless.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.limitless.ai"
     },
     {
       "id": "ai-anything-world",
