@@ -1,7 +1,64 @@
 {
-  "updatedAt": "14 Nov 2026, 08:41 WIB",
-  "total": 23,
+  "updatedAt": "14 Nov 2026, 09:12 WIB",
+  "total": 24,
   "items": [
+    {
+      "id": "sc-24",
+      "title": "Sistem Presensi Karyawan & Absensi Online - Tb Basdat V2",
+      "slug": "tb-basdat-v2",
+      "category": "HRD & Keuangan",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL"
+      ],
+      "description": "Aplikasi Presensi Online untuk Kantor Desa Berbasis Web\n\nProyek riil open-source asli dari GitHub (https://github.com/alamahul/TB_BASDAT_V2). Dilengkapi file database lengkap (DB/db_sipedesv2.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Presensi Karyawan & Absensi Online - Tb Basdat V2 dengan database DB/db_sipedesv2.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/tb-basdat-v2/screenshot_1.webp",
+        "/screenshots/tb-basdat-v2/screenshot_2.webp",
+        "/screenshots/tb-basdat-v2/screenshot_3.webp",
+        "/screenshots/tb-basdat-v2/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "14 November 2026",
+      "releaseDate": "14 November 2026",
+      "recentFastDownloads": 74,
+      "thumbnail": "/screenshots/tb-basdat-v2/screenshot_1.webp",
+      "downloadsCount": 808,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "4.4 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `tb-basdat-v2.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `DB/db_sipedesv2.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/tb-basdat-v2` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (alamahul/TB_BASDAT_V2) dengan source code lengkap",
+        "Disertai database asli (DB/db_sipedesv2.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=tb-basdat-v2&step=1&max=8",
+      "downloadUrlFast": "/downloads/tb-basdat-v2.zip",
+      "driveUrl": "https://drive.google.com/file/d/1tDSW-cyBEYxjn9w3aTPghLRFlcDChwFQ/view?usp=drivesdk",
+      "githubRepo": "https://github.com/alamahul/TB_BASDAT_V2",
+      "stars": 2
+    },
     {
       "id": "sc-23",
       "title": "Sistem Informasi Inventaris & Gudang - Smartventory",
