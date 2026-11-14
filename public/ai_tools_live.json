@@ -1,6 +1,6 @@
 {
-  "updatedAt": "14 Nov 2026, 17:20 WIB",
-  "total": 390,
+  "updatedAt": "14 Nov 2026, 17:50 WIB",
+  "total": 391,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-pixverse",
+      "name": "PixVerse",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "PixVerse - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "A platform to transform creative ideas, images and characters into videos.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/pixverse.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://pixverse.ai"
     },
     {
       "id": "ai-chatsimple",
