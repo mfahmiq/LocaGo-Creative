@@ -1,6 +1,6 @@
 {
-  "updatedAt": "14 Nov 2026, 12:18 WIB",
-  "total": 380,
+  "updatedAt": "14 Nov 2026, 12:48 WIB",
+  "total": 381,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-quizrise",
+      "name": "QuizRise",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "QuizRise - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A platform to create quizzes and flashcards from any content.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/quizrise.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.quizrise.com"
     },
     {
       "id": "ai-storybee",
