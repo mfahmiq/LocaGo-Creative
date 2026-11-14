@@ -1,6 +1,6 @@
 {
-  "updatedAt": "14 Nov 2026, 13:49 WIB",
-  "total": 383,
+  "updatedAt": "14 Nov 2026, 14:19 WIB",
+  "total": 384,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-ui-bakery",
+      "name": "UI Bakery",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "UI Bakery - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "A tool to create web applications from text prompts using low-code development.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/ui-bakery.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://uibakery.io/ai-app-generator"
     },
     {
       "id": "ai-shadow",
