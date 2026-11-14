@@ -1,6 +1,6 @@
 {
-  "updatedAt": "14 Nov 2026, 19:55 WIB",
-  "total": 395,
+  "updatedAt": "14 Nov 2026, 20:25 WIB",
+  "total": 396,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-digest",
+      "name": "Digest",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Digest - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to aggregate and deliver personalized content from various sources into a single newsletter.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/digest.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://usedigest.com"
     },
     {
       "id": "ai-skyvern",
