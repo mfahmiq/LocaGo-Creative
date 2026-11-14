@@ -1,6 +1,6 @@
 {
-  "updatedAt": "15 Nov 2026, 05:58 WIB",
-  "total": 415,
+  "updatedAt": "15 Nov 2026, 06:28 WIB",
+  "total": 416,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-magicarena",
+      "name": "MagicArena",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "MagicArena - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to benchmark and compare different AI generative models in a testing environment.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/magicarena.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://aigcarena.com"
     },
     {
       "id": "ai-mexty-ai",
