@@ -1,6 +1,6 @@
 {
-  "updatedAt": "14 Nov 2026, 07:17 WIB",
-  "total": 370,
+  "updatedAt": "14 Nov 2026, 07:47 WIB",
+  "total": 371,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-agentzee",
+      "name": "AgentZee",
+      "category": "Agentic Automation",
+      "pricingType": "Paid",
+      "tagline": "AgentZee - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "A tool to create and manage AI agents for workflows.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/agentzee.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://agentzee.ai"
     },
     {
       "id": "ai-lispa",
