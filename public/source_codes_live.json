@@ -1,6 +1,6 @@
 {
   "updatedAt": "14 Nov 2026, 03:27 WIB",
-  "total": 4,
+  "total": 3,
   "items": [
     {
       "id": "sc-4",
@@ -174,31 +174,6 @@
       "driveUrl": "https://drive.google.com/file/d/1AP9GCCl3-HVa6ahh_GvJPoQk2PckO9I5/view?usp=drivesdk",
       "githubRepo": "https://github.com/abosmond/simanis",
       "stars": 47
-    },
-    {
-      "id": "sc-24",
-      "title": "Sistem Informasi Manajemen Laundry Kiloan & Satuan",
-      "slug": "manajemen-laundry-kiloan-satuan",
-      "category": "PHP & Laravel",
-      "techStack": [
-        "Laravel 11",
-        "MySQL",
-        "TailwindCSS",
-        "WhatsApp API"
-      ],
-      "description": "Sistem kasir laundry otomatis dengan tracking status pakaian (cuci, kering, setrika, siap ambil) dan kirim nota digital otomatis via WhatsApp gateway.",
-      "shortDesc": "Aplikasi kasir laundry kiloan & satuan lengkap dengan nota WhatsApp otomatis dan pelacakan status cucian.",
-      "thumbnail": "/banners/gemini/sc_manajemen_laundry_kiloan_.webp",
-      "image": "/banners/gemini/sc_manajemen_laundry_kiloan_.webp",
-      "downloadsCount": 450,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "16.4 MB",
-      "downloadUrlFree": "https://www.dwollopus.eu.org",
-      "downloadUrlFast": "https://lynk.id/dwollopus"
     }
   ],
   "driveFolderUrl": "https://drive.google.com/drive/folders/1HTUnGXUzyYiHK7qdQCyEmIt3wUEgk-fe"
