@@ -1,6 +1,6 @@
 {
-  "updatedAt": "14 Nov 2026, 13:19 WIB",
-  "total": 382,
+  "updatedAt": "14 Nov 2026, 13:49 WIB",
+  "total": 383,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-shadow",
+      "name": "Shadow",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Shadow - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to automate post-meeting tasks and generate transcripts.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/shadow.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.shadow.do"
     },
     {
       "id": "ai-rafa",
