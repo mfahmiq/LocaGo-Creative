@@ -1,7 +1,32 @@
 {
-  "updatedAt": "14 Nov 2026, 18:14 WIB",
+  "updatedAt": "14 Nov 2026, 18:48 WIB",
   "total": 23,
   "items": [
+    {
+      "id": "sc-25",
+      "title": "Aplikasi Kasir Bengkel Motor & Servis Kendaraan",
+      "slug": "kasir-bengkel-motor-servis",
+      "category": "React & Node.js",
+      "techStack": [
+        "React 19",
+        "Express.js",
+        "PostgreSQL",
+        "TailwindCSS"
+      ],
+      "description": "Aplikasi pencatatan servis motor, riwayat kilometer kendaraan, stok suku cadang, dan reminder ganti oli otomatis ke nomor WhatsApp pelanggan.",
+      "shortDesc": "Sistem manajemen bengkel motor dengan riwayat servis, inventaris sparepart, dan reminder ganti oli otomatis.",
+      "thumbnail": "/banners/gemini/sc_kasir_bengkel_motor_servi.webp",
+      "image": "/banners/gemini/sc_kasir_bengkel_motor_servi.webp",
+      "downloadsCount": 450,
+      "rating": 4.92,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "PostgreSQL (.sql)",
+      "fileSize": "16.4 MB",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
     {
       "id": "sc-24",
       "title": "Sistem Informasi Manajemen Laundry Kiloan & Satuan",
@@ -17,7 +42,7 @@
       "shortDesc": "Aplikasi kasir laundry kiloan & satuan lengkap dengan nota WhatsApp otomatis dan pelacakan status cucian.",
       "thumbnail": "/banners/gemini/sc_manajemen_laundry_kiloan_.webp",
       "image": "/banners/gemini/sc_manajemen_laundry_kiloan_.webp",
-      "downloadsCount": 450,
+      "downloadsCount": 485,
       "rating": 4.95,
       "isPopular": true,
       "isFree": true,
@@ -26,31 +51,6 @@
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org",
       "downloadUrlFast": "https://lynk.id/dwollopus"
-    },
-    {
-      "id": "sc-25",
-      "title": "Sistem Informasi Manajemen Rumah Sakit - Aplikasi Sistem Informasi Rumah Sakit",
-      "slug": "aplikasi-sistem-informasi-rumah-sakit",
-      "category": "Kesehatan & Medis",
-      "techStack": [
-        "PHP Native",
-        "PHP",
-        "MySQL",
-        "Bootstrap"
-      ],
-      "description": "Aplikasi Sistem Informasi Rumah Sakit V1.0\n\nProyek riil open-source asli dari GitHub (https://github.com/maful/Aplikasi-Sistem-Informasi-Rumah-Sakit). Dilengkapi file database lengkap (db/gd_sirs.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Sistem Informasi Manajemen Rumah Sakit - Aplikasi Sistem Informasi Rumah Sakit dengan database db/gd_sirs.sql, data contoh bawaan, dan tutorial instalasi.",
-      "thumbnail": "/screenshots/aplikasi-sistem-informasi-rumah-sakit/screenshot_1.webp",
-      "image": "/screenshots/aplikasi-sistem-informasi-rumah-sakit/screenshot_1.webp",
-      "downloadsCount": 485,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "16.4 MB",
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=aplikasi-sistem-informasi-rumah-sakit&step=1&max=8",
-      "downloadUrlFast": "/downloads/aplikasi-sistem-informasi-rumah-sakit.zip"
     },
     {
       "id": "sc-23",
