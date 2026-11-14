@@ -1,7 +1,32 @@
 {
-  "updatedAt": "14 Nov 2026, 05:11 WIB",
-  "total": 9,
+  "updatedAt": "14 Nov 2026, 12:27 WIB",
+  "total": 10,
   "items": [
+    {
+      "id": "sc-27",
+      "title": "Sistem Reservasi Meja Restoran & Order Menu QR",
+      "slug": "reservasi-meja-restoran-order-qr",
+      "category": "Vue & Nuxt",
+      "techStack": [
+        "Nuxt 3",
+        "Vue 3",
+        "Supabase",
+        "TailwindCSS"
+      ],
+      "description": "Sistem restoran modern di mana pelanggan bisa scan QR code di meja untuk memesan makanan langsung ke layar dapur (Kitchen Display System) tanpa instal aplikasi.",
+      "shortDesc": "Aplikasi order menu makanan via QR code meja restoran dengan integrasi Kitchen Display System langsung ke koki.",
+      "thumbnail": "/banners/gemini/sc_reservasi_meja_restoran_o.webp",
+      "image": "/banners/gemini/sc_reservasi_meja_restoran_o.webp",
+      "downloadsCount": 450,
+      "rating": 4.94,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "Supabase PostgreSQL",
+      "fileSize": "16.4 MB",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
     {
       "id": "sc-9",
       "title": "Warehouse & Inventory Management System - Part Db Server",
@@ -15,50 +40,17 @@
       ],
       "description": "Part-DB is an Open source inventory management system for your electronic components\n\nProyek riil open-source asli dari GitHub (https://github.com/Part-DB/Part-DB-server). Dilengkapi file database lengkap (.github/assets/legacy_import/db_jbtronics.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
       "shortDesc": "Proyek riil Warehouse & Inventory Management System - Part Db Server dengan database .github/assets/legacy_import/db_jbtronics.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/part-db-server/screenshot_1.webp",
-        "/screenshots/part-db-server/screenshot_2.webp",
-        "/screenshots/part-db-server/screenshot_3.webp",
-        "/screenshots/part-db-server/screenshot_4.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Administrator",
-          "username": "admin / admin@gmail.com",
-          "password": "admin / admin123"
-        }
-      ],
-      "updatedAt": "14 November 2026",
-      "releaseDate": "14 November 2026",
-      "recentFastDownloads": 63,
       "thumbnail": "/screenshots/part-db-server/screenshot_1.webp",
-      "downloadsCount": 1130,
+      "image": "/screenshots/part-db-server/screenshot_1.webp",
+      "downloadsCount": 485,
       "rating": 4.95,
       "isPopular": true,
       "isFree": true,
       "hasDatabase": true,
       "databaseType": "MySQL (.sql)",
-      "fileSize": "44.6 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `part-db-server.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `.github/assets/legacy_import/db_jbtronics.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/part-db-server` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (Part-DB/Part-DB-server) dengan source code lengkap",
-        "Disertai database asli (.github/assets/legacy_import/db_jbtronics.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
+      "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=part-db-server&step=1&max=8",
-      "downloadUrlFast": "/downloads/part-db-server.zip",
-      "driveUrl": "https://drive.google.com/file/d/1TzC93OJ8z3iOuzyJnYadao-MPhc921qc/view?usp=drivesdk",
-      "githubRepo": "https://github.com/Part-DB/Part-DB-server",
-      "stars": 1848
+      "downloadUrlFast": "/downloads/part-db-server.zip"
     },
     {
       "id": "sc-26",
@@ -75,7 +67,7 @@
       "shortDesc": "Aplikasi payroll dan penggajian karyawan otomatis dengan perhitungan pajak PPh 21 dan generate slip gaji PDF terenkripsi.",
       "thumbnail": "/banners/gemini/sc_portal_penggajian_slip_ga.webp",
       "image": "/banners/gemini/sc_portal_penggajian_slip_ga.webp",
-      "downloadsCount": 450,
+      "downloadsCount": 520,
       "rating": 4.96,
       "isPopular": true,
       "isFree": true,
@@ -99,7 +91,7 @@
       "shortDesc": "Proyek riil Sistem Informasi Manajemen Sekolah - Sisfoka dengan database u492825399_smk.sql, data contoh bawaan, dan tutorial instalasi.",
       "thumbnail": "/screenshots/sisfoka/screenshot_1.webp",
       "image": "/screenshots/sisfoka/screenshot_1.webp",
-      "downloadsCount": 485,
+      "downloadsCount": 555,
       "rating": 4.95,
       "isPopular": true,
       "isFree": true,
@@ -124,7 +116,7 @@
       "shortDesc": "Sistem manajemen bengkel motor dengan riwayat servis, inventaris sparepart, dan reminder ganti oli otomatis.",
       "thumbnail": "/banners/gemini/sc_kasir_bengkel_motor_servi.webp",
       "image": "/banners/gemini/sc_kasir_bengkel_motor_servi.webp",
-      "downloadsCount": 520,
+      "downloadsCount": 590,
       "rating": 4.92,
       "isPopular": true,
       "isFree": true,
@@ -149,7 +141,7 @@
       "shortDesc": "Proyek riil Aplikasi Kasir POS & Manajemen Penjualan - Sim Pos Ci dengan database app/ThirdParty/php-sql-parser/tests/expected/creator/alter.sql, data contoh bawaan, dan tutorial instalasi.",
       "thumbnail": "/screenshots/sim-pos-ci/screenshot_1.webp",
       "image": "/screenshots/sim-pos-ci/screenshot_1.webp",
-      "downloadsCount": 555,
+      "downloadsCount": 625,
       "rating": 4.95,
       "isPopular": true,
       "isFree": true,
@@ -174,9 +166,9 @@
       "shortDesc": "Aplikasi kasir laundry kiloan & satuan lengkap dengan nota WhatsApp otomatis dan pelacakan status cucian.",
       "thumbnail": "/banners/gemini/sc_manajemen_laundry_kiloan_.webp",
       "image": "/banners/gemini/sc_manajemen_laundry_kiloan_.webp",
-      "downloadsCount": 590,
+      "downloadsCount": 660,
       "rating": 4.95,
-      "isPopular": true,
+      "isPopular": false,
       "isFree": true,
       "hasDatabase": true,
       "databaseType": "MySQL (.sql)",
@@ -199,9 +191,9 @@
       "shortDesc": "Proyek riil Aplikasi Kasir POS & Manajemen Penjualan - Kasirv1 dengan database database/kasirdb.sql, data contoh bawaan, dan tutorial instalasi.",
       "thumbnail": "/screenshots/kasirv1/screenshot_1.webp",
       "image": "/screenshots/kasirv1/screenshot_1.webp",
-      "downloadsCount": 625,
+      "downloadsCount": 695,
       "rating": 4.95,
-      "isPopular": true,
+      "isPopular": false,
       "isFree": true,
       "hasDatabase": true,
       "databaseType": "MySQL (.sql)",
@@ -224,7 +216,7 @@
       "shortDesc": "Proyek riil Sistem Informasi Manajemen Sekolah - Cbt Eschool dengan database db/cbt_db.sql, data contoh bawaan, dan tutorial instalasi.",
       "thumbnail": "/screenshots/cbt-eschool/screenshot_1.webp",
       "image": "/screenshots/cbt-eschool/screenshot_1.webp",
-      "downloadsCount": 660,
+      "downloadsCount": 730,
       "rating": 4.95,
       "isPopular": false,
       "isFree": true,
@@ -248,7 +240,7 @@
       "shortDesc": "Proyek riil Sistem Informasi Akademik & Kesiswaan - Simanis dengan database simanis.sql, data contoh bawaan, dan tutorial instalasi.",
       "thumbnail": "/screenshots/simanis/screenshot_1.webp",
       "image": "/screenshots/simanis/screenshot_1.webp",
-      "downloadsCount": 695,
+      "downloadsCount": 765,
       "rating": 4.95,
       "isPopular": false,
       "isFree": true,
@@ -258,6 +250,5 @@
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=simanis&step=1&max=8",
       "downloadUrlFast": "/downloads/simanis.zip"
     }
-  ],
-  "driveFolderUrl": "https://drive.google.com/drive/folders/1HTUnGXUzyYiHK7qdQCyEmIt3wUEgk-fe"
+  ]
 }
