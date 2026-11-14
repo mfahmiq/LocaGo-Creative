@@ -1,6 +1,6 @@
 {
-  "updatedAt": "14 Nov 2026, 20:55 WIB",
-  "total": 397,
+  "updatedAt": "14 Nov 2026, 21:26 WIB",
+  "total": 398,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-newsbang",
+      "name": "NewsBang",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "NewsBang - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "An app that aggregate news content in interactive format.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/newsbang.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.newsbang.com"
     },
     {
       "id": "ai-danelfin",
