@@ -1,6 +1,6 @@
 {
-  "updatedAt": "14 Nov 2026, 07:47 WIB",
-  "total": 371,
+  "updatedAt": "14 Nov 2026, 08:17 WIB",
+  "total": 372,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-oktolabs",
+      "name": "OktoLabs",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "OktoLabs - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "AI agent tools for governed software delivery teams.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/oktolabs.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://oktolabs.ai"
     },
     {
       "id": "ai-agentzee",
