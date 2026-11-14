@@ -1,6 +1,6 @@
 {
-  "updatedAt": "15 Nov 2026, 00:56 WIB",
-  "total": 405,
+  "updatedAt": "15 Nov 2026, 01:26 WIB",
+  "total": 406,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-seobot",
+      "name": "SEObot",
+      "category": "Agentic Automation",
+      "pricingType": "Paid",
+      "tagline": "SEObot - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "A tool to automate SEO tasks.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/seobot.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://seobotai.com"
     },
     {
       "id": "ai-stockmusicgpt",
