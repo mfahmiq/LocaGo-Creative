@@ -1,7 +1,32 @@
 {
-  "updatedAt": "14 Nov 2026, 03:34 WIB",
+  "updatedAt": "14 Nov 2026, 10:55 WIB",
   "total": 4,
   "items": [
+    {
+      "id": "sc-24",
+      "title": "Sistem Informasi Manajemen Laundry Kiloan & Satuan",
+      "slug": "manajemen-laundry-kiloan-satuan",
+      "category": "PHP & Laravel",
+      "techStack": [
+        "Laravel 11",
+        "MySQL",
+        "TailwindCSS",
+        "WhatsApp API"
+      ],
+      "description": "Sistem kasir laundry otomatis dengan tracking status pakaian (cuci, kering, setrika, siap ambil) dan kirim nota digital otomatis via WhatsApp gateway.",
+      "shortDesc": "Aplikasi kasir laundry kiloan & satuan lengkap dengan nota WhatsApp otomatis dan pelacakan status cucian.",
+      "thumbnail": "/banners/gemini/sc_manajemen_laundry_kiloan_.webp",
+      "image": "/banners/gemini/sc_manajemen_laundry_kiloan_.webp",
+      "downloadsCount": 450,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "16.4 MB",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
     {
       "id": "sc-4",
       "title": "Aplikasi Kasir POS & Manajemen Penjualan - Kasirv1",
@@ -15,108 +40,17 @@
       ],
       "description": "Ini aplikasi kasir sederhana mengguakan Database Mysql dan PHP\n\nProyek riil open-source asli dari GitHub (https://github.com/addeye/kasirv1). Dilengkapi file database lengkap (database/kasirdb.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
       "shortDesc": "Proyek riil Aplikasi Kasir POS & Manajemen Penjualan - Kasirv1 dengan database database/kasirdb.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/kasirv1/screenshot_1.webp",
-        "/screenshots/kasirv1/screenshot_2.webp",
-        "/screenshots/kasirv1/screenshot_3.webp",
-        "/screenshots/kasirv1/screenshot_4.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Administrator",
-          "username": "admin / admin@gmail.com",
-          "password": "admin / admin123"
-        }
-      ],
-      "updatedAt": "14 November 2026",
-      "releaseDate": "14 November 2026",
-      "recentFastDownloads": 59,
       "thumbnail": "/screenshots/kasirv1/screenshot_1.webp",
-      "downloadsCount": 1019,
+      "image": "/screenshots/kasirv1/screenshot_1.webp",
+      "downloadsCount": 485,
       "rating": 4.95,
       "isPopular": true,
       "isFree": true,
       "hasDatabase": true,
       "databaseType": "MySQL (.sql)",
-      "fileSize": "8.1 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `kasirv1.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `database/kasirdb.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/kasirv1` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (addeye/kasirv1) dengan source code lengkap",
-        "Disertai database asli (database/kasirdb.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
+      "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=kasirv1&step=1&max=8",
-      "downloadUrlFast": "/downloads/kasirv1.zip",
-      "driveUrl": "https://drive.google.com/file/d/1bH9IZ_DhlMTEMlDswVY4I_rARwDztwfP/view?usp=drivesdk",
-      "githubRepo": "https://github.com/addeye/kasirv1",
-      "stars": 40
-    },
-    {
-      "id": "sc-4",
-      "title": "Aplikasi Manajemen Apotek & Obat - Peramalan Penjualan",
-      "slug": "peramalan-penjualan",
-      "category": "Kesehatan & Medis",
-      "techStack": [
-        "PHP Native",
-        "PHP",
-        "MySQL",
-        "Bootstrap"
-      ],
-      "description": "(Skripsi dulu) Aplikasi POS Apotek dan Peramalan Penjualan Obat dengan Metode Single Moving Average dan Single Exponential Smoothing\n\nProyek riil open-source asli dari GitHub (https://github.com/abifaizal/peramalan_penjualan). Dilengkapi file database lengkap (db_apt_margosaras.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Aplikasi Manajemen Apotek & Obat - Peramalan Penjualan dengan database db_apt_margosaras.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/peramalan-penjualan/screenshot_1.webp",
-        "/screenshots/peramalan-penjualan/screenshot_2.webp",
-        "/screenshots/peramalan-penjualan/screenshot_3.webp",
-        "/screenshots/peramalan-penjualan/screenshot_4.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Administrator",
-          "username": "admin / admin@gmail.com",
-          "password": "admin / admin123"
-        }
-      ],
-      "updatedAt": "14 November 2026",
-      "releaseDate": "14 November 2026",
-      "recentFastDownloads": 95,
-      "thumbnail": "/screenshots/peramalan-penjualan/screenshot_1.webp",
-      "downloadsCount": 1037,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "15.1 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `peramalan-penjualan.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `db_apt_margosaras.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/peramalan-penjualan` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (abifaizal/peramalan_penjualan) dengan source code lengkap",
-        "Disertai database asli (db_apt_margosaras.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=peramalan-penjualan&step=1&max=8",
-      "downloadUrlFast": "/downloads/peramalan-penjualan.zip",
-      "driveUrl": "https://drive.google.com/file/d/1qM77VbcTd7GhjTDyH7TuFQqb9DBNfFlD/view?usp=drivesdk",
-      "githubRepo": "https://github.com/abifaizal/peramalan_penjualan",
-      "stars": 33
+      "downloadUrlFast": "/downloads/kasirv1.zip"
     },
     {
       "id": "sc-3",
@@ -131,50 +65,17 @@
       ],
       "description": "CBT soal AKM. Php 8, Javascript, MySql Aplikasi ujian berbasis web. Dirancang untuk mendukung pelaksanaan ujian online di sekolah dengan fitur keamanan, manajemen soal, dan laporan hasil ujian. berbagai jenis Tipe Soal, PG, PGX, MJD, U, B/S\n\nProyek riil open-source asli dari GitHub (https://github.com/gludugbanyu/cbt-eschool). Dilengkapi file database lengkap (db/cbt_db.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
       "shortDesc": "Proyek riil Sistem Informasi Manajemen Sekolah - Cbt Eschool dengan database db/cbt_db.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/cbt-eschool/screenshot_1.webp",
-        "/screenshots/cbt-eschool/screenshot_2.webp",
-        "/screenshots/cbt-eschool/screenshot_3.webp",
-        "/screenshots/cbt-eschool/screenshot_4.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Administrator",
-          "username": "admin / admin@gmail.com",
-          "password": "admin / admin123"
-        }
-      ],
-      "updatedAt": "14 November 2026",
-      "releaseDate": "14 November 2026",
-      "recentFastDownloads": 60,
       "thumbnail": "/screenshots/cbt-eschool/screenshot_1.webp",
-      "downloadsCount": 754,
+      "image": "/screenshots/cbt-eschool/screenshot_1.webp",
+      "downloadsCount": 520,
       "rating": 4.95,
       "isPopular": true,
       "isFree": true,
       "hasDatabase": true,
       "databaseType": "MySQL (.sql)",
-      "fileSize": "9.7 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `cbt-eschool.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `db/cbt_db.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/cbt-eschool` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (gludugbanyu/cbt-eschool) dengan source code lengkap",
-        "Disertai database asli (db/cbt_db.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
+      "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=cbt-eschool&step=1&max=8",
-      "downloadUrlFast": "/downloads/cbt-eschool.zip",
-      "driveUrl": "https://drive.google.com/file/d/1GI1N14alZ5Ehb2bCk3xdN8HXqanYsWqI/view?usp=drivesdk",
-      "githubRepo": "https://github.com/gludugbanyu/cbt-eschool",
-      "stars": 34
+      "downloadUrlFast": "/downloads/cbt-eschool.zip"
     },
     {
       "id": "sc-2",
@@ -188,51 +89,17 @@
       ],
       "description": "SIMANIS merupakan Sistem Informasi Manajemen Absensi dan NIlai Siswa. Aplikasi ini digunakan untuk memasukkan absensi dan nilai ulangan bagi tiap siswa di sekolah.\n\nProyek riil open-source asli dari GitHub (https://github.com/abosmond/simanis). Dilengkapi file database lengkap (simanis.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
       "shortDesc": "Proyek riil Sistem Informasi Akademik & Kesiswaan - Simanis dengan database simanis.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/simanis/screenshot_1.webp",
-        "/screenshots/simanis/screenshot_2.webp",
-        "/screenshots/simanis/screenshot_3.webp",
-        "/screenshots/simanis/screenshot_4.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Administrator",
-          "username": "admin / admin@gmail.com",
-          "password": "admin / admin123"
-        }
-      ],
-      "updatedAt": "14 November 2026",
-      "releaseDate": "14 November 2026",
-      "recentFastDownloads": 45,
       "thumbnail": "/screenshots/simanis/screenshot_1.webp",
-      "downloadsCount": 916,
+      "image": "/screenshots/simanis/screenshot_1.webp",
+      "downloadsCount": 555,
       "rating": 4.95,
       "isPopular": true,
       "isFree": true,
       "hasDatabase": true,
       "databaseType": "MySQL (.sql)",
-      "fileSize": "994 KB",
-      "tutorialSteps": [
-        "Ekstrak berkas `simanis.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `simanis.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/simanis` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (abosmond/simanis) dengan source code lengkap",
-        "Disertai database asli (simanis.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
+      "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=simanis&step=1&max=8",
-      "downloadUrlFast": "/downloads/simanis.zip",
-      "driveUrl": "https://drive.google.com/file/d/1AP9GCCl3-HVa6ahh_GvJPoQk2PckO9I5/view?usp=drivesdk",
-      "githubRepo": "https://github.com/abosmond/simanis",
-      "stars": 47
+      "downloadUrlFast": "/downloads/simanis.zip"
     }
-  ],
-  "driveFolderUrl": "https://drive.google.com/drive/folders/1HTUnGXUzyYiHK7qdQCyEmIt3wUEgk-fe"
+  ]
 }
