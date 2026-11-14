@@ -1,7 +1,32 @@
 {
-  "updatedAt": "14 Nov 2026, 04:36 WIB",
-  "total": 7,
+  "updatedAt": "14 Nov 2026, 11:56 WIB",
+  "total": 8,
   "items": [
+    {
+      "id": "sc-26",
+      "title": "Portal Penggajian Karyawan & Slip Gaji PDF Otomatis",
+      "slug": "portal-penggajian-slip-gaji-pdf",
+      "category": "Python & Flask",
+      "techStack": [
+        "Python 3.12",
+        "Flask",
+        "SQLite",
+        "ReportLab PDF"
+      ],
+      "description": "Sistem payroll otomatis dengan kalkulasi BPJS, PPh 21, lembur, absensi, dan pengiriman berkas slip gaji PDF ber-password ke email masing-masing karyawan.",
+      "shortDesc": "Aplikasi payroll dan penggajian karyawan otomatis dengan perhitungan pajak PPh 21 dan generate slip gaji PDF terenkripsi.",
+      "thumbnail": "/banners/gemini/sc_portal_penggajian_slip_ga.webp",
+      "image": "/banners/gemini/sc_portal_penggajian_slip_ga.webp",
+      "downloadsCount": 450,
+      "rating": 4.96,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "SQLite / MySQL",
+      "fileSize": "16.4 MB",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
     {
       "id": "sc-7",
       "title": "Sistem Informasi Manajemen Sekolah - Sisfoka",
@@ -14,50 +39,17 @@
       ],
       "description": "[UNMAINTAINED] Aplikasi berbasis website untuk sistem informasi sekolah dan portal akademik siswa dan guru\n\nProyek riil open-source asli dari GitHub (https://github.com/erwindosianipar/sisfoka). Dilengkapi file database lengkap (u492825399_smk.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
       "shortDesc": "Proyek riil Sistem Informasi Manajemen Sekolah - Sisfoka dengan database u492825399_smk.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/sisfoka/screenshot_1.webp",
-        "/screenshots/sisfoka/screenshot_2.webp",
-        "/screenshots/sisfoka/screenshot_3.webp",
-        "/screenshots/sisfoka/screenshot_4.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Administrator",
-          "username": "admin / admin@gmail.com",
-          "password": "admin / admin123"
-        }
-      ],
-      "updatedAt": "14 November 2026",
-      "releaseDate": "14 November 2026",
-      "recentFastDownloads": 45,
       "thumbnail": "/screenshots/sisfoka/screenshot_1.webp",
-      "downloadsCount": 913,
+      "image": "/screenshots/sisfoka/screenshot_1.webp",
+      "downloadsCount": 485,
       "rating": 4.95,
       "isPopular": true,
       "isFree": true,
       "hasDatabase": true,
       "databaseType": "MySQL (.sql)",
-      "fileSize": "28.5 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `sisfoka.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `u492825399_smk.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/sisfoka` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (erwindosianipar/sisfoka) dengan source code lengkap",
-        "Disertai database asli (u492825399_smk.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
+      "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=sisfoka&step=1&max=8",
-      "downloadUrlFast": "/downloads/sisfoka.zip",
-      "driveUrl": "https://drive.google.com/file/d/1ZB2pxCMvaZqd9GONclLSocfSFH5c0CkH/view?usp=drivesdk",
-      "githubRepo": "https://github.com/erwindosianipar/sisfoka",
-      "stars": 23
+      "downloadUrlFast": "/downloads/sisfoka.zip"
     },
     {
       "id": "sc-25",
@@ -74,7 +66,7 @@
       "shortDesc": "Sistem manajemen bengkel motor dengan riwayat servis, inventaris sparepart, dan reminder ganti oli otomatis.",
       "thumbnail": "/banners/gemini/sc_kasir_bengkel_motor_servi.webp",
       "image": "/banners/gemini/sc_kasir_bengkel_motor_servi.webp",
-      "downloadsCount": 450,
+      "downloadsCount": 520,
       "rating": 4.92,
       "isPopular": true,
       "isFree": true,
@@ -99,7 +91,7 @@
       "shortDesc": "Proyek riil Aplikasi Kasir POS & Manajemen Penjualan - Sim Pos Ci dengan database app/ThirdParty/php-sql-parser/tests/expected/creator/alter.sql, data contoh bawaan, dan tutorial instalasi.",
       "thumbnail": "/screenshots/sim-pos-ci/screenshot_1.webp",
       "image": "/screenshots/sim-pos-ci/screenshot_1.webp",
-      "downloadsCount": 485,
+      "downloadsCount": 555,
       "rating": 4.95,
       "isPopular": true,
       "isFree": true,
@@ -124,7 +116,7 @@
       "shortDesc": "Aplikasi kasir laundry kiloan & satuan lengkap dengan nota WhatsApp otomatis dan pelacakan status cucian.",
       "thumbnail": "/banners/gemini/sc_manajemen_laundry_kiloan_.webp",
       "image": "/banners/gemini/sc_manajemen_laundry_kiloan_.webp",
-      "downloadsCount": 520,
+      "downloadsCount": 590,
       "rating": 4.95,
       "isPopular": true,
       "isFree": true,
@@ -149,7 +141,7 @@
       "shortDesc": "Proyek riil Aplikasi Kasir POS & Manajemen Penjualan - Kasirv1 dengan database database/kasirdb.sql, data contoh bawaan, dan tutorial instalasi.",
       "thumbnail": "/screenshots/kasirv1/screenshot_1.webp",
       "image": "/screenshots/kasirv1/screenshot_1.webp",
-      "downloadsCount": 555,
+      "downloadsCount": 625,
       "rating": 4.95,
       "isPopular": true,
       "isFree": true,
@@ -174,9 +166,9 @@
       "shortDesc": "Proyek riil Sistem Informasi Manajemen Sekolah - Cbt Eschool dengan database db/cbt_db.sql, data contoh bawaan, dan tutorial instalasi.",
       "thumbnail": "/screenshots/cbt-eschool/screenshot_1.webp",
       "image": "/screenshots/cbt-eschool/screenshot_1.webp",
-      "downloadsCount": 590,
+      "downloadsCount": 660,
       "rating": 4.95,
-      "isPopular": true,
+      "isPopular": false,
       "isFree": true,
       "hasDatabase": true,
       "databaseType": "MySQL (.sql)",
@@ -198,9 +190,9 @@
       "shortDesc": "Proyek riil Sistem Informasi Akademik & Kesiswaan - Simanis dengan database simanis.sql, data contoh bawaan, dan tutorial instalasi.",
       "thumbnail": "/screenshots/simanis/screenshot_1.webp",
       "image": "/screenshots/simanis/screenshot_1.webp",
-      "downloadsCount": 625,
+      "downloadsCount": 695,
       "rating": 4.95,
-      "isPopular": true,
+      "isPopular": false,
       "isFree": true,
       "hasDatabase": true,
       "databaseType": "MySQL (.sql)",
@@ -208,6 +200,5 @@
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=simanis&step=1&max=8",
       "downloadUrlFast": "/downloads/simanis.zip"
     }
-  ],
-  "driveFolderUrl": "https://drive.google.com/drive/folders/1HTUnGXUzyYiHK7qdQCyEmIt3wUEgk-fe"
+  ]
 }
