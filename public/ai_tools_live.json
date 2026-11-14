@@ -1,6 +1,6 @@
 {
-  "updatedAt": "14 Nov 2026, 06:47 WIB",
-  "total": 369,
+  "updatedAt": "14 Nov 2026, 07:17 WIB",
+  "total": 370,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-lispa",
+      "name": "Lispa",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "Lispa - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "Cloud AI coding agents for GitHub and GitLab repos.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/lispa.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://lispa.ai"
     },
     {
       "id": "ai-ideapulley",
