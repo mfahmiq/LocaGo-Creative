@@ -1,7 +1,64 @@
 {
-  "updatedAt": "14 Nov 2026, 17:57 WIB",
-  "total": 31,
+  "updatedAt": "14 Nov 2026, 18:13 WIB",
+  "total": 32,
   "items": [
+    {
+      "id": "sc-42",
+      "title": "Toko Online E-Commerce Siap Pakai - Aplikasiecommercebarangelektronik",
+      "slug": "aplikasiecommercebarangelektronik",
+      "category": "Toko Online & E-Commerce",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL"
+      ],
+      "description": "Aplikasi E-Commerce Penjualan Barang Elektronik (PHP, MySQL, CMS Toko Lokomedia) dari \n\nProyek riil open-source asli dari GitHub (https://github.com/tob47/AplikasiECommerceBarangElektronik). Dilengkapi file database lengkap (dbelektronik.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Toko Online E-Commerce Siap Pakai - Aplikasiecommercebarangelektronik dengan database dbelektronik.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/aplikasiecommercebarangelektronik/screenshot_1.webp",
+        "/screenshots/aplikasiecommercebarangelektronik/screenshot_2.webp",
+        "/screenshots/aplikasiecommercebarangelektronik/screenshot_3.webp",
+        "/screenshots/aplikasiecommercebarangelektronik/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "14 November 2026",
+      "releaseDate": "14 November 2026",
+      "recentFastDownloads": 65,
+      "thumbnail": "/screenshots/aplikasiecommercebarangelektronik/screenshot_1.webp",
+      "downloadsCount": 458,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "3.3 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `aplikasiecommercebarangelektronik.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `dbelektronik.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/aplikasiecommercebarangelektronik` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (tob47/AplikasiECommerceBarangElektronik) dengan source code lengkap",
+        "Disertai database asli (dbelektronik.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=aplikasiecommercebarangelektronik&step=1&max=8",
+      "downloadUrlFast": "/downloads/aplikasiecommercebarangelektronik.zip",
+      "driveUrl": "https://drive.google.com/file/d/11OcDx9f4OrXT9E-7ifKokZozDUtzj2Ie/view?usp=drivesdk",
+      "githubRepo": "https://github.com/tob47/AplikasiECommerceBarangElektronik",
+      "stars": 8
+    },
     {
       "id": "sc-41",
       "title": "Aplikasi Manajemen Apotek & Obat - Peramalan Penjualan",
