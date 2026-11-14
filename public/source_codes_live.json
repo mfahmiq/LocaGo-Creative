@@ -1,7 +1,32 @@
 {
-  "updatedAt": "14 Nov 2026, 04:11 WIB",
-  "total": 5,
+  "updatedAt": "14 Nov 2026, 11:26 WIB",
+  "total": 6,
   "items": [
+    {
+      "id": "sc-25",
+      "title": "Aplikasi Kasir Bengkel Motor & Servis Kendaraan",
+      "slug": "kasir-bengkel-motor-servis",
+      "category": "React & Node.js",
+      "techStack": [
+        "React 19",
+        "Express.js",
+        "PostgreSQL",
+        "TailwindCSS"
+      ],
+      "description": "Aplikasi pencatatan servis motor, riwayat kilometer kendaraan, stok suku cadang, dan reminder ganti oli otomatis ke nomor WhatsApp pelanggan.",
+      "shortDesc": "Sistem manajemen bengkel motor dengan riwayat servis, inventaris sparepart, dan reminder ganti oli otomatis.",
+      "thumbnail": "/banners/gemini/sc_kasir_bengkel_motor_servi.webp",
+      "image": "/banners/gemini/sc_kasir_bengkel_motor_servi.webp",
+      "downloadsCount": 450,
+      "rating": 4.92,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "PostgreSQL (.sql)",
+      "fileSize": "16.4 MB",
+      "downloadUrlFree": "https://www.dwollopus.eu.org",
+      "downloadUrlFast": "https://lynk.id/dwollopus"
+    },
     {
       "id": "sc-5",
       "title": "Aplikasi Kasir POS & Manajemen Penjualan - Sim Pos Ci",
@@ -15,50 +40,17 @@
       ],
       "description": "Point of Sales(POS) adalah suatu sistem yang digunakan oleh berbagai macam usaha ritel untuk menyelesaikan transaksi jual beli. Merupakan versi modern dari mesin kasir konvensional/cash register yang biasanya sudah dilengkapi dengan cash drawer. Aplikasi ini dikembangkan dengan menggunakan Codeigniter 4. Aplikasi ini merupakan versi beta dan terus mengalami pengembangan\n\nProyek riil open-source asli dari GitHub (https://github.com/deyan-ardi/sim-pos-ci). Dilengkapi file database lengkap (app/ThirdParty/php-sql-parser/tests/expected/creator/alter.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
       "shortDesc": "Proyek riil Aplikasi Kasir POS & Manajemen Penjualan - Sim Pos Ci dengan database app/ThirdParty/php-sql-parser/tests/expected/creator/alter.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/sim-pos-ci/screenshot_1.webp",
-        "/screenshots/sim-pos-ci/screenshot_2.webp",
-        "/screenshots/sim-pos-ci/screenshot_3.webp",
-        "/screenshots/sim-pos-ci/screenshot_4.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Administrator",
-          "username": "admin / admin@gmail.com",
-          "password": "admin / admin123"
-        }
-      ],
-      "updatedAt": "14 November 2026",
-      "releaseDate": "14 November 2026",
-      "recentFastDownloads": 73,
       "thumbnail": "/screenshots/sim-pos-ci/screenshot_1.webp",
-      "downloadsCount": 1093,
+      "image": "/screenshots/sim-pos-ci/screenshot_1.webp",
+      "downloadsCount": 485,
       "rating": 4.95,
       "isPopular": true,
       "isFree": true,
       "hasDatabase": true,
       "databaseType": "MySQL (.sql)",
-      "fileSize": "22.9 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `sim-pos-ci.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `app/ThirdParty/php-sql-parser/tests/expected/creator/alter.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/sim-pos-ci` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (deyan-ardi/sim-pos-ci) dengan source code lengkap",
-        "Disertai database asli (app/ThirdParty/php-sql-parser/tests/expected/creator/alter.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
+      "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=sim-pos-ci&step=1&max=8",
-      "downloadUrlFast": "/downloads/sim-pos-ci.zip",
-      "driveUrl": "https://drive.google.com/file/d/146ByseJ6vl7uHq6pOLTk85OGJU0sGXzv/view?usp=drivesdk",
-      "githubRepo": "https://github.com/deyan-ardi/sim-pos-ci",
-      "stars": 32
+      "downloadUrlFast": "/downloads/sim-pos-ci.zip"
     },
     {
       "id": "sc-24",
@@ -75,7 +67,7 @@
       "shortDesc": "Aplikasi kasir laundry kiloan & satuan lengkap dengan nota WhatsApp otomatis dan pelacakan status cucian.",
       "thumbnail": "/banners/gemini/sc_manajemen_laundry_kiloan_.webp",
       "image": "/banners/gemini/sc_manajemen_laundry_kiloan_.webp",
-      "downloadsCount": 450,
+      "downloadsCount": 520,
       "rating": 4.95,
       "isPopular": true,
       "isFree": true,
@@ -100,7 +92,7 @@
       "shortDesc": "Proyek riil Aplikasi Kasir POS & Manajemen Penjualan - Kasirv1 dengan database database/kasirdb.sql, data contoh bawaan, dan tutorial instalasi.",
       "thumbnail": "/screenshots/kasirv1/screenshot_1.webp",
       "image": "/screenshots/kasirv1/screenshot_1.webp",
-      "downloadsCount": 485,
+      "downloadsCount": 555,
       "rating": 4.95,
       "isPopular": true,
       "isFree": true,
@@ -125,7 +117,7 @@
       "shortDesc": "Proyek riil Sistem Informasi Manajemen Sekolah - Cbt Eschool dengan database db/cbt_db.sql, data contoh bawaan, dan tutorial instalasi.",
       "thumbnail": "/screenshots/cbt-eschool/screenshot_1.webp",
       "image": "/screenshots/cbt-eschool/screenshot_1.webp",
-      "downloadsCount": 520,
+      "downloadsCount": 590,
       "rating": 4.95,
       "isPopular": true,
       "isFree": true,
@@ -149,7 +141,7 @@
       "shortDesc": "Proyek riil Sistem Informasi Akademik & Kesiswaan - Simanis dengan database simanis.sql, data contoh bawaan, dan tutorial instalasi.",
       "thumbnail": "/screenshots/simanis/screenshot_1.webp",
       "image": "/screenshots/simanis/screenshot_1.webp",
-      "downloadsCount": 555,
+      "downloadsCount": 625,
       "rating": 4.95,
       "isPopular": true,
       "isFree": true,
@@ -159,6 +151,5 @@
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=simanis&step=1&max=8",
       "downloadUrlFast": "/downloads/simanis.zip"
     }
-  ],
-  "driveFolderUrl": "https://drive.google.com/drive/folders/1HTUnGXUzyYiHK7qdQCyEmIt3wUEgk-fe"
+  ]
 }
