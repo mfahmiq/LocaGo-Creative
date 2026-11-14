@@ -1,64 +1,7 @@
 {
-  "updatedAt": "14 Nov 2026, 12:49 WIB",
-  "total": 24,
+  "updatedAt": "14 Nov 2026, 19:51 WIB",
+  "total": 23,
   "items": [
-    {
-      "id": "sc-24",
-      "title": "Sistem Pendukung Keputusan (SPK) - Analytic Hierarchy Process",
-      "slug": "analytic-hierarchy-process",
-      "category": "Kecerdasan Buatan & SPK",
-      "techStack": [
-        "PHP Native",
-        "PHP",
-        "MySQL"
-      ],
-      "description": "Sistem Pendukung Keputusan dengan metode AHP\n\nProyek riil open-source asli dari GitHub (https://github.com/ariefansori/analytic-hierarchy-process). Dilengkapi file database lengkap (database/database.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Sistem Pendukung Keputusan (SPK) - Analytic Hierarchy Process dengan database database/database.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/analytic-hierarchy-process/screenshot_1.webp",
-        "/screenshots/analytic-hierarchy-process/screenshot_2.webp",
-        "/screenshots/analytic-hierarchy-process/screenshot_3.webp",
-        "/screenshots/analytic-hierarchy-process/screenshot_4.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Administrator",
-          "username": "admin / admin@gmail.com",
-          "password": "admin / admin123"
-        }
-      ],
-      "updatedAt": "14 November 2026",
-      "releaseDate": "14 November 2026",
-      "recentFastDownloads": 78,
-      "thumbnail": "/screenshots/analytic-hierarchy-process/screenshot_1.webp",
-      "downloadsCount": 954,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "1.9 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `analytic-hierarchy-process.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `database/database.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/analytic-hierarchy-process` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (ariefansori/analytic-hierarchy-process) dengan source code lengkap",
-        "Disertai database asli (database/database.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=analytic-hierarchy-process&step=1&max=8",
-      "downloadUrlFast": "/downloads/analytic-hierarchy-process.zip",
-      "driveUrl": "https://drive.google.com/file/d/1cMdvLGaoCEtR9elputaHyRWR6-_8KQUt/view?usp=drivesdk",
-      "githubRepo": "https://github.com/ariefansori/analytic-hierarchy-process",
-      "stars": 34
-    },
     {
       "id": "sc-24",
       "title": "Sistem Informasi Manajemen Laundry Kiloan & Satuan",
@@ -628,6 +571,5 @@
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=simanis&step=1&max=8",
       "downloadUrlFast": "/downloads/simanis.zip"
     }
-  ],
-  "driveFolderUrl": "https://drive.google.com/drive/folders/1HTUnGXUzyYiHK7qdQCyEmIt3wUEgk-fe"
+  ]
 }
