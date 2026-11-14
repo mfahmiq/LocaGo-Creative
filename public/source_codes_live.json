@@ -1,7 +1,64 @@
 {
-  "updatedAt": "14 Nov 2026, 15:03 WIB",
-  "total": 20,
+  "updatedAt": "14 Nov 2026, 08:11 WIB",
+  "total": 21,
   "items": [
+    {
+      "id": "sc-21",
+      "title": "Pharmacy Store Management System - Pharmacy Management System",
+      "slug": "pharmacy-management-system",
+      "category": "Kesehatan & Medis",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL"
+      ],
+      "description": "A web-based application implemented using PHP, MySQL, HTML5, CSS3 and JavaScript.\n\nProyek riil open-source asli dari GitHub (https://github.com/Varshini-E/Pharmacy-Management-System). Dilengkapi file database lengkap (pharmacy.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Pharmacy Store Management System - Pharmacy Management System dengan database pharmacy.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/pharmacy-management-system/screenshot_1.webp",
+        "/screenshots/pharmacy-management-system/screenshot_2.webp",
+        "/screenshots/pharmacy-management-system/screenshot_3.webp",
+        "/screenshots/pharmacy-management-system/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "14 November 2026",
+      "releaseDate": "14 November 2026",
+      "recentFastDownloads": 80,
+      "thumbnail": "/screenshots/pharmacy-management-system/screenshot_1.webp",
+      "downloadsCount": 1151,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "7.2 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `pharmacy-management-system.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `pharmacy.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/pharmacy-management-system` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (Varshini-E/Pharmacy-Management-System) dengan source code lengkap",
+        "Disertai database asli (pharmacy.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=pharmacy-management-system&step=1&max=8",
+      "downloadUrlFast": "/downloads/pharmacy-management-system.zip",
+      "driveUrl": "https://drive.google.com/file/d/1GBR6DKzuU9iklP5rkPH9Yb5E2-_NvuW3/view?usp=drivesdk",
+      "githubRepo": "https://github.com/Varshini-E/Pharmacy-Management-System",
+      "stars": 62
+    },
     {
       "id": "sc-32",
       "title": "Sistem Manajemen Inventaris & Aset Kantor",
@@ -498,5 +555,6 @@
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=simanis&step=1&max=8",
       "downloadUrlFast": "/downloads/simanis.zip"
     }
-  ]
+  ],
+  "driveFolderUrl": "https://drive.google.com/drive/folders/1HTUnGXUzyYiHK7qdQCyEmIt3wUEgk-fe"
 }
