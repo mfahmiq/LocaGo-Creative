@@ -1,6 +1,6 @@
 {
-  "updatedAt": "14 Nov 2026, 23:26 WIB",
-  "total": 402,
+  "updatedAt": "14 Nov 2026, 23:56 WIB",
+  "total": 403,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-onesky",
+      "name": "OneSky",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "OneSky - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool for multilingual content localization.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/onesky.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.onesky.ai"
     },
     {
       "id": "ai-scipubplus",
