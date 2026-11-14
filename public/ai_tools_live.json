@@ -1,6 +1,6 @@
 {
-  "updatedAt": "14 Nov 2026, 11:48 WIB",
-  "total": 379,
+  "updatedAt": "14 Nov 2026, 12:18 WIB",
+  "total": 380,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-storybee",
+      "name": "StoryBee",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "StoryBee - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A platform to create custom stories for kids.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/storybee.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://storybee.app"
     },
     {
       "id": "ai-fliz",
