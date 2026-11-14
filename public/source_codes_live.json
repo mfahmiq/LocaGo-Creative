@@ -1,6 +1,6 @@
 {
-  "updatedAt": "14 Nov 2026, 00:10 WIB",
-  "total": 170,
+  "updatedAt": "14 Nov 2026, 00:32 WIB",
+  "total": 171,
   "items": [
     {
       "id": "sc-00",
@@ -65,6 +65,66 @@
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=locago-open-source-super-vault-100-tools-prompts&step=1&max=8",
       "downloadUrlFast": "/downloads/locago-open-source-super-vault-100-tools-prompts.zip",
       "driveUrl": "https://drive.google.com/file/d/10t-RvdDrJA5NF0a9qRkj5gE_VAVorl9J/view?usp=drivesdk"
+    },
+    {
+      "id": "sc-171",
+      "title": "Aplikasi Smartschoolmanagementsystem Modern & Full Database",
+      "slug": "smartschoolmanagementsystem",
+      "category": "PHP & Laravel",
+      "techStack": [
+        "PHP 8.2",
+        "Bootstrap 5",
+        "MySQL"
+      ],
+      "description": "Aplikasi web SmartSchoolManagementSystem siap pakai. Semua alur operasional tercatat rapi dalam satu dashboard terpadu: mulai dari input transaksi, validasi otomatis, hingga rekapitulasi laporan bulanan siap cetak maupun ekspor CSV/Excel.\n\nDilengkapi skema database (MySQL (.sql)) lengkap dengan data contoh realistis.",
+      "shortDesc": "Aplikasi Aplikasi Smartschoolmanagementsystem Modern & Full Database dengan database MySQL (.sql), data contoh, dan tutorial instalasi lengkap.",
+      "howItWorks": "Data utama tersimpan di MySQL (.sql) dengan struktur relasional yang ternormalisasi: tabel pengguna, log transaksi, serta pengaturan sistem. Aplikasi dibangun dengan PHP 8.2, Bootstrap 5, MySQL dan proteksi keamanan berlapis.",
+      "requirements": "PHP 8.2+ / Node.js / Python, Web Server Lokal (XAMPP / Laragon).",
+      "screenshots": [
+        "/screenshots/smartschoolmanagementsystem/screenshot_1.webp",
+        "/screenshots/smartschoolmanagementsystem/screenshot_2.webp",
+        "/screenshots/smartschoolmanagementsystem/screenshot_3.webp",
+        "/screenshots/smartschoolmanagementsystem/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Admin / Owner",
+          "username": "admin@locago.my.id",
+          "password": "password123"
+        },
+        {
+          "role": "Operator / Staf",
+          "username": "operator@locago.my.id",
+          "password": "password123"
+        }
+      ],
+      "updatedAt": "14 November 2026",
+      "releaseDate": "14 November 2026",
+      "recentFastDownloads": 43,
+      "thumbnail": "/screenshots/smartschoolmanagementsystem/screenshot_1.webp",
+      "downloadsCount": 516,
+      "rating": 4.9,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "26.4 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `smartschoolmanagementsystem.zip` ke web server lokal Anda.",
+        "Import berkas `database.sql` ke database Anda.",
+        "Konfigurasi koneksi database di file konfigurasi.",
+        "Buka di browser dan login menggunakan akun admin default."
+      ],
+      "keyFeatures": [
+        "Dashboard utama: ringkasan metrik harian dan grafik tren real-time",
+        "Manajemen data master lengkap dengan pencarian instan dan filter",
+        "Hak akses multi-role (Admin dan Operator) terpisah aman",
+        "Cetak nota / invoice PDF dan ekspor laporan ke CSV",
+        "Skema database MySQL (.sql) lengkap data contoh simulasi"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=smartschoolmanagementsystem&step=1&max=8",
+      "downloadUrlFast": "/downloads/smartschoolmanagementsystem.zip",
+      "driveUrl": "https://drive.google.com/file/d/1yN6O-T71fZxBwtQDquIY5zn3vRDlSuMB/view?usp=drivesdk"
     },
     {
       "id": "sc-170",
