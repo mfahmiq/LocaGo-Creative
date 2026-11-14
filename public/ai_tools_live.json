@@ -1,6 +1,6 @@
 {
-  "updatedAt": "14 Nov 2026, 09:17 WIB",
-  "total": 374,
+  "updatedAt": "14 Nov 2026, 09:48 WIB",
+  "total": 375,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-decksy-ai",
+      "name": "Decksy AI",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Decksy AI - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "AI tool that turns prompts or documents into slide decks.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/decksy-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://decksyai.com"
     },
     {
       "id": "ai-rea",
