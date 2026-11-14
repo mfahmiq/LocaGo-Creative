@@ -1,6 +1,6 @@
 {
-  "updatedAt": "14 Nov 2026, 10:48 WIB",
-  "total": 377,
+  "updatedAt": "14 Nov 2026, 11:18 WIB",
+  "total": 378,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-empaithy",
+      "name": "Empaithy",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Empaithy - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "An app for emotional support and self-reflection through micro-journaling.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/empaithy.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.empaithy.com"
     },
     {
       "id": "ai-vubli",
