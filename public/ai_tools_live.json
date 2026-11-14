@@ -1,6 +1,6 @@
 {
-  "updatedAt": "14 Nov 2026, 12:48 WIB",
-  "total": 381,
+  "updatedAt": "14 Nov 2026, 13:19 WIB",
+  "total": 382,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-rafa",
+      "name": "RAFA",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "RAFA - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to automate investment monitoring markets.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/rafa.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://rafa.ai"
     },
     {
       "id": "ai-quizrise",
