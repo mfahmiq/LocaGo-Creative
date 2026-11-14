@@ -1,6 +1,6 @@
 {
-  "updatedAt": "14 Nov 2026, 21:56 WIB",
-  "total": 399,
+  "updatedAt": "14 Nov 2026, 22:26 WIB",
+  "total": 400,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-folk-crm",
+      "name": "Folk CRM",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Folk CRM - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to manage contacts, sales, and automate email campaigns.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/folk-crm.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.folk.app"
     },
     {
       "id": "ai-venturekit",
