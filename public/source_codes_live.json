@@ -1,7 +1,64 @@
 {
-  "updatedAt": "14 Nov 2026, 18:58 WIB",
-  "total": 33,
+  "updatedAt": "14 Nov 2026, 19:13 WIB",
+  "total": 34,
   "items": [
+    {
+      "id": "sc-44",
+      "title": "Sistem Informasi Manajemen Rumah Sakit - Modul Antrian Pasien",
+      "slug": "modul-antrian-pasien",
+      "category": "Kesehatan & Medis",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL"
+      ],
+      "description": "Sistem Informasi Antrian Rumah Sakit\n\nProyek riil open-source asli dari GitHub (https://github.com/arditriheru/Modul-Antrian-Pasien). Dilengkapi file database lengkap (db/dbsimetris.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Informasi Manajemen Rumah Sakit - Modul Antrian Pasien dengan database db/dbsimetris.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/modul-antrian-pasien/screenshot_1.webp",
+        "/screenshots/modul-antrian-pasien/screenshot_2.webp",
+        "/screenshots/modul-antrian-pasien/screenshot_3.webp",
+        "/screenshots/modul-antrian-pasien/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "14 November 2026",
+      "releaseDate": "14 November 2026",
+      "recentFastDownloads": 76,
+      "thumbnail": "/screenshots/modul-antrian-pasien/screenshot_1.webp",
+      "downloadsCount": 536,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "1.4 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `modul-antrian-pasien.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `db/dbsimetris.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/modul-antrian-pasien` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (arditriheru/Modul-Antrian-Pasien) dengan source code lengkap",
+        "Disertai database asli (db/dbsimetris.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=modul-antrian-pasien&step=1&max=8",
+      "downloadUrlFast": "/downloads/modul-antrian-pasien.zip",
+      "driveUrl": "https://drive.google.com/file/d/1pRq-ELj-l1CLdZg8HerPcBuQ7AkS0kRh/view?usp=drivesdk",
+      "githubRepo": "https://github.com/arditriheru/Modul-Antrian-Pasien",
+      "stars": 6
+    },
     {
       "id": "sc-43",
       "title": "Aplikasi Manajemen Apotek & Obat - Aplikasiapotek",
