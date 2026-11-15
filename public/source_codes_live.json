@@ -1,7 +1,65 @@
 {
-  "updatedAt": "15 Nov 2026, 14:21 WIB",
-  "total": 70,
+  "updatedAt": "15 Nov 2026, 15:16 WIB",
+  "total": 71,
   "items": [
+    {
+      "id": "sc-81",
+      "title": "Sistem Pakar Diagnosa - Sistempakar Diagnosapenyakitjagung",
+      "slug": "sistempakar-diagnosapenyakitjagung",
+      "category": "Kecerdasan Buatan & SPK",
+      "techStack": [
+        "CodeIgniter",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Repository ini merupakan karya ketiga saya dalam membuat aplikasi berbasis web menggunakan framework Codeigniter, karya ini saya beri nama SistemPakar_DiagnosaPenyakitJagung merupakan Sistem Pakar yang saya buat dengan gabungan metode Forward Chaining dan Certainty Factor untuk untuk mendiagnosa penyakit pada tanaman jagung. Perancangan sistem ini menggunakan metode OOP dengan Pattern MVC menggunakan bahasa pemrograman PHP Codeigniter dan DBMS MySql.\n\nProyek riil open-source asli dari GitHub (https://github.com/a3tech/SistemPakar_DiagnosaPenyakitJagung). Dilengkapi file database lengkap (Database/sp_jagung.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Pakar Diagnosa - Sistempakar Diagnosapenyakitjagung dengan database Database/sp_jagung.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/sistempakar-diagnosapenyakitjagung/screenshot_1.webp",
+        "/screenshots/sistempakar-diagnosapenyakitjagung/screenshot_2.webp",
+        "/screenshots/sistempakar-diagnosapenyakitjagung/screenshot_3.webp",
+        "/screenshots/sistempakar-diagnosapenyakitjagung/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "15 November 2026",
+      "releaseDate": "15 November 2026",
+      "recentFastDownloads": 84,
+      "thumbnail": "/screenshots/sistempakar-diagnosapenyakitjagung/screenshot_1.webp",
+      "downloadsCount": 458,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "36.6 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `sistempakar-diagnosapenyakitjagung.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `Database/sp_jagung.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/sistempakar-diagnosapenyakitjagung` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (a3tech/SistemPakar_DiagnosaPenyakitJagung) dengan source code lengkap",
+        "Disertai database asli (Database/sp_jagung.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=sistempakar-diagnosapenyakitjagung&step=1&max=8",
+      "downloadUrlFast": "/downloads/sistempakar-diagnosapenyakitjagung.zip",
+      "driveUrl": "https://drive.google.com/file/d/1quEHh3724d50LBFWAu31stp3QBWvOx06/view?usp=drivesdk",
+      "githubRepo": "https://github.com/a3tech/SistemPakar_DiagnosaPenyakitJagung",
+      "stars": 16
+    },
     {
       "id": "sc-80",
       "title": "Aplikasi Penggajian Karyawan & Payroll - Aplpenggajian",
