@@ -1,6 +1,6 @@
 {
-  "updatedAt": "15 Nov 2026, 22:01 WIB",
-  "total": 447,
+  "updatedAt": "15 Nov 2026, 22:32 WIB",
+  "total": 448,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-nexos-ai",
+      "name": "nexos.ai",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "nexos.ai - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "An AI Orchestration Platform that centralizes access to multiple language models, routes queries and optimizes costs.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/nexos-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://nexos.ai"
     },
     {
       "id": "ai-featureshark",
