@@ -1,7 +1,65 @@
 {
-  "updatedAt": "15 Nov 2026, 20:28 WIB",
-  "total": 81,
+  "updatedAt": "15 Nov 2026, 21:16 WIB",
+  "total": 82,
   "items": [
+    {
+      "id": "sc-92",
+      "title": "Comprehensive School Management System - School Management",
+      "slug": "school-management",
+      "category": "Pendidikan & Akademik",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Design by w3layouts and developed by Ravi Khadka  ---Fully 100% Dynamic with core PHP ---  ----School/college Management system------  Upgraded to fully compatible PHP 7.x Added Guardian Email in Student Profile -----Features Enhancement------ Added SMS / Email notifications for Student Admission, Fees Submission, Exam Results, Absent Student, User’s Login Credentials new professionally designed Colour Themes Added new improved Forgot Password mechanism Send messages to students, parent, and teachers through notice board. Note: Managing students and other resources are crucial for any school/college. Smart School helps you to manage everything in centralize way.... Kind regards, Ravi Khadka\n\nProyek riil open-source asli dari GitHub (https://github.com/meravi/school-management). Dilengkapi file database lengkap (project2.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Comprehensive School Management System - School Management dengan database project2.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/school-management/screenshot_1.webp",
+        "/screenshots/school-management/screenshot_2.webp",
+        "/screenshots/school-management/screenshot_3.webp",
+        "/screenshots/school-management/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "15 November 2026",
+      "releaseDate": "15 November 2026",
+      "recentFastDownloads": 45,
+      "thumbnail": "/screenshots/school-management/screenshot_1.webp",
+      "downloadsCount": 463,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "6.1 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `school-management.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `project2.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/school-management` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (meravi/school-management) dengan source code lengkap",
+        "Disertai database asli (project2.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=school-management&step=1&max=8",
+      "downloadUrlFast": "/downloads/school-management.zip",
+      "driveUrl": "https://drive.google.com/file/d/1VR18l4MtVLWZf_ol0PHPW12Rdy-7cu8x/view?usp=drivesdk",
+      "githubRepo": "https://github.com/meravi/school-management",
+      "stars": 59
+    },
     {
       "id": "sc-91",
       "title": "Sistem Informasi Perpustakaan - I Perpus",
