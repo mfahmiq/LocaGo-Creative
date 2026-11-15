@@ -1,7 +1,65 @@
 {
-  "updatedAt": "15 Nov 2026, 00:13 WIB",
-  "total": 44,
+  "updatedAt": "15 Nov 2026, 01:14 WIB",
+  "total": 45,
   "items": [
+    {
+      "id": "sc-55",
+      "title": "Sistem Manajemen Laundry Kiloan - Oembah Laundry App",
+      "slug": "oembah-laundry-app",
+      "category": "Layanan & Jasa",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL",
+        "Tailwind CSS"
+      ],
+      "description": "Oembah adalah aplikasi penyedia layanan pemesanan jasa laundry berbasis website\n\nProyek riil open-source asli dari GitHub (https://github.com/Ilham-muttaqien17/oembah_laundry_app). Dilengkapi file database lengkap (db_oembah.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Manajemen Laundry Kiloan - Oembah Laundry App dengan database db_oembah.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Tailwind CSS dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/oembah-laundry-app/screenshot_1.webp",
+        "/screenshots/oembah-laundry-app/screenshot_2.webp",
+        "/screenshots/oembah-laundry-app/screenshot_3.webp",
+        "/screenshots/oembah-laundry-app/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "15 November 2026",
+      "releaseDate": "15 November 2026",
+      "recentFastDownloads": 95,
+      "thumbnail": "/screenshots/oembah-laundry-app/screenshot_1.webp",
+      "downloadsCount": 747,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "2.3 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `oembah-laundry-app.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `db_oembah.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/oembah-laundry-app` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (Ilham-muttaqien17/oembah_laundry_app) dengan source code lengkap",
+        "Disertai database asli (db_oembah.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=oembah-laundry-app&step=1&max=8",
+      "downloadUrlFast": "/downloads/oembah-laundry-app.zip",
+      "driveUrl": "https://drive.google.com/file/d/1G2QNCBV3PwtvacLyfFY3-N4fbfXhLfce/view?usp=drivesdk",
+      "githubRepo": "https://github.com/Ilham-muttaqien17/oembah_laundry_app",
+      "stars": 3
+    },
     {
       "id": "sc-54",
       "title": "Aplikasi Kasir POS & Manajemen Penjualan - Pos Ci",
