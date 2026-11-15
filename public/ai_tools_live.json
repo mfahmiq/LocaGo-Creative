@@ -1,6 +1,6 @@
 {
-  "updatedAt": "16 Nov 2026, 01:32 WIB",
-  "total": 454,
+  "updatedAt": "16 Nov 2026, 02:03 WIB",
+  "total": 455,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-cookiy-ai",
+      "name": "Cookiy AI",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Cookiy AI - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "A tool for voice interviews that recruit participants, moderate conversations, transcribe and analyze responses, and insights.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/cookiy-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://cookiy.ai"
     },
     {
       "id": "ai-videomule",
