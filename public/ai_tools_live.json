@@ -1,6 +1,6 @@
 {
-  "updatedAt": "15 Nov 2026, 07:28 WIB",
-  "total": 418,
+  "updatedAt": "15 Nov 2026, 07:58 WIB",
+  "total": 419,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-pagelm",
+      "name": "PageLM",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "PageLM - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "An open-source version of Google&#x27;s NotebookLM.",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/pagelm.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://github.com/CaviraOSS/PageLM"
     },
     {
       "id": "ai-skulaunch",
