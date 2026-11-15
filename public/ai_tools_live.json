@@ -1,6 +1,6 @@
 {
-  "updatedAt": "15 Nov 2026, 23:32 WIB",
-  "total": 450,
+  "updatedAt": "16 Nov 2026, 00:02 WIB",
+  "total": 451,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-embedai",
+      "name": "EmbedAI",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "EmbedAI - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "A tool to add AI assistant for website support and search.",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/embedai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://embedai.dev"
     },
     {
       "id": "ai-archive",
