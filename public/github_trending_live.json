@@ -1,157 +1,7 @@
 {
-  "updatedAt": "15 Nov 2026, 20:15 WIB",
-  "total": 15,
+  "updatedAt": "15 Nov 2026, 21:15 WIB",
+  "total": 12,
   "items": [
-    {
-      "id": "gh-backnotprop-plannotator",
-      "name": "plannotator",
-      "owner": "backnotprop",
-      "repo": "backnotprop/plannotator",
-      "url": "https://github.com/backnotprop/plannotator",
-      "category": "AI Agents & LLM",
-      "language": "TypeScript",
-      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-      "oneSentencePitch": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-      "rank": 1,
-      "totalStars": "11.6k",
-      "starsToday": 860,
-      "starsGrowthText": "+860 stars today",
-      "growthRate": "+860 stars today",
-      "topics": [
-        "ai",
-        "typescript"
-      ],
-      "features": [
-        "Trending resmi #1 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +860 stars today",
-        "Ditulis menggunakan bahasa TypeScript"
-      ]
-    },
-    {
-      "id": "gh-googlechrome-modern-web-guidance-src",
-      "name": "modern-web-guidance-src",
-      "owner": "GoogleChrome",
-      "repo": "GoogleChrome/modern-web-guidance-src",
-      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "category": "AI Agents & LLM",
-      "language": "TypeScript",
-      "description": "Keep your coding agent up to date with the latest web best practices",
-      "oneSentencePitch": "Keep your coding agent up to date with the latest web best practices",
-      "rank": 2,
-      "totalStars": "6.7k",
-      "starsToday": 1220,
-      "starsGrowthText": "+1,220 stars today",
-      "growthRate": "+1,220 stars today",
-      "topics": [
-        "ai",
-        "typescript"
-      ],
-      "features": [
-        "Trending resmi #2 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +1,220 stars today",
-        "Ditulis menggunakan bahasa TypeScript"
-      ]
-    },
-    {
-      "id": "gh-tradermonty-claude-trading-skills",
-      "name": "claude-trading-skills",
-      "owner": "tradermonty",
-      "repo": "tradermonty/claude-trading-skills",
-      "url": "https://github.com/tradermonty/claude-trading-skills",
-      "category": "AI Agents & LLM",
-      "language": "Python",
-      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
-      "oneSentencePitch": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
-      "rank": 3,
-      "totalStars": "5.2k",
-      "starsToday": 707,
-      "starsGrowthText": "+707 stars today",
-      "growthRate": "+707 stars today",
-      "topics": [
-        "ai",
-        "python"
-      ],
-      "features": [
-        "Trending resmi #3 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +707 stars today",
-        "Ditulis menggunakan bahasa Python"
-      ]
-    },
-    {
-      "id": "gh-chromedevtools-chrome-devtools-mcp",
-      "name": "chrome-devtools-mcp",
-      "owner": "ChromeDevTools",
-      "repo": "ChromeDevTools/chrome-devtools-mcp",
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "category": "AI Agents & LLM",
-      "language": "TypeScript",
-      "description": "Chrome DevTools for coding agents",
-      "oneSentencePitch": "Chrome DevTools for coding agents",
-      "rank": 4,
-      "totalStars": "56.6k",
-      "starsToday": 718,
-      "starsGrowthText": "+718 stars today",
-      "growthRate": "+718 stars today",
-      "topics": [
-        "ai",
-        "typescript"
-      ],
-      "features": [
-        "Trending resmi #4 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +718 stars today",
-        "Ditulis menggunakan bahasa TypeScript"
-      ]
-    },
-    {
-      "id": "gh-alibaba-open-code-review",
-      "name": "open-code-review",
-      "owner": "alibaba",
-      "repo": "alibaba/open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "category": "AI Agents & LLM",
-      "language": "Go",
-      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "oneSentencePitch": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "rank": 5,
-      "totalStars": "51.7k",
-      "starsToday": 688,
-      "starsGrowthText": "+688 stars today",
-      "growthRate": "+688 stars today",
-      "topics": [
-        "ai",
-        "go"
-      ],
-      "features": [
-        "Trending resmi #5 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +688 stars today",
-        "Ditulis menggunakan bahasa Go"
-      ]
-    },
-    {
-      "id": "gh-qwenlm-qwen-code",
-      "name": "qwen-code",
-      "owner": "QwenLM",
-      "repo": "QwenLM/qwen-code",
-      "url": "https://github.com/QwenLM/qwen-code",
-      "category": "AI Agents & LLM",
-      "language": "TypeScript",
-      "description": "An open-source AI coding agent that lives in your terminal.",
-      "oneSentencePitch": "An open-source AI coding agent that lives in your terminal.",
-      "rank": 6,
-      "totalStars": "30.5k",
-      "starsToday": 374,
-      "starsGrowthText": "+374 stars today",
-      "growthRate": "+374 stars today",
-      "topics": [
-        "ai",
-        "typescript"
-      ],
-      "features": [
-        "Trending resmi #6 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +374 stars today",
-        "Ditulis menggunakan bahasa TypeScript"
-      ]
-    },
     {
       "id": "gh-dream-num-univer",
       "name": "univer",
@@ -162,8 +12,8 @@
       "language": "TypeScript",
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "oneSentencePitch": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
-      "rank": 7,
-      "totalStars": "25.2k",
+      "rank": 1,
+      "totalStars": "25.3k",
       "starsToday": 1041,
       "starsGrowthText": "+1,041 stars today",
       "growthRate": "+1,041 stars today",
@@ -172,7 +22,7 @@
         "typescript"
       ],
       "features": [
-        "Trending resmi #7 di GitHub (?since=daily)",
+        "Trending resmi #1 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +1,041 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
@@ -187,7 +37,7 @@
       "language": "TypeScript",
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "oneSentencePitch": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
-      "rank": 8,
+      "rank": 2,
       "totalStars": "17.6k",
       "starsToday": 393,
       "starsGrowthText": "+393 stars today",
@@ -197,109 +47,109 @@
         "typescript"
       ],
       "features": [
-        "Trending resmi #8 di GitHub (?since=daily)",
+        "Trending resmi #2 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +393 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
     {
-      "id": "gh-ashhart-tensorfold",
-      "name": "TensorFold",
-      "owner": "ashhart",
-      "repo": "ashhart/TensorFold",
-      "url": "https://github.com/ashhart/TensorFold",
+      "id": "gh-google-labs-code-stitch-skills",
+      "name": "stitch-skills",
+      "owner": "google-labs-code",
+      "repo": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
       "category": "AI Agents & LLM",
-      "language": "Zig",
-      "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
-      "oneSentencePitch": "LLM Inference Engine for Metal, CUDA and Vulkan.",
-      "rank": 9,
-      "totalStars": "2.2k",
-      "starsToday": 151,
-      "starsGrowthText": "+151 stars today",
-      "growthRate": "+151 stars today",
+      "language": "TypeScript",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "oneSentencePitch": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "rank": 3,
+      "totalStars": "9.1k",
+      "starsToday": 248,
+      "starsGrowthText": "+248 stars today",
+      "growthRate": "+248 stars today",
       "topics": [
         "ai",
-        "zig"
+        "typescript"
       ],
       "features": [
-        "Trending resmi #9 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +151 stars today",
-        "Ditulis menggunakan bahasa Zig"
+        "Trending resmi #3 di GitHub (?since=daily)",
+        "Pertumbuhan pesat: +248 stars today",
+        "Ditulis menggunakan bahasa TypeScript"
       ]
     },
     {
-      "id": "gh-juliusbrussee-caveman",
-      "name": "caveman",
-      "owner": "JuliusBrussee",
-      "repo": "JuliusBrussee/caveman",
-      "url": "https://github.com/JuliusBrussee/caveman",
+      "id": "gh-backnotprop-plannotator",
+      "name": "plannotator",
+      "owner": "backnotprop",
+      "repo": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "category": "AI Agents & LLM",
+      "language": "TypeScript",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "oneSentencePitch": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "rank": 4,
+      "totalStars": "11.6k",
+      "starsToday": 860,
+      "starsGrowthText": "+860 stars today",
+      "growthRate": "+860 stars today",
+      "topics": [
+        "ai",
+        "typescript"
+      ],
+      "features": [
+        "Trending resmi #4 di GitHub (?since=daily)",
+        "Pertumbuhan pesat: +860 stars today",
+        "Ditulis menggunakan bahasa TypeScript"
+      ]
+    },
+    {
+      "id": "gh-chromedevtools-chrome-devtools-mcp",
+      "name": "chrome-devtools-mcp",
+      "owner": "ChromeDevTools",
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "category": "AI Agents & LLM",
+      "language": "TypeScript",
+      "description": "Chrome DevTools for coding agents",
+      "oneSentencePitch": "Chrome DevTools for coding agents",
+      "rank": 5,
+      "totalStars": "56.7k",
+      "starsToday": 718,
+      "starsGrowthText": "+718 stars today",
+      "growthRate": "+718 stars today",
+      "topics": [
+        "ai",
+        "typescript"
+      ],
+      "features": [
+        "Trending resmi #5 di GitHub (?since=daily)",
+        "Pertumbuhan pesat: +718 stars today",
+        "Ditulis menggunakan bahasa TypeScript"
+      ]
+    },
+    {
+      "id": "gh-alibaba-open-code-review",
+      "name": "open-code-review",
+      "owner": "alibaba",
+      "repo": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
       "category": "AI Agents & LLM",
       "language": "Go",
-      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
-      "oneSentencePitch": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
-      "rank": 10,
-      "totalStars": "120.3k",
-      "starsToday": 562,
-      "starsGrowthText": "+562 stars today",
-      "growthRate": "+562 stars today",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "oneSentencePitch": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "rank": 6,
+      "totalStars": "51.8k",
+      "starsToday": 688,
+      "starsGrowthText": "+688 stars today",
+      "growthRate": "+688 stars today",
       "topics": [
         "ai",
         "go"
       ],
       "features": [
-        "Trending resmi #10 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +562 stars today",
+        "Trending resmi #6 di GitHub (?since=daily)",
+        "Pertumbuhan pesat: +688 stars today",
         "Ditulis menggunakan bahasa Go"
-      ]
-    },
-    {
-      "id": "gh-louislam-uptime-kuma",
-      "name": "uptime-kuma",
-      "owner": "louislam",
-      "repo": "louislam/uptime-kuma",
-      "url": "https://github.com/louislam/uptime-kuma",
-      "category": "Dev Tools & Automation",
-      "language": "JavaScript",
-      "description": "A fancy self-hosted monitoring tool",
-      "oneSentencePitch": "A fancy self-hosted monitoring tool",
-      "rank": 11,
-      "totalStars": "94.4k",
-      "starsToday": 352,
-      "starsGrowthText": "+352 stars today",
-      "growthRate": "+352 stars today",
-      "topics": [
-        "dev",
-        "javascript"
-      ],
-      "features": [
-        "Trending resmi #11 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +352 stars today",
-        "Ditulis menggunakan bahasa JavaScript"
-      ]
-    },
-    {
-      "id": "gh-we-promise-sure",
-      "name": "sure",
-      "owner": "we-promise",
-      "repo": "we-promise/sure",
-      "url": "https://github.com/we-promise/sure",
-      "category": "Productivity & Media",
-      "language": "Ruby",
-      "description": "The personal finance app for everyone (by everyone)",
-      "oneSentencePitch": "The personal finance app for everyone (by everyone)",
-      "rank": 12,
-      "totalStars": "15.5k",
-      "starsToday": 520,
-      "starsGrowthText": "+520 stars today",
-      "growthRate": "+520 stars today",
-      "topics": [
-        "productivity",
-        "ruby"
-      ],
-      "features": [
-        "Trending resmi #12 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +520 stars today",
-        "Ditulis menggunakan bahasa Ruby"
       ]
     },
     {
@@ -312,7 +162,7 @@
       "language": "Go",
       "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
       "oneSentencePitch": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
-      "rank": 13,
+      "rank": 7,
       "totalStars": "1.2k",
       "starsToday": 484,
       "starsGrowthText": "+484 stars today",
@@ -322,214 +172,139 @@
         "go"
       ],
       "features": [
-        "Trending resmi #13 di GitHub (?since=daily)",
+        "Trending resmi #7 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +484 stars today",
         "Ditulis menggunakan bahasa Go"
       ]
     },
     {
-      "id": "gh-likely7-veyra-nrvideo",
-      "name": "Veyra-NRVideo",
-      "owner": "Likely7",
-      "repo": "Likely7/Veyra-NRVideo",
-      "url": "https://github.com/Likely7/Veyra-NRVideo",
-      "category": "AI Agents & LLM",
+      "id": "gh-ggml-org-ggml",
+      "name": "ggml",
+      "owner": "ggml-org",
+      "repo": "ggml-org/ggml",
+      "url": "https://github.com/ggml-org/ggml",
+      "category": "Productivity & Media",
       "language": "C++",
-      "description": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
-      "oneSentencePitch": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
-      "rank": 14,
-      "totalStars": "2.6k",
-      "starsToday": 731,
-      "starsGrowthText": "+731 stars today",
-      "growthRate": "+731 stars today",
+      "description": "Tensor library for machine learning",
+      "oneSentencePitch": "Tensor library for machine learning",
+      "rank": 8,
+      "totalStars": "15.8k",
+      "starsToday": 154,
+      "starsGrowthText": "+154 stars today",
+      "growthRate": "+154 stars today",
       "topics": [
-        "ai",
+        "productivity",
         "c++"
       ],
       "features": [
-        "Trending resmi #14 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +731 stars today",
+        "Trending resmi #8 di GitHub (?since=daily)",
+        "Pertumbuhan pesat: +154 stars today",
         "Ditulis menggunakan bahasa C++"
       ]
     },
     {
-      "id": "gh-martin-olivier-airgorah",
-      "name": "airgorah",
-      "owner": "martin-olivier",
-      "repo": "martin-olivier/airgorah",
-      "url": "https://github.com/martin-olivier/airgorah",
+      "id": "gh-elementalsouls-claude-bughunter",
+      "name": "Claude-BugHunter",
+      "owner": "elementalsouls",
+      "repo": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "category": "AI Agents & LLM",
-      "language": "Rust",
-      "description": "A WiFi security auditing software",
-      "oneSentencePitch": "A WiFi security auditing software",
-      "rank": 15,
-      "totalStars": "6.2k",
-      "starsToday": 708,
-      "starsGrowthText": "+708 stars today",
-      "growthRate": "+708 stars today",
+      "language": "Python",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "oneSentencePitch": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "rank": 9,
+      "totalStars": "5.9k",
+      "starsToday": 124,
+      "starsGrowthText": "+124 stars today",
+      "growthRate": "+124 stars today",
       "topics": [
         "ai",
-        "rust"
+        "python"
       ],
       "features": [
-        "Trending resmi #15 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +708 stars today",
-        "Ditulis menggunakan bahasa Rust"
+        "Trending resmi #9 di GitHub (?since=daily)",
+        "Pertumbuhan pesat: +124 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
+      "id": "gh-googlechrome-modern-web-guidance-src",
+      "name": "modern-web-guidance-src",
+      "owner": "GoogleChrome",
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "category": "AI Agents & LLM",
+      "language": "TypeScript",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "oneSentencePitch": "Keep your coding agent up to date with the latest web best practices",
+      "rank": 10,
+      "totalStars": "6.7k",
+      "starsToday": 1220,
+      "starsGrowthText": "+1,220 stars today",
+      "growthRate": "+1,220 stars today",
+      "topics": [
+        "ai",
+        "typescript"
+      ],
+      "features": [
+        "Trending resmi #10 di GitHub (?since=daily)",
+        "Pertumbuhan pesat: +1,220 stars today",
+        "Ditulis menggunakan bahasa TypeScript"
+      ]
+    },
+    {
+      "id": "gh-tradermonty-claude-trading-skills",
+      "name": "claude-trading-skills",
+      "owner": "tradermonty",
+      "repo": "tradermonty/claude-trading-skills",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "category": "AI Agents & LLM",
+      "language": "Python",
+      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "oneSentencePitch": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "rank": 11,
+      "totalStars": "5.2k",
+      "starsToday": 707,
+      "starsGrowthText": "+707 stars today",
+      "growthRate": "+707 stars today",
+      "topics": [
+        "ai",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #11 di GitHub (?since=daily)",
+        "Pertumbuhan pesat: +707 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
+      "id": "gh-nvidia-skillevaluator",
+      "name": "SkillEvaluator",
+      "owner": "NVIDIA",
+      "repo": "NVIDIA/SkillEvaluator",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "category": "AI Agents & LLM",
+      "language": "Python",
+      "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "oneSentencePitch": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "rank": 12,
+      "totalStars": "1.3k",
+      "starsToday": 133,
+      "starsGrowthText": "+133 stars today",
+      "growthRate": "+133 stars today",
+      "topics": [
+        "ai",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #12 di GitHub (?since=daily)",
+        "Pertumbuhan pesat: +133 stars today",
+        "Ditulis menggunakan bahasa Python"
       ]
     }
   ],
   "daily": [
     {
-      "id": "gh-backnotprop-plannotator",
-      "name": "plannotator",
-      "owner": "backnotprop",
-      "repo": "backnotprop/plannotator",
-      "url": "https://github.com/backnotprop/plannotator",
-      "category": "AI Agents & LLM",
-      "language": "TypeScript",
-      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-      "oneSentencePitch": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-      "rank": 1,
-      "totalStars": "11.6k",
-      "starsToday": 860,
-      "starsGrowthText": "+860 stars today",
-      "growthRate": "+860 stars today",
-      "topics": [
-        "ai",
-        "typescript"
-      ],
-      "features": [
-        "Trending resmi #1 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +860 stars today",
-        "Ditulis menggunakan bahasa TypeScript"
-      ]
-    },
-    {
-      "id": "gh-googlechrome-modern-web-guidance-src",
-      "name": "modern-web-guidance-src",
-      "owner": "GoogleChrome",
-      "repo": "GoogleChrome/modern-web-guidance-src",
-      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "category": "AI Agents & LLM",
-      "language": "TypeScript",
-      "description": "Keep your coding agent up to date with the latest web best practices",
-      "oneSentencePitch": "Keep your coding agent up to date with the latest web best practices",
-      "rank": 2,
-      "totalStars": "6.7k",
-      "starsToday": 1220,
-      "starsGrowthText": "+1,220 stars today",
-      "growthRate": "+1,220 stars today",
-      "topics": [
-        "ai",
-        "typescript"
-      ],
-      "features": [
-        "Trending resmi #2 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +1,220 stars today",
-        "Ditulis menggunakan bahasa TypeScript"
-      ]
-    },
-    {
-      "id": "gh-tradermonty-claude-trading-skills",
-      "name": "claude-trading-skills",
-      "owner": "tradermonty",
-      "repo": "tradermonty/claude-trading-skills",
-      "url": "https://github.com/tradermonty/claude-trading-skills",
-      "category": "AI Agents & LLM",
-      "language": "Python",
-      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
-      "oneSentencePitch": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
-      "rank": 3,
-      "totalStars": "5.2k",
-      "starsToday": 707,
-      "starsGrowthText": "+707 stars today",
-      "growthRate": "+707 stars today",
-      "topics": [
-        "ai",
-        "python"
-      ],
-      "features": [
-        "Trending resmi #3 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +707 stars today",
-        "Ditulis menggunakan bahasa Python"
-      ]
-    },
-    {
-      "id": "gh-chromedevtools-chrome-devtools-mcp",
-      "name": "chrome-devtools-mcp",
-      "owner": "ChromeDevTools",
-      "repo": "ChromeDevTools/chrome-devtools-mcp",
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "category": "AI Agents & LLM",
-      "language": "TypeScript",
-      "description": "Chrome DevTools for coding agents",
-      "oneSentencePitch": "Chrome DevTools for coding agents",
-      "rank": 4,
-      "totalStars": "56.6k",
-      "starsToday": 718,
-      "starsGrowthText": "+718 stars today",
-      "growthRate": "+718 stars today",
-      "topics": [
-        "ai",
-        "typescript"
-      ],
-      "features": [
-        "Trending resmi #4 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +718 stars today",
-        "Ditulis menggunakan bahasa TypeScript"
-      ]
-    },
-    {
-      "id": "gh-alibaba-open-code-review",
-      "name": "open-code-review",
-      "owner": "alibaba",
-      "repo": "alibaba/open-code-review",
-      "url": "https://github.com/alibaba/open-code-review",
-      "category": "AI Agents & LLM",
-      "language": "Go",
-      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "oneSentencePitch": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "rank": 5,
-      "totalStars": "51.7k",
-      "starsToday": 688,
-      "starsGrowthText": "+688 stars today",
-      "growthRate": "+688 stars today",
-      "topics": [
-        "ai",
-        "go"
-      ],
-      "features": [
-        "Trending resmi #5 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +688 stars today",
-        "Ditulis menggunakan bahasa Go"
-      ]
-    },
-    {
-      "id": "gh-qwenlm-qwen-code",
-      "name": "qwen-code",
-      "owner": "QwenLM",
-      "repo": "QwenLM/qwen-code",
-      "url": "https://github.com/QwenLM/qwen-code",
-      "category": "AI Agents & LLM",
-      "language": "TypeScript",
-      "description": "An open-source AI coding agent that lives in your terminal.",
-      "oneSentencePitch": "An open-source AI coding agent that lives in your terminal.",
-      "rank": 6,
-      "totalStars": "30.5k",
-      "starsToday": 374,
-      "starsGrowthText": "+374 stars today",
-      "growthRate": "+374 stars today",
-      "topics": [
-        "ai",
-        "typescript"
-      ],
-      "features": [
-        "Trending resmi #6 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +374 stars today",
-        "Ditulis menggunakan bahasa TypeScript"
-      ]
-    },
-    {
       "id": "gh-dream-num-univer",
       "name": "univer",
       "owner": "dream-num",
@@ -539,8 +314,8 @@
       "language": "TypeScript",
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "oneSentencePitch": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
-      "rank": 7,
-      "totalStars": "25.2k",
+      "rank": 1,
+      "totalStars": "25.3k",
       "starsToday": 1041,
       "starsGrowthText": "+1,041 stars today",
       "growthRate": "+1,041 stars today",
@@ -549,7 +324,7 @@
         "typescript"
       ],
       "features": [
-        "Trending resmi #7 di GitHub (?since=daily)",
+        "Trending resmi #1 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +1,041 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
@@ -564,7 +339,7 @@
       "language": "TypeScript",
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "oneSentencePitch": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
-      "rank": 8,
+      "rank": 2,
       "totalStars": "17.6k",
       "starsToday": 393,
       "starsGrowthText": "+393 stars today",
@@ -574,109 +349,109 @@
         "typescript"
       ],
       "features": [
-        "Trending resmi #8 di GitHub (?since=daily)",
+        "Trending resmi #2 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +393 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
     {
-      "id": "gh-ashhart-tensorfold",
-      "name": "TensorFold",
-      "owner": "ashhart",
-      "repo": "ashhart/TensorFold",
-      "url": "https://github.com/ashhart/TensorFold",
+      "id": "gh-google-labs-code-stitch-skills",
+      "name": "stitch-skills",
+      "owner": "google-labs-code",
+      "repo": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
       "category": "AI Agents & LLM",
-      "language": "Zig",
-      "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
-      "oneSentencePitch": "LLM Inference Engine for Metal, CUDA and Vulkan.",
-      "rank": 9,
-      "totalStars": "2.2k",
-      "starsToday": 151,
-      "starsGrowthText": "+151 stars today",
-      "growthRate": "+151 stars today",
+      "language": "TypeScript",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "oneSentencePitch": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "rank": 3,
+      "totalStars": "9.1k",
+      "starsToday": 248,
+      "starsGrowthText": "+248 stars today",
+      "growthRate": "+248 stars today",
       "topics": [
         "ai",
-        "zig"
+        "typescript"
       ],
       "features": [
-        "Trending resmi #9 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +151 stars today",
-        "Ditulis menggunakan bahasa Zig"
+        "Trending resmi #3 di GitHub (?since=daily)",
+        "Pertumbuhan pesat: +248 stars today",
+        "Ditulis menggunakan bahasa TypeScript"
       ]
     },
     {
-      "id": "gh-juliusbrussee-caveman",
-      "name": "caveman",
-      "owner": "JuliusBrussee",
-      "repo": "JuliusBrussee/caveman",
-      "url": "https://github.com/JuliusBrussee/caveman",
+      "id": "gh-backnotprop-plannotator",
+      "name": "plannotator",
+      "owner": "backnotprop",
+      "repo": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "category": "AI Agents & LLM",
+      "language": "TypeScript",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "oneSentencePitch": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "rank": 4,
+      "totalStars": "11.6k",
+      "starsToday": 860,
+      "starsGrowthText": "+860 stars today",
+      "growthRate": "+860 stars today",
+      "topics": [
+        "ai",
+        "typescript"
+      ],
+      "features": [
+        "Trending resmi #4 di GitHub (?since=daily)",
+        "Pertumbuhan pesat: +860 stars today",
+        "Ditulis menggunakan bahasa TypeScript"
+      ]
+    },
+    {
+      "id": "gh-chromedevtools-chrome-devtools-mcp",
+      "name": "chrome-devtools-mcp",
+      "owner": "ChromeDevTools",
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "category": "AI Agents & LLM",
+      "language": "TypeScript",
+      "description": "Chrome DevTools for coding agents",
+      "oneSentencePitch": "Chrome DevTools for coding agents",
+      "rank": 5,
+      "totalStars": "56.7k",
+      "starsToday": 718,
+      "starsGrowthText": "+718 stars today",
+      "growthRate": "+718 stars today",
+      "topics": [
+        "ai",
+        "typescript"
+      ],
+      "features": [
+        "Trending resmi #5 di GitHub (?since=daily)",
+        "Pertumbuhan pesat: +718 stars today",
+        "Ditulis menggunakan bahasa TypeScript"
+      ]
+    },
+    {
+      "id": "gh-alibaba-open-code-review",
+      "name": "open-code-review",
+      "owner": "alibaba",
+      "repo": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
       "category": "AI Agents & LLM",
       "language": "Go",
-      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
-      "oneSentencePitch": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
-      "rank": 10,
-      "totalStars": "120.3k",
-      "starsToday": 562,
-      "starsGrowthText": "+562 stars today",
-      "growthRate": "+562 stars today",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "oneSentencePitch": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "rank": 6,
+      "totalStars": "51.8k",
+      "starsToday": 688,
+      "starsGrowthText": "+688 stars today",
+      "growthRate": "+688 stars today",
       "topics": [
         "ai",
         "go"
       ],
       "features": [
-        "Trending resmi #10 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +562 stars today",
+        "Trending resmi #6 di GitHub (?since=daily)",
+        "Pertumbuhan pesat: +688 stars today",
         "Ditulis menggunakan bahasa Go"
-      ]
-    },
-    {
-      "id": "gh-louislam-uptime-kuma",
-      "name": "uptime-kuma",
-      "owner": "louislam",
-      "repo": "louislam/uptime-kuma",
-      "url": "https://github.com/louislam/uptime-kuma",
-      "category": "Dev Tools & Automation",
-      "language": "JavaScript",
-      "description": "A fancy self-hosted monitoring tool",
-      "oneSentencePitch": "A fancy self-hosted monitoring tool",
-      "rank": 11,
-      "totalStars": "94.4k",
-      "starsToday": 352,
-      "starsGrowthText": "+352 stars today",
-      "growthRate": "+352 stars today",
-      "topics": [
-        "dev",
-        "javascript"
-      ],
-      "features": [
-        "Trending resmi #11 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +352 stars today",
-        "Ditulis menggunakan bahasa JavaScript"
-      ]
-    },
-    {
-      "id": "gh-we-promise-sure",
-      "name": "sure",
-      "owner": "we-promise",
-      "repo": "we-promise/sure",
-      "url": "https://github.com/we-promise/sure",
-      "category": "Productivity & Media",
-      "language": "Ruby",
-      "description": "The personal finance app for everyone (by everyone)",
-      "oneSentencePitch": "The personal finance app for everyone (by everyone)",
-      "rank": 12,
-      "totalStars": "15.5k",
-      "starsToday": 520,
-      "starsGrowthText": "+520 stars today",
-      "growthRate": "+520 stars today",
-      "topics": [
-        "productivity",
-        "ruby"
-      ],
-      "features": [
-        "Trending resmi #12 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +520 stars today",
-        "Ditulis menggunakan bahasa Ruby"
       ]
     },
     {
@@ -689,7 +464,7 @@
       "language": "Go",
       "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
       "oneSentencePitch": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
-      "rank": 13,
+      "rank": 7,
       "totalStars": "1.2k",
       "starsToday": 484,
       "starsGrowthText": "+484 stars today",
@@ -699,59 +474,134 @@
         "go"
       ],
       "features": [
-        "Trending resmi #13 di GitHub (?since=daily)",
+        "Trending resmi #7 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +484 stars today",
         "Ditulis menggunakan bahasa Go"
       ]
     },
     {
-      "id": "gh-likely7-veyra-nrvideo",
-      "name": "Veyra-NRVideo",
-      "owner": "Likely7",
-      "repo": "Likely7/Veyra-NRVideo",
-      "url": "https://github.com/Likely7/Veyra-NRVideo",
-      "category": "AI Agents & LLM",
+      "id": "gh-ggml-org-ggml",
+      "name": "ggml",
+      "owner": "ggml-org",
+      "repo": "ggml-org/ggml",
+      "url": "https://github.com/ggml-org/ggml",
+      "category": "Productivity & Media",
       "language": "C++",
-      "description": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
-      "oneSentencePitch": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
-      "rank": 14,
-      "totalStars": "2.6k",
-      "starsToday": 731,
-      "starsGrowthText": "+731 stars today",
-      "growthRate": "+731 stars today",
+      "description": "Tensor library for machine learning",
+      "oneSentencePitch": "Tensor library for machine learning",
+      "rank": 8,
+      "totalStars": "15.8k",
+      "starsToday": 154,
+      "starsGrowthText": "+154 stars today",
+      "growthRate": "+154 stars today",
       "topics": [
-        "ai",
+        "productivity",
         "c++"
       ],
       "features": [
-        "Trending resmi #14 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +731 stars today",
+        "Trending resmi #8 di GitHub (?since=daily)",
+        "Pertumbuhan pesat: +154 stars today",
         "Ditulis menggunakan bahasa C++"
       ]
     },
     {
-      "id": "gh-martin-olivier-airgorah",
-      "name": "airgorah",
-      "owner": "martin-olivier",
-      "repo": "martin-olivier/airgorah",
-      "url": "https://github.com/martin-olivier/airgorah",
+      "id": "gh-elementalsouls-claude-bughunter",
+      "name": "Claude-BugHunter",
+      "owner": "elementalsouls",
+      "repo": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "category": "AI Agents & LLM",
-      "language": "Rust",
-      "description": "A WiFi security auditing software",
-      "oneSentencePitch": "A WiFi security auditing software",
-      "rank": 15,
-      "totalStars": "6.2k",
-      "starsToday": 708,
-      "starsGrowthText": "+708 stars today",
-      "growthRate": "+708 stars today",
+      "language": "Python",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "oneSentencePitch": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "rank": 9,
+      "totalStars": "5.9k",
+      "starsToday": 124,
+      "starsGrowthText": "+124 stars today",
+      "growthRate": "+124 stars today",
       "topics": [
         "ai",
-        "rust"
+        "python"
       ],
       "features": [
-        "Trending resmi #15 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +708 stars today",
-        "Ditulis menggunakan bahasa Rust"
+        "Trending resmi #9 di GitHub (?since=daily)",
+        "Pertumbuhan pesat: +124 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
+      "id": "gh-googlechrome-modern-web-guidance-src",
+      "name": "modern-web-guidance-src",
+      "owner": "GoogleChrome",
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "category": "AI Agents & LLM",
+      "language": "TypeScript",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "oneSentencePitch": "Keep your coding agent up to date with the latest web best practices",
+      "rank": 10,
+      "totalStars": "6.7k",
+      "starsToday": 1220,
+      "starsGrowthText": "+1,220 stars today",
+      "growthRate": "+1,220 stars today",
+      "topics": [
+        "ai",
+        "typescript"
+      ],
+      "features": [
+        "Trending resmi #10 di GitHub (?since=daily)",
+        "Pertumbuhan pesat: +1,220 stars today",
+        "Ditulis menggunakan bahasa TypeScript"
+      ]
+    },
+    {
+      "id": "gh-tradermonty-claude-trading-skills",
+      "name": "claude-trading-skills",
+      "owner": "tradermonty",
+      "repo": "tradermonty/claude-trading-skills",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "category": "AI Agents & LLM",
+      "language": "Python",
+      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "oneSentencePitch": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "rank": 11,
+      "totalStars": "5.2k",
+      "starsToday": 707,
+      "starsGrowthText": "+707 stars today",
+      "growthRate": "+707 stars today",
+      "topics": [
+        "ai",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #11 di GitHub (?since=daily)",
+        "Pertumbuhan pesat: +707 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
+      "id": "gh-nvidia-skillevaluator",
+      "name": "SkillEvaluator",
+      "owner": "NVIDIA",
+      "repo": "NVIDIA/SkillEvaluator",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "category": "AI Agents & LLM",
+      "language": "Python",
+      "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "oneSentencePitch": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "rank": 12,
+      "totalStars": "1.3k",
+      "starsToday": 133,
+      "starsGrowthText": "+133 stars today",
+      "growthRate": "+133 stars today",
+      "topics": [
+        "ai",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #12 di GitHub (?since=daily)",
+        "Pertumbuhan pesat: +133 stars today",
+        "Ditulis menggunakan bahasa Python"
       ]
     }
   ],
@@ -782,31 +632,6 @@
       ]
     },
     {
-      "id": "gh-sherlock-project-sherlock",
-      "name": "sherlock",
-      "owner": "sherlock-project",
-      "repo": "sherlock-project/sherlock",
-      "url": "https://github.com/sherlock-project/sherlock",
-      "category": "Productivity & Media",
-      "language": "Python",
-      "description": "Hunt down social media accounts by username across social networks",
-      "oneSentencePitch": "Hunt down social media accounts by username across social networks",
-      "rank": 2,
-      "totalStars": "112.1k",
-      "starsToday": 12401,
-      "starsGrowthText": "+12,401 stars this week",
-      "growthRate": "+12,401 stars this week",
-      "topics": [
-        "productivity",
-        "python"
-      ],
-      "features": [
-        "Trending resmi #2 di GitHub (?since=weekly)",
-        "Pertumbuhan pesat: +12,401 stars this week",
-        "Ditulis menggunakan bahasa Python"
-      ]
-    },
-    {
       "id": "gh-anthropics-skills",
       "name": "skills",
       "owner": "anthropics",
@@ -816,8 +641,8 @@
       "language": "Python",
       "description": "Public repository for Agent Skills",
       "oneSentencePitch": "Public repository for Agent Skills",
-      "rank": 3,
-      "totalStars": "195.0k",
+      "rank": 2,
+      "totalStars": "195.1k",
       "starsToday": 6220,
       "starsGrowthText": "+6,220 stars this week",
       "growthRate": "+6,220 stars this week",
@@ -826,9 +651,59 @@
         "python"
       ],
       "features": [
-        "Trending resmi #3 di GitHub (?since=weekly)",
+        "Trending resmi #2 di GitHub (?since=weekly)",
         "Pertumbuhan pesat: +6,220 stars this week",
         "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
+      "id": "gh-sherlock-project-sherlock",
+      "name": "sherlock",
+      "owner": "sherlock-project",
+      "repo": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "category": "Productivity & Media",
+      "language": "Python",
+      "description": "Hunt down social media accounts by username across social networks",
+      "oneSentencePitch": "Hunt down social media accounts by username across social networks",
+      "rank": 3,
+      "totalStars": "112.2k",
+      "starsToday": 12401,
+      "starsGrowthText": "+12,401 stars this week",
+      "growthRate": "+12,401 stars this week",
+      "topics": [
+        "productivity",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #3 di GitHub (?since=weekly)",
+        "Pertumbuhan pesat: +12,401 stars this week",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
+      "id": "gh-backnotprop-plannotator",
+      "name": "plannotator",
+      "owner": "backnotprop",
+      "repo": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "category": "AI Agents & LLM",
+      "language": "TypeScript",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "oneSentencePitch": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "rank": 4,
+      "totalStars": "11.6k",
+      "starsToday": 818,
+      "starsGrowthText": "+818 stars this week",
+      "growthRate": "+818 stars this week",
+      "topics": [
+        "ai",
+        "typescript"
+      ],
+      "features": [
+        "Trending resmi #4 di GitHub (?since=weekly)",
+        "Pertumbuhan pesat: +818 stars this week",
+        "Ditulis menggunakan bahasa TypeScript"
       ]
     },
     {
@@ -841,7 +716,7 @@
       "language": "Rust",
       "description": "Browser automation CLI for AI agents",
       "oneSentencePitch": "Browser automation CLI for AI agents",
-      "rank": 4,
+      "rank": 5,
       "totalStars": "51.4k",
       "starsToday": 4601,
       "starsGrowthText": "+4,601 stars this week",
@@ -851,59 +726,9 @@
         "rust"
       ],
       "features": [
-        "Trending resmi #4 di GitHub (?since=weekly)",
+        "Trending resmi #5 di GitHub (?since=weekly)",
         "Pertumbuhan pesat: +4,601 stars this week",
         "Ditulis menggunakan bahasa Rust"
-      ]
-    },
-    {
-      "id": "gh-google-elephant-goldfish-model",
-      "name": "elephant-goldfish-model",
-      "owner": "google",
-      "repo": "google/elephant-goldfish-model",
-      "url": "https://github.com/google/elephant-goldfish-model",
-      "category": "AI Agents & LLM",
-      "language": "Python",
-      "description": "Open-source plugin for designing and reviewing software with agents",
-      "oneSentencePitch": "Open-source plugin for designing and reviewing software with agents",
-      "rank": 5,
-      "totalStars": "19.4k",
-      "starsToday": 5539,
-      "starsGrowthText": "+5,539 stars this week",
-      "growthRate": "+5,539 stars this week",
-      "topics": [
-        "ai",
-        "python"
-      ],
-      "features": [
-        "Trending resmi #5 di GitHub (?since=weekly)",
-        "Pertumbuhan pesat: +5,539 stars this week",
-        "Ditulis menggunakan bahasa Python"
-      ]
-    },
-    {
-      "id": "gh-milind-soni-openmausbot",
-      "name": "OpenMausBot",
-      "owner": "milind-soni",
-      "repo": "milind-soni/OpenMausBot",
-      "url": "https://github.com/milind-soni/OpenMausBot",
-      "category": "Productivity & Media",
-      "language": "TypeScript",
-      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
-      "oneSentencePitch": "Open-source Grok Bot alternative with a virtual machine that bots can use",
-      "rank": 6,
-      "totalStars": "23.0k",
-      "starsToday": 6413,
-      "starsGrowthText": "+6,413 stars this week",
-      "growthRate": "+6,413 stars this week",
-      "topics": [
-        "productivity",
-        "typescript"
-      ],
-      "features": [
-        "Trending resmi #6 di GitHub (?since=weekly)",
-        "Pertumbuhan pesat: +6,413 stars this week",
-        "Ditulis menggunakan bahasa TypeScript"
       ]
     },
     {
@@ -916,7 +741,7 @@
       "language": "Python",
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "oneSentencePitch": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "rank": 7,
+      "rank": 6,
       "totalStars": "72.4k",
       "starsToday": 4526,
       "starsGrowthText": "+4,526 stars this week",
@@ -926,8 +751,83 @@
         "python"
       ],
       "features": [
-        "Trending resmi #7 di GitHub (?since=weekly)",
+        "Trending resmi #6 di GitHub (?since=weekly)",
         "Pertumbuhan pesat: +4,526 stars this week",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
+      "id": "gh-we-promise-sure",
+      "name": "sure",
+      "owner": "we-promise",
+      "repo": "we-promise/sure",
+      "url": "https://github.com/we-promise/sure",
+      "category": "Productivity & Media",
+      "language": "Ruby",
+      "description": "The personal finance app for everyone (by everyone)",
+      "oneSentencePitch": "The personal finance app for everyone (by everyone)",
+      "rank": 7,
+      "totalStars": "15.6k",
+      "starsToday": 4483,
+      "starsGrowthText": "+4,483 stars this week",
+      "growthRate": "+4,483 stars this week",
+      "topics": [
+        "productivity",
+        "ruby"
+      ],
+      "features": [
+        "Trending resmi #7 di GitHub (?since=weekly)",
+        "Pertumbuhan pesat: +4,483 stars this week",
+        "Ditulis menggunakan bahasa Ruby"
+      ]
+    },
+    {
+      "id": "gh-milind-soni-openmausbot",
+      "name": "OpenMausBot",
+      "owner": "milind-soni",
+      "repo": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "category": "Productivity & Media",
+      "language": "TypeScript",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "oneSentencePitch": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "rank": 8,
+      "totalStars": "23.1k",
+      "starsToday": 6413,
+      "starsGrowthText": "+6,413 stars this week",
+      "growthRate": "+6,413 stars this week",
+      "topics": [
+        "productivity",
+        "typescript"
+      ],
+      "features": [
+        "Trending resmi #8 di GitHub (?since=weekly)",
+        "Pertumbuhan pesat: +6,413 stars this week",
+        "Ditulis menggunakan bahasa TypeScript"
+      ]
+    },
+    {
+      "id": "gh-google-elephant-goldfish-model",
+      "name": "elephant-goldfish-model",
+      "owner": "google",
+      "repo": "google/elephant-goldfish-model",
+      "url": "https://github.com/google/elephant-goldfish-model",
+      "category": "AI Agents & LLM",
+      "language": "Python",
+      "description": "Open-source plugin for designing and reviewing software with agents",
+      "oneSentencePitch": "Open-source plugin for designing and reviewing software with agents",
+      "rank": 9,
+      "totalStars": "19.5k",
+      "starsToday": 5539,
+      "starsGrowthText": "+5,539 stars this week",
+      "growthRate": "+5,539 stars this week",
+      "topics": [
+        "ai",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #9 di GitHub (?since=weekly)",
+        "Pertumbuhan pesat: +5,539 stars this week",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -941,7 +841,7 @@
       "language": "C++",
       "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
       "oneSentencePitch": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
-      "rank": 8,
+      "rank": 10,
       "totalStars": "18.0k",
       "starsToday": 1859,
       "starsGrowthText": "+1,859 stars this week",
@@ -951,34 +851,9 @@
         "c++"
       ],
       "features": [
-        "Trending resmi #8 di GitHub (?since=weekly)",
+        "Trending resmi #10 di GitHub (?since=weekly)",
         "Pertumbuhan pesat: +1,859 stars this week",
         "Ditulis menggunakan bahasa C++"
-      ]
-    },
-    {
-      "id": "gh-backnotprop-plannotator",
-      "name": "plannotator",
-      "owner": "backnotprop",
-      "repo": "backnotprop/plannotator",
-      "url": "https://github.com/backnotprop/plannotator",
-      "category": "AI Agents & LLM",
-      "language": "TypeScript",
-      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-      "oneSentencePitch": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-      "rank": 9,
-      "totalStars": "11.6k",
-      "starsToday": 818,
-      "starsGrowthText": "+818 stars this week",
-      "growthRate": "+818 stars this week",
-      "topics": [
-        "ai",
-        "typescript"
-      ],
-      "features": [
-        "Trending resmi #9 di GitHub (?since=weekly)",
-        "Pertumbuhan pesat: +818 stars this week",
-        "Ditulis menggunakan bahasa TypeScript"
       ]
     },
     {
@@ -991,8 +866,8 @@
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "oneSentencePitch": "Production-grade engineering skills for AI coding agents.",
-      "rank": 10,
-      "totalStars": "117.7k",
+      "rank": 11,
+      "totalStars": "117.8k",
       "starsToday": 3670,
       "starsGrowthText": "+3,670 stars this week",
       "growthRate": "+3,670 stars this week",
@@ -1001,34 +876,9 @@
         "javascript"
       ],
       "features": [
-        "Trending resmi #10 di GitHub (?since=weekly)",
+        "Trending resmi #11 di GitHub (?since=weekly)",
         "Pertumbuhan pesat: +3,670 stars this week",
         "Ditulis menggunakan bahasa JavaScript"
-      ]
-    },
-    {
-      "id": "gh-anthropics-claude-quickstarts",
-      "name": "claude-quickstarts",
-      "owner": "anthropics",
-      "repo": "anthropics/claude-quickstarts",
-      "url": "https://github.com/anthropics/claude-quickstarts",
-      "category": "AI Agents & LLM",
-      "language": "Python",
-      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
-      "oneSentencePitch": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
-      "rank": 11,
-      "totalStars": "21.0k",
-      "starsToday": 1794,
-      "starsGrowthText": "+1,794 stars this week",
-      "growthRate": "+1,794 stars this week",
-      "topics": [
-        "ai",
-        "python"
-      ],
-      "features": [
-        "Trending resmi #11 di GitHub (?since=weekly)",
-        "Pertumbuhan pesat: +1,794 stars this week",
-        "Ditulis menggunakan bahasa Python"
       ]
     }
   ],
@@ -1084,31 +934,6 @@
       ]
     },
     {
-      "id": "gh-morluto-rea",
-      "name": "rea",
-      "owner": "morluto",
-      "repo": "morluto/rea",
-      "url": "https://github.com/morluto/rea",
-      "category": "AI Agents & LLM",
-      "language": "TypeScript",
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "oneSentencePitch": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "rank": 3,
-      "totalStars": "461.0k",
-      "starsToday": 236618,
-      "starsGrowthText": "+236,618 stars this month",
-      "growthRate": "+236,618 stars this month",
-      "topics": [
-        "ai",
-        "typescript"
-      ],
-      "features": [
-        "Trending resmi #3 di GitHub (?since=monthly)",
-        "Pertumbuhan pesat: +236,618 stars this month",
-        "Ditulis menggunakan bahasa TypeScript"
-      ]
-    },
-    {
       "id": "gh-pingdotgg-t3code",
       "name": "t3code",
       "owner": "pingdotgg",
@@ -1118,8 +943,8 @@
       "language": "TypeScript",
       "description": "The best way to control Claude Code, Codex and more from any computer or phone",
       "oneSentencePitch": "The best way to control Claude Code, Codex and more from any computer or phone",
-      "rank": 4,
-      "totalStars": "61.0k",
+      "rank": 3,
+      "totalStars": "61.1k",
       "starsToday": 32857,
       "starsGrowthText": "+32,857 stars this month",
       "growthRate": "+32,857 stars this month",
@@ -1128,7 +953,7 @@
         "typescript"
       ],
       "features": [
-        "Trending resmi #4 di GitHub (?since=monthly)",
+        "Trending resmi #3 di GitHub (?since=monthly)",
         "Pertumbuhan pesat: +32,857 stars this month",
         "Ditulis menggunakan bahasa TypeScript"
       ]
@@ -1143,8 +968,8 @@
       "language": "TypeScript",
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "oneSentencePitch": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-      "rank": 5,
-      "totalStars": "117.2k",
+      "rank": 4,
+      "totalStars": "117.3k",
       "starsToday": 17051,
       "starsGrowthText": "+17,051 stars this month",
       "growthRate": "+17,051 stars this month",
@@ -1153,7 +978,7 @@
         "typescript"
       ],
       "features": [
-        "Trending resmi #5 di GitHub (?since=monthly)",
+        "Trending resmi #4 di GitHub (?since=monthly)",
         "Pertumbuhan pesat: +17,051 stars this month",
         "Ditulis menggunakan bahasa TypeScript"
       ]
@@ -1168,7 +993,7 @@
       "language": "Rust",
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "oneSentencePitch": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
-      "rank": 6,
+      "rank": 5,
       "totalStars": "110.5k",
       "starsToday": 29487,
       "starsGrowthText": "+29,487 stars this month",
@@ -1178,7 +1003,7 @@
         "rust"
       ],
       "features": [
-        "Trending resmi #6 di GitHub (?since=monthly)",
+        "Trending resmi #5 di GitHub (?since=monthly)",
         "Pertumbuhan pesat: +29,487 stars this month",
         "Ditulis menggunakan bahasa Rust"
       ]
@@ -1193,8 +1018,8 @@
       "language": "Python",
       "description": "Public repository for Agent Skills",
       "oneSentencePitch": "Public repository for Agent Skills",
-      "rank": 7,
-      "totalStars": "195.0k",
+      "rank": 6,
+      "totalStars": "195.1k",
       "starsToday": 13927,
       "starsGrowthText": "+13,927 stars this month",
       "growthRate": "+13,927 stars this month",
@@ -1203,8 +1028,33 @@
         "python"
       ],
       "features": [
-        "Trending resmi #7 di GitHub (?since=monthly)",
+        "Trending resmi #6 di GitHub (?since=monthly)",
         "Pertumbuhan pesat: +13,927 stars this month",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
+      "id": "gh-hkuds-deeptutor",
+      "name": "DeepTutor",
+      "owner": "HKUDS",
+      "repo": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "category": "Web & Scrapers",
+      "language": "Python",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "oneSentencePitch": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "rank": 7,
+      "totalStars": "59.4k",
+      "starsToday": 18077,
+      "starsGrowthText": "+18,077 stars this month",
+      "growthRate": "+18,077 stars this month",
+      "topics": [
+        "web",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #7 di GitHub (?since=monthly)",
+        "Pertumbuhan pesat: +18,077 stars this month",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -1219,7 +1069,7 @@
       "description": "Write HTML. Render video. Built for agents.",
       "oneSentencePitch": "Write HTML. Render video. Built for agents.",
       "rank": 8,
-      "totalStars": "84.5k",
+      "totalStars": "84.6k",
       "starsToday": 21361,
       "starsGrowthText": "+21,361 stars this month",
       "growthRate": "+21,361 stars this month",
@@ -1234,27 +1084,52 @@
       ]
     },
     {
-      "id": "gh-hkuds-deeptutor",
-      "name": "DeepTutor",
-      "owner": "HKUDS",
-      "repo": "HKUDS/DeepTutor",
-      "url": "https://github.com/HKUDS/DeepTutor",
-      "category": "Web & Scrapers",
+      "id": "gh-sherlock-project-sherlock",
+      "name": "sherlock",
+      "owner": "sherlock-project",
+      "repo": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "category": "Productivity & Media",
       "language": "Python",
-      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
-      "oneSentencePitch": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "description": "Hunt down social media accounts by username across social networks",
+      "oneSentencePitch": "Hunt down social media accounts by username across social networks",
       "rank": 9,
-      "totalStars": "59.4k",
-      "starsToday": 18077,
-      "starsGrowthText": "+18,077 stars this month",
-      "growthRate": "+18,077 stars this month",
+      "totalStars": "112.2k",
+      "starsToday": 18365,
+      "starsGrowthText": "+18,365 stars this month",
+      "growthRate": "+18,365 stars this month",
       "topics": [
-        "web",
+        "productivity",
         "python"
       ],
       "features": [
         "Trending resmi #9 di GitHub (?since=monthly)",
-        "Pertumbuhan pesat: +18,077 stars this month",
+        "Pertumbuhan pesat: +18,365 stars this month",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
+      "id": "gh-agricidaniel-claude-seo",
+      "name": "claude-seo",
+      "owner": "AgriciDaniel",
+      "repo": "AgriciDaniel/claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "category": "AI Agents & LLM",
+      "language": "Python",
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "oneSentencePitch": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "rank": 10,
+      "totalStars": "29.6k",
+      "starsToday": 10402,
+      "starsGrowthText": "+10,402 stars this month",
+      "growthRate": "+10,402 stars this month",
+      "topics": [
+        "ai",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #10 di GitHub (?since=monthly)",
+        "Pertumbuhan pesat: +10,402 stars this month",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -1268,7 +1143,7 @@
       "language": "JavaScript",
       "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
       "oneSentencePitch": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
-      "rank": 10,
+      "rank": 11,
       "totalStars": "115.9k",
       "starsToday": 20043,
       "starsGrowthText": "+20,043 stars this month",
@@ -1278,34 +1153,9 @@
         "javascript"
       ],
       "features": [
-        "Trending resmi #10 di GitHub (?since=monthly)",
+        "Trending resmi #11 di GitHub (?since=monthly)",
         "Pertumbuhan pesat: +20,043 stars this month",
         "Ditulis menggunakan bahasa JavaScript"
-      ]
-    },
-    {
-      "id": "gh-agricidaniel-claude-seo",
-      "name": "claude-seo",
-      "owner": "AgriciDaniel",
-      "repo": "AgriciDaniel/claude-seo",
-      "url": "https://github.com/AgriciDaniel/claude-seo",
-      "category": "AI Agents & LLM",
-      "language": "Python",
-      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
-      "oneSentencePitch": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
-      "rank": 11,
-      "totalStars": "29.5k",
-      "starsToday": 10402,
-      "starsGrowthText": "+10,402 stars this month",
-      "growthRate": "+10,402 stars this month",
-      "topics": [
-        "ai",
-        "python"
-      ],
-      "features": [
-        "Trending resmi #11 di GitHub (?since=monthly)",
-        "Pertumbuhan pesat: +10,402 stars this month",
-        "Ditulis menggunakan bahasa Python"
       ]
     },
     {
@@ -1334,31 +1184,6 @@
       ]
     },
     {
-      "id": "gh-debpalash-voicestudio",
-      "name": "VoiceStudio",
-      "owner": "debpalash",
-      "repo": "debpalash/VoiceStudio",
-      "url": "https://github.com/debpalash/VoiceStudio",
-      "category": "AI Agents & LLM",
-      "language": "Python",
-      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "oneSentencePitch": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-      "rank": 13,
-      "totalStars": "111.0k",
-      "starsToday": 46324,
-      "starsGrowthText": "+46,324 stars this month",
-      "growthRate": "+46,324 stars this month",
-      "topics": [
-        "ai",
-        "python"
-      ],
-      "features": [
-        "Trending resmi #13 di GitHub (?since=monthly)",
-        "Pertumbuhan pesat: +46,324 stars this month",
-        "Ditulis menggunakan bahasa Python"
-      ]
-    },
-    {
       "id": "gh-vincentwei1021-video-shotcraft",
       "name": "video-shotcraft",
       "owner": "Vincentwei1021",
@@ -1368,8 +1193,8 @@
       "language": "TypeScript",
       "description": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
       "oneSentencePitch": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
-      "rank": 14,
-      "totalStars": "19.8k",
+      "rank": 13,
+      "totalStars": "19.9k",
       "starsToday": 7617,
       "starsGrowthText": "+7,617 stars this month",
       "growthRate": "+7,617 stars this month",
@@ -1378,7 +1203,7 @@
         "typescript"
       ],
       "features": [
-        "Trending resmi #14 di GitHub (?since=monthly)",
+        "Trending resmi #13 di GitHub (?since=monthly)",
         "Pertumbuhan pesat: +7,617 stars this month",
         "Ditulis menggunakan bahasa TypeScript"
       ]
@@ -1393,7 +1218,7 @@
       "language": "Rust",
       "description": "Browser automation CLI for AI agents",
       "oneSentencePitch": "Browser automation CLI for AI agents",
-      "rank": 15,
+      "rank": 14,
       "totalStars": "51.4k",
       "starsToday": 7152,
       "starsGrowthText": "+7,152 stars this month",
@@ -1403,7 +1228,7 @@
         "rust"
       ],
       "features": [
-        "Trending resmi #15 di GitHub (?since=monthly)",
+        "Trending resmi #14 di GitHub (?since=monthly)",
         "Pertumbuhan pesat: +7,152 stars this month",
         "Ditulis menggunakan bahasa Rust"
       ]
