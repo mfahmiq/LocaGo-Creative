@@ -1,6 +1,6 @@
 {
-  "updatedAt": "15 Nov 2026, 08:28 WIB",
-  "total": 420,
+  "updatedAt": "15 Nov 2026, 08:58 WIB",
+  "total": 421,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-surfsense",
+      "name": "SurfSense",
+      "category": "Web & Scrapers",
+      "pricingType": "Freemium",
+      "tagline": "SurfSense - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "A tool to build AI knowledge bases from documents.",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/surfsense.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://github.com/MODSetter/SurfSense"
     },
     {
       "id": "ai-hostinger",
