@@ -1,6 +1,6 @@
 {
-  "updatedAt": "15 Nov 2026, 20:01 WIB",
-  "total": 443,
+  "updatedAt": "15 Nov 2026, 20:31 WIB",
+  "total": 444,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-ad-agency",
+      "name": "Ad Agency",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Ad Agency - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to create ads for multiple platforms.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/ad-agency.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://adagency.app"
     },
     {
       "id": "ai-omnibox",
