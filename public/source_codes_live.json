@@ -1,7 +1,65 @@
 {
-  "updatedAt": "15 Nov 2026, 09:15 WIB",
-  "total": 60,
+  "updatedAt": "15 Nov 2026, 09:16 WIB",
+  "total": 61,
   "items": [
+    {
+      "id": "sc-71",
+      "title": "Pharmacy Store Management System - Pharmacy Management System Laravel",
+      "slug": "pharmacy-management-system-laravel",
+      "category": "Kesehatan & Medis",
+      "techStack": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Pharmacy Management System implemented in Laravel and a MySQL database\n\nProyek riil open-source asli dari GitHub (https://github.com/MartinKalema/Pharmacy-Management-System-Laravel). Dilengkapi file database lengkap (vendor/laravel/sail/database/pgsql/create-testing-database.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Pharmacy Store Management System - Pharmacy Management System Laravel dengan database vendor/laravel/sail/database/pgsql/create-testing-database.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/pharmacy-management-system-laravel/screenshot_1.webp",
+        "/screenshots/pharmacy-management-system-laravel/screenshot_2.webp",
+        "/screenshots/pharmacy-management-system-laravel/screenshot_3.webp",
+        "/screenshots/pharmacy-management-system-laravel/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "15 November 2026",
+      "releaseDate": "15 November 2026",
+      "recentFastDownloads": 50,
+      "thumbnail": "/screenshots/pharmacy-management-system-laravel/screenshot_1.webp",
+      "downloadsCount": 785,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "34.3 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `pharmacy-management-system-laravel.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `vendor/laravel/sail/database/pgsql/create-testing-database.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/pharmacy-management-system-laravel` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (MartinKalema/Pharmacy-Management-System-Laravel) dengan source code lengkap",
+        "Disertai database asli (vendor/laravel/sail/database/pgsql/create-testing-database.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=pharmacy-management-system-laravel&step=1&max=8",
+      "downloadUrlFast": "/downloads/pharmacy-management-system-laravel.zip",
+      "driveUrl": "https://drive.google.com/file/d/1Z0Q1K-LaLKVwZ_gOnzU1qy1t9PhlVr9p/view?usp=drivesdk",
+      "githubRepo": "https://github.com/MartinKalema/Pharmacy-Management-System-Laravel",
+      "stars": 2
+    },
     {
       "id": "sc-70",
       "title": "Comprehensive School Management System - Opensis Classic",
