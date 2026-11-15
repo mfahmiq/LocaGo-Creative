@@ -1,6 +1,6 @@
 {
-  "updatedAt": "15 Nov 2026, 09:59 WIB",
-  "total": 423,
+  "updatedAt": "15 Nov 2026, 10:29 WIB",
+  "total": 424,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-lyruno",
+      "name": "LyRuno",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "LyRuno - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "A tool to isolate dialogue, effects, and music from mixed audio in movies and other content.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/lyruno.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://lyruno.com"
     },
     {
       "id": "ai-functionize",
