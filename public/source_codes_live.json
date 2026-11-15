@@ -1,7 +1,65 @@
 {
-  "updatedAt": "15 Nov 2026, 06:14 WIB",
-  "total": 55,
+  "updatedAt": "15 Nov 2026, 07:13 WIB",
+  "total": 56,
   "items": [
+    {
+      "id": "sc-66",
+      "title": "Sistem Informasi Perpustakaan - Aplikasi Pengunjung Perpustakaan",
+      "slug": "aplikasi-pengunjung-perpustakaan",
+      "category": "Pendidikan & Akademik",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "aplikasi pengunjung perpustakaan\n\nProyek riil open-source asli dari GitHub (https://github.com/erickirwansyah5/aplikasi_pengunjung_perpustakaan). Dilengkapi file database lengkap (database/bukutamu.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Informasi Perpustakaan - Aplikasi Pengunjung Perpustakaan dengan database database/bukutamu.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/aplikasi-pengunjung-perpustakaan/screenshot_1.webp",
+        "/screenshots/aplikasi-pengunjung-perpustakaan/screenshot_2.webp",
+        "/screenshots/aplikasi-pengunjung-perpustakaan/screenshot_3.webp",
+        "/screenshots/aplikasi-pengunjung-perpustakaan/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "15 November 2026",
+      "releaseDate": "15 November 2026",
+      "recentFastDownloads": 49,
+      "thumbnail": "/screenshots/aplikasi-pengunjung-perpustakaan/screenshot_1.webp",
+      "downloadsCount": 816,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "2.2 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `aplikasi-pengunjung-perpustakaan.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `database/bukutamu.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/aplikasi-pengunjung-perpustakaan` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (erickirwansyah5/aplikasi_pengunjung_perpustakaan) dengan source code lengkap",
+        "Disertai database asli (database/bukutamu.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=aplikasi-pengunjung-perpustakaan&step=1&max=8",
+      "downloadUrlFast": "/downloads/aplikasi-pengunjung-perpustakaan.zip",
+      "driveUrl": "https://drive.google.com/file/d/1mYeh0ZljjatpBWbyNf9IROOS0k5JdQn4/view?usp=drivesdk",
+      "githubRepo": "https://github.com/erickirwansyah5/aplikasi_pengunjung_perpustakaan",
+      "stars": 8
+    },
     {
       "id": "sc-65",
       "title": "Pharmacy Store Management System - Medicine Store",
