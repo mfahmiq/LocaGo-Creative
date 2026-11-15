@@ -1,6 +1,6 @@
 {
-  "updatedAt": "16 Nov 2026, 00:02 WIB",
-  "total": 451,
+  "updatedAt": "16 Nov 2026, 00:32 WIB",
+  "total": 452,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-flyploy",
+      "name": "FlyPloy",
+      "category": "Agentic Automation",
+      "pricingType": "Paid",
+      "tagline": "FlyPloy - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "A tool to deploy and manage apps across clouds.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/flyploy.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://flyploy.com"
     },
     {
       "id": "ai-embedai",
