@@ -1,6 +1,6 @@
 {
-  "updatedAt": "16 Nov 2026, 06:04 WIB",
-  "total": 463,
+  "updatedAt": "16 Nov 2026, 06:34 WIB",
+  "total": 464,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-shortmotion",
+      "name": "ShortMotion",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "ShortMotion - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "An iOS app for creating and editing stop motion animations.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/shortmotion.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://apps.apple.com/us/app/shortmotion-animation-editor/id6752915446"
     },
     {
       "id": "ai-agenta",
