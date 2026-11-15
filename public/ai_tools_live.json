@@ -1,6 +1,6 @@
 {
-  "updatedAt": "15 Nov 2026, 06:58 WIB",
-  "total": 417,
+  "updatedAt": "15 Nov 2026, 07:28 WIB",
+  "total": 418,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-skulaunch",
+      "name": "SKULaunch",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "SKULaunch - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "A tool for product data management and retail catalog operations.",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/skulaunch.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://skulaunch.com"
     },
     {
       "id": "ai-drawer-ai",
