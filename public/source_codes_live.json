@@ -1,7 +1,65 @@
 {
-  "updatedAt": "15 Nov 2026, 21:29 WIB",
-  "total": 83,
+  "updatedAt": "15 Nov 2026, 22:16 WIB",
+  "total": 84,
   "items": [
+    {
+      "id": "sc-94",
+      "title": "Pharmacy Store Management System - Hospital Pharmacy Management System",
+      "slug": "hospital-pharmacy-management-system",
+      "category": "Kesehatan & Medis",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Pharmacy Management System is a web-based application implemented in PHP using MySQL as the database. This project is developed for medical stores to manage different inventories and items, customers’ and suppliers’ details as well as staffs (cashiers, managers, and pharmacists) working in the store.\n\nProyek riil open-source asli dari GitHub (https://github.com/yashpratapsoni/Hospital-Pharmacy-Management-System). Dilengkapi file database lengkap (pharmacy.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Pharmacy Store Management System - Hospital Pharmacy Management System dengan database pharmacy.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/hospital-pharmacy-management-system/screenshot_1.webp",
+        "/screenshots/hospital-pharmacy-management-system/screenshot_2.webp",
+        "/screenshots/hospital-pharmacy-management-system/screenshot_3.webp",
+        "/screenshots/hospital-pharmacy-management-system/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "15 November 2026",
+      "releaseDate": "15 November 2026",
+      "recentFastDownloads": 57,
+      "thumbnail": "/screenshots/hospital-pharmacy-management-system/screenshot_1.webp",
+      "downloadsCount": 1038,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "13.4 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `hospital-pharmacy-management-system.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `pharmacy.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/hospital-pharmacy-management-system` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (yashpratapsoni/Hospital-Pharmacy-Management-System) dengan source code lengkap",
+        "Disertai database asli (pharmacy.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=hospital-pharmacy-management-system&step=1&max=8",
+      "downloadUrlFast": "/downloads/hospital-pharmacy-management-system.zip",
+      "driveUrl": "https://drive.google.com/file/d/1wZqRD7BRNHUW0ULT87NteGd2U0e2au5y/view?usp=drivesdk",
+      "githubRepo": "https://github.com/yashpratapsoni/Hospital-Pharmacy-Management-System",
+      "stars": 2
+    },
     {
       "id": "sc-93",
       "title": "Warehouse & Inventory Management System - Warehouse Inventory System",
