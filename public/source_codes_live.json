@@ -1,7 +1,65 @@
 {
-  "updatedAt": "15 Nov 2026, 02:14 WIB",
-  "total": 47,
+  "updatedAt": "15 Nov 2026, 03:08 WIB",
+  "total": 48,
   "items": [
+    {
+      "id": "sc-58",
+      "title": "Sistem Pakar Diagnosa - Sikar Forwardchaining",
+      "slug": "sikar-forwardchaining",
+      "category": "Kecerdasan Buatan & SPK",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Sistem Pakar Diagnosa Tanaman Sayur berbasis web dengan FUZZY LOGIC\n\nProyek riil open-source asli dari GitHub (https://github.com/acchoblues/SIKAR-FORWARDCHAINING). Dilengkapi file database lengkap (sikar_free/DB/Record sikar/record solusi.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Pakar Diagnosa - Sikar Forwardchaining dengan database sikar_free/DB/Record sikar/record solusi.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/sikar-forwardchaining/screenshot_1.webp",
+        "/screenshots/sikar-forwardchaining/screenshot_2.webp",
+        "/screenshots/sikar-forwardchaining/screenshot_3.webp",
+        "/screenshots/sikar-forwardchaining/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "15 November 2026",
+      "releaseDate": "15 November 2026",
+      "recentFastDownloads": 51,
+      "thumbnail": "/screenshots/sikar-forwardchaining/screenshot_1.webp",
+      "downloadsCount": 669,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "66.9 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `sikar-forwardchaining.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `sikar_free/DB/Record sikar/record solusi.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/sikar-forwardchaining` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (acchoblues/SIKAR-FORWARDCHAINING) dengan source code lengkap",
+        "Disertai database asli (sikar_free/DB/Record sikar/record solusi.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=sikar-forwardchaining&step=1&max=8",
+      "downloadUrlFast": "/downloads/sikar-forwardchaining.zip",
+      "driveUrl": "https://drive.google.com/file/d/18pbTk-i4j2ZgM0BYhvjVkyg2gB_qaM1k/view?usp=drivesdk",
+      "githubRepo": "https://github.com/acchoblues/SIKAR-FORWARDCHAINING",
+      "stars": 18
+    },
     {
       "id": "sc-57",
       "title": "Sistem Informasi Rental Kendaraan - Rental Mobil",
