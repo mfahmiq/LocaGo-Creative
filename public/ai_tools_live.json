@@ -1,6 +1,6 @@
 {
-  "updatedAt": "15 Nov 2026, 11:59 WIB",
-  "total": 427,
+  "updatedAt": "15 Nov 2026, 12:29 WIB",
+  "total": 428,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-astron-agent",
+      "name": "Astron Agent",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Astron Agent - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "A tool to build, run, and scale AI-driven agentic workflows for cross-system processes.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/astron-agent.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://github.com/iflytek/astron-agent"
     },
     {
       "id": "ai-cubeo-ai",
