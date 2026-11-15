@@ -1,7 +1,65 @@
 {
-  "updatedAt": "15 Nov 2026, 05:14 WIB",
-  "total": 53,
+  "updatedAt": "15 Nov 2026, 06:12 WIB",
+  "total": 54,
   "items": [
+    {
+      "id": "sc-64",
+      "title": "Aplikasi Ujian Online CBT & E-Learning - Cat",
+      "slug": "cat",
+      "category": "Pendidikan & Akademik",
+      "techStack": [
+        "CodeIgniter",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Aplikasi Ujian Online berbasis Web / CAT\n\nProyek riil open-source asli dari GitHub (https://github.com/yusuffakhruddin/cat). Dilengkapi file database lengkap (db_cat.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Aplikasi Ujian Online CBT & E-Learning - Cat dengan database db_cat.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/cat/screenshot_1.webp",
+        "/screenshots/cat/screenshot_2.webp",
+        "/screenshots/cat/screenshot_3.webp",
+        "/screenshots/cat/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "15 November 2026",
+      "releaseDate": "15 November 2026",
+      "recentFastDownloads": 49,
+      "thumbnail": "/screenshots/cat/screenshot_1.webp",
+      "downloadsCount": 1072,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "973 KB",
+      "tutorialSteps": [
+        "Ekstrak berkas `cat.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `db_cat.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/cat` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (yusuffakhruddin/cat) dengan source code lengkap",
+        "Disertai database asli (db_cat.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=cat&step=1&max=8",
+      "downloadUrlFast": "/downloads/cat.zip",
+      "driveUrl": "https://drive.google.com/file/d/112aplt9_squ3QwzFHizG4T6c-MzwQ45N/view?usp=drivesdk",
+      "githubRepo": "https://github.com/yusuffakhruddin/cat",
+      "stars": 14
+    },
     {
       "id": "sc-63",
       "title": "Aplikasi Penggajian Karyawan & Payroll - Latihan Aplikasi Penggajian",
