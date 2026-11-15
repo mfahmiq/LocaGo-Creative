@@ -1,6 +1,6 @@
 {
-  "updatedAt": "15 Nov 2026, 16:30 WIB",
-  "total": 436,
+  "updatedAt": "15 Nov 2026, 17:00 WIB",
+  "total": 437,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-brandbeacon",
+      "name": "BrandBeacon",
+      "category": "Web & Scrapers",
+      "pricingType": "Free",
+      "tagline": "BrandBeacon - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "A tool to track brand mentions and visibility in AI search platforms.",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/brandbeacon.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.brandbeacon.ai"
     },
     {
       "id": "ai-potions",
