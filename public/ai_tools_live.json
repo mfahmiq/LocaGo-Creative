@@ -1,6 +1,6 @@
 {
-  "updatedAt": "16 Nov 2026, 04:33 WIB",
-  "total": 460,
+  "updatedAt": "16 Nov 2026, 05:03 WIB",
+  "total": 461,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-thread-deck",
+      "name": "Thread Deck",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Thread Deck - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "A canvas-first workspace that connects notes, prompts, personas, and AI outputs for collaborative ideation.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/thread-deck.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.usethreaddeck.com"
     },
     {
       "id": "ai-coopa-ai",
