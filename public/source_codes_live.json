@@ -1,7 +1,64 @@
 {
-  "updatedAt": "15 Nov 2026, 16:24 WIB",
-  "total": 74,
+  "updatedAt": "15 Nov 2026, 17:15 WIB",
+  "total": 75,
   "items": [
+    {
+      "id": "sc-85",
+      "title": "Sistem Point of Sale Modern - Php Point Of Sale",
+      "slug": "php-point-of-sale",
+      "category": "Kasir & Point of Sale (POS)",
+      "techStack": [
+        "CodeIgniter",
+        "PHP",
+        "MySQL"
+      ],
+      "description": "PHP Point Of Sale (POS) is designed to help small businesses with keeping track of customers, items and inventory, and generate reports based on sales. This program works great for businesses that use cash, check, or account numbers for their sales. \n\nProyek riil open-source asli dari GitHub (https://github.com/deenseth/PHP-Point-Of-Sale). Dilengkapi file database lengkap (database/database.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Point of Sale Modern - Php Point Of Sale dengan database database/database.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/php-point-of-sale/screenshot_1.webp",
+        "/screenshots/php-point-of-sale/screenshot_2.webp",
+        "/screenshots/php-point-of-sale/screenshot_3.webp",
+        "/screenshots/php-point-of-sale/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "15 November 2026",
+      "releaseDate": "15 November 2026",
+      "recentFastDownloads": 62,
+      "thumbnail": "/screenshots/php-point-of-sale/screenshot_1.webp",
+      "downloadsCount": 1025,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "824 KB",
+      "tutorialSteps": [
+        "Ekstrak berkas `php-point-of-sale.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `database/database.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/php-point-of-sale` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (deenseth/PHP-Point-Of-Sale) dengan source code lengkap",
+        "Disertai database asli (database/database.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=php-point-of-sale&step=1&max=8",
+      "downloadUrlFast": "/downloads/php-point-of-sale.zip",
+      "driveUrl": "https://drive.google.com/file/d/1CST2lsdl00wrxGFk5Fr9WfvxXaZTfUbk/view?usp=drivesdk",
+      "githubRepo": "https://github.com/deenseth/PHP-Point-Of-Sale",
+      "stars": 400
+    },
     {
       "id": "sc-84",
       "title": "Toko Online E-Commerce Siap Pakai - E Commerce Opentrip",
