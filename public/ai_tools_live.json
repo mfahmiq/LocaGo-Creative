@@ -1,6 +1,6 @@
 {
-  "updatedAt": "15 Nov 2026, 13:30 WIB",
-  "total": 430,
+  "updatedAt": "15 Nov 2026, 14:00 WIB",
+  "total": 431,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-chronicle",
+      "name": "Chronicle",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Chronicle - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "A tool to generate presentations without requiring design skills.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/chronicle.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://chroniclehq.com"
     },
     {
       "id": "ai-kuse-ai",
