@@ -1,7 +1,65 @@
 {
-  "updatedAt": "15 Nov 2026, 14:15 WIB",
-  "total": 69,
+  "updatedAt": "15 Nov 2026, 14:21 WIB",
+  "total": 70,
   "items": [
+    {
+      "id": "sc-80",
+      "title": "Aplikasi Penggajian Karyawan & Payroll - Aplpenggajian",
+      "slug": "aplpenggajian",
+      "category": "HRD & Keuangan",
+      "techStack": [
+        "CodeIgniter",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "aplikasi penggajian berbasis web\n\nProyek riil open-source asli dari GitHub (https://github.com/arip1933/aplpenggajian). Dilengkapi file database lengkap (aplpenggajian.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Aplikasi Penggajian Karyawan & Payroll - Aplpenggajian dengan database aplpenggajian.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/aplpenggajian/screenshot_1.webp",
+        "/screenshots/aplpenggajian/screenshot_2.webp",
+        "/screenshots/aplpenggajian/screenshot_3.webp",
+        "/screenshots/aplpenggajian/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "15 November 2026",
+      "releaseDate": "15 November 2026",
+      "recentFastDownloads": 60,
+      "thumbnail": "/screenshots/aplpenggajian/screenshot_1.webp",
+      "downloadsCount": 712,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "8.8 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `aplpenggajian.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `aplpenggajian.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/aplpenggajian` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (arip1933/aplpenggajian) dengan source code lengkap",
+        "Disertai database asli (aplpenggajian.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=aplpenggajian&step=1&max=8",
+      "downloadUrlFast": "/downloads/aplpenggajian.zip",
+      "driveUrl": "https://drive.google.com/file/d/1L3MO84iCUfXvJvWRafDBLqdKJUNSQaKy/view?usp=drivesdk",
+      "githubRepo": "https://github.com/arip1933/aplpenggajian",
+      "stars": 1
+    },
     {
       "id": "sc-79",
       "title": "Comprehensive School Management System - School Management System Php",
