@@ -1,6 +1,6 @@
 {
-  "updatedAt": "15 Nov 2026, 20:31 WIB",
-  "total": 444,
+  "updatedAt": "15 Nov 2026, 21:01 WIB",
+  "total": 445,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-aview",
+      "name": "Aview",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "Aview - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "A platform that translates and digital content into multiple languages while preserving creator authenticity.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/aview.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://aviewint.com"
     },
     {
       "id": "ai-ad-agency",
