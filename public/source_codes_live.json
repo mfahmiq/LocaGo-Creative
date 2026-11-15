@@ -1,7 +1,64 @@
 {
-  "updatedAt": "15 Nov 2026, 12:19 WIB",
-  "total": 66,
+  "updatedAt": "15 Nov 2026, 13:15 WIB",
+  "total": 67,
   "items": [
+    {
+      "id": "sc-77",
+      "title": "Toko Online E-Commerce Siap Pakai - Aplikasiecommercesparepartkomputer",
+      "slug": "aplikasiecommercesparepartkomputer",
+      "category": "Toko Online & E-Commerce",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL"
+      ],
+      "description": "Aplikasi E-Commerce Penjualan Spare Part Komputer (PHP, MySQL, CMS Toko Lokomedia) dari \n\nProyek riil open-source asli dari GitHub (https://github.com/ondrong/AplikasiECommerceSparePartKomputer). Dilengkapi file database lengkap (dbgemakom.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Toko Online E-Commerce Siap Pakai - Aplikasiecommercesparepartkomputer dengan database dbgemakom.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/aplikasiecommercesparepartkomputer/screenshot_1.webp",
+        "/screenshots/aplikasiecommercesparepartkomputer/screenshot_2.webp",
+        "/screenshots/aplikasiecommercesparepartkomputer/screenshot_3.webp",
+        "/screenshots/aplikasiecommercesparepartkomputer/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "15 November 2026",
+      "releaseDate": "15 November 2026",
+      "recentFastDownloads": 89,
+      "thumbnail": "/screenshots/aplikasiecommercesparepartkomputer/screenshot_1.webp",
+      "downloadsCount": 520,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "1.9 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `aplikasiecommercesparepartkomputer.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `dbgemakom.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/aplikasiecommercesparepartkomputer` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (ondrong/AplikasiECommerceSparePartKomputer) dengan source code lengkap",
+        "Disertai database asli (dbgemakom.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=aplikasiecommercesparepartkomputer&step=1&max=8",
+      "downloadUrlFast": "/downloads/aplikasiecommercesparepartkomputer.zip",
+      "driveUrl": "https://drive.google.com/file/d/1iz3zHRzduGxrY1o99JgC9zJYcgWnewyi/view?usp=drivesdk",
+      "githubRepo": "https://github.com/ondrong/AplikasiECommerceSparePartKomputer",
+      "stars": 3
+    },
     {
       "id": "sc-76",
       "title": "Aplikasi Ujian Online CBT & E-Learning - Ujian Online Siswa",
