@@ -1,7 +1,65 @@
 {
-  "updatedAt": "15 Nov 2026, 00:04 WIB",
-  "total": 43,
+  "updatedAt": "15 Nov 2026, 00:13 WIB",
+  "total": 44,
   "items": [
+    {
+      "id": "sc-54",
+      "title": "Aplikasi Kasir POS & Manajemen Penjualan - Pos Ci",
+      "slug": "pos-ci",
+      "category": "Kasir & Point of Sale (POS)",
+      "techStack": [
+        "CodeIgniter",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Aplikasi Kasir menggunakan Codeigniter\n\nProyek riil open-source asli dari GitHub (https://github.com/asrul10/POS_CI). Dilengkapi file database lengkap (myigniter.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Aplikasi Kasir POS & Manajemen Penjualan - Pos Ci dengan database myigniter.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/pos-ci/screenshot_1.webp",
+        "/screenshots/pos-ci/screenshot_2.webp",
+        "/screenshots/pos-ci/screenshot_3.webp",
+        "/screenshots/pos-ci/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "15 November 2026",
+      "releaseDate": "15 November 2026",
+      "recentFastDownloads": 63,
+      "thumbnail": "/screenshots/pos-ci/screenshot_1.webp",
+      "downloadsCount": 1175,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "1.2 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `pos-ci.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `myigniter.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/pos-ci` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (asrul10/POS_CI) dengan source code lengkap",
+        "Disertai database asli (myigniter.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=pos-ci&step=1&max=8",
+      "downloadUrlFast": "/downloads/pos-ci.zip",
+      "driveUrl": "https://drive.google.com/file/d/1-z8tBKZhWQjrVjyf4KnCQBhaSvyUmolg/view?usp=drivesdk",
+      "githubRepo": "https://github.com/asrul10/POS_CI",
+      "stars": 11
+    },
     {
       "id": "sc-53",
       "title": "Sistem Informasi Perpustakaan - Digilib",
