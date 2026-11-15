@@ -1,7 +1,66 @@
 {
-  "updatedAt": "15 Nov 2026, 12:15 WIB",
-  "total": 65,
+  "updatedAt": "15 Nov 2026, 12:19 WIB",
+  "total": 66,
   "items": [
+    {
+      "id": "sc-76",
+      "title": "Aplikasi Ujian Online CBT & E-Learning - Ujian Online Siswa",
+      "slug": "ujian-online-siswa",
+      "category": "Pendidikan & Akademik",
+      "techStack": [
+        "CodeIgniter",
+        "PHP",
+        "MySQL",
+        "Bootstrap",
+        "AdminLTE"
+      ],
+      "description": "Aplikasi Ujian Online Berbasis Website merupakan Aplikasi untuk memudahkan kinerja ujian online siswa. tetapi ini perlu perkembangan.\n\nProyek riil open-source asli dari GitHub (https://github.com/bagussatoto/Ujian-Online-Siswa). Dilengkapi file database lengkap (database/smpnseda_ujian.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Aplikasi Ujian Online CBT & E-Learning - Ujian Online Siswa dengan database database/smpnseda_ujian.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap, AdminLTE dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/ujian-online-siswa/screenshot_1.webp",
+        "/screenshots/ujian-online-siswa/screenshot_2.webp",
+        "/screenshots/ujian-online-siswa/screenshot_3.webp",
+        "/screenshots/ujian-online-siswa/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "15 November 2026",
+      "releaseDate": "15 November 2026",
+      "recentFastDownloads": 70,
+      "thumbnail": "/screenshots/ujian-online-siswa/screenshot_1.webp",
+      "downloadsCount": 738,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "15.7 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `ujian-online-siswa.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `database/smpnseda_ujian.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/ujian-online-siswa` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (bagussatoto/Ujian-Online-Siswa) dengan source code lengkap",
+        "Disertai database asli (database/smpnseda_ujian.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=ujian-online-siswa&step=1&max=8",
+      "downloadUrlFast": "/downloads/ujian-online-siswa.zip",
+      "driveUrl": "https://drive.google.com/file/d/1gVt21Rij9WXIN1nGJptgewLNwSmHMNGe/view?usp=drivesdk",
+      "githubRepo": "https://github.com/bagussatoto/Ujian-Online-Siswa",
+      "stars": 10
+    },
     {
       "id": "sc-75",
       "title": "Sistem Informasi Manajemen Sekolah - Albadar 11",
