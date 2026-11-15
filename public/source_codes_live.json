@@ -1,7 +1,66 @@
 {
-  "updatedAt": "15 Nov 2026, 15:22 WIB",
-  "total": 72,
+  "updatedAt": "15 Nov 2026, 16:16 WIB",
+  "total": 73,
   "items": [
+    {
+      "id": "sc-83",
+      "title": "Sistem Informasi Klinik & Rekam Medis - Skincare",
+      "slug": "skincare",
+      "category": "Kesehatan & Medis",
+      "techStack": [
+        "CodeIgniter",
+        "PHP",
+        "MySQL",
+        "Bootstrap",
+        "AdminLTE"
+      ],
+      "description": "aplikasi klinik kecantikan\n\nProyek riil open-source asli dari GitHub (https://github.com/rootSectornet/skincare). Dilengkapi file database lengkap (klinik(3).sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Informasi Klinik & Rekam Medis - Skincare dengan database klinik(3).sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap, AdminLTE dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/skincare/screenshot_1.webp",
+        "/screenshots/skincare/screenshot_2.webp",
+        "/screenshots/skincare/screenshot_3.webp",
+        "/screenshots/skincare/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "15 November 2026",
+      "releaseDate": "15 November 2026",
+      "recentFastDownloads": 92,
+      "thumbnail": "/screenshots/skincare/screenshot_1.webp",
+      "downloadsCount": 450,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "41.0 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `skincare.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `klinik(3).sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/skincare` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (rootSectornet/skincare) dengan source code lengkap",
+        "Disertai database asli (klinik(3).sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=skincare&step=1&max=8",
+      "downloadUrlFast": "/downloads/skincare.zip",
+      "driveUrl": "https://drive.google.com/file/d/1S6r9r_P0dQMCaUbZR2bpYYFNrMGolbPG/view?usp=drivesdk",
+      "githubRepo": "https://github.com/rootSectornet/skincare",
+      "stars": 1
+    },
     {
       "id": "sc-82",
       "title": "Sistem Informasi Klinik & Rekam Medis - Simrs Medicca",
