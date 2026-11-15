@@ -1,6 +1,6 @@
 {
-  "updatedAt": "15 Nov 2026, 15:00 WIB",
-  "total": 433,
+  "updatedAt": "15 Nov 2026, 15:30 WIB",
+  "total": 434,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-smallest-ai",
+      "name": "Smallest.ai",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Smallest.ai - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "A tool with ultra-low latency text-to-speech and AI voice agents for conversational applications.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/smallest-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://smallest.ai"
     },
     {
       "id": "ai-questdash",
