@@ -1,7 +1,65 @@
 {
-  "updatedAt": "15 Nov 2026, 09:16 WIB",
-  "total": 61,
+  "updatedAt": "15 Nov 2026, 10:15 WIB",
+  "total": 62,
   "items": [
+    {
+      "id": "sc-72",
+      "title": "Hospital & Patient Management System - Hospital Admin Management System Application",
+      "slug": "hospital-admin-management-system-application",
+      "category": "Kesehatan & Medis",
+      "techStack": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "In this Hospital Admin Management system we have multi auth login system for doctor and admin and  doctor and receptionist can manage their work and data regarding patient appointment and patient data and also whole information about hospital work. In this application i have used some really good functionalities and features like chart representation of data , fully authenticated sessions for login system and all the required crud operations and gmail smtp integration for mail message communication between doctor,patient and receptionist and all other required features are there. it's very detailed and flexible SaaS based application. for frontend  HTML css javascript , bootstrap nd other important libraries are used and for backend i have used  php Laravel framework and now i am loving it and for Databse i have used MySQL.\n\nProyek riil open-source asli dari GitHub (https://github.com/HarsH-OhM/Hospital-Admin-Management-System-Application). Dilengkapi file database lengkap (laravel_admin.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Hospital & Patient Management System - Hospital Admin Management System Application dengan database laravel_admin.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/hospital-admin-management-system-application/screenshot_1.webp",
+        "/screenshots/hospital-admin-management-system-application/screenshot_2.webp",
+        "/screenshots/hospital-admin-management-system-application/screenshot_3.webp",
+        "/screenshots/hospital-admin-management-system-application/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "15 November 2026",
+      "releaseDate": "15 November 2026",
+      "recentFastDownloads": 70,
+      "thumbnail": "/screenshots/hospital-admin-management-system-application/screenshot_1.webp",
+      "downloadsCount": 640,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "2.8 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `hospital-admin-management-system-application.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `laravel_admin.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/hospital-admin-management-system-application` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (HarsH-OhM/Hospital-Admin-Management-System-Application) dengan source code lengkap",
+        "Disertai database asli (laravel_admin.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=hospital-admin-management-system-application&step=1&max=8",
+      "downloadUrlFast": "/downloads/hospital-admin-management-system-application.zip",
+      "driveUrl": "https://drive.google.com/file/d/1KstWSxlTMnS_70s8RP0O0EK6fHfnlE9I/view?usp=drivesdk",
+      "githubRepo": "https://github.com/HarsH-OhM/Hospital-Admin-Management-System-Application",
+      "stars": 37
+    },
     {
       "id": "sc-71",
       "title": "Pharmacy Store Management System - Pharmacy Management System Laravel",
