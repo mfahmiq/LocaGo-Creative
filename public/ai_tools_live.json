@@ -1,6 +1,6 @@
 {
-  "updatedAt": "15 Nov 2026, 19:01 WIB",
-  "total": 441,
+  "updatedAt": "15 Nov 2026, 19:31 WIB",
+  "total": 442,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-nrev-ai",
+      "name": "Nrev AI",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "Nrev AI - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "A tool to automate go-to-market workflows and revenue operations.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/nrev-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.nrev.ai"
     },
     {
       "id": "ai-mixels-ai",
