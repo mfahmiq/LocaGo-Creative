@@ -1,6 +1,6 @@
 {
-  "updatedAt": "15 Nov 2026, 12:29 WIB",
-  "total": 428,
+  "updatedAt": "15 Nov 2026, 12:59 WIB",
+  "total": 429,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-verbacall",
+      "name": "Verbacall",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Verbacall - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "A platform that automatically answers, qualifies, and follows up on calls 24/7.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/verbacall.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.verbacall.com"
     },
     {
       "id": "ai-astron-agent",
