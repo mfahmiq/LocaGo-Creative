@@ -1,6 +1,6 @@
 {
-  "updatedAt": "15 Nov 2026, 12:59 WIB",
-  "total": 429,
+  "updatedAt": "15 Nov 2026, 13:30 WIB",
+  "total": 430,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-kuse-ai",
+      "name": "KUSE AI",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "KUSE AI - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to organize information and create structured collaborative workspaces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/kuse-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://kuse.ai"
     },
     {
       "id": "ai-verbacall",
