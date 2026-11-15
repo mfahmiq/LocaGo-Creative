@@ -1,7 +1,64 @@
 {
-  "updatedAt": "15 Nov 2026, 01:14 WIB",
-  "total": 45,
+  "updatedAt": "15 Nov 2026, 02:06 WIB",
+  "total": 46,
   "items": [
+    {
+      "id": "sc-56",
+      "title": "Pharmacy Store Management System - Haramaya Pharma",
+      "slug": "haramaya-pharma",
+      "category": "Kesehatan & Medis",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL"
+      ],
+      "description": "Haramaya Pharmacy Management System is A responsive pharmacy management system built with PHP and MySQL. It supports inventory tracking with FEFO, point of sale operations, user role management, reporting, and strong security practices. Designed for real-world pharmacy workflows with a focus on usability, performance, and compliance.\n\nProyek riil open-source asli dari GitHub (https://github.com/Aflah-Dev/Haramaya-Pharma). Dilengkapi file database lengkap (create_db.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Pharmacy Store Management System - Haramaya Pharma dengan database create_db.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/haramaya-pharma/screenshot_1.webp",
+        "/screenshots/haramaya-pharma/screenshot_2.webp",
+        "/screenshots/haramaya-pharma/screenshot_3.webp",
+        "/screenshots/haramaya-pharma/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "15 November 2026",
+      "releaseDate": "15 November 2026",
+      "recentFastDownloads": 74,
+      "thumbnail": "/screenshots/haramaya-pharma/screenshot_1.webp",
+      "downloadsCount": 794,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "273 KB",
+      "tutorialSteps": [
+        "Ekstrak berkas `haramaya-pharma.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `create_db.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/haramaya-pharma` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (Aflah-Dev/Haramaya-Pharma) dengan source code lengkap",
+        "Disertai database asli (create_db.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=haramaya-pharma&step=1&max=8",
+      "downloadUrlFast": "/downloads/haramaya-pharma.zip",
+      "driveUrl": "https://drive.google.com/file/d/1BFE4rWayYmo-SJs8G4SyYgwEsz4AZuGz/view?usp=drivesdk",
+      "githubRepo": "https://github.com/Aflah-Dev/Haramaya-Pharma",
+      "stars": 3
+    },
     {
       "id": "sc-55",
       "title": "Sistem Manajemen Laundry Kiloan - Oembah Laundry App",
