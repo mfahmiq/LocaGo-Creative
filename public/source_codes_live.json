@@ -1,7 +1,66 @@
 {
-  "updatedAt": "15 Nov 2026, 13:15 WIB",
-  "total": 67,
+  "updatedAt": "15 Nov 2026, 13:20 WIB",
+  "total": 68,
   "items": [
+    {
+      "id": "sc-78",
+      "title": "Warehouse & Inventory Management System - Inventorysystem",
+      "slug": "inventorysystem",
+      "category": "Bisnis & Manajemen",
+      "techStack": [
+        "CodeIgniter",
+        "PHP",
+        "MySQL",
+        "Bootstrap",
+        "AdminLTE"
+      ],
+      "description": "🖥️Create an open-source Inventory Management System using CodeIgniter web framework, Php and MySQL. Original source code from an Online Inventory Management Software found on https://codersfolder.com/2018/02/stock-management-system-v2-codeigniter/.\n\nProyek riil open-source asli dari GitHub (https://github.com/ronknight/InventorySystem). Dilengkapi file database lengkap (stock.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Warehouse & Inventory Management System - Inventorysystem dengan database stock.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap, AdminLTE dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/inventorysystem/screenshot_1.webp",
+        "/screenshots/inventorysystem/screenshot_2.webp",
+        "/screenshots/inventorysystem/screenshot_3.webp",
+        "/screenshots/inventorysystem/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "15 November 2026",
+      "releaseDate": "15 November 2026",
+      "recentFastDownloads": 50,
+      "thumbnail": "/screenshots/inventorysystem/screenshot_1.webp",
+      "downloadsCount": 953,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "28.2 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `inventorysystem.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `stock.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/inventorysystem` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (ronknight/InventorySystem) dengan source code lengkap",
+        "Disertai database asli (stock.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=inventorysystem&step=1&max=8",
+      "downloadUrlFast": "/downloads/inventorysystem.zip",
+      "driveUrl": "https://drive.google.com/file/d/1QJne0XNbiXOF4Tc2PDytQX23Rj3GyvBy/view?usp=drivesdk",
+      "githubRepo": "https://github.com/ronknight/InventorySystem",
+      "stars": 472
+    },
     {
       "id": "sc-77",
       "title": "Toko Online E-Commerce Siap Pakai - Aplikasiecommercesparepartkomputer",
