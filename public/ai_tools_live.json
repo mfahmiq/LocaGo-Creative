@@ -1,6 +1,6 @@
 {
-  "updatedAt": "15 Nov 2026, 17:30 WIB",
-  "total": 438,
+  "updatedAt": "15 Nov 2026, 18:00 WIB",
+  "total": 439,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-sluqe",
+      "name": "Sluqe",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Sluqe - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "A tool that transcribes voice notes and conversations, extracting insights while making content searchable.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/sluqe.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.sluqe.com"
     },
     {
       "id": "ai-rounded",
