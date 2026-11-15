@@ -1,7 +1,65 @@
 {
-  "updatedAt": "15 Nov 2026, 07:14 WIB",
-  "total": 57,
+  "updatedAt": "15 Nov 2026, 08:14 WIB",
+  "total": 58,
   "items": [
+    {
+      "id": "sc-68",
+      "title": "Aplikasi Manajemen Apotek & Obat - Apotek Pos",
+      "slug": "apotek-pos",
+      "category": "Kesehatan & Medis",
+      "techStack": [
+        "CodeIgniter",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Pengembangan aplikasi POS sederhana pada Apotek\n\nProyek riil open-source asli dari GitHub (https://github.com/denisyordanp/Apotek-POS). Dilengkapi file database lengkap (apotek.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Aplikasi Manajemen Apotek & Obat - Apotek Pos dengan database apotek.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/apotek-pos/screenshot_1.webp",
+        "/screenshots/apotek-pos/screenshot_2.webp",
+        "/screenshots/apotek-pos/screenshot_3.webp",
+        "/screenshots/apotek-pos/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "15 November 2026",
+      "releaseDate": "15 November 2026",
+      "recentFastDownloads": 72,
+      "thumbnail": "/screenshots/apotek-pos/screenshot_1.webp",
+      "downloadsCount": 931,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "9.1 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `apotek-pos.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `apotek.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/apotek-pos` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (denisyordanp/Apotek-POS) dengan source code lengkap",
+        "Disertai database asli (apotek.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=apotek-pos&step=1&max=8",
+      "downloadUrlFast": "/downloads/apotek-pos.zip",
+      "driveUrl": "https://drive.google.com/file/d/1-Kf0mtypg3gyv9vxhN0cOcL0atfEeSmL/view?usp=drivesdk",
+      "githubRepo": "https://github.com/denisyordanp/Apotek-POS",
+      "stars": 2
+    },
     {
       "id": "sc-67",
       "title": "Sistem Point of Sale Modern - Opensourcepos",
