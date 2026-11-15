@@ -1,7 +1,65 @@
 {
-  "updatedAt": "15 Nov 2026, 02:06 WIB",
-  "total": 46,
+  "updatedAt": "15 Nov 2026, 02:14 WIB",
+  "total": 47,
   "items": [
+    {
+      "id": "sc-57",
+      "title": "Sistem Informasi Rental Kendaraan - Rental Mobil",
+      "slug": "rental-mobil",
+      "category": "Layanan & Jasa",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Aplikasi manajemen sistem Rental Mobil dengan fitur lengkap dari pemesanan hingga penarikan laporan.\n\nProyek riil open-source asli dari GitHub (https://github.com/abela-a/rental-mobil). Dilengkapi file database lengkap (project_rental.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Informasi Rental Kendaraan - Rental Mobil dengan database project_rental.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/rental-mobil/screenshot_1.webp",
+        "/screenshots/rental-mobil/screenshot_2.webp",
+        "/screenshots/rental-mobil/screenshot_3.webp",
+        "/screenshots/rental-mobil/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "15 November 2026",
+      "releaseDate": "15 November 2026",
+      "recentFastDownloads": 64,
+      "thumbnail": "/screenshots/rental-mobil/screenshot_1.webp",
+      "downloadsCount": 494,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "12.0 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `rental-mobil.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `project_rental.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/rental-mobil` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (abela-a/rental-mobil) dengan source code lengkap",
+        "Disertai database asli (project_rental.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=rental-mobil&step=1&max=8",
+      "downloadUrlFast": "/downloads/rental-mobil.zip",
+      "driveUrl": "https://drive.google.com/file/d/1eW07XQlnTXoYB6On09KEJw36vIYtzeuQ/view?usp=drivesdk",
+      "githubRepo": "https://github.com/abela-a/rental-mobil",
+      "stars": 6
+    },
     {
       "id": "sc-56",
       "title": "Pharmacy Store Management System - Haramaya Pharma",
