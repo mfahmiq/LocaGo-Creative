@@ -1,5 +1,5 @@
 {
-  "updatedAt": "15 Nov 2026, 06:14 WIB",
+  "updatedAt": "15 Nov 2026, 07:14 WIB",
   "total": 15,
   "items": [
     {
@@ -14,16 +14,16 @@
       "oneSentencePitch": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "rank": 1,
       "totalStars": "11.1k",
-      "starsToday": 412,
-      "starsGrowthText": "+412 stars today",
-      "growthRate": "+412 stars today",
+      "starsToday": 408,
+      "starsGrowthText": "+408 stars today",
+      "growthRate": "+408 stars today",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #1 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +412 stars today",
+        "Pertumbuhan pesat: +408 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -39,16 +39,16 @@
       "oneSentencePitch": "Keep your coding agent up to date with the latest web best practices",
       "rank": 2,
       "totalStars": "6.0k",
-      "starsToday": 1225,
-      "starsGrowthText": "+1,225 stars today",
-      "growthRate": "+1,225 stars today",
+      "starsToday": 1231,
+      "starsGrowthText": "+1,231 stars today",
+      "growthRate": "+1,231 stars today",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #2 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +1,225 stars today",
+        "Pertumbuhan pesat: +1,231 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -64,16 +64,16 @@
       "oneSentencePitch": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "rank": 3,
       "totalStars": "4.8k",
-      "starsToday": 556,
-      "starsGrowthText": "+556 stars today",
-      "growthRate": "+556 stars today",
+      "starsToday": 553,
+      "starsGrowthText": "+553 stars today",
+      "growthRate": "+553 stars today",
       "topics": [
         "ai",
         "python"
       ],
       "features": [
         "Trending resmi #3 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +556 stars today",
+        "Pertumbuhan pesat: +553 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -89,16 +89,16 @@
       "oneSentencePitch": "Chrome DevTools for coding agents",
       "rank": 4,
       "totalStars": "56.3k",
-      "starsToday": 673,
-      "starsGrowthText": "+673 stars today",
-      "growthRate": "+673 stars today",
+      "starsToday": 664,
+      "starsGrowthText": "+664 stars today",
+      "growthRate": "+664 stars today",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #4 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +673 stars today",
+        "Pertumbuhan pesat: +664 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -114,16 +114,16 @@
       "oneSentencePitch": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "rank": 5,
       "totalStars": "51.4k",
-      "starsToday": 897,
-      "starsGrowthText": "+897 stars today",
-      "growthRate": "+897 stars today",
+      "starsToday": 893,
+      "starsGrowthText": "+893 stars today",
+      "growthRate": "+893 stars today",
       "topics": [
         "ai",
         "go"
       ],
       "features": [
         "Trending resmi #5 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +897 stars today",
+        "Pertumbuhan pesat: +893 stars today",
         "Ditulis menggunakan bahasa Go"
       ]
     },
@@ -139,16 +139,16 @@
       "oneSentencePitch": "An open-source AI coding agent that lives in your terminal.",
       "rank": 6,
       "totalStars": "30.3k",
-      "starsToday": 116,
-      "starsGrowthText": "+116 stars today",
-      "growthRate": "+116 stars today",
+      "starsToday": 64,
+      "starsGrowthText": "+64 stars today",
+      "growthRate": "+64 stars today",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #6 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +116 stars today",
+        "Pertumbuhan pesat: +64 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -188,7 +188,7 @@
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "oneSentencePitch": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "rank": 8,
-      "totalStars": "17.3k",
+      "totalStars": "17.4k",
       "starsToday": 9,
       "starsGrowthText": "+9 stars today",
       "growthRate": "+9 stars today",
@@ -214,16 +214,16 @@
       "oneSentencePitch": "LLM Inference Engine for Metal, CUDA and Vulkan.",
       "rank": 9,
       "totalStars": "2.2k",
-      "starsToday": 53,
-      "starsGrowthText": "+53 stars today",
-      "growthRate": "+53 stars today",
+      "starsToday": 37,
+      "starsGrowthText": "+37 stars today",
+      "growthRate": "+37 stars today",
       "topics": [
         "ai",
         "zig"
       ],
       "features": [
         "Trending resmi #9 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +53 stars today",
+        "Pertumbuhan pesat: +37 stars today",
         "Ditulis menggunakan bahasa Zig"
       ]
     },
@@ -238,7 +238,7 @@
       "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
       "oneSentencePitch": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
       "rank": 10,
-      "totalStars": "120.0k",
+      "totalStars": "120.1k",
       "starsToday": 227,
       "starsGrowthText": "+227 stars today",
       "growthRate": "+227 stars today",
@@ -264,16 +264,16 @@
       "oneSentencePitch": "A fancy self-hosted monitoring tool",
       "rank": 11,
       "totalStars": "94.2k",
-      "starsToday": 432,
-      "starsGrowthText": "+432 stars today",
-      "growthRate": "+432 stars today",
+      "starsToday": 430,
+      "starsGrowthText": "+430 stars today",
+      "growthRate": "+430 stars today",
       "topics": [
         "dev",
         "javascript"
       ],
       "features": [
         "Trending resmi #11 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +432 stars today",
+        "Pertumbuhan pesat: +430 stars today",
         "Ditulis menggunakan bahasa JavaScript"
       ]
     },
@@ -313,17 +313,17 @@
       "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
       "oneSentencePitch": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
       "rank": 13,
-      "totalStars": "875",
-      "starsToday": 101,
-      "starsGrowthText": "+101 stars today",
-      "growthRate": "+101 stars today",
+      "totalStars": "897",
+      "starsToday": 33,
+      "starsGrowthText": "+33 stars today",
+      "growthRate": "+33 stars today",
       "topics": [
         "ai",
         "go"
       ],
       "features": [
         "Trending resmi #13 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +101 stars today",
+        "Pertumbuhan pesat: +33 stars today",
         "Ditulis menggunakan bahasa Go"
       ]
     },
@@ -339,16 +339,16 @@
       "oneSentencePitch": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
       "rank": 14,
       "totalStars": "2.2k",
-      "starsToday": 423,
-      "starsGrowthText": "+423 stars today",
-      "growthRate": "+423 stars today",
+      "starsToday": 420,
+      "starsGrowthText": "+420 stars today",
+      "growthRate": "+420 stars today",
       "topics": [
         "ai",
         "c++"
       ],
       "features": [
         "Trending resmi #14 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +423 stars today",
+        "Pertumbuhan pesat: +420 stars today",
         "Ditulis menggunakan bahasa C++"
       ]
     },
@@ -364,16 +364,16 @@
       "oneSentencePitch": "A WiFi security auditing software",
       "rank": 15,
       "totalStars": "5.8k",
-      "starsToday": 269,
-      "starsGrowthText": "+269 stars today",
-      "growthRate": "+269 stars today",
+      "starsToday": 270,
+      "starsGrowthText": "+270 stars today",
+      "growthRate": "+270 stars today",
       "topics": [
         "ai",
         "rust"
       ],
       "features": [
         "Trending resmi #15 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +269 stars today",
+        "Pertumbuhan pesat: +270 stars today",
         "Ditulis menggunakan bahasa Rust"
       ]
     }
@@ -391,16 +391,16 @@
       "oneSentencePitch": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "rank": 1,
       "totalStars": "11.1k",
-      "starsToday": 412,
-      "starsGrowthText": "+412 stars today",
-      "growthRate": "+412 stars today",
+      "starsToday": 408,
+      "starsGrowthText": "+408 stars today",
+      "growthRate": "+408 stars today",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #1 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +412 stars today",
+        "Pertumbuhan pesat: +408 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -416,16 +416,16 @@
       "oneSentencePitch": "Keep your coding agent up to date with the latest web best practices",
       "rank": 2,
       "totalStars": "6.0k",
-      "starsToday": 1225,
-      "starsGrowthText": "+1,225 stars today",
-      "growthRate": "+1,225 stars today",
+      "starsToday": 1231,
+      "starsGrowthText": "+1,231 stars today",
+      "growthRate": "+1,231 stars today",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #2 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +1,225 stars today",
+        "Pertumbuhan pesat: +1,231 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -441,16 +441,16 @@
       "oneSentencePitch": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "rank": 3,
       "totalStars": "4.8k",
-      "starsToday": 556,
-      "starsGrowthText": "+556 stars today",
-      "growthRate": "+556 stars today",
+      "starsToday": 553,
+      "starsGrowthText": "+553 stars today",
+      "growthRate": "+553 stars today",
       "topics": [
         "ai",
         "python"
       ],
       "features": [
         "Trending resmi #3 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +556 stars today",
+        "Pertumbuhan pesat: +553 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -466,16 +466,16 @@
       "oneSentencePitch": "Chrome DevTools for coding agents",
       "rank": 4,
       "totalStars": "56.3k",
-      "starsToday": 673,
-      "starsGrowthText": "+673 stars today",
-      "growthRate": "+673 stars today",
+      "starsToday": 664,
+      "starsGrowthText": "+664 stars today",
+      "growthRate": "+664 stars today",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #4 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +673 stars today",
+        "Pertumbuhan pesat: +664 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -491,16 +491,16 @@
       "oneSentencePitch": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "rank": 5,
       "totalStars": "51.4k",
-      "starsToday": 897,
-      "starsGrowthText": "+897 stars today",
-      "growthRate": "+897 stars today",
+      "starsToday": 893,
+      "starsGrowthText": "+893 stars today",
+      "growthRate": "+893 stars today",
       "topics": [
         "ai",
         "go"
       ],
       "features": [
         "Trending resmi #5 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +897 stars today",
+        "Pertumbuhan pesat: +893 stars today",
         "Ditulis menggunakan bahasa Go"
       ]
     },
@@ -516,16 +516,16 @@
       "oneSentencePitch": "An open-source AI coding agent that lives in your terminal.",
       "rank": 6,
       "totalStars": "30.3k",
-      "starsToday": 116,
-      "starsGrowthText": "+116 stars today",
-      "growthRate": "+116 stars today",
+      "starsToday": 64,
+      "starsGrowthText": "+64 stars today",
+      "growthRate": "+64 stars today",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #6 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +116 stars today",
+        "Pertumbuhan pesat: +64 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -565,7 +565,7 @@
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "oneSentencePitch": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "rank": 8,
-      "totalStars": "17.3k",
+      "totalStars": "17.4k",
       "starsToday": 9,
       "starsGrowthText": "+9 stars today",
       "growthRate": "+9 stars today",
@@ -591,16 +591,16 @@
       "oneSentencePitch": "LLM Inference Engine for Metal, CUDA and Vulkan.",
       "rank": 9,
       "totalStars": "2.2k",
-      "starsToday": 53,
-      "starsGrowthText": "+53 stars today",
-      "growthRate": "+53 stars today",
+      "starsToday": 37,
+      "starsGrowthText": "+37 stars today",
+      "growthRate": "+37 stars today",
       "topics": [
         "ai",
         "zig"
       ],
       "features": [
         "Trending resmi #9 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +53 stars today",
+        "Pertumbuhan pesat: +37 stars today",
         "Ditulis menggunakan bahasa Zig"
       ]
     },
@@ -615,7 +615,7 @@
       "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
       "oneSentencePitch": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
       "rank": 10,
-      "totalStars": "120.0k",
+      "totalStars": "120.1k",
       "starsToday": 227,
       "starsGrowthText": "+227 stars today",
       "growthRate": "+227 stars today",
@@ -641,16 +641,16 @@
       "oneSentencePitch": "A fancy self-hosted monitoring tool",
       "rank": 11,
       "totalStars": "94.2k",
-      "starsToday": 432,
-      "starsGrowthText": "+432 stars today",
-      "growthRate": "+432 stars today",
+      "starsToday": 430,
+      "starsGrowthText": "+430 stars today",
+      "growthRate": "+430 stars today",
       "topics": [
         "dev",
         "javascript"
       ],
       "features": [
         "Trending resmi #11 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +432 stars today",
+        "Pertumbuhan pesat: +430 stars today",
         "Ditulis menggunakan bahasa JavaScript"
       ]
     },
@@ -690,17 +690,17 @@
       "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
       "oneSentencePitch": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
       "rank": 13,
-      "totalStars": "875",
-      "starsToday": 101,
-      "starsGrowthText": "+101 stars today",
-      "growthRate": "+101 stars today",
+      "totalStars": "897",
+      "starsToday": 33,
+      "starsGrowthText": "+33 stars today",
+      "growthRate": "+33 stars today",
       "topics": [
         "ai",
         "go"
       ],
       "features": [
         "Trending resmi #13 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +101 stars today",
+        "Pertumbuhan pesat: +33 stars today",
         "Ditulis menggunakan bahasa Go"
       ]
     },
@@ -716,16 +716,16 @@
       "oneSentencePitch": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
       "rank": 14,
       "totalStars": "2.2k",
-      "starsToday": 423,
-      "starsGrowthText": "+423 stars today",
-      "growthRate": "+423 stars today",
+      "starsToday": 420,
+      "starsGrowthText": "+420 stars today",
+      "growthRate": "+420 stars today",
       "topics": [
         "ai",
         "c++"
       ],
       "features": [
         "Trending resmi #14 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +423 stars today",
+        "Pertumbuhan pesat: +420 stars today",
         "Ditulis menggunakan bahasa C++"
       ]
     },
@@ -741,16 +741,16 @@
       "oneSentencePitch": "A WiFi security auditing software",
       "rank": 15,
       "totalStars": "5.8k",
-      "starsToday": 269,
-      "starsGrowthText": "+269 stars today",
-      "growthRate": "+269 stars today",
+      "starsToday": 270,
+      "starsGrowthText": "+270 stars today",
+      "growthRate": "+270 stars today",
       "topics": [
         "ai",
         "rust"
       ],
       "features": [
         "Trending resmi #15 di GitHub (?since=daily)",
-        "Pertumbuhan pesat: +269 stars today",
+        "Pertumbuhan pesat: +270 stars today",
         "Ditulis menggunakan bahasa Rust"
       ]
     }
@@ -768,16 +768,16 @@
       "oneSentencePitch": "An open source design system that's fully customizable and agent ready",
       "rank": 1,
       "totalStars": "28.1k",
-      "starsToday": 13375,
-      "starsGrowthText": "+13,375 stars this week",
-      "growthRate": "+13,375 stars this week",
+      "starsToday": 13660,
+      "starsGrowthText": "+13,660 stars this week",
+      "growthRate": "+13,660 stars this week",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #1 di GitHub (?since=weekly)",
-        "Pertumbuhan pesat: +13,375 stars this week",
+        "Pertumbuhan pesat: +13,660 stars this week",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -793,16 +793,16 @@
       "oneSentencePitch": "Hunt down social media accounts by username across social networks",
       "rank": 2,
       "totalStars": "111.8k",
-      "starsToday": 13364,
-      "starsGrowthText": "+13,364 stars this week",
-      "growthRate": "+13,364 stars this week",
+      "starsToday": 12401,
+      "starsGrowthText": "+12,401 stars this week",
+      "growthRate": "+12,401 stars this week",
       "topics": [
         "productivity",
         "python"
       ],
       "features": [
         "Trending resmi #2 di GitHub (?since=weekly)",
-        "Pertumbuhan pesat: +13,364 stars this week",
+        "Pertumbuhan pesat: +12,401 stars this week",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -818,16 +818,16 @@
       "oneSentencePitch": "Public repository for Agent Skills",
       "rank": 3,
       "totalStars": "194.6k",
-      "starsToday": 6169,
-      "starsGrowthText": "+6,169 stars this week",
-      "growthRate": "+6,169 stars this week",
+      "starsToday": 6220,
+      "starsGrowthText": "+6,220 stars this week",
+      "growthRate": "+6,220 stars this week",
       "topics": [
         "ai",
         "python"
       ],
       "features": [
         "Trending resmi #3 di GitHub (?since=weekly)",
-        "Pertumbuhan pesat: +6,169 stars this week",
+        "Pertumbuhan pesat: +6,220 stars this week",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -843,16 +843,16 @@
       "oneSentencePitch": "Browser automation CLI for AI agents",
       "rank": 4,
       "totalStars": "51.2k",
-      "starsToday": 4360,
-      "starsGrowthText": "+4,360 stars this week",
-      "growthRate": "+4,360 stars this week",
+      "starsToday": 4601,
+      "starsGrowthText": "+4,601 stars this week",
+      "growthRate": "+4,601 stars this week",
       "topics": [
         "ai",
         "rust"
       ],
       "features": [
         "Trending resmi #4 di GitHub (?since=weekly)",
-        "Pertumbuhan pesat: +4,360 stars this week",
+        "Pertumbuhan pesat: +4,601 stars this week",
         "Ditulis menggunakan bahasa Rust"
       ]
     },
@@ -868,16 +868,16 @@
       "oneSentencePitch": "Open-source plugin for designing and reviewing software with agents",
       "rank": 5,
       "totalStars": "19.2k",
-      "starsToday": 5560,
-      "starsGrowthText": "+5,560 stars this week",
-      "growthRate": "+5,560 stars this week",
+      "starsToday": 5539,
+      "starsGrowthText": "+5,539 stars this week",
+      "growthRate": "+5,539 stars this week",
       "topics": [
         "ai",
         "python"
       ],
       "features": [
         "Trending resmi #5 di GitHub (?since=weekly)",
-        "Pertumbuhan pesat: +5,560 stars this week",
+        "Pertumbuhan pesat: +5,539 stars this week",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -893,16 +893,16 @@
       "oneSentencePitch": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "rank": 6,
       "totalStars": "22.8k",
-      "starsToday": 7763,
-      "starsGrowthText": "+7,763 stars this week",
-      "growthRate": "+7,763 stars this week",
+      "starsToday": 6413,
+      "starsGrowthText": "+6,413 stars this week",
+      "growthRate": "+6,413 stars this week",
       "topics": [
         "productivity",
         "typescript"
       ],
       "features": [
         "Trending resmi #6 di GitHub (?since=weekly)",
-        "Pertumbuhan pesat: +7,763 stars this week",
+        "Pertumbuhan pesat: +6,413 stars this week",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -917,17 +917,17 @@
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "oneSentencePitch": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "rank": 7,
-      "totalStars": "72.2k",
-      "starsToday": 3778,
-      "starsGrowthText": "+3,778 stars this week",
-      "growthRate": "+3,778 stars this week",
+      "totalStars": "72.3k",
+      "starsToday": 4526,
+      "starsGrowthText": "+4,526 stars this week",
+      "growthRate": "+4,526 stars this week",
       "topics": [
         "ai",
         "python"
       ],
       "features": [
         "Trending resmi #7 di GitHub (?since=weekly)",
-        "Pertumbuhan pesat: +3,778 stars this week",
+        "Pertumbuhan pesat: +4,526 stars this week",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -943,16 +943,16 @@
       "oneSentencePitch": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
       "rank": 8,
       "totalStars": "18.0k",
-      "starsToday": 1764,
-      "starsGrowthText": "+1,764 stars this week",
-      "growthRate": "+1,764 stars this week",
+      "starsToday": 1859,
+      "starsGrowthText": "+1,859 stars this week",
+      "growthRate": "+1,859 stars this week",
       "topics": [
         "productivity",
         "c++"
       ],
       "features": [
         "Trending resmi #8 di GitHub (?since=weekly)",
-        "Pertumbuhan pesat: +1,764 stars this week",
+        "Pertumbuhan pesat: +1,859 stars this week",
         "Ditulis menggunakan bahasa C++"
       ]
     },
@@ -968,16 +968,16 @@
       "oneSentencePitch": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "rank": 9,
       "totalStars": "11.1k",
-      "starsToday": 511,
-      "starsGrowthText": "+511 stars this week",
-      "growthRate": "+511 stars this week",
+      "starsToday": 818,
+      "starsGrowthText": "+818 stars this week",
+      "growthRate": "+818 stars this week",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #9 di GitHub (?since=weekly)",
-        "Pertumbuhan pesat: +511 stars this week",
+        "Pertumbuhan pesat: +818 stars this week",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -993,16 +993,16 @@
       "oneSentencePitch": "Production-grade engineering skills for AI coding agents.",
       "rank": 10,
       "totalStars": "117.6k",
-      "starsToday": 3502,
-      "starsGrowthText": "+3,502 stars this week",
-      "growthRate": "+3,502 stars this week",
+      "starsToday": 3670,
+      "starsGrowthText": "+3,670 stars this week",
+      "growthRate": "+3,670 stars this week",
       "topics": [
         "ai",
         "javascript"
       ],
       "features": [
         "Trending resmi #10 di GitHub (?since=weekly)",
-        "Pertumbuhan pesat: +3,502 stars this week",
+        "Pertumbuhan pesat: +3,670 stars this week",
         "Ditulis menggunakan bahasa JavaScript"
       ]
     },
@@ -1018,16 +1018,16 @@
       "oneSentencePitch": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
       "rank": 11,
       "totalStars": "21.0k",
-      "starsToday": 1731,
-      "starsGrowthText": "+1,731 stars this week",
-      "growthRate": "+1,731 stars this week",
+      "starsToday": 1794,
+      "starsGrowthText": "+1,794 stars this week",
+      "growthRate": "+1,794 stars this week",
       "topics": [
         "ai",
         "python"
       ],
       "features": [
         "Trending resmi #11 di GitHub (?since=weekly)",
-        "Pertumbuhan pesat: +1,731 stars this week",
+        "Pertumbuhan pesat: +1,794 stars this week",
         "Ditulis menggunakan bahasa Python"
       ]
     }
@@ -1045,16 +1045,16 @@
       "oneSentencePitch": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "rank": 1,
       "totalStars": "55.0k",
-      "starsToday": 24631,
-      "starsGrowthText": "+24,631 stars this month",
-      "growthRate": "+24,631 stars this month",
+      "starsToday": 25013,
+      "starsGrowthText": "+25,013 stars this month",
+      "growthRate": "+25,013 stars this month",
       "topics": [
         "ai",
         "css"
       ],
       "features": [
         "Trending resmi #1 di GitHub (?since=monthly)",
-        "Pertumbuhan pesat: +24,631 stars this month",
+        "Pertumbuhan pesat: +25,013 stars this month",
         "Ditulis menggunakan bahasa CSS"
       ]
     },
@@ -1070,16 +1070,16 @@
       "oneSentencePitch": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "rank": 2,
       "totalStars": "72.6k",
-      "starsToday": 42839,
-      "starsGrowthText": "+42,839 stars this month",
-      "growthRate": "+42,839 stars this month",
+      "starsToday": 43171,
+      "starsGrowthText": "+43,171 stars this month",
+      "growthRate": "+43,171 stars this month",
       "topics": [
         "ai",
         "javascript"
       ],
       "features": [
         "Trending resmi #2 di GitHub (?since=monthly)",
-        "Pertumbuhan pesat: +42,839 stars this month",
+        "Pertumbuhan pesat: +43,171 stars this month",
         "Ditulis menggunakan bahasa JavaScript"
       ]
     },
@@ -1094,17 +1094,17 @@
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "oneSentencePitch": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "rank": 3,
-      "totalStars": "459.8k",
-      "starsToday": 271084,
-      "starsGrowthText": "+271,084 stars this month",
-      "growthRate": "+271,084 stars this month",
+      "totalStars": "459.9k",
+      "starsToday": 236618,
+      "starsGrowthText": "+236,618 stars this month",
+      "growthRate": "+236,618 stars this month",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #3 di GitHub (?since=monthly)",
-        "Pertumbuhan pesat: +271,084 stars this month",
+        "Pertumbuhan pesat: +236,618 stars this month",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -1120,16 +1120,16 @@
       "oneSentencePitch": "The best way to control Claude Code, Codex and more from any computer or phone",
       "rank": 4,
       "totalStars": "60.6k",
-      "starsToday": 32057,
-      "starsGrowthText": "+32,057 stars this month",
-      "growthRate": "+32,057 stars this month",
+      "starsToday": 32857,
+      "starsGrowthText": "+32,857 stars this month",
+      "growthRate": "+32,857 stars this month",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #4 di GitHub (?since=monthly)",
-        "Pertumbuhan pesat: +32,057 stars this month",
+        "Pertumbuhan pesat: +32,857 stars this month",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -1145,16 +1145,16 @@
       "oneSentencePitch": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "rank": 5,
       "totalStars": "117.1k",
-      "starsToday": 17120,
-      "starsGrowthText": "+17,120 stars this month",
-      "growthRate": "+17,120 stars this month",
+      "starsToday": 17051,
+      "starsGrowthText": "+17,051 stars this month",
+      "growthRate": "+17,051 stars this month",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #5 di GitHub (?since=monthly)",
-        "Pertumbuhan pesat: +17,120 stars this month",
+        "Pertumbuhan pesat: +17,051 stars this month",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -1170,16 +1170,16 @@
       "oneSentencePitch": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "rank": 6,
       "totalStars": "110.2k",
-      "starsToday": 29328,
-      "starsGrowthText": "+29,328 stars this month",
-      "growthRate": "+29,328 stars this month",
+      "starsToday": 29487,
+      "starsGrowthText": "+29,487 stars this month",
+      "growthRate": "+29,487 stars this month",
       "topics": [
         "ai",
         "rust"
       ],
       "features": [
         "Trending resmi #6 di GitHub (?since=monthly)",
-        "Pertumbuhan pesat: +29,328 stars this month",
+        "Pertumbuhan pesat: +29,487 stars this month",
         "Ditulis menggunakan bahasa Rust"
       ]
     },
@@ -1195,16 +1195,16 @@
       "oneSentencePitch": "Public repository for Agent Skills",
       "rank": 7,
       "totalStars": "194.6k",
-      "starsToday": 13734,
-      "starsGrowthText": "+13,734 stars this month",
-      "growthRate": "+13,734 stars this month",
+      "starsToday": 13927,
+      "starsGrowthText": "+13,927 stars this month",
+      "growthRate": "+13,927 stars this month",
       "topics": [
         "ai",
         "python"
       ],
       "features": [
         "Trending resmi #7 di GitHub (?since=monthly)",
-        "Pertumbuhan pesat: +13,734 stars this month",
+        "Pertumbuhan pesat: +13,927 stars this month",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -1220,16 +1220,16 @@
       "oneSentencePitch": "Write HTML. Render video. Built for agents.",
       "rank": 8,
       "totalStars": "84.3k",
-      "starsToday": 21924,
-      "starsGrowthText": "+21,924 stars this month",
-      "growthRate": "+21,924 stars this month",
+      "starsToday": 21361,
+      "starsGrowthText": "+21,361 stars this month",
+      "growthRate": "+21,361 stars this month",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #8 di GitHub (?since=monthly)",
-        "Pertumbuhan pesat: +21,924 stars this month",
+        "Pertumbuhan pesat: +21,361 stars this month",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -1245,16 +1245,16 @@
       "oneSentencePitch": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
       "rank": 9,
       "totalStars": "59.2k",
-      "starsToday": 17913,
-      "starsGrowthText": "+17,913 stars this month",
-      "growthRate": "+17,913 stars this month",
+      "starsToday": 18077,
+      "starsGrowthText": "+18,077 stars this month",
+      "growthRate": "+18,077 stars this month",
       "topics": [
         "web",
         "python"
       ],
       "features": [
         "Trending resmi #9 di GitHub (?since=monthly)",
-        "Pertumbuhan pesat: +17,913 stars this month",
+        "Pertumbuhan pesat: +18,077 stars this month",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -1270,16 +1270,16 @@
       "oneSentencePitch": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
       "rank": 10,
       "totalStars": "115.6k",
-      "starsToday": 19948,
-      "starsGrowthText": "+19,948 stars this month",
-      "growthRate": "+19,948 stars this month",
+      "starsToday": 20043,
+      "starsGrowthText": "+20,043 stars this month",
+      "growthRate": "+20,043 stars this month",
       "topics": [
         "ai",
         "javascript"
       ],
       "features": [
         "Trending resmi #10 di GitHub (?since=monthly)",
-        "Pertumbuhan pesat: +19,948 stars this month",
+        "Pertumbuhan pesat: +20,043 stars this month",
         "Ditulis menggunakan bahasa JavaScript"
       ]
     },
@@ -1295,16 +1295,16 @@
       "oneSentencePitch": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
       "rank": 11,
       "totalStars": "29.4k",
-      "starsToday": 10190,
-      "starsGrowthText": "+10,190 stars this month",
-      "growthRate": "+10,190 stars this month",
+      "starsToday": 10402,
+      "starsGrowthText": "+10,402 stars this month",
+      "growthRate": "+10,402 stars this month",
       "topics": [
         "ai",
         "python"
       ],
       "features": [
         "Trending resmi #11 di GitHub (?since=monthly)",
-        "Pertumbuhan pesat: +10,190 stars this month",
+        "Pertumbuhan pesat: +10,402 stars this month",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -1320,16 +1320,16 @@
       "oneSentencePitch": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "rank": 12,
       "totalStars": "35.8k",
-      "starsToday": 6311,
-      "starsGrowthText": "+6,311 stars this month",
-      "growthRate": "+6,311 stars this month",
+      "starsToday": 6228,
+      "starsGrowthText": "+6,228 stars this month",
+      "growthRate": "+6,228 stars this month",
       "topics": [
         "ai",
         "python"
       ],
       "features": [
         "Trending resmi #12 di GitHub (?since=monthly)",
-        "Pertumbuhan pesat: +6,311 stars this month",
+        "Pertumbuhan pesat: +6,228 stars this month",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -1345,16 +1345,16 @@
       "oneSentencePitch": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "rank": 13,
       "totalStars": "110.7k",
-      "starsToday": 48848,
-      "starsGrowthText": "+48,848 stars this month",
-      "growthRate": "+48,848 stars this month",
+      "starsToday": 46324,
+      "starsGrowthText": "+46,324 stars this month",
+      "growthRate": "+46,324 stars this month",
       "topics": [
         "ai",
         "python"
       ],
       "features": [
         "Trending resmi #13 di GitHub (?since=monthly)",
-        "Pertumbuhan pesat: +48,848 stars this month",
+        "Pertumbuhan pesat: +46,324 stars this month",
         "Ditulis menggunakan bahasa Python"
       ]
     },
@@ -1370,16 +1370,16 @@
       "oneSentencePitch": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
       "rank": 14,
       "totalStars": "19.6k",
-      "starsToday": 7584,
-      "starsGrowthText": "+7,584 stars this month",
-      "growthRate": "+7,584 stars this month",
+      "starsToday": 7617,
+      "starsGrowthText": "+7,617 stars this month",
+      "growthRate": "+7,617 stars this month",
       "topics": [
         "ai",
         "typescript"
       ],
       "features": [
         "Trending resmi #14 di GitHub (?since=monthly)",
-        "Pertumbuhan pesat: +7,584 stars this month",
+        "Pertumbuhan pesat: +7,617 stars this month",
         "Ditulis menggunakan bahasa TypeScript"
       ]
     },
@@ -1395,16 +1395,16 @@
       "oneSentencePitch": "Browser automation CLI for AI agents",
       "rank": 15,
       "totalStars": "51.2k",
-      "starsToday": 6810,
-      "starsGrowthText": "+6,810 stars this month",
-      "growthRate": "+6,810 stars this month",
+      "starsToday": 7152,
+      "starsGrowthText": "+7,152 stars this month",
+      "growthRate": "+7,152 stars this month",
       "topics": [
         "ai",
         "rust"
       ],
       "features": [
         "Trending resmi #15 di GitHub (?since=monthly)",
-        "Pertumbuhan pesat: +6,810 stars this month",
+        "Pertumbuhan pesat: +7,152 stars this month",
         "Ditulis menggunakan bahasa Rust"
       ]
     }
