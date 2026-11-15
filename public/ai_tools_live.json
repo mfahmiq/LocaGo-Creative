@@ -1,6 +1,6 @@
 {
-  "updatedAt": "15 Nov 2026, 21:31 WIB",
-  "total": 446,
+  "updatedAt": "15 Nov 2026, 22:01 WIB",
+  "total": 447,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-featureshark",
+      "name": "FeatureShark",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "FeatureShark - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool that centralizes customer feedback to analyze, prioritize, and manage product roadmaps.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/featureshark.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://featureshark.com"
     },
     {
       "id": "ai-flowstep",
