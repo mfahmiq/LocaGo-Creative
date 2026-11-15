@@ -1,7 +1,65 @@
 {
-  "updatedAt": "15 Nov 2026, 04:10 WIB",
-  "total": 50,
+  "updatedAt": "15 Nov 2026, 04:14 WIB",
+  "total": 51,
   "items": [
+    {
+      "id": "sc-61",
+      "title": "Sistem Informasi Rental Kendaraan - 16 M Ribhi Al Ghiffary",
+      "slug": "16-m-ribhi-al-ghiffary",
+      "category": "Layanan & Jasa",
+      "techStack": [
+        "CodeIgniter",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Sistem Rental Mobil ini dibangun berdasarkan konsep MVC (Model Controller View). Sistem ini berfungsi untuk mempermudah pemesanan tiket bioskop. Yang menggunakan sistem ini ada 2 level user yang pertama admin sebagai pengelola sistem dan pengelola customer, sedangkan costumer sebagai pengguna sistem tersebut. Admin bisa menambahkan, mengedit dan menghapus data admin, data customer, data layanan, dan data bisnis, sedangkan customer hanya bisa melihat data bisnis. Dalam Sistem Rental Mobil ini memiliki 4 tabel yaitu tabel admin, tabel customer, tabel bisnis, dan tabel layanan. Untuk relasinya ada 2 yaitu relasi tabel bisnis dengan tabel customer, dan relasi tabel bisnis dengan tabel layanan. \n\nProyek riil open-source asli dari GitHub (https://github.com/15TIC-PemrogramanFramework/16-M.-Ribhi-Al-Ghiffary). Dilengkapi file database lengkap (ribhi_crud/givan.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Informasi Rental Kendaraan - 16 M Ribhi Al Ghiffary dengan database ribhi_crud/givan.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/16-m-ribhi-al-ghiffary/screenshot_1.webp",
+        "/screenshots/16-m-ribhi-al-ghiffary/screenshot_2.webp",
+        "/screenshots/16-m-ribhi-al-ghiffary/screenshot_3.webp",
+        "/screenshots/16-m-ribhi-al-ghiffary/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "15 November 2026",
+      "releaseDate": "15 November 2026",
+      "recentFastDownloads": 86,
+      "thumbnail": "/screenshots/16-m-ribhi-al-ghiffary/screenshot_1.webp",
+      "downloadsCount": 768,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "27.0 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `16-m-ribhi-al-ghiffary.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `ribhi_crud/givan.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/16-m-ribhi-al-ghiffary` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (15TIC-PemrogramanFramework/16-M.-Ribhi-Al-Ghiffary) dengan source code lengkap",
+        "Disertai database asli (ribhi_crud/givan.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=16-m-ribhi-al-ghiffary&step=1&max=8",
+      "downloadUrlFast": "/downloads/16-m-ribhi-al-ghiffary.zip",
+      "driveUrl": "https://drive.google.com/file/d/1kJblXX8tRnbo8cs-IQo7CFOKOHHmp1Qw/view?usp=drivesdk",
+      "githubRepo": "https://github.com/15TIC-PemrogramanFramework/16-M.-Ribhi-Al-Ghiffary",
+      "stars": 5
+    },
     {
       "id": "sc-60",
       "title": "Aplikasi Manajemen Apotek & Obat - Ciapotek",
