@@ -1,7 +1,65 @@
 {
-  "updatedAt": "16 Nov 2026, 14:51 WIB",
-  "total": 116,
+  "updatedAt": "16 Nov 2026, 15:20 WIB",
+  "total": 117,
   "items": [
+    {
+      "id": "sc-127",
+      "title": "Sistem Informasi Pelayanan Desa - Kependudukan",
+      "slug": "kependudukan",
+      "category": "Pemerintahan & Publik",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Aplikasi Kependudukan Sederhana  berbasis WEB PHP MyAdmin Studi Kasus Desa Dukuh Dalem, Kec. Ciawigebang Kab. Kuningan - Jawa Barat\n\nProyek riil open-source asli dari GitHub (https://github.com/dejansudrajat/Kependudukan). Dilengkapi file database lengkap (database/db_warga.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Informasi Pelayanan Desa - Kependudukan dengan database database/db_warga.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/kependudukan/screenshot_1.webp",
+        "/screenshots/kependudukan/screenshot_2.webp",
+        "/screenshots/kependudukan/screenshot_3.webp",
+        "/screenshots/kependudukan/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "16 November 2026",
+      "releaseDate": "16 November 2026",
+      "recentFastDownloads": 66,
+      "thumbnail": "/screenshots/kependudukan/screenshot_1.webp",
+      "downloadsCount": 1192,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "1.7 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `kependudukan.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `database/db_warga.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/kependudukan` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (dejansudrajat/Kependudukan) dengan source code lengkap",
+        "Disertai database asli (database/db_warga.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=kependudukan&step=1&max=8",
+      "downloadUrlFast": "/downloads/kependudukan.zip",
+      "driveUrl": "https://drive.google.com/file/d/1zIJLijLsdOl-gbxRaHWXkWdAhFYQm8r8/view?usp=drivesdk",
+      "githubRepo": "https://github.com/dejansudrajat/Kependudukan",
+      "stars": 4
+    },
     {
       "id": "sc-126",
       "title": "Sistem Informasi Pelayanan Desa - Web Arsip Desa",
