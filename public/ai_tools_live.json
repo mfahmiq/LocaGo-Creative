@@ -1,6 +1,6 @@
 {
-  "updatedAt": "17 Nov 2026, 02:08 WIB",
-  "total": 503,
+  "updatedAt": "17 Nov 2026, 02:38 WIB",
+  "total": 504,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-tute-ai",
+      "name": "Tute.ai",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "Tute.ai - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "AI-powered virtual tutoring platform to personalize learning experiences",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/tute-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.tute.ai"
     },
     {
       "id": "ai-hitpaw-vikpea",
