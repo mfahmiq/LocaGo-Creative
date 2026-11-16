@@ -1,6 +1,6 @@
 {
-  "updatedAt": "17 Nov 2026, 04:08 WIB",
-  "total": 507,
+  "updatedAt": "17 Nov 2026, 04:38 WIB",
+  "total": 508,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-laxis",
+      "name": "Laxis",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Laxis - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "Real-time transcription audio to text",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/laxis.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.laxis.com"
     },
     {
       "id": "ai-endel",
