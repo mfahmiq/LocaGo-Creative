@@ -1,6 +1,6 @@
 {
-  "updatedAt": "17 Nov 2026, 00:20 WIB",
-  "total": 14,
+  "updatedAt": "17 Nov 2026, 01:20 WIB",
+  "total": 15,
   "items": [
     {
       "id": "gh-ag-ui-protocol-ag-ui",
@@ -63,7 +63,7 @@
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "oneSentencePitch": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "rank": 3,
-      "totalStars": "27.6k",
+      "totalStars": "27.7k",
       "starsToday": 1878,
       "starsGrowthText": "+1,878 stars today",
       "growthRate": "+1,878 stars today",
@@ -88,7 +88,7 @@
       "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "oneSentencePitch": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "rank": 4,
-      "totalStars": "6.1k",
+      "totalStars": "6.2k",
       "starsToday": 841,
       "starsGrowthText": "+841 stars today",
       "growthRate": "+841 stars today",
@@ -103,6 +103,31 @@
       ]
     },
     {
+      "id": "gh-elementalsouls-claude-bughunter",
+      "name": "Claude-BugHunter",
+      "owner": "elementalsouls",
+      "repo": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "category": "AI Agents & LLM",
+      "language": "Python",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "oneSentencePitch": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "rank": 5,
+      "totalStars": "7.2k",
+      "starsToday": 1057,
+      "starsGrowthText": "+1,057 stars today",
+      "growthRate": "+1,057 stars today",
+      "topics": [
+        "ai",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #5 di GitHub (?since=daily)",
+        "Pertumbuhan pesat: +1,057 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
       "id": "gh-getarcaneapp-arcane",
       "name": "arcane",
       "owner": "getarcaneapp",
@@ -112,8 +137,8 @@
       "language": "Go",
       "description": "Modern Docker Management, Designed for Everyone",
       "oneSentencePitch": "Modern Docker Management, Designed for Everyone",
-      "rank": 5,
-      "totalStars": "8.5k",
+      "rank": 6,
+      "totalStars": "8.6k",
       "starsToday": 31,
       "starsGrowthText": "+31 stars today",
       "growthRate": "+31 stars today",
@@ -122,7 +147,7 @@
         "go"
       ],
       "features": [
-        "Trending resmi #5 di GitHub (?since=daily)",
+        "Trending resmi #6 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +31 stars today",
         "Ditulis menggunakan bahasa Go"
       ]
@@ -137,7 +162,7 @@
       "language": "JavaScript",
       "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
       "oneSentencePitch": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
-      "rank": 6,
+      "rank": 7,
       "totalStars": "6.6k",
       "starsToday": 285,
       "starsGrowthText": "+285 stars today",
@@ -147,7 +172,7 @@
         "javascript"
       ],
       "features": [
-        "Trending resmi #6 di GitHub (?since=daily)",
+        "Trending resmi #7 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +285 stars today",
         "Ditulis menggunakan bahasa JavaScript"
       ]
@@ -162,7 +187,7 @@
       "language": "TypeScript",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "oneSentencePitch": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-      "rank": 7,
+      "rank": 8,
       "totalStars": "9.7k",
       "starsToday": 540,
       "starsGrowthText": "+540 stars today",
@@ -172,7 +197,7 @@
         "typescript"
       ],
       "features": [
-        "Trending resmi #7 di GitHub (?since=daily)",
+        "Trending resmi #8 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +540 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
@@ -187,7 +212,7 @@
       "language": "Python",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "oneSentencePitch": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "rank": 8,
+      "rank": 9,
       "totalStars": "68.0k",
       "starsToday": 122,
       "starsGrowthText": "+122 stars today",
@@ -197,7 +222,7 @@
         "python"
       ],
       "features": [
-        "Trending resmi #8 di GitHub (?since=daily)",
+        "Trending resmi #9 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +122 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
@@ -210,10 +235,10 @@
       "url": "https://github.com/NVIDIA/SkillEvaluator",
       "category": "AI Agents & LLM",
       "language": "Python",
-      "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
-      "oneSentencePitch": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
-      "rank": 9,
-      "totalStars": "2.4k",
+      "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "oneSentencePitch": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "rank": 10,
+      "totalStars": "2.5k",
       "starsToday": 953,
       "starsGrowthText": "+953 stars today",
       "growthRate": "+953 stars today",
@@ -222,7 +247,7 @@
         "python"
       ],
       "features": [
-        "Trending resmi #9 di GitHub (?since=daily)",
+        "Trending resmi #10 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +953 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
@@ -237,7 +262,7 @@
       "language": "Go",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "oneSentencePitch": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "rank": 10,
+      "rank": 11,
       "totalStars": "52.8k",
       "starsToday": 946,
       "starsGrowthText": "+946 stars today",
@@ -247,7 +272,7 @@
         "go"
       ],
       "features": [
-        "Trending resmi #10 di GitHub (?since=daily)",
+        "Trending resmi #11 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +946 stars today",
         "Ditulis menggunakan bahasa Go"
       ]
@@ -262,8 +287,8 @@
       "language": "Python",
       "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
       "oneSentencePitch": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
-      "rank": 11,
-      "totalStars": "1.2k",
+      "rank": 12,
+      "totalStars": "1.3k",
       "starsToday": 306,
       "starsGrowthText": "+306 stars today",
       "growthRate": "+306 stars today",
@@ -272,7 +297,7 @@
         "python"
       ],
       "features": [
-        "Trending resmi #11 di GitHub (?since=daily)",
+        "Trending resmi #12 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +306 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
@@ -287,8 +312,8 @@
       "language": "TypeScript",
       "description": "Chrome DevTools for coding agents",
       "oneSentencePitch": "Chrome DevTools for coding agents",
-      "rank": 12,
-      "totalStars": "57.5k",
+      "rank": 13,
+      "totalStars": "57.6k",
       "starsToday": 837,
       "starsGrowthText": "+837 stars today",
       "growthRate": "+837 stars today",
@@ -297,7 +322,7 @@
         "typescript"
       ],
       "features": [
-        "Trending resmi #12 di GitHub (?since=daily)",
+        "Trending resmi #13 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +837 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
@@ -312,8 +337,8 @@
       "language": "JavaScript",
       "description": "web development for the rest of us",
       "oneSentencePitch": "web development for the rest of us",
-      "rank": 13,
-      "totalStars": "88.8k",
+      "rank": 14,
+      "totalStars": "88.9k",
       "starsToday": 58,
       "starsGrowthText": "+58 stars today",
       "growthRate": "+58 stars today",
@@ -322,7 +347,7 @@
         "javascript"
       ],
       "features": [
-        "Trending resmi #13 di GitHub (?since=daily)",
+        "Trending resmi #14 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +58 stars today",
         "Ditulis menggunakan bahasa JavaScript"
       ]
@@ -337,8 +362,8 @@
       "language": "Python",
       "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
       "oneSentencePitch": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
-      "rank": 14,
-      "totalStars": "6.4k",
+      "rank": 15,
+      "totalStars": "6.5k",
       "starsToday": 475,
       "starsGrowthText": "+475 stars today",
       "growthRate": "+475 stars today",
@@ -347,7 +372,7 @@
         "python"
       ],
       "features": [
-        "Trending resmi #14 di GitHub (?since=daily)",
+        "Trending resmi #15 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +475 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
@@ -415,7 +440,7 @@
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "oneSentencePitch": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "rank": 3,
-      "totalStars": "27.6k",
+      "totalStars": "27.7k",
       "starsToday": 1878,
       "starsGrowthText": "+1,878 stars today",
       "growthRate": "+1,878 stars today",
@@ -440,7 +465,7 @@
       "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "oneSentencePitch": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "rank": 4,
-      "totalStars": "6.1k",
+      "totalStars": "6.2k",
       "starsToday": 841,
       "starsGrowthText": "+841 stars today",
       "growthRate": "+841 stars today",
@@ -455,6 +480,31 @@
       ]
     },
     {
+      "id": "gh-elementalsouls-claude-bughunter",
+      "name": "Claude-BugHunter",
+      "owner": "elementalsouls",
+      "repo": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "category": "AI Agents & LLM",
+      "language": "Python",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "oneSentencePitch": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "rank": 5,
+      "totalStars": "7.2k",
+      "starsToday": 1057,
+      "starsGrowthText": "+1,057 stars today",
+      "growthRate": "+1,057 stars today",
+      "topics": [
+        "ai",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #5 di GitHub (?since=daily)",
+        "Pertumbuhan pesat: +1,057 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
       "id": "gh-getarcaneapp-arcane",
       "name": "arcane",
       "owner": "getarcaneapp",
@@ -464,8 +514,8 @@
       "language": "Go",
       "description": "Modern Docker Management, Designed for Everyone",
       "oneSentencePitch": "Modern Docker Management, Designed for Everyone",
-      "rank": 5,
-      "totalStars": "8.5k",
+      "rank": 6,
+      "totalStars": "8.6k",
       "starsToday": 31,
       "starsGrowthText": "+31 stars today",
       "growthRate": "+31 stars today",
@@ -474,7 +524,7 @@
         "go"
       ],
       "features": [
-        "Trending resmi #5 di GitHub (?since=daily)",
+        "Trending resmi #6 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +31 stars today",
         "Ditulis menggunakan bahasa Go"
       ]
@@ -489,7 +539,7 @@
       "language": "JavaScript",
       "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
       "oneSentencePitch": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
-      "rank": 6,
+      "rank": 7,
       "totalStars": "6.6k",
       "starsToday": 285,
       "starsGrowthText": "+285 stars today",
@@ -499,7 +549,7 @@
         "javascript"
       ],
       "features": [
-        "Trending resmi #6 di GitHub (?since=daily)",
+        "Trending resmi #7 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +285 stars today",
         "Ditulis menggunakan bahasa JavaScript"
       ]
@@ -514,7 +564,7 @@
       "language": "TypeScript",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "oneSentencePitch": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-      "rank": 7,
+      "rank": 8,
       "totalStars": "9.7k",
       "starsToday": 540,
       "starsGrowthText": "+540 stars today",
@@ -524,7 +574,7 @@
         "typescript"
       ],
       "features": [
-        "Trending resmi #7 di GitHub (?since=daily)",
+        "Trending resmi #8 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +540 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
@@ -539,7 +589,7 @@
       "language": "Python",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "oneSentencePitch": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "rank": 8,
+      "rank": 9,
       "totalStars": "68.0k",
       "starsToday": 122,
       "starsGrowthText": "+122 stars today",
@@ -549,7 +599,7 @@
         "python"
       ],
       "features": [
-        "Trending resmi #8 di GitHub (?since=daily)",
+        "Trending resmi #9 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +122 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
@@ -562,10 +612,10 @@
       "url": "https://github.com/NVIDIA/SkillEvaluator",
       "category": "AI Agents & LLM",
       "language": "Python",
-      "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
-      "oneSentencePitch": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
-      "rank": 9,
-      "totalStars": "2.4k",
+      "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "oneSentencePitch": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "rank": 10,
+      "totalStars": "2.5k",
       "starsToday": 953,
       "starsGrowthText": "+953 stars today",
       "growthRate": "+953 stars today",
@@ -574,7 +624,7 @@
         "python"
       ],
       "features": [
-        "Trending resmi #9 di GitHub (?since=daily)",
+        "Trending resmi #10 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +953 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
@@ -589,7 +639,7 @@
       "language": "Go",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "oneSentencePitch": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "rank": 10,
+      "rank": 11,
       "totalStars": "52.8k",
       "starsToday": 946,
       "starsGrowthText": "+946 stars today",
@@ -599,7 +649,7 @@
         "go"
       ],
       "features": [
-        "Trending resmi #10 di GitHub (?since=daily)",
+        "Trending resmi #11 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +946 stars today",
         "Ditulis menggunakan bahasa Go"
       ]
@@ -614,8 +664,8 @@
       "language": "Python",
       "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
       "oneSentencePitch": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
-      "rank": 11,
-      "totalStars": "1.2k",
+      "rank": 12,
+      "totalStars": "1.3k",
       "starsToday": 306,
       "starsGrowthText": "+306 stars today",
       "growthRate": "+306 stars today",
@@ -624,7 +674,7 @@
         "python"
       ],
       "features": [
-        "Trending resmi #11 di GitHub (?since=daily)",
+        "Trending resmi #12 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +306 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
@@ -639,8 +689,8 @@
       "language": "TypeScript",
       "description": "Chrome DevTools for coding agents",
       "oneSentencePitch": "Chrome DevTools for coding agents",
-      "rank": 12,
-      "totalStars": "57.5k",
+      "rank": 13,
+      "totalStars": "57.6k",
       "starsToday": 837,
       "starsGrowthText": "+837 stars today",
       "growthRate": "+837 stars today",
@@ -649,7 +699,7 @@
         "typescript"
       ],
       "features": [
-        "Trending resmi #12 di GitHub (?since=daily)",
+        "Trending resmi #13 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +837 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
@@ -664,8 +714,8 @@
       "language": "JavaScript",
       "description": "web development for the rest of us",
       "oneSentencePitch": "web development for the rest of us",
-      "rank": 13,
-      "totalStars": "88.8k",
+      "rank": 14,
+      "totalStars": "88.9k",
       "starsToday": 58,
       "starsGrowthText": "+58 stars today",
       "growthRate": "+58 stars today",
@@ -674,7 +724,7 @@
         "javascript"
       ],
       "features": [
-        "Trending resmi #13 di GitHub (?since=daily)",
+        "Trending resmi #14 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +58 stars today",
         "Ditulis menggunakan bahasa JavaScript"
       ]
@@ -689,8 +739,8 @@
       "language": "Python",
       "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
       "oneSentencePitch": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
-      "rank": 14,
-      "totalStars": "6.4k",
+      "rank": 15,
+      "totalStars": "6.5k",
       "starsToday": 475,
       "starsGrowthText": "+475 stars today",
       "growthRate": "+475 stars today",
@@ -699,7 +749,7 @@
         "python"
       ],
       "features": [
-        "Trending resmi #14 di GitHub (?since=daily)",
+        "Trending resmi #15 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +475 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
@@ -742,7 +792,7 @@
       "description": "An open source design system that's fully customizable and agent ready",
       "oneSentencePitch": "An open source design system that's fully customizable and agent ready",
       "rank": 2,
-      "totalStars": "29.4k",
+      "totalStars": "29.5k",
       "starsToday": 13501,
       "starsGrowthText": "+13,501 stars this week",
       "growthRate": "+13,501 stars this week",
@@ -792,7 +842,7 @@
       "description": "Public repository for Agent Skills",
       "oneSentencePitch": "Public repository for Agent Skills",
       "rank": 4,
-      "totalStars": "195.8k",
+      "totalStars": "195.9k",
       "starsToday": 6077,
       "starsGrowthText": "+6,077 stars this week",
       "growthRate": "+6,077 stars this week",
@@ -917,7 +967,7 @@
       "description": "Open-source plugin for designing and reviewing software with agents",
       "oneSentencePitch": "Open-source plugin for designing and reviewing software with agents",
       "rank": 9,
-      "totalStars": "20.2k",
+      "totalStars": "20.3k",
       "starsToday": 5060,
       "starsGrowthText": "+5,060 stars this week",
       "growthRate": "+5,060 stars this week",
@@ -1169,7 +1219,7 @@
       "description": "Public repository for Agent Skills",
       "oneSentencePitch": "Public repository for Agent Skills",
       "rank": 5,
-      "totalStars": "195.8k",
+      "totalStars": "195.9k",
       "starsToday": 14332,
       "starsGrowthText": "+14,332 stars this month",
       "growthRate": "+14,332 stars this month",
@@ -1194,7 +1244,7 @@
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "oneSentencePitch": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "rank": 6,
-      "totalStars": "111.2k",
+      "totalStars": "111.3k",
       "starsToday": 29631,
       "starsGrowthText": "+29,631 stars this month",
       "growthRate": "+29,631 stars this month",
