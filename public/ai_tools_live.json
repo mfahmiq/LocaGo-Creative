@@ -1,6 +1,6 @@
 {
-  "updatedAt": "17 Nov 2026, 01:08 WIB",
-  "total": 501,
+  "updatedAt": "17 Nov 2026, 01:38 WIB",
+  "total": 502,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-auphonic",
+      "name": "Auphonic",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Auphonic - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "Automatic audio post production",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/auphonic.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://auphonic.com"
     },
     {
       "id": "ai-fyli",
