@@ -1,7 +1,65 @@
 {
-  "updatedAt": "16 Nov 2026, 03:36 WIB",
-  "total": 95,
+  "updatedAt": "16 Nov 2026, 04:17 WIB",
+  "total": 96,
   "items": [
+    {
+      "id": "sc-106",
+      "title": "Sistem Point of Sale Modern - Eflinventory V2",
+      "slug": "eflinventory-v2",
+      "category": "Kasir & Point of Sale (POS)",
+      "techStack": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": ":department_store: Point-of-sale and inventory tracking for small-scale retail stores. Easily manage inventory, purchases, sales, and damaged and/or expired products.\n\nProyek riil open-source asli dari GitHub (https://github.com/chrisidakwo/EFLInventory-V2). Dilengkapi file database lengkap (web/bootstrap/database.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Point of Sale Modern - Eflinventory V2 dengan database web/bootstrap/database.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/eflinventory-v2/screenshot_1.webp",
+        "/screenshots/eflinventory-v2/screenshot_2.webp",
+        "/screenshots/eflinventory-v2/screenshot_3.webp",
+        "/screenshots/eflinventory-v2/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "16 November 2026",
+      "releaseDate": "16 November 2026",
+      "recentFastDownloads": 90,
+      "thumbnail": "/screenshots/eflinventory-v2/screenshot_1.webp",
+      "downloadsCount": 812,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "36.2 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `eflinventory-v2.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `web/bootstrap/database.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/eflinventory-v2` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (chrisidakwo/EFLInventory-V2) dengan source code lengkap",
+        "Disertai database asli (web/bootstrap/database.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=eflinventory-v2&step=1&max=8",
+      "downloadUrlFast": "/downloads/eflinventory-v2.zip",
+      "driveUrl": "https://drive.google.com/file/d/1B6uIDvkBSN3Y3NRJYZO_XBn5LjI2tWr0/view?usp=drivesdk",
+      "githubRepo": "https://github.com/chrisidakwo/EFLInventory-V2",
+      "stars": 232
+    },
     {
       "id": "sc-105",
       "title": "Sistem Informasi Perpustakaan - Perpustakaan",
