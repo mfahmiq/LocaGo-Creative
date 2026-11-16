@@ -1,7 +1,66 @@
 {
-  "updatedAt": "16 Nov 2026, 04:37 WIB",
-  "total": 97,
+  "updatedAt": "16 Nov 2026, 05:17 WIB",
+  "total": 98,
   "items": [
+    {
+      "id": "sc-108",
+      "title": "Comprehensive School Management System - Create School Management System With Php Mysql",
+      "slug": "create-school-management-system-with-php-mysql",
+      "category": "Pendidikan & Akademik",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL",
+        "Bootstrap",
+        "AdminLTE"
+      ],
+      "description": "School Management System (SMS) is a web application commonly used in schools to manage teachers, students, classes, subjects, sections, student attendance, etc.\n\nProyek riil open-source asli dari GitHub (https://github.com/GetProjectsIdea/Create-School-Management-System-with-PHP-MySQL). Dilengkapi file database lengkap (Database/DemoSMS.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Comprehensive School Management System - Create School Management System With Php Mysql dengan database Database/DemoSMS.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap, AdminLTE dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/create-school-management-system-with-php-mysql/screenshot_1.webp",
+        "/screenshots/create-school-management-system-with-php-mysql/screenshot_2.webp",
+        "/screenshots/create-school-management-system-with-php-mysql/screenshot_3.webp",
+        "/screenshots/create-school-management-system-with-php-mysql/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "16 November 2026",
+      "releaseDate": "16 November 2026",
+      "recentFastDownloads": 69,
+      "thumbnail": "/screenshots/create-school-management-system-with-php-mysql/screenshot_1.webp",
+      "downloadsCount": 801,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "9.7 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `create-school-management-system-with-php-mysql.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `Database/DemoSMS.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/create-school-management-system-with-php-mysql` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (GetProjectsIdea/Create-School-Management-System-with-PHP-MySQL) dengan source code lengkap",
+        "Disertai database asli (Database/DemoSMS.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=create-school-management-system-with-php-mysql&step=1&max=8",
+      "downloadUrlFast": "/downloads/create-school-management-system-with-php-mysql.zip",
+      "driveUrl": "https://drive.google.com/file/d/1_TxDxD04YM4uwhfBOQAArISytouUwR5z/view?usp=drivesdk",
+      "githubRepo": "https://github.com/GetProjectsIdea/Create-School-Management-System-with-PHP-MySQL",
+      "stars": 34
+    },
     {
       "id": "sc-107",
       "title": "Warehouse & Inventory Management System - Inventory Management System",
