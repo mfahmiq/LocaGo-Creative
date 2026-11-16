@@ -1,6 +1,6 @@
 {
-  "updatedAt": "17 Nov 2026, 03:38 WIB",
-  "total": 506,
+  "updatedAt": "17 Nov 2026, 04:08 WIB",
+  "total": 507,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-endel",
+      "name": "Endel",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Endel - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "Personalized soundscape for focus, relaxation, and sleep",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/endel.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://endel.io"
     },
     {
       "id": "ai-monkeylearn",
