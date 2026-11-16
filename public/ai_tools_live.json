@@ -1,6 +1,6 @@
 {
-  "updatedAt": "17 Nov 2026, 00:08 WIB",
-  "total": 499,
+  "updatedAt": "17 Nov 2026, 00:38 WIB",
+  "total": 500,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-postly",
+      "name": "Postly",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Postly - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "A tool to design and publish social media marketing campaigns at scale.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/postly.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://postly.ai"
     },
     {
       "id": "ai-hubble",
