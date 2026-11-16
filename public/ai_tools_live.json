@@ -1,6 +1,6 @@
 {
-  "updatedAt": "17 Nov 2026, 01:38 WIB",
-  "total": 502,
+  "updatedAt": "17 Nov 2026, 02:08 WIB",
+  "total": 503,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-hitpaw-vikpea",
+      "name": "HitPaw VikPea",
+      "category": "AI Coding",
+      "pricingType": "Paid",
+      "tagline": "HitPaw VikPea - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "A software for video enhancement to repair and improve video quality up to 8K resolution.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/hitpaw-vikpea.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.hitpaw.com/hitpaw-video-enhancer.html"
     },
     {
       "id": "ai-auphonic",
