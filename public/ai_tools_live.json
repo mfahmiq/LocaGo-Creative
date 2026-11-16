@@ -1,6 +1,6 @@
 {
-  "updatedAt": "16 Nov 2026, 23:08 WIB",
-  "total": 497,
+  "updatedAt": "16 Nov 2026, 23:38 WIB",
+  "total": 498,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-sesame",
+      "name": "Sesame",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Sesame - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "An AI voice assistant that delivers emotionally intelligent, context-aware conversations.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/sesame.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice"
     },
     {
       "id": "ai-cropilot",
