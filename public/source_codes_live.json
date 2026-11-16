@@ -1,7 +1,65 @@
 {
-  "updatedAt": "16 Nov 2026, 05:17 WIB",
-  "total": 98,
+  "updatedAt": "16 Nov 2026, 06:17 WIB",
+  "total": 99,
   "items": [
+    {
+      "id": "sc-109",
+      "title": "Hospital & Patient Management System - Hospital Management System Php Mysql",
+      "slug": "hospital-management-system-php-mysql",
+      "category": "Kesehatan & Medis",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "This was my first short PHP project for Web Technology subject. \n\nProyek riil open-source asli dari GitHub (https://github.com/ankschoubey/hospital-management-system-php-mysql). Dilengkapi file database lengkap (database.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Hospital & Patient Management System - Hospital Management System Php Mysql dengan database database.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/hospital-management-system-php-mysql/screenshot_1.webp",
+        "/screenshots/hospital-management-system-php-mysql/screenshot_2.webp",
+        "/screenshots/hospital-management-system-php-mysql/screenshot_3.webp",
+        "/screenshots/hospital-management-system-php-mysql/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "16 November 2026",
+      "releaseDate": "16 November 2026",
+      "recentFastDownloads": 91,
+      "thumbnail": "/screenshots/hospital-management-system-php-mysql/screenshot_1.webp",
+      "downloadsCount": 827,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "780 KB",
+      "tutorialSteps": [
+        "Ekstrak berkas `hospital-management-system-php-mysql.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `database.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/hospital-management-system-php-mysql` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (ankschoubey/hospital-management-system-php-mysql) dengan source code lengkap",
+        "Disertai database asli (database.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=hospital-management-system-php-mysql&step=1&max=8",
+      "downloadUrlFast": "/downloads/hospital-management-system-php-mysql.zip",
+      "driveUrl": "https://drive.google.com/file/d/1OTQa-DgNpnk1aoWv_ey4FYUCP9meEO4V/view?usp=drivesdk",
+      "githubRepo": "https://github.com/ankschoubey/hospital-management-system-php-mysql",
+      "stars": 11
+    },
     {
       "id": "sc-108",
       "title": "Comprehensive School Management System - Create School Management System With Php Mysql",
