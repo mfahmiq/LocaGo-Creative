@@ -1,7 +1,65 @@
 {
-  "updatedAt": "16 Nov 2026, 06:17 WIB",
-  "total": 99,
+  "updatedAt": "16 Nov 2026, 06:40 WIB",
+  "total": 100,
   "items": [
+    {
+      "id": "sc-110",
+      "title": "Sistem Informasi Manajemen Sekolah - Laravel Evoting",
+      "slug": "laravel-evoting",
+      "category": "Pendidikan & Akademik",
+      "techStack": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Dibuat menggunakan laravel 5.7 ini adalah aplikasi voting sederhana yang dulu saya gunakan untuk pemilihan ketua osis di sekolah saya\n\nProyek riil open-source asli dari GitHub (https://github.com/fikrisuheri/laravel-evoting). Dilengkapi file database lengkap (databasedisini/laravel_pilketos.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Informasi Manajemen Sekolah - Laravel Evoting dengan database databasedisini/laravel_pilketos.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/laravel-evoting/screenshot_1.webp",
+        "/screenshots/laravel-evoting/screenshot_2.webp",
+        "/screenshots/laravel-evoting/screenshot_3.webp",
+        "/screenshots/laravel-evoting/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "16 November 2026",
+      "releaseDate": "16 November 2026",
+      "recentFastDownloads": 86,
+      "thumbnail": "/screenshots/laravel-evoting/screenshot_1.webp",
+      "downloadsCount": 724,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "12.6 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `laravel-evoting.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `databasedisini/laravel_pilketos.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/laravel-evoting` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (fikrisuheri/laravel-evoting) dengan source code lengkap",
+        "Disertai database asli (databasedisini/laravel_pilketos.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=laravel-evoting&step=1&max=8",
+      "downloadUrlFast": "/downloads/laravel-evoting.zip",
+      "driveUrl": "https://drive.google.com/file/d/1iC2sJHVL1PoJ16d1RN4g7-1VWyIK8NFy/view?usp=drivesdk",
+      "githubRepo": "https://github.com/fikrisuheri/laravel-evoting",
+      "stars": 13
+    },
     {
       "id": "sc-109",
       "title": "Hospital & Patient Management System - Hospital Management System Php Mysql",
