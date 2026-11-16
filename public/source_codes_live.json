@@ -1,7 +1,65 @@
 {
-  "updatedAt": "16 Nov 2026, 00:17 WIB",
-  "total": 88,
+  "updatedAt": "16 Nov 2026, 00:32 WIB",
+  "total": 89,
   "items": [
+    {
+      "id": "sc-99",
+      "title": "Sistem Informasi Klinik & Rekam Medis - Aplikasi Klinik With Codeigniter 3",
+      "slug": "aplikasi-klinik-with-codeigniter-3",
+      "category": "Kesehatan & Medis",
+      "techStack": [
+        "CodeIgniter",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "crud sederhana yang mengelola data obat, pasien, dokter serta rekam medis\n\nProyek riil open-source asli dari GitHub (https://github.com/muhammad-isroq/aplikasi-klinik-with-Codeigniter-3). Dilengkapi file database lengkap (klinik-stmik.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Informasi Klinik & Rekam Medis - Aplikasi Klinik With Codeigniter 3 dengan database klinik-stmik.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/aplikasi-klinik-with-codeigniter-3/screenshot_1.webp",
+        "/screenshots/aplikasi-klinik-with-codeigniter-3/screenshot_2.webp",
+        "/screenshots/aplikasi-klinik-with-codeigniter-3/screenshot_3.webp",
+        "/screenshots/aplikasi-klinik-with-codeigniter-3/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "16 November 2026",
+      "releaseDate": "16 November 2026",
+      "recentFastDownloads": 62,
+      "thumbnail": "/screenshots/aplikasi-klinik-with-codeigniter-3/screenshot_1.webp",
+      "downloadsCount": 787,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "14.1 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `aplikasi-klinik-with-codeigniter-3.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `klinik-stmik.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/aplikasi-klinik-with-codeigniter-3` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (muhammad-isroq/aplikasi-klinik-with-Codeigniter-3) dengan source code lengkap",
+        "Disertai database asli (klinik-stmik.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=aplikasi-klinik-with-codeigniter-3&step=1&max=8",
+      "downloadUrlFast": "/downloads/aplikasi-klinik-with-codeigniter-3.zip",
+      "driveUrl": "https://drive.google.com/file/d/1Wf-kVkghm93Xyk4b96DCiGjWOQX6jORy/view?usp=drivesdk",
+      "githubRepo": "https://github.com/muhammad-isroq/aplikasi-klinik-with-Codeigniter-3",
+      "stars": 1
+    },
     {
       "id": "sc-98",
       "title": "Sistem Informasi Manajemen Sekolah - Aplikasi Profil Sekolah",
