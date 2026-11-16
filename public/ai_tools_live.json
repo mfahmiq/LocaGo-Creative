@@ -1,6 +1,6 @@
 {
-  "updatedAt": "17 Nov 2026, 00:38 WIB",
-  "total": 500,
+  "updatedAt": "17 Nov 2026, 01:08 WIB",
+  "total": 501,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-fyli",
+      "name": "fyli",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "fyli - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "A tool to automate marketing tasks with AI agents.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/fyli.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://fyli.ai"
     },
     {
       "id": "ai-postly",
