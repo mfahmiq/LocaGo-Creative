@@ -1,6 +1,6 @@
 {
-  "updatedAt": "16 Nov 2026, 07:04 WIB",
-  "total": 465,
+  "updatedAt": "16 Nov 2026, 07:34 WIB",
+  "total": 466,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-affinitybots",
+      "name": "AffinityBots",
+      "category": "Agentic Automation",
+      "pricingType": "Freemium",
+      "tagline": "AffinityBots - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "A tool to build AI agents for business workflows.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/affinitybots.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://affinitybots.com"
     },
     {
       "id": "ai-brandlife",
