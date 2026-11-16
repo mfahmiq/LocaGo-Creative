@@ -1,7 +1,65 @@
 {
-  "updatedAt": "16 Nov 2026, 01:33 WIB",
-  "total": 91,
+  "updatedAt": "16 Nov 2026, 02:17 WIB",
+  "total": 92,
   "items": [
+    {
+      "id": "sc-102",
+      "title": "Comprehensive School Management System - Wizgrade",
+      "slug": "wizgrade",
+      "category": "Pendidikan & Akademik",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "PHP school management system\n\nProyek riil open-source asli dari GitHub (https://github.com/igweze/wizgrade). Dilengkapi file database lengkap (install/fobrain.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Comprehensive School Management System - Wizgrade dengan database install/fobrain.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/wizgrade/screenshot_1.webp",
+        "/screenshots/wizgrade/screenshot_2.webp",
+        "/screenshots/wizgrade/screenshot_3.webp",
+        "/screenshots/wizgrade/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "16 November 2026",
+      "releaseDate": "16 November 2026",
+      "recentFastDownloads": 56,
+      "thumbnail": "/screenshots/wizgrade/screenshot_1.webp",
+      "downloadsCount": 463,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "25.4 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `wizgrade.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `install/fobrain.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/wizgrade` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (igweze/wizgrade) dengan source code lengkap",
+        "Disertai database asli (install/fobrain.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=wizgrade&step=1&max=8",
+      "downloadUrlFast": "/downloads/wizgrade.zip",
+      "driveUrl": "https://drive.google.com/file/d/18rfYQnCRgsn_4q-sn0qOF4D8e1-nN-lY/view?usp=drivesdk",
+      "githubRepo": "https://github.com/igweze/wizgrade",
+      "stars": 48
+    },
     {
       "id": "sc-101",
       "title": "Warehouse & Inventory Management System - Php Inventory Management System",
