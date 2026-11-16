@@ -1,6 +1,6 @@
 {
-  "updatedAt": "17 Nov 2026, 06:09 WIB",
-  "total": 511,
+  "updatedAt": "17 Nov 2026, 06:39 WIB",
+  "total": 512,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-seo-ai",
+      "name": "SEO.ai",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "SEO.ai - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "AI powered SEO content platform",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/seo-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://seo.ai"
     },
     {
       "id": "ai-ai-screenwriting-tool",
