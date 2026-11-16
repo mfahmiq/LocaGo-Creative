@@ -1,6 +1,6 @@
 {
-  "updatedAt": "16 Nov 2026, 14:06 WIB",
-  "total": 479,
+  "updatedAt": "16 Nov 2026, 14:36 WIB",
+  "total": 480,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-floowed",
+      "name": "Floowed",
+      "category": "Agentic Automation",
+      "pricingType": "Paid",
+      "tagline": "Floowed - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "A tool to automate business operations and manage workflows using AI agents.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/floowed.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.floowed.com"
     },
     {
       "id": "ai-ito",
