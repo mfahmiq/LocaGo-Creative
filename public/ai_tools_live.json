@@ -1,6 +1,6 @@
 {
-  "updatedAt": "16 Nov 2026, 20:07 WIB",
-  "total": 491,
+  "updatedAt": "16 Nov 2026, 20:37 WIB",
+  "total": 492,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-viralcanvas-ai",
+      "name": "ViralCanvas AI",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "ViralCanvas AI - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "An AI workspace that links files on a canvas and embeds context-aware chat to generate grounded content.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/viralcanvas-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.viralcanvas.ai"
     },
     {
       "id": "ai-legion-ai",
