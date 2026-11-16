@@ -1,7 +1,66 @@
 {
-  "updatedAt": "16 Nov 2026, 02:34 WIB",
-  "total": 93,
+  "updatedAt": "16 Nov 2026, 03:17 WIB",
+  "total": 94,
   "items": [
+    {
+      "id": "sc-104",
+      "title": "Aplikasi Ujian Online CBT & E-Learning - Zyacbt",
+      "slug": "zyacbt",
+      "category": "Pendidikan & Akademik",
+      "techStack": [
+        "CodeIgniter",
+        "PHP",
+        "MySQL",
+        "Bootstrap",
+        "AdminLTE"
+      ],
+      "description": "Aplikasi Ujian Online ZYA CBT.\n\nProyek riil open-source asli dari GitHub (https://github.com/smkbp-subululhuda/zyacbt). Dilengkapi file database lengkap (smkj6557_zyacbt_CLONE-HOSTING_2023.03.22.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Aplikasi Ujian Online CBT & E-Learning - Zyacbt dengan database smkj6557_zyacbt_CLONE-HOSTING_2023.03.22.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap, AdminLTE dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/zyacbt/screenshot_1.webp",
+        "/screenshots/zyacbt/screenshot_2.webp",
+        "/screenshots/zyacbt/screenshot_3.webp",
+        "/screenshots/zyacbt/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "16 November 2026",
+      "releaseDate": "16 November 2026",
+      "recentFastDownloads": 76,
+      "thumbnail": "/screenshots/zyacbt/screenshot_1.webp",
+      "downloadsCount": 960,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "30.3 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `zyacbt.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `smkj6557_zyacbt_CLONE-HOSTING_2023.03.22.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/zyacbt` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (smkbp-subululhuda/zyacbt) dengan source code lengkap",
+        "Disertai database asli (smkj6557_zyacbt_CLONE-HOSTING_2023.03.22.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=zyacbt&step=1&max=8",
+      "downloadUrlFast": "/downloads/zyacbt.zip",
+      "driveUrl": "https://drive.google.com/file/d/1zzCcUlRYePmvpTEcttwmX9pPcGiKiL8q/view?usp=drivesdk",
+      "githubRepo": "https://github.com/smkbp-subululhuda/zyacbt",
+      "stars": 5
+    },
     {
       "id": "sc-103",
       "title": "Sistem Pakar Diagnosa - Skripsi",
