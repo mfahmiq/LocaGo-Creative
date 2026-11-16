@@ -1,7 +1,64 @@
 {
-  "updatedAt": "16 Nov 2026, 15:20 WIB",
-  "total": 117,
+  "updatedAt": "16 Nov 2026, 15:52 WIB",
+  "total": 118,
   "items": [
+    {
+      "id": "sc-128",
+      "title": "Sistem Informasi Pelayanan Desa - Sukaresik Digital",
+      "slug": "sukaresik-digital",
+      "category": "Pemerintahan & Publik",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL"
+      ],
+      "description": "Sukaresik Digital adalah platform layanan administrasi desa online yang memudahkan warga dalam mengurus berbagai keperluan administrasi secara efisien dan transparan. Aplikasi ini dikembangkan untuk Desa Sukaresik sebagai solusi digital dalam pengurusan surat dan layanan administrasi desa.\n\nProyek riil open-source asli dari GitHub (https://github.com/aleaengineer/Sukaresik-Digital). Dilengkapi file database lengkap (database.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Informasi Pelayanan Desa - Sukaresik Digital dengan database database.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/sukaresik-digital/screenshot_1.webp",
+        "/screenshots/sukaresik-digital/screenshot_2.webp",
+        "/screenshots/sukaresik-digital/screenshot_3.webp",
+        "/screenshots/sukaresik-digital/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "16 November 2026",
+      "releaseDate": "16 November 2026",
+      "recentFastDownloads": 91,
+      "thumbnail": "/screenshots/sukaresik-digital/screenshot_1.webp",
+      "downloadsCount": 675,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "4.3 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `sukaresik-digital.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `database.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/sukaresik-digital` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (aleaengineer/Sukaresik-Digital) dengan source code lengkap",
+        "Disertai database asli (database.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=sukaresik-digital&step=1&max=8",
+      "downloadUrlFast": "/downloads/sukaresik-digital.zip",
+      "driveUrl": "https://drive.google.com/file/d/1-M26kZqkvT_fSwRsfDfVOyUNGrv4k_5F/view?usp=drivesdk",
+      "githubRepo": "https://github.com/aleaengineer/Sukaresik-Digital",
+      "stars": 3
+    },
     {
       "id": "sc-127",
       "title": "Sistem Informasi Pelayanan Desa - Kependudukan",
