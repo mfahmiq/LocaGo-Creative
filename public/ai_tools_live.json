@@ -1,6 +1,6 @@
 {
-  "updatedAt": "16 Nov 2026, 08:34 WIB",
-  "total": 468,
+  "updatedAt": "16 Nov 2026, 09:05 WIB",
+  "total": 469,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-ai-renamer",
+      "name": "AI Renamer",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "AI Renamer - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to generate descriptive file names using AI analysis of content.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/ai-renamer.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://airenamer.app"
     },
     {
       "id": "ai-nextbrowser",
