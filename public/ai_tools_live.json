@@ -1,6 +1,6 @@
 {
-  "updatedAt": "16 Nov 2026, 20:37 WIB",
-  "total": 492,
+  "updatedAt": "16 Nov 2026, 21:07 WIB",
+  "total": 493,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-grella",
+      "name": "Grella",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "Grella - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "A platform with AI workspace for law firms that lets teams upload case files to search, analyze, draft, and get context-aware answers with citations.",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/grella.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://grella.ai"
     },
     {
       "id": "ai-viralcanvas-ai",
