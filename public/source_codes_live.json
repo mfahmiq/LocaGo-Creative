@@ -1,7 +1,64 @@
 {
-  "updatedAt": "16 Nov 2026, 06:40 WIB",
-  "total": 100,
+  "updatedAt": "16 Nov 2026, 07:17 WIB",
+  "total": 101,
   "items": [
+    {
+      "id": "sc-111",
+      "title": "Toko Online E-Commerce Siap Pakai - Aplikasiecommercehandphone",
+      "slug": "aplikasiecommercehandphone",
+      "category": "Toko Online & E-Commerce",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL"
+      ],
+      "description": "Aplikasi E-Commerce Penjualan Handphone (PHP, MySQL, JQuery Mobile) dari \n\nProyek riil open-source asli dari GitHub (https://github.com/ondrong/AplikasiECommerceHandphone). Dilengkapi file database lengkap (dbcellphone.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Toko Online E-Commerce Siap Pakai - Aplikasiecommercehandphone dengan database dbcellphone.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/aplikasiecommercehandphone/screenshot_1.webp",
+        "/screenshots/aplikasiecommercehandphone/screenshot_2.webp",
+        "/screenshots/aplikasiecommercehandphone/screenshot_3.webp",
+        "/screenshots/aplikasiecommercehandphone/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "16 November 2026",
+      "releaseDate": "16 November 2026",
+      "recentFastDownloads": 72,
+      "thumbnail": "/screenshots/aplikasiecommercehandphone/screenshot_1.webp",
+      "downloadsCount": 568,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "2.7 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `aplikasiecommercehandphone.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `dbcellphone.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/aplikasiecommercehandphone` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (ondrong/AplikasiECommerceHandphone) dengan source code lengkap",
+        "Disertai database asli (dbcellphone.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=aplikasiecommercehandphone&step=1&max=8",
+      "downloadUrlFast": "/downloads/aplikasiecommercehandphone.zip",
+      "driveUrl": "https://drive.google.com/file/d/1XdHq0tF5x9oaeOjfGVvN8WHuKCsf5vpd/view?usp=drivesdk",
+      "githubRepo": "https://github.com/ondrong/AplikasiECommerceHandphone",
+      "stars": 1
+    },
     {
       "id": "sc-110",
       "title": "Sistem Informasi Manajemen Sekolah - Laravel Evoting",
