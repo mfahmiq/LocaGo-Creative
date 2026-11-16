@@ -1,6 +1,6 @@
 {
-  "updatedAt": "16 Nov 2026, 07:34 WIB",
-  "total": 466,
+  "updatedAt": "16 Nov 2026, 08:04 WIB",
+  "total": 467,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-animant",
+      "name": "Animant",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Animant - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "An app for iOS and MacOS that creates multimedia slideshows with synchronized 3D models and content organization.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/animant.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://animant.co"
     },
     {
       "id": "ai-affinitybots",
