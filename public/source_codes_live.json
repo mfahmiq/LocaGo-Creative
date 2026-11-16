@@ -1,7 +1,66 @@
 {
-  "updatedAt": "16 Nov 2026, 12:18 WIB",
-  "total": 111,
+  "updatedAt": "16 Nov 2026, 12:48 WIB",
+  "total": 112,
   "items": [
+    {
+      "id": "sc-122",
+      "title": "Sistem Presensi Karyawan & Absensi Online - Presapps",
+      "slug": "presapps",
+      "category": "HRD & Keuangan",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL",
+        "Bootstrap",
+        "AdminLTE"
+      ],
+      "description": "Aplikasi Presensi Berbasis Web\n\nProyek riil open-source asli dari GitHub (https://github.com/andri000me/presapps). Dilengkapi file database lengkap (presapps/database/presapps.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Presensi Karyawan & Absensi Online - Presapps dengan database presapps/database/presapps.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap, AdminLTE dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/presapps/screenshot_1.webp",
+        "/screenshots/presapps/screenshot_2.webp",
+        "/screenshots/presapps/screenshot_3.webp",
+        "/screenshots/presapps/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "16 November 2026",
+      "releaseDate": "16 November 2026",
+      "recentFastDownloads": 90,
+      "thumbnail": "/screenshots/presapps/screenshot_1.webp",
+      "downloadsCount": 904,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "1.4 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `presapps.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `presapps/database/presapps.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/presapps` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (andri000me/presapps) dengan source code lengkap",
+        "Disertai database asli (presapps/database/presapps.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=presapps&step=1&max=8",
+      "downloadUrlFast": "/downloads/presapps.zip",
+      "driveUrl": "https://drive.google.com/file/d/19FqMlBeJTEm1r3Zq4M1gI0WDGNBuar7V/view?usp=drivesdk",
+      "githubRepo": "https://github.com/andri000me/presapps",
+      "stars": 1
+    },
     {
       "id": "sc-121",
       "title": "Sistem Informasi Pelayanan Desa - Remaja Id",
