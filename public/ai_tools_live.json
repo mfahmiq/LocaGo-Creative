@@ -1,6 +1,6 @@
 {
-  "updatedAt": "16 Nov 2026, 15:06 WIB",
-  "total": 481,
+  "updatedAt": "16 Nov 2026, 15:36 WIB",
+  "total": 482,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-macaron",
+      "name": "Macaron",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "Macaron - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "An mobile app that creates personalized mini-apps within conversations.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/macaron.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://macaron.im"
     },
     {
       "id": "ai-aviator",
