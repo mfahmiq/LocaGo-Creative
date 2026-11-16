@@ -1,6 +1,6 @@
 {
-  "updatedAt": "16 Nov 2026, 18:07 WIB",
-  "total": 487,
+  "updatedAt": "16 Nov 2026, 18:37 WIB",
+  "total": 488,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-kiro",
+      "name": "Kiro",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "Kiro - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "An IDE for structured requirements gathering and technical design before generating contextually-aware code.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/kiro.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://kiro.dev"
     },
     {
       "id": "ai-chartcastr",
