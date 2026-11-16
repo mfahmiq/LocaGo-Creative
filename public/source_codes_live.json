@@ -1,7 +1,66 @@
 {
-  "updatedAt": "16 Nov 2026, 12:48 WIB",
-  "total": 112,
+  "updatedAt": "16 Nov 2026, 13:19 WIB",
+  "total": 113,
   "items": [
+    {
+      "id": "sc-123",
+      "title": "Sistem Informasi Pelayanan Desa - Sistem Desa Codeigniter",
+      "slug": "sistem-desa-codeigniter",
+      "category": "Pemerintahan & Publik",
+      "techStack": [
+        "CodeIgniter",
+        "PHP",
+        "MySQL",
+        "Bootstrap",
+        "AdminLTE"
+      ],
+      "description": "Aplikasi ini adalah surat menyurat sistem desa menggunakan Code Igniter\n\nProyek riil open-source asli dari GitHub (https://github.com/imroatulfaizah/Sistem-Desa-CodeIgniter). Dilengkapi file database lengkap (sonotengah.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Informasi Pelayanan Desa - Sistem Desa Codeigniter dengan database sonotengah.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap, AdminLTE dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/sistem-desa-codeigniter/screenshot_1.webp",
+        "/screenshots/sistem-desa-codeigniter/screenshot_2.webp",
+        "/screenshots/sistem-desa-codeigniter/screenshot_3.webp",
+        "/screenshots/sistem-desa-codeigniter/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "16 November 2026",
+      "releaseDate": "16 November 2026",
+      "recentFastDownloads": 53,
+      "thumbnail": "/screenshots/sistem-desa-codeigniter/screenshot_1.webp",
+      "downloadsCount": 769,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "22.4 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `sistem-desa-codeigniter.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `sonotengah.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/sistem-desa-codeigniter` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (imroatulfaizah/Sistem-Desa-CodeIgniter) dengan source code lengkap",
+        "Disertai database asli (sonotengah.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=sistem-desa-codeigniter&step=1&max=8",
+      "downloadUrlFast": "/downloads/sistem-desa-codeigniter.zip",
+      "driveUrl": "https://drive.google.com/file/d/14sDeFaejK3lYscf8P9Lp3dDeRFAiANAT/view?usp=drivesdk",
+      "githubRepo": "https://github.com/imroatulfaizah/Sistem-Desa-CodeIgniter",
+      "stars": 7
+    },
     {
       "id": "sc-122",
       "title": "Sistem Presensi Karyawan & Absensi Online - Presapps",
