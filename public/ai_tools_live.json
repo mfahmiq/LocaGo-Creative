@@ -1,6 +1,6 @@
 {
-  "updatedAt": "16 Nov 2026, 10:35 WIB",
-  "total": 472,
+  "updatedAt": "16 Nov 2026, 11:05 WIB",
+  "total": 473,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-maximem",
+      "name": "Maximem",
+      "category": "Agentic Automation",
+      "pricingType": "Paid",
+      "tagline": "Maximem - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "A tool to store and sync context across AI tools.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/maximem.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.maximem.ai"
     },
     {
       "id": "ai-appwizzy",
