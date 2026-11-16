@@ -1,6 +1,6 @@
 {
-  "updatedAt": "16 Nov 2026, 21:37 WIB",
-  "total": 494,
+  "updatedAt": "16 Nov 2026, 22:08 WIB",
+  "total": 495,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-tablesprint",
+      "name": "TableSprint",
+      "category": "AI Coding",
+      "pricingType": "Freemium",
+      "tagline": "TableSprint - Solusi AI Terverifikasi untuk AI Coding",
+      "description": "A no-code platform for creating custom business applications using an Excel-like interface.",
+      "features": [
+        "Kategori resmi terverifikasi: AI Coding",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/tablesprint.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.tablesprint.com"
     },
     {
       "id": "ai-handtext-ai",
