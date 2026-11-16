@@ -1,6 +1,6 @@
 {
-  "updatedAt": "16 Nov 2026, 11:05 WIB",
-  "total": 473,
+  "updatedAt": "16 Nov 2026, 11:35 WIB",
+  "total": 474,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-mumble-note",
+      "name": "Mumble Note",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Mumble Note - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "An iOS App to convert spoken words into organized, actionable notes.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/mumble-note.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.mumblenote.com"
     },
     {
       "id": "ai-maximem",
