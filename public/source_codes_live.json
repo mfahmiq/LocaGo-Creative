@@ -1,7 +1,66 @@
 {
-  "updatedAt": "15 Nov 2026, 23:31 WIB",
-  "total": 87,
+  "updatedAt": "16 Nov 2026, 00:17 WIB",
+  "total": 88,
   "items": [
+    {
+      "id": "sc-98",
+      "title": "Sistem Informasi Manajemen Sekolah - Aplikasi Profil Sekolah",
+      "slug": "aplikasi-profil-sekolah",
+      "category": "Pendidikan & Akademik",
+      "techStack": [
+        "CodeIgniter",
+        "PHP",
+        "MySQL",
+        "Bootstrap",
+        "AdminLTE"
+      ],
+      "description": "Apliaksi profil Sekolah Berbasis Codeigniter sederhana.\n\nProyek riil open-source asli dari GitHub (https://github.com/bagussatoto/Aplikasi-Profil-Sekolah). Dilengkapi file database lengkap (sekolahkita.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Informasi Manajemen Sekolah - Aplikasi Profil Sekolah dengan database sekolahkita.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap, AdminLTE dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/aplikasi-profil-sekolah/screenshot_1.webp",
+        "/screenshots/aplikasi-profil-sekolah/screenshot_2.webp",
+        "/screenshots/aplikasi-profil-sekolah/screenshot_3.webp",
+        "/screenshots/aplikasi-profil-sekolah/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "16 November 2026",
+      "releaseDate": "16 November 2026",
+      "recentFastDownloads": 48,
+      "thumbnail": "/screenshots/aplikasi-profil-sekolah/screenshot_1.webp",
+      "downloadsCount": 463,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "52.0 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `aplikasi-profil-sekolah.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `sekolahkita.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/aplikasi-profil-sekolah` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (bagussatoto/Aplikasi-Profil-Sekolah) dengan source code lengkap",
+        "Disertai database asli (sekolahkita.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=aplikasi-profil-sekolah&step=1&max=8",
+      "downloadUrlFast": "/downloads/aplikasi-profil-sekolah.zip",
+      "driveUrl": "https://drive.google.com/file/d/14AxazlI4B-Tcdo_MJMgUsWo1XGgKzSxJ/view?usp=drivesdk",
+      "githubRepo": "https://github.com/bagussatoto/Aplikasi-Profil-Sekolah",
+      "stars": 13
+    },
     {
       "id": "sc-97",
       "title": "Sistem Informasi Manajemen Rumah Sakit - Ta Sistem Informasi Rumah Sakit",
