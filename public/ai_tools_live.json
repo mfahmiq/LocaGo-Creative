@@ -1,6 +1,6 @@
 {
-  "updatedAt": "16 Nov 2026, 22:38 WIB",
-  "total": 496,
+  "updatedAt": "16 Nov 2026, 23:08 WIB",
+  "total": 497,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-cropilot",
+      "name": "CroPilot",
+      "category": "Web & Scrapers",
+      "pricingType": "Paid",
+      "tagline": "CroPilot - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "A tool to optimize website conversions with A/B testing.",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/cropilot.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://cropilot.ai"
     },
     {
       "id": "ai-unshift-ai",
