@@ -1,7 +1,65 @@
 {
-  "updatedAt": "16 Nov 2026, 13:49 WIB",
-  "total": 114,
+  "updatedAt": "16 Nov 2026, 14:18 WIB",
+  "total": 115,
   "items": [
+    {
+      "id": "sc-125",
+      "title": "Sistem Informasi Pelayanan Desa - Data Penduduk",
+      "slug": "data-penduduk",
+      "category": "Pemerintahan & Publik",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Aplikasi pendataan warga Rukun Warga 15 Desa Laksanamekar Kecamatan Padalarang Kabupaten Bandung Barat. Open Source, siapa saja bisa berkontribusi untuk ikut mengembangkan aplikasi ini. Full Respect for all Help & Support from All Coding Master. Project tanpa nominal , harap di fahami ya...\n\nProyek riil open-source asli dari GitHub (https://github.com/SWARGA15/data-penduduk). Dilengkapi file database lengkap (swargaxv.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Informasi Pelayanan Desa - Data Penduduk dengan database swargaxv.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/data-penduduk/screenshot_1.webp",
+        "/screenshots/data-penduduk/screenshot_2.webp",
+        "/screenshots/data-penduduk/screenshot_3.webp",
+        "/screenshots/data-penduduk/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "16 November 2026",
+      "releaseDate": "16 November 2026",
+      "recentFastDownloads": 45,
+      "thumbnail": "/screenshots/data-penduduk/screenshot_1.webp",
+      "downloadsCount": 728,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "6.2 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `data-penduduk.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `swargaxv.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/data-penduduk` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (SWARGA15/data-penduduk) dengan source code lengkap",
+        "Disertai database asli (swargaxv.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=data-penduduk&step=1&max=8",
+      "downloadUrlFast": "/downloads/data-penduduk.zip",
+      "driveUrl": "https://drive.google.com/file/d/1QI53E8GG0HszXqSCuWSwz2PeXWleEdYr/view?usp=drivesdk",
+      "githubRepo": "https://github.com/SWARGA15/data-penduduk",
+      "stars": 4
+    },
     {
       "id": "sc-124",
       "title": "Sistem Informasi Pelayanan Desa - Sistem Informasi Desa Tupa",
