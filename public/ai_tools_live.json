@@ -1,6 +1,6 @@
 {
-  "updatedAt": "16 Nov 2026, 09:05 WIB",
-  "total": 469,
+  "updatedAt": "16 Nov 2026, 09:35 WIB",
+  "total": 470,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-cflow",
+      "name": "Cflow",
+      "category": "Agentic Automation",
+      "pricingType": "Paid",
+      "tagline": "Cflow - Solusi AI Terverifikasi untuk Agentic Automation",
+      "description": "A tool to automate and manage business workflows without coding.",
+      "features": [
+        "Kategori resmi terverifikasi: Agentic Automation",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/cflow.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.cflowapps.com"
     },
     {
       "id": "ai-ai-renamer",
