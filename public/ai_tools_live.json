@@ -1,6 +1,6 @@
 {
-  "updatedAt": "16 Nov 2026, 09:35 WIB",
-  "total": 470,
+  "updatedAt": "16 Nov 2026, 10:05 WIB",
+  "total": 471,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-sonant",
+      "name": "Sonant",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Sonant - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "An AI receptionist for insurance agencies phone calls tasks.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/sonant.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://www.sonant.ai"
     },
     {
       "id": "ai-cflow",
