@@ -1,7 +1,65 @@
 {
-  "updatedAt": "16 Nov 2026, 13:19 WIB",
-  "total": 113,
+  "updatedAt": "16 Nov 2026, 13:49 WIB",
+  "total": 114,
   "items": [
+    {
+      "id": "sc-124",
+      "title": "Sistem Informasi Pelayanan Desa - Sistem Informasi Desa Tupa",
+      "slug": "sistem-informasi-desa-tupa",
+      "category": "Pemerintahan & Publik",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Web Sistem-Informasi-Desa-Tupa adalah sebuah aplikasi web yang dirancang untuk menyediakan informasi lengkap mengenai Desa Tupa. Dibangun menggunakan PHP native, memungkinkan warga desa dan pengunjung untuk mengakses berbagai informasi penting seperti berita desa, profil desa dll\n\nProyek riil open-source asli dari GitHub (https://github.com/Whyriez/Sistem-Informasi-Desa-Tupa). Dilengkapi file database lengkap (database/siades.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Informasi Pelayanan Desa - Sistem Informasi Desa Tupa dengan database database/siades.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/sistem-informasi-desa-tupa/screenshot_1.webp",
+        "/screenshots/sistem-informasi-desa-tupa/screenshot_2.webp",
+        "/screenshots/sistem-informasi-desa-tupa/screenshot_3.webp",
+        "/screenshots/sistem-informasi-desa-tupa/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "16 November 2026",
+      "releaseDate": "16 November 2026",
+      "recentFastDownloads": 90,
+      "thumbnail": "/screenshots/sistem-informasi-desa-tupa/screenshot_1.webp",
+      "downloadsCount": 764,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "8.4 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `sistem-informasi-desa-tupa.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `database/siades.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/sistem-informasi-desa-tupa` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (Whyriez/Sistem-Informasi-Desa-Tupa) dengan source code lengkap",
+        "Disertai database asli (database/siades.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=sistem-informasi-desa-tupa&step=1&max=8",
+      "downloadUrlFast": "/downloads/sistem-informasi-desa-tupa.zip",
+      "driveUrl": "https://drive.google.com/file/d/1-1gEc08f8REBZWLdx66BXZ7sVfG9KzI9/view?usp=drivesdk",
+      "githubRepo": "https://github.com/Whyriez/Sistem-Informasi-Desa-Tupa",
+      "stars": 5
+    },
     {
       "id": "sc-123",
       "title": "Sistem Informasi Pelayanan Desa - Sistem Desa Codeigniter",
