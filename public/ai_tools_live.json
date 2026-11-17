@@ -1,6 +1,6 @@
 {
-  "updatedAt": "17 Nov 2026, 07:09 WIB",
-  "total": 513,
+  "updatedAt": "17 Nov 2026, 07:39 WIB",
+  "total": 514,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-synthesizer-v",
+      "name": "Synthesizer V",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Synthesizer V - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "AI Music Vocal Generator",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/synthesizer-v.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://dreamtonics.com/en/synthesizerv"
     },
     {
       "id": "ai-palette",
