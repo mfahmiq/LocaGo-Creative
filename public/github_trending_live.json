@@ -1,6 +1,6 @@
 {
-  "updatedAt": "17 Nov 2026, 09:21 WIB",
-  "total": 14,
+  "updatedAt": "17 Nov 2026, 10:27 WIB",
+  "total": 15,
   "items": [
     {
       "id": "gh-ag-ui-protocol-ag-ui",
@@ -13,7 +13,7 @@
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "oneSentencePitch": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "rank": 1,
-      "totalStars": "19.1k",
+      "totalStars": "19.2k",
       "starsToday": 791,
       "starsGrowthText": "+791 stars today",
       "growthRate": "+791 stars today",
@@ -38,7 +38,7 @@
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "oneSentencePitch": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "rank": 2,
-      "totalStars": "12.6k",
+      "totalStars": "12.7k",
       "starsToday": 696,
       "starsGrowthText": "+696 stars today",
       "growthRate": "+696 stars today",
@@ -63,7 +63,7 @@
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "oneSentencePitch": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "rank": 3,
-      "totalStars": "27.8k",
+      "totalStars": "27.9k",
       "starsToday": 1828,
       "starsGrowthText": "+1,828 stars today",
       "growthRate": "+1,828 stars today",
@@ -103,6 +103,31 @@
       ]
     },
     {
+      "id": "gh-elementalsouls-claude-bughunter",
+      "name": "Claude-BugHunter",
+      "owner": "elementalsouls",
+      "repo": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "category": "AI Agents & LLM",
+      "language": "Python",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "oneSentencePitch": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "rank": 5,
+      "totalStars": "7.5k",
+      "starsToday": 1094,
+      "starsGrowthText": "+1,094 stars today",
+      "growthRate": "+1,094 stars today",
+      "topics": [
+        "ai",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #5 di GitHub (?since=daily)",
+        "Pertumbuhan pesat: +1,094 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
       "id": "gh-getarcaneapp-arcane",
       "name": "arcane",
       "owner": "getarcaneapp",
@@ -112,7 +137,7 @@
       "language": "Go",
       "description": "Modern Docker Management, Designed for Everyone",
       "oneSentencePitch": "Modern Docker Management, Designed for Everyone",
-      "rank": 5,
+      "rank": 6,
       "totalStars": "8.8k",
       "starsToday": 46,
       "starsGrowthText": "+46 stars today",
@@ -122,7 +147,7 @@
         "go"
       ],
       "features": [
-        "Trending resmi #5 di GitHub (?since=daily)",
+        "Trending resmi #6 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +46 stars today",
         "Ditulis menggunakan bahasa Go"
       ]
@@ -137,8 +162,8 @@
       "language": "JavaScript",
       "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
       "oneSentencePitch": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
-      "rank": 6,
-      "totalStars": "6.9k",
+      "rank": 7,
+      "totalStars": "7.0k",
       "starsToday": 288,
       "starsGrowthText": "+288 stars today",
       "growthRate": "+288 stars today",
@@ -147,7 +172,7 @@
         "javascript"
       ],
       "features": [
-        "Trending resmi #6 di GitHub (?since=daily)",
+        "Trending resmi #7 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +288 stars today",
         "Ditulis menggunakan bahasa JavaScript"
       ]
@@ -162,7 +187,7 @@
       "language": "TypeScript",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "oneSentencePitch": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-      "rank": 7,
+      "rank": 8,
       "totalStars": "9.8k",
       "starsToday": 529,
       "starsGrowthText": "+529 stars today",
@@ -172,7 +197,7 @@
         "typescript"
       ],
       "features": [
-        "Trending resmi #7 di GitHub (?since=daily)",
+        "Trending resmi #8 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +529 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
@@ -187,7 +212,7 @@
       "language": "Python",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "oneSentencePitch": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "rank": 8,
+      "rank": 9,
       "totalStars": "68.2k",
       "starsToday": 135,
       "starsGrowthText": "+135 stars today",
@@ -197,7 +222,7 @@
         "python"
       ],
       "features": [
-        "Trending resmi #8 di GitHub (?since=daily)",
+        "Trending resmi #9 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +135 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
@@ -212,7 +237,7 @@
       "language": "Python",
       "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
       "oneSentencePitch": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
-      "rank": 9,
+      "rank": 10,
       "totalStars": "2.8k",
       "starsToday": 873,
       "starsGrowthText": "+873 stars today",
@@ -222,7 +247,7 @@
         "python"
       ],
       "features": [
-        "Trending resmi #9 di GitHub (?since=daily)",
+        "Trending resmi #10 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +873 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
@@ -237,7 +262,7 @@
       "language": "Go",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "oneSentencePitch": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "rank": 10,
+      "rank": 11,
       "totalStars": "53.0k",
       "starsToday": 951,
       "starsGrowthText": "+951 stars today",
@@ -247,7 +272,7 @@
         "go"
       ],
       "features": [
-        "Trending resmi #10 di GitHub (?since=daily)",
+        "Trending resmi #11 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +951 stars today",
         "Ditulis menggunakan bahasa Go"
       ]
@@ -262,8 +287,8 @@
       "language": "Python",
       "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
       "oneSentencePitch": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
-      "rank": 11,
-      "totalStars": "1.6k",
+      "rank": 12,
+      "totalStars": "1.7k",
       "starsToday": 313,
       "starsGrowthText": "+313 stars today",
       "growthRate": "+313 stars today",
@@ -272,7 +297,7 @@
         "python"
       ],
       "features": [
-        "Trending resmi #11 di GitHub (?since=daily)",
+        "Trending resmi #12 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +313 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
@@ -287,8 +312,8 @@
       "language": "TypeScript",
       "description": "Chrome DevTools for coding agents",
       "oneSentencePitch": "Chrome DevTools for coding agents",
-      "rank": 12,
-      "totalStars": "57.7k",
+      "rank": 13,
+      "totalStars": "57.8k",
       "starsToday": 841,
       "starsGrowthText": "+841 stars today",
       "growthRate": "+841 stars today",
@@ -297,7 +322,7 @@
         "typescript"
       ],
       "features": [
-        "Trending resmi #12 di GitHub (?since=daily)",
+        "Trending resmi #13 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +841 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
@@ -312,7 +337,7 @@
       "language": "JavaScript",
       "description": "web development for the rest of us",
       "oneSentencePitch": "web development for the rest of us",
-      "rank": 13,
+      "rank": 14,
       "totalStars": "89.0k",
       "starsToday": 115,
       "starsGrowthText": "+115 stars today",
@@ -322,7 +347,7 @@
         "javascript"
       ],
       "features": [
-        "Trending resmi #13 di GitHub (?since=daily)",
+        "Trending resmi #14 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +115 stars today",
         "Ditulis menggunakan bahasa JavaScript"
       ]
@@ -337,7 +362,7 @@
       "language": "Python",
       "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
       "oneSentencePitch": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
-      "rank": 14,
+      "rank": 15,
       "totalStars": "6.9k",
       "starsToday": 367,
       "starsGrowthText": "+367 stars today",
@@ -347,7 +372,7 @@
         "python"
       ],
       "features": [
-        "Trending resmi #14 di GitHub (?since=daily)",
+        "Trending resmi #15 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +367 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
@@ -365,7 +390,7 @@
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "oneSentencePitch": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "rank": 1,
-      "totalStars": "19.1k",
+      "totalStars": "19.2k",
       "starsToday": 791,
       "starsGrowthText": "+791 stars today",
       "growthRate": "+791 stars today",
@@ -390,7 +415,7 @@
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "oneSentencePitch": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "rank": 2,
-      "totalStars": "12.6k",
+      "totalStars": "12.7k",
       "starsToday": 696,
       "starsGrowthText": "+696 stars today",
       "growthRate": "+696 stars today",
@@ -415,7 +440,7 @@
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "oneSentencePitch": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "rank": 3,
-      "totalStars": "27.8k",
+      "totalStars": "27.9k",
       "starsToday": 1828,
       "starsGrowthText": "+1,828 stars today",
       "growthRate": "+1,828 stars today",
@@ -455,6 +480,31 @@
       ]
     },
     {
+      "id": "gh-elementalsouls-claude-bughunter",
+      "name": "Claude-BugHunter",
+      "owner": "elementalsouls",
+      "repo": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "category": "AI Agents & LLM",
+      "language": "Python",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "oneSentencePitch": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "rank": 5,
+      "totalStars": "7.5k",
+      "starsToday": 1094,
+      "starsGrowthText": "+1,094 stars today",
+      "growthRate": "+1,094 stars today",
+      "topics": [
+        "ai",
+        "python"
+      ],
+      "features": [
+        "Trending resmi #5 di GitHub (?since=daily)",
+        "Pertumbuhan pesat: +1,094 stars today",
+        "Ditulis menggunakan bahasa Python"
+      ]
+    },
+    {
       "id": "gh-getarcaneapp-arcane",
       "name": "arcane",
       "owner": "getarcaneapp",
@@ -464,7 +514,7 @@
       "language": "Go",
       "description": "Modern Docker Management, Designed for Everyone",
       "oneSentencePitch": "Modern Docker Management, Designed for Everyone",
-      "rank": 5,
+      "rank": 6,
       "totalStars": "8.8k",
       "starsToday": 46,
       "starsGrowthText": "+46 stars today",
@@ -474,7 +524,7 @@
         "go"
       ],
       "features": [
-        "Trending resmi #5 di GitHub (?since=daily)",
+        "Trending resmi #6 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +46 stars today",
         "Ditulis menggunakan bahasa Go"
       ]
@@ -489,8 +539,8 @@
       "language": "JavaScript",
       "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
       "oneSentencePitch": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
-      "rank": 6,
-      "totalStars": "6.9k",
+      "rank": 7,
+      "totalStars": "7.0k",
       "starsToday": 288,
       "starsGrowthText": "+288 stars today",
       "growthRate": "+288 stars today",
@@ -499,7 +549,7 @@
         "javascript"
       ],
       "features": [
-        "Trending resmi #6 di GitHub (?since=daily)",
+        "Trending resmi #7 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +288 stars today",
         "Ditulis menggunakan bahasa JavaScript"
       ]
@@ -514,7 +564,7 @@
       "language": "TypeScript",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "oneSentencePitch": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-      "rank": 7,
+      "rank": 8,
       "totalStars": "9.8k",
       "starsToday": 529,
       "starsGrowthText": "+529 stars today",
@@ -524,7 +574,7 @@
         "typescript"
       ],
       "features": [
-        "Trending resmi #7 di GitHub (?since=daily)",
+        "Trending resmi #8 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +529 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
@@ -539,7 +589,7 @@
       "language": "Python",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "oneSentencePitch": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "rank": 8,
+      "rank": 9,
       "totalStars": "68.2k",
       "starsToday": 135,
       "starsGrowthText": "+135 stars today",
@@ -549,7 +599,7 @@
         "python"
       ],
       "features": [
-        "Trending resmi #8 di GitHub (?since=daily)",
+        "Trending resmi #9 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +135 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
@@ -564,7 +614,7 @@
       "language": "Python",
       "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
       "oneSentencePitch": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
-      "rank": 9,
+      "rank": 10,
       "totalStars": "2.8k",
       "starsToday": 873,
       "starsGrowthText": "+873 stars today",
@@ -574,7 +624,7 @@
         "python"
       ],
       "features": [
-        "Trending resmi #9 di GitHub (?since=daily)",
+        "Trending resmi #10 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +873 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
@@ -589,7 +639,7 @@
       "language": "Go",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "oneSentencePitch": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "rank": 10,
+      "rank": 11,
       "totalStars": "53.0k",
       "starsToday": 951,
       "starsGrowthText": "+951 stars today",
@@ -599,7 +649,7 @@
         "go"
       ],
       "features": [
-        "Trending resmi #10 di GitHub (?since=daily)",
+        "Trending resmi #11 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +951 stars today",
         "Ditulis menggunakan bahasa Go"
       ]
@@ -614,8 +664,8 @@
       "language": "Python",
       "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
       "oneSentencePitch": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
-      "rank": 11,
-      "totalStars": "1.6k",
+      "rank": 12,
+      "totalStars": "1.7k",
       "starsToday": 313,
       "starsGrowthText": "+313 stars today",
       "growthRate": "+313 stars today",
@@ -624,7 +674,7 @@
         "python"
       ],
       "features": [
-        "Trending resmi #11 di GitHub (?since=daily)",
+        "Trending resmi #12 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +313 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
@@ -639,8 +689,8 @@
       "language": "TypeScript",
       "description": "Chrome DevTools for coding agents",
       "oneSentencePitch": "Chrome DevTools for coding agents",
-      "rank": 12,
-      "totalStars": "57.7k",
+      "rank": 13,
+      "totalStars": "57.8k",
       "starsToday": 841,
       "starsGrowthText": "+841 stars today",
       "growthRate": "+841 stars today",
@@ -649,7 +699,7 @@
         "typescript"
       ],
       "features": [
-        "Trending resmi #12 di GitHub (?since=daily)",
+        "Trending resmi #13 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +841 stars today",
         "Ditulis menggunakan bahasa TypeScript"
       ]
@@ -664,7 +714,7 @@
       "language": "JavaScript",
       "description": "web development for the rest of us",
       "oneSentencePitch": "web development for the rest of us",
-      "rank": 13,
+      "rank": 14,
       "totalStars": "89.0k",
       "starsToday": 115,
       "starsGrowthText": "+115 stars today",
@@ -674,7 +724,7 @@
         "javascript"
       ],
       "features": [
-        "Trending resmi #13 di GitHub (?since=daily)",
+        "Trending resmi #14 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +115 stars today",
         "Ditulis menggunakan bahasa JavaScript"
       ]
@@ -689,7 +739,7 @@
       "language": "Python",
       "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
       "oneSentencePitch": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
-      "rank": 14,
+      "rank": 15,
       "totalStars": "6.9k",
       "starsToday": 367,
       "starsGrowthText": "+367 stars today",
@@ -699,7 +749,7 @@
         "python"
       ],
       "features": [
-        "Trending resmi #14 di GitHub (?since=daily)",
+        "Trending resmi #15 di GitHub (?since=daily)",
         "Pertumbuhan pesat: +367 stars today",
         "Ditulis menggunakan bahasa Python"
       ]
@@ -717,7 +767,7 @@
       "description": "Keep your coding agent up to date with the latest web best practices",
       "oneSentencePitch": "Keep your coding agent up to date with the latest web best practices",
       "rank": 1,
-      "totalStars": "8.0k",
+      "totalStars": "8.1k",
       "starsToday": 6542,
       "starsGrowthText": "+6,542 stars this week",
       "growthRate": "+6,542 stars this week",
@@ -767,7 +817,7 @@
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "oneSentencePitch": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "rank": 3,
-      "totalStars": "12.6k",
+      "totalStars": "12.7k",
       "starsToday": 2325,
       "starsGrowthText": "+2,325 stars this week",
       "growthRate": "+2,325 stars this week",
@@ -817,7 +867,7 @@
       "description": "Browser automation CLI for AI agents",
       "oneSentencePitch": "Browser automation CLI for AI agents",
       "rank": 5,
-      "totalStars": "52.0k",
+      "totalStars": "52.1k",
       "starsToday": 3760,
       "starsGrowthText": "+3,760 stars this week",
       "growthRate": "+3,760 stars this week",
@@ -867,7 +917,7 @@
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "oneSentencePitch": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "rank": 7,
-      "totalStars": "72.8k",
+      "totalStars": "72.9k",
       "starsToday": 4355,
       "starsGrowthText": "+4,355 stars this week",
       "growthRate": "+4,355 stars this week",
@@ -892,7 +942,7 @@
       "description": "Hunt down social media accounts by username across social networks",
       "oneSentencePitch": "Hunt down social media accounts by username across social networks",
       "rank": 8,
-      "totalStars": "113.2k",
+      "totalStars": "113.3k",
       "starsToday": 7067,
       "starsGrowthText": "+7,067 stars this week",
       "growthRate": "+7,067 stars this week",
@@ -1119,7 +1169,7 @@
       "description": "The best way to control Claude Code, Codex and more from any computer or phone",
       "oneSentencePitch": "The best way to control Claude Code, Codex and more from any computer or phone",
       "rank": 3,
-      "totalStars": "62.9k",
+      "totalStars": "63.0k",
       "starsToday": 34691,
       "starsGrowthText": "+34,691 stars this month",
       "growthRate": "+34,691 stars this month",
@@ -1194,7 +1244,7 @@
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "oneSentencePitch": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "rank": 6,
-      "totalStars": "111.4k",
+      "totalStars": "111.5k",
       "starsToday": 29881,
       "starsGrowthText": "+29,881 stars this month",
       "growthRate": "+29,881 stars this month",
@@ -1269,7 +1319,7 @@
       "description": "Hunt down social media accounts by username across social networks",
       "oneSentencePitch": "Hunt down social media accounts by username across social networks",
       "rank": 9,
-      "totalStars": "113.2k",
+      "totalStars": "113.3k",
       "starsToday": 19079,
       "starsGrowthText": "+19,079 stars this month",
       "growthRate": "+19,079 stars this month",
@@ -1369,7 +1419,7 @@
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "oneSentencePitch": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "rank": 13,
-      "totalStars": "12.6k",
+      "totalStars": "12.7k",
       "starsToday": 2848,
       "starsGrowthText": "+2,848 stars this month",
       "growthRate": "+2,848 stars this month",
@@ -1394,7 +1444,7 @@
       "description": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
       "oneSentencePitch": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
       "rank": 14,
-      "totalStars": "20.6k",
+      "totalStars": "20.7k",
       "starsToday": 8363,
       "starsGrowthText": "+8,363 stars this month",
       "growthRate": "+8,363 stars this month",
@@ -1419,7 +1469,7 @@
       "description": "Browser automation CLI for AI agents",
       "oneSentencePitch": "Browser automation CLI for AI agents",
       "rank": 15,
-      "totalStars": "52.0k",
+      "totalStars": "52.1k",
       "starsToday": 7943,
       "starsGrowthText": "+7,943 stars this month",
       "growthRate": "+7,943 stars this month",
