@@ -1,7 +1,65 @@
 {
-  "updatedAt": "18 Nov 2026, 05:56 WIB",
-  "total": 132,
+  "updatedAt": "18 Nov 2026, 06:56 WIB",
+  "total": 133,
   "items": [
+    {
+      "id": "sc-143",
+      "title": "Sistem Manajemen Laundry Kiloan - Project Aplikasi Laundry",
+      "slug": "project-aplikasi-laundry",
+      "category": "Layanan & Jasa",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Aplikasi Laundry berbasis Website dengan Bootstrap + PHP\n\nProyek riil open-source asli dari GitHub (https://github.com/fathurwalkers/project-aplikasi-laundry). Dilengkapi file database lengkap (laundry.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Manajemen Laundry Kiloan - Project Aplikasi Laundry dengan database laundry.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/project-aplikasi-laundry/screenshot_1.webp",
+        "/screenshots/project-aplikasi-laundry/screenshot_2.webp",
+        "/screenshots/project-aplikasi-laundry/screenshot_3.webp",
+        "/screenshots/project-aplikasi-laundry/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "18 November 2026",
+      "releaseDate": "18 November 2026",
+      "recentFastDownloads": 86,
+      "thumbnail": "/screenshots/project-aplikasi-laundry/screenshot_1.webp",
+      "downloadsCount": 725,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "14.4 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `project-aplikasi-laundry.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `laundry.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/project-aplikasi-laundry` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (fathurwalkers/project-aplikasi-laundry) dengan source code lengkap",
+        "Disertai database asli (laundry.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=project-aplikasi-laundry&step=1&max=8",
+      "downloadUrlFast": "/downloads/project-aplikasi-laundry.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/fathurwalkers/project-aplikasi-laundry",
+      "stars": 2
+    },
     {
       "id": "sc-142",
       "title": "Hospital & Patient Management System - Hospitalmanagment System",
