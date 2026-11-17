@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-17T18:26:03.074521",
-  "total": 19,
+  "updatedAt": "2026-11-17T23:58:54.625640",
+  "total": 22,
   "items": [
     {
       "id": "list-creator-tools",
@@ -480,6 +480,132 @@
         {
           "id": "cl-locago-main",
           "title": "🌐 Katalog Lengkap 329+ Tools AI LocaGo Creative",
+          "url": "https://www.locagocreative.my.id/#ai-tools",
+          "note": "Akses gratis seluruh kurasi tools produktivitas & developer."
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "17 Nov 2026",
+      "views": 1500
+    },
+    {
+      "id": "list-pengganti-software-mahal",
+      "title": "Pengganti Software Mahal",
+      "notes": "5 repo GitHub trending 18 Nov 2026: Prusa Connect, Wireless Battery, Mister Download Manager, Gas Fee Tracker, Lastbook — carousel Batch 1 Single-Repo Master.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [],
+      "customLinks": [
+        {
+          "id": "cl-prusa-connect-repo",
+          "title": "Prusa Connect di GitHub",
+          "url": "https://github.com/prusa3d/prusa-connect",
+          "note": "Repo open-source Prusa Connect — Server lokal Go buat kelola printer 3D dari browser, tanpa cloud. 122 stars."
+        },
+        {
+          "id": "cl-wireless-battery-repo",
+          "title": "Wireless Battery di GitHub",
+          "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+          "note": "Repo open-source Wireless Battery — Level baterai mouse, headset & keyboard wireless di taskbar Windows. 2.610 stars."
+        },
+        {
+          "id": "cl-mister-download-manager-repo",
+          "title": "Mister Download Manager di GitHub",
+          "url": "https://github.com/anefzaoui/misterdownloadmanager",
+          "note": "Repo open-source Mister Download Manager — Download manager Rust gratis — multi-bagian, torrent & video, tanpa iklan. 12.030 stars."
+        },
+        {
+          "id": "cl-gas-fee-tracker-repo",
+          "title": "Gas Fee Tracker di GitHub",
+          "url": "https://github.com/SkinJaguarAdapt/gas-fee-tracker",
+          "note": "Repo open-source Gas Fee Tracker — Pelacak pola gas fee chain EVM dengan resep alert siap pakai. 98 stars."
+        },
+        {
+          "id": "cl-lastbook-repo",
+          "title": "Lastbook di GitHub",
+          "url": "https://github.com/Immortal-Protocols/lastbook",
+          "note": "Repo open-source Lastbook — Library pengetahuan offline + AI lokal, peta & video buat bertahan hidup. 1.744 stars."
+        },
+        {
+          "id": "cl-locago-main",
+          "title": "Katalog Lengkap 329+ Tools AI LocaGo Creative",
+          "url": "https://www.locagocreative.my.id/#ai-tools",
+          "note": "Akses gratis seluruh kurasi tools produktivitas & developer."
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "17 Nov 2026",
+      "views": 1500
+    },
+    {
+      "id": "list-tool-kreator-konten-streamer",
+      "title": "Tool Kreator Konten & Streamer",
+      "notes": "3 tool buat kreator konten dan streamer 18 Nov 2026: OBS Streamer Stack, PeakCut, Allo — carousel Batch 3.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [],
+      "customLinks": [
+        {
+          "id": "cl-obs-streamer-stack-repo",
+          "title": "OBS Streamer Stack di GitHub",
+          "url": "https://github.com/polygondomainport/obs-streamer-stack",
+          "note": "Repo open-source OBS Streamer Stack — Plugin OBS buat alert, filter, dan performa stream. 97 stars."
+        },
+        {
+          "id": "cl-peakcut-repo",
+          "title": "PeakCut di GitHub",
+          "url": "https://github.com/haziqahmedqasmi/PeakCut",
+          "note": "Repo open-source PeakCut — Potong video panjang jadi klip pendek pakai AI, self-hosted. 857 stars."
+        },
+        {
+          "id": "cl-allo-repo",
+          "title": "Allo di GitHub",
+          "url": "https://github.com/joshpuckett/allo",
+          "note": "Repo open-source Allo — Typeface open-source gratis buat thumbnail dan desain. 866 stars."
+        },
+        {
+          "id": "cl-locago-main",
+          "title": "Katalog Lengkap 329+ Tools AI LocaGo Creative",
+          "url": "https://www.locagocreative.my.id/#ai-tools",
+          "note": "Akses gratis seluruh kurasi tools produktivitas & developer."
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "17 Nov 2026",
+      "views": 1500
+    },
+    {
+      "id": "list-bangun-jalanin-app-open-source",
+      "title": "Bangun & Jalanin App Open-Source",
+      "notes": "3 tool open-source buat bangun dan jalanin app 18 Nov 2026: islandcn, Kiri, rust-anything — carousel Batch 4.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [],
+      "customLinks": [
+        {
+          "id": "cl-islandcn-repo",
+          "title": "islandcn di GitHub",
+          "url": "https://github.com/opencoredev/islandcn",
+          "note": "Repo open-source islandcn — Dynamic Island ala iOS buat React, pasang pakai shadcn. 795 stars."
+        },
+        {
+          "id": "cl-kiri-repo",
+          "title": "Kiri di GitHub",
+          "url": "https://github.com/libracoder/kiri",
+          "note": "Repo open-source Kiri — Container runtime kecil dan cepat buat macOS, Windows, Linux. 10.086 stars."
+        },
+        {
+          "id": "cl-rust-anything-repo",
+          "title": "rust-anything di GitHub",
+          "url": "https://github.com/erkamyaman/rust-anything",
+          "note": "Repo open-source rust-anything — Tulis ulang app ke Rust selangkah demi selangkah, tetap aman. 1.235 stars."
+        },
+        {
+          "id": "cl-locago-main",
+          "title": "Katalog Lengkap 329+ Tools AI LocaGo Creative",
           "url": "https://www.locagocreative.my.id/#ai-tools",
           "note": "Akses gratis seluruh kurasi tools produktivitas & developer."
         }
