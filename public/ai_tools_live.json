@@ -1,6 +1,6 @@
 {
-  "updatedAt": "17 Nov 2026, 12:09 WIB",
-  "total": 524,
+  "updatedAt": "17 Nov 2026, 12:39 WIB",
+  "total": 525,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-quickchat-ai",
+      "name": "Quickchat AI",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "Quickchat AI - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "Build AI Assistants that talk like a Human",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/quickchat-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://quickchat.ai"
     },
     {
       "id": "ai-clipmaker",
