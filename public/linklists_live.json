@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-17T15:18:52.646081",
-  "total": 11,
+  "updatedAt": "2026-11-17T15:48:02.897456",
+  "total": 12,
   "items": [
     {
       "id": "list-creator-tools",
@@ -264,6 +264,33 @@
         {
           "id": "cl-locago-main",
           "title": "Katalog Lengkap 329+ Tools AI LocaGo Creative",
+          "url": "https://www.locagocreative.my.id/#ai-tools",
+          "note": "Akses gratis seluruh kurasi tools produktivitas & developer."
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "17 Nov 2026",
+      "views": 1500
+    },
+    {
+      "id": "list-self-hosted-generative-media-3d-eng",
+      "title": "Self-Hosted Generative Media & 3D Engine",
+      "notes": "Kurasi tools AI untuk video: Self-Hosted Generative Media & 3D Engine — Flux.1, Recraft v3, Tripo3D, Spline AI, Polycam, Stability Blender.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [
+        "ai-flux-1",
+        "ai-recraft-v3",
+        "ai-tripo3d",
+        "ai-spline-ai",
+        "ai-polycam",
+        "ai-stability-blender"
+      ],
+      "customLinks": [
+        {
+          "id": "cl-locago-main",
+          "title": "🌐 Katalog Lengkap 329+ Tools AI LocaGo Creative",
           "url": "https://www.locagocreative.my.id/#ai-tools",
           "note": "Akses gratis seluruh kurasi tools produktivitas & developer."
         }
