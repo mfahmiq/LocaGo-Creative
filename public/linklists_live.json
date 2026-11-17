@@ -1,6 +1,6 @@
 {
-  "updatedAt": "17 Nov 2026, 15:06 WIB",
-  "total": 8,
+  "updatedAt": "2026-11-17T09:53:24.975418",
+  "total": 9,
   "items": [
     {
       "id": "list-creator-tools",
@@ -164,6 +164,63 @@
       "authorEmail": "eko@growthfunnel.id",
       "createdAt": "04 Nov 2026",
       "views": 890
+    },
+    {
+      "id": "list-browser-automation-testing",
+      "title": "Browser Automation & Testing",
+      "notes": "Kurasi tools Browser Automation & Testing untuk Master Reel v3 (test only). Playwright: npm init playwright@latest, lalu npx playwright test. Puppeteer: npm i puppeteer. Selenium: pip install selenium. Cypress: npm i -D cypress, lalu npx cypress open. k6: docker run grafana/k6 run. TestCafe: npm i -g testcafe.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [
+        "ai-playwright",
+        "ai-puppeteer",
+        "ai-selenium",
+        "ai-cypress",
+        "ai-k6",
+        "ai-testcafe"
+      ],
+      "customLinks": [
+        {
+          "id": "cl-playwright",
+          "title": "Playwright",
+          "url": "https://github.com/microsoft/playwright",
+          "note": "Install: npm init playwright@latest, lalu npx playwright test"
+        },
+        {
+          "id": "cl-puppeteer",
+          "title": "Puppeteer",
+          "url": "https://github.com/puppeteer/puppeteer",
+          "note": "Install: npm i puppeteer"
+        },
+        {
+          "id": "cl-selenium",
+          "title": "Selenium",
+          "url": "https://github.com/SeleniumHQ/selenium",
+          "note": "Install: pip install selenium"
+        },
+        {
+          "id": "cl-cypress",
+          "title": "Cypress",
+          "url": "https://github.com/cypress-io/cypress",
+          "note": "Install: npm i -D cypress, lalu npx cypress open"
+        },
+        {
+          "id": "cl-k6",
+          "title": "k6",
+          "url": "https://github.com/grafana/k6",
+          "note": "Jalankan: docker run grafana/k6 run"
+        },
+        {
+          "id": "cl-testcafe",
+          "title": "TestCafe",
+          "url": "https://github.com/DevExpress/testcafe",
+          "note": "Install: npm i -g testcafe"
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "17 Nov 2026",
+      "views": 1500
     }
   ]
 }
