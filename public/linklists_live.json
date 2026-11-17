@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-17T15:51:46.681786",
-  "total": 12,
+  "updatedAt": "2026-11-17T17:56:43.252428",
+  "total": 19,
   "items": [
     {
       "id": "list-creator-tools",
@@ -286,6 +286,195 @@
         "ai-spline-ai",
         "ai-polycam",
         "ai-stability-blender"
+      ],
+      "customLinks": [
+        {
+          "id": "cl-locago-main",
+          "title": "🌐 Katalog Lengkap 329+ Tools AI LocaGo Creative",
+          "url": "https://www.locagocreative.my.id/#ai-tools",
+          "note": "Akses gratis seluruh kurasi tools produktivitas & developer."
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "17 Nov 2026",
+      "views": 1500
+    },
+    {
+      "id": "list-ai-writing-seo-research-stack",
+      "title": "AI Writing & SEO Research Stack",
+      "notes": "Kurasi tools AI untuk video reel 2026-11-18: AI Writing & SEO Research Stack.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [
+        "ai-perplexity-ai",
+        "ai-frase-io",
+        "ai-koalawriter",
+        "ai-surfer-seo",
+        "ai-gamma-app",
+        "ai-quillbot"
+      ],
+      "customLinks": [
+        {
+          "id": "cl-locago-main",
+          "title": "🌐 Katalog Lengkap 329+ Tools AI LocaGo Creative",
+          "url": "https://www.locagocreative.my.id/#ai-tools",
+          "note": "Akses gratis seluruh kurasi tools produktivitas & developer."
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "17 Nov 2026",
+      "views": 1500
+    },
+    {
+      "id": "list-ai-code-quality-review-stack",
+      "title": "AI Code Quality & Review Stack",
+      "notes": "Kurasi tools AI untuk video reel 2026-11-18: AI Code Quality & Review Stack.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [
+        "ai-supermaven",
+        "ai-sourcegraph-cody",
+        "ai-coderabbit",
+        "ai-qodo",
+        "ai-warp-terminal",
+        "ai-tabnine"
+      ],
+      "customLinks": [
+        {
+          "id": "cl-locago-main",
+          "title": "🌐 Katalog Lengkap 329+ Tools AI LocaGo Creative",
+          "url": "https://www.locagocreative.my.id/#ai-tools",
+          "note": "Akses gratis seluruh kurasi tools produktivitas & developer."
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "17 Nov 2026",
+      "views": 1500
+    },
+    {
+      "id": "list-autonomous-multi-agent-builder-stac",
+      "title": "Autonomous Multi-Agent Builder Stack",
+      "notes": "Kurasi tools AI untuk video reel 2026-11-18: Autonomous Multi-Agent Builder Stack.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [
+        "ai-autogen",
+        "ai-chatdev",
+        "ai-pythagora",
+        "ai-dyad",
+        "ai-letta",
+        "ai-astron-agent"
+      ],
+      "customLinks": [
+        {
+          "id": "cl-locago-main",
+          "title": "🌐 Katalog Lengkap 329+ Tools AI LocaGo Creative",
+          "url": "https://www.locagocreative.my.id/#ai-tools",
+          "note": "Akses gratis seluruh kurasi tools produktivitas & developer."
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "17 Nov 2026",
+      "views": 1500
+    },
+    {
+      "id": "list-ai-avatar-talking-video-stack",
+      "title": "AI Avatar & Talking Video Stack",
+      "notes": "Kurasi tools AI untuk video reel 2026-11-18: AI Avatar & Talking Video Stack.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [
+        "ai-heygen",
+        "ai-colossyan",
+        "ai-deepbrain-ai",
+        "ai-fliki",
+        "ai-invideo-ai",
+        "ai-viggle-ai"
+      ],
+      "customLinks": [
+        {
+          "id": "cl-locago-main",
+          "title": "🌐 Katalog Lengkap 329+ Tools AI LocaGo Creative",
+          "url": "https://www.locagocreative.my.id/#ai-tools",
+          "note": "Akses gratis seluruh kurasi tools produktivitas & developer."
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "17 Nov 2026",
+      "views": 1500
+    },
+    {
+      "id": "list-ai-image-generation-design-stack",
+      "title": "AI Image Generation & Design Stack",
+      "notes": "Kurasi tools AI untuk video reel 2026-11-18: AI Image Generation & Design Stack.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [
+        "ai-ideogram-2-0",
+        "ai-leonardo-ai",
+        "ai-krea-ai",
+        "ai-recraft-ai",
+        "ai-hailuo-ai-minimax",
+        "ai-luma-dream-machine"
+      ],
+      "customLinks": [
+        {
+          "id": "cl-locago-main",
+          "title": "🌐 Katalog Lengkap 329+ Tools AI LocaGo Creative",
+          "url": "https://www.locagocreative.my.id/#ai-tools",
+          "note": "Akses gratis seluruh kurasi tools produktivitas & developer."
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "17 Nov 2026",
+      "views": 1500
+    },
+    {
+      "id": "list-ai-spreadsheet-data-analysis-stack",
+      "title": "AI Spreadsheet & Data Analysis Stack",
+      "notes": "Kurasi tools AI untuk video reel 2026-11-18: AI Spreadsheet & Data Analysis Stack.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [
+        "ai-needle",
+        "ai-sheetai",
+        "ai-tablesprint",
+        "ai-akkio",
+        "ai-rose-ai",
+        "ai-mapify"
+      ],
+      "customLinks": [
+        {
+          "id": "cl-locago-main",
+          "title": "🌐 Katalog Lengkap 329+ Tools AI LocaGo Creative",
+          "url": "https://www.locagocreative.my.id/#ai-tools",
+          "note": "Akses gratis seluruh kurasi tools produktivitas & developer."
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "17 Nov 2026",
+      "views": 1500
+    },
+    {
+      "id": "list-ai-chatbot-customer-support-stack",
+      "title": "AI Chatbot & Customer Support Stack",
+      "notes": "Kurasi tools AI untuk video reel 2026-11-18: AI Chatbot & Customer Support Stack.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [
+        "ai-chatbase",
+        "ai-voiceflow",
+        "ai-lindy-ai",
+        "ai-zapier-central",
+        "ai-bardeen-ai",
+        "ai-make-com"
       ],
       "customLinks": [
         {
