@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-17T09:53:24.975418",
-  "total": 9,
+  "updatedAt": "2026-11-17T15:07:16.666910",
+  "total": 10,
   "items": [
     {
       "id": "list-creator-tools",
@@ -214,6 +214,32 @@
           "title": "TestCafe",
           "url": "https://github.com/DevExpress/testcafe",
           "note": "Install: npm i -g testcafe"
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "17 Nov 2026",
+      "views": 1500
+    },
+    {
+      "id": "list-pocketbase-backend-1-file",
+      "title": "PocketBase: Backend 1 File",
+      "notes": "Backend lengkap dalam 1 file binary Go dengan SQLite realtime, auth, dan storage bawaan — bangun backend aplikasi web cepat tanpa setup ribet, deploy ke VPS murah tanpa database server terpisah.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [],
+      "customLinks": [
+        {
+          "id": "cl-pocketbase-repo",
+          "title": "PocketBase di GitHub",
+          "url": "https://github.com/pocketbase/pocketbase",
+          "note": "Repo open-source PocketBase — backend 1 file binary Go + SQLite realtime, 43.5k stars."
+        },
+        {
+          "id": "cl-locago-main",
+          "title": "Katalog Lengkap 329+ Tools AI LocaGo Creative",
+          "url": "https://www.locagocreative.my.id/#ai-tools",
+          "note": "Akses gratis seluruh kurasi tools produktivitas & developer."
         }
       ],
       "isOfficial": true,
