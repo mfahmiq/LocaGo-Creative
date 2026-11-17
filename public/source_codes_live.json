@@ -1,7 +1,65 @@
 {
-  "updatedAt": "17 Nov 2026, 21:56 WIB",
-  "total": 124,
+  "updatedAt": "17 Nov 2026, 22:56 WIB",
+  "total": 125,
   "items": [
+    {
+      "id": "sc-135",
+      "title": "Sistem Informasi Klinik & Rekam Medis - Simklinik",
+      "slug": "simklinik",
+      "category": "Kesehatan & Medis",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Ini contoh aplikasi Sistem Informasi Manajemen Suatu Klinik\n\nProyek riil open-source asli dari GitHub (https://github.com/HarryWitriyono/simklinik). Dilengkapi file database lengkap (if0_35467751_simklinikumb.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Informasi Klinik & Rekam Medis - Simklinik dengan database if0_35467751_simklinikumb.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/simklinik/screenshot_1.webp",
+        "/screenshots/simklinik/screenshot_2.webp",
+        "/screenshots/simklinik/screenshot_3.webp",
+        "/screenshots/simklinik/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "17 November 2026",
+      "releaseDate": "17 November 2026",
+      "recentFastDownloads": 84,
+      "thumbnail": "/screenshots/simklinik/screenshot_1.webp",
+      "downloadsCount": 581,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "812 KB",
+      "tutorialSteps": [
+        "Ekstrak berkas `simklinik.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `if0_35467751_simklinikumb.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/simklinik` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (HarryWitriyono/simklinik) dengan source code lengkap",
+        "Disertai database asli (if0_35467751_simklinikumb.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=simklinik&step=1&max=8",
+      "downloadUrlFast": "/downloads/simklinik.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/HarryWitriyono/simklinik",
+      "stars": 1
+    },
     {
       "id": "sc-134",
       "title": "Sistem Informasi Pelayanan Desa - Sid",
@@ -241,7 +299,10 @@
       "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap, AdminLTE dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
-        "/screenshots/manajemen-kerja-app/screenshot_1.webp"
+        "/screenshots/manajemen-kerja-app/screenshot_1.webp",
+        "/screenshots/manajemen-kerja-app/screenshot_2.webp",
+        "/screenshots/manajemen-kerja-app/screenshot_3.webp",
+        "/screenshots/manajemen-kerja-app/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -471,7 +532,8 @@
       "screenshots": [
         "/screenshots/web-arsip-desa/screenshot_1.webp",
         "/screenshots/web-arsip-desa/screenshot_2.webp",
-        "/screenshots/web-arsip-desa/screenshot_3.webp"
+        "/screenshots/web-arsip-desa/screenshot_3.webp",
+        "/screenshots/web-arsip-desa/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -526,7 +588,10 @@
       "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
-        "/screenshots/data-penduduk/screenshot_1.webp"
+        "/screenshots/data-penduduk/screenshot_1.webp",
+        "/screenshots/data-penduduk/screenshot_2.webp",
+        "/screenshots/data-penduduk/screenshot_3.webp",
+        "/screenshots/data-penduduk/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -759,7 +824,8 @@
       "screenshots": [
         "/screenshots/remaja-id/screenshot_1.webp",
         "/screenshots/remaja-id/screenshot_2.webp",
-        "/screenshots/remaja-id/screenshot_3.webp"
+        "/screenshots/remaja-id/screenshot_3.webp",
+        "/screenshots/remaja-id/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -1048,7 +1114,8 @@
       "screenshots": [
         "/screenshots/storage-boxx-php-inventory-management-system/screenshot_1.webp",
         "/screenshots/storage-boxx-php-inventory-management-system/screenshot_2.webp",
-        "/screenshots/storage-boxx-php-inventory-management-system/screenshot_3.webp"
+        "/screenshots/storage-boxx-php-inventory-management-system/screenshot_3.webp",
+        "/screenshots/storage-boxx-php-inventory-management-system/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -1626,7 +1693,10 @@
       "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
-        "/screenshots/eflinventory-v2/screenshot_1.webp"
+        "/screenshots/eflinventory-v2/screenshot_1.webp",
+        "/screenshots/eflinventory-v2/screenshot_2.webp",
+        "/screenshots/eflinventory-v2/screenshot_3.webp",
+        "/screenshots/eflinventory-v2/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -1741,7 +1811,10 @@
       "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap, AdminLTE dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
-        "/screenshots/zyacbt/screenshot_1.webp"
+        "/screenshots/zyacbt/screenshot_1.webp",
+        "/screenshots/zyacbt/screenshot_2.webp",
+        "/screenshots/zyacbt/screenshot_3.webp",
+        "/screenshots/zyacbt/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -1853,7 +1926,10 @@
       "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
-        "/screenshots/wizgrade/screenshot_1.webp"
+        "/screenshots/wizgrade/screenshot_1.webp",
+        "/screenshots/wizgrade/screenshot_2.webp",
+        "/screenshots/wizgrade/screenshot_3.webp",
+        "/screenshots/wizgrade/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -1968,7 +2044,8 @@
       "screenshots": [
         "/screenshots/decisionsupportsystem/screenshot_1.webp",
         "/screenshots/decisionsupportsystem/screenshot_2.webp",
-        "/screenshots/decisionsupportsystem/screenshot_3.webp"
+        "/screenshots/decisionsupportsystem/screenshot_3.webp",
+        "/screenshots/decisionsupportsystem/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -2084,7 +2161,8 @@
       "screenshots": [
         "/screenshots/aplikasi-profil-sekolah/screenshot_1.webp",
         "/screenshots/aplikasi-profil-sekolah/screenshot_2.webp",
-        "/screenshots/aplikasi-profil-sekolah/screenshot_3.webp"
+        "/screenshots/aplikasi-profil-sekolah/screenshot_3.webp",
+        "/screenshots/aplikasi-profil-sekolah/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -2139,7 +2217,10 @@
       "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
-        "/screenshots/ta-sistem-informasi-rumah-sakit/screenshot_1.webp"
+        "/screenshots/ta-sistem-informasi-rumah-sakit/screenshot_1.webp",
+        "/screenshots/ta-sistem-informasi-rumah-sakit/screenshot_2.webp",
+        "/screenshots/ta-sistem-informasi-rumah-sakit/screenshot_3.webp",
+        "/screenshots/ta-sistem-informasi-rumah-sakit/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -2195,7 +2276,10 @@
       "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap, AdminLTE dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
-        "/screenshots/school-management-system---php-mysql/screenshot_1.webp"
+        "/screenshots/school-management-system---php-mysql/screenshot_1.webp",
+        "/screenshots/school-management-system---php-mysql/screenshot_2.webp",
+        "/screenshots/school-management-system---php-mysql/screenshot_3.webp",
+        "/screenshots/school-management-system---php-mysql/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -2308,7 +2392,10 @@
       "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
-        "/screenshots/hospital-pharmacy-management-system/screenshot_1.webp"
+        "/screenshots/hospital-pharmacy-management-system/screenshot_1.webp",
+        "/screenshots/hospital-pharmacy-management-system/screenshot_2.webp",
+        "/screenshots/hospital-pharmacy-management-system/screenshot_3.webp",
+        "/screenshots/hospital-pharmacy-management-system/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -2478,7 +2565,9 @@
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
         "/screenshots/i-perpus/screenshot_1.webp",
-        "/screenshots/i-perpus/screenshot_2.webp"
+        "/screenshots/i-perpus/screenshot_2.webp",
+        "/screenshots/i-perpus/screenshot_3.webp",
+        "/screenshots/i-perpus/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -2533,7 +2622,10 @@
       "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
-        "/screenshots/sees-apotek/screenshot_1.webp"
+        "/screenshots/sees-apotek/screenshot_1.webp",
+        "/screenshots/sees-apotek/screenshot_2.webp",
+        "/screenshots/sees-apotek/screenshot_3.webp",
+        "/screenshots/sees-apotek/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -2587,7 +2679,10 @@
       "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
-        "/screenshots/hms/screenshot_1.webp"
+        "/screenshots/hms/screenshot_1.webp",
+        "/screenshots/hms/screenshot_2.webp",
+        "/screenshots/hms/screenshot_3.webp",
+        "/screenshots/hms/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -2641,7 +2736,10 @@
       "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
-        "/screenshots/aplikasi-klinik/screenshot_1.webp"
+        "/screenshots/aplikasi-klinik/screenshot_1.webp",
+        "/screenshots/aplikasi-klinik/screenshot_2.webp",
+        "/screenshots/aplikasi-klinik/screenshot_3.webp",
+        "/screenshots/aplikasi-klinik/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -2696,7 +2794,10 @@
       "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
-        "/screenshots/klinik/screenshot_1.webp"
+        "/screenshots/klinik/screenshot_1.webp",
+        "/screenshots/klinik/screenshot_2.webp",
+        "/screenshots/klinik/screenshot_3.webp",
+        "/screenshots/klinik/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -2808,7 +2909,10 @@
       "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
-        "/screenshots/php-point-of-sale/screenshot_1.webp"
+        "/screenshots/php-point-of-sale/screenshot_1.webp",
+        "/screenshots/php-point-of-sale/screenshot_2.webp",
+        "/screenshots/php-point-of-sale/screenshot_3.webp",
+        "/screenshots/php-point-of-sale/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -2865,7 +2969,8 @@
       "screenshots": [
         "/screenshots/e-commerce-opentrip/screenshot_1.webp",
         "/screenshots/e-commerce-opentrip/screenshot_2.webp",
-        "/screenshots/e-commerce-opentrip/screenshot_3.webp"
+        "/screenshots/e-commerce-opentrip/screenshot_3.webp",
+        "/screenshots/e-commerce-opentrip/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -3038,7 +3143,10 @@
       "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
-        "/screenshots/sistempakar-diagnosapenyakitjagung/screenshot_1.webp"
+        "/screenshots/sistempakar-diagnosapenyakitjagung/screenshot_1.webp",
+        "/screenshots/sistempakar-diagnosapenyakitjagung/screenshot_2.webp",
+        "/screenshots/sistempakar-diagnosapenyakitjagung/screenshot_3.webp",
+        "/screenshots/sistempakar-diagnosapenyakitjagung/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -3268,7 +3376,8 @@
       "screenshots": [
         "/screenshots/aplikasiecommercesparepartkomputer/screenshot_1.webp",
         "/screenshots/aplikasiecommercesparepartkomputer/screenshot_2.webp",
-        "/screenshots/aplikasiecommercesparepartkomputer/screenshot_3.webp"
+        "/screenshots/aplikasiecommercesparepartkomputer/screenshot_3.webp",
+        "/screenshots/aplikasiecommercesparepartkomputer/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -3672,7 +3781,10 @@
       "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
-        "/screenshots/opensis-classic/screenshot_1.webp"
+        "/screenshots/opensis-classic/screenshot_1.webp",
+        "/screenshots/opensis-classic/screenshot_2.webp",
+        "/screenshots/opensis-classic/screenshot_3.webp",
+        "/screenshots/opensis-classic/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -3900,7 +4012,10 @@
       "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
-        "/screenshots/aplikasi-pengunjung-perpustakaan/screenshot_1.webp"
+        "/screenshots/aplikasi-pengunjung-perpustakaan/screenshot_1.webp",
+        "/screenshots/aplikasi-pengunjung-perpustakaan/screenshot_2.webp",
+        "/screenshots/aplikasi-pengunjung-perpustakaan/screenshot_3.webp",
+        "/screenshots/aplikasi-pengunjung-perpustakaan/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -3954,7 +4069,10 @@
       "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
-        "/screenshots/medicine-store/screenshot_1.webp"
+        "/screenshots/medicine-store/screenshot_1.webp",
+        "/screenshots/medicine-store/screenshot_2.webp",
+        "/screenshots/medicine-store/screenshot_3.webp",
+        "/screenshots/medicine-store/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -4067,7 +4185,10 @@
       "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
-        "/screenshots/latihan-aplikasi-penggajian/screenshot_1.webp"
+        "/screenshots/latihan-aplikasi-penggajian/screenshot_1.webp",
+        "/screenshots/latihan-aplikasi-penggajian/screenshot_2.webp",
+        "/screenshots/latihan-aplikasi-penggajian/screenshot_3.webp",
+        "/screenshots/latihan-aplikasi-penggajian/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -4357,7 +4478,8 @@
       "screenshots": [
         "/screenshots/sikar-forwardchaining/screenshot_1.webp",
         "/screenshots/sikar-forwardchaining/screenshot_2.webp",
-        "/screenshots/sikar-forwardchaining/screenshot_3.webp"
+        "/screenshots/sikar-forwardchaining/screenshot_3.webp",
+        "/screenshots/sikar-forwardchaining/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -4529,7 +4651,8 @@
       "screenshots": [
         "/screenshots/oembah-laundry-app/screenshot_1.webp",
         "/screenshots/oembah-laundry-app/screenshot_2.webp",
-        "/screenshots/oembah-laundry-app/screenshot_3.webp"
+        "/screenshots/oembah-laundry-app/screenshot_3.webp",
+        "/screenshots/oembah-laundry-app/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -4699,7 +4822,10 @@
       "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
-        "/screenshots/web-perpustakaan/screenshot_1.webp"
+        "/screenshots/web-perpustakaan/screenshot_1.webp",
+        "/screenshots/web-perpustakaan/screenshot_2.webp",
+        "/screenshots/web-perpustakaan/screenshot_3.webp",
+        "/screenshots/web-perpustakaan/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -4811,7 +4937,9 @@
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
         "/screenshots/sistem-pakar/screenshot_1.webp",
-        "/screenshots/sistem-pakar/screenshot_2.webp"
+        "/screenshots/sistem-pakar/screenshot_2.webp",
+        "/screenshots/sistem-pakar/screenshot_3.webp",
+        "/screenshots/sistem-pakar/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -4925,7 +5053,9 @@
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
         "/screenshots/ritmehr/screenshot_1.webp",
-        "/screenshots/ritmehr/screenshot_2.webp"
+        "/screenshots/ritmehr/screenshot_2.webp",
+        "/screenshots/ritmehr/screenshot_3.webp",
+        "/screenshots/ritmehr/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -4981,7 +5111,10 @@
       "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap, AdminLTE dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
-        "/screenshots/sim-sekolah/screenshot_1.webp"
+        "/screenshots/sim-sekolah/screenshot_1.webp",
+        "/screenshots/sim-sekolah/screenshot_2.webp",
+        "/screenshots/sim-sekolah/screenshot_3.webp",
+        "/screenshots/sim-sekolah/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -5210,7 +5343,9 @@
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
         "/screenshots/aplikasiapotek/screenshot_1.webp",
-        "/screenshots/aplikasiapotek/screenshot_2.webp"
+        "/screenshots/aplikasiapotek/screenshot_2.webp",
+        "/screenshots/aplikasiapotek/screenshot_3.webp",
+        "/screenshots/aplikasiapotek/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -5264,7 +5399,10 @@
       "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
-        "/screenshots/aplikasiecommercebarangelektronik/screenshot_1.webp"
+        "/screenshots/aplikasiecommercebarangelektronik/screenshot_1.webp",
+        "/screenshots/aplikasiecommercebarangelektronik/screenshot_2.webp",
+        "/screenshots/aplikasiecommercebarangelektronik/screenshot_3.webp",
+        "/screenshots/aplikasiecommercebarangelektronik/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -5377,7 +5515,10 @@
       "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
-        "/screenshots/aplikasi-sistem-informasi-rumah-sakit/screenshot_1.webp"
+        "/screenshots/aplikasi-sistem-informasi-rumah-sakit/screenshot_1.webp",
+        "/screenshots/aplikasi-sistem-informasi-rumah-sakit/screenshot_2.webp",
+        "/screenshots/aplikasi-sistem-informasi-rumah-sakit/screenshot_3.webp",
+        "/screenshots/aplikasi-sistem-informasi-rumah-sakit/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -5432,7 +5573,10 @@
       "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
-        "/screenshots/mini-inventory-and-sales-management-system/screenshot_1.webp"
+        "/screenshots/mini-inventory-and-sales-management-system/screenshot_1.webp",
+        "/screenshots/mini-inventory-and-sales-management-system/screenshot_2.webp",
+        "/screenshots/mini-inventory-and-sales-management-system/screenshot_3.webp",
+        "/screenshots/mini-inventory-and-sales-management-system/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -5547,7 +5691,8 @@
       "screenshots": [
         "/screenshots/hospital-management-system/screenshot_1.webp",
         "/screenshots/hospital-management-system/screenshot_2.webp",
-        "/screenshots/hospital-management-system/screenshot_3.webp"
+        "/screenshots/hospital-management-system/screenshot_3.webp",
+        "/screenshots/hospital-management-system/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -5659,7 +5804,10 @@
       "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
-        "/screenshots/nadha-laundry/screenshot_1.webp"
+        "/screenshots/nadha-laundry/screenshot_1.webp",
+        "/screenshots/nadha-laundry/screenshot_2.webp",
+        "/screenshots/nadha-laundry/screenshot_3.webp",
+        "/screenshots/nadha-laundry/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -5715,7 +5863,8 @@
       "screenshots": [
         "/screenshots/analytic-hierarchy-process/screenshot_1.webp",
         "/screenshots/analytic-hierarchy-process/screenshot_2.webp",
-        "/screenshots/analytic-hierarchy-process/screenshot_3.webp"
+        "/screenshots/analytic-hierarchy-process/screenshot_3.webp",
+        "/screenshots/analytic-hierarchy-process/screenshot_4.webp"
       ],
       "defaultCredentials": [
         {
@@ -5801,13 +5950,7 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=spk-metode-saw-php&step=1&max=8",
-      "downloadUrlFast": "/downloads/spk-metode-saw-php.zip",
-      "screenshots": [
-        "/screenshots/spk-metode-saw-php/screenshot_1.webp",
-        "/screenshots/spk-metode-saw-php/screenshot_2.webp",
-        "/screenshots/spk-metode-saw-php/screenshot_3.webp",
-        "/screenshots/spk-metode-saw-php/screenshot_4.webp"
-      ]
+      "downloadUrlFast": "/downloads/spk-metode-saw-php.zip"
     },
     {
       "id": "sc-23",
@@ -5832,13 +5975,7 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=smartventory&step=1&max=8",
-      "downloadUrlFast": "/downloads/smartventory.zip",
-      "screenshots": [
-        "/screenshots/smartventory/screenshot_1.webp",
-        "/screenshots/smartventory/screenshot_2.webp",
-        "/screenshots/smartventory/screenshot_3.webp",
-        "/screenshots/smartventory/screenshot_4.webp"
-      ]
+      "downloadUrlFast": "/downloads/smartventory.zip"
     },
     {
       "id": "sc-33",
@@ -5887,10 +6024,7 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=pharmacy-management-system&step=1&max=8",
-      "downloadUrlFast": "/downloads/pharmacy-management-system.zip",
-      "screenshots": [
-        "/screenshots/pharmacy-management-system/screenshot_1.webp"
-      ]
+      "downloadUrlFast": "/downloads/pharmacy-management-system.zip"
     },
     {
       "id": "sc-32",
@@ -6039,10 +6173,7 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=sigma-rental-laravel-11&step=1&max=8",
-      "downloadUrlFast": "/downloads/sigma-rental-laravel-11.zip",
-      "screenshots": [
-        "/screenshots/sigma-rental-laravel-11/screenshot_1.webp"
-      ]
+      "downloadUrlFast": "/downloads/sigma-rental-laravel-11.zip"
     },
     {
       "id": "sc-29",
@@ -6091,13 +6222,7 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=inventaris-kampus-ati-mksr&step=1&max=8",
-      "downloadUrlFast": "/downloads/inventaris-kampus-ati-mksr.zip",
-      "screenshots": [
-        "/screenshots/inventaris-kampus-ati-mksr/screenshot_1.webp",
-        "/screenshots/inventaris-kampus-ati-mksr/screenshot_2.webp",
-        "/screenshots/inventaris-kampus-ati-mksr/screenshot_3.webp",
-        "/screenshots/inventaris-kampus-ati-mksr/screenshot_4.webp"
-      ]
+      "downloadUrlFast": "/downloads/inventaris-kampus-ati-mksr.zip"
     },
     {
       "id": "sc-28",
@@ -6147,13 +6272,7 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=php-kasir-restoran&step=1&max=8",
-      "downloadUrlFast": "/downloads/php-kasir-restoran.zip",
-      "screenshots": [
-        "/screenshots/php-kasir-restoran/screenshot_1.webp",
-        "/screenshots/php-kasir-restoran/screenshot_2.webp",
-        "/screenshots/php-kasir-restoran/screenshot_3.webp",
-        "/screenshots/php-kasir-restoran/screenshot_4.webp"
-      ]
+      "downloadUrlFast": "/downloads/php-kasir-restoran.zip"
     },
     {
       "id": "sc-27",
@@ -6252,12 +6371,7 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=sisfoka&step=1&max=8",
-      "downloadUrlFast": "/downloads/sisfoka.zip",
-      "screenshots": [
-        "/screenshots/sisfoka/screenshot_1.webp",
-        "/screenshots/sisfoka/screenshot_2.webp",
-        "/screenshots/sisfoka/screenshot_3.webp"
-      ]
+      "downloadUrlFast": "/downloads/sisfoka.zip"
     },
     {
       "id": "sc-5",
@@ -6307,13 +6421,7 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=kasirv1&step=1&max=8",
-      "downloadUrlFast": "/downloads/kasirv1.zip",
-      "screenshots": [
-        "/screenshots/kasirv1/screenshot_1.webp",
-        "/screenshots/kasirv1/screenshot_2.webp",
-        "/screenshots/kasirv1/screenshot_3.webp",
-        "/screenshots/kasirv1/screenshot_4.webp"
-      ]
+      "downloadUrlFast": "/downloads/kasirv1.zip"
     },
     {
       "id": "sc-3",
@@ -6338,11 +6446,7 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=cbt-eschool&step=1&max=8",
-      "downloadUrlFast": "/downloads/cbt-eschool.zip",
-      "screenshots": [
-        "/screenshots/cbt-eschool/screenshot_1.webp",
-        "/screenshots/cbt-eschool/screenshot_2.webp"
-      ]
+      "downloadUrlFast": "/downloads/cbt-eschool.zip"
     },
     {
       "id": "sc-2",
@@ -6366,10 +6470,7 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "16.4 MB",
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=simanis&step=1&max=8",
-      "downloadUrlFast": "/downloads/simanis.zip",
-      "screenshots": [
-        "/screenshots/simanis/screenshot_1.webp"
-      ]
+      "downloadUrlFast": "/downloads/simanis.zip"
     }
   ],
   "driveFolderUrl": "https://drive.google.com/drive/folders/1HTUnGXUzyYiHK7qdQCyEmIt3wUEgk-fe"
