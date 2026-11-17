@@ -1,6 +1,6 @@
 {
-  "updatedAt": "17 Nov 2026, 06:39 WIB",
-  "total": 512,
+  "updatedAt": "17 Nov 2026, 07:09 WIB",
+  "total": 513,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-palette",
+      "name": "Palette",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Palette - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "Use AI to colorize black and white photos",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/palette.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://palette.fm"
     },
     {
       "id": "ai-seo-ai",
