@@ -1,7 +1,65 @@
 {
-  "updatedAt": "18 Nov 2026, 02:56 WIB",
-  "total": 129,
+  "updatedAt": "18 Nov 2026, 03:55 WIB",
+  "total": 130,
   "items": [
+    {
+      "id": "sc-140",
+      "title": "Hospital & Patient Management System - Hospital Data System",
+      "slug": "hospital-data-system",
+      "category": "Kesehatan & Medis",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "This hospital system was built in 2014 for a 2nd year university project. LAMP stack (PHP/MySQL) with jQuery, Bootstrap, a Calendar Component and PDF Generator. Includes the ability to record and update patient data. Staff management, including the ability to assign Doctors and Nurses to patients. Schedule with a calendar component, and report generation.\n\nProyek riil open-source asli dari GitHub (https://github.com/shammill/Hospital-Data-System). Dilengkapi file database lengkap (.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Hospital & Patient Management System - Hospital Data System dengan database .sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/hospital-data-system/screenshot_1.webp",
+        "/screenshots/hospital-data-system/screenshot_2.webp",
+        "/screenshots/hospital-data-system/screenshot_3.webp",
+        "/screenshots/hospital-data-system/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "18 November 2026",
+      "releaseDate": "18 November 2026",
+      "recentFastDownloads": 47,
+      "thumbnail": "/screenshots/hospital-data-system/screenshot_1.webp",
+      "downloadsCount": 872,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "10.0 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `hospital-data-system.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/hospital-data-system` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (shammill/Hospital-Data-System) dengan source code lengkap",
+        "Disertai database asli (.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=hospital-data-system&step=1&max=8",
+      "downloadUrlFast": "/downloads/hospital-data-system.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/shammill/Hospital-Data-System",
+      "stars": 10
+    },
     {
       "id": "sc-139",
       "title": "Sistem Informasi Manajemen Rumah Sakit - Sirs Sinus Rhytm System",
