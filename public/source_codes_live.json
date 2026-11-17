@@ -1,7 +1,62 @@
 {
-  "updatedAt": "17 Nov 2026, 18:56 WIB",
-  "total": 121,
+  "updatedAt": "17 Nov 2026, 19:56 WIB",
+  "total": 122,
   "items": [
+    {
+      "id": "sc-132",
+      "title": "Sistem Informasi Pelayanan Desa - Dandes",
+      "slug": "dandes",
+      "category": "Pemerintahan & Publik",
+      "techStack": [
+        "CodeIgniter",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "aplikasi monitoring dana desa\n\nProyek riil open-source asli dari GitHub (https://github.com/dikisaputra15/dandes). Dilengkapi file database lengkap (db/dana_desa.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Informasi Pelayanan Desa - Dandes dengan database db/dana_desa.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/dandes/screenshot_1.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "17 November 2026",
+      "releaseDate": "17 November 2026",
+      "recentFastDownloads": 61,
+      "thumbnail": "/screenshots/dandes/screenshot_1.webp",
+      "downloadsCount": 702,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "8.4 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `dandes.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `db/dana_desa.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/dandes` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (dikisaputra15/dandes) dengan source code lengkap",
+        "Disertai database asli (db/dana_desa.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=dandes&step=1&max=8",
+      "downloadUrlFast": "/downloads/dandes.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/dikisaputra15/dandes",
+      "stars": 2
+    },
     {
       "id": "sc-131",
       "title": "Aplikasi Penggajian Karyawan & Payroll - Dashboard Aplikasi Penggajian",
