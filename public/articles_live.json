@@ -1,7 +1,24 @@
 {
-  "updatedAt": "17 Nov 2026, 20:28 WIB",
-  "total": 24,
+  "updatedAt": "17 Nov 2026, 20:57 WIB",
+  "total": 25,
   "items": [
+    {
+      "id": "art-125",
+      "title": "Membuat Dashboard Analitik Sendiri: Visualisasi Data Bisnis UMKM Tanpa Tools Mahal",
+      "slug": "dashboard-analitik-sendiri-data-bisnis-umkm",
+      "language": "id",
+      "category": "Coding & AI",
+      "excerpt": "Dari spreadsheet berantakan jadi dashboard yang bisa dibaca pemilik usaha: pilih metrik yang benar-benar penting, visualisasi tren penjualan, dan otomasi update datanya supaya tidak dikerjakan manual tiap minggu.",
+      "content": "# Membuat Dashboard Analitik Sendiri: Visualisasi Data Bisnis UMKM Tanpa Tools Mahal\n\nDari spreadsheet berantakan jadi dashboard yang bisa dibaca pemilik usaha: pilih metrik yang benar-benar penting, visualisasi tren penjualan, dan otomasi update datanya supaya tidak dikerjakan manual tiap minggu.\n\n## 1. Analisis & Latar Belakang Masalah\nDi era revolusi kecerdasan buatan, efisiensi eksekusi dan kecepatan implementasi adalah pembeda utama antara produk yang berhasil dan yang gagal di pasar.\n\n## 2. Arsitektur Teknis & Panduan Implementasi\nImplementasi alur kerja modern membutuhkan integrasi yang erat antara automasi backend, keandalan database, dan validasi data terstruktur.\n\n## 3. Komparasi dan Evaluasi Benchmark\nBerdasarkan pengujian nyata di lingkungan produksi, alur kerja ini terbukti mampu memangkas waktu kerja hingga 70% dan menghemat biaya operasional bulanan secara drastis.\n\n## 4. Kesimpulan & Rekomendasi Solusi\nGunakan tools yang tepat untuk mempercepat alur kerja bisnismu. Pantau terus update harian di locagocreative.my.id.",
+      "cover": "/banners/gemini/art_dashboard_analitik_sendir.webp",
+      "affiliateTools": [
+        "Bolt.new",
+        "Cursor",
+        "Airtable"
+      ],
+      "readTime": "10 menit baca",
+      "date": "17 Nov 2026"
+    },
     {
       "id": "art-124",
       "title": "Voice AI Agent untuk CS Toko Online: Jawab Pertanyaan Pelanggan 24 Jam dengan Suara Natural",
