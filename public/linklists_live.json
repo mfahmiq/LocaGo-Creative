@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-17T15:07:16.666910",
-  "total": 10,
+  "updatedAt": "2026-11-17T15:18:52.646081",
+  "total": 11,
   "items": [
     {
       "id": "list-creator-tools",
@@ -234,6 +234,32 @@
           "title": "PocketBase di GitHub",
           "url": "https://github.com/pocketbase/pocketbase",
           "note": "Repo open-source PocketBase — backend 1 file binary Go + SQLite realtime, 43.5k stars."
+        },
+        {
+          "id": "cl-locago-main",
+          "title": "Katalog Lengkap 329+ Tools AI LocaGo Creative",
+          "url": "https://www.locagocreative.my.id/#ai-tools",
+          "note": "Akses gratis seluruh kurasi tools produktivitas & developer."
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "17 Nov 2026",
+      "views": 1500
+    },
+    {
+      "id": "list-cal-com-booking-jadwal-open-source",
+      "title": "Cal.com: Booking Jadwal Open Source",
+      "notes": "Aplikasi jadwal meeting open-source, alternatif Calendly mandiri — sinkronisasi Google Calendar dan Outlook, slot booking tim, routing, dan zona waktu.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [],
+      "customLinks": [
+        {
+          "id": "cl-calcom-repo",
+          "title": "Cal.com di GitHub",
+          "url": "https://github.com/calcom/cal.com",
+          "note": "Repo open-source Cal.com — aplikasi scheduling mandiri, 35.8k stars."
         },
         {
           "id": "cl-locago-main",
