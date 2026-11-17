@@ -1,6 +1,6 @@
 {
-  "updatedAt": "17 Nov 2026, 08:39 WIB",
-  "total": 516,
+  "updatedAt": "17 Nov 2026, 09:09 WIB",
+  "total": 517,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-photoroom",
+      "name": "PhotoRoom",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "PhotoRoom - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "Photo editing platform with powerful tools",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/photoroom.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://photoroom.com"
     },
     {
       "id": "ai-whisper-openai",
