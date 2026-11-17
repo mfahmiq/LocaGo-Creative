@@ -1,6 +1,6 @@
 {
-  "updatedAt": "17 Nov 2026, 10:27 WIB",
-  "total": 520,
+  "updatedAt": "17 Nov 2026, 10:39 WIB",
+  "total": 521,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-browsegpt",
+      "name": "BrowseGPT",
+      "category": "Web & Scrapers",
+      "pricingType": "Free",
+      "tagline": "BrowseGPT - Solusi AI Terverifikasi untuk Web & Scrapers",
+      "description": "AI-powered Chrome extension to automate web browsing tasks",
+      "features": [
+        "Kategori resmi terverifikasi: Web & Scrapers",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/browsegpt.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://browsegpt.ai"
     },
     {
       "id": "ai-mark-copy-ai",
