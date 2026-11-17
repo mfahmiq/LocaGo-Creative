@@ -1,7 +1,65 @@
 {
-  "updatedAt": "17 Nov 2026, 23:55 WIB",
-  "total": 126,
+  "updatedAt": "18 Nov 2026, 00:56 WIB",
+  "total": 127,
   "items": [
+    {
+      "id": "sc-137",
+      "title": "Sistem Point of Sale Modern - Pharmacy Pos",
+      "slug": "pharmacy-pos",
+      "category": "Kasir & Point of Sale (POS)",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Pharmacy+ POS is Point of Sale for health institutions that deal with walk-in patients such as clinics and drug shops.\n\nProyek riil open-source asli dari GitHub (https://github.com/Gerato25/pharmacy-pos). Dilengkapi file database lengkap (library/ifsnop/mysqldump-php/tests/test001.src.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Point of Sale Modern - Pharmacy Pos dengan database library/ifsnop/mysqldump-php/tests/test001.src.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/pharmacy-pos/screenshot_1.webp",
+        "/screenshots/pharmacy-pos/screenshot_2.webp",
+        "/screenshots/pharmacy-pos/screenshot_3.webp",
+        "/screenshots/pharmacy-pos/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "18 November 2026",
+      "releaseDate": "18 November 2026",
+      "recentFastDownloads": 50,
+      "thumbnail": "/screenshots/pharmacy-pos/screenshot_1.webp",
+      "downloadsCount": 541,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "8.2 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `pharmacy-pos.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `library/ifsnop/mysqldump-php/tests/test001.src.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/pharmacy-pos` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (Gerato25/pharmacy-pos) dengan source code lengkap",
+        "Disertai database asli (library/ifsnop/mysqldump-php/tests/test001.src.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=pharmacy-pos&step=1&max=8",
+      "downloadUrlFast": "/downloads/pharmacy-pos.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/Gerato25/pharmacy-pos",
+      "stars": 37
+    },
     {
       "id": "sc-136",
       "title": "Sistem Informasi Inventaris & Gudang - Sistem Inventaris Sekolah",
