@@ -1,7 +1,62 @@
 {
-  "updatedAt": "17 Nov 2026, 17:55 WIB",
-  "total": 120,
+  "updatedAt": "17 Nov 2026, 18:56 WIB",
+  "total": 121,
   "items": [
+    {
+      "id": "sc-131",
+      "title": "Aplikasi Penggajian Karyawan & Payroll - Dashboard Aplikasi Penggajian",
+      "slug": "dashboard-aplikasi-penggajian",
+      "category": "HRD & Keuangan",
+      "techStack": [
+        "CodeIgniter",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Menggunakan Codeigniter 3\n\nProyek riil open-source asli dari GitHub (https://github.com/Ratifcahyadi/dashboard-aplikasi-penggajian). Dilengkapi file database lengkap (penggajian.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Aplikasi Penggajian Karyawan & Payroll - Dashboard Aplikasi Penggajian dengan database penggajian.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/dashboard-aplikasi-penggajian/screenshot_1.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "17 November 2026",
+      "releaseDate": "17 November 2026",
+      "recentFastDownloads": 72,
+      "thumbnail": "/screenshots/dashboard-aplikasi-penggajian/screenshot_1.webp",
+      "downloadsCount": 710,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "19.6 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `dashboard-aplikasi-penggajian.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `penggajian.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/dashboard-aplikasi-penggajian` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (Ratifcahyadi/dashboard-aplikasi-penggajian) dengan source code lengkap",
+        "Disertai database asli (penggajian.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=dashboard-aplikasi-penggajian&step=1&max=8",
+      "downloadUrlFast": "/downloads/dashboard-aplikasi-penggajian.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/Ratifcahyadi/dashboard-aplikasi-penggajian",
+      "stars": 1
+    },
     {
       "id": "sc-130",
       "title": "Sistem Informasi Pelayanan Desa - Manajemen Kerja App",
@@ -57,7 +112,7 @@
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=manajemen-kerja-app&step=1&max=8",
       "downloadUrlFast": "/downloads/manajemen-kerja-app.zip",
-      "driveUrl": "",
+      "driveUrl": "https://drive.google.com/file/d/1fv20yaVl9CVc6Paa00JRhAf7R7LW_sn1/view?usp=drivesdk",
       "githubRepo": "https://github.com/ridargustia/manajemen_kerja_app",
       "stars": 2
     },
