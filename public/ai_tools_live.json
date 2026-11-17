@@ -1,6 +1,6 @@
 {
-  "updatedAt": "17 Nov 2026, 13:09 WIB",
-  "total": 526,
+  "updatedAt": "17 Nov 2026, 13:39 WIB",
+  "total": 527,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-cleanvoice-ai",
+      "name": "Cleanvoice AI",
+      "category": "Generative Media",
+      "pricingType": "Paid",
+      "tagline": "Cleanvoice AI - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "A tool for audio editing, remove filler sounds, stuttering, mouth sounds, and other artifacts from audio recordings.",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/cleanvoice-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://cleanvoice.ai"
     },
     {
       "id": "ai-rose-ai",
