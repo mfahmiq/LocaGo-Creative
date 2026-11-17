@@ -1,6 +1,6 @@
 {
-  "updatedAt": "17 Nov 2026, 13:39 WIB",
-  "total": 527,
+  "updatedAt": "17 Nov 2026, 14:10 WIB",
+  "total": 528,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-audo-ai",
+      "name": "Audo AI",
+      "category": "Generative Media",
+      "pricingType": "Freemium",
+      "tagline": "Audo AI - Solusi AI Terverifikasi untuk Generative Media",
+      "description": "AI Powered Background Noise Removal",
+      "features": [
+        "Kategori resmi terverifikasi: Generative Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/audo-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://audo.ai"
     },
     {
       "id": "ai-cleanvoice-ai",
