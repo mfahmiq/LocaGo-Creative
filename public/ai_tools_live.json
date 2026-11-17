@@ -1,6 +1,6 @@
 {
-  "updatedAt": "17 Nov 2026, 14:41 WIB",
-  "total": 529,
+  "updatedAt": "17 Nov 2026, 15:06 WIB",
+  "total": 530,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-on-page-ai",
+      "name": "On-Page.ai",
+      "category": "Productivity & Media",
+      "pricingType": "Paid",
+      "tagline": "On-Page.ai - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "SEO tool with AI writing and detection, link building, content editor, and more",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Paid",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/on-page-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://on-page.ai"
     },
     {
       "id": "ai-reflect",
