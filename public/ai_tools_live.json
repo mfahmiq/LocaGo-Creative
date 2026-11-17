@@ -1,6 +1,6 @@
 {
-  "updatedAt": "17 Nov 2026, 17:38 WIB",
-  "total": 535,
+  "updatedAt": "17 Nov 2026, 18:08 WIB",
+  "total": 536,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-face-studio",
+      "name": "Face Studio",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Face Studio - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A tool to generate realistic faces.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/face-studio.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://facestudio.app"
     },
     {
       "id": "ai-teddy-ai",
