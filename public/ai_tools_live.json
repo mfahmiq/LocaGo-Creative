@@ -1,6 +1,6 @@
 {
-  "updatedAt": "17 Nov 2026, 16:38 WIB",
-  "total": 533,
+  "updatedAt": "17 Nov 2026, 17:08 WIB",
+  "total": 534,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-landing-ai",
+      "name": "Landing AI",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Landing AI - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A platform to create and deploy custom computer vision projects.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/landing-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://landing.ai"
     },
     {
       "id": "ai-unscreen",
