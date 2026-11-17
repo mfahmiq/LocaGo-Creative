@@ -1,6 +1,6 @@
 {
-  "updatedAt": "17 Nov 2026, 07:39 WIB",
-  "total": 514,
+  "updatedAt": "17 Nov 2026, 08:09 WIB",
+  "total": 515,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-glowai",
+      "name": "GlowAI",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "GlowAI - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "Skincare routine generator creates personalized routines based on budget, skin type, and skin concerns",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/glowai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://glow-ai.vercel.app"
     },
     {
       "id": "ai-synthesizer-v",
