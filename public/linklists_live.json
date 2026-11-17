@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-17T23:58:54.625640",
-  "total": 22,
+  "updatedAt": "2026-11-17T23:59:24.764612",
+  "total": 23,
   "items": [
     {
       "id": "list-creator-tools",
@@ -602,6 +602,44 @@
           "title": "rust-anything di GitHub",
           "url": "https://github.com/erkamyaman/rust-anything",
           "note": "Repo open-source rust-anything — Tulis ulang app ke Rust selangkah demi selangkah, tetap aman. 1.235 stars."
+        },
+        {
+          "id": "cl-locago-main",
+          "title": "Katalog Lengkap 329+ Tools AI LocaGo Creative",
+          "url": "https://www.locagocreative.my.id/#ai-tools",
+          "note": "Akses gratis seluruh kurasi tools produktivitas & developer."
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "17 Nov 2026",
+      "views": 1500
+    },
+    {
+      "id": "list-file-ganda-hp-bersih-ide-nyaman",
+      "title": "File Ganda, HP Bersih & IDE Nyaman",
+      "notes": "3 tool gratis buat beresin laptop dan setup dev 18 Nov 2026: Duplicate File Finder, TelemetryCleaner, JetBrains Dev Setup — carousel Batch 2.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [],
+      "customLinks": [
+        {
+          "id": "cl-duplicate-file-finder-repo",
+          "title": "Duplicate File Finder di GitHub",
+          "url": "https://github.com/VanquisherRepair/duplicate-file-finder",
+          "note": "Repo open-source Duplicate File Finder — Cari file ganda di Windows pakai hash MD5, ruang disk lega lagi. 119 stars."
+        },
+        {
+          "id": "cl-telemetrycleaner-repo",
+          "title": "TelemetryCleaner di GitHub",
+          "url": "https://github.com/Eynnzerr/TelemetryCleaner",
+          "note": "Repo open-source TelemetryCleaner — Bersihkan modul pelacak bawaan HP Android tanpa root, via Shizuku. 1.472 stars."
+        },
+        {
+          "id": "cl-jetbrains-dev-setup-repo",
+          "title": "JetBrains Dev Setup di GitHub",
+          "url": "https://github.com/PupaRectifier/jetbrains-dev-setup",
+          "note": "Repo open-source JetBrains Dev Setup — Catatan tuning JetBrains biar IDE makin nyaman dipakai. 96 stars."
         },
         {
           "id": "cl-locago-main",
