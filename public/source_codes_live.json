@@ -1,7 +1,66 @@
 {
-  "updatedAt": "17 Nov 2026, 16:01 WIB",
-  "total": 119,
+  "updatedAt": "17 Nov 2026, 17:55 WIB",
+  "total": 120,
   "items": [
+    {
+      "id": "sc-130",
+      "title": "Sistem Informasi Pelayanan Desa - Manajemen Kerja App",
+      "slug": "manajemen-kerja-app",
+      "category": "Pemerintahan & Publik",
+      "techStack": [
+        "CodeIgniter",
+        "PHP",
+        "MySQL",
+        "Bootstrap",
+        "AdminLTE"
+      ],
+      "description": "Aplikasi Manajemen Kerja untuk layanan kantor Desa\n\nProyek riil open-source asli dari GitHub (https://github.com/ridargustia/manajemen_kerja_app). Dilengkapi file database lengkap (db/jonarsip_arsip.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Informasi Pelayanan Desa - Manajemen Kerja App dengan database db/jonarsip_arsip.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap, AdminLTE dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/manajemen-kerja-app/screenshot_1.webp",
+        "/screenshots/manajemen-kerja-app/screenshot_2.webp",
+        "/screenshots/manajemen-kerja-app/screenshot_3.webp",
+        "/screenshots/manajemen-kerja-app/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "17 November 2026",
+      "releaseDate": "17 November 2026",
+      "recentFastDownloads": 65,
+      "thumbnail": "/screenshots/manajemen-kerja-app/screenshot_1.webp",
+      "downloadsCount": 508,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "32.0 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `manajemen-kerja-app.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `db/jonarsip_arsip.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/manajemen-kerja-app` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (ridargustia/manajemen_kerja_app) dengan source code lengkap",
+        "Disertai database asli (db/jonarsip_arsip.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=manajemen-kerja-app&step=1&max=8",
+      "downloadUrlFast": "/downloads/manajemen-kerja-app.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/ridargustia/manajemen_kerja_app",
+      "stars": 2
+    },
     {
       "id": "sc-129",
       "title": "Sistem Informasi Perpustakaan - School Library Application",
@@ -56,7 +115,7 @@
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=school-library-application&step=1&max=8",
       "downloadUrlFast": "/downloads/school-library-application.zip",
-      "driveUrl": "",
+      "driveUrl": "https://drive.google.com/file/d/1V3Q5lIvlL0vSl4andspxonftDM45AzHI/view?usp=drivesdk",
       "githubRepo": "https://github.com/arisafriyanto/school-library-application",
       "stars": 5
     },
