@@ -1,7 +1,24 @@
 {
-  "updatedAt": "17 Nov 2026, 19:56 WIB",
-  "total": 23,
+  "updatedAt": "17 Nov 2026, 20:28 WIB",
+  "total": 24,
   "items": [
+    {
+      "id": "art-124",
+      "title": "Voice AI Agent untuk CS Toko Online: Jawab Pertanyaan Pelanggan 24 Jam dengan Suara Natural",
+      "slug": "voice-ai-agent-cs-toko-online-24-jam",
+      "language": "id",
+      "category": "Coding & AI",
+      "excerpt": "Bongkar cara kerja voice agent untuk customer service toko online: STT, LLM, dan TTS dirangkai jadi satu alur, plus kapan harus lempar ke manusia agar pelanggan tidak frustrasi dengan jawaban robot.",
+      "content": "# Voice AI Agent untuk CS Toko Online: Jawab Pertanyaan Pelanggan 24 Jam dengan Suara Natural\n\nBongkar cara kerja voice agent untuk customer service toko online: STT, LLM, dan TTS dirangkai jadi satu alur, plus kapan harus lempar ke manusia agar pelanggan tidak frustrasi dengan jawaban robot.\n\n## 1. Analisis & Latar Belakang Masalah\nDi era revolusi kecerdasan buatan, efisiensi eksekusi dan kecepatan implementasi adalah pembeda utama antara produk yang berhasil dan yang gagal di pasar.\n\n## 2. Arsitektur Teknis & Panduan Implementasi\nImplementasi alur kerja modern membutuhkan integrasi yang erat antara automasi backend, keandalan database, dan validasi data terstruktur.\n\n## 3. Komparasi dan Evaluasi Benchmark\nBerdasarkan pengujian nyata di lingkungan produksi, alur kerja ini terbukti mampu memangkas waktu kerja hingga 70% dan menghemat biaya operasional bulanan secara drastis.\n\n## 4. Kesimpulan & Rekomendasi Solusi\nGunakan tools yang tepat untuk mempercepat alur kerja bisnismu. Pantau terus update harian di locagocreative.my.id.",
+      "cover": "/banners/gemini/art_voice_ai_agent_cs_toko_on.webp",
+      "affiliateTools": [
+        "Cursor",
+        "Claude Code",
+        "v0 by Vercel"
+      ],
+      "readTime": "12 menit baca",
+      "date": "17 Nov 2026"
+    },
     {
       "id": "art-123",
       "title": "Cara Freelancer Mendapatkan Klien Pertama dari Google Maps: Riset Bisnis Lokal Tanpa Iklan",
