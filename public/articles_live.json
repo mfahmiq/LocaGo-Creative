@@ -1,7 +1,24 @@
 {
-  "updatedAt": "14 Nov 2026, 20:57 WIB",
-  "total": 20,
+  "updatedAt": "17 Nov 2026, 18:56 WIB",
+  "total": 21,
   "items": [
+    {
+      "id": "art-121",
+      "title": "Otomasi WhatsApp Bisnis dengan n8n: Balas Chat Pelanggan Otomatis Tanpa Langganan Bulanan",
+      "slug": "otomasi-whatsapp-bisnis-n8n-balas-otomatis",
+      "language": "id",
+      "category": "Otomasi & Bisnis",
+      "excerpt": "Bangun alur balas chat WhatsApp otomatis untuk toko online dan jasa lokal: trigger pesan masuk, balasan template personal, sampai eskalasi ke admin manusia — semuanya jalan di server sendiri tanpa biaya API bulanan.",
+      "content": "# Otomasi WhatsApp Bisnis dengan n8n: Balas Chat Pelanggan Otomatis Tanpa Langganan Bulanan\n\nBangun alur balas chat WhatsApp otomatis untuk toko online dan jasa lokal: trigger pesan masuk, balasan template personal, sampai eskalasi ke admin manusia — semuanya jalan di server sendiri tanpa biaya API bulanan.\n\n## 1. Analisis & Latar Belakang Masalah\nDi era revolusi kecerdasan buatan, efisiensi eksekusi dan kecepatan implementasi adalah pembeda utama antara produk yang berhasil dan yang gagal di pasar.\n\n## 2. Arsitektur Teknis & Panduan Implementasi\nImplementasi alur kerja modern membutuhkan integrasi yang erat antara automasi backend, keandalan database, dan validasi data terstruktur.\n\n## 3. Komparasi dan Evaluasi Benchmark\nBerdasarkan pengujian nyata di lingkungan produksi, alur kerja ini terbukti mampu memangkas waktu kerja hingga 70% dan menghemat biaya operasional bulanan secara drastis.\n\n## 4. Kesimpulan & Rekomendasi Solusi\nGunakan tools yang tepat untuk mempercepat alur kerja bisnismu. Pantau terus update harian di locagocreative.my.id.",
+      "cover": "/banners/gemini/art_otomasi_whatsapp_bisnis_n.webp",
+      "affiliateTools": [
+        "LeadMasters",
+        "Make.com",
+        "Airtable"
+      ],
+      "readTime": "12 menit baca",
+      "date": "17 Nov 2026"
+    },
     {
       "id": "art-120",
       "title": "10 Prompt Engineering Tingkat Lanjut untuk Menghasilkan Source Code Bebas Bug di Cursor & Claude",
@@ -17,7 +34,7 @@
         "Bolt.new"
       ],
       "readTime": "10 menit baca",
-      "date": "14 Nov 2026"
+      "date": "17 Nov 2026"
     },
     {
       "id": "art-119",
@@ -34,7 +51,7 @@
         "Airtable"
       ],
       "readTime": "13 menit baca",
-      "date": "14 Nov 2026"
+      "date": "17 Nov 2026"
     },
     {
       "id": "art-118",
@@ -51,7 +68,7 @@
         "Perplexity"
       ],
       "readTime": "11 menit baca",
-      "date": "14 Nov 2026"
+      "date": "17 Nov 2026"
     },
     {
       "id": "art-117",
@@ -68,7 +85,7 @@
         "LeadMasters"
       ],
       "readTime": "14 menit baca",
-      "date": "14 Nov 2026"
+      "date": "17 Nov 2026"
     },
     {
       "id": "art-116",
@@ -85,7 +102,7 @@
         "v0 by Vercel"
       ],
       "readTime": "12 menit baca",
-      "date": "14 Nov 2026"
+      "date": "17 Nov 2026"
     },
     {
       "id": "art-104",
@@ -107,7 +124,7 @@
         }
       ],
       "readTime": "12 menit baca",
-      "date": "14 Nov 2026"
+      "date": "17 Nov 2026"
     },
     {
       "id": "art-105",
@@ -125,7 +142,7 @@
         }
       ],
       "readTime": "11 menit baca",
-      "date": "14 Nov 2026"
+      "date": "17 Nov 2026"
     },
     {
       "id": "art-106",
@@ -147,7 +164,7 @@
         }
       ],
       "readTime": "10 menit baca",
-      "date": "14 Nov 2026"
+      "date": "17 Nov 2026"
     },
     {
       "id": "art-107",
@@ -169,7 +186,7 @@
         }
       ],
       "readTime": "14 menit baca",
-      "date": "14 Nov 2026"
+      "date": "17 Nov 2026"
     },
     {
       "id": "art-108",
@@ -187,7 +204,7 @@
         }
       ],
       "readTime": "13 menit baca",
-      "date": "14 Nov 2026"
+      "date": "17 Nov 2026"
     },
     {
       "id": "art-109",
@@ -209,7 +226,7 @@
         }
       ],
       "readTime": "12 menit baca",
-      "date": "14 Nov 2026"
+      "date": "17 Nov 2026"
     },
     {
       "id": "art-110",
@@ -231,7 +248,7 @@
         }
       ],
       "readTime": "15 menit baca",
-      "date": "14 Nov 2026"
+      "date": "17 Nov 2026"
     },
     {
       "id": "art-111",
@@ -249,7 +266,7 @@
         }
       ],
       "readTime": "14 menit baca",
-      "date": "14 Nov 2026"
+      "date": "17 Nov 2026"
     },
     {
       "id": "art-112",
@@ -267,7 +284,7 @@
         }
       ],
       "readTime": "11 menit baca",
-      "date": "14 Nov 2026"
+      "date": "17 Nov 2026"
     },
     {
       "id": "art-113",
@@ -285,7 +302,7 @@
         }
       ],
       "readTime": "13 menit baca",
-      "date": "14 Nov 2026"
+      "date": "17 Nov 2026"
     },
     {
       "id": "art-114",
@@ -303,7 +320,7 @@
         }
       ],
       "readTime": "12 menit baca",
-      "date": "14 Nov 2026"
+      "date": "17 Nov 2026"
     },
     {
       "id": "art-115",
@@ -321,7 +338,7 @@
         }
       ],
       "readTime": "10 menit baca",
-      "date": "14 Nov 2026"
+      "date": "17 Nov 2026"
     },
     {
       "id": "art-101",
@@ -347,7 +364,7 @@
         }
       ],
       "readTime": "8 menit baca",
-      "date": "14 Nov 2026"
+      "date": "17 Nov 2026"
     },
     {
       "id": "art-102",
@@ -369,7 +386,7 @@
         }
       ],
       "readTime": "10 menit baca",
-      "date": "14 Nov 2026"
+      "date": "17 Nov 2026"
     },
     {
       "id": "art-103",
@@ -419,7 +436,7 @@
         }
       ],
       "readTime": "14 menit baca",
-      "date": "14 Nov 2026"
+      "date": "17 Nov 2026"
     }
   ]
 }
