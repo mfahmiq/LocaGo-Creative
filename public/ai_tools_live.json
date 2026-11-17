@@ -1,6 +1,6 @@
 {
-  "updatedAt": "17 Nov 2026, 19:39 WIB",
-  "total": 539,
+  "updatedAt": "17 Nov 2026, 20:09 WIB",
+  "total": 540,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-tldv",
+      "name": "tldv",
+      "category": "Productivity & Media",
+      "pricingType": "Freemium",
+      "tagline": "tldv - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "A platform to record and transcribe online meetings with summarization.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Freemium",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/tldv.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://tldv.io"
     },
     {
       "id": "ai-movie-amp-book-recommender",
