@@ -1,7 +1,24 @@
 {
-  "updatedAt": "17 Nov 2026, 18:56 WIB",
-  "total": 21,
+  "updatedAt": "17 Nov 2026, 19:26 WIB",
+  "total": 22,
   "items": [
+    {
+      "id": "art-122",
+      "title": "RAG Lokal di Laptop Sendiri: Bangun Asisten AI yang Baca Dokumenmu Tanpa Kirim Data ke Cloud",
+      "slug": "rag-lokal-laptop-asisten-ai-dokumen-tanpa-cloud",
+      "language": "id",
+      "category": "Machine Learning",
+      "excerpt": "Panduan membangun retrieval-augmented generation sepenuhnya lokal: embedding model ringan, vector store di laptop, dan cara tanya-jawab dokumen kerja tanpa satu byte pun keluar ke server pihak ketiga.",
+      "content": "# RAG Lokal di Laptop Sendiri: Bangun Asisten AI yang Baca Dokumenmu Tanpa Kirim Data ke Cloud\n\nPanduan membangun retrieval-augmented generation sepenuhnya lokal: embedding model ringan, vector store di laptop, dan cara tanya-jawab dokumen kerja tanpa satu byte pun keluar ke server pihak ketiga.\n\n## 1. Analisis & Latar Belakang Masalah\nDi era revolusi kecerdasan buatan, efisiensi eksekusi dan kecepatan implementasi adalah pembeda utama antara produk yang berhasil dan yang gagal di pasar.\n\n## 2. Arsitektur Teknis & Panduan Implementasi\nImplementasi alur kerja modern membutuhkan integrasi yang erat antara automasi backend, keandalan database, dan validasi data terstruktur.\n\n## 3. Komparasi dan Evaluasi Benchmark\nBerdasarkan pengujian nyata di lingkungan produksi, alur kerja ini terbukti mampu memangkas waktu kerja hingga 70% dan menghemat biaya operasional bulanan secara drastis.\n\n## 4. Kesimpulan & Rekomendasi Solusi\nGunakan tools yang tepat untuk mempercepat alur kerja bisnismu. Pantau terus update harian di locagocreative.my.id.",
+      "cover": "/banners/gemini/art_rag_lokal_laptop_asisten_.webp",
+      "affiliateTools": [
+        "Cursor",
+        "Perplexity",
+        "GitHub Copilot"
+      ],
+      "readTime": "13 menit baca",
+      "date": "17 Nov 2026"
+    },
     {
       "id": "art-121",
       "title": "Otomasi WhatsApp Bisnis dengan n8n: Balas Chat Pelanggan Otomatis Tanpa Langganan Bulanan",
