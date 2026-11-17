@@ -1,6 +1,6 @@
 {
-  "updatedAt": "17 Nov 2026, 17:08 WIB",
-  "total": 534,
+  "updatedAt": "17 Nov 2026, 17:38 WIB",
+  "total": 535,
   "items": [
     {
       "id": "ai-leadmasters",
@@ -19,6 +19,24 @@
       "screenshotUrl": null,
       "demoVideoUrl": null,
       "affiliateUrl": "https://leadmasters.my.id"
+    },
+    {
+      "id": "ai-teddy-ai",
+      "name": "Teddy AI",
+      "category": "Productivity & Media",
+      "pricingType": "Free",
+      "tagline": "Teddy AI - Solusi AI Terverifikasi untuk Productivity & Media",
+      "description": "An app with interactive buddy for kids.",
+      "features": [
+        "Kategori resmi terverifikasi: Productivity & Media",
+        "Model lisensi & biaya: Free",
+        "Tautan langsung ke situs resmi terverifikasi",
+        "Aksesibilitas web aktif dan siap digunakan"
+      ],
+      "logoUrl": "/logos/teddy-ai.png",
+      "screenshotUrl": null,
+      "demoVideoUrl": null,
+      "affiliateUrl": "https://teddyai.com"
     },
     {
       "id": "ai-landing-ai",
