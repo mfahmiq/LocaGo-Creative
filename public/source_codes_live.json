@@ -24,9 +24,64 @@
       ],
       "defaultCredentials": [
         {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
+          "role": "Super Admin SaaS",
+          "username": "superadmin@klinikdent.test",
+          "password": "password"
+        },
+        {
+          "role": "Owner (Klinik Gigi A)",
+          "username": "owner@klinikdent.test",
+          "password": "password"
+        },
+        {
+          "role": "Manager",
+          "username": "manager@klinikdent.test",
+          "password": "password"
+        },
+        {
+          "role": "Pendaftaran",
+          "username": "registration@klinikdent.test",
+          "password": "password"
+        },
+        {
+          "role": "Dokter Gigi",
+          "username": "dentist@klinikdent.test",
+          "password": "password"
+        },
+        {
+          "role": "Asisten Dokter",
+          "username": "assistant@klinikdent.test",
+          "password": "password"
+        },
+        {
+          "role": "Perawat",
+          "username": "nurse@klinikdent.test",
+          "password": "password"
+        },
+        {
+          "role": "Farmasi",
+          "username": "pharmacy@klinikdent.test",
+          "password": "password"
+        },
+        {
+          "role": "Kasir",
+          "username": "cashier@klinikdent.test",
+          "password": "password"
+        },
+        {
+          "role": "Keuangan",
+          "username": "finance@klinikdent.test",
+          "password": "password"
+        },
+        {
+          "role": "Auditor",
+          "username": "auditor@klinikdent.test",
+          "password": "password"
+        },
+        {
+          "role": "Owner (Klinik Gigi B)",
+          "username": "owner.b@klinikdent.test",
+          "password": "password"
         }
       ],
       "updatedAt": "18 November 2026",
@@ -55,7 +110,7 @@
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=klinikdent&step=1&max=8",
       "downloadUrlFast": "/downloads/klinikdent.zip",
-      "driveUrl": "",
+      "driveUrl": "https://drive.google.com/file/d/19utEc1dJd3_BzS-vX5fU77fDGiKRdJL_/view?usp=drivesdk",
       "githubRepo": "https://github.com/novaariyanto/KlinikDent",
       "stars": 0
     },
