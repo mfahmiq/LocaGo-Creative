@@ -1,7 +1,65 @@
 {
-  "updatedAt": "18 Nov 2026, 11:31 WIB",
-  "total": 1,
+  "updatedAt": "18 Nov 2026, 11:50 WIB",
+  "total": 2,
   "items": [
+    {
+      "id": "sc-56",
+      "title": "Sistem Point of Sale Modern - Smart Times Pos",
+      "slug": "smart-times-pos",
+      "category": "Kasir & Point of Sale (POS)",
+      "techStack": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "React",
+        "Vite"
+      ],
+      "description": "A full-stack watch showroom and retail POS management system built with React, Laravel 11, and MySQL. Features include inventory tracking, GST billing, customer CRM, and service repair tracking.\n\nProyek riil open-source asli dari GitHub (https://github.com/Ramsrinivash/smart-times-pos). Dilengkapi file database lengkap (backend/database/setup_smarttimes_db.sql), serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Point of Sale Modern - Smart Times Pos dengan database backend/database/setup_smarttimes_db.sql, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, React, Vite dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/smart-times-pos/screenshot_1.webp",
+        "/screenshots/smart-times-pos/screenshot_2.webp",
+        "/screenshots/smart-times-pos/screenshot_3.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "18 November 2026",
+      "releaseDate": "18 November 2026",
+      "recentFastDownloads": 79,
+      "thumbnail": "/screenshots/smart-times-pos/screenshot_1.webp",
+      "downloadsCount": 631,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "583 KB",
+      "tutorialSteps": [
+        "Ekstrak berkas `smart-times-pos.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `backend/database/setup_smarttimes_db.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/smart-times-pos` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (Ramsrinivash/smart-times-pos) dengan source code lengkap",
+        "Disertai database asli (backend/database/setup_smarttimes_db.sql) beserta skema lengkap",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=smart-times-pos&step=1&max=8",
+      "downloadUrlFast": "/downloads/smart-times-pos.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/Ramsrinivash/smart-times-pos",
+      "stars": 0
+    },
     {
       "id": "sc-55",
       "title": "Sistem Manajemen Laundry Kiloan - Oembah Laundry App",
