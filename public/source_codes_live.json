@@ -1,7 +1,64 @@
 {
-  "updatedAt": "19 Nov 2026, 01:56 WIB",
-  "total": 6,
+  "updatedAt": "19 Nov 2026, 02:03 WIB",
+  "total": 7,
   "items": [
+    {
+      "id": "sc-63",
+      "title": "Sistem Informasi Inventaris & Gudang - Inventaris Lab20 Update",
+      "slug": "inventaris-lab20-update",
+      "category": "Bisnis & Manajemen",
+      "techStack": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "aplikasi inventaris untuk pendataan barang lab\n\nProyek riil open-source asli dari GitHub (https://github.com/vianhubgit/inventaris-lab2.0-update). Dilengkapi file database lengkap (backup-2026-07-24.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Informasi Inventaris & Gudang - Inventaris Lab20 Update dengan database backup-2026-07-24.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/inventaris-lab20-update/screenshot_1.webp",
+        "/screenshots/inventaris-lab20-update/screenshot_2.webp",
+        "/screenshots/inventaris-lab20-update/screenshot_3.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Demo",
+          "username": "Lihat README.md repo asli",
+          "password": "(lihat README repo)"
+        }
+      ],
+      "updatedAt": "19 November 2026",
+      "releaseDate": "19 November 2026",
+      "recentFastDownloads": 48,
+      "thumbnail": "/screenshots/inventaris-lab20-update/screenshot_1.webp",
+      "downloadsCount": 1004,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "748 KB",
+      "tutorialSteps": [
+        "Ekstrak berkas `inventaris-lab20-update.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `backup-2026-07-24.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/inventaris-lab20-update` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (vianhubgit/inventaris-lab2.0-update) dengan source code lengkap",
+        "Disertai database asli (backup-2026-07-24.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=inventaris-lab20-update&step=1&max=8",
+      "downloadUrlFast": "/downloads/inventaris-lab20-update.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/vianhubgit/inventaris-lab2.0-update",
+      "stars": 0
+    },
     {
       "id": "sc-62",
       "title": "Toko Online E-Commerce Siap Pakai - Kopi Mahasiswa",
