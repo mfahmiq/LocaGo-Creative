@@ -1,0 +1,316 @@
+{
+  "updatedAt": "18 Nov 2026, 20:58 WIB",
+  "total": 5,
+  "items": [
+    {
+      "id": "sc-61",
+      "title": "Aplikasi Manajemen Apotek & Obat - Klinikdent",
+      "slug": "klinikdent",
+      "category": "Kesehatan & Medis",
+      "techStack": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "KlinikDent adalah aplikasi manajemen klinik gigi yang membantu klinik mengelola seluruh aktivitas pelayanan dalam satu sistem, mulai dari pendaftaran pasien, antrian, rekam medis, odontogram, tindakan dokter, resep dan apotek, hingga pembayaran dan laporan.\n\nProyek riil open-source asli dari GitHub (https://github.com/novaariyanto/KlinikDent). Dilengkapi file database lengkap (database/db_klinikdent (1).sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Aplikasi Manajemen Apotek & Obat - Klinikdent dengan database database/db_klinikdent (1).sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/klinikdent/screenshot_1.webp",
+        "/screenshots/klinikdent/screenshot_2.webp",
+        "/screenshots/klinikdent/screenshot_3.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Demo",
+          "username": "Lihat README.md repo asli",
+          "password": "(lihat README repo)"
+        }
+      ],
+      "updatedAt": "18 November 2026",
+      "releaseDate": "18 November 2026",
+      "recentFastDownloads": 80,
+      "thumbnail": "/screenshots/klinikdent/screenshot_1.webp",
+      "downloadsCount": 814,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "22.0 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `klinikdent.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `database/db_klinikdent (1).sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/klinikdent` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (novaariyanto/KlinikDent) dengan source code lengkap",
+        "Disertai database asli (database/db_klinikdent (1).sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=klinikdent&step=1&max=8",
+      "downloadUrlFast": "/downloads/klinikdent.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/novaariyanto/KlinikDent",
+      "stars": 0
+    },
+    {
+      "id": "sc-60",
+      "title": "Sistem Informasi Perpustakaan - Librani",
+      "slug": "librani",
+      "category": "Pendidikan & Akademik",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL"
+      ],
+      "description": "Aplikasi web perpustakaan umum/daerah untuk mengelola koleksi buku per eksemplar (lengkap dengan foto sampul), keanggotaan, peminjaman, pengembalian, denda, reservasi, dan laporan. Dibangun dengan PHP native + MySQL tanpa framework.\n\nProyek riil open-source asli dari GitHub (https://github.com/davsantoso/librani). Dilengkapi file database lengkap (database/librani.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Informasi Perpustakaan - Librani dengan database database/librani.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/librani/screenshot_1.webp",
+        "/screenshots/librani/screenshot_2.webp",
+        "/screenshots/librani/screenshot_3.webp",
+        "/screenshots/librani/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin",
+          "password": "admin123"
+        },
+        {
+          "role": "Petugas",
+          "username": "petugas1",
+          "password": "petugas123"
+        },
+        {
+          "role": "Anggota",
+          "username": "anggota1",
+          "password": "anggota123"
+        }
+      ],
+      "updatedAt": "18 November 2026",
+      "releaseDate": "18 November 2026",
+      "recentFastDownloads": 69,
+      "thumbnail": "/screenshots/librani/screenshot_1.webp",
+      "downloadsCount": 451,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "1.4 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `librani.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Salin `config/config.example.php` menjadi `config/config.php`, lalu isi DB_HOST/DB_USER/DB_PASS/DB_NAME dan BASE_URL (contoh: http://localhost/librani).",
+        "Buat database baru bernama `librani` di phpMyAdmin, lalu import berkas SQL `database/librani.sql` ke dalamnya — import ini membuat 14 tabel + data contoh + semua akun demo di bawah.",
+        "JANGAN jalankan `database/seed.php` — saat ini rusak (bug tanggal di `includes/helpers.php`), dan tidak dibutuhkan karena import SQL sudah berisi semua data.",
+        "(Opsional) Jalankan `composer install` bila butuh ekspor PDF (Dompdf); tanpa ini aplikasi tetap jalan.",
+        "Buka browser di `http://localhost/librani` dan login dengan akun demo (admin/admin123, petugas1/petugas123, atau anggota1/anggota123)."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (davsantoso/librani) dengan source code lengkap",
+        "Disertai database asli (database/librani.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=librani&step=1&max=8",
+      "downloadUrlFast": "/downloads/librani.zip",
+      "driveUrl": "https://drive.google.com/file/d/177m4OoityvYALH38JSvfUY0m7Fu5-hf4/view?usp=drivesdk",
+      "githubRepo": "https://github.com/davsantoso/librani",
+      "stars": 0
+    },
+    {
+      "id": "sc-59",
+      "title": "Pharmacy Store Management System - Medis",
+      "slug": "medis",
+      "category": "Kesehatan & Medis",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL"
+      ],
+      "description": "💊 Complete Pharmacy Management System with Point-of-Sale (POS), FIFO batch tracking, and multi-branch management built with Pure PHP, MySQL, and Vanilla JS.\n\nProyek riil open-source asli dari GitHub (https://github.com/Zamkhammohsin/Medis). Dilengkapi file database lengkap (database/database.sql), serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon. WAJIB jalankan database/seed.php setelah import SQL — langkah ini yang membuat akun login (admin@medis.pk / Admin@123) + data contoh.",
+      "shortDesc": "Proyek riil Pharmacy Store Management System - Medis dengan database database/database.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/medis/screenshot_1.webp",
+        "/screenshots/medis/screenshot_2.webp",
+        "/screenshots/medis/screenshot_3.webp",
+        "/screenshots/medis/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin@medis.pk",
+          "password": "Admin@123"
+        },
+        {
+          "role": "Branch Manager",
+          "username": "manager.lahore@medis.pk",
+          "password": "Manager@123"
+        },
+        {
+          "role": "Cashier (POS)",
+          "username": "cashier1@medis.pk",
+          "password": "Cashier@123"
+        }
+      ],
+      "updatedAt": "18 November 2026",
+      "releaseDate": "18 November 2026",
+      "recentFastDownloads": 62,
+      "thumbnail": "/screenshots/medis/screenshot_1.webp",
+      "downloadsCount": 707,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "3.0 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `medis.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `database/database.sql` ke database phpMyAdmin.",
+        "WAJIB: jalankan `database/seed.php` di browser — langkah ini yang membuat akun login + data contoh.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/medis` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (Zamkhammohsin/Medis) dengan source code lengkap",
+        "Disertai database asli (database/database.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=medis&step=1&max=8",
+      "downloadUrlFast": "/downloads/medis.zip",
+      "driveUrl": "https://drive.google.com/file/d/1Nmw3O7BeSkXY_2wBpvER9x0uufuJbx9Y/view?usp=drivesdk",
+      "githubRepo": "https://github.com/Zamkhammohsin/Medis",
+      "stars": 0
+    },
+    {
+      "id": "sc-56",
+      "title": "Sistem Point of Sale Modern - Smart Times Pos",
+      "slug": "smart-times-pos",
+      "category": "Kasir & Point of Sale (POS)",
+      "techStack": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "React",
+        "Vite"
+      ],
+      "description": "A full-stack watch showroom and retail POS management system built with React, Laravel 11, and MySQL. Features include inventory tracking, GST billing, customer CRM, and service repair tracking.\n\nProyek riil open-source asli dari GitHub (https://github.com/Ramsrinivash/smart-times-pos). Dilengkapi file database lengkap (backend/database/setup_smarttimes_db.sql), serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Point of Sale Modern - Smart Times Pos dengan database backend/database/setup_smarttimes_db.sql, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, React, Vite dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/smart-times-pos/screenshot_1.webp",
+        "/screenshots/smart-times-pos/screenshot_2.webp",
+        "/screenshots/smart-times-pos/screenshot_3.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "18 November 2026",
+      "releaseDate": "18 November 2026",
+      "recentFastDownloads": 79,
+      "thumbnail": "/screenshots/smart-times-pos/screenshot_1.webp",
+      "downloadsCount": 631,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "583 KB",
+      "tutorialSteps": [
+        "Ekstrak berkas `smart-times-pos.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `backend/database/setup_smarttimes_db.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/smart-times-pos` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (Ramsrinivash/smart-times-pos) dengan source code lengkap",
+        "Disertai database asli (backend/database/setup_smarttimes_db.sql) beserta skema lengkap",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=smart-times-pos&step=1&max=8",
+      "downloadUrlFast": "/downloads/smart-times-pos.zip",
+      "driveUrl": "https://drive.google.com/file/d/1U5KIcCdCHSeJGp7rwOwmtRw6Tql5lMHS/view?usp=drivesdk",
+      "githubRepo": "https://github.com/Ramsrinivash/smart-times-pos",
+      "stars": 0
+    },
+    {
+      "id": "sc-55",
+      "title": "Sistem Manajemen Laundry Kiloan - Oembah Laundry App",
+      "slug": "oembah-laundry-app",
+      "category": "Layanan & Jasa",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL",
+        "Tailwind CSS"
+      ],
+      "description": "Oembah adalah aplikasi penyedia layanan pemesanan jasa laundry berbasis website\n\nProyek riil open-source asli dari GitHub (https://github.com/Ilham-muttaqien17/oembah_laundry_app). Dilengkapi file database lengkap (db_oembah.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Manajemen Laundry Kiloan - Oembah Laundry App dengan database db_oembah.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Tailwind CSS dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/oembah-laundry-app/screenshot_1.webp",
+        "/screenshots/oembah-laundry-app/screenshot_2.webp",
+        "/screenshots/oembah-laundry-app/screenshot_3.webp",
+        "/screenshots/oembah-laundry-app/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "15 November 2026",
+      "releaseDate": "15 November 2026",
+      "recentFastDownloads": 95,
+      "thumbnail": "/screenshots/oembah-laundry-app/screenshot_1.webp",
+      "downloadsCount": 747,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "2.3 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `oembah-laundry-app.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `db_oembah.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/oembah-laundry-app` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (Ilham-muttaqien17/oembah_laundry_app) dengan source code lengkap",
+        "Disertai database asli (db_oembah.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=oembah-laundry-app&step=1&max=8",
+      "downloadUrlFast": "/downloads/oembah-laundry-app.zip",
+      "driveUrl": "https://drive.google.com/file/d/1G2QNCBV3PwtvacLyfFY3-N4fbfXhLfce/view?usp=drivesdk",
+      "githubRepo": "https://github.com/Ilham-muttaqien17/oembah_laundry_app",
+      "stars": 3
+    }
+  ]
+}
