@@ -1,62 +1,7 @@
 {
   "updatedAt": "19 Nov 2026, 01:56 WIB",
-  "total": 7,
+  "total": 6,
   "items": [
-    {
-      "id": "sc-63",
-      "title": "Sistem Informasi Rental Kendaraan - Sistem Rental Mobil",
-      "slug": "sistem-rental-mobil",
-      "category": "Layanan & Jasa",
-      "techStack": [
-        "PHP Native",
-        "PHP",
-        "MySQL",
-        "Bootstrap"
-      ],
-      "description": "Aplikasi Sistem-Rental-Mobil siap pakai dengan database lengkap.\n\nProyek riil open-source asli dari GitHub (https://github.com/ferryardnsyh/Sistem-Rental-Mobil). Dilengkapi file database lengkap (db_rental_mobil.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Sistem Informasi Rental Kendaraan - Sistem Rental Mobil dengan database db_rental_mobil.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/sistem-rental-mobil/screenshot_1.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
-        }
-      ],
-      "updatedAt": "19 November 2026",
-      "releaseDate": "19 November 2026",
-      "recentFastDownloads": 56,
-      "thumbnail": "/screenshots/sistem-rental-mobil/screenshot_1.webp",
-      "downloadsCount": 577,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "1.7 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `sistem-rental-mobil.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `db_rental_mobil.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/sistem-rental-mobil` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (ferryardnsyh/Sistem-Rental-Mobil) dengan source code lengkap",
-        "Disertai database asli (db_rental_mobil.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=sistem-rental-mobil&step=1&max=8",
-      "downloadUrlFast": "/downloads/sistem-rental-mobil.zip",
-      "driveUrl": "",
-      "githubRepo": "https://github.com/ferryardnsyh/Sistem-Rental-Mobil",
-      "stars": 0
-    },
     {
       "id": "sc-62",
       "title": "Toko Online E-Commerce Siap Pakai - Kopi Mahasiswa",
