@@ -1,7 +1,75 @@
 {
   "updatedAt": "18 Nov 2026, 16:56 WIB",
-  "total": 2,
+  "total": 3,
   "items": [
+    {
+      "id": "sc-59",
+      "title": "Pharmacy Store Management System - Medis",
+      "slug": "medis",
+      "category": "Kesehatan & Medis",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL"
+      ],
+      "description": "💊 Complete Pharmacy Management System with Point-of-Sale (POS), FIFO batch tracking, and multi-branch management built with Pure PHP, MySQL, and Vanilla JS.\n\nProyek riil open-source asli dari GitHub (https://github.com/Zamkhammohsin/Medis). Dilengkapi file database lengkap (database/database.sql), serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon. WAJIB jalankan database/seed.php setelah import SQL — langkah ini yang membuat akun login (admin@medis.pk / Admin@123) + data contoh.",
+      "shortDesc": "Proyek riil Pharmacy Store Management System - Medis dengan database database/database.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/medis/screenshot_1.webp",
+        "/screenshots/medis/screenshot_2.webp",
+        "/screenshots/medis/screenshot_3.webp",
+        "/screenshots/medis/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin@medis.pk",
+          "password": "Admin@123"
+        },
+        {
+          "role": "Branch Manager",
+          "username": "manager.lahore@medis.pk",
+          "password": "Manager@123"
+        },
+        {
+          "role": "Cashier (POS)",
+          "username": "cashier1@medis.pk",
+          "password": "Cashier@123"
+        }
+      ],
+      "updatedAt": "18 November 2026",
+      "releaseDate": "18 November 2026",
+      "recentFastDownloads": 62,
+      "thumbnail": "/screenshots/medis/screenshot_1.webp",
+      "downloadsCount": 707,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "3.0 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `medis.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `database/database.sql` ke database phpMyAdmin.",
+        "WAJIB: jalankan `database/seed.php` di browser — langkah ini yang membuat akun login + data contoh.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/medis` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (Zamkhammohsin/Medis) dengan source code lengkap",
+        "Disertai database asli (database/database.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=medis&step=1&max=8",
+      "downloadUrlFast": "/downloads/medis.zip",
+      "driveUrl": "https://drive.google.com/file/d/1Nmw3O7BeSkXY_2wBpvER9x0uufuJbx9Y/view?usp=drivesdk",
+      "githubRepo": "https://github.com/Zamkhammohsin/Medis",
+      "stars": 0
+    },
     {
       "id": "sc-56",
       "title": "Sistem Point of Sale Modern - Smart Times Pos",
