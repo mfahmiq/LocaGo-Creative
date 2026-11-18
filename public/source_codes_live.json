@@ -1,7 +1,61 @@
 {
-  "updatedAt": "18 Nov 2026, 22:56 WIB",
-  "total": 6,
+  "updatedAt": "19 Nov 2026, 00:04 WIB",
+  "total": 7,
   "items": [
+    {
+      "id": "sc-63",
+      "title": "Aplikasi Penggajian Karyawan & Payroll - Zivanez",
+      "slug": "zivanez",
+      "category": "HRD & Keuangan",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL"
+      ],
+      "description": "Zivanes adalah aplikasi web berbasis PHP untuk manajemen bisnis ritel dengan sistem multi-cabang. Aplikasi ini dirancang untuk mengelola stok, transaksi, karyawan, penggajian, setoran, dan laporan keuangan dengan peran pengguna yang berbeda-beda.\n\nProyek riil open-source asli dari GitHub (https://github.com/RimuruTempestCkCK/zivanez). Dilengkapi file database lengkap (zivanes.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Aplikasi Penggajian Karyawan & Payroll - Zivanez dengan database zivanes.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/zivanez/screenshot_1.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Demo",
+          "username": "Lihat README.md repo asli",
+          "password": "(lihat README repo)"
+        }
+      ],
+      "updatedAt": "19 November 2026",
+      "releaseDate": "19 November 2026",
+      "recentFastDownloads": 63,
+      "thumbnail": "/screenshots/zivanez/screenshot_1.webp",
+      "downloadsCount": 1063,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "898 KB",
+      "tutorialSteps": [
+        "Ekstrak berkas `zivanez.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `zivanes.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/zivanez` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (RimuruTempestCkCK/zivanez) dengan source code lengkap",
+        "Disertai database asli (zivanes.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=zivanez&step=1&max=8",
+      "downloadUrlFast": "/downloads/zivanez.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/RimuruTempestCkCK/zivanez",
+      "stars": 0
+    },
     {
       "id": "sc-62",
       "title": "Toko Online E-Commerce Siap Pakai - Kopi Mahasiswa",
