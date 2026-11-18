@@ -17,7 +17,7 @@
       "description": "Gym Management System using Laravel, ReactJS and MySQL.\n\nProyek riil open-source asli dari GitHub (https://github.com/iamsatheeshsn/Gym-Management-System). Dilengkapi file database lengkap (database/patches/2026_07_24_membership_lifecycle.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
       "shortDesc": "Proyek riil Sistem Manajemen Gym & Fitness - Gym Management System dengan database database/patches/2026_07_24_membership_lifecycle.sql, data contoh bawaan, dan tutorial instalasi.",
       "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, Bootstrap, React dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "requirements": "PHP 8.2+ (Laravel 12), MySQL/MariaDB, Node.js 20+ (admin/member portal), XAMPP/Laragon.",
       "screenshots": [
         "/screenshots/gym-management-system/screenshot_1.webp",
         "/screenshots/gym-management-system/screenshot_2.webp",
@@ -26,9 +26,14 @@
       ],
       "defaultCredentials": [
         {
-          "role": "Administrator",
-          "username": "admin / admin@gmail.com",
-          "password": "admin / admin123"
+          "role": "Gym Owner",
+          "username": "admin@demo-gym.test",
+          "password": "Password1!"
+        },
+        {
+          "role": "Platform Super Admin",
+          "username": "superadmin@gms.test",
+          "password": "Password1!"
         }
       ],
       "updatedAt": "18 November 2026",
@@ -44,9 +49,9 @@
       "fileSize": "40.3 MB",
       "tutorialSteps": [
         "Ekstrak berkas `gym-management-system.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `database/patches/2026_07_24_membership_lifecycle.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/gym-management-system` dan login dengan akun default."
+        "Buat database `gym`, lalu import `database/schema.sql` (lanjutkan dengan file patch di `database/patches/` bila perlu) via phpMyAdmin.",
+        "Di folder `backend`: jalankan `composer install`, salin `.env.example` ke `.env`, lalu `php artisan key:generate`, `php artisan migrate --seed`, dan `php artisan serve`.",
+        "Di folder `admin-portal` dan `member-portal`: jalankan `npm install` lalu `npm run dev`; login dengan akun demo di atas."
       ],
       "keyFeatures": [
         "Proyek riil dari GitHub (iamsatheeshsn/Gym-Management-System) dengan source code lengkap",
