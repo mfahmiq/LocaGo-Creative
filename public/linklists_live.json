@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-18T07:17:39.156971+00:00",
-  "total": 25,
+  "updatedAt": "2026-11-18T08:48:39.975969+00:00",
+  "total": 26,
   "items": [
     {
       "id": "list-creator-tools",
@@ -692,6 +692,32 @@
           "title": "LeadMasters — Night Worker & Klien Otomatis",
           "url": "https://leadmasters.my.id/",
           "note": "Cuma Rp149.000 sekali bayar, lifetime — tanpa langganan. Sistem kerja semalaman: sapu Google Maps, saring WA aktif, kirim penawaran otomatis sampai closing."
+        },
+        {
+          "id": "cl-locago-main",
+          "title": "Katalog Lengkap 329+ Tools AI LocaGo Creative",
+          "url": "https://www.locagocreative.my.id/#ai-tools",
+          "note": "Akses gratis seluruh kurasi tools produktivitas & developer."
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "18 Nov 2026",
+      "views": 1500
+    },
+    {
+      "id": "list-leadmasters-vip-autopilot",
+      "title": "LeadMasters VIP Autopilot: Mesin Omset B2B Jalan Sendiri",
+      "notes": "6 modul LeadMasters di video Reel 10 (18 Nov 2026): Sapu Niche Ganda — sekali jalan, sapu banyak niche sekaligus, dari klinik sampai bengkel; Jalur WA Langsung — penawaran terkirim langsung ke WhatsApp owner, tanpa perantara dan tanpa antre; Radar Celah Website — tunjukkan bisnis mana yang paling butuh jasa, lengkap dengan bukti celahnya; Pipa Prospek Otomatis — semua prospek masuk rapi, ketahuan siapa yang hot & dingin; Mesin Prospek Lokal — semua ditenagai mesin prospek lokal dalam satu dashboard; Hak Milik Selamanya — sekali bayar, data jadi milik selamanya, tanpa langganan. Cuma Rp149.000 sekali bayar, lifetime, tanpa langganan.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [],
+      "customLinks": [
+        {
+          "id": "cl-leadmasters-vip-autopilot",
+          "title": "LeadMasters — VIP Autopilot & Omset B2B",
+          "url": "https://leadmasters.my.id/",
+          "note": "Cuma Rp149.000 sekali bayar, lifetime — tanpa langganan. Mesin omset B2B otomatis: sapu banyak niche sekaligus, kirim penawaran langsung ke WA owner, kelola pipa prospek sampai closing."
         },
         {
           "id": "cl-locago-main",
