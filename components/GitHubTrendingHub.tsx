@@ -10,84 +10,68 @@ import {
   CheckCircle2, 
   AlertCircle 
 } from 'lucide-react';
-import { GITHUB_TRENDING_LIST } from '../lib/data';
 import { GitHubTrendingItem } from '../types';
+import { fetchCatalog } from '../lib/catalogData';
 
-interface TrendingLivePayload {
-  updatedAt?: string;
+// Baris tabel `github_trending` di Supabase: sama seperti GitHubTrendingItem
+// ditambah kolom `timeframe` ('daily' | 'weekly' | 'monthly') dan `updatedAt`.
+// types.ts tidak diubah — perluasan tipe cukup lokal di komponen ini.
+type TrendingRow = GitHubTrendingItem & {
   timeframe?: 'daily' | 'weekly' | 'monthly';
-  total?: number;
-  items?: GitHubTrendingItem[];
-  daily?: GitHubTrendingItem[];
-  weekly?: GitHubTrendingItem[];
-  monthly?: GitHubTrendingItem[];
-}
+  updatedAt?: string;
+};
 
 export const GitHubTrendingHub: React.FC = () => {
-  const [repos, setRepos] = useState<GitHubTrendingItem[]>(GITHUB_TRENDING_LIST);
-  const [trendingPayload, setTrendingPayload] = useState<TrendingLivePayload | null>(null);
+  // Semua baris trending (ketiga timeframe) diambil SEKALI dari Supabase;
+  // switch daily/weekly/monthly hanya filter client-side (currentActiveList).
+  const [repos, setRepos] = useState<TrendingRow[]>([]);
+  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [loadError, setLoadError] = useState<string | null>(null);
   const [timeframe, setTimeframe] = useState<'daily' | 'weekly' | 'monthly'>('daily');
   const [selectedLanguage, setSelectedLanguage] = useState<string>('Semua');
   const [selectedTopic, setSelectedTopic] = useState<string>('Semua');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [isLiveLoading, setIsLiveLoading] = useState<boolean>(false);
-  const [lastUpdated, setLastUpdated] = useState<string>('Hari ini, Real-Time');
+  const [lastUpdated, setLastUpdated] = useState<string>('Memuat...');
 
-  const applyTrendingPayload = (data: TrendingLivePayload, tf: 'daily' | 'weekly' | 'monthly') => {
-    setTrendingPayload(data);
-    const activeItems =
-      (tf === 'weekly' && data.weekly && data.weekly.length > 0 ? data.weekly : null) ||
-      (tf === 'monthly' && data.monthly && data.monthly.length > 0 ? data.monthly : null) ||
-      (tf === 'daily' && data.daily && data.daily.length > 0 ? data.daily : null) ||
-      (data.items && data.items.length > 0 ? data.items : null);
-    if (activeItems) {
-      setRepos(activeItems);
+  const formatUpdatedAt = (rows: TrendingRow[]): string => {
+    const stamps = rows
+      .map((r) => r.updatedAt)
+      .filter((s): s is string => Boolean(s))
+      .map((s) => new Date(s).getTime())
+      .filter((t) => !Number.isNaN(t));
+    if (stamps.length === 0) {
+      const now = new Date();
+      return `Hari ini, ${now.toLocaleTimeString('id-ID')} WIB`;
     }
-    if (data.updatedAt) {
-      setLastUpdated(data.updatedAt);
-    }
+    return new Date(Math.max(...stamps)).toLocaleString('id-ID', {
+      day: '2-digit',
+      month: 'short',
+      year: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit',
+    });
   };
 
-  const fetchTrendingPayload = async (tf: 'daily' | 'weekly' | 'monthly', bustCache = false): Promise<TrendingLivePayload | null> => {
-    const cacheParam = bustCache ? `&t=${Date.now()}` : '';
-    try {
-      const apiRes = await fetch(`/api/github-trending?since=${tf}${cacheParam}`);
-      if (apiRes.ok) {
-        const data: TrendingLivePayload = await apiRes.json();
-        if (data && ((data.items && data.items.length > 0) || (data[tf] && data[tf]!.length > 0))) {
-          return data;
-        }
-      }
-    } catch {
-      // Fallback to static live shard
-    }
-
-    try {
-      const fallbackRes = await fetch(`/github_trending_live.json?t=${Date.now()}`);
-      if (fallbackRes.ok) {
-        const data: TrendingLivePayload = await fallbackRes.json();
-        if (data && ((data.items && data.items.length > 0) || (data[tf] && data[tf]!.length > 0))) {
-          return data;
-        }
-      }
-    } catch {
-      // Fallback to static GITHUB_TRENDING_LIST
-    }
-    return null;
+  const applyRows = (rows: TrendingRow[]) => {
+    setRepos(rows);
+    setLoadError(null);
+    setLastUpdated(formatUpdatedAt(rows));
   };
 
-  // Fetch live data on mount and whenever timeframe changes
+  // Fetch once on mount — Supabase only (lib/catalogData)
   useEffect(() => {
     let cancelled = false;
-    fetchTrendingPayload(timeframe).then((data) => {
-      if (!cancelled && data) {
-        applyTrendingPayload(data, timeframe);
-      }
+    fetchCatalog<TrendingRow>('github_trending').then((rows) => {
+      if (cancelled) return;
+      if (rows) applyRows(rows);
+      else setLoadError('Gagal memuat data GitHub Trending dari database. Periksa koneksi lalu muat ulang halaman.');
+      setIsLoading(false);
     });
     return () => {
       cancelled = true;
     };
-  }, [timeframe]);
+  }, []);
 
   // Upvotes state stored in localStorage
   const [upvotes, setUpvotes] = useState<Record<string, number>>(() => {
@@ -137,41 +121,30 @@ export const GitHubTrendingHub: React.FC = () => {
       const now = new Date();
       const timeStr = `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}:${now.getSeconds().toString().padStart(2, '0')} WIB`;
 
-      const data = await fetchTrendingPayload(timeframe, true);
-      if (data) {
-        applyTrendingPayload(data, timeframe);
-        setLastUpdated(data.updatedAt || `Hari ini, ${timeStr} (Sinkron Live)`);
+      const rows = await fetchCatalog<TrendingRow>('github_trending');
+      if (rows) {
+        applyRows(rows);
+        setLastUpdated(`Hari ini, ${timeStr} (Sinkron Live)`);
         setSyncNotice(`Data live GitHub Trending (${timeframe}) diperbarui pada ${timeStr} — urutan #1..N tersinkron resmi!`);
         setTimeout(() => setSyncNotice(null), 3500);
       } else {
-        setSyncNotice('Gagal mengambil data live terbaru. Menampilkan data tersimpan.');
+        setSyncNotice('Gagal mengambil data terbaru dari Supabase. Coba lagi nanti.');
         setTimeout(() => setSyncNotice(null), 3500);
       }
     } catch {
       const now = new Date();
       setLastUpdated(`Hari ini, ${now.toLocaleTimeString('id-ID')} WIB`);
+      setSyncNotice('Gagal mengambil data terbaru dari Supabase. Coba lagi nanti.');
+      setTimeout(() => setSyncNotice(null), 3500);
     } finally {
       setIsLiveLoading(false);
     }
   };
 
+  // Switch timeframe hanya filter client-side dari rows yang sudah diambil.
   const currentActiveList = useMemo(() => {
-    if (trendingPayload) {
-      if (timeframe === 'weekly' && trendingPayload.weekly && trendingPayload.weekly.length > 0) {
-        return trendingPayload.weekly;
-      }
-      if (timeframe === 'monthly' && trendingPayload.monthly && trendingPayload.monthly.length > 0) {
-        return trendingPayload.monthly;
-      }
-      if (timeframe === 'daily' && trendingPayload.daily && trendingPayload.daily.length > 0) {
-        return trendingPayload.daily;
-      }
-      if (trendingPayload.items && trendingPayload.items.length > 0) {
-        return trendingPayload.items;
-      }
-    }
-    return repos;
-  }, [trendingPayload, timeframe, repos]);
+    return repos.filter((r) => (r.timeframe ?? 'daily') === timeframe);
+  }, [repos, timeframe]);
 
   const languages = useMemo(() => {
     const uniqueLangs = Array.from(
@@ -349,6 +322,32 @@ export const GitHubTrendingHub: React.FC = () => {
         </div>
 
         {/* Repos Card Grid */}
+        {isLoading ? (
+          <div className="text-center py-20 bg-white dark:bg-neutral-900 rounded-2xl border border-neutral-200 dark:border-neutral-800">
+            <p className="text-sm text-neutral-500">Memuat data GitHub Trending dari database...</p>
+          </div>
+        ) : loadError || repos.length === 0 ? (
+          <div className="text-center py-20 px-6 bg-white dark:bg-neutral-900 rounded-2xl border border-neutral-200 dark:border-neutral-800">
+            <div className="w-14 h-14 rounded-2xl bg-blue-500/10 text-blue-500 flex items-center justify-center mx-auto mb-4 border border-blue-500/20">
+              <AlertCircle className="w-6 h-6" />
+            </div>
+            <p className="text-sm text-neutral-500">{loadError || 'Belum ada data GitHub Trending di database.'}</p>
+          </div>
+        ) : filteredAndRankedRepos.length === 0 ? (
+          <div className="text-center py-20 bg-white dark:bg-neutral-900 rounded-2xl border border-neutral-200 dark:border-neutral-800">
+            <p className="text-sm text-neutral-500">Tidak ada repo yang cocok dengan filter Anda.</p>
+            <button
+              onClick={() => {
+                setSelectedLanguage('Semua');
+                setSelectedTopic('Semua');
+                setSearchQuery('');
+              }}
+              className="mt-3 text-xs font-mono text-blue-600 hover:underline cursor-pointer"
+            >
+              Reset filter
+            </button>
+          </div>
+        ) : (
         <div className="space-y-4">
           {filteredAndRankedRepos.map((repo, index) => {
             const rank = repo.rank || index + 1;
@@ -470,6 +469,7 @@ export const GitHubTrendingHub: React.FC = () => {
             );
           })}
         </div>
+        )}
       </div>
     </section>
   );

@@ -16,8 +16,7 @@ import { useTheme } from '../context/ThemeContext';
 import { useLanguage } from '../context/LanguageContext';
 import { useAuth } from '../context/AuthContext';
 import { NavigationTab } from '../types';
-import { SOURCE_CODE_LIST, AI_TOOLS_LIST } from '../lib/data';
-import { ARTICLES_LIST } from '../lib/articlesData';
+import { fetchCatalogCount } from '../lib/catalogData';
 
 interface NavbarProps {
   activeTab: NavigationTab;
@@ -31,39 +30,25 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
   const { language, setLanguage } = useLanguage();
   const { user, isOwner, isLoggedIn, openAuthModal, logout } = useAuth();
 
-  const [scCount, setScCount] = useState<number>(SOURCE_CODE_LIST.length);
-  const [toolsCount, setToolsCount] = useState<number>(AI_TOOLS_LIST.length);
-  const [articlesCount, setArticlesCount] = useState<number>(ARTICLES_LIST.length);
-  const [playlistCount, setPlaylistCount] = useState<number>(8);
+  const [scCount, setScCount] = useState<number>(0);
+  const [toolsCount, setToolsCount] = useState<number>(0);
+  const [articlesCount, setArticlesCount] = useState<number>(0);
+  const [playlistCount, setPlaylistCount] = useState<number>(0);
 
+  // Live counts from Supabase only (lib/catalogData)
   useEffect(() => {
-    fetch('/source_codes_live.json')
-      .then((r) => r.json())
-      .then((d) => {
-        if (d.items && d.items.length > 0) setScCount(d.items.length);
-      })
-      .catch(() => {});
-
-    fetch('/ai_tools_live.json')
-      .then((r) => r.json())
-      .then((d) => {
-        if (d.items && d.items.length > 0) setToolsCount(d.items.length);
-      })
-      .catch(() => {});
-
-    fetch('/articles_live.json')
-      .then((r) => r.json())
-      .then((d) => {
-        if (d.items && d.items.length > 0) setArticlesCount(d.items.length);
-      })
-      .catch(() => {});
-
-    fetch('/linklists_live.json')
-      .then((r) => r.json())
-      .then((d) => {
-        if (d.items && d.items.length > 0) setPlaylistCount(d.items.length);
-      })
-      .catch(() => {});
+    fetchCatalogCount('source_codes').then((n) => {
+      if (n !== null) setScCount(n);
+    });
+    fetchCatalogCount('ai_tools').then((n) => {
+      if (n !== null) setToolsCount(n);
+    });
+    fetchCatalogCount('articles').then((n) => {
+      if (n !== null) setArticlesCount(n);
+    });
+    fetchCatalogCount('linklists').then((n) => {
+      if (n !== null) setPlaylistCount(n);
+    });
   }, []);
 
   useEffect(() => {

@@ -19,12 +19,15 @@ import {
   ShieldCheck, 
   Coffee 
 } from 'lucide-react';
-import { SOURCE_CODE_LIST, WA_CONSULT_URL } from '../lib/data';
+import { WA_CONSULT_URL } from '../lib/data';
+import { fetchCatalog } from '../lib/catalogData';
 import { SourceCodeItem } from '../types';
 import { DualDownloadModal } from './DualDownloadModal';
 
 export const SourceCodeHub: React.FC = () => {
-  const [items, setItems] = useState<SourceCodeItem[]>(SOURCE_CODE_LIST);
+  const [items, setItems] = useState<SourceCodeItem[]>([]);
+  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [loadError, setLoadError] = useState<string | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<string>('Semua');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [selectedItem, setSelectedItem] = useState<SourceCodeItem | null>(null);
@@ -33,25 +36,26 @@ export const SourceCodeHub: React.FC = () => {
   const [activeModalItem, setActiveModalItem] = useState<SourceCodeItem | null>(null);
   const [copiedLink, setCopiedLink] = useState<boolean>(false);
 
+  // Fetch source codes from Supabase only (lib/catalogData) — no hardcoded fallback
   useEffect(() => {
-    fetch('/source_codes_live.json?t=' + Date.now())
-      .then((res) => res.json())
-      .then((data) => {
-        if (data.items && data.items.length > 0) {
-          setItems(data.items);
-          // Sync URL query if item slug present
-          const hash = window.location.hash;
-          if (hash.includes('item=')) {
-            const slugParam = decodeURIComponent(hash.split('item=')[1]?.split('&')[0] || '');
-            const found = data.items.find((it: SourceCodeItem) => it.slug === slugParam);
-            if (found) {
-              setSelectedItem(found);
-              setActiveScreenshotIdx(0);
-            }
+    fetchCatalog<SourceCodeItem>('source_codes').then((items) => {
+      if (items) {
+        setItems(items);
+        // Sync URL query if item slug present
+        const hash = window.location.hash;
+        if (hash.includes('item=')) {
+          const slugParam = decodeURIComponent(hash.split('item=')[1]?.split('&')[0] || '');
+          const found = items.find((it: SourceCodeItem) => it.slug === slugParam);
+          if (found) {
+            setSelectedItem(found);
+            setActiveScreenshotIdx(0);
           }
         }
-      })
-      .catch(() => {});
+      } else {
+        setLoadError('Gagal memuat data source code dari database. Periksa koneksi lalu muat ulang halaman.');
+      }
+      setIsLoading(false);
+    });
   }, []);
 
   const categories = useMemo(() => {
@@ -930,6 +934,14 @@ export const SourceCodeHub: React.FC = () => {
                 </div>
               </div>
             ))}
+          </div>
+        ) : isLoading ? (
+          <div className="text-center py-20 bg-white dark:bg-neutral-900 rounded-2xl border border-neutral-200 dark:border-neutral-800">
+            <p className="text-neutral-500 text-sm">Memuat data source code dari database...</p>
+          </div>
+        ) : items.length === 0 ? (
+          <div className="text-center py-20 bg-white dark:bg-neutral-900 rounded-2xl border border-neutral-200 dark:border-neutral-800">
+            <p className="text-neutral-500 text-sm">{loadError || 'Belum ada data source code di database.'}</p>
           </div>
         ) : (
           <div className="text-center py-20 bg-white dark:bg-neutral-900 rounded-2xl border border-neutral-200 dark:border-neutral-800">

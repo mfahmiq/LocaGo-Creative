@@ -23,8 +23,8 @@ import {
   Trash2 
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
-import { AI_TOOLS_LIST } from '../lib/data';
 import { AIToolItem, LinkListItem, CustomLinkItem } from '../types';
+import { fetchCatalog } from '../lib/catalogData';
 import {
   INITIAL_COMMUNITY_LINKLISTS,
   matchCatalogTool,
@@ -88,7 +88,9 @@ const AIToolLogoBadge: React.FC<{ logoUrl?: string; name: string; size?: 'sm' | 
 export const AIToolsHub: React.FC = () => {
   const { user, isOwner, isLoggedIn, openAuthModal, logout } = useAuth();
 
-  const [tools, setTools] = useState<AIToolItem[]>(AI_TOOLS_LIST);
+  const [tools, setTools] = useState<AIToolItem[]>([]);
+  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [loadError, setLoadError] = useState<string | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<string>('Semua');
   const [selectedPricing, setSelectedPricing] = useState<string>('Semua');
   const [sortBy, setSortBy] = useState<'popular' | 'name'>('popular');
@@ -170,19 +172,13 @@ export const AIToolsHub: React.FC = () => {
     return () => window.removeEventListener('hashchange', handleHash);
   }, []);
 
-  // Fetch live tools
+  // Fetch tools from Supabase only (lib/catalogData) — no hardcoded fallback
   useEffect(() => {
-    fetch('/ai_tools_live.json?t=' + Date.now())
-      .then((res) => {
-        if (!res.ok) throw new Error('Live JSON not found');
-        return res.json();
-      })
-      .then((data) => {
-        if (data.items && data.items.length > 0) {
-          setTools(data.items);
-        }
-      })
-      .catch(() => {});
+    fetchCatalog<AIToolItem>('ai_tools').then((items) => {
+      if (items) setTools(items);
+      else setLoadError('Gagal memuat data AI Tools dari database. Periksa koneksi lalu muat ulang halaman.');
+      setIsLoading(false);
+    });
   }, []);
 
   // Form submission state for new tool submission
@@ -869,6 +865,15 @@ export const AIToolsHub: React.FC = () => {
         </div>
 
         {/* AI Tools Grid ala Futurepedia */}
+        {isLoading ? (
+          <div className="text-center py-20 bg-white dark:bg-neutral-900 rounded-2xl border border-neutral-200 dark:border-neutral-800">
+            <p className="text-neutral-500 text-sm">Memuat data AI Tools dari database...</p>
+          </div>
+        ) : tools.length === 0 ? (
+          <div className="text-center py-20 bg-white dark:bg-neutral-900 rounded-2xl border border-neutral-200 dark:border-neutral-800">
+            <p className="text-neutral-500 text-sm">{loadError || 'Belum ada data AI Tools di database.'}</p>
+          </div>
+        ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredAndSortedTools.map((tool) => {
             const voteVal = upvotes[tool.id] !== undefined ? upvotes[tool.id] : 18;
@@ -992,6 +997,7 @@ export const AIToolsHub: React.FC = () => {
             );
           })}
         </div>
+        )}
 
         {/* MODAL 1: FULL PREVIEW POPUP DETAIL TOOL */}
         {viewingTool && (

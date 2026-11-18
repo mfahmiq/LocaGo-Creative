@@ -11,24 +11,24 @@ import {
   ArrowUpRight 
 } from 'lucide-react';
 import { ARTICLES_LIST, ArticleItem } from '../lib/articlesData';
+import { fetchCatalog } from '../lib/catalogData';
 
 export const ArticlesHub: React.FC = () => {
   const [articles, setArticles] = useState<ArticleItem[]>(ARTICLES_LIST);
+  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [loadError, setLoadError] = useState<string | null>(null);
   const [selectedLang, setSelectedLang] = useState<'all' | 'id' | 'en'>('all');
   const [selectedCategory, setSelectedCategory] = useState<string>('Semua');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [readingArticle, setReadingArticle] = useState<ArticleItem | null>(null);
 
+  // Fetch articles from Supabase only (lib/catalogData) — no hardcoded fallback
   useEffect(() => {
-    fetch('/articles_live.json')
-      .then((res) => {
-        if (!res.ok) throw new Error('Not found');
-        return res.json();
-      })
-      .then((data) => {
-        if (data.items) setArticles(data.items);
-      })
-      .catch((err) => console.error(err));
+    fetchCatalog<ArticleItem>('articles').then((items) => {
+      if (items) setArticles(items);
+      else setLoadError('Gagal memuat artikel dari database. Periksa koneksi lalu muat ulang halaman.');
+      setIsLoading(false);
+    });
   }, []);
 
   const categories = useMemo(() => {
@@ -146,21 +146,29 @@ export const ArticlesHub: React.FC = () => {
         </div>
 
         {/* Articles Grid or Elegant Empty State */}
-        {filteredArticles.length === 0 ? (
+        {isLoading ? (
+          <div className="text-center py-20 px-6 max-w-lg mx-auto bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-neutral-800 rounded-3xl shadow-sm">
+            <p className="text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed">
+              Memuat artikel dari database...
+            </p>
+          </div>
+        ) : filteredArticles.length === 0 ? (
           <div className="text-center py-20 px-6 max-w-lg mx-auto bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-neutral-800 rounded-3xl shadow-sm">
             <div className="w-14 h-14 rounded-2xl bg-emerald-500/10 text-emerald-500 flex items-center justify-center mx-auto mb-4 border border-emerald-500/20">
               <PenTool className="w-6 h-6" />
             </div>
             <h3 className="text-lg font-bold text-neutral-900 dark:text-white mb-2">
-              Artikel Mendalam Sedang Disusun
+              {loadError ? 'Gagal Memuat Artikel' : 'Artikel Mendalam Sedang Disusun'}
             </h3>
             <p className="text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed mb-4">
-              Tim editorial LocaGo Creative sedang meriset dan menyusun panduan lengkap AI Tools 2026 dengan standar komparasi mendalam, screenshot UI asli, dan tutorial video resmi.
+              {loadError || 'Tim editorial LocaGo Creative sedang meriset dan menyusun panduan lengkap AI Tools 2026 dengan standar komparasi mendalam, screenshot UI asli, dan tutorial video resmi.'}
             </p>
+            {!loadError && (
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-400 font-mono text-[11px] font-bold">
               <Rocket className="w-3.5 h-3.5" />
               <span>Segera Rilis Batch Perdana</span>
             </span>
+            )}
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

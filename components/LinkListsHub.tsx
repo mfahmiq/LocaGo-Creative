@@ -22,7 +22,7 @@ import {
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { LinkListItem, AIToolItem } from '../types';
-import { AI_TOOLS_LIST } from '../lib/data';
+import { fetchCatalog } from '../lib/catalogData';
 import {
   INITIAL_COMMUNITY_LINKLISTS,
   matchCatalogTool,
@@ -36,7 +36,7 @@ export const LinkListsHub: React.FC = () => {
   const { user, isOwner, isLoggedIn, openAuthModal } = useAuth();
   
   // Available tools from catalog
-  const [tools, setTools] = useState<AIToolItem[]>(AI_TOOLS_LIST);
+  const [tools, setTools] = useState<AIToolItem[]>([]);
 
   // LinkLists State (Persisted in localStorage and synced)
   const [linkLists, setLinkLists] = useState<LinkListItem[]>(() => {
@@ -80,33 +80,27 @@ export const LinkListsHub: React.FC = () => {
     } catch {}
   };
 
-  // Fetch live tools
+  // Fetch tools + linklists from Supabase only (lib/catalogData)
   useEffect(() => {
-    fetch('/ai_tools_live.json?t=' + Date.now())
-      .then((r) => r.json())
-      .then((d) => {
-        if (d.items && d.items.length > 0) setTools(d.items);
-      })
-      .catch(() => {});
+    fetchCatalog<AIToolItem>('ai_tools').then((items) => {
+      if (items) setTools(items);
+    });
 
-    // Fetch live expanding linklists shard
-    fetch('/linklists_live.json?t=' + Date.now())
-      .then((r) => r.json())
-      .then((d) => {
-        if (d.items && Array.isArray(d.items) && d.items.length > 0) {
-          setLinkLists((prev) => {
-            const liveMap = new Map(d.items.map((it: LinkListItem) => [it.id, it]));
-            // Retain user's custom created lists
-            const personalLists = prev.filter((p) => !liveMap.has(p.id) && !p.isOfficial);
-            const combined = [...d.items, ...personalLists];
-            try {
-              localStorage.setItem('locago_community_linklists', JSON.stringify(combined));
-            } catch {}
-            return combined;
-          });
-        }
-      })
-      .catch(() => {});
+    // Fetch linklists from Supabase only
+    fetchCatalog<LinkListItem>('linklists').then((items) => {
+      if (items) {
+        setLinkLists((prev) => {
+          const liveMap = new Map(items.map((it: LinkListItem) => [it.id, it]));
+          // Retain user's custom created lists
+          const personalLists = prev.filter((p) => !liveMap.has(p.id) && !p.isOfficial);
+          const combined = [...items, ...personalLists];
+          try {
+            localStorage.setItem('locago_community_linklists', JSON.stringify(combined));
+          } catch {}
+          return combined;
+        });
+      }
+    });
   }, []);
 
   // Filtered LinkLists
