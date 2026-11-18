@@ -1,7 +1,66 @@
 {
-  "updatedAt": "18 Nov 2026, 12:56 WIB",
-  "total": 2,
+  "updatedAt": "18 Nov 2026, 13:56 WIB",
+  "total": 3,
   "items": [
+    {
+      "id": "sc-57",
+      "title": "Sistem Manajemen Gym & Fitness - Gym Management System",
+      "slug": "gym-management-system",
+      "category": "Layanan & Jasa",
+      "techStack": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "Bootstrap",
+        "React"
+      ],
+      "description": "Gym Management System using Laravel, ReactJS and MySQL.\n\nProyek riil open-source asli dari GitHub (https://github.com/iamsatheeshsn/Gym-Management-System). Dilengkapi file database lengkap (database/patches/2026_07_24_membership_lifecycle.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Manajemen Gym & Fitness - Gym Management System dengan database database/patches/2026_07_24_membership_lifecycle.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, Bootstrap, React dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/gym-management-system/screenshot_1.webp",
+        "/screenshots/gym-management-system/screenshot_2.webp",
+        "/screenshots/gym-management-system/screenshot_3.webp",
+        "/screenshots/gym-management-system/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Administrator",
+          "username": "admin / admin@gmail.com",
+          "password": "admin / admin123"
+        }
+      ],
+      "updatedAt": "18 November 2026",
+      "releaseDate": "18 November 2026",
+      "recentFastDownloads": 60,
+      "thumbnail": "/screenshots/gym-management-system/screenshot_1.webp",
+      "downloadsCount": 1095,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "40.3 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `gym-management-system.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `database/patches/2026_07_24_membership_lifecycle.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/gym-management-system` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (iamsatheeshsn/Gym-Management-System) dengan source code lengkap",
+        "Disertai database asli (database/patches/2026_07_24_membership_lifecycle.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=gym-management-system&step=1&max=8",
+      "downloadUrlFast": "/downloads/gym-management-system.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/iamsatheeshsn/Gym-Management-System",
+      "stars": 0
+    },
     {
       "id": "sc-56",
       "title": "Sistem Point of Sale Modern - Smart Times Pos",
