@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-18T08:48:39.975969+00:00",
-  "total": 26,
+  "updatedAt": "2026-11-18T11:56:00.587725",
+  "total": 30,
   "items": [
     {
       "id": "list-creator-tools",
@@ -722,6 +722,258 @@
         {
           "id": "cl-locago-main",
           "title": "Katalog Lengkap 329+ Tools AI LocaGo Creative",
+          "url": "https://www.locagocreative.my.id/#ai-tools",
+          "note": "Akses gratis seluruh kurasi tools produktivitas & developer."
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "18 Nov 2026",
+      "views": 1500
+    },
+    {
+      "id": "list-repo-20261118-b2-s1",
+      "title": "6 Repo AI Agent Gratis yang Lagi Viral",
+      "notes": "6 repo GitHub trending (2026-11-18, batch 2, slot 1) — gratis & open-source.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [
+        "ai-obra_superpowers",
+        "ai-affaan_m_ecc",
+        "ai-sveltejs_svelte",
+        "ai-mvanhorn_last30days_skill",
+        "ai-jingyaogong_minimind",
+        "ai-alibaba_open_code_review"
+      ],
+      "customLinks": [
+        {
+          "id": "cl-obra_superpowers",
+          "title": "⭐ superpowers — An agentic skills framework & software development methodology that wo",
+          "url": "https://github.com/obra/superpowers",
+          "note": "Repo GitHub open-source (AI Agents & LLM • Shell). Cek lisensi sebelum dipakai komersial."
+        },
+        {
+          "id": "cl-affaan_m_ecc",
+          "title": "⭐ ECC — The agent harness performance optimization system.",
+          "url": "https://github.com/affaan-m/ECC",
+          "note": "Repo GitHub open-source (AI Agents & LLM • JavaScript). Cek lisensi sebelum dipakai komersial."
+        },
+        {
+          "id": "cl-sveltejs_svelte",
+          "title": "⭐ svelte — web development for the rest of us.",
+          "url": "https://github.com/sveltejs/svelte",
+          "note": "Repo GitHub open-source (Dev Tools & Automation • JavaScript). Cek lisensi sebelum dipakai komersial."
+        },
+        {
+          "id": "cl-mvanhorn_last30days_skill",
+          "title": "⭐ last30days-skill — AI agent skill that researches any topic across Reddit, X, YouTube, HN",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "note": "Repo GitHub open-source (AI Agents & LLM • Python). Cek lisensi sebelum dipakai komersial."
+        },
+        {
+          "id": "cl-jingyaogong_minimind",
+          "title": "⭐ minimind — 🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+          "url": "https://github.com/jingyaogong/minimind",
+          "note": "Repo GitHub open-source (AI Agents & LLM • Python). Cek lisensi sebelum dipakai komersial."
+        },
+        {
+          "id": "cl-alibaba_open_code_review",
+          "title": "⭐ open-code-review — Secure, fast, efficient, battle-tested at Alibaba's scale.",
+          "url": "https://github.com/alibaba/open-code-review",
+          "note": "Repo GitHub open-source (AI Agents & LLM • Go). Cek lisensi sebelum dipakai komersial."
+        },
+        {
+          "id": "cl-locago-main",
+          "title": "🌐 Katalog Lengkap Tools AI LocaGo Creative",
+          "url": "https://www.locagocreative.my.id/#ai-tools",
+          "note": "Akses gratis seluruh kurasi tools produktivitas & developer."
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "18 Nov 2026",
+      "views": 1500
+    },
+    {
+      "id": "list-repo-20261118-b2-s2",
+      "title": "6 Repo AI Agent Gratis: univer & 5 Lainnya",
+      "notes": "6 repo GitHub trending (2026-11-18, batch 2, slot 2) — gratis & open-source.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [
+        "ai-dream_num_univer",
+        "ai-ag_ui_protocol_ag_ui",
+        "ai-google_labs_code_stitch_skills",
+        "ai-getarcaneapp_arcane",
+        "ai-tencent_loopforge",
+        "ai-constrainttureside_rainbow_cursor"
+      ],
+      "customLinks": [
+        {
+          "id": "cl-dream_num_univer",
+          "title": "⭐ univer — Build your own AI office with Univer Office SDK.",
+          "url": "https://github.com/dream-num/univer",
+          "note": "Repo GitHub open-source (AI Agents & LLM • TypeScript). Cek lisensi sebelum dipakai komersial."
+        },
+        {
+          "id": "cl-ag_ui_protocol_ag_ui",
+          "title": "⭐ ag-ui — AG-UI: the Agent-User Interaction Protocol.",
+          "url": "https://github.com/ag-ui-protocol/ag-ui",
+          "note": "Repo GitHub open-source (AI Agents & LLM • TypeScript). Cek lisensi sebelum dipakai komersial."
+        },
+        {
+          "id": "cl-google_labs_code_stitch_skills",
+          "title": "⭐ stitch-skills — A library of Agent Skills designed to work with the Stitch MCP server.",
+          "url": "https://github.com/google-labs-code/stitch-skills",
+          "note": "Repo GitHub open-source (AI Agents & LLM • TypeScript). Cek lisensi sebelum dipakai komersial."
+        },
+        {
+          "id": "cl-getarcaneapp_arcane",
+          "title": "⭐ arcane — Modern Docker Management, Designed for Everyone.",
+          "url": "https://github.com/getarcaneapp/arcane",
+          "note": "Repo GitHub open-source (Dev Tools & Automation • Go). Cek lisensi sebelum dipakai komersial."
+        },
+        {
+          "id": "cl-tencent_loopforge",
+          "title": "⭐ LoopForge — Self-hosted workflows for coding-agent delivery.",
+          "url": "https://github.com/Tencent/LoopForge",
+          "note": "Repo GitHub open-source (AI Agents & LLM • Go). Cek lisensi sebelum dipakai komersial."
+        },
+        {
+          "id": "cl-constrainttureside_rainbow_cursor",
+          "title": "⭐ rainbow-cursor — Just a small tool I made for myself to change mouse cursors.",
+          "url": "https://github.com/Constrainttureside/rainbow-cursor",
+          "note": "Repo GitHub open-source (Developer Tools • Python). Cek lisensi sebelum dipakai komersial."
+        },
+        {
+          "id": "cl-locago-main",
+          "title": "🌐 Katalog Lengkap Tools AI LocaGo Creative",
+          "url": "https://www.locagocreative.my.id/#ai-tools",
+          "note": "Akses gratis seluruh kurasi tools produktivitas & developer."
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "18 Nov 2026",
+      "views": 1500
+    },
+    {
+      "id": "list-repo-20261118-b2-s3",
+      "title": "6 Repo AI Agent Gratis: ixl-browser-automation & 5 Lainnya",
+      "notes": "6 repo GitHub trending (2026-11-18, batch 2, slot 3) — gratis & open-source.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [
+        "ai-plasterflashbegin_ixl_browser_automation",
+        "ai-zhulinsen_daily_stock_analysis",
+        "ai-vercel_labs_agent_browser",
+        "ai-czzzzzzj_mdldm_maitian",
+        "ai-l0ng_ai_openidea",
+        "ai-cursor_plugins"
+      ],
+      "customLinks": [
+        {
+          "id": "cl-plasterflashbegin_ixl_browser_automation",
+          "title": "⭐ ixl-browser-automation — IXL Browser Automation is an automated script utility designed to inte",
+          "url": "https://github.com/PlasterFlashBegin/ixl-browser-automation",
+          "note": "Repo GitHub open-source (Developer Tools • TypeScript). Cek lisensi sebelum dipakai komersial."
+        },
+        {
+          "id": "cl-zhulinsen_daily_stock_analysis",
+          "title": "⭐ daily_stock_analysis — Repo AI Agent open-source yang lagi viral di GitHub.",
+          "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+          "note": "Repo GitHub open-source (AI Agents & LLM • Python). Cek lisensi sebelum dipakai komersial."
+        },
+        {
+          "id": "cl-vercel_labs_agent_browser",
+          "title": "⭐ agent-browser — Browser automation CLI for AI agents.",
+          "url": "https://github.com/vercel-labs/agent-browser",
+          "note": "Repo GitHub open-source (AI Agents & LLM • Rust). Cek lisensi sebelum dipakai komersial."
+        },
+        {
+          "id": "cl-czzzzzzj_mdldm_maitian",
+          "title": "⭐ mdldm-maitian — Repo AI Agent open-source yang lagi viral di GitHub.",
+          "url": "https://github.com/CzzzzzzJ/mdldm-maitian",
+          "note": "Repo GitHub open-source (Developer Tools • JavaScript). Cek lisensi sebelum dipakai komersial."
+        },
+        {
+          "id": "cl-l0ng_ai_openidea",
+          "title": "⭐ openidea — The IDE you know, rebuilt in Rust.",
+          "url": "https://github.com/l0ng-ai/openidea",
+          "note": "Repo GitHub open-source (DevOps & CLI • TypeScript). Cek lisensi sebelum dipakai komersial."
+        },
+        {
+          "id": "cl-cursor_plugins",
+          "title": "⭐ plugins — Cursor plugin specification and official plugins.",
+          "url": "https://github.com/cursor/plugins",
+          "note": "Repo GitHub open-source (Productivity & Media • TypeScript). Cek lisensi sebelum dipakai komersial."
+        },
+        {
+          "id": "cl-locago-main",
+          "title": "🌐 Katalog Lengkap Tools AI LocaGo Creative",
+          "url": "https://www.locagocreative.my.id/#ai-tools",
+          "note": "Akses gratis seluruh kurasi tools produktivitas & developer."
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "18 Nov 2026",
+      "views": 1500
+    },
+    {
+      "id": "list-repo-20261118-b2-s4",
+      "title": "6 Repo AI Agent Gratis: abyssal-garden & 5 Lainnya",
+      "notes": "6 repo GitHub trending (2026-11-18, batch 2, slot 4) — gratis & open-source.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [
+        "ai-noniv_abyssal_garden",
+        "ai-backnotprop_plannotator",
+        "ai-elementalsouls_claude_bughunter",
+        "ai-google_research_paper_orchestra",
+        "ai-anthropics_skills",
+        "ai-addyosmani_agent_skills"
+      ],
+      "customLinks": [
+        {
+          "id": "cl-noniv_abyssal_garden",
+          "title": "⭐ abyssal-garden — A dreamy underwater world you can swim through in your browser: swayin",
+          "url": "https://github.com/Noniv/abyssal-garden",
+          "note": "Repo GitHub open-source (Developer Tools • JavaScript). Cek lisensi sebelum dipakai komersial."
+        },
+        {
+          "id": "cl-backnotprop_plannotator",
+          "title": "⭐ plannotator — The workspace to stay in the loop and on top of agents - shape, decide",
+          "url": "https://github.com/backnotprop/plannotator",
+          "note": "Repo GitHub open-source (AI Agents & LLM • TypeScript). Cek lisensi sebelum dipakai komersial."
+        },
+        {
+          "id": "cl-elementalsouls_claude_bughunter",
+          "title": "⭐ Claude-BugHunter — A Claude Code skill bundle for bug hunting and external red-team work ",
+          "url": "https://github.com/elementalsouls/Claude-BugHunter",
+          "note": "Repo GitHub open-source (AI Agents & LLM • Python). Cek lisensi sebelum dipakai komersial."
+        },
+        {
+          "id": "cl-google_research_paper_orchestra",
+          "title": "⭐ paper-orchestra — PaperOrchestra is a multi-agent framework for automated AI research pa",
+          "url": "https://github.com/google-research/paper-orchestra",
+          "note": "Repo GitHub open-source (AI Agents & LLM • Python). Cek lisensi sebelum dipakai komersial."
+        },
+        {
+          "id": "cl-anthropics_skills",
+          "title": "⭐ skills — Public repository for Agent Skills.",
+          "url": "https://github.com/anthropics/skills",
+          "note": "Repo GitHub open-source (AI Agents & LLM • Python). Cek lisensi sebelum dipakai komersial."
+        },
+        {
+          "id": "cl-addyosmani_agent_skills",
+          "title": "⭐ agent-skills — Production-grade engineering skills for AI coding agents.",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "note": "Repo GitHub open-source (AI Agents & LLM • JavaScript). Cek lisensi sebelum dipakai komersial."
+        },
+        {
+          "id": "cl-locago-main",
+          "title": "🌐 Katalog Lengkap Tools AI LocaGo Creative",
           "url": "https://www.locagocreative.my.id/#ai-tools",
           "note": "Akses gratis seluruh kurasi tools produktivitas & developer."
         }
