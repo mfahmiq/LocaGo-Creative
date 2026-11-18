@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-17T23:59:24.764612",
-  "total": 23,
+  "updatedAt": "2026-11-18T07:17:39.156971+00:00",
+  "total": 25,
   "items": [
     {
       "id": "list-creator-tools",
@@ -652,6 +652,58 @@
       "authorName": "Mas Fahmi (LocaGo Creative)",
       "authorEmail": "fahmi@locagocreative.my.id",
       "createdAt": "17 Nov 2026",
+      "views": 1500
+    },
+    {
+      "id": "list-leadmasters-radar-maps",
+      "title": "LeadMasters Radar Maps: 500 Owner Kafe Se-Kota Tanpa Iklan",
+      "notes": "6 modul LeadMasters di video Reel 6 (18 Nov 2026): Radar Peta Bisnis — tarik ratusan bisnis lokal dari Google Maps; Filter Nomor Aktif — buang nomor WA mati otomatis; Audit Situs Instan — deteksi bisnis tanpa website & skor SEO; Arsip Lokal Aman — data tersimpan di laptop sendiri tanpa cloud; Template Pitch Lokal — pesan siap kirim ke owner; LeadMasters Engine — cuma Rp149.000 sekali bayar, lifetime, tanpa langganan.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [],
+      "customLinks": [
+        {
+          "id": "cl-leadmasters-radar-maps",
+          "title": "LeadMasters — Radar Maps & Prospek Lokal",
+          "url": "https://leadmasters.my.id/",
+          "note": "Cuma Rp149.000 sekali bayar, lifetime — tanpa langganan. Scrape ribuan kontak WA pemilik usaha dari Google Maps, audit website & SEO, kirim penawaran otomatis."
+        },
+        {
+          "id": "cl-locago-main",
+          "title": "Katalog Lengkap 329+ Tools AI LocaGo Creative",
+          "url": "https://www.locagocreative.my.id/#ai-tools",
+          "note": "Akses gratis seluruh kurasi tools produktivitas & developer."
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "18 Nov 2026",
+      "views": 1500
+    },
+    {
+      "id": "list-leadmasters-night-worker",
+      "title": "LeadMasters Night Worker: Klien Masuk Sambil Tidur",
+      "notes": "6 modul LeadMasters di video Reel 7 (18 Nov 2026): Pemindai Kota Otomatis — kumpulin bisnis lokal semalaman; Saringan WA Pintar — nomor aktif disimpan, mati dibuang; Pemetaan Celah Digital — tahu siapa paling butuh jasa; Brankas Data Lokal — aman tanpa langganan cloud; Draf Penawaran Otomatis — penawaran tersusun sendiri via WA & email; Kunci Sekali Bayar — bayar sekali, jalan selamanya. Cuma Rp149.000 sekali bayar, lifetime, tanpa langganan.",
+      "videoUrl": "https://www.instagram.com/locagocreative",
+      "toolIds": [],
+      "customLinks": [
+        {
+          "id": "cl-leadmasters-night-worker",
+          "title": "LeadMasters — Night Worker & Klien Otomatis",
+          "url": "https://leadmasters.my.id/",
+          "note": "Cuma Rp149.000 sekali bayar, lifetime — tanpa langganan. Sistem kerja semalaman: sapu Google Maps, saring WA aktif, kirim penawaran otomatis sampai closing."
+        },
+        {
+          "id": "cl-locago-main",
+          "title": "Katalog Lengkap 329+ Tools AI LocaGo Creative",
+          "url": "https://www.locagocreative.my.id/#ai-tools",
+          "note": "Akses gratis seluruh kurasi tools produktivitas & developer."
+        }
+      ],
+      "isOfficial": true,
+      "authorName": "Mas Fahmi (LocaGo Creative)",
+      "authorEmail": "fahmi@locagocreative.my.id",
+      "createdAt": "18 Nov 2026",
       "views": 1500
     }
   ]
