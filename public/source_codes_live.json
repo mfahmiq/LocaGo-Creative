@@ -1,65 +1,7 @@
 {
   "updatedAt": "18 Nov 2026, 17:56 WIB",
-  "total": 4,
+  "total": 3,
   "items": [
-    {
-      "id": "sc-60",
-      "title": "Sistem Informasi Perpustakaan - Librani",
-      "slug": "librani",
-      "category": "Pendidikan & Akademik",
-      "techStack": [
-        "PHP Native",
-        "PHP",
-        "MySQL"
-      ],
-      "description": "Aplikasi web perpustakaan umum/daerah untuk mengelola koleksi buku per eksemplar (lengkap dengan foto sampul), keanggotaan, peminjaman, pengembalian, denda, reservasi, dan laporan. Dibangun dengan PHP native + MySQL tanpa framework.\n\nProyek riil open-source asli dari GitHub (https://github.com/davsantoso/librani). Dilengkapi file database lengkap (database/librani.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Sistem Informasi Perpustakaan - Librani dengan database database/librani.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/librani/screenshot_1.webp",
-        "/screenshots/librani/screenshot_2.webp",
-        "/screenshots/librani/screenshot_3.webp",
-        "/screenshots/librani/screenshot_4.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
-        }
-      ],
-      "updatedAt": "18 November 2026",
-      "releaseDate": "18 November 2026",
-      "recentFastDownloads": 69,
-      "thumbnail": "/screenshots/librani/screenshot_1.webp",
-      "downloadsCount": 451,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "471 KB",
-      "tutorialSteps": [
-        "Ekstrak berkas `librani.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `database/librani.sql` ke database phpMyAdmin.",
-        "WAJIB: jalankan `database/seed.php` di browser — langkah ini yang membuat akun login + data contoh.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/librani` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (davsantoso/librani) dengan source code lengkap",
-        "Disertai database asli (database/librani.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=librani&step=1&max=8",
-      "downloadUrlFast": "/downloads/librani.zip",
-      "driveUrl": "",
-      "githubRepo": "https://github.com/davsantoso/librani",
-      "stars": 0
-    },
     {
       "id": "sc-59",
       "title": "Pharmacy Store Management System - Medis",
