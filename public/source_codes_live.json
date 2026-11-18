@@ -13,10 +13,10 @@
         "MySQL",
         "Bootstrap"
       ],
-      "description": "Modern web application combining E-commerce Platform and Point of Sale (POS) System in one integrated solution. Built with Laravel 11, featuring member loyalty programs, real-time customer displays, and comprehensive inventory management.\n\nProyek riil open-source asli dari GitHub (https://github.com/LinggaKeandre/Aplikasi-E-commerce-Kasir). Dilengkapi file database lengkap (kasirv2 (3).sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "description": "Modern web application combining E-commerce Platform and Point of Sale (POS) System in one integrated solution. Built with Laravel 12, featuring member loyalty programs, real-time customer displays, and comprehensive inventory management.\n\nProyek riil open-source asli dari GitHub (https://github.com/LinggaKeandre/Aplikasi-E-commerce-Kasir). Dilengkapi file database lengkap (kasirv2 (3).sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
       "shortDesc": "Proyek riil Warehouse & Inventory Management System - Aplikasi E Commerce Kasir dengan database kasirv2 (3).sql, data contoh bawaan, dan tutorial instalasi.",
       "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 8.2+ (Laravel 12), MySQL / MariaDB, Composer, Node.js 18+ (untuk build aset Vite).",
       "screenshots": [
         "/screenshots/aplikasi-e-commerce-kasir/screenshot_1.webp",
         "/screenshots/aplikasi-e-commerce-kasir/screenshot_2.webp",
@@ -26,8 +26,18 @@
       "defaultCredentials": [
         {
           "role": "Administrator",
-          "username": "admin / admin@gmail.com",
-          "password": "admin / admin123"
+          "username": "admin@gmail.com",
+          "password": "admin123"
+        },
+        {
+          "role": "Kasir",
+          "username": "kasir@gmail.com",
+          "password": "kasir123"
+        },
+        {
+          "role": "Member",
+          "username": "member@gmail.com",
+          "password": "member123"
         }
       ],
       "updatedAt": "18 November 2026",
@@ -43,9 +53,9 @@
       "fileSize": "3.3 MB",
       "tutorialSteps": [
         "Ekstrak berkas `aplikasi-e-commerce-kasir.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `kasirv2 (3).sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/aplikasi-e-commerce-kasir` dan login dengan akun default."
+        "Import berkas SQL `kasirv2 (3).sql` ke database phpMyAdmin (atau jalankan `composer install`, `npm install && npm run build`, lalu `php artisan migrate --seed`).",
+        "Sesuaikan konfigurasi database di file `.env` (DB_DATABASE, DB_USERNAME, DB_PASSWORD).",
+        "Buka browser di `http://localhost/aplikasi-e-commerce-kasir` dan login dengan akun default (Admin: admin@gmail.com / admin123)."
       ],
       "keyFeatures": [
         "Proyek riil dari GitHub (LinggaKeandre/Aplikasi-E-commerce-Kasir) dengan source code lengkap",
@@ -56,7 +66,7 @@
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=aplikasi-e-commerce-kasir&step=1&max=8",
       "downloadUrlFast": "/downloads/aplikasi-e-commerce-kasir.zip",
-      "driveUrl": "",
+      "driveUrl": "https://drive.google.com/file/d/16C_ZEdaGCasU-xAaBYsuW7eWlukpjtcC/view?usp=drivesdk",
       "githubRepo": "https://github.com/LinggaKeandre/Aplikasi-E-commerce-Kasir",
       "stars": 0
     },
