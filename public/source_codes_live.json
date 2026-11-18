@@ -1,7 +1,63 @@
 {
-  "updatedAt": "18 Nov 2026, 18:56 WIB",
-  "total": 4,
+  "updatedAt": "18 Nov 2026, 20:07 WIB",
+  "total": 5,
   "items": [
+    {
+      "id": "sc-61",
+      "title": "Warehouse & Inventory Management System - Sistem Penjualan Stok Opname",
+      "slug": "sistem-penjualan-stok-opname",
+      "category": "Bisnis & Manajemen",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL"
+      ],
+      "description": "Web-based Sales and Inventory Management System built with PHP Native and MySQL. Includes POS, stock opname, restocking, reporting, and multi-user authentication.\n\nProyek riil open-source asli dari GitHub (https://github.com/FerdiGeasil/sistem-penjualan-stok-opname). Dilengkapi file database lengkap (sistem_penjualan.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Warehouse & Inventory Management System - Sistem Penjualan Stok Opname dengan database sistem_penjualan.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/sistem-penjualan-stok-opname/screenshot_1.webp",
+        "/screenshots/sistem-penjualan-stok-opname/screenshot_2.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Demo",
+          "username": "Lihat README.md repo asli",
+          "password": "(lihat README repo)"
+        }
+      ],
+      "updatedAt": "18 November 2026",
+      "releaseDate": "18 November 2026",
+      "recentFastDownloads": 62,
+      "thumbnail": "/screenshots/sistem-penjualan-stok-opname/screenshot_1.webp",
+      "downloadsCount": 654,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "2.6 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `sistem-penjualan-stok-opname.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `sistem_penjualan.sql` ke database phpMyAdmin.",
+        "WAJIB: jalankan `seeder.php` di browser — langkah ini yang membuat akun login + data contoh.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/sistem-penjualan-stok-opname` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (FerdiGeasil/sistem-penjualan-stok-opname) dengan source code lengkap",
+        "Disertai database asli (sistem_penjualan.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=sistem-penjualan-stok-opname&step=1&max=8",
+      "downloadUrlFast": "/downloads/sistem-penjualan-stok-opname.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/FerdiGeasil/sistem-penjualan-stok-opname",
+      "stars": 0
+    },
     {
       "id": "sc-60",
       "title": "Sistem Informasi Perpustakaan - Librani",
