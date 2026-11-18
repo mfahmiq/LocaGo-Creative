@@ -1,64 +1,7 @@
 {
   "updatedAt": "19 Nov 2026, 02:59 WIB",
-  "total": 8,
+  "total": 7,
   "items": [
-    {
-      "id": "sc-64",
-      "title": "Dashboard Admin Modern Laravel + Tailwind - Company Cms Laravel",
-      "slug": "company-cms-laravel",
-      "category": "Bisnis & Manajemen",
-      "techStack": [
-        "Laravel",
-        "PHP",
-        "MySQL",
-        "Bootstrap"
-      ],
-      "description": "A dynamic company website and content management system built with Laravel 13, PHP, MySQL, Blade, Tailwind CSS, and Alpine.js. The CMS allows administrators to manage company information, services, products, projects, team members, blog posts, contact enquiries, media, menus, users, roles, and website settings through a centralized admin dashboard.\n\nProyek riil open-source asli dari GitHub (https://github.com/omkardwork603/company-cms-laravel). Dilengkapi file database lengkap (sql/company-cms (2).sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Dashboard Admin Modern Laravel + Tailwind - Company Cms Laravel dengan database sql/company-cms (2).sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/company-cms-laravel/screenshot_1.webp",
-        "/screenshots/company-cms-laravel/screenshot_2.webp",
-        "/screenshots/company-cms-laravel/screenshot_3.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
-        }
-      ],
-      "updatedAt": "19 November 2026",
-      "releaseDate": "19 November 2026",
-      "recentFastDownloads": 84,
-      "thumbnail": "/screenshots/company-cms-laravel/screenshot_1.webp",
-      "downloadsCount": 867,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "13.0 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `company-cms-laravel.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `sql/company-cms (2).sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/company-cms-laravel` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (omkardwork603/company-cms-laravel) dengan source code lengkap",
-        "Disertai database asli (sql/company-cms (2).sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=company-cms-laravel&step=1&max=8",
-      "downloadUrlFast": "/downloads/company-cms-laravel.zip",
-      "driveUrl": "",
-      "githubRepo": "https://github.com/omkardwork603/company-cms-laravel",
-      "stars": 0
-    },
     {
       "id": "sc-63",
       "title": "Sistem Informasi Inventaris & Gudang - Inventaris Lab20 Update",
