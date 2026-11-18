@@ -24,9 +24,14 @@
       ],
       "defaultCredentials": [
         {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
+          "role": "Admin (Demo)",
+          "username": "demoadmin",
+          "password": "demoadmin"
+        },
+        {
+          "role": "Sekretaris",
+          "username": "sekretaris",
+          "password": "sekretaris123"
         }
       ],
       "updatedAt": "19 November 2026",
@@ -55,7 +60,7 @@
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=inventaris-lab20-update&step=1&max=8",
       "downloadUrlFast": "/downloads/inventaris-lab20-update.zip",
-      "driveUrl": "",
+      "driveUrl": "https://drive.google.com/file/d/1LsTElEa8FOejwWA6pDVCo07ggbwBpwSI/view?usp=drivesdk",
       "githubRepo": "https://github.com/vianhubgit/inventaris-lab2.0-update",
       "stars": 0
     },
