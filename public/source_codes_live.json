@@ -1,7 +1,64 @@
 {
-  "updatedAt": "20 Nov 2026, 03:59 WIB",
-  "total": 10,
+  "updatedAt": "20 Nov 2026, 04:56 WIB",
+  "total": 11,
   "items": [
+    {
+      "id": "sc-67",
+      "title": "Sistem Pakar Diagnosa - Project Skripsi",
+      "slug": "project-skripsi",
+      "category": "Kecerdasan Buatan & SPK",
+      "techStack": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Implementasi Sistem Pakar Rekomendasi Obat Berdasarkan Penyakit Flu Singapura Menggunakan Metode Naive Bayes \n\nProyek riil open-source asli dari GitHub (https://github.com/raydiphan/Project-SKRIPSI). Dilengkapi file database lengkap (database/db_flu_singapura (FIX).sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Pakar Diagnosa - Project Skripsi dengan database database/db_flu_singapura (FIX).sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/project-skripsi/screenshot_1.webp",
+        "/screenshots/project-skripsi/screenshot_2.webp",
+        "/screenshots/project-skripsi/screenshot_3.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Demo",
+          "username": "Lihat README.md repo asli",
+          "password": "(lihat README repo)"
+        }
+      ],
+      "updatedAt": "20 November 2026",
+      "releaseDate": "20 November 2026",
+      "recentFastDownloads": 92,
+      "thumbnail": "/screenshots/project-skripsi/screenshot_1.webp",
+      "downloadsCount": 533,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "5.9 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `project-skripsi.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `database/db_flu_singapura (FIX).sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/project-skripsi` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (raydiphan/Project-SKRIPSI) dengan source code lengkap",
+        "Disertai database asli (database/db_flu_singapura (FIX).sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=project-skripsi&step=1&max=8",
+      "downloadUrlFast": "/downloads/project-skripsi.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/raydiphan/Project-SKRIPSI",
+      "stars": 0
+    },
     {
       "id": "sc-66",
       "title": "Sistem Presensi Karyawan & Absensi Online - Planthr Lite   Manufacturing Attendance Overtime Management System",
