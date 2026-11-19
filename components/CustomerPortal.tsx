@@ -31,11 +31,18 @@ function BarChart({ daily }: { daily: { date: string; clicks: number }[] }) {
 }
 
 export const CustomerPortal: React.FC<{ token: string }> = ({ token }) => {
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState('');
+  // FIX bug blank saat hash navigation: sebelumnya error token-tidak-valid
+  // baru dihitung di dalam useEffect, jadi first paint SELALU spinner
+  // "Memuat portal pelanggan..." — di screenshot terlihat seperti halaman
+  // putih kosong. Sekarang status awal dihitung SINKRON dari token, jadi
+  // first paint untuk token tidak valid langsung menampilkan pesan error.
+  const tokenValid = isUuidLike(token);
+  const [loading, setLoading] = useState(tokenValid);
+  const [error, setError] = useState(tokenValid ? '' : 'Link portal tidak valid.');
   const [sub, setSub] = useState<PortalSubmission | null>(null);
   const [stats, setStats] = useState<PortalStats | null>(null);
   const [copied, setCopied] = useState(false);
+  const [attempt, setAttempt] = useState(0);
 
   useEffect(() => {
     if (!isUuidLike(token)) {
@@ -43,15 +50,37 @@ export const CustomerPortal: React.FC<{ token: string }> = ({ token }) => {
       setLoading(false);
       return;
     }
+    let cancelled = false;
+    setLoading(true);
+    setError('');
+    // Timeout: fetch /api/portal yang tertahan (cold-start Vercel) tidak
+    // boleh membiarkan halaman di spinner selamanya.
+    const timeout = window.setTimeout(() => {
+      if (!cancelled) {
+        setError('Portal tidak bisa dimuat (koneksi lambat). Coba lagi.');
+        setLoading(false);
+      }
+    }, 12000);
     fetchPortal(token).then(({ submission, stats: st, error: err }) => {
+      if (cancelled) return;
+      window.clearTimeout(timeout);
       if (err || !submission) setError(err || 'Portal tidak ditemukan. Periksa kembali link yang kamu simpan saat submit.');
       else {
         setSub(submission);
         setStats(st);
       }
       setLoading(false);
+    }).catch(() => {
+      if (cancelled) return;
+      window.clearTimeout(timeout);
+      setError('Portal tidak bisa dimuat (koneksi bermasalah). Coba lagi.');
+      setLoading(false);
     });
-  }, [token]);
+    return () => {
+      cancelled = true;
+      window.clearTimeout(timeout);
+    };
+  }, [token, attempt]);
 
   if (loading) {
     return (
@@ -67,7 +96,12 @@ export const CustomerPortal: React.FC<{ token: string }> = ({ token }) => {
         <XCircle className="w-10 h-10 text-red-400 mx-auto mb-3" />
         <h1 className="text-2xl font-bold mb-2">Portal Tidak Ditemukan</h1>
         <p className="text-sm text-neutral-500">{error}</p>
-        <a href="/#ai-tools" className="inline-block mt-6 px-5 py-2.5 rounded-xl bg-purple-600 text-white text-xs font-mono font-bold">Kembali ke AI Tools</a>
+        <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
+          {tokenValid && (
+            <button onClick={() => setAttempt((a) => a + 1)} className="px-5 py-2.5 rounded-xl bg-neutral-100 dark:bg-neutral-800 text-xs font-mono font-bold cursor-pointer">Coba Lagi</button>
+          )}
+          <a href="/#ai-tools" className="inline-block px-5 py-2.5 rounded-xl bg-purple-600 text-white text-xs font-mono font-bold">Kembali ke AI Tools</a>
+        </div>
       </section>
     );
   }

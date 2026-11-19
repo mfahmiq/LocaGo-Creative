@@ -119,7 +119,16 @@
 </head>
 
 <body class="bg-slate-50 text-slate-900">
-    <div id="root"></div>
+    <!-- Shell loading statis: tampil SEBELUM bundle React dimuat, jadi
+         first paint tidak pernah halaman putih kosong. React menggantinya
+         saat mount. Penting untuk navigasi langsung ke #portal/<token>. -->
+    <div id="root">
+        <div style="min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;font-family:system-ui,sans-serif;color:#64748b;background:#f8fafc">
+            <img src="/logo.png" alt="LocaGo Creative" style="width:48px;height:48px;object-fit:contain" />
+            <p style="font-weight:700;color:#0f172a;margin:0">LocaGo Creative</p>
+            <p style="font-size:13px;margin:0">Memuat halaman&hellip;</p>
+        </div>
+    </div>
     <script type="module" src="/index.tsx"></script>
 </body>
 

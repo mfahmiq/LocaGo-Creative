@@ -37,19 +37,30 @@ const getInitialTab = (): NavigationTab => {
   return 'agency';
 };
 
-// Token portal pelanggan dari hash #portal/<uuid>
+// Token portal pelanggan dari hash #portal/<token>.
+// Sengaja mengembalikan segmen mentah (bukan hanya UUID): CustomerPortal
+// sendiri yang memutuskan valid/tidaknya dan menampilkan pesan yang tepat.
+// FIX bug blank saat hash navigation: token sebelumnya hanya dibaca saat
+// render (getPortalToken() inline) dan tidak tersimpan di state — saat
+// hash berubah tanpa reload dan activeTab tetap 'portal', React tidak
+// me-render ulang tokennya. Sekarang token disimpan di state dan
+// disinkronkan di SETIAP hashchange.
 const getPortalToken = (): string => {
   if (typeof window === 'undefined') return '';
-  const m = window.location.hash.match(/#portal\/([0-9a-f-]{36})/i);
-  return m ? m[1] : '';
+  const m = window.location.hash.match(/#portal\/([^/?#&]+)/);
+  return m ? decodeURIComponent(m[1]) : '';
 };
 
 const AppContent: React.FC = () => {
   const [activeTab, setActiveTab] = useState<NavigationTab>(getInitialTab);
+  const [portalToken, setPortalToken] = useState<string>(() => getPortalToken());
 
   useEffect(() => {
     const handleHashChange = () => {
       const currentHash = window.location.hash.replace(/^#+/, '').split('?')[0].split('#')[0].split('&')[0];
+      // Token selalu disinkronkan, walau tab tidak berubah (portal -> portal
+      // dengan token lain): tanpanya CustomerPortal memakai token basi.
+      setPortalToken(getPortalToken());
       if (currentHash === 'source-code' || currentHash === 'github-trending' || currentHash === 'ai-tools' || currentHash === 'linklists' || currentHash === 'articles') {
         setActiveTab(currentHash as NavigationTab);
       } else if (currentHash === 'portal' || currentHash.startsWith('portal/')) {
@@ -68,10 +79,20 @@ const AppContent: React.FC = () => {
   return (
     <div className="min-h-screen bg-white dark:bg-neutral-950 transition-colors duration-200 flex flex-col justify-between">
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
-      
+
       <main className="flex-1">
-        {activeTab === 'portal' && <CustomerPortal token={getPortalToken()} />}
-        {activeTab === 'admin' && <AdminPortal />}
+        {activeTab === 'portal' && (
+          <ErrorBoundary fallbackTitle="Portal Pelanggan">
+            {/* key per token: pindah token = remount bersih, state loading/
+                error token lama tidak terbawa. */}
+            <CustomerPortal key={portalToken || 'invalid'} token={portalToken} />
+          </ErrorBoundary>
+        )}
+        {activeTab === 'admin' && (
+          <ErrorBoundary fallbackTitle="Portal Admin">
+            <AdminPortal />
+          </ErrorBoundary>
+        )}
 
         {activeTab === 'agency' && (
           <>

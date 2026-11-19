@@ -170,13 +170,13 @@ export const SubmitToolModal: React.FC<{ onClose: () => void }> = ({ onClose }) 
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4 overflow-y-auto">
-      <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-lg w-full shadow-2xl relative my-8 text-neutral-900 dark:text-white max-h-[92vh] overflow-y-auto">
+      <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl max-w-lg w-full shadow-2xl relative my-8 text-neutral-900 dark:text-white max-h-[92vh] flex flex-col overflow-hidden">
         <button onClick={onClose} aria-label="Tutup" className="absolute top-5 right-5 text-neutral-400 hover:text-neutral-700 dark:hover:text-white cursor-pointer p-1">
           <X className="w-5 h-5" />
         </button>
 
         {phase === 'done' ? (
-          <div className="py-4 text-center space-y-4">
+          <div className="flex-1 overflow-y-auto px-6 sm:px-8 py-6 text-center space-y-4">
             <div className="w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-500 flex items-center justify-center mx-auto">
               <Check className="w-6 h-6 stroke-[3]" />
             </div>
@@ -210,12 +210,14 @@ export const SubmitToolModal: React.FC<{ onClose: () => void }> = ({ onClose }) 
           </div>
         ) : (
           <>
-            <h3 className="text-xl font-bold mb-1">Submit Tool Berbayar</h3>
-            <p className="text-xs text-neutral-500 mb-5 leading-relaxed">
-              Daftarkan tool kamu ke AI Tool Library LocaGo. Tanpa login — cukup isi form, donasi, dan bayar via Midtrans (QRIS, GoPay, VA).
-            </p>
+            <div className="shrink-0 px-6 sm:px-8 pt-6 sm:pt-8">
+              <h3 className="text-xl font-bold mb-1">Submit Tool Berbayar</h3>
+              <p className="text-xs text-neutral-500 leading-relaxed">
+                Daftarkan tool kamu ke AI Tool Library LocaGo. Tanpa login — cukup isi form, donasi, dan bayar via Midtrans (QRIS, GoPay, VA).
+              </p>
+            </div>
 
-            <div className="space-y-4">
+            <div className="flex-1 overflow-y-auto px-6 sm:px-8 pt-5 pb-4 space-y-4">
               <div>
                 <label className="block text-xs font-mono font-medium mb-1">Nama Tool *</label>
                 <input type="text" required value={toolName} onChange={(e) => setToolName(e.target.value)} placeholder="Contoh: MyGenius AI" className="w-full px-4 py-2.5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-950 text-xs font-mono focus:outline-none focus:ring-2 focus:ring-purple-500" />
@@ -318,7 +320,11 @@ export const SubmitToolModal: React.FC<{ onClose: () => void }> = ({ onClose }) 
                 <p className="text-[11px] text-neutral-500">Jika submission ditolak karena tidak layak, refund diproses manual dikurangi fee Midtrans. Kalau data kurang lengkap, kamu bisa perbaiki tanpa bayar lagi — hubungi WA LocaGo.</p>
               )}
 
-              <div className="pt-1 flex flex-col sm:flex-row justify-end gap-3">
+            </div>
+            {/* Footer menempel di bawah modal (sticky): tombol Batal / Bayar
+                selalu terlihat tanpa scroll, body form yang scroll. */}
+            <div className="shrink-0 px-6 sm:px-8 pt-4 pb-6 sm:pb-8 border-t border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900">
+              <div className="flex flex-col sm:flex-row justify-end gap-3">
                 <button type="button" onClick={onClose} className="px-4 py-2.5 rounded-xl text-xs font-mono border border-neutral-300 dark:border-neutral-700 cursor-pointer">Batal</button>
                 <button
                   onClick={handlePay}
@@ -332,7 +338,7 @@ export const SubmitToolModal: React.FC<{ onClose: () => void }> = ({ onClose }) 
                   )}
                 </button>
               </div>
-              <p className="text-[10px] text-neutral-400 text-center">Dengan submit, kamu menyetujui kurasi LocaGo: tool yang melanggar (scam, judi, malware, konten dewasa) ditolak/ditakedown tanpa pengembalian penuh.</p>
+              <p className="text-[10px] text-neutral-400 text-center mt-3">Dengan submit, kamu menyetujui kurasi LocaGo: tool yang melanggar (scam, judi, malware, konten dewasa) ditolak/ditakedown tanpa pengembalian penuh.</p>
             </div>
           </>
         )}
