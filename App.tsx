@@ -21,6 +21,9 @@ import { LanguageProvider } from './context/LanguageContext';
 import { AuthProvider } from './context/AuthContext';
 import { AuthModal } from './components/AuthModal';
 import { NavigationTab } from './types';
+import { DonateWidget } from './components/DonateWidget';
+import { CustomerPortal } from './components/CustomerPortal';
+import { AdminPortal } from './components/AdminPortal';
 
 const getInitialTab = (): NavigationTab => {
   if (typeof window !== 'undefined') {
@@ -28,8 +31,17 @@ const getInitialTab = (): NavigationTab => {
     if (hash === 'source-code' || hash === 'github-trending' || hash === 'ai-tools' || hash === 'linklists' || hash === 'articles') {
       return hash as NavigationTab;
     }
+    if (hash === 'portal' || hash.startsWith('portal/')) return 'portal';
+    if (hash === 'admin') return 'admin';
   }
   return 'agency';
+};
+
+// Token portal pelanggan dari hash #portal/<uuid>
+const getPortalToken = (): string => {
+  if (typeof window === 'undefined') return '';
+  const m = window.location.hash.match(/#portal\/([0-9a-f-]{36})/i);
+  return m ? m[1] : '';
 };
 
 const AppContent: React.FC = () => {
@@ -40,6 +52,10 @@ const AppContent: React.FC = () => {
       const currentHash = window.location.hash.replace(/^#+/, '').split('?')[0].split('#')[0].split('&')[0];
       if (currentHash === 'source-code' || currentHash === 'github-trending' || currentHash === 'ai-tools' || currentHash === 'linklists' || currentHash === 'articles') {
         setActiveTab(currentHash as NavigationTab);
+      } else if (currentHash === 'portal' || currentHash.startsWith('portal/')) {
+        setActiveTab('portal');
+      } else if (currentHash === 'admin') {
+        setActiveTab('admin');
       } else if (!currentHash || currentHash === 'agency') {
         setActiveTab('agency');
       }
@@ -54,6 +70,9 @@ const AppContent: React.FC = () => {
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
       
       <main className="flex-1">
+        {activeTab === 'portal' && <CustomerPortal token={getPortalToken()} />}
+        {activeTab === 'admin' && <AdminPortal />}
+
         {activeTab === 'agency' && (
           <>
             <Hero />
@@ -97,6 +116,7 @@ const AppContent: React.FC = () => {
 
       <Footer />
       <AuthModal />
+      <DonateWidget />
     </div>
   );
 };

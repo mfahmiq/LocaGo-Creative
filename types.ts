@@ -31,7 +31,7 @@ export interface Step {
 // NEW TYPES FOR LOCAGO ECOSYSTEM
 // ==========================================
 
-export type NavigationTab = 'agency' | 'source-code' | 'github-trending' | 'ai-tools' | 'linklists' | 'articles';
+export type NavigationTab = 'agency' | 'source-code' | 'github-trending' | 'ai-tools' | 'linklists' | 'articles' | 'portal' | 'admin';
 
 export interface SourceCodeCredential {
   role: string;
@@ -105,6 +105,12 @@ export interface AIToolItem {
   demoVideoUrl?: string;
   affiliateUrl: string;
   isFeatured?: boolean;
+  websiteUrl?: string;
+  // Paid submit (donasi) — diisi dari RPC list_live_paid_tools
+  donation_amount?: number;
+  boost_until?: string;
+  isPaidBoost?: boolean;
+  is_top10?: boolean;
 }
 
 export interface CustomLinkItem {

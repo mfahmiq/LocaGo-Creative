@@ -25,6 +25,9 @@ import {
 import { useAuth } from '../context/AuthContext';
 import { AIToolItem, LinkListItem, CustomLinkItem } from '../types';
 import { fetchCatalog } from '../lib/catalogData';
+import { supabase } from '../lib/supabase';
+import { appendUtm, slugifyName, formatRupiah } from '../lib/utm';
+import { SubmitToolModal } from './SubmitToolModal';
 import {
   INITIAL_COMMUNITY_LINKLISTS,
   matchCatalogTool,
@@ -172,26 +175,38 @@ export const AIToolsHub: React.FC = () => {
     return () => window.removeEventListener('hashchange', handleHash);
   }, []);
 
-  // Fetch tools from Supabase only (lib/catalogData) — no hardcoded fallback
+  // Fetch tools from Supabase only (lib/catalogData) — no hardcoded fallback.
+  // Plus tool berbayar auto-ACC (>=Rp50.000) dari RPC list_live_paid_tools:
+  // mereka tampil INSTAN tanpa menunggu sync ke ai_tools.
   useEffect(() => {
-    fetchCatalog<AIToolItem>('ai_tools').then((items) => {
-      if (items) setTools(items);
+    const mapPaid = (rows: unknown[]): AIToolItem[] =>
+      (rows || []).map((r: any) => ({
+        id: `paid-${r.id}`,
+        name: r.tool_name,
+        category: r.category,
+        pricingType: r.pricing_type,
+        commissionRate: '',
+        tagline: (r.description || '').slice(0, 120),
+        description: r.description,
+        features: [],
+        affiliateUrl: r.website_url,
+        websiteUrl: r.website_url,
+        logoUrl: undefined,
+        isFeatured: false,
+        donation_amount: r.donation_amount,
+        boost_until: r.boost_until,
+        isPaidBoost: true,
+        is_top10: r.is_top10,
+      } as AIToolItem));
+    Promise.all([
+      fetchCatalog<AIToolItem>('ai_tools'),
+      supabase.rpc('list_live_paid_tools').then(({ data }) => (Array.isArray(data) ? mapPaid(data) : [])).catch(() => [] as AIToolItem[]),
+    ]).then(([items, paid]) => {
+      if (items) setTools([...paid, ...items]);
       else setLoadError('Gagal memuat data AI Tools dari database. Periksa koneksi lalu muat ulang halaman.');
       setIsLoading(false);
     });
   }, []);
-
-  // Form submission state for new tool submission
-  const [submitForm, setSubmitForm] = useState({
-    toolName: '',
-    websiteUrl: '',
-    category: 'AI Coding',
-    pricing: 'Freemium',
-    description: '',
-    contactWa: '',
-    isFeaturedRequest: false
-  });
-  const [submitSuccess, setSubmitSuccess] = useState<boolean>(false);
 
   // Upvotes state stored in localStorage
   const [upvotes, setUpvotes] = useState<Record<string, number>>(() => {
@@ -221,21 +236,7 @@ export const AIToolsHub: React.FC = () => {
     }
   });
 
-  const appendUtm = (rawUrl?: string, toolName?: string) => {
-    if (!rawUrl || typeof rawUrl !== 'string' || !rawUrl.startsWith('http')) return '#';
-    const slug = (toolName || 'tool').toLowerCase().replace(/[^a-z0-9]+/g, '-');
-    try {
-      const u = new URL(rawUrl);
-      u.searchParams.set('utm_source', 'locagocreative');
-      u.searchParams.set('utm_medium', 'directory');
-      u.searchParams.set('utm_campaign', 'ai_tools_hub');
-      u.searchParams.set('utm_content', slug);
-      return u.toString();
-    } catch {
-      const sep = rawUrl.includes('?') ? '&' : '?';
-      return `${rawUrl}${sep}utm_source=locagocreative&utm_medium=directory&utm_campaign=ai_tools_hub&utm_content=${slug}`;
-    }
-  };
+  // appendUtm diimpor dari lib/utm (utm_medium=website, utm_campaign=ai-tools).
 
   const trackClick = (toolId?: string) => {
     if (!toolId) return;
@@ -277,18 +278,6 @@ export const AIToolsHub: React.FC = () => {
     } catch {}
   };
 
-  const handleFormSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSubmitSuccess(true);
-    setTimeout(() => {
-      setSubmitSuccess(false);
-      setIsSubmitModalOpen(false);
-      const msg = encodeURIComponent(
-        `Halo LocaGo Creative! Saya ingin submit tool AI baru ke AI Tool Library:\n\n• Nama Tool: ${submitForm.toolName}\n• Website: ${submitForm.websiteUrl}\n• Kategori: ${submitForm.category}\n• Model Harga: ${submitForm.pricing}\n• Paket: ${submitForm.isFeaturedRequest ? 'VIP Featured Listing' : 'Standard Free Review'}`
-      );
-      window.open(`https://wa.me/6285189393354?text=${msg}`, '_blank');
-    }, 1200);
-  };
 
   // Active LinkList object
   const activeLinkList = useMemo(() => {
@@ -523,11 +512,14 @@ export const AIToolsHub: React.FC = () => {
 
   // Filter tools (strict gatekeeper: must have valid logoUrl and must not link to producthunt.com)
   const filteredAndSortedTools = useMemo(() => {
+    // Gatekeeper: katalog wajib logo + bukan producthunt — KECUALI tool
+    // berbayar auto-ACC (isPaidBoost) yang tampil lewat RPC dan belum punya logo.
     let baseList = (tools || []).filter(
       (tool) =>
         tool &&
-        Boolean(tool.logoUrl && tool.logoUrl.trim()) &&
-        Boolean(tool.affiliateUrl && !tool.affiliateUrl.toLowerCase().includes('producthunt.com'))
+        (Boolean(tool.isPaidBoost) ||
+          (Boolean(tool.logoUrl && tool.logoUrl.trim()) &&
+            Boolean(tool.affiliateUrl && !tool.affiliateUrl.toLowerCase().includes('producthunt.com'))))
     );
 
     // If an active LinkList is selected, display all tools belonging to that LinkList!
@@ -557,6 +549,11 @@ export const AIToolsHub: React.FC = () => {
       return matchCat && matchPricing && matchSearch;
     }).sort((a, b) => {
       if (!a || !b) return 0;
+      // Boost berbayar (30 hari) selalu di atas: donasi terbesar dulu.
+      const boostA = a.isPaidBoost && a.boost_until && new Date(a.boost_until).getTime() > Date.now() ? 1 : 0;
+      const boostB = b.isPaidBoost && b.boost_until && new Date(b.boost_until).getTime() > Date.now() ? 1 : 0;
+      if (boostA !== boostB) return boostB - boostA;
+      if (boostA && boostB) return (b.donation_amount || 0) - (a.donation_amount || 0);
       if (sortBy === 'popular') {
         const votesA = (a.id && upvotes[a.id] !== undefined) ? upvotes[a.id] : 20;
         const votesB = (b.id && upvotes[b.id] !== undefined) ? upvotes[b.id] : 20;
@@ -603,6 +600,15 @@ export const AIToolsHub: React.FC = () => {
               <FolderGit2 className="w-4 h-4" />
               <span>Library Playlist Publik ({linkLists.length})</span>
             </a>
+
+            {/* Submit Tool Berbayar (donasi min Rp10.000, >=Rp50.000 auto-ACC) */}
+            <button
+              onClick={() => setIsSubmitModalOpen(true)}
+              className="px-4 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-white text-xs font-mono font-bold transition-all shadow-md flex items-center gap-2 cursor-pointer active:scale-95"
+            >
+              <Zap className="w-4 h-4" />
+              <span>Submit Tool Berbayar</span>
+            </button>
 
             {/* Quick Drawer Button */}
             <button
@@ -898,6 +904,16 @@ export const AIToolsHub: React.FC = () => {
                               PRO
                             </span>
                           )}
+                          {tool.isPaidBoost && (
+                            <span className="text-[10px] font-mono font-bold px-1.5 py-0.5 rounded bg-amber-100 dark:bg-amber-500/20 text-amber-700 dark:text-amber-300 border border-amber-200 dark:border-amber-500/30">
+                              Prioritas — didukung {formatRupiah(tool.donation_amount || 0)}
+                            </span>
+                          )}
+                          {tool.is_top10 && (
+                            <span className="text-[10px] font-mono font-bold px-1.5 py-0.5 rounded bg-emerald-100 dark:bg-emerald-500/20 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-500/30">
+                              Top 10
+                            </span>
+                          )}
                         </h3>
                         <span className="text-[11px] font-mono text-neutral-500 dark:text-neutral-400">{tool.category || 'Tools'}</span>
                       </div>
@@ -983,7 +999,7 @@ export const AIToolsHub: React.FC = () => {
                   </div>
 
                   <a
-                    href={appendUtm(tool.websiteUrl || tool.affiliateUrl, tool.name)}
+                    href={`/api/click?tool=${encodeURIComponent(tool.id)}&slug=${slugifyName(tool.name)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={() => trackClick(tool.id)}
@@ -1085,7 +1101,7 @@ export const AIToolsHub: React.FC = () => {
                 )}
 
                 <a
-                  href={appendUtm(viewingTool.websiteUrl || viewingTool.affiliateUrl, viewingTool.name)}
+                  href={`/api/click?tool=${encodeURIComponent(viewingTool.id)}&slug=${slugifyName(viewingTool.name)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto px-6 py-2.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-mono text-xs font-bold transition-all shadow-md flex items-center justify-center gap-2 cursor-pointer active:scale-95"
@@ -1572,128 +1588,7 @@ export const AIToolsHub: React.FC = () => {
           </div>
         )}
 
-        {/* MODAL 7: SUBMIT NEW TOOL */}
-        {isSubmitModalOpen && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
-            <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-lg w-full shadow-2xl relative text-neutral-900 dark:text-white">
-              <button
-                onClick={() => setIsSubmitModalOpen(false)}
-                className="absolute top-5 right-5 text-neutral-400 hover:text-neutral-700 dark:hover:text-white font-mono cursor-pointer p-1"
-                aria-label="Tutup"
-              >
-                <X className="w-5 h-5" />
-              </button>
-
-              <h3 className="text-xl font-bold mb-2">Submit Tool AI Baru</h3>
-              <p className="text-xs text-neutral-500 mb-6 font-mono">
-                Daftarkan produk AI Anda ke pustaka kecerdasan buatan LocaGo Creative untuk menjangkau ribuan pengunjung harian.
-              </p>
-
-              {submitSuccess ? (
-                <div className="py-10 text-center space-y-2">
-                  <div className="w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-500 flex items-center justify-center mx-auto">
-                    <Check className="w-6 h-6 stroke-[3]" />
-                  </div>
-                  <h4 className="font-bold text-base">Permohonan Berhasil Dikirim!</h4>
-                  <p className="text-xs text-neutral-500">Mengarahkan ke WhatsApp admin LocaGo...</p>
-                </div>
-              ) : (
-                <form onSubmit={handleFormSubmit} className="space-y-4">
-                  <div>
-                    <label className="block text-xs font-mono font-medium text-neutral-700 dark:text-neutral-300 mb-1">
-                      Nama Tool / Software *
-                    </label>
-                    <input
-                      type="text"
-                      required
-                      value={submitForm.toolName}
-                      onChange={(e) => setSubmitForm({ ...submitForm, toolName: e.target.value })}
-                      placeholder="Contoh: MyGenius AI"
-                      className="w-full px-4 py-2.5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-950 text-xs font-mono focus:outline-none focus:ring-2 focus:ring-purple-500"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="block text-xs font-mono font-medium text-neutral-700 dark:text-neutral-300 mb-1">
-                      Tautan Website Resmi *
-                    </label>
-                    <input
-                      type="url"
-                      required
-                      value={submitForm.websiteUrl}
-                      onChange={(e) => setSubmitForm({ ...submitForm, websiteUrl: e.target.value })}
-                      placeholder="https://mygenius.ai"
-                      className="w-full px-4 py-2.5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-950 text-xs font-mono focus:outline-none focus:ring-2 focus:ring-purple-500"
-                    />
-                  </div>
-
-                  <div className="grid grid-cols-2 gap-3">
-                    <div>
-                      <label className="block text-xs font-mono font-medium text-neutral-700 dark:text-neutral-300 mb-1">
-                        Kategori
-                      </label>
-                      <select
-                        value={submitForm.category}
-                        onChange={(e) => setSubmitForm({ ...submitForm, category: e.target.value })}
-                        className="w-full px-3 py-2.5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-950 text-xs font-mono"
-                      >
-                        {categories.filter((c) => c !== 'Semua').map((c) => (
-                          <option key={c} value={c}>{c}</option>
-                        ))}
-                      </select>
-                    </div>
-
-                    <div>
-                      <label className="block text-xs font-mono font-medium text-neutral-700 dark:text-neutral-300 mb-1">
-                        Model Harga
-                      </label>
-                      <select
-                        value={submitForm.pricing}
-                        onChange={(e) => setSubmitForm({ ...submitForm, pricing: e.target.value })}
-                        className="w-full px-3 py-2.5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-950 text-xs font-mono"
-                      >
-                        <option value="Freemium">Freemium</option>
-                        <option value="Free Trial">Free Trial</option>
-                        <option value="Paid">Paid</option>
-                        <option value="Free">100% Free</option>
-                      </select>
-                    </div>
-                  </div>
-
-                  <div>
-                    <label className="block text-xs font-mono font-medium text-neutral-700 dark:text-neutral-300 mb-1">
-                      Deskripsi Fungsional Singkat *
-                    </label>
-                    <textarea
-                      required
-                      rows={3}
-                      value={submitForm.description}
-                      onChange={(e) => setSubmitForm({ ...submitForm, description: e.target.value })}
-                      placeholder="Jelaskan secara jelas apa yang dilakukan tool ini dan mengapa user harus menggunakannya..."
-                      className="w-full px-4 py-2.5 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-950 text-xs font-mono focus:outline-none focus:ring-2 focus:ring-purple-500 resize-none"
-                    />
-                  </div>
-
-                  <div className="pt-2 flex justify-end gap-3">
-                    <button
-                      type="button"
-                      onClick={() => setIsSubmitModalOpen(false)}
-                      className="px-4 py-2 rounded-xl text-xs font-mono border border-neutral-300 dark:border-neutral-700 cursor-pointer"
-                    >
-                      Batal
-                    </button>
-                    <button
-                      type="submit"
-                      className="px-5 py-2.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-mono text-xs font-bold transition-all shadow-md cursor-pointer"
-                    >
-                      Kirim Pendaftaran Tool Sekarang →
-                    </button>
-                  </div>
-                </form>
-              )}
-            </div>
-          </div>
-        )}
+        {isSubmitModalOpen && <SubmitToolModal onClose={() => setIsSubmitModalOpen(false)} />}
       </div>
     </section>
   );

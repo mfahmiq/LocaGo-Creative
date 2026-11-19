@@ -96,6 +96,8 @@ export const SourceCodeHub: React.FC = () => {
       item.slug
     )}&step=1&max=8&hash=${Math.random().toString(36).substring(7)}`;
     window.open(safelinkUrl, '_blank', 'noopener,noreferrer');
+    // Beri tahu DonateWidget: download dimulai -> popup donasi boleh muncul.
+    window.dispatchEvent(new Event('locago:download-complete'));
   };
 
   const handleCopyShareLink = (item: SourceCodeItem) => {

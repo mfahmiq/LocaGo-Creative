@@ -105,9 +105,11 @@
         if ('scrollRestoration' in history) {
             history.scrollRestoration = 'manual';
         }
-        // Only strip if hash is an anchor from previous section scrolls, not view routes
-        const validRoutes = ['#source-code', '#github-trending', '#ai-tools', '#articles'];
-        if (window.location.hash && !validRoutes.includes(window.location.hash)) {
+        // Only strip if hash is an anchor from previous section scrolls, not view routes.
+        // Portal pelanggan (#portal/<uuid>) dan admin (#admin) WAJIB dipertahankan.
+        const validPrefixes = ['#source-code', '#github-trending', '#ai-tools', '#articles', '#linklists', '#portal', '#admin'];
+        const _h = window.location.hash;
+        if (_h && !validPrefixes.some((p) => _h === p || _h.startsWith(p + '/') || _h.startsWith(p + '?') || _h.startsWith(p + '#'))) {
             history.replaceState(null, '', window.location.pathname + window.location.search);
         }
         window.scrollTo(0, 0);
