@@ -1,7 +1,62 @@
 {
-  "updatedAt": "20 Nov 2026, 03:35 WIB",
-  "total": 9,
+  "updatedAt": "20 Nov 2026, 03:59 WIB",
+  "total": 10,
   "items": [
+    {
+      "id": "sc-66",
+      "title": "Sistem Presensi Karyawan & Absensi Online - Planthr Lite   Manufacturing Attendance Overtime Management System",
+      "slug": "planthr-lite---manufacturing-attendance-overtime-management-system",
+      "category": "HRD & Keuangan",
+      "techStack": [
+        "CodeIgniter",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "HRIS (Human Resource Information System atau Sistem Informasi Sumber Daya Manusia) dalam aplikasi website bertujuan untuk absensi dan Manajemen Cuti (Time & Attendance): Mengelola presensi online, pencatatan lembur, shift kerja, serta pengajuan cuti secara mandiri oleh karyawan.\n\nProyek riil open-source asli dari GitHub (https://github.com/NabilaPutriAsySyifa/PlantHR-Lite---Manufacturing-Attendance-Overtime-Management-System). Dilengkapi file database lengkap (database/planthr_db_dump.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Presensi Karyawan & Absensi Online - Planthr Lite   Manufacturing Attendance Overtime Management System dengan database database/planthr_db_dump.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/planthr-lite---manufacturing-attendance-overtime-management-system/screenshot_1.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Demo",
+          "username": "Lihat README.md repo asli",
+          "password": "(lihat README repo)"
+        }
+      ],
+      "updatedAt": "20 November 2026",
+      "releaseDate": "20 November 2026",
+      "recentFastDownloads": 65,
+      "thumbnail": "/screenshots/planthr-lite---manufacturing-attendance-overtime-management-system/screenshot_1.webp",
+      "downloadsCount": 560,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "982 KB",
+      "tutorialSteps": [
+        "Ekstrak berkas `planthr-lite---manufacturing-attendance-overtime-management-system.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `database/planthr_db_dump.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/planthr-lite---manufacturing-attendance-overtime-management-system` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (NabilaPutriAsySyifa/PlantHR-Lite---Manufacturing-Attendance-Overtime-Management-System) dengan source code lengkap",
+        "Disertai database asli (database/planthr_db_dump.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=planthr-lite---manufacturing-attendance-overtime-management-system&step=1&max=8",
+      "downloadUrlFast": "/downloads/planthr-lite---manufacturing-attendance-overtime-management-system.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/NabilaPutriAsySyifa/PlantHR-Lite---Manufacturing-Attendance-Overtime-Management-System",
+      "stars": 0
+    },
     {
       "id": "sc-65",
       "title": "Warehouse & Inventory Management System - Smart Inventory Management System",
