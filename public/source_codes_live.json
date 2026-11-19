@@ -22,9 +22,34 @@
       ],
       "defaultCredentials": [
         {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
+          "role": "HR Administrator",
+          "username": "hr@plant.local",
+          "password": "admin123"
+        },
+        {
+          "role": "Supervisor",
+          "username": "spv@plant.local",
+          "password": "admin123"
+        },
+        {
+          "role": "Operator Produksi (Shift 1)",
+          "username": "rian@plant.local",
+          "password": "admin123"
+        },
+        {
+          "role": "Operator QC (Shift 2)",
+          "username": "dewi@plant.local",
+          "password": "admin123"
+        },
+        {
+          "role": "Teknisi Maintenance (Shift 3)",
+          "username": "fajar@plant.local",
+          "password": "admin123"
+        },
+        {
+          "role": "Operator Gudang (Shift 1)",
+          "username": "siti@plant.local",
+          "password": "admin123"
         }
       ],
       "updatedAt": "20 November 2026",
@@ -53,7 +78,7 @@
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=planthr-lite---manufacturing-attendance-overtime-management-system&step=1&max=8",
       "downloadUrlFast": "/downloads/planthr-lite---manufacturing-attendance-overtime-management-system.zip",
-      "driveUrl": "",
+      "driveUrl": "https://drive.google.com/file/d/1pkMTNMOKaB0dBFsDxlTfWqgXveIN_iOE/view?usp=drivesdk",
       "githubRepo": "https://github.com/NabilaPutriAsySyifa/PlantHR-Lite---Manufacturing-Attendance-Overtime-Management-System",
       "stars": 0
     },
