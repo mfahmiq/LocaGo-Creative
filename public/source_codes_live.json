@@ -1,7 +1,62 @@
 {
-  "updatedAt": "19 Nov 2026, 06:16 WIB",
-  "total": 8,
+  "updatedAt": "19 Nov 2026, 07:01 WIB",
+  "total": 9,
   "items": [
+    {
+      "id": "sc-65",
+      "title": "Warehouse & Inventory Management System - Smart Inventory Management System",
+      "slug": "smart-inventory-management-system",
+      "category": "Bisnis & Manajemen",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL"
+      ],
+      "description": "A PHP and MySQL based inventory management training project.\n\nProyek riil open-source asli dari GitHub (https://github.com/khaingmar123098-hue/Smart-Inventory-Management-System). Dilengkapi file database lengkap (database/inventory_db.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Warehouse & Inventory Management System - Smart Inventory Management System dengan database database/inventory_db.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/smart-inventory-management-system/screenshot_1.webp",
+        "/screenshots/smart-inventory-management-system/screenshot_2.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Demo",
+          "username": "Lihat README.md repo asli",
+          "password": "(lihat README repo)"
+        }
+      ],
+      "updatedAt": "19 November 2026",
+      "releaseDate": "19 November 2026",
+      "recentFastDownloads": 66,
+      "thumbnail": "/screenshots/smart-inventory-management-system/screenshot_1.webp",
+      "downloadsCount": 753,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "7.5 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `smart-inventory-management-system.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `database/inventory_db.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/smart-inventory-management-system` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (khaingmar123098-hue/Smart-Inventory-Management-System) dengan source code lengkap",
+        "Disertai database asli (database/inventory_db.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=smart-inventory-management-system&step=1&max=8",
+      "downloadUrlFast": "/downloads/smart-inventory-management-system.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/khaingmar123098-hue/Smart-Inventory-Management-System",
+      "stars": 0
+    },
     {
       "id": "sc-64",
       "title": "Warehouse & Inventory Management System - Ajna",
