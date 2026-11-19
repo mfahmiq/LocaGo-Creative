@@ -24,9 +24,19 @@
       ],
       "defaultCredentials": [
         {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
+          "role": "Admin (Demo)",
+          "username": "Demoadmin",
+          "password": "demoadmin"
+        },
+        {
+          "role": "Sekretaris (Demo)",
+          "username": "Demosekretaris",
+          "password": "demosekretaris"
+        },
+        {
+          "role": "Sekretaris",
+          "username": "sekretaris",
+          "password": "sekretaris123"
         }
       ],
       "updatedAt": "20 November 2026",
@@ -42,9 +52,9 @@
       "fileSize": "1.9 MB",
       "tutorialSteps": [
         "Ekstrak berkas `inventaris-lab-21-update.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `backup-2026-07-24.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/inventaris-lab-21-update` dan login dengan akun default."
+        "Buat database kosong `inventaris_lab` di phpMyAdmin, lalu import berkas SQL `backup-2026-07-24.sql` ke dalamnya.",
+        "Salin `.env.example` menjadi `.env`, isi DB_DATABASE=inventaris_lab (DB_USERNAME=root untuk XAMPP default), lalu `php artisan key:generate`.",
+        "Jalankan `php artisan serve` lalu buka http://127.0.0.1:8000 dan login dengan akun demo Demoadmin / demoadmin."
       ],
       "keyFeatures": [
         "Proyek riil dari GitHub (vianhubgit/Inventaris-lab-2.1-update) dengan source code lengkap",
@@ -55,7 +65,7 @@
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=inventaris-lab-21-update&step=1&max=8",
       "downloadUrlFast": "/downloads/inventaris-lab-21-update.zip",
-      "driveUrl": "",
+      "driveUrl": "https://drive.google.com/file/d/1QkEvkAHTiSRgTYf1OGrlkIOl26XGa3Om/view?usp=drivesdk",
       "githubRepo": "https://github.com/vianhubgit/Inventaris-lab-2.1-update",
       "stars": 0
     },
