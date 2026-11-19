@@ -23,8 +23,16 @@ import { WA_CONSULT_URL } from '../lib/data';
 import { fetchCatalog } from '../lib/catalogData';
 import { SourceCodeItem } from '../types';
 import { DualDownloadModal } from './DualDownloadModal';
+import { setPageMeta, SITE_URL } from '../lib/seo';
 
-export const SourceCodeHub: React.FC = () => {
+interface SourceCodeHubProps {
+  /** Slug dari rute /source-code/<slug> (atau null bila hub biasa). */
+  initialItemSlug?: string | null;
+  /** Dipanggil saat detail dibuka/ditutup supaya App mengubah URL. */
+  onItemNavigate?: (slug: string | null) => void;
+}
+
+export const SourceCodeHub: React.FC<SourceCodeHubProps> = ({ initialItemSlug = null, onItemNavigate }) => {
   const [items, setItems] = useState<SourceCodeItem[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [loadError, setLoadError] = useState<string | null>(null);
@@ -36,19 +44,44 @@ export const SourceCodeHub: React.FC = () => {
   const [activeModalItem, setActiveModalItem] = useState<SourceCodeItem | null>(null);
   const [copiedLink, setCopiedLink] = useState<boolean>(false);
 
+  // Meta detail source code (rute nyata /source-code/<slug>).
+  const applyItemMeta = (item: SourceCodeItem) => {
+    setPageMeta({
+      title: `${item.title} — Download Source Code Gratis | LocaGo Creative`,
+      description: (item.shortDesc || item.description || '').slice(0, 155) || `${item.title} — download source code gratis di LocaGo Creative.`,
+      canonicalPath: `/source-code/${item.slug}`,
+      ogType: 'article',
+      ogImage: item.thumbnail,
+      jsonLd: {
+        '@context': 'https://schema.org',
+        '@type': 'SoftwareSourceCode',
+        name: item.title,
+        description: item.shortDesc || item.description,
+        url: `${SITE_URL}/source-code/${item.slug}`,
+        programmingLanguage: (item.techStack || []).join(', '),
+        offers: { '@type': 'Offer', price: '0', priceCurrency: 'IDR' },
+      },
+    });
+  };
+
   // Fetch source codes from Supabase only (lib/catalogData) — no hardcoded fallback
   useEffect(() => {
     fetchCatalog<SourceCodeItem>('source_codes').then((items) => {
       if (items) {
         setItems(items);
-        // Sync URL query if item slug present
-        const hash = window.location.hash;
-        if (hash.includes('item=')) {
-          const slugParam = decodeURIComponent(hash.split('item=')[1]?.split('&')[0] || '');
+        // Sinkron rute detail -> halaman detail: slug dari path nyata
+        // diutamakan; fallback ke deep-link lama #source-code?item=<slug>.
+        const slugParam =
+          initialItemSlug ||
+          (window.location.hash.includes('item=')
+            ? decodeURIComponent(window.location.hash.split('item=')[1]?.split('&')[0] || '')
+            : '');
+        if (slugParam) {
           const found = items.find((it: SourceCodeItem) => it.slug === slugParam);
           if (found) {
             setSelectedItem(found);
             setActiveScreenshotIdx(0);
+            applyItemMeta(found);
           }
         }
       } else {
@@ -56,7 +89,26 @@ export const SourceCodeHub: React.FC = () => {
       }
       setIsLoading(false);
     });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  // Sinkron saat slug rute berubah (back/forward) setelah data dimuat.
+  useEffect(() => {
+    if (isLoading) return;
+    if (!initialItemSlug) {
+      setSelectedItem(null);
+      return;
+    }
+    const found = items.find((it) => it.slug === initialItemSlug);
+    if (found) {
+      setSelectedItem(found);
+      setActiveScreenshotIdx(0);
+      applyItemMeta(found);
+    } else {
+      setSelectedItem(null);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [initialItemSlug, isLoading]);
 
   const categories = useMemo(() => {
     const base = ['Semua', 'PHP & Laravel', 'Python & AI', 'Next.js & React', 'Google Apps Script', 'Mobile & Desktop'];
@@ -81,13 +133,16 @@ export const SourceCodeHub: React.FC = () => {
   const openDetail = (item: SourceCodeItem) => {
     setSelectedItem(item);
     setActiveScreenshotIdx(0);
-    window.history.replaceState(null, '', `#source-code?item=${encodeURIComponent(item.slug)}`);
+    applyItemMeta(item);
+    // URL nyata (kanonis); hash lama #source-code?item=<slug> tetap dibaca
+    // sebagai fallback saat dibuka langsung.
+    onItemNavigate?.(item.slug);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const closeDetail = () => {
     setSelectedItem(null);
-    window.history.replaceState(null, '', '#source-code');
+    onItemNavigate?.(null);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -101,7 +156,7 @@ export const SourceCodeHub: React.FC = () => {
   };
 
   const handleCopyShareLink = (item: SourceCodeItem) => {
-    const url = `${window.location.origin}/#source-code?item=${encodeURIComponent(item.slug)}`;
+    const url = `${window.location.origin}/source-code/${encodeURIComponent(item.slug)}`;
     navigator.clipboard.writeText(url).then(() => {
       setCopiedLink(true);
       setTimeout(() => setCopiedLink(false), 2000);
@@ -161,7 +216,7 @@ export const SourceCodeHub: React.FC = () => {
       .slice(0, 4);
 
     const shareWaUrl = `https://wa.me/?text=${encodeURIComponent(
-      `${selectedItem.title} - Gratis di LocaGo Creative: ${window.location.origin}/#source-code?item=${selectedItem.slug}`
+      `${selectedItem.title} - Gratis di LocaGo Creative: ${window.location.origin}/source-code/${selectedItem.slug}`
     )}`;
 
     return (

@@ -12,8 +12,16 @@ import {
 } from 'lucide-react';
 import { ARTICLES_LIST, ArticleItem } from '../lib/articlesData';
 import { fetchCatalog } from '../lib/catalogData';
+import { setPageMeta, SITE_URL } from '../lib/seo';
 
-export const ArticlesHub: React.FC = () => {
+interface ArticlesHubProps {
+  /** Slug dari rute /artikel/<slug> (atau null bila hub biasa). */
+  initialArticleSlug?: string | null;
+  /** Dipanggil saat artikel dibuka/ditutup supaya App mengubah URL. */
+  onArticleNavigate?: (slug: string | null) => void;
+}
+
+export const ArticlesHub: React.FC<ArticlesHubProps> = ({ initialArticleSlug = null, onArticleNavigate }) => {
   const [articles, setArticles] = useState<ArticleItem[]>(ARTICLES_LIST);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [loadError, setLoadError] = useState<string | null>(null);
@@ -21,6 +29,56 @@ export const ArticlesHub: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('Semua');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [readingArticle, setReadingArticle] = useState<ArticleItem | null>(null);
+
+  // Meta + URL artikel (rute nyata /artikel/<slug>).
+  const openArticle = (art: ArticleItem) => {
+    setReadingArticle(art);
+    setPageMeta({
+      title: `${art.title} | LocaGo Creative`,
+      description: art.excerpt?.slice(0, 155) || art.title,
+      canonicalPath: `/artikel/${art.slug}`,
+      ogType: 'article',
+      ogImage: art.cover,
+      jsonLd: {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: art.title,
+        description: art.excerpt,
+        datePublished: art.date,
+        author: { '@type': 'Organization', name: 'LocaGo Creative', url: SITE_URL },
+        mainEntityOfPage: `${SITE_URL}/artikel/${art.slug}`,
+      },
+    });
+    onArticleNavigate?.(art.slug);
+  };
+  const closeArticle = () => {
+    setReadingArticle(null);
+    onArticleNavigate?.(null);
+  };
+
+  // Sinkron rute detail -> reader: begitu data artikel dimuat (atau slug
+  // berubah lewat back/forward), buka artikel yang cocok.
+  useEffect(() => {
+    if (isLoading) return;
+    if (!initialArticleSlug) {
+      setReadingArticle(null);
+      return;
+    }
+    const found = articles.find((a) => a.slug === initialArticleSlug);
+    if (found) {
+      setReadingArticle(found);
+      setPageMeta({
+        title: `${found.title} | LocaGo Creative`,
+        description: found.excerpt?.slice(0, 155) || found.title,
+        canonicalPath: `/artikel/${found.slug}`,
+        ogType: 'article',
+        ogImage: found.cover,
+      });
+    } else {
+      setReadingArticle(null);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [initialArticleSlug, isLoading]);
 
   // Fetch articles from Supabase only (lib/catalogData) — no hardcoded fallback
   useEffect(() => {
@@ -224,7 +282,7 @@ export const ArticlesHub: React.FC = () => {
                 {/* Action Button */}
                 <div className="pt-3 border-t border-neutral-100 dark:border-neutral-800 flex items-center justify-between">
                   <button
-                    onClick={() => setReadingArticle(art)}
+                    onClick={() => openArticle(art)}
                     className="w-full py-2.5 rounded-xl bg-neutral-900 hover:bg-neutral-800 dark:bg-white dark:hover:bg-neutral-100 text-white dark:text-neutral-950 font-mono text-xs font-bold transition-all shadow-sm active:scale-95 flex items-center justify-center gap-1.5 cursor-pointer"
                   >
                     <span>Baca Artikel Lengkap</span>
@@ -241,7 +299,7 @@ export const ArticlesHub: React.FC = () => {
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm p-4 overflow-y-auto">
             <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-2xl w-full shadow-2xl relative my-8 max-h-[90vh] overflow-y-auto text-neutral-900 dark:text-white">
               <button
-                onClick={() => setReadingArticle(null)}
+                onClick={() => closeArticle()}
                 className="absolute top-5 right-5 text-neutral-400 hover:text-neutral-900 dark:hover:text-white font-mono cursor-pointer p-1"
                 aria-label="Tutup artikel"
               >

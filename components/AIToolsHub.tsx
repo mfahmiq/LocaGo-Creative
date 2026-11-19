@@ -27,6 +27,7 @@ import { AIToolItem, LinkListItem, CustomLinkItem } from '../types';
 import { fetchCatalog } from '../lib/catalogData';
 import { supabase } from '../lib/supabase';
 import { appendUtm, slugifyName, formatRupiah } from '../lib/utm';
+import { setPageMeta, SITE_URL } from '../lib/seo';
 import { SubmitToolModal } from './SubmitToolModal';
 import {
   INITIAL_COMMUNITY_LINKLISTS,
@@ -88,7 +89,14 @@ const AIToolLogoBadge: React.FC<{ logoUrl?: string; name: string; size?: 'sm' | 
   );
 };
 
-export const AIToolsHub: React.FC = () => {
+interface AIToolsHubProps {
+  /** Slug dari rute /tools/<slug> (atau null bila hub biasa). */
+  initialToolSlug?: string | null;
+  /** Dipanggil saat detail tool dibuka/ditutup supaya App mengubah URL. */
+  onToolNavigate?: (slug: string | null) => void;
+}
+
+export const AIToolsHub: React.FC<AIToolsHubProps> = ({ initialToolSlug = null, onToolNavigate }) => {
   const { user, isOwner, isLoggedIn, openAuthModal, logout } = useAuth();
 
   const [tools, setTools] = useState<AIToolItem[]>([]);
@@ -102,6 +110,59 @@ export const AIToolsHub: React.FC = () => {
 
   // Modal Detail Tool (Full Preview)
   const [viewingTool, setViewingTool] = useState<AIToolItem | null>(null);
+
+  // Meta + URL detail tool (rute nyata /tools/<slug>).
+  const openTool = (tool: AIToolItem) => {
+    setViewingTool(tool);
+    const slug = slugifyName(tool.name);
+    setPageMeta({
+      title: `${tool.name} — Review, Harga & Fitur | LocaGo Creative`,
+      description: tool.tagline || tool.description?.slice(0, 155) || `${tool.name} di direktori AI tools LocaGo Creative.`,
+      canonicalPath: `/tools/${slug}`,
+      ogType: 'article',
+      ogImage: tool.screenshotUrl || tool.logoUrl,
+      jsonLd: {
+        '@context': 'https://schema.org',
+        '@type': 'SoftwareApplication',
+        name: tool.name,
+        applicationCategory: tool.category,
+        description: tool.description?.slice(0, 300) || tool.tagline || tool.name,
+        url: `${SITE_URL}/tools/${slug}`,
+        offers: { '@type': 'Offer', price: tool.pricingType === 'Free' ? '0' : undefined, priceCurrency: 'USD' },
+      },
+    });
+    onToolNavigate?.(slug);
+  };
+  const closeTool = () => {
+    setViewingTool(null);
+    onToolNavigate?.(null);
+  };
+
+  // Sinkron rute detail -> modal: begitu data tools dimuat (atau slug
+  // berubah lewat back/forward), buka tool yang cocok; slug tidak dikenal
+  // atau null menutup modal. Meta detail diatur openTool / App.
+  useEffect(() => {
+    if (isLoading) return;
+    if (!initialToolSlug) {
+      setViewingTool(null);
+      return;
+    }
+    const found = tools.find((t) => slugifyName(t.name) === initialToolSlug);
+    if (found) {
+      setViewingTool(found);
+      const slug = slugifyName(found.name);
+      setPageMeta({
+        title: `${found.name} — Review, Harga & Fitur | LocaGo Creative`,
+        description: found.tagline || found.description?.slice(0, 155) || `${found.name} di direktori AI tools LocaGo Creative.`,
+        canonicalPath: `/tools/${slug}`,
+        ogType: 'article',
+        ogImage: found.screenshotUrl || found.logoUrl,
+      });
+    } else {
+      setViewingTool(null);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [initialToolSlug, isLoading]);
 
   // LinkLists State (Shared with LinkListsHub via localStorage)
   const [linkLists, setLinkLists] = useState<LinkListItem[]>(() => {
@@ -888,7 +949,7 @@ export const AIToolsHub: React.FC = () => {
             return (
               <div
                 key={tool.id}
-                onClick={() => setViewingTool(tool)}
+                onClick={() => openTool(tool)}
                 className="group p-5 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-neutral-800 hover:border-purple-500/40 transition-all duration-200 hover:shadow-xl flex flex-col justify-between cursor-pointer"
               >
                 <div>
@@ -1020,7 +1081,7 @@ export const AIToolsHub: React.FC = () => {
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4 overflow-y-auto">
             <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-2xl w-full shadow-2xl relative my-8 max-h-[90vh] overflow-y-auto text-neutral-900 dark:text-white">
               <button
-                onClick={() => setViewingTool(null)}
+                onClick={() => closeTool()}
                 className="absolute top-5 right-5 text-neutral-400 hover:text-neutral-700 dark:hover:text-white font-mono cursor-pointer p-1"
                 aria-label="Tutup"
               >

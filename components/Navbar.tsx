@@ -72,9 +72,11 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
   }, [mobileMenuOpen]);
 
   const handleTabClick = (tab: NavigationTab) => {
+    // Navigasi memakai path nyata (/ai-tools, /artikel, ...) lewat
+    // setActiveTab dari App (history.pushState). JANGAN set hash lagi:
+    // hash hanya fallback untuk link lama.
     setActiveTab(tab);
     setMobileMenuOpen(false);
-    window.location.hash = tab === 'agency' ? '' : tab;
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
