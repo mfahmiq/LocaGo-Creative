@@ -3,6 +3,8 @@
 // TIDAK muncul saat load — baru setelah 50 detik, atau scroll 70%, atau
 // setelah download source code (event 'locago:download-complete').
 // Maks 1x/sesi; kalau ditutup, jangan muncul lagi 7 hari.
+// Buka manual: event 'locago:open-donate' (mis. item "Traktir Kopi" di
+// Navbar) — klik eksplisit user selalu membuka popup, tanpa guard supresi.
 import React, { useEffect, useState } from 'react';
 import { Coffee, X, Heart, Check, Loader2 } from 'lucide-react';
 import { makeOrderId, requestSnapToken, payWithSnap, checkPaymentStatus } from '../lib/midtrans';
@@ -61,6 +63,19 @@ export const DonateWidget: React.FC = () => {
       document.removeEventListener('scroll', onScroll, { capture: true });
       window.removeEventListener('locago:download-complete', onDownload);
     };
+  }, []);
+
+  // Buka manual via event 'locago:open-donate' (mis. item "Traktir Kopi" di
+  // Navbar). Sengaja di useEffect terpisah dan TANPA guard supresi/sesi —
+  // klik eksplisit user harus selalu membuka popup, sama seperti tombol
+  // kopi mengambang.
+  useEffect(() => {
+    const onOpenRequest = () => {
+      setPhase('form');
+      setIsOpen(true);
+    };
+    window.addEventListener('locago:open-donate', onOpenRequest);
+    return () => window.removeEventListener('locago:open-donate', onOpenRequest);
   }, []);
 
   const close = () => {

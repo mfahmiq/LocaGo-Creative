@@ -107,6 +107,14 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  // Traktir Kopi: buka popup donasi Midtrans yang sudah ada (DonateWidget)
+  // lewat event 'locago:open-donate' — BUKAN link keluar / halaman baru.
+  // Tutup dulu drawer mobile supaya popup terlihat bersih.
+  const handleDonateClick = () => {
+    setMobileMenuOpen(false);
+    window.dispatchEvent(new CustomEvent('locago:open-donate'));
+  };
+
   // Clean formatted user display name
   const displayName = isOwner ? 'Mas Fahmi' : (user?.name?.split(' ')[0] || 'Member');
 
@@ -309,16 +317,15 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
               {language === 'en' ? 'ID' : 'EN'}
             </button>
 
-            {/* Donasi Lynk.id 2rb Quick Button (Single line, no wrapping!) */}
-            <a
-              href="https://lynk.id/dwollopus"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="h-8 px-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-mono font-bold transition-all shadow-sm active:scale-95 flex items-center gap-1.5 whitespace-nowrap shrink-0"
+            {/* Traktir Kopi — buka popup donasi Midtrans (bukan link keluar) */}
+            <button
+              onClick={handleDonateClick}
+              className="h-8 px-3 rounded-xl bg-amber-500 hover:bg-amber-400 text-white text-xs font-mono font-bold transition-all shadow-sm active:scale-95 flex items-center gap-1.5 whitespace-nowrap shrink-0 cursor-pointer"
+              aria-label="Traktir kopi untuk LocaGo Creative"
             >
               <Coffee className="w-3.5 h-3.5" />
-              <span>Donasi 2rb</span>
-            </a>
+              <span>Traktir Kopi</span>
+            </button>
           </div>
 
           {/* Mobile Right Controls */}
@@ -527,19 +534,24 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
               </div>
               <span className="font-mono text-xs text-neutral-400">06 →</span>
             </button>
+
+            <button
+              onClick={handleDonateClick}
+              className="w-full flex items-center justify-between p-3 rounded-xl border text-left cursor-pointer border-amber-500 bg-amber-50 dark:bg-amber-950/40"
+            >
+              <div className="flex items-center gap-2">
+                <Coffee className="w-4 h-4 text-amber-500" />
+                <span className="text-sm font-semibold text-neutral-900 dark:text-white">
+                  Traktir Kopi
+                </span>
+                <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-amber-500 text-white font-mono">
+                  Donasi
+                </span>
+              </div>
+              <span className="font-mono text-xs text-neutral-400">07 →</span>
+            </button>
           </div>
 
-          <div className="mt-6 pt-4 border-t border-neutral-100 dark:border-neutral-800 flex gap-2">
-            <a
-              href="https://lynk.id/dwollopus"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex-1 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-mono font-bold text-center transition-all shadow-sm active:scale-95 inline-flex items-center justify-center gap-2"
-            >
-              <Coffee className="w-4 h-4" />
-              <span>Donasi 2rb & Download Cepat</span>
-            </a>
-          </div>
         </div>
       </div>
     </>
