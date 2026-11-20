@@ -3205,14 +3205,50 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.locagocreative.my.id/artikel/dashboard-analitik-sendiri-data-bisnis-umkm</loc>
-    <lastmod>2026-11-18</lastmod>
+    <loc>https://www.locagocreative.my.id/artikel/panduan-nuclei</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.locagocreative.my.id/artikel/panduan-diagram-design</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.locagocreative.my.id/artikel/panduan-superpowers</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.locagocreative.my.id/artikel/panduan-affine</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.locagocreative.my.id/artikel/panduan-autoclip</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.locagocreative.my.id/artikel/panduan-scrapling</loc>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.locagocreative.my.id/artikel/panduan-spaceship-ide</loc>
     <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.locagocreative.my.id/artikel/dashboard-analitik-sendiri-data-bisnis-umkm</loc>
+    <lastmod>2026-11-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3361,14 +3397,8 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.locagocreative.my.id/source-code/presensi-elite-andra</loc>
+    <loc>https://www.locagocreative.my.id/source-code/computer-based-test-web</loc>
     <lastmod>2026-11-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.locagocreative.my.id/source-code/inventaris-lab-21-update</loc>
-    <lastmod>2026-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3380,6 +3410,12 @@
   </url>
   <url>
     <loc>https://www.locagocreative.my.id/source-code/hotel-management-system</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.locagocreative.my.id/source-code/presensi-elite-andra</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -3422,6 +3458,12 @@
   </url>
   <url>
     <loc>https://www.locagocreative.my.id/source-code/planthr-lite---manufacturing-attendance-overtime-management-system</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.locagocreative.my.id/source-code/inventaris-lab-21-update</loc>
     <lastmod>2026-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

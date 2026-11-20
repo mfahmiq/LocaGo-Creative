@@ -90,6 +90,18 @@ GUIDES = {
         "variant": "portrait",
         "out": "public/banners/articles/guide-autoclip.webp",
     },
+    "panduan-scrapling": {
+        "name": "Scrapling",
+        "image": "https://raw.githubusercontent.com/D4Vinci/Scrapling/main/docs/assets/main_cover.png",
+        "variant": "landscape",
+        "out": "public/banners/articles/guide-scrapling.webp",
+    },
+    "panduan-nuclei": {
+        "name": "Nuclei",
+        "image": "https://raw.githubusercontent.com/projectdiscovery/nuclei/dev/static/nuclei-cover.png",
+        "variant": "landscape",
+        "out": "public/banners/articles/guide-nuclei.webp",
+    },
 }
 
 # Frame visual (x, y, w, h) per varian — kanan canvas.
