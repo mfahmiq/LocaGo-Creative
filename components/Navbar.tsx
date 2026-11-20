@@ -16,7 +16,23 @@ import { useTheme } from '../context/ThemeContext';
 import { useLanguage } from '../context/LanguageContext';
 import { useAuth } from '../context/AuthContext';
 import { NavigationTab } from '../types';
-import { fetchCatalogCount } from '../lib/catalogData';
+import { fetchCatalogCount, fetchToolsDisplayCount } from '../lib/catalogData';
+
+// Cache jumlah nav di localStorage: jangan pernah tampil "0" saat fetch
+// async belum selesai (itulah bug "Playlist 0 / Artikel 0" di uji visual).
+// null = belum pernah diketahui sama sekali -> badge tampil '…'.
+const NAV_COUNTS_KEY = 'locago_nav_counts';
+interface NavCounts { sc: number; tools: number; articles: number; playlists: number }
+const loadCachedCounts = (): NavCounts | null => {
+  try {
+    const raw = localStorage.getItem(NAV_COUNTS_KEY);
+    if (!raw) return null;
+    const parsed = JSON.parse(raw) as Partial<NavCounts>;
+    if (typeof parsed.sc !== 'number' || typeof parsed.tools !== 'number' ||
+        typeof parsed.articles !== 'number' || typeof parsed.playlists !== 'number') return null;
+    return parsed as NavCounts;
+  } catch { return null; }
+};
 
 interface NavbarProps {
   activeTab: NavigationTab;
@@ -30,24 +46,35 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
   const { language, setLanguage } = useLanguage();
   const { user, isOwner, isLoggedIn, openAuthModal, logout } = useAuth();
 
-  const [scCount, setScCount] = useState<number>(0);
-  const [toolsCount, setToolsCount] = useState<number>(0);
-  const [articlesCount, setArticlesCount] = useState<number>(0);
-  const [playlistCount, setPlaylistCount] = useState<number>(0);
+  // Badge nav: nilai awal dari cache (bukan 0), lalu disegarkan dari Supabase.
+  // AI Tools memakai jumlah yang benar-benar ditampilkan di hub (gatekeeper),
+  // bukan total mentah tabel — badge "603+" vs "528 alat" di hub.
+  const [cached] = useState<NavCounts | null>(loadCachedCounts);
+  const [scCount, setScCount] = useState<number | null>(cached?.sc ?? null);
+  const [toolsCount, setToolsCount] = useState<number | null>(cached?.tools ?? null);
+  const [articlesCount, setArticlesCount] = useState<number | null>(cached?.articles ?? null);
+  const [playlistCount, setPlaylistCount] = useState<number | null>(cached?.playlists ?? null);
 
   // Live counts from Supabase only (lib/catalogData)
   useEffect(() => {
+    const persistCounts = (partial: Partial<NavCounts>) => {
+      try {
+        const prev = loadCachedCounts() ?? {};
+        localStorage.setItem(NAV_COUNTS_KEY, JSON.stringify({ ...prev, ...partial }));
+      } catch {}
+    };
+    const next: Partial<NavCounts> = {};
     fetchCatalogCount('source_codes').then((n) => {
-      if (n !== null) setScCount(n);
+      if (n !== null) { setScCount(n); next.sc = n; persistCounts(next); }
     });
-    fetchCatalogCount('ai_tools').then((n) => {
-      if (n !== null) setToolsCount(n);
+    fetchToolsDisplayCount().then((n) => {
+      if (n !== null) { setToolsCount(n); next.tools = n; persistCounts(next); }
     });
     fetchCatalogCount('articles').then((n) => {
-      if (n !== null) setArticlesCount(n);
+      if (n !== null) { setArticlesCount(n); next.articles = n; persistCounts(next); }
     });
     fetchCatalogCount('linklists').then((n) => {
-      if (n !== null) setPlaylistCount(n);
+      if (n !== null) { setPlaylistCount(n); next.playlists = n; persistCounts(next); }
     });
   }, []);
 
@@ -144,7 +171,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                     : 'bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-400'
                 }`}
               >
-                {scCount}
+                {scCount ?? '…'}
               </span>
             </button>
 
@@ -182,7 +209,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                     : 'bg-purple-100 dark:bg-purple-950/60 text-purple-700 dark:text-purple-400'
                 }`}
               >
-                {toolsCount}+
+                {toolsCount === null ? '…' : toolsCount + '+'}
               </span>
             </button>
 
@@ -203,7 +230,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                     : 'bg-purple-100 dark:bg-purple-950/60 text-purple-700 dark:text-purple-400'
                 }`}
               >
-                {playlistCount}
+                {playlistCount ?? '…'}
               </span>
             </button>
 
@@ -224,7 +251,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                     : 'bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-400'
                 }`}
               >
-                {articlesCount}
+                {articlesCount ?? '…'}
               </span>
             </button>
           </div>
@@ -415,7 +442,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                   Source Code Gratis
                 </span>
                 <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-emerald-600 text-white font-mono">
-                  {scCount}
+                  {scCount ?? '…'}
                 </span>
               </div>
               <span className="font-mono text-xs text-neutral-400">02 →</span>
@@ -455,7 +482,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                   Katalog AI Tools & Otomasi
                 </span>
                 <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-purple-600 text-white font-mono">
-                  {toolsCount}+
+                  {toolsCount === null ? '…' : toolsCount + '+'}
                 </span>
               </div>
               <span className="font-mono text-xs text-neutral-400">04 →</span>
@@ -475,7 +502,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                   Library Playlist AI
                 </span>
                 <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-purple-600 text-white font-mono">
-                  {playlistCount}
+                  {playlistCount ?? '…'}
                 </span>
               </div>
               <span className="font-mono text-xs text-neutral-400">05 →</span>
@@ -495,7 +522,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
                   Artikel & Panduan AI
                 </span>
                 <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-emerald-600 text-white font-mono">
-                  {articlesCount}
+                  {articlesCount ?? '…'}
                 </span>
               </div>
               <span className="font-mono text-xs text-neutral-400">06 →</span>

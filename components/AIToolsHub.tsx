@@ -16,7 +16,6 @@ import {
   ArrowUpRight, 
   Heart, 
   Check, 
-  Eye, 
   Lightbulb, 
   BookOpen, 
   Zap, 
@@ -104,7 +103,7 @@ export const AIToolsHub: React.FC<AIToolsHubProps> = ({ initialToolSlug = null, 
   const [loadError, setLoadError] = useState<string | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<string>('Semua');
   const [selectedPricing, setSelectedPricing] = useState<string>('Semua');
-  const [sortBy, setSortBy] = useState<'popular' | 'name'>('popular');
+  const [sortBy, setSortBy] = useState<'default' | 'name'>('default');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [isSubmitModalOpen, setIsSubmitModalOpen] = useState<boolean>(false);
 
@@ -288,26 +287,10 @@ export const AIToolsHub: React.FC<AIToolsHubProps> = ({ initialToolSlug = null, 
     }
   });
 
-  const [views, setViews] = useState<Record<string, number>>(() => {
-    try {
-      const saved = localStorage.getItem('locago_ai_views');
-      return saved ? JSON.parse(saved) : {};
-    } catch {
-      return {};
-    }
-  });
-
   // appendUtm diimpor dari lib/utm (utm_medium=website, utm_campaign=ai-tools).
-
-  const trackClick = (toolId?: string) => {
-    if (!toolId) return;
-    const current = views[toolId] || 0;
-    const nextViews = { ...views, [toolId]: current + 1 };
-    setViews(nextViews);
-    try {
-      localStorage.setItem('locago_ai_views', JSON.stringify(nextViews));
-    } catch {}
-  };
+  // (Dulu ada pelacak views lokal + trackClick di sini; dihapus 20 Nov 2026
+  // karena angka views-nya karangan. Klik tool yang sebenarnya sudah dicatat
+  // server-side lewat /api/click -> tool_clicks.)
 
   const categories = [
     'Semua',
@@ -396,7 +379,7 @@ export const AIToolsHub: React.FC<AIToolsHubProps> = ({ initialToolSlug = null, 
       authorName: isOwner ? 'Mas Fahmi (Founder & Owner)' : (user?.name || 'Kreator Komunitas'),
       isOfficial: isOwner,
       createdAt: new Date().toLocaleDateString('id-ID', { day: '2-digit', month: 'short', year: 'numeric' }),
-      views: 12
+      views: 0 // playlist baru: 0 views (bukan angka seed karangan)
     };
 
     saveLinkLists([newList, ...linkLists]);
@@ -575,9 +558,12 @@ export const AIToolsHub: React.FC<AIToolsHubProps> = ({ initialToolSlug = null, 
   const filteredAndSortedTools = useMemo(() => {
     // Gatekeeper: katalog wajib logo + bukan producthunt — KECUALI tool
     // berbayar auto-ACC (isPaidBoost) yang tampil lewat RPC dan belum punya logo.
+    // Tool yang ditandai needsReview (moderasi, mis. konten dewasa) TIDAK
+    // tampil sampai ditinjau — ini saklar moderasi publik katalog.
     let baseList = (tools || []).filter(
       (tool) =>
         tool &&
+        tool.needsReview !== true &&
         (Boolean(tool.isPaidBoost) ||
           (Boolean(tool.logoUrl && tool.logoUrl.trim()) &&
             Boolean(tool.affiliateUrl && !tool.affiliateUrl.toLowerCase().includes('producthunt.com'))))
@@ -615,17 +601,16 @@ export const AIToolsHub: React.FC<AIToolsHubProps> = ({ initialToolSlug = null, 
       const boostB = b.isPaidBoost && b.boost_until && new Date(b.boost_until).getTime() > Date.now() ? 1 : 0;
       if (boostA !== boostB) return boostB - boostA;
       if (boostA && boostB) return (b.donation_amount || 0) - (a.donation_amount || 0);
-      if (sortBy === 'popular') {
-        const votesA = (a.id && upvotes[a.id] !== undefined) ? upvotes[a.id] : 20;
-        const votesB = (b.id && upvotes[b.id] !== undefined) ? upvotes[b.id] : 20;
-        return votesB - votesA;
-      }
+      // 'default' = urutan sort_order dari database (relevansi katalog).
+      // TIDAK ada sort "terpopuler" berbasis angka upvote/views — tidak ada
+      // data aslinya di tabel, dan angka fallback (18 / 20 / 120+...) adalah
+      // angka karangan yang sudah dihapus dari kartu (uji visual 20 Nov 2026).
       if (sortBy === 'name') {
         return (a.name || '').localeCompare(b.name || '');
       }
       return 0;
     });
-  }, [tools, activeLinkList, selectedCategory, selectedPricing, searchQuery, sortBy, upvotes]);
+  }, [tools, activeLinkList, selectedCategory, selectedPricing, searchQuery, sortBy]);
 
   return (
     <section id="ai-tools" className="pt-28 pb-24 bg-neutral-50/60 dark:bg-neutral-950 text-neutral-900 dark:text-white min-h-screen relative overflow-hidden transition-colors duration-200">
@@ -900,10 +885,10 @@ export const AIToolsHub: React.FC<AIToolsHubProps> = ({ initialToolSlug = null, 
 
               <select
                 value={sortBy}
-                onChange={(e) => setSortBy(e.target.value as 'popular' | 'name')}
+                onChange={(e) => setSortBy(e.target.value as 'default' | 'name')}
                 className="px-3 py-2 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-950 text-neutral-700 dark:text-neutral-300 text-xs font-mono focus:outline-none focus:ring-2 focus:ring-purple-500 cursor-pointer"
               >
-                <option value="popular">Terpopuler (Upvotes)</option>
+                <option value="default">Paling Relevan</option>
                 <option value="name">Nama (A-Z)</option>
               </select>
             </div>
@@ -943,7 +928,9 @@ export const AIToolsHub: React.FC<AIToolsHubProps> = ({ initialToolSlug = null, 
         ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredAndSortedTools.map((tool) => {
-            const voteVal = upvotes[tool.id] !== undefined ? upvotes[tool.id] : 18;
+            // Angka upvote TIDAK ditampilkan: tidak ada data upvote asli di
+            // tabel (fallback "18" lama adalah angka karangan). Tombol hati
+            // tetap berfungsi sebagai penanda favorit lokal per-browser.
             const hasVoted = !!userVoted[tool.id];
 
             return (
@@ -955,11 +942,11 @@ export const AIToolsHub: React.FC<AIToolsHubProps> = ({ initialToolSlug = null, 
                 <div>
                   {/* Card Header with Real Logo */}
                   <div className="flex items-start justify-between gap-3 mb-3">
-                    <div className="flex items-center gap-3">
+                    <div className="flex items-center gap-3 min-w-0 flex-1">
                       <AIToolLogoBadge logoUrl={tool.logoUrl} name={tool.name} size="sm" />
-                      <div>
-                        <h3 className="font-bold text-lg text-neutral-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-300 transition-colors flex items-center gap-1.5">
-                          <span>{tool.name || 'AI Tool'}</span>
+                      <div className="min-w-0">
+                        <h3 className="font-bold text-lg text-neutral-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-300 transition-colors flex flex-wrap items-center gap-1.5">
+                          <span className="break-words">{tool.name || 'AI Tool'}</span>
                           {tool.isFeatured && (
                             <span className="text-[10px] font-mono font-bold px-1.5 py-0.5 rounded bg-purple-100 dark:bg-purple-500/20 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-500/30">
                               PRO
@@ -1012,7 +999,6 @@ export const AIToolsHub: React.FC<AIToolsHubProps> = ({ initialToolSlug = null, 
                         title="Upvote tool ini"
                       >
                         <Heart className={`w-3.5 h-3.5 ${hasVoted ? 'fill-rose-500 text-rose-500' : 'text-neutral-400'}`} />
-                        <span>{voteVal}</span>
                       </button>
                     </div>
                   </div>
@@ -1041,10 +1027,8 @@ export const AIToolsHub: React.FC<AIToolsHubProps> = ({ initialToolSlug = null, 
                 {/* Card Footer */}
                 <div className="pt-3 border-t border-neutral-100 dark:border-neutral-800/80 flex items-center justify-between gap-3" onClick={(e) => e.stopPropagation()}>
                   <div className="flex items-center gap-2">
-                    <div className="text-[11px] font-mono text-neutral-500 flex items-center gap-1">
-                      <Eye className="w-3.5 h-3.5" />
-                      <span>{(views[tool.id] || (120 + tool.name.length * 15))} views</span>
-                    </div>
+                    {/* Angka views TIDAK ditampilkan: fallback lama
+                        (120 + panjang nama * 15) adalah angka karangan. */}
 
                     {/* If viewing inside active LinkList: 1-click remove button for authorized author/owner */}
                     {activeLinkList && canEditActiveList && (
@@ -1063,7 +1047,6 @@ export const AIToolsHub: React.FC<AIToolsHubProps> = ({ initialToolSlug = null, 
                     href={`/api/click?tool=${encodeURIComponent(tool.id)}&slug=${slugifyName(tool.name)}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    onClick={() => trackClick(tool.id)}
                     className="py-2 px-4 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-mono text-xs font-bold transition-all shadow-sm active:scale-95 flex items-center gap-1.5 cursor-pointer"
                   >
                     <span>Kunjungi {tool.name}</span>

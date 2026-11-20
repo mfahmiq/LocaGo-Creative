@@ -98,7 +98,7 @@ function loadFallback() {
 async function loadData() {
   try {
     const [toolsRaw, articles, sourceCodes] = await Promise.all([
-      rest('ai_tools', 'name,logoUrl,affiliateUrl,updated_at'),
+      rest('ai_tools', 'name,logoUrl,affiliateUrl,needsReview,updated_at'),
       rest('articles', 'slug,updated_at'),
       rest('source_codes', 'slug,updated_at'),
     ]);
@@ -112,7 +112,10 @@ async function loadData() {
     const seen = new Set();
     const tools = [];
     for (const t of toolsRaw) {
+      // Gatekeeper sama seperti AIToolsHub + needsReview (moderasi): tool
+      // yang ditandai tidak tayang tidak masuk sitemap.
       const visible =
+        t.needsReview !== true &&
         (t.logoUrl && String(t.logoUrl).trim() &&
           t.affiliateUrl && !String(t.affiliateUrl).toLowerCase().includes('producthunt.com'));
       if (!visible) continue;

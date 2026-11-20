@@ -176,7 +176,10 @@ export const GitHubTrendingHub: React.FC = () => {
         const upvoteVal = upvotes[repo.id] !== undefined ? upvotes[repo.id] : repo.starsToday;
         return {
           ...repo,
-          rank: repo.rank ?? idx + 1,
+          // Peringkat = posisi dalam daftar yang sedang ditampilkan.
+          // Nilai rank tersimpan di DB TIDAK dipakai: data lama berisi dua
+          // seri yang saling tumpang-tindih (dua #1, dua #2, dst).
+          rank: idx + 1,
           calculatedGain: repo.starsToday,
           upvotesCount: upvoteVal,
           isUpvoted: !!userVoted[repo.id]

@@ -41,16 +41,24 @@ export const DonateWidget: React.FC = () => {
 
     const timer = window.setTimeout(show, DELAY_MS);
     const onScroll = () => {
+      // Robust: hitung dari window.scrollY + fallback body/documentElement,
+      // dan dengarkan juga di document (capture) agar scroll di kontainer
+      // dalam tetap terdeteksi.
       const el = document.documentElement;
-      const ratio = el.scrollTop / Math.max(1, el.scrollHeight - el.clientHeight);
+      const scrollTop = window.scrollY || el.scrollTop || document.body.scrollTop || 0;
+      const scrollHeight = Math.max(el.scrollHeight, document.body.scrollHeight);
+      const clientHeight = window.innerHeight || el.clientHeight || 0;
+      const ratio = scrollTop / Math.max(1, scrollHeight - clientHeight);
       if (ratio >= 0.7) show();
     };
     const onDownload = () => show();
     window.addEventListener('scroll', onScroll, { passive: true });
+    document.addEventListener('scroll', onScroll, { passive: true, capture: true });
     window.addEventListener('locago:download-complete', onDownload);
     return () => {
       window.clearTimeout(timer);
       window.removeEventListener('scroll', onScroll);
+      document.removeEventListener('scroll', onScroll, { capture: true });
       window.removeEventListener('locago:download-complete', onDownload);
     };
   }, []);

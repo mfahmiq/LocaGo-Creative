@@ -14,7 +14,6 @@ import {
   Zap, 
   X, 
   Flame, 
-  Star, 
   BookOpen, 
   ShieldCheck, 
   Coffee 
@@ -953,10 +952,9 @@ export const SourceCodeHub: React.FC<SourceCodeHubProps> = ({ initialItemSlug = 
                         <Download className="w-3 h-3" />
                         <span>{item.downloadsCount}x</span>
                       </span>
-                      <span className="flex items-center gap-1">
-                        <Star className="w-3 h-3 fill-amber-400 text-amber-400" />
-                        <span>{item.rating}</span>
-                      </span>
+                      {/* Rating TIDAK ditampilkan: semua 13 baris di database
+                          bernilai 4.95 identik — bukan data ulasan nyata.
+                          Ditampilkan lagi hanya bila ada ulasan nyata. */}
                       <span className="flex items-center gap-1">
                         <Package className="w-3 h-3" />
                         <span>{item.fileSize}</span>

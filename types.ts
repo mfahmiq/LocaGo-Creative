@@ -106,6 +106,8 @@ export interface AIToolItem {
   affiliateUrl: string;
   isFeatured?: boolean;
   websiteUrl?: string;
+  // Moderasi katalog: true = sedang ditinjau, tidak tampil di katalog publik
+  needsReview?: boolean;
   // Paid submit (donasi) — diisi dari RPC list_live_paid_tools
   donation_amount?: number;
   boost_until?: string;

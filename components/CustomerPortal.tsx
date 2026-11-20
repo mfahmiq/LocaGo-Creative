@@ -92,7 +92,8 @@ export const CustomerPortal: React.FC<{ token: string }> = ({ token }) => {
 
   if (error || !sub) {
     return (
-      <section className="pt-28 pb-24 min-h-screen max-w-xl mx-auto px-6 text-center">
+      <section className="pt-28 pb-24 min-h-screen flex items-center justify-center px-6">
+        <div className="max-w-xl w-full text-center">
         <XCircle className="w-10 h-10 text-red-400 mx-auto mb-3" />
         <h1 className="text-2xl font-bold mb-2">Portal Tidak Ditemukan</h1>
         <p className="text-sm text-neutral-500">{error}</p>
@@ -101,6 +102,7 @@ export const CustomerPortal: React.FC<{ token: string }> = ({ token }) => {
             <button onClick={() => setAttempt((a) => a + 1)} className="px-5 py-2.5 rounded-xl bg-neutral-100 dark:bg-neutral-800 text-xs font-mono font-bold cursor-pointer">Coba Lagi</button>
           )}
           <a href="/ai-tools" className="inline-block px-5 py-2.5 rounded-xl bg-purple-600 text-white text-xs font-mono font-bold">Kembali ke AI Tools</a>
+        </div>
         </div>
       </section>
     );

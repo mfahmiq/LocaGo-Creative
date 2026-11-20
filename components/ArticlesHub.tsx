@@ -184,7 +184,7 @@ export const ArticlesHub: React.FC<ArticlesHubProps> = ({ initialArticleSlug = n
               </svg>
             </div>
 
-            <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none">
+            <div className="flex flex-wrap items-center gap-1.5 pb-1">
               <span className="text-[11px] font-mono text-neutral-400 shrink-0 mr-1">Topik:</span>
               {categories.map((cat) => (
                 <button
@@ -236,13 +236,15 @@ export const ArticlesHub: React.FC<ArticlesHubProps> = ({ initialArticleSlug = n
                 className="group p-5 rounded-2xl bg-white dark:bg-neutral-900 border border-neutral-200/80 dark:border-neutral-800 hover:border-emerald-500/40 transition-all duration-200 hover:shadow-xl flex flex-col justify-between"
               >
                 <div>
-                  {/* Cover Image */}
-                  <div className="relative aspect-video rounded-xl overflow-hidden mb-4 bg-neutral-900">
+                  {/* Cover Image — latar skeleton terang (bukan hitam) agar saat
+                      gambar besar sedang dimuat tidak terlihat seperti cover rusak */}
+                  <div className="relative aspect-video rounded-xl overflow-hidden mb-4 bg-neutral-200 dark:bg-neutral-800">
                     <img
                       src={art.cover}
                       alt={art.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                      loading="eager"
+                      loading="lazy"
+                      decoding="async"
                       onError={(e) => {
                         e.currentTarget.onerror = null;
                         e.currentTarget.src = '/banners/articles/article_ai_coding_tools.webp';

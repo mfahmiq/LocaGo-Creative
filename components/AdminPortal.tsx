@@ -181,7 +181,7 @@ export const AdminPortal: React.FC = () => {
       <section className="pt-28 pb-24 min-h-screen max-w-xl mx-auto px-6 text-center">
         <Lock className="w-10 h-10 text-amber-500 mx-auto mb-3" />
         <h1 className="text-2xl font-bold mb-2">Portal Admin — Khusus Owner</h1>
-        <p className="text-sm text-neutral-500 mb-6">Halaman ini tidak terindeks Google dan tidak ada di navigasi publik. Login dengan akun Supabase Auth owner (fahmi@locagocreative.my.id) untuk membuka dashboard.</p>
+        <p className="text-sm text-neutral-500 mb-6">Halaman ini tidak terindeks Google dan tidak ada di navigasi publik. Login dengan akun Supabase Auth owner untuk membuka dashboard.</p>
         <button onClick={openAuthModal} className="px-5 py-2.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white text-xs font-mono font-bold cursor-pointer">Login Owner</button>
         {isLoggedIn && <p className="text-xs text-red-500 mt-4">Akun {user?.email} bukan owner.</p>}
       </section>
