@@ -13,7 +13,7 @@
         "MySQL"
       ],
       "description": "A comprehensive web-based School Management System built with PHP and MySQL. This project provides a robust platform for managing students, staff, courses, finances, academic records, and more. \n\nProyek riil open-source asli dari GitHub (https://github.com/henry2547/school). Dilengkapi file database lengkap (database/schema.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Comprehensive School Management System - School dengan database database/migrations/20261119_teacher_assessments.sql, data contoh bawaan, dan tutorial instalasi.",
+      "shortDesc": "Proyek riil Comprehensive School Management System - School dengan database database/schema.sql, data contoh bawaan, dan tutorial instalasi.",
       "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
@@ -60,7 +60,7 @@
       ],
       "keyFeatures": [
         "Proyek riil dari GitHub (henry2547/school) dengan source code lengkap",
-        "Disertai database asli (database/migrations/20261119_teacher_assessments.sql) beserta skema dan data contoh",
+        "Disertai database asli (database/schema.sql) beserta skema dan data contoh",
         "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
         "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
         "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
