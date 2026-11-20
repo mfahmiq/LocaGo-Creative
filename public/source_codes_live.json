@@ -12,7 +12,7 @@
         "PHP",
         "MySQL"
       ],
-      "description": "A comprehensive web-based School Management System built with PHP and MySQL. This project provides a robust platform for managing students, staff, courses, finances, academic records, and more. \n\nProyek riil open-source asli dari GitHub (https://github.com/henry2547/school). Dilengkapi file database lengkap (database/migrations/20261119_teacher_assessments.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "description": "A comprehensive web-based School Management System built with PHP and MySQL. This project provides a robust platform for managing students, staff, courses, finances, academic records, and more. \n\nProyek riil open-source asli dari GitHub (https://github.com/henry2547/school). Dilengkapi file database lengkap (database/schema.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
       "shortDesc": "Proyek riil Comprehensive School Management System - School dengan database database/migrations/20261119_teacher_assessments.sql, data contoh bawaan, dan tutorial instalasi.",
       "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
@@ -21,9 +21,24 @@
       ],
       "defaultCredentials": [
         {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
+          "role": "Admin",
+          "username": "admin@school.test",
+          "password": "Admin@12345"
+        },
+        {
+          "role": "Siswa",
+          "username": "amina.otieno@school.test",
+          "password": "Admin@12345"
+        },
+        {
+          "role": "Guru",
+          "username": "grace.njeri@school.test",
+          "password": "Admin@12345"
+        },
+        {
+          "role": "Orang Tua",
+          "username": "mary.otieno@example.test",
+          "password": "Admin@12345"
         }
       ],
       "updatedAt": "21 November 2026",
@@ -39,9 +54,9 @@
       "fileSize": "84 KB",
       "tutorialSteps": [
         "Ekstrak berkas `school.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `database/migrations/20261119_teacher_assessments.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/school` dan login dengan akun default."
+        "Import berkas SQL `database/schema.sql` ke database phpMyAdmin (membuat database `schoolhub` + akun demo).",
+        "Sesuaikan konfigurasi database di `config/database.php` bila perlu (bawaan: host 127.0.0.1, database schoolhub, user root, password kosong).",
+        "Buka browser di `http://localhost/school/public` dan login dengan akun demo (Admin: admin@school.test / Admin@12345)."
       ],
       "keyFeatures": [
         "Proyek riil dari GitHub (henry2547/school) dengan source code lengkap",
@@ -52,7 +67,7 @@
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=school&step=1&max=8",
       "downloadUrlFast": "/downloads/school.zip",
-      "driveUrl": "",
+      "driveUrl": "https://drive.google.com/file/d/1KWPcSQ5bgAJ-JCG9wcG-J4nzkInc8nKl/view?usp=drivesdk",
       "githubRepo": "https://github.com/henry2547/school",
       "stars": 1
     },
