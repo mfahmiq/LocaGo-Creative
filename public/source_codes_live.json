@@ -21,9 +21,14 @@
       ],
       "defaultCredentials": [
         {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
+          "role": "Admin",
+          "username": "admin@example.com",
+          "password": "admin123"
+        },
+        {
+          "role": "User",
+          "username": "user1@example.com",
+          "password": "user123"
         }
       ],
       "updatedAt": "20 November 2026",
@@ -52,7 +57,7 @@
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=computer-based-test-web&step=1&max=8",
       "downloadUrlFast": "/downloads/computer-based-test-web.zip",
-      "driveUrl": "",
+      "driveUrl": "https://drive.google.com/file/d/1bJ2ohux1Ll4JfBD5fcGuJ_HVLRWh90nW/view?usp=drivesdk",
       "githubRepo": "https://github.com/Hanywalll/computer-based-test-web",
       "stars": 0
     },
