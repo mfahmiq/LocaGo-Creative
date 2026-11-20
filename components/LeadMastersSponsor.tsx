@@ -69,8 +69,8 @@ export const LeadMastersSponsor: React.FC<LeadMastersSponsorProps> = ({
             LeadMasters
           </div>
           <p className="text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed mt-1">
-            Cari prospek, kirim penawaran, dan kelola pelanggan — semua dalam satu
-            dashboard. Cuma Rp149.000, sekali bayar, lifetime, tanpa langganan.
+            Cari prospek sampai closing otomatis, dibantu AI Assistant — unlimited,
+            lifetime, seumur hidup. Cuma Rp149.000, sekali bayar, tanpa langganan.
           </p>
           <a
             href={LEADMASTERS_CLICK_URL}
