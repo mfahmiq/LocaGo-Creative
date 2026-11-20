@@ -231,7 +231,10 @@ export const canUserEditLinkList = (
 };
 
 /**
- * Initial curated playlists authored by Mas Fahmi & initial community spotlights
+ * Initial curated playlists authored by Mas Fahmi & initial community spotlights.
+ * CATATAN (aturan 20 Nov 2026): jangan seed angka views karangan di sini —
+ * angka views asli hanya berasal dari counter Supabase; display menyembunyikan
+ * views bila nilainya 0 / tidak ada.
  */
 export const INITIAL_COMMUNITY_LINKLISTS: LinkListItem[] = [
   {
@@ -253,7 +256,7 @@ export const INITIAL_COMMUNITY_LINKLISTS: LinkListItem[] = [
     authorName: 'Mas Fahmi (Founder & Owner)',
     isOfficial: true,
     createdAt: '04 Nov 2026',
-    views: 1420
+    views: 0
   },
   {
     id: 'list-ai-coding-stack-2026',
@@ -274,7 +277,7 @@ export const INITIAL_COMMUNITY_LINKLISTS: LinkListItem[] = [
     authorName: 'Mas Fahmi (Founder & Owner)',
     isOfficial: true,
     createdAt: '04 Nov 2026',
-    views: 980
+    views: 0
   },
   {
     id: 'list-growth-marketing-automation',
@@ -295,6 +298,6 @@ export const INITIAL_COMMUNITY_LINKLISTS: LinkListItem[] = [
     authorName: 'Mas Fahmi (Founder & Owner)',
     isOfficial: true,
     createdAt: '04 Nov 2026',
-    views: 750
+    views: 0
   }
 ];

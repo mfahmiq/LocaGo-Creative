@@ -288,7 +288,8 @@ export const LinkListsHub: React.FC<LinkListsHubProps> = ({ initialLinklistSlug 
       authorName: isOwner ? 'Mas Fahmi (Founder & Owner)' : (user?.name || 'Kreator Komunitas'),
       isOfficial: isOwner,
       createdAt: new Date().toLocaleDateString('id-ID', { day: '2-digit', month: 'short', year: 'numeric' }),
-      views: 10
+      // Linklist baru: 0 views — jangan seed angka karangan (aturan 20 Nov 2026).
+      views: 0
     };
 
     saveLists([newList, ...linkLists]);
@@ -793,7 +794,10 @@ export const LinkListsHub: React.FC<LinkListsHubProps> = ({ initialLinklistSlug 
                       </span>
                     )}
                     <span className="text-[11px] text-neutral-400 font-mono inline-flex items-center gap-1"><Calendar className="w-3 h-3" /> {viewingList.createdAt}</span>
-                    <span className="text-[11px] text-neutral-400 font-mono inline-flex items-center gap-1"><Eye className="w-3 h-3" /> {viewingList.views || 350} views</span>
+                    {/* Views hanya tampil bila angka asli > 0 — jangan tampilkan angka pengganti karangan (aturan 20 Nov 2026). */}
+                    {typeof viewingList.views === 'number' && viewingList.views > 0 && (
+                      <span className="text-[11px] text-neutral-400 font-mono inline-flex items-center gap-1"><Eye className="w-3 h-3" /> {viewingList.views} views</span>
+                    )}
                   </div>
                   <h2 className="text-xl font-bold text-neutral-900 dark:text-white leading-snug">
                     {viewingList.title}
