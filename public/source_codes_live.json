@@ -1,7 +1,62 @@
 {
-  "updatedAt": "20 Nov 2026, 13:06 WIB",
-  "total": 14,
+  "updatedAt": "20 Nov 2026, 15:55 WIB",
+  "total": 15,
   "items": [
+    {
+      "id": "sc-71",
+      "title": "Sistem Presensi Karyawan & Absensi Online - Presensi Elite Andra",
+      "slug": "presensi-elite-andra",
+      "category": "HRD & Keuangan",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "aplikasi presensi menggunakan codeigniter 4\n\nProyek riil open-source asli dari GitHub (https://github.com/havidandra01-coder/presensi-elite-andra). Dilengkapi file database lengkap (database/db_presensi.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Presensi Karyawan & Absensi Online - Presensi Elite Andra dengan database database/db_presensi.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/presensi-elite-andra/screenshot_1.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Demo",
+          "username": "Lihat README.md repo asli",
+          "password": "(lihat README repo)"
+        }
+      ],
+      "updatedAt": "20 November 2026",
+      "releaseDate": "20 November 2026",
+      "recentFastDownloads": 48,
+      "thumbnail": "/screenshots/presensi-elite-andra/screenshot_1.webp",
+      "downloadsCount": 1064,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "19.4 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `presensi-elite-andra.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `database/db_presensi.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/presensi-elite-andra` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (havidandra01-coder/presensi-elite-andra) dengan source code lengkap",
+        "Disertai database asli (database/db_presensi.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=presensi-elite-andra&step=1&max=8",
+      "downloadUrlFast": "/downloads/presensi-elite-andra.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/havidandra01-coder/presensi-elite-andra",
+      "stars": 0
+    },
     {
       "id": "sc-70",
       "title": "Sistem Manajemen Hotel - Hotel Management System",
