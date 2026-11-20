@@ -3205,7 +3205,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.locagocreative.my.id/artikel/panduan-nuclei</loc>
+    <loc>https://www.locagocreative.my.id/artikel/panduan-zaproxy</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -3242,6 +3242,12 @@
   </url>
   <url>
     <loc>https://www.locagocreative.my.id/artikel/panduan-spaceship-ide</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.locagocreative.my.id/artikel/panduan-nuclei</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

@@ -102,6 +102,13 @@ GUIDES = {
         "variant": "landscape",
         "out": "public/banners/articles/guide-nuclei.webp",
     },
+    "panduan-zaproxy": {
+        "name": "ZAP",
+        # Screenshot UI desktop resmi dari Getting Started Guide ZAP.
+        "image": "https://www.zaproxy.org/getting-started/images/zap-full-screen.png",
+        "variant": "landscape",
+        "out": "public/banners/articles/guide-zaproxy.webp",
+    },
 }
 
 # Frame visual (x, y, w, h) per varian — kanan canvas.
