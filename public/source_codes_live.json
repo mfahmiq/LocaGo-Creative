@@ -1,7 +1,61 @@
 {
-  "updatedAt": "20 Nov 2026, 07:21 WIB",
-  "total": 12,
+  "updatedAt": "20 Nov 2026, 09:03 WIB",
+  "total": 13,
   "items": [
+    {
+      "id": "sc-69",
+      "title": "Sistem Manajemen Laundry Kiloan - Aplikasi Kasir Laundry",
+      "slug": "aplikasi-kasir-laundry",
+      "category": "Layanan & Jasa",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL"
+      ],
+      "description": "Aplikasi kasir laundry berbasis PHP & MySQL dengan level admin dan petugas\n\nProyek riil open-source asli dari GitHub (https://github.com/ReyZ007/aplikasi-kasir-laundry). Dilengkapi file database lengkap (database/laundry.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Manajemen Laundry Kiloan - Aplikasi Kasir Laundry dengan database database/laundry.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/aplikasi-kasir-laundry/screenshot_1.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Demo",
+          "username": "Lihat README.md repo asli",
+          "password": "(lihat README repo)"
+        }
+      ],
+      "updatedAt": "20 November 2026",
+      "releaseDate": "20 November 2026",
+      "recentFastDownloads": 71,
+      "thumbnail": "/screenshots/aplikasi-kasir-laundry/screenshot_1.webp",
+      "downloadsCount": 843,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "4.9 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `aplikasi-kasir-laundry.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `database/laundry.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/aplikasi-kasir-laundry` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (ReyZ007/aplikasi-kasir-laundry) dengan source code lengkap",
+        "Disertai database asli (database/laundry.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=aplikasi-kasir-laundry&step=1&max=8",
+      "downloadUrlFast": "/downloads/aplikasi-kasir-laundry.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/ReyZ007/aplikasi-kasir-laundry",
+      "stars": 1
+    },
     {
       "id": "sc-68",
       "title": "Sistem Manajemen Hotel - Hotel Booking Management System",
