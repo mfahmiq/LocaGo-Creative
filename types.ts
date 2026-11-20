@@ -31,7 +31,7 @@ export interface Step {
 // NEW TYPES FOR LOCAGO ECOSYSTEM
 // ==========================================
 
-export type NavigationTab = 'agency' | 'source-code' | 'github-trending' | 'ai-tools' | 'linklists' | 'articles' | 'portal' | 'admin';
+export type NavigationTab = 'agency' | 'source-code' | 'github-trending' | 'ai-tools' | 'linklists' | 'articles' | 'portal' | 'admin' | 'gratis';
 
 export interface SourceCodeCredential {
   role: string;

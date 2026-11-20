@@ -157,6 +157,7 @@ function buildXml(data) {
   add(`${SITE}/source-code`, today, 'daily', '0.9');
   add(`${SITE}/github-trending`, today, 'daily', '0.9');
   add(`${SITE}/linklists`, today, 'weekly', '0.8');
+  add(`${SITE}/gratis`, today, 'daily', '0.9');
   for (const t of data.tools || []) add(`${SITE}/tools/${t.slug}`, t.lastmod, 'weekly', '0.8');
   for (const a of data.articles || []) add(`${SITE}/artikel/${a.slug}`, a.lastmod, 'monthly', '0.7');
   for (const s of data.sourceCodes || []) add(`${SITE}/source-code/${s.slug}`, s.lastmod, 'monthly', '0.7');

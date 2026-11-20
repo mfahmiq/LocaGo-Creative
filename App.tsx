@@ -24,6 +24,7 @@ import { NavigationTab } from './types';
 import { DonateWidget } from './components/DonateWidget';
 import { CustomerPortal } from './components/CustomerPortal';
 import { AdminPortal } from './components/AdminPortal';
+import { GratisPage } from './components/GratisPage';
 import { setPageMeta, DEFAULT_META, titleFromSlug } from './lib/seo';
 
 // ============================================================================
@@ -32,7 +33,7 @@ import { setPageMeta, DEFAULT_META, titleFromSlug } from './lib/seo';
 // Dulu semua konten di balik hash (#ai-tools, #articles, ...) yang diabaikan
 // Google, jadi situs ini praktis satu halaman. Sekarang tiap hub & item punya
 // path nyata yang diteruskan Vercel ke index.html (rewrite SPA di vercel.json):
-//   /ai-tools  /artikel  /source-code  /github-trending  /linklists
+//   /ai-tools  /artikel  /source-code  /github-trending  /linklists  /gratis
 //   /tools/<slug>  /artikel/<slug>  /source-code/<slug>
 // Hash lama TETAP didukung (fallback di parseRoute) supaya link lama,
 // bookmark, dan share link lama tidak mati. Canonical + link internal memakai
@@ -53,13 +54,14 @@ const TAB_PATHS: Record<NavigationTab, string> = {
   'source-code': '/source-code',
   'github-trending': '/github-trending',
   linklists: '/linklists',
+  gratis: '/gratis',
   portal: '/#portal',
   admin: '/#admin',
 };
 
 const parseHashRoute = (): RouteInfo | null => {
   const hash = window.location.hash.replace(/^#+/, '').split('?')[0].split('#')[0].split('&')[0];
-  if (hash === 'source-code' || hash === 'github-trending' || hash === 'ai-tools' || hash === 'linklists' || hash === 'articles') {
+  if (hash === 'source-code' || hash === 'github-trending' || hash === 'ai-tools' || hash === 'linklists' || hash === 'articles' || hash === 'gratis') {
     return { tab: hash as NavigationTab, toolSlug: null, articleSlug: null, sourceSlug: null };
   }
   if (hash === 'portal' || hash.startsWith('portal/')) return { tab: 'portal', toolSlug: null, articleSlug: null, sourceSlug: null };
@@ -90,6 +92,7 @@ const parseRoute = (): RouteInfo => {
       'source-code': 'source-code',
       'github-trending': 'github-trending',
       linklists: 'linklists',
+      gratis: 'gratis',
     };
     const tab = hub[segments[0]];
     if (tab) return { tab, toolSlug: null, articleSlug: null, sourceSlug: null };
@@ -162,6 +165,12 @@ const HUB_META: Record<Exclude<NavigationTab, 'portal' | 'admin'>, { title: stri
     description:
       'Jelajahi LinkList publik berisi kumpulan AI tools pilihan komunitas LocaGo Creative berdasarkan kebutuhan dan use-case.',
     canonicalPath: '/linklists',
+  },
+  gratis: {
+    title: 'Gratis — 600+ AI Tools, Source Code Website & GitHub Trending | LocaGo Creative',
+    description:
+      'Semua yang gratis di LocaGo Creative: 600+ AI tools terkurasi, download source code website premium (POS, absensi QR, katalog UMKM, SIAKAD), dan radar GitHub Trending harian — tanpa login.',
+    canonicalPath: '/gratis',
   },
 };
 
@@ -307,6 +316,12 @@ const AppContent: React.FC = () => {
               initialArticleSlug={route.articleSlug}
               onArticleNavigate={(slug) => navigate(slug ? `/artikel/${encodeURIComponent(slug)}` : '/artikel')}
             />
+          </ErrorBoundary>
+        )}
+
+        {activeTab === 'gratis' && (
+          <ErrorBoundary fallbackTitle="Gratis">
+            <GratisPage />
           </ErrorBoundary>
         )}
       </main>
