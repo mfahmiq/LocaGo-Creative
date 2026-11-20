@@ -12,7 +12,7 @@
         "PHP",
         "MySQL"
       ],
-      "description": "A simple and clean Hotel Management System built with HTML, CSS, JavaScript, PHP, Laravel, and MySQL. This project lets users book rooms online and gives the admin a dashboard to manage all bookings.\n\nProyek riil open-source asli dari GitHub (https://github.com/feeroz-Ali/Hotel-Management-System). Dilengkapi file database lengkap (bluebirdhotel.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "description": "A simple and clean Hotel Management System built with HTML, CSS, JavaScript, PHP, and MySQL. This project lets users book rooms online and gives the admin a dashboard to manage all bookings.\n\nProyek riil open-source asli dari GitHub (https://github.com/feeroz-Ali/Hotel-Management-System). Dilengkapi file database lengkap (bluebirdhotel.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
       "shortDesc": "Proyek riil Sistem Manajemen Hotel - Hotel Management System dengan database bluebirdhotel.sql, data contoh bawaan, dan tutorial instalasi.",
       "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
