@@ -21,9 +21,9 @@
       ],
       "defaultCredentials": [
         {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
+          "role": "Admin (Demo)",
+          "username": "admin",
+          "password": "1"
         }
       ],
       "updatedAt": "20 November 2026",
@@ -39,9 +39,9 @@
       "fileSize": "4.9 MB",
       "tutorialSteps": [
         "Ekstrak berkas `aplikasi-kasir-laundry.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `database/laundry.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/aplikasi-kasir-laundry` dan login dengan akun default."
+        "Buat database kosong `laundry` di phpMyAdmin, lalu import berkas SQL `database/laundry.sql` ke dalamnya.",
+        "Koneksi database sudah mengarah ke `laundry` (file `admin/include/koneksi.php`); sesuaikan user/password MySQL bila bukan root tanpa password.",
+        "Buka http://localhost/aplikasi-kasir-laundry dan login dengan akun demo admin / 1."
       ],
       "keyFeatures": [
         "Proyek riil dari GitHub (ReyZ007/aplikasi-kasir-laundry) dengan source code lengkap",
@@ -52,7 +52,7 @@
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=aplikasi-kasir-laundry&step=1&max=8",
       "downloadUrlFast": "/downloads/aplikasi-kasir-laundry.zip",
-      "driveUrl": "",
+      "driveUrl": "https://drive.google.com/file/d/1PyfzWRaE-aBiOggfqRAxzo-U5-pJXUVK/view?usp=drivesdk",
       "githubRepo": "https://github.com/ReyZ007/aplikasi-kasir-laundry",
       "stars": 1
     },
@@ -76,9 +76,14 @@
       ],
       "defaultCredentials": [
         {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
+          "role": "Admin (Demo)",
+          "username": "admin@hotel.com",
+          "password": "password123"
+        },
+        {
+          "role": "Manager (Demo)",
+          "username": "manager@hotel.com",
+          "password": "password123"
         }
       ],
       "updatedAt": "20 November 2026",
@@ -93,10 +98,10 @@
       "databaseType": "MySQL (.sql)",
       "fileSize": "11.9 MB",
       "tutorialSteps": [
-        "Ekstrak berkas `hotel-booking-management-system.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `DB/hotelbooking.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/hotel-booking-management-system` dan login dengan akun default."
+        "Ekstrak berkas `hotel-booking-management-system.zip`, lalu `composer install` dan `npm install && npm run build`.",
+        "Buat database kosong `hotel_booking` di phpMyAdmin, lalu import berkas SQL `DB/hotelbooking.sql` ke dalamnya.",
+        "Buat file `.env` (repo tidak menyertakan `.env.example`), isi DB_CONNECTION=mysql dan DB_DATABASE=hotel_booking, lalu `php artisan key:generate`.",
+        "Jalankan `php artisan serve` lalu buka http://127.0.0.1:8000 dan login dengan akun demo admin@hotel.com / password123."
       ],
       "keyFeatures": [
         "Proyek riil dari GitHub (muhammadrakib2299/Hotel-Booking-Management-System) dengan source code lengkap",
