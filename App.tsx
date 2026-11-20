@@ -45,6 +45,8 @@ export interface RouteInfo {
   toolSlug: string | null;
   articleSlug: string | null;
   sourceSlug: string | null;
+  /** Id (slug) LinkList pada rute /linklists/<id>; null bila hub biasa. */
+  linklistSlug: string | null;
 }
 
 const TAB_PATHS: Record<NavigationTab, string> = {
@@ -62,16 +64,16 @@ const TAB_PATHS: Record<NavigationTab, string> = {
 const parseHashRoute = (): RouteInfo | null => {
   const hash = window.location.hash.replace(/^#+/, '').split('?')[0].split('#')[0].split('&')[0];
   if (hash === 'source-code' || hash === 'github-trending' || hash === 'ai-tools' || hash === 'linklists' || hash === 'articles' || hash === 'gratis') {
-    return { tab: hash as NavigationTab, toolSlug: null, articleSlug: null, sourceSlug: null };
+    return { tab: hash as NavigationTab, toolSlug: null, articleSlug: null, sourceSlug: null, linklistSlug: null };
   }
-  if (hash === 'portal' || hash.startsWith('portal/')) return { tab: 'portal', toolSlug: null, articleSlug: null, sourceSlug: null };
-  if (hash === 'admin') return { tab: 'admin', toolSlug: null, articleSlug: null, sourceSlug: null };
+  if (hash === 'portal' || hash.startsWith('portal/')) return { tab: 'portal', toolSlug: null, articleSlug: null, sourceSlug: null, linklistSlug: null };
+  if (hash === 'admin') return { tab: 'admin', toolSlug: null, articleSlug: null, sourceSlug: null, linklistSlug: null };
   return null;
 };
 
 const parseRoute = (): RouteInfo => {
   if (typeof window === 'undefined') {
-    return { tab: 'agency', toolSlug: null, articleSlug: null, sourceSlug: null };
+    return { tab: 'agency', toolSlug: null, articleSlug: null, sourceSlug: null, linklistSlug: null };
   }
   const path = window.location.pathname.replace(/\/+$/, '') || '/';
   const segments = path.split('/').filter(Boolean);
@@ -80,9 +82,10 @@ const parseRoute = (): RouteInfo => {
   if (segments.length === 2) {
     const [kind, slug] = segments;
     const decoded = decodeURIComponent(slug);
-    if (kind === 'tools') return { tab: 'ai-tools', toolSlug: decoded, articleSlug: null, sourceSlug: null };
-    if (kind === 'artikel') return { tab: 'articles', toolSlug: null, articleSlug: decoded, sourceSlug: null };
-    if (kind === 'source-code') return { tab: 'source-code', toolSlug: null, articleSlug: null, sourceSlug: decoded };
+    if (kind === 'tools') return { tab: 'ai-tools', toolSlug: decoded, articleSlug: null, sourceSlug: null, linklistSlug: null };
+    if (kind === 'artikel') return { tab: 'articles', toolSlug: null, articleSlug: decoded, sourceSlug: null, linklistSlug: null };
+    if (kind === 'source-code') return { tab: 'source-code', toolSlug: null, articleSlug: null, sourceSlug: decoded, linklistSlug: null };
+    if (kind === 'linklists') return { tab: 'linklists', toolSlug: null, articleSlug: null, sourceSlug: null, linklistSlug: decoded };
   }
   // Rute hub
   if (segments.length === 1) {
@@ -95,7 +98,7 @@ const parseRoute = (): RouteInfo => {
       gratis: 'gratis',
     };
     const tab = hub[segments[0]];
-    if (tab) return { tab, toolSlug: null, articleSlug: null, sourceSlug: null };
+    if (tab) return { tab, toolSlug: null, articleSlug: null, sourceSlug: null, linklistSlug: null };
   }
   if (path === '/') {
     // Halaman utama: hormati hash lama (#ai-tools, #source-code?item=<slug>, ...).
@@ -108,10 +111,10 @@ const parseRoute = (): RouteInfo => {
       }
       return hashRoute;
     }
-    return { tab: 'agency', toolSlug: null, articleSlug: null, sourceSlug: null };
+    return { tab: 'agency', toolSlug: null, articleSlug: null, sourceSlug: null, linklistSlug: null };
   }
   // Path tidak dikenal: perlakukan sebagai halaman utama (SPA fallback).
-  return { tab: 'agency', toolSlug: null, articleSlug: null, sourceSlug: null };
+  return { tab: 'agency', toolSlug: null, articleSlug: null, sourceSlug: null, linklistSlug: null };
 };
 
 // Token portal pelanggan dari hash #portal/<token>.
@@ -238,6 +241,16 @@ const AppContent: React.FC = () => {
       });
       return;
     }
+    if (route.linklistSlug) {
+      const name = titleFromSlug(route.linklistSlug.replace(/^list-/, ''));
+      setPageMeta({
+        title: `${name} — Panduan & LinkList | LocaGo Creative`,
+        description: `Buka LinkList ${name} — kumpulan panduan dan link pilihan dari LocaGo Creative.`,
+        canonicalPath: `/linklists/${encodeURIComponent(route.linklistSlug)}`,
+        ogType: 'article',
+      });
+      return;
+    }
     if (route.sourceSlug) {
       const name = titleFromSlug(route.sourceSlug);
       setPageMeta({
@@ -307,7 +320,10 @@ const AppContent: React.FC = () => {
         )}
         {activeTab === 'linklists' && (
           <ErrorBoundary fallbackTitle="Pustaka LinkList Publik">
-            <LinkListsHub />
+            <LinkListsHub
+              initialLinklistSlug={route.linklistSlug}
+              onLinklistNavigate={(slug) => navigate(slug ? `/linklists/${encodeURIComponent(slug)}` : '/linklists')}
+            />
           </ErrorBoundary>
         )}
         {activeTab === 'articles' && (

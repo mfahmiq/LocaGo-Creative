@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { 
   Sparkles, 
   Crown, 
@@ -21,6 +21,7 @@ import {
   Video 
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
+import { setPageMeta } from '../lib/seo';
 import { LinkListItem, AIToolItem } from '../types';
 import { fetchCatalog } from '../lib/catalogData';
 import {
@@ -32,7 +33,14 @@ import {
   cleanText
 } from '../lib/linklistUtils';
 
-export const LinkListsHub: React.FC = () => {
+interface LinkListsHubProps {
+  /** Id LinkList dari rute /linklists/<id> (atau null bila hub biasa). */
+  initialLinklistSlug?: string | null;
+  /** Dipanggil saat LinkList dibuka/ditutup supaya App mengubah URL. */
+  onLinklistNavigate?: (slug: string | null) => void;
+}
+
+export const LinkListsHub: React.FC<LinkListsHubProps> = ({ initialLinklistSlug = null, onLinklistNavigate }) => {
   const { user, isOwner, isLoggedIn, openAuthModal } = useAuth();
   
   // Available tools from catalog
@@ -55,6 +63,10 @@ export const LinkListsHub: React.FC = () => {
   const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
   const [editingList, setEditingList] = useState<LinkListItem | null>(null);
   const [viewingList, setViewingList] = useState<LinkListItem | null>(null);
+  // True setelah fetch linklists dari Supabase selesai (sukses/gagal):
+  // deep-link /linklists/<id> menunggu ini supaya tidak membuka modal
+  // sebelum baris baru sempat dimuat.
+  const [listsLoaded, setListsLoaded] = useState(false);
 
   // Forms
   const [formTitle, setFormTitle] = useState('');
@@ -88,6 +100,7 @@ export const LinkListsHub: React.FC = () => {
 
     // Fetch linklists from Supabase only
     fetchCatalog<LinkListItem>('linklists').then((items) => {
+      setListsLoaded(true);
       if (items) {
         setLinkLists((prev) => {
           const liveMap = new Map(items.map((it: LinkListItem) => [it.id, it]));
@@ -130,20 +143,61 @@ export const LinkListsHub: React.FC = () => {
   }, [linkLists, filterType, searchQuery, user]);
 
   const copyShareLink = (id: string) => {
-    const url = `${window.location.origin}/#ai-tools#linklist=${id}`;
+    const url = `${window.location.origin}/linklists/${id}`;
     navigator.clipboard.writeText(url);
-    showToast('Tautan LinkList berhasil disalin! Siap dibagikan ke Instagram DM/Reels.');
+    showToast('Tautan LinkList berhasil disalin! Siap dibagikan ke Threads / Instagram DM / Reels.');
   };
 
   const openPlaylist = (id: string) => {
     const item = linkLists.find((l) => l.id === id);
     if (item) {
       setViewingList(item);
+      onLinklistNavigate?.(item.id);
     } else {
       window.location.hash = `ai-tools?linklist=${id}`;
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   };
+
+  // Tutup modal detail + kembalikan URL ke hub /linklists.
+  const closeViewingList = () => {
+    setViewingList(null);
+    onLinklistNavigate?.(null);
+  };
+
+  // Deep-link rute nyata /linklists/<id>: bila slug cocok dengan satu list
+  // yang sudah dimuat, buka detailnya otomatis. Menunggu listsLoaded supaya
+  // baris baru dari Supabase (belum ada di cache localStorage) tidak dikira
+  // hilang. Hash lama /#ai-tools#linklist=<id> TIDAK disentuh: jalurnya
+  // tetap ditangani AIToolsHub seperti sebelumnya.
+  const lastDeepLinkedSlug = useRef<string | null>(null);
+  useEffect(() => {
+    if (!initialLinklistSlug) {
+      lastDeepLinkedSlug.current = null;
+      return;
+    }
+    if (!listsLoaded || viewingList || lastDeepLinkedSlug.current === initialLinklistSlug) return;
+    const found = linkLists.find((l) => l.id === initialLinklistSlug);
+    if (found) {
+      lastDeepLinkedSlug.current = initialLinklistSlug;
+      setViewingList(found);
+    } else {
+      lastDeepLinkedSlug.current = initialLinklistSlug;
+      showToast('LinkList tidak ditemukan — menampilkan semua playlist.');
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [initialLinklistSlug, linkLists, listsLoaded]);
+
+  // Meta detail saat satu LinkList dibuka (judul + canonical nyata).
+  useEffect(() => {
+    if (!viewingList) return;
+    setPageMeta({
+      title: `${viewingList.title} | LocaGo Creative`,
+      description: (viewingList.notes || viewingList.title).slice(0, 155),
+      canonicalPath: `/linklists/${viewingList.id}`,
+      ogType: 'article',
+    });
+  }, [viewingList]);
 
   // Open Create Modal
   const handleOpenCreate = () => {
@@ -749,7 +803,7 @@ export const LinkListsHub: React.FC = () => {
                 </div>
 
                 <button
-                  onClick={() => setViewingList(null)}
+                  onClick={closeViewingList}
                   className="w-8 h-8 rounded-full bg-neutral-100 dark:bg-neutral-800 text-neutral-500 hover:text-neutral-900 dark:hover:text-white flex items-center justify-center font-bold text-sm cursor-pointer shrink-0 transition-all"
                   title="Tutup"
                 >
@@ -901,7 +955,7 @@ export const LinkListsHub: React.FC = () => {
                     Buka di Katalog AI Tools →
                   </button>
                   <button
-                    onClick={() => setViewingList(null)}
+                    onClick={closeViewingList}
                     className="px-4 py-2 rounded-xl bg-neutral-200 dark:bg-neutral-800 hover:bg-neutral-300 dark:hover:bg-neutral-700 font-mono text-xs font-bold text-neutral-700 dark:text-neutral-300 cursor-pointer transition-all"
                   >
                     Tutup
