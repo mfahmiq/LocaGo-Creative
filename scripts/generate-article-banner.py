@@ -117,6 +117,81 @@ GUIDES = {
         "variant": "icon",
         "out": "public/banners/articles/guide-openvino.webp",
     },
+    "panduan-nginx": {
+        "name": "nginx",
+        # Logo resmi NGINX (avatar org GitHub nginx, disimpan lokal —
+        # gambar README adalah SVG, tidak bisa dipakai banner PIL).
+        "image": "public/assets/articles/nginx-logo.png",
+        "variant": "icon",
+        "out": "public/banners/articles/guide-panduan-nginx.webp",
+    },
+    "panduan-ghost-downloader-3": {
+        "name": "Ghost Downloader 3",
+        "image": "https://raw.githubusercontent.com/XiaoYouChR/Ghost-Downloader-3/main/.github/assets/banner.webp",
+        "variant": "landscape",
+        "out": "public/banners/articles/guide-panduan-ghost-downloader-3.webp",
+    },
+    "panduan-ffmpeg-skill": {
+        "name": "ffmpeg-skill",
+        "image": "https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/main/brand/og.png",
+        "variant": "landscape",
+        "out": "public/banners/articles/guide-panduan-ffmpeg-skill.webp",
+    },
+    "panduan-tiny-voca": {
+        "name": "tiny-voca",
+        "image": "https://raw.githubusercontent.com/n4ze3m/tiny-voca/main/docs/cost.png",
+        "variant": "landscape",
+        "out": "public/banners/articles/guide-panduan-tiny-voca.webp",
+    },
+    "panduan-apkstart": {
+        "name": "ApkStart",
+        "image": "https://raw.githubusercontent.com/RoutineMiku/apkstart/main/docs/images/app.png",
+        "variant": "landscape",
+        "out": "public/banners/articles/guide-panduan-apkstart.webp",
+    },
+    "panduan-hermesenabler": {
+        "name": "HermesEnabler",
+        "image": "https://raw.githubusercontent.com/pookjw/HermesEnabler/main/image.png",
+        "variant": "landscape",
+        "out": "public/banners/articles/guide-panduan-hermesenabler.webp",
+    },
+    "panduan-yab": {
+        "name": "Yab",
+        "image": "https://raw.githubusercontent.com/yetanotherbrowser/yab/main/docs/images/readme/window.jpg",
+        "variant": "landscape",
+        "out": "public/banners/articles/guide-panduan-yab.webp",
+    },
+    "panduan-opensre": {
+        "name": "OpenSRE",
+        "image": "https://github.com/user-attachments/assets/936ab1f2-9bda-438d-9897-e8e9cd98e335",
+        "variant": "landscape",
+        "out": "public/banners/articles/guide-panduan-opensre.webp",
+    },
+    "panduan-deeptutor": {
+        "name": "DeepTutor",
+        "image": "https://raw.githubusercontent.com/HKUDS/DeepTutor/main/assets/figs/web-dev/overview.png",
+        "variant": "landscape",
+        "out": "public/banners/articles/guide-panduan-deeptutor.webp",
+    },
+    "panduan-claude-seo": {
+        "name": "Claude SEO",
+        "image": "https://raw.githubusercontent.com/AgriciDaniel/claude-seo/main/assets/readme/homies-tour.jpg",
+        "variant": "landscape",
+        "out": "public/banners/articles/guide-panduan-claude-seo.webp",
+    },
+    "panduan-instagram-agent-skill": {
+        "name": "Instagram Agent Skill",
+        # Repo tidak punya gambar sama sekali — pakai kartu sosial otomatis GitHub.
+        "image": "https://opengraph.githubassets.com/1/Jakeschincariol/instagram-agent-skill",
+        "variant": "icon",
+        "out": "public/banners/articles/guide-panduan-instagram-agent-skill.webp",
+    },
+    "panduan-app-store-compliance": {
+        "name": "App Store Compliance Playbook",
+        "image": "https://raw.githubusercontent.com/mjmirza/app-store-compliance/main/assets/first-try-approval.png",
+        "variant": "landscape",
+        "out": "public/banners/articles/guide-panduan-app-store-compliance.webp",
+    },
 }
 
 # Frame visual (x, y, w, h) per varian — kanan canvas.

@@ -3205,7 +3205,67 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.locagocreative.my.id/artikel/panduan-openvino</loc>
+    <loc>https://www.locagocreative.my.id/artikel/dashboard-analitik-sendiri-data-bisnis-umkm</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.locagocreative.my.id/artikel/panduan-apkstart</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.locagocreative.my.id/artikel/panduan-yab</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.locagocreative.my.id/artikel/panduan-claude-seo</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.locagocreative.my.id/artikel/panduan-app-store-compliance</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.locagocreative.my.id/artikel/panduan-ffmpeg-skill</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.locagocreative.my.id/artikel/panduan-hermesenabler</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.locagocreative.my.id/artikel/panduan-opensre</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.locagocreative.my.id/artikel/panduan-instagram-agent-skill</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.locagocreative.my.id/artikel/panduan-deeptutor</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.locagocreative.my.id/artikel/panduan-ghost-downloader-3</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -3235,6 +3295,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.locagocreative.my.id/artikel/panduan-tiny-voca</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.locagocreative.my.id/artikel/panduan-scrapling</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -3259,8 +3325,14 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.locagocreative.my.id/artikel/dashboard-analitik-sendiri-data-bisnis-umkm</loc>
-    <lastmod>2026-11-18</lastmod>
+    <loc>https://www.locagocreative.my.id/artikel/panduan-openvino</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.locagocreative.my.id/artikel/panduan-nginx</loc>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3409,13 +3481,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.locagocreative.my.id/source-code/rentalmobil</loc>
-    <lastmod>2026-11-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.locagocreative.my.id/source-code/presensi-elite-andra</loc>
+    <loc>https://www.locagocreative.my.id/source-code/school</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -3428,6 +3494,12 @@
   </url>
   <url>
     <loc>https://www.locagocreative.my.id/source-code/heart-beat-hospital-management-system</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.locagocreative.my.id/source-code/rentalmobil</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -3488,6 +3560,12 @@
   </url>
   <url>
     <loc>https://www.locagocreative.my.id/source-code/hotel-management-system</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.locagocreative.my.id/source-code/presensi-elite-andra</loc>
     <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
