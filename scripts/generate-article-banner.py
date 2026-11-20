@@ -109,6 +109,14 @@ GUIDES = {
         "variant": "landscape",
         "out": "public/banners/articles/guide-zaproxy.webp",
     },
+    "panduan-openvino": {
+        "name": "openvino",
+        # Logo resmi Intel OpenVINO (avatar org GitHub openvinotoolkit,
+        # disimpan lokal — README repo tidak punya screenshot/demo).
+        "image": "public/assets/articles/openvino-logo.png",
+        "variant": "icon",
+        "out": "public/banners/articles/guide-openvino.webp",
+    },
 }
 
 # Frame visual (x, y, w, h) per varian — kanan canvas.
