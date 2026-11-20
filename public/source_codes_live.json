@@ -1,7 +1,62 @@
 {
-  "updatedAt": "20 Nov 2026, 05:56 WIB",
-  "total": 11,
+  "updatedAt": "20 Nov 2026, 07:21 WIB",
+  "total": 12,
   "items": [
+    {
+      "id": "sc-68",
+      "title": "Sistem Manajemen Hotel - Hotel Booking Management System",
+      "slug": "hotel-booking-management-system",
+      "category": "Layanan & Jasa",
+      "techStack": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Full-stack hotel booking platform on Laravel 12 — multi-hotel & multi-vendor, role-based access (customer/manager/admin), real-time chat, wallet + card/bKash/Nagad payments, premium subscriptions and car-travel booking.\n\nProyek riil open-source asli dari GitHub (https://github.com/muhammadrakib2299/Hotel-Booking-Management-System). Dilengkapi file database lengkap (DB/hotelbooking.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Manajemen Hotel - Hotel Booking Management System dengan database DB/hotelbooking.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/hotel-booking-management-system/screenshot_1.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Demo",
+          "username": "Lihat README.md repo asli",
+          "password": "(lihat README repo)"
+        }
+      ],
+      "updatedAt": "20 November 2026",
+      "releaseDate": "20 November 2026",
+      "recentFastDownloads": 86,
+      "thumbnail": "/screenshots/hotel-booking-management-system/screenshot_1.webp",
+      "downloadsCount": 1067,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "11.9 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `hotel-booking-management-system.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `DB/hotelbooking.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/hotel-booking-management-system` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (muhammadrakib2299/Hotel-Booking-Management-System) dengan source code lengkap",
+        "Disertai database asli (DB/hotelbooking.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=hotel-booking-management-system&step=1&max=8",
+      "downloadUrlFast": "/downloads/hotel-booking-management-system.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/muhammadrakib2299/Hotel-Booking-Management-System",
+      "stars": 0
+    },
     {
       "id": "sc-67",
       "title": "Sistem Informasi Inventaris & Gudang - Inventaris Lab 21 Update",
