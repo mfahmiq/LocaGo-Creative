@@ -22,6 +22,7 @@ import {
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { setPageMeta } from '../lib/seo';
+import { LeadMastersSponsor } from './LeadMastersSponsor';
 import { LinkListItem, AIToolItem } from '../types';
 import { fetchCatalog } from '../lib/catalogData';
 import {
@@ -841,6 +842,11 @@ export const LinkListsHub: React.FC<LinkListsHubProps> = ({ initialLinklistSlug 
                     </a>
                   </div>
                 )}
+
+                {/* Sponsor LeadMasters — tampil di detail SEMUA linklist
+                    (keputusan Fahmi 20 Nov 2026 18:36). Blok tampilan, bukan
+                    item tool di daftar: tidak mengubah isi linklist apa pun. */}
+                <LeadMastersSponsor />
 
                 {/* Curated Tools List */}
                 <div>

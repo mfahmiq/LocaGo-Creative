@@ -1,19 +1,20 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, type ReactNode } from 'react';
 import { 
   Globe, 
   PenTool, 
   Rocket, 
   Calendar, 
   Clock, 
-  X, 
   Tv, 
   Wrench, 
-  ArrowUpRight 
+  ArrowUpRight,
+  ArrowLeft
 } from 'lucide-react';
 import { ARTICLES_LIST, ArticleItem } from '../lib/articlesData';
 import { renderMarkdown } from '../lib/markdown';
 import { fetchCatalog } from '../lib/catalogData';
 import { setPageMeta, SITE_URL } from '../lib/seo';
+import { LeadMastersSponsor } from './LeadMastersSponsor';
 
 interface ArticlesHubProps {
   /** Slug dari rute /artikel/<slug> (atau null bila hub biasa). */
@@ -107,6 +108,152 @@ export const ArticlesHub: React.FC<ArticlesHubProps> = ({ initialArticleSlug = n
       return matchLang && matchCat && matchSearch;
     });
   }, [articles, selectedLang, selectedCategory, searchQuery]);
+
+  // ==========================================================================
+  // HALAMAN ARTIKEL PENUH (keputusan Fahmi 20 Nov 2026 18:36).
+  // Artikel BUKAN lagi modal di atas daftar: /artikel/<slug> menampilkan
+  // artikel sebagai halaman sendiri (Navbar + Footer tetap dari App).
+  // Daftar tetap bisa diakses lewat tombol kembali di bawah ini.
+  // Sponsor LeadMasters: (a) di bawah banner/judul, (b) di tengah isi
+  // (disisipkan di tengah blok konten — bukan di isi Supabase), (c) di
+  // akhir artikel, (d) sidebar di samping (desktop saja).
+  // ==========================================================================
+  if (readingArticle) {
+    const blocks = renderMarkdown(readingArticle.content, { title: readingArticle.title });
+    const body: ReactNode[] = [...blocks];
+    if (body.length > 4) {
+      body.splice(Math.ceil(body.length / 2), 0, <LeadMastersSponsor key="sponsor-mid" className="my-6" />);
+    }
+    const related = articles.filter((a) => a.id !== readingArticle.id).slice(0, 3);
+
+    return (
+      <section className="pt-28 pb-24 bg-neutral-50/60 dark:bg-neutral-950 text-neutral-900 dark:text-white min-h-screen relative overflow-hidden transition-colors duration-200">
+        <div className="max-w-7xl mx-auto px-6 relative z-10">
+          <button
+            onClick={() => closeArticle()}
+            className="mb-6 inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 text-xs font-mono font-bold text-neutral-700 dark:text-neutral-300 hover:border-emerald-500/50 transition-all cursor-pointer"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            <span>Semua Artikel</span>
+          </button>
+
+          <div className="grid lg:grid-cols-[minmax(0,1fr)_320px] gap-8 items-start">
+            <article className="min-w-0">
+              <div className="mb-4">
+                <div className="flex items-center gap-2 mb-2 flex-wrap">
+                  <span className="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">
+                    {readingArticle.category}
+                  </span>
+                  <span className="text-xs font-mono text-neutral-500">
+                    {readingArticle.date} • {readingArticle.readTime}
+                  </span>
+                </div>
+                <h1 className="text-3xl sm:text-4xl font-extrabold leading-tight">
+                  {readingArticle.title}
+                </h1>
+                {readingArticle.excerpt && (
+                  <p className="mt-3 text-sm sm:text-base text-neutral-600 dark:text-neutral-400 leading-relaxed">
+                    {readingArticle.excerpt}
+                  </p>
+                )}
+              </div>
+
+              <div className="aspect-video rounded-2xl overflow-hidden mb-6 bg-neutral-200 dark:bg-neutral-800">
+                <img
+                  src={readingArticle.cover}
+                  alt={readingArticle.title}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              {/* (a) Sponsor di bawah banner/judul */}
+              <LeadMastersSponsor className="mb-6" />
+
+              {/* YouTube Video Embed */}
+              {readingArticle.youtubeId && (
+                <div className="mb-6">
+                  <span className="text-xs font-mono font-bold text-neutral-500 uppercase tracking-wider mb-2 flex items-center gap-1.5">
+                    <Tv className="w-4 h-4 text-rose-500" />
+                    <span>Video Pembahasan & Demo:</span>
+                  </span>
+                  <div className="aspect-video w-full rounded-2xl overflow-hidden border border-neutral-200 dark:border-neutral-800 shadow-md">
+                    <iframe
+                      src={`https://www.youtube.com/embed/${readingArticle.youtubeId}?autoplay=0&rel=0`}
+                      title={readingArticle.title}
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      className="w-full h-full border-0"
+                    />
+                  </div>
+                </div>
+              )}
+
+              <div className="max-w-none text-sm sm:text-base text-neutral-700 dark:text-neutral-300 leading-relaxed">
+                {body}
+              </div>
+
+              {readingArticle.affiliateTools && readingArticle.affiliateTools.length > 0 && (
+                <div className="mt-8 p-5 rounded-2xl bg-emerald-50 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-800/40">
+                  <h4 className="text-xs font-mono font-bold text-emerald-800 dark:text-emerald-400 mb-3 uppercase tracking-wider flex items-center gap-1.5">
+                    <Wrench className="w-4 h-4" />
+                    <span>Coba Langsung Tool AI yang Diulas (Tautan Resmi):</span>
+                  </h4>
+                  <div className="flex flex-wrap gap-2.5">
+                    {readingArticle.affiliateTools.map((tool) => (
+                      <a
+                        key={tool.name}
+                        href={tool.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-3.5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-mono font-bold shadow-sm transition-all flex items-center gap-1.5 cursor-pointer active:scale-95"
+                      >
+                        <span>Kunjungi {tool.name}</span>
+                        <ArrowUpRight className="w-3.5 h-3.5" />
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* (c) Sponsor di akhir artikel */}
+              <LeadMastersSponsor className="mt-8" />
+
+              <button
+                onClick={() => closeArticle()}
+                className="mt-8 inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-neutral-900 hover:bg-neutral-800 dark:bg-white dark:hover:bg-neutral-100 text-white dark:text-neutral-950 font-mono text-xs font-bold transition-all cursor-pointer"
+              >
+                <ArrowLeft className="w-4 h-4" />
+                <span>Kembali ke Semua Artikel</span>
+              </button>
+            </article>
+
+            {/* (d) Sidebar — desktop saja */}
+            <aside className="hidden lg:block sticky top-24 space-y-6">
+              <LeadMastersSponsor layout="vertical" />
+              {related.length > 0 && (
+                <div className="rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 p-5">
+                  <h3 className="text-xs font-mono font-bold text-neutral-500 uppercase tracking-wider mb-3">
+                    Baca Juga
+                  </h3>
+                  <div className="space-y-3">
+                    {related.map((rel) => (
+                      <button
+                        key={rel.id}
+                        onClick={() => openArticle(rel)}
+                        className="block w-full text-left text-sm font-bold text-neutral-900 dark:text-white hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors leading-snug cursor-pointer"
+                      >
+                        {rel.title}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </aside>
+          </div>
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section id="articles" className="pt-28 pb-24 bg-neutral-50/60 dark:bg-neutral-950 text-neutral-900 dark:text-white min-h-screen relative overflow-hidden transition-colors duration-200">
@@ -297,88 +444,6 @@ export const ArticlesHub: React.FC<ArticlesHubProps> = ({ initialArticleSlug = n
           </div>
         )}
 
-        {/* Article Reader Modal */}
-        {readingArticle && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm p-4 overflow-y-auto">
-            <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 sm:p-8 max-w-2xl w-full shadow-2xl relative my-8 max-h-[90vh] overflow-y-auto text-neutral-900 dark:text-white">
-              <button
-                onClick={() => closeArticle()}
-                className="absolute top-5 right-5 text-neutral-400 hover:text-neutral-900 dark:hover:text-white font-mono cursor-pointer p-1"
-                aria-label="Tutup artikel"
-              >
-                <X className="w-5 h-5" />
-              </button>
-
-              <div className="mb-4">
-                <div className="flex items-center gap-2 mb-2">
-                  <span className="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300">
-                    {readingArticle.category}
-                  </span>
-                  <span className="text-xs font-mono text-neutral-500">
-                    {readingArticle.date} • {readingArticle.readTime}
-                  </span>
-                </div>
-                <h2 className="text-2xl sm:text-3xl font-extrabold leading-tight">
-                  {readingArticle.title}
-                </h2>
-              </div>
-
-              <div className="aspect-video rounded-2xl overflow-hidden mb-6 bg-neutral-900">
-                <img
-                  src={readingArticle.cover}
-                  alt={readingArticle.title}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
-              {/* YouTube Video Embed */}
-              {readingArticle.youtubeId && (
-                <div className="mb-6">
-                  <span className="text-xs font-mono font-bold text-neutral-500 uppercase tracking-wider mb-2 flex items-center gap-1.5">
-                    <Tv className="w-4 h-4 text-rose-500" />
-                    <span>Video Pembahasan & Demo:</span>
-                  </span>
-                  <div className="aspect-video w-full rounded-2xl overflow-hidden border border-neutral-200 dark:border-neutral-800 shadow-md">
-                    <iframe
-                      src={`https://www.youtube.com/embed/${readingArticle.youtubeId}?autoplay=0&rel=0`}
-                      title={readingArticle.title}
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                      className="w-full h-full border-0"
-                    />
-                  </div>
-                </div>
-              )}
-
-              <div className="max-w-none text-sm text-neutral-700 dark:text-neutral-300 leading-relaxed">
-                {renderMarkdown(readingArticle.content, { title: readingArticle.title })}
-              </div>
-
-              {readingArticle.affiliateTools && readingArticle.affiliateTools.length > 0 && (
-                <div className="mt-8 p-5 rounded-2xl bg-emerald-50 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-800/40">
-                  <h4 className="text-xs font-mono font-bold text-emerald-800 dark:text-emerald-400 mb-3 uppercase tracking-wider flex items-center gap-1.5">
-                    <Wrench className="w-4 h-4" />
-                    <span>Coba Langsung Tool AI yang Diulas (Tautan Resmi):</span>
-                  </h4>
-                  <div className="flex flex-wrap gap-2.5">
-                    {readingArticle.affiliateTools.map((tool) => (
-                      <a
-                        key={tool.name}
-                        href={tool.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="px-3.5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-mono font-bold shadow-sm transition-all flex items-center gap-1.5 cursor-pointer active:scale-95"
-                      >
-                        <span>Kunjungi {tool.name}</span>
-                        <ArrowUpRight className="w-3.5 h-3.5" />
-                      </a>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
-          </div>
-        )}
       </div>
     </section>
   );

@@ -17,9 +17,15 @@ import type { ReactNode } from 'react';
  * blockquote (>), code fence (```), garis horizontal (---), bold (**),
  * italic (*), code inline (`), link Markdown [teks](url), dan autolink
  * URL telanjang (https://... jadi <a> yang bisa diklik).
+ * Gambar satu baris `![alt](src)` (src boleh relatif /... atau http(s)):
+ * dirender sebagai <figure> lazy-load dengan caption = alt; bila src
+ * berakhiran .mp4/.webm dirender sebagai <video> (autoplay muted loop,
+ * dengan controls + poster opsional dari judul `"..."` setelah URL) —
+ * dipakai untuk demo video asli repo (mis. screencast GIF yang dikompres
+ * ke MP4). Tanpa dangerouslySetInnerHTML — src juga difilter skemanya.
  *
  * Heading konten diturunkan satu tingkat (# -> h2 visual dst.) karena
- * modal pembaca sudah menampilkan judul artikel sebagai heading utama.
+ * halaman artikel sudah menampilkan judul artikel sebagai heading utama.
  * Bila blok pertama adalah H1 yang teksnya sama persis dengan judul
  * artikel (pola semua artikel lama), blok itu dilewati supaya judul
  * tidak tampil dua kali.
@@ -28,8 +34,18 @@ import type { ReactNode } from 'react';
 const INLINE_RE =
   /(\*\*[^*\n]+\*\*|\*[^*\n]+\*|`[^`\n]+`|\[[^\]]+\]\((?:https?:\/\/[^)\s]+|mailto:[^)\s]+)\)|https?:\/\/[^\s<>"')\]]+)/g;
 
+// Baris gambar/video mandiri: ![alt](src) atau ![alt](src "poster").
+const IMAGE_RE = /^!\[([^\]]*)\]\((\S+)(?:\s+"([^"]*)")?\s*\)\s*$/;
+
 function safeHref(url: string): string | null {
   if (/^(https?:\/\/|mailto:)/i.test(url)) return url;
+  return null;
+}
+
+// Src gambar/video: boleh http(s) atau path relatif situs (/...).
+// Skema lain (javascript:, data:, dsb.) ditolak.
+function safeSrc(src: string): string | null {
+  if (/^(https?:\/\/|\/)/i.test(src)) return src;
   return null;
 }
 
@@ -198,6 +214,63 @@ export function renderMarkdown(content: string, opts?: { title?: string }): Reac
       continue;
     }
 
+    // Gambar / video satu baris: ![alt](src) atau ![alt](src "poster").
+    // Video (.mp4/.webm) = demo repo yang dikompres dari GIF; gambar
+    // lazy-load. Src tidak valid -> tampilkan barisnya sebagai teks biasa.
+    const img = line.match(IMAGE_RE);
+    if (img) {
+      const src = safeSrc(img[2]);
+      const alt = img[1].trim();
+      const poster = img[3] ? safeSrc(img[3]) : null;
+      i++;
+      firstBlock = false;
+      if (!src) {
+        blocks.push(
+          <p key={`b${k++}`} className="mb-4 leading-relaxed">
+            {renderInline(line, `p${k}`)}
+          </p>,
+        );
+        continue;
+      }
+      const caption = alt ? (
+        <figcaption className="mt-2 text-center text-xs text-neutral-500 dark:text-neutral-400 leading-relaxed">
+          {alt}
+        </figcaption>
+      ) : null;
+      if (/\.(mp4|webm)$/i.test(src)) {
+        blocks.push(
+          <figure key={`b${k++}`} className="mb-6">
+            <video
+              src={src}
+              poster={poster ?? undefined}
+              autoPlay
+              muted
+              loop
+              playsInline
+              controls
+              preload="metadata"
+              className="w-full rounded-2xl border border-neutral-200 dark:border-neutral-800 shadow-sm bg-neutral-900"
+            />
+            {caption}
+          </figure>,
+        );
+      } else {
+        blocks.push(
+          <figure key={`b${k++}`} className="mb-6">
+            <img
+              src={src}
+              alt={alt}
+              loading="lazy"
+              decoding="async"
+              className="w-full rounded-2xl border border-neutral-200 dark:border-neutral-800 shadow-sm"
+            />
+            {caption}
+          </figure>,
+        );
+      }
+      continue;
+    }
+
     // Blockquote: gabung baris `>` berurutan jadi satu kutipan.
     if (trimmed.startsWith('>')) {
       const buf: string[] = [];
@@ -274,6 +347,7 @@ export function renderMarkdown(content: string, opts?: { title?: string }): Reac
       !lines[i].trim().startsWith('>') &&
       !/^[-*]\s+/.test(lines[i]) &&
       !/^\d+[.)]\s+/.test(lines[i]) &&
+      !IMAGE_RE.test(lines[i]) &&
       !/^(---|\*\*\*|___)\s*$/.test(lines[i].trim())
     ) {
       buf.push(lines[i]);
