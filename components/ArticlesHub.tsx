@@ -11,6 +11,7 @@ import {
   ArrowUpRight 
 } from 'lucide-react';
 import { ARTICLES_LIST, ArticleItem } from '../lib/articlesData';
+import { renderMarkdown } from '../lib/markdown';
 import { fetchCatalog } from '../lib/catalogData';
 import { setPageMeta, SITE_URL } from '../lib/seo';
 
@@ -349,8 +350,8 @@ export const ArticlesHub: React.FC<ArticlesHubProps> = ({ initialArticleSlug = n
                 </div>
               )}
 
-              <div className="prose dark:prose-invert max-w-none text-sm text-neutral-700 dark:text-neutral-300 space-y-4 whitespace-pre-line leading-relaxed">
-                {readingArticle.content}
+              <div className="max-w-none text-sm text-neutral-700 dark:text-neutral-300 leading-relaxed">
+                {renderMarkdown(readingArticle.content, { title: readingArticle.title })}
               </div>
 
               {readingArticle.affiliateTools && readingArticle.affiliateTools.length > 0 && (
