@@ -398,14 +398,24 @@ export const ArticlesHub: React.FC<ArticlesHubProps> = ({ initialArticleSlug = n
                         e.currentTarget.src = '/banners/articles/article_ai_coding_tools.webp';
                       }}
                     />
-                    <div className="absolute top-2.5 left-2.5 flex items-center gap-1.5">
-                      <span className="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-neutral-900/80 backdrop-blur-sm text-white">
-                        {art.language === 'id' ? 'ID' : 'EN'}
-                      </span>
-                      <span className="px-2 py-0.5 rounded text-[10px] font-mono font-medium bg-emerald-600 text-white shadow-sm">
-                        {art.category}
-                      </span>
-                    </div>
+                    {/* Badge bahasa/kategori disembunyikan pada kartu panduan:
+                        banner template gelap sudah membawa pill "PANDUAN"
+                        di kiri atas (x=64, y=76), dan badge overlay situs
+                        (top-2.5 left-2.5) menumpuk tepat di atasnya sehingga
+                        pill tertutup sebagian (verifikasi browser 20 Nov 2026
+                        19:16 WIB). Info bahasa/kategori tetap tersedia lewat
+                        chip filter daftar + chip kategori di halaman artikel.
+                        Kartu non-panduan tidak berubah. */}
+                    {!(art.slug || '').startsWith('panduan-') && (
+                      <div className="absolute top-2.5 left-2.5 flex items-center gap-1.5">
+                        <span className="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-neutral-900/80 backdrop-blur-sm text-white">
+                          {art.language === 'id' ? 'ID' : 'EN'}
+                        </span>
+                        <span className="px-2 py-0.5 rounded text-[10px] font-mono font-medium bg-emerald-600 text-white shadow-sm">
+                          {art.category}
+                        </span>
+                      </div>
+                    )}
                   </div>
 
                   <div className="flex items-center gap-2 text-[11px] font-mono text-neutral-500 dark:text-neutral-400 mb-2">
