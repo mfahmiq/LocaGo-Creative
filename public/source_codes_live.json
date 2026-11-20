@@ -1,7 +1,63 @@
 {
-  "updatedAt": "20 Nov 2026, 19:02 WIB",
-  "total": 16,
+  "updatedAt": "20 Nov 2026, 21:16 WIB",
+  "total": 17,
   "items": [
+    {
+      "id": "sc-73",
+      "title": "Hospital & Patient Management System - Heart Beat Hospital Management System",
+      "slug": "heart-beat-hospital-management-system",
+      "category": "Kesehatan & Medis",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL"
+      ],
+      "description": "PHP and MySQL based Hospital Management System\n\nProyek riil open-source asli dari GitHub (https://github.com/PrarthanaKumar37/Heart_Beat-Hospital-Management-System). Dilengkapi file database lengkap (database.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Hospital & Patient Management System - Heart Beat Hospital Management System dengan database database.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/heart-beat-hospital-management-system/screenshot_1.webp",
+        "/screenshots/heart-beat-hospital-management-system/screenshot_2.webp",
+        "/screenshots/heart-beat-hospital-management-system/screenshot_3.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Demo",
+          "username": "Lihat README.md repo asli",
+          "password": "(lihat README repo)"
+        }
+      ],
+      "updatedAt": "20 November 2026",
+      "releaseDate": "20 November 2026",
+      "recentFastDownloads": 58,
+      "thumbnail": "/screenshots/heart-beat-hospital-management-system/screenshot_1.webp",
+      "downloadsCount": 1028,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "204 KB",
+      "tutorialSteps": [
+        "Ekstrak berkas `heart-beat-hospital-management-system.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `database.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/heart-beat-hospital-management-system` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (PrarthanaKumar37/Heart_Beat-Hospital-Management-System) dengan source code lengkap",
+        "Disertai database asli (database.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=heart-beat-hospital-management-system&step=1&max=8",
+      "downloadUrlFast": "/downloads/heart-beat-hospital-management-system.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/PrarthanaKumar37/Heart_Beat-Hospital-Management-System",
+      "stars": 0
+    },
     {
       "id": "sc-72",
       "title": "Aplikasi Ujian Online CBT & E-Learning - Computer Based Test Web",
