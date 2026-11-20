@@ -23,9 +23,9 @@
       ],
       "defaultCredentials": [
         {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
+          "role": "Admin",
+          "username": "admin",
+          "password": "admin123"
         }
       ],
       "updatedAt": "20 November 2026",
@@ -54,7 +54,7 @@
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=heart-beat-hospital-management-system&step=1&max=8",
       "downloadUrlFast": "/downloads/heart-beat-hospital-management-system.zip",
-      "driveUrl": "",
+      "driveUrl": "https://drive.google.com/file/d/1gI_TC7eBbJIcaahWRKZGhSQH8xjuk0ee/view?usp=drivesdk",
       "githubRepo": "https://github.com/PrarthanaKumar37/Heart_Beat-Hospital-Management-System",
       "stars": 0
     },
