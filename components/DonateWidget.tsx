@@ -1,7 +1,8 @@
 // components/DonateWidget.tsx — Donasi sendiri via Midtrans (tanpa platform 5%).
-// Aturan (Fahmi 2026-11-19): tombol kopi mengambang selalu terlihat; popup
-// TIDAK muncul saat load — baru setelah 50 detik, atau scroll 70%, atau
-// setelah download source code (event 'locago:download-complete').
+// Aturan (Fahmi 2026-11-19, diubah 2026-11-21): tombol kopi mengambang
+// selalu terlihat; popup TIDAK muncul saat load — baru setelah 15–30 detik
+// (ACAK per sesi, satu nilai saat mount), atau scroll 70%, atau setelah
+// download source code (event 'locago:download-complete').
 // Maks 1x/sesi; kalau ditutup, jangan muncul lagi 7 hari.
 // Buka manual: event 'locago:open-donate' (mis. item "Traktir Kopi" di
 // Navbar) — klik eksplisit user selalu membuka popup, tanpa guard supresi.
@@ -14,7 +15,12 @@ import { supabase } from '../lib/supabase';
 const PRESETS = [10000, 25000, 50000, 100000];
 const SHOWN_SESSION_KEY = 'locago_donate_shown_session';
 const DISMISSED_KEY = 'locago_donate_dismissed_until';
-const DELAY_MS = 50000;
+// Timer otomatis ACAK 15–30 detik (Fahmi 2026-11-21): satu nilai acak
+// dipilih saat komponen mount, tetap selama sesi itu; tidak pernah 0 detik.
+const DELAY_MIN_MS = 15000;
+const DELAY_MAX_MS = 30000;
+const randomDelayMs = () =>
+  DELAY_MIN_MS + Math.floor(Math.random() * (DELAY_MAX_MS - DELAY_MIN_MS + 1));
 
 export const DonateWidget: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,7 +47,7 @@ export const DonateWidget: React.FC = () => {
       setIsOpen(true);
     };
 
-    const timer = window.setTimeout(show, DELAY_MS);
+    const timer = window.setTimeout(show, randomDelayMs());
     const onScroll = () => {
       // Robust: hitung dari window.scrollY + fallback body/documentElement,
       // dan dengarkan juga di document (capture) agar scroll di kontainer
