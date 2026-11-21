@@ -268,6 +268,29 @@ export const AIToolsHub: React.FC<AIToolsHubProps> = ({ initialToolSlug = null, 
     });
   }, []);
 
+  // Fetch linklists from Supabase only (lib/catalogData) — sama seperti
+  // LinkListsHub. Tanpa ini, deep-link hash #ai-tools#linklist=<id> hanya
+  // menemukan list yang sudah ada di cache/seed localStorage; list baru
+  // (mis. batch harian) tidak pernah ter-resolve dan banner tidak muncul.
+  // activeLinkList adalah useMemo dari [activeLinkListId, linkLists], jadi
+  // begitu fetch mendarat, banner deep-link muncul otomatis.
+  useEffect(() => {
+    fetchCatalog<LinkListItem>('linklists').then((items) => {
+      if (items) {
+        setLinkLists((prev) => {
+          const liveMap = new Map(items.map((it: LinkListItem) => [it.id, it]));
+          // Retain user's custom created lists
+          const personalLists = prev.filter((p) => !liveMap.has(p.id) && !p.isOfficial);
+          const combined = [...items, ...personalLists];
+          try {
+            localStorage.setItem('locago_community_linklists', JSON.stringify(combined));
+          } catch {}
+          return combined;
+        });
+      }
+    });
+  }, []);
+
   // Upvotes state stored in localStorage
   const [upvotes, setUpvotes] = useState<Record<string, number>>(() => {
     try {
