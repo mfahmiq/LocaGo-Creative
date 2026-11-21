@@ -1,22 +1,23 @@
 {
-  "updatedAt": "21 Nov 2026, 18:01 WIB",
+  "updatedAt": "21 Nov 2026, 23:12 WIB",
   "total": 20,
   "items": [
     {
       "id": "sc-76",
-      "title": "Toko Online E-Commerce Siap Pakai - Project Pbwl 5",
+      "title": "Sistem Akademik Project 5 - PHP OOP + Composer",
       "slug": "project-pbwl-5",
-      "category": "Toko Online & E-Commerce",
+      "category": "Pendidikan & Akademik",
       "techStack": [
-        "PHP Native",
+        "PHP OOP",
         "PHP",
         "MySQL",
-        "Bootstrap"
+        "Bootstrap",
+        "Composer"
       ],
-      "description": "Aplikasi e-commerce PHP MVC (native) - CRUD Kategori & Produk dengan upload foto (praktikum PBWL)\n\nProyek riil open-source asli dari GitHub (https://github.com/Neuron700/project-pbwl-5). Dilengkapi file database lengkap (database.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Toko Online E-Commerce Siap Pakai - Project Pbwl 5 dengan database database.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "description": "Sistem Akademik Project 5 — PHP OOP + Composer: manajemen data Mahasiswa, Dosen, dan Matakuliah (CRUD lengkap) dengan autoload PSR-4 dan PDO MySQL.\n\nProyek riil open-source asli dari GitHub (https://github.com/Neuron700/project-pbwl-5). Dilengkapi file database lengkap (database.sql, database pbwl_samples_5), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Akademik Project 5 dengan database database.sql (pbwl_samples_5), data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web Sistem Akademik berbasis PHP 8.0+ OOP dengan autoload Composer (PSR-4) dan PDO MySQL. Mengelola data master Mahasiswa, Dosen, dan Matakuliah (CRUD lengkap) dengan penyimpanan data relasional MySQL (.sql).",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 8.0+, MySQL / MariaDB (port 3307), Composer.",
       "screenshots": [
         "/screenshots/project-pbwl-5/screenshot_1.webp",
         "/screenshots/project-pbwl-5/screenshot_2.webp"
@@ -41,14 +42,16 @@
       "fileSize": "3.1 MB",
       "tutorialSteps": [
         "Ekstrak berkas `project-pbwl-5.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `database.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/project-pbwl-5` dan login dengan akun default."
+        "Buat database `pbwl_samples_5` di phpMyAdmin (MySQL port 3307), lalu import berkas SQL `database.sql` ke database tersebut.",
+        "Sesuaikan koneksi database di `inc/Koneksi.php` (host 127.0.0.1, port 3307, dbname pbwl_samples_5, user root, tanpa password) bila perlu.",
+        "Jalankan `composer install` bila folder `vendor/` belum ada.",
+        "Buka browser di `http://localhost/project-pbwl-5` — dashboard langsung terbuka tanpa login."
       ],
       "keyFeatures": [
         "Proyek riil dari GitHub (Neuron700/project-pbwl-5) dengan source code lengkap",
-        "Disertai database asli (database.sql) beserta skema dan data contoh",
+        "Disertai database asli (database.sql, database pbwl_samples_5) beserta skema dan data contoh",
         "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "CRUD lengkap Mahasiswa, Dosen, dan Matakuliah (PHP OOP + Composer PSR-4 + PDO)",
         "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
         "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
       ],
