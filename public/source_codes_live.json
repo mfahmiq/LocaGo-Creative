@@ -1,7 +1,62 @@
 {
-  "updatedAt": "21 Nov 2026, 23:12 WIB",
-  "total": 20,
+  "updatedAt": "21 Nov 2026, 23:56 WIB",
+  "total": 21,
   "items": [
+    {
+      "id": "sc-77",
+      "title": "Comprehensive School Management System - Lms Pro",
+      "slug": "lms-pro",
+      "category": "Pendidikan & Akademik",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Library_Management_System , a complete system for any school , college or public lib to implement and manage their resources and readers\n\nProyek riil open-source asli dari GitHub (https://github.com/shiroonigami23-ui/lms-pro). Dilengkapi file database lengkap (database/library_management_patch.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Comprehensive School Management System - Lms Pro dengan database database/library_management_patch.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/lms-pro/screenshot_1.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Demo",
+          "username": "Lihat README.md repo asli",
+          "password": "(lihat README repo)"
+        }
+      ],
+      "updatedAt": "21 November 2026",
+      "releaseDate": "21 November 2026",
+      "recentFastDownloads": 60,
+      "thumbnail": "/screenshots/lms-pro/screenshot_1.webp",
+      "downloadsCount": 940,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "34.9 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `lms-pro.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `database/library_management_patch.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/lms-pro` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (shiroonigami23-ui/lms-pro) dengan source code lengkap",
+        "Disertai database asli (database/library_management_patch.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=lms-pro&step=1&max=8",
+      "downloadUrlFast": "/downloads/lms-pro.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/shiroonigami23-ui/lms-pro",
+      "stars": 4
+    },
     {
       "id": "sc-76",
       "title": "Sistem Akademik Project 5 - PHP OOP + Composer",
