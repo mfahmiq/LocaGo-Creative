@@ -1,26 +1,36 @@
 // components/DonateWidget.tsx — Donasi sendiri via Midtrans (tanpa platform 5%).
 // Aturan (Fahmi 2026-11-19, diubah 2026-11-21): tombol kopi mengambang
 // selalu terlihat; popup TIDAK muncul saat load — baru setelah 15–30 detik
-// (ACAK per sesi, satu nilai saat mount), atau scroll 70%, atau setelah
+// (ACAK per kunjungan halaman), atau scroll 70%, atau setelah
 // download source code (event 'locago:download-complete').
-// Maks 1x/sesi; kalau ditutup, jangan muncul lagi 7 hari.
+// POPUP SEKALI PER HALAMAN (Fahmi 2026-11-21 07:45, "Ngerti?"): tiap
+// navigasi/pindah halaman, timer 15–30 detik jalan lagi dan popup muncul
+// sekali di halaman itu. Supresi 7 hari DITIADAKAN — menutup popup di satu
+// halaman TIDAK boleh mematikan popup di halaman lain; menutup hanya
+// mencegah popup muncul lagi di halaman yang sama.
 // Buka manual: event 'locago:open-donate' (mis. item "Traktir Kopi" di
-// Navbar) — klik eksplisit user selalu membuka popup, tanpa guard supresi.
-import React, { useEffect, useState } from 'react';
+// Navbar) — klik eksplisit user selalu membuka popup.
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Coffee, X, Heart, Check, Loader2 } from 'lucide-react';
 import { makeOrderId, requestSnapToken, payWithSnap, checkPaymentStatus } from '../lib/midtrans';
 import { formatRupiah } from '../lib/utm';
 import { supabase } from '../lib/supabase';
 
 const PRESETS = [10000, 25000, 50000, 100000];
-const SHOWN_SESSION_KEY = 'locago_donate_shown_session';
-const DISMISSED_KEY = 'locago_donate_dismissed_until';
 // Timer otomatis ACAK 15–30 detik (Fahmi 2026-11-21): satu nilai acak
-// dipilih saat komponen mount, tetap selama sesi itu; tidak pernah 0 detik.
+// dipilih per kunjungan halaman; tidak pernah 0 detik.
 const DELAY_MIN_MS = 15000;
 const DELAY_MAX_MS = 30000;
 const randomDelayMs = () =>
   DELAY_MIN_MS + Math.floor(Math.random() * (DELAY_MAX_MS - DELAY_MIN_MS + 1));
+
+// Kunci "halaman" = URL penuh (path + query + hash). Situs ini SPA:
+// DonateWidget di-mount sekali di App.tsx, jadi pindah halaman TIDAK
+// me-remount komponen — perubahan route dideteksi dari popstate /
+// hashchange + patch history.pushState/replaceState (navigasi programatik
+// di App.tsx tidak memicu event apapun secara native).
+const pageKey = () =>
+  window.location.pathname + window.location.search + window.location.hash;
 
 export const DonateWidget: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,24 +40,51 @@ export const DonateWidget: React.FC = () => {
   const [phase, setPhase] = useState<'form' | 'paying' | 'done' | 'error'>('form');
   const [errorMsg, setErrorMsg] = useState('');
 
-  useEffect(() => {
-    let dismissedUntil = 0;
-    let shownThisSession = false;
-    try {
-      dismissedUntil = Number(localStorage.getItem(DISMISSED_KEY) || 0);
-      shownThisSession = sessionStorage.getItem(SHOWN_SESSION_KEY) === '1';
-    } catch {}
-    if (dismissedUntil > Date.now() || shownThisSession) return;
+  // --- Pelacak "sekali per halaman" (hidup selama komponen ter-mount,
+  //     direset saat refresh — refresh = kunjungan halaman baru) ---
+  const shownPagesRef = useRef<Set<string>>(new Set());
+  const currentPageRef = useRef<string>(pageKey());
+  const timerRef = useRef<number | null>(null);
+  const isOpenRef = useRef(false);
+  useEffect(() => { isOpenRef.current = isOpen; }, [isOpen]);
 
-    const show = () => {
-      try {
-        if (sessionStorage.getItem(SHOWN_SESSION_KEY) === '1') return;
-        sessionStorage.setItem(SHOWN_SESSION_KEY, '1');
-      } catch {}
-      setIsOpen(true);
+  // Tampilkan popup sekali di halaman saat ini (tidak lebih).
+  const showPopup = useCallback(() => {
+    const key = currentPageRef.current;
+    if (!key || shownPagesRef.current.has(key)) return;
+    shownPagesRef.current.add(key);
+    setIsOpen(true);
+  }, []);
+
+  // Pasang timer acak 15–30 detik untuk halaman saat ini.
+  const armPopup = useCallback(() => {
+    if (timerRef.current !== null) window.clearTimeout(timerRef.current);
+    timerRef.current = null;
+    if (shownPagesRef.current.has(currentPageRef.current)) return;
+    timerRef.current = window.setTimeout(showPopup, randomDelayMs());
+  }, [showPopup]);
+
+  useEffect(() => {
+    // Bersihkan sisa aturan lama (1x/sesi + supresi 7 hari) dari browser
+    // yang pernah menyimpannya — aturan itu sudah tidak berlaku lagi.
+    try {
+      localStorage.removeItem('locago_donate_dismissed_until');
+      sessionStorage.removeItem('locago_donate_shown_session');
+    } catch {}
+
+    const onRouteChange = () => {
+      const key = pageKey();
+      if (key === currentPageRef.current) return;
+      currentPageRef.current = key;
+      // Kalau popup sedang terbuka saat pindah halaman, popup itu sudah
+      // terlihat di halaman baru — tandai halaman baru sudah ditampilkan.
+      if (isOpenRef.current) {
+        shownPagesRef.current.add(key);
+        return;
+      }
+      armPopup();
     };
 
-    const timer = window.setTimeout(show, randomDelayMs());
     const onScroll = () => {
       // Robust: hitung dari window.scrollY + fallback body/documentElement,
       // dan dengarkan juga di document (capture) agar scroll di kontainer
@@ -57,26 +94,52 @@ export const DonateWidget: React.FC = () => {
       const scrollHeight = Math.max(el.scrollHeight, document.body.scrollHeight);
       const clientHeight = window.innerHeight || el.clientHeight || 0;
       const ratio = scrollTop / Math.max(1, scrollHeight - clientHeight);
-      if (ratio >= 0.7) show();
+      if (ratio >= 0.7) showPopup();
     };
-    const onDownload = () => show();
+    const onDownload = () => showPopup();
+
+    // Tangkap navigasi programatik: history.pushState/replaceState tidak
+    // memicu event apapun secara native, jadi patch keduanya untuk
+    // mengirim event 'locago:route-change' (dipulihkan saat unmount).
+    const origPushState = window.history.pushState.bind(window.history);
+    const origReplaceState = window.history.replaceState.bind(window.history);
+    const notifyRouteChange = () => window.dispatchEvent(new Event('locago:route-change'));
+    window.history.pushState = function (...args: Parameters<History['pushState']>) {
+      origPushState(...args);
+      notifyRouteChange();
+    };
+    window.history.replaceState = function (...args: Parameters<History['replaceState']>) {
+      origReplaceState(...args);
+      notifyRouteChange();
+    };
+
+    armPopup();
     window.addEventListener('scroll', onScroll, { passive: true });
     document.addEventListener('scroll', onScroll, { passive: true, capture: true });
     window.addEventListener('locago:download-complete', onDownload);
+    window.addEventListener('popstate', onRouteChange);
+    window.addEventListener('hashchange', onRouteChange);
+    window.addEventListener('locago:route-change', onRouteChange);
     return () => {
-      window.clearTimeout(timer);
+      if (timerRef.current !== null) window.clearTimeout(timerRef.current);
       window.removeEventListener('scroll', onScroll);
       document.removeEventListener('scroll', onScroll, { capture: true });
       window.removeEventListener('locago:download-complete', onDownload);
+      window.removeEventListener('popstate', onRouteChange);
+      window.removeEventListener('hashchange', onRouteChange);
+      window.removeEventListener('locago:route-change', onRouteChange);
+      window.history.pushState = origPushState;
+      window.history.replaceState = origReplaceState;
     };
-  }, []);
+  }, [armPopup, showPopup]);
 
   // Buka manual via event 'locago:open-donate' (mis. item "Traktir Kopi" di
-  // Navbar). Sengaja di useEffect terpisah dan TANPA guard supresi/sesi —
-  // klik eksplisit user harus selalu membuka popup, sama seperti tombol
-  // kopi mengambang.
+  // Navbar). Klik eksplisit user selalu membuka popup, sama seperti tombol
+  // kopi mengambang. Buka manual dihitung sebagai "sudah tampil" di halaman
+  // ini — popup tidak muncul lagi otomatis di halaman yang sama.
   useEffect(() => {
     const onOpenRequest = () => {
+      shownPagesRef.current.add(pageKey());
       setPhase('form');
       setIsOpen(true);
     };
@@ -84,11 +147,10 @@ export const DonateWidget: React.FC = () => {
     return () => window.removeEventListener('locago:open-donate', onOpenRequest);
   }, []);
 
+  // Menutup hanya menutup popup — TIDAK menulis supresi apapun: popup
+  // tetap boleh muncul di halaman lain (sekali per halaman).
   const close = () => {
     setIsOpen(false);
-    try {
-      localStorage.setItem(DISMISSED_KEY, String(Date.now() + 7 * 86400000));
-    } catch {}
   };
 
   const finalAmount = customAmount ? Math.max(3000, Math.floor(Number(customAmount) || 0)) : amount;
@@ -139,7 +201,7 @@ export const DonateWidget: React.FC = () => {
     <>
       {/* Tombol kopi mengambang — selalu terlihat, tidak menutupi konten */}
       <button
-        onClick={() => { setPhase('form'); setIsOpen(true); }}
+        onClick={() => { shownPagesRef.current.add(pageKey()); setPhase('form'); setIsOpen(true); }}
         aria-label="Donasi untuk LocaGo Creative"
         title="Traktir kopi untuk LocaGo Creative"
         className="fixed bottom-5 right-5 z-40 w-12 h-12 rounded-full bg-amber-500 hover:bg-amber-400 text-white shadow-2xl flex items-center justify-center transition-all active:scale-95 cursor-pointer"
