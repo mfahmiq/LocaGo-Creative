@@ -1,61 +1,7 @@
 {
   "updatedAt": "22 Nov 2026, 20:56 WIB",
-  "total": 23,
+  "total": 22,
   "items": [
-    {
-      "id": "sc-79",
-      "title": "Sistem Pendukung Keputusan (SPK) - Spk Handphone",
-      "slug": "spk-handphone",
-      "category": "Kecerdasan Buatan & SPK",
-      "techStack": [
-        "PHP Native",
-        "PHP",
-        "MySQL"
-      ],
-      "description": "Sistem Pendukung Keputusan Pemilihan Handphone menggunakan Metode SAW.\n\nProyek riil open-source asli dari GitHub (https://github.com/Kiriyaa-ship-it/SPK-Handphone). Dilengkapi file database lengkap (database/migrations/001_create_tables.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Sistem Pendukung Keputusan (SPK) - Spk Handphone dengan database database/migrations/001_create_tables.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/spk-handphone/screenshot_1.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
-        }
-      ],
-      "updatedAt": "22 November 2026",
-      "releaseDate": "22 November 2026",
-      "recentFastDownloads": 60,
-      "thumbnail": "/screenshots/spk-handphone/screenshot_1.webp",
-      "downloadsCount": 786,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "1.3 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `spk-handphone.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `database/migrations/001_create_tables.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/spk-handphone` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (Kiriyaa-ship-it/SPK-Handphone) dengan source code lengkap",
-        "Disertai database asli (database/migrations/001_create_tables.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=spk-handphone&step=1&max=8",
-      "downloadUrlFast": "/downloads/spk-handphone.zip",
-      "driveUrl": "https://drive.google.com/file/d/1ugdu3e3NjE89F2nviiZXbJOBK9Sl6KNa/view?usp=drivesdk",
-      "githubRepo": "https://github.com/Kiriyaa-ship-it/SPK-Handphone",
-      "stars": 1
-    },
     {
       "id": "sc-78",
       "title": "Aplikasi Kasir POS & Manajemen Penjualan - Latihanukktahap1 Sistemkasir Fahnidaauliaazzahwa",
