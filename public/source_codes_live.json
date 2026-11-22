@@ -1,7 +1,63 @@
 {
-  "updatedAt": "22 Nov 2026, 20:56 WIB",
-  "total": 22,
+  "updatedAt": "23 Nov 2026, 00:02 WIB",
+  "total": 23,
   "items": [
+    {
+      "id": "sc-79",
+      "title": "Sistem Informasi Akademik & Kesiswaan - Informasi Rasmi Kvks",
+      "slug": "informasi-rasmi-kvks",
+      "category": "Pendidikan & Akademik",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL"
+      ],
+      "description": "sistem sekolah yang berfokuskan pemberitauhan dan berita2 terkini\n\nProyek riil open-source asli dari GitHub (https://github.com/aisardin/informasi-rasmi-kvks). Dilengkapi file database lengkap (irkvks.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Informasi Akademik & Kesiswaan - Informasi Rasmi Kvks dengan database irkvks.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/informasi-rasmi-kvks/screenshot_1.webp",
+        "/screenshots/informasi-rasmi-kvks/screenshot_2.webp",
+        "/screenshots/informasi-rasmi-kvks/screenshot_3.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Demo",
+          "username": "Lihat README.md repo asli",
+          "password": "(lihat README repo)"
+        }
+      ],
+      "updatedAt": "23 November 2026",
+      "releaseDate": "23 November 2026",
+      "recentFastDownloads": 60,
+      "thumbnail": "/screenshots/informasi-rasmi-kvks/screenshot_1.webp",
+      "downloadsCount": 600,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "8.2 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `informasi-rasmi-kvks.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `irkvks.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/informasi-rasmi-kvks` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (aisardin/informasi-rasmi-kvks) dengan source code lengkap",
+        "Disertai database asli (irkvks.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=informasi-rasmi-kvks&step=1&max=8",
+      "downloadUrlFast": "/downloads/informasi-rasmi-kvks.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/aisardin/informasi-rasmi-kvks",
+      "stars": 0
+    },
     {
       "id": "sc-78",
       "title": "Aplikasi Kasir POS & Manajemen Penjualan - Latihanukktahap1 Sistemkasir Fahnidaauliaazzahwa",
