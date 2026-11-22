@@ -22,9 +22,9 @@
       ],
       "defaultCredentials": [
         {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
+          "role": "Admin (terverifikasi dari schema.sql)",
+          "username": "admin",
+          "password": "password"
         }
       ],
       "updatedAt": "23 November 2026",
@@ -55,7 +55,8 @@
       "downloadUrlFast": "/downloads/inventory-mgmt-sys.zip",
       "driveUrl": "https://drive.google.com/file/d/12PuLt7KzhC4MwvPTeu0iYoaQ3i1eSATM/view?usp=drivesdk",
       "githubRepo": "https://github.com/yitmeng00/inventory-mgmt-sys",
-      "stars": 0
+      "stars": 0,
+      "zipBytes": 11850565
     },
     {
       "id": "sc-78",
