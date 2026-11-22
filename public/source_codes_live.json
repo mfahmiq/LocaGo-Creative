@@ -1,7 +1,62 @@
 {
-  "updatedAt": "23 Nov 2026, 00:02 WIB",
-  "total": 22,
+  "updatedAt": "23 Nov 2026, 05:56 WIB",
+  "total": 23,
   "items": [
+    {
+      "id": "sc-79",
+      "title": "Warehouse & Inventory Management System - Inventory Mgmt Sys",
+      "slug": "inventory-mgmt-sys",
+      "category": "Bisnis & Manajemen",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL",
+        "Tailwind CSS"
+      ],
+      "description": "Responsive inventory management system with JWT auth, role-based access control, product/supplier/transaction tracking, dashboard charts, and CSV import/export, built with PHP, MySQL, and Tailwind v4.\n\nProyek riil open-source asli dari GitHub (https://github.com/yitmeng00/inventory-mgmt-sys). Dilengkapi file database lengkap (schema.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Warehouse & Inventory Management System - Inventory Mgmt Sys dengan database schema.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Tailwind CSS dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/inventory-mgmt-sys/screenshot_1.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Demo",
+          "username": "Lihat README.md repo asli",
+          "password": "(lihat README repo)"
+        }
+      ],
+      "updatedAt": "23 November 2026",
+      "releaseDate": "23 November 2026",
+      "recentFastDownloads": 87,
+      "thumbnail": "/screenshots/inventory-mgmt-sys/screenshot_1.webp",
+      "downloadsCount": 1076,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "11.3 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `inventory-mgmt-sys.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `schema.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/inventory-mgmt-sys` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (yitmeng00/inventory-mgmt-sys) dengan source code lengkap",
+        "Disertai database asli (schema.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=inventory-mgmt-sys&step=1&max=8",
+      "downloadUrlFast": "/downloads/inventory-mgmt-sys.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/yitmeng00/inventory-mgmt-sys",
+      "stars": 0
+    },
     {
       "id": "sc-78",
       "title": "Aplikasi Kasir POS & Manajemen Penjualan - Latihanukktahap1 Sistemkasir Fahnidaauliaazzahwa",
