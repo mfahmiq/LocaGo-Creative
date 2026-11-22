@@ -1,7 +1,63 @@
 {
-  "updatedAt": "21 Nov 2026, 23:56 WIB",
-  "total": 21,
+  "updatedAt": "22 Nov 2026, 13:07 WIB",
+  "total": 22,
   "items": [
+    {
+      "id": "sc-78",
+      "title": "Aplikasi Kasir POS & Manajemen Penjualan - Latihanukktahap1 Sistemkasir Fahnidaauliaazzahwa",
+      "slug": "latihanukktahap1-sistemkasir-fahnidaauliaazzahwa",
+      "category": "Kasir & Point of Sale (POS)",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Aplikasi POS & Self-Ordering \"Daily Coffee & Toast\" berbasis Native PHP & MySQL. Dilengkapi hak akses multi-role (Admin, Kasir, Pelanggan), alur status pesanan interaktif (Pending ➔ Proses ➔ Selesai/Batal) dengan otomatisasi pemulihan stok, serta cetak struk termal.\n\nProyek riil open-source asli dari GitHub (https://github.com/fahnidazw/LatihanUKKTahap1-SistemKasir-FahnidaAuliaAzzahwa). Dilengkapi file database lengkap (kasir.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Aplikasi Kasir POS & Manajemen Penjualan - Latihanukktahap1 Sistemkasir Fahnidaauliaazzahwa dengan database kasir.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/latihanukktahap1-sistemkasir-fahnidaauliaazzahwa/screenshot_1.webp",
+        "/screenshots/latihanukktahap1-sistemkasir-fahnidaauliaazzahwa/screenshot_2.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Demo",
+          "username": "Lihat README.md repo asli",
+          "password": "(lihat README repo)"
+        }
+      ],
+      "updatedAt": "22 November 2026",
+      "releaseDate": "22 November 2026",
+      "recentFastDownloads": 88,
+      "thumbnail": "/screenshots/latihanukktahap1-sistemkasir-fahnidaauliaazzahwa/screenshot_1.webp",
+      "downloadsCount": 1190,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "6.5 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `latihanukktahap1-sistemkasir-fahnidaauliaazzahwa.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `kasir.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/latihanukktahap1-sistemkasir-fahnidaauliaazzahwa` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (fahnidazw/LatihanUKKTahap1-SistemKasir-FahnidaAuliaAzzahwa) dengan source code lengkap",
+        "Disertai database asli (kasir.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=latihanukktahap1-sistemkasir-fahnidaauliaazzahwa&step=1&max=8",
+      "downloadUrlFast": "/downloads/latihanukktahap1-sistemkasir-fahnidaauliaazzahwa.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/fahnidazw/LatihanUKKTahap1-SistemKasir-FahnidaAuliaAzzahwa",
+      "stars": 0
+    },
     {
       "id": "sc-77",
       "title": "Comprehensive School Management System - Lms Pro",
