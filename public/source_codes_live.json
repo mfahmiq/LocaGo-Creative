@@ -1,7 +1,63 @@
 {
-  "updatedAt": "23 Nov 2026, 12:55 WIB",
-  "total": 24,
+  "updatedAt": "23 Nov 2026, 17:56 WIB",
+  "total": 25,
   "items": [
+    {
+      "id": "sc-81",
+      "title": "Sistem Pakar Diagnosa - Kumaphone",
+      "slug": "kumaphone",
+      "category": "Kecerdasan Buatan & SPK",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Sistem Pakar Diagnosa Kerusakan Smartphone Android menggunakan Metode Forward Chaining adalah sebuah program yang dapat digunakan untuk mendiagnosis kerusakan pada smartphone Android. Program ini menggunakan metode forward chaining untuk mencari solusi dari kerusakan pada smartphone Android yang diberikan.\n\nProyek riil open-source asli dari GitHub (https://github.com/joenior/kumaphone). Dilengkapi file database lengkap (db_sbp.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Pakar Diagnosa - Kumaphone dengan database db_sbp.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/kumaphone/screenshot_1.webp",
+        "/screenshots/kumaphone/screenshot_2.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Demo",
+          "username": "Lihat README.md repo asli",
+          "password": "(lihat README repo)"
+        }
+      ],
+      "updatedAt": "23 November 2026",
+      "releaseDate": "23 November 2026",
+      "recentFastDownloads": 59,
+      "thumbnail": "/screenshots/kumaphone/screenshot_1.webp",
+      "downloadsCount": 957,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "685 KB",
+      "tutorialSteps": [
+        "Ekstrak berkas `kumaphone.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `db_sbp.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/kumaphone` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (joenior/kumaphone) dengan source code lengkap",
+        "Disertai database asli (db_sbp.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=kumaphone&step=1&max=8",
+      "downloadUrlFast": "/downloads/kumaphone.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/joenior/kumaphone",
+      "stars": 7
+    },
     {
       "id": "sc-80",
       "title": "Sistem Pakar Diagnosa - Sistem Pakar Diagnosa Penyakit Kucing Berbasis Php Dan Mysql",
