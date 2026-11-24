@@ -1,0 +1,37 @@
+PANDUAN — PORTOFOLIO MAHASISWA
+===============================
+Website portofolio mahasiswa + kalkulator IPK — dibuat dengan Google AI Studio.
+Source code gratis by LocaGo Creative (locagocreative.my.id).
+
+CARA MEMBUKA
+------------
+1. Double-click file index.html — website langsung terbuka di browser.
+   (Tidak perlu install apa pun.)
+2. Atau upload file index.html ke hosting statis apa pun
+   (Netlify, Vercel, GitHub Pages, Niagahoster, dll).
+
+FITUR
+-----
+- Hero, tentang, skill (dengan progress bar), proyek dengan filter
+- KALKULATOR IPK interaktif: tambah mata kuliah + nilai (A–E) + SKS,
+  IPK & predikat (Cum Laude / Sangat Memuaskan / dst) dihitung otomatis,
+  data tersimpan di browser, bisa muat contoh semester & salin hasil
+- Tombol Download CV: mencetak CV rapi (print / save as PDF)
+- Form kontak
+
+CARA MENYESUAIKAN (edit file index.html dengan Notepad / VS Code)
+-----------------------------------------------------------------
+- Nama, kampus, email, WA : cari teks "Raka Pratama" dan bagian
+  kontak di HTML, ganti dengan datamu.
+- Skill : cari const SKILLS = [ ... ] lalu ubah nama & persen.
+- Proyek : cari const PROYEK = [ ... ] lalu ubah judul, deskripsi,
+  teknologi, dan URL gambar.
+- Isi CV cetak : cari <div id="cvPrint"> di akhir file, sesuaikan.
+- Warna tema : cari tailwind.config di <head>.
+
+CATATAN
+-------
+- Data kalkulator IPK tersimpan di localStorage browser pengunjung.
+- Gambar memakai URL Unsplash — butuh internet saat pertama dibuka.
+- Bebas dipakai & dimodifikasi untuk portofoliomu. Dilarang dijual kembali
+  sebagai produk berbayar tanpa izin LocaGo Creative.

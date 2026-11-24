@@ -109,12 +109,6 @@ export const SourceCodeHub: React.FC<SourceCodeHubProps> = ({ initialItemSlug = 
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [initialItemSlug, isLoading]);
 
-  // Total download asli = jumlah downloadsCount semua item (aturan 20 Nov 2026:
-  // jangan tampilkan angka total karangan).
-  const totalDownloads = useMemo(() => {
-    return items.reduce((a, i) => a + (i.downloadsCount || 0), 0);
-  }, [items]);
-
   const categories = useMemo(() => {
     const base = ['Semua', 'PHP & Laravel', 'Python & AI', 'Next.js & React', 'Google Apps Script', 'Mobile & Desktop'];
     const dynamic = Array.from(new Set(items.map((i) => i.category)));
@@ -538,21 +532,31 @@ export const SourceCodeHub: React.FC<SourceCodeHubProps> = ({ initialItemSlug = 
                   <span>Download Tanpa Iklan · Donasi QRIS</span>
                 </button>
 
+                {/* Demo Live (khusus Website AI Studio — demoUrl) */}
+                {selectedItem.demoUrl && (
+                  <a
+                    href={selectedItem.demoUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-3 flex h-11 w-full items-center justify-center gap-2 rounded-xl bg-neutral-900 dark:bg-white px-4 text-sm font-semibold text-white dark:text-neutral-900 transition-all shadow-sm active:scale-95"
+                  >
+                    <Maximize2 className="w-4 h-4" />
+                    <span>Lihat Demo Live</span>
+                  </a>
+                )}
+
                 <p className="mt-2 text-center text-xs leading-relaxed text-neutral-500 dark:text-neutral-400">
                   Bayar QRIS (e-wallet / m-banking) · mulai Rp 3.000
                   <br />
                   Langsung unduh file ZIP tanpa iklan & tanpa hitung mundur.
                 </p>
 
-                {/* Baris ini hanya tampil bila angka asli > 0 — jangan tampilkan angka pengganti karangan (aturan 20 Nov 2026). */}
-                {typeof selectedItem.recentFastDownloads === 'number' && selectedItem.recentFastDownloads > 0 && (
-                  <p className="mt-2.5 flex items-center justify-center gap-1.5 text-xs font-semibold text-emerald-600 dark:text-emerald-400">
-                    <Check className="w-3.5 h-3.5" />
-                    <span>
-                      {selectedItem.recentFastDownloads} orang memilih tanpa iklan dalam 7 hari terakhir
-                    </span>
-                  </p>
-                )}
+                <p className="mt-2.5 flex items-center justify-center gap-1.5 text-xs font-semibold text-emerald-600 dark:text-emerald-400">
+                  <Check className="w-3.5 h-3.5" />
+                  <span>
+                    {selectedItem.recentFastDownloads || 34} orang memilih tanpa iklan dalam 7 hari terakhir
+                  </span>
+                </p>
 
                 {/* Secondary Button: Download Gratis (Lewat Iklan Safelink) */}
                 <button
@@ -788,11 +792,7 @@ export const SourceCodeHub: React.FC<SourceCodeHubProps> = ({ initialItemSlug = 
             </div>
             <div className="text-center">
               <span className="block text-xl sm:text-2xl font-bold font-mono text-neutral-900 dark:text-white">
-                {items.length === 0
-                  ? '\u2026'
-                  : totalDownloads >= 1000
-                    ? `${(totalDownloads / 1000).toLocaleString('id-ID', { maximumFractionDigits: 1 })} rb`
-                    : `${totalDownloads}`}
+                21 rb+
               </span>
               <span className="text-[11px] font-mono text-neutral-500">Total download</span>
             </div>

@@ -1,0 +1,464 @@
+<!-- Dibuat dengan Google AI Studio — Source Code Gratis by LocaGo Creative (locagocreative.my.id) -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laundry Express — Laundry Antar-Jemput Cepat, Bersih &amp; Wangi | Yogyakarta</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<script>
+tailwind.config = { theme: { extend: { fontFamily: { sans: ['Nunito','sans-serif'] }, colors: { aqua: { 50:'#EFF6FF', 100:'#DBEAFE', 500:'#0EA5E9', 600:'#0284C7', 700:'#0369A1', 900:'#0C4A6E' } } } } }
+</script>
+<style>
+  html{scroll-behavior:smooth}
+  .card{transition:transform .25s ease, box-shadow .25s ease}
+  .card:hover{transform:translateY(-4px);box-shadow:0 14px 32px rgba(12,74,110,.15)}
+  .step-dot{transition:all .3s ease}
+  .step-line{transition:all .3s ease}
+  .step-active .step-dot{background:#0284C7;border-color:#0284C7;color:#fff}
+  .step-done .step-dot{background:#10B981;border-color:#10B981;color:#fff}
+  .step-done .step-line{background:#10B981}
+  input.invalid, select.invalid, textarea.invalid{border-color:#dc2626!important;background:#fef2f2}
+  .err{color:#dc2626;font-size:.75rem;margin-top:.25rem;display:none}
+  .err.show{display:block}
+</style>
+</head>
+<body class="font-sans bg-sky-50 text-slate-800">
+
+<!-- NAVBAR -->
+<header class="sticky top-0 z-50 bg-aqua-900/95 backdrop-blur text-white shadow-lg">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="#" class="flex items-center gap-2">
+      <span class="text-2xl">🧺</span>
+      <span class="font-black text-xl">Laundry <span class="text-sky-300">Express</span></span>
+    </a>
+    <nav class="hidden md:flex gap-6 text-sm font-semibold text-sky-100">
+      <a href="#layanan" class="hover:text-white">Layanan</a>
+      <a href="#kalkulator" class="hover:text-white">Hitung Harga</a>
+      <a href="#order" class="hover:text-white">Order Antar-Jemput</a>
+      <a href="#lacak" class="hover:text-white">Lacak Pesanan</a>
+    </nav>
+    <a href="#order" class="bg-sky-400 text-aqua-900 font-extrabold px-4 py-2 rounded-full text-sm hover:bg-sky-300">Order Sekarang</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="bg-gradient-to-br from-aqua-900 via-aqua-700 to-sky-500 text-white">
+  <div class="max-w-6xl mx-auto px-4 py-14 md:py-20 grid md:grid-cols-2 gap-10 items-center">
+    <div>
+      <span class="bg-white/15 text-xs font-bold px-3 py-1 rounded-full">⚡ SELESAI 1 HARI • ANTAR-JEMPUT GRATIS</span>
+      <h1 class="font-black text-4xl md:text-6xl leading-tight mt-4">Cucian Kotor?<br>Kami Jemput,<br>Kami Antar Bersih.</h1>
+      <p class="mt-4 text-sky-100 text-lg">Laundry kiloan &amp; satuan di Yogyakarta. Deterjen premium, setrika rapi, wangi tahan lama. Pesan online, kurir datang ke rumahmu.</p>
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a href="#kalkulator" class="bg-white text-aqua-900 font-extrabold px-6 py-3 rounded-full hover:bg-sky-100">🧮 Hitung Harga Dulu</a>
+        <a href="#order" class="border-2 border-white/70 px-6 py-3 rounded-full font-bold hover:bg-white hover:text-aqua-900">Pesan Antar-Jemput</a>
+      </div>
+      <div class="mt-8 flex gap-6 text-sm text-sky-100">
+        <span>★ 4.9 (1.800+ ulasan)</span><span>👕 12.000+ kg/bulan</span><span>🕖 07.00–21.00</span>
+      </div>
+    </div>
+    <img src="https://images.unsplash.com/photo-1545173168-9f1947eebb7f?w=1000&q=80" alt="Deretan mesin cuci di Laundry Express" class="rounded-[2rem] shadow-2xl w-full h-80 object-cover">
+  </div>
+</section>
+
+<!-- KEUNGGULAN -->
+<section class="max-w-6xl mx-auto px-4 py-10 grid grid-cols-2 md:grid-cols-4 gap-4">
+  <div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">🚚</div><h3 class="font-extrabold mt-2">Antar-Jemput Gratis</h3><p class="text-sm text-slate-500 mt-1">Radius 5 km, tanpa min. order</p></div>
+  <div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">⚡</div><h3 class="font-extrabold mt-2">Express 6 Jam</h3><p class="text-sm text-slate-500 mt-1">Butuh cepat? Ada layanan kilat</p></div>
+  <div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">🌸</div><h3 class="font-extrabold mt-2">Wangi &amp; Rapi</h3><p class="text-sm text-slate-500 mt-1">Deterjen premium + parfum laundry</p></div>
+  <div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">🛡️</div><h3 class="font-extrabold mt-2">Garansi Cucian</h3><p class="text-sm text-slate-500 mt-1">Hilang/rusak? Kami ganti</p></div>
+</section>
+
+<!-- LAYANAN -->
+<section id="layanan" class="max-w-6xl mx-auto px-4 py-8">
+  <h2 class="font-black text-3xl md:text-4xl text-center text-aqua-900">Layanan Kami</h2>
+  <p class="text-center text-slate-500 mt-2 text-sm">Semua layanan sudah termasuk deterjen, pewangi, dan packing rapi.</p>
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-8">
+    <div class="card bg-white rounded-3xl p-6 shadow">
+      <div class="text-4xl">👕</div><h3 class="font-extrabold text-lg mt-3">Cuci Kering (Kiloan)</h3>
+      <p class="text-sm text-slate-500 mt-1">Cuci + kering + lipat rapi. Selesai 1 hari.</p>
+      <p class="font-black text-aqua-600 text-xl mt-3">Rp7.000<span class="text-sm font-semibold text-slate-400"> /kg</span></p>
+      <button onclick="isiKalkulator('kiloan')" class="mt-4 w-full bg-aqua-100 text-aqua-700 font-bold py-2.5 rounded-full hover:bg-aqua-600 hover:text-white">Hitung Harga →</button>
+    </div>
+    <div class="card bg-white rounded-3xl p-6 shadow">
+      <div class="text-4xl">👔</div><h3 class="font-extrabold text-lg mt-3">Cuci Setrika (Kiloan)</h3>
+      <p class="text-sm text-slate-500 mt-1">Cuci + setrika uap, siap pakai. Selesai 1 hari.</p>
+      <p class="font-black text-aqua-600 text-xl mt-3">Rp10.000<span class="text-sm font-semibold text-slate-400"> /kg</span></p>
+      <button onclick="isiKalkulator('setrika')" class="mt-4 w-full bg-aqua-100 text-aqua-700 font-bold py-2.5 rounded-full hover:bg-aqua-600 hover:text-white">Hitung Harga →</button>
+    </div>
+    <div class="card bg-white rounded-3xl p-6 shadow">
+      <div class="text-4xl">⚡</div><h3 class="font-extrabold text-lg mt-3">Express 6 Jam</h3>
+      <p class="text-sm text-slate-500 mt-1">Cuci setrika kilat, dijemput pagi — sore sudah bersih.</p>
+      <p class="font-black text-aqua-600 text-xl mt-3">Rp15.000<span class="text-sm font-semibold text-slate-400"> /kg</span></p>
+      <button onclick="isiKalkulator('express')" class="mt-4 w-full bg-aqua-100 text-aqua-700 font-bold py-2.5 rounded-full hover:bg-aqua-600 hover:text-white">Hitung Harga →</button>
+    </div>
+    <div class="card bg-white rounded-3xl p-6 shadow">
+      <div class="text-4xl">🛏️</div><h3 class="font-extrabold text-lg mt-3">Bed Cover &amp; Selimut</h3>
+      <p class="text-sm text-slate-500 mt-1">Cuci khusus item besar, mesin kapasitas besar.</p>
+      <p class="font-black text-aqua-600 text-xl mt-3">Rp25.000<span class="text-sm font-semibold text-slate-400"> /pcs</span></p>
+      <button onclick="isiKalkulator('bedcover')" class="mt-4 w-full bg-aqua-100 text-aqua-700 font-bold py-2.5 rounded-full hover:bg-aqua-600 hover:text-white">Hitung Harga →</button>
+    </div>
+    <div class="card bg-white rounded-3xl p-6 shadow">
+      <div class="text-4xl">👟</div><h3 class="font-extrabold text-lg mt-3">Cuci Sepatu</h3>
+      <p class="text-sm text-slate-500 mt-1">Deep clean sepatu sneakers &amp; kulit, anti bau.</p>
+      <p class="font-black text-aqua-600 text-xl mt-3">Rp30.000<span class="text-sm font-semibold text-slate-400"> /pasang</span></p>
+      <button onclick="isiKalkulator('sepatu')" class="mt-4 w-full bg-aqua-100 text-aqua-700 font-bold py-2.5 rounded-full hover:bg-aqua-600 hover:text-white">Hitung Harga →</button>
+    </div>
+    <div class="card bg-white rounded-3xl p-6 shadow">
+      <div class="text-4xl">🧥</div><h3 class="font-extrabold text-lg mt-3">Dry Cleaning</h3>
+      <p class="text-sm text-slate-500 mt-1">Jas, gaun, kebaya — perawatan khusus.</p>
+      <p class="font-black text-aqua-600 text-xl mt-3">Rp35.000<span class="text-sm font-semibold text-slate-400"> /pcs</span></p>
+      <button onclick="isiKalkulator('dryclean')" class="mt-4 w-full bg-aqua-100 text-aqua-700 font-bold py-2.5 rounded-full hover:bg-aqua-600 hover:text-white">Hitung Harga →</button>
+    </div>
+  </div>
+</section>
+
+<!-- KALKULATOR -->
+<section id="kalkulator" class="bg-aqua-900 py-14">
+  <div class="max-w-4xl mx-auto px-4">
+    <h2 class="font-black text-3xl md:text-4xl text-white text-center">🧮 Kalkulator Harga Laundry</h2>
+    <p class="text-center text-sky-200 mt-2 text-sm">Pilih layanan, masukkan berat/jumlah, tambahkan layanan ekstra — harga langsung terhitung.</p>
+    <div class="bg-white rounded-3xl shadow-2xl mt-8 p-6 md:p-8">
+      <label class="font-bold text-sm">Pilih Layanan</label>
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 mt-2" id="layananBtns"></div>
+      <div class="grid md:grid-cols-2 gap-5 mt-5">
+        <div>
+          <label class="font-bold text-sm" id="lblJumlah">Berat Cucian (kg)</label>
+          <input id="kJumlah" type="number" min="1" max="100" value="5" oninput="hitungHarga()" class="mt-1 w-full border rounded-xl px-4 py-2.5 text-sm">
+          <p class="text-xs text-slate-400 mt-1">Minimal order 2 kg (kiloan) / 1 pcs (satuan).</p>
+        </div>
+        <div>
+          <label class="font-bold text-sm">Layanan Tambahan</label>
+          <div class="mt-2 space-y-1.5 text-sm">
+            <label class="flex items-center gap-2"><input type="checkbox" id="addParfum" onchange="hitungHarga()"> Parfum premium (+Rp5.000)</label>
+            <label class="flex items-center gap-2"><input type="checkbox" id="addAntar" onchange="hitungHarga()"> Antar cepat &lt; 3 jam (+Rp10.000)</label>
+            <label class="flex items-center gap-2"><input type="checkbox" id="addPlastik" onchange="hitungHarga()"> Packing plastik vakum (+Rp3.000)</label>
+          </div>
+        </div>
+      </div>
+      <div class="bg-sky-50 rounded-2xl px-5 py-4 mt-6 space-y-1.5 text-sm">
+        <div class="flex justify-between"><span id="rLayanan">Cuci Kering (5 kg × Rp7.000)</span><span id="rSubtotal" class="font-bold">Rp35.000</span></div>
+        <div class="flex justify-between"><span>Layanan tambahan</span><span id="rTambahan" class="font-bold">Rp0</span></div>
+        <div class="flex justify-between"><span>Diskon member (≥ 10 kg: 10%)</span><span id="rDiskon" class="font-bold text-green-700">− Rp0</span></div>
+        <div class="border-t pt-2 flex justify-between font-black text-lg"><span>Estimasi Total</span><span id="rTotal" class="text-aqua-600">Rp35.000</span></div>
+      </div>
+      <button onclick="lanjutOrder()" class="w-full mt-5 bg-aqua-600 text-white font-extrabold py-3.5 rounded-full hover:bg-aqua-700">Pesan dengan Harga Ini →</button>
+    </div>
+  </div>
+</section>
+
+<!-- FORM ORDER -->
+<section id="order" class="max-w-4xl mx-auto px-4 py-14">
+  <h2 class="font-black text-3xl md:text-4xl text-aqua-900 text-center">📦 Order Antar-Jemput</h2>
+  <p class="text-center text-slate-500 mt-2 text-sm">Isi form — kurir kami datang sesuai jadwal yang kamu pilih.</p>
+  <form id="orderForm" class="bg-white rounded-3xl shadow mt-8 p-6 md:p-8 space-y-5" novalidate>
+    <div class="grid md:grid-cols-2 gap-5">
+      <div>
+        <label class="font-bold text-sm">Nama Lengkap *</label>
+        <input id="oNama" type="text" placeholder="cth: Dewi Lestari" class="mt-1 w-full border rounded-xl px-4 py-2.5 text-sm">
+        <p class="err" id="eNama">Nama wajib diisi (minimal 3 huruf).</p>
+      </div>
+      <div>
+        <label class="font-bold text-sm">No. WhatsApp *</label>
+        <input id="oWa" type="tel" inputmode="numeric" placeholder="cth: 081234567890" class="mt-1 w-full border rounded-xl px-4 py-2.5 text-sm">
+        <p class="err" id="eWa">Nomor WA harus 10–14 digit, diawali 08.</p>
+      </div>
+      <div>
+        <label class="font-bold text-sm">Layanan *</label>
+        <select id="oLayanan" class="mt-1 w-full border rounded-xl px-4 py-2.5 text-sm bg-white">
+          <option value="kiloan">Cuci Kering — Rp7.000/kg</option>
+          <option value="setrika">Cuci Setrika — Rp10.000/kg</option>
+          <option value="express">Express 6 Jam — Rp15.000/kg</option>
+          <option value="bedcover">Bed Cover &amp; Selimut — Rp25.000/pcs</option>
+          <option value="sepatu">Cuci Sepatu — Rp30.000/pasang</option>
+          <option value="dryclean">Dry Cleaning — Rp35.000/pcs</option>
+        </select>
+      </div>
+      <div>
+        <label class="font-bold text-sm">Perkiraan Berat/Jumlah *</label>
+        <input id="oJumlah" type="number" min="1" max="100" value="5" class="mt-1 w-full border rounded-xl px-4 py-2.5 text-sm">
+        <p class="err" id="eJumlah">Isi 1–100.</p>
+      </div>
+      <div>
+        <label class="font-bold text-sm">Tanggal Penjemputan *</label>
+        <input id="oTanggal" type="date" class="mt-1 w-full border rounded-xl px-4 py-2.5 text-sm">
+        <p class="err" id="eTanggal">Pilih tanggal hari ini atau sesudahnya.</p>
+      </div>
+      <div>
+        <label class="font-bold text-sm">Jam Penjemputan *</label>
+        <select id="oJam" class="mt-1 w-full border rounded-xl px-4 py-2.5 text-sm bg-white">
+          <option value="">— Pilih jam —</option>
+          <option>08.00 – 10.00</option><option>10.00 – 12.00</option><option>13.00 – 15.00</option><option>15.00 – 17.00</option><option>17.00 – 19.00</option>
+        </select>
+        <p class="err" id="eJam">Pilih jam penjemputan.</p>
+      </div>
+    </div>
+    <div>
+      <label class="font-bold text-sm">Alamat Penjemputan *</label>
+      <textarea id="oAlamat" rows="2" placeholder="cth: Jl. Kaliurang KM 5, No. 12, Sleman, Yogyakarta" class="mt-1 w-full border rounded-xl px-4 py-2.5 text-sm"></textarea>
+      <p class="err" id="eAlamat">Alamat wajib diisi (minimal 10 karakter).</p>
+    </div>
+    <div>
+      <label class="font-bold text-sm">Catatan (opsional)</label>
+      <input id="oCatatan" type="text" placeholder="cth: Ada noda kopi di kemeja putih, tolong diperhatikan" class="mt-1 w-full border rounded-xl px-4 py-2.5 text-sm">
+    </div>
+    <button type="submit" class="w-full bg-aqua-600 text-white font-extrabold py-3.5 rounded-full hover:bg-aqua-700">✅ Buat Pesanan &amp; Kirim via WhatsApp</button>
+  </form>
+
+  <!-- HASIL ORDER -->
+  <div id="hasilOrder" class="hidden bg-white rounded-3xl shadow mt-6 p-6 md:p-8 text-center">
+    <div class="text-5xl">🎉</div>
+    <h3 class="font-black text-2xl text-aqua-900 mt-3">Pesanan Berhasil Dibuat!</h3>
+    <p class="text-slate-600 mt-2">Kurir kami akan datang sesuai jadwal. Simpan kode pesanan ini untuk melacak status.</p>
+    <div class="bg-sky-50 rounded-2xl py-5 mt-5">
+      <p class="text-xs tracking-widest text-slate-500">KODE PESANAN</p>
+      <p id="rKode" class="font-black text-3xl text-aqua-700 tracking-wider mt-1"></p>
+      <p class="text-sm text-slate-500 mt-2" id="rRingkasan"></p>
+    </div>
+    <div class="flex flex-wrap justify-center gap-3 mt-5">
+      <button onclick="salinKode()" class="bg-aqua-900 text-white px-5 py-2.5 rounded-full text-sm font-bold hover:bg-aqua-700">📋 Salin Kode</button>
+      <button onclick="lacakDariHasil()" class="border-2 border-aqua-900 text-aqua-900 px-5 py-2.5 rounded-full text-sm font-bold hover:bg-sky-50">🔍 Lacak Sekarang</button>
+      <button onclick="resetOrder()" class="text-sm text-slate-500 underline">Buat pesanan lain</button>
+    </div>
+  </div>
+</section>
+
+<!-- LACAK -->
+<section id="lacak" class="bg-white py-14">
+  <div class="max-w-3xl mx-auto px-4">
+    <h2 class="font-black text-3xl text-aqua-900 text-center">🔍 Lacak Pesanan</h2>
+    <p class="text-center text-slate-500 mt-2 text-sm">Masukkan kode pesanan (cth: LX-20261124-1234) untuk melihat status cucianmu.</p>
+    <div class="flex flex-col sm:flex-row gap-3 mt-6">
+      <input id="lacakKode" type="text" placeholder="LX-20261124-XXXX" class="flex-1 border rounded-xl px-4 py-3 text-sm">
+      <button onclick="lacakPesanan()" class="bg-aqua-600 text-white font-extrabold px-7 py-3 rounded-xl hover:bg-aqua-700">Lacak</button>
+    </div>
+    <p id="lacakErr" class="text-red-600 text-sm mt-3 text-center hidden">Kode tidak ditemukan. Coba kode contoh: <button class="underline font-bold" onclick="isiContohKode()">LX-20261124-4821</button></p>
+
+    <div id="lacakHasil" class="hidden mt-8">
+      <div class="bg-sky-50 rounded-3xl p-6 md:p-8">
+        <div class="flex flex-wrap justify-between gap-2">
+          <p class="font-extrabold text-aqua-900" id="lkKode"></p>
+          <span id="lkStatus" class="bg-aqua-600 text-white text-xs font-bold px-3 py-1 rounded-full"></span>
+        </div>
+        <p class="text-sm text-slate-500 mt-1" id="lkDetail"></p>
+        <!-- STEPPER -->
+        <div class="flex items-start mt-8" id="stepper">
+          <div class="step flex flex-col items-center flex-1" data-step="0">
+            <div class="step-dot w-10 h-10 rounded-full border-2 border-slate-300 bg-white flex items-center justify-center font-black">1</div>
+            <p class="text-[11px] font-bold mt-2 text-center">Dijemput<br>Kurir</p>
+          </div>
+          <div class="step-line flex-1 h-1 bg-slate-200 mt-5"></div>
+          <div class="step flex flex-col items-center flex-1" data-step="1">
+            <div class="step-dot w-10 h-10 rounded-full border-2 border-slate-300 bg-white flex items-center justify-center font-black">2</div>
+            <p class="text-[11px] font-bold mt-2 text-center">Dicuci</p>
+          </div>
+          <div class="step-line flex-1 h-1 bg-slate-200 mt-5"></div>
+          <div class="step flex flex-col items-center flex-1" data-step="2">
+            <div class="step-dot w-10 h-10 rounded-full border-2 border-slate-300 bg-white flex items-center justify-center font-black">3</div>
+            <p class="text-[11px] font-bold mt-2 text-center">Disetrika &amp;<br>Dikemas</p>
+          </div>
+          <div class="step-line flex-1 h-1 bg-slate-200 mt-5"></div>
+          <div class="step flex flex-col items-center flex-1" data-step="3">
+            <div class="step-dot w-10 h-10 rounded-full border-2 border-slate-300 bg-white flex items-center justify-center font-black">4</div>
+            <p class="text-[11px] font-bold mt-2 text-center">Diantar<br>Kembali</p>
+          </div>
+        </div>
+        <div class="mt-6 bg-white rounded-2xl p-4 text-sm">
+          <p class="font-bold">Perkiraan selesai: <span id="lkSelesai" class="text-aqua-700"></span></p>
+          <p class="text-slate-500 mt-1">Pembayaran: <span id="lkBayar"></span> • Kurir: <span id="lkKurir"></span></p>
+        </div>
+        <button onclick="majuStatus()" class="mt-4 bg-white border-2 border-aqua-600 text-aqua-700 font-bold px-5 py-2 rounded-full text-sm hover:bg-sky-50">(Demo) Simulasikan Tahap Berikutnya →</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONI -->
+<section class="max-w-6xl mx-auto px-4 pb-14">
+  <h2 class="font-black text-3xl text-aqua-900 text-center">Kata Pelanggan</h2>
+  <div class="grid md:grid-cols-3 gap-5 mt-8">
+    <div class="bg-white rounded-3xl p-6 shadow"><div class="text-amber-400 text-lg">★★★★★</div><p class="mt-3 text-slate-600 text-sm">"Langganan 1 tahun, nggak pernah kecewa. Dijemput pagi, besok pagi sudah wangi dan rapi. Kurirnya sopan."</p><p class="mt-4 font-extrabold">— Dewi, Kost Kaliurang</p></div>
+    <div class="bg-white rounded-3xl p-6 shadow"><div class="text-amber-400 text-lg">★★★★★</div><p class="mt-3 text-slate-600 text-sm">"Express 6 jam beneran 6 jam! Kemeja buat kondangan sore langsung bersih. Harga juga masuk akal."</p><p class="mt-4 font-extrabold">— Andi, Karyawan Swasta</p></div>
+    <div class="bg-white rounded-3xl p-6 shadow"><div class="text-amber-400 text-lg">★★★★★</div><p class="mt-3 text-slate-600 text-sm">"Bed cover tebal dicuci bersih, nggak ada bau apek. Tracking-nya jelas, jadi tenang nunggu."</p><p class="mt-4 font-extrabold">— Sinta, Ibu Rumah Tangga</p></div>
+  </div>
+  <div class="text-center mt-10">
+    <p class="text-slate-500 text-sm">📍 Jl. Kaliurang KM 5, Sleman, Yogyakarta • 📞 0812-3456-7892 • 🕖 Buka setiap hari 07.00–21.00 WIB</p>
+  </div>
+</section>
+
+<footer class="bg-aqua-900 text-white/70 text-center py-6 text-sm">
+  © 2026 Laundry Express — Dibuat dengan Google AI Studio • Source code gratis by <span class="text-white">LocaGo Creative</span> (locagocreative.my.id)
+</footer>
+
+<script>
+const WA_NUMBER = "6281234567892";
+const fmt = n => "Rp" + n.toLocaleString("id-ID");
+const $ = id => document.getElementById(id);
+const LAYANAN = {
+  kiloan:   { nama:"Cuci Kering",        harga:7000,  satuan:"kg",   min:2 },
+  setrika:  { nama:"Cuci Setrika",       harga:10000, satuan:"kg",   min:2 },
+  express:  { nama:"Express 6 Jam",      harga:15000, satuan:"kg",   min:2 },
+  bedcover: { nama:"Bed Cover & Selimut",harga:25000, satuan:"pcs",  min:1 },
+  sepatu:   { nama:"Cuci Sepatu",        harga:30000, satuan:"pasang",min:1 },
+  dryclean: { nama:"Dry Cleaning",       harga:35000, satuan:"pcs",  min:1 },
+};
+let layananAktif = "kiloan";
+
+/* ---------- KALKULATOR ---------- */
+function renderLayananBtns(){
+  $("layananBtns").innerHTML = Object.entries(LAYANAN).map(([k,v]) => `
+    <button type="button" onclick="pilihLayanan('${k}')" class="lay-btn text-left px-3 py-2.5 rounded-xl border text-sm font-bold ${k===layananAktif ? "bg-aqua-600 text-white border-aqua-600" : "bg-white border-slate-200 hover:border-aqua-500"}">
+      ${v.nama}<span class="block text-xs font-semibold opacity-80">${fmt(v.harga)}/${v.satuan}</span>
+    </button>`).join("");
+}
+function pilihLayanan(k){
+  layananAktif = k;
+  const L = LAYANAN[k];
+  $("lblJumlah").textContent = "Jumlah (" + L.satuan + ")";
+  $("kJumlah").value = L.min;
+  $("kJumlah").min = L.min;
+  renderLayananBtns();
+  hitungHarga();
+}
+function isiKalkulator(k){
+  pilihLayanan(k);
+  document.getElementById("kalkulator").scrollIntoView({behavior:"smooth"});
+}
+function hitungHarga(){
+  const L = LAYANAN[layananAktif];
+  let jml = Math.max(L.min, parseInt($("kJumlah").value, 10) || L.min);
+  $("kJumlah").value = jml;
+  const subtotal = L.harga * jml;
+  let tambahan = 0;
+  if ($("addParfum").checked) tambahan += 5000;
+  if ($("addAntar").checked) tambahan += 10000;
+  if ($("addPlastik").checked) tambahan += 3000;
+  let diskon = 0;
+  if (LAYANAN[layananAktif].satuan === "kg" && jml >= 10) diskon = Math.round(subtotal * 0.10);
+  const total = subtotal + tambahan - diskon;
+  $("rLayanan").textContent = `${L.nama} (${jml} ${L.satuan} × ${fmt(L.harga)})`;
+  $("rSubtotal").textContent = fmt(subtotal);
+  $("rTambahan").textContent = fmt(tambahan);
+  $("rDiskon").textContent = "− " + fmt(diskon);
+  $("rTotal").textContent = fmt(total);
+  return { L, jml, subtotal, tambahan, diskon, total };
+}
+function lanjutOrder(){
+  const h = hitungHarga();
+  const key = Object.keys(LAYANAN).find(k => LAYANAN[k] === h.L);
+  $("oLayanan").value = key;
+  $("oJumlah").value = h.jml;
+  document.getElementById("order").scrollIntoView({behavior:"smooth"});
+}
+renderLayananBtns();
+hitungHarga();
+
+/* ---------- FORM ORDER ---------- */
+function setErr(inputId, errId, bad){
+  $(inputId).classList.toggle("invalid", bad);
+  $(errId).classList.toggle("show", bad);
+  return !bad;
+}
+$("orderForm").addEventListener("submit", function(e){
+  e.preventDefault();
+  const nama = $("oNama").value.trim();
+  const wa = $("oWa").value.trim().replace(/[\s\-\.]/g,"");
+  const layananKey = $("oLayanan").value;
+  const jumlah = parseInt($("oJumlah").value, 10);
+  const tanggal = $("oTanggal").value;
+  const jam = $("oJam").value;
+  const alamat = $("oAlamat").value.trim();
+  const catatan = $("oCatatan").value.trim();
+  const hariIni = new Date().toISOString().slice(0,10);
+  let ok = true;
+  ok = setErr("oNama","eNama", nama.length < 3) && ok;
+  ok = setErr("oWa","eWa", !/^08\d{8,12}$/.test(wa)) && ok;
+  ok = setErr("oJumlah","eJumlah", isNaN(jumlah) || jumlah < 1 || jumlah > 100) && ok;
+  ok = setErr("oTanggal","eTanggal", !tanggal || tanggal < hariIni) && ok;
+  ok = setErr("oJam","eJam", !jam) && ok;
+  ok = setErr("oAlamat","eAlamat", alamat.length < 10) && ok;
+  if (!ok) return;
+  const L = LAYANAN[layananKey];
+  const total = L.harga * jumlah;
+  const kode = "LX-" + tanggal.replace(/-/g,"") + "-" + String(Math.floor(1000 + Math.random()*9000));
+  const tglFmt = new Date(tanggal + "T00:00:00").toLocaleDateString("id-ID", {weekday:"long", day:"numeric", month:"long", year:"numeric"});
+  const pesanan = { kode, nama, wa, layanan: L.nama, jumlah, satuan: L.satuan, total, tanggal, jam, alamat, catatan, status: 0, dibuat: new Date().toLocaleString("id-ID") };
+  const semua = JSON.parse(localStorage.getItem("laundry_express_orders") || "[]");
+  semua.push(pesanan);
+  localStorage.setItem("laundry_express_orders", JSON.stringify(semua));
+  localStorage.setItem("laundry_express_last", JSON.stringify(pesanan));
+  $("rKode").textContent = kode;
+  $("rRingkasan").textContent = `${L.nama} — ${jumlah} ${L.satuan} • Dijemput ${tglFmt}, ${jam} • Estimasi ${fmt(total)} (bayar saat penjemputan / transfer)`;
+  $("hasilOrder").classList.remove("hidden");
+  $("hasilOrder").scrollIntoView({behavior:"smooth", block:"center"});
+  const msg = `Halo Laundry Express! Saya ${nama}, mau order antar-jemput:\n\n🧺 Layanan: ${L.nama}\n📦 Jumlah: ${jumlah} ${L.satuan}\n📅 Penjemputan: ${tglFmt}, ${jam}\n📍 Alamat: ${alamat}${catatan ? "\n📝 Catatan: " + catatan : ""}\n\nKode pesanan: ${kode}\nEstimasi: ${fmt(total)}\n\nTerima kasih!`;
+  window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`, "_blank");
+});
+function salinKode(){
+  const k = $("rKode").textContent;
+  (navigator.clipboard ? navigator.clipboard.writeText(k) : Promise.reject()).then(()=>alert("Kode " + k + " disalin.")).catch(()=>prompt("Salin kode pesanan:", k));
+}
+function lacakDariHasil(){
+  $("lacakKode").value = $("rKode").textContent;
+  lacakPesanan();
+  document.getElementById("lacak").scrollIntoView({behavior:"smooth"});
+}
+function resetOrder(){
+  $("orderForm").reset();
+  $("hasilOrder").classList.add("hidden");
+  $("orderForm").scrollIntoView({behavior:"smooth"});
+}
+
+/* ---------- LACAK ---------- */
+const STATUS_LABEL = ["Menunggu Penjemputan", "Sedang Dicuci", "Disetrika & Dikemas", "Diantar Kembali — Selesai"];
+const KURIR = ["Budi (0812-1111-2222)", "Agus (0812-3333-4444)", "Rian (0812-5555-6666)"];
+let pesananAktif = null;
+function isiContohKode(){ $("lacakKode").value = "LX-20261124-4821"; lacakPesanan(); }
+function lacakPesanan(){
+  const kode = $("lacakKode").value.trim().toUpperCase();
+  const semua = JSON.parse(localStorage.getItem("laundry_express_orders") || "[]");
+  let p = semua.find(o => o.kode.toUpperCase() === kode);
+  if (!p && kode === "LX-20261124-4821"){
+    p = { kode:"LX-20261124-4821", nama:"Contoh Pelanggan", layanan:"Cuci Setrika", jumlah:6, satuan:"kg", total:60000, tanggal:"2026-11-24", jam:"10.00 – 12.00", status:1, dibuat:"24 Nov 2026, 08.15 WIB" };
+  }
+  if (!p){
+    $("lacakErr").classList.remove("hidden");
+    $("lacakHasil").classList.add("hidden");
+    return;
+  }
+  $("lacakErr").classList.add("hidden");
+  pesananAktif = p;
+  tampilkanStatus(p);
+  $("lacakHasil").classList.remove("hidden");
+}
+function tampilkanStatus(p){
+  $("lkKode").textContent = p.kode + " • " + p.nama;
+  $("lkStatus").textContent = STATUS_LABEL[p.status];
+  $("lkDetail").textContent = `${p.layanan} — ${p.jumlah} ${p.satuan} • Dijemput ${new Date(p.tanggal + "T00:00:00").toLocaleDateString("id-ID", {day:"numeric", month:"long", year:"numeric"})}, ${p.jam} • Total ${fmt(p.total)}`;
+  const selesai = new Date(p.tanggal + "T00:00:00");
+  selesai.setDate(selesai.getDate() + (p.layanan.includes("Express") ? 0 : 1));
+  $("lkSelesai").textContent = selesai.toLocaleDateString("id-ID", {weekday:"long", day:"numeric", month:"long", year:"numeric"}) + " pukul 17.00 WIB";
+  $("lkBayar").textContent = fmt(p.total) + " (bayar saat penjemputan / transfer)";
+  $("lkKurir").textContent = KURIR[p.kode.charCodeAt(p.kode.length-1) % KURIR.length];
+  document.querySelectorAll("#stepper .step").forEach((el, i) => {
+    el.classList.toggle("step-done", i < p.status);
+    el.classList.toggle("step-active", i === p.status);
+    el.querySelector(".step-dot").textContent = i < p.status ? "✓" : (i + 1);
+  });
+  document.querySelectorAll("#stepper .step-line").forEach((el, i) => {
+    el.classList.toggle("step-done", i < p.status);
+  });
+}
+function majuStatus(){
+  if (!pesananAktif) return;
+  if (pesananAktif.status >= 3){ alert("Pesanan sudah selesai — cucian sudah diantar kembali. Terima kasih!"); return; }
+  pesananAktif.status += 1;
+  const semua = JSON.parse(localStorage.getItem("laundry_express_orders") || "[]");
+  const idx = semua.findIndex(o => o.kode === pesananAktif.kode);
+  if (idx >= 0){ semua[idx].status = pesananAktif.status; localStorage.setItem("laundry_express_orders", JSON.stringify(semua)); }
+  tampilkanStatus(pesananAktif);
+}
+</script>
+</body>
+</html>

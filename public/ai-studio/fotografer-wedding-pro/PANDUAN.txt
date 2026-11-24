@@ -1,0 +1,39 @@
+PANDUAN — LENSA BAHAGIA (Fotografer Wedding Profesional)
+=========================================================
+Website jasa fotografer wedding — dibuat dengan Google AI Studio.
+Source code gratis by LocaGo Creative (locagocreative.my.id).
+
+CARA MEMBUKA
+------------
+1. Double-click file index.html — website langsung terbuka di browser.
+   (Tidak perlu install apa pun.)
+2. Atau upload file index.html ke hosting statis apa pun
+   (Netlify, Vercel, GitHub Pages, Niagahoster, dll).
+
+FITUR
+-----
+- Hero galeri + statistik (350+ pernikahan, rating 4.9)
+- Galeri foto dengan filter (Akad / Resepsi / Prewedding) + lightbox
+- 3 paket harga: Silver Rp4,5 jt, Gold Rp8,5 jt, Platinum Rp15 jt
+- Form booking: pilih paket, tanggal & kota — estimasi harga dihitung
+  OTOMATIS termasuk biaya lokasi, tambahan (drone, album), dan
+  diskon 10% untuk acara Senin–Kamis; DP 30% dihitung otomatis
+- Cek ketersediaan tanggal (simulasi) & kirim booking via WhatsApp
+- Testimoni pasangan
+
+CARA MENYESUAIKAN (edit file index.html dengan Notepad / VS Code)
+-----------------------------------------------------------------
+- Nama studio & nomor WhatsApp : cari WA_NUMBER = "6281234567891"
+  di script, ganti dengan nomor WA kamu (format: 62 + nomor).
+- Harga paket : cari const HARGA = { Silver: 4500000, ... } lalu ubah.
+- Biaya lokasi : cari const BIAYA_KOTA = { ... } lalu ubah.
+- Galeri : cari const GALERI = [ ... ] lalu ubah URL gambar & caption.
+- Warna tema : cari tailwind.config di <head> (rose/gold).
+
+CATATAN
+-------
+- Cek ketersediaan tanggal adalah SIMULASI demo (tanggal ganjil =
+  tersedia). Untuk produksi, hubungkan ke kalender/booking system.
+- Gambar memakai URL Unsplash — butuh internet saat pertama dibuka.
+- Bebas dipakai & dimodifikasi untuk usahamu. Dilarang dijual kembali
+  sebagai produk berbayar tanpa izin LocaGo Creative.

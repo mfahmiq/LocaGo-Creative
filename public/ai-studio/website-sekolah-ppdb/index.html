@@ -1,0 +1,394 @@
+<!-- Dibuat dengan Google AI Studio — Source Code Gratis by LocaGo Creative (locagocreative.my.id) -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMA Nusantara — Sekolah Unggul, Generasi Berkarakter | PPDB 2026/2027</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+<script>
+tailwind.config = { theme: { extend: { fontFamily: { sans: ['"Plus Jakarta Sans"','sans-serif'], serif: ['Merriweather','serif'] }, colors: { nus: { 900:'#0B2E4F', 800:'#123F63', 700:'#1B5A85', gold:'#F5B301', sky:'#E8F3FB' } } } } }
+</script>
+<style>
+  html{scroll-behavior:smooth}
+  .card{transition:transform .25s ease, box-shadow .25s ease}
+  .card:hover{transform:translateY(-4px);box-shadow:0 14px 32px rgba(11,46,79,.15)}
+  .gal-item{cursor:pointer}
+  .gal-item img{transition:transform .4s ease}
+  .gal-item:hover img{transform:scale(1.06)}
+  input.invalid, select.invalid{border-color:#dc2626!important;background:#fef2f2}
+  .err{color:#dc2626;font-size:.75rem;margin-top:.25rem;display:none}
+  .err.show{display:block}
+</style>
+</head>
+<body class="font-sans bg-slate-50 text-slate-800">
+
+<!-- TOP BAR -->
+<div class="bg-nus-900 text-white text-xs md:text-sm">
+  <div class="max-w-6xl mx-auto px-4 py-2 flex flex-wrap gap-x-5 gap-y-1 justify-between">
+    <span>📞 (021) 555-0123 &nbsp;•&nbsp; ✉️ ppdb@smanusantara.sch.id</span>
+    <span>🕖 Senin–Jumat 07.00–15.30 WIB</span>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<header class="sticky top-0 z-50 bg-white shadow">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="#" class="flex items-center gap-3">
+      <span class="w-11 h-11 rounded-full bg-nus-900 text-nus-gold flex items-center justify-center font-serif font-black text-xl">N</span>
+      <span><span class="block font-serif font-black text-lg leading-none text-nus-900">SMA NUSANTARA</span><span class="block text-[11px] tracking-widest text-slate-500">SEKOLAH UNGGUL • BERKARAKTER</span></span>
+    </a>
+    <nav class="hidden md:flex gap-6 text-sm font-semibold text-slate-600">
+      <a href="#profil" class="hover:text-nus-700">Profil</a>
+      <a href="#ppdb" class="hover:text-nus-700">PPDB</a>
+      <a href="#berita" class="hover:text-nus-700">Berita</a>
+      <a href="#galeri" class="hover:text-nus-700">Galeri</a>
+      <a href="#kontak" class="hover:text-nus-700">Kontak</a>
+    </nav>
+    <a href="#ppdb" class="bg-nus-gold text-nus-900 font-bold px-4 py-2 rounded-full text-sm hover:bg-yellow-400">Daftar PPDB</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="relative">
+  <img src="https://images.unsplash.com/photo-1562774053-701939374585?w=1600&q=80" alt="Kampus SMA Nusantara" class="w-full h-[480px] md:h-[560px] object-cover">
+  <div class="absolute inset-0 bg-gradient-to-r from-nus-900/90 via-nus-900/60 to-transparent"></div>
+  <div class="absolute inset-0 max-w-6xl mx-auto px-4 flex flex-col justify-center text-white">
+    <span class="bg-nus-gold text-nus-900 text-xs font-bold px-3 py-1 rounded-full w-max">🎓 PPDB 2026/2027 DIBUKA — GELOMBANG 1</span>
+    <h1 class="font-serif text-4xl md:text-6xl font-black leading-tight mt-4 max-w-2xl">Mendidik Generasi Unggul &amp; Berkarakter</h1>
+    <p class="mt-4 text-white/85 max-w-xl">Akreditasi A • Kurikulum Merdeka • 98% lulusan diterima PTN &amp; kampus favorit. Daftar online, tanpa antre.</p>
+    <div class="mt-6 flex flex-wrap gap-3">
+      <a href="#ppdb" class="bg-nus-gold text-nus-900 font-bold px-6 py-3 rounded-full hover:bg-yellow-400">Daftar PPDB Online</a>
+      <button onclick="scrollToId('cek')" class="border-2 border-white/80 px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-nus-900">Cek Status Pendaftaran</button>
+    </div>
+    <!-- COUNTDOWN -->
+    <div class="mt-8 bg-white/10 backdrop-blur rounded-2xl px-5 py-4 w-max max-w-full">
+      <p class="text-xs tracking-widest text-white/70">PENUTUPAN GELOMBANG 1</p>
+      <p class="font-bold text-xl mt-1"><span id="cd">—</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- STATISTIK -->
+<section class="max-w-6xl mx-auto px-4 -mt-8 relative z-10">
+  <div class="bg-white rounded-3xl shadow-xl grid grid-cols-2 md:grid-cols-4 divide-x divide-slate-100 py-6 text-center">
+    <div><p class="font-serif text-3xl font-black text-nus-800">32<span class="text-nus-gold">+</span></p><p class="text-xs text-slate-500 mt-1">Tahun Berdiri</p></div>
+    <div><p class="font-serif text-3xl font-black text-nus-800">1.240</p><p class="text-xs text-slate-500 mt-1">Siswa Aktif</p></div>
+    <div><p class="font-serif text-3xl font-black text-nus-800">98%</p><p class="text-xs text-slate-500 mt-1">Lulusan ke PTN</p></div>
+    <div><p class="font-serif text-3xl font-black text-nus-800">A</p><p class="text-xs text-slate-500 mt-1">Akreditasi BAN-S/M</p></div>
+  </div>
+</section>
+
+<!-- PROFIL -->
+<section id="profil" class="max-w-6xl mx-auto px-4 py-14 grid md:grid-cols-2 gap-10 items-center">
+  <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?w=1000&q=80" alt="Suasana belajar di SMA Nusantara" class="rounded-3xl shadow-lg w-full h-80 object-cover">
+  <div>
+    <h2 class="font-serif text-3xl font-black text-nus-900">Profil Sekolah</h2>
+    <p class="mt-4 text-slate-600 leading-relaxed">SMA Nusantara berdiri sejak 1993 di Jakarta Selatan. Kami memadukan keunggulan akademik, pembinaan karakter, dan pengembangan minat-bakat melalui 24 ekstrakurikuler — dari robotik, debat Bahasa Inggris, hingga klub fotografi.</p>
+    <div class="grid grid-cols-2 gap-3 mt-6">
+      <div class="bg-nus-sky rounded-2xl p-4"><p class="font-bold text-nus-800">🎯 Visi</p><p class="text-sm text-slate-600 mt-1">Unggul dalam prestasi, luhur dalam budi pekerti.</p></div>
+      <div class="bg-nus-sky rounded-2xl p-4"><p class="font-bold text-nus-800">📚 Kurikulum</p><p class="text-sm text-slate-600 mt-1">Kurikulum Merdeka + kelas olimpiade &amp; tahfidz.</p></div>
+      <div class="bg-nus-sky rounded-2xl p-4"><p class="font-bold text-nus-800">🏫 Fasilitas</p><p class="text-sm text-slate-600 mt-1">Lab komputer, perpustakaan, lapangan, aula.</p></div>
+      <div class="bg-nus-sky rounded-2xl p-4"><p class="font-bold text-nus-800">👨‍🏫 Guru</p><p class="text-sm text-slate-600 mt-1">86 guru, 70% bergelar S2.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PPDB FORM -->
+<section id="ppdb" class="bg-nus-900 py-14">
+  <div class="max-w-4xl mx-auto px-4">
+    <h2 class="font-serif text-3xl md:text-4xl font-black text-white text-center">Formulir PPDB Online 2026/2027</h2>
+    <p class="text-center text-white/70 mt-2 text-sm">Isi dengan data yang benar. Setelah terkirim, kamu akan menerima <b class="text-nus-gold">Nomor Pendaftaran</b> — simpan baik-baik untuk cek status.</p>
+
+    <form id="ppdbForm" class="bg-white rounded-3xl shadow-2xl mt-8 p-6 md:p-8 space-y-5" novalidate>
+      <div class="grid md:grid-cols-2 gap-5">
+        <div>
+          <label class="font-semibold text-sm">Nama Lengkap Calon Siswa *</label>
+          <input id="fNama" type="text" placeholder="cth: Andi Pratama" class="mt-1 w-full border rounded-xl px-4 py-2.5 text-sm">
+          <p class="err" id="eNama">Nama wajib diisi (minimal 3 huruf).</p>
+        </div>
+        <div>
+          <label class="font-semibold text-sm">NISN *</label>
+          <input id="fNisn" type="text" inputmode="numeric" maxlength="10" placeholder="10 digit angka" class="mt-1 w-full border rounded-xl px-4 py-2.5 text-sm">
+          <p class="err" id="eNisn">NISN harus 10 digit angka.</p>
+        </div>
+        <div>
+          <label class="font-semibold text-sm">Tanggal Lahir *</label>
+          <input id="fLahir" type="date" class="mt-1 w-full border rounded-xl px-4 py-2.5 text-sm">
+          <p class="err" id="eLahir">Tanggal lahir wajib diisi.</p>
+        </div>
+        <div>
+          <label class="font-semibold text-sm">Jenis Kelamin *</label>
+          <select id="fGender" class="mt-1 w-full border rounded-xl px-4 py-2.5 text-sm bg-white">
+            <option value="">— Pilih —</option><option>Laki-laki</option><option>Perempuan</option>
+          </select>
+          <p class="err" id="eGender">Pilih jenis kelamin.</p>
+        </div>
+        <div>
+          <label class="font-semibold text-sm">Asal Sekolah (SMP/MTs) *</label>
+          <input id="fAsal" type="text" placeholder="cth: SMPN 1 Jakarta" class="mt-1 w-full border rounded-xl px-4 py-2.5 text-sm">
+          <p class="err" id="eAsal">Asal sekolah wajib diisi.</p>
+        </div>
+        <div>
+          <label class="font-semibold text-sm">Nilai Rata-rata Rapor *</label>
+          <input id="fNilai" type="number" min="0" max="100" step="0.01" placeholder="cth: 87.5" class="mt-1 w-full border rounded-xl px-4 py-2.5 text-sm">
+          <p class="err" id="eNilai">Nilai harus antara 0–100.</p>
+        </div>
+        <div>
+          <label class="font-semibold text-sm">Jalur Pendaftaran *</label>
+          <select id="fJalur" class="mt-1 w-full border rounded-xl px-4 py-2.5 text-sm bg-white">
+            <option value="">— Pilih jalur —</option>
+            <option value="Prestasi">Prestasi (akademik/non-akademik)</option>
+            <option value="Zonasi">Zonasi</option>
+            <option value="Afirmasi">Afirmasi</option>
+            <option value="Perpindahan Tugas Orang Tua">Perpindahan Tugas Orang Tua</option>
+          </select>
+          <p class="err" id="eJalur">Pilih jalur pendaftaran.</p>
+        </div>
+        <div>
+          <label class="font-semibold text-sm">No. WhatsApp Orang Tua *</label>
+          <input id="fWa" type="tel" inputmode="numeric" placeholder="cth: 081234567890" class="mt-1 w-full border rounded-xl px-4 py-2.5 text-sm">
+          <p class="err" id="eWa">Nomor WA harus 10–14 digit angka (diawali 08).</p>
+        </div>
+      </div>
+      <label class="flex items-start gap-2 text-sm text-slate-600">
+        <input id="fSetuju" type="checkbox" class="mt-1">
+        <span>Saya menyatakan data di atas benar dan bersedia mengikuti seluruh tahapan seleksi PPDB SMA Nusantara. *</span>
+      </label>
+      <p class="err" id="eSetuju">Centang persetujuan untuk melanjutkan.</p>
+      <button type="submit" class="w-full bg-nus-gold text-nus-900 font-bold py-3.5 rounded-full text-base hover:bg-yellow-400">Kirim Pendaftaran →</button>
+      <p class="text-xs text-slate-400 text-center">Simulasi pendaftaran (data tersimpan di browser kamu, tidak dikirim ke server).</p>
+    </form>
+
+    <!-- HASIL PENDAFTARAN -->
+    <div id="hasilDaftar" class="hidden bg-white rounded-3xl shadow-2xl mt-6 p-6 md:p-8 text-center">
+      <div class="text-5xl">🎉</div>
+      <h3 class="font-serif text-2xl font-black text-nus-900 mt-3">Pendaftaran Berhasil!</h3>
+      <p class="text-slate-600 mt-2">Terima kasih, <b id="rNama"></b>. Pendaftaranmu sudah tercatat.</p>
+      <div class="bg-nus-sky rounded-2xl py-5 mt-5">
+        <p class="text-xs tracking-widest text-slate-500">NOMOR PENDAFTARAN</p>
+        <p id="rNomor" class="font-serif text-3xl font-black text-nus-800 tracking-wider mt-1"></p>
+        <p class="text-sm text-slate-500 mt-1">Jalur: <span id="rJalur"></span> • Status: <span class="text-amber-600 font-semibold">Menunggu Verifikasi Berkas</span></p>
+      </div>
+      <div class="flex flex-wrap justify-center gap-3 mt-5">
+        <button onclick="salinNomor()" class="bg-nus-900 text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-nus-700">📋 Salin Nomor</button>
+        <button onclick="cetakBukti()" class="border-2 border-nus-900 text-nus-900 px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-nus-sky">🖨️ Cetak Bukti</button>
+        <button onclick="resetForm()" class="text-sm text-slate-500 underline">Daftar siswa lain</button>
+      </div>
+    </div>
+
+    <!-- CEK STATUS -->
+    <div id="cek" class="bg-white/10 backdrop-blur rounded-3xl mt-6 p-6">
+      <h3 class="font-bold text-white text-lg">🔍 Cek Status Pendaftaran</h3>
+      <p class="text-white/70 text-sm mt-1">Masukkan nomor pendaftaran yang kamu terima setelah mendaftar.</p>
+      <div class="flex flex-col sm:flex-row gap-3 mt-4">
+        <input id="cekNomor" type="text" placeholder="cth: PPDB-2026-000123" class="flex-1 rounded-xl px-4 py-2.5 text-sm text-slate-800">
+        <button onclick="cekStatus()" class="bg-nus-gold text-nus-900 font-bold px-6 py-2.5 rounded-xl text-sm hover:bg-yellow-400">Cek Status</button>
+      </div>
+      <p id="cekHasil" class="text-sm mt-3"></p>
+    </div>
+  </div>
+</section>
+
+<!-- BERITA -->
+<section id="berita" class="max-w-6xl mx-auto px-4 py-14">
+  <div class="flex items-end justify-between">
+    <h2 class="font-serif text-3xl font-black text-nus-900">Berita &amp; Pengumuman</h2>
+    <button onclick="toggleBerita()" id="btnBerita" class="text-sm font-semibold text-nus-700 hover:underline">Lihat semua →</button>
+  </div>
+  <div id="beritaGrid" class="grid md:grid-cols-3 gap-5 mt-8"></div>
+</section>
+
+<!-- GALERI -->
+<section id="galeri" class="bg-white py-14">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="font-serif text-3xl font-black text-nus-900 text-center">Galeri Kegiatan</h2>
+    <p class="text-center text-slate-500 mt-2 text-sm">Klik foto untuk melihat lebih besar.</p>
+    <div class="flex justify-center gap-2 mt-6 flex-wrap">
+      <button onclick="filterGal('semua',this)" class="gal-btn bg-nus-900 text-white px-4 py-2 rounded-full text-sm font-semibold">Semua</button>
+      <button onclick="filterGal('akademik',this)" class="gal-btn bg-slate-100 px-4 py-2 rounded-full text-sm font-semibold">Akademik</button>
+      <button onclick="filterGal('olahraga',this)" class="gal-btn bg-slate-100 px-4 py-2 rounded-full text-sm font-semibold">Olahraga</button>
+      <button onclick="filterGal('seni',this)" class="gal-btn bg-slate-100 px-4 py-2 rounded-full text-sm font-semibold">Seni &amp; Budaya</button>
+    </div>
+    <div id="galGrid" class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8"></div>
+  </div>
+</section>
+
+<!-- KONTAK -->
+<section id="kontak" class="max-w-6xl mx-auto px-4 py-14 grid md:grid-cols-2 gap-6">
+  <div>
+    <h2 class="font-serif text-3xl font-black text-nus-900">Hubungi Kami</h2>
+    <ul class="mt-5 space-y-3 text-slate-600">
+      <li>📍 Jl. Pendidikan Raya No. 12, Jakarta Selatan 12430</li>
+      <li>📞 (021) 555-0123 (TU) • 0812-9000-1122 (Panitia PPDB)</li>
+      <li>✉️ ppdb@smanusantara.sch.id</li>
+      <li>🕖 Senin–Jumat 07.00–15.30 WIB, Sabtu 08.00–12.00 WIB</li>
+    </ul>
+    <a href="https://wa.me/6281290001122?text=Halo%20Panitia%20PPDB%20SMA%20Nusantara%2C%20saya%20mau%20bertanya." target="_blank" rel="noopener" class="inline-block mt-5 bg-green-600 text-white font-semibold px-6 py-3 rounded-full hover:bg-green-700">💬 Chat Panitia via WhatsApp</a>
+  </div>
+  <form onsubmit="kirimPesan(event)" class="bg-white rounded-3xl shadow p-6 space-y-4">
+    <h3 class="font-bold text-lg text-nus-900">Kirim Pesan Cepat</h3>
+    <input id="kNama" type="text" required placeholder="Nama kamu" class="w-full border rounded-xl px-4 py-2.5 text-sm">
+    <input id="kEmail" type="email" required placeholder="Email aktif" class="w-full border rounded-xl px-4 py-2.5 text-sm">
+    <textarea id="kPesan" required rows="3" placeholder="Tulis pertanyaanmu di sini..." class="w-full border rounded-xl px-4 py-2.5 text-sm"></textarea>
+    <button class="w-full bg-nus-900 text-white font-bold py-3 rounded-full hover:bg-nus-700">Kirim Pesan</button>
+    <p id="kHasil" class="text-sm text-green-700 font-medium text-center"></p>
+  </form>
+</section>
+
+<footer class="bg-nus-900 text-white/70 text-center py-6 text-sm">
+  © 2026 SMA Nusantara — Dibuat dengan Google AI Studio • Source code gratis by <span class="text-nus-gold">LocaGo Creative</span> (locagocreative.my.id)
+</footer>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" onclick="this.classList.add('hidden')" class="fixed inset-0 bg-black/85 z-[90] hidden flex items-center justify-center p-4 cursor-pointer">
+  <img id="lbImg" src="" alt="Foto galeri diperbesar" class="max-h-[85vh] max-w-full rounded-2xl shadow-2xl">
+</div>
+
+<script>
+function scrollToId(id){ document.getElementById(id).scrollIntoView({behavior:"smooth"}); }
+
+/* ---------- COUNTDOWN GELOMBANG 1 (tutup 15 Des 2026, 23:59 WIB) ---------- */
+const tutup = new Date("2026-12-15T23:59:59+07:00").getTime();
+function tickCd(){
+  const s = Math.max(0, tutup - Date.now());
+  const d = Math.floor(s/86400000), h = Math.floor(s%86400000/3600000), m = Math.floor(s%3600000/60000);
+  document.getElementById("cd").textContent = d + " hari " + h + " jam " + m + " menit lagi";
+}
+tickCd(); setInterval(tickCd, 30000);
+
+/* ---------- PPDB ---------- */
+const $ = id => document.getElementById(id);
+function setErr(inputId, errId, bad){
+  $(inputId).classList.toggle("invalid", bad);
+  $(errId).classList.toggle("show", bad);
+  return !bad;
+}
+$("ppdbForm").addEventListener("submit", function(e){
+  e.preventDefault();
+  const nama = $("fNama").value.trim();
+  const nisn = $("fNisn").value.trim();
+  const lahir = $("fLahir").value;
+  const gender = $("fGender").value;
+  const asal = $("fAsal").value.trim();
+  const nilai = parseFloat($("fNilai").value);
+  const jalur = $("fJalur").value;
+  const wa = $("fWa").value.trim().replace(/[\s\-\.]/g,"");
+  let ok = true;
+  ok = setErr("fNama","eNama", nama.length < 3) && ok;
+  ok = setErr("fNisn","eNisn", !/^\d{10}$/.test(nisn)) && ok;
+  ok = setErr("fLahir","eLahir", !lahir) && ok;
+  ok = setErr("fGender","eGender", !gender) && ok;
+  ok = setErr("fAsal","eAsal", asal.length < 3) && ok;
+  ok = setErr("fNilai","eNilai", isNaN(nilai) || nilai < 0 || nilai > 100) && ok;
+  ok = setErr("fJalur","eJalur", !jalur) && ok;
+  ok = setErr("fWa","eWa", !/^08\d{8,12}$/.test(wa)) && ok;
+  ok = setErr("fSetuju","eSetuju", !$("fSetuju").checked) && ok;
+  if (!ok){ $("ppdbForm").scrollIntoView({behavior:"smooth", block:"start"}); return; }
+  const nomor = "PPDB-2026-" + String(Math.floor(100000 + Math.random()*900000));
+  const data = { nomor, nama, nisn, lahir, gender, asal, nilai, jalur, wa, waktu: new Date().toLocaleString("id-ID") };
+  const semua = JSON.parse(localStorage.getItem("ppdb_nusantara") || "[]");
+  semua.push(data);
+  localStorage.setItem("ppdb_nusantara", JSON.stringify(semua));
+  localStorage.setItem("ppdb_terakhir", JSON.stringify(data));
+  $("rNama").textContent = nama;
+  $("rNomor").textContent = nomor;
+  $("rJalur").textContent = jalur;
+  $("hasilDaftar").classList.remove("hidden");
+  $("hasilDaftar").scrollIntoView({behavior:"smooth", block:"center"});
+});
+function salinNomor(){
+  const n = $("rNomor").textContent;
+  (navigator.clipboard ? navigator.clipboard.writeText(n) : Promise.reject()).then(()=>alert("Nomor " + n + " disalin.")).catch(()=>{ prompt("Salin nomor pendaftaran:", n); });
+}
+function cetakBukti(){ window.print(); }
+function resetForm(){
+  $("ppdbForm").reset();
+  $("hasilDaftar").classList.add("hidden");
+  $("ppdbForm").scrollIntoView({behavior:"smooth"});
+}
+function cekStatus(){
+  const q = $("cekNomor").value.trim().toUpperCase();
+  const hasil = $("cekHasil");
+  if (!q){ hasil.textContent = "Masukkan nomor pendaftaran dulu."; hasil.className = "text-sm mt-3 text-yellow-300"; return; }
+  const semua = JSON.parse(localStorage.getItem("ppdb_nusantara") || "[]");
+  const ketemu = semua.find(d => d.nomor.toUpperCase() === q);
+  if (ketemu){
+    hasil.innerHTML = "✅ Ditemukan: <b>" + ketemu.nama + "</b> (" + ketemu.asal + ", jalur " + ketemu.jalur + ") — Status: <b class='text-yellow-300'>Menunggu Verifikasi Berkas</b>.";
+    hasil.className = "text-sm mt-3 text-white";
+  } else {
+    hasil.textContent = "❌ Nomor " + q + " tidak ditemukan di perangkat ini. Pastikan nomor benar, atau daftar dulu lewat formulir di atas.";
+    hasil.className = "text-sm mt-3 text-red-300";
+  }
+}
+
+/* ---------- BERITA ---------- */
+const BERITA = [
+  {t:"PPDB Gelombang 1 Resmi Dibuka", d:"24 Nov 2026", k:"Pengumuman", img:"https://images.unsplash.com/photo-1562774053-701939374585?w=700&q=80", isi:"Pendaftaran PPDB 2026/2027 gelombang 1 dibuka 24 November–15 Desember 2026. Kuota 240 kursi, 4 jalur: Prestasi, Zonasi, Afirmasi, dan Perpindahan Tugas Orang Tua."},
+  {t:"Tim Robotik Juara 1 Kompetisi Nasional", d:"18 Nov 2026", k:"Prestasi", img:"https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=700&q=80", isi:"Tim robotik SMA Nusantara meraih juara 1 Lomba Robotik Pelajar Nasional 2026 di Jakarta dengan robot pemilah sampah otomatis."},
+  {t:"SMA Nusantara Raih Akreditasi A", d:"10 Nov 2026", k:"Prestasi", img:"https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=700&q=80", isi:"BAN-S/M menetapkan SMA Nusantara terakreditasi A dengan nilai 97 — tertinggi di wilayah Jakarta Selatan tahun ini."},
+  {t:"Pameran Karya Seni & Kewirausahaan", d:"02 Nov 2026", k:"Kegiatan", img:"https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=700&q=80", isi:"Siswa kelas XI memamerkan 120 karya seni dan produk wirausaha di aula sekolah. Terbuka untuk umum, 2–3 November 2026."},
+  {t:"Kunjungan Industri ke Perusahaan Teknologi", d:"27 Okt 2026", k:"Kegiatan", img:"https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=700&q=80", isi:"Siswa kelas XII mengunjungi perusahaan teknologi di Jakarta untuk mengenal dunia kerja digital secara langsung."},
+  {t:"Try Out UTBK Gratis untuk Kelas XII", d:"20 Okt 2026", k:"Pengumuman", img:"https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=700&q=80", isi:"Try out UTBK gratis digelar setiap Sabtu bagi siswa kelas XII, lengkap dengan pembahasan soal oleh alumni PTN."},
+];
+let beritaSemua = false;
+function renderBerita(){
+  const list = beritaSemua ? BERITA : BERITA.slice(0,3);
+  $("beritaGrid").innerHTML = list.map(b => `
+    <article class="card bg-white rounded-3xl overflow-hidden shadow cursor-pointer" onclick="alert('${b.t.replace(/'/g,"")}')">
+      <img src="${b.img}" alt="${b.t}" class="w-full h-44 object-cover" loading="lazy">
+      <div class="p-5">
+        <span class="text-xs font-bold text-nus-700 bg-nus-sky px-2 py-1 rounded-full">${b.k}</span>
+        <span class="text-xs text-slate-400 ml-2">${b.d}</span>
+        <h3 class="font-bold text-nus-900 mt-2 leading-snug">${b.t}</h3>
+        <p class="text-sm text-slate-500 mt-2">${b.isi}</p>
+      </div>
+    </article>`).join("");
+}
+function toggleBerita(){
+  beritaSemua = !beritaSemua;
+  $("btnBerita").textContent = beritaSemua ? "← Tampilkan lebih sedikit" : "Lihat semua →";
+  renderBerita();
+}
+renderBerita();
+
+/* ---------- GALERI ---------- */
+const GALERI = [
+  {img:"https://images.unsplash.com/photo-1509062522246-3755977927d7?w=700&q=80", cap:"Kelas Interaktif", cat:"akademik"},
+  {img:"https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=700&q=80", cap:"Perpustakaan", cat:"akademik"},
+  {img:"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=700&q=80", cap:"Belajar Kelompok", cat:"akademik"},
+  {img:"https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=700&q=80", cap:"Lomba Atletik", cat:"olahraga"},
+  {img:"https://images.unsplash.com/photo-1546519638-68e109498ffc?w=700&q=80", cap:"Tim Basket", cat:"olahraga"},
+  {img:"https://images.unsplash.com/photo-1517649763962-0c623066013b?w=700&q=80", cap:"Latihan Futsal", cat:"olahraga"},
+  {img:"https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=700&q=80", cap:"Pameran Seni", cat:"seni"},
+  {img:"https://images.unsplash.com/photo-1507838153414-b4b713384a76?w=700&q=80", cap:"Orkestra Sekolah", cat:"seni"},
+];
+let galCat = "semua";
+function renderGal(){
+  const list = GALERI.filter(g => galCat==="semua" || g.cat===galCat);
+  $("galGrid").innerHTML = list.map(g => `
+    <figure class="gal-item relative rounded-2xl overflow-hidden shadow group" onclick="bukaLightbox('${g.img}')">
+      <img src="${g.img}" alt="${g.cap}" class="w-full h-44 object-cover" loading="lazy">
+      <figcaption class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/70 to-transparent text-white text-xs font-semibold px-3 pt-6 pb-2">${g.cap}</figcaption>
+    </figure>`).join("");
+}
+function filterGal(cat, btn){
+  galCat = cat;
+  document.querySelectorAll(".gal-btn").forEach(b => { b.classList.remove("bg-nus-900","text-white"); b.classList.add("bg-slate-100"); });
+  btn.classList.add("bg-nus-900","text-white"); btn.classList.remove("bg-slate-100");
+  renderGal();
+}
+function bukaLightbox(src){ $("lbImg").src = src; $("lightbox").classList.remove("hidden"); }
+renderGal();
+
+/* ---------- KONTAK ---------- */
+function kirimPesan(e){
+  e.preventDefault();
+  const nama = $("kNama").value.trim();
+  $("kHasil").textContent = "Terima kasih, " + nama + "! Pesanmu sudah kami terima — tim TU akan membalas via email maks. 1×24 jam.";
+  e.target.reset();
+}
+</script>
+</body>
+</html>

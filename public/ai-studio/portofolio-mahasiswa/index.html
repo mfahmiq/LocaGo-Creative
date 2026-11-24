@@ -1,0 +1,330 @@
+<!-- Dibuat dengan Google AI Studio — Source Code Gratis by LocaGo Creative (locagocreative.my.id) -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raka Pratama — Portofolio Mahasiswa Teknik Informatika</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>
+tailwind.config = { theme: { extend: { fontFamily: { display: ['"Space Grotesk"','sans-serif'], sans: ['Inter','sans-serif'] }, colors: { ink: '#0F172A', violet2: '#7C3AED', mint: '#10B981' } } } }
+</script>
+<style>
+  html{scroll-behavior:smooth}
+  .skill-bar{transition:width 1s ease}
+  .proj-card{transition:transform .25s ease, box-shadow .25s ease}
+  .proj-card:hover{transform:translateY(-4px);box-shadow:0 16px 36px rgba(15,23,42,.15)}
+  .chip-active{background:#0F172A!important;color:#fff!important}
+  @media print{
+    body *{visibility:hidden}
+    #cvPrint, #cvPrint *{visibility:visible}
+    #cvPrint{position:absolute;inset:0;padding:24px}
+    .no-print{display:none!important}
+  }
+</style>
+</head>
+<body class="font-sans bg-slate-50 text-ink">
+
+<!-- NAVBAR -->
+<header class="sticky top-0 z-50 bg-white/90 backdrop-blur shadow-sm no-print">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="#" class="font-display font-bold text-xl">Raka<span class="text-violet2">.dev</span></a>
+    <nav class="hidden md:flex gap-6 text-sm font-semibold text-slate-600">
+      <a href="#tentang" class="hover:text-violet2">Tentang</a>
+      <a href="#skill" class="hover:text-violet2">Skill</a>
+      <a href="#proyek" class="hover:text-violet2">Proyek</a>
+      <a href="#ipk" class="hover:text-violet2">Kalkulator IPK</a>
+      <a href="#kontak" class="hover:text-violet2">Kontak</a>
+    </nav>
+    <button onclick="unduhCV()" class="bg-ink text-white font-semibold px-4 py-2 rounded-full text-sm hover:bg-violet2">⬇ Download CV</button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="max-w-6xl mx-auto px-4 py-14 md:py-20 grid md:grid-cols-2 gap-10 items-center">
+  <div>
+    <span class="bg-violet-100 text-violet-700 text-xs font-bold px-3 py-1 rounded-full">🎓 Mahasiswa Teknik Informatika — Semester 5</span>
+    <h1 class="font-display text-4xl md:text-6xl font-bold leading-tight mt-4">Halo, saya <span class="text-violet2">Raka Pratama</span> 👋</h1>
+    <p class="mt-4 text-slate-600 text-lg leading-relaxed">Mahasiswa Universitas Gadjah Mada yang suka membangun website &amp; aplikasi. Fokus di <b>web development</b> dan <b>UI/UX</b>. Sedang mencari kesempatan magang &amp; freelance.</p>
+    <div class="mt-6 flex flex-wrap gap-3">
+      <a href="#proyek" class="bg-violet2 text-white font-semibold px-6 py-3 rounded-full hover:bg-violet-700">Lihat Proyek Saya</a>
+      <a href="#kontak" class="border-2 border-ink px-6 py-3 rounded-full font-semibold hover:bg-ink hover:text-white">Hubungi Saya</a>
+    </div>
+    <div class="flex gap-4 mt-7">
+      <a href="https://github.com" target="_blank" rel="noopener" class="bg-white shadow rounded-full px-4 py-2 text-sm font-semibold hover:text-violet2">GitHub ↗</a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener" class="bg-white shadow rounded-full px-4 py-2 text-sm font-semibold hover:text-violet2">LinkedIn ↗</a>
+      <a href="https://instagram.com" target="_blank" rel="noopener" class="bg-white shadow rounded-full px-4 py-2 text-sm font-semibold hover:text-violet2">Instagram ↗</a>
+    </div>
+  </div>
+  <div class="relative">
+    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80" alt="Foto Raka Pratama" class="rounded-[2rem] shadow-2xl w-full h-[420px] object-cover">
+    <div class="absolute -bottom-5 -left-5 bg-white rounded-2xl shadow-xl px-5 py-4">
+      <p class="font-display font-bold text-2xl text-violet2">3.78</p><p class="text-xs text-slate-500">IPK Saat Ini</p>
+    </div>
+    <div class="absolute top-5 -right-3 bg-white rounded-2xl shadow-xl px-5 py-3">
+      <p class="font-display font-bold text-lg">12+ Proyek</p><p class="text-xs text-slate-500">Selesai dikerjakan</p>
+    </div>
+  </div>
+</section>
+
+<!-- TENTANG -->
+<section id="tentang" class="max-w-6xl mx-auto px-4 pb-14">
+  <div class="bg-white rounded-3xl shadow p-7 md:p-9 grid md:grid-cols-3 gap-8">
+    <div class="md:col-span-2">
+      <h2 class="font-display text-3xl font-bold">Tentang Saya</h2>
+      <p class="mt-4 text-slate-600 leading-relaxed">Saya Raka, mahasiswa Teknik Informatika UGM angkatan 2023. Sejak semester 2 saya aktif membangun website untuk UMKM dan organisasi kampus. Saya percaya teknologi harus bermanfaat nyata — bukan sekadar tugas kuliah.</p>
+      <p class="mt-3 text-slate-600 leading-relaxed">Di luar kuliah, saya asisten laboratorium Pemrograman Web dan anggota aktif Himpunan Mahasiswa Informatika. Target saya: lulus dengan IPK ≥ 3.75 dan punya portofolio 20 proyek sebelum wisuda.</p>
+    </div>
+    <div class="space-y-3">
+      <div class="bg-slate-50 rounded-2xl p-4"><p class="text-xs text-slate-400">KAMPUS</p><p class="font-semibold">Universitas Gadjah Mada</p></div>
+      <div class="bg-slate-50 rounded-2xl p-4"><p class="text-xs text-slate-400">JURUSAN</p><p class="font-semibold">Teknik Informatika</p></div>
+      <div class="bg-slate-50 rounded-2xl p-4"><p class="text-xs text-slate-400">DOMISILI</p><p class="font-semibold">Yogyakarta</p></div>
+      <div class="bg-slate-50 rounded-2xl p-4"><p class="text-xs text-slate-400">STATUS</p><p class="font-semibold text-mint">● Terbuka untuk magang &amp; freelance</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILL -->
+<section id="skill" class="max-w-6xl mx-auto px-4 pb-14">
+  <h2 class="font-display text-3xl font-bold">Skill &amp; Tools</h2>
+  <div class="grid md:grid-cols-2 gap-5 mt-6" id="skillList"></div>
+</section>
+
+<!-- PROYEK -->
+<section id="proyek" class="max-w-6xl mx-auto px-4 pb-14">
+  <h2 class="font-display text-3xl font-bold">Proyek Pilihan</h2>
+  <p class="text-slate-500 mt-2 text-sm">Filter berdasarkan kategori — klik kartu untuk detail.</p>
+  <div class="flex gap-2 mt-5 flex-wrap">
+    <button onclick="filterProj('semua',this)" class="chip chip-active px-4 py-2 rounded-full bg-white shadow text-sm font-semibold">Semua</button>
+    <button onclick="filterProj('web',this)" class="chip px-4 py-2 rounded-full bg-white shadow text-sm font-semibold">🌐 Website</button>
+    <button onclick="filterProj('mobile',this)" class="chip px-4 py-2 rounded-full bg-white shadow text-sm font-semibold">📱 Mobile</button>
+    <button onclick="filterProj('uiux',this)" class="chip px-4 py-2 rounded-full bg-white shadow text-sm font-semibold">🎨 UI/UX</button>
+  </div>
+  <div id="projGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-6"></div>
+</section>
+
+<!-- KALKULATOR IPK -->
+<section id="ipk" class="bg-ink text-white py-14">
+  <div class="max-w-4xl mx-auto px-4">
+    <h2 class="font-display text-3xl md:text-4xl font-bold text-center">🧮 Kalkulator IPK</h2>
+    <p class="text-center text-white/70 mt-2 text-sm">Tambahkan mata kuliah, nilai, dan SKS — IPK dihitung otomatis. Data tersimpan di browser kamu.</p>
+    <div class="bg-white text-ink rounded-3xl shadow-2xl mt-8 p-6 md:p-8">
+      <div class="grid grid-cols-12 gap-3 items-end">
+        <div class="col-span-12 sm:col-span-4">
+          <label class="text-xs font-bold text-slate-500">MATA KULIAH</label>
+          <input id="mkNama" type="text" placeholder="cth: Algoritma" class="mt-1 w-full border rounded-xl px-3 py-2.5 text-sm">
+        </div>
+        <div class="col-span-5 sm:col-span-3">
+          <label class="text-xs font-bold text-slate-500">NILAI</label>
+          <select id="mkNilai" class="mt-1 w-full border rounded-xl px-3 py-2.5 text-sm bg-white">
+            <option value="4">A (4.0)</option><option value="3.5">AB (3.5)</option><option value="3">B (3.0)</option><option value="2.5">BC (2.5)</option><option value="2">C (2.0)</option><option value="1.5">CD (1.5)</option><option value="1">D (1.0)</option><option value="0">E (0)</option>
+          </select>
+        </div>
+        <div class="col-span-4 sm:col-span-2">
+          <label class="text-xs font-bold text-slate-500">SKS</label>
+          <input id="mkSks" type="number" min="1" max="6" value="3" class="mt-1 w-full border rounded-xl px-3 py-2.5 text-sm">
+        </div>
+        <div class="col-span-3 sm:col-span-3">
+          <button onclick="tambahMK()" class="w-full bg-violet2 text-white font-bold py-2.5 rounded-xl hover:bg-violet-700">+ Tambah</button>
+        </div>
+      </div>
+      <p id="mkErr" class="text-red-600 text-xs mt-2 hidden">Isi nama mata kuliah dan SKS 1–6 dulu.</p>
+
+      <div class="mt-6 overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead><tr class="text-left text-slate-400 border-b"><th class="py-2">Mata Kuliah</th><th class="py-2">Nilai</th><th class="py-2">SKS</th><th class="py-2 text-right">Bobot</th><th class="py-2"></th></tr></thead>
+          <tbody id="mkBody"></tbody>
+        </table>
+        <p id="mkEmpty" class="text-center text-slate-400 py-6 text-sm">Belum ada mata kuliah. Tambahkan di atas, atau muat contoh.</p>
+      </div>
+
+      <div class="flex flex-wrap items-center justify-between gap-4 mt-6 bg-violet-50 rounded-2xl px-5 py-4">
+        <div>
+          <p class="text-xs text-slate-500">TOTAL SKS</p><p id="totSks" class="font-display font-bold text-xl">0</p>
+        </div>
+        <div>
+          <p class="text-xs text-slate-500">TOTAL BOBOT</p><p id="totBobot" class="font-display font-bold text-xl">0</p>
+        </div>
+        <div class="text-right">
+          <p class="text-xs text-slate-500">IPK KAMU</p>
+          <p class="font-display font-bold text-4xl text-violet2"><span id="ipkVal">0.00</span></p>
+          <p id="ipkPredikat" class="text-sm font-semibold text-slate-600"></p>
+        </div>
+      </div>
+      <div class="flex flex-wrap gap-3 mt-5">
+        <button onclick="muatContoh()" class="bg-slate-100 font-semibold px-4 py-2 rounded-full text-sm hover:bg-slate-200">📋 Muat Contoh Semester</button>
+        <button onclick="resetMK()" class="bg-slate-100 font-semibold px-4 py-2 rounded-full text-sm hover:bg-slate-200">🔄 Reset</button>
+        <button onclick="salinIPK()" class="bg-ink text-white font-semibold px-4 py-2 rounded-full text-sm hover:bg-violet2">📋 Salin Hasil IPK</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KONTAK -->
+<section id="kontak" class="max-w-6xl mx-auto px-4 py-14 grid md:grid-cols-2 gap-6">
+  <div>
+    <h2 class="font-display text-3xl font-bold">Mari Bekerja Sama</h2>
+    <p class="text-slate-600 mt-3">Punya proyek website, butuh bantuan tugas, atau tawaran magang? Kirim pesan — saya balas maks. 1×24 jam.</p>
+    <ul class="mt-5 space-y-2 text-slate-600">
+      <li>✉️ raka.pratama@student.ugm.ac.id</li>
+      <li>📱 0812-7777-8888 (WhatsApp)</li>
+      <li>📍 Yogyakarta, Indonesia</li>
+    </ul>
+  </div>
+  <form onsubmit="kirimKontak(event)" class="bg-white rounded-3xl shadow p-6 space-y-4">
+    <input id="cNama" type="text" required placeholder="Nama kamu" class="w-full border rounded-xl px-4 py-2.5 text-sm">
+    <input id="cEmail" type="email" required placeholder="Email aktif" class="w-full border rounded-xl px-4 py-2.5 text-sm">
+    <select id="cTopik" class="w-full border rounded-xl px-4 py-2.5 text-sm bg-white">
+      <option>Proyek Freelance</option><option>Tawaran Magang</option><option>Kolaborasi / Tugas</option><option>Lainnya</option>
+    </select>
+    <textarea id="cPesan" required rows="3" placeholder="Ceritakan kebutuhanmu..." class="w-full border rounded-xl px-4 py-2.5 text-sm"></textarea>
+    <button class="w-full bg-violet2 text-white font-bold py-3 rounded-full hover:bg-violet-700">Kirim Pesan →</button>
+    <p id="cHasil" class="text-sm text-green-700 font-medium text-center"></p>
+  </form>
+</section>
+
+<footer class="bg-ink text-white/60 text-center py-6 text-sm no-print">
+  © 2026 Raka Pratama — Dibuat dengan Google AI Studio • Source code gratis by <span class="text-white">LocaGo Creative</span> (locagocreative.my.id)
+</footer>
+
+<!-- AREA CETAK CV -->
+<div id="cvPrint" class="hidden">
+  <h1 style="font-size:26px;font-weight:800">Raka Pratama</h1>
+  <p>Mahasiswa Teknik Informatika — Universitas Gadjah Mada, Yogyakarta</p>
+  <p>raka.pratama@student.ugm.ac.id • 0812-7777-8888 • IPK 3.78</p>
+  <hr style="margin:14px 0">
+  <h2 style="font-weight:700">Tentang</h2>
+  <p>Mahasiswa Teknik Informatika UGM angkatan 2023, fokus web development &amp; UI/UX. Berpengalaman membangun 12+ proyek website untuk UMKM dan organisasi kampus.</p>
+  <h2 style="font-weight:700;margin-top:12px">Skill</h2>
+  <p>HTML/CSS 95% • JavaScript 90% • React 82% • Tailwind CSS 92% • Figma 88% • MySQL 80%</p>
+  <h2 style="font-weight:700;margin-top:12px">Proyek</h2>
+  <p>• Sistem Kasir Warung Kopi — Website kasir &amp; stok (HTML, JS, LocalStorage)<br>
+  • Aplikasi Absensi HIMA — Mobile app absensi berbasis QR (Flutter)<br>
+  • Redesign UI Aplikasi Kampus — UI Kit &amp; prototipe Figma<br>
+  • Website Profil Desa Wisata — Company profile desa (Tailwind)<br>
+  • Dashboard Monitoring IoT — Dashboard sensor suhu (React, Chart.js)</p>
+  <h2 style="font-weight:700;margin-top:12px">Pendidikan</h2>
+  <p>2023–sekarang: S1 Teknik Informatika, Universitas Gadjah Mada — IPK 3.78<br>
+  2020–2023: SMA Negeri 1 Yogyakarta</p>
+</div>
+
+<script>
+/* ---------- SKILL ---------- */
+const SKILLS = [
+  {n:"HTML / CSS", p:95}, {n:"JavaScript", p:90}, {n:"Tailwind CSS", p:92},
+  {n:"React", p:82}, {n:"Figma (UI/UX)", p:88}, {n:"MySQL", p:80},
+];
+document.getElementById("skillList").innerHTML = SKILLS.map(s => `
+  <div class="bg-white rounded-2xl shadow p-5">
+    <div class="flex justify-between font-semibold text-sm"><span>${s.n}</span><span class="text-violet2">${s.p}%</span></div>
+    <div class="bg-slate-100 rounded-full h-2.5 mt-2 overflow-hidden"><div class="skill-bar bg-gradient-to-r from-violet2 to-fuchsia-500 h-full rounded-full" style="width:${s.p}%"></div></div>
+  </div>`).join("");
+
+/* ---------- PROYEK ---------- */
+const PROYEK = [
+  {t:"Sistem Kasir Warung Kopi", cat:"web", tech:"HTML • JS • LocalStorage", img:"https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=700&q=80", d:"Website kasir & pencatatan stok untuk warung kopi, dipakai 2 UMKM di Jogja."},
+  {t:"Aplikasi Absensi HIMA", cat:"mobile", tech:"Flutter • Firebase", img:"https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=700&q=80", d:"Absensi rapat organisasi berbasis QR code, dipakai 120+ anggota HIMA."},
+  {t:"Redesign UI Aplikasi Kampus", cat:"uiux", tech:"Figma • Prototyping", img:"https://images.unsplash.com/photo-1561070791-2526d30994b5?w=700&q=80", d:"Redesign UI aplikasi akademik kampus — skor usability naik 38% saat testing."},
+  {t:"Website Profil Desa Wisata", cat:"web", tech:"Tailwind CSS • JS", img:"https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=700&q=80", d:"Company profile desa wisata di Kulon Progo, kunjungan naik 2× setelah rilis."},
+  {t:"Dashboard Monitoring IoT", cat:"web", tech:"React • Chart.js", img:"https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=700&q=80", d:"Dashboard real-time sensor suhu & kelembapan untuk greenhouse kampus."},
+  {t:"Aplikasi To-Do Mahasiswa", cat:"mobile", tech:"Flutter • SQLite", img:"https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=700&q=80", d:"Aplikasi manajemen tugas kuliah dengan pengingat deadline otomatis."},
+];
+let projCat = "semua";
+function renderProj(){
+  const list = PROYEK.filter(p => projCat==="semua" || p.cat===projCat);
+  document.getElementById("projGrid").innerHTML = list.map(p => `
+    <article class="proj-card bg-white rounded-3xl overflow-hidden shadow cursor-pointer" onclick="detailProj('${p.t.replace(/'/g,"")}')">
+      <img src="${p.img}" alt="${p.t}" class="w-full h-44 object-cover" loading="lazy">
+      <div class="p-5">
+        <span class="text-[11px] font-bold text-violet-700 bg-violet-100 px-2 py-1 rounded-full">${p.tech}</span>
+        <h3 class="font-display font-bold text-lg mt-2">${p.t}</h3>
+        <p class="text-sm text-slate-500 mt-1">${p.d}</p>
+      </div>
+    </article>`).join("");
+}
+function detailProj(t){
+  const p = PROYEK.find(x=>x.t===t);
+  alert(p.t + "\n\n" + p.d + "\n\nTeknologi: " + p.tech + "\n\n(Demo & source code tersedia di GitHub — hubungi saya untuk akses.)");
+}
+function filterProj(cat, btn){
+  projCat = cat;
+  document.querySelectorAll(".chip").forEach(b => b.classList.remove("chip-active"));
+  btn.classList.add("chip-active");
+  renderProj();
+}
+renderProj();
+
+/* ---------- KALKULATOR IPK ---------- */
+let mkList = JSON.parse(localStorage.getItem("ipk_raka") || "[]");
+const NILAI_LABEL = {"4":"A","3.5":"AB","3":"B","2.5":"BC","2":"C","1.5":"CD","1":"D","0":"E"};
+function simpanMK(){ localStorage.setItem("ipk_raka", JSON.stringify(mkList)); }
+function tambahMK(){
+  const nama = document.getElementById("mkNama").value.trim();
+  const nilai = parseFloat(document.getElementById("mkNilai").value);
+  const sks = parseInt(document.getElementById("mkSks").value, 10);
+  if (!nama || isNaN(sks) || sks < 1 || sks > 6){
+    document.getElementById("mkErr").classList.remove("hidden"); return;
+  }
+  document.getElementById("mkErr").classList.add("hidden");
+  mkList.push({nama, nilai, sks});
+  document.getElementById("mkNama").value = "";
+  simpanMK(); renderMK();
+}
+function hapusMK(i){ mkList.splice(i,1); simpanMK(); renderMK(); }
+function renderMK(){
+  const body = document.getElementById("mkBody");
+  document.getElementById("mkEmpty").style.display = mkList.length ? "none" : "block";
+  body.innerHTML = mkList.map((m,i) => `
+    <tr class="border-b">
+      <td class="py-2.5 font-medium">${m.nama}</td>
+      <td class="py-2.5">${NILAI_LABEL[String(m.nilai)]} (${m.nilai})</td>
+      <td class="py-2.5">${m.sks}</td>
+      <td class="py-2.5 text-right font-semibold">${(m.nilai*m.sks).toFixed(1)}</td>
+      <td class="py-2.5 text-right"><button onclick="hapusMK(${i})" class="text-red-500 hover:underline text-xs font-semibold">Hapus</button></td>
+    </tr>`).join("");
+  const totSks = mkList.reduce((a,m)=>a+m.sks,0);
+  const totBobot = mkList.reduce((a,m)=>a+m.nilai*m.sks,0);
+  const ipk = totSks ? totBobot/totSks : 0;
+  document.getElementById("totSks").textContent = totSks;
+  document.getElementById("totBobot").textContent = totBobot.toFixed(1);
+  document.getElementById("ipkVal").textContent = ipk.toFixed(2);
+  const pred = !totSks ? "" : ipk >= 3.51 ? "🏆 Cum Laude — Pertahankan!" : ipk >= 3.0 ? "👍 Sangat Memuaskan" : ipk >= 2.76 ? "✅ Memuaskan" : ipk >= 2.0 ? "⚠️ Cukup — perlu ditingkatkan" : "🚨 Perlu perbaikan serius";
+  document.getElementById("ipkPredikat").textContent = pred;
+}
+function muatContoh(){
+  mkList = [
+    {nama:"Algoritma & Pemrograman", nilai:4, sks:3},
+    {nama:"Basis Data", nilai:3.5, sks:3},
+    {nama:"Pemrograman Web", nilai:4, sks:3},
+    {nama:"Matematika Diskrit", nilai:3, sks:3},
+    {nama:"Sistem Operasi", nilai:3.5, sks:3},
+    {nama:"Bahasa Inggris", nilai:4, sks:2},
+  ];
+  simpanMK(); renderMK();
+}
+function resetMK(){ mkList = []; simpanMK(); renderMK(); }
+function salinIPK(){
+  const ipk = document.getElementById("ipkVal").textContent;
+  const sks = document.getElementById("totSks").textContent;
+  const teks = "IPK saya: " + ipk + " (" + sks + " SKS, " + mkList.length + " mata kuliah)";
+  (navigator.clipboard ? navigator.clipboard.writeText(teks) : Promise.reject()).then(()=>alert("Disalin: " + teks)).catch(()=>prompt("Salin hasil IPK:", teks));
+}
+renderMK();
+
+/* ---------- CV & KONTAK ---------- */
+function unduhCV(){
+  document.getElementById("cvPrint").classList.remove("hidden");
+  window.print();
+  setTimeout(()=>document.getElementById("cvPrint").classList.add("hidden"), 500);
+}
+function kirimKontak(e){
+  e.preventDefault();
+  const nama = document.getElementById("cNama").value.trim();
+  const topik = document.getElementById("cTopik").value;
+  document.getElementById("cHasil").textContent = "Terima kasih, " + nama + "! Pesan tentang \"" + topik + "\" sudah terkirim — saya balas maks. 1×24 jam.";
+  e.target.reset();
+}
+</script>
+</body>
+</html>

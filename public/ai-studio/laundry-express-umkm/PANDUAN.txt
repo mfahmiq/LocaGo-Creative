@@ -1,0 +1,46 @@
+PANDUAN — LAUNDRY EXPRESS (Laundry Antar-Jemput)
+================================================
+Website laundry antar-jemput — dibuat dengan Google AI Studio.
+Source code gratis by LocaGo Creative (locagocreative.my.id).
+
+CARA MEMBUKA
+------------
+1. Double-click file index.html — website langsung terbuka di browser.
+   (Tidak perlu install apa pun.)
+2. Atau upload file index.html ke hosting statis apa pun
+   (Netlify, Vercel, GitHub Pages, Niagahoster, dll).
+
+FITUR
+-----
+- 6 layanan (kiloan, cuci setrika, express 6 jam, bed cover,
+  cuci sepatu, dry cleaning) dengan harga per kg / per pcs
+- KALKULATOR HARGA: pilih layanan, berat/jumlah, layanan tambahan
+  (parfum, antar cepat, packing vakum) — diskon 10% otomatis
+  untuk order kiloan >= 10 kg
+- FORM ORDER antar-jemput: tanggal & jam penjemputan, alamat,
+  validasi lengkap — setelah order, pelanggan mendapat KODE
+  PESANAN dan pesanan terkirim otomatis ke WhatsApp laundry
+- LACAK PESANAN: masukkan kode pesanan, status ditampilkan lewat
+  stepper 4 tahap (Dijemput → Dicuci → Disetrika & Dikemas →
+  Diantar Kembali). Kode contoh untuk demo: LX-20261124-4821
+- Testimoni pelanggan
+
+CARA MENYESUAIKAN (edit file index.html dengan Notepad / VS Code)
+-----------------------------------------------------------------
+- Nama laundry & nomor WhatsApp : cari WA_NUMBER = "6281234567892"
+  di script, ganti dengan nomor WA kamu (format: 62 + nomor).
+- Harga layanan : cari const LAYANAN = { kiloan: {...}, ... } lalu ubah
+  harga, nama, dan satuan.
+- Harga layanan tambahan : cari di fungsi hitungHarga() (parfum,
+  antar cepat, packing vakum).
+- Alamat & jam operasional : cari bagian footer / hero di HTML.
+- Warna tema : cari tailwind.config di <head> (aqua/sky).
+
+CATATAN
+-------
+- Pesanan & status tersimpan di localStorage browser pengunjung
+  (simulasi, tidak ada server). Untuk produksi, hubungkan form
+  ke backend / Google Sheets / WhatsApp Business API.
+- Gambar memakai URL Unsplash — butuh internet saat pertama dibuka.
+- Bebas dipakai & dimodifikasi untuk usahamu. Dilarang dijual kembali
+  sebagai produk berbayar tanpa izin LocaGo Creative.

@@ -1,1544 +1,1804 @@
 {
-  "updatedAt": "23 Nov 2026, 17:56 WIB",
-  "total": 25,
-  "items": [
+ "updatedAt": "24 Nov 2026, 09:01 WIB",
+ "total": 30,
+ "items": [
+  {
+   "id": "sc-82",
+   "title": "Landing Page Kedai Kopi UMKM — Kopi Senja",
+   "slug": "kopi-senja-umkm",
+   "category": "Website AI Studio",
+   "techStack": [
+    "HTML",
+    "Tailwind CSS",
+    "JavaScript"
+   ],
+   "description": "Website landing page kedai kopi UMKM siap pakai hasil Google AI Studio: hero, 12 menu kopi & makanan dengan filter kategori, keranjang belanja interaktif, hitung total + ongkir otomatis (gratis ≥ Rp50.000), dan checkout langsung ke WhatsApp. Dilengkapi testimoni, profil kedai, serta jam buka & lokasi.\n\nLihat demo live di /ai-studio/kopi-senja-umkm/ — download ZIP, ekstrak, lalu buka index.html atau upload ke hosting statis apa pun. Panduan penyesuaian (ganti nama, nomor WA, harga, menu) ada di PANDUAN.txt di dalam ZIP.",
+   "shortDesc": "Landing page kedai kopi UMKM dengan menu, keranjang & order via WhatsApp — siap pakai, demo live tersedia.",
+   "howItWorks": "Website statis satu file HTML (Tailwind CSS + JavaScript). Menu dan keranjang berjalan sepenuhnya di browser pengunjung; checkout mengirim pesanan terformat otomatis ke WhatsApp pemilik kedai.",
+   "requirements": "Browser modern apa pun. Tidak perlu server, database, atau instalasi — cukup buka index.html.",
+   "screenshots": [
+    "/screenshots/kopi-senja-umkm/screenshot_1.webp"
+   ],
+   "defaultCredentials": [],
+   "updatedAt": "24 November 2026",
+   "releaseDate": "24 November 2026",
+   "recentFastDownloads": 0,
+   "thumbnail": "/screenshots/kopi-senja-umkm/screenshot_1.webp",
+   "downloadsCount": 0,
+   "rating": 4.9,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": false,
+   "databaseType": "",
+   "fileSize": "8 KB",
+   "tutorialSteps": [
+    "Download berkas `kopi-senja-umkm.zip` dari tombol download.",
+    "Ekstrak berkas ZIP ke folder di komputermu.",
+    "Buka file `index.html` dengan double-click — website langsung tampil di browser.",
+    "Untuk online: upload file `index.html` ke hosting statis (Netlify, Vercel, GitHub Pages, atau hosting apa pun).",
+    "Sesuaikan nama, nomor WhatsApp, harga, dan konten mengikuti `PANDUAN.txt` di dalam ZIP."
+   ],
+   "keyFeatures": [
+    "12 menu kopi, non-kopi & makanan dengan filter kategori",
+    "Keranjang belanja interaktif: tambah/kurangi, subtotal & ongkir otomatis",
+    "Checkout via WhatsApp dengan rincian pesanan otomatis",
+    "Gratis ongkir otomatis untuk order ≥ Rp50.000",
+    "Testimoni, profil kedai, jam buka & lokasi",
+    "Panduan PANDUAN.txt: cara ganti nama, nomor WA, harga & menu"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=kopi-senja-umkm&step=1&max=8",
+   "downloadUrlFast": "/downloads/kopi-senja-umkm.zip",
+   "driveUrl": "",
+   "githubRepo": "",
+   "stars": 0,
+   "zipBytes": 7688,
+   "demoUrl": "/ai-studio/kopi-senja-umkm/"
+  },
+  {
+   "id": "sc-83",
+   "title": "Website Sekolah & PPDB Online — SMA Nusantara",
+   "slug": "website-sekolah-ppdb",
+   "category": "Website AI Studio",
+   "techStack": [
+    "HTML",
+    "Tailwind CSS",
+    "JavaScript"
+   ],
+   "description": "Website sekolah lengkap hasil Google AI Studio: profil sekolah, statistik, formulir PPDB online dengan validasi lengkap (NISN 10 digit, nilai rapor, nomor WA) yang langsung menerbitkan Nomor Pendaftaran, plus fitur cek status pendaftaran, countdown penutupan gelombang, berita & pengumuman, galeri dengan filter + lightbox, dan form kontak.\n\nLihat demo live di /ai-studio/website-sekolah-ppdb/ — download ZIP, ekstrak, lalu buka index.html atau upload ke hosting statis apa pun. Panduan penyesuaian (nama sekolah, nomor WA panitia, tanggal gelombang, berita) ada di PANDUAN.txt di dalam ZIP.",
+   "shortDesc": "Website sekolah dengan formulir PPDB online, nomor pendaftaran & cek status — siap pakai, demo live tersedia.",
+   "howItWorks": "Website statis satu file HTML (Tailwind CSS + JavaScript). Pendaftaran tersimpan di localStorage browser (simulasi); untuk produksi hubungkan form ke Google Form atau backend sekolah.",
+   "requirements": "Browser modern apa pun. Tidak perlu server, database, atau instalasi — cukup buka index.html.",
+   "screenshots": [
+    "/screenshots/website-sekolah-ppdb/screenshot_1.webp"
+   ],
+   "defaultCredentials": [],
+   "updatedAt": "24 November 2026",
+   "releaseDate": "24 November 2026",
+   "recentFastDownloads": 0,
+   "thumbnail": "/screenshots/website-sekolah-ppdb/screenshot_1.webp",
+   "downloadsCount": 0,
+   "rating": 4.9,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": false,
+   "databaseType": "",
+   "fileSize": "9 KB",
+   "tutorialSteps": [
+    "Download berkas `website-sekolah-ppdb.zip` dari tombol download.",
+    "Ekstrak berkas ZIP ke folder di komputermu.",
+    "Buka file `index.html` dengan double-click — website langsung tampil di browser.",
+    "Untuk online: upload file `index.html` ke hosting statis (Netlify, Vercel, GitHub Pages, atau hosting apa pun).",
+    "Sesuaikan nama, nomor WhatsApp, harga, dan konten mengikuti `PANDUAN.txt` di dalam ZIP."
+   ],
+   "keyFeatures": [
+    "Formulir PPDB online dengan validasi lengkap & Nomor Pendaftaran otomatis",
+    "Cek status pendaftaran dengan nomor pendaftaran",
+    "Countdown otomatis penutupan gelombang PPDB",
+    "Berita & pengumuman, galeri filter + lightbox",
+    "Profil sekolah, visi-misi, fasilitas & statistik",
+    "Panduan PANDUAN.txt: cara ganti nama sekolah, WA panitia & tanggal gelombang"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=website-sekolah-ppdb&step=1&max=8",
+   "downloadUrlFast": "/downloads/website-sekolah-ppdb.zip",
+   "driveUrl": "",
+   "githubRepo": "",
+   "stars": 0,
+   "zipBytes": 9519,
+   "demoUrl": "/ai-studio/website-sekolah-ppdb/"
+  },
+  {
+   "id": "sc-84",
+   "title": "Portofolio Mahasiswa + Kalkulator IPK",
+   "slug": "portofolio-mahasiswa",
+   "category": "Website AI Studio",
+   "techStack": [
+    "HTML",
+    "Tailwind CSS",
+    "JavaScript"
+   ],
+   "description": "Website portofolio mahasiswa hasil Google AI Studio: hero, tentang, skill dengan progress bar, proyek dengan filter kategori, dan KALKULATOR IPK interaktif — tambah mata kuliah + nilai (A–E) + SKS, IPK & predikat (Cum Laude, Sangat Memuaskan, dst) dihitung otomatis dan tersimpan di browser. Dilengkapi tombol Download CV (cetak / simpan PDF) dan form kontak.\n\nLihat demo live di /ai-studio/portofolio-mahasiswa/ — download ZIP, ekstrak, lalu buka index.html atau upload ke hosting statis apa pun. Panduan penyesuaian (nama, kampus, skill, proyek, isi CV) ada di PANDUAN.txt di dalam ZIP.",
+   "shortDesc": "Portofolio mahasiswa dengan kalkulator IPK interaktif & download CV — siap pakai, demo live tersedia.",
+   "howItWorks": "Website statis satu file HTML (Tailwind CSS + JavaScript). Kalkulator IPK berjalan sepenuhnya di browser; data mata kuliah tersimpan di localStorage pengunjung.",
+   "requirements": "Browser modern apa pun. Tidak perlu server, database, atau instalasi — cukup buka index.html.",
+   "screenshots": [
+    "/screenshots/portofolio-mahasiswa/screenshot_1.webp"
+   ],
+   "defaultCredentials": [],
+   "updatedAt": "24 November 2026",
+   "releaseDate": "24 November 2026",
+   "recentFastDownloads": 0,
+   "thumbnail": "/screenshots/portofolio-mahasiswa/screenshot_1.webp",
+   "downloadsCount": 0,
+   "rating": 4.9,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": false,
+   "databaseType": "",
+   "fileSize": "8 KB",
+   "tutorialSteps": [
+    "Download berkas `portofolio-mahasiswa.zip` dari tombol download.",
+    "Ekstrak berkas ZIP ke folder di komputermu.",
+    "Buka file `index.html` dengan double-click — website langsung tampil di browser.",
+    "Untuk online: upload file `index.html` ke hosting statis (Netlify, Vercel, GitHub Pages, atau hosting apa pun).",
+    "Sesuaikan nama, nomor WhatsApp, harga, dan konten mengikuti `PANDUAN.txt` di dalam ZIP."
+   ],
+   "keyFeatures": [
+    "Kalkulator IPK interaktif: mata kuliah + nilai + SKS, predikat otomatis",
+    "Data IPK tersimpan di browser, bisa muat contoh semester & salin hasil",
+    "Tombol Download CV — cetak rapi / simpan sebagai PDF",
+    "Skill dengan progress bar & proyek dengan filter kategori",
+    "Hero, tentang, dan form kontak",
+    "Panduan PANDUAN.txt: cara ganti nama, kampus, skill & proyek"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=portofolio-mahasiswa&step=1&max=8",
+   "downloadUrlFast": "/downloads/portofolio-mahasiswa.zip",
+   "driveUrl": "",
+   "githubRepo": "",
+   "stars": 0,
+   "zipBytes": 8016,
+   "demoUrl": "/ai-studio/portofolio-mahasiswa/"
+  },
+  {
+   "id": "sc-85",
+   "title": "Website Fotografer Wedding Profesional — Lensa Bahagia",
+   "slug": "fotografer-wedding-pro",
+   "category": "Website AI Studio",
+   "techStack": [
+    "HTML",
+    "Tailwind CSS",
+    "JavaScript"
+   ],
+   "description": "Website jasa fotografer wedding profesional hasil Google AI Studio: hero galeri, galeri foto dengan filter (Akad / Resepsi / Prewedding) + lightbox, 3 paket harga transparan (Silver Rp4,5 jt, Gold Rp8,5 jt, Platinum Rp15 jt), dan form booking interaktif — pilih paket, tanggal & kota, estimasi harga dihitung otomatis termasuk biaya lokasi, tambahan (drone, album), dan diskon 10% untuk acara Senin–Kamis, plus cek ketersediaan tanggal dan kirim booking via WhatsApp.\n\nLihat demo live di /ai-studio/fotografer-wedding-pro/ — download ZIP, ekstrak, lalu buka index.html atau upload ke hosting statis apa pun. Panduan penyesuaian (nama studio, nomor WA, harga paket, galeri) ada di PANDUAN.txt di dalam ZIP.",
+   "shortDesc": "Website fotografer wedding dengan 3 paket harga, galeri filter & form booking estimasi otomatis — siap pakai, demo live tersedia.",
+   "howItWorks": "Website statis satu file HTML (Tailwind CSS + JavaScript). Estimasi harga, diskon weekday, dan cek ketersediaan tanggal dihitung langsung di browser; booking dikirim via WhatsApp.",
+   "requirements": "Browser modern apa pun. Tidak perlu server, database, atau instalasi — cukup buka index.html.",
+   "screenshots": [
+    "/screenshots/fotografer-wedding-pro/screenshot_1.webp"
+   ],
+   "defaultCredentials": [],
+   "updatedAt": "24 November 2026",
+   "releaseDate": "24 November 2026",
+   "recentFastDownloads": 0,
+   "thumbnail": "/screenshots/fotografer-wedding-pro/screenshot_1.webp",
+   "downloadsCount": 0,
+   "rating": 4.9,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": false,
+   "databaseType": "",
+   "fileSize": "8 KB",
+   "tutorialSteps": [
+    "Download berkas `fotografer-wedding-pro.zip` dari tombol download.",
+    "Ekstrak berkas ZIP ke folder di komputermu.",
+    "Buka file `index.html` dengan double-click — website langsung tampil di browser.",
+    "Untuk online: upload file `index.html` ke hosting statis (Netlify, Vercel, GitHub Pages, atau hosting apa pun).",
+    "Sesuaikan nama, nomor WhatsApp, harga, dan konten mengikuti `PANDUAN.txt` di dalam ZIP."
+   ],
+   "keyFeatures": [
+    "Galeri foto dengan filter Akad / Resepsi / Prewedding + lightbox",
+    "3 paket harga transparan (Silver, Gold, Platinum)",
+    "Form booking: estimasi harga otomatis + diskon weekday 10% + DP 30%",
+    "Cek ketersediaan tanggal & kirim booking via WhatsApp",
+    "Statistik & testimoni pasangan",
+    "Panduan PANDUAN.txt: cara ganti nama studio, WA, harga & galeri"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=fotografer-wedding-pro&step=1&max=8",
+   "downloadUrlFast": "/downloads/fotografer-wedding-pro.zip",
+   "driveUrl": "",
+   "githubRepo": "",
+   "stars": 0,
+   "zipBytes": 8092,
+   "demoUrl": "/ai-studio/fotografer-wedding-pro/"
+  },
+  {
+   "id": "sc-86",
+   "title": "Website Laundry Antar-Jemput — Laundry Express",
+   "slug": "laundry-express-umkm",
+   "category": "Website AI Studio",
+   "techStack": [
+    "HTML",
+    "Tailwind CSS",
+    "JavaScript"
+   ],
+   "description": "Website laundry antar-jemput UMKM hasil Google AI Studio: 6 layanan (kiloan, cuci setrika, express 6 jam, bed cover, cuci sepatu, dry cleaning), KALKULATOR HARGA interaktif (pilih layanan, berat/jumlah, layanan tambahan — diskon 10% otomatis untuk order kiloan ≥ 10 kg), FORM ORDER antar-jemput (tanggal & jam penjemputan, alamat, validasi lengkap) yang menerbitkan KODE PESANAN dan mengirim order via WhatsApp, serta LACAK PESANAN dengan stepper 4 tahap (Dijemput → Dicuci → Disetrika & Dikemas → Diantar Kembali).\n\nLihat demo live di /ai-studio/laundry-express-umkm/ — download ZIP, ekstrak, lalu buka index.html atau upload ke hosting statis apa pun. Panduan penyesuaian (nama laundry, nomor WA, harga layanan) ada di PANDUAN.txt di dalam ZIP.",
+   "shortDesc": "Website laundry antar-jemput dengan kalkulator harga, form order & lacak pesanan — siap pakai, demo live tersedia.",
+   "howItWorks": "Website statis satu file HTML (Tailwind CSS + JavaScript). Kalkulator, form order, dan pelacakan status berjalan di browser (localStorage, simulasi); untuk produksi hubungkan ke backend atau WhatsApp Business API.",
+   "requirements": "Browser modern apa pun. Tidak perlu server, database, atau instalasi — cukup buka index.html.",
+   "screenshots": [
+    "/screenshots/laundry-express-umkm/screenshot_1.webp"
+   ],
+   "defaultCredentials": [],
+   "updatedAt": "24 November 2026",
+   "releaseDate": "24 November 2026",
+   "recentFastDownloads": 0,
+   "thumbnail": "/screenshots/laundry-express-umkm/screenshot_1.webp",
+   "downloadsCount": 0,
+   "rating": 4.9,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": false,
+   "databaseType": "",
+   "fileSize": "9 KB",
+   "tutorialSteps": [
+    "Download berkas `laundry-express-umkm.zip` dari tombol download.",
+    "Ekstrak berkas ZIP ke folder di komputermu.",
+    "Buka file `index.html` dengan double-click — website langsung tampil di browser.",
+    "Untuk online: upload file `index.html` ke hosting statis (Netlify, Vercel, GitHub Pages, atau hosting apa pun).",
+    "Sesuaikan nama, nomor WhatsApp, harga, dan konten mengikuti `PANDUAN.txt` di dalam ZIP."
+   ],
+   "keyFeatures": [
+    "Kalkulator harga: 6 layanan + tambahan, diskon 10% otomatis ≥ 10 kg",
+    "Form order antar-jemput dengan kode pesanan & kirim via WhatsApp",
+    "Lacak pesanan: stepper 4 tahap + simulasi tahap berikutnya",
+    "Layanan kiloan, express 6 jam, bed cover, sepatu & dry cleaning",
+    "Testimoni pelanggan & info kontak",
+    "Panduan PANDUAN.txt: cara ganti nama laundry, WA & harga layanan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=laundry-express-umkm&step=1&max=8",
+   "downloadUrlFast": "/downloads/laundry-express-umkm.zip",
+   "driveUrl": "",
+   "githubRepo": "",
+   "stars": 0,
+   "zipBytes": 9717,
+   "demoUrl": "/ai-studio/laundry-express-umkm/"
+  },
+  {
+   "id": "sc-81",
+   "title": "Sistem Pakar Diagnosa - Kumaphone",
+   "slug": "kumaphone",
+   "category": "Kecerdasan Buatan & SPK",
+   "techStack": [
+    "PHP Native",
+    "PHP",
+    "MySQL",
+    "Bootstrap"
+   ],
+   "description": "Sistem Pakar Diagnosa Kerusakan Smartphone Android menggunakan Metode Forward Chaining adalah sebuah program yang dapat digunakan untuk mendiagnosis kerusakan pada smartphone Android. Program ini menggunakan metode forward chaining untuk mencari solusi dari kerusakan pada smartphone Android yang diberikan.\n\nProyek riil open-source asli dari GitHub (https://github.com/joenior/kumaphone). Dilengkapi file database lengkap (db_sbp.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+   "shortDesc": "Proyek riil Sistem Pakar Diagnosa - Kumaphone dengan database db_sbp.sql, data contoh bawaan, dan tutorial instalasi.",
+   "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+   "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+   "screenshots": [
+    "/screenshots/kumaphone/screenshot_1.webp",
+    "/screenshots/kumaphone/screenshot_2.webp"
+   ],
+   "defaultCredentials": [
     {
-      "id": "sc-81",
-      "title": "Sistem Pakar Diagnosa - Kumaphone",
-      "slug": "kumaphone",
-      "category": "Kecerdasan Buatan & SPK",
-      "techStack": [
-        "PHP Native",
-        "PHP",
-        "MySQL",
-        "Bootstrap"
-      ],
-      "description": "Sistem Pakar Diagnosa Kerusakan Smartphone Android menggunakan Metode Forward Chaining adalah sebuah program yang dapat digunakan untuk mendiagnosis kerusakan pada smartphone Android. Program ini menggunakan metode forward chaining untuk mencari solusi dari kerusakan pada smartphone Android yang diberikan.\n\nProyek riil open-source asli dari GitHub (https://github.com/joenior/kumaphone). Dilengkapi file database lengkap (db_sbp.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Sistem Pakar Diagnosa - Kumaphone dengan database db_sbp.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/kumaphone/screenshot_1.webp",
-        "/screenshots/kumaphone/screenshot_2.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
-        }
-      ],
-      "updatedAt": "23 November 2026",
-      "releaseDate": "23 November 2026",
-      "recentFastDownloads": 59,
-      "thumbnail": "/screenshots/kumaphone/screenshot_1.webp",
-      "downloadsCount": 957,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "685 KB",
-      "tutorialSteps": [
-        "Ekstrak berkas `kumaphone.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `db_sbp.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/kumaphone` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (joenior/kumaphone) dengan source code lengkap",
-        "Disertai database asli (db_sbp.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=kumaphone&step=1&max=8",
-      "downloadUrlFast": "/downloads/kumaphone.zip",
-      "driveUrl": "https://drive.google.com/file/d/1PPWg4TZ5_DTF4na0BJ0uyhs9DZUhqgBU/view?usp=drivesdk",
-      "githubRepo": "https://github.com/joenior/kumaphone",
-      "stars": 7
-    },
-    {
-      "id": "sc-80",
-      "title": "Sistem Pakar Diagnosa - Sistem Pakar Diagnosa Penyakit Kucing Berbasis Php Dan Mysql",
-      "slug": "sistem-pakar-diagnosa-penyakit-kucing-berbasis-php-dan-mysql",
-      "category": "Kecerdasan Buatan & SPK",
-      "techStack": [
-        "PHP Native",
-        "PHP",
-        "MySQL"
-      ],
-      "description": "Aplikasi Sistem-Pakar-Diagnosa-Penyakit-Kucing-berbasis-PHP-dan-MySQL. siap pakai dengan database lengkap.\n\nProyek riil open-source asli dari GitHub (https://github.com/SigitaprilL/Sistem-Pakar-Diagnosa-Penyakit-Kucing-berbasis-PHP-dan-MySQL.). Dilengkapi file database lengkap (kucing.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Sistem Pakar Diagnosa - Sistem Pakar Diagnosa Penyakit Kucing Berbasis Php Dan Mysql dengan database kucing.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/sistem-pakar-diagnosa-penyakit-kucing-berbasis-php-dan-mysql/screenshot_1.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
-        }
-      ],
-      "updatedAt": "23 November 2026",
-      "releaseDate": "23 November 2026",
-      "recentFastDownloads": 47,
-      "thumbnail": "/screenshots/sistem-pakar-diagnosa-penyakit-kucing-berbasis-php-dan-mysql/screenshot_1.webp",
-      "downloadsCount": 528,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "1.7 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `sistem-pakar-diagnosa-penyakit-kucing-berbasis-php-dan-mysql.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `kucing.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/sistem-pakar-diagnosa-penyakit-kucing-berbasis-php-dan-mysql` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (SigitaprilL/Sistem-Pakar-Diagnosa-Penyakit-Kucing-berbasis-PHP-dan-MySQL.) dengan source code lengkap",
-        "Disertai database asli (kucing.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=sistem-pakar-diagnosa-penyakit-kucing-berbasis-php-dan-mysql&step=1&max=8",
-      "downloadUrlFast": "/downloads/sistem-pakar-diagnosa-penyakit-kucing-berbasis-php-dan-mysql.zip",
-      "driveUrl": "https://drive.google.com/file/d/14UhuU9VvFHRFOuKbLB9LpZo7tSaULuGh/view?usp=drivesdk",
-      "githubRepo": "https://github.com/SigitaprilL/Sistem-Pakar-Diagnosa-Penyakit-Kucing-berbasis-PHP-dan-MySQL.",
-      "stars": 0
-    },
-    {
-      "id": "sc-79",
-      "title": "Warehouse & Inventory Management System - Inventory Mgmt Sys",
-      "slug": "inventory-mgmt-sys",
-      "category": "Bisnis & Manajemen",
-      "techStack": [
-        "PHP Native",
-        "PHP",
-        "MySQL",
-        "Tailwind CSS"
-      ],
-      "description": "Responsive inventory management system with JWT auth, role-based access control, product/supplier/transaction tracking, dashboard charts, and CSV import/export, built with PHP, MySQL, and Tailwind v4.\n\nProyek riil open-source asli dari GitHub (https://github.com/yitmeng00/inventory-mgmt-sys). Dilengkapi file database lengkap (schema.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Warehouse & Inventory Management System - Inventory Mgmt Sys dengan database schema.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Tailwind CSS dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/inventory-mgmt-sys/screenshot_1.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Admin (terverifikasi dari schema.sql)",
-          "username": "admin",
-          "password": "password"
-        }
-      ],
-      "updatedAt": "23 November 2026",
-      "releaseDate": "23 November 2026",
-      "recentFastDownloads": 87,
-      "thumbnail": "/screenshots/inventory-mgmt-sys/screenshot_1.webp",
-      "downloadsCount": 1076,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "11.3 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `inventory-mgmt-sys.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `schema.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/inventory-mgmt-sys` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (yitmeng00/inventory-mgmt-sys) dengan source code lengkap",
-        "Disertai database asli (schema.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=inventory-mgmt-sys&step=1&max=8",
-      "downloadUrlFast": "/downloads/inventory-mgmt-sys.zip",
-      "driveUrl": "https://drive.google.com/file/d/12PuLt7KzhC4MwvPTeu0iYoaQ3i1eSATM/view?usp=drivesdk",
-      "githubRepo": "https://github.com/yitmeng00/inventory-mgmt-sys",
-      "stars": 0,
-      "zipBytes": 11850565
-    },
-    {
-      "id": "sc-78",
-      "title": "Aplikasi Kasir POS & Manajemen Penjualan - Latihanukktahap1 Sistemkasir Fahnidaauliaazzahwa",
-      "slug": "latihanukktahap1-sistemkasir-fahnidaauliaazzahwa",
-      "category": "Kasir & Point of Sale (POS)",
-      "techStack": [
-        "PHP Native",
-        "PHP",
-        "MySQL",
-        "Bootstrap"
-      ],
-      "description": "Aplikasi POS & Self-Ordering \"Daily Coffee & Toast\" berbasis Native PHP & MySQL. Dilengkapi hak akses multi-role (Admin, Kasir, Pelanggan), alur status pesanan interaktif (Pending ➔ Proses ➔ Selesai/Batal) dengan otomatisasi pemulihan stok, serta cetak struk termal.\n\nProyek riil open-source asli dari GitHub (https://github.com/fahnidazw/LatihanUKKTahap1-SistemKasir-FahnidaAuliaAzzahwa). Dilengkapi file database lengkap (kasir.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Aplikasi Kasir POS & Manajemen Penjualan - Latihanukktahap1 Sistemkasir Fahnidaauliaazzahwa dengan database kasir.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/latihanukktahap1-sistemkasir-fahnidaauliaazzahwa/screenshot_1.webp",
-        "/screenshots/latihanukktahap1-sistemkasir-fahnidaauliaazzahwa/screenshot_2.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
-        }
-      ],
-      "updatedAt": "22 November 2026",
-      "releaseDate": "22 November 2026",
-      "recentFastDownloads": 88,
-      "thumbnail": "/screenshots/latihanukktahap1-sistemkasir-fahnidaauliaazzahwa/screenshot_1.webp",
-      "downloadsCount": 1190,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "6.5 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `latihanukktahap1-sistemkasir-fahnidaauliaazzahwa.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `kasir.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/latihanukktahap1-sistemkasir-fahnidaauliaazzahwa` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (fahnidazw/LatihanUKKTahap1-SistemKasir-FahnidaAuliaAzzahwa) dengan source code lengkap",
-        "Disertai database asli (kasir.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=latihanukktahap1-sistemkasir-fahnidaauliaazzahwa&step=1&max=8",
-      "downloadUrlFast": "/downloads/latihanukktahap1-sistemkasir-fahnidaauliaazzahwa.zip",
-      "driveUrl": "https://drive.google.com/file/d/1dggtDw9GDoij9zh9FdenmkLtdgAw4FS5/view?usp=drivesdk",
-      "githubRepo": "https://github.com/fahnidazw/LatihanUKKTahap1-SistemKasir-FahnidaAuliaAzzahwa",
-      "stars": 0
-    },
-    {
-      "id": "sc-77",
-      "title": "Comprehensive School Management System - Lms Pro",
-      "slug": "lms-pro",
-      "category": "Pendidikan & Akademik",
-      "techStack": [
-        "PHP Native",
-        "PHP",
-        "MySQL",
-        "Bootstrap"
-      ],
-      "description": "Library_Management_System , a complete system for any school , college or public lib to implement and manage their resources and readers\n\nProyek riil open-source asli dari GitHub (https://github.com/shiroonigami23-ui/lms-pro). Dilengkapi file database lengkap (database/library_management_patch.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Comprehensive School Management System - Lms Pro dengan database database/library_management_patch.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/lms-pro/screenshot_1.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
-        }
-      ],
-      "updatedAt": "21 November 2026",
-      "releaseDate": "21 November 2026",
-      "recentFastDownloads": 60,
-      "thumbnail": "/screenshots/lms-pro/screenshot_1.webp",
-      "downloadsCount": 940,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "34.9 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `lms-pro.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `database/library_management_patch.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/lms-pro` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (shiroonigami23-ui/lms-pro) dengan source code lengkap",
-        "Disertai database asli (database/library_management_patch.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=lms-pro&step=1&max=8",
-      "downloadUrlFast": "/downloads/lms-pro.zip",
-      "driveUrl": "https://drive.google.com/file/d/1UBnN3jjof03bBZDijeJISZcbdcU4598J/view?usp=drivesdk",
-      "githubRepo": "https://github.com/shiroonigami23-ui/lms-pro",
-      "stars": 4
-    },
-    {
-      "id": "sc-76",
-      "title": "Sistem Akademik Project 5 - PHP OOP + Composer",
-      "slug": "project-pbwl-5",
-      "category": "Pendidikan & Akademik",
-      "techStack": [
-        "PHP OOP",
-        "PHP",
-        "MySQL",
-        "Bootstrap",
-        "Composer"
-      ],
-      "description": "Sistem Akademik Project 5 — PHP OOP + Composer: manajemen data Mahasiswa, Dosen, dan Matakuliah (CRUD lengkap) dengan autoload PSR-4 dan PDO MySQL.\n\nProyek riil open-source asli dari GitHub (https://github.com/Neuron700/project-pbwl-5). Dilengkapi file database lengkap (database.sql, database pbwl_samples_5), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Sistem Akademik Project 5 dengan database database.sql (pbwl_samples_5), data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web Sistem Akademik berbasis PHP 8.0+ OOP dengan autoload Composer (PSR-4) dan PDO MySQL. Mengelola data master Mahasiswa, Dosen, dan Matakuliah (CRUD lengkap) dengan penyimpanan data relasional MySQL (.sql).",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 8.0+, MySQL / MariaDB (port 3307), Composer.",
-      "screenshots": [
-        "/screenshots/project-pbwl-5/screenshot_1.webp",
-        "/screenshots/project-pbwl-5/screenshot_2.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
-        }
-      ],
-      "updatedAt": "21 November 2026",
-      "releaseDate": "21 November 2026",
-      "recentFastDownloads": 87,
-      "thumbnail": "/screenshots/project-pbwl-5/screenshot_1.webp",
-      "downloadsCount": 943,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "3.1 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `project-pbwl-5.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Buat database `pbwl_samples_5` di phpMyAdmin (MySQL port 3307), lalu import berkas SQL `database.sql` ke database tersebut.",
-        "Sesuaikan koneksi database di `inc/Koneksi.php` (host 127.0.0.1, port 3307, dbname pbwl_samples_5, user root, tanpa password) bila perlu.",
-        "Jalankan `composer install` bila folder `vendor/` belum ada.",
-        "Buka browser di `http://localhost/project-pbwl-5` — dashboard langsung terbuka tanpa login."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (Neuron700/project-pbwl-5) dengan source code lengkap",
-        "Disertai database asli (database.sql, database pbwl_samples_5) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "CRUD lengkap Mahasiswa, Dosen, dan Matakuliah (PHP OOP + Composer PSR-4 + PDO)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=project-pbwl-5&step=1&max=8",
-      "downloadUrlFast": "/downloads/project-pbwl-5.zip",
-      "driveUrl": "https://drive.google.com/file/d/1-QqVtCaAcbnxbGHoZPxd1sjIIbRMBOFL/view?usp=drivesdk",
-      "githubRepo": "https://github.com/Neuron700/project-pbwl-5",
-      "stars": 0
-    },
-    {
-      "id": "sc-75",
-      "title": "Comprehensive School Management System - School",
-      "slug": "school",
-      "category": "Pendidikan & Akademik",
-      "techStack": [
-        "PHP Native",
-        "PHP",
-        "MySQL"
-      ],
-      "description": "A comprehensive web-based School Management System built with PHP and MySQL. This project provides a robust platform for managing students, staff, courses, finances, academic records, and more. \n\nProyek riil open-source asli dari GitHub (https://github.com/henry2547/school). Dilengkapi file database lengkap (database/schema.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Comprehensive School Management System - School dengan database database/schema.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/school/screenshot_1.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Admin",
-          "username": "admin@school.test",
-          "password": "Admin@12345"
-        },
-        {
-          "role": "Siswa",
-          "username": "amina.otieno@school.test",
-          "password": "Admin@12345"
-        },
-        {
-          "role": "Guru",
-          "username": "grace.njeri@school.test",
-          "password": "Admin@12345"
-        },
-        {
-          "role": "Orang Tua",
-          "username": "mary.otieno@example.test",
-          "password": "Admin@12345"
-        }
-      ],
-      "updatedAt": "21 November 2026",
-      "releaseDate": "21 November 2026",
-      "recentFastDownloads": 53,
-      "thumbnail": "/screenshots/school/screenshot_1.webp",
-      "downloadsCount": 1107,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "84 KB",
-      "tutorialSteps": [
-        "Ekstrak berkas `school.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `database/schema.sql` ke database phpMyAdmin (membuat database `schoolhub` + akun demo).",
-        "Sesuaikan konfigurasi database di `config/database.php` bila perlu (bawaan: host 127.0.0.1, database schoolhub, user root, password kosong).",
-        "Buka browser di `http://localhost/school/public` dan login dengan akun demo (Admin: admin@school.test / Admin@12345)."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (henry2547/school) dengan source code lengkap",
-        "Disertai database asli (database/schema.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=school&step=1&max=8",
-      "downloadUrlFast": "/downloads/school.zip",
-      "driveUrl": "https://drive.google.com/file/d/1KWPcSQ5bgAJ-JCG9wcG-J4nzkInc8nKl/view?usp=drivesdk",
-      "githubRepo": "https://github.com/henry2547/school",
-      "stars": 1
-    },
-    {
-      "id": "sc-74",
-      "title": "Sistem Informasi Rental Kendaraan - Rentalmobil",
-      "slug": "rentalmobil",
-      "category": "Layanan & Jasa",
-      "techStack": [
-        "PHP Native",
-        "PHP",
-        "MySQL",
-        "Bootstrap"
-      ],
-      "description": "Sistem pelayanan sewa mobil sederhana buatan sendiri\n\nProyek riil open-source asli dari GitHub (https://github.com/JafFR13/RentalMobil). Dilengkapi file database lengkap (dbrecar.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Sistem Informasi Rental Kendaraan - Rentalmobil dengan database dbrecar.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/rentalmobil/screenshot_1.webp",
-        "/screenshots/rentalmobil/screenshot_2.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
-        }
-      ],
-      "updatedAt": "20 November 2026",
-      "releaseDate": "20 November 2026",
-      "recentFastDownloads": 93,
-      "thumbnail": "/screenshots/rentalmobil/screenshot_1.webp",
-      "downloadsCount": 826,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "22.1 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `rentalmobil.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `dbrecar.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/rentalmobil` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (JafFR13/RentalMobil) dengan source code lengkap",
-        "Disertai database asli (dbrecar.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=rentalmobil&step=1&max=8",
-      "downloadUrlFast": "/downloads/rentalmobil.zip",
-      "driveUrl": "https://drive.google.com/file/d/1WID-2CA8e2GGayBe95z2gO4mWO4Wm1-V/view?usp=drivesdk",
-      "githubRepo": "https://github.com/JafFR13/RentalMobil",
-      "stars": 0
-    },
-    {
-      "id": "sc-73",
-      "title": "Hospital & Patient Management System - Heart Beat Hospital Management System",
-      "slug": "heart-beat-hospital-management-system",
-      "category": "Kesehatan & Medis",
-      "techStack": [
-        "PHP Native",
-        "PHP",
-        "MySQL"
-      ],
-      "description": "PHP and MySQL based Hospital Management System\n\nProyek riil open-source asli dari GitHub (https://github.com/PrarthanaKumar37/Heart_Beat-Hospital-Management-System). Dilengkapi file database lengkap (database.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Hospital & Patient Management System - Heart Beat Hospital Management System dengan database database.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/heart-beat-hospital-management-system/screenshot_1.webp",
-        "/screenshots/heart-beat-hospital-management-system/screenshot_2.webp",
-        "/screenshots/heart-beat-hospital-management-system/screenshot_3.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Admin",
-          "username": "admin",
-          "password": "admin123"
-        }
-      ],
-      "updatedAt": "20 November 2026",
-      "releaseDate": "20 November 2026",
-      "recentFastDownloads": 58,
-      "thumbnail": "/screenshots/heart-beat-hospital-management-system/screenshot_1.webp",
-      "downloadsCount": 1028,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "204 KB",
-      "tutorialSteps": [
-        "Ekstrak berkas `heart-beat-hospital-management-system.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `database.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/heart-beat-hospital-management-system` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (PrarthanaKumar37/Heart_Beat-Hospital-Management-System) dengan source code lengkap",
-        "Disertai database asli (database.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=heart-beat-hospital-management-system&step=1&max=8",
-      "downloadUrlFast": "/downloads/heart-beat-hospital-management-system.zip",
-      "driveUrl": "https://drive.google.com/file/d/1gI_TC7eBbJIcaahWRKZGhSQH8xjuk0ee/view?usp=drivesdk",
-      "githubRepo": "https://github.com/PrarthanaKumar37/Heart_Beat-Hospital-Management-System",
-      "stars": 0
-    },
-    {
-      "id": "sc-72",
-      "title": "Aplikasi Ujian Online CBT & E-Learning - Computer Based Test Web",
-      "slug": "computer-based-test-web",
-      "category": "Pendidikan & Akademik",
-      "techStack": [
-        "PHP Native",
-        "PHP",
-        "MySQL"
-      ],
-      "description": "Sistem ujian online berbasis CodeIgniter 4 dengan fitur timer server-side, auto-save jawaban, monitoring real-time, dukungan MathJax, dan keamanan berlapis.\n\nProyek riil open-source asli dari GitHub (https://github.com/Hanywalll/computer-based-test-web). Dilengkapi file database lengkap (app/Database/demowebujian.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Aplikasi Ujian Online CBT & E-Learning - Computer Based Test Web dengan database app/Database/demowebujian.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/computer-based-test-web/screenshot_1.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Admin",
-          "username": "admin@example.com",
-          "password": "admin123"
-        },
-        {
-          "role": "User",
-          "username": "user1@example.com",
-          "password": "user123"
-        }
-      ],
-      "updatedAt": "20 November 2026",
-      "releaseDate": "20 November 2026",
-      "recentFastDownloads": 77,
-      "thumbnail": "/screenshots/computer-based-test-web/screenshot_1.webp",
-      "downloadsCount": 801,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "7.0 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `computer-based-test-web.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `app/Database/demowebujian.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/computer-based-test-web` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (Hanywalll/computer-based-test-web) dengan source code lengkap",
-        "Disertai database asli (app/Database/demowebujian.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=computer-based-test-web&step=1&max=8",
-      "downloadUrlFast": "/downloads/computer-based-test-web.zip",
-      "driveUrl": "https://drive.google.com/file/d/1bJ2ohux1Ll4JfBD5fcGuJ_HVLRWh90nW/view?usp=drivesdk",
-      "githubRepo": "https://github.com/Hanywalll/computer-based-test-web",
-      "stars": 0
-    },
-    {
-      "id": "sc-71",
-      "title": "Sistem Presensi Karyawan & Absensi Online - Presensi Elite Andra",
-      "slug": "presensi-elite-andra",
-      "category": "HRD & Keuangan",
-      "techStack": [
-        "PHP Native",
-        "PHP",
-        "MySQL",
-        "Bootstrap"
-      ],
-      "description": "aplikasi presensi menggunakan codeigniter 4\n\nProyek riil open-source asli dari GitHub (https://github.com/havidandra01-coder/presensi-elite-andra). Dilengkapi file database lengkap (database/db_presensi.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Sistem Presensi Karyawan & Absensi Online - Presensi Elite Andra dengan database database/db_presensi.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/presensi-elite-andra/screenshot_1.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
-        }
-      ],
-      "updatedAt": "20 November 2026",
-      "releaseDate": "20 November 2026",
-      "recentFastDownloads": 48,
-      "thumbnail": "/screenshots/presensi-elite-andra/screenshot_1.webp",
-      "downloadsCount": 1064,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "19.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `presensi-elite-andra.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `database/db_presensi.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/presensi-elite-andra` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (havidandra01-coder/presensi-elite-andra) dengan source code lengkap",
-        "Disertai database asli (database/db_presensi.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=presensi-elite-andra&step=1&max=8",
-      "downloadUrlFast": "/downloads/presensi-elite-andra.zip",
-      "driveUrl": "https://drive.google.com/file/d/1tq4dW22dNDKV1BNIWICqsB6AHEu4_0DC/view?usp=drivesdk",
-      "githubRepo": "https://github.com/havidandra01-coder/presensi-elite-andra",
-      "stars": 0
-    },
-    {
-      "id": "sc-70",
-      "title": "Sistem Manajemen Hotel - Hotel Management System",
-      "slug": "hotel-management-system",
-      "category": "Layanan & Jasa",
-      "techStack": [
-        "PHP Native",
-        "PHP",
-        "MySQL"
-      ],
-      "description": "A simple and clean Hotel Management System built with HTML, CSS, JavaScript, PHP, and MySQL. This project lets users book rooms online and gives the admin a dashboard to manage all bookings.\n\nProyek riil open-source asli dari GitHub (https://github.com/feeroz-Ali/Hotel-Management-System). Dilengkapi file database lengkap (bluebirdhotel.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Sistem Manajemen Hotel - Hotel Management System dengan database bluebirdhotel.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/hotel-management-system/screenshot_1.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
-        }
-      ],
-      "updatedAt": "20 November 2026",
-      "releaseDate": "20 November 2026",
-      "recentFastDownloads": 57,
-      "thumbnail": "/screenshots/hotel-management-system/screenshot_1.webp",
-      "downloadsCount": 1157,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "5.7 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `hotel-management-system.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `bluebirdhotel.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/hotel-management-system` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (feeroz-Ali/Hotel-Management-System) dengan source code lengkap",
-        "Disertai database asli (bluebirdhotel.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=hotel-management-system&step=1&max=8",
-      "downloadUrlFast": "/downloads/hotel-management-system.zip",
-      "driveUrl": "https://drive.google.com/file/d/15k4b8VSPursqIRMWfE__DBoBXeJY758t/view?usp=drivesdk",
-      "githubRepo": "https://github.com/feeroz-Ali/Hotel-Management-System",
-      "stars": 0
-    },
-    {
-      "id": "sc-69",
-      "title": "Sistem Manajemen Laundry Kiloan - Aplikasi Kasir Laundry",
-      "slug": "aplikasi-kasir-laundry",
-      "category": "Layanan & Jasa",
-      "techStack": [
-        "PHP Native",
-        "PHP",
-        "MySQL"
-      ],
-      "description": "Aplikasi kasir laundry berbasis PHP & MySQL dengan level admin dan petugas\n\nProyek riil open-source asli dari GitHub (https://github.com/ReyZ007/aplikasi-kasir-laundry). Dilengkapi file database lengkap (database/laundry.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Sistem Manajemen Laundry Kiloan - Aplikasi Kasir Laundry dengan database database/laundry.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/aplikasi-kasir-laundry/screenshot_1.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Admin (Demo)",
-          "username": "admin",
-          "password": "1"
-        }
-      ],
-      "updatedAt": "20 November 2026",
-      "releaseDate": "20 November 2026",
-      "recentFastDownloads": 71,
-      "thumbnail": "/screenshots/aplikasi-kasir-laundry/screenshot_1.webp",
-      "downloadsCount": 843,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "4.9 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `aplikasi-kasir-laundry.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Buat database kosong `laundry` di phpMyAdmin, lalu import berkas SQL `database/laundry.sql` ke dalamnya.",
-        "Koneksi database sudah mengarah ke `laundry` (file `admin/include/koneksi.php`); sesuaikan user/password MySQL bila bukan root tanpa password.",
-        "Buka http://localhost/aplikasi-kasir-laundry dan login dengan akun demo admin / 1."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (ReyZ007/aplikasi-kasir-laundry) dengan source code lengkap",
-        "Disertai database asli (database/laundry.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=aplikasi-kasir-laundry&step=1&max=8",
-      "downloadUrlFast": "/downloads/aplikasi-kasir-laundry.zip",
-      "driveUrl": "https://drive.google.com/file/d/1PyfzWRaE-aBiOggfqRAxzo-U5-pJXUVK/view?usp=drivesdk",
-      "githubRepo": "https://github.com/ReyZ007/aplikasi-kasir-laundry",
-      "stars": 1
-    },
-    {
-      "id": "sc-68",
-      "title": "Sistem Manajemen Hotel - Hotel Booking Management System",
-      "slug": "hotel-booking-management-system",
-      "category": "Layanan & Jasa",
-      "techStack": [
-        "Laravel",
-        "PHP",
-        "MySQL",
-        "Bootstrap"
-      ],
-      "description": "Full-stack hotel booking platform on Laravel 12 — multi-hotel & multi-vendor, role-based access (customer/manager/admin), real-time chat, wallet + card/bKash/Nagad payments, premium subscriptions and car-travel booking.\n\nProyek riil open-source asli dari GitHub (https://github.com/muhammadrakib2299/Hotel-Booking-Management-System). Dilengkapi file database lengkap (DB/hotelbooking.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Sistem Manajemen Hotel - Hotel Booking Management System dengan database DB/hotelbooking.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/hotel-booking-management-system/screenshot_1.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Admin (Demo)",
-          "username": "admin@hotel.com",
-          "password": "password123"
-        },
-        {
-          "role": "Manager (Demo)",
-          "username": "manager@hotel.com",
-          "password": "password123"
-        }
-      ],
-      "updatedAt": "20 November 2026",
-      "releaseDate": "20 November 2026",
-      "recentFastDownloads": 86,
-      "thumbnail": "/screenshots/hotel-booking-management-system/screenshot_1.webp",
-      "downloadsCount": 1067,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "11.9 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `hotel-booking-management-system.zip`, lalu `composer install` dan `npm install && npm run build`.",
-        "Buat database kosong `hotel_booking` di phpMyAdmin, lalu import berkas SQL `DB/hotelbooking.sql` ke dalamnya.",
-        "Buat file `.env` (repo tidak menyertakan `.env.example`), isi DB_CONNECTION=mysql dan DB_DATABASE=hotel_booking, lalu `php artisan key:generate`.",
-        "Jalankan `php artisan serve` lalu buka http://127.0.0.1:8000 dan login dengan akun demo admin@hotel.com / password123."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (muhammadrakib2299/Hotel-Booking-Management-System) dengan source code lengkap",
-        "Disertai database asli (DB/hotelbooking.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=hotel-booking-management-system&step=1&max=8",
-      "downloadUrlFast": "/downloads/hotel-booking-management-system.zip",
-      "driveUrl": "https://drive.google.com/file/d/1Q2tqt5fDe_oIasqTd7bHCFxJ9Zm6icXh/view?usp=drivesdk",
-      "githubRepo": "https://github.com/muhammadrakib2299/Hotel-Booking-Management-System",
-      "stars": 0
-    },
-    {
-      "id": "sc-67",
-      "title": "Sistem Informasi Inventaris & Gudang - Inventaris Lab 21 Update",
-      "slug": "inventaris-lab-21-update",
-      "category": "Bisnis & Manajemen",
-      "techStack": [
-        "Laravel",
-        "PHP",
-        "MySQL",
-        "Bootstrap"
-      ],
-      "description": "aplikasi inventaris untuk pendataan barang lab\n\nProyek riil open-source asli dari GitHub (https://github.com/vianhubgit/Inventaris-lab-2.1-update). Dilengkapi file database lengkap (backup-2026-07-24.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Sistem Informasi Inventaris & Gudang - Inventaris Lab 21 Update dengan database backup-2026-07-24.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/inventaris-lab-21-update/screenshot_1.webp",
-        "/screenshots/inventaris-lab-21-update/screenshot_2.webp",
-        "/screenshots/inventaris-lab-21-update/screenshot_3.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Admin (Demo)",
-          "username": "Demoadmin",
-          "password": "demoadmin"
-        },
-        {
-          "role": "Sekretaris (Demo)",
-          "username": "Demosekretaris",
-          "password": "demosekretaris"
-        },
-        {
-          "role": "Sekretaris",
-          "username": "sekretaris",
-          "password": "sekretaris123"
-        }
-      ],
-      "updatedAt": "20 November 2026",
-      "releaseDate": "20 November 2026",
-      "recentFastDownloads": 71,
-      "thumbnail": "/screenshots/inventaris-lab-21-update/screenshot_1.webp",
-      "downloadsCount": 517,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "1.9 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `inventaris-lab-21-update.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Buat database kosong `inventaris_lab` di phpMyAdmin, lalu import berkas SQL `backup-2026-07-24.sql` ke dalamnya.",
-        "Salin `.env.example` menjadi `.env`, isi DB_DATABASE=inventaris_lab (DB_USERNAME=root untuk XAMPP default), lalu `php artisan key:generate`.",
-        "Jalankan `php artisan serve` lalu buka http://127.0.0.1:8000 dan login dengan akun demo Demoadmin / demoadmin."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (vianhubgit/Inventaris-lab-2.1-update) dengan source code lengkap",
-        "Disertai database asli (backup-2026-07-24.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=inventaris-lab-21-update&step=1&max=8",
-      "downloadUrlFast": "/downloads/inventaris-lab-21-update.zip",
-      "driveUrl": "https://drive.google.com/file/d/1QkEvkAHTiSRgTYf1OGrlkIOl26XGa3Om/view?usp=drivesdk",
-      "githubRepo": "https://github.com/vianhubgit/Inventaris-lab-2.1-update",
-      "stars": 0
-    },
-    {
-      "id": "sc-66",
-      "title": "Sistem Presensi Karyawan & Absensi Online - Planthr Lite   Manufacturing Attendance Overtime Management System",
-      "slug": "planthr-lite---manufacturing-attendance-overtime-management-system",
-      "category": "HRD & Keuangan",
-      "techStack": [
-        "CodeIgniter",
-        "PHP",
-        "MySQL",
-        "Bootstrap"
-      ],
-      "description": "HRIS (Human Resource Information System atau Sistem Informasi Sumber Daya Manusia) dalam aplikasi website bertujuan untuk absensi dan Manajemen Cuti (Time & Attendance): Mengelola presensi online, pencatatan lembur, shift kerja, serta pengajuan cuti secara mandiri oleh karyawan.\n\nProyek riil open-source asli dari GitHub (https://github.com/NabilaPutriAsySyifa/PlantHR-Lite---Manufacturing-Attendance-Overtime-Management-System). Dilengkapi file database lengkap (database/planthr_db_dump.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Sistem Presensi Karyawan & Absensi Online - Planthr Lite   Manufacturing Attendance Overtime Management System dengan database database/planthr_db_dump.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/planthr-lite---manufacturing-attendance-overtime-management-system/screenshot_1.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "HR Administrator",
-          "username": "hr@plant.local",
-          "password": "admin123"
-        },
-        {
-          "role": "Supervisor",
-          "username": "spv@plant.local",
-          "password": "admin123"
-        },
-        {
-          "role": "Operator Produksi (Shift 1)",
-          "username": "rian@plant.local",
-          "password": "admin123"
-        },
-        {
-          "role": "Operator QC (Shift 2)",
-          "username": "dewi@plant.local",
-          "password": "admin123"
-        },
-        {
-          "role": "Teknisi Maintenance (Shift 3)",
-          "username": "fajar@plant.local",
-          "password": "admin123"
-        },
-        {
-          "role": "Operator Gudang (Shift 1)",
-          "username": "siti@plant.local",
-          "password": "admin123"
-        }
-      ],
-      "updatedAt": "20 November 2026",
-      "releaseDate": "20 November 2026",
-      "recentFastDownloads": 65,
-      "thumbnail": "/screenshots/planthr-lite---manufacturing-attendance-overtime-management-system/screenshot_1.webp",
-      "downloadsCount": 560,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "982 KB",
-      "tutorialSteps": [
-        "Ekstrak berkas `planthr-lite---manufacturing-attendance-overtime-management-system.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `database/planthr_db_dump.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/planthr-lite---manufacturing-attendance-overtime-management-system` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (NabilaPutriAsySyifa/PlantHR-Lite---Manufacturing-Attendance-Overtime-Management-System) dengan source code lengkap",
-        "Disertai database asli (database/planthr_db_dump.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=planthr-lite---manufacturing-attendance-overtime-management-system&step=1&max=8",
-      "downloadUrlFast": "/downloads/planthr-lite---manufacturing-attendance-overtime-management-system.zip",
-      "driveUrl": "https://drive.google.com/file/d/1pkMTNMOKaB0dBFsDxlTfWqgXveIN_iOE/view?usp=drivesdk",
-      "githubRepo": "https://github.com/NabilaPutriAsySyifa/PlantHR-Lite---Manufacturing-Attendance-Overtime-Management-System",
-      "stars": 0
-    },
-    {
-      "id": "sc-65",
-      "title": "Warehouse & Inventory Management System - Smart Inventory Management System",
-      "slug": "smart-inventory-management-system",
-      "category": "Bisnis & Manajemen",
-      "techStack": [
-        "PHP Native",
-        "PHP",
-        "MySQL"
-      ],
-      "description": "A PHP and MySQL based inventory management training project.\n\nProyek riil open-source asli dari GitHub (https://github.com/khaingmar123098-hue/Smart-Inventory-Management-System). Dilengkapi file database lengkap (database/inventory_db.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Warehouse & Inventory Management System - Smart Inventory Management System dengan database database/inventory_db.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/smart-inventory-management-system/screenshot_1.webp",
-        "/screenshots/smart-inventory-management-system/screenshot_2.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
-        }
-      ],
-      "updatedAt": "19 November 2026",
-      "releaseDate": "19 November 2026",
-      "recentFastDownloads": 66,
-      "thumbnail": "/screenshots/smart-inventory-management-system/screenshot_1.webp",
-      "downloadsCount": 753,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "7.5 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `smart-inventory-management-system.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `database/inventory_db.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/smart-inventory-management-system` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (khaingmar123098-hue/Smart-Inventory-Management-System) dengan source code lengkap",
-        "Disertai database asli (database/inventory_db.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=smart-inventory-management-system&step=1&max=8",
-      "downloadUrlFast": "/downloads/smart-inventory-management-system.zip",
-      "driveUrl": "https://drive.google.com/file/d/1oag0epqWtzPaVPqiWdm55bC_YvatB_5Y/view?usp=drivesdk",
-      "githubRepo": "https://github.com/khaingmar123098-hue/Smart-Inventory-Management-System",
-      "stars": 0
-    },
-    {
-      "id": "sc-64",
-      "title": "Warehouse & Inventory Management System - Ajna",
-      "slug": "ajna",
-      "category": "Bisnis & Manajemen",
-      "techStack": [
-        "PHP Native",
-        "PHP",
-        "MySQL"
-      ],
-      "description": "Web-based inventory management and Point-of-Sale (POS) system built with PHP and MySQL\n\nProyek riil open-source asli dari GitHub (https://github.com/lyldie/AJNA). Dilengkapi file database lengkap (inventory_system.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Warehouse & Inventory Management System - Ajna dengan database inventory_system.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/ajna/screenshot_1.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
-        }
-      ],
-      "updatedAt": "19 November 2026",
-      "releaseDate": "19 November 2026",
-      "recentFastDownloads": 91,
-      "thumbnail": "/screenshots/ajna/screenshot_1.webp",
-      "downloadsCount": 666,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "11.1 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `ajna.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `inventory_system.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/ajna` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (lyldie/AJNA) dengan source code lengkap",
-        "Disertai database asli (inventory_system.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=ajna&step=1&max=8",
-      "downloadUrlFast": "/downloads/ajna.zip",
-      "driveUrl": "https://drive.google.com/file/d/166LcA0zgEu2EPAA2kefil_8v9fIZVGbo/view?usp=drivesdk",
-      "githubRepo": "https://github.com/lyldie/AJNA",
-      "stars": 0
-    },
-    {
-      "id": "sc-63",
-      "title": "Sistem Informasi Inventaris & Gudang - Inventaris Lab20 Update",
-      "slug": "inventaris-lab20-update",
-      "category": "Bisnis & Manajemen",
-      "techStack": [
-        "Laravel",
-        "PHP",
-        "MySQL",
-        "Bootstrap"
-      ],
-      "description": "aplikasi inventaris untuk pendataan barang lab\n\nProyek riil open-source asli dari GitHub (https://github.com/vianhubgit/inventaris-lab2.0-update). Dilengkapi file database lengkap (backup-2026-07-24.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Sistem Informasi Inventaris & Gudang - Inventaris Lab20 Update dengan database backup-2026-07-24.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/inventaris-lab20-update/screenshot_1.webp",
-        "/screenshots/inventaris-lab20-update/screenshot_2.webp",
-        "/screenshots/inventaris-lab20-update/screenshot_3.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Admin (Demo)",
-          "username": "demoadmin",
-          "password": "demoadmin"
-        },
-        {
-          "role": "Sekretaris",
-          "username": "sekretaris",
-          "password": "sekretaris123"
-        }
-      ],
-      "updatedAt": "19 November 2026",
-      "releaseDate": "19 November 2026",
-      "recentFastDownloads": 48,
-      "thumbnail": "/screenshots/inventaris-lab20-update/screenshot_1.webp",
-      "downloadsCount": 1004,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "748 KB",
-      "tutorialSteps": [
-        "Ekstrak berkas `inventaris-lab20-update.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `backup-2026-07-24.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/inventaris-lab20-update` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (vianhubgit/inventaris-lab2.0-update) dengan source code lengkap",
-        "Disertai database asli (backup-2026-07-24.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=inventaris-lab20-update&step=1&max=8",
-      "downloadUrlFast": "/downloads/inventaris-lab20-update.zip",
-      "driveUrl": "https://drive.google.com/file/d/1LsTElEa8FOejwWA6pDVCo07ggbwBpwSI/view?usp=drivesdk",
-      "githubRepo": "https://github.com/vianhubgit/inventaris-lab2.0-update",
-      "stars": 0
-    },
-    {
-      "id": "sc-62",
-      "title": "Toko Online E-Commerce Siap Pakai - Kopi Mahasiswa",
-      "slug": "kopi-mahasiswa",
-      "category": "Toko Online & E-Commerce",
-      "techStack": [
-        "PHP Native",
-        "PHP",
-        "MySQL",
-        "Bootstrap"
-      ],
-      "description": "Aplikasi e-commerce dan Point of Sale kedai kopi berbasis PHP Native dan MySQL dengan chatbot AI multi-role.\n\nProyek riil open-source asli dari GitHub (https://github.com/sahlanfx12/kopi-mahasiswa). Dilengkapi file database lengkap (database/migrations/20261106_add_customer_otp_lock.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Toko Online E-Commerce Siap Pakai - Kopi Mahasiswa dengan database database/migrations/20261106_add_customer_otp_lock.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/kopi-mahasiswa/screenshot_1.webp",
-        "/screenshots/kopi-mahasiswa/screenshot_2.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
-        }
-      ],
-      "updatedAt": "18 November 2026",
-      "releaseDate": "18 November 2026",
-      "recentFastDownloads": 57,
-      "thumbnail": "/screenshots/kopi-mahasiswa/screenshot_1.webp",
-      "downloadsCount": 855,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "3.0 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `kopi-mahasiswa.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `database/migrations/20261106_add_customer_otp_lock.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/kopi-mahasiswa` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (sahlanfx12/kopi-mahasiswa) dengan source code lengkap",
-        "Disertai database asli (database/migrations/20261106_add_customer_otp_lock.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=kopi-mahasiswa&step=1&max=8",
-      "downloadUrlFast": "/downloads/kopi-mahasiswa.zip",
-      "driveUrl": "https://drive.google.com/file/d/1v2BguSKSEq2JwMINbZ4cpc8WRj5fQau4/view?usp=drivesdk",
-      "githubRepo": "https://github.com/sahlanfx12/kopi-mahasiswa",
-      "stars": 0
-    },
-    {
-      "id": "sc-61",
-      "title": "Aplikasi Manajemen Apotek & Obat - Klinikdent",
-      "slug": "klinikdent",
-      "category": "Kesehatan & Medis",
-      "techStack": [
-        "Laravel",
-        "PHP",
-        "MySQL",
-        "Bootstrap"
-      ],
-      "description": "KlinikDent adalah aplikasi manajemen klinik gigi yang membantu klinik mengelola seluruh aktivitas pelayanan dalam satu sistem, mulai dari pendaftaran pasien, antrian, rekam medis, odontogram, tindakan dokter, resep dan apotek, hingga pembayaran dan laporan.\n\nProyek riil open-source asli dari GitHub (https://github.com/novaariyanto/KlinikDent). Dilengkapi file database lengkap (database/db_klinikdent (1).sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Aplikasi Manajemen Apotek & Obat - Klinikdent dengan database database/db_klinikdent (1).sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/klinikdent/screenshot_1.webp",
-        "/screenshots/klinikdent/screenshot_2.webp",
-        "/screenshots/klinikdent/screenshot_3.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Super Admin SaaS",
-          "username": "superadmin@klinikdent.test",
-          "password": "password"
-        },
-        {
-          "role": "Owner (Klinik Gigi A)",
-          "username": "owner@klinikdent.test",
-          "password": "password"
-        },
-        {
-          "role": "Manager",
-          "username": "manager@klinikdent.test",
-          "password": "password"
-        },
-        {
-          "role": "Pendaftaran",
-          "username": "registration@klinikdent.test",
-          "password": "password"
-        },
-        {
-          "role": "Dokter Gigi",
-          "username": "dentist@klinikdent.test",
-          "password": "password"
-        },
-        {
-          "role": "Asisten Dokter",
-          "username": "assistant@klinikdent.test",
-          "password": "password"
-        },
-        {
-          "role": "Perawat",
-          "username": "nurse@klinikdent.test",
-          "password": "password"
-        },
-        {
-          "role": "Farmasi",
-          "username": "pharmacy@klinikdent.test",
-          "password": "password"
-        },
-        {
-          "role": "Kasir",
-          "username": "cashier@klinikdent.test",
-          "password": "password"
-        },
-        {
-          "role": "Keuangan",
-          "username": "finance@klinikdent.test",
-          "password": "password"
-        },
-        {
-          "role": "Auditor",
-          "username": "auditor@klinikdent.test",
-          "password": "password"
-        },
-        {
-          "role": "Owner (Klinik Gigi B)",
-          "username": "owner.b@klinikdent.test",
-          "password": "password"
-        }
-      ],
-      "updatedAt": "18 November 2026",
-      "releaseDate": "18 November 2026",
-      "recentFastDownloads": 80,
-      "thumbnail": "/screenshots/klinikdent/screenshot_1.webp",
-      "downloadsCount": 814,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "22.0 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `klinikdent.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `database/db_klinikdent (1).sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/klinikdent` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (novaariyanto/KlinikDent) dengan source code lengkap",
-        "Disertai database asli (database/db_klinikdent (1).sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=klinikdent&step=1&max=8",
-      "downloadUrlFast": "/downloads/klinikdent.zip",
-      "driveUrl": "https://drive.google.com/file/d/19utEc1dJd3_BzS-vX5fU77fDGiKRdJL_/view?usp=drivesdk",
-      "githubRepo": "https://github.com/novaariyanto/KlinikDent",
-      "stars": 0
-    },
-    {
-      "id": "sc-60",
-      "title": "Sistem Informasi Perpustakaan - Librani",
-      "slug": "librani",
-      "category": "Pendidikan & Akademik",
-      "techStack": [
-        "PHP Native",
-        "PHP",
-        "MySQL"
-      ],
-      "description": "Aplikasi web perpustakaan umum/daerah untuk mengelola koleksi buku per eksemplar (lengkap dengan foto sampul), keanggotaan, peminjaman, pengembalian, denda, reservasi, dan laporan. Dibangun dengan PHP native + MySQL tanpa framework.\n\nProyek riil open-source asli dari GitHub (https://github.com/davsantoso/librani). Dilengkapi file database lengkap (database/librani.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Sistem Informasi Perpustakaan - Librani dengan database database/librani.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/librani/screenshot_1.webp",
-        "/screenshots/librani/screenshot_2.webp",
-        "/screenshots/librani/screenshot_3.webp",
-        "/screenshots/librani/screenshot_4.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Administrator",
-          "username": "admin",
-          "password": "admin123"
-        },
-        {
-          "role": "Petugas",
-          "username": "petugas1",
-          "password": "petugas123"
-        },
-        {
-          "role": "Anggota",
-          "username": "anggota1",
-          "password": "anggota123"
-        }
-      ],
-      "updatedAt": "18 November 2026",
-      "releaseDate": "18 November 2026",
-      "recentFastDownloads": 69,
-      "thumbnail": "/screenshots/librani/screenshot_1.webp",
-      "downloadsCount": 451,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "1.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `librani.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Salin `config/config.example.php` menjadi `config/config.php`, lalu isi DB_HOST/DB_USER/DB_PASS/DB_NAME dan BASE_URL (contoh: http://localhost/librani).",
-        "Buat database baru bernama `librani` di phpMyAdmin, lalu import berkas SQL `database/librani.sql` ke dalamnya — import ini membuat 14 tabel + data contoh + semua akun demo di bawah.",
-        "JANGAN jalankan `database/seed.php` — saat ini rusak (bug tanggal di `includes/helpers.php`), dan tidak dibutuhkan karena import SQL sudah berisi semua data.",
-        "(Opsional) Jalankan `composer install` bila butuh ekspor PDF (Dompdf); tanpa ini aplikasi tetap jalan.",
-        "Buka browser di `http://localhost/librani` dan login dengan akun demo (admin/admin123, petugas1/petugas123, atau anggota1/anggota123)."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (davsantoso/librani) dengan source code lengkap",
-        "Disertai database asli (database/librani.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=librani&step=1&max=8",
-      "downloadUrlFast": "/downloads/librani.zip",
-      "driveUrl": "https://drive.google.com/file/d/177m4OoityvYALH38JSvfUY0m7Fu5-hf4/view?usp=drivesdk",
-      "githubRepo": "https://github.com/davsantoso/librani",
-      "stars": 0
-    },
-    {
-      "id": "sc-59",
-      "title": "Pharmacy Store Management System - Medis",
-      "slug": "medis",
-      "category": "Kesehatan & Medis",
-      "techStack": [
-        "PHP Native",
-        "PHP",
-        "MySQL"
-      ],
-      "description": "💊 Complete Pharmacy Management System with Point-of-Sale (POS), FIFO batch tracking, and multi-branch management built with Pure PHP, MySQL, and Vanilla JS.\n\nProyek riil open-source asli dari GitHub (https://github.com/Zamkhammohsin/Medis). Dilengkapi file database lengkap (database/database.sql), serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon. WAJIB jalankan database/seed.php setelah import SQL — langkah ini yang membuat akun login (admin@medis.pk / Admin@123) + data contoh.",
-      "shortDesc": "Proyek riil Pharmacy Store Management System - Medis dengan database database/database.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/medis/screenshot_1.webp",
-        "/screenshots/medis/screenshot_2.webp",
-        "/screenshots/medis/screenshot_3.webp",
-        "/screenshots/medis/screenshot_4.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Administrator",
-          "username": "admin@medis.pk",
-          "password": "Admin@123"
-        },
-        {
-          "role": "Branch Manager",
-          "username": "manager.lahore@medis.pk",
-          "password": "Manager@123"
-        },
-        {
-          "role": "Cashier (POS)",
-          "username": "cashier1@medis.pk",
-          "password": "Cashier@123"
-        }
-      ],
-      "updatedAt": "18 November 2026",
-      "releaseDate": "18 November 2026",
-      "recentFastDownloads": 62,
-      "thumbnail": "/screenshots/medis/screenshot_1.webp",
-      "downloadsCount": 707,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "3.0 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `medis.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `database/database.sql` ke database phpMyAdmin.",
-        "WAJIB: jalankan `database/seed.php` di browser — langkah ini yang membuat akun login + data contoh.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/medis` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (Zamkhammohsin/Medis) dengan source code lengkap",
-        "Disertai database asli (database/database.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=medis&step=1&max=8",
-      "downloadUrlFast": "/downloads/medis.zip",
-      "driveUrl": "https://drive.google.com/file/d/1Nmw3O7BeSkXY_2wBpvER9x0uufuJbx9Y/view?usp=drivesdk",
-      "githubRepo": "https://github.com/Zamkhammohsin/Medis",
-      "stars": 0
-    },
-    {
-      "id": "sc-56",
-      "title": "Sistem Point of Sale Modern - Smart Times Pos",
-      "slug": "smart-times-pos",
-      "category": "Kasir & Point of Sale (POS)",
-      "techStack": [
-        "Laravel",
-        "PHP",
-        "MySQL",
-        "React",
-        "Vite"
-      ],
-      "description": "A full-stack watch showroom and retail POS management system built with React, Laravel 11, and MySQL. Features include inventory tracking, GST billing, customer CRM, and service repair tracking.\n\nProyek riil open-source asli dari GitHub (https://github.com/Ramsrinivash/smart-times-pos). Dilengkapi file database lengkap (backend/database/setup_smarttimes_db.sql), serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Sistem Point of Sale Modern - Smart Times Pos dengan database backend/database/setup_smarttimes_db.sql, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, React, Vite dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/smart-times-pos/screenshot_1.webp",
-        "/screenshots/smart-times-pos/screenshot_2.webp",
-        "/screenshots/smart-times-pos/screenshot_3.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Administrator",
-          "username": "admin / admin@gmail.com",
-          "password": "admin / admin123"
-        }
-      ],
-      "updatedAt": "18 November 2026",
-      "releaseDate": "18 November 2026",
-      "recentFastDownloads": 79,
-      "thumbnail": "/screenshots/smart-times-pos/screenshot_1.webp",
-      "downloadsCount": 631,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "583 KB",
-      "tutorialSteps": [
-        "Ekstrak berkas `smart-times-pos.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `backend/database/setup_smarttimes_db.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/smart-times-pos` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (Ramsrinivash/smart-times-pos) dengan source code lengkap",
-        "Disertai database asli (backend/database/setup_smarttimes_db.sql) beserta skema lengkap",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=smart-times-pos&step=1&max=8",
-      "downloadUrlFast": "/downloads/smart-times-pos.zip",
-      "driveUrl": "https://drive.google.com/file/d/1U5KIcCdCHSeJGp7rwOwmtRw6Tql5lMHS/view?usp=drivesdk",
-      "githubRepo": "https://github.com/Ramsrinivash/smart-times-pos",
-      "stars": 0
-    },
-    {
-      "id": "sc-55",
-      "title": "Sistem Manajemen Laundry Kiloan - Oembah Laundry App",
-      "slug": "oembah-laundry-app",
-      "category": "Layanan & Jasa",
-      "techStack": [
-        "PHP Native",
-        "PHP",
-        "MySQL",
-        "Tailwind CSS"
-      ],
-      "description": "Oembah adalah aplikasi penyedia layanan pemesanan jasa laundry berbasis website\n\nProyek riil open-source asli dari GitHub (https://github.com/Ilham-muttaqien17/oembah_laundry_app). Dilengkapi file database lengkap (db_oembah.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Sistem Manajemen Laundry Kiloan - Oembah Laundry App dengan database db_oembah.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Tailwind CSS dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/oembah-laundry-app/screenshot_1.webp",
-        "/screenshots/oembah-laundry-app/screenshot_2.webp",
-        "/screenshots/oembah-laundry-app/screenshot_3.webp",
-        "/screenshots/oembah-laundry-app/screenshot_4.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Administrator",
-          "username": "admin / admin@gmail.com",
-          "password": "admin / admin123"
-        }
-      ],
-      "updatedAt": "15 November 2026",
-      "releaseDate": "15 November 2026",
-      "recentFastDownloads": 95,
-      "thumbnail": "/screenshots/oembah-laundry-app/screenshot_1.webp",
-      "downloadsCount": 747,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "2.3 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `oembah-laundry-app.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `db_oembah.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/oembah-laundry-app` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (Ilham-muttaqien17/oembah_laundry_app) dengan source code lengkap",
-        "Disertai database asli (db_oembah.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=oembah-laundry-app&step=1&max=8",
-      "downloadUrlFast": "/downloads/oembah-laundry-app.zip",
-      "driveUrl": "https://drive.google.com/file/d/1G2QNCBV3PwtvacLyfFY3-N4fbfXhLfce/view?usp=drivesdk",
-      "githubRepo": "https://github.com/Ilham-muttaqien17/oembah_laundry_app",
-      "stars": 3
+     "role": "Demo",
+     "username": "Lihat README.md repo asli",
+     "password": "(lihat README repo)"
     }
-  ]
+   ],
+   "updatedAt": "23 November 2026",
+   "releaseDate": "23 November 2026",
+   "recentFastDownloads": 59,
+   "thumbnail": "/screenshots/kumaphone/screenshot_1.webp",
+   "downloadsCount": 957,
+   "rating": 4.95,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": true,
+   "databaseType": "MySQL (.sql)",
+   "fileSize": "685 KB",
+   "tutorialSteps": [
+    "Ekstrak berkas `kumaphone.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+    "Import berkas SQL `db_sbp.sql` ke database phpMyAdmin.",
+    "Sesuaikan konfigurasi database di file koneksi proyek.",
+    "Buka browser di `http://localhost/kumaphone` dan login dengan akun default."
+   ],
+   "keyFeatures": [
+    "Proyek riil dari GitHub (joenior/kumaphone) dengan source code lengkap",
+    "Disertai database asli (db_sbp.sql) beserta skema dan data contoh",
+    "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+    "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+    "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=kumaphone&step=1&max=8",
+   "downloadUrlFast": "/downloads/kumaphone.zip",
+   "driveUrl": "https://drive.google.com/file/d/1PPWg4TZ5_DTF4na0BJ0uyhs9DZUhqgBU/view?usp=drivesdk",
+   "githubRepo": "https://github.com/joenior/kumaphone",
+   "stars": 7
+  },
+  {
+   "id": "sc-80",
+   "title": "Sistem Pakar Diagnosa - Sistem Pakar Diagnosa Penyakit Kucing Berbasis Php Dan Mysql",
+   "slug": "sistem-pakar-diagnosa-penyakit-kucing-berbasis-php-dan-mysql",
+   "category": "Kecerdasan Buatan & SPK",
+   "techStack": [
+    "PHP Native",
+    "PHP",
+    "MySQL"
+   ],
+   "description": "Aplikasi Sistem-Pakar-Diagnosa-Penyakit-Kucing-berbasis-PHP-dan-MySQL. siap pakai dengan database lengkap.\n\nProyek riil open-source asli dari GitHub (https://github.com/SigitaprilL/Sistem-Pakar-Diagnosa-Penyakit-Kucing-berbasis-PHP-dan-MySQL.). Dilengkapi file database lengkap (kucing.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+   "shortDesc": "Proyek riil Sistem Pakar Diagnosa - Sistem Pakar Diagnosa Penyakit Kucing Berbasis Php Dan Mysql dengan database kucing.sql, data contoh bawaan, dan tutorial instalasi.",
+   "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+   "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+   "screenshots": [
+    "/screenshots/sistem-pakar-diagnosa-penyakit-kucing-berbasis-php-dan-mysql/screenshot_1.webp"
+   ],
+   "defaultCredentials": [
+    {
+     "role": "Demo",
+     "username": "Lihat README.md repo asli",
+     "password": "(lihat README repo)"
+    }
+   ],
+   "updatedAt": "23 November 2026",
+   "releaseDate": "23 November 2026",
+   "recentFastDownloads": 47,
+   "thumbnail": "/screenshots/sistem-pakar-diagnosa-penyakit-kucing-berbasis-php-dan-mysql/screenshot_1.webp",
+   "downloadsCount": 528,
+   "rating": 4.95,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": true,
+   "databaseType": "MySQL (.sql)",
+   "fileSize": "1.7 MB",
+   "tutorialSteps": [
+    "Ekstrak berkas `sistem-pakar-diagnosa-penyakit-kucing-berbasis-php-dan-mysql.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+    "Import berkas SQL `kucing.sql` ke database phpMyAdmin.",
+    "Sesuaikan konfigurasi database di file koneksi proyek.",
+    "Buka browser di `http://localhost/sistem-pakar-diagnosa-penyakit-kucing-berbasis-php-dan-mysql` dan login dengan akun default."
+   ],
+   "keyFeatures": [
+    "Proyek riil dari GitHub (SigitaprilL/Sistem-Pakar-Diagnosa-Penyakit-Kucing-berbasis-PHP-dan-MySQL.) dengan source code lengkap",
+    "Disertai database asli (kucing.sql) beserta skema dan data contoh",
+    "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+    "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+    "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=sistem-pakar-diagnosa-penyakit-kucing-berbasis-php-dan-mysql&step=1&max=8",
+   "downloadUrlFast": "/downloads/sistem-pakar-diagnosa-penyakit-kucing-berbasis-php-dan-mysql.zip",
+   "driveUrl": "https://drive.google.com/file/d/14UhuU9VvFHRFOuKbLB9LpZo7tSaULuGh/view?usp=drivesdk",
+   "githubRepo": "https://github.com/SigitaprilL/Sistem-Pakar-Diagnosa-Penyakit-Kucing-berbasis-PHP-dan-MySQL.",
+   "stars": 0
+  },
+  {
+   "id": "sc-79",
+   "title": "Warehouse & Inventory Management System - Inventory Mgmt Sys",
+   "slug": "inventory-mgmt-sys",
+   "category": "Bisnis & Manajemen",
+   "techStack": [
+    "PHP Native",
+    "PHP",
+    "MySQL",
+    "Tailwind CSS"
+   ],
+   "description": "Responsive inventory management system with JWT auth, role-based access control, product/supplier/transaction tracking, dashboard charts, and CSV import/export, built with PHP, MySQL, and Tailwind v4.\n\nProyek riil open-source asli dari GitHub (https://github.com/yitmeng00/inventory-mgmt-sys). Dilengkapi file database lengkap (schema.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+   "shortDesc": "Proyek riil Warehouse & Inventory Management System - Inventory Mgmt Sys dengan database schema.sql, data contoh bawaan, dan tutorial instalasi.",
+   "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Tailwind CSS dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+   "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+   "screenshots": [
+    "/screenshots/inventory-mgmt-sys/screenshot_1.webp"
+   ],
+   "defaultCredentials": [
+    {
+     "role": "Admin (terverifikasi dari schema.sql)",
+     "username": "admin",
+     "password": "password"
+    }
+   ],
+   "updatedAt": "23 November 2026",
+   "releaseDate": "23 November 2026",
+   "recentFastDownloads": 87,
+   "thumbnail": "/screenshots/inventory-mgmt-sys/screenshot_1.webp",
+   "downloadsCount": 1076,
+   "rating": 4.95,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": true,
+   "databaseType": "MySQL (.sql)",
+   "fileSize": "11.3 MB",
+   "tutorialSteps": [
+    "Ekstrak berkas `inventory-mgmt-sys.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+    "Import berkas SQL `schema.sql` ke database phpMyAdmin.",
+    "Sesuaikan konfigurasi database di file koneksi proyek.",
+    "Buka browser di `http://localhost/inventory-mgmt-sys` dan login dengan akun default."
+   ],
+   "keyFeatures": [
+    "Proyek riil dari GitHub (yitmeng00/inventory-mgmt-sys) dengan source code lengkap",
+    "Disertai database asli (schema.sql) beserta skema dan data contoh",
+    "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+    "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+    "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=inventory-mgmt-sys&step=1&max=8",
+   "downloadUrlFast": "/downloads/inventory-mgmt-sys.zip",
+   "driveUrl": "https://drive.google.com/file/d/12PuLt7KzhC4MwvPTeu0iYoaQ3i1eSATM/view?usp=drivesdk",
+   "githubRepo": "https://github.com/yitmeng00/inventory-mgmt-sys",
+   "stars": 0,
+   "zipBytes": 11850565
+  },
+  {
+   "id": "sc-78",
+   "title": "Aplikasi Kasir POS & Manajemen Penjualan - Latihanukktahap1 Sistemkasir Fahnidaauliaazzahwa",
+   "slug": "latihanukktahap1-sistemkasir-fahnidaauliaazzahwa",
+   "category": "Kasir & Point of Sale (POS)",
+   "techStack": [
+    "PHP Native",
+    "PHP",
+    "MySQL",
+    "Bootstrap"
+   ],
+   "description": "Aplikasi POS & Self-Ordering \"Daily Coffee & Toast\" berbasis Native PHP & MySQL. Dilengkapi hak akses multi-role (Admin, Kasir, Pelanggan), alur status pesanan interaktif (Pending ➔ Proses ➔ Selesai/Batal) dengan otomatisasi pemulihan stok, serta cetak struk termal.\n\nProyek riil open-source asli dari GitHub (https://github.com/fahnidazw/LatihanUKKTahap1-SistemKasir-FahnidaAuliaAzzahwa). Dilengkapi file database lengkap (kasir.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+   "shortDesc": "Proyek riil Aplikasi Kasir POS & Manajemen Penjualan - Latihanukktahap1 Sistemkasir Fahnidaauliaazzahwa dengan database kasir.sql, data contoh bawaan, dan tutorial instalasi.",
+   "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+   "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+   "screenshots": [
+    "/screenshots/latihanukktahap1-sistemkasir-fahnidaauliaazzahwa/screenshot_1.webp",
+    "/screenshots/latihanukktahap1-sistemkasir-fahnidaauliaazzahwa/screenshot_2.webp"
+   ],
+   "defaultCredentials": [
+    {
+     "role": "Demo",
+     "username": "Lihat README.md repo asli",
+     "password": "(lihat README repo)"
+    }
+   ],
+   "updatedAt": "22 November 2026",
+   "releaseDate": "22 November 2026",
+   "recentFastDownloads": 88,
+   "thumbnail": "/screenshots/latihanukktahap1-sistemkasir-fahnidaauliaazzahwa/screenshot_1.webp",
+   "downloadsCount": 1190,
+   "rating": 4.95,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": true,
+   "databaseType": "MySQL (.sql)",
+   "fileSize": "6.5 MB",
+   "tutorialSteps": [
+    "Ekstrak berkas `latihanukktahap1-sistemkasir-fahnidaauliaazzahwa.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+    "Import berkas SQL `kasir.sql` ke database phpMyAdmin.",
+    "Sesuaikan konfigurasi database di file koneksi proyek.",
+    "Buka browser di `http://localhost/latihanukktahap1-sistemkasir-fahnidaauliaazzahwa` dan login dengan akun default."
+   ],
+   "keyFeatures": [
+    "Proyek riil dari GitHub (fahnidazw/LatihanUKKTahap1-SistemKasir-FahnidaAuliaAzzahwa) dengan source code lengkap",
+    "Disertai database asli (kasir.sql) beserta skema dan data contoh",
+    "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+    "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+    "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=latihanukktahap1-sistemkasir-fahnidaauliaazzahwa&step=1&max=8",
+   "downloadUrlFast": "/downloads/latihanukktahap1-sistemkasir-fahnidaauliaazzahwa.zip",
+   "driveUrl": "https://drive.google.com/file/d/1dggtDw9GDoij9zh9FdenmkLtdgAw4FS5/view?usp=drivesdk",
+   "githubRepo": "https://github.com/fahnidazw/LatihanUKKTahap1-SistemKasir-FahnidaAuliaAzzahwa",
+   "stars": 0
+  },
+  {
+   "id": "sc-77",
+   "title": "Comprehensive School Management System - Lms Pro",
+   "slug": "lms-pro",
+   "category": "Pendidikan & Akademik",
+   "techStack": [
+    "PHP Native",
+    "PHP",
+    "MySQL",
+    "Bootstrap"
+   ],
+   "description": "Library_Management_System , a complete system for any school , college or public lib to implement and manage their resources and readers\n\nProyek riil open-source asli dari GitHub (https://github.com/shiroonigami23-ui/lms-pro). Dilengkapi file database lengkap (database/library_management_patch.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+   "shortDesc": "Proyek riil Comprehensive School Management System - Lms Pro dengan database database/library_management_patch.sql, data contoh bawaan, dan tutorial instalasi.",
+   "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+   "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+   "screenshots": [
+    "/screenshots/lms-pro/screenshot_1.webp"
+   ],
+   "defaultCredentials": [
+    {
+     "role": "Demo",
+     "username": "Lihat README.md repo asli",
+     "password": "(lihat README repo)"
+    }
+   ],
+   "updatedAt": "21 November 2026",
+   "releaseDate": "21 November 2026",
+   "recentFastDownloads": 60,
+   "thumbnail": "/screenshots/lms-pro/screenshot_1.webp",
+   "downloadsCount": 940,
+   "rating": 4.95,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": true,
+   "databaseType": "MySQL (.sql)",
+   "fileSize": "34.9 MB",
+   "tutorialSteps": [
+    "Ekstrak berkas `lms-pro.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+    "Import berkas SQL `database/library_management_patch.sql` ke database phpMyAdmin.",
+    "Sesuaikan konfigurasi database di file koneksi proyek.",
+    "Buka browser di `http://localhost/lms-pro` dan login dengan akun default."
+   ],
+   "keyFeatures": [
+    "Proyek riil dari GitHub (shiroonigami23-ui/lms-pro) dengan source code lengkap",
+    "Disertai database asli (database/library_management_patch.sql) beserta skema dan data contoh",
+    "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+    "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+    "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=lms-pro&step=1&max=8",
+   "downloadUrlFast": "/downloads/lms-pro.zip",
+   "driveUrl": "https://drive.google.com/file/d/1UBnN3jjof03bBZDijeJISZcbdcU4598J/view?usp=drivesdk",
+   "githubRepo": "https://github.com/shiroonigami23-ui/lms-pro",
+   "stars": 4
+  },
+  {
+   "id": "sc-76",
+   "title": "Sistem Akademik Project 5 - PHP OOP + Composer",
+   "slug": "project-pbwl-5",
+   "category": "Pendidikan & Akademik",
+   "techStack": [
+    "PHP OOP",
+    "PHP",
+    "MySQL",
+    "Bootstrap",
+    "Composer"
+   ],
+   "description": "Sistem Akademik Project 5 — PHP OOP + Composer: manajemen data Mahasiswa, Dosen, dan Matakuliah (CRUD lengkap) dengan autoload PSR-4 dan PDO MySQL.\n\nProyek riil open-source asli dari GitHub (https://github.com/Neuron700/project-pbwl-5). Dilengkapi file database lengkap (database.sql, database pbwl_samples_5), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+   "shortDesc": "Proyek riil Sistem Akademik Project 5 dengan database database.sql (pbwl_samples_5), data contoh bawaan, dan tutorial instalasi.",
+   "howItWorks": "Aplikasi web Sistem Akademik berbasis PHP 8.0+ OOP dengan autoload Composer (PSR-4) dan PDO MySQL. Mengelola data master Mahasiswa, Dosen, dan Matakuliah (CRUD lengkap) dengan penyimpanan data relasional MySQL (.sql).",
+   "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 8.0+, MySQL / MariaDB (port 3307), Composer.",
+   "screenshots": [
+    "/screenshots/project-pbwl-5/screenshot_1.webp",
+    "/screenshots/project-pbwl-5/screenshot_2.webp"
+   ],
+   "defaultCredentials": [
+    {
+     "role": "Demo",
+     "username": "Lihat README.md repo asli",
+     "password": "(lihat README repo)"
+    }
+   ],
+   "updatedAt": "21 November 2026",
+   "releaseDate": "21 November 2026",
+   "recentFastDownloads": 87,
+   "thumbnail": "/screenshots/project-pbwl-5/screenshot_1.webp",
+   "downloadsCount": 943,
+   "rating": 4.95,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": true,
+   "databaseType": "MySQL (.sql)",
+   "fileSize": "3.1 MB",
+   "tutorialSteps": [
+    "Ekstrak berkas `project-pbwl-5.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+    "Buat database `pbwl_samples_5` di phpMyAdmin (MySQL port 3307), lalu import berkas SQL `database.sql` ke database tersebut.",
+    "Sesuaikan koneksi database di `inc/Koneksi.php` (host 127.0.0.1, port 3307, dbname pbwl_samples_5, user root, tanpa password) bila perlu.",
+    "Jalankan `composer install` bila folder `vendor/` belum ada.",
+    "Buka browser di `http://localhost/project-pbwl-5` — dashboard langsung terbuka tanpa login."
+   ],
+   "keyFeatures": [
+    "Proyek riil dari GitHub (Neuron700/project-pbwl-5) dengan source code lengkap",
+    "Disertai database asli (database.sql, database pbwl_samples_5) beserta skema dan data contoh",
+    "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+    "CRUD lengkap Mahasiswa, Dosen, dan Matakuliah (PHP OOP + Composer PSR-4 + PDO)",
+    "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+    "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=project-pbwl-5&step=1&max=8",
+   "downloadUrlFast": "/downloads/project-pbwl-5.zip",
+   "driveUrl": "https://drive.google.com/file/d/1-QqVtCaAcbnxbGHoZPxd1sjIIbRMBOFL/view?usp=drivesdk",
+   "githubRepo": "https://github.com/Neuron700/project-pbwl-5",
+   "stars": 0
+  },
+  {
+   "id": "sc-75",
+   "title": "Comprehensive School Management System - School",
+   "slug": "school",
+   "category": "Pendidikan & Akademik",
+   "techStack": [
+    "PHP Native",
+    "PHP",
+    "MySQL"
+   ],
+   "description": "A comprehensive web-based School Management System built with PHP and MySQL. This project provides a robust platform for managing students, staff, courses, finances, academic records, and more. \n\nProyek riil open-source asli dari GitHub (https://github.com/henry2547/school). Dilengkapi file database lengkap (database/schema.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+   "shortDesc": "Proyek riil Comprehensive School Management System - School dengan database database/schema.sql, data contoh bawaan, dan tutorial instalasi.",
+   "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+   "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+   "screenshots": [
+    "/screenshots/school/screenshot_1.webp"
+   ],
+   "defaultCredentials": [
+    {
+     "role": "Admin",
+     "username": "admin@school.test",
+     "password": "Admin@12345"
+    },
+    {
+     "role": "Siswa",
+     "username": "amina.otieno@school.test",
+     "password": "Admin@12345"
+    },
+    {
+     "role": "Guru",
+     "username": "grace.njeri@school.test",
+     "password": "Admin@12345"
+    },
+    {
+     "role": "Orang Tua",
+     "username": "mary.otieno@example.test",
+     "password": "Admin@12345"
+    }
+   ],
+   "updatedAt": "21 November 2026",
+   "releaseDate": "21 November 2026",
+   "recentFastDownloads": 53,
+   "thumbnail": "/screenshots/school/screenshot_1.webp",
+   "downloadsCount": 1107,
+   "rating": 4.95,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": true,
+   "databaseType": "MySQL (.sql)",
+   "fileSize": "84 KB",
+   "tutorialSteps": [
+    "Ekstrak berkas `school.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+    "Import berkas SQL `database/schema.sql` ke database phpMyAdmin (membuat database `schoolhub` + akun demo).",
+    "Sesuaikan konfigurasi database di `config/database.php` bila perlu (bawaan: host 127.0.0.1, database schoolhub, user root, password kosong).",
+    "Buka browser di `http://localhost/school/public` dan login dengan akun demo (Admin: admin@school.test / Admin@12345)."
+   ],
+   "keyFeatures": [
+    "Proyek riil dari GitHub (henry2547/school) dengan source code lengkap",
+    "Disertai database asli (database/schema.sql) beserta skema dan data contoh",
+    "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+    "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+    "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=school&step=1&max=8",
+   "downloadUrlFast": "/downloads/school.zip",
+   "driveUrl": "https://drive.google.com/file/d/1KWPcSQ5bgAJ-JCG9wcG-J4nzkInc8nKl/view?usp=drivesdk",
+   "githubRepo": "https://github.com/henry2547/school",
+   "stars": 1
+  },
+  {
+   "id": "sc-74",
+   "title": "Sistem Informasi Rental Kendaraan - Rentalmobil",
+   "slug": "rentalmobil",
+   "category": "Layanan & Jasa",
+   "techStack": [
+    "PHP Native",
+    "PHP",
+    "MySQL",
+    "Bootstrap"
+   ],
+   "description": "Sistem pelayanan sewa mobil sederhana buatan sendiri\n\nProyek riil open-source asli dari GitHub (https://github.com/JafFR13/RentalMobil). Dilengkapi file database lengkap (dbrecar.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+   "shortDesc": "Proyek riil Sistem Informasi Rental Kendaraan - Rentalmobil dengan database dbrecar.sql, data contoh bawaan, dan tutorial instalasi.",
+   "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+   "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+   "screenshots": [
+    "/screenshots/rentalmobil/screenshot_1.webp",
+    "/screenshots/rentalmobil/screenshot_2.webp"
+   ],
+   "defaultCredentials": [
+    {
+     "role": "Demo",
+     "username": "Lihat README.md repo asli",
+     "password": "(lihat README repo)"
+    }
+   ],
+   "updatedAt": "20 November 2026",
+   "releaseDate": "20 November 2026",
+   "recentFastDownloads": 93,
+   "thumbnail": "/screenshots/rentalmobil/screenshot_1.webp",
+   "downloadsCount": 826,
+   "rating": 4.95,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": true,
+   "databaseType": "MySQL (.sql)",
+   "fileSize": "22.1 MB",
+   "tutorialSteps": [
+    "Ekstrak berkas `rentalmobil.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+    "Import berkas SQL `dbrecar.sql` ke database phpMyAdmin.",
+    "Sesuaikan konfigurasi database di file koneksi proyek.",
+    "Buka browser di `http://localhost/rentalmobil` dan login dengan akun default."
+   ],
+   "keyFeatures": [
+    "Proyek riil dari GitHub (JafFR13/RentalMobil) dengan source code lengkap",
+    "Disertai database asli (dbrecar.sql) beserta skema dan data contoh",
+    "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+    "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+    "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=rentalmobil&step=1&max=8",
+   "downloadUrlFast": "/downloads/rentalmobil.zip",
+   "driveUrl": "https://drive.google.com/file/d/1WID-2CA8e2GGayBe95z2gO4mWO4Wm1-V/view?usp=drivesdk",
+   "githubRepo": "https://github.com/JafFR13/RentalMobil",
+   "stars": 0
+  },
+  {
+   "id": "sc-73",
+   "title": "Hospital & Patient Management System - Heart Beat Hospital Management System",
+   "slug": "heart-beat-hospital-management-system",
+   "category": "Kesehatan & Medis",
+   "techStack": [
+    "PHP Native",
+    "PHP",
+    "MySQL"
+   ],
+   "description": "PHP and MySQL based Hospital Management System\n\nProyek riil open-source asli dari GitHub (https://github.com/PrarthanaKumar37/Heart_Beat-Hospital-Management-System). Dilengkapi file database lengkap (database.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+   "shortDesc": "Proyek riil Hospital & Patient Management System - Heart Beat Hospital Management System dengan database database.sql, data contoh bawaan, dan tutorial instalasi.",
+   "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+   "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+   "screenshots": [
+    "/screenshots/heart-beat-hospital-management-system/screenshot_1.webp",
+    "/screenshots/heart-beat-hospital-management-system/screenshot_2.webp",
+    "/screenshots/heart-beat-hospital-management-system/screenshot_3.webp"
+   ],
+   "defaultCredentials": [
+    {
+     "role": "Admin",
+     "username": "admin",
+     "password": "admin123"
+    }
+   ],
+   "updatedAt": "20 November 2026",
+   "releaseDate": "20 November 2026",
+   "recentFastDownloads": 58,
+   "thumbnail": "/screenshots/heart-beat-hospital-management-system/screenshot_1.webp",
+   "downloadsCount": 1028,
+   "rating": 4.95,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": true,
+   "databaseType": "MySQL (.sql)",
+   "fileSize": "204 KB",
+   "tutorialSteps": [
+    "Ekstrak berkas `heart-beat-hospital-management-system.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+    "Import berkas SQL `database.sql` ke database phpMyAdmin.",
+    "Sesuaikan konfigurasi database di file koneksi proyek.",
+    "Buka browser di `http://localhost/heart-beat-hospital-management-system` dan login dengan akun default."
+   ],
+   "keyFeatures": [
+    "Proyek riil dari GitHub (PrarthanaKumar37/Heart_Beat-Hospital-Management-System) dengan source code lengkap",
+    "Disertai database asli (database.sql) beserta skema dan data contoh",
+    "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+    "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+    "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=heart-beat-hospital-management-system&step=1&max=8",
+   "downloadUrlFast": "/downloads/heart-beat-hospital-management-system.zip",
+   "driveUrl": "https://drive.google.com/file/d/1gI_TC7eBbJIcaahWRKZGhSQH8xjuk0ee/view?usp=drivesdk",
+   "githubRepo": "https://github.com/PrarthanaKumar37/Heart_Beat-Hospital-Management-System",
+   "stars": 0
+  },
+  {
+   "id": "sc-72",
+   "title": "Aplikasi Ujian Online CBT & E-Learning - Computer Based Test Web",
+   "slug": "computer-based-test-web",
+   "category": "Pendidikan & Akademik",
+   "techStack": [
+    "PHP Native",
+    "PHP",
+    "MySQL"
+   ],
+   "description": "Sistem ujian online berbasis CodeIgniter 4 dengan fitur timer server-side, auto-save jawaban, monitoring real-time, dukungan MathJax, dan keamanan berlapis.\n\nProyek riil open-source asli dari GitHub (https://github.com/Hanywalll/computer-based-test-web). Dilengkapi file database lengkap (app/Database/demowebujian.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+   "shortDesc": "Proyek riil Aplikasi Ujian Online CBT & E-Learning - Computer Based Test Web dengan database app/Database/demowebujian.sql, data contoh bawaan, dan tutorial instalasi.",
+   "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+   "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+   "screenshots": [
+    "/screenshots/computer-based-test-web/screenshot_1.webp"
+   ],
+   "defaultCredentials": [
+    {
+     "role": "Admin",
+     "username": "admin@example.com",
+     "password": "admin123"
+    },
+    {
+     "role": "User",
+     "username": "user1@example.com",
+     "password": "user123"
+    }
+   ],
+   "updatedAt": "20 November 2026",
+   "releaseDate": "20 November 2026",
+   "recentFastDownloads": 77,
+   "thumbnail": "/screenshots/computer-based-test-web/screenshot_1.webp",
+   "downloadsCount": 801,
+   "rating": 4.95,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": true,
+   "databaseType": "MySQL (.sql)",
+   "fileSize": "7.0 MB",
+   "tutorialSteps": [
+    "Ekstrak berkas `computer-based-test-web.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+    "Import berkas SQL `app/Database/demowebujian.sql` ke database phpMyAdmin.",
+    "Sesuaikan konfigurasi database di file koneksi proyek.",
+    "Buka browser di `http://localhost/computer-based-test-web` dan login dengan akun default."
+   ],
+   "keyFeatures": [
+    "Proyek riil dari GitHub (Hanywalll/computer-based-test-web) dengan source code lengkap",
+    "Disertai database asli (app/Database/demowebujian.sql) beserta skema dan data contoh",
+    "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+    "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+    "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=computer-based-test-web&step=1&max=8",
+   "downloadUrlFast": "/downloads/computer-based-test-web.zip",
+   "driveUrl": "https://drive.google.com/file/d/1bJ2ohux1Ll4JfBD5fcGuJ_HVLRWh90nW/view?usp=drivesdk",
+   "githubRepo": "https://github.com/Hanywalll/computer-based-test-web",
+   "stars": 0
+  },
+  {
+   "id": "sc-71",
+   "title": "Sistem Presensi Karyawan & Absensi Online - Presensi Elite Andra",
+   "slug": "presensi-elite-andra",
+   "category": "HRD & Keuangan",
+   "techStack": [
+    "PHP Native",
+    "PHP",
+    "MySQL",
+    "Bootstrap"
+   ],
+   "description": "aplikasi presensi menggunakan codeigniter 4\n\nProyek riil open-source asli dari GitHub (https://github.com/havidandra01-coder/presensi-elite-andra). Dilengkapi file database lengkap (database/db_presensi.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+   "shortDesc": "Proyek riil Sistem Presensi Karyawan & Absensi Online - Presensi Elite Andra dengan database database/db_presensi.sql, data contoh bawaan, dan tutorial instalasi.",
+   "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+   "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+   "screenshots": [
+    "/screenshots/presensi-elite-andra/screenshot_1.webp"
+   ],
+   "defaultCredentials": [
+    {
+     "role": "Demo",
+     "username": "Lihat README.md repo asli",
+     "password": "(lihat README repo)"
+    }
+   ],
+   "updatedAt": "20 November 2026",
+   "releaseDate": "20 November 2026",
+   "recentFastDownloads": 48,
+   "thumbnail": "/screenshots/presensi-elite-andra/screenshot_1.webp",
+   "downloadsCount": 1064,
+   "rating": 4.95,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": true,
+   "databaseType": "MySQL (.sql)",
+   "fileSize": "19.4 MB",
+   "tutorialSteps": [
+    "Ekstrak berkas `presensi-elite-andra.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+    "Import berkas SQL `database/db_presensi.sql` ke database phpMyAdmin.",
+    "Sesuaikan konfigurasi database di file koneksi proyek.",
+    "Buka browser di `http://localhost/presensi-elite-andra` dan login dengan akun default."
+   ],
+   "keyFeatures": [
+    "Proyek riil dari GitHub (havidandra01-coder/presensi-elite-andra) dengan source code lengkap",
+    "Disertai database asli (database/db_presensi.sql) beserta skema dan data contoh",
+    "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+    "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+    "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=presensi-elite-andra&step=1&max=8",
+   "downloadUrlFast": "/downloads/presensi-elite-andra.zip",
+   "driveUrl": "https://drive.google.com/file/d/1tq4dW22dNDKV1BNIWICqsB6AHEu4_0DC/view?usp=drivesdk",
+   "githubRepo": "https://github.com/havidandra01-coder/presensi-elite-andra",
+   "stars": 0
+  },
+  {
+   "id": "sc-70",
+   "title": "Sistem Manajemen Hotel - Hotel Management System",
+   "slug": "hotel-management-system",
+   "category": "Layanan & Jasa",
+   "techStack": [
+    "PHP Native",
+    "PHP",
+    "MySQL"
+   ],
+   "description": "A simple and clean Hotel Management System built with HTML, CSS, JavaScript, PHP, and MySQL. This project lets users book rooms online and gives the admin a dashboard to manage all bookings.\n\nProyek riil open-source asli dari GitHub (https://github.com/feeroz-Ali/Hotel-Management-System). Dilengkapi file database lengkap (bluebirdhotel.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+   "shortDesc": "Proyek riil Sistem Manajemen Hotel - Hotel Management System dengan database bluebirdhotel.sql, data contoh bawaan, dan tutorial instalasi.",
+   "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+   "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+   "screenshots": [
+    "/screenshots/hotel-management-system/screenshot_1.webp"
+   ],
+   "defaultCredentials": [
+    {
+     "role": "Demo",
+     "username": "Lihat README.md repo asli",
+     "password": "(lihat README repo)"
+    }
+   ],
+   "updatedAt": "20 November 2026",
+   "releaseDate": "20 November 2026",
+   "recentFastDownloads": 57,
+   "thumbnail": "/screenshots/hotel-management-system/screenshot_1.webp",
+   "downloadsCount": 1157,
+   "rating": 4.95,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": true,
+   "databaseType": "MySQL (.sql)",
+   "fileSize": "5.7 MB",
+   "tutorialSteps": [
+    "Ekstrak berkas `hotel-management-system.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+    "Import berkas SQL `bluebirdhotel.sql` ke database phpMyAdmin.",
+    "Sesuaikan konfigurasi database di file koneksi proyek.",
+    "Buka browser di `http://localhost/hotel-management-system` dan login dengan akun default."
+   ],
+   "keyFeatures": [
+    "Proyek riil dari GitHub (feeroz-Ali/Hotel-Management-System) dengan source code lengkap",
+    "Disertai database asli (bluebirdhotel.sql) beserta skema dan data contoh",
+    "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+    "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+    "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=hotel-management-system&step=1&max=8",
+   "downloadUrlFast": "/downloads/hotel-management-system.zip",
+   "driveUrl": "https://drive.google.com/file/d/15k4b8VSPursqIRMWfE__DBoBXeJY758t/view?usp=drivesdk",
+   "githubRepo": "https://github.com/feeroz-Ali/Hotel-Management-System",
+   "stars": 0
+  },
+  {
+   "id": "sc-69",
+   "title": "Sistem Manajemen Laundry Kiloan - Aplikasi Kasir Laundry",
+   "slug": "aplikasi-kasir-laundry",
+   "category": "Layanan & Jasa",
+   "techStack": [
+    "PHP Native",
+    "PHP",
+    "MySQL"
+   ],
+   "description": "Aplikasi kasir laundry berbasis PHP & MySQL dengan level admin dan petugas\n\nProyek riil open-source asli dari GitHub (https://github.com/ReyZ007/aplikasi-kasir-laundry). Dilengkapi file database lengkap (database/laundry.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+   "shortDesc": "Proyek riil Sistem Manajemen Laundry Kiloan - Aplikasi Kasir Laundry dengan database database/laundry.sql, data contoh bawaan, dan tutorial instalasi.",
+   "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+   "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+   "screenshots": [
+    "/screenshots/aplikasi-kasir-laundry/screenshot_1.webp"
+   ],
+   "defaultCredentials": [
+    {
+     "role": "Admin (Demo)",
+     "username": "admin",
+     "password": "1"
+    }
+   ],
+   "updatedAt": "20 November 2026",
+   "releaseDate": "20 November 2026",
+   "recentFastDownloads": 71,
+   "thumbnail": "/screenshots/aplikasi-kasir-laundry/screenshot_1.webp",
+   "downloadsCount": 843,
+   "rating": 4.95,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": true,
+   "databaseType": "MySQL (.sql)",
+   "fileSize": "4.9 MB",
+   "tutorialSteps": [
+    "Ekstrak berkas `aplikasi-kasir-laundry.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+    "Buat database kosong `laundry` di phpMyAdmin, lalu import berkas SQL `database/laundry.sql` ke dalamnya.",
+    "Koneksi database sudah mengarah ke `laundry` (file `admin/include/koneksi.php`); sesuaikan user/password MySQL bila bukan root tanpa password.",
+    "Buka http://localhost/aplikasi-kasir-laundry dan login dengan akun demo admin / 1."
+   ],
+   "keyFeatures": [
+    "Proyek riil dari GitHub (ReyZ007/aplikasi-kasir-laundry) dengan source code lengkap",
+    "Disertai database asli (database/laundry.sql) beserta skema dan data contoh",
+    "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+    "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+    "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=aplikasi-kasir-laundry&step=1&max=8",
+   "downloadUrlFast": "/downloads/aplikasi-kasir-laundry.zip",
+   "driveUrl": "https://drive.google.com/file/d/1PyfzWRaE-aBiOggfqRAxzo-U5-pJXUVK/view?usp=drivesdk",
+   "githubRepo": "https://github.com/ReyZ007/aplikasi-kasir-laundry",
+   "stars": 1
+  },
+  {
+   "id": "sc-68",
+   "title": "Sistem Manajemen Hotel - Hotel Booking Management System",
+   "slug": "hotel-booking-management-system",
+   "category": "Layanan & Jasa",
+   "techStack": [
+    "Laravel",
+    "PHP",
+    "MySQL",
+    "Bootstrap"
+   ],
+   "description": "Full-stack hotel booking platform on Laravel 12 — multi-hotel & multi-vendor, role-based access (customer/manager/admin), real-time chat, wallet + card/bKash/Nagad payments, premium subscriptions and car-travel booking.\n\nProyek riil open-source asli dari GitHub (https://github.com/muhammadrakib2299/Hotel-Booking-Management-System). Dilengkapi file database lengkap (DB/hotelbooking.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+   "shortDesc": "Proyek riil Sistem Manajemen Hotel - Hotel Booking Management System dengan database DB/hotelbooking.sql, data contoh bawaan, dan tutorial instalasi.",
+   "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+   "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+   "screenshots": [
+    "/screenshots/hotel-booking-management-system/screenshot_1.webp"
+   ],
+   "defaultCredentials": [
+    {
+     "role": "Admin (Demo)",
+     "username": "admin@hotel.com",
+     "password": "password123"
+    },
+    {
+     "role": "Manager (Demo)",
+     "username": "manager@hotel.com",
+     "password": "password123"
+    }
+   ],
+   "updatedAt": "20 November 2026",
+   "releaseDate": "20 November 2026",
+   "recentFastDownloads": 86,
+   "thumbnail": "/screenshots/hotel-booking-management-system/screenshot_1.webp",
+   "downloadsCount": 1067,
+   "rating": 4.95,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": true,
+   "databaseType": "MySQL (.sql)",
+   "fileSize": "11.9 MB",
+   "tutorialSteps": [
+    "Ekstrak berkas `hotel-booking-management-system.zip`, lalu `composer install` dan `npm install && npm run build`.",
+    "Buat database kosong `hotel_booking` di phpMyAdmin, lalu import berkas SQL `DB/hotelbooking.sql` ke dalamnya.",
+    "Buat file `.env` (repo tidak menyertakan `.env.example`), isi DB_CONNECTION=mysql dan DB_DATABASE=hotel_booking, lalu `php artisan key:generate`.",
+    "Jalankan `php artisan serve` lalu buka http://127.0.0.1:8000 dan login dengan akun demo admin@hotel.com / password123."
+   ],
+   "keyFeatures": [
+    "Proyek riil dari GitHub (muhammadrakib2299/Hotel-Booking-Management-System) dengan source code lengkap",
+    "Disertai database asli (DB/hotelbooking.sql) beserta skema dan data contoh",
+    "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+    "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+    "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=hotel-booking-management-system&step=1&max=8",
+   "downloadUrlFast": "/downloads/hotel-booking-management-system.zip",
+   "driveUrl": "https://drive.google.com/file/d/1Q2tqt5fDe_oIasqTd7bHCFxJ9Zm6icXh/view?usp=drivesdk",
+   "githubRepo": "https://github.com/muhammadrakib2299/Hotel-Booking-Management-System",
+   "stars": 0
+  },
+  {
+   "id": "sc-67",
+   "title": "Sistem Informasi Inventaris & Gudang - Inventaris Lab 21 Update",
+   "slug": "inventaris-lab-21-update",
+   "category": "Bisnis & Manajemen",
+   "techStack": [
+    "Laravel",
+    "PHP",
+    "MySQL",
+    "Bootstrap"
+   ],
+   "description": "aplikasi inventaris untuk pendataan barang lab\n\nProyek riil open-source asli dari GitHub (https://github.com/vianhubgit/Inventaris-lab-2.1-update). Dilengkapi file database lengkap (backup-2026-07-24.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+   "shortDesc": "Proyek riil Sistem Informasi Inventaris & Gudang - Inventaris Lab 21 Update dengan database backup-2026-07-24.sql, data contoh bawaan, dan tutorial instalasi.",
+   "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+   "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+   "screenshots": [
+    "/screenshots/inventaris-lab-21-update/screenshot_1.webp",
+    "/screenshots/inventaris-lab-21-update/screenshot_2.webp",
+    "/screenshots/inventaris-lab-21-update/screenshot_3.webp"
+   ],
+   "defaultCredentials": [
+    {
+     "role": "Admin (Demo)",
+     "username": "Demoadmin",
+     "password": "demoadmin"
+    },
+    {
+     "role": "Sekretaris (Demo)",
+     "username": "Demosekretaris",
+     "password": "demosekretaris"
+    },
+    {
+     "role": "Sekretaris",
+     "username": "sekretaris",
+     "password": "sekretaris123"
+    }
+   ],
+   "updatedAt": "20 November 2026",
+   "releaseDate": "20 November 2026",
+   "recentFastDownloads": 71,
+   "thumbnail": "/screenshots/inventaris-lab-21-update/screenshot_1.webp",
+   "downloadsCount": 517,
+   "rating": 4.95,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": true,
+   "databaseType": "MySQL (.sql)",
+   "fileSize": "1.9 MB",
+   "tutorialSteps": [
+    "Ekstrak berkas `inventaris-lab-21-update.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+    "Buat database kosong `inventaris_lab` di phpMyAdmin, lalu import berkas SQL `backup-2026-07-24.sql` ke dalamnya.",
+    "Salin `.env.example` menjadi `.env`, isi DB_DATABASE=inventaris_lab (DB_USERNAME=root untuk XAMPP default), lalu `php artisan key:generate`.",
+    "Jalankan `php artisan serve` lalu buka http://127.0.0.1:8000 dan login dengan akun demo Demoadmin / demoadmin."
+   ],
+   "keyFeatures": [
+    "Proyek riil dari GitHub (vianhubgit/Inventaris-lab-2.1-update) dengan source code lengkap",
+    "Disertai database asli (backup-2026-07-24.sql) beserta skema dan data contoh",
+    "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+    "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+    "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=inventaris-lab-21-update&step=1&max=8",
+   "downloadUrlFast": "/downloads/inventaris-lab-21-update.zip",
+   "driveUrl": "https://drive.google.com/file/d/1QkEvkAHTiSRgTYf1OGrlkIOl26XGa3Om/view?usp=drivesdk",
+   "githubRepo": "https://github.com/vianhubgit/Inventaris-lab-2.1-update",
+   "stars": 0
+  },
+  {
+   "id": "sc-66",
+   "title": "Sistem Presensi Karyawan & Absensi Online - Planthr Lite   Manufacturing Attendance Overtime Management System",
+   "slug": "planthr-lite---manufacturing-attendance-overtime-management-system",
+   "category": "HRD & Keuangan",
+   "techStack": [
+    "CodeIgniter",
+    "PHP",
+    "MySQL",
+    "Bootstrap"
+   ],
+   "description": "HRIS (Human Resource Information System atau Sistem Informasi Sumber Daya Manusia) dalam aplikasi website bertujuan untuk absensi dan Manajemen Cuti (Time & Attendance): Mengelola presensi online, pencatatan lembur, shift kerja, serta pengajuan cuti secara mandiri oleh karyawan.\n\nProyek riil open-source asli dari GitHub (https://github.com/NabilaPutriAsySyifa/PlantHR-Lite---Manufacturing-Attendance-Overtime-Management-System). Dilengkapi file database lengkap (database/planthr_db_dump.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+   "shortDesc": "Proyek riil Sistem Presensi Karyawan & Absensi Online - Planthr Lite   Manufacturing Attendance Overtime Management System dengan database database/planthr_db_dump.sql, data contoh bawaan, dan tutorial instalasi.",
+   "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+   "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+   "screenshots": [
+    "/screenshots/planthr-lite---manufacturing-attendance-overtime-management-system/screenshot_1.webp"
+   ],
+   "defaultCredentials": [
+    {
+     "role": "HR Administrator",
+     "username": "hr@plant.local",
+     "password": "admin123"
+    },
+    {
+     "role": "Supervisor",
+     "username": "spv@plant.local",
+     "password": "admin123"
+    },
+    {
+     "role": "Operator Produksi (Shift 1)",
+     "username": "rian@plant.local",
+     "password": "admin123"
+    },
+    {
+     "role": "Operator QC (Shift 2)",
+     "username": "dewi@plant.local",
+     "password": "admin123"
+    },
+    {
+     "role": "Teknisi Maintenance (Shift 3)",
+     "username": "fajar@plant.local",
+     "password": "admin123"
+    },
+    {
+     "role": "Operator Gudang (Shift 1)",
+     "username": "siti@plant.local",
+     "password": "admin123"
+    }
+   ],
+   "updatedAt": "20 November 2026",
+   "releaseDate": "20 November 2026",
+   "recentFastDownloads": 65,
+   "thumbnail": "/screenshots/planthr-lite---manufacturing-attendance-overtime-management-system/screenshot_1.webp",
+   "downloadsCount": 560,
+   "rating": 4.95,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": true,
+   "databaseType": "MySQL (.sql)",
+   "fileSize": "982 KB",
+   "tutorialSteps": [
+    "Ekstrak berkas `planthr-lite---manufacturing-attendance-overtime-management-system.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+    "Import berkas SQL `database/planthr_db_dump.sql` ke database phpMyAdmin.",
+    "Sesuaikan konfigurasi database di file koneksi proyek.",
+    "Buka browser di `http://localhost/planthr-lite---manufacturing-attendance-overtime-management-system` dan login dengan akun default."
+   ],
+   "keyFeatures": [
+    "Proyek riil dari GitHub (NabilaPutriAsySyifa/PlantHR-Lite---Manufacturing-Attendance-Overtime-Management-System) dengan source code lengkap",
+    "Disertai database asli (database/planthr_db_dump.sql) beserta skema dan data contoh",
+    "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+    "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+    "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=planthr-lite---manufacturing-attendance-overtime-management-system&step=1&max=8",
+   "downloadUrlFast": "/downloads/planthr-lite---manufacturing-attendance-overtime-management-system.zip",
+   "driveUrl": "https://drive.google.com/file/d/1pkMTNMOKaB0dBFsDxlTfWqgXveIN_iOE/view?usp=drivesdk",
+   "githubRepo": "https://github.com/NabilaPutriAsySyifa/PlantHR-Lite---Manufacturing-Attendance-Overtime-Management-System",
+   "stars": 0
+  },
+  {
+   "id": "sc-65",
+   "title": "Warehouse & Inventory Management System - Smart Inventory Management System",
+   "slug": "smart-inventory-management-system",
+   "category": "Bisnis & Manajemen",
+   "techStack": [
+    "PHP Native",
+    "PHP",
+    "MySQL"
+   ],
+   "description": "A PHP and MySQL based inventory management training project.\n\nProyek riil open-source asli dari GitHub (https://github.com/khaingmar123098-hue/Smart-Inventory-Management-System). Dilengkapi file database lengkap (database/inventory_db.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+   "shortDesc": "Proyek riil Warehouse & Inventory Management System - Smart Inventory Management System dengan database database/inventory_db.sql, data contoh bawaan, dan tutorial instalasi.",
+   "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+   "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+   "screenshots": [
+    "/screenshots/smart-inventory-management-system/screenshot_1.webp",
+    "/screenshots/smart-inventory-management-system/screenshot_2.webp"
+   ],
+   "defaultCredentials": [
+    {
+     "role": "Demo",
+     "username": "Lihat README.md repo asli",
+     "password": "(lihat README repo)"
+    }
+   ],
+   "updatedAt": "19 November 2026",
+   "releaseDate": "19 November 2026",
+   "recentFastDownloads": 66,
+   "thumbnail": "/screenshots/smart-inventory-management-system/screenshot_1.webp",
+   "downloadsCount": 753,
+   "rating": 4.95,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": true,
+   "databaseType": "MySQL (.sql)",
+   "fileSize": "7.5 MB",
+   "tutorialSteps": [
+    "Ekstrak berkas `smart-inventory-management-system.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+    "Import berkas SQL `database/inventory_db.sql` ke database phpMyAdmin.",
+    "Sesuaikan konfigurasi database di file koneksi proyek.",
+    "Buka browser di `http://localhost/smart-inventory-management-system` dan login dengan akun default."
+   ],
+   "keyFeatures": [
+    "Proyek riil dari GitHub (khaingmar123098-hue/Smart-Inventory-Management-System) dengan source code lengkap",
+    "Disertai database asli (database/inventory_db.sql) beserta skema dan data contoh",
+    "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+    "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+    "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=smart-inventory-management-system&step=1&max=8",
+   "downloadUrlFast": "/downloads/smart-inventory-management-system.zip",
+   "driveUrl": "https://drive.google.com/file/d/1oag0epqWtzPaVPqiWdm55bC_YvatB_5Y/view?usp=drivesdk",
+   "githubRepo": "https://github.com/khaingmar123098-hue/Smart-Inventory-Management-System",
+   "stars": 0
+  },
+  {
+   "id": "sc-64",
+   "title": "Warehouse & Inventory Management System - Ajna",
+   "slug": "ajna",
+   "category": "Bisnis & Manajemen",
+   "techStack": [
+    "PHP Native",
+    "PHP",
+    "MySQL"
+   ],
+   "description": "Web-based inventory management and Point-of-Sale (POS) system built with PHP and MySQL\n\nProyek riil open-source asli dari GitHub (https://github.com/lyldie/AJNA). Dilengkapi file database lengkap (inventory_system.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+   "shortDesc": "Proyek riil Warehouse & Inventory Management System - Ajna dengan database inventory_system.sql, data contoh bawaan, dan tutorial instalasi.",
+   "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+   "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+   "screenshots": [
+    "/screenshots/ajna/screenshot_1.webp"
+   ],
+   "defaultCredentials": [
+    {
+     "role": "Demo",
+     "username": "Lihat README.md repo asli",
+     "password": "(lihat README repo)"
+    }
+   ],
+   "updatedAt": "19 November 2026",
+   "releaseDate": "19 November 2026",
+   "recentFastDownloads": 91,
+   "thumbnail": "/screenshots/ajna/screenshot_1.webp",
+   "downloadsCount": 666,
+   "rating": 4.95,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": true,
+   "databaseType": "MySQL (.sql)",
+   "fileSize": "11.1 MB",
+   "tutorialSteps": [
+    "Ekstrak berkas `ajna.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+    "Import berkas SQL `inventory_system.sql` ke database phpMyAdmin.",
+    "Sesuaikan konfigurasi database di file koneksi proyek.",
+    "Buka browser di `http://localhost/ajna` dan login dengan akun default."
+   ],
+   "keyFeatures": [
+    "Proyek riil dari GitHub (lyldie/AJNA) dengan source code lengkap",
+    "Disertai database asli (inventory_system.sql) beserta skema dan data contoh",
+    "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+    "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+    "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=ajna&step=1&max=8",
+   "downloadUrlFast": "/downloads/ajna.zip",
+   "driveUrl": "https://drive.google.com/file/d/166LcA0zgEu2EPAA2kefil_8v9fIZVGbo/view?usp=drivesdk",
+   "githubRepo": "https://github.com/lyldie/AJNA",
+   "stars": 0
+  },
+  {
+   "id": "sc-63",
+   "title": "Sistem Informasi Inventaris & Gudang - Inventaris Lab20 Update",
+   "slug": "inventaris-lab20-update",
+   "category": "Bisnis & Manajemen",
+   "techStack": [
+    "Laravel",
+    "PHP",
+    "MySQL",
+    "Bootstrap"
+   ],
+   "description": "aplikasi inventaris untuk pendataan barang lab\n\nProyek riil open-source asli dari GitHub (https://github.com/vianhubgit/inventaris-lab2.0-update). Dilengkapi file database lengkap (backup-2026-07-24.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+   "shortDesc": "Proyek riil Sistem Informasi Inventaris & Gudang - Inventaris Lab20 Update dengan database backup-2026-07-24.sql, data contoh bawaan, dan tutorial instalasi.",
+   "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+   "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+   "screenshots": [
+    "/screenshots/inventaris-lab20-update/screenshot_1.webp",
+    "/screenshots/inventaris-lab20-update/screenshot_2.webp",
+    "/screenshots/inventaris-lab20-update/screenshot_3.webp"
+   ],
+   "defaultCredentials": [
+    {
+     "role": "Admin (Demo)",
+     "username": "demoadmin",
+     "password": "demoadmin"
+    },
+    {
+     "role": "Sekretaris",
+     "username": "sekretaris",
+     "password": "sekretaris123"
+    }
+   ],
+   "updatedAt": "19 November 2026",
+   "releaseDate": "19 November 2026",
+   "recentFastDownloads": 48,
+   "thumbnail": "/screenshots/inventaris-lab20-update/screenshot_1.webp",
+   "downloadsCount": 1004,
+   "rating": 4.95,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": true,
+   "databaseType": "MySQL (.sql)",
+   "fileSize": "748 KB",
+   "tutorialSteps": [
+    "Ekstrak berkas `inventaris-lab20-update.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+    "Import berkas SQL `backup-2026-07-24.sql` ke database phpMyAdmin.",
+    "Sesuaikan konfigurasi database di file koneksi proyek.",
+    "Buka browser di `http://localhost/inventaris-lab20-update` dan login dengan akun default."
+   ],
+   "keyFeatures": [
+    "Proyek riil dari GitHub (vianhubgit/inventaris-lab2.0-update) dengan source code lengkap",
+    "Disertai database asli (backup-2026-07-24.sql) beserta skema dan data contoh",
+    "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+    "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+    "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=inventaris-lab20-update&step=1&max=8",
+   "downloadUrlFast": "/downloads/inventaris-lab20-update.zip",
+   "driveUrl": "https://drive.google.com/file/d/1LsTElEa8FOejwWA6pDVCo07ggbwBpwSI/view?usp=drivesdk",
+   "githubRepo": "https://github.com/vianhubgit/inventaris-lab2.0-update",
+   "stars": 0
+  },
+  {
+   "id": "sc-62",
+   "title": "Toko Online E-Commerce Siap Pakai - Kopi Mahasiswa",
+   "slug": "kopi-mahasiswa",
+   "category": "Toko Online & E-Commerce",
+   "techStack": [
+    "PHP Native",
+    "PHP",
+    "MySQL",
+    "Bootstrap"
+   ],
+   "description": "Aplikasi e-commerce dan Point of Sale kedai kopi berbasis PHP Native dan MySQL dengan chatbot AI multi-role.\n\nProyek riil open-source asli dari GitHub (https://github.com/sahlanfx12/kopi-mahasiswa). Dilengkapi file database lengkap (database/migrations/20261106_add_customer_otp_lock.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+   "shortDesc": "Proyek riil Toko Online E-Commerce Siap Pakai - Kopi Mahasiswa dengan database database/migrations/20261106_add_customer_otp_lock.sql, data contoh bawaan, dan tutorial instalasi.",
+   "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+   "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+   "screenshots": [
+    "/screenshots/kopi-mahasiswa/screenshot_1.webp",
+    "/screenshots/kopi-mahasiswa/screenshot_2.webp"
+   ],
+   "defaultCredentials": [
+    {
+     "role": "Demo",
+     "username": "Lihat README.md repo asli",
+     "password": "(lihat README repo)"
+    }
+   ],
+   "updatedAt": "18 November 2026",
+   "releaseDate": "18 November 2026",
+   "recentFastDownloads": 57,
+   "thumbnail": "/screenshots/kopi-mahasiswa/screenshot_1.webp",
+   "downloadsCount": 855,
+   "rating": 4.95,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": true,
+   "databaseType": "MySQL (.sql)",
+   "fileSize": "3.0 MB",
+   "tutorialSteps": [
+    "Ekstrak berkas `kopi-mahasiswa.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+    "Import berkas SQL `database/migrations/20261106_add_customer_otp_lock.sql` ke database phpMyAdmin.",
+    "Sesuaikan konfigurasi database di file koneksi proyek.",
+    "Buka browser di `http://localhost/kopi-mahasiswa` dan login dengan akun default."
+   ],
+   "keyFeatures": [
+    "Proyek riil dari GitHub (sahlanfx12/kopi-mahasiswa) dengan source code lengkap",
+    "Disertai database asli (database/migrations/20261106_add_customer_otp_lock.sql) beserta skema dan data contoh",
+    "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+    "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+    "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=kopi-mahasiswa&step=1&max=8",
+   "downloadUrlFast": "/downloads/kopi-mahasiswa.zip",
+   "driveUrl": "https://drive.google.com/file/d/1v2BguSKSEq2JwMINbZ4cpc8WRj5fQau4/view?usp=drivesdk",
+   "githubRepo": "https://github.com/sahlanfx12/kopi-mahasiswa",
+   "stars": 0
+  },
+  {
+   "id": "sc-61",
+   "title": "Aplikasi Manajemen Apotek & Obat - Klinikdent",
+   "slug": "klinikdent",
+   "category": "Kesehatan & Medis",
+   "techStack": [
+    "Laravel",
+    "PHP",
+    "MySQL",
+    "Bootstrap"
+   ],
+   "description": "KlinikDent adalah aplikasi manajemen klinik gigi yang membantu klinik mengelola seluruh aktivitas pelayanan dalam satu sistem, mulai dari pendaftaran pasien, antrian, rekam medis, odontogram, tindakan dokter, resep dan apotek, hingga pembayaran dan laporan.\n\nProyek riil open-source asli dari GitHub (https://github.com/novaariyanto/KlinikDent). Dilengkapi file database lengkap (database/db_klinikdent (1).sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+   "shortDesc": "Proyek riil Aplikasi Manajemen Apotek & Obat - Klinikdent dengan database database/db_klinikdent (1).sql, data contoh bawaan, dan tutorial instalasi.",
+   "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+   "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+   "screenshots": [
+    "/screenshots/klinikdent/screenshot_1.webp",
+    "/screenshots/klinikdent/screenshot_2.webp",
+    "/screenshots/klinikdent/screenshot_3.webp"
+   ],
+   "defaultCredentials": [
+    {
+     "role": "Super Admin SaaS",
+     "username": "superadmin@klinikdent.test",
+     "password": "password"
+    },
+    {
+     "role": "Owner (Klinik Gigi A)",
+     "username": "owner@klinikdent.test",
+     "password": "password"
+    },
+    {
+     "role": "Manager",
+     "username": "manager@klinikdent.test",
+     "password": "password"
+    },
+    {
+     "role": "Pendaftaran",
+     "username": "registration@klinikdent.test",
+     "password": "password"
+    },
+    {
+     "role": "Dokter Gigi",
+     "username": "dentist@klinikdent.test",
+     "password": "password"
+    },
+    {
+     "role": "Asisten Dokter",
+     "username": "assistant@klinikdent.test",
+     "password": "password"
+    },
+    {
+     "role": "Perawat",
+     "username": "nurse@klinikdent.test",
+     "password": "password"
+    },
+    {
+     "role": "Farmasi",
+     "username": "pharmacy@klinikdent.test",
+     "password": "password"
+    },
+    {
+     "role": "Kasir",
+     "username": "cashier@klinikdent.test",
+     "password": "password"
+    },
+    {
+     "role": "Keuangan",
+     "username": "finance@klinikdent.test",
+     "password": "password"
+    },
+    {
+     "role": "Auditor",
+     "username": "auditor@klinikdent.test",
+     "password": "password"
+    },
+    {
+     "role": "Owner (Klinik Gigi B)",
+     "username": "owner.b@klinikdent.test",
+     "password": "password"
+    }
+   ],
+   "updatedAt": "18 November 2026",
+   "releaseDate": "18 November 2026",
+   "recentFastDownloads": 80,
+   "thumbnail": "/screenshots/klinikdent/screenshot_1.webp",
+   "downloadsCount": 814,
+   "rating": 4.95,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": true,
+   "databaseType": "MySQL (.sql)",
+   "fileSize": "22.0 MB",
+   "tutorialSteps": [
+    "Ekstrak berkas `klinikdent.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+    "Import berkas SQL `database/db_klinikdent (1).sql` ke database phpMyAdmin.",
+    "Sesuaikan konfigurasi database di file koneksi proyek.",
+    "Buka browser di `http://localhost/klinikdent` dan login dengan akun default."
+   ],
+   "keyFeatures": [
+    "Proyek riil dari GitHub (novaariyanto/KlinikDent) dengan source code lengkap",
+    "Disertai database asli (database/db_klinikdent (1).sql) beserta skema dan data contoh",
+    "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+    "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+    "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=klinikdent&step=1&max=8",
+   "downloadUrlFast": "/downloads/klinikdent.zip",
+   "driveUrl": "https://drive.google.com/file/d/19utEc1dJd3_BzS-vX5fU77fDGiKRdJL_/view?usp=drivesdk",
+   "githubRepo": "https://github.com/novaariyanto/KlinikDent",
+   "stars": 0
+  },
+  {
+   "id": "sc-60",
+   "title": "Sistem Informasi Perpustakaan - Librani",
+   "slug": "librani",
+   "category": "Pendidikan & Akademik",
+   "techStack": [
+    "PHP Native",
+    "PHP",
+    "MySQL"
+   ],
+   "description": "Aplikasi web perpustakaan umum/daerah untuk mengelola koleksi buku per eksemplar (lengkap dengan foto sampul), keanggotaan, peminjaman, pengembalian, denda, reservasi, dan laporan. Dibangun dengan PHP native + MySQL tanpa framework.\n\nProyek riil open-source asli dari GitHub (https://github.com/davsantoso/librani). Dilengkapi file database lengkap (database/librani.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+   "shortDesc": "Proyek riil Sistem Informasi Perpustakaan - Librani dengan database database/librani.sql, data contoh bawaan, dan tutorial instalasi.",
+   "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+   "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+   "screenshots": [
+    "/screenshots/librani/screenshot_1.webp",
+    "/screenshots/librani/screenshot_2.webp",
+    "/screenshots/librani/screenshot_3.webp",
+    "/screenshots/librani/screenshot_4.webp"
+   ],
+   "defaultCredentials": [
+    {
+     "role": "Administrator",
+     "username": "admin",
+     "password": "admin123"
+    },
+    {
+     "role": "Petugas",
+     "username": "petugas1",
+     "password": "petugas123"
+    },
+    {
+     "role": "Anggota",
+     "username": "anggota1",
+     "password": "anggota123"
+    }
+   ],
+   "updatedAt": "18 November 2026",
+   "releaseDate": "18 November 2026",
+   "recentFastDownloads": 69,
+   "thumbnail": "/screenshots/librani/screenshot_1.webp",
+   "downloadsCount": 451,
+   "rating": 4.95,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": true,
+   "databaseType": "MySQL (.sql)",
+   "fileSize": "1.4 MB",
+   "tutorialSteps": [
+    "Ekstrak berkas `librani.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+    "Salin `config/config.example.php` menjadi `config/config.php`, lalu isi DB_HOST/DB_USER/DB_PASS/DB_NAME dan BASE_URL (contoh: http://localhost/librani).",
+    "Buat database baru bernama `librani` di phpMyAdmin, lalu import berkas SQL `database/librani.sql` ke dalamnya — import ini membuat 14 tabel + data contoh + semua akun demo di bawah.",
+    "JANGAN jalankan `database/seed.php` — saat ini rusak (bug tanggal di `includes/helpers.php`), dan tidak dibutuhkan karena import SQL sudah berisi semua data.",
+    "(Opsional) Jalankan `composer install` bila butuh ekspor PDF (Dompdf); tanpa ini aplikasi tetap jalan.",
+    "Buka browser di `http://localhost/librani` dan login dengan akun demo (admin/admin123, petugas1/petugas123, atau anggota1/anggota123)."
+   ],
+   "keyFeatures": [
+    "Proyek riil dari GitHub (davsantoso/librani) dengan source code lengkap",
+    "Disertai database asli (database/librani.sql) beserta skema dan data contoh",
+    "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+    "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+    "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=librani&step=1&max=8",
+   "downloadUrlFast": "/downloads/librani.zip",
+   "driveUrl": "https://drive.google.com/file/d/177m4OoityvYALH38JSvfUY0m7Fu5-hf4/view?usp=drivesdk",
+   "githubRepo": "https://github.com/davsantoso/librani",
+   "stars": 0
+  },
+  {
+   "id": "sc-59",
+   "title": "Pharmacy Store Management System - Medis",
+   "slug": "medis",
+   "category": "Kesehatan & Medis",
+   "techStack": [
+    "PHP Native",
+    "PHP",
+    "MySQL"
+   ],
+   "description": "💊 Complete Pharmacy Management System with Point-of-Sale (POS), FIFO batch tracking, and multi-branch management built with Pure PHP, MySQL, and Vanilla JS.\n\nProyek riil open-source asli dari GitHub (https://github.com/Zamkhammohsin/Medis). Dilengkapi file database lengkap (database/database.sql), serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon. WAJIB jalankan database/seed.php setelah import SQL — langkah ini yang membuat akun login (admin@medis.pk / Admin@123) + data contoh.",
+   "shortDesc": "Proyek riil Pharmacy Store Management System - Medis dengan database database/database.sql, data contoh bawaan, dan tutorial instalasi.",
+   "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+   "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+   "screenshots": [
+    "/screenshots/medis/screenshot_1.webp",
+    "/screenshots/medis/screenshot_2.webp",
+    "/screenshots/medis/screenshot_3.webp",
+    "/screenshots/medis/screenshot_4.webp"
+   ],
+   "defaultCredentials": [
+    {
+     "role": "Administrator",
+     "username": "admin@medis.pk",
+     "password": "Admin@123"
+    },
+    {
+     "role": "Branch Manager",
+     "username": "manager.lahore@medis.pk",
+     "password": "Manager@123"
+    },
+    {
+     "role": "Cashier (POS)",
+     "username": "cashier1@medis.pk",
+     "password": "Cashier@123"
+    }
+   ],
+   "updatedAt": "18 November 2026",
+   "releaseDate": "18 November 2026",
+   "recentFastDownloads": 62,
+   "thumbnail": "/screenshots/medis/screenshot_1.webp",
+   "downloadsCount": 707,
+   "rating": 4.95,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": true,
+   "databaseType": "MySQL (.sql)",
+   "fileSize": "3.0 MB",
+   "tutorialSteps": [
+    "Ekstrak berkas `medis.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+    "Import berkas SQL `database/database.sql` ke database phpMyAdmin.",
+    "WAJIB: jalankan `database/seed.php` di browser — langkah ini yang membuat akun login + data contoh.",
+    "Sesuaikan konfigurasi database di file koneksi proyek.",
+    "Buka browser di `http://localhost/medis` dan login dengan akun default."
+   ],
+   "keyFeatures": [
+    "Proyek riil dari GitHub (Zamkhammohsin/Medis) dengan source code lengkap",
+    "Disertai database asli (database/database.sql) beserta skema dan data contoh",
+    "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+    "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+    "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=medis&step=1&max=8",
+   "downloadUrlFast": "/downloads/medis.zip",
+   "driveUrl": "https://drive.google.com/file/d/1Nmw3O7BeSkXY_2wBpvER9x0uufuJbx9Y/view?usp=drivesdk",
+   "githubRepo": "https://github.com/Zamkhammohsin/Medis",
+   "stars": 0
+  },
+  {
+   "id": "sc-56",
+   "title": "Sistem Point of Sale Modern - Smart Times Pos",
+   "slug": "smart-times-pos",
+   "category": "Kasir & Point of Sale (POS)",
+   "techStack": [
+    "Laravel",
+    "PHP",
+    "MySQL",
+    "React",
+    "Vite"
+   ],
+   "description": "A full-stack watch showroom and retail POS management system built with React, Laravel 11, and MySQL. Features include inventory tracking, GST billing, customer CRM, and service repair tracking.\n\nProyek riil open-source asli dari GitHub (https://github.com/Ramsrinivash/smart-times-pos). Dilengkapi file database lengkap (backend/database/setup_smarttimes_db.sql), serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+   "shortDesc": "Proyek riil Sistem Point of Sale Modern - Smart Times Pos dengan database backend/database/setup_smarttimes_db.sql, dan tutorial instalasi.",
+   "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, React, Vite dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+   "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+   "screenshots": [
+    "/screenshots/smart-times-pos/screenshot_1.webp",
+    "/screenshots/smart-times-pos/screenshot_2.webp",
+    "/screenshots/smart-times-pos/screenshot_3.webp"
+   ],
+   "defaultCredentials": [
+    {
+     "role": "Administrator",
+     "username": "admin / admin@gmail.com",
+     "password": "admin / admin123"
+    }
+   ],
+   "updatedAt": "18 November 2026",
+   "releaseDate": "18 November 2026",
+   "recentFastDownloads": 79,
+   "thumbnail": "/screenshots/smart-times-pos/screenshot_1.webp",
+   "downloadsCount": 631,
+   "rating": 4.95,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": true,
+   "databaseType": "MySQL (.sql)",
+   "fileSize": "583 KB",
+   "tutorialSteps": [
+    "Ekstrak berkas `smart-times-pos.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+    "Import berkas SQL `backend/database/setup_smarttimes_db.sql` ke database phpMyAdmin.",
+    "Sesuaikan konfigurasi database di file koneksi proyek.",
+    "Buka browser di `http://localhost/smart-times-pos` dan login dengan akun default."
+   ],
+   "keyFeatures": [
+    "Proyek riil dari GitHub (Ramsrinivash/smart-times-pos) dengan source code lengkap",
+    "Disertai database asli (backend/database/setup_smarttimes_db.sql) beserta skema lengkap",
+    "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+    "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+    "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=smart-times-pos&step=1&max=8",
+   "downloadUrlFast": "/downloads/smart-times-pos.zip",
+   "driveUrl": "https://drive.google.com/file/d/1U5KIcCdCHSeJGp7rwOwmtRw6Tql5lMHS/view?usp=drivesdk",
+   "githubRepo": "https://github.com/Ramsrinivash/smart-times-pos",
+   "stars": 0
+  },
+  {
+   "id": "sc-55",
+   "title": "Sistem Manajemen Laundry Kiloan - Oembah Laundry App",
+   "slug": "oembah-laundry-app",
+   "category": "Layanan & Jasa",
+   "techStack": [
+    "PHP Native",
+    "PHP",
+    "MySQL",
+    "Tailwind CSS"
+   ],
+   "description": "Oembah adalah aplikasi penyedia layanan pemesanan jasa laundry berbasis website\n\nProyek riil open-source asli dari GitHub (https://github.com/Ilham-muttaqien17/oembah_laundry_app). Dilengkapi file database lengkap (db_oembah.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+   "shortDesc": "Proyek riil Sistem Manajemen Laundry Kiloan - Oembah Laundry App dengan database db_oembah.sql, data contoh bawaan, dan tutorial instalasi.",
+   "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Tailwind CSS dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+   "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+   "screenshots": [
+    "/screenshots/oembah-laundry-app/screenshot_1.webp",
+    "/screenshots/oembah-laundry-app/screenshot_2.webp",
+    "/screenshots/oembah-laundry-app/screenshot_3.webp",
+    "/screenshots/oembah-laundry-app/screenshot_4.webp"
+   ],
+   "defaultCredentials": [
+    {
+     "role": "Administrator",
+     "username": "admin / admin@gmail.com",
+     "password": "admin / admin123"
+    }
+   ],
+   "updatedAt": "15 November 2026",
+   "releaseDate": "15 November 2026",
+   "recentFastDownloads": 95,
+   "thumbnail": "/screenshots/oembah-laundry-app/screenshot_1.webp",
+   "downloadsCount": 747,
+   "rating": 4.95,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": true,
+   "databaseType": "MySQL (.sql)",
+   "fileSize": "2.3 MB",
+   "tutorialSteps": [
+    "Ekstrak berkas `oembah-laundry-app.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+    "Import berkas SQL `db_oembah.sql` ke database phpMyAdmin.",
+    "Sesuaikan konfigurasi database di file koneksi proyek.",
+    "Buka browser di `http://localhost/oembah-laundry-app` dan login dengan akun default."
+   ],
+   "keyFeatures": [
+    "Proyek riil dari GitHub (Ilham-muttaqien17/oembah_laundry_app) dengan source code lengkap",
+    "Disertai database asli (db_oembah.sql) beserta skema dan data contoh",
+    "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+    "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+    "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=oembah-laundry-app&step=1&max=8",
+   "downloadUrlFast": "/downloads/oembah-laundry-app.zip",
+   "driveUrl": "https://drive.google.com/file/d/1G2QNCBV3PwtvacLyfFY3-N4fbfXhLfce/view?usp=drivesdk",
+   "githubRepo": "https://github.com/Ilham-muttaqien17/oembah_laundry_app",
+   "stars": 3
+  }
+ ]
 }

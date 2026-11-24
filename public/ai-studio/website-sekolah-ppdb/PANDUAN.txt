@@ -1,0 +1,43 @@
+PANDUAN — WEBSITE SEKOLAH PPDB (SMA Nusantara)
+===============================================
+Website sekolah dengan formulir PPDB online — dibuat dengan Google AI Studio.
+Source code gratis by LocaGo Creative (locagocreative.my.id).
+
+CARA MEMBUKA
+------------
+1. Double-click file index.html — website langsung terbuka di browser.
+   (Tidak perlu install apa pun.)
+2. Atau upload file index.html ke hosting statis apa pun
+   (Netlify, Vercel, GitHub Pages, Niagahoster, dll).
+
+FITUR
+-----
+- Profil sekolah, visi-misi, fasilitas & statistik
+- Formulir PPDB online dengan validasi lengkap (NISN 10 digit,
+  nilai 0-100, nomor WA) — setelah terkirim, pendaftar mendapat
+  Nomor Pendaftaran (contoh: PPDB-2026-123456)
+- Cek status pendaftaran dengan nomor pendaftaran
+- Countdown penutupan gelombang PPDB (otomatis)
+- Berita & pengumuman, galeri dengan filter + lightbox
+- Form kirim pesan cepat & tombol chat WhatsApp panitia
+
+CARA MENYESUAIKAN (edit file index.html dengan Notepad / VS Code)
+-----------------------------------------------------------------
+- Nama sekolah, alamat, telepon : cari teks "SMA Nusantara" dan
+  bagian kontak di HTML, ganti sesuai sekolahmu.
+- Nomor WhatsApp panitia : cari "6281290001122" di file, ganti
+  dengan nomor WA panitia PPDB (format: 62 + nomor).
+- Tanggal tutup gelombang : cari const tutup = new Date("2026-12-15...")
+  di script, ganti tanggalnya.
+- Berita & galeri : cari const BERITA = [ ... ] dan const GALERI = [ ... ]
+  lalu ubah judul, isi, dan URL gambar.
+- Warna tema : cari tailwind.config di <head> (warna nus/gold).
+
+CATATAN
+-------
+- Ini SIMULASI PPDB: data pendaftaran tersimpan di localStorage
+  browser pengunjung (tidak dikirim ke server). Untuk produksi,
+  hubungkan form ke Google Form / backend sekolah.
+- Gambar memakai URL Unsplash — butuh internet saat pertama dibuka.
+- Bebas dipakai & dimodifikasi untuk sekolahmu. Dilarang dijual kembali
+  sebagai produk berbayar tanpa izin LocaGo Creative.
