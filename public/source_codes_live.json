@@ -1,6 +1,6 @@
 {
-  "updatedAt": "24 Nov 2026, 09:56 WIB",
-  "total": 31,
+  "updatedAt": "24 November 2026",
+  "total": 36,
   "items": [
     {
       "id": "sc-87",
@@ -53,9 +53,269 @@
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=pharmacy-management-software&step=1&max=8",
       "downloadUrlFast": "/downloads/pharmacy-management-software.zip",
-      "driveUrl": "",
+      "driveUrl": "https://drive.google.com/file/d/1C8VLiO9nDcYjzQAU0IqNrMlJSpY-T_Vb/view?usp=drivesdk",
       "githubRepo": "https://github.com/Dammy-The-Traveller/PHARMACY-MANAGEMENT-SOFTWARE",
       "stars": 1
+    },
+    {
+      "id": "sc-88",
+      "title": "RAPI Barbershop — Website Barbershop & Pangkas Rambut",
+      "slug": "barbershop",
+      "category": "Website AI Studio",
+      "techStack": [
+        "HTML",
+        "Tailwind CSS",
+        "JavaScript"
+      ],
+      "description": "Website barbershop siap pakai hasil Google AI Studio: 8 layanan & harga (mulai Rp15.000), pilih 4 barber favorit beserta rating & spesialisasi, form booking tanggal/jam dengan kode booking otomatis (BRB-XXXXXX), total harga otomatis, dan konfirmasi via WhatsApp. Dilengkapi galeri hasil potongan dan testimoni pelanggan.\n\nLihat demo live di /ai-studio/barbershop/ — download ZIP, ekstrak, lalu buka index.html atau upload ke hosting statis apa pun. Panduan penyesuaian (ganti nama, nomor WA, harga, layanan) ada di PANDUAN.txt di dalam ZIP.",
+      "shortDesc": "Website barbershop lengkap: daftar layanan & harga, pilih barber favorit, booking online dengan kode booking, dan galeri hasil potongan.",
+      "howItWorks": "Website statis satu file HTML (Tailwind CSS + JavaScript). Pemilihan layanan dan barber, perhitungan total harga, dan form booking berjalan sepenuhnya di browser pengunjung; konfirmasi booking dikirim terformat otomatis ke WhatsApp pemilik barbershop.",
+      "requirements": "Browser modern apa pun. Tidak perlu server, database, atau instalasi — cukup buka index.html.",
+      "screenshots": [
+        "/screenshots/barbershop/screenshot_1.webp"
+      ],
+      "defaultCredentials": [],
+      "updatedAt": "24 November 2026",
+      "releaseDate": "24 November 2026",
+      "recentFastDownloads": 0,
+      "thumbnail": "/screenshots/barbershop/screenshot_1.webp",
+      "downloadsCount": 0,
+      "rating": 4.9,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": false,
+      "databaseType": "",
+      "fileSize": "7 KB",
+      "tutorialSteps": [
+        "Download berkas `barbershop.zip` dari tombol download.",
+        "Ekstrak berkas ZIP ke folder di komputermu.",
+        "Buka file `index.html` dengan double-click — website langsung tampil di browser.",
+        "Untuk online: upload file `index.html` ke hosting statis (Netlify, Vercel, GitHub Pages, atau hosting apa pun).",
+        "Sesuaikan nama, nomor WhatsApp, harga, dan konten mengikuti `PANDUAN.txt` di dalam ZIP."
+      ],
+      "keyFeatures": [
+        "8 layanan + harga (mulai Rp15.000)",
+        "Pilih 4 barber + rating & spesialisasi",
+        "Form booking tanggal/jam → kode booking (BRB-XXXXXX)",
+        "Total harga otomatis saat pilih layanan",
+        "Konfirmasi booking via WhatsApp",
+        "Galeri foto + testimoni"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=barbershop&step=1&max=8",
+      "downloadUrlFast": "/downloads/barbershop.zip",
+      "driveUrl": "",
+      "githubRepo": "",
+      "stars": 0,
+      "zipBytes": 7547,
+      "demoUrl": "/ai-studio/barbershop/"
+    },
+    {
+      "id": "sc-89",
+      "title": "Dapur Berkah Catering — Website Catering & Nasi Kotak",
+      "slug": "catering",
+      "category": "Website AI Studio",
+      "techStack": [
+        "HTML",
+        "Tailwind CSS",
+        "JavaScript"
+      ],
+      "description": "Website catering siap pakai hasil Google AI Studio: 6 paket menu (mulai Rp15.000/porsi), kalkulator harga per pax dengan diskon jumlah besar (5% untuk 200+ porsi, 10% untuk 500+ porsi), form order tanggal/jam/alamat langsung ke WhatsApp, paket tumpeng per 20 porsi, serta ketentuan DP 50% & gratis ongkir. Dilengkapi testimoni acara pelanggan.\n\nLihat demo live di /ai-studio/catering/ — download ZIP, ekstrak, lalu buka index.html atau upload ke hosting statis apa pun. Panduan penyesuaian (ganti nama, nomor WA, harga, layanan) ada di PANDUAN.txt di dalam ZIP.",
+      "shortDesc": "Website catering lengkap: paket nasi kotak & prasmanan, kalkulator harga per porsi dengan diskon jumlah besar, dan form order langsung ke WhatsApp.",
+      "howItWorks": "Website statis satu file HTML (Tailwind CSS + JavaScript). Kalkulator harga per porsi dan form order berjalan sepenuhnya di browser pengunjung; pesanan dikirim terformat otomatis ke WhatsApp pemilik catering.",
+      "requirements": "Browser modern apa pun. Tidak perlu server, database, atau instalasi — cukup buka index.html.",
+      "screenshots": [
+        "/screenshots/catering/screenshot_1.webp"
+      ],
+      "defaultCredentials": [],
+      "updatedAt": "24 November 2026",
+      "releaseDate": "24 November 2026",
+      "recentFastDownloads": 0,
+      "thumbnail": "/screenshots/catering/screenshot_1.webp",
+      "downloadsCount": 0,
+      "rating": 4.9,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": false,
+      "databaseType": "",
+      "fileSize": "7 KB",
+      "tutorialSteps": [
+        "Download berkas `catering.zip` dari tombol download.",
+        "Ekstrak berkas ZIP ke folder di komputermu.",
+        "Buka file `index.html` dengan double-click — website langsung tampil di browser.",
+        "Untuk online: upload file `index.html` ke hosting statis (Netlify, Vercel, GitHub Pages, atau hosting apa pun).",
+        "Sesuaikan nama, nomor WhatsApp, harga, dan konten mengikuti `PANDUAN.txt` di dalam ZIP."
+      ],
+      "keyFeatures": [
+        "6 paket menu (mulai Rp15.000/porsi)",
+        "Kalkulator harga per pax + diskon 5% (200+ porsi) & 10% (500+ porsi)",
+        "Form order tanggal/jam/alamat → WhatsApp",
+        "Paket tumpeng per 20 porsi",
+        "Ketentuan DP 50% & gratis ongkir",
+        "Testimoni acara"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=catering&step=1&max=8",
+      "downloadUrlFast": "/downloads/catering.zip",
+      "driveUrl": "",
+      "githubRepo": "",
+      "stars": 0,
+      "zipBytes": 7306,
+      "demoUrl": "/ai-studio/catering/"
+    },
+    {
+      "id": "sc-90",
+      "title": "Senyum Sehat Dental Care — Website Klinik Gigi",
+      "slug": "klinik-gigi",
+      "category": "Website AI Studio",
+      "techStack": [
+        "HTML",
+        "Tailwind CSS",
+        "JavaScript"
+      ],
+      "description": "Website klinik gigi siap pakai hasil Google AI Studio: 8 layanan & harga transparan (scaling Rp350.000, tambal, cabut, behel, bleaching, dan lainnya), pilih 4 dokter spesialis beserta rating, estimasi biaya otomatis dari layanan yang dipilih, form booking tanggal/jam dengan nomor booking (GG-XXXXXX), dan konfirmasi via WhatsApp. Dilengkapi info BPJS & asuransi.\n\nLihat demo live di /ai-studio/klinik-gigi/ — download ZIP, ekstrak, lalu buka index.html atau upload ke hosting statis apa pun. Panduan penyesuaian (ganti nama, nomor WA, harga, layanan) ada di PANDUAN.txt di dalam ZIP.",
+      "shortDesc": "Website klinik gigi lengkap: layanan & harga transparan, daftar dokter spesialis, booking janji temu dengan estimasi biaya otomatis dan nomor booking.",
+      "howItWorks": "Website statis satu file HTML (Tailwind CSS + JavaScript). Pemilihan layanan dan dokter, estimasi biaya otomatis, dan form booking berjalan sepenuhnya di browser pengunjung; konfirmasi janji temu dikirim terformat otomatis ke WhatsApp klinik.",
+      "requirements": "Browser modern apa pun. Tidak perlu server, database, atau instalasi — cukup buka index.html.",
+      "screenshots": [
+        "/screenshots/klinik-gigi/screenshot_1.webp"
+      ],
+      "defaultCredentials": [],
+      "updatedAt": "24 November 2026",
+      "releaseDate": "24 November 2026",
+      "recentFastDownloads": 0,
+      "thumbnail": "/screenshots/klinik-gigi/screenshot_1.webp",
+      "downloadsCount": 0,
+      "rating": 4.9,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": false,
+      "databaseType": "",
+      "fileSize": "8 KB",
+      "tutorialSteps": [
+        "Download berkas `klinik-gigi.zip` dari tombol download.",
+        "Ekstrak berkas ZIP ke folder di komputermu.",
+        "Buka file `index.html` dengan double-click — website langsung tampil di browser.",
+        "Untuk online: upload file `index.html` ke hosting statis (Netlify, Vercel, GitHub Pages, atau hosting apa pun).",
+        "Sesuaikan nama, nomor WhatsApp, harga, dan konten mengikuti `PANDUAN.txt` di dalam ZIP."
+      ],
+      "keyFeatures": [
+        "8 layanan (scaling Rp350.000, tambal, cabut, behel, bleaching, dll.)",
+        "Pilih 4 dokter + spesialisasi & rating",
+        "Estimasi biaya otomatis dari layanan dipilih",
+        "Booking tanggal/jam → nomor booking (GG-XXXXXX)",
+        "Konfirmasi via WhatsApp",
+        "Info BPJS & asuransi"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=klinik-gigi&step=1&max=8",
+      "downloadUrlFast": "/downloads/klinik-gigi.zip",
+      "driveUrl": "",
+      "githubRepo": "",
+      "stars": 0,
+      "zipBytes": 7703,
+      "demoUrl": "/ai-studio/klinik-gigi/"
+    },
+    {
+      "id": "sc-91",
+      "title": "BugarFit Gym & Fitness — Website Gym & Fitness Center",
+      "slug": "gym-fitness",
+      "category": "Website AI Studio",
+      "techStack": [
+        "HTML",
+        "Tailwind CSS",
+        "JavaScript"
+      ],
+      "description": "Website gym & fitness center siap pakai hasil Google AI Studio: 6 paket membership (harian Rp50.000 s.d. tahunan Rp2.400.000), kalkulator BMI dengan kategori & rekomendasi paket/kelas, jadwal 4 kelas mingguan (HIIT, Strength, Yoga, Zumba), form booking trial gratis 1x langsung ke WhatsApp, profil pelatih, dan testimoni member.\n\nLihat demo live di /ai-studio/gym-fitness/ — download ZIP, ekstrak, lalu buka index.html atau upload ke hosting statis apa pun. Panduan penyesuaian (ganti nama, nomor WA, harga, layanan) ada di PANDUAN.txt di dalam ZIP.",
+      "shortDesc": "Website gym lengkap: paket membership, kalkulator BMI dengan rekomendasi program, jadwal kelas mingguan, dan booking trial gratis.",
+      "howItWorks": "Website statis satu file HTML (Tailwind CSS + JavaScript). Kalkulator BMI, pemilihan paket membership, dan form booking trial berjalan sepenuhnya di browser pengunjung; pendaftaran trial dikirim terformat otomatis ke WhatsApp gym.",
+      "requirements": "Browser modern apa pun. Tidak perlu server, database, atau instalasi — cukup buka index.html.",
+      "screenshots": [
+        "/screenshots/gym-fitness/screenshot_1.webp"
+      ],
+      "defaultCredentials": [],
+      "updatedAt": "24 November 2026",
+      "releaseDate": "24 November 2026",
+      "recentFastDownloads": 0,
+      "thumbnail": "/screenshots/gym-fitness/screenshot_1.webp",
+      "downloadsCount": 0,
+      "rating": 4.9,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": false,
+      "databaseType": "",
+      "fileSize": "8 KB",
+      "tutorialSteps": [
+        "Download berkas `gym-fitness.zip` dari tombol download.",
+        "Ekstrak berkas ZIP ke folder di komputermu.",
+        "Buka file `index.html` dengan double-click — website langsung tampil di browser.",
+        "Untuk online: upload file `index.html` ke hosting statis (Netlify, Vercel, GitHub Pages, atau hosting apa pun).",
+        "Sesuaikan nama, nomor WhatsApp, harga, dan konten mengikuti `PANDUAN.txt` di dalam ZIP."
+      ],
+      "keyFeatures": [
+        "6 paket membership (harian Rp50.000 s.d. tahunan Rp2.400.000)",
+        "Kalkulator BMI + kategori & rekomendasi paket/kelas",
+        "Jadwal 4 kelas (HIIT, Strength, Yoga, Zumba)",
+        "Form booking trial gratis 1x → WhatsApp",
+        "Profil pelatih",
+        "Testimoni member"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=gym-fitness&step=1&max=8",
+      "downloadUrlFast": "/downloads/gym-fitness.zip",
+      "driveUrl": "",
+      "githubRepo": "",
+      "stars": 0,
+      "zipBytes": 8011,
+      "demoUrl": "/ai-studio/gym-fitness/"
+    },
+    {
+      "id": "sc-92",
+      "title": "Cerdas Bangsa — Website Bimbel & Les Privat SD, SMP, SMA, UTBK",
+      "slug": "bimbel",
+      "category": "Website AI Studio",
+      "techStack": [
+        "HTML",
+        "Tailwind CSS",
+        "JavaScript"
+      ],
+      "description": "Website bimbel & les privat siap pakai hasil Google AI Studio: 6 program (SD Rp350rb/bln s.d. UTBK Rp750rb/bln, privat per pertemuan), kalkulator biaya program × durasi dengan diskon 5/10/15%, profil 4 tutor, form pendaftaran jenjang/program/durasi dengan nomor pendaftaran (CB-XXXXXX), dan konfirmasi via WhatsApp. Dilengkapi try out rutin & garansi pindah tutor.\n\nLihat demo live di /ai-studio/bimbel/ — download ZIP, ekstrak, lalu buka index.html atau upload ke hosting statis apa pun. Panduan penyesuaian (ganti nama, nomor WA, harga, layanan) ada di PANDUAN.txt di dalam ZIP.",
+      "shortDesc": "Website bimbel lengkap: program SD/SMP/SMA/UTBK & les privat, kalkulator biaya dengan diskon durasi, profil tutor, dan form pendaftaran dengan nomor pendaftaran.",
+      "howItWorks": "Website statis satu file HTML (Tailwind CSS + JavaScript). Kalkulator biaya program × durasi dan form pendaftaran berjalan sepenuhnya di browser pengunjung; pendaftaran dikirim terformat otomatis ke WhatsApp bimbel.",
+      "requirements": "Browser modern apa pun. Tidak perlu server, database, atau instalasi — cukup buka index.html.",
+      "screenshots": [
+        "/screenshots/bimbel/screenshot_1.webp"
+      ],
+      "defaultCredentials": [],
+      "updatedAt": "24 November 2026",
+      "releaseDate": "24 November 2026",
+      "recentFastDownloads": 0,
+      "thumbnail": "/screenshots/bimbel/screenshot_1.webp",
+      "downloadsCount": 0,
+      "rating": 4.9,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": false,
+      "databaseType": "",
+      "fileSize": "8 KB",
+      "tutorialSteps": [
+        "Download berkas `bimbel.zip` dari tombol download.",
+        "Ekstrak berkas ZIP ke folder di komputermu.",
+        "Buka file `index.html` dengan double-click — website langsung tampil di browser.",
+        "Untuk online: upload file `index.html` ke hosting statis (Netlify, Vercel, GitHub Pages, atau hosting apa pun).",
+        "Sesuaikan nama, nomor WhatsApp, harga, dan konten mengikuti `PANDUAN.txt` di dalam ZIP."
+      ],
+      "keyFeatures": [
+        "6 program (SD Rp350rb/bln s.d. UTBK Rp750rb/bln, privat per pertemuan)",
+        "Kalkulator biaya program × durasi + diskon 5/10/15%",
+        "Profil 4 tutor",
+        "Form pendaftaran jenjang/program/durasi → nomor pendaftaran (CB-XXXXXX)",
+        "Konfirmasi via WhatsApp",
+        "Try out rutin & garansi pindah tutor"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=bimbel&step=1&max=8",
+      "downloadUrlFast": "/downloads/bimbel.zip",
+      "driveUrl": "",
+      "githubRepo": "",
+      "stars": 0,
+      "zipBytes": 8158,
+      "demoUrl": "/ai-studio/bimbel/"
     },
     {
       "id": "sc-82",
