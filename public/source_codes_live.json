@@ -1,7 +1,62 @@
 {
-  "updatedAt": "24 November 2026",
-  "total": 36,
+  "updatedAt": "24 Nov 2026, 23:13 WIB",
+  "total": 37,
   "items": [
+    {
+      "id": "sc-93",
+      "title": "Sistem Informasi Perpustakaan - Perpustakaan",
+      "slug": "perpustakaan",
+      "category": "Pendidikan & Akademik",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Aplikasi Perpustakaan Digital\n\nProyek riil open-source asli dari GitHub (https://github.com/samuelbinsaraditya/perpustakaan). Dilengkapi file database lengkap (db_perpustakaan.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Informasi Perpustakaan - Perpustakaan dengan database db_perpustakaan.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/perpustakaan/screenshot_1.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Demo",
+          "username": "Lihat README.md repo asli",
+          "password": "(lihat README repo)"
+        }
+      ],
+      "updatedAt": "24 November 2026",
+      "releaseDate": "24 November 2026",
+      "recentFastDownloads": 92,
+      "thumbnail": "/screenshots/perpustakaan/screenshot_1.webp",
+      "downloadsCount": 1152,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "3.1 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `perpustakaan.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `db_perpustakaan.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/perpustakaan` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (samuelbinsaraditya/perpustakaan) dengan source code lengkap",
+        "Disertai database asli (db_perpustakaan.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=perpustakaan&step=1&max=8",
+      "downloadUrlFast": "/downloads/perpustakaan.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/samuelbinsaraditya/perpustakaan",
+      "stars": 0
+    },
     {
       "id": "sc-87",
       "title": "Pharmacy Store Management System - Pharmacy Management Software",
