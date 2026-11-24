@@ -1,0 +1,39 @@
+PANDUAN — DAPUR BERKAH CATERING (Website Catering & Nasi Kotak)
+=================================================================
+Website catering "Dapur Berkah Catering" — dibuat dengan Google AI Studio.
+Source code gratis by LocaGo Creative (locagocreative.my.id).
+
+CARA MEMBUKA
+------------
+1. Double-click file index.html — website langsung terbuka di browser.
+   (Tidak perlu install apa pun.)
+2. Atau upload file index.html ke hosting statis apa pun
+   (Netlify, Vercel, GitHub Pages, Niagahoster, dll).
+
+FITUR
+-----
+- Paket menu (6 paket: nasi kotak, prasmanan, snack box, tumpeng)
+  dengan harga per porsi
+- Kalkulator harga: pilih paket + jumlah porsi = total otomatis,
+  diskon 5% untuk 200+ porsi, 10% untuk 500+ porsi
+- Form pemesanan: paket, jumlah, tanggal acara, jam kirim & alamat —
+  pesanan terkirim otomatis ke WhatsApp
+- Testimoni, ketentuan pesanan, lokasi & jam buka
+
+CARA MENYESUAIKAN (edit file index.html dengan Notepad / VS Code)
+-----------------------------------------------------------------
+- Nama catering & nomor WhatsApp : cari WA_NUMBER = "6281234567890"
+  di bagian bawah file, ganti dengan nomor WA kamu (format: 62 + nomor).
+- Harga & nama paket : cari bagian const PACKAGES = [ ... ] lalu ubah
+  name, price, desc, dan img (URL gambar).
+- Aturan diskon : cari function discountRate(qty) lalu ubah
+  batas porsi & persen diskonnya.
+- Alamat & jam buka : cari bagian "Lokasi & Jam Buka" di HTML.
+- Warna tema : cari tailwind.config di <head> (warna dapur/gold).
+
+CATATAN
+-------
+- Gambar memakai URL Unsplash — butuh internet saat pertama dibuka.
+- Semua data pesanan hanya tersimpan di browser pengunjung.
+- Bebas dipakai & dimodifikasi untuk usahamu. Dilarang dijual kembali
+  sebagai produk berbayar tanpa izin LocaGo Creative.

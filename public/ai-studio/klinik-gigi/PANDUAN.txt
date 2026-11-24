@@ -1,0 +1,42 @@
+PANDUAN — SENYUM SEHAT DENTAL CARE (Website Klinik Gigi)
+=============================================================
+Website klinik gigi "Senyum Sehat Dental Care" — dibuat dengan
+Google AI Studio.
+Source code gratis by LocaGo Creative (locagocreative.my.id).
+
+CARA MEMBUKA
+------------
+1. Double-click file index.html — website langsung terbuka di browser.
+   (Tidak perlu install apa pun.)
+2. Atau upload file index.html ke hosting statis apa pun
+   (Netlify, Vercel, GitHub Pages, Niagahoster, dll).
+
+FITUR
+-----
+- Daftar layanan & harga (8 layanan: scaling, tambal, cabut, behel,
+  bleaching, gigi palsu, perawatan anak, konsultasi)
+- Daftar dokter (4 dokter) dengan spesialisasi & rating — bisa dipilih
+- Form booking janji temu: pilih dokter, layanan, tanggal & jam —
+  estimasi biaya dihitung otomatis + keluar NOMOR BOOKING
+  (cth: GG-123456) + konfirmasi otomatis ke WhatsApp
+- Testimoni, tips sebelum berkunjung, lokasi & jam buka
+
+CARA MENYESUAIKAN (edit file index.html dengan Notepad / VS Code)
+-----------------------------------------------------------------
+- Nama klinik & nomor WhatsApp : cari WA_NUMBER = "6281234567890"
+  di bagian bawah file, ganti dengan nomor WA kamu (format: 62 + nomor).
+- Harga & nama layanan : cari bagian const SERVICES = [ ... ] lalu ubah
+  name, price, desc, dan icon.
+- Daftar dokter : cari bagian const DOCTORS = [ ... ] lalu ubah
+  name, role, spec, rating, dan exp.
+- Alamat & jam buka : cari bagian "Lokasi & Jam Buka" di HTML.
+- Warna tema : cari tailwind.config di <head> (warna gigi/teal).
+
+CATATAN
+-------
+- Gambar memakai URL Unsplash — butuh internet saat pertama dibuka.
+- Semua data booking hanya tersimpan di browser pengunjung.
+- Harga di website adalah estimasi — harga akhir dikonfirmasi dokter
+  setelah pemeriksaan.
+- Bebas dipakai & dimodifikasi untuk usahamu. Dilarang dijual kembali
+  sebagai produk berbayar tanpa izin LocaGo Creative.

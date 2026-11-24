@@ -1,0 +1,39 @@
+PANDUAN — RAPI BARBERSHOP (Website Barbershop & Pangkas Rambut)
+================================================================
+Website barbershop "RAPI Barbershop" — dibuat dengan Google AI Studio.
+Source code gratis by LocaGo Creative (locagocreative.my.id).
+
+CARA MEMBUKA
+------------
+1. Double-click file index.html — website langsung terbuka di browser.
+   (Tidak perlu install apa pun.)
+2. Atau upload file index.html ke hosting statis apa pun
+   (Netlify, Vercel, GitHub Pages, Niagahoster, dll).
+
+FITUR
+-----
+- Daftar layanan & harga (8 layanan) — klik untuk memilih, total
+  dihitung otomatis
+- Daftar barber (4 barber) dengan spesialisasi & rating — bisa dipilih
+- Galeri foto kedai & hasil potongan
+- Form booking: pilih barber, layanan, tanggal & jam — keluar KODE
+  BOOKING (cth: BRB-123456) + konfirmasi otomatis ke WhatsApp
+- Testimoni, tips sebelum datang, lokasi & jam buka
+
+CARA MENYESUAIKAN (edit file index.html dengan Notepad / VS Code)
+-----------------------------------------------------------------
+- Nama barbershop & nomor WhatsApp : cari WA_NUMBER = "6281234567890"
+  di bagian bawah file, ganti dengan nomor WA kamu (format: 62 + nomor).
+- Harga & nama layanan : cari bagian const SERVICES = [ ... ] lalu ubah
+  name, price, desc, dan icon.
+- Daftar barber : cari bagian const BARBERS = [ ... ] lalu ubah
+  name, role, spec, rating, dan exp.
+- Alamat & jam buka : cari bagian "Lokasi & Jam Buka" di HTML.
+- Warna tema : cari tailwind.config di <head> (warna barber/gold).
+
+CATATAN
+-------
+- Gambar memakai URL Unsplash — butuh internet saat pertama dibuka.
+- Semua data booking hanya tersimpan di browser pengunjung.
+- Bebas dipakai & dimodifikasi untuk usahamu. Dilarang dijual kembali
+  sebagai produk berbayar tanpa izin LocaGo Creative.

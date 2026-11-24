@@ -1,0 +1,44 @@
+PANDUAN — CERDAS BANGSA BIMBEL & LES PRIVAT (Website Bimbel)
+=================================================================
+Website bimbel "Cerdas Bangsa — Bimbel & Les Privat" — dibuat dengan
+Google AI Studio.
+Source code gratis by LocaGo Creative (locagocreative.my.id).
+
+CARA MEMBUKA
+------------
+1. Double-click file index.html — website langsung terbuka di browser.
+   (Tidak perlu install apa pun.)
+2. Atau upload file index.html ke hosting statis apa pun
+   (Netlify, Vercel, GitHub Pages, Niagahoster, dll).
+
+FITUR
+-----
+- Program belajar (6 program: Bimbel SD, SMP, SMA, UTBK/SNBT,
+  Les Privat SD, Les Privat SMP/SMA) dengan biaya per bulan/pertemuan
+- Kalkulator biaya: pilih program + durasi (1/3/6/12 bulan) = total
+  otomatis, diskon 5% untuk 3 bulan, 10% untuk 6 bulan, 15% untuk
+  12 bulan (les privat dihitung 4 pertemuan/bulan)
+- Daftar tutor (4 tutor) dengan bidang & pengalaman
+- Form pendaftaran siswa: jenjang, program, durasi, pilihan kelas —
+  keluar NOMOR PENDAFTARAN (cth: CB-123456) + konfirmasi otomatis
+  ke WhatsApp
+- Testimoni, cara daftar, lokasi & jam buka
+
+CARA MENYESUAIKAN (edit file index.html dengan Notepad / VS Code)
+-----------------------------------------------------------------
+- Nama bimbel & nomor WhatsApp : cari WA_NUMBER = "6281234567890"
+  di bagian bawah file, ganti dengan nomor WA kamu (format: 62 + nomor).
+- Harga & nama program : cari bagian const PROGRAMS = [ ... ] lalu ubah
+  name, price, desc, dan img (URL gambar).
+- Aturan diskon : cari function discRate(months) lalu ubah
+  durasi & persen diskonnya.
+- Daftar tutor : cari bagian "Tutor Kami" di HTML.
+- Alamat & jam buka : cari bagian "Lokasi & Jam Buka" di HTML.
+- Warna tema : cari tailwind.config di <head> (warna bimbel/indigo).
+
+CATATAN
+-------
+- Gambar memakai URL Unsplash — butuh internet saat pertama dibuka.
+- Semua data pendaftaran hanya tersimpan di browser pengunjung.
+- Bebas dipakai & dimodifikasi untuk usahamu. Dilarang dijual kembali
+  sebagai produk berbayar tanpa izin LocaGo Creative.

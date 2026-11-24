@@ -1,0 +1,292 @@
+<!-- Dibuat dengan Google AI Studio — Source Code Gratis by LocaGo Creative (locagocreative.my.id) -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BugarFit Gym & Fitness — Membership Mulai Rp200 Ribu | Semarang</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script>
+tailwind.config = { theme: { extend: { fontFamily: { display: ['Archivo','sans-serif'], sans: ['Poppins','sans-serif'] }, colors: { gym: { 900:'#101010', 800:'#1C1C1C', 700:'#2A2A2A', lime:'#A3E635', cream:'#F7F7F2' } } } } }
+</script>
+<style>
+  html{scroll-behavior:smooth}
+  .pkg-card{transition:transform .25s ease, box-shadow .25s ease}
+  .pkg-card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(16,16,16,.22)}
+  .pkg-card.selected{outline:3px solid #A3E635;outline-offset:2px}
+  .toast{transition:opacity .3s ease, transform .3s ease}
+  .hero-img{object-position:center 30%}
+  .bmi-bar{transition:width .5s ease}
+</style>
+</head>
+<body class="font-sans bg-gym-cream text-gym-900">
+
+<!-- NAVBAR -->
+<header class="sticky top-0 z-50 bg-gym-900/95 backdrop-blur text-white shadow-lg">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="#" class="flex items-center gap-2">
+      <span class="text-2xl">🏋️</span>
+      <span class="font-display font-black text-xl tracking-wide">Bugar<span class="text-gym-lime">Fit</span></span>
+    </a>
+    <nav class="hidden md:flex gap-6 text-sm font-medium">
+      <a href="#membership" class="hover:text-gym-lime">Membership</a>
+      <a href="#bmi" class="hover:text-gym-lime">Kalkulator BMI</a>
+      <a href="#jadwal" class="hover:text-gym-lime">Jadwal Kelas</a>
+      <a href="#trial" class="hover:text-gym-lime">Trial Gratis</a>
+    </nav>
+    <a href="#trial" class="bg-gym-lime text-gym-900 font-semibold px-4 py-2 rounded-full text-sm hover:bg-lime-300">Coba Gratis 1x</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="relative h-[520px] md:h-[600px] overflow-hidden">
+  <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1600&q=80" alt="Deretan dumbbell di gym BugarFit" class="hero-img absolute inset-0 w-full h-full object-cover">
+  <div class="absolute inset-0 bg-gradient-to-r from-gym-900/90 via-gym-900/60 to-transparent"></div>
+  <div class="relative max-w-6xl mx-auto px-4 h-full flex flex-col justify-center text-white">
+    <span class="bg-gym-lime text-gym-900 text-xs font-bold px-3 py-1 rounded-full w-max mb-4">★ 4.8 — 2.400+ member aktif</span>
+    <h1 class="font-display text-4xl md:text-6xl font-black leading-tight max-w-xl">Lebih Kuat,<br>Lebih <span class="text-gym-lime">Bugar</span>.</h1>
+    <p class="mt-4 text-base md:text-lg text-white/85 max-w-lg">Alat lengkap, pelatih bersertifikat, dan kelas seru setiap hari. Member baru dapat 1x trial GRATIS + konsultasi program latihan.</p>
+    <div class="mt-6 flex flex-wrap gap-3">
+      <a href="#trial" class="bg-gym-lime text-gym-900 font-semibold px-6 py-3 rounded-full hover:bg-lime-300">Booking Trial Gratis</a>
+      <a href="#membership" class="border-2 border-white/70 px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-gym-900">Lihat Paket Membership</a>
+    </div>
+    <div class="mt-8 flex flex-wrap gap-6 text-sm text-white/80">
+      <span>🕕 Buka 06.00 – 22.00 WIB</span><span>📍 Semarang</span><span>🚿 Locker &amp; shower tersedia</span>
+    </div>
+  </div>
+</section>
+
+<!-- KEUNGGULAN -->
+<section class="max-w-6xl mx-auto px-4 py-10 grid grid-cols-2 md:grid-cols-4 gap-4">
+  <div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">🏋️</div><h3 class="font-semibold mt-2">Alat Lengkap</h3><p class="text-sm text-stone-500 mt-1">50+ mesin &amp; free weight</p></div>
+  <div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">🧑‍🏫</div><h3 class="font-semibold mt-2">Pelatih Bersertifikat</h3><p class="text-sm text-stone-500 mt-1">Program latihan personal</p></div>
+  <div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">🧘</div><h3 class="font-semibold mt-2">Kelas Setiap Hari</h3><p class="text-sm text-stone-500 mt-1">Yoga, Zumba, HIIT &amp; lainnya</p></div>
+  <div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">💸</div><h3 class="font-semibold mt-2">Mulai Rp50 ribu</h3><p class="text-sm text-stone-500 mt-1">Harian, bulanan, sampai tahunan</p></div>
+</section>
+
+<!-- MEMBERSHIP -->
+<section id="membership" class="max-w-6xl mx-auto px-4 py-8">
+  <h2 class="font-display text-3xl md:text-4xl font-black text-center">Paket Membership</h2>
+  <p class="text-center text-stone-500 mt-2">Klik paket untuk memilih — harga &amp; fasilitas tampil di bawah.</p>
+  <div id="pkgGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-8"></div>
+  <div class="mt-6 bg-white rounded-2xl shadow p-5">
+    <div class="flex flex-wrap items-center justify-between gap-3">
+      <p class="font-semibold">Paket dipilih: <span id="pkgName" class="font-black">Bulanan</span></p>
+      <p class="font-bold text-2xl">Harga: <span id="pkgPrice" class="text-gym-900">Rp300.000</span></p>
+    </div>
+    <p id="pkgDesc" class="text-sm text-stone-500 mt-2">Akses semua alat + 4 kelas grup per minggu + locker.</p>
+    <a href="#trial" class="inline-block mt-4 bg-gym-900 text-white font-semibold px-5 py-2 rounded-full hover:bg-gym-700">Daftar Paket Ini →</a>
+  </div>
+</section>
+
+<!-- BMI -->
+<section id="bmi" class="bg-gym-900 text-white py-14 mt-8">
+  <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+    <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1000&q=80" alt="Member sedang latihan angkat beban" class="rounded-3xl shadow-2xl w-full h-72 object-cover">
+    <div>
+      <h2 class="font-display text-3xl md:text-4xl font-black">⚖️ Kalkulator BMI</h2>
+      <p class="mt-3 text-white/80 text-sm">Cek indeks massa tubuhmu — kami rekomendasikan paket &amp; kelas yang cocok.</p>
+      <div class="mt-6 bg-white text-gym-900 rounded-3xl p-6 shadow-xl space-y-4">
+        <div class="grid grid-cols-2 gap-4">
+          <label class="block text-sm font-medium">Berat Badan (kg)
+            <input id="bmiWeight" type="number" min="20" max="300" value="70" oninput="calcBMI()" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+          </label>
+          <label class="block text-sm font-medium">Tinggi Badan (cm)
+            <input id="bmiHeight" type="number" min="100" max="250" value="175" oninput="calcBMI()" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+          </label>
+        </div>
+        <div class="text-center">
+          <p class="text-sm text-stone-500">BMI kamu</p>
+          <p id="bmiValue" class="font-display font-black text-5xl">22,9</p>
+          <p id="bmiCat" class="font-bold text-lg mt-1 text-green-600">Normal — berat badan ideal</p>
+        </div>
+        <div class="h-3 rounded-full bg-stone-200 overflow-hidden"><div id="bmiBar" class="bmi-bar h-full bg-green-500" style="width:57%"></div></div>
+        <div class="flex justify-between text-[11px] text-stone-500"><span>Kurus &lt;18,5</span><span>Normal 18,5–24,9</span><span>Gemuk 25–29,9</span><span>Obesitas ≥30</span></div>
+        <p id="bmiRec" class="text-sm text-stone-600 bg-gym-cream rounded-xl p-3">💡 Pertahankan dengan latihan 3-4x seminggu. Paket Bulanan + kelas Yoga &amp; HIIT cocok untukmu.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JADWAL KELAS -->
+<section id="jadwal" class="max-w-6xl mx-auto px-4 py-14">
+  <h2 class="font-display text-3xl md:text-4xl font-black text-center">Jadwal Kelas Mingguan</h2>
+  <p class="text-center text-stone-500 mt-2">Semua kelas termasuk untuk member Bulanan ke atas. Non-member Rp50.000/kelas.</p>
+  <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-8">
+    <div class="bg-white rounded-3xl overflow-hidden shadow"><img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80" alt="Kelas HIIT" class="w-full h-40 object-cover"><div class="p-5"><h3 class="font-bold">🔥 HIIT Blast</h3><p class="text-sm text-stone-500 mt-1">Senin &amp; Kamis • 07.00 &amp; 18.00<br>Pelatih: Coach Rian • 45 menit • Bakar kalori maksimal</p></div></div>
+    <div class="bg-white rounded-3xl overflow-hidden shadow"><img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=600&q=80" alt="Kelas strength training" class="w-full h-40 object-cover"><div class="p-5"><h3 class="font-bold">💪 Strength 101</h3><p class="text-sm text-stone-500 mt-1">Selasa &amp; Jumat • 08.00 &amp; 19.00<br>Pelatih: Coach Dina • 60 menit • Teknik angkat beban yang benar</p></div></div>
+    <div class="bg-white rounded-3xl overflow-hidden shadow"><img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=600&q=80" alt="Kelas yoga" class="w-full h-40 object-cover"><div class="p-5"><h3 class="font-bold">🧘 Yoga Flow</h3><p class="text-sm text-stone-500 mt-1">Rabu &amp; Sabtu • 07.00 &amp; 17.00<br>Pelatih: Coach Sinta • 60 menit • Fleksibilitas &amp; relaksasi</p></div></div>
+    <div class="bg-white rounded-3xl overflow-hidden shadow"><img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=600&q=80" alt="Kelas zumba dan kardio" class="w-full h-40 object-cover"><div class="p-5"><h3 class="font-bold">💃 Zumba Party</h3><p class="text-sm text-stone-500 mt-1">Jumat &amp; Minggu • 16.00<br>Pelatih: Coach Maya • 60 menit • Seru, berkeringat, dan fun</p></div></div>
+  </div>
+</section>
+
+<!-- TRIAL -->
+<section id="trial" class="max-w-6xl mx-auto px-4 pb-14">
+  <div class="grid md:grid-cols-5 gap-6">
+    <div class="md:col-span-3 bg-white rounded-3xl p-7 shadow">
+      <h2 class="font-display text-2xl md:text-3xl font-black">🎁 Booking Trial Gratis (1x)</h2>
+      <p class="text-sm text-stone-500 mt-1">Coba semua fasilitas + 1 kelas grup, gratis tanpa syarat. Isi form — konfirmasi dikirim via WhatsApp.</p>
+      <form id="trialForm" class="mt-6 space-y-4" onsubmit="submitTrial(event)">
+        <label class="block text-sm font-medium">Nama Kamu
+          <input id="trName" type="text" required placeholder="cth: Andi Wijaya" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+        </label>
+        <label class="block text-sm font-medium">Nomor WhatsApp
+          <input id="trWa" type="tel" required placeholder="cth: 081234567890" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+        </label>
+        <div class="grid grid-cols-2 gap-4">
+          <label class="block text-sm font-medium">Kelas Trial
+            <select id="trClass" required class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+              <option value="">Pilih kelas</option>
+              <option>HIIT Blast</option><option>Strength 101</option><option>Yoga Flow</option><option>Zumba Party</option><option>Bebas (alat gym saja)</option>
+            </select>
+          </label>
+          <label class="block text-sm font-medium">Tanggal Trial
+            <input id="trDate" type="date" required class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+          </label>
+        </div>
+        <label class="block text-sm font-medium">Paket yang diminati (opsional)
+          <select id="trPkg" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm"></select>
+        </label>
+        <button type="submit" class="w-full bg-gym-lime text-gym-900 font-bold py-3 rounded-full hover:bg-lime-300">✅ Booking Trial Gratis</button>
+      </form>
+      <div id="trialResult" class="hidden mt-6 bg-green-50 border border-green-300 rounded-2xl p-5 text-center">
+        <p class="text-3xl">🎉</p>
+        <h3 class="font-bold text-lg mt-2">Trial Berhasil Dibooking!</h3>
+        <p id="trialSummary" class="text-sm text-stone-600 mt-2"></p>
+        <button onclick="trialWA()" class="mt-4 bg-green-600 text-white font-semibold px-6 py-2 rounded-full hover:bg-green-700">Konfirmasi via WhatsApp</button>
+      </div>
+    </div>
+    <div class="md:col-span-2 space-y-6">
+      <div class="bg-gym-800 text-white rounded-3xl p-7 shadow">
+        <h3 class="font-display text-2xl font-black">📍 Lokasi &amp; Jam Buka</h3>
+        <p class="mt-3 text-white/80 text-sm">Jl. Pandanaran No. 120, Semarang 50134</p>
+        <table class="mt-4 w-full text-sm">
+          <tr class="border-b border-white/20"><td class="py-2 font-medium">Senin – Jumat</td><td class="py-2 text-right">06.00 – 22.00 WIB</td></tr>
+          <tr class="border-b border-white/20"><td class="py-2 font-medium">Sabtu – Minggu</td><td class="py-2 text-right">07.00 – 20.00 WIB</td></tr>
+        </table>
+        <p class="mt-4 text-sm text-white/70">📞 0812-3456-7890 &nbsp;•&nbsp; 📸 @bugarfit.gym</p>
+      </div>
+      <div class="bg-white rounded-3xl p-7 shadow">
+        <h3 class="font-display text-xl font-black">💡 Yang Perlu Dibawa</h3>
+        <ul class="mt-3 space-y-2 text-sm text-stone-600">
+          <li>✔ Sepatu olahraga &amp; handuk pribadi</li>
+          <li>✔ Botol minum (isi ulang gratis)</li>
+          <li>✔ Datang 15 menit sebelum kelas dimulai</li>
+          <li>✔ Trial hanya 1x per orang, berlaku 7 hari setelah booking</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONI -->
+<section class="max-w-6xl mx-auto px-4 pb-14">
+  <h2 class="font-display text-3xl md:text-4xl font-black text-center">Kata Member</h2>
+  <div class="grid md:grid-cols-3 gap-5 mt-8">
+    <div class="bg-white rounded-2xl p-6 shadow"><div class="text-gym-lime text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Turun 8 kg dalam 4 bulan. Pelatihnya beneran ngawasin program, bukan sekadar jaga gym."</p><p class="mt-4 font-semibold">— Tono, Member Tahunan</p></div>
+    <div class="bg-white rounded-2xl p-6 shadow"><div class="text-gym-lime text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Zumba-nya seru, instrukturnya enerjik. Alatnya juga terawat dan nggak antre lama."</p><p class="mt-4 font-semibold">— Lilis, Member Bulanan</p></div>
+    <div class="bg-white rounded-2xl p-6 shadow"><div class="text-gym-lime text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Trial gratisnya beneran gratis, nggak dipaksa beli. Akhirnya ambil paket 6 bulan."</p><p class="mt-4 font-semibold">— Bagas, Member 6 Bulan</p></div>
+  </div>
+</section>
+
+<footer class="bg-gym-900 text-white/70 text-center py-6 text-sm">
+  © 2026 BugarFit Gym &amp; Fitness — Dibuat dengan Google AI Studio • Source code gratis by <span class="text-gym-lime">LocaGo Creative</span> (locagocreative.my.id)
+</footer>
+
+<!-- TOAST -->
+<div id="toast" class="toast fixed bottom-5 left-1/2 -translate-x-1/2 translate-y-4 opacity-0 bg-gym-900 text-white text-sm font-medium px-5 py-3 rounded-full shadow-xl z-[80] pointer-events-none">OK</div>
+
+<script>
+const WA_NUMBER = "6281234567890";
+const PACKAGES = [
+  {id:1, name:"Harian", price:50000, desc:"Akses 1 hari penuh semua alat, tanpa kelas grup.", tag:"Coba Dulu"},
+  {id:2, name:"Bulanan", price:300000, desc:"Akses semua alat + 4 kelas grup per minggu + locker.", tag:"Paling Laris"},
+  {id:3, name:"3 Bulan", price:750000, desc:"Semua fasilitas Bulanan + 1x konsultasi nutrisi. Hemat Rp150.000!"},
+  {id:4, name:"6 Bulan", price:1350000, desc:"Semua fasilitas + 2x konsultasi nutrisi + 1x personal training. Hemat Rp450.000!"},
+  {id:5, name:"Tahunan", price:2400000, desc:"Semua fasilitas + 4x personal training + merchandise eksklusif. Hemat Rp1.200.000!", tag:"Paling Hemat"},
+  {id:6, name:"Pelajar", price:200000, desc:"Per bulan, khusus pelajar/mahasiswa (bawa kartu pelajar). Akses semua alat + 2 kelas grup per minggu."},
+];
+const fmt = n => "Rp" + n.toLocaleString("id-ID");
+let selectedPkg = 2;
+let lastTrial = null;
+
+function renderPackages(){
+  document.getElementById("pkgGrid").innerHTML = PACKAGES.map(p => `
+    <article class="pkg-card ${selectedPkg === p.id ? "selected" : ""} bg-white rounded-3xl overflow-hidden shadow cursor-pointer" onclick="selectPkg(${p.id})">
+      <div class="p-6">
+        <div class="flex items-start justify-between">
+          <h3 class="font-display font-black text-xl">${p.name}</h3>
+          ${p.tag ? `<span class="bg-gym-lime text-gym-900 text-xs font-bold px-2 py-1 rounded-full">${p.tag}</span>` : ""}
+        </div>
+        <p class="font-display font-black text-3xl mt-3">${fmt(p.price)}<span class="text-sm font-normal text-stone-500">${p.id === 1 ? " / hari" : " / paket"}</span></p>
+        <p class="text-sm text-stone-500 mt-2">${p.desc}</p>
+        <p class="text-xs mt-3 ${selectedPkg === p.id ? "text-green-700 font-semibold" : "text-stone-400"}">${selectedPkg === p.id ? "✔ Dipilih" : "Klik untuk pilih"}</p>
+      </div>
+    </article>`).join("");
+  document.getElementById("trPkg").innerHTML = `<option value="">Belum tahu — tanya pelatih dulu</option>` + PACKAGES.map(p => `<option value="${p.name}">${p.name} — ${fmt(p.price)}</option>`).join("");
+  updatePkgDetail();
+}
+function selectPkg(id){ selectedPkg = id; renderPackages(); }
+function updatePkgDetail(){
+  const p = PACKAGES.find(x => x.id === selectedPkg);
+  document.getElementById("pkgName").textContent = p.name;
+  document.getElementById("pkgPrice").textContent = fmt(p.price);
+  document.getElementById("pkgDesc").textContent = p.desc;
+}
+function calcBMI(){
+  const w = parseFloat(document.getElementById("bmiWeight").value);
+  const hCm = parseFloat(document.getElementById("bmiHeight").value);
+  const valEl = document.getElementById("bmiValue");
+  const catEl = document.getElementById("bmiCat");
+  const barEl = document.getElementById("bmiBar");
+  const recEl = document.getElementById("bmiRec");
+  if (!w || !hCm || hCm <= 0){
+    valEl.textContent = "—"; catEl.textContent = "Masukkan berat & tinggi badan"; return;
+  }
+  const h = hCm / 100;
+  const bmi = w / (h * h);
+  valEl.textContent = bmi.toFixed(1).replace(".", ",");
+  let cat, color, barColor, rec;
+  if (bmi < 18.5){ cat = "Kurus — di bawah ideal"; color = "text-blue-600"; barColor = "bg-blue-500"; rec = "💡 Fokus naik massa otot: latihan beban 3x seminggu + konsultasi nutrisi. Paket 3 Bulan + Strength 101 cocok untukmu."; }
+  else if (bmi < 25){ cat = "Normal — berat badan ideal"; color = "text-green-600"; barColor = "bg-green-500"; rec = "💡 Pertahankan dengan latihan 3-4x seminggu. Paket Bulanan + kelas Yoga & HIIT cocok untukmu."; }
+  else if (bmi < 30){ cat = "Gemuk — di atas ideal"; color = "text-yellow-600"; barColor = "bg-yellow-500"; rec = "💡 Fokus bakar lemak: HIIT + kardio 4x seminggu. Paket 6 Bulan + HIIT Blast cocok untukmu."; }
+  else { cat = "Obesitas — konsultasi dulu"; color = "text-red-600"; barColor = "bg-red-500"; rec = "💡 Mulai pelan dengan kelas low-impact (Yoga, jalan cepat) + konsultasi pelatih. Paket Bulanan + Yoga Flow cocok untukmu."; }
+  catEl.textContent = cat;
+  catEl.className = "font-bold text-lg mt-1 " + color;
+  barEl.className = "bmi-bar h-full " + barColor;
+  barEl.style.width = Math.min(100, Math.max(5, (bmi / 40) * 100)) + "%";
+  recEl.textContent = rec;
+}
+function submitTrial(e){
+  e.preventDefault();
+  const name = document.getElementById("trName").value.trim();
+  const cls = document.getElementById("trClass").value;
+  const date = document.getElementById("trDate").value;
+  const pkg = document.getElementById("trPkg").value || "Belum tahu";
+  if (!cls || !date){ showToast("Pilih kelas & tanggal trial dulu"); return; }
+  lastTrial = { name, cls, date, pkg };
+  document.getElementById("trialSummary").textContent = `${name} • Kelas ${cls} • ${date} • Paket diminati: ${pkg}. Tunjukkan pesan ini di resepsionis.`;
+  document.getElementById("trialResult").classList.remove("hidden");
+  document.getElementById("trialResult").scrollIntoView({behavior:"smooth", block:"center"});
+  showToast("Trial berhasil dibooking!");
+}
+function trialWA(){
+  if (!lastTrial) return;
+  const msg = `Halo BugarFit! Saya ${lastTrial.name}, mau booking trial GRATIS:\n\nKelas: ${lastTrial.cls}\nTanggal: ${lastTrial.date}\nPaket diminati: ${lastTrial.pkg}\n\nTerima kasih!`;
+  window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`, "_blank");
+}
+let toastTimer;
+function showToast(msg){
+  const el = document.getElementById("toast");
+  el.textContent = msg;
+  el.style.opacity = "1"; el.style.transform = "translate(-50%, 0)";
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>{ el.style.opacity = "0"; el.style.transform = "translate(-50%, 1rem)"; }, 2500);
+}
+document.getElementById("trDate").min = new Date().toISOString().split("T")[0];
+renderPackages();
+calcBMI();
+</script>
+</body>
+</html>

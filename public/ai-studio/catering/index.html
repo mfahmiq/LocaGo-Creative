@@ -1,0 +1,279 @@
+<!-- Dibuat dengan Google AI Studio — Source Code Gratis by LocaGo Creative (locagocreative.my.id) -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dapur Berkah Catering — Nasi Kotak & Prasmanan Enak, Harga Bersahabat | Jakarta</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script>
+tailwind.config = { theme: { extend: { fontFamily: { serif: ['"Playfair Display"','serif'], sans: ['Poppins','sans-serif'] }, colors: { dapur: { 900:'#3F1D0B', 800:'#5D2E12', 700:'#7C3F16', gold:'#E8A020', cream:'#FFF9F0', leaf:'#2F7D32' } } } } }
+</script>
+<style>
+  html{scroll-behavior:smooth}
+  .pkg-card{transition:transform .25s ease, box-shadow .25s ease}
+  .pkg-card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(63,29,11,.18)}
+  .pkg-card.selected{outline:3px solid #E8A020;outline-offset:2px}
+  .toast{transition:opacity .3s ease, transform .3s ease}
+  .hero-img{object-position:center 40%}
+</style>
+</head>
+<body class="font-sans bg-dapur-cream text-dapur-900">
+
+<!-- NAVBAR -->
+<header class="sticky top-0 z-50 bg-dapur-900/95 backdrop-blur text-white shadow-lg">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="#" class="flex items-center gap-2">
+      <span class="text-2xl">🍱</span>
+      <span class="font-serif font-bold text-xl tracking-wide">Dapur <span class="text-dapur-gold">Berkah</span></span>
+    </a>
+    <nav class="hidden md:flex gap-6 text-sm font-medium">
+      <a href="#paket" class="hover:text-dapur-gold">Paket</a>
+      <a href="#kalkulator" class="hover:text-dapur-gold">Hitung Harga</a>
+      <a href="#order" class="hover:text-dapur-gold">Pesan</a>
+      <a href="#testimoni" class="hover:text-dapur-gold">Testimoni</a>
+    </nav>
+    <a href="#order" class="bg-dapur-gold text-dapur-900 font-semibold px-4 py-2 rounded-full text-sm hover:bg-yellow-500">Pesan Sekarang</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="relative h-[520px] md:h-[600px] overflow-hidden">
+  <img src="https://images.unsplash.com/photo-1555244162-803834f70033?w=1600&q=80" alt="Hidangan prasmanan catering" class="hero-img absolute inset-0 w-full h-full object-cover">
+  <div class="absolute inset-0 bg-gradient-to-r from-dapur-900/85 via-dapur-900/55 to-transparent"></div>
+  <div class="relative max-w-6xl mx-auto px-4 h-full flex flex-col justify-center text-white">
+    <span class="bg-dapur-gold text-dapur-900 text-xs font-bold px-3 py-1 rounded-full w-max mb-4">★ 4.9 — 1.800+ acara dilayani</span>
+    <h1 class="font-serif text-4xl md:text-6xl font-bold leading-tight max-w-xl">Makan Enak,<br>Acara <span class="text-dapur-gold">Berkesan</span>.</h1>
+    <p class="mt-4 text-base md:text-lg text-white/85 max-w-lg">Nasi kotak, prasmanan, dan snack box untuk rapat, hajatan, hingga pernikahan. Dimasak fresh di hari H, diantar tepat waktu.</p>
+    <div class="mt-6 flex flex-wrap gap-3">
+      <a href="#kalkulator" class="bg-dapur-gold text-dapur-900 font-semibold px-6 py-3 rounded-full hover:bg-yellow-500">Hitung Harga Pesanan</a>
+      <a href="#paket" class="border-2 border-white/70 px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-dapur-900">Lihat Paket Menu</a>
+    </div>
+    <div class="mt-8 flex flex-wrap gap-6 text-sm text-white/80">
+      <span>🕖 Buka 07.00 – 20.00 WIB</span><span>📍 Jakarta</span><span>🚚 Antar Jabodetabek</span>
+    </div>
+  </div>
+</section>
+
+<!-- KEUNGGULAN -->
+<section class="max-w-6xl mx-auto px-4 py-10 grid grid-cols-2 md:grid-cols-4 gap-4">
+  <div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">👨‍🍳</div><h3 class="font-semibold mt-2">Dimasak Fresh</h3><p class="text-sm text-stone-500 mt-1">Dimasak di hari H, bukan stok kemarin</p></div>
+  <div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">✅</div><h3 class="font-semibold mt-2">Halal 100%</h3><p class="text-sm text-stone-500 mt-1">Bahan halal &amp; higienis terjamin</p></div>
+  <div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">🚚</div><h3 class="font-semibold mt-2">Antar Tepat Waktu</h3><p class="text-sm text-stone-500 mt-1">Gratis ongkir min. 100 porsi (Jakarta)</p></div>
+  <div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">💸</div><h3 class="font-semibold mt-2">Mulai Rp15 ribu</h3><p class="text-sm text-stone-500 mt-1">Diskon sampai 10% untuk 500+ porsi</p></div>
+</section>
+
+<!-- PAKET -->
+<section id="paket" class="max-w-6xl mx-auto px-4 py-8">
+  <h2 class="font-serif text-3xl md:text-4xl font-bold text-center">Paket Menu</h2>
+  <p class="text-center text-stone-500 mt-2">Klik paket untuk memilih — harga dihitung per porsi (per pax).</p>
+  <div id="pkgGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-8"></div>
+</section>
+
+<!-- KALKULATOR -->
+<section id="kalkulator" class="bg-dapur-900 text-white py-14 mt-8">
+  <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+    <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=1000&q=80" alt="Koki menyiapkan hidangan" class="rounded-3xl shadow-2xl w-full h-72 object-cover">
+    <div>
+      <h2 class="font-serif text-3xl md:text-4xl font-bold">🧮 Kalkulator Harga</h2>
+      <p class="mt-3 text-white/80 text-sm">Pilih paket, masukkan jumlah porsi — total langsung terhitung, termasuk diskon jumlah besar.</p>
+      <div class="mt-6 bg-white text-dapur-900 rounded-3xl p-6 shadow-xl space-y-4">
+        <label class="block text-sm font-medium">Paket
+          <select id="calcPkg" onchange="calcPrice()" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm"></select>
+        </label>
+        <label class="block text-sm font-medium">Jumlah Porsi (min. 20 porsi)
+          <input id="calcQty" type="number" min="20" value="100" oninput="calcPrice()" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+        </label>
+        <div class="space-y-1 text-sm">
+          <div class="flex justify-between"><span>Harga per porsi</span><span id="calcUnit" class="font-semibold">Rp25.000</span></div>
+          <div class="flex justify-between"><span>Subtotal</span><span id="calcSub" class="font-semibold">Rp2.500.000</span></div>
+          <div class="flex justify-between text-green-700"><span>Diskon</span><span id="calcDisc" class="font-semibold">Rp0</span></div>
+          <div class="flex justify-between font-bold text-lg border-t pt-2"><span>Total Bayar</span><span id="calcTotal" class="text-dapur-700">Rp2.500.000</span></div>
+        </div>
+        <p id="calcNote" class="text-xs text-stone-500">💡 Pesan 200+ porsi diskon 5%, 500+ porsi diskon 10%.</p>
+        <button onclick="useCalcForOrder()" class="w-full bg-dapur-gold text-dapur-900 font-bold py-3 rounded-full hover:bg-yellow-500">Pesan Paket Ini →</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ORDER -->
+<section id="order" class="max-w-6xl mx-auto px-4 py-14">
+  <div class="grid md:grid-cols-5 gap-6">
+    <div class="md:col-span-3 bg-white rounded-3xl p-7 shadow">
+      <h2 class="font-serif text-2xl md:text-3xl font-bold">📝 Form Pemesanan</h2>
+      <p class="text-sm text-stone-500 mt-1">Isi form — pesananmu langsung terkirim ke WhatsApp kami.</p>
+      <form id="orderForm" class="mt-6 space-y-4" onsubmit="submitOrder(event)">
+        <label class="block text-sm font-medium">Nama Pemesan
+          <input id="odName" type="text" required placeholder="cth: Sari Wijaya" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+        </label>
+        <label class="block text-sm font-medium">Nomor WhatsApp
+          <input id="odWa" type="tel" required placeholder="cth: 081234567890" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+        </label>
+        <div class="grid grid-cols-2 gap-4">
+          <label class="block text-sm font-medium">Paket
+            <select id="odPkg" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm"></select>
+          </label>
+          <label class="block text-sm font-medium">Jumlah Porsi
+            <input id="odQty" type="number" min="20" value="100" required class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+          </label>
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+          <label class="block text-sm font-medium">Tanggal Acara
+            <input id="odDate" type="date" required class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+          </label>
+          <label class="block text-sm font-medium">Jam Pengiriman
+            <select id="odTime" required class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+              <option value="">Pilih jam</option>
+              <option>07.00</option><option>09.00</option><option>11.00</option>
+              <option>13.00</option><option>15.00</option><option>17.00</option><option>18.00</option>
+            </select>
+          </label>
+        </div>
+        <label class="block text-sm font-medium">Alamat Pengiriman
+          <textarea id="odAddr" rows="2" required placeholder="cth: Jl. Sudirman No. 10, Jakarta Selatan" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm"></textarea>
+        </label>
+        <label class="block text-sm font-medium">Catatan (opsional)
+          <input id="odNote" type="text" placeholder="cth: 10 porsi vegetarian, tanpa sambal" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+        </label>
+        <button type="submit" class="w-full bg-green-600 text-white font-bold py-3 rounded-full hover:bg-green-700">✅ Kirim Pesanan via WhatsApp</button>
+      </form>
+    </div>
+    <div class="md:col-span-2 space-y-6">
+      <div class="bg-dapur-800 text-white rounded-3xl p-7 shadow">
+        <h3 class="font-serif text-2xl font-bold">📍 Lokasi &amp; Jam Buka</h3>
+        <p class="mt-3 text-white/80 text-sm">Jl. Tebet Raya No. 21, Jakarta Selatan 12810</p>
+        <table class="mt-4 w-full text-sm">
+          <tr class="border-b border-white/20"><td class="py-2 font-medium">Senin – Sabtu</td><td class="py-2 text-right">07.00 – 20.00 WIB</td></tr>
+          <tr class="border-b border-white/20"><td class="py-2 font-medium">Minggu</td><td class="py-2 text-right">08.00 – 17.00 WIB</td></tr>
+        </table>
+        <p class="mt-4 text-sm text-white/70">📞 0812-3456-7890 &nbsp;•&nbsp; 📸 @dapurberkah.catering</p>
+      </div>
+      <div class="bg-white rounded-3xl p-7 shadow">
+        <h3 class="font-serif text-xl font-bold">💡 Ketentuan Pesanan</h3>
+        <ul class="mt-3 space-y-2 text-sm text-stone-600">
+          <li>✔ Min. order 20 porsi per paket</li>
+          <li>✔ Pesan min. H-2 sebelum acara (H-7 untuk 500+ porsi)</li>
+          <li>✔ DP 50%, pelunasan saat pengiriman</li>
+          <li>✔ Gratis ongkir min. 100 porsi (area Jakarta)</li>
+          <li>✔ Bisa request menu vegetarian / tanpa pedas</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONI -->
+<section id="testimoni" class="max-w-6xl mx-auto px-4 pb-14">
+  <h2 class="font-serif text-3xl md:text-4xl font-bold text-center">Kata Mereka</h2>
+  <div class="grid md:grid-cols-3 gap-5 mt-8">
+    <div class="bg-white rounded-2xl p-6 shadow"><div class="text-dapur-gold text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Nasi kotak untuk rapat 150 orang, rasanya enak semua, datang tepat waktu. Sudah 3x order."</p><p class="mt-4 font-semibold">— Bu Ratna, HRD Perusahaan</p></div>
+    <div class="bg-white rounded-2xl p-6 shadow"><div class="text-dapur-gold text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Prasmanan pernikahan 400 pax, tamu sampai nanya cateringnya dari mana. Pelayanannya juga rapi."</p><p class="mt-4 font-semibold">— Andi &amp; Maya, Pengantin</p></div>
+    <div class="bg-white rounded-2xl p-6 shadow"><div class="text-dapur-gold text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Snack box buat pengajian tiap minggu, harganya bersahabat dan rasanya konsisten enak."</p><p class="mt-4 font-semibold">— Pak Haji Slamet, Takmir Masjid</p></div>
+  </div>
+</section>
+
+<footer class="bg-dapur-900 text-white/70 text-center py-6 text-sm">
+  © 2026 Dapur Berkah Catering — Dibuat dengan Google AI Studio • Source code gratis by <span class="text-dapur-gold">LocaGo Creative</span> (locagocreative.my.id)
+</footer>
+
+<!-- TOAST -->
+<div id="toast" class="toast fixed bottom-5 left-1/2 -translate-x-1/2 translate-y-4 opacity-0 bg-dapur-900 text-white text-sm font-medium px-5 py-3 rounded-full shadow-xl z-[80] pointer-events-none">OK</div>
+
+<script>
+const WA_NUMBER = "6281234567890";
+const PACKAGES = [
+  {id:1, name:"Nasi Kotak Hemat", price:25000, desc:"Nasi, ayam goreng, telur balado, sayur, sambal, buah, air mineral.", img:"https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80", tag:"Paling Laris"},
+  {id:2, name:"Nasi Kotak Premium", price:35000, desc:"Nasi, ayam bakar / rendang, telur, sayur, kerupuk, puding, air mineral.", img:"https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80"},
+  {id:3, name:"Prasmanan Standar", price:45000, desc:"2 menu utama, nasi, sayur, buah, air mineral. Min. 100 porsi.", img:"https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&q=80"},
+  {id:4, name:"Prasmanan Premium", price:65000, desc:"3 menu utama + dessert, nasi, sayur, buah, es teh. Min. 100 porsi.", img:"https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&q=80"},
+  {id:5, name:"Snack Box", price:15000, desc:"Roti / kue, buah potong, air mineral. Cocok untuk seminar & pengajian.", img:"https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80"},
+  {id:6, name:"Tumpeng Kuning", price:750000, desc:"Tumpeng untuk 20 porsi + lauk lengkap (ayam, telur, urap, kering tempe).", img:"https://images.unsplash.com/photo-1551218808-94e220e084d2?w=600&q=80", perOrder:true},
+];
+const fmt = n => "Rp" + n.toLocaleString("id-ID");
+let selectedPkg = 1;
+
+function discountRate(qty){ if (qty >= 500) return 0.10; if (qty >= 200) return 0.05; return 0; }
+function priceFor(pkg, qty){
+  if (pkg.perOrder) return { unit: pkg.price, sub: pkg.price * Math.ceil(qty / 20), disc: 0, total: pkg.price * Math.ceil(qty / 20), rate: 0 };
+  const sub = pkg.price * qty;
+  const rate = discountRate(qty);
+  const disc = Math.round(sub * rate);
+  return { unit: pkg.price, sub, disc, total: sub - disc, rate };
+}
+function renderPackages(){
+  document.getElementById("pkgGrid").innerHTML = PACKAGES.map(p => `
+    <article class="pkg-card ${selectedPkg === p.id ? "selected" : ""} bg-white rounded-3xl overflow-hidden shadow cursor-pointer" onclick="selectPkg(${p.id})">
+      <div class="relative">
+        <img src="${p.img}" alt="${p.name}" class="w-full h-44 object-cover" loading="lazy">
+        ${p.tag ? `<span class="absolute top-3 left-3 bg-dapur-gold text-dapur-900 text-xs font-bold px-2 py-1 rounded-full">${p.tag}</span>` : ""}
+      </div>
+      <div class="p-5">
+        <h3 class="font-semibold text-lg">${p.name}</h3>
+        <p class="text-sm text-stone-500 mt-1">${p.desc}</p>
+        <p class="font-bold text-dapur-700 text-lg mt-3">${fmt(p.price)}<span class="text-sm font-normal text-stone-500"> ${p.perOrder ? "/ 20 porsi" : "/ porsi"}</span></p>
+        <p class="text-xs mt-2 ${selectedPkg === p.id ? "text-green-700 font-semibold" : "text-stone-400"}">${selectedPkg === p.id ? "✔ Dipilih" : "Klik untuk pilih"}</p>
+      </div>
+    </article>`).join("");
+  const opts = PACKAGES.map(p => `<option value="${p.id}">${p.name} — ${fmt(p.price)}${p.perOrder ? " / 20 porsi" : " / porsi"}</option>`).join("");
+  document.getElementById("calcPkg").innerHTML = opts;
+  document.getElementById("odPkg").innerHTML = opts;
+  document.getElementById("calcPkg").value = selectedPkg;
+  document.getElementById("odPkg").value = selectedPkg;
+}
+function selectPkg(id){
+  selectedPkg = id;
+  document.getElementById("calcPkg").value = id;
+  document.getElementById("odPkg").value = id;
+  renderPackages();
+  calcPrice();
+}
+function calcPrice(){
+  const pkg = PACKAGES.find(p => p.id === +document.getElementById("calcPkg").value);
+  let qty = parseInt(document.getElementById("calcQty").value, 10);
+  if (isNaN(qty) || qty < 1) qty = 1;
+  const r = priceFor(pkg, qty);
+  document.getElementById("calcUnit").textContent = fmt(r.unit) + (pkg.perOrder ? " / 20 porsi" : " / porsi");
+  document.getElementById("calcSub").textContent = fmt(r.sub);
+  document.getElementById("calcDisc").textContent = r.disc ? "− " + fmt(r.disc) + " (" + Math.round(r.rate * 100) + "%)" : "Rp0";
+  document.getElementById("calcTotal").textContent = fmt(r.total);
+  document.getElementById("calcNote").textContent = pkg.perOrder
+    ? "💡 Tumpeng dihitung per 20 porsi. Contoh: 100 porsi = 5 tumpeng."
+    : "💡 Pesan 200+ porsi diskon 5%, 500+ porsi diskon 10%.";
+}
+function useCalcForOrder(){
+  document.getElementById("odPkg").value = document.getElementById("calcPkg").value;
+  document.getElementById("odQty").value = document.getElementById("calcQty").value;
+  document.getElementById("order").scrollIntoView({behavior:"smooth"});
+  showToast("Paket sudah dipilih di form pemesanan");
+}
+function submitOrder(e){
+  e.preventDefault();
+  const pkg = PACKAGES.find(p => p.id === +document.getElementById("odPkg").value);
+  const qty = parseInt(document.getElementById("odQty").value, 10);
+  const name = document.getElementById("odName").value.trim();
+  const date = document.getElementById("odDate").value;
+  const time = document.getElementById("odTime").value;
+  const addr = document.getElementById("odAddr").value.trim();
+  const note = document.getElementById("odNote").value.trim();
+  if (qty < 20 && !pkg.perOrder){ showToast("Minimal order 20 porsi"); return; }
+  const r = priceFor(pkg, qty);
+  const msg = `Halo Dapur Berkah! Saya ${name}, mau pesan catering:\n\nPaket: ${pkg.name} (${fmt(pkg.price)}${pkg.perOrder ? " / 20 porsi" : " / porsi"})\nJumlah: ${qty} porsi\nTanggal acara: ${date} pukul ${time} WIB\nAlamat: ${addr}${note ? `\nCatatan: ${note}` : ""}\n\nSubtotal: ${fmt(r.sub)}${r.disc ? `\nDiskon: − ${fmt(r.disc)}` : ""}\nTotal: ${fmt(r.total)}\n\nTerima kasih!`;
+  window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`, "_blank");
+  showToast("Pesanan dibuka di WhatsApp — silakan kirim");
+}
+let toastTimer;
+function showToast(msg){
+  const el = document.getElementById("toast");
+  el.textContent = msg;
+  el.style.opacity = "1"; el.style.transform = "translate(-50%, 0)";
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>{ el.style.opacity = "0"; el.style.transform = "translate(-50%, 1rem)"; }, 2500);
+}
+document.getElementById("odDate").min = new Date().toISOString().split("T")[0];
+renderPackages();
+calcPrice();
+</script>
+</body>
+</html>

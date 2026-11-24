@@ -1,0 +1,324 @@
+<!-- Dibuat dengan Google AI Studio — Source Code Gratis by LocaGo Creative (locagocreative.my.id) -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cerdas Bangsa — Bimbel & Les Privat SD, SMP, SMA, UTBK | Yogyakarta</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script>
+tailwind.config = { theme: { extend: { fontFamily: { display: ['Nunito','sans-serif'], sans: ['Poppins','sans-serif'] }, colors: { bimbel: { 900:'#1E1B4B', 800:'#2E2A7A', 700:'#4338CA', 500:'#6366F1', 100:'#E0E7FF', cream:'#F5F6FF', gold:'#F59E0B' } } } } }
+</script>
+<style>
+  html{scroll-behavior:smooth}
+  .prog-card{transition:transform .25s ease, box-shadow .25s ease}
+  .prog-card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(30,27,75,.18)}
+  .prog-card.selected{outline:3px solid #6366F1;outline-offset:2px}
+  .toast{transition:opacity .3s ease, transform .3s ease}
+  .hero-img{object-position:center 30%}
+</style>
+</head>
+<body class="font-sans bg-bimbel-cream text-bimbel-900">
+
+<!-- NAVBAR -->
+<header class="sticky top-0 z-50 bg-bimbel-900/95 backdrop-blur text-white shadow-lg">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="#" class="flex items-center gap-2">
+      <span class="text-2xl">🎓</span>
+      <span class="font-display font-black text-xl tracking-wide">Cerdas <span class="text-bimbel-gold">Bangsa</span></span>
+    </a>
+    <nav class="hidden md:flex gap-6 text-sm font-medium">
+      <a href="#program" class="hover:text-bimbel-gold">Program</a>
+      <a href="#kalkulator" class="hover:text-bimbel-gold">Hitung Biaya</a>
+      <a href="#tutor" class="hover:text-bimbel-gold">Tutor</a>
+      <a href="#daftar" class="hover:text-bimbel-gold">Daftar</a>
+    </nav>
+    <a href="#daftar" class="bg-bimbel-gold text-bimbel-900 font-semibold px-4 py-2 rounded-full text-sm hover:bg-amber-400">Daftar Sekarang</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="relative h-[520px] md:h-[600px] overflow-hidden">
+  <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1600&q=80" alt="Suasana kelas bimbel" class="hero-img absolute inset-0 w-full h-full object-cover">
+  <div class="absolute inset-0 bg-gradient-to-r from-bimbel-900/90 via-bimbel-900/60 to-transparent"></div>
+  <div class="relative max-w-6xl mx-auto px-4 h-full flex flex-col justify-center text-white">
+    <span class="bg-bimbel-gold text-bimbel-900 text-xs font-bold px-3 py-1 rounded-full w-max mb-4">★ 4.9 — 1.200+ siswa lulus ke sekolah &amp; kampus favorit</span>
+    <h1 class="font-display text-4xl md:text-6xl font-black leading-tight max-w-xl">Belajar Seru,<br>Prestasi <span class="text-bimbel-gold">Naik</span>.</h1>
+    <p class="mt-4 text-base md:text-lg text-white/85 max-w-lg">Bimbel SD, SMP, SMA &amp; persiapan UTBK/SNBT dengan tutor berpengalaman. Kelas kecil (maks. 10 siswa) atau les privat 1-on-1.</p>
+    <div class="mt-6 flex flex-wrap gap-3">
+      <a href="#kalkulator" class="bg-bimbel-gold text-bimbel-900 font-semibold px-6 py-3 rounded-full hover:bg-amber-400">Hitung Biaya Belajar</a>
+      <a href="#program" class="border-2 border-white/70 px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-bimbel-900">Lihat Program</a>
+    </div>
+    <div class="mt-8 flex flex-wrap gap-6 text-sm text-white/80">
+      <span>🕑 Kelas 14.00 – 20.00 WIB</span><span>📍 Yogyakarta</span><span>💻 Kelas online tersedia</span>
+    </div>
+  </div>
+</section>
+
+<!-- KEUNGGULAN -->
+<section class="max-w-6xl mx-auto px-4 py-10 grid grid-cols-2 md:grid-cols-4 gap-4">
+  <div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">👩‍🏫</div><h3 class="font-semibold mt-2">Tutor Berpengalaman</h3><p class="text-sm text-stone-500 mt-1">Lulusan kampus ternama, min. 5 tahun mengajar</p></div>
+  <div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">👥</div><h3 class="font-semibold mt-2">Kelas Kecil</h3><p class="text-sm text-stone-500 mt-1">Maks. 10 siswa, perhatian penuh</p></div>
+  <div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">📝</div><h3 class="font-semibold mt-2">Try Out Rutin</h3><p class="text-sm text-stone-500 mt-1">Try out + pembahasan setiap bulan</p></div>
+  <div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">💸</div><h3 class="font-semibold mt-2">Mulai Rp350 ribu/bln</h3><p class="text-sm text-stone-500 mt-1">Diskon sampai 15% untuk 12 bulan</p></div>
+</section>
+
+<!-- PROGRAM -->
+<section id="program" class="max-w-6xl mx-auto px-4 py-8">
+  <h2 class="font-display text-3xl md:text-4xl font-black text-center">Program Belajar</h2>
+  <p class="text-center text-stone-500 mt-2">Klik program untuk memilih — biaya dihitung di kalkulator di bawah.</p>
+  <div id="progGrid" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-8"></div>
+</section>
+
+<!-- KALKULATOR -->
+<section id="kalkulator" class="bg-bimbel-900 text-white py-14 mt-8">
+  <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+    <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1000&q=80" alt="Siswa belajar kelompok bersama tutor" class="rounded-3xl shadow-2xl w-full h-72 object-cover">
+    <div>
+      <h2 class="font-display text-3xl md:text-4xl font-black">🧮 Kalkulator Biaya</h2>
+      <p class="mt-3 text-white/80 text-sm">Pilih program &amp; durasi — total langsung terhitung, termasuk diskon durasi panjang.</p>
+      <div class="mt-6 bg-white text-bimbel-900 rounded-3xl p-6 shadow-xl space-y-4">
+        <label class="block text-sm font-medium">Program
+          <select id="calcProg" onchange="calcCost()" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm"></select>
+        </label>
+        <label class="block text-sm font-medium">Durasi
+          <select id="calcMonths" onchange="calcCost()" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+            <option value="1">1 bulan</option>
+            <option value="3" selected>3 bulan (diskon 5%)</option>
+            <option value="6">6 bulan (diskon 10%)</option>
+            <option value="12">12 bulan (diskon 15%)</option>
+          </select>
+        </label>
+        <div class="space-y-1 text-sm">
+          <div class="flex justify-between"><span>Biaya per bulan</span><span id="calcUnit" class="font-semibold">Rp450.000</span></div>
+          <div class="flex justify-between"><span>Subtotal</span><span id="calcSub" class="font-semibold">Rp1.350.000</span></div>
+          <div class="flex justify-between text-green-700"><span>Diskon</span><span id="calcDisc" class="font-semibold">− Rp67.500 (5%)</span></div>
+          <div class="flex justify-between font-bold text-lg border-t pt-2"><span>Total Bayar</span><span id="calcTotal" class="text-bimbel-700">Rp1.282.500</span></div>
+        </div>
+        <p class="text-xs text-stone-500">💡 Biaya sudah termasuk modul, try out bulanan &amp; akses grup diskusi. Les privat dihitung per pertemuan.</p>
+        <button onclick="useCalcForReg()" class="w-full bg-bimbel-gold text-bimbel-900 font-bold py-3 rounded-full hover:bg-amber-400">Daftar Program Ini →</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TUTOR -->
+<section id="tutor" class="max-w-6xl mx-auto px-4 py-14">
+  <h2 class="font-display text-3xl md:text-4xl font-black text-center">Tutor Kami</h2>
+  <p class="text-center text-stone-500 mt-2">Sebagian dari 25 tutor berpengalaman kami.</p>
+  <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-8">
+    <div class="bg-white rounded-3xl p-6 shadow text-center"><div class="w-16 h-16 mx-auto rounded-full bg-bimbel-500 text-white flex items-center justify-center text-2xl font-black">A</div><h3 class="font-bold text-lg mt-3">Ahmad Fauzi, S.Pd.</h3><p class="text-sm text-stone-500">Matematika • 8 thn • ★ 4.9</p><p class="text-sm text-stone-600 mt-2">Lulusan UGM, spesialis UTBK &amp; olimpiade matematika.</p></div>
+    <div class="bg-white rounded-3xl p-6 shadow text-center"><div class="w-16 h-16 mx-auto rounded-full bg-bimbel-gold text-bimbel-900 flex items-center justify-center text-2xl font-black">S</div><h3 class="font-bold text-lg mt-3">Sinta Dewi, S.Si.</h3><p class="text-sm text-stone-500">Fisika &amp; Kimia • 7 thn • ★ 4.9</p><p class="text-sm text-stone-600 mt-2">Lulusan ITB, cara mengajarnya mudah dipahami.</p></div>
+    <div class="bg-white rounded-3xl p-6 shadow text-center"><div class="w-16 h-16 mx-auto rounded-full bg-bimbel-700 text-white flex items-center justify-center text-2xl font-black">R</div><h3 class="font-bold text-lg mt-3">Rina Marlina, S.Pd.</h3><p class="text-sm text-stone-500">Bahasa Inggris • 6 thn • ★ 5.0</p><p class="text-sm text-stone-600 mt-2">TOEFL 600+, fokus speaking &amp; grammar praktis.</p></div>
+    <div class="bg-white rounded-3xl p-6 shadow text-center"><div class="w-16 h-16 mx-auto rounded-full bg-green-500 text-white flex items-center justify-center text-2xl font-black">B</div><h3 class="font-bold text-lg mt-3">Budi Hartono, S.Pd.</h3><p class="text-sm text-stone-500">SD &amp; Calistung • 10 thn • ★ 4.8</p><p class="text-sm text-stone-600 mt-2">Sabar &amp; telaten, favorit anak-anak SD.</p></div>
+  </div>
+</section>
+
+<!-- DAFTAR -->
+<section id="daftar" class="max-w-6xl mx-auto px-4 pb-14">
+  <div class="grid md:grid-cols-5 gap-6">
+    <div class="md:col-span-3 bg-white rounded-3xl p-7 shadow">
+      <h2 class="font-display text-2xl md:text-3xl font-black">📝 Form Pendaftaran Siswa</h2>
+      <p class="text-sm text-stone-500 mt-1">Isi form — dapatkan <b>nomor pendaftaran</b>, lalu konfirmasi via WhatsApp.</p>
+      <form id="regForm" class="mt-6 space-y-4" onsubmit="submitReg(event)">
+        <label class="block text-sm font-medium">Nama Siswa
+          <input id="rgName" type="text" required placeholder="cth: Putri Ayu Lestari" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+        </label>
+        <div class="grid grid-cols-2 gap-4">
+          <label class="block text-sm font-medium">Jenjang / Kelas
+            <select id="rgLevel" required class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+              <option value="">Pilih jenjang</option>
+              <option>SD — Kelas 1-3</option><option>SD — Kelas 4-6</option>
+              <option>SMP — Kelas 7</option><option>SMP — Kelas 8</option><option>SMP — Kelas 9</option>
+              <option>SMA — Kelas 10</option><option>SMA — Kelas 11</option><option>SMA — Kelas 12</option>
+              <option>Alumni / Gap Year (UTBK)</option>
+            </select>
+          </label>
+          <label class="block text-sm font-medium">Nomor WhatsApp Orang Tua
+            <input id="rgWa" type="tel" required placeholder="cth: 081234567890" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+          </label>
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+          <label class="block text-sm font-medium">Program
+            <select id="rgProg" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm"></select>
+          </label>
+          <label class="block text-sm font-medium">Durasi
+            <select id="rgMonths" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+              <option value="1">1 bulan</option>
+              <option value="3" selected>3 bulan</option>
+              <option value="6">6 bulan</option>
+              <option value="12">12 bulan</option>
+            </select>
+          </label>
+        </div>
+        <label class="block text-sm font-medium">Pilihan Kelas
+          <select id="rgMode" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+            <option>Kelas Reguler (offline, maks. 10 siswa)</option>
+            <option>Kelas Online (live via Zoom)</option>
+            <option>Les Privat 1-on-1 (di rumah / online)</option>
+          </select>
+        </label>
+        <div class="flex justify-between font-bold text-lg border-t pt-4"><span>Total Biaya</span><span id="rgTotal" class="text-bimbel-700">Rp1.282.500</span></div>
+        <button type="submit" class="w-full bg-bimbel-gold text-bimbel-900 font-bold py-3 rounded-full hover:bg-amber-400">✅ Daftar Sekarang</button>
+      </form>
+      <div id="regResult" class="hidden mt-6 bg-green-50 border border-green-300 rounded-2xl p-5 text-center">
+        <p class="text-3xl">🎉</p>
+        <h3 class="font-bold text-lg mt-2">Pendaftaran Berhasil!</h3>
+        <p class="text-sm text-stone-600 mt-1">Nomor pendaftaran kamu:</p>
+        <p id="regCode" class="font-display font-black text-3xl tracking-widest text-green-700 mt-1">CB-000000</p>
+        <p id="regSummary" class="text-sm text-stone-600 mt-2"></p>
+        <button onclick="regWA()" class="mt-4 bg-green-600 text-white font-semibold px-6 py-2 rounded-full hover:bg-green-700">Konfirmasi via WhatsApp</button>
+      </div>
+    </div>
+    <div class="md:col-span-2 space-y-6">
+      <div class="bg-bimbel-800 text-white rounded-3xl p-7 shadow">
+        <h3 class="font-display text-2xl font-black">📍 Lokasi &amp; Jam Buka</h3>
+        <p class="mt-3 text-white/80 text-sm">Jl. Kaliurang Km 5, Yogyakarta 55581<br>(dekat Kampus UGM)</p>
+        <table class="mt-4 w-full text-sm">
+          <tr class="border-b border-white/20"><td class="py-2 font-medium">Senin – Jumat</td><td class="py-2 text-right">14.00 – 20.00 WIB</td></tr>
+          <tr class="border-b border-white/20"><td class="py-2 font-medium">Sabtu</td><td class="py-2 text-right">09.00 – 17.00 WIB</td></tr>
+          <tr><td class="py-2 font-medium">Minggu</td><td class="py-2 text-right">Try out / libur</td></tr>
+        </table>
+        <p class="mt-4 text-sm text-white/70">📞 0812-3456-7890 &nbsp;•&nbsp; 📸 @cerdasbangsa.bimbel</p>
+      </div>
+      <div class="bg-white rounded-3xl p-7 shadow">
+        <h3 class="font-display text-xl font-black">💡 Cara Daftar</h3>
+        <ul class="mt-3 space-y-2 text-sm text-stone-600">
+          <li>✔ Isi form &amp; dapatkan nomor pendaftaran</li>
+          <li>✔ Konfirmasi via WhatsApp (tes penempatan gratis)</li>
+          <li>✔ Bayar DP 50% — bisa transfer / QRIS / tunai</li>
+          <li>✔ Kelas dimulai minggu berikutnya</li>
+          <li>✔ Garansi: tidak cocok, pindah kelas / tutor gratis</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONI -->
+<section class="max-w-6xl mx-auto px-4 pb-14">
+  <h2 class="font-display text-3xl md:text-4xl font-black text-center">Kata Orang Tua &amp; Siswa</h2>
+  <div class="grid md:grid-cols-3 gap-5 mt-8">
+    <div class="bg-white rounded-2xl p-6 shadow"><div class="text-bimbel-gold text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Anak saya dari ranking 20 naik ke 5 besar setelah 6 bulan di sini. Tutornya perhatian banget."</p><p class="mt-4 font-semibold">— Bu Wati, Orang Tua Siswa SMP</p></div>
+    <div class="bg-white rounded-2xl p-6 shadow"><div class="text-bimbel-gold text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Lolos UTBK ke UGM berkat try out rutin dan pembahasan soalnya yang detail. Terima kasih!"</p><p class="mt-4 font-semibold">— Rizky, Alumni UTBK 2025</p></div>
+    <div class="bg-white rounded-2xl p-6 shadow"><div class="text-bimbel-gold text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Les privatnya fleksibel, tutor datang ke rumah. Anak jadi berani tanya dan makin pede."</p><p class="mt-4 font-semibold">— Pak Joko, Orang Tua Siswa SD</p></div>
+  </div>
+</section>
+
+<footer class="bg-bimbel-900 text-white/70 text-center py-6 text-sm">
+  © 2026 Cerdas Bangsa Bimbel &amp; Les Privat — Dibuat dengan Google AI Studio • Source code gratis by <span class="text-bimbel-gold">LocaGo Creative</span> (locagocreative.my.id)
+</footer>
+
+<!-- TOAST -->
+<div id="toast" class="toast fixed bottom-5 left-1/2 -translate-x-1/2 translate-y-4 opacity-0 bg-bimbel-900 text-white text-sm font-medium px-5 py-3 rounded-full shadow-xl z-[80] pointer-events-none">OK</div>
+
+<script>
+const WA_NUMBER = "6281234567890";
+const PROGRAMS = [
+  {id:1, name:"Bimbel SD", price:350000, unit:"/ bulan", desc:"Calistung, Matematika, Bahasa Indonesia & Inggris. Kelas seru & interaktif.", img:"https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&q=80", tag:"Favorit Anak"},
+  {id:2, name:"Bimbel SMP", price:450000, unit:"/ bulan", desc:"Matematika, IPA, Bahasa Inggris & IPS. Persiapan PTS, PAS & ujian sekolah.", img:"https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&q=80"},
+  {id:3, name:"Bimbel SMA", price:550000, unit:"/ bulan", desc:"Matematika, Fisika, Kimia, Biologi, Ekonomi & Bahasa Inggris. Kelas 10-12.", img:"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&q=80"},
+  {id:4, name:"UTBK / SNBT", price:750000, unit:"/ bulan", desc:"Intensif TPS + literasi + penalaran. Try out mingguan + pembahasan soal.", img:"https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600&q=80", tag:"Paling Laris"},
+  {id:5, name:"Les Privat SD", price:150000, unit:"/ pertemuan", desc:"1-on-1 di rumah / online. Semua mata pelajaran SD, 90 menit/pertemuan.", perMeeting:true},
+  {id:6, name:"Les Privat SMP/SMA", price:200000, unit:"/ pertemuan", desc:"1-on-1 di rumah / online. Matematika, Fisika, Kimia, Inggris, 90 menit/pertemuan.", perMeeting:true},
+];
+const fmt = n => "Rp" + n.toLocaleString("id-ID");
+let selectedProg = 2;
+let lastReg = null;
+
+function discRate(months){ if (months >= 12) return 0.15; if (months >= 6) return 0.10; if (months >= 3) return 0.05; return 0; }
+function costFor(prog, months){
+  if (prog.perMeeting){
+    const meets = months * 4;
+    return { unit: prog.price, sub: prog.price * meets, disc: 0, total: prog.price * meets, rate: 0, meets };
+  }
+  const sub = prog.price * months;
+  const rate = discRate(months);
+  const disc = Math.round(sub * rate);
+  return { unit: prog.price, sub, disc, total: sub - disc, rate, meets: 0 };
+}
+function renderPrograms(){
+  document.getElementById("progGrid").innerHTML = PROGRAMS.map(p => `
+    <article class="prog-card ${selectedProg === p.id ? "selected" : ""} bg-white rounded-3xl overflow-hidden shadow cursor-pointer" onclick="selectProg(${p.id})">
+      ${p.img ? `<div class="relative"><img src="${p.img}" alt="${p.name}" class="w-full h-36 object-cover" loading="lazy">${p.tag ? `<span class="absolute top-3 left-3 bg-bimbel-gold text-bimbel-900 text-xs font-bold px-2 py-1 rounded-full">${p.tag}</span>` : ""}</div>` : ""}
+      <div class="p-5">
+        <h3 class="font-semibold text-lg">${p.name}</h3>
+        <p class="text-sm text-stone-500 mt-1">${p.desc}</p>
+        <p class="font-bold text-bimbel-700 text-lg mt-3">${fmt(p.price)}<span class="text-sm font-normal text-stone-500"> ${p.unit}</span></p>
+        <p class="text-xs mt-2 ${selectedProg === p.id ? "text-green-700 font-semibold" : "text-stone-400"}">${selectedProg === p.id ? "✔ Dipilih" : "Klik untuk pilih"}</p>
+      </div>
+    </article>`).join("");
+  const opts = PROGRAMS.map(p => `<option value="${p.id}">${p.name} — ${fmt(p.price)}${p.unit}</option>`).join("");
+  document.getElementById("calcProg").innerHTML = opts;
+  document.getElementById("rgProg").innerHTML = opts;
+  document.getElementById("calcProg").value = selectedProg;
+  document.getElementById("rgProg").value = selectedProg;
+}
+function selectProg(id){
+  selectedProg = id;
+  document.getElementById("calcProg").value = id;
+  document.getElementById("rgProg").value = id;
+  renderPrograms();
+  calcCost();
+  updateRegTotal();
+}
+function calcCost(){
+  const prog = PROGRAMS.find(p => p.id === +document.getElementById("calcProg").value);
+  const months = parseInt(document.getElementById("calcMonths").value, 10);
+  const r = costFor(prog, months);
+  document.getElementById("calcUnit").textContent = fmt(r.unit) + (prog.perMeeting ? " / pertemuan (4x/bulan)" : " / bulan");
+  document.getElementById("calcSub").textContent = fmt(r.sub);
+  document.getElementById("calcDisc").textContent = r.disc ? "− " + fmt(r.disc) + " (" + Math.round(r.rate * 100) + "%)" : "Rp0";
+  document.getElementById("calcTotal").textContent = fmt(r.total);
+}
+function updateRegTotal(){
+  const prog = PROGRAMS.find(p => p.id === +document.getElementById("rgProg").value);
+  const months = parseInt(document.getElementById("rgMonths").value, 10);
+  document.getElementById("rgTotal").textContent = fmt(costFor(prog, months).total);
+}
+function useCalcForReg(){
+  document.getElementById("rgProg").value = document.getElementById("calcProg").value;
+  document.getElementById("rgMonths").value = document.getElementById("calcMonths").value;
+  updateRegTotal();
+  document.getElementById("daftar").scrollIntoView({behavior:"smooth"});
+  showToast("Program sudah dipilih di form pendaftaran");
+}
+function submitReg(e){
+  e.preventDefault();
+  const prog = PROGRAMS.find(p => p.id === +document.getElementById("rgProg").value);
+  const months = parseInt(document.getElementById("rgMonths").value, 10);
+  const name = document.getElementById("rgName").value.trim();
+  const level = document.getElementById("rgLevel").value;
+  const mode = document.getElementById("rgMode").value;
+  if (!level){ showToast("Pilih jenjang / kelas dulu"); return; }
+  const r = costFor(prog, months);
+  const code = "CB-" + Math.floor(100000 + Math.random() * 900000);
+  lastReg = { code, name, level, prog: prog.name, months, mode, total: r.total };
+  document.getElementById("regCode").textContent = code;
+  document.getElementById("regSummary").textContent = `${name} (${level}) • ${prog.name} • ${months} bulan • ${mode} • Total ${fmt(r.total)}`;
+  document.getElementById("regResult").classList.remove("hidden");
+  document.getElementById("regResult").scrollIntoView({behavior:"smooth", block:"center"});
+  showToast("Pendaftaran berhasil! Nomor: " + code);
+}
+function regWA(){
+  if (!lastReg) return;
+  const msg = `Halo Cerdas Bangsa! Saya mau konfirmasi pendaftaran:\n\nNomor pendaftaran: ${lastReg.code}\nNama siswa: ${lastReg.name} (${lastReg.level})\nProgram: ${lastReg.prog} — ${lastReg.months} bulan\nKelas: ${lastReg.mode}\nTotal biaya: ${fmt(lastReg.total)}\n\nTerima kasih!`;
+  window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`, "_blank");
+}
+let toastTimer;
+function showToast(msg){
+  const el = document.getElementById("toast");
+  el.textContent = msg;
+  el.style.opacity = "1"; el.style.transform = "translate(-50%, 0)";
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>{ el.style.opacity = "0"; el.style.transform = "translate(-50%, 1rem)"; }, 2500);
+}
+document.getElementById("rgProg").addEventListener("change", updateRegTotal);
+document.getElementById("rgMonths").addEventListener("change", updateRegTotal);
+renderPrograms();
+calcCost();
+updateRegTotal();
+</script>
+</body>
+</html>
