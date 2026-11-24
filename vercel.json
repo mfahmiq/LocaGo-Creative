@@ -1,8 +1,15 @@
 {
+  "redirects": [
+    {
+      "destination": "/artikel/:slug",
+      "permanent": true,
+      "source": "/panduan/:slug"
+    }
+  ],
   "rewrites": [
     {
-      "source": "/((?!api/).*)",
-      "destination": "/index.html"
+      "destination": "/index.html",
+      "source": "/((?!api/).*)"
     }
   ]
 }
