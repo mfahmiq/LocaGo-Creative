@@ -1,7 +1,58 @@
 {
  "updatedAt": "25 November 2026",
- "total": 39,
+ "total": 40,
  "items": [
+  {
+   "id": "sc-96",
+   "title": "Kotei Restaurant Air Mancur — Website Restoran & Kafe",
+   "slug": "kotei-restaurant-air-mancur-bogor",
+   "category": "Website AI Studio",
+   "techStack": [
+    "HTML",
+    "Tailwind CSS",
+    "JavaScript"
+   ],
+   "description": "Website restoran & kafe siap pakai hasil Google AI Studio untuk Kotei Restaurant Air Mancur (Bogor): menu & harga (hubungi WA untuk harga), keranjang pesanan dengan jumlah item, form pemesanan tanggal & cara pesan dengan kode pesanan otomatis (KR-XXXXXX), dan konfirmasi via WhatsApp. Dilengkapi galeri dan testimoni pelanggan.\n\nLihat demo live di /ai-studio/kotei-restaurant-air-mancur-bogor/ — download ZIP, ekstrak, lalu buka index.html atau upload ke hosting statis apa pun. Panduan penyesuaian (ganti nama, nomor WA, harga, menu) ada di PANDUAN.txt di dalam ZIP.",
+   "shortDesc": "Website restoran & kafe lengkap: menu & harga, keranjang pesanan, form pemesanan dengan kode pesanan, dan konfirmasi via WhatsApp.",
+   "howItWorks": "Website statis satu file HTML (Tailwind CSS + JavaScript). Pemilihan menu, keranjang pesanan, dan form pemesanan berjalan sepenuhnya di browser pengunjung; konfirmasi pesanan dikirim terformat otomatis ke WhatsApp pemilik usaha.",
+   "requirements": "Browser modern apa pun. Tidak perlu server, database, atau instalasi — cukup buka index.html.",
+   "screenshots": [
+    "/screenshots/kotei-restaurant-air-mancur-bogor/screenshot_1.webp"
+   ],
+   "defaultCredentials": [],
+   "updatedAt": "25 November 2026",
+   "releaseDate": "25 November 2026",
+   "recentFastDownloads": 0,
+   "thumbnail": "/screenshots/kotei-restaurant-air-mancur-bogor/screenshot_1.webp",
+   "downloadsCount": 0,
+   "rating": 4.9,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": false,
+   "databaseType": "",
+   "fileSize": "6 KB",
+   "tutorialSteps": [
+    "Download berkas `kotei-restaurant-air-mancur-bogor.zip` dari tombol download.",
+    "Ekstrak berkas ZIP ke folder di komputermu.",
+    "Buka file `index.html` dengan double-click — website langsung tampil di browser.",
+    "Untuk online: upload file `index.html` ke hosting statis (Netlify, Vercel, GitHub Pages, atau hosting apa pun).",
+    "Sesuaikan nama, nomor WhatsApp, harga, dan konten mengikuti `PANDUAN.txt` di dalam ZIP."
+   ],
+   "keyFeatures": [
+    "Menu & harga (hubungi WA untuk harga)",
+    "Keranjang pesanan + atur jumlah",
+    "Form pemesanan tanggal/cara pesan → kode pesanan (KR-XXXXXX)",
+    "Konfirmasi pesanan via WhatsApp",
+    "Galeri foto + testimoni"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=kotei-restaurant-air-mancur-bogor&step=1&max=8",
+   "downloadUrlFast": "/downloads/kotei-restaurant-air-mancur-bogor.zip",
+   "driveUrl": "",
+   "githubRepo": "",
+   "stars": 0,
+   "zipBytes": 6468,
+   "demoUrl": "/ai-studio/kotei-restaurant-air-mancur-bogor/"
+  },
   {
    "id": "sc-95",
    "title": "Gudeg Jogja Pawon Emak — Website Restoran & Kafe",
