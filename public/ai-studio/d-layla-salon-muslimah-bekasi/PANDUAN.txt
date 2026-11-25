@@ -1,0 +1,52 @@
+PANDUAN — d'Layla Salon Muslimah (Salon & Kecantikan)
+================================================================
+Prototype website kasar untuk "d'Layla Salon Muslimah" (Bekasi) — dibuat dengan
+Google AI Studio oleh LocaGo Creative (locagocreative.my.id).
+Ini PROTOTYPE: isi di bawah masih contoh dan WAJIB disesuaikan dengan
+data asli usahamu sebelum dipakai resmi.
+
+DATA ASLI (dari Google Maps)
+----------------------------
+Nama usaha : d'Layla Salon Muslimah
+Alamat     : Jl. Insinyur H. Juanda No.111, RT.005/RW.001, Bekasi, 17113
+Kota       : Bekasi
+WhatsApp   : +62 896-2189-9501 (format WA: 6289621899501)
+Rating Google Maps: 5 / 5 di Google Maps
+
+CARA MEMBUKA
+------------
+1. Double-click file index.html — website langsung terbuka di browser.
+   (Tidak perlu install apa pun.)
+2. Atau upload file index.html ke hosting statis apa pun
+   (Netlify, Vercel, GitHub Pages, Niagahoster, dll).
+
+FITUR
+-----
+- Daftar layanan (contoh) — klik untuk memilih, bisa lebih dari satu
+- Daftar stylist (contoh) dengan spesialisasi & rating — bisa dipilih
+- Galeri foto tempat & hasil kerja
+- Form booking: pilih stylist, layanan, tanggal & jam — keluar KODE
+  BOOKING (cth: DS-123456) + konfirmasi otomatis ke WhatsApp
+- Testimoni, tips sebelum datang, lokasi & jam buka
+
+CARA MENYESUAIKAN (edit file index.html dengan Notepad / VS Code)
+-----------------------------------------------------------------
+- Nama usaha & nomor WhatsApp : cari WA_NUMBER = "6289621899501"
+  di bagian bawah file, ganti dengan nomor WA kamu (format: 62 + nomor).
+- Layanan/menu : cari bagian const SERVICES = [ ... ] (atau const MENU)
+  lalu ubah name, desc, dan icon. HARGA: tambahkan sendiri harga asli —
+  prototype ini sengaja TIDAK mencantumkan harga (tanya via WA).
+- Nama staf : cari bagian const STAFF = [ ... ] lalu ganti "Barber 1" /
+  "Stylist 1" dengan nama tim asli, beserta spesialisasi & rating.
+- Testimoni : ganti 3 testimoni contoh di bagian "Kata Mereka" dengan
+  testimoni asli pelangganmu.
+- Foto galeri : ganti URL Unsplash dengan foto asli tempat/usahanmu.
+- Alamat & jam buka : cari bagian "Lokasi & Jam Buka" di HTML.
+- Warna tema : cari tailwind.config di <head>.
+
+CATATAN
+-------
+- Gambar memakai URL Unsplash — butuh internet saat pertama dibuka.
+- Semua data booking/pesanan hanya tersimpan di browser pengunjung.
+- Bebas dipakai & dimodifikasi untuk usahamu. Dilarang dijual kembali
+  sebagai produk berbayar tanpa izin LocaGo Creative.
