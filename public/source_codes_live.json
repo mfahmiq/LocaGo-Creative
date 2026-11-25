@@ -1,7 +1,59 @@
 {
  "updatedAt": "25 November 2026",
- "total": 73,
+ "total": 74,
  "items": [
+  {
+   "id": "sc-130",
+   "title": "Tracy Salon Puri Indah — Website Salon & Kecantikan",
+   "slug": "tracy-salon-puri-indah-jakarta-barat",
+   "category": "Website AI Studio",
+   "techStack": [
+    "HTML",
+    "Tailwind CSS",
+    "JavaScript"
+   ],
+   "description": "Website salon & kecantikan siap pakai hasil Google AI Studio untuk Tracy Salon Puri Indah (Jakarta Barat): daftar layanan, pilih staf favorit beserta rating & spesialisasi, form booking tanggal/jam dengan kode booking otomatis (TS-XXXXXX), total harga otomatis, dan konfirmasi via WhatsApp. Dilengkapi galeri hasil kerja dan testimoni pelanggan.\n\nLihat demo live di /ai-studio/tracy-salon-puri-indah-jakarta-barat/ — download ZIP, ekstrak, lalu buka index.html atau upload ke hosting statis apa pun. Panduan penyesuaian (ganti nama, nomor WA, harga, layanan) ada di PANDUAN.txt di dalam ZIP.",
+   "shortDesc": "Website salon & kecantikan lengkap: daftar layanan, pilih staf favorit, booking online dengan kode booking, dan galeri hasil kerja.",
+   "howItWorks": "Website statis satu file HTML (Tailwind CSS + JavaScript). Pemilihan layanan dan staf, perhitungan total harga, dan form booking berjalan sepenuhnya di browser pengunjung; konfirmasi booking dikirim terformat otomatis ke WhatsApp pemilik usaha.",
+   "requirements": "Browser modern apa pun. Tidak perlu server, database, atau instalasi — cukup buka index.html.",
+   "screenshots": [
+    "/screenshots/tracy-salon-puri-indah-jakarta-barat/screenshot_1.webp"
+   ],
+   "defaultCredentials": [],
+   "updatedAt": "25 November 2026",
+   "releaseDate": "25 November 2026",
+   "recentFastDownloads": 0,
+   "thumbnail": "/screenshots/tracy-salon-puri-indah-jakarta-barat/screenshot_1.webp",
+   "downloadsCount": 0,
+   "rating": 4.9,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": false,
+   "databaseType": "",
+   "fileSize": "7 KB",
+   "tutorialSteps": [
+    "Download berkas `tracy-salon-puri-indah-jakarta-barat.zip` dari tombol download.",
+    "Ekstrak berkas ZIP ke folder di komputermu.",
+    "Buka file `index.html` dengan double-click — website langsung tampil di browser.",
+    "Untuk online: upload file `index.html` ke hosting statis (Netlify, Vercel, GitHub Pages, atau hosting apa pun).",
+    "Sesuaikan nama, nomor WhatsApp, harga, dan konten mengikuti `PANDUAN.txt` di dalam ZIP."
+   ],
+   "keyFeatures": [
+    "Daftar layanan (hubungi WA untuk harga)",
+    "Pilih staf + rating & spesialisasi",
+    "Form booking tanggal/jam → kode booking (TS-XXXXXX)",
+    "Total harga otomatis saat pilih layanan",
+    "Konfirmasi booking via WhatsApp",
+    "Galeri foto + testimoni"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=tracy-salon-puri-indah-jakarta-barat&step=1&max=8",
+   "downloadUrlFast": "/downloads/tracy-salon-puri-indah-jakarta-barat.zip",
+   "driveUrl": "",
+   "githubRepo": "",
+   "stars": 0,
+   "zipBytes": 7314,
+   "demoUrl": "/ai-studio/tracy-salon-puri-indah-jakarta-barat/"
+  },
   {
    "id": "sc-129",
    "title": "Ando & Yun CP — Website Salon & Kecantikan",
