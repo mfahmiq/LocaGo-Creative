@@ -1,64 +1,7 @@
 {
   "updatedAt": "25 Nov 2026, 15:58 WIB",
-  "total": 38,
+  "total": 37,
   "items": [
-    {
-      "id": "sc-94",
-      "title": "Sistem Informasi Manajemen Sekolah - Aplikasi Tagihan Sekolah Default",
-      "slug": "aplikasi-tagihan-sekolah-default",
-      "category": "Pendidikan & Akademik",
-      "techStack": [
-        "CodeIgniter",
-        "PHP",
-        "MySQL",
-        "Bootstrap"
-      ],
-      "description": "Aplikasi aplikasi-tagihan-sekolah-default siap pakai dengan database lengkap.\n\nProyek riil open-source asli dari GitHub (https://github.com/penyimak527/aplikasi-tagihan-sekolah-default). Dilengkapi file database lengkap (application/aplikasi_sipasti_almahbaro.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Sistem Informasi Manajemen Sekolah - Aplikasi Tagihan Sekolah Default dengan database application/aplikasi_sipasti_almahbaro.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/aplikasi-tagihan-sekolah-default/screenshot_1.webp",
-        "/screenshots/aplikasi-tagihan-sekolah-default/screenshot_2.webp",
-        "/screenshots/aplikasi-tagihan-sekolah-default/screenshot_3.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
-        }
-      ],
-      "updatedAt": "25 November 2026",
-      "releaseDate": "25 November 2026",
-      "recentFastDownloads": 87,
-      "thumbnail": "/screenshots/aplikasi-tagihan-sekolah-default/screenshot_1.webp",
-      "downloadsCount": 1193,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "11.8 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `aplikasi-tagihan-sekolah-default.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `application/aplikasi_sipasti_almahbaro.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/aplikasi-tagihan-sekolah-default` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (penyimak527/aplikasi-tagihan-sekolah-default) dengan source code lengkap",
-        "Disertai database asli (application/aplikasi_sipasti_almahbaro.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=aplikasi-tagihan-sekolah-default&step=1&max=8",
-      "downloadUrlFast": "/downloads/aplikasi-tagihan-sekolah-default.zip",
-      "driveUrl": "",
-      "githubRepo": "https://github.com/penyimak527/aplikasi-tagihan-sekolah-default",
-      "stars": 0
-    },
     {
       "id": "sc-82",
       "title": "Landing Page Kedai Kopi UMKM — Kopi Senja",
