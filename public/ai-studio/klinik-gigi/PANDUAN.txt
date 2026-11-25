@@ -1,7 +1,6 @@
 PANDUAN — SENYUM SEHAT DENTAL CARE (Website Klinik Gigi)
 =============================================================
-Website klinik gigi "Senyum Sehat Dental Care" — dibuat dengan
-Google AI Studio.
+Website klinik gigi "Senyum Sehat Dental Care".
 Source code gratis by LocaGo Creative (locagocreative.my.id).
 
 CARA MEMBUKA

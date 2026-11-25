@@ -1,7 +1,6 @@
 PANDUAN — Kotei Restaurant Air Mancur (Resto & Kafe)
 ================================================================
-Prototype website kasar untuk "Kotei Restaurant Air Mancur" (Bogor) — dibuat dengan
-Google AI Studio oleh LocaGo Creative (locagocreative.my.id).
+Prototype website kasar untuk "Kotei Restaurant Air Mancur" (Bogor) — dibuat oleh LocaGo Creative (locagocreative.my.id).
 Ini PROTOTYPE: isi di bawah masih contoh dan WAJIB disesuaikan dengan
 data asli usahamu sebelum dipakai resmi.
 

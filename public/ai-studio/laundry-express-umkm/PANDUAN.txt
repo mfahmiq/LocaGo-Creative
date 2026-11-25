@@ -1,6 +1,6 @@
 PANDUAN — LAUNDRY EXPRESS (Laundry Antar-Jemput)
 ================================================
-Website laundry antar-jemput — dibuat dengan Google AI Studio.
+Website laundry antar-jemput.
 Source code gratis by LocaGo Creative (locagocreative.my.id).
 
 CARA MEMBUKA

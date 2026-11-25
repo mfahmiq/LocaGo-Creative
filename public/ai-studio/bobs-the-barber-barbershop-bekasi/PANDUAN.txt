@@ -1,7 +1,6 @@
 PANDUAN — Bobs The Barber (Barbershop) (Barbershop & Pangkas Rambut)
 ================================================================
-Prototype website kasar untuk "Bobs The Barber (Barbershop)" (Bekasi) — dibuat dengan
-Google AI Studio oleh LocaGo Creative (locagocreative.my.id).
+Prototype website kasar untuk "Bobs The Barber (Barbershop)" (Bekasi) — dibuat oleh LocaGo Creative (locagocreative.my.id).
 Ini PROTOTYPE: isi di bawah masih contoh dan WAJIB disesuaikan dengan
 data asli usahamu sebelum dipakai resmi.
 

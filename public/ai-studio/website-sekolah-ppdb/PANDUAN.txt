@@ -1,6 +1,6 @@
 PANDUAN — WEBSITE SEKOLAH PPDB (SMA Nusantara)
 ===============================================
-Website sekolah dengan formulir PPDB online — dibuat dengan Google AI Studio.
+Website sekolah dengan formulir PPDB online.
 Source code gratis by LocaGo Creative (locagocreative.my.id).
 
 CARA MEMBUKA

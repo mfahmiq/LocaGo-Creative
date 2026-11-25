@@ -1,7 +1,6 @@
 PANDUAN — Kambing Panggang Mas Kulin (Resto & Kafe)
 ================================================================
-Prototype website kasar untuk "Kambing Panggang Mas Kulin" (Depok) — dibuat dengan
-Google AI Studio oleh LocaGo Creative (locagocreative.my.id).
+Prototype website kasar untuk "Kambing Panggang Mas Kulin" (Depok) — dibuat oleh LocaGo Creative (locagocreative.my.id).
 Ini PROTOTYPE: isi di bawah masih contoh dan WAJIB disesuaikan dengan
 data asli usahamu sebelum dipakai resmi.
 

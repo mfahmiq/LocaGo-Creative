@@ -1,7 +1,6 @@
 PANDUAN — Orens Salon Sentosa (Salon & Kecantikan)
 ================================================================
-Prototype website kasar untuk "Orens Salon Sentosa" (Depok) — dibuat dengan
-Google AI Studio oleh LocaGo Creative (locagocreative.my.id).
+Prototype website kasar untuk "Orens Salon Sentosa" (Depok) — dibuat oleh LocaGo Creative (locagocreative.my.id).
 Ini PROTOTYPE: isi di bawah masih contoh dan WAJIB disesuaikan dengan
 data asli usahamu sebelum dipakai resmi.
 

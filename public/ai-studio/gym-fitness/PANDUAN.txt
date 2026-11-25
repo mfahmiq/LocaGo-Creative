@@ -1,6 +1,6 @@
 PANDUAN — BUGARFIT GYM & FITNESS (Website Gym & Fitness Center)
 ===================================================================
-Website gym "BugarFit Gym & Fitness" — dibuat dengan Google AI Studio.
+Website gym "BugarFit Gym & Fitness".
 Source code gratis by LocaGo Creative (locagocreative.my.id).
 
 CARA MEMBUKA

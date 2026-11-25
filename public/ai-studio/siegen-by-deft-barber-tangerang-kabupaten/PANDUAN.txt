@@ -1,7 +1,6 @@
 PANDUAN — Siegen by Deft Barber (Barbershop & Pangkas Rambut)
 ================================================================
-Prototype website kasar untuk "Siegen by Deft Barber" (Tangerang Kabupaten) — dibuat dengan
-Google AI Studio oleh LocaGo Creative (locagocreative.my.id).
+Prototype website kasar untuk "Siegen by Deft Barber" (Tangerang Kabupaten) — dibuat oleh LocaGo Creative (locagocreative.my.id).
 Ini PROTOTYPE: isi di bawah masih contoh dan WAJIB disesuaikan dengan
 data asli usahamu sebelum dipakai resmi.
 

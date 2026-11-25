@@ -1,7 +1,6 @@
 PANDUAN — Gudeg Jogja Pawon Emak (Resto & Kafe)
 ================================================================
-Prototype website kasar untuk "Gudeg Jogja Pawon Emak" (Bogor) — dibuat dengan
-Google AI Studio oleh LocaGo Creative (locagocreative.my.id).
+Prototype website kasar untuk "Gudeg Jogja Pawon Emak" (Bogor) — dibuat oleh LocaGo Creative (locagocreative.my.id).
 Ini PROTOTYPE: isi di bawah masih contoh dan WAJIB disesuaikan dengan
 data asli usahamu sebelum dipakai resmi.
 

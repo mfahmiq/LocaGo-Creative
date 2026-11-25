@@ -1,6 +1,6 @@
 PANDUAN — PORTOFOLIO MAHASISWA
 ===============================
-Website portofolio mahasiswa + kalkulator IPK — dibuat dengan Google AI Studio.
+Website portofolio mahasiswa + kalkulator IPK.
 Source code gratis by LocaGo Creative (locagocreative.my.id).
 
 CARA MEMBUKA

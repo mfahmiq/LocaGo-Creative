@@ -1,6 +1,6 @@
 PANDUAN — DAPUR BERKAH CATERING (Website Catering & Nasi Kotak)
 =================================================================
-Website catering "Dapur Berkah Catering" — dibuat dengan Google AI Studio.
+Website catering "Dapur Berkah Catering".
 Source code gratis by LocaGo Creative (locagocreative.my.id).
 
 CARA MEMBUKA

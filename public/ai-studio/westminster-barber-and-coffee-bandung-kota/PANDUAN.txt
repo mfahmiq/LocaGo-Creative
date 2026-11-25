@@ -1,7 +1,6 @@
 PANDUAN — Westminster Barber and Coffee (Barbershop & Pangkas Rambut)
 ================================================================
-Prototype website kasar untuk "Westminster Barber and Coffee" (Bandung Kota) — dibuat dengan
-Google AI Studio oleh LocaGo Creative (locagocreative.my.id).
+Prototype website kasar untuk "Westminster Barber and Coffee" (Bandung Kota) — dibuat oleh LocaGo Creative (locagocreative.my.id).
 Ini PROTOTYPE: isi di bawah masih contoh dan WAJIB disesuaikan dengan
 data asli usahamu sebelum dipakai resmi.
 

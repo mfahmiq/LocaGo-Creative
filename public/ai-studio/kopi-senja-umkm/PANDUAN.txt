@@ -1,6 +1,6 @@
 PANDUAN — KOPI SENJA (Landing UMKM Kopi)
 =============================================
-Website landing page kedai kopi "Kopi Senja" — dibuat dengan Google AI Studio.
+Website landing page kedai kopi "Kopi Senja".
 Source code gratis by LocaGo Creative (locagocreative.my.id).
 
 CARA MEMBUKA

@@ -1,7 +1,6 @@
 PANDUAN — CERDAS BANGSA BIMBEL & LES PRIVAT (Website Bimbel)
 =================================================================
-Website bimbel "Cerdas Bangsa — Bimbel & Les Privat" — dibuat dengan
-Google AI Studio.
+Website bimbel "Cerdas Bangsa — Bimbel & Les Privat".
 Source code gratis by LocaGo Creative (locagocreative.my.id).
 
 CARA MEMBUKA

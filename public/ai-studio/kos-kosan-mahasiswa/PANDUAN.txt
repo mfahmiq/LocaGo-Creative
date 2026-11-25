@@ -1,5 +1,5 @@
 PANDUAN — Kos Nyaman Mahasiswa
-Website siap pakai hasil Google AI Studio (Source Code Gratis by LocaGo Creative).
+Website siap pakai (Source Code Gratis by LocaGo Creative).
 
 CARA PAKAI
 1. Buka file index.html dengan double-click — website langsung tampil di browser.

@@ -1,7 +1,6 @@
 PANDUAN — Aqis Salon Khusus Perempuan (Salon & Kecantikan)
 ================================================================
-Prototype website kasar untuk "Aqis Salon Khusus Perempuan" (Tangerang Kota) — dibuat dengan
-Google AI Studio oleh LocaGo Creative (locagocreative.my.id).
+Prototype website kasar untuk "Aqis Salon Khusus Perempuan" (Tangerang Kota) — dibuat oleh LocaGo Creative (locagocreative.my.id).
 Ini PROTOTYPE: isi di bawah masih contoh dan WAJIB disesuaikan dengan
 data asli usahamu sebelum dipakai resmi.
 

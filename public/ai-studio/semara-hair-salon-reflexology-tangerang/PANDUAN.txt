@@ -1,7 +1,6 @@
 PANDUAN — Semara Hair Salon & Reflexology (Salon & Kecantikan)
 ================================================================
-Prototype website kasar untuk "Semara Hair Salon & Reflexology" (Tangerang) — dibuat dengan
-Google AI Studio oleh LocaGo Creative (locagocreative.my.id).
+Prototype website kasar untuk "Semara Hair Salon & Reflexology" (Tangerang) — dibuat oleh LocaGo Creative (locagocreative.my.id).
 Ini PROTOTYPE: isi di bawah masih contoh dan WAJIB disesuaikan dengan
 data asli usahamu sebelum dipakai resmi.
 

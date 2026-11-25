@@ -1,7 +1,6 @@
 PANDUAN — Fayola Salon Spa (Salon & Kecantikan)
 ================================================================
-Prototype website kasar untuk "Fayola Salon Spa" (Jakarta Barat) — dibuat dengan
-Google AI Studio oleh LocaGo Creative (locagocreative.my.id).
+Prototype website kasar untuk "Fayola Salon Spa" (Jakarta Barat) — dibuat oleh LocaGo Creative (locagocreative.my.id).
 Ini PROTOTYPE: isi di bawah masih contoh dan WAJIB disesuaikan dengan
 data asli usahamu sebelum dipakai resmi.
 

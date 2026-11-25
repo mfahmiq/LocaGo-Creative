@@ -1,7 +1,6 @@
 PANDUAN — Smooch Eatery (Salon & Kecantikan)
 ================================================================
-Prototype website kasar untuk "Smooch Eatery" (Bogor) — dibuat dengan
-Google AI Studio oleh LocaGo Creative (locagocreative.my.id).
+Prototype website kasar untuk "Smooch Eatery" (Bogor) — dibuat oleh LocaGo Creative (locagocreative.my.id).
 Ini PROTOTYPE: isi di bawah masih contoh dan WAJIB disesuaikan dengan
 data asli usahamu sebelum dipakai resmi.
 

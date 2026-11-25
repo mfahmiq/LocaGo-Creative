@@ -1,6 +1,6 @@
 PANDUAN — RAPI BARBERSHOP (Website Barbershop & Pangkas Rambut)
 ================================================================
-Website barbershop "RAPI Barbershop" — dibuat dengan Google AI Studio.
+Website barbershop "RAPI Barbershop".
 Source code gratis by LocaGo Creative (locagocreative.my.id).
 
 CARA MEMBUKA

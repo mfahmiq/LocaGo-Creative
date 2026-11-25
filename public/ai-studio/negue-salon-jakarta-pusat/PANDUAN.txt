@@ -1,7 +1,6 @@
 PANDUAN — Negue salon (Salon & Kecantikan)
 ================================================================
-Prototype website kasar untuk "Negue salon" (Jakarta Pusat) — dibuat dengan
-Google AI Studio oleh LocaGo Creative (locagocreative.my.id).
+Prototype website kasar untuk "Negue salon" (Jakarta Pusat) — dibuat oleh LocaGo Creative (locagocreative.my.id).
 Ini PROTOTYPE: isi di bawah masih contoh dan WAJIB disesuaikan dengan
 data asli usahamu sebelum dipakai resmi.
 
