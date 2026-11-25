@@ -200,7 +200,7 @@ export const DonateWidget: React.FC = () => {
   return (
     <>
       {/* Tombol kopi mengambang — selalu terlihat, tidak menutupi konten */}
-      <button
+      <button data-shopee-exclude
         onClick={() => { shownPagesRef.current.add(pageKey()); setPhase('form'); setIsOpen(true); }}
         aria-label="Donasi untuk LocaGo Creative"
         title="Traktir kopi untuk LocaGo Creative"
@@ -210,7 +210,7 @@ export const DonateWidget: React.FC = () => {
       </button>
 
       {isOpen && (
-        <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center bg-black/60 backdrop-blur-sm p-4" onClick={close}>
+        <div data-shopee-exclude className="fixed inset-0 z-50 flex items-end sm:items-center justify-center bg-black/60 backdrop-blur-sm p-4" onClick={close}>
           <div
             className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-3xl p-6 max-w-sm w-full shadow-2xl relative text-neutral-900 dark:text-white"
             onClick={(e) => e.stopPropagation()}

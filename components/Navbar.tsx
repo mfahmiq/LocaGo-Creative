@@ -120,7 +120,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
 
   return (
     <>
-      <header
+      <header data-shopee-exclude
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-200 ${
           scrolled
             ? 'bg-white/95 dark:bg-neutral-950/95 backdrop-blur-md border-b border-neutral-200/80 dark:border-neutral-800/80 py-2.5 shadow-[0_1px_3px_rgba(0,0,0,0.05)]'
@@ -365,7 +365,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
       </header>
 
       {/* Mobile Drawer */}
-      <div
+      <div data-shopee-exclude
         className={`fixed inset-0 z-40 bg-black/60 backdrop-blur-sm transition-opacity duration-300 lg:hidden ${
           mobileMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
         }`}
