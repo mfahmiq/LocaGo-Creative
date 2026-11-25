@@ -1,61 +1,7 @@
 {
   "updatedAt": "25 Nov 2026, 21:19 WIB",
-  "total": 41,
+  "total": 40,
   "items": [
-    {
-      "id": "sc-97",
-      "title": "Sistem Informasi Manajemen Sekolah - Rapbs",
-      "slug": "rapbs",
-      "category": "Pendidikan & Akademik",
-      "techStack": [
-        "CodeIgniter",
-        "PHP",
-        "MySQL"
-      ],
-      "description": "Aplikasi RAPBS Sekolah Aisyiyah\n\nProyek riil open-source asli dari GitHub (https://github.com/masgoeh/rapbs). Dilengkapi file database lengkap (database_rapbs_ci3_fixed.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Sistem Informasi Manajemen Sekolah - Rapbs dengan database database_rapbs_ci3_fixed.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/rapbs/screenshot_1.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
-        }
-      ],
-      "updatedAt": "25 November 2026",
-      "releaseDate": "25 November 2026",
-      "recentFastDownloads": 71,
-      "thumbnail": "/screenshots/rapbs/screenshot_1.webp",
-      "downloadsCount": 575,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "720 KB",
-      "tutorialSteps": [
-        "Ekstrak berkas `rapbs.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `database_rapbs_ci3_fixed.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/rapbs` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (masgoeh/rapbs) dengan source code lengkap",
-        "Disertai database asli (database_rapbs_ci3_fixed.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=rapbs&step=1&max=8",
-      "downloadUrlFast": "/downloads/rapbs.zip",
-      "driveUrl": "",
-      "githubRepo": "https://github.com/masgoeh/rapbs",
-      "stars": 0
-    },
     {
       "id": "sc-96",
       "title": "Sistem Pakar Diagnosa - Sistem Pakar Cbr",
