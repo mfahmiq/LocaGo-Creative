@@ -1,0 +1,370 @@
+<!-- Dibuat dengan Google AI Studio — Source Code Gratis by LocaGo Creative (locagocreative.my.id) -->
+<!-- Nama & harga di situs ini adalah CONTOH FIKTIF — sesuaikan lewat PANDUAN.txt -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bengkel Motor Jaya Abadi — Servis &amp; Perawatan Motor</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<script>
+tailwind.config = { theme: { extend: { fontFamily: { sans: ['Poppins','sans-serif'] }, colors: { brand: { DEFAULT:'#C2410C', dark:'#431407', accent:'#FB923C', bg:'#FFF7ED' } } } } }
+</script>
+<style>
+  html{scroll-behavior:smooth}
+  body{font-family:'Poppins',sans-serif}
+  .item-card{transition:transform .25s ease, box-shadow .25s ease}
+  .item-card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(0,0,0,.15)}
+  .catBtn.active{background:#C2410C!important;color:#fff!important}
+</style>
+</head>
+<body class="bg-brand-bg text-gray-800">
+
+<header class="sticky top-0 z-50 text-white shadow-lg" style="background:#431407">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="#" class="font-bold text-lg md:text-xl">Bengkel Motor Jaya Abadi</a>
+    <nav class="hidden md:flex gap-6 text-sm font-medium">
+      <a href="#katalog" class="hover:opacity-75">Katalog</a>
+      <a href="#order" class="hover:opacity-75">Order</a>
+      <a href="#tentang" class="hover:opacity-75">Tentang</a>
+    </nav>
+    <a href="#order" class="text-white font-semibold px-4 py-2 rounded-full text-sm" style="background:#C2410C">Pesan Sekarang</a>
+  </div>
+</header>
+
+<section class="relative h-[480px] md:h-[560px] overflow-hidden">
+  <img src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=1600&q=80" alt="Sepeda motor di bengkel" class="absolute inset-0 w-full h-full object-cover">
+  <div class="absolute inset-0" style="background:linear-gradient(to right, #431407e6, #43140788, transparent)"></div>
+  <div class="relative max-w-6xl mx-auto px-4 h-full flex flex-col justify-center text-white">
+    <span class="text-xs font-bold px-3 py-1 rounded-full w-max mb-4" style="background:#FB923C;color:#431407">★ Contoh website siap pakai — gratis diunduh</span>
+    <h1 class="text-4xl md:text-6xl font-bold leading-tight max-w-xl">Bengkel Motor Jaya Abadi</h1>
+    <p class="mt-4 text-base md:text-lg text-white/85 max-w-lg">Servis cepat, harga transparan, motor kembali prima.</p>
+    <div class="mt-6 flex flex-wrap gap-3">
+      <a href="#katalog" class="font-semibold px-6 py-3 rounded-full text-white" style="background:#C2410C">Lihat Katalog</a>
+      <a href="#order" class="border-2 border-white/70 px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-gray-900">Pesan Sekarang</a>
+    </div>
+    <div class="mt-8 flex flex-wrap gap-6 text-sm text-white/80">
+      <span>🕖 Buka 08.00 – 21.00 WIB</span><span>📍 Indonesia</span><span>💬 Fast respon via WhatsApp</span>
+    </div>
+  </div>
+</section>
+
+<section id="katalog" class="max-w-6xl mx-auto px-4 py-12">
+  <h2 class="text-3xl font-bold text-center">Layanan Servis</h2>
+  <p class="text-center text-gray-500 mt-2 mb-6">Centang layanan yang dibutuhkan — estimasi biaya terhitung otomatis.</p>
+  <div class="flex flex-wrap justify-center gap-2 mb-8"><button class="catBtn px-4 py-2 rounded-full bg-white shadow text-sm font-semibold" data-cat="Semua">Semua</button><button class="catBtn px-4 py-2 rounded-full bg-white shadow text-sm font-semibold" data-cat="Perawatan">Perawatan</button><button class="catBtn px-4 py-2 rounded-full bg-white shadow text-sm font-semibold" data-cat="Suku Cadang">Suku Cadang</button></div>
+  <div id="itemGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5"></div>
+</section>
+
+
+  <section id="estimasi" class="max-w-6xl mx-auto px-4 py-10">
+    <div class="bg-white rounded-2xl shadow-lg p-6">
+      <h2 class="text-2xl font-bold mb-1">🧮 Estimasi Biaya</h2>
+      <p class="text-sm text-gray-500 mb-4">Total estimasi dari layanan yang kamu centang di atas.</p>
+      <div class="flex items-end justify-between flex-wrap gap-3">
+        <div><p class="text-sm text-gray-500">Total Estimasi</p><p id="calcTotal" class="text-3xl font-bold">Rp0</p></div>
+        <p id="calcDetail" class="text-sm text-gray-600">Belum ada layanan dipilih.</p>
+      </div>
+    </div>
+  </section>
+
+<section id="order" class="max-w-6xl mx-auto px-4 pb-12">
+  <div class="bg-white rounded-2xl shadow-lg p-6">
+    <h2 class="text-2xl font-bold mb-1">📩 Booking via WhatsApp</h2>
+    <p class="text-sm text-gray-500 mb-4">Isi data di bawah ini — pesananmu akan diteruskan ke WhatsApp kami.</p>
+    <form id="orderForm" class="grid md:grid-cols-2 gap-4" novalidate>
+      <div><label class="text-sm font-semibold" for="odName">Nama lengkap *</label>
+        <input id="odName" type="text" placeholder="Nama kamu" class="mt-1 w-full border rounded-lg px-3 py-2" required></div>
+      <div><label class="text-sm font-semibold" for="odWa">Nomor WhatsApp *</label>
+        <input id="odWa" type="tel" placeholder="08xxxxxxxxxx" class="mt-1 w-full border rounded-lg px-3 py-2" required></div>
+      <div><label class="text-sm font-semibold" for="odDate">Tanggal</label>
+        <input id="odDate" type="date" class="mt-1 w-full border rounded-lg px-3 py-2"></div>
+      <div><label class="text-sm font-semibold" for="odNote">Catatan</label>
+        <input id="odNote" type="text" placeholder="Catatan tambahan (opsional)" class="mt-1 w-full border rounded-lg px-3 py-2"></div>
+      <p id="formError" class="md:col-span-2 text-sm text-red-600 hidden"></p>
+      <button type="submit" class="md:col-span-2 text-white font-bold py-3 rounded-xl" style="background:#C2410C">Kirim Pesanan via WhatsApp</button>
+    </form>
+    <div id="orderResult" class="hidden mt-5 bg-green-50 border border-green-300 rounded-xl p-4">
+      <p class="font-bold text-green-800">✅ Pesanan diterima!</p>
+      <p class="text-sm text-green-700 mt-1">Kode pesananmu: <span id="orderCode" class="font-mono font-bold"></span></p>
+      <p class="text-sm text-gray-600 mt-1">Simpan kode ini. Klik tombol di bawah untuk mengirim rincian pesanan ke WhatsApp kami.</p>
+      <a id="waLink" href="#" target="_blank" rel="noopener" class="inline-block mt-3 bg-green-600 text-white font-semibold px-5 py-2 rounded-full text-sm">💬 Buka WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<section id="tentang" class="max-w-6xl mx-auto px-4 pb-12">
+  <div class="grid md:grid-cols-2 gap-6">
+    <div class="bg-white rounded-2xl shadow p-6">
+      <h3 class="text-xl font-bold mb-2">Tentang Kami</h3>
+      <p class="text-sm text-gray-600 leading-relaxed">Bengkel Motor Jaya Abadi adalah contoh usaha yang dibuat untuk menunjukkan website siap pakai ini. Ganti nama, alamat, nomor WhatsApp, dan harga sesuai usahamu sendiri dengan mengikuti PANDUAN.txt di dalam ZIP unduhan.</p>
+    </div>
+    <div class="bg-white rounded-2xl shadow p-6">
+      <h3 class="text-xl font-bold mb-2">Kenapa Memilih Kami?</h3>
+      <ul class="text-sm text-gray-600 space-y-1 list-disc pl-5">
+        <li>Harga transparan, tanpa biaya tersembunyi</li>
+        <li>Pemesanan mudah lewat WhatsApp</li>
+        <li>Pelayanan ramah &amp; fast respon</li>
+        <li>Kualitas terjaga, pelanggan puas</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer class="text-white py-8" style="background:#431407">
+  <div class="max-w-6xl mx-auto px-4 text-center text-sm">
+    <p class="font-bold text-base">Bengkel Motor Jaya Abadi</p>
+    <p class="text-white/70 mt-1">📍 Indonesia &nbsp;•&nbsp; 💬 WhatsApp: 0812-3456-7890 (contoh) &nbsp;•&nbsp; 🕖 08.00 – 21.00 WIB</p>
+    <p class="text-white/50 mt-3 text-xs">Website contoh siap pakai — Source Code Gratis by LocaGo Creative (locagocreative.my.id). Dibuat dengan Google AI Studio.</p>
+  </div>
+</footer>
+
+<script>
+const SITE = {"mode": "checklist", "items": [{"name": "Ganti Oli Mesin", "desc": "Oli mesin + filter, garansi 1 bulan", "price": 75000, "icon": "🛢️", "cat": "Perawatan"}, {"name": "Tune Up", "desc": "Setel klep, busi, filter udara & karburator/injeksi", "price": 150000, "icon": "🔧", "cat": "Perawatan"}, {"name": "Servis CVT", "desc": "Bersihkan CVT, cek roller & v-belt", "price": 180000, "icon": "⚙️", "cat": "Perawatan"}, {"name": "Ganti Kampas Rem", "desc": "Kampas rem depan/belakang + setel", "price": 120000, "icon": "🛑", "cat": "Suku Cadang"}, {"name": "Ganti Ban Dalam", "desc": "Ban dalam + pasang & balancing", "price": 90000, "icon": "🛞", "cat": "Suku Cadang"}, {"name": "Servis Shockbreaker", "desc": "Ganti oli shock & seal, setel ulang", "price": 200000, "icon": "🔩", "cat": "Perawatan"}, {"name": "Ganti Aki", "desc": "Aki baru + cek kelistrikan", "price": 350000, "icon": "🔋", "cat": "Suku Cadang"}, {"name": "Cuci Motor + Wax", "desc": "Cuci menyeluruh + wax pengkilap", "price": 50000, "icon": "🧽", "cat": "Perawatan"}, {"name": "Ganti Busi", "desc": "Busi baru + setel pengapian", "price": 45000, "icon": "⚡", "cat": "Suku Cadang"}, {"name": "Servis Injeksi", "desc": "Cleaning injektor & throttle body", "price": 250000, "icon": "💉", "cat": "Perawatan"}], "extras": [], "ship": 0, "freeShip": 0, "code": "BKL", "wa": "6281234567890", "name": "Bengkel Motor Jaya Abadi", "discountQty": 0, "discountPct": 0};
+const fmt = n => 'Rp' + Math.round(n).toLocaleString('id-ID');
+const $ = id => document.getElementById(id);
+const grid = $('itemGrid');
+
+function renderGrid(filterCat) {
+  grid.innerHTML = '';
+  SITE.items.forEach((it, i) => {
+    if (filterCat && filterCat !== 'Semua' && it.cat !== filterCat) return;
+    if (SITE.mode === 'filter' && !passesFilter(it)) return;
+    const card = document.createElement('div');
+    card.className = 'item-card bg-white rounded-2xl shadow p-5 flex flex-col';
+    card.dataset.price = it.price;
+    card.dataset.fac = it.cat;
+    const facNames = {wifi:'WiFi', kmdalam:'KM Dalam', ac:'AC', parkir:'Parkir', dapur:'Dapur', akses24:'Akses 24 Jam'};
+    const catLabel = SITE.mode === 'filter' ? it.cat.split('|').map(f => facNames[f] || f).join(' • ') : it.cat;
+    const priceSuffix = SITE.mode === 'filter' ? ' /bulan' : (SITE.mode === 'areacalc' || SITE.mode === 'hourcalc' ? ' / ' + it.cat : '');
+    let action = '';
+    if (SITE.mode === 'cart' || SITE.mode === 'needscalc') {
+      action = `<button data-add="${i}" class="mt-3 w-full text-white font-semibold py-2 rounded-xl" style="background:${SITE_MODE_COLOR}">+ Tambah ke Keranjang</button>
+        <div class="qtyRow mt-2 hidden items-center justify-center gap-3">
+          <button class="qtyBtn w-8 h-8 rounded-full bg-gray-200 font-bold" data-chg="${i},-1">−</button>
+          <span id="qty-${i}" class="font-bold">0</span>
+          <button class="qtyBtn w-8 h-8 rounded-full bg-gray-200 font-bold" data-chg="${i},1">+</button>
+        </div>`;
+    } else if (SITE.mode === 'checklist') {
+      action = `<label class="mt-3 flex items-center gap-2 text-sm font-semibold cursor-pointer"><input type="checkbox" class="svcCheck w-5 h-5" data-idx="${i}" data-price="${it.price}"> Pilih layanan ini</label>`;
+    } else if (SITE.mode === 'selectcalc') {
+      action = `<button data-pick="${i}" class="pickBtn mt-3 w-full border-2 font-semibold py-2 rounded-xl">Pilih paket ini</button>`;
+    } else {
+      action = `<button data-pick="${i}" class="pickBtn mt-3 w-full border-2 font-semibold py-2 rounded-xl">Pilih ini</button>`;
+    }
+    card.innerHTML = `<div class="text-4xl">${it.icon}</div>
+      <h3 class="font-bold text-lg mt-2">${it.name}</h3>
+      <p class="text-sm text-gray-500 flex-1">${it.desc}</p>
+      <p class="font-bold mt-2" style="color:${SITE_MODE_COLOR}">${fmt(it.price)}${priceSuffix}</p>
+      <p class="text-xs text-gray-400">${catLabel}</p>${action}`;
+    grid.appendChild(card);
+  });
+  const fc = $('filterCount');
+  if (fc) fc.textContent = grid.children.length + ' kos ditampilkan';
+}
+
+// ---- filter (kos) ----
+function passesFilter(it) {
+  const max = parseInt(($('priceFilter') || {value: '0'}).value || '0', 10);
+  if (max && it.price > max) return false;
+  const facs = Array.from(document.querySelectorAll('.facFilter:checked')).map(e => e.value);
+  const itemFacs = it.cat.split('|');
+  return facs.every(f => itemFacs.includes(f));
+}
+
+// ---- cart ----
+const cart = {};
+function cartSubtotal() { return Object.entries(cart).reduce((t, [i, q]) => t + SITE.items[i].price * q, 0); }
+function renderCart() {
+  const box = $('cartItems'); if (!box) return;
+  const sub = cartSubtotal();
+  box.innerHTML = '';
+  Object.entries(cart).forEach(([i, q]) => {
+    if (!q) return;
+    const it = SITE.items[i];
+    const row = document.createElement('div');
+    row.className = 'flex justify-between items-center text-sm border-b pb-2';
+    row.innerHTML = `<span>${it.name} × ${q}</span><span class="font-semibold">${fmt(it.price * q)}</span>`;
+    box.appendChild(row);
+  });
+  if (!Object.keys(cart).length) box.innerHTML = '<p class="text-sm text-gray-400">Keranjang masih kosong.</p>';
+  const ship = (SITE.mode === 'needscalc' || sub === 0) ? 0 : (sub >= SITE.freeShip ? 0 : SITE.ship);
+  if ($('cartSubtotal')) $('cartSubtotal').textContent = fmt(sub);
+  if ($('cartShip')) $('cartShip').textContent = fmt(ship);
+  if ($('cartTotal')) $('cartTotal').textContent = fmt(sub + ship);
+  const note = $('shipNote');
+  if (note) note.textContent = sub >= SITE.freeShip ? '🎉 Kamu dapat GRATIS ONGKIR!' : 'Gratis ongkir untuk order ≥ ' + fmt(SITE.freeShip) + ' (kurang ' + fmt(SITE.freeShip - sub) + ' lagi).';
+}
+
+// ---- checklist ----
+function renderChecklist() {
+  const checks = Array.from(document.querySelectorAll('.svcCheck:checked'));
+  const total = checks.reduce((t, c) => t + parseInt(c.dataset.price, 10), 0);
+  if ($('calcTotal')) $('calcTotal').textContent = fmt(total);
+  const d = $('calcDetail');
+  if (d) d.textContent = checks.length ? checks.length + ' layanan dipilih' : 'Belum ada layanan dipilih.';
+}
+
+// ---- selectcalc ----
+let picked = 0;
+let selectedKos = null;
+function renderSelectCalc() {
+  const sel = $('pkgSelect'); if (!sel) return;
+  const price = SITE.items[picked].price;
+  const qty = Math.max(1, parseInt($('qtyInput').value || '1', 10));
+  let total = price * qty, disc = 0;
+  if (SITE.discountQty && qty >= SITE.discountQty) { disc = total * SITE.discountPct / 100; total -= disc; }
+  $('calcTotal').textContent = fmt(total);
+  $('calcDetail').textContent = fmt(price) + ' × ' + qty + (disc ? ' − diskon ' + SITE.discountPct + '% (' + fmt(disc) + ')' : '');
+  document.querySelectorAll('.pickBtn').forEach((b, idx) => {
+    b.style.background = idx === picked ? SITE_MODE_COLOR : '';
+    b.style.color = idx === picked ? '#fff' : '';
+  });
+}
+
+// ---- areacalc / hourcalc ----
+function renderAreaHourCalc() {
+  const sel = $('roomSelect'); if (!sel) return;
+  const price = SITE.items[parseInt(sel.value, 10)].price;
+  let total = 0, detail = '';
+  if (SITE.mode === 'areacalc') {
+    const area = Math.max(1, parseInt($('areaInput').value || '1', 10));
+    total = price * area; detail = fmt(price) + '/m² × ' + area + ' m²';
+    let extra = 0;
+    document.querySelectorAll('.extraCheck:checked').forEach(c => { extra += parseInt(c.dataset.price, 10); });
+    total += extra;
+    if (extra) detail += ' + tambahan ' + fmt(extra);
+  } else {
+    const hours = Math.max(1, parseInt($('hoursInput').value || '1', 10));
+    total = price * hours; detail = fmt(price) + '/jam × ' + hours + ' jam';
+    let extra = 0;
+    document.querySelectorAll('.extraCheck:checked').forEach(c => {
+      const p = parseInt(c.dataset.price, 10);
+      extra += (c.dataset.per === 'lagu' ? p : p * hours);
+    });
+    total += extra;
+    if (extra) detail += ' + tambahan ' + fmt(extra);
+  }
+  $('calcTotal').textContent = fmt(total);
+  $('calcDetail').textContent = detail;
+}
+
+// ---- needscalc ----
+function renderNeeds() {
+  const area = Math.max(1, parseInt($('areaInput').value || '1', 10));
+  const semen = Math.ceil(area * 0.3), pasir = (area * 0.05), bata = Math.ceil(area * 70);
+  const cost = semen * SITE.items[0].price + Math.ceil(pasir) * SITE.items[1].price + Math.ceil(bata / 1000) * SITE.items[2].price;
+  $('calcTotal').textContent = fmt(cost);
+  $('calcDetail').textContent = 'Estimasi untuk ' + area + ' m² dinding (harga contoh).';
+  const nr = $('needsResult');
+  nr.innerHTML = `
+    <div class="bg-amber-50 border rounded-xl p-3"><p class="font-bold">🧱 Semen: ${semen} sak</p><p class="text-gray-500">±0,3 sak per m² × ${area} m²</p></div>
+    <div class="bg-amber-50 border rounded-xl p-3"><p class="font-bold">⏳ Pasir: ${pasir.toFixed(2)} m³</p><p class="text-gray-500">±0,05 m³ per m² × ${area} m²</p></div>
+    <div class="bg-amber-50 border rounded-xl p-3"><p class="font-bold">🧱 Bata merah: ${bata} pcs</p><p class="text-gray-500">±70 pcs per m² × ${area} m²</p></div>`;
+}
+
+// ---- init ----
+const SITE_MODE_COLOR = '#C2410C';
+renderGrid();
+document.querySelectorAll('.catBtn').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('.catBtn').forEach(x => x.classList.remove('active'));
+  b.classList.add('active'); renderGrid(b.dataset.cat);
+}));
+const firstCat = document.querySelector('.catBtn'); if (firstCat) firstCat.classList.add('active');
+
+grid.addEventListener('click', e => {
+  const add = e.target.closest('[data-add]');
+  if (add) { const i = add.dataset.add; cart[i] = (cart[i] || 0) + 1;
+    const row = add.parentElement.querySelector('.qtyRow'); if (row) { row.classList.remove('hidden'); row.classList.add('flex'); }
+    const q = $('qty-' + i); if (q) q.textContent = cart[i];
+    renderCart(); return; }
+  const chg = e.target.closest('[data-chg]');
+  if (chg) { const [i, d] = chg.dataset.chg.split(','); cart[i] = Math.max(0, (cart[i] || 0) + parseInt(d, 10));
+    const q = $('qty-' + i); if (q) q.textContent = cart[i]; renderCart(); return; }
+  const pick = e.target.closest('[data-pick]');
+  if (pick) { picked = parseInt(pick.dataset.pick, 10);
+    if (SITE.mode === 'selectcalc') renderSelectCalc();
+    else if (SITE.mode === 'filter') { selectedKos = SITE.items[picked].name;
+      document.querySelectorAll('.pickBtn').forEach((b, idx) => {
+        b.style.background = idx === picked ? SITE_MODE_COLOR : '';
+        b.style.color = idx === picked ? '#fff' : '';
+        b.textContent = idx === picked ? '✓ Kos dipilih' : 'Pilih ini';
+      });
+    }
+    else if (SITE.mode === 'areacalc' || SITE.mode === 'hourcalc') { const sel = $('roomSelect'); if (sel) { sel.value = String(picked); renderAreaHourCalc(); } }
+    return; }
+});
+grid.addEventListener('change', e => { if (e.target.classList.contains('svcCheck')) renderChecklist(); });
+
+if (SITE.mode === 'checklist') renderChecklist();
+if (SITE.mode === 'selectcalc') {
+  const sel = $('pkgSelect');
+  SITE.items.forEach((it, i) => { const o = document.createElement('option'); o.value = i; o.textContent = it.name + ' — ' + fmt(it.price); sel.appendChild(o); });
+  sel.addEventListener('change', () => { picked = parseInt(sel.value, 10); renderSelectCalc(); });
+  $('qtyInput').addEventListener('input', renderSelectCalc);
+  renderSelectCalc();
+}
+if (SITE.mode === 'filter') {
+  $('priceFilter').addEventListener('change', () => renderGrid());
+  document.querySelectorAll('.facFilter').forEach(c => c.addEventListener('change', () => renderGrid()));
+}
+if (SITE.mode === 'areacalc' || SITE.mode === 'hourcalc') {
+  const sel = $('roomSelect');
+  SITE.items.forEach((it, i) => { const o = document.createElement('option'); o.value = i; o.textContent = it.name + ' — ' + fmt(it.price) + (SITE.mode === 'areacalc' ? '/m²' : '/jam'); sel.appendChild(o); });
+  sel.addEventListener('change', renderAreaHourCalc);
+  const inp = $('areaInput') || $('hoursInput');
+  if (inp) inp.addEventListener('input', renderAreaHourCalc);
+  const ex = $('extrasList');
+  SITE.extras.forEach((x, i) => {
+    const per = (SITE.mode === 'hourcalc' && x.name.indexOf('Mixing') === 0) ? 'lagu' : 'jam';
+    const lbl = document.createElement('label');
+    lbl.className = 'flex items-center gap-1 bg-white border rounded-full px-3 py-1 cursor-pointer';
+    lbl.innerHTML = `<input type="checkbox" class="extraCheck" data-price="${x.price}" data-per="${per}"> ${x.name} (+${fmt(x.price)}${per === 'lagu' ? '/lagu' : ''})`;
+    ex.appendChild(lbl);
+  });
+  ex.addEventListener('change', renderAreaHourCalc);
+  renderAreaHourCalc();
+}
+if (SITE.mode === 'needscalc') {
+  renderCart();
+  $('areaInput').addEventListener('input', renderNeeds);
+  renderNeeds();
+}
+
+// ---- order form ----
+$('orderForm').addEventListener('submit', e => {
+  e.preventDefault();
+  const name = $('odName').value.trim();
+  const wa = $('odWa').value.trim().replace(/[^0-9]/g, '');
+  const err = $('formError');
+  if (name.length < 2) { err.textContent = 'Mohon isi nama lengkap.'; err.classList.remove('hidden'); return; }
+  if (wa.length < 10 || wa.length > 14) { err.textContent = 'Nomor WhatsApp tidak valid (10–14 digit angka).'; err.classList.remove('hidden'); return; }
+  err.classList.add('hidden');
+  const code = SITE.code + '-' + Math.random().toString(36).slice(2, 8).toUpperCase();
+  let summary = '';
+  if (SITE.mode === 'cart' || SITE.mode === 'needscalc') {
+    const lines = Object.entries(cart).filter(([, q]) => q).map(([i, q]) => '• ' + SITE.items[i].name + ' × ' + q + ' = ' + fmt(SITE.items[i].price * q));
+    summary = lines.length ? lines.join('\n') + '\nTotal: ' + ($('cartTotal') ? $('cartTotal').textContent : '') : '(keranjang kosong)';
+  } else if (SITE.mode === 'checklist') {
+    const lines = Array.from(document.querySelectorAll('.svcCheck:checked')).map(c => '• ' + SITE.items[c.dataset.idx].name);
+    summary = lines.length ? lines.join('\n') + '\nEstimasi: ' + $('calcTotal').textContent : '(belum pilih layanan)';
+  } else if (SITE.mode === 'selectcalc') {
+    summary = SITE.items[picked].name + ' × ' + $('qtyInput').value + ' — Total: ' + $('calcTotal').textContent;
+  } else if (SITE.mode === 'filter') {
+    summary = 'Survei kos: ' + (selectedKos || '(belum pilih kos)') + ' — Tanggal: ' + ($('odDate').value || '-');
+  } else {
+    summary = 'Estimasi: ' + $('calcTotal').textContent;
+  }
+  const msg = 'Halo ' + SITE.name + '!%0A%0AKode: ' + code + '%0ANama: ' + encodeURIComponent(name) +
+    '%0AWhatsApp: ' + wa + '%0ATanggal: ' + ($('odDate').value || '-') +
+    '%0A%0A' + encodeURIComponent(summary) +
+    ($('odNote').value ? '%0A%0ACatatan: ' + encodeURIComponent($('odNote').value) : '');
+  $('orderCode').textContent = code;
+  $('waLink').href = 'https://wa.me/' + SITE.wa + '?text=' + msg;
+  $('orderResult').classList.remove('hidden');
+  $('orderResult').scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+</script>
+</body>
+</html>

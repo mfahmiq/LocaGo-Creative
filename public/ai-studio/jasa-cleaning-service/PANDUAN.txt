@@ -1,0 +1,37 @@
+PANDUAN — BersihKilat Cleaning Service
+Website siap pakai hasil Google AI Studio (Source Code Gratis by LocaGo Creative).
+
+CARA PAKAI
+1. Buka file index.html dengan double-click — website langsung tampil di browser.
+2. Untuk online: upload file index.html ke hosting statis apa pun
+   (Netlify, Vercel, GitHub Pages, atau hosting lain). Tidak perlu database/server.
+
+CARA MENYESUAIKAN
+- Nama usaha: cari "BersihKilat Cleaning Service" di index.html, ganti dengan nama usahamu.
+- Nomor WhatsApp: cari "6281234567890" di index.html, ganti dengan nomor WA
+  (format internasional, contoh: 6281234567890). Nomor yang tampil di footer
+  "0812-3456-7890" juga diganti.
+- Harga & katalog: ubah daftar harga di bawah ini di file index.html
+  (bagian SITE / daftar item) — harga dihitung otomatis oleh JavaScript.
+- Warna: ubah kode warna di bagian atas index.html (primary/dark/accent).
+- Gambar hero: ganti URL Unsplash di bagian <section> hero.
+
+DAFTAR HARGA CONTOH (harga contoh — sesuaikan dengan harga usahamu):
+  - Rumah Tinggal: Rp25.000 — General cleaning rumah, per m²
+  - Kantor: Rp30.000 — Cleaning kantor & ruang kerja, per m²
+  - Apartemen: Rp28.000 — Cleaning unit apartemen, per m²
+  - Ruko / Toko: Rp22.000 — Cleaning area usaha & etalase, per m²
+  - Gudang: Rp15.000 — Cleaning gudang & area industri, per m²
+
+FITUR
+  - 5 jenis bangunan dengan tarif per m²
+  - Kalkulator harga: luas ruangan × tarif + layanan tambahan
+  - Form booking: tanggal, jam & alamat lokasi cleaning
+  - Kode booking otomatis (CLN-XXXXXX) + konfirmasi via WhatsApp
+  - Tim & peralatan profesional, garansi kebersihan
+  - Panduan PANDUAN.txt: cara ganti nama, WA, tarif & layanan
+
+CATATAN
+- Semua harga & nama usaha di situs ini adalah CONTOH FIKTIF untuk demo.
+- Jangan klaim testimoni/nama orang nyata sebelum diganti dengan data asli.
+- File ini + index.html adalah isi ZIP unduhan.

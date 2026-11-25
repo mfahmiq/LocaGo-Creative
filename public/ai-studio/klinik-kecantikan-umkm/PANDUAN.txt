@@ -1,0 +1,40 @@
+PANDUAN — Klinik Kecantikan Ayu Lestari
+Website siap pakai hasil Google AI Studio (Source Code Gratis by LocaGo Creative).
+
+CARA PAKAI
+1. Buka file index.html dengan double-click — website langsung tampil di browser.
+2. Untuk online: upload file index.html ke hosting statis apa pun
+   (Netlify, Vercel, GitHub Pages, atau hosting lain). Tidak perlu database/server.
+
+CARA MENYESUAIKAN
+- Nama usaha: cari "Klinik Kecantikan Ayu Lestari" di index.html, ganti dengan nama usahamu.
+- Nomor WhatsApp: cari "6281234567890" di index.html, ganti dengan nomor WA
+  (format internasional, contoh: 6281234567890). Nomor yang tampil di footer
+  "0812-3456-7890" juga diganti.
+- Harga & katalog: ubah daftar harga di bawah ini di file index.html
+  (bagian SITE / daftar item) — harga dihitung otomatis oleh JavaScript.
+- Warna: ubah kode warna di bagian atas index.html (primary/dark/accent).
+- Gambar hero: ganti URL Unsplash di bagian <section> hero.
+
+DAFTAR HARGA CONTOH (harga contoh — sesuaikan dengan harga usahamu):
+  - Facial Basic: Rp150.000 — Pembersihan mendalam + masker, 60 menit
+  - Facial Acne: Rp250.000 — Perawatan jerawat + ekstraksi komedo
+  - Chemical Peeling: Rp350.000 — Peeling ringan untuk kulit cerah merata
+  - Microneedling: Rp500.000 — Stimulasi kolagen, samarkan bekas jerawat
+  - Laser Rejuvenation: Rp750.000 — Peremajaan kulit & samarkan flek
+  - HIFU: Rp1.200.000 — Pengencangan wajah tanpa operasi
+  - Botox (per area): Rp1.500.000 — Kurangi kerutan dahi / sekitar mata
+  - Filler: Rp2.500.000 — Isi volume bibir / pipi, hasil instan
+
+FITUR
+  - 8 treatment + harga transparan
+  - Kalkulator estimasi biaya: centang treatment, total terhitung otomatis
+  - Form booking konsultasi: tanggal, jam & keluhan kulit
+  - Kode booking otomatis (KKC-XXXXXX) + konfirmasi via WhatsApp
+  - Profil dokter & info keamanan treatment
+  - Panduan PANDUAN.txt: cara ganti nama, WA, harga & treatment
+
+CATATAN
+- Semua harga & nama usaha di situs ini adalah CONTOH FIKTIF untuk demo.
+- Jangan klaim testimoni/nama orang nyata sebelum diganti dengan data asli.
+- File ini + index.html adalah isi ZIP unduhan.

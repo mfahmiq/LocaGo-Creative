@@ -1,0 +1,44 @@
+PANDUAN — Petshop Sahabat Hewan
+Website siap pakai hasil Google AI Studio (Source Code Gratis by LocaGo Creative).
+
+CARA PAKAI
+1. Buka file index.html dengan double-click — website langsung tampil di browser.
+2. Untuk online: upload file index.html ke hosting statis apa pun
+   (Netlify, Vercel, GitHub Pages, atau hosting lain). Tidak perlu database/server.
+
+CARA MENYESUAIKAN
+- Nama usaha: cari "Petshop Sahabat Hewan" di index.html, ganti dengan nama usahamu.
+- Nomor WhatsApp: cari "6281234567890" di index.html, ganti dengan nomor WA
+  (format internasional, contoh: 6281234567890). Nomor yang tampil di footer
+  "0812-3456-7890" juga diganti.
+- Harga & katalog: ubah daftar harga di bawah ini di file index.html
+  (bagian SITE / daftar item) — harga dihitung otomatis oleh JavaScript.
+- Warna: ubah kode warna di bagian atas index.html (primary/dark/accent).
+- Gambar hero: ganti URL Unsplash di bagian <section> hero.
+
+DAFTAR HARGA CONTOH (harga contoh — sesuaikan dengan harga usahamu):
+  - Makanan Kucing 1 kg: Rp85.000 — Dry food kucing dewasa, semua rasa
+  - Makanan Anjing 1 kg: Rp95.000 — Dry food anjing dewasa, nutrisi lengkap
+  - Pasir Kucing 10 L: Rp65.000 — Pasir gumpal, anti bau
+  - Shampoo Hewan 250 ml: Rp45.000 — Shampoo lembut, aman untuk kulit sensitif
+  - Vitamin Hewan: Rp60.000 — Vitamin & suplemen daya tahan tubuh
+  - Kandang Kucing: Rp250.000 — Kandang lipat 2 pintu, mudah dibersihkan
+  - Mainan Kucing: Rp35.000 — Mainan interaktif bola + bulu
+  - Snack Anjing: Rp30.000 — Snack tulang & biskuit, isi 500 g
+  - Grooming Kucing: Rp80.000 — Mandi, potong kuku & bersih telinga
+  - Grooming Anjing: Rp120.000 — Mandi, blow dry & potong bulu
+  - Potong Kuku: Rp30.000 — Potong kuku kucing/anjing
+  - Vaksinasi Hewan: Rp150.000 — Vaksin dasar, daftar jadwal via WhatsApp
+
+FITUR
+  - 12 produk & layanan: makanan, aksesoris, grooming & vaksin
+  - Keranjang belanja: tambah/kurangi, subtotal & ongkir otomatis
+  - Gratis ongkir otomatis untuk order ≥ Rp150.000
+  - Order via WhatsApp dengan rincian pesanan otomatis
+  - Layanan antar & grooming di tempat
+  - Panduan PANDUAN.txt: cara ganti nama, WA, harga & katalog
+
+CATATAN
+- Semua harga & nama usaha di situs ini adalah CONTOH FIKTIF untuk demo.
+- Jangan klaim testimoni/nama orang nyata sebelum diganti dengan data asli.
+- File ini + index.html adalah isi ZIP unduhan.

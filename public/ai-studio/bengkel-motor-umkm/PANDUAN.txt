@@ -1,0 +1,42 @@
+PANDUAN — Bengkel Motor Jaya Abadi
+Website siap pakai hasil Google AI Studio (Source Code Gratis by LocaGo Creative).
+
+CARA PAKAI
+1. Buka file index.html dengan double-click — website langsung tampil di browser.
+2. Untuk online: upload file index.html ke hosting statis apa pun
+   (Netlify, Vercel, GitHub Pages, atau hosting lain). Tidak perlu database/server.
+
+CARA MENYESUAIKAN
+- Nama usaha: cari "Bengkel Motor Jaya Abadi" di index.html, ganti dengan nama usahamu.
+- Nomor WhatsApp: cari "6281234567890" di index.html, ganti dengan nomor WA
+  (format internasional, contoh: 6281234567890). Nomor yang tampil di footer
+  "0812-3456-7890" juga diganti.
+- Harga & katalog: ubah daftar harga di bawah ini di file index.html
+  (bagian SITE / daftar item) — harga dihitung otomatis oleh JavaScript.
+- Warna: ubah kode warna di bagian atas index.html (primary/dark/accent).
+- Gambar hero: ganti URL Unsplash di bagian <section> hero.
+
+DAFTAR HARGA CONTOH (harga contoh — sesuaikan dengan harga usahamu):
+  - Ganti Oli Mesin: Rp75.000 — Oli mesin + filter, garansi 1 bulan
+  - Tune Up: Rp150.000 — Setel klep, busi, filter udara & karburator/injeksi
+  - Servis CVT: Rp180.000 — Bersihkan CVT, cek roller & v-belt
+  - Ganti Kampas Rem: Rp120.000 — Kampas rem depan/belakang + setel
+  - Ganti Ban Dalam: Rp90.000 — Ban dalam + pasang & balancing
+  - Servis Shockbreaker: Rp200.000 — Ganti oli shock & seal, setel ulang
+  - Ganti Aki: Rp350.000 — Aki baru + cek kelistrikan
+  - Cuci Motor + Wax: Rp50.000 — Cuci menyeluruh + wax pengkilap
+  - Ganti Busi: Rp45.000 — Busi baru + setel pengapian
+  - Servis Injeksi: Rp250.000 — Cleaning injektor & throttle body
+
+FITUR
+  - 10 layanan servis + harga transparan
+  - Kalkulator estimasi biaya: centang layanan, total terhitung otomatis
+  - Form booking servis: tanggal, jam & jenis motor
+  - Kode booking otomatis (BKL-XXXXXX) + konfirmasi via WhatsApp
+  - Info jam buka, alamat & garansi servis
+  - Panduan PANDUAN.txt: cara ganti nama, WA, harga & layanan
+
+CATATAN
+- Semua harga & nama usaha di situs ini adalah CONTOH FIKTIF untuk demo.
+- Jangan klaim testimoni/nama orang nyata sebelum diganti dengan data asli.
+- File ini + index.html adalah isi ZIP unduhan.

@@ -1,0 +1,44 @@
+PANDUAN — Florist Mekar Jaya
+Website siap pakai hasil Google AI Studio (Source Code Gratis by LocaGo Creative).
+
+CARA PAKAI
+1. Buka file index.html dengan double-click — website langsung tampil di browser.
+2. Untuk online: upload file index.html ke hosting statis apa pun
+   (Netlify, Vercel, GitHub Pages, atau hosting lain). Tidak perlu database/server.
+
+CARA MENYESUAIKAN
+- Nama usaha: cari "Florist Mekar Jaya" di index.html, ganti dengan nama usahamu.
+- Nomor WhatsApp: cari "6281234567890" di index.html, ganti dengan nomor WA
+  (format internasional, contoh: 6281234567890). Nomor yang tampil di footer
+  "0812-3456-7890" juga diganti.
+- Harga & katalog: ubah daftar harga di bawah ini di file index.html
+  (bagian SITE / daftar item) — harga dihitung otomatis oleh JavaScript.
+- Warna: ubah kode warna di bagian atas index.html (primary/dark/accent).
+- Gambar hero: ganti URL Unsplash di bagian <section> hero.
+
+DAFTAR HARGA CONTOH (harga contoh — sesuaikan dengan harga usahamu):
+  - Buket Mawar Merah: Rp150.000 — 12 tangkai mawar merah segar, wrapping premium
+  - Buket Mawar Pink: Rp135.000 — 10 tangkai mawar pink lembut untuk hadiah
+  - Buket Bunga Matahari: Rp120.000 — 5 tangkai sunflower cerah pembawa semangat
+  - Buket Lily Putih: Rp175.000 — Lily putih elegan, wangi lembut
+  - Buket Mix Musiman: Rp99.000 — Campuran bunga musiman pilihan florist
+  - Papan Bunga Duka Cita: Rp450.000 — Papan bunga belasungkawa, ukuran standar
+  - Papan Bunga Grand Opening: Rp550.000 — Papan bunga peresmian usaha, meriah
+  - Bunga Meja Vas Kaca: Rp85.000 — Rangkaian bunga meja + vas kaca
+  - Bouquet Wisuda: Rp125.000 — Buket wisuda + boneka mini & kartu ucapan
+  - Bunga Papan Pernikahan: Rp650.000 — Papan bunga ucapan pernikahan
+  - Tanaman Hias Monstera: Rp180.000 — Monstera dalam pot, mudah dirawat
+  - Hampers Bunga & Cokelat: Rp250.000 — Buket mini + cokelat praline isi 8
+
+FITUR
+  - 12 produk bunga: buket, papan bunga, tanaman hias & hampers
+  - Keranjang belanja: tambah/kurangi, subtotal & ongkir otomatis
+  - Gratis ongkir otomatis untuk order ≥ Rp200.000
+  - Checkout via WhatsApp dengan rincian pesanan otomatis
+  - Pengiriman same-day untuk order sebelum pukul 15.00
+  - Panduan PANDUAN.txt: cara ganti nama, WA, harga & katalog
+
+CATATAN
+- Semua harga & nama usaha di situs ini adalah CONTOH FIKTIF untuk demo.
+- Jangan klaim testimoni/nama orang nyata sebelum diganti dengan data asli.
+- File ini + index.html adalah isi ZIP unduhan.

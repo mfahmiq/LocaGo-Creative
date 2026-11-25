@@ -1,0 +1,40 @@
+PANDUAN — Les Privat Cerdas
+Website siap pakai hasil Google AI Studio (Source Code Gratis by LocaGo Creative).
+
+CARA PAKAI
+1. Buka file index.html dengan double-click — website langsung tampil di browser.
+2. Untuk online: upload file index.html ke hosting statis apa pun
+   (Netlify, Vercel, GitHub Pages, atau hosting lain). Tidak perlu database/server.
+
+CARA MENYESUAIKAN
+- Nama usaha: cari "Les Privat Cerdas" di index.html, ganti dengan nama usahamu.
+- Nomor WhatsApp: cari "6281234567890" di index.html, ganti dengan nomor WA
+  (format internasional, contoh: 6281234567890). Nomor yang tampil di footer
+  "0812-3456-7890" juga diganti.
+- Harga & katalog: ubah daftar harga di bawah ini di file index.html
+  (bagian SITE / daftar item) — harga dihitung otomatis oleh JavaScript.
+- Warna: ubah kode warna di bagian atas index.html (primary/dark/accent).
+- Gambar hero: ganti URL Unsplash di bagian <section> hero.
+
+DAFTAR HARGA CONTOH (harga contoh — sesuaikan dengan harga usahamu):
+  - Matematika: Rp75.000 — SD–SMA, persiapan ujian & olimpiade
+  - Fisika: Rp80.000 — SMP–SMA, konsep + latihan soal
+  - Kimia: Rp80.000 — SMP–SMA, teori & praktikum
+  - Biologi: Rp75.000 — SMP–SMA, hafalan & pemahaman konsep
+  - Bahasa Inggris: Rp70.000 — Grammar, speaking & TOEFL preparation
+  - Bahasa Indonesia: Rp60.000 — Menulis, membaca & persiapan ujian
+  - Ekonomi: Rp70.000 — SMA, akuntansi dasar & teori ekonomi
+  - UTBK / SNBT: Rp100.000 — Persiapan intensif masuk PTN
+
+FITUR
+  - 8 mata pelajaran dengan tarif per sesi (90 menit)
+  - Kalkulator biaya: mata pelajaran × jumlah sesi, diskon 10% untuk 8+ sesi
+  - Form pendaftaran: jenjang, jadwal & mode (tatap muka / online)
+  - Nomor pendaftaran otomatis (LSP-XXXXXX) + konfirmasi via WhatsApp
+  - Profil tutor & testimoni siswa (contoh)
+  - Panduan PANDUAN.txt: cara ganti nama, WA, tarif & mata pelajaran
+
+CATATAN
+- Semua harga & nama usaha di situs ini adalah CONTOH FIKTIF untuk demo.
+- Jangan klaim testimoni/nama orang nyata sebelum diganti dengan data asli.
+- File ini + index.html adalah isi ZIP unduhan.

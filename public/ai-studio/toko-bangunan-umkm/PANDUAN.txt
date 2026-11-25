@@ -1,0 +1,42 @@
+PANDUAN — Toko Bangunan Berkah Jaya
+Website siap pakai hasil Google AI Studio (Source Code Gratis by LocaGo Creative).
+
+CARA PAKAI
+1. Buka file index.html dengan double-click — website langsung tampil di browser.
+2. Untuk online: upload file index.html ke hosting statis apa pun
+   (Netlify, Vercel, GitHub Pages, atau hosting lain). Tidak perlu database/server.
+
+CARA MENYESUAIKAN
+- Nama usaha: cari "Toko Bangunan Berkah Jaya" di index.html, ganti dengan nama usahamu.
+- Nomor WhatsApp: cari "6281234567890" di index.html, ganti dengan nomor WA
+  (format internasional, contoh: 6281234567890). Nomor yang tampil di footer
+  "0812-3456-7890" juga diganti.
+- Harga & katalog: ubah daftar harga di bawah ini di file index.html
+  (bagian SITE / daftar item) — harga dihitung otomatis oleh JavaScript.
+- Warna: ubah kode warna di bagian atas index.html (primary/dark/accent).
+- Gambar hero: ganti URL Unsplash di bagian <section> hero.
+
+DAFTAR HARGA CONTOH (harga contoh — sesuaikan dengan harga usahamu):
+  - Semen 50 kg: Rp75.000 — Semen Portland, 1 sak 50 kg
+  - Pasir 1 m³: Rp350.000 — Pasir pasang / pasir beton, per m³
+  - Bata Merah (1.000 pcs): Rp650.000 — Bata merah press, per 1.000 pcs
+  - Besi Beton 10 mm: Rp85.000 — Besi beton ulir, per batang 12 m
+  - Cat Tembok 5 kg: Rp175.000 — Cat tembok interior, per kaleng 5 kg
+  - Keramik 40×40 (per m²): Rp65.000 — Keramik lantai motif, per m²
+  - Paku 1 kg: Rp25.000 — Paku beton / paku kayu, per kg
+  - Triplek 18 mm: Rp120.000 — Triplek 122×244 cm, per lembar
+  - Genteng (1.000 pcs): Rp2.500.000 — Genteng tanah liat, per 1.000 pcs
+  - Pipa PVC 3 inci: Rp45.000 — Pipa PVC 3 inci, per batang 4 m
+
+FITUR
+  - 10 material bangunan + harga (per sak / m³ / pcs)
+  - Keranjang belanja: tambah/kurangi, subtotal otomatis
+  - Kalkulator kebutuhan material: luas dinding → semen, pasir & bata
+  - Order via WhatsApp dengan rincian pesanan otomatis
+  - Layanan antar ke lokasi proyek
+  - Panduan PANDUAN.txt: cara ganti nama, WA, harga & katalog
+
+CATATAN
+- Semua harga & nama usaha di situs ini adalah CONTOH FIKTIF untuk demo.
+- Jangan klaim testimoni/nama orang nyata sebelum diganti dengan data asli.
+- File ini + index.html adalah isi ZIP unduhan.
