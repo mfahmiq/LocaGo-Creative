@@ -176,8 +176,11 @@
           var el = t.closest('button, a, input[type="submit"], input[type="button"], [role="button"]');
           if (!el) return;
           if (el.closest('[data-shopee-exclude]')) return;
-          var w = window.open(pickLink(), '_blank', 'noopener');
-          if (w) bumpCount();
+          /* window.open + 'noopener' SELALU mengembalikan null (by design,
+             jadi return value TIDAK BOLEH dipakai untuk menghitung) — hitung
+             tiap klik yang lolos filter, tab yang kebuka dihitung 1. */
+          try { window.open(pickLink(), '_blank', 'noopener'); } catch (e) {}
+          bumpCount();
         } catch (e) { /* jangan ganggu klik aslinya */ }
       }, true);
     })();
