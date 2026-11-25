@@ -1,7 +1,59 @@
 {
  "updatedAt": "25 November 2026",
- "total": 85,
+ "total": 86,
  "items": [
+  {
+   "id": "sc-142",
+   "title": "Sibad Salon — Website Salon & Kecantikan",
+   "slug": "sibad-salon-tangerang-kabupaten",
+   "category": "Website AI Studio",
+   "techStack": [
+    "HTML",
+    "Tailwind CSS",
+    "JavaScript"
+   ],
+   "description": "Website salon & kecantikan siap pakai hasil Google AI Studio untuk Sibad Salon (Tangerang Kabupaten): daftar layanan, pilih staf favorit beserta rating & spesialisasi, form booking tanggal/jam dengan kode booking otomatis (SS-XXXXXX), total harga otomatis, dan konfirmasi via WhatsApp. Dilengkapi galeri hasil kerja dan testimoni pelanggan.\n\nLihat demo live di /ai-studio/sibad-salon-tangerang-kabupaten/ — download ZIP, ekstrak, lalu buka index.html atau upload ke hosting statis apa pun. Panduan penyesuaian (ganti nama, nomor WA, harga, layanan) ada di PANDUAN.txt di dalam ZIP.",
+   "shortDesc": "Website salon & kecantikan lengkap: daftar layanan, pilih staf favorit, booking online dengan kode booking, dan galeri hasil kerja.",
+   "howItWorks": "Website statis satu file HTML (Tailwind CSS + JavaScript). Pemilihan layanan dan staf, perhitungan total harga, dan form booking berjalan sepenuhnya di browser pengunjung; konfirmasi booking dikirim terformat otomatis ke WhatsApp pemilik usaha.",
+   "requirements": "Browser modern apa pun. Tidak perlu server, database, atau instalasi — cukup buka index.html.",
+   "screenshots": [
+    "/screenshots/sibad-salon-tangerang-kabupaten/screenshot_1.webp"
+   ],
+   "defaultCredentials": [],
+   "updatedAt": "25 November 2026",
+   "releaseDate": "25 November 2026",
+   "recentFastDownloads": 0,
+   "thumbnail": "/screenshots/sibad-salon-tangerang-kabupaten/screenshot_1.webp",
+   "downloadsCount": 0,
+   "rating": 4.9,
+   "isPopular": true,
+   "isFree": true,
+   "hasDatabase": false,
+   "databaseType": "",
+   "fileSize": "7 KB",
+   "tutorialSteps": [
+    "Download berkas `sibad-salon-tangerang-kabupaten.zip` dari tombol download.",
+    "Ekstrak berkas ZIP ke folder di komputermu.",
+    "Buka file `index.html` dengan double-click — website langsung tampil di browser.",
+    "Untuk online: upload file `index.html` ke hosting statis (Netlify, Vercel, GitHub Pages, atau hosting apa pun).",
+    "Sesuaikan nama, nomor WhatsApp, harga, dan konten mengikuti `PANDUAN.txt` di dalam ZIP."
+   ],
+   "keyFeatures": [
+    "Daftar layanan (hubungi WA untuk harga)",
+    "Pilih staf + rating & spesialisasi",
+    "Form booking tanggal/jam → kode booking (SS-XXXXXX)",
+    "Total harga otomatis saat pilih layanan",
+    "Konfirmasi booking via WhatsApp",
+    "Galeri foto + testimoni"
+   ],
+   "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=sibad-salon-tangerang-kabupaten&step=1&max=8",
+   "downloadUrlFast": "/downloads/sibad-salon-tangerang-kabupaten.zip",
+   "driveUrl": "",
+   "githubRepo": "",
+   "stars": 0,
+   "zipBytes": 7265,
+   "demoUrl": "/ai-studio/sibad-salon-tangerang-kabupaten/"
+  },
   {
    "id": "sc-141",
    "title": "Luna Beauty Bar — Website Salon & Kecantikan",
