@@ -1,0 +1,230 @@
+<!-- Dibuat dengan Google AI Studio — Prototype website untuk NoMiNoMi Delight — Source Code Gratis by LocaGo Creative (locagocreative.my.id) -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NoMiNoMi Delight — Resto & Kafe | Bekasi</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script>
+tailwind.config = { theme: { extend: { fontFamily: { display: ['Archivo','sans-serif'], sans: ['Poppins','sans-serif'] }, colors: { biz: { 900:'#1C1917', 800:'#292524', accent:'#D97706', cream:'#FFFBEB' } } } } }
+</script>
+<style>
+  html{scroll-behavior:smooth}
+  .menu-card{transition:transform .25s ease, box-shadow .25s ease}
+  .menu-card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(20,18,16,.2)}
+  .toast{transition:opacity .3s ease, transform .3s ease}
+  .hero-img{object-position:center 30%}
+</style>
+</head>
+<body class="font-sans bg-biz-cream text-biz-900">
+<header class="sticky top-0 z-50 bg-biz-900/95 backdrop-blur text-white shadow-lg">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="#" class="flex items-center gap-2">
+      <span class="text-2xl">🍽️</span>
+      <span class="font-display font-black text-xl tracking-wide">NOMINOMI DELIGHT</span>
+    </a>
+    <nav class="hidden md:flex gap-6 text-sm font-medium">
+      <a href="#menu" class="hover:text-biz-accent">Menu</a>
+      <a href="#galeri" class="hover:text-biz-accent">Galeri</a>
+      <a href="#pesan" class="hover:text-biz-accent">Pesan</a>
+      <a href="#testimoni" class="hover:text-biz-accent">Testimoni</a>
+    </nav>
+    <a href="#pesan" class="bg-biz-accent text-white font-semibold px-4 py-2 rounded-full text-sm hover:opacity-90">Pesan Sekarang</a>
+  </div>
+</header>
+<section class="relative h-[520px] md:h-[600px] overflow-hidden">
+  <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1600&q=80" alt="NoMiNoMi Delight" class="hero-img absolute inset-0 w-full h-full object-cover">
+  <div class="absolute inset-0 bg-gradient-to-r from-biz-900/90 via-biz-900/60 to-transparent"></div>
+  <div class="relative max-w-6xl mx-auto px-4 h-full flex flex-col justify-center text-white">
+    <span class="bg-biz-accent text-white text-xs font-bold px-3 py-1 rounded-full w-max mb-4">★ 2.3 di Google Maps</span>
+    <h1 class="font-display text-4xl md:text-6xl font-black leading-tight max-w-xl">Makan Enak, Suasana Nyaman.</h1>
+    <p class="mt-4 text-base md:text-lg text-white/85 max-w-lg">Masakan rumahan yang konsisten enaknya. Makan di tempat, bungkus, atau pesan antar via WhatsApp.</p>
+    <div class="mt-6 flex flex-wrap gap-3">
+      <a href="#pesan" class="bg-biz-accent text-white font-semibold px-6 py-3 rounded-full hover:opacity-90">Pesan Sekarang</a>
+      <a href="#menu" class="border-2 border-white/70 px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-biz-900">Lihat Menu</a>
+    </div>
+    <div class="mt-8 flex flex-wrap gap-6 text-sm text-white/80">
+      <span>🕘 Buka 10.00 – 22.00 WIB</span><span>📍 Bekasi</span><span>🛵 Dine-in &amp; Takeaway</span>
+    </div>
+  </div>
+</section>
+<section class="max-w-6xl mx-auto px-4 py-10 grid grid-cols-2 md:grid-cols-4 gap-4">
+  <div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">🍽️</div><h3 class="font-semibold mt-2">Bahan Segar</h3><p class="text-sm text-stone-500 mt-1">Dimasak fresh setiap hari</p></div>
+  <div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">👨‍🍳</div><h3 class="font-semibold mt-2">Rasa Konsisten</h3><p class="text-sm text-stone-500 mt-1">Resep terjaga dari dulu</p></div>
+  <div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">⏱️</div><h3 class="font-semibold mt-2">Pesan Cepat</h3><p class="text-sm text-stone-500 mt-1">Pesan via WA, tinggal ambil</p></div>
+  <div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">💬</div><h3 class="font-semibold mt-2">Harga? Tanya WA</h3><p class="text-sm text-stone-500 mt-1">Chat WhatsApp untuk info harga</p></div>
+</section>
+<section id="menu" class="max-w-6xl mx-auto px-4 py-8">
+  <h2 class="font-display text-3xl md:text-4xl font-black text-center">Menu Andalan</h2>
+  <p class="text-center text-stone-500 mt-2">Pilih menu, atur jumlah, lalu pesan via WhatsApp. Harga? Hubungi WhatsApp kami. (Menu di sini contoh — ganti dengan menu asli, lihat PANDUAN.txt)</p>
+  <div id="menuGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-8"></div>
+</section>
+<section id="galeri" class="max-w-6xl mx-auto px-4 py-14">
+  <h2 class="font-display text-3xl md:text-4xl font-black text-center">Galeri</h2>
+  <p class="text-center text-stone-500 mt-2">Suasana tempat &amp; hidangan kami.</p>
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
+    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80" alt="Galeri" class="rounded-2xl w-full h-52 object-cover shadow" loading="lazy">
+    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80" alt="Galeri" class="rounded-2xl w-full h-52 object-cover shadow" loading="lazy">
+    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80" alt="Galeri" class="rounded-2xl w-full h-52 object-cover shadow" loading="lazy">
+    <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&q=80" alt="Galeri" class="rounded-2xl w-full h-52 object-cover shadow" loading="lazy">
+  </div>
+</section>
+<section id="pesan" class="max-w-6xl mx-auto px-4 pb-14">
+  <div class="grid md:grid-cols-5 gap-6">
+    <div class="md:col-span-3 bg-white rounded-3xl p-7 shadow">
+      <h2 class="font-display text-2xl md:text-3xl font-black">🛒 Pesan Sekarang</h2>
+      <p class="text-sm text-stone-500 mt-1">Isi form, dapatkan kode pesanan — konfirmasi ke WhatsApp.</p>
+      <div id="orderSummary" class="mt-6 bg-biz-cream rounded-2xl p-5">
+        <h3 class="font-bold">Pesanan Kamu</h3>
+        <div id="orderItems" class="mt-2 space-y-1 text-sm text-stone-600">Belum ada menu dipilih.</div>
+      </div>
+      <form id="orderForm" class="mt-6 space-y-4" onsubmit="submitOrder(event)">
+        <label class="block text-sm font-medium">Nama Kamu
+          <input id="odName" type="text" required placeholder="cth: Rizky Pratama" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+        </label>
+        <label class="block text-sm font-medium">Nomor WhatsApp
+          <input id="odWa" type="tel" required placeholder="cth: 081234567890" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+        </label>
+        <div class="grid grid-cols-2 gap-4">
+          <label class="block text-sm font-medium">Tanggal
+            <input id="odDate" type="date" required class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+          </label>
+          <label class="block text-sm font-medium">Cara Pesan
+            <select id="odType" required class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+              <option value="">Pilih</option>
+              <option>Dine-in (makan di tempat)</option>
+              <option>Takeaway (bungkus)</option>
+              <option>Delivery (antar)</option>
+            </select>
+          </label>
+        </div>
+        <label class="block text-sm font-medium">Catatan (opsional)
+          <input id="odNote" type="text" placeholder="cth: tidak pakai bawang, pedas sedang" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+        </label>
+        <button type="submit" class="w-full bg-biz-accent text-white font-bold py-3 rounded-full hover:opacity-90">✅ Buat Pesanan</button>
+      </form>
+      <div id="orderResult" class="hidden mt-6 bg-green-50 border border-green-300 rounded-2xl p-5 text-center">
+        <p class="text-3xl">🎉</p>
+        <h3 class="font-bold text-lg mt-2">Pesanan Dibuat!</h3>
+        <p class="text-sm text-stone-600 mt-1">Kode pesanan kamu:</p>
+        <p id="orderCode" class="font-display font-black text-3xl tracking-widest text-green-700 mt-1">ND-000000</p>
+        <p id="orderSummaryText" class="text-sm text-stone-600 mt-2"></p>
+        <button id="waConfirmBtn" onclick="orderWA()" class="mt-4 bg-green-600 text-white font-semibold px-6 py-2 rounded-full hover:bg-green-700">Konfirmasi via WhatsApp</button>
+      </div>
+    </div>
+    <div class="md:col-span-2 space-y-6">
+      <div class="bg-biz-800 text-white rounded-3xl p-7 shadow">
+        <h3 class="font-display text-2xl font-black">📍 Lokasi &amp; Jam Buka</h3>
+        <p class="mt-3 text-white/80 text-sm">Kopi Kenangan x Chigo x Flip Burger - Ruko Grand Galaxy City Bekasi, Jl. Boulevard Raya Blok RSOA No.008, RT.004/RW.019, Bekasi, 17147</p>
+        <table class="mt-4 w-full text-sm">
+          <tr class="border-b border-white/20"><td class="py-2 font-medium">Senin – Minggu</td><td class="py-2 text-right">10.00 – 22.00 WIB</td></tr>
+        </table>
+        <p class="mt-4 text-sm text-white/70">📞 +62 21 82737077</p>
+        <a href="https://wa.me/622182737077" target="_blank" class="mt-4 inline-block bg-green-600 text-white font-semibold px-5 py-2 rounded-full text-sm hover:bg-green-700">💬 Chat WhatsApp</a>
+      </div>
+      <div class="bg-white rounded-3xl p-7 shadow">
+        <h3 class="font-display text-xl font-black">💡 Cara Pesan</h3>
+        <ul class="mt-3 space-y-2 text-sm text-stone-600">
+          <li>✔ Pilih menu &amp; atur jumlah di atas</li>
+          <li>✔ Isi nama, nomor WA, tanggal &amp; cara pesan</li>
+          <li>✔ Klik "Buat Pesanan", dapatkan kode pesanan</li>
+          <li>✔ Konfirmasi via WhatsApp, tunggu balasan kami</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="testimoni" class="max-w-6xl mx-auto px-4 pb-14">
+  <h2 class="font-display text-3xl md:text-4xl font-black text-center">Kata Mereka</h2>
+  <p class="text-center text-stone-500 mt-2 text-sm">(Testimoni contoh — ganti dengan testimoni asli pelanggan, lihat PANDUAN.txt)</p>
+  <div class="grid md:grid-cols-3 gap-5 mt-8">
+    <div class="bg-white rounded-2xl p-6 shadow"><div class="text-biz-accent text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Makanannya enak, porsinya pas. Sudah langganan di sini."</p><p class="mt-4 font-semibold">— Pelanggan Setia</p></div>
+    <div class="bg-white rounded-2xl p-6 shadow"><div class="text-biz-accent text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Tempatnya nyaman buat kumpul keluarga. Pelayanannya ramah."</p><p class="mt-4 font-semibold">— Pelanggan Baru</p></div>
+    <div class="bg-white rounded-2xl p-6 shadow"><div class="text-biz-accent text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Pesan via WA gampang, tinggal ambil. Recommended."</p><p class="mt-4 font-semibold">— Warga Sekitar</p></div>
+  </div>
+</section>
+<footer class="bg-biz-900 text-white/70 text-center py-6 text-sm">
+  © 2026 NoMiNoMi Delight — Prototype website oleh <span class="text-biz-accent">LocaGo Creative</span> (locagocreative.my.id) • Dibuat dengan Google AI Studio
+</footer>
+<div id="toast" class="toast fixed bottom-5 left-1/2 -translate-x-1/2 translate-y-4 opacity-0 bg-biz-900 text-white text-sm font-medium px-5 py-3 rounded-full shadow-xl z-[80] pointer-events-none">OK</div>
+<script>
+const WA_NUMBER = "622182737077";
+const MENU = [{"id": 1, "name": "Nasi Goreng Spesial", "desc": "Nasi goreng + telur + ayam + kerupuk.", "icon": "🍚"}, {"id": 2, "name": "Ayam Bakar", "desc": "Ayam bakar bumbu kecap, sambal terasi.", "icon": "🍗"}, {"id": 3, "name": "Mie Goreng", "desc": "Mie goreng + sayuran + telur.", "icon": "🍜"}, {"id": 4, "name": "Capcay", "desc": "Sayuran + ayam / seafood, kuah gurih.", "icon": "🥬"}, {"id": 5, "name": "Es Teh Manis", "desc": "Teh melati manis, dingin menyegarkan.", "icon": "🧋"}, {"id": 6, "name": "Jus Alpukat", "desc": "Alpukat segar + susu cokelat.", "icon": "🥑"}];
+let qty = {};
+let lastOrder = null;
+function renderMenu(){
+  document.getElementById("menuGrid").innerHTML = MENU.map(m => `
+    <article class="menu-card bg-white rounded-3xl overflow-hidden shadow">
+      <div class="p-5">
+        <div class="flex items-start justify-between">
+          <span class="text-3xl">${m.icon}</span>
+          <span class="bg-biz-cream text-biz-900 text-xs font-bold px-2 py-1 rounded-full">💬 Harga via WA</span>
+        </div>
+        <h3 class="font-semibold text-lg mt-3">${m.name}</h3>
+        <p class="text-sm text-stone-500 mt-1">${m.desc}</p>
+        <div class="flex items-center gap-3 mt-4">
+          <button type="button" onclick="chgQty(${m.id}, -1)" class="w-8 h-8 rounded-full bg-biz-cream font-bold hover:bg-stone-200">−</button>
+          <span id="qty-${m.id}" class="font-bold w-6 text-center">${qty[m.id] || 0}</span>
+          <button type="button" onclick="chgQty(${m.id}, 1)" class="w-8 h-8 rounded-full bg-biz-accent text-white font-bold hover:opacity-90">+</button>
+          <span class="text-xs text-stone-400 ml-1">${(qty[m.id] || 0) > 0 ? "✔ Dipilih" : "Atur jumlah"}</span>
+        </div>
+      </div>
+    </article>`).join("");
+  renderSummary();
+}
+function chgQty(id, d){
+  qty[id] = Math.max(0, (qty[id] || 0) + d);
+  renderMenu();
+}
+function orderLines(){
+  return MENU.filter(m => (qty[m.id] || 0) > 0).map(m => `${m.name} x${qty[m.id]}`);
+}
+function renderSummary(){
+  const lines = orderLines();
+  document.getElementById("orderItems").innerHTML = lines.length
+    ? lines.map(l => `<p>• ${l}</p>`).join("")
+    : "Belum ada menu dipilih.";
+}
+function submitOrder(e){
+  e.preventDefault();
+  const lines = orderLines();
+  if (lines.length === 0){ showToast("Pilih minimal 1 menu dulu"); return; }
+  const name = document.getElementById("odName").value.trim();
+  const date = document.getElementById("odDate").value;
+  const type = document.getElementById("odType").value;
+  if (!date || !type){ showToast("Pilih tanggal & cara pesan dulu"); return; }
+  const code = "ND-" + Math.floor(100000 + Math.random() * 900000);
+  lastOrder = { code, name, date, type, lines };
+  document.getElementById("orderCode").textContent = code;
+  document.getElementById("orderSummaryText").textContent = `${name} • ${date} • ${type} • ${lines.join(", ")}`;
+  document.getElementById("orderResult").classList.remove("hidden");
+  document.getElementById("orderResult").scrollIntoView({behavior:"smooth", block:"center"});
+  showToast("Pesanan berhasil! Kode: " + code);
+}
+function orderWA(){
+  if (!lastOrder) return;
+  const msg = `Halo NoMiNoMi Delight! Saya ${lastOrder.name}, mau pesan:
+
+Kode pesanan: ${lastOrder.code}
+${lastOrder.lines.map(l => "- " + l).join("\n")}
+Tanggal: ${lastOrder.date}
+Cara pesan: ${lastOrder.type}
+
+Terima kasih!`;
+  window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`, "_blank");
+}
+let toastTimer;
+function showToast(msg){
+  const el = document.getElementById("toast");
+  el.textContent = msg;
+  el.style.opacity = "1"; el.style.transform = "translate(-50%, 0)";
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>{ el.style.opacity = "0"; el.style.transform = "translate(-50%, 1rem)"; }, 2500);
+}
+document.getElementById("odDate").min = new Date().toISOString().split("T")[0];
+renderMenu();
+</script>
+</body>
+</html>
