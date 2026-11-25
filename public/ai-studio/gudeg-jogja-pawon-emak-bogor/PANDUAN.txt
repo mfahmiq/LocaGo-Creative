@@ -1,0 +1,50 @@
+PANDUAN — Gudeg Jogja Pawon Emak (Resto & Kafe)
+================================================================
+Prototype website kasar untuk "Gudeg Jogja Pawon Emak" (Bogor) — dibuat dengan
+Google AI Studio oleh LocaGo Creative (locagocreative.my.id).
+Ini PROTOTYPE: isi di bawah masih contoh dan WAJIB disesuaikan dengan
+data asli usahamu sebelum dipakai resmi.
+
+DATA ASLI (dari Google Maps)
+----------------------------
+Nama usaha : Gudeg Jogja Pawon Emak
+Alamat     : Jl. Bambu Raya No.35, RT.07/RW.11, Bogor, 16112
+Kota       : Bogor
+WhatsApp   : +62 822-9871-0372 (format WA: 6282298710372)
+Rating Google Maps: belum ada rating
+
+CARA MEMBUKA
+------------
+1. Double-click file index.html — website langsung terbuka di browser.
+   (Tidak perlu install apa pun.)
+2. Atau upload file index.html ke hosting statis apa pun
+   (Netlify, Vercel, GitHub Pages, Niagahoster, dll).
+
+FITUR
+-----
+- Menu andalan (contoh) — pilih menu, atur jumlah, pesan via WhatsApp
+- Form pemesanan: nama, nomor WA, tanggal & cara pesan (dine-in / takeaway / delivery)
+- Kode pesanan otomatis (cth: GJ-123456) + konfirmasi otomatis ke WhatsApp
+- Galeri foto, testimoni, lokasi & jam buka
+
+CARA MENYESUAIKAN (edit file index.html dengan Notepad / VS Code)
+-----------------------------------------------------------------
+- Nama usaha & nomor WhatsApp : cari WA_NUMBER = "6282298710372"
+  di bagian bawah file, ganti dengan nomor WA kamu (format: 62 + nomor).
+- Layanan/menu : cari bagian const SERVICES = [ ... ] (atau const MENU)
+  lalu ubah name, desc, dan icon. HARGA: tambahkan sendiri harga asli —
+  prototype ini sengaja TIDAK mencantumkan harga (tanya via WA).
+- Nama staf : cari bagian const STAFF = [ ... ] lalu ganti "Barber 1" /
+  "Stylist 1" dengan nama tim asli, beserta spesialisasi & rating.
+- Testimoni : ganti 3 testimoni contoh di bagian "Kata Mereka" dengan
+  testimoni asli pelangganmu.
+- Foto galeri : ganti URL Unsplash dengan foto asli tempat/usahanmu.
+- Alamat & jam buka : cari bagian "Lokasi & Jam Buka" di HTML.
+- Warna tema : cari tailwind.config di <head>.
+
+CATATAN
+-------
+- Gambar memakai URL Unsplash — butuh internet saat pertama dibuka.
+- Semua data booking/pesanan hanya tersimpan di browser pengunjung.
+- Bebas dipakai & dimodifikasi untuk usahamu. Dilarang dijual kembali
+  sebagai produk berbayar tanpa izin LocaGo Creative.
