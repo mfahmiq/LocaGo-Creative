@@ -1,7 +1,62 @@
 {
-  "updatedAt": "25 Nov 2026, 22:56 WIB",
-  "total": 41,
+  "updatedAt": "25 Nov 2026, 23:55 WIB",
+  "total": 42,
   "items": [
+    {
+      "id": "sc-98",
+      "title": "Sistem Point of Sale Modern - Pointofsale",
+      "slug": "pointofsale",
+      "category": "Kasir & Point of Sale (POS)",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "This is a point of sale that was built for a small supermarket\n\nProyek riil open-source asli dari GitHub (https://github.com/jonathankiranga/pointofsale). Dilengkapi file database lengkap (SQL/20261106_stockregister_fifo_integrity.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Point of Sale Modern - Pointofsale dengan database SQL/20261106_stockregister_fifo_integrity.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/pointofsale/screenshot_1.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Demo",
+          "username": "Lihat README.md repo asli",
+          "password": "(lihat README repo)"
+        }
+      ],
+      "updatedAt": "25 November 2026",
+      "releaseDate": "25 November 2026",
+      "recentFastDownloads": 85,
+      "thumbnail": "/screenshots/pointofsale/screenshot_1.webp",
+      "downloadsCount": 904,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "27.1 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `pointofsale.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `SQL/20261106_stockregister_fifo_integrity.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/pointofsale` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (jonathankiranga/pointofsale) dengan source code lengkap",
+        "Disertai database asli (SQL/20261106_stockregister_fifo_integrity.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=pointofsale&step=1&max=8",
+      "downloadUrlFast": "/downloads/pointofsale.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/jonathankiranga/pointofsale",
+      "stars": 0
+    },
     {
       "id": "sc-97",
       "title": "Comprehensive School Management System - Progressv2",
