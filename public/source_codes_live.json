@@ -1,7 +1,63 @@
 {
-  "updatedAt": "26 Nov 2026, 16:17 WIB",
-  "total": 113,
+  "updatedAt": "26 Nov 2026, 17:02 WIB",
+  "total": 114,
   "items": [
+    {
+      "id": "sc-171",
+      "title": "Sistem Manajemen Laundry Kiloan - Aplikasi Manajemen Laundry",
+      "slug": "aplikasi-manajemen-laundry",
+      "category": "Layanan & Jasa",
+      "techStack": [
+        "CodeIgniter",
+        "PHP",
+        "MySQL"
+      ],
+      "description": "aplikasi manajemen laundry\n\nProyek riil open-source asli dari GitHub (https://github.com/setiawandedy79/aplikasi-manajemen-laundry). Dilengkapi file database lengkap (medikalaundry.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Manajemen Laundry Kiloan - Aplikasi Manajemen Laundry dengan database medikalaundry.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/aplikasi-manajemen-laundry/screenshot_1.webp",
+        "/screenshots/aplikasi-manajemen-laundry/screenshot_2.webp",
+        "/screenshots/aplikasi-manajemen-laundry/screenshot_3.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Demo",
+          "username": "Lihat README.md repo asli",
+          "password": "(lihat README repo)"
+        }
+      ],
+      "updatedAt": "26 November 2026",
+      "releaseDate": "26 November 2026",
+      "recentFastDownloads": 47,
+      "thumbnail": "/screenshots/aplikasi-manajemen-laundry/screenshot_1.webp",
+      "downloadsCount": 905,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "731 KB",
+      "tutorialSteps": [
+        "Ekstrak berkas `aplikasi-manajemen-laundry.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `medikalaundry.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/aplikasi-manajemen-laundry` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (setiawandedy79/aplikasi-manajemen-laundry) dengan source code lengkap",
+        "Disertai database asli (medikalaundry.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=aplikasi-manajemen-laundry&step=1&max=8",
+      "downloadUrlFast": "/downloads/aplikasi-manajemen-laundry.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/setiawandedy79/aplikasi-manajemen-laundry",
+      "stars": 0
+    },
     {
       "id": "sc-170",
       "title": "Sistem Pendukung Keputusan (SPK) - Spk Sunscreen Anak Topsis",
