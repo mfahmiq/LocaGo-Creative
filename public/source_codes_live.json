@@ -19,8 +19,7 @@
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
         "/screenshots/meditech-app/screenshot_1.webp",
-        "/screenshots/meditech-app/screenshot_2.webp",
-        "/screenshots/meditech-app/screenshot_3.webp"
+        "/screenshots/meditech-app/screenshot_2.webp"
       ],
       "defaultCredentials": [
         {
