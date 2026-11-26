@@ -1,6 +1,6 @@
 {
   "updatedAt": "26 Nov 2026, 12:01 WIB",
-  "total": 111,
+  "total": 110,
   "items": [
     {
       "id": "sc-165",
@@ -5960,64 +5960,6 @@
       "downloadUrlFast": "/downloads/pengaduan-pasien-ci3.zip",
       "driveUrl": "https://drive.google.com/file/d/1fvyZUGQXsxLVVNHloEEODWuttco0x7Os/view?usp=drivesdk",
       "githubRepo": "https://github.com/syanufa11/pengaduan-pasien-ci3",
-      "stars": 0
-    },
-    {
-      "id": "sc-166",
-      "title": "Sistem Manajemen Restoran - Exa Andromeda",
-      "slug": "exa-andromeda",
-      "category": "Layanan & Jasa",
-      "techStack": [
-        "Laravel",
-        "PHP",
-        "MySQL",
-        "Bootstrap"
-      ],
-      "description": "EXA Andrómeda | Full-stack restaurant management system built with Laravel and MySQL, featuring orders, POS/cash management, invoicing, reservations, inventory, reports, auditing and secure backups.\n\nProyek riil open-source asli dari GitHub (https://github.com/Avalesk33/exa-andromeda). Dilengkapi file database lengkap (docker/pgsql/create-testing-database.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Sistem Manajemen Restoran - Exa Andromeda dengan database docker/pgsql/create-testing-database.sql, data contoh bawaan, dan tutorial instalasi.",
-      "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
-      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
-      "screenshots": [
-        "/screenshots/exa-andromeda/screenshot_1.webp",
-        "/screenshots/exa-andromeda/screenshot_2.webp",
-        "/screenshots/exa-andromeda/screenshot_3.webp",
-        "/screenshots/exa-andromeda/screenshot_4.webp"
-      ],
-      "defaultCredentials": [
-        {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
-        }
-      ],
-      "updatedAt": "26 November 2026",
-      "releaseDate": "26 November 2026",
-      "recentFastDownloads": 50,
-      "thumbnail": "/screenshots/exa-andromeda/screenshot_1.webp",
-      "downloadsCount": 484,
-      "rating": 4.95,
-      "isPopular": true,
-      "isFree": true,
-      "hasDatabase": true,
-      "databaseType": "MySQL (.sql)",
-      "fileSize": "17.4 MB",
-      "tutorialSteps": [
-        "Ekstrak berkas `exa-andromeda.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
-        "Import berkas SQL `docker/pgsql/create-testing-database.sql` ke database phpMyAdmin.",
-        "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/exa-andromeda` dan login dengan akun default."
-      ],
-      "keyFeatures": [
-        "Proyek riil dari GitHub (Avalesk33/exa-andromeda) dengan source code lengkap",
-        "Disertai database asli (docker/pgsql/create-testing-database.sql) beserta skema dan data contoh",
-        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
-        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
-        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
-      ],
-      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=exa-andromeda&step=1&max=8",
-      "downloadUrlFast": "/downloads/exa-andromeda.zip",
-      "driveUrl": "",
-      "githubRepo": "https://github.com/Avalesk33/exa-andromeda",
       "stars": 0
     }
   ]
