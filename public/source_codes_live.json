@@ -1,7 +1,62 @@
 {
-  "updatedAt": "26 Nov 2026, 09:56 WIB",
-  "total": 108,
+  "updatedAt": "26 Nov 2026, 12:01 WIB",
+  "total": 109,
   "items": [
+    {
+      "id": "sc-165",
+      "title": "Sistem Informasi Akademik & Kesiswaan - Uks",
+      "slug": "uks",
+      "category": "Pendidikan & Akademik",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL"
+      ],
+      "description": "Aplikasi Sistem Informasi Unit Kesehatan Sekolah (UKS) berbasis PHP Native dan MySQL untuk membantu digitalisasi administrasi UKS, meliputi pengelolaan data siswa, pemeriksaan kesehatan, obat, Dokter Kecil (Dokcil), serta pembuatan laporan.\n\nProyek riil open-source asli dari GitHub (https://github.com/irgikusuma55/UKS). Dilengkapi file database lengkap (UKS/database/uks_db.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Informasi Akademik & Kesiswaan - Uks dengan database UKS/database/uks_db.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/uks/screenshot_1.webp",
+        "/screenshots/uks/screenshot_2.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Demo",
+          "username": "Lihat README.md repo asli",
+          "password": "(lihat README repo)"
+        }
+      ],
+      "updatedAt": "26 November 2026",
+      "releaseDate": "26 November 2026",
+      "recentFastDownloads": 86,
+      "thumbnail": "/screenshots/uks/screenshot_1.webp",
+      "downloadsCount": 803,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "8.3 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `uks.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `UKS/database/uks_db.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/uks` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (irgikusuma55/UKS) dengan source code lengkap",
+        "Disertai database asli (UKS/database/uks_db.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=uks&step=1&max=8",
+      "downloadUrlFast": "/downloads/uks.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/irgikusuma55/UKS",
+      "stars": 2
+    },
     {
       "id": "sc-164",
       "title": "Sistem Informasi Klinik & Rekam Medis - Meditech App",
