@@ -72,9 +72,15 @@ export default async function handler(req, res) {
     if (!up.ok) {
       const errText = await up.text().catch(() => '');
       console.error('9Router upstream error:', up.status, errText.slice(0, 300));
-      return res.status(502).json({ error: 'Layanan AI sedang sibuk, coba lagi sebentar.' });
+      return res.status(502).json({ error: 'Layanan AI sedang sibuk, coba lagi sebentar.', upstream: up.status });
     }
-    const data = await up.json();
+    let data;
+    try {
+      data = await up.json();
+    } catch (e) {
+      console.error('9Router returned non-JSON 200:', e);
+      return res.status(502).json({ error: 'AI mengembalikan jawaban yang tidak bisa dibaca.', upstream: up.status });
+    }
     const reply = data.choices && data.choices[0] && data.choices[0].message && data.choices[0].message.content;
     if (!reply) {
       return res.status(502).json({ error: 'AI tidak mengembalikan jawaban.' });
@@ -82,6 +88,6 @@ export default async function handler(req, res) {
     return res.status(200).json({ reply });
   } catch (err) {
     console.error('Error ai-chat proxy:', err);
-    return res.status(500).json({ error: 'Terjadi kendala di server AI.' });
+    return res.status(500).json({ error: 'Terjadi kendala di server AI.', detail: String((err && err.message) || err).slice(0, 200) });
   }
 }
