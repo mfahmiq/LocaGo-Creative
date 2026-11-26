@@ -1,0 +1,233 @@
+<!-- Source Code Gratis by LocaGo Creative (locagocreative.my.id) -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LensaProduk Studio — Jasa Foto Produk Profesional | Jakarta</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script>
+tailwind.config = { theme: { extend: { fontFamily: { serif: ['"Playfair Display"','serif'], sans: ['Poppins','sans-serif'] }, colors: { brand: {900:'#1e1b4b',800:'#312e81',700:'#4338ca',cream:'#eef2ff',gold:'#f59e0b'} } } } }
+</script>
+<style>
+  html{scroll-behavior:smooth}
+  .pkg-card{transition:transform .25s ease, box-shadow .25s ease, border-color .2s ease; cursor:pointer}
+  .pkg-card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(0,0,0,.15)}
+  .pkg-selected{border-color:#4338ca!important;box-shadow:0 0 0 3px rgba(67,56,202,.25)!important}
+  .toast{transition:opacity .3s ease, transform .3s ease}
+</style>
+</head>
+<body class="font-sans bg-stone-50 text-stone-900">
+<header class="sticky top-0 z-50 text-white shadow-lg" style="background:#4338ca">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="#" class="flex items-center gap-2"><span class="text-2xl">📸</span><span class="font-serif font-bold text-xl tracking-wide">LensaProduk</span></a>
+    <nav class="hidden md:flex gap-6 text-sm font-medium">
+      <a href="#paket" class="hover:opacity-80">Paket</a>
+      <a href="#booking" class="hover:opacity-80">Booking</a>
+      <a href="#testimoni" class="hover:opacity-80">Testimoni</a>
+      <a href="#lokasi" class="hover:opacity-80">Lokasi</a>
+    </nav>
+    <a href="#booking" class="bg-white font-semibold px-4 py-2 rounded-full text-sm hover:bg-stone-100" style="color:#4338ca">Book Sekarang</a>
+  </div>
+</header>
+<section class="relative h-[520px] md:h-[600px] overflow-hidden" style="background:#4338ca">
+  <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1600&q=80" alt="LensaProduk" class="absolute inset-0 w-full h-full object-cover">
+  <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent"></div>
+  <div class="relative max-w-6xl mx-auto px-4 h-full flex flex-col justify-center text-white">
+    <span class="bg-white text-xs font-bold px-3 py-1 rounded-full w-max mb-4" style="color:#4338ca">★ 4.9 — 640+ ulasan pelanggan</span>
+    <h1 class="font-serif text-4xl md:text-6xl font-bold leading-tight max-w-xl">Foto Produkmu,<br>Tampil <span class='text-amber-400'>Makin Laris</span>.</h1>
+    <p class="mt-4 text-base md:text-lg text-white/85 max-w-lg">Foto katalog marketplace & katalog yang bikin pembeli berhenti scroll. Hasil siap 2 hari kerja, revisi gratis 1x.</p>
+    <div class="mt-6 flex flex-wrap gap-3">
+      <a href="#paket" class="bg-white font-semibold px-6 py-3 rounded-full hover:bg-stone-100" style="color:#4338ca">Lihat Paket</a>
+      <a href="#booking" class="border-2 border-white/70 px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-stone-900">Booking Online</a>
+    </div>
+    <div class="mt-8 flex gap-6 text-sm text-white/80"><span>🕖 Buka 09.00 – 18.00 WIB</span><span>📍 Jakarta Selatan</span><span>✅ Dipercaya 300+ brand UMKM</span></div>
+  </div>
+</section>
+<section class="max-w-6xl mx-auto px-4 py-10 grid grid-cols-2 md:grid-cols-4 gap-4">
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">📸</div><h3 class="font-semibold mt-2">Kamera Full-Frame</h3><p class="text-sm text-stone-500 mt-1">Detail tajam, warna akurat</p></div>
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">⚡</div><h3 class="font-semibold mt-2">Siap 2 Hari Kerja</h3><p class="text-sm text-stone-500 mt-1">Editing express tersedia</p></div>
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">🎨</div><h3 class="font-semibold mt-2">Styling Properti</h3><p class="text-sm text-stone-500 mt-1">Set foto sesuai brand kamu</p></div>
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">💬</div><h3 class="font-semibold mt-2">Revisi Gratis 1x</h3><p class="text-sm text-stone-500 mt-1">Sampai kamu puas</p></div>
+</section>
+<section id="paket" class="max-w-6xl mx-auto px-4 py-8">
+  <h2 class="font-serif text-3xl md:text-4xl font-bold text-center">Paket Foto Produk</h2>
+  <p class="text-center text-stone-500 mt-2">Klik paket untuk memilih. Tambahan bisa dicentang di bawah — total terhitung otomatis.</p>
+  <div id="pkgGrid" class="grid md:grid-cols-3 gap-5 mt-8"></div>
+  <div class="bg-white rounded-3xl shadow p-6 mt-8">
+    <h3 class="font-serif text-xl font-bold">Tambahan (opsional)</h3>
+    <div id="addonList" class="grid sm:grid-cols-2 gap-3 mt-4"></div>
+  </div>
+</section>
+<section id="booking" class="max-w-6xl mx-auto px-4 py-8">
+  <div class="grid md:grid-cols-2 gap-6">
+    <div class="bg-white rounded-3xl shadow p-7">
+      <h3 class="font-serif text-2xl font-bold">Form Booking</h3>
+      <p class="text-sm text-stone-500 mt-1">Isi data di bawah — kode booking muncul otomatis setelah dikonfirmasi.</p>
+      <div class="space-y-4 mt-5">
+        <label class="block text-sm font-medium">Nama Lengkap
+          <input id="custName" type="text" placeholder="cth: Budi Santoso" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+        </label>
+        <label class="block text-sm font-medium">Nomor WhatsApp
+          <input id="custPhone" type="tel" placeholder="cth: 081234567890" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+        </label>
+        <div class="grid grid-cols-2 gap-3">
+          <label class="block text-sm font-medium">Tanggal
+            <input id="bookDate" type="date" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+          </label>
+          <label class="block text-sm font-medium">Jam
+            <select id="bookTime" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm"><option>08.00</option><option>09.00</option><option>10.00</option><option>11.00</option><option>13.00</option><option>14.00</option><option>15.00</option><option>16.00</option><option>17.00</option><option>18.00</option><option>19.00</option></select>
+          </label>
+        </div>
+        
+        <label class="block text-sm font-medium">Catatan (opsional)
+          <input id="bookNote" type="text" placeholder="cth: bawa anak, alergi, dll" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+        </label>
+        <button id="btnBooking" onclick="confirmBooking()" class="w-full text-white font-semibold py-3 rounded-full hover:opacity-90" style="background:#4338ca">✅ Buat Booking</button>
+      </div>
+    </div>
+    <div class="rounded-3xl shadow p-7 text-white" style="background:#4338ca">
+      <h3 class="font-serif text-2xl font-bold">Ringkasan Booking</h3>
+      <div id="summaryBox" class="mt-4 space-y-2 text-sm"></div>
+      <div class="border-t border-white/30 mt-4 pt-4 space-y-2">
+        <div class="flex justify-between"><span>Paket</span><span id="sumPkg">Rp0</span></div>
+        <div class="flex justify-between"><span>Tambahan</span><span id="sumAddon">Rp0</span></div>
+        <div class="flex justify-between text-white/80"><span>Diskon</span><span id="sumDisc">Rp0</span></div>
+        <div class="flex justify-between font-bold text-xl"><span>Total</span><span id="sumTotal">Rp0</span></div>
+      </div>
+      <div id="codeBox" class="hidden mt-5 bg-white/15 rounded-2xl p-4">
+        <p class="text-sm text-white/80">Kode Booking Anda</p>
+        <p id="bookingCode" class="font-mono font-bold text-2xl tracking-widest mt-1"></p>
+        <p class="text-xs text-white/70 mt-1">Simpan kode ini &amp; tunjukkan saat datang. Konfirmasi dikirim via WhatsApp.</p>
+        <button onclick="sendWA()" class="mt-3 w-full bg-white font-semibold py-2.5 rounded-full text-sm hover:bg-stone-100" style="color:#4338ca">📲 Konfirmasi via WhatsApp</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="tentang" class="max-w-6xl mx-auto px-4 py-8 grid md:grid-cols-2 gap-10 items-center">
+  <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=1000&q=80" alt="Tentang LensaProduk" class="rounded-3xl shadow-2xl w-full h-72 object-cover">
+  <div>
+    <h2 class="font-serif text-3xl md:text-4xl font-bold">Studio Kecil, Hasil Selevel Brand Besar</h2>
+    <p class="mt-4 text-stone-600 leading-relaxed">LensaProduk berdiri 2021 dari garasi rumah di Jakarta Selatan. Kami percaya foto produk yang bagus bukan soal kamera mahal — tapi soal cahaya, styling, dan memahami brand klien. 300+ UMKM sudah naik omzet setelah ganti foto katalog.</p>
+    <ul class="mt-5 space-y-2 text-stone-700"><li>✔ Fotografer & stylist berpengalaman 5+ tahun</li><li>✔ Studio 60 m² dengan 3 set background</li><li>✔ File siap pakai untuk Shopee, Tokopedia & IG</li></ul>
+  </div>
+</section>
+<section id="testimoni" class="max-w-6xl mx-auto px-4 py-14">
+  <h2 class="font-serif text-3xl md:text-4xl font-bold text-center">Kata Mereka</h2>
+  <div class="grid md:grid-cols-3 gap-5 mt-8"><div class="bg-white rounded-2xl p-6 shadow"><div class="text-amber-500 text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Foto bakpia saya jadi kelihatan premium banget. Order di Shopee naik 2x lipat sebulan setelah ganti foto."</p><p class="mt-4 font-semibold">— Sari, Bakpia Pathok Jogja</p></div>
+<div class="bg-white rounded-2xl p-6 shadow"><div class="text-amber-500 text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Prosesnya cepat, hasilnya rapi, revisi juga dilayani ramah. Recommended buat UMKM!"</p><p class="mt-4 font-semibold">— Bima, Kopi Gayo</p></div>
+<div class="bg-white rounded-2xl p-6 shadow"><div class="text-amber-500 text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Video produknya bikin iklan saya CTR-nya naik. Worth every rupiah."</p><p class="mt-4 font-semibold">— Dewi, Skincare Lokal</p></div></div>
+</section>
+<section id="lokasi" class="max-w-6xl mx-auto px-4 pb-14 grid md:grid-cols-2 gap-6">
+  <div class="bg-white rounded-3xl p-7 shadow">
+    <h3 class="font-serif text-2xl font-bold">📍 Lokasi &amp; Jam Buka</h3>
+    <p class="mt-3 text-stone-600">Jl. Kemang Raya No. 45, Jakarta Selatan 12730<br>(Dekat Stasiun MRT Blok M)</p>
+    <table class="mt-4 w-full text-sm">
+      <tr class="border-b"><td class="py-2 font-medium">Senin – Jumat</td><td class="py-2 text-right">09.00 – 18.00 WIB</td></tr>
+      <tr class="border-b"><td class="py-2 font-medium">Sabtu – Minggu</td><td class="py-2 text-right">10.00 – 17.00 WIB</td></tr>
+    </table>
+    <p class="mt-4 text-sm text-stone-500">📞 0812-3456-7892 &nbsp;•&nbsp; 📸 @lensaproduk.studio</p>
+  </div>
+  <div class="text-white rounded-3xl p-7 shadow" style="background:#4338ca">
+    <h3 class="font-serif text-2xl font-bold">Butuh Bantuan?</h3>
+    <p class="mt-3 text-white/80 text-sm">Pilih paket & tambahan di atas, isi form booking, dan konfirmasi via WhatsApp. DP 50% untuk mengamankan jadwal — pelunasan setelah foto selesai.</p>
+    <a href="#booking" class="inline-block mt-5 bg-white font-semibold px-6 py-3 rounded-full hover:bg-stone-100" style="color:#4338ca">Booking Sekarang</a>
+  </div>
+</section>
+<footer class="text-white/70 text-center py-6 text-sm" style="background:#1c1917">
+  © 2026 LensaProduk • Source Code Gratis by LocaGo Creative (locagocreative.my.id)
+</footer>
+<div id="toast" class="toast fixed bottom-5 left-1/2 -translate-x-1/2 translate-y-4 opacity-0 text-white text-sm font-medium px-5 py-3 rounded-full shadow-xl z-[80] pointer-events-none" style="background:#4338ca">Berhasil</div>
+<script>
+const WA_NUMBER = "6281234567892";
+const CODE_PREFIX = "LP";
+const PKGS = [{"name": "Basic", "price": 350000, "unit": " / 10 foto", "tag": "", "features": ["10 foto produk (studio)", "Background putih / warna", "Editing dasar (crop, warna)", "File JPG resolusi tinggi", "Siap 3 hari kerja"]}, {"name": "Standard", "price": 750000, "unit": " / 25 foto", "tag": "Paling Laris", "features": ["25 foto produk (studio)", "Background + properti sederhana", "Editing detail & retouch", "Bonus 5 foto flat lay", "File JPG + PNG", "Siap 2 hari kerja"]}, {"name": "Premium", "price": 1500000, "unit": " / 50 foto + video", "tag": "Lengkap", "features": ["50 foto produk (studio + lifestyle)", "Properti & styling lengkap", "Video produk 30 detik", "Editing premium & retouch", "Revisi gratis 2x", "File JPG + PNG + video"]}];
+const ADDONS = [{"name": "Model (tangan / talent)", "price": 250000}, {"name": "Properti & styling tambahan", "price": 150000}, {"name": "Editing express (24 jam)", "price": 200000}, {"name": "Video produk 30 detik", "price": 500000}];
+const QTY_CFG = {"default": 1, "min": 1, "max": 1, "perUnit": false, "unitLabel": "", "discountQty": 0, "discountRate": 0};
+const fmt = n => "Rp" + n.toLocaleString("id-ID");
+let selPkg = 0, selAddons = new Set(), qty = QTY_CFG.default;
+function renderPkgs(){
+  document.getElementById("pkgGrid").innerHTML = PKGS.map((p,i) => `
+    <article onclick="selectPkg(${i})" data-pkg="${i}" class="pkg-card bg-white rounded-3xl overflow-hidden shadow border-2 ${i===selPkg?'pkg-selected':'border-transparent'}">
+      <div class="p-6">
+        ${p.tag ? `<span class="text-xs font-bold px-2 py-1 rounded-full text-white" style="background:#4338ca">${p.tag}</span>` : ""}
+        <h3 class="font-serif font-bold text-xl mt-3">${p.name}</h3>
+        <p class="text-3xl font-bold mt-2" style="color:#4338ca">${fmt(p.price)}<span class="text-sm font-normal text-stone-500">${p.unit||""}</span></p>
+        <ul class="mt-4 space-y-1.5 text-sm text-stone-600">${p.features.map(f=>`<li>✔ ${f}</li>`).join("")}</ul>
+      </div>
+    </article>`).join("");
+}
+function renderAddons(){
+  document.getElementById("addonList").innerHTML = ADDONS.map((a,i) => `
+    <label class="flex items-center gap-3 border rounded-xl px-4 py-3 cursor-pointer hover:border-stone-400">
+      <input type="checkbox" data-addon="${i}" onchange="toggleAddon(${i},this.checked)" class="w-4 h-4">
+      <span class="flex-1 text-sm font-medium">${a.name}</span>
+      <span class="text-sm font-bold">${fmt(a.price)}${a.perUnit?"/"+a.perUnit:""}</span>
+    </label>`).join("");
+}
+function selectPkg(i){ selPkg = i; renderPkgs(); updateSummary(); }
+function toggleAddon(i, on){ on ? selAddons.add(i) : selAddons.delete(i); updateSummary(); }
+function setQty(v){ qty = Math.max(QTY_CFG.min, Math.min(QTY_CFG.max, v)); const el=document.getElementById("qtyVal"); if(el) el.textContent = qty; updateSummary(); }
+function calcTotals(){
+  const p = PKGS[selPkg];
+  const mult = (typeof extraMult === "function") ? extraMult() : 1;
+  let pkgTotal = Math.round(p.price * (QTY_CFG.perUnit ? qty : 1) * mult);
+  let addTotal = 0;
+  selAddons.forEach(i => { addTotal += ADDONS[i].price * (ADDONS[i].perUnit ? qty : 1); });
+  const gross = pkgTotal + addTotal;
+  const disc = QTY_CFG.discountQty && qty >= QTY_CFG.discountQty ? Math.round(gross * QTY_CFG.discountRate) : 0;
+  return { pkgTotal, addTotal, disc, total: gross - disc, pkg: p };
+}
+function updateSummary(){
+  const t = calcTotals();
+  document.getElementById("sumPkg").textContent = fmt(t.pkgTotal);
+  document.getElementById("sumAddon").textContent = fmt(t.addTotal);
+  document.getElementById("sumDisc").textContent = t.disc ? "− " + fmt(t.disc) : fmt(0);
+  document.getElementById("sumTotal").textContent = fmt(t.total);
+  const lines = [`<p><b>${t.pkg.name}</b>${QTY_CFG.perUnit ? " × " + qty + " " + QTY_CFG.unitLabel : ""} — ${fmt(t.pkgTotal)}</p>`];
+  selAddons.forEach(i => { lines.push(`<p>+ ${ADDONS[i].name}${ADDONS[i].perUnit ? " × " + qty : ""} — ${fmt(ADDONS[i].price * (ADDONS[i].perUnit ? qty : 1))}</p>`); });
+  if (t.disc) lines.push(`<p class="text-green-300">Diskon ${Math.round(QTY_CFG.discountRate*100)}% (${QTY_CFG.discountQty}+ ${QTY_CFG.unitLabel}) — −${fmt(t.disc)}</p>`);
+  document.getElementById("summaryBox").innerHTML = lines.join("");
+}
+let toastTimer;
+function showToast(msg){
+  const el = document.getElementById("toast");
+  el.textContent = msg;
+  el.style.opacity = "1"; el.style.transform = "translate(-50%, 0)";
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>{ el.style.opacity = "0"; el.style.transform = "translate(-50%, 1rem)"; }, 2200);
+}
+function confirmBooking(){
+  const name = document.getElementById("custName").value.trim();
+  const date = document.getElementById("bookDate").value;
+  if (!name){ showToast("Isi nama lengkap dulu ya"); document.getElementById("custName").focus(); return; }
+  if (!date){ showToast("Pilih tanggal booking dulu ya"); document.getElementById("bookDate").focus(); return; }
+  const code = CODE_PREFIX + "-" + Math.random().toString(36).slice(2,8).toUpperCase();
+  document.getElementById("bookingCode").textContent = code;
+  document.getElementById("codeBox").classList.remove("hidden");
+  window.__lastBookingCode = code;
+  showToast("Booking berhasil! Kode: " + code);
+  document.getElementById("codeBox").scrollIntoView({behavior:"smooth", block:"center"});
+}
+function sendWA(){
+  const t = calcTotals();
+  const name = document.getElementById("custName").value.trim() || "Pelanggan";
+  const date = document.getElementById("bookDate").value;
+  const time = document.getElementById("bookTime").value;
+  const note = document.getElementById("bookNote").value.trim();
+  const code = document.getElementById("bookingCode").textContent;
+  const lines = [`Halo LensaProduk! Saya ${name}, mau konfirmasi booking:`, ``, `Kode Booking: ${code}`, `Paket: ${t.pkg.name}${QTY_CFG.perUnit ? " × " + qty + " " + QTY_CFG.unitLabel : ""}`, `Tanggal: ${date}`, `Jam: ${time}`];
+  selAddons.forEach(i => lines.push(`Tambahan: ${ADDONS[i].name}`));
+  lines.push(``, `Total: ${fmt(t.total)}`);
+  if (note) lines.push(``, `Catatan: ${note}`);
+  lines.push(``, `Terima kasih!`);
+  window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(lines.join(String.fromCharCode(10)))}`, "_blank");
+}
+
+renderPkgs();
+renderAddons();
+updateSummary();
+</script>
+</body>
+</html>

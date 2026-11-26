@@ -1,0 +1,186 @@
+<!-- Source Code Gratis by LocaGo Creative (locagocreative.my.id) -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RuangIndah Studio — Jasa Desain Interior Rumah & Kantor | Bandung</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script>
+tailwind.config = { theme: { extend: { fontFamily: { serif: ['"Playfair Display"','serif'], sans: ['Poppins','sans-serif'] }, colors: { brand: {900:'#78350f',800:'#92400e',700:'#b45309',cream:'#fffbeb',gold:'#f59e0b'} } } } }
+</script>
+<style>
+  html{scroll-behavior:smooth}
+  .toast{transition:opacity .3s ease, transform .3s ease}
+  input[type=range]{accent-color:#b45309}
+</style>
+</head>
+<body class="font-sans bg-stone-50 text-stone-900">
+<header class="sticky top-0 z-50 text-white shadow-lg" style="background:#b45309">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="#" class="flex items-center gap-2"><span class="text-2xl">🛋️</span><span class="font-serif font-bold text-xl tracking-wide">RuangIndah</span></a>
+    <nav class="hidden md:flex gap-6 text-sm font-medium">
+      <a href="#hitung" class="hover:opacity-80">Hitung Biaya</a>
+      <a href="#tentang" class="hover:opacity-80">Tentang</a>
+      <a href="#testimoni" class="hover:opacity-80">Testimoni</a>
+      <a href="#lokasi" class="hover:opacity-80">Kontak</a>
+    </nav>
+    <a href="#hitung" class="bg-white font-semibold px-4 py-2 rounded-full text-sm hover:bg-stone-100" style="color:#b45309">Hitung Sekarang</a>
+  </div>
+</header>
+<section class="relative h-[520px] md:h-[600px] overflow-hidden" style="background:#b45309">
+  <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1600&q=80" alt="RuangIndah" class="absolute inset-0 w-full h-full object-cover">
+  <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent"></div>
+  <div class="relative max-w-6xl mx-auto px-4 h-full flex flex-col justify-center text-white">
+    <span class="bg-white text-xs font-bold px-3 py-1 rounded-full w-max mb-4" style="color:#b45309">★ 4.8 — 320+ ulasan pelanggan</span>
+    <h1 class="font-serif text-4xl md:text-6xl font-bold leading-tight max-w-xl">Rumah Impianmu,<br>Mulai dari <span class='text-amber-400'>Satu Sketsa</span>.</h1>
+    <p class="mt-4 text-base md:text-lg text-white/85 max-w-lg">Desain interior rumah, kafe, dan kantor — dari gambar 3D sampai pendampingan pengerjaan. Konsultasi pertama gratis!</p>
+    <div class="mt-6 flex flex-wrap gap-3">
+      <a href="#hitung" class="bg-white font-semibold px-6 py-3 rounded-full hover:bg-stone-100" style="color:#b45309">Hitung Biaya</a>
+      <a href="#lokasi" class="border-2 border-white/70 px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-stone-900">Hubungi Kami</a>
+    </div>
+    <div class="mt-8 flex gap-6 text-sm text-white/80"><span>🕖 Buka 09.00 – 18.00 WIB</span><span>📍 Bandung</span><span>✅ 120+ proyek selesai</span></div>
+  </div>
+</section>
+<section class="max-w-6xl mx-auto px-4 py-10 grid grid-cols-2 md:grid-cols-4 gap-4">
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">🎨</div><h3 class="font-semibold mt-2">Desain 3D Realistis</h3><p class="text-sm text-stone-500 mt-1">Lihat hasil sebelum dibangun</p></div>
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">📐</div><h3 class="font-semibold mt-2">Survey & Ukur Gratis</h3><p class="text-sm text-stone-500 mt-1">Area Bandung Raya</p></div>
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">🔨</div><h3 class="font-semibold mt-2">Tim Pengerjaan Sendiri</h3><p class="text-sm text-stone-500 mt-1">Rapi, tepat waktu, bergaransi</p></div>
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">💰</div><h3 class="font-semibold mt-2">Harga Transparan</h3><p class="text-sm text-stone-500 mt-1">RAB jelas di awal</p></div>
+</section>
+<section id="hitung" class="max-w-6xl mx-auto px-4 py-8">
+  <h2 class="font-serif text-3xl md:text-4xl font-bold text-center">Hitung Estimasi Desainmu</h2>
+  <p class="text-center text-stone-500 mt-2">Pilih ruangan, atur luas, dan pilih gaya — estimasi biaya langsung muncul.</p>
+  <div class="grid md:grid-cols-2 gap-6 mt-8">
+    <div class="bg-white rounded-3xl shadow p-7">
+      <h3 class="font-serif text-xl font-bold">Pilih Kebutuhanmu</h3>
+      <div id="calcFields" class="space-y-5 mt-5"></div>
+    </div>
+    <div class="rounded-3xl shadow p-7 text-white flex flex-col" style="background:#b45309">
+      <h3 class="font-serif text-2xl font-bold">Estimasi Biayamu</h3>
+      <p id="calcDetail" class="mt-3 text-sm text-white/85 leading-relaxed"></p>
+      <p class="mt-4 text-sm text-white/70">Estimasi Total</p>
+      <p id="calcTotal" class="font-serif font-bold text-4xl md:text-5xl mt-1">Rp0</p>
+      <p id="calcNote" class="text-xs text-white/70 mt-2">Estimasi sudah termasuk desain 3D & RAB. Harga final setelah survey lokasi (gratis area Bandung Raya).</p>
+      <div class="border-t border-white/30 mt-5 pt-5 space-y-3">
+        <label class="block text-sm font-medium">Nama Lengkap
+          <input id="custName" type="text" placeholder="cth: Budi Santoso" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm text-stone-900">
+        </label>
+        <label class="block text-sm font-medium">Nomor WhatsApp
+          <input id="custPhone" type="tel" placeholder="cth: 081234567890" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm text-stone-900">
+        </label>
+        <button id="btnOrder" onclick="sendOrderWA()" class="w-full bg-white font-semibold py-3 rounded-full hover:bg-stone-100 text-sm" style="color:#b45309">📲 Konsultasi Gratis via WhatsApp</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="tentang" class="max-w-6xl mx-auto px-4 py-8 grid md:grid-cols-2 gap-10 items-center">
+  <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1000&q=80" alt="Tentang RuangIndah" class="rounded-3xl shadow-2xl w-full h-72 object-cover">
+  <div>
+    <h2 class="font-serif text-3xl md:text-4xl font-bold">Dari Sketsa di Kertas ke Ruang yang Dihuni</h2>
+    <p class="mt-4 text-stone-600 leading-relaxed">RuangIndah berdiri 2018 di Bandung. Kami sudah menyelesaikan 120+ proyek: rumah tinggal, kafe, kantor startup, sampai kos-kosan. Setiap proyek diawali survey gratis dan diakhiri serah terima dengan garansi pengerjaan 6 bulan.</p>
+    <ul class="mt-5 space-y-2 text-stone-700"><li>✔ Arsitek & desainer interior bersertifikat</li><li>✔ Gambar 3D + RAB transparan sebelum mulai</li><li>✔ Garansi pengerjaan 6 bulan</li></ul>
+  </div>
+</section>
+<section id="testimoni" class="max-w-6xl mx-auto px-4 py-14">
+  <h2 class="font-serif text-3xl md:text-4xl font-bold text-center">Kata Mereka</h2>
+  <div class="grid md:grid-cols-3 gap-5 mt-8"><div class="bg-white rounded-2xl p-6 shadow"><div class="text-amber-500 text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Desain dapur saya jadi seperti di Pinterest. Tukangnya rapi, selesai 2 minggu lebih cepat dari janji."</p><p class="mt-4 font-semibold">— Ibu Ratna, Bandung</p></div>
+<div class="bg-white rounded-2xl p-6 shadow"><div class="text-amber-500 text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Kantor startup kami didesain RuangIndah, tim jadi betah kerja. Budget juga sesuai RAB awal."</p><p class="mt-4 font-semibold">— Fajar, Founder Startup</p></div>
+<div class="bg-white rounded-2xl p-6 shadow"><div class="text-amber-500 text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Konsultasinya enak, tidak maksa. Gambar 3D-nya persis sama hasil akhirnya!"</p><p class="mt-4 font-semibold">— Dewi, Pemilik Kafe</p></div></div>
+</section>
+<section id="lokasi" class="max-w-6xl mx-auto px-4 pb-14 grid md:grid-cols-2 gap-6">
+  <div class="bg-white rounded-3xl p-7 shadow">
+    <h3 class="font-serif text-2xl font-bold">📍 Lokasi &amp; Jam Buka</h3>
+    <p class="mt-3 text-stone-600">Jl. Sukajadi No. 150, Bandung 40162<br>(Dekat Paris Van Java)</p>
+    <table class="mt-4 w-full text-sm">
+      <tr class="border-b"><td class="py-2 font-medium">Senin – Jumat</td><td class="py-2 text-right">09.00 – 18.00 WIB</td></tr>
+      <tr class="border-b"><td class="py-2 font-medium">Sabtu – Minggu</td><td class="py-2 text-right">10.00 – 16.00 WIB</td></tr>
+    </table>
+    <p class="mt-4 text-sm text-stone-500">📞 0812-3456-7896 &nbsp;•&nbsp; 📸 @ruangindah.studio</p>
+  </div>
+  <div class="text-white rounded-3xl p-7 shadow" style="background:#b45309">
+    <h3 class="font-serif text-2xl font-bold">Butuh Bantuan?</h3>
+    <p class="mt-3 text-white/80 text-sm">Hitung estimasimu di kalkulator di atas, lalu chat kami untuk konsultasi gratis & jadwal survey. Tanpa komitmen apa pun.</p>
+    <a href="#hitung" class="inline-block mt-5 bg-white font-semibold px-6 py-3 rounded-full hover:bg-stone-100" style="color:#b45309">Hitung Biaya Dulu</a>
+  </div>
+</section>
+<footer class="text-white/70 text-center py-6 text-sm" style="background:#1c1917">
+  © 2026 RuangIndah • Source Code Gratis by LocaGo Creative (locagocreative.my.id)
+</footer>
+<div id="toast" class="toast fixed bottom-5 left-1/2 -translate-x-1/2 translate-y-4 opacity-0 text-white text-sm font-medium px-5 py-3 rounded-full shadow-xl z-[80] pointer-events-none" style="background:#b45309">Berhasil</div>
+<script>
+const WA_NUMBER = "6281234567896";
+const FIELDS = [{"id": "ruangan", "label": "Jenis Ruangan", "type": "select", "options": [{"value": "tamu", "label": "Ruang Tamu — Rp1.200.000/m²", "price": 1200000}, {"value": "kamar", "label": "Kamar Tidur — Rp1.000.000/m²", "price": 1000000}, {"value": "dapur", "label": "Dapur — Rp1.500.000/m²", "price": 1500000}, {"value": "kantor", "label": "Kantor — Rp900.000/m²", "price": 900000}, {"value": "rumah", "label": "Full Rumah — Rp1.100.000/m²", "price": 1100000}]}, {"id": "luas", "label": "Luas Ruangan", "type": "range", "min": 10, "max": 200, "step": 5, "value": 20, "unit": "m²"}, {"id": "gaya", "label": "Gaya Desain", "type": "radio", "options": [{"value": "minimalis", "label": "Minimalis", "mult": 1.0}, {"value": "skandinavia", "label": "Skandinavia", "mult": 1.1}, {"value": "industrial", "label": "Industrial", "mult": 1.15}, {"value": "mewah", "label": "Mewah", "mult": 1.4}]}];
+const fmt = n => "Rp" + n.toLocaleString("id-ID");
+function renderFields(){
+  document.getElementById("calcFields").innerHTML = FIELDS.map(f => {
+    if (f.type === "select"){
+      return `<label class="block text-sm font-medium">${f.label}
+        <select id="f_${f.id}" onchange="recalc()" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+          ${f.options.map(o => `<option value="${o.value}" data-price="${o.price||0}" data-disc="${o.disc||0}" data-mult="${o.mult||1}">${o.label}</option>`).join("")}
+        </select></label>`;
+    }
+    if (f.type === "range"){
+      return `<label class="block text-sm font-medium">${f.label}: <span id="f_${f.id}_val" class="font-bold">${f.value} ${f.unit}</span>
+        <input id="f_${f.id}" type="range" min="${f.min}" max="${f.max}" step="${f.step}" value="${f.value}" oninput="document.getElementById('f_${f.id}_val').textContent = this.value + ' ${f.unit}'; recalc()" class="mt-1 w-full">
+        <span class="text-xs text-stone-400 font-normal">${f.min} – ${f.max} ${f.unit}</span></label>`;
+    }
+    if (f.type === "radio"){
+      return `<div><p class="text-sm font-medium mb-2">${f.label}</p><div class="flex flex-wrap gap-2">
+        ${f.options.map((o,i) => `<label class="cursor-pointer"><input type="radio" name="f_${f.id}" value="${o.value}" data-mult="${o.mult||1}" data-price="${o.price||0}" ${i===0?"checked":""} onchange="recalc()" class="peer sr-only"><span class="inline-block border rounded-full px-4 py-2 text-sm font-medium peer-checked:bg-stone-900 peer-checked:text-white">${o.label}</span></label>`).join("")}
+      </div></div>`;
+    }
+    return "";
+  }).join("");
+}
+function fieldVal(id){
+  const el = document.getElementById("f_" + id);
+  if (!el) return null;
+  if (el.tagName === "SELECT") return { value: el.value, price: +el.selectedOptions[0].dataset.price, disc: +el.selectedOptions[0].dataset.disc, mult: +el.selectedOptions[0].dataset.mult, label: el.selectedOptions[0].textContent };
+  if (el.type === "range") return { value: +el.value };
+  return null;
+}
+function radioVal(id){
+  const r = document.querySelector(`input[name="f_${id}"]:checked`);
+  if (!r) return null;
+  return { value: r.value, price: +r.dataset.price, mult: +r.dataset.mult, label: r.parentElement.textContent.trim() };
+}
+function compute(){
+  const room = fieldVal("ruangan");
+  const area = fieldVal("luas");
+  const style = radioVal("gaya");
+  const base = room.price * area.value;
+  const total = Math.round(base * style.mult);
+  const lo = Math.round(total * 0.9), hi = Math.round(total * 1.1);
+  const detail = "<b>" + room.label + "</b><br>" + fmt(room.price) + "/m² × " + area.value + " m² = " + fmt(base)
+    + "<br>Gaya " + style.label + " (×" + style.mult + ")"
+    + "<br>Kisaran akhir: " + fmt(lo) + " – " + fmt(hi);
+  return { total, detail };
+}
+function recalc(){
+  const r = compute();
+  document.getElementById("calcTotal").textContent = fmt(r.total);
+  document.getElementById("calcDetail").innerHTML = r.detail;
+  window.__lastCalc = r;
+}
+let toastTimer;
+function showToast(msg){
+  const el = document.getElementById("toast");
+  el.textContent = msg;
+  el.style.opacity = "1"; el.style.transform = "translate(-50%, 0)";
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>{ el.style.opacity = "0"; el.style.transform = "translate(-50%, 1rem)"; }, 2200);
+}
+function sendOrderWA(){
+  const name = document.getElementById("custName").value.trim();
+  if (!name){ showToast("Isi nama lengkap dulu ya"); document.getElementById("custName").focus(); return; }
+  const r = window.__lastCalc || compute();
+  const lines = [`Halo RuangIndah! Saya ${name}, mau tanya soal:`, ``, r.detail.replace(/<[^>]+>/g, ""), ``, `Estimasi total: ${fmt(r.total)}`, ``, `Mohon info selengkapnya. Terima kasih!`];
+  window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(lines.join(String.fromCharCode(10)))}`, "_blank");
+}
+renderFields();
+recalc();
+</script>
+</body>
+</html>

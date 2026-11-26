@@ -1,0 +1,33 @@
+PANDUAN — LASJAYA (Kalkulator Biaya Online)
+=============================================
+Website kalkulator biaya online "LasJaya".
+Source code gratis by LocaGo Creative (locagocreative.my.id).
+
+CARA MEMBUKA
+------------
+1. Double-click file index.html — website langsung terbuka di browser.
+   (Tidak perlu install apa pun.)
+2. Atau upload file index.html ke hosting statis apa pun
+   (Netlify, Vercel, GitHub Pages, Niagahoster, dll).
+
+FITUR
+-----
+- Kalkulator estimasi: pekerjaan × ukuran × bahan
+- 4 pekerjaan las (pagar, kanopi, teralis, railing) + 3 bahan
+- Slider ukuran 1–50 meter/m²
+- Profil bengkel, garansi & testimoni pelanggan
+- Booking survey gratis via WhatsApp
+
+CARA MENYESUAIKAN (edit file index.html dengan Notepad / VS Code)
+-----------------------------------------------------------------
+- Nama bengkel & nomor WhatsApp : cari WA_NUMBER = "6281234567899" di bagian bawah file, ganti dengan nomor WA kamu (format: 62 + nomor).
+- Harga pekerjaan & bahan : cari bagian const FIELDS = [ ... ] lalu ubah price (per meter/m²) dan mult (pengali bahan).
+- Alamat & jam buka : cari bagian "Lokasi & Jam Buka" di HTML.
+- Warna tema : cari tailwind.config di <head> (warna abu-abu).
+
+CATATAN
+-------
+- Gambar memakai URL Unsplash — butuh internet saat pertama dibuka.
+- Semua data keranjang/booking hanya tersimpan di browser pengunjung.
+- Bebas dipakai & dimodifikasi untuk usahamu. Dilarang dijual kembali
+  sebagai produk berbayar tanpa izin LocaGo Creative.
