@@ -52,27 +52,41 @@ export default async function handler(req, res) {
     const temp = Math.min(1, Math.max(0, Number(temperature) || 0.6));
     const maxTokens = Math.min(4000, Math.max(50, parseInt(max_tokens, 10) || 2000));
 
-    const ctrl = new AbortController();
-    const timer = setTimeout(() => ctrl.abort(), 25000);
-    let up;
-    try {
-      up = await fetch(`${baseUrl}/chat/completions`, {
-        method: 'POST',
-        headers: {
-          Authorization: `Bearer ${apiKey}`,
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ model, messages: clean, temperature: temp, max_tokens: maxTokens }),
-        signal: ctrl.signal,
-      });
-    } finally {
-      clearTimeout(timer);
+    // Panggil upstream maks 2x (retry 1x) — error 503 di chat bersifat
+    // intermiten (cold start + model reasoning lambat), jadi satu percobaan
+    // gagal belum berarti layanan mati. Timeout per percobaan 40 detik.
+    let up = null;
+    let lastStatus = null;
+    for (let attempt = 1; attempt <= 2 && !up; attempt++) {
+      const ctrl = new AbortController();
+      const timer = setTimeout(() => ctrl.abort(), 40000);
+      try {
+        const r = await fetch(`${baseUrl}/chat/completions`, {
+          method: 'POST',
+          headers: {
+            Authorization: `Bearer ${apiKey}`,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ model, messages: clean, temperature: temp, max_tokens: maxTokens }),
+          signal: ctrl.signal,
+        });
+        if (r.ok) {
+          up = r;
+          break;
+        }
+        lastStatus = r.status;
+        const errText = await r.text().catch(() => '');
+        console.error('9Router upstream error (attempt ' + attempt + '):', r.status, errText.slice(0, 300));
+      } catch (e) {
+        console.error('9Router fetch failed (attempt ' + attempt + '):', e && e.message ? e.message : e);
+        if (attempt === 2) throw e;
+      } finally {
+        clearTimeout(timer);
+      }
+      if (!up && attempt === 1) await new Promise(r => setTimeout(r, 1500));
     }
-
-    if (!up.ok) {
-      const errText = await up.text().catch(() => '');
-      console.error('9Router upstream error:', up.status, errText.slice(0, 300));
-      return res.status(502).json({ error: 'Layanan AI sedang sibuk, coba lagi sebentar.', upstream: up.status });
+    if (!up) {
+      return res.status(502).json({ error: 'Layanan AI sedang sibuk, coba lagi sebentar.', upstream: lastStatus });
     }
     // 9Router mengembalikan SSE (text/event-stream) walau tanpa stream:true —
     // potongan delta.content harus digabung; tetap dukung JSON biasa.
