@@ -74,14 +74,32 @@ export default async function handler(req, res) {
       console.error('9Router upstream error:', up.status, errText.slice(0, 300));
       return res.status(502).json({ error: 'Layanan AI sedang sibuk, coba lagi sebentar.', upstream: up.status });
     }
-    let data;
-    try {
-      data = await up.json();
-    } catch (e) {
-      console.error('9Router returned non-JSON 200:', e);
-      return res.status(502).json({ error: 'AI mengembalikan jawaban yang tidak bisa dibaca.', upstream: up.status });
+    // 9Router mengembalikan SSE (text/event-stream) walau tanpa stream:true —
+    // potongan delta.content harus digabung; tetap dukung JSON biasa.
+    const raw = await up.text();
+    const isStream = (up.headers.get('content-type') || '').includes('text/event-stream') || raw.startsWith('data:');
+    let reply = '';
+    if (isStream) {
+      for (const line of raw.split('\n')) {
+        const t = line.trim();
+        if (!t.startsWith('data:')) continue;
+        const payload = t.slice(5).trim();
+        if (!payload || payload === '[DONE]') continue;
+        try {
+          const chunk = JSON.parse(payload);
+          const piece = chunk.choices && chunk.choices[0] && chunk.choices[0].delta && chunk.choices[0].delta.content;
+          if (piece) reply += piece;
+        } catch (e) { /* lewati potongan yang rusak */ }
+      }
+    } else {
+      try {
+        const data = JSON.parse(raw);
+        reply = (data.choices && data.choices[0] && data.choices[0].message && data.choices[0].message.content) || '';
+      } catch (e) {
+        console.error('9Router returned non-JSON 200:', e);
+        return res.status(502).json({ error: 'AI mengembalikan jawaban yang tidak bisa dibaca.', upstream: up.status });
+      }
     }
-    const reply = data.choices && data.choices[0] && data.choices[0].message && data.choices[0].message.content;
     if (!reply) {
       return res.status(502).json({ error: 'AI tidak mengembalikan jawaban.' });
     }
