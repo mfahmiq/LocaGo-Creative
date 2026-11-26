@@ -22,9 +22,9 @@
       ],
       "defaultCredentials": [
         {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
+          "role": "Administrator",
+          "username": "admin@gmail.com",
+          "password": "admin123"
         }
       ],
       "updatedAt": "26 November 2026",
