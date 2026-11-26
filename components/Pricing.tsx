@@ -4,8 +4,7 @@ import { useLanguage } from '../context/LanguageContext';
 import { retrieveRelevantContext } from '../services/ragService';
 
 const WA_NUMBER = '62895336377648';
-const GROQ_API_KEY = import.meta.env.VITE_GROQ_API_KEY || '';
-const GROQ_MODEL = import.meta.env.VITE_GROQ_MODEL || 'groq/compound';
+// AI chat via proxy server-side /api/ai-chat (9Router) — key tidak pernah ke browser.
 const GOOGLE_SHEET_WEBHOOK_URL = import.meta.env.VITE_GOOGLE_SHEET_WEBHOOK_URL || '';
 
 interface Message {
@@ -359,7 +358,6 @@ function extractConsultationDetails(
 
 const AIChatSection: React.FC = () => {
   const { t, language } = useLanguage();
-  const hasKey = !!GROQ_API_KEY && GROQ_API_KEY !== 'your_groq_api_key_here';
 
   const PROFILES = getProfiles(language as 'en' | 'id');
   const FEATURES = getFeatures(language as 'en' | 'id');
@@ -562,66 +560,58 @@ Mohon dicek jadwal antrian pengerjaannya ya Mas. Terima kasih!`;
     // Retrieve relevant context from Supabase Vector DB / KB
     const retrievedContext = await retrieveRelevantContext(content, 2);
 
-    if (hasKey) {
-      try {
-        const history = messages.slice(-4).map(m => ({ role: m.role, content: m.content }));
-        const systemPrompt = buildSystemPrompt(retrievedContext, detectedLang);
+    try {
+      const history = messages.slice(-4).map(m => ({ role: m.role, content: m.content }));
+      const systemPrompt = buildSystemPrompt(retrievedContext, detectedLang);
 
-        const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-          method: 'POST',
-          headers: {
-            'Authorization': `Bearer ${GROQ_API_KEY}`,
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            model: GROQ_MODEL,
-            messages: [
-              { role: 'system', content: systemPrompt },
-              ...history,
-              { role: 'user', content },
-            ],
-            temperature: 0.6,
-            max_tokens: 400,
-          }),
-        });
+      const res = await fetch('/api/ai-chat', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          messages: [
+            { role: 'system', content: systemPrompt },
+            ...history,
+            { role: 'user', content },
+          ],
+          temperature: 0.6,
+          max_tokens: 400,
+        }),
+      });
 
-        if (!res.ok) {
-          const errText = await res.text();
-          console.error('Groq API error:', res.status, errText);
-          throw new Error(`HTTP ${res.status}: ${errText}`);
-        }
+      if (!res.ok) {
+        const errText = await res.text();
+        console.error('AI chat error:', res.status, errText);
+        throw new Error(`HTTP ${res.status}`);
+      }
 
-        const data = await res.json();
-        const rawReply = data.choices?.[0]?.message?.content || 'Maaf, terjadi kendala respons. Silakan coba lagi.';
-        const cleanReply = cleanPlainText(rawReply);
-        const showWA = true; // Always provide WhatsApp contact access
-        setMessages(prev => [...prev, { role: 'assistant', content: cleanReply, waButton: showWA }]);
-      } catch (err: any) {
-        console.error('Groq error:', err);
-        const busyMsg =
-          detectedLang === 'en'
-            ? `We apologize, our AI assistant server is currently experiencing high traffic / busy status (503).
+      const data = await res.json();
+      const rawReply = data.reply || 'Maaf, terjadi kendala respons. Silakan coba lagi.';
+      const cleanReply = cleanPlainText(rawReply);
+      const showWA = true; // Always provide WhatsApp contact access
+      setMessages(prev => [...prev, { role: 'assistant', content: cleanReply, waButton: showWA }]);
+    } catch (err: any) {
+      console.error('AI chat error:', err);
+      const busyMsg =
+        detectedLang === 'en'
+          ? `We apologize, our AI assistant server is currently experiencing high traffic / busy status (503).
 
 To ensure your digital consultation and project planning are not delayed, Mas Fahmi (Founder & Lead Developer LocaGo Creative) is available for direct consultation on WhatsApp right now. Please click the button below to connect directly:`
-            : `Mohon maaf Kak, server asisten AI kami saat ini sedang sangat sibuk (Trafik Tinggi / 503).
+          : `Mohon maaf Kak, server asisten AI kami saat ini sedang sangat sibuk (Trafik Tinggi / 503).
 
 Agar konsultasi dan rencana proyek digital Anda tidak tertunda, Mas Fahmi (Founder & Lead Developer LocaGo Creative) siap melayani konsultasi langsung secara gratis via WhatsApp sekarang. Silakan klik tombol di bawah untuk langsung terhubung:`;
 
-        setMessages(prev => [
-          ...prev,
-          {
-            role: 'assistant',
-            content: busyMsg,
-            waButton: true,
-            isErrorFallback: true,
-            userQuery: content,
-          },
-        ]);
-      }
-    } else {
-      await new Promise(r => setTimeout(r, 600 + Math.random() * 300));
-      const reply = cleanPlainText(getFallbackResponse(content, detectedLang, retrievedContext));
-      setMessages(prev => [...prev, { role: 'assistant', content: reply, waButton: true }]);
+      setMessages(prev => [
+        ...prev,
+        {
+          role: 'assistant',
+          content: busyMsg,
+          waButton: true,
+          isErrorFallback: true,
+          userQuery: content,
+        },
+      ]);
     }
 
     setLoading(false);
@@ -682,9 +672,7 @@ Agar konsultasi dan rencana proyek digital Anda tidak tertunda, Mas Fahmi (Found
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 text-xs font-mono text-neutral-600 dark:text-neutral-400 mb-4 shadow-sm">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
             <span>
-              {hasKey
-                ? (language === 'en' ? 'LocaGo AI Assistant · Active' : 'LocaGo AI Assistant · Aktif')
-                : (language === 'en' ? 'Digital Consultation Engine' : 'Engine Konsultasi Digital')}
+              {(language === 'en' ? 'LocaGo AI Assistant · Active' : 'LocaGo AI Assistant · Aktif')}
             </span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-neutral-900 dark:text-white mb-4 leading-[1.18]">
@@ -716,9 +704,7 @@ Agar konsultasi dan rencana proyek digital Anda tidak tertunda, Mas Fahmi (Found
                   <p className="font-bold text-neutral-900 dark:text-white text-sm tracking-tight">LocaGo Virtual Agent</p>
                   <p className="text-xs text-neutral-500 dark:text-neutral-400 font-mono flex items-center gap-1.5">
                     <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block animate-pulse"></span>
-                    {hasKey
-                      ? (language === 'en' ? 'Online · Live Model' : 'Aktif · Asisten Digital')
-                      : (language === 'en' ? 'Demo Consultation Mode' : 'Mode Konsultasi Demo')}
+                    {(language === 'en' ? 'Online · Live Model' : 'Aktif · Asisten Digital')}
                   </p>
                 </div>
               </div>

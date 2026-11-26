@@ -4,7 +4,7 @@ import { Zap, Sparkles, Cpu, QrCode, Bot, BarChart3 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 const WA_NUMBER = '62895336377648';
-const GROQ_API_KEY = import.meta.env.VITE_GROQ_API_KEY || '';
+// AI chat via proxy server-side /api/ai-chat (9Router) — key tidak pernah ke browser.
 
 interface Message {
   role: 'user' | 'assistant';
@@ -75,7 +75,7 @@ const Demo: React.FC = () => {
   ]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
-  const [isLiveMode, setIsLiveMode] = useState(!!GROQ_API_KEY && GROQ_API_KEY !== 'your_groq_api_key_here');
+  const [isLiveMode, setIsLiveMode] = useState(true); // AI live via /api/ai-chat proxy
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
@@ -93,16 +93,14 @@ const Demo: React.FC = () => {
     setLoading(true);
 
     if (isLiveMode) {
-      // Live Groq AI mode
+      // Live AI mode via /api/ai-chat proxy (9Router)
       try {
-        const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+        const res = await fetch('/api/ai-chat', {
           method: 'POST',
           headers: {
-            'Authorization': `Bearer ${GROQ_API_KEY}`,
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
-            model: 'llama-3.1-8b-instant',
             messages: [
               {
                 role: 'system',
@@ -122,15 +120,18 @@ Aturan Penting Penetapan Biaya & Negosiasi:
 
 Nomor WA: 62895336377648. Jawab dengan ramah, informatif, dan solutif. Gunakan bahasa yang sama dengan calon klien (Indonesia / English). Gunakan emoji secukupnya.`
               },
-              ...messages.map(m => ({ role: m.role, content: m.content })),
+              ...messages.slice(-6).map(m => ({ role: m.role, content: m.content })),
               { role: 'user', content: trimmed }
             ],
             temperature: 0.7,
             max_tokens: 500,
           }),
         });
+        if (!res.ok) {
+          throw new Error('HTTP ' + res.status);
+        }
         const data = await res.json();
-        const reply = data.choices?.[0]?.message?.content || 'Maaf, terjadi kesalahan. Silakan coba lagi.';
+        const reply = data.reply || 'Maaf, terjadi kesalahan. Silakan coba lagi.';
         setMessages(prev => [...prev, { role: 'assistant', content: reply }]);
       } catch {
         setMessages(prev => [...prev, { role: 'assistant', content: 'Maaf, koneksi AI terputus. Silakan hubungi kami via WhatsApp untuk konsultasi langsung!' }]);
@@ -188,7 +189,7 @@ Nomor WA: 62895336377648. Jawab dengan ramah, informatif, dan solutif. Gunakan b
           {!isLiveMode && (
             <div className="mt-3 inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-amber-50 dark:bg-amber-500/10 border border-amber-200 dark:border-amber-500/30 text-amber-700 dark:text-amber-400 text-xs font-medium">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>{dt.demoMode || 'Mode Demo — Tambahkan VITE_GROQ_API_KEY untuk AI live'}</span>
+              <span>{dt.demoMode || 'Mode Demo — AI sedang tidak tersedia'}</span>
             </div>
           )}
         </div>
