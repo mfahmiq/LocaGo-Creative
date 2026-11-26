@@ -124,6 +124,9 @@
          Aturan Fahmi 25 Nov 2026: semua button di semua halaman KECUALI navbar
          (header + drawer, data-shopee-exclude di Navbar.tsx) dan donasi
          (tombol kopi + popup, data-shopee-exclude di DonateWidget.tsx).
+         UPDATE Fahmi 26 Nov 2026: HOMEPAGE (/) DIMATIKAN — Shopee hanya jalan
+         di halaman lain; klik di homepage tidak membuka tab dan tidak
+         memakan jatah 3x/sesi.
          Counter per sesi di sessionStorage (+ fallback memori bila storage
          tidak tersedia); rotasi acak 14 link, tanpa ulang link yang sama
          berturut-turut. Klik asli button TIDAK dicegah — hanya menambah tab. -->
@@ -170,6 +173,10 @@
       }
       document.addEventListener('click', function (ev) {
         try {
+          /* Homepage (/) MATI — Fahmi 26 Nov 2026. Dicek tiap klik (bukan
+             saat load) karena SPA pindah route tanpa reload halaman. */
+          var path = window.location.pathname;
+          if (path === '/' || path === '/index.html') return;
           if (getCount() >= MAX_PER_SESSION) return;
           var t = ev.target;
           if (!t || !t.closest) return;
