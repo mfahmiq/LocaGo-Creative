@@ -124,7 +124,7 @@ Nomor WA: 62895336377648. Jawab dengan ramah, informatif, dan solutif. Gunakan b
               { role: 'user', content: trimmed }
             ],
             temperature: 0.7,
-            max_tokens: 500,
+            max_tokens: 2000,
           }),
         });
         if (!res.ok) {

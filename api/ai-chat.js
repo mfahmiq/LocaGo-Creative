@@ -50,7 +50,7 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: 'Pesan terlalu panjang.' });
     }
     const temp = Math.min(1, Math.max(0, Number(temperature) || 0.6));
-    const maxTokens = Math.min(800, Math.max(50, parseInt(max_tokens, 10) || 400));
+    const maxTokens = Math.min(4000, Math.max(50, parseInt(max_tokens, 10) || 2000));
 
     const ctrl = new AbortController();
     const timer = setTimeout(() => ctrl.abort(), 25000);

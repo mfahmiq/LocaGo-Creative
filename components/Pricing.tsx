@@ -576,7 +576,7 @@ Mohon dicek jadwal antrian pengerjaannya ya Mas. Terima kasih!`;
             { role: 'user', content },
           ],
           temperature: 0.6,
-          max_tokens: 400,
+          max_tokens: 2000,
         }),
       });
 
