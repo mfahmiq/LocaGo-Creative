@@ -5976,7 +5976,6 @@
       "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
-        "/screenshots/pengaduan-pasien-ci3/screenshot_1.webp",
         "/screenshots/pengaduan-pasien-ci3/screenshot_2.webp",
         "/screenshots/pengaduan-pasien-ci3/screenshot_3.webp"
       ],
@@ -5990,7 +5989,7 @@
       "updatedAt": "26 November 2026",
       "releaseDate": "26 November 2026",
       "recentFastDownloads": 86,
-      "thumbnail": "/screenshots/pengaduan-pasien-ci3/screenshot_1.webp",
+      "thumbnail": "/screenshots/pengaduan-pasien-ci3/screenshot_2.webp",
       "downloadsCount": 810,
       "rating": 4.95,
       "isPopular": true,
