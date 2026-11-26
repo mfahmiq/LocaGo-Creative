@@ -48,6 +48,13 @@ function buildSystemPrompt(retrievedContext: string, queryLang: 'id' | 'en'): st
 4. Scope Guard: Only assist with custom website development, web applications, and business automation. Decline math homework, general trivia, or free code generation politely.
 5. In your closing sentence, warmly invite them to discuss specific requirements or secure a development slot directly with Mas Fahmi (Founder & Lead Developer) on WhatsApp (62895336377648).
 
+[OFFICIAL PACKAGES & PRICES — USE THESE WHEN ASKED ABOUT PRICING]:
+- Esensial Package — Rp1,500,000
+- Bisnis Package — Rp2,900,000
+- Enterprise Package — Rp5,500,000
+- Custom Web App / Special System — price depends on requirements (discuss first).
+NEVER invent other package names or prices; if the user wants something outside these packages, point them to Custom and invite them to discuss via WhatsApp.
+
 ${retrievedContext ? `[OFFICIAL SUPABASE KNOWLEDGE BASE CONTEXT]:\n${retrievedContext}` : ''}`.trim();
   }
 
@@ -59,6 +66,13 @@ ${retrievedContext ? `[OFFICIAL SUPABASE KNOWLEDGE BASE CONTEXT]:\n${retrievedCo
 3. Samakan bahasa: Wajib menjawab 100% dalam Bahasa Indonesia yang santun dan enak dibaca.
 4. Scope Guard: Khusus melayani pembuatan website, aplikasi/sistem kustom, dan otomasi bisnis. Tolak dengan santun jika ditanya soal PR/matematika murni, coding script gratis, atau topik di luar layanan.
 5. Di akhir jawaban, ajak dengan ramah untuk berdiskusi detail atau mengamankan antrian pengerjaan langsung bersama Mas Fahmi (Founder & Lead Developer) via WhatsApp (62895336377648).
+
+[PAKET RESMI & HARGA — WAJIB PAKAI INI BILA DITANYA HARGA/PAKET]:
+- Paket Esensial — Rp1.500.000
+- Paket Bisnis — Rp2.900.000
+- Paket Enterprise — Rp5.500.000
+- Kustom Web App / Sistem Khusus — harga menyesuaikan kebutuhan (diskusi dulu).
+JANGAN PERNAH mengarang nama paket atau harga lain; bila pengguna minta yang di luar paket ini, arahkan ke Kustom dan ajak diskusi via WhatsApp.
 
 ${retrievedContext ? `[KONTEKS KNOWLEDGE BASE RESMI SUPABASE]:\n${retrievedContext}` : ''}`.trim();
 }
