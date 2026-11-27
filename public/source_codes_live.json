@@ -1,7 +1,63 @@
 {
-  "updatedAt": "27 Nov 2026, 19:10 WIB",
-  "total": 137,
+  "updatedAt": "27 Nov 2026, 19:55 WIB",
+  "total": 138,
   "items": [
+    {
+      "id": "sc-195",
+      "title": "Sistem Manajemen Restoran - Restaurant Management Ordering System",
+      "slug": "restaurant-management-ordering-system",
+      "category": "Layanan & Jasa",
+      "techStack": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Developed a restaurant management and food ordering system with user login, menu browsing, and order placement. Built RESTful APIs and managed data using MySQL.  Tech Stack: PHP, Laravel, MySQL, JavaScript, HTML, CSS\n\nProyek riil open-source asli dari GitHub (https://github.com/md-raza-75/Restaurant-Management-Ordering-System). Dilengkapi file database lengkap (rms2.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Manajemen Restoran - Restaurant Management Ordering System dengan database rms2.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/restaurant-management-ordering-system/screenshot_1.webp",
+        "/screenshots/restaurant-management-ordering-system/screenshot_2.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Demo",
+          "username": "Lihat README.md repo asli",
+          "password": "(lihat README repo)"
+        }
+      ],
+      "updatedAt": "27 November 2026",
+      "releaseDate": "27 November 2026",
+      "recentFastDownloads": 53,
+      "thumbnail": "/screenshots/restaurant-management-ordering-system/screenshot_1.webp",
+      "downloadsCount": 863,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "34.5 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `restaurant-management-ordering-system.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `rms2.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/restaurant-management-ordering-system` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (md-raza-75/Restaurant-Management-Ordering-System) dengan source code lengkap",
+        "Disertai database asli (rms2.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=restaurant-management-ordering-system&step=1&max=8",
+      "downloadUrlFast": "/downloads/restaurant-management-ordering-system.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/md-raza-75/Restaurant-Management-Ordering-System",
+      "stars": 0
+    },
     {
       "id": "sc-194",
       "title": "Sistem Pendukung Keputusan (SPK) - Spk Skripsi123",
