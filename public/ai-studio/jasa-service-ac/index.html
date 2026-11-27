@@ -1,0 +1,239 @@
+<!-- Source Code Gratis by LocaGo Creative (locagocreative.my.id) -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CoolService — Jasa Service AC Cepat & Bergaransi | Tangerang</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script>
+tailwind.config = { theme: { extend: { fontFamily: { serif: ['"Playfair Display"','serif'], sans: ['Poppins','sans-serif'] }, colors: { brand: {900:'#164e63',800:'#155e75',700:'#0891b2',cream:'#ecfeff',gold:'#f59e0b'} } } } }
+</script>
+<style>
+  html{scroll-behavior:smooth}
+  .pkg-card{transition:transform .25s ease, box-shadow .25s ease, border-color .2s ease; cursor:pointer}
+  .pkg-card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(0,0,0,.15)}
+  .pkg-selected{border-color:#0891b2!important;box-shadow:0 0 0 3px rgba(8,145,178,.25)!important}
+  .toast{transition:opacity .3s ease, transform .3s ease}
+</style>
+</head>
+<body class="font-sans bg-stone-50 text-stone-900">
+<header class="sticky top-0 z-50 text-white shadow-lg" style="background:#0891b2">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="#" class="flex items-center gap-2"><span class="text-2xl">❄️</span><span class="font-serif font-bold text-xl tracking-wide">CoolService</span></a>
+    <nav class="hidden md:flex gap-6 text-sm font-medium">
+      <a href="#paket" class="hover:opacity-80">Paket</a>
+      <a href="#booking" class="hover:opacity-80">Booking</a>
+      <a href="#testimoni" class="hover:opacity-80">Testimoni</a>
+      <a href="#lokasi" class="hover:opacity-80">Lokasi</a>
+    </nav>
+    <a href="#booking" class="bg-white font-semibold px-4 py-2 rounded-full text-sm hover:bg-stone-100" style="color:#0891b2">Book Sekarang</a>
+  </div>
+</header>
+<section class="relative h-[520px] md:h-[600px] overflow-hidden" style="background:#0891b2">
+  <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1600&q=80" alt="CoolService" class="absolute inset-0 w-full h-full object-cover">
+  <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent"></div>
+  <div class="relative max-w-6xl mx-auto px-4 h-full flex flex-col justify-center text-white">
+    <span class="bg-white text-xs font-bold px-3 py-1 rounded-full w-max mb-4" style="color:#0891b2">★ 4.7 — 1.300+ ulasan pelanggan</span>
+    <h1 class="font-serif text-4xl md:text-6xl font-bold leading-tight max-w-xl">AC Dingin Lagi,<br>Tagihan Listrik <span class='text-cyan-300'>Tetap Hemat</span>.</h1>
+    <p class="mt-4 text-base md:text-lg text-white/85 max-w-lg">Cuci AC, isi freon, sampai pasang baru — teknisi bersertifikat, datang tepat waktu, dan bergaransi 30 hari. Booking online, tanpa antre.</p>
+    <div class="mt-6 flex flex-wrap gap-3">
+      <a href="#paket" class="bg-white font-semibold px-6 py-3 rounded-full hover:bg-stone-100" style="color:#0891b2">Lihat Paket</a>
+      <a href="#booking" class="border-2 border-white/70 px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-stone-900">Booking Online</a>
+    </div>
+    <div class="mt-8 flex gap-6 text-sm text-white/80"><span>🕖 Buka 08.00 – 19.00 WIB</span><span>📍 Tangerang</span><span>✅ Teknisi bersertifikat & bergaransi 30 hari</span></div>
+  </div>
+</section>
+<section class="max-w-6xl mx-auto px-4 py-10 grid grid-cols-2 md:grid-cols-4 gap-4">
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">🔧</div><h3 class="font-semibold mt-2">Teknisi Bersertifikat</h3><p class="text-sm text-stone-500 mt-1">Berpengalaman 5+ tahun</p></div>
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">⚡</div><h3 class="font-semibold mt-2">Datang Tepat Waktu</h3><p class="text-sm text-stone-500 mt-1">Jadwal sesuai booking</p></div>
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">🛡️</div><h3 class="font-semibold mt-2">Garansi 30 Hari</h3><p class="text-sm text-stone-500 mt-1">Gratis kunjungan ulang</p></div>
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">💧</div><h3 class="font-semibold mt-2">Cuci Steam Modern</h3><p class="text-sm text-stone-500 mt-1">Bersih sampai ke evaporator</p></div>
+</section>
+<section id="paket" class="max-w-6xl mx-auto px-4 py-8">
+  <h2 class="font-serif text-3xl md:text-4xl font-bold text-center">Layanan Service AC</h2>
+  <p class="text-center text-stone-500 mt-2">Klik layanan untuk memilih. Atur jumlah unit di form booking — 4 unit hemat 10%.</p>
+  <div id="pkgGrid" class="grid md:grid-cols-3 gap-5 mt-8"></div>
+  <div class="bg-white rounded-3xl shadow p-6 mt-8">
+    <h3 class="font-serif text-xl font-bold">Tambahan (opsional)</h3>
+    <div id="addonList" class="grid sm:grid-cols-2 gap-3 mt-4"></div>
+  </div>
+</section>
+<section id="booking" class="max-w-6xl mx-auto px-4 py-8">
+  <div class="grid md:grid-cols-2 gap-6">
+    <div class="bg-white rounded-3xl shadow p-7">
+      <h3 class="font-serif text-2xl font-bold">Form Booking</h3>
+      <p class="text-sm text-stone-500 mt-1">Isi data di bawah — kode booking muncul otomatis setelah dikonfirmasi.</p>
+      <div class="space-y-4 mt-5">
+        <label class="block text-sm font-medium">Nama Lengkap
+          <input id="custName" type="text" placeholder="cth: Budi Santoso" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+        </label>
+        <label class="block text-sm font-medium">Nomor WhatsApp
+          <input id="custPhone" type="tel" placeholder="cth: 081234567890" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+        </label>
+        <div class="grid grid-cols-2 gap-3">
+          <label class="block text-sm font-medium">Tanggal
+            <input id="bookDate" type="date" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+          </label>
+          <label class="block text-sm font-medium">Jam
+            <select id="bookTime" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm"><option>08.00</option><option>09.00</option><option>10.00</option><option>11.00</option><option>13.00</option><option>14.00</option><option>15.00</option><option>16.00</option><option>17.00</option><option>18.00</option><option>19.00</option></select>
+          </label>
+        </div>
+        <div><p class="text-sm font-medium mb-2">Jumlah Unit AC</p>
+          <div class="flex items-center gap-3">
+            <button type="button" onclick="setQty(qty-1)" class="w-9 h-9 rounded-full border font-bold text-lg hover:bg-stone-100">−</button>
+            <span class="font-semibold"><span id="qtyVal">1</span> unit</span>
+            <button type="button" onclick="setQty(qty+1)" class="w-9 h-9 rounded-full border font-bold text-lg hover:bg-stone-100">+</button>
+            <span class="text-xs text-green-700 font-medium">4+ unit hemat 10%</span>
+          </div></div>
+        <label class="block text-sm font-medium">Catatan (opsional)
+          <input id="bookNote" type="text" placeholder="cth: bawa anak, alergi, dll" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+        </label>
+        <button id="btnBooking" onclick="confirmBooking()" class="w-full text-white font-semibold py-3 rounded-full hover:opacity-90" style="background:#0891b2">✅ Buat Booking</button>
+      </div>
+    </div>
+    <div class="rounded-3xl shadow p-7 text-white" style="background:#0891b2">
+      <h3 class="font-serif text-2xl font-bold">Ringkasan Booking</h3>
+      <div id="summaryBox" class="mt-4 space-y-2 text-sm"></div>
+      <div class="border-t border-white/30 mt-4 pt-4 space-y-2">
+        <div class="flex justify-between"><span>Paket</span><span id="sumPkg">Rp0</span></div>
+        <div class="flex justify-between"><span>Tambahan</span><span id="sumAddon">Rp0</span></div>
+        <div class="flex justify-between text-white/80"><span>Diskon</span><span id="sumDisc">Rp0</span></div>
+        <div class="flex justify-between font-bold text-xl"><span>Total</span><span id="sumTotal">Rp0</span></div>
+      </div>
+      <div id="codeBox" class="hidden mt-5 bg-white/15 rounded-2xl p-4">
+        <p class="text-sm text-white/80">Kode Booking Anda</p>
+        <p id="bookingCode" class="font-mono font-bold text-2xl tracking-widest mt-1"></p>
+        <p class="text-xs text-white/70 mt-1">Simpan kode ini &amp; tunjukkan saat datang. Konfirmasi dikirim via WhatsApp.</p>
+        <button onclick="sendWA()" class="mt-3 w-full bg-white font-semibold py-2.5 rounded-full text-sm hover:bg-stone-100" style="color:#0891b2">📲 Konfirmasi via WhatsApp</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="tentang" class="max-w-6xl mx-auto px-4 py-8 grid md:grid-cols-2 gap-10 items-center">
+  <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1000&q=80" alt="Tentang CoolService" class="rounded-3xl shadow-2xl w-full h-72 object-cover">
+  <div>
+    <h2 class="font-serif text-3xl md:text-4xl font-bold">Teknisi AC Langganan Warga Tangerang</h2>
+    <p class="mt-4 text-stone-600 leading-relaxed">CoolService berdiri 2018 di Tangerang. Kami menangani 1.300+ pelanggan — dari rumah tinggal sampai kantor dan kos-kosan. Setiap kunjungan dicek ulang sebelum pulang, dan semua pekerjaan bergaransi 30 hari.</p>
+    <ul class="mt-5 space-y-2 text-stone-700"><li>✔ Teknisi bersertifikat & berpengalaman 5+ tahun</li><li>✔ Suku cadang original bergaransi</li><li>✔ Harga transparan, tanpa biaya tersembunyi</li></ul>
+  </div>
+</section>
+<section id="testimoni" class="max-w-6xl mx-auto px-4 py-14">
+  <h2 class="font-serif text-3xl md:text-4xl font-bold text-center">Kata Mereka</h2>
+  <div class="grid md:grid-cols-3 gap-5 mt-8"><div class="bg-white rounded-2xl p-6 shadow"><div class="text-amber-500 text-lg">★★★★★</div><p class="mt-3 text-stone-600">"AC saya yang sudah tidak dingin, setelah dicuci + isi freon langsung dingin lagi. Teknisi ramah dan rapi."</p><p class="mt-4 font-semibold">— Pak Hendra, Tangerang</p></div>
+<div class="bg-white rounded-2xl p-6 shadow"><div class="text-amber-500 text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Service 4 unit AC kantor, selesai 1 hari. Harga sesuai estimasi di web ini, recommended!"</p><p class="mt-4 font-semibold">— Ibu Sari, Perusahaan</p></div>
+<div class="bg-white rounded-2xl p-6 shadow"><div class="text-amber-500 text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Pasang AC baru, pipanya rapi dan vakumnya benar. Garansi 90 hari, tenang banget."</p><p class="mt-4 font-semibold">— Dimas, Pemilik Rumah</p></div></div>
+</section>
+<section id="lokasi" class="max-w-6xl mx-auto px-4 pb-14 grid md:grid-cols-2 gap-6">
+  <div class="bg-white rounded-3xl p-7 shadow">
+    <h3 class="font-serif text-2xl font-bold">📍 Lokasi &amp; Jam Buka</h3>
+    <p class="mt-3 text-stone-600">Jl. Raya Serpong No. 55, Tangerang 15311<br>(Dekat Summarecon Mall Serpong)</p>
+    <table class="mt-4 w-full text-sm">
+      <tr class="border-b"><td class="py-2 font-medium">Senin – Jumat</td><td class="py-2 text-right">08.00 – 19.00 WIB</td></tr>
+      <tr class="border-b"><td class="py-2 font-medium">Sabtu – Minggu</td><td class="py-2 text-right">08.00 – 17.00 WIB</td></tr>
+    </table>
+    <p class="mt-4 text-sm text-stone-500">📞 0812-3456-7906 &nbsp;•&nbsp; 📸 @coolservice.tng</p>
+  </div>
+  <div class="text-white rounded-3xl p-7 shadow" style="background:#0891b2">
+    <h3 class="font-serif text-2xl font-bold">Butuh Bantuan?</h3>
+    <p class="mt-3 text-white/80 text-sm">Pilih layanan & jumlah unit di atas, isi form booking, dan konfirmasi via WhatsApp. Teknisi datang sesuai jadwal — bayar setelah pekerjaan selesai.</p>
+    <a href="#booking" class="inline-block mt-5 bg-white font-semibold px-6 py-3 rounded-full hover:bg-stone-100" style="color:#0891b2">Booking Sekarang</a>
+  </div>
+</section>
+<footer class="text-white/70 text-center py-6 text-sm" style="background:#1c1917">
+  © 2026 CoolService • Source Code Gratis by LocaGo Creative (locagocreative.my.id)
+</footer>
+<div id="toast" class="toast fixed bottom-5 left-1/2 -translate-x-1/2 translate-y-4 opacity-0 text-white text-sm font-medium px-5 py-3 rounded-full shadow-xl z-[80] pointer-events-none" style="background:#0891b2">Berhasil</div>
+<script>
+const WA_NUMBER = "6281234567906";
+const CODE_PREFIX = "CS";
+const PKGS = [{"name": "Cuci AC", "price": 75000, "unit": " / unit", "tag": "", "features": ["Cuci indoor + outdoor", "Cek tekanan freon", "Cek kondisi filter", "± 45 menit per unit"]}, {"name": "Cuci AC + Isi Freon", "price": 250000, "unit": " / unit", "tag": "Paling Laris", "features": ["Semua Cuci AC", "Isi freon R32/R410A", "Cek kebocoran pipa", "AC kembali dingin maksimal"]}, {"name": "Service Besar + Perbaikan", "price": 350000, "unit": " / unit", "tag": "", "features": ["Bongkar & cuci total", "Perbaikan kerusakan ringan", "Ganti kapasitor (jika perlu)", "Garansi 30 hari"]}, {"name": "Pasang AC Baru", "price": 450000, "unit": " / unit", "tag": "", "features": ["Pemasangan standar 1 PK–2 PK", "Pipa tembaga 3 meter", "Vakum & tes kebocoran", "Garansi pemasangan 90 hari"]}];
+const ADDONS = [{"name": "Tambah freon R32", "price": 150000, "perUnit": "unit"}, {"name": "Bongkar pasang", "price": 200000}, {"name": "Pipa tembaga tambahan", "price": 85000}];
+const QTY_CFG = {"default": 1, "min": 1, "max": 10, "perUnit": true, "unitLabel": "unit", "discountQty": 4, "discountRate": 0.1};
+const fmt = n => "Rp" + n.toLocaleString("id-ID");
+let selPkg = 0, selAddons = new Set(), qty = QTY_CFG.default;
+function renderPkgs(){
+  document.getElementById("pkgGrid").innerHTML = PKGS.map((p,i) => `
+    <article onclick="selectPkg(${i})" data-pkg="${i}" class="pkg-card bg-white rounded-3xl overflow-hidden shadow border-2 ${i===selPkg?'pkg-selected':'border-transparent'}">
+      <div class="p-6">
+        ${p.tag ? `<span class="text-xs font-bold px-2 py-1 rounded-full text-white" style="background:#0891b2">${p.tag}</span>` : ""}
+        <h3 class="font-serif font-bold text-xl mt-3">${p.name}</h3>
+        <p class="text-3xl font-bold mt-2" style="color:#0891b2">${fmt(p.price)}<span class="text-sm font-normal text-stone-500">${p.unit||""}</span></p>
+        <ul class="mt-4 space-y-1.5 text-sm text-stone-600">${p.features.map(f=>`<li>✔ ${f}</li>`).join("")}</ul>
+      </div>
+    </article>`).join("");
+}
+function renderAddons(){
+  document.getElementById("addonList").innerHTML = ADDONS.map((a,i) => `
+    <label class="flex items-center gap-3 border rounded-xl px-4 py-3 cursor-pointer hover:border-stone-400">
+      <input type="checkbox" data-addon="${i}" onchange="toggleAddon(${i},this.checked)" class="w-4 h-4">
+      <span class="flex-1 text-sm font-medium">${a.name}</span>
+      <span class="text-sm font-bold">${fmt(a.price)}${a.perUnit?"/"+a.perUnit:""}</span>
+    </label>`).join("");
+}
+function selectPkg(i){ selPkg = i; renderPkgs(); updateSummary(); }
+function toggleAddon(i, on){ on ? selAddons.add(i) : selAddons.delete(i); updateSummary(); }
+function setQty(v){ qty = Math.max(QTY_CFG.min, Math.min(QTY_CFG.max, v)); const el=document.getElementById("qtyVal"); if(el) el.textContent = qty; updateSummary(); }
+function calcTotals(){
+  const p = PKGS[selPkg];
+  const mult = (typeof extraMult === "function") ? extraMult() : 1;
+  let pkgTotal = Math.round(p.price * (QTY_CFG.perUnit ? qty : 1) * mult);
+  let addTotal = 0;
+  selAddons.forEach(i => { addTotal += ADDONS[i].price * (ADDONS[i].perUnit ? qty : 1); });
+  const gross = pkgTotal + addTotal;
+  const disc = QTY_CFG.discountQty && qty >= QTY_CFG.discountQty ? Math.round(gross * QTY_CFG.discountRate) : 0;
+  return { pkgTotal, addTotal, disc, total: gross - disc, pkg: p };
+}
+function updateSummary(){
+  const t = calcTotals();
+  document.getElementById("sumPkg").textContent = fmt(t.pkgTotal);
+  document.getElementById("sumAddon").textContent = fmt(t.addTotal);
+  document.getElementById("sumDisc").textContent = t.disc ? "− " + fmt(t.disc) : fmt(0);
+  document.getElementById("sumTotal").textContent = fmt(t.total);
+  const lines = [`<p><b>${t.pkg.name}</b>${QTY_CFG.perUnit ? " × " + qty + " " + QTY_CFG.unitLabel : ""} — ${fmt(t.pkgTotal)}</p>`];
+  selAddons.forEach(i => { lines.push(`<p>+ ${ADDONS[i].name}${ADDONS[i].perUnit ? " × " + qty : ""} — ${fmt(ADDONS[i].price * (ADDONS[i].perUnit ? qty : 1))}</p>`); });
+  if (t.disc) lines.push(`<p class="text-green-300">Diskon ${Math.round(QTY_CFG.discountRate*100)}% (${QTY_CFG.discountQty}+ ${QTY_CFG.unitLabel}) — −${fmt(t.disc)}</p>`);
+  document.getElementById("summaryBox").innerHTML = lines.join("");
+}
+let toastTimer;
+function showToast(msg){
+  const el = document.getElementById("toast");
+  el.textContent = msg;
+  el.style.opacity = "1"; el.style.transform = "translate(-50%, 0)";
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>{ el.style.opacity = "0"; el.style.transform = "translate(-50%, 1rem)"; }, 2200);
+}
+function confirmBooking(){
+  const name = document.getElementById("custName").value.trim();
+  const date = document.getElementById("bookDate").value;
+  if (!name){ showToast("Isi nama lengkap dulu ya"); document.getElementById("custName").focus(); return; }
+  if (!date){ showToast("Pilih tanggal booking dulu ya"); document.getElementById("bookDate").focus(); return; }
+  const code = CODE_PREFIX + "-" + Math.random().toString(36).slice(2,8).toUpperCase();
+  document.getElementById("bookingCode").textContent = code;
+  document.getElementById("codeBox").classList.remove("hidden");
+  window.__lastBookingCode = code;
+  showToast("Booking berhasil! Kode: " + code);
+  document.getElementById("codeBox").scrollIntoView({behavior:"smooth", block:"center"});
+}
+function sendWA(){
+  const t = calcTotals();
+  const name = document.getElementById("custName").value.trim() || "Pelanggan";
+  const date = document.getElementById("bookDate").value;
+  const time = document.getElementById("bookTime").value;
+  const note = document.getElementById("bookNote").value.trim();
+  const code = document.getElementById("bookingCode").textContent;
+  const lines = [`Halo CoolService! Saya ${name}, mau konfirmasi booking:`, ``, `Kode Booking: ${code}`, `Paket: ${t.pkg.name}${QTY_CFG.perUnit ? " × " + qty + " " + QTY_CFG.unitLabel : ""}`, `Tanggal: ${date}`, `Jam: ${time}`];
+  selAddons.forEach(i => lines.push(`Tambahan: ${ADDONS[i].name}`));
+  lines.push(``, `Total: ${fmt(t.total)}`);
+  if (note) lines.push(``, `Catatan: ${note}`);
+  lines.push(``, `Terima kasih!`);
+  window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(lines.join(String.fromCharCode(10)))}`, "_blank");
+}
+
+renderPkgs();
+renderAddons();
+updateSummary();
+</script>
+</body>
+</html>

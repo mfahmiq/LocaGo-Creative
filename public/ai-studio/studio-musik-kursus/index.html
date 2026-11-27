@@ -1,0 +1,186 @@
+<!-- Source Code Gratis by LocaGo Creative (locagocreative.my.id) -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NadaKita — Kursus Musik Gitar, Piano, Drum & Vokal | Yogyakarta</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script>
+tailwind.config = { theme: { extend: { fontFamily: { serif: ['"Playfair Display"','serif'], sans: ['Poppins','sans-serif'] }, colors: { brand: {900:'#4c1d95',800:'#5b21b6',700:'#7c3aed',cream:'#f5f3ff',gold:'#f59e0b'} } } } }
+</script>
+<style>
+  html{scroll-behavior:smooth}
+  .toast{transition:opacity .3s ease, transform .3s ease}
+  input[type=range]{accent-color:#7c3aed}
+</style>
+</head>
+<body class="font-sans bg-stone-50 text-stone-900">
+<header class="sticky top-0 z-50 text-white shadow-lg" style="background:#7c3aed">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="#" class="flex items-center gap-2"><span class="text-2xl">🎵</span><span class="font-serif font-bold text-xl tracking-wide">NadaKita</span></a>
+    <nav class="hidden md:flex gap-6 text-sm font-medium">
+      <a href="#hitung" class="hover:opacity-80">Hitung Biaya</a>
+      <a href="#tentang" class="hover:opacity-80">Tentang</a>
+      <a href="#testimoni" class="hover:opacity-80">Testimoni</a>
+      <a href="#lokasi" class="hover:opacity-80">Kontak</a>
+    </nav>
+    <a href="#hitung" class="bg-white font-semibold px-4 py-2 rounded-full text-sm hover:bg-stone-100" style="color:#7c3aed">Hitung Sekarang</a>
+  </div>
+</header>
+<section class="relative h-[520px] md:h-[600px] overflow-hidden" style="background:#7c3aed">
+  <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1600&q=80" alt="NadaKita" class="absolute inset-0 w-full h-full object-cover">
+  <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent"></div>
+  <div class="relative max-w-6xl mx-auto px-4 h-full flex flex-col justify-center text-white">
+    <span class="bg-white text-xs font-bold px-3 py-1 rounded-full w-max mb-4" style="color:#7c3aed">★ 4.9 — 1.050+ ulasan pelanggan</span>
+    <h1 class="font-serif text-4xl md:text-6xl font-bold leading-tight max-w-xl">Main Musik Itu<br><span class='text-violet-300'>Bisa Dipelajari</span> Siapa Saja.</h1>
+    <p class="mt-4 text-base md:text-lg text-white/85 max-w-lg">Gitar, piano, drum, biola, sampai vokal — guru berpengalaman, kelas privat & kelompok, dan konser murid tiap 6 bulan.</p>
+    <div class="mt-6 flex flex-wrap gap-3">
+      <a href="#hitung" class="bg-white font-semibold px-6 py-3 rounded-full hover:bg-stone-100" style="color:#7c3aed">Hitung Biaya</a>
+      <a href="#lokasi" class="border-2 border-white/70 px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-stone-900">Hubungi Kami</a>
+    </div>
+    <div class="mt-8 flex gap-6 text-sm text-white/80"><span>🕖 Buka 09.00 – 20.00 WIB</span><span>📍 Yogyakarta</span><span>✅ 1.050+ murid aktif & alumni</span></div>
+  </div>
+</section>
+<section class="max-w-6xl mx-auto px-4 py-10 grid grid-cols-2 md:grid-cols-4 gap-4">
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">🎹</div><h3 class="font-semibold mt-2">Guru Berpengalaman</h3><p class="text-sm text-stone-500 mt-1">Lulusan ISI & musisi aktif</p></div>
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">👥</div><h3 class="font-semibold mt-2">Privat & Kelompok</h3><p class="text-sm text-stone-500 mt-1">Bebas pilih gayamu</p></div>
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">🎤</div><h3 class="font-semibold mt-2">Konser Murid</h3><p class="text-sm text-stone-500 mt-1">Tampil tiap 6 bulan</p></div>
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">📜</div><h3 class="font-semibold mt-2">Sertifikat Level</h3><p class="text-sm text-stone-500 mt-1">Untuk portofolio & audisi</p></div>
+</section>
+<section id="hitung" class="max-w-6xl mx-auto px-4 py-8">
+  <h2 class="font-serif text-3xl md:text-4xl font-bold text-center">Hitung Biaya Kursusmu</h2>
+  <p class="text-center text-stone-500 mt-2">Pilih alat musik, durasi & level — biaya total langsung terhitung, termasuk diskon paket.</p>
+  <div class="grid md:grid-cols-2 gap-6 mt-8">
+    <div class="bg-white rounded-3xl shadow p-7">
+      <h3 class="font-serif text-xl font-bold">Pilih Kebutuhanmu</h3>
+      <div id="calcFields" class="space-y-5 mt-5"></div>
+    </div>
+    <div class="rounded-3xl shadow p-7 text-white flex flex-col" style="background:#7c3aed">
+      <h3 class="font-serif text-2xl font-bold">Biaya Kursusmu</h3>
+      <p id="calcDetail" class="mt-3 text-sm text-white/85 leading-relaxed"></p>
+      <p class="mt-4 text-sm text-white/70">Estimasi Total</p>
+      <p id="calcTotal" class="font-serif font-bold text-4xl md:text-5xl mt-1">Rp0</p>
+      <p id="calcNote" class="text-xs text-white/70 mt-2">Biaya sudah termasuk modul, akses ruang latihan, dan sertifikat level. Bisa dicicil per bulan.</p>
+      <div class="border-t border-white/30 mt-5 pt-5 space-y-3">
+        <label class="block text-sm font-medium">Nama Lengkap
+          <input id="custName" type="text" placeholder="cth: Budi Santoso" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm text-stone-900">
+        </label>
+        <label class="block text-sm font-medium">Nomor WhatsApp
+          <input id="custPhone" type="tel" placeholder="cth: 081234567890" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm text-stone-900">
+        </label>
+        <button id="btnOrder" onclick="sendOrderWA()" class="w-full bg-white font-semibold py-3 rounded-full hover:bg-stone-100 text-sm" style="color:#7c3aed">📲 Daftar via WhatsApp</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="tentang" class="max-w-6xl mx-auto px-4 py-8 grid md:grid-cols-2 gap-10 items-center">
+  <img src="https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=1000&q=80" alt="Tentang NadaKita" class="rounded-3xl shadow-2xl w-full h-72 object-cover">
+  <div>
+    <h2 class="font-serif text-3xl md:text-4xl font-bold">Sekolah Musik yang Membuatmu Jatuh Cinta pada Musik</h2>
+    <p class="mt-4 text-stone-600 leading-relaxed">NadaKita berdiri 2018 di Yogyakarta. Metode kami: langsung main lagu dari pertemuan pertama — teori diselipkan sambil praktik. 1.050+ murid, dari anak 5 tahun sampai karyawan 50 tahun, sudah membuktikan belajar musik itu menyenangkan.</p>
+    <ul class="mt-5 space-y-2 text-stone-700"><li>✔ Guru lulusan ISI & musisi aktif</li><li>✔ Trial class gratis 1x pertemuan</li><li>✔ Konser murid tiap 6 bulan</li></ul>
+  </div>
+</section>
+<section id="testimoni" class="max-w-6xl mx-auto px-4 py-14">
+  <h2 class="font-serif text-3xl md:text-4xl font-bold text-center">Kata Mereka</h2>
+  <div class="grid md:grid-cols-3 gap-5 mt-8"><div class="bg-white rounded-2xl p-6 shadow"><div class="text-amber-500 text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Anak saya 7 tahun les piano di sini, 3 bulan sudah bisa main lagu anak-anak. Gurunya sabar banget."</p><p class="mt-4 font-semibold">— Ibu Wulan, Orang Tua</p></div>
+<div class="bg-white rounded-2xl p-6 shadow"><div class="text-amber-500 text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Les gitar privat, 6 bulan sudah bisa main lagu favorit saya. Jadwalnya fleksibel, cocok buat pekerja."</p><p class="mt-4 font-semibold">— Fajar, Karyawan</p></div>
+<div class="bg-white rounded-2xl p-6 shadow"><div class="text-amber-500 text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Ikut kelas vokal, sekarang berani tampil di konser murid. Suasana kelasnya seru dan suportif!"</p><p class="mt-4 font-semibold">— Rani, Mahasiswi</p></div></div>
+</section>
+<section id="lokasi" class="max-w-6xl mx-auto px-4 pb-14 grid md:grid-cols-2 gap-6">
+  <div class="bg-white rounded-3xl p-7 shadow">
+    <h3 class="font-serif text-2xl font-bold">📍 Lokasi &amp; Jam Buka</h3>
+    <p class="mt-3 text-stone-600">Jl. Malioboro No. 120, Yogyakarta 55165<br>(Dekat Titik Nol Kilometer)</p>
+    <table class="mt-4 w-full text-sm">
+      <tr class="border-b"><td class="py-2 font-medium">Senin – Jumat</td><td class="py-2 text-right">09.00 – 20.00 WIB</td></tr>
+      <tr class="border-b"><td class="py-2 font-medium">Sabtu – Minggu</td><td class="py-2 text-right">09.00 – 17.00 WIB</td></tr>
+    </table>
+    <p class="mt-4 text-sm text-stone-500">📞 0812-3456-7910 &nbsp;•&nbsp; 📸 @nadakita.yogya</p>
+  </div>
+  <div class="text-white rounded-3xl p-7 shadow" style="background:#7c3aed">
+    <h3 class="font-serif text-2xl font-bold">Butuh Bantuan?</h3>
+    <p class="mt-3 text-white/80 text-sm">Hitung biayamu di kalkulator di atas, lalu daftar via WhatsApp. Trial class gratis 1x pertemuan — tanpa komitmen.</p>
+    <a href="#hitung" class="inline-block mt-5 bg-white font-semibold px-6 py-3 rounded-full hover:bg-stone-100" style="color:#7c3aed">Hitung Biaya Dulu</a>
+  </div>
+</section>
+<footer class="text-white/70 text-center py-6 text-sm" style="background:#1c1917">
+  © 2026 NadaKita • Source Code Gratis by LocaGo Creative (locagocreative.my.id)
+</footer>
+<div id="toast" class="toast fixed bottom-5 left-1/2 -translate-x-1/2 translate-y-4 opacity-0 text-white text-sm font-medium px-5 py-3 rounded-full shadow-xl z-[80] pointer-events-none" style="background:#7c3aed">Berhasil</div>
+<script>
+const WA_NUMBER = "6281234567910";
+const FIELDS = [{"id": "alat", "label": "Alat Musik", "type": "select", "options": [{"value": "gitar", "label": "Gitar — Rp350.000/bulan", "price": 350000}, {"value": "piano", "label": "Piano — Rp500.000/bulan", "price": 500000}, {"value": "drum", "label": "Drum — Rp450.000/bulan", "price": 450000}, {"value": "biola", "label": "Biola — Rp400.000/bulan", "price": 400000}, {"value": "vokal", "label": "Vokal — Rp300.000/bulan", "price": 300000}]}, {"id": "durasi", "label": "Durasi Kursus", "type": "select", "options": [{"value": 1, "label": "1 bulan (tanpa diskon)", "price": 0, "disc": 0}, {"value": 3, "label": "3 bulan (diskon 5%)", "price": 0, "disc": 0.05}, {"value": 6, "label": "6 bulan (diskon 10%)", "price": 0, "disc": 0.1}, {"value": 12, "label": "12 bulan (diskon 15%)", "price": 0, "disc": 0.15}]}, {"id": "level", "label": "Level", "type": "radio", "options": [{"value": "pemula", "label": "Pemula", "mult": 1.0}, {"value": "menengah", "label": "Menengah", "mult": 1.1}, {"value": "mahir", "label": "Mahir", "mult": 1.25}]}];
+const fmt = n => "Rp" + n.toLocaleString("id-ID");
+function renderFields(){
+  document.getElementById("calcFields").innerHTML = FIELDS.map(f => {
+    if (f.type === "select"){
+      return `<label class="block text-sm font-medium">${f.label}
+        <select id="f_${f.id}" onchange="recalc()" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+          ${f.options.map(o => `<option value="${o.value}" data-price="${o.price||0}" data-disc="${o.disc||0}" data-mult="${o.mult||1}">${o.label}</option>`).join("")}
+        </select></label>`;
+    }
+    if (f.type === "range"){
+      return `<label class="block text-sm font-medium">${f.label}: <span id="f_${f.id}_val" class="font-bold">${f.value} ${f.unit}</span>
+        <input id="f_${f.id}" type="range" min="${f.min}" max="${f.max}" step="${f.step}" value="${f.value}" oninput="document.getElementById('f_${f.id}_val').textContent = this.value + ' ${f.unit}'; recalc()" class="mt-1 w-full">
+        <span class="text-xs text-stone-400 font-normal">${f.min} – ${f.max} ${f.unit}</span></label>`;
+    }
+    if (f.type === "radio"){
+      return `<div><p class="text-sm font-medium mb-2">${f.label}</p><div class="flex flex-wrap gap-2">
+        ${f.options.map((o,i) => `<label class="cursor-pointer"><input type="radio" name="f_${f.id}" value="${o.value}" data-mult="${o.mult||1}" data-price="${o.price||0}" ${i===0?"checked":""} onchange="recalc()" class="peer sr-only"><span class="inline-block border rounded-full px-4 py-2 text-sm font-medium peer-checked:bg-stone-900 peer-checked:text-white">${o.label}</span></label>`).join("")}
+      </div></div>`;
+    }
+    return "";
+  }).join("");
+}
+function fieldVal(id){
+  const el = document.getElementById("f_" + id);
+  if (!el) return null;
+  if (el.tagName === "SELECT") return { value: el.value, price: +el.selectedOptions[0].dataset.price, disc: +el.selectedOptions[0].dataset.disc, mult: +el.selectedOptions[0].dataset.mult, label: el.selectedOptions[0].textContent };
+  if (el.type === "range") return { value: +el.value };
+  return null;
+}
+function radioVal(id){
+  const r = document.querySelector(`input[name="f_${id}"]:checked`);
+  if (!r) return null;
+  return { value: r.value, price: +r.dataset.price, mult: +r.dataset.mult, label: r.parentElement.textContent.trim() };
+}
+function compute(){
+  const inst = fieldVal("alat");
+  const dur = fieldVal("durasi");
+  const lvl = radioVal("level");
+  const sub = inst.price * dur.value;
+  const disc = Math.round(sub * dur.disc);
+  const total = Math.round((sub - disc) * lvl.mult);
+  const detail = "<b>" + inst.label + "</b><br>" + fmt(inst.price) + " × " + dur.value + " bulan = " + fmt(sub)
+    + (disc ? "<br>Diskon " + Math.round(dur.disc*100) + "% — −" + fmt(disc) : "<br>Ambil 3 bulan ke atas untuk diskon sampai 15%.")
+    + "<br>Level " + lvl.label + " (×" + lvl.mult + ")";
+  return { total, detail };
+}
+function recalc(){
+  const r = compute();
+  document.getElementById("calcTotal").textContent = fmt(r.total);
+  document.getElementById("calcDetail").innerHTML = r.detail;
+  window.__lastCalc = r;
+}
+let toastTimer;
+function showToast(msg){
+  const el = document.getElementById("toast");
+  el.textContent = msg;
+  el.style.opacity = "1"; el.style.transform = "translate(-50%, 0)";
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>{ el.style.opacity = "0"; el.style.transform = "translate(-50%, 1rem)"; }, 2200);
+}
+function sendOrderWA(){
+  const name = document.getElementById("custName").value.trim();
+  if (!name){ showToast("Isi nama lengkap dulu ya"); document.getElementById("custName").focus(); return; }
+  const r = window.__lastCalc || compute();
+  const lines = [`Halo NadaKita! Saya ${name}, mau tanya soal:`, ``, r.detail.replace(/<[^>]+>/g, ""), ``, `Estimasi total: ${fmt(r.total)}`, ``, `Mohon info selengkapnya. Terima kasih!`];
+  window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(lines.join(String.fromCharCode(10)))}`, "_blank");
+}
+renderFields();
+recalc();
+</script>
+</body>
+</html>

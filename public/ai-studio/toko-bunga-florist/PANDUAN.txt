@@ -1,0 +1,32 @@
+PANDUAN — BLOOMHAUS (Toko Online UMKM)
+=============================================
+Website toko online "BloomHaus".
+Source code gratis by LocaGo Creative (locagocreative.my.id).
+
+CARA MEMBUKA
+------------
+1. Double-click file index.html — website langsung terbuka di browser.
+   (Tidak perlu install apa pun.)
+2. Atau upload file index.html ke hosting statis apa pun
+   (Netlify, Vercel, GitHub Pages, Niagahoster, dll).
+
+FITUR
+-----
+- Katalog 12 produk bunga (buket, bunga papan, hampers) dengan filter kategori
+- Keranjang belanja: tambah/kurangi jumlah, hitung subtotal & ongkir otomatis (gratis jika order >= Rp250.000)
+- Checkout langsung ke WhatsApp (pesanan terformat otomatis)
+- Testimoni, profil toko, jam buka & lokasi
+
+CARA MENYESUAIKAN (edit file index.html dengan Notepad / VS Code)
+-----------------------------------------------------------------
+- Nama toko & nomor WhatsApp : cari WA_NUMBER = "6281234567901" di bagian bawah file, ganti dengan nomor WA kamu (format: 62 + nomor).
+- Harga & nama produk : cari bagian const MENU = [ ... ] lalu ubah name, price, desc, dan img (URL gambar).
+- Alamat & jam buka : cari bagian "Lokasi & Jam Buka" di HTML.
+- Warna tema : cari tailwind.config di <head> (warna pink).
+
+CATATAN
+-------
+- Gambar memakai URL Unsplash — butuh internet saat pertama dibuka.
+- Semua data keranjang/booking hanya tersimpan di browser pengunjung.
+- Bebas dipakai & dimodifikasi untuk usahamu. Dilarang dijual kembali
+  sebagai produk berbayar tanpa izin LocaGo Creative.

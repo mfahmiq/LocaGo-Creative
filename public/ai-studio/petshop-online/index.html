@@ -1,0 +1,227 @@
+<!-- Source Code Gratis by LocaGo Creative (locagocreative.my.id) -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PawMart — Petshop Online Lengkap & Terpercaya | Surabaya</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script>
+tailwind.config = { theme: { extend: { fontFamily: { serif: ['"Playfair Display"','serif'], sans: ['Poppins','sans-serif'] }, colors: { brand: {900:'#7c2d12',800:'#9a3412',700:'#ea580c',cream:'#fff7ed',gold:'#f59e0b'} } } } }
+</script>
+<style>
+  html{scroll-behavior:smooth}
+  .menu-card{transition:transform .25s ease, box-shadow .25s ease}
+  .menu-card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(0,0,0,.15)}
+  .toast{transition:opacity .3s ease, transform .3s ease}
+  .tab-active{background:#ea580c!important;color:#fff!important}
+</style>
+</head>
+<body class="font-sans bg-stone-50 text-stone-900">
+<header class="sticky top-0 z-50 text-white shadow-lg" style="background:#ea580c">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="#" class="flex items-center gap-2"><span class="text-2xl">🐾</span><span class="font-serif font-bold text-xl tracking-wide">PawMart</span></a>
+    <nav class="hidden md:flex gap-6 text-sm font-medium">
+      <a href="#produk" class="hover:opacity-80">Produk</a>
+      <a href="#tentang" class="hover:opacity-80">Tentang</a>
+      <a href="#testimoni" class="hover:opacity-80">Testimoni</a>
+      <a href="#lokasi" class="hover:opacity-80">Lokasi</a>
+    </nav>
+    <button onclick="toggleCart(true)" class="relative bg-white font-semibold px-4 py-2 rounded-full text-sm hover:bg-stone-100" style="color:#ea580c">
+      🛒 Keranjang <span id="cartCount" class="absolute -top-2 -right-2 bg-red-600 text-white text-xs w-5 h-5 rounded-full flex items-center justify-center">0</span>
+    </button>
+  </div>
+</header>
+<section class="relative h-[520px] md:h-[600px] overflow-hidden" style="background:#ea580c">
+  <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=1600&q=80" alt="PawMart" class="absolute inset-0 w-full h-full object-cover">
+  <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent"></div>
+  <div class="relative max-w-6xl mx-auto px-4 h-full flex flex-col justify-center text-white">
+    <span class="bg-white text-xs font-bold px-3 py-1 rounded-full w-max mb-4" style="color:#ea580c">★ 4.8 — 1.900+ ulasan pelanggan</span>
+    <h1 class="font-serif text-4xl md:text-6xl font-bold leading-tight max-w-xl">Si Anabul Bahagia,<br>Kamu Pun <span class='text-amber-400'>Tenang</span>.</h1>
+    <p class="mt-4 text-base md:text-lg text-white/85 max-w-lg">Makanan, vitamin, sampai mainan — semua kebutuhan kucing & anjingmu tersedia, original, dan dikirim cepat sampai rumah.</p>
+    <div class="mt-6 flex flex-wrap gap-3">
+      <a href="#produk" class="bg-white font-semibold px-6 py-3 rounded-full hover:bg-stone-100" style="color:#ea580c">Lihat Produk &amp; Pesan</a>
+      <a href="#lokasi" class="border-2 border-white/70 px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-stone-900">Jam Buka &amp; Lokasi</a>
+    </div>
+    <div class="mt-8 flex gap-6 text-sm text-white/80"><span>🕖 Buka 09.00 – 21.00 WIB</span><span>📍 Surabaya</span><span>🛵 Gratis ongkir ≥ Rp200rb</span></div>
+  </div>
+</section>
+<section class="max-w-6xl mx-auto px-4 py-10 grid grid-cols-2 md:grid-cols-4 gap-4">
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">🐾</div><h3 class="font-semibold mt-2">Produk Original</h3><p class="text-sm text-stone-500 mt-1">Garansi uang kembali</p></div>
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">🚚</div><h3 class="font-semibold mt-2">Kirim Cepat</h3><p class="text-sm text-stone-500 mt-1">Same day area Surabaya</p></div>
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">🩺</div><h3 class="font-semibold mt-2">Konsultasi Gratis</h3><p class="text-sm text-stone-500 mt-1">Tanya pakan & perawatan</p></div>
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">💸</div><h3 class="font-semibold mt-2">Harga Bersahabat</h3><p class="text-sm text-stone-500 mt-1">Promo tiap minggu</p></div>
+</section>
+<section id="produk" class="max-w-6xl mx-auto px-4 py-8">
+  <h2 class="font-serif text-3xl md:text-4xl font-bold text-center">Kebutuhan Anabul</h2>
+  <p class="text-center text-stone-500 mt-2">Klik <b>+ Tambah</b> untuk masuk keranjang. Harga sudah termasuk pajak.</p>
+  <div class="flex justify-center gap-2 mt-6 flex-wrap" id="tabBar"></div>
+  <div id="menuGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-8"></div>
+</section>
+<section id="tentang" class="text-white py-14 mt-8" style="background:#ea580c">
+  <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+    <img src="https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=1000&q=80" alt="Tentang PawMart" class="rounded-3xl shadow-2xl w-full h-72 object-cover">
+    <div>
+      <h2 class="font-serif text-3xl md:text-4xl font-bold">Dari Pecinta Hewan, Untuk Pecinta Hewan</h2>
+      <p class="mt-4 text-white/80 leading-relaxed">PawMart berdiri 2020 di Surabaya oleh dua pecinta kucing. Kami hanya jual produk yang kami pakai sendiri untuk anabul kami — jadi kualitasnya sudah teruji. 1.900+ pelanggan setia mempercayakan kebutuhan hewan kesayangannya pada kami.</p>
+      <ul class="mt-5 space-y-2 text-white/85"><li>✔ Produk original, garansi uang kembali</li><li>✔ Stok lengkap untuk kucing & anjing</li><li>✔ Konsultasi pakan gratis via WhatsApp</li></ul>
+    </div>
+  </div>
+</section>
+<section id="testimoni" class="max-w-6xl mx-auto px-4 py-14">
+  <h2 class="font-serif text-3xl md:text-4xl font-bold text-center">Kata Mereka</h2>
+  <div class="grid md:grid-cols-3 gap-5 mt-8"><div class="bg-white rounded-2xl p-6 shadow"><div class="text-amber-500 text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Makanan kucingnya original, kucing saya jadi lahap makan. Harga lebih murah dari petshop lain."</p><p class="mt-4 font-semibold">— Dina, Pemilik Kucing</p></div>
+<div class="bg-white rounded-2xl p-6 shadow"><div class="text-amber-500 text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Order pagi, sore sampai. Packing rapi, pasir tidak tumpah sama sekali."</p><p class="mt-4 font-semibold">— Rudi, Pemilik Anjing</p></div>
+<div class="bg-white rounded-2xl p-6 shadow"><div class="text-amber-500 text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Adminnya helpful banget, dibantu pilih vitamin yang cocok buat kucing saya yang picky."</p><p class="mt-4 font-semibold">— Sari, Cat Lover</p></div></div>
+</section>
+<section id="lokasi" class="max-w-6xl mx-auto px-4 pb-14 grid md:grid-cols-2 gap-6">
+  <div class="bg-white rounded-3xl p-7 shadow">
+    <h3 class="font-serif text-2xl font-bold">📍 Lokasi &amp; Jam Buka</h3>
+    <p class="mt-3 text-stone-600">Jl. Raya Nginden No. 45, Surabaya 60118<br>(Dekat Kampus UNAIR)</p>
+    <table class="mt-4 w-full text-sm">
+      <tr class="border-b"><td class="py-2 font-medium">Senin – Jumat</td><td class="py-2 text-right">09.00 – 21.00 WIB</td></tr>
+      <tr class="border-b"><td class="py-2 font-medium">Sabtu – Minggu</td><td class="py-2 text-right">09.00 – 21.00 WIB</td></tr>
+    </table>
+    <p class="mt-4 text-sm text-stone-500">📞 0812-3456-7902 &nbsp;•&nbsp; 📸 @pawmart.sby</p>
+  </div>
+  <div class="text-white rounded-3xl p-7 shadow" style="background:#ea580c">
+    <h3 class="font-serif text-2xl font-bold">Pesan Sekarang</h3>
+    <p class="mt-3 text-white/80 text-sm">Isi keranjang dari katalog di atas, lalu checkout lewat WhatsApp. Gratis ongkir order ≥ Rp200.000 se-Kota Surabaya.</p>
+    <button onclick="toggleCart(true)" class="mt-5 bg-white font-semibold px-6 py-3 rounded-full hover:bg-stone-100" style="color:#ea580c">Lihat Keranjang Saya</button>
+  </div>
+</section>
+<footer class="text-white/70 text-center py-6 text-sm" style="background:#1c1917">
+  © 2026 PawMart • Source Code Gratis by LocaGo Creative (locagocreative.my.id)
+</footer>
+<div id="cartOverlay" onclick="toggleCart(false)" class="fixed inset-0 bg-black/50 z-[60] hidden"></div>
+<aside id="cartDrawer" class="fixed top-0 right-0 h-full w-full max-w-md bg-white z-[70] shadow-2xl translate-x-full transition-transform duration-300 flex flex-col">
+  <div class="flex items-center justify-between px-5 py-4 border-b">
+    <h3 class="font-serif text-xl font-bold">🛒 Keranjang Pesanan</h3>
+    <button onclick="toggleCart(false)" class="text-2xl leading-none px-2" aria-label="Tutup">×</button>
+  </div>
+  <div id="cartItems" class="flex-1 overflow-y-auto px-5 py-4 space-y-3"></div>
+  <div class="border-t px-5 py-4 space-y-3">
+    <label class="block text-sm font-medium">Nama Pemesan
+      <input id="buyerName" type="text" placeholder="cth: Budi Santoso" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+    </label>
+    <label class="block text-sm font-medium">Catatan / Alamat Antar (opsional)
+      <input id="buyerNote" type="text" placeholder="cth: ukuran 42, antar ke Jl. ..." class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+    </label>
+    <div class="flex justify-between font-semibold"><span>Subtotal</span><span id="cartSubtotal">Rp0</span></div>
+    <div class="flex justify-between text-sm text-stone-500"><span>Ongkir</span><span id="cartOngkir">Rp0</span></div>
+    <div class="flex justify-between font-bold text-lg"><span>Total</span><span id="cartTotal">Rp0</span></div>
+    <button onclick="checkoutWA()" class="w-full bg-green-600 text-white font-semibold py-3 rounded-full hover:bg-green-700">✅ Pesan via WhatsApp</button>
+    <button onclick="clearCart()" class="w-full text-sm text-red-600 py-1 hover:underline">Kosongkan keranjang</button>
+  </div>
+</aside>
+<div id="toast" class="toast fixed bottom-5 left-1/2 -translate-x-1/2 translate-y-4 opacity-0 text-white text-sm font-medium px-5 py-3 rounded-full shadow-xl z-[80] pointer-events-none" style="background:#ea580c">Ditambahkan ke keranjang</div>
+<script>
+const WA_NUMBER = "6281234567902";
+const FREE_SHIP_MIN = 200000;
+const SHIP_COST = 12000;
+const MENU = [{"id": 1, "name": "Makanan Kucing Salmon 1kg", "cat": "makanan", "price": 95000, "desc": "Dry food salmon, bulu halus & pencernaan sehat.", "img": "https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=600&q=80", "tag": "Best Seller"}, {"id": 2, "name": "Makanan Anjing Dewasa 2kg", "cat": "makanan", "price": 145000, "desc": "Nutrisi lengkap untuk anjing dewasa aktif.", "img": "https://images.unsplash.com/photo-1552053831-71594a27632d?w=600&q=80"}, {"id": 3, "name": "Pasir Kucing Wangi 10L", "cat": "perawatan", "price": 85000, "desc": "Pasir gumpal cepat, wangi lavender, anti bau.", "img": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?w=600&q=80"}, {"id": 4, "name": "Kandang Kucing Lipat", "cat": "aksesoris", "price": 329000, "desc": "Kandang lipat praktis, mudah dibawa bepergian.", "img": "https://images.unsplash.com/photo-1529778873920-4da4926a72c2?w=600&q=80"}, {"id": 5, "name": "Mainan Kucing Interaktif", "cat": "aksesoris", "price": 59000, "desc": "Mainan bola + bulu, bikin kucing aktif bergerak.", "img": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=600&q=80"}, {"id": 6, "name": "Shampoo Anjing Anti Kutu", "cat": "perawatan", "price": 65000, "desc": "Shampoo lembut, basmi kutu & jamur kulit.", "img": "https://images.unsplash.com/photo-1537151625747-768eb6cf92b2?w=600&q=80"}, {"id": 7, "name": "Vitamin Kucing 60 Tablet", "cat": "perawatan", "price": 89000, "desc": "Vitamin nafsu makan & daya tahan tubuh.", "img": "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=600&q=80"}, {"id": 8, "name": "Snack Anjing Dental Stick", "cat": "makanan", "price": 45000, "desc": "Snack gigi sehat, kurangi karang gigi.", "img": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80"}, {"id": 9, "name": "Litter Box Tertutup", "cat": "aksesoris", "price": 189000, "desc": "Litter box tertutup, pasir tidak berserakan.", "img": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&q=80"}, {"id": 10, "name": "Kalung LED Anjing", "cat": "aksesoris", "price": 79000, "desc": "Kalung LED terang, aman jalan malam hari.", "img": "https://images.unsplash.com/photo-1517849845537-4d257902454a?w=600&q=80"}, {"id": 11, "name": "Carrier Kucing Travel", "cat": "aksesoris", "price": 259000, "desc": "Tas carrier ventilasi baik, nyaman untuk kucing.", "img": "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?w=600&q=80", "tag": "Premium"}, {"id": 12, "name": "Camilan Kucing Creamy", "cat": "makanan", "price": 35000, "desc": "Creamy treats favorit kucing, 5 sachet per pack.", "img": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=600&q=80"}];
+const CATS = [["semua", "Semua"], ["makanan", "🍖 Makanan"], ["perawatan", "🧴 Perawatan"], ["aksesoris", "🎾 Aksesoris"]];
+const fmt = n => "Rp" + n.toLocaleString("id-ID");
+let cart = {};
+let currentCat = "semua";
+function renderTabs(){
+  document.getElementById("tabBar").innerHTML = CATS.map(c =>
+    `<button data-cat="${c[0]}" onclick="filterMenu('${c[0]}',this)" class="tab-btn px-5 py-2 rounded-full bg-white shadow text-sm font-semibold ${c[0]==='semua'?'tab-active':''}">${c[1]}</button>`).join("");
+}
+function renderMenu(){
+  const grid = document.getElementById("menuGrid");
+  const list = MENU.filter(m => currentCat==="semua" || m.cat===currentCat);
+  grid.innerHTML = list.map(m => `
+    <article class="menu-card bg-white rounded-3xl overflow-hidden shadow">
+      <div class="relative bg-stone-200">
+        <img src="${m.img}" alt="${m.name}" class="w-full h-44 object-cover" loading="lazy">
+        ${m.tag ? `<span class="absolute top-3 left-3 bg-amber-400 text-stone-900 text-xs font-bold px-2 py-1 rounded-full">${m.tag}</span>` : ""}
+      </div>
+      <div class="p-5">
+        <h3 class="font-semibold text-lg">${m.name}</h3>
+        <p class="text-sm text-stone-500 mt-1">${m.desc}</p>
+        <div class="flex items-center justify-between mt-4">
+          <span class="font-bold text-lg">${fmt(m.price)}</span>
+          <button onclick="addToCart(${m.id})" class="text-white text-sm font-semibold px-4 py-2 rounded-full hover:opacity-90" style="background:#ea580c">+ Tambah</button>
+        </div>
+      </div>
+    </article>`).join("");
+}
+function filterMenu(cat, btn){
+  currentCat = cat;
+  document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("tab-active"));
+  btn.classList.add("tab-active");
+  renderMenu();
+}
+function addToCart(id){ cart[id] = (cart[id]||0) + 1; updateCartUI(); const m = MENU.find(x=>x.id===id); showToast(m.name + " ditambahkan ke keranjang"); }
+function changeQty(id, delta){ cart[id] = (cart[id]||0) + delta; if (cart[id] <= 0) delete cart[id]; updateCartUI(); }
+function clearCart(){ cart = {}; updateCartUI(); showToast("Keranjang dikosongkan"); }
+function cartTotals(){
+  let sub = 0, count = 0;
+  for (const [id, qty] of Object.entries(cart)){ const m = MENU.find(x=>x.id===+id); sub += m.price * qty; count += qty; }
+  const ongkir = sub === 0 ? 0 : (sub >= FREE_SHIP_MIN ? 0 : SHIP_COST);
+  return { sub, ongkir, total: sub + ongkir, count };
+}
+function updateCartUI(){
+  const t = cartTotals();
+  document.getElementById("cartCount").textContent = t.count;
+  document.getElementById("cartSubtotal").textContent = fmt(t.sub);
+  document.getElementById("cartOngkir").textContent = t.ongkir === 0 ? (t.sub ? "Gratis" : fmt(0)) : fmt(t.ongkir);
+  document.getElementById("cartTotal").textContent = fmt(t.total);
+  const box = document.getElementById("cartItems");
+  if (t.count === 0){ box.innerHTML = `<p class="text-center text-stone-400 py-10">Keranjang masih kosong.<br>Pilih produk favoritmu di atas</p>`; return; }
+  box.innerHTML = Object.entries(cart).map(([id, qty]) => {
+    const m = MENU.find(x=>x.id===+id);
+    return `<div class="flex items-center gap-3 bg-stone-100 rounded-xl p-3">
+      <img src="${m.img}" alt="${m.name}" class="w-14 h-14 object-cover rounded-lg bg-stone-200">
+      <div class="flex-1"><p class="font-semibold text-sm">${m.name}</p><p class="text-xs text-stone-500">${fmt(m.price)} × ${qty}</p></div>
+      <div class="flex items-center gap-2">
+        <button onclick="changeQty(${m.id},-1)" class="w-7 h-7 rounded-full bg-white shadow font-bold" aria-label="Kurangi">−</button>
+        <span class="font-semibold w-4 text-center">${qty}</span>
+        <button onclick="changeQty(${m.id},1)" class="w-7 h-7 rounded-full bg-white shadow font-bold" aria-label="Tambah">+</button>
+      </div>
+      <span class="font-bold text-sm w-20 text-right">${fmt(m.price*qty)}</span>
+    </div>`;
+  }).join("") + (t.sub >= FREE_SHIP_MIN ? `<p class="text-green-700 text-sm font-medium">🎉 Selamat! Ongkir GRATIS (order ≥ ${fmt(FREE_SHIP_MIN)})</p>` : `<p class="text-sm text-stone-500">Tambah ${fmt(FREE_SHIP_MIN - t.sub)} lagi untuk gratis ongkir.</p>`);
+}
+function toggleCart(open){
+  document.getElementById("cartDrawer").style.transform = open ? "translateX(0)" : "translateX(100%)";
+  document.getElementById("cartOverlay").classList.toggle("hidden", !open);
+}
+let toastTimer;
+function showToast(msg){
+  const el = document.getElementById("toast");
+  el.textContent = msg;
+  el.style.opacity = "1"; el.style.transform = "translate(-50%, 0)";
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>{ el.style.opacity = "0"; el.style.transform = "translate(-50%, 1rem)"; }, 2200);
+}
+function checkoutWA(){
+  const t = cartTotals();
+  if (t.count === 0){ showToast("Keranjang masih kosong — pilih produk dulu"); return; }
+  const name = document.getElementById("buyerName").value.trim() || "Pelanggan";
+  const note = document.getElementById("buyerNote").value.trim();
+  const lines = Object.entries(cart).map(([id, qty]) => {
+    const m = MENU.find(x=>x.id===+id);
+    return `• ${m.name} × ${qty} — ${fmt(m.price*qty)}`;
+  });
+  const msg = `Halo PawMart! Saya ${name}, mau pesan:
+
+${lines.join(String.fromCharCode(10))}
+
+Subtotal: ${fmt(t.sub)}
+Ongkir: ${t.ongkir === 0 ? "Gratis" : fmt(t.ongkir)}
+Total: ${fmt(t.total)}${note ? `
+
+Catatan: ${note}` : ""}
+
+Terima kasih!`;
+  window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`, "_blank");
+}
+renderTabs();
+renderMenu();
+updateCartUI();
+</script>
+</body>
+</html>

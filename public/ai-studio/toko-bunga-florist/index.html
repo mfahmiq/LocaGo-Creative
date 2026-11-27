@@ -1,0 +1,227 @@
+<!-- Source Code Gratis by LocaGo Creative (locagocreative.my.id) -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BloomHaus — Toko Bunga & Florist Segar | Bandung</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script>
+tailwind.config = { theme: { extend: { fontFamily: { serif: ['"Playfair Display"','serif'], sans: ['Poppins','sans-serif'] }, colors: { brand: {900:'#831843',800:'#9d174d',700:'#be185d',cream:'#fdf2f8',gold:'#f59e0b'} } } } }
+</script>
+<style>
+  html{scroll-behavior:smooth}
+  .menu-card{transition:transform .25s ease, box-shadow .25s ease}
+  .menu-card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(0,0,0,.15)}
+  .toast{transition:opacity .3s ease, transform .3s ease}
+  .tab-active{background:#be185d!important;color:#fff!important}
+</style>
+</head>
+<body class="font-sans bg-stone-50 text-stone-900">
+<header class="sticky top-0 z-50 text-white shadow-lg" style="background:#be185d">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="#" class="flex items-center gap-2"><span class="text-2xl">💐</span><span class="font-serif font-bold text-xl tracking-wide">BloomHaus</span></a>
+    <nav class="hidden md:flex gap-6 text-sm font-medium">
+      <a href="#produk" class="hover:opacity-80">Produk</a>
+      <a href="#tentang" class="hover:opacity-80">Tentang</a>
+      <a href="#testimoni" class="hover:opacity-80">Testimoni</a>
+      <a href="#lokasi" class="hover:opacity-80">Lokasi</a>
+    </nav>
+    <button onclick="toggleCart(true)" class="relative bg-white font-semibold px-4 py-2 rounded-full text-sm hover:bg-stone-100" style="color:#be185d">
+      🛒 Keranjang <span id="cartCount" class="absolute -top-2 -right-2 bg-red-600 text-white text-xs w-5 h-5 rounded-full flex items-center justify-center">0</span>
+    </button>
+  </div>
+</header>
+<section class="relative h-[520px] md:h-[600px] overflow-hidden" style="background:#be185d">
+  <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1600&q=80" alt="BloomHaus" class="absolute inset-0 w-full h-full object-cover">
+  <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent"></div>
+  <div class="relative max-w-6xl mx-auto px-4 h-full flex flex-col justify-center text-white">
+    <span class="bg-white text-xs font-bold px-3 py-1 rounded-full w-max mb-4" style="color:#be185d">★ 4.9 — 2.300+ ulasan pelanggan</span>
+    <h1 class="font-serif text-4xl md:text-6xl font-bold leading-tight max-w-xl">Bunga Segar,<br>Untuk Momen <span class='text-amber-400'>Tak Terlupakan</span>.</h1>
+    <p class="mt-4 text-base md:text-lg text-white/85 max-w-lg">Buket mawar, bunga papan, sampai hampers — dirangkai florist berpengalaman, bunga segar dipetik tiap pagi, antar di hari yang sama.</p>
+    <div class="mt-6 flex flex-wrap gap-3">
+      <a href="#produk" class="bg-white font-semibold px-6 py-3 rounded-full hover:bg-stone-100" style="color:#be185d">Lihat Produk &amp; Pesan</a>
+      <a href="#lokasi" class="border-2 border-white/70 px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-stone-900">Jam Buka &amp; Lokasi</a>
+    </div>
+    <div class="mt-8 flex gap-6 text-sm text-white/80"><span>🕖 Buka 08.00 – 20.00 WIB</span><span>📍 Bandung</span><span>🛵 Antar hari yang sama</span></div>
+  </div>
+</section>
+<section class="max-w-6xl mx-auto px-4 py-10 grid grid-cols-2 md:grid-cols-4 gap-4">
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">🌹</div><h3 class="font-semibold mt-2">Bunga Segar Tiap Pagi</h3><p class="text-sm text-stone-500 mt-1">Dipetik & dirangkai hari ini</p></div>
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">🚚</div><h3 class="font-semibold mt-2">Antar Hari yang Sama</h3><p class="text-sm text-stone-500 mt-1">Order sebelum 15.00, sampai sore</p></div>
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">💌</div><h3 class="font-semibold mt-2">Kartu Ucapan Gratis</h3><p class="text-sm text-stone-500 mt-1">Tulis pesanmu, kami sertakan</p></div>
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">🎁</div><h3 class="font-semibold mt-2">Bisa Hampers</h3><p class="text-sm text-stone-500 mt-1">Bunga + cokelat + boneka</p></div>
+</section>
+<section id="produk" class="max-w-6xl mx-auto px-4 py-8">
+  <h2 class="font-serif text-3xl md:text-4xl font-bold text-center">Koleksi Bunga</h2>
+  <p class="text-center text-stone-500 mt-2">Klik <b>+ Tambah</b> untuk masuk keranjang. Harga sudah termasuk kartu ucapan.</p>
+  <div class="flex justify-center gap-2 mt-6 flex-wrap" id="tabBar"></div>
+  <div id="menuGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-8"></div>
+</section>
+<section id="tentang" class="text-white py-14 mt-8" style="background:#be185d">
+  <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+    <img src="https://images.unsplash.com/photo-1469259943454-aa100abba749?w=1000&q=80" alt="Tentang BloomHaus" class="rounded-3xl shadow-2xl w-full h-72 object-cover">
+    <div>
+      <h2 class="font-serif text-3xl md:text-4xl font-bold">Florist Langganan Warga Bandung Sejak 2018</h2>
+      <p class="mt-4 text-white/80 leading-relaxed">BloomHaus berawal dari kios bunga kecil di Pasar Bunga Wastukencana. Kini kami merangkai 100+ buket setiap minggu — dari hadiah ulang tahun sampai dekorasi pernikahan — dengan bunga segar yang dipetik tiap pagi dari petani Lembang.</p>
+      <ul class="mt-5 space-y-2 text-white/85"><li>✔ Florist berpengalaman 8+ tahun</li><li>✔ Bunga segar dari petani Lembang</li><li>✔ Bisa request warna & tema buket</li></ul>
+    </div>
+  </div>
+</section>
+<section id="testimoni" class="max-w-6xl mx-auto px-4 py-14">
+  <h2 class="font-serif text-3xl md:text-4xl font-bold text-center">Kata Mereka</h2>
+  <div class="grid md:grid-cols-3 gap-5 mt-8"><div class="bg-white rounded-2xl p-6 shadow"><div class="text-amber-500 text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Buket mawarnya segar banget, sampai 5 hari masih cantik. Pacar saya senang banget!"</p><p class="mt-4 font-semibold">— Raka, Mahasiswa</p></div>
+<div class="bg-white rounded-2xl p-6 shadow"><div class="text-amber-500 text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Pesan bunga papan untuk peresmian kantor, hasilnya mewah dan pengiriman tepat waktu."</p><p class="mt-4 font-semibold">— Ibu Ratna, Perusahaan</p></div>
+<div class="bg-white rounded-2xl p-6 shadow"><div class="text-amber-500 text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Buket wisuda untuk anak saya cantik sekali. Admin ramah, harga jujur."</p><p class="mt-4 font-semibold">— Pak Budi, Orang Tua</p></div></div>
+</section>
+<section id="lokasi" class="max-w-6xl mx-auto px-4 pb-14 grid md:grid-cols-2 gap-6">
+  <div class="bg-white rounded-3xl p-7 shadow">
+    <h3 class="font-serif text-2xl font-bold">📍 Lokasi &amp; Jam Buka</h3>
+    <p class="mt-3 text-stone-600">Jl. Wastukencana No. 27, Bandung 40116<br>(Pasar Bunga Wastukencana)</p>
+    <table class="mt-4 w-full text-sm">
+      <tr class="border-b"><td class="py-2 font-medium">Senin – Jumat</td><td class="py-2 text-right">08.00 – 20.00 WIB</td></tr>
+      <tr class="border-b"><td class="py-2 font-medium">Sabtu – Minggu</td><td class="py-2 text-right">08.00 – 21.00 WIB</td></tr>
+    </table>
+    <p class="mt-4 text-sm text-stone-500">📞 0812-3456-7901 &nbsp;•&nbsp; 📸 @bloomhaus.bdg</p>
+  </div>
+  <div class="text-white rounded-3xl p-7 shadow" style="background:#be185d">
+    <h3 class="font-serif text-2xl font-bold">Pesan Sekarang</h3>
+    <p class="mt-3 text-white/80 text-sm">Isi keranjang dari katalog di atas, lalu checkout lewat WhatsApp. Order sebelum 15.00 diantar di hari yang sama se-Kota Bandung.</p>
+    <button onclick="toggleCart(true)" class="mt-5 bg-white font-semibold px-6 py-3 rounded-full hover:bg-stone-100" style="color:#be185d">Lihat Keranjang Saya</button>
+  </div>
+</section>
+<footer class="text-white/70 text-center py-6 text-sm" style="background:#1c1917">
+  © 2026 BloomHaus • Source Code Gratis by LocaGo Creative (locagocreative.my.id)
+</footer>
+<div id="cartOverlay" onclick="toggleCart(false)" class="fixed inset-0 bg-black/50 z-[60] hidden"></div>
+<aside id="cartDrawer" class="fixed top-0 right-0 h-full w-full max-w-md bg-white z-[70] shadow-2xl translate-x-full transition-transform duration-300 flex flex-col">
+  <div class="flex items-center justify-between px-5 py-4 border-b">
+    <h3 class="font-serif text-xl font-bold">🛒 Keranjang Pesanan</h3>
+    <button onclick="toggleCart(false)" class="text-2xl leading-none px-2" aria-label="Tutup">×</button>
+  </div>
+  <div id="cartItems" class="flex-1 overflow-y-auto px-5 py-4 space-y-3"></div>
+  <div class="border-t px-5 py-4 space-y-3">
+    <label class="block text-sm font-medium">Nama Pemesan
+      <input id="buyerName" type="text" placeholder="cth: Budi Santoso" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+    </label>
+    <label class="block text-sm font-medium">Catatan / Alamat Antar (opsional)
+      <input id="buyerNote" type="text" placeholder="cth: ukuran 42, antar ke Jl. ..." class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+    </label>
+    <div class="flex justify-between font-semibold"><span>Subtotal</span><span id="cartSubtotal">Rp0</span></div>
+    <div class="flex justify-between text-sm text-stone-500"><span>Ongkir</span><span id="cartOngkir">Rp0</span></div>
+    <div class="flex justify-between font-bold text-lg"><span>Total</span><span id="cartTotal">Rp0</span></div>
+    <button onclick="checkoutWA()" class="w-full bg-green-600 text-white font-semibold py-3 rounded-full hover:bg-green-700">✅ Pesan via WhatsApp</button>
+    <button onclick="clearCart()" class="w-full text-sm text-red-600 py-1 hover:underline">Kosongkan keranjang</button>
+  </div>
+</aside>
+<div id="toast" class="toast fixed bottom-5 left-1/2 -translate-x-1/2 translate-y-4 opacity-0 text-white text-sm font-medium px-5 py-3 rounded-full shadow-xl z-[80] pointer-events-none" style="background:#be185d">Ditambahkan ke keranjang</div>
+<script>
+const WA_NUMBER = "6281234567901";
+const FREE_SHIP_MIN = 250000;
+const SHIP_COST = 10000;
+const MENU = [{"id": 1, "name": "Buket Mawar Merah", "cat": "buket", "price": 189000, "desc": "12 tangkai mawar merah segar, bungkus premium.", "img": "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=600&q=80", "tag": "Best Seller"}, {"id": 2, "name": "Buket Tulip Pastel", "cat": "buket", "price": 159000, "desc": "Tulip warna pastel lembut, manis untuk hadiah.", "img": "https://images.unsplash.com/photo-1494972308805-463bc619d34e?w=600&q=80"}, {"id": 3, "name": "Buket Lily Putih", "cat": "buket", "price": 175000, "desc": "Lily putih wangi, elegan untuk acara formal.", "img": "https://images.unsplash.com/photo-1487530811176-3780de880c2d?w=600&q=80"}, {"id": 4, "name": "Buket Wisuda", "cat": "buket", "price": 149000, "desc": "Buket ceria untuk wisuda, lengkap dengan pita.", "img": "https://images.unsplash.com/photo-1520763185298-1b434c919102?w=600&q=80"}, {"id": 5, "name": "Bunga Papan Ucapan", "cat": "papan", "price": 350000, "desc": "Papan bunga besar untuk pernikahan & peresmian.", "img": "https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=600&q=80", "tag": "Premium"}, {"id": 6, "name": "Standing Flower", "cat": "papan", "price": 275000, "desc": "Standing flower untuk duka cita & ucapan selamat.", "img": "https://images.unsplash.com/photo-1526047932273-341f2a7631f9?w=600&q=80"}, {"id": 7, "name": "Buket Matahari", "cat": "buket", "price": 139000, "desc": "Bunga matahari cerah, bikin harimu bersinar.", "img": "https://images.unsplash.com/photo-1470509037663-253afd7f0f51?w=600&q=80"}, {"id": 8, "name": "Buket Baby Breath", "cat": "buket", "price": 129000, "desc": "Baby breath putih lembut, manis & minimalis.", "img": "https://images.unsplash.com/photo-1455659817273-f96807779a8a?w=600&q=80"}, {"id": 9, "name": "Hampers Bunga & Cokelat", "cat": "hampers", "price": 249000, "desc": "Buket mini + cokelat premium dalam box cantik.", "img": "https://images.unsplash.com/photo-1496062031456-07b8f162a322?w=600&q=80"}, {"id": 10, "name": "Buket Uang (Money Bouquet)", "cat": "buket", "price": 299000, "desc": "Buket uang kertas, hadiah unik yang berkesan.", "img": "https://images.unsplash.com/photo-1591886960571-74d43a9d4166?w=600&q=80", "tag": "Limited"}, {"id": 11, "name": "Bunga Meja Vas Kaca", "cat": "buket", "price": 99000, "desc": "Bunga segar dalam vas kaca, siap pajang di meja.", "img": "https://images.unsplash.com/photo-1558693168-c370615b54e0?w=600&q=80"}, {"id": 12, "name": "Buket Mawar Pink", "cat": "buket", "price": 169000, "desc": "Mawar pink lembut, romantis untuk orang tersayang.", "img": "https://images.unsplash.com/photo-1533616688419-b7a585564566?w=600&q=80"}];
+const CATS = [["semua", "Semua"], ["buket", "💐 Buket"], ["papan", "🪧 Bunga Papan"], ["hampers", "🎁 Hampers"]];
+const fmt = n => "Rp" + n.toLocaleString("id-ID");
+let cart = {};
+let currentCat = "semua";
+function renderTabs(){
+  document.getElementById("tabBar").innerHTML = CATS.map(c =>
+    `<button data-cat="${c[0]}" onclick="filterMenu('${c[0]}',this)" class="tab-btn px-5 py-2 rounded-full bg-white shadow text-sm font-semibold ${c[0]==='semua'?'tab-active':''}">${c[1]}</button>`).join("");
+}
+function renderMenu(){
+  const grid = document.getElementById("menuGrid");
+  const list = MENU.filter(m => currentCat==="semua" || m.cat===currentCat);
+  grid.innerHTML = list.map(m => `
+    <article class="menu-card bg-white rounded-3xl overflow-hidden shadow">
+      <div class="relative bg-stone-200">
+        <img src="${m.img}" alt="${m.name}" class="w-full h-44 object-cover" loading="lazy">
+        ${m.tag ? `<span class="absolute top-3 left-3 bg-amber-400 text-stone-900 text-xs font-bold px-2 py-1 rounded-full">${m.tag}</span>` : ""}
+      </div>
+      <div class="p-5">
+        <h3 class="font-semibold text-lg">${m.name}</h3>
+        <p class="text-sm text-stone-500 mt-1">${m.desc}</p>
+        <div class="flex items-center justify-between mt-4">
+          <span class="font-bold text-lg">${fmt(m.price)}</span>
+          <button onclick="addToCart(${m.id})" class="text-white text-sm font-semibold px-4 py-2 rounded-full hover:opacity-90" style="background:#be185d">+ Tambah</button>
+        </div>
+      </div>
+    </article>`).join("");
+}
+function filterMenu(cat, btn){
+  currentCat = cat;
+  document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("tab-active"));
+  btn.classList.add("tab-active");
+  renderMenu();
+}
+function addToCart(id){ cart[id] = (cart[id]||0) + 1; updateCartUI(); const m = MENU.find(x=>x.id===id); showToast(m.name + " ditambahkan ke keranjang"); }
+function changeQty(id, delta){ cart[id] = (cart[id]||0) + delta; if (cart[id] <= 0) delete cart[id]; updateCartUI(); }
+function clearCart(){ cart = {}; updateCartUI(); showToast("Keranjang dikosongkan"); }
+function cartTotals(){
+  let sub = 0, count = 0;
+  for (const [id, qty] of Object.entries(cart)){ const m = MENU.find(x=>x.id===+id); sub += m.price * qty; count += qty; }
+  const ongkir = sub === 0 ? 0 : (sub >= FREE_SHIP_MIN ? 0 : SHIP_COST);
+  return { sub, ongkir, total: sub + ongkir, count };
+}
+function updateCartUI(){
+  const t = cartTotals();
+  document.getElementById("cartCount").textContent = t.count;
+  document.getElementById("cartSubtotal").textContent = fmt(t.sub);
+  document.getElementById("cartOngkir").textContent = t.ongkir === 0 ? (t.sub ? "Gratis" : fmt(0)) : fmt(t.ongkir);
+  document.getElementById("cartTotal").textContent = fmt(t.total);
+  const box = document.getElementById("cartItems");
+  if (t.count === 0){ box.innerHTML = `<p class="text-center text-stone-400 py-10">Keranjang masih kosong.<br>Pilih produk favoritmu di atas</p>`; return; }
+  box.innerHTML = Object.entries(cart).map(([id, qty]) => {
+    const m = MENU.find(x=>x.id===+id);
+    return `<div class="flex items-center gap-3 bg-stone-100 rounded-xl p-3">
+      <img src="${m.img}" alt="${m.name}" class="w-14 h-14 object-cover rounded-lg bg-stone-200">
+      <div class="flex-1"><p class="font-semibold text-sm">${m.name}</p><p class="text-xs text-stone-500">${fmt(m.price)} × ${qty}</p></div>
+      <div class="flex items-center gap-2">
+        <button onclick="changeQty(${m.id},-1)" class="w-7 h-7 rounded-full bg-white shadow font-bold" aria-label="Kurangi">−</button>
+        <span class="font-semibold w-4 text-center">${qty}</span>
+        <button onclick="changeQty(${m.id},1)" class="w-7 h-7 rounded-full bg-white shadow font-bold" aria-label="Tambah">+</button>
+      </div>
+      <span class="font-bold text-sm w-20 text-right">${fmt(m.price*qty)}</span>
+    </div>`;
+  }).join("") + (t.sub >= FREE_SHIP_MIN ? `<p class="text-green-700 text-sm font-medium">🎉 Selamat! Ongkir GRATIS (order ≥ ${fmt(FREE_SHIP_MIN)})</p>` : `<p class="text-sm text-stone-500">Tambah ${fmt(FREE_SHIP_MIN - t.sub)} lagi untuk gratis ongkir.</p>`);
+}
+function toggleCart(open){
+  document.getElementById("cartDrawer").style.transform = open ? "translateX(0)" : "translateX(100%)";
+  document.getElementById("cartOverlay").classList.toggle("hidden", !open);
+}
+let toastTimer;
+function showToast(msg){
+  const el = document.getElementById("toast");
+  el.textContent = msg;
+  el.style.opacity = "1"; el.style.transform = "translate(-50%, 0)";
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>{ el.style.opacity = "0"; el.style.transform = "translate(-50%, 1rem)"; }, 2200);
+}
+function checkoutWA(){
+  const t = cartTotals();
+  if (t.count === 0){ showToast("Keranjang masih kosong — pilih produk dulu"); return; }
+  const name = document.getElementById("buyerName").value.trim() || "Pelanggan";
+  const note = document.getElementById("buyerNote").value.trim();
+  const lines = Object.entries(cart).map(([id, qty]) => {
+    const m = MENU.find(x=>x.id===+id);
+    return `• ${m.name} × ${qty} — ${fmt(m.price*qty)}`;
+  });
+  const msg = `Halo BloomHaus! Saya ${name}, mau pesan:
+
+${lines.join(String.fromCharCode(10))}
+
+Subtotal: ${fmt(t.sub)}
+Ongkir: ${t.ongkir === 0 ? "Gratis" : fmt(t.ongkir)}
+Total: ${fmt(t.total)}${note ? `
+
+Catatan: ${note}` : ""}
+
+Terima kasih!`;
+  window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`, "_blank");
+}
+renderTabs();
+renderMenu();
+updateCartUI();
+</script>
+</body>
+</html>
