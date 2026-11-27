@@ -1,7 +1,61 @@
 {
-  "updatedAt": "27 Nov 2026, 11:56 WIB",
-  "total": 133,
+  "updatedAt": "27 Nov 2026, 12:55 WIB",
+  "total": 134,
   "items": [
+    {
+      "id": "sc-191",
+      "title": "Sistem Informasi Manajemen Sekolah - Report",
+      "slug": "report",
+      "category": "Pendidikan & Akademik",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL"
+      ],
+      "description": "# School Facility Report  Proyek web *PHP Native* & *CSS Sederhana* untuk skema Assistant Web Development (LSP KOMPETEN). Aplikasi mendigitalisasi pelaporan kerusakan fasilitas sekolah oleh siswa. ### 🛠️ Tech Stack * **Backend:** PHP Native * **Database:** MySQL * **Frontend:** HTML5 & CSS3 Custom * **Security:** Bcrypt Hash (`password_hash`) *\n\nProyek riil open-source asli dari GitHub (https://github.com/barbice/report). Dilengkapi file database lengkap (db_report (1).sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Informasi Manajemen Sekolah - Report dengan database db_report (1).sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/report/screenshot_1.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Demo",
+          "username": "Lihat README.md repo asli",
+          "password": "(lihat README repo)"
+        }
+      ],
+      "updatedAt": "27 November 2026",
+      "releaseDate": "27 November 2026",
+      "recentFastDownloads": 91,
+      "thumbnail": "/screenshots/report/screenshot_1.webp",
+      "downloadsCount": 752,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "366 KB",
+      "tutorialSteps": [
+        "Ekstrak berkas `report.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `db_report (1).sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/report` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (barbice/report) dengan source code lengkap",
+        "Disertai database asli (db_report (1).sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=report&step=1&max=8",
+      "downloadUrlFast": "/downloads/report.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/barbice/report",
+      "stars": 0
+    },
     {
       "id": "sc-190",
       "title": "Sistem Informasi Manajemen Sekolah - Literaksi",
