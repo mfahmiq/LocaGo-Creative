@@ -4,16 +4,16 @@
   "items": [
     {
       "id": "sc-197",
-      "title": "Comprehensive School Management System - Elexstore Sales System",
+      "title": "ElexStore - Online Electronics Shopping System",
       "slug": "elexstore-sales-system",
-      "category": "Pendidikan & Akademik",
+      "category": "Toko Online & E-Commerce",
       "techStack": [
         "PHP Native",
         "PHP",
         "MySQL"
       ],
       "description": "This is a group project for school assignment. It runs locally only. I mainly responsible to build the user profile and order management modules, implementing profile updates, secure password changes, photo uploads, order cancellation, and admin order tracking using PHP, HTML, CSS, and MySQL\n\nProyek riil open-source asli dari GitHub (https://github.com/LimSY0306/ElexStore-sales-system). Dilengkapi file database lengkap (dbA.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
-      "shortDesc": "Proyek riil Comprehensive School Management System - Elexstore Sales System dengan database dbA.sql, data contoh bawaan, dan tutorial instalasi.",
+      "shortDesc": "Proyek riil ElexStore - Online Electronics Shopping System dengan database dbA.sql, data contoh bawaan, dan tutorial instalasi.",
       "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
       "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
       "screenshots": [
@@ -23,9 +23,14 @@
       ],
       "defaultCredentials": [
         {
-          "role": "Demo",
-          "username": "Lihat README.md repo asli",
-          "password": "(lihat README repo)"
+          "role": "Admin",
+          "username": "admin2",
+          "password": "admin123"
+        },
+        {
+          "role": "Member",
+          "username": "john_doe",
+          "password": "member123"
         }
       ],
       "updatedAt": "27 November 2026",
@@ -43,7 +48,7 @@
         "Ekstrak berkas `elexstore-sales-system.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
         "Import berkas SQL `dbA.sql` ke database phpMyAdmin.",
         "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/elexstore-sales-system` dan login dengan akun default."
+        "Buka browser di `http://localhost/elexstore-sales-system` dan login dengan akun demo dari README: Admin admin2 / admin123, Member john_doe / member123."
       ],
       "keyFeatures": [
         "Proyek riil dari GitHub (LimSY0306/ElexStore-sales-system) dengan source code lengkap",
@@ -54,7 +59,7 @@
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=elexstore-sales-system&step=1&max=8",
       "downloadUrlFast": "/downloads/elexstore-sales-system.zip",
-      "driveUrl": "",
+      "driveUrl": "https://drive.google.com/file/d/1JxilT06JvIfPFGkFvr3F1Eh6O9aV3qCj/view?usp=drivesdk",
       "githubRepo": "https://github.com/LimSY0306/ElexStore-sales-system",
       "stars": 0
     },
