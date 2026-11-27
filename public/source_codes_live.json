@@ -42,7 +42,7 @@
         "Ekstrak berkas `sari-sari-pos.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
         "Import berkas SQL `database/schema.sql` ke database phpMyAdmin.",
         "Sesuaikan konfigurasi database di file koneksi proyek.",
-        "Buka browser di `http://localhost/sari-sari-pos` dan login dengan akun default."
+        "Buka browser di `http://localhost/sari-sari-pos` — buat akun owner pertama lewat halaman setup (repo ini tidak menyediakan akun demo bawaan; jangan pakai tebakan umum)."
       ],
       "keyFeatures": [
         "Proyek riil dari GitHub (mariyeel/sari-sari-pos) dengan source code lengkap",
@@ -53,7 +53,7 @@
       ],
       "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=sari-sari-pos&step=1&max=8",
       "downloadUrlFast": "/downloads/sari-sari-pos.zip",
-      "driveUrl": "",
+      "driveUrl": "https://drive.google.com/file/d/10mRTDz9g4b4-OQ-mL0TB351FklyJ_r7G/view?usp=drivesdk",
       "githubRepo": "https://github.com/mariyeel/sari-sari-pos",
       "stars": 0
     },
