@@ -1,7 +1,64 @@
 {
-  "updatedAt": "27 Nov 2026, 12:55 WIB",
-  "total": 134,
+  "updatedAt": "27 Nov 2026, 15:09 WIB",
+  "total": 135,
   "items": [
+    {
+      "id": "sc-192",
+      "title": "Sistem Manajemen Restoran - Colevora Rims",
+      "slug": "colevora-rims",
+      "category": "Layanan & Jasa",
+      "techStack": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Restaurant Inventory & Management System — Laravel 12, Livewire 3, Tailwind CSS, MySQL, Docker\n\nProyek riil open-source asli dari GitHub (https://github.com/Edward2033/colevora-rims). Dilengkapi file database lengkap (database/colevora_rims.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Manajemen Restoran - Colevora Rims dengan database database/colevora_rims.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/colevora-rims/screenshot_1.webp",
+        "/screenshots/colevora-rims/screenshot_2.webp",
+        "/screenshots/colevora-rims/screenshot_3.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Demo",
+          "username": "Lihat README.md repo asli",
+          "password": "(lihat README repo)"
+        }
+      ],
+      "updatedAt": "27 November 2026",
+      "releaseDate": "27 November 2026",
+      "recentFastDownloads": 47,
+      "thumbnail": "/screenshots/colevora-rims/screenshot_1.webp",
+      "downloadsCount": 546,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "2.1 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `colevora-rims.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `database/colevora_rims.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/colevora-rims` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (Edward2033/colevora-rims) dengan source code lengkap",
+        "Disertai database asli (database/colevora_rims.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=colevora-rims&step=1&max=8",
+      "downloadUrlFast": "/downloads/colevora-rims.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/Edward2033/colevora-rims",
+      "stars": 0
+    },
     {
       "id": "sc-191",
       "title": "Sistem Informasi Manajemen Sekolah - Report",
