@@ -151,6 +151,16 @@ export const AdminPortal: React.FC = () => {
     return { total: sum(paid), today: sum(day(1)), week: sum(day(7)), month: sum(day(30)), pendingCount: donations.filter((d) => d.status === 'pending').length };
   }, [donations]);
 
+  // Donatur per baris donasi: donasi biasa menyimpan nama donatur di
+  // tool_name (opsional — kosong = Anonim); submit tool menyimpan nama
+  // tool di tool_name, jadi donaturnya diambil dari kontak submission
+  // dengan order_id yang sama.
+  const donorOf = (d: DonationRow): string => {
+    if (d.type === 'donasi') return d.tool_name || 'Anonim';
+    const s = subs.find((x) => x.order_id === d.order_id);
+    return (s && (s.contact_wa || s.contact_email)) || d.tool_name || '—';
+  };
+
   const traffic = useMemo(() => {
     const todayStr = new Date().toISOString().slice(0, 10);
     const yestStr = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
@@ -265,11 +275,11 @@ export const AdminPortal: React.FC = () => {
             </div>
             <div className="overflow-x-auto rounded-3xl bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800">
               <table className="w-full text-xs">
-                <thead><tr className="text-left text-neutral-500 border-b border-neutral-100 dark:border-neutral-800"><th className="p-3">Order ID</th><th className="p-3">Tipe</th><th className="p-3">Nominal</th><th className="p-3">Status</th><th className="p-3">Tanggal</th></tr></thead>
+                <thead><tr className="text-left text-neutral-500 border-b border-neutral-100 dark:border-neutral-800"><th className="p-3">Order ID</th><th className="p-3">Tipe</th><th className="p-3">Donatur</th><th className="p-3">Nominal</th><th className="p-3">Status</th><th className="p-3">Tanggal</th></tr></thead>
                 <tbody>
                   {donations.map((d) => (
                     <tr key={d.order_id} className="border-b border-neutral-50 dark:border-neutral-900">
-                      <td className="p-3 font-mono">{d.order_id}</td><td className="p-3">{d.type}{d.tool_name ? ` — ${d.tool_name}` : ''}</td>
+                      <td className="p-3 font-mono">{d.order_id}</td><td className="p-3">{d.type === 'submit' && d.tool_name ? `submit — ${d.tool_name}` : d.type}</td><td className="p-3 font-bold">{donorOf(d)}</td>
                       <td className="p-3 font-bold">{formatRupiah(d.amount)}</td><td className="p-3">{d.status}</td>
                       <td className="p-3">{new Date(d.created_at).toLocaleString('id-ID')}</td>
                     </tr>
