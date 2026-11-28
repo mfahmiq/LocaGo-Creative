@@ -1,7 +1,65 @@
 {
-  "updatedAt": "28 Nov 2026, 17:57 WIB",
-  "total": 149,
+  "updatedAt": "28 Nov 2026, 18:59 WIB",
+  "total": 150,
   "items": [
+    {
+      "id": "sc-207",
+      "title": "Sistem Pakar Diagnosa - Sistem Pakar Cbr",
+      "slug": "sistem-pakar-cbr",
+      "category": "Kecerdasan Buatan & SPK",
+      "techStack": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "description": "Aplikasi Sistem-Pakar-CBR siap pakai dengan database lengkap.\n\nProyek riil open-source asli dari GitHub (https://github.com/rzkdty/Sistem-Pakar-CBR). Dilengkapi file database lengkap (sistempakarcbr(database).sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Sistem Pakar Diagnosa - Sistem Pakar Cbr dengan database sistempakarcbr(database).sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis Laravel, PHP, MySQL, Bootstrap dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/sistem-pakar-cbr/screenshot_1.webp",
+        "/screenshots/sistem-pakar-cbr/screenshot_2.webp",
+        "/screenshots/sistem-pakar-cbr/screenshot_3.webp",
+        "/screenshots/sistem-pakar-cbr/screenshot_4.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Demo",
+          "username": "Lihat README.md repo asli",
+          "password": "(lihat README repo)"
+        }
+      ],
+      "updatedAt": "28 November 2026",
+      "releaseDate": "28 November 2026",
+      "recentFastDownloads": 75,
+      "thumbnail": "/screenshots/sistem-pakar-cbr/screenshot_1.webp",
+      "downloadsCount": 1056,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "2.3 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `sistem-pakar-cbr.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `sistempakarcbr(database).sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/sistem-pakar-cbr` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (rzkdty/Sistem-Pakar-CBR) dengan source code lengkap",
+        "Disertai database asli (sistempakarcbr(database).sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=sistem-pakar-cbr&step=1&max=8",
+      "downloadUrlFast": "/downloads/sistem-pakar-cbr.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/rzkdty/Sistem-Pakar-CBR",
+      "stars": 0
+    },
     {
       "id": "sc-206",
       "title": "Aplikasi Kasir POS & Manajemen Penjualan - Transaksi Alby",
