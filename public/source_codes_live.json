@@ -1,7 +1,65 @@
 {
-  "updatedAt": "28 Nov 2026, 09:56 WIB",
-  "total": 145,
+  "updatedAt": "28 Nov 2026, 11:56 WIB",
+  "total": 146,
   "items": [
+    {
+      "id": "sc-203",
+      "title": "Aplikasi Ujian Online CBT & E-Learning - Ujian Online Cbt",
+      "slug": "ujian-online-cbt",
+      "category": "Pendidikan & Akademik",
+      "techStack": [
+        "CodeIgniter",
+        "PHP",
+        "MySQL",
+        "Bootstrap",
+        "AdminLTE"
+      ],
+      "description": "Aplikasi ujian-online-cbt siap pakai dengan database lengkap.\n\nProyek riil open-source asli dari GitHub (https://github.com/novaru/ujian-online-cbt). Dilengkapi file database lengkap (db/cbt.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Aplikasi Ujian Online CBT & E-Learning - Ujian Online Cbt dengan database db/cbt.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis CodeIgniter, PHP, MySQL, Bootstrap, AdminLTE dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/ujian-online-cbt/screenshot_1.webp",
+        "/screenshots/ujian-online-cbt/screenshot_2.webp",
+        "/screenshots/ujian-online-cbt/screenshot_3.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Demo",
+          "username": "Lihat README.md repo asli",
+          "password": "(lihat README repo)"
+        }
+      ],
+      "updatedAt": "28 November 2026",
+      "releaseDate": "28 November 2026",
+      "recentFastDownloads": 89,
+      "thumbnail": "/screenshots/ujian-online-cbt/screenshot_1.webp",
+      "downloadsCount": 498,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "16.1 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `ujian-online-cbt.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `db/cbt.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/ujian-online-cbt` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (novaru/ujian-online-cbt) dengan source code lengkap",
+        "Disertai database asli (db/cbt.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=ujian-online-cbt&step=1&max=8",
+      "downloadUrlFast": "/downloads/ujian-online-cbt.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/novaru/ujian-online-cbt",
+      "stars": 0
+    },
     {
       "id": "sc-202",
       "title": "Sistem Pakar Diagnosa - Sistempakarpenyakitpadi",
