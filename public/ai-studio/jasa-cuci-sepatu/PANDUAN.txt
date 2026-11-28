@@ -1,0 +1,33 @@
+PANDUAN — KILATSHOES (Jasa Booking Online)
+=============================================
+Website booking online "KilatShoes".
+Source code gratis by LocaGo Creative (locagocreative.my.id).
+
+CARA MEMBUKA
+------------
+1. Double-click file index.html — website langsung terbuka di browser.
+   (Tidak perlu install apa pun.)
+2. Atau upload file index.html ke hosting statis apa pun
+   (Netlify, Vercel, GitHub Pages, Niagahoster, dll).
+
+FITUR
+-----
+- 4 layanan cuci sepatu (deep clean, repaint, unyellowing, repair) dengan harga per pasang
+- Jumlah pasang 1–10 dengan diskon 10% untuk 4 pasang
+- Tambahan: express 1 hari, protector spray, antar-jemput
+- Form booking tanggal/jam dengan kode booking otomatis (KS-XXXXXX)
+- Total harga otomatis & konfirmasi via WhatsApp
+
+CARA MENYESUAIKAN (edit file index.html dengan Notepad / VS Code)
+-----------------------------------------------------------------
+- Nama jasa & nomor WhatsApp : cari WA_NUMBER = "6281234567918" di bagian bawah file, ganti dengan nomor WA kamu (format: 62 + nomor).
+- Harga layanan & tambahan : cari bagian const PKGS = [ ... ] dan const ADDONS = [ ... ] lalu ubah name, price, dan features.
+- Alamat & jam buka : cari bagian "Lokasi & Jam Buka" di HTML.
+- Warna tema : cari tailwind.config di <head> (warna oranye).
+
+CATATAN
+-------
+- Gambar memakai URL Unsplash — butuh internet saat pertama dibuka.
+- Semua data keranjang/booking hanya tersimpan di browser pengunjung.
+- Bebas dipakai & dimodifikasi untuk usahamu. Dilarang dijual kembali
+  sebagai produk berbayar tanpa izin LocaGo Creative.

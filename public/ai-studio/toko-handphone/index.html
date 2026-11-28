@@ -1,0 +1,227 @@
+<!-- Source Code Gratis by LocaGo Creative (locagocreative.my.id) -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GadgetKu — Toko Handphone & Aksesoris Original | Jakarta</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script>
+tailwind.config = { theme: { extend: { fontFamily: { serif: ['"Playfair Display"','serif'], sans: ['Poppins','sans-serif'] }, colors: { brand: {900:'#0f172a',800:'#1e293b',700:'#334155',cream:'#f8fafc',gold:'#f59e0b'} } } } }
+</script>
+<style>
+  html{scroll-behavior:smooth}
+  .menu-card{transition:transform .25s ease, box-shadow .25s ease}
+  .menu-card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(0,0,0,.15)}
+  .toast{transition:opacity .3s ease, transform .3s ease}
+  .tab-active{background:#2563eb!important;color:#fff!important}
+</style>
+</head>
+<body class="font-sans bg-stone-50 text-stone-900">
+<header class="sticky top-0 z-50 text-white shadow-lg" style="background:#2563eb">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="#" class="flex items-center gap-2"><span class="text-2xl">📱</span><span class="font-serif font-bold text-xl tracking-wide">GadgetKu</span></a>
+    <nav class="hidden md:flex gap-6 text-sm font-medium">
+      <a href="#produk" class="hover:opacity-80">Produk</a>
+      <a href="#tentang" class="hover:opacity-80">Tentang</a>
+      <a href="#testimoni" class="hover:opacity-80">Testimoni</a>
+      <a href="#lokasi" class="hover:opacity-80">Lokasi</a>
+    </nav>
+    <button onclick="toggleCart(true)" class="relative bg-white font-semibold px-4 py-2 rounded-full text-sm hover:bg-stone-100" style="color:#2563eb">
+      🛒 Keranjang <span id="cartCount" class="absolute -top-2 -right-2 bg-red-600 text-white text-xs w-5 h-5 rounded-full flex items-center justify-center">0</span>
+    </button>
+  </div>
+</header>
+<section class="relative h-[520px] md:h-[600px] overflow-hidden" style="background:#2563eb">
+  <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1600&q=80" alt="GadgetKu" class="absolute inset-0 w-full h-full object-cover">
+  <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent"></div>
+  <div class="relative max-w-6xl mx-auto px-4 h-full flex flex-col justify-center text-white">
+    <span class="bg-white text-xs font-bold px-3 py-1 rounded-full w-max mb-4" style="color:#2563eb">★ 4.8 — 2.100+ ulasan pelanggan</span>
+    <h1 class="font-serif text-4xl md:text-6xl font-bold leading-tight max-w-xl">Gadget Original,<br>Harga Tetap <span class='text-sky-300'>Bersahabat</span>.</h1>
+    <p class="mt-4 text-base md:text-lg text-white/85 max-w-lg">Handphone, earphone, sampai power bank — semua original bergaransi resmi, bisa COD, dan diantar cepat sampai rumah.</p>
+    <div class="mt-6 flex flex-wrap gap-3">
+      <a href="#produk" class="bg-white font-semibold px-6 py-3 rounded-full hover:bg-stone-100" style="color:#2563eb">Lihat Produk &amp; Pesan</a>
+      <a href="#lokasi" class="border-2 border-white/70 px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-stone-900">Jam Buka &amp; Lokasi</a>
+    </div>
+    <div class="mt-8 flex gap-6 text-sm text-white/80"><span>🕖 Buka 09.00 – 21.00 WIB</span><span>📍 Jakarta</span><span>🛵 Gratis ongkir ≥ Rp500rb</span></div>
+  </div>
+</section>
+<section class="max-w-6xl mx-auto px-4 py-10 grid grid-cols-2 md:grid-cols-4 gap-4">
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">✅</div><h3 class="font-semibold mt-2">100% Original</h3><p class="text-sm text-stone-500 mt-1">Garansi resmi distributor</p></div>
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">💸</div><h3 class="font-semibold mt-2">Harga Bersaing</h3><p class="text-sm text-stone-500 mt-1">Promo tiap minggu</p></div>
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">🔄</div><h3 class="font-semibold mt-2">Tukar Unit 7 Hari</h3><p class="text-sm text-stone-500 mt-1">Garansi toko, tanpa ribet</p></div>
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">🛵</div><h3 class="font-semibold mt-2">Kirim Cepat</h3><p class="text-sm text-stone-500 mt-1">Same day area Jabodetabek</p></div>
+</section>
+<section id="produk" class="max-w-6xl mx-auto px-4 py-8">
+  <h2 class="font-serif text-3xl md:text-4xl font-bold text-center">Katalog Handphone & Aksesoris</h2>
+  <p class="text-center text-stone-500 mt-2">Klik <b>+ Tambah</b> untuk masuk keranjang. Harga sudah termasuk pajak & garansi resmi.</p>
+  <div class="flex justify-center gap-2 mt-6 flex-wrap" id="tabBar"></div>
+  <div id="menuGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-8"></div>
+</section>
+<section id="tentang" class="text-white py-14 mt-8" style="background:#2563eb">
+  <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+    <img src="https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=1000&q=80" alt="Tentang GadgetKu" class="rounded-3xl shadow-2xl w-full h-72 object-cover">
+    <div>
+      <h2 class="font-serif text-3xl md:text-4xl font-bold">Toko Gadget Langganan Warga Jakarta Sejak 2018</h2>
+      <p class="mt-4 text-white/80 leading-relaxed">GadgetKu berdiri 2018 di Jakarta. Kami hanya jual produk original bergaransi resmi — setiap unit dicek dulu sebelum dikirim. 2.100+ pelanggan sudah membuktikan: harga bersaing, barang asli, dan after-sales yang bisa diandalkan.</p>
+      <ul class="mt-5 space-y-2 text-white/85"><li>✔ 100% original, garansi resmi distributor</li><li>✔ Unit dicek sebelum dikirim</li><li>✔ Bisa tukar unit 7 hari (garansi toko)</li></ul>
+    </div>
+  </div>
+</section>
+<section id="testimoni" class="max-w-6xl mx-auto px-4 py-14">
+  <h2 class="font-serif text-3xl md:text-4xl font-bold text-center">Kata Mereka</h2>
+  <div class="grid md:grid-cols-3 gap-5 mt-8"><div class="bg-white rounded-2xl p-6 shadow"><div class="text-amber-500 text-lg">★★★★★</div><p class="mt-3 text-stone-600">"HP-nya original, segel masih utuh, harga lebih murah dari toko lain. Packing aman pakai bubble wrap tebal."</p><p class="mt-4 font-semibold">— Rizky, Mahasiswa</p></div>
+<div class="bg-white rounded-2xl p-6 shadow"><div class="text-amber-500 text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Beli TWS buat kerja, suaranya jernih dan baterainya awet. Admin fast respon, pengiriman cepat."</p><p class="mt-4 font-semibold">— Sinta, Karyawati</p></div>
+<div class="bg-white rounded-2xl p-6 shadow"><div class="text-amber-500 text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Sudah 3x beli di sini, selalu puas. Charger original, bukan KW. Recommended banget!"</p><p class="mt-4 font-semibold">— Andi, Karyawan</p></div></div>
+</section>
+<section id="lokasi" class="max-w-6xl mx-auto px-4 pb-14 grid md:grid-cols-2 gap-6">
+  <div class="bg-white rounded-3xl p-7 shadow">
+    <h3 class="font-serif text-2xl font-bold">📍 Lokasi &amp; Jam Buka</h3>
+    <p class="mt-3 text-stone-600">Jl. Roxy Mas No. 88, Jakarta Pusat 10150<br>(Pusat Gadget Roxy Mas)</p>
+    <table class="mt-4 w-full text-sm">
+      <tr class="border-b"><td class="py-2 font-medium">Senin – Jumat</td><td class="py-2 text-right">09.00 – 21.00 WIB</td></tr>
+      <tr class="border-b"><td class="py-2 font-medium">Sabtu – Minggu</td><td class="py-2 text-right">09.00 – 21.00 WIB</td></tr>
+    </table>
+    <p class="mt-4 text-sm text-stone-500">📞 0812-3456-7912 &nbsp;•&nbsp; 📸 @gadgetku.jkt</p>
+  </div>
+  <div class="text-white rounded-3xl p-7 shadow" style="background:#2563eb">
+    <h3 class="font-serif text-2xl font-bold">Pesan Sekarang</h3>
+    <p class="mt-3 text-white/80 text-sm">Isi keranjang dari katalog di atas, lalu checkout lewat WhatsApp. Gratis ongkir order ≥ Rp500.000 se-Jabodetabek, bisa COD.</p>
+    <button onclick="toggleCart(true)" class="mt-5 bg-white font-semibold px-6 py-3 rounded-full hover:bg-stone-100" style="color:#2563eb">Lihat Keranjang Saya</button>
+  </div>
+</section>
+<footer class="text-white/70 text-center py-6 text-sm" style="background:#1c1917">
+  © 2026 GadgetKu • Source Code Gratis by LocaGo Creative (locagocreative.my.id)
+</footer>
+<div id="cartOverlay" onclick="toggleCart(false)" class="fixed inset-0 bg-black/50 z-[60] hidden"></div>
+<aside id="cartDrawer" class="fixed top-0 right-0 h-full w-full max-w-md bg-white z-[70] shadow-2xl translate-x-full transition-transform duration-300 flex flex-col">
+  <div class="flex items-center justify-between px-5 py-4 border-b">
+    <h3 class="font-serif text-xl font-bold">🛒 Keranjang Pesanan</h3>
+    <button onclick="toggleCart(false)" class="text-2xl leading-none px-2" aria-label="Tutup">×</button>
+  </div>
+  <div id="cartItems" class="flex-1 overflow-y-auto px-5 py-4 space-y-3"></div>
+  <div class="border-t px-5 py-4 space-y-3">
+    <label class="block text-sm font-medium">Nama Pemesan
+      <input id="buyerName" type="text" placeholder="cth: Budi Santoso" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+    </label>
+    <label class="block text-sm font-medium">Catatan / Alamat Antar (opsional)
+      <input id="buyerNote" type="text" placeholder="cth: ukuran 42, antar ke Jl. ..." class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+    </label>
+    <div class="flex justify-between font-semibold"><span>Subtotal</span><span id="cartSubtotal">Rp0</span></div>
+    <div class="flex justify-between text-sm text-stone-500"><span>Ongkir</span><span id="cartOngkir">Rp0</span></div>
+    <div class="flex justify-between font-bold text-lg"><span>Total</span><span id="cartTotal">Rp0</span></div>
+    <button onclick="checkoutWA()" class="w-full bg-green-600 text-white font-semibold py-3 rounded-full hover:bg-green-700">✅ Pesan via WhatsApp</button>
+    <button onclick="clearCart()" class="w-full text-sm text-red-600 py-1 hover:underline">Kosongkan keranjang</button>
+  </div>
+</aside>
+<div id="toast" class="toast fixed bottom-5 left-1/2 -translate-x-1/2 translate-y-4 opacity-0 text-white text-sm font-medium px-5 py-3 rounded-full shadow-xl z-[80] pointer-events-none" style="background:#2563eb">Ditambahkan ke keranjang</div>
+<script>
+const WA_NUMBER = "6281234567912";
+const FREE_SHIP_MIN = 500000;
+const SHIP_COST = 15000;
+const MENU = [{"id": 1, "name": "HP Android RAM 8GB 128GB", "cat": "hp", "price": 2499000, "desc": "Layar AMOLED 6,5 inci, baterai 5000mAh, kamera 64MP.", "img": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&q=80", "tag": "Best Seller"}, {"id": 2, "name": "HP Flagship 5G 256GB", "cat": "hp", "price": 8999000, "desc": "Chipset tercepat, kamera 200MP, layar 120Hz, anti air.", "img": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=600&q=80", "tag": "Premium"}, {"id": 3, "name": "HP Gaming 12GB 256GB", "cat": "hp", "price": 5499000, "desc": "RAM 12GB, cooling system, trigger button untuk gaming.", "img": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600&q=80"}, {"id": 4, "name": "HP Entry Level 4GB 64GB", "cat": "hp", "price": 1299000, "desc": "Baterai awet 2 hari, layar besar, cocok untuk orang tua & anak.", "img": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80"}, {"id": 5, "name": "HP Kamera 108MP", "cat": "hp", "price": 3499000, "desc": "Kamera 108MP dengan OIS, hasil foto tajam di malam hari.", "img": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=600&q=80"}, {"id": 6, "name": "Earphone TWS Bluetooth", "cat": "audio", "price": 299000, "desc": "TWS Bluetooth 5.3, bass nendang, tahan keringat.", "img": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=600&q=80"}, {"id": 7, "name": "Headphone Bluetooth ANC", "cat": "audio", "price": 549000, "desc": "Active noise cancelling, baterai 40 jam, suara jernih.", "img": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&q=80"}, {"id": 8, "name": "Headset Gaming RGB", "cat": "audio", "price": 349000, "desc": "Headset gaming RGB, mic jernih, nyaman dipakai lama.", "img": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=600&q=80"}, {"id": 9, "name": "Headset Kabel Bass Boost", "cat": "audio", "price": 149000, "desc": "Headset kabel bass boost, mic built-in, jack 3,5mm.", "img": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=600&q=80"}, {"id": 10, "name": "Charger Fast Charging 25W", "cat": "aksesoris", "price": 129000, "desc": "Charger 25W + kabel USB-C, isi 50% dalam 30 menit.", "img": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=600&q=80"}, {"id": 11, "name": "Power Bank 20000mAh", "cat": "aksesoris", "price": 329000, "desc": "Power bank 20000mAh, fast charging 22,5W, 2 port USB.", "img": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=600&q=80"}, {"id": 12, "name": "Casing + Tempered Glass Set", "cat": "aksesoris", "price": 99000, "desc": "Casing anti bentur + tempered glass 9H, lengkap 1 paket.", "img": "https://images.unsplash.com/photo-1601593346740-925612772716?w=600&q=80"}];
+const CATS = [["semua", "Semua"], ["hp", "📱 Handphone"], ["audio", "🎧 Audio"], ["aksesoris", "🔌 Aksesoris"]];
+const fmt = n => "Rp" + n.toLocaleString("id-ID");
+let cart = {};
+let currentCat = "semua";
+function renderTabs(){
+  document.getElementById("tabBar").innerHTML = CATS.map(c =>
+    `<button data-cat="${c[0]}" onclick="filterMenu('${c[0]}',this)" class="tab-btn px-5 py-2 rounded-full bg-white shadow text-sm font-semibold ${c[0]==='semua'?'tab-active':''}">${c[1]}</button>`).join("");
+}
+function renderMenu(){
+  const grid = document.getElementById("menuGrid");
+  const list = MENU.filter(m => currentCat==="semua" || m.cat===currentCat);
+  grid.innerHTML = list.map(m => `
+    <article class="menu-card bg-white rounded-3xl overflow-hidden shadow">
+      <div class="relative bg-stone-200">
+        <img src="${m.img}" alt="${m.name}" class="w-full h-44 object-cover" loading="lazy">
+        ${m.tag ? `<span class="absolute top-3 left-3 bg-amber-400 text-stone-900 text-xs font-bold px-2 py-1 rounded-full">${m.tag}</span>` : ""}
+      </div>
+      <div class="p-5">
+        <h3 class="font-semibold text-lg">${m.name}</h3>
+        <p class="text-sm text-stone-500 mt-1">${m.desc}</p>
+        <div class="flex items-center justify-between mt-4">
+          <span class="font-bold text-lg">${fmt(m.price)}</span>
+          <button onclick="addToCart(${m.id})" class="text-white text-sm font-semibold px-4 py-2 rounded-full hover:opacity-90" style="background:#2563eb">+ Tambah</button>
+        </div>
+      </div>
+    </article>`).join("");
+}
+function filterMenu(cat, btn){
+  currentCat = cat;
+  document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("tab-active"));
+  btn.classList.add("tab-active");
+  renderMenu();
+}
+function addToCart(id){ cart[id] = (cart[id]||0) + 1; updateCartUI(); const m = MENU.find(x=>x.id===id); showToast(m.name + " ditambahkan ke keranjang"); }
+function changeQty(id, delta){ cart[id] = (cart[id]||0) + delta; if (cart[id] <= 0) delete cart[id]; updateCartUI(); }
+function clearCart(){ cart = {}; updateCartUI(); showToast("Keranjang dikosongkan"); }
+function cartTotals(){
+  let sub = 0, count = 0;
+  for (const [id, qty] of Object.entries(cart)){ const m = MENU.find(x=>x.id===+id); sub += m.price * qty; count += qty; }
+  const ongkir = sub === 0 ? 0 : (sub >= FREE_SHIP_MIN ? 0 : SHIP_COST);
+  return { sub, ongkir, total: sub + ongkir, count };
+}
+function updateCartUI(){
+  const t = cartTotals();
+  document.getElementById("cartCount").textContent = t.count;
+  document.getElementById("cartSubtotal").textContent = fmt(t.sub);
+  document.getElementById("cartOngkir").textContent = t.ongkir === 0 ? (t.sub ? "Gratis" : fmt(0)) : fmt(t.ongkir);
+  document.getElementById("cartTotal").textContent = fmt(t.total);
+  const box = document.getElementById("cartItems");
+  if (t.count === 0){ box.innerHTML = `<p class="text-center text-stone-400 py-10">Keranjang masih kosong.<br>Pilih produk favoritmu di atas</p>`; return; }
+  box.innerHTML = Object.entries(cart).map(([id, qty]) => {
+    const m = MENU.find(x=>x.id===+id);
+    return `<div class="flex items-center gap-3 bg-stone-100 rounded-xl p-3">
+      <img src="${m.img}" alt="${m.name}" class="w-14 h-14 object-cover rounded-lg bg-stone-200">
+      <div class="flex-1"><p class="font-semibold text-sm">${m.name}</p><p class="text-xs text-stone-500">${fmt(m.price)} × ${qty}</p></div>
+      <div class="flex items-center gap-2">
+        <button onclick="changeQty(${m.id},-1)" class="w-7 h-7 rounded-full bg-white shadow font-bold" aria-label="Kurangi">−</button>
+        <span class="font-semibold w-4 text-center">${qty}</span>
+        <button onclick="changeQty(${m.id},1)" class="w-7 h-7 rounded-full bg-white shadow font-bold" aria-label="Tambah">+</button>
+      </div>
+      <span class="font-bold text-sm w-20 text-right">${fmt(m.price*qty)}</span>
+    </div>`;
+  }).join("") + (t.sub >= FREE_SHIP_MIN ? `<p class="text-green-700 text-sm font-medium">🎉 Selamat! Ongkir GRATIS (order ≥ ${fmt(FREE_SHIP_MIN)})</p>` : `<p class="text-sm text-stone-500">Tambah ${fmt(FREE_SHIP_MIN - t.sub)} lagi untuk gratis ongkir.</p>`);
+}
+function toggleCart(open){
+  document.getElementById("cartDrawer").style.transform = open ? "translateX(0)" : "translateX(100%)";
+  document.getElementById("cartOverlay").classList.toggle("hidden", !open);
+}
+let toastTimer;
+function showToast(msg){
+  const el = document.getElementById("toast");
+  el.textContent = msg;
+  el.style.opacity = "1"; el.style.transform = "translate(-50%, 0)";
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>{ el.style.opacity = "0"; el.style.transform = "translate(-50%, 1rem)"; }, 2200);
+}
+function checkoutWA(){
+  const t = cartTotals();
+  if (t.count === 0){ showToast("Keranjang masih kosong — pilih produk dulu"); return; }
+  const name = document.getElementById("buyerName").value.trim() || "Pelanggan";
+  const note = document.getElementById("buyerNote").value.trim();
+  const lines = Object.entries(cart).map(([id, qty]) => {
+    const m = MENU.find(x=>x.id===+id);
+    return `• ${m.name} × ${qty} — ${fmt(m.price*qty)}`;
+  });
+  const msg = `Halo GadgetKu! Saya ${name}, mau pesan:
+
+${lines.join(String.fromCharCode(10))}
+
+Subtotal: ${fmt(t.sub)}
+Ongkir: ${t.ongkir === 0 ? "Gratis" : fmt(t.ongkir)}
+Total: ${fmt(t.total)}${note ? `
+
+Catatan: ${note}` : ""}
+
+Terima kasih!`;
+  window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`, "_blank");
+}
+renderTabs();
+renderMenu();
+updateCartUI();
+</script>
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!-- Source Code Gratis by LocaGo Creative (locagocreative.my.id) -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PustakaKita — Toko Buku Online Lengkap & Murah | Yogyakarta</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script>
+tailwind.config = { theme: { extend: { fontFamily: { serif: ['"Playfair Display"','serif'], sans: ['Poppins','sans-serif'] }, colors: { brand: {900:'#451a03',800:'#78350f',700:'#92400e',cream:'#fffbeb',gold:'#f59e0b'} } } } }
+</script>
+<style>
+  html{scroll-behavior:smooth}
+  .menu-card{transition:transform .25s ease, box-shadow .25s ease}
+  .menu-card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(0,0,0,.15)}
+  .toast{transition:opacity .3s ease, transform .3s ease}
+  .tab-active{background:#92400e!important;color:#fff!important}
+</style>
+</head>
+<body class="font-sans bg-stone-50 text-stone-900">
+<header class="sticky top-0 z-50 text-white shadow-lg" style="background:#92400e">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="#" class="flex items-center gap-2"><span class="text-2xl">📚</span><span class="font-serif font-bold text-xl tracking-wide">PustakaKita</span></a>
+    <nav class="hidden md:flex gap-6 text-sm font-medium">
+      <a href="#produk" class="hover:opacity-80">Produk</a>
+      <a href="#tentang" class="hover:opacity-80">Tentang</a>
+      <a href="#testimoni" class="hover:opacity-80">Testimoni</a>
+      <a href="#lokasi" class="hover:opacity-80">Lokasi</a>
+    </nav>
+    <button onclick="toggleCart(true)" class="relative bg-white font-semibold px-4 py-2 rounded-full text-sm hover:bg-stone-100" style="color:#92400e">
+      🛒 Keranjang <span id="cartCount" class="absolute -top-2 -right-2 bg-red-600 text-white text-xs w-5 h-5 rounded-full flex items-center justify-center">0</span>
+    </button>
+  </div>
+</header>
+<section class="relative h-[520px] md:h-[600px] overflow-hidden" style="background:#92400e">
+  <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=1600&q=80" alt="PustakaKita" class="absolute inset-0 w-full h-full object-cover">
+  <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent"></div>
+  <div class="relative max-w-6xl mx-auto px-4 h-full flex flex-col justify-center text-white">
+    <span class="bg-white text-xs font-bold px-3 py-1 rounded-full w-max mb-4" style="color:#92400e">★ 4.9 — 3.400+ ulasan pelanggan</span>
+    <h1 class="font-serif text-4xl md:text-6xl font-bold leading-tight max-w-xl">Satu Buku,<br>Bisa Ubah <span class='text-amber-400'>Segalanya</span>.</h1>
+    <p class="mt-4 text-base md:text-lg text-white/85 max-w-lg">Novel, komik, buku anak, sampai self-help — original, diskon tiap minggu, dan dikirim rapi dengan bubble wrap.</p>
+    <div class="mt-6 flex flex-wrap gap-3">
+      <a href="#produk" class="bg-white font-semibold px-6 py-3 rounded-full hover:bg-stone-100" style="color:#92400e">Lihat Produk &amp; Pesan</a>
+      <a href="#lokasi" class="border-2 border-white/70 px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-stone-900">Jam Buka &amp; Lokasi</a>
+    </div>
+    <div class="mt-8 flex gap-6 text-sm text-white/80"><span>🕖 Buka 08.00 – 21.00 WIB</span><span>📍 Yogyakarta</span><span>🛵 Gratis ongkir ≥ Rp100rb</span></div>
+  </div>
+</section>
+<section class="max-w-6xl mx-auto px-4 py-10 grid grid-cols-2 md:grid-cols-4 gap-4">
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">📖</div><h3 class="font-semibold mt-2">100% Original</h3><p class="text-sm text-stone-500 mt-1">Garansi uang kembali</p></div>
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">💸</div><h3 class="font-semibold mt-2">Diskon Tiap Minggu</h3><p class="text-sm text-stone-500 mt-1">Sampai 30% untuk buku pilihan</p></div>
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">📦</div><h3 class="font-semibold mt-2">Packing Rapi</h3><p class="text-sm text-stone-500 mt-1">Bubble wrap + kardus tebal</p></div>
+<div class="bg-white rounded-2xl p-5 shadow text-center"><div class="text-3xl">🎁</div><h3 class="font-semibold mt-2">Bonus Bookmark</h3><p class="text-sm text-stone-500 mt-1">Gratis untuk tiap pembelian</p></div>
+</section>
+<section id="produk" class="max-w-6xl mx-auto px-4 py-8">
+  <h2 class="font-serif text-3xl md:text-4xl font-bold text-center">Katalog Buku</h2>
+  <p class="text-center text-stone-500 mt-2">Klik <b>+ Tambah</b> untuk masuk keranjang. Harga sudah termasuk bookmark gratis.</p>
+  <div class="flex justify-center gap-2 mt-6 flex-wrap" id="tabBar"></div>
+  <div id="menuGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-8"></div>
+</section>
+<section id="tentang" class="text-white py-14 mt-8" style="background:#92400e">
+  <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+    <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1000&q=80" alt="Tentang PustakaKita" class="rounded-3xl shadow-2xl w-full h-72 object-cover">
+    <div>
+      <h2 class="font-serif text-3xl md:text-4xl font-bold">Dari Kios Buku Kecil di Malioboro</h2>
+      <p class="mt-4 text-white/80 leading-relaxed">PustakaKita berawal 2017 dari kios buku kecil di Malioboro, Yogyakarta. Kini kami melayani 3.400+ pembaca setiap bulan — dari pelajar sampai kolektor — dengan satu keyakinan: buku yang bagus harus mudah didapat siapa saja.</p>
+      <ul class="mt-5 space-y-2 text-white/85"><li>✔ Buku 100% original, garansi uang kembali</li><li>✔ Stok lengkap: novel, komik, anak, self-help</li><li>✔ Rekomendasi bacaan gratis via WhatsApp</li></ul>
+    </div>
+  </div>
+</section>
+<section id="testimoni" class="max-w-6xl mx-auto px-4 py-14">
+  <h2 class="font-serif text-3xl md:text-4xl font-bold text-center">Kata Mereka</h2>
+  <div class="grid md:grid-cols-3 gap-5 mt-8"><div class="bg-white rounded-2xl p-6 shadow"><div class="text-amber-500 text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Novelnya original, packing rapi pakai bubble wrap. Bonus bookmark-nya lucu banget!"</p><p class="mt-4 font-semibold">— Nadia, Mahasiswi</p></div>
+<div class="bg-white rounded-2xl p-6 shadow"><div class="text-amber-500 text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Beli buku anak buat keponakan, ilustrasinya bagus dan bahannya tebal. Anak saya langsung suka."</p><p class="mt-4 font-semibold">— Ibu Sari, Yogyakarta</p></div>
+<div class="bg-white rounded-2xl p-6 shadow"><div class="text-amber-500 text-lg">★★★★★</div><p class="mt-3 text-stone-600">"Order 5 buku sekaligus, dapat diskon + gratis ongkir. Pengiriman ke Jakarta 2 hari sampai."</p><p class="mt-4 font-semibold">— Raka, Jakarta</p></div></div>
+</section>
+<section id="lokasi" class="max-w-6xl mx-auto px-4 pb-14 grid md:grid-cols-2 gap-6">
+  <div class="bg-white rounded-3xl p-7 shadow">
+    <h3 class="font-serif text-2xl font-bold">📍 Lokasi &amp; Jam Buka</h3>
+    <p class="mt-3 text-stone-600">Jl. Malioboro No. 55, Yogyakarta 55165<br>(Dekat Titik Nol Kilometer)</p>
+    <table class="mt-4 w-full text-sm">
+      <tr class="border-b"><td class="py-2 font-medium">Senin – Jumat</td><td class="py-2 text-right">08.00 – 21.00 WIB</td></tr>
+      <tr class="border-b"><td class="py-2 font-medium">Sabtu – Minggu</td><td class="py-2 text-right">08.00 – 21.00 WIB</td></tr>
+    </table>
+    <p class="mt-4 text-sm text-stone-500">📞 0812-3456-7913 &nbsp;•&nbsp; 📸 @pustakakita.yogya</p>
+  </div>
+  <div class="text-white rounded-3xl p-7 shadow" style="background:#92400e">
+    <h3 class="font-serif text-2xl font-bold">Pesan Sekarang</h3>
+    <p class="mt-3 text-white/80 text-sm">Isi keranjang dari katalog di atas, lalu checkout lewat WhatsApp. Gratis ongkir order ≥ Rp100.000 se-Pulau Jawa.</p>
+    <button onclick="toggleCart(true)" class="mt-5 bg-white font-semibold px-6 py-3 rounded-full hover:bg-stone-100" style="color:#92400e">Lihat Keranjang Saya</button>
+  </div>
+</section>
+<footer class="text-white/70 text-center py-6 text-sm" style="background:#1c1917">
+  © 2026 PustakaKita • Source Code Gratis by LocaGo Creative (locagocreative.my.id)
+</footer>
+<div id="cartOverlay" onclick="toggleCart(false)" class="fixed inset-0 bg-black/50 z-[60] hidden"></div>
+<aside id="cartDrawer" class="fixed top-0 right-0 h-full w-full max-w-md bg-white z-[70] shadow-2xl translate-x-full transition-transform duration-300 flex flex-col">
+  <div class="flex items-center justify-between px-5 py-4 border-b">
+    <h3 class="font-serif text-xl font-bold">🛒 Keranjang Pesanan</h3>
+    <button onclick="toggleCart(false)" class="text-2xl leading-none px-2" aria-label="Tutup">×</button>
+  </div>
+  <div id="cartItems" class="flex-1 overflow-y-auto px-5 py-4 space-y-3"></div>
+  <div class="border-t px-5 py-4 space-y-3">
+    <label class="block text-sm font-medium">Nama Pemesan
+      <input id="buyerName" type="text" placeholder="cth: Budi Santoso" class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+    </label>
+    <label class="block text-sm font-medium">Catatan / Alamat Antar (opsional)
+      <input id="buyerNote" type="text" placeholder="cth: ukuran 42, antar ke Jl. ..." class="mt-1 w-full border rounded-lg px-3 py-2 text-sm">
+    </label>
+    <div class="flex justify-between font-semibold"><span>Subtotal</span><span id="cartSubtotal">Rp0</span></div>
+    <div class="flex justify-between text-sm text-stone-500"><span>Ongkir</span><span id="cartOngkir">Rp0</span></div>
+    <div class="flex justify-between font-bold text-lg"><span>Total</span><span id="cartTotal">Rp0</span></div>
+    <button onclick="checkoutWA()" class="w-full bg-green-600 text-white font-semibold py-3 rounded-full hover:bg-green-700">✅ Pesan via WhatsApp</button>
+    <button onclick="clearCart()" class="w-full text-sm text-red-600 py-1 hover:underline">Kosongkan keranjang</button>
+  </div>
+</aside>
+<div id="toast" class="toast fixed bottom-5 left-1/2 -translate-x-1/2 translate-y-4 opacity-0 text-white text-sm font-medium px-5 py-3 rounded-full shadow-xl z-[80] pointer-events-none" style="background:#92400e">Ditambahkan ke keranjang</div>
+<script>
+const WA_NUMBER = "6281234567913";
+const FREE_SHIP_MIN = 100000;
+const SHIP_COST = 10000;
+const MENU = [{"id": 1, "name": "Novel Senja di Ujung Kota", "cat": "novel", "price": 89000, "desc": "Novel best seller tentang pulang kampung & cinta pertama.", "img": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80", "tag": "Best Seller"}, {"id": 2, "name": "Novel Hujan Bulan Juni", "cat": "novel", "price": 75000, "desc": "Kumpulan cerita pendek tentang hujan, rindu, dan harapan.", "img": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=600&q=80"}, {"id": 3, "name": "Komik Petualangan Si Kiko Vol. 1", "cat": "komik", "price": 45000, "desc": "Komik petualangan seru untuk semua umur, full color.", "img": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=600&q=80"}, {"id": 4, "name": "Komik Dunia Fantasi Vol. 5", "cat": "komik", "price": 55000, "desc": "Lanjutan seri fantasi favorit, pertarungan di negeri awan.", "img": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=600&q=80"}, {"id": 5, "name": "Buku Anak Belajar Huruf Ceria", "cat": "anak", "price": 65000, "desc": "Buku belajar huruf bergambar, cocok untuk usia 3–6 tahun.", "img": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=600&q=80"}, {"id": 6, "name": "Buku Anak Dongeng Sebelum Tidur", "cat": "anak", "price": 59000, "desc": "20 dongeng pengantar tidur, ilustrasi warna-warni.", "img": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&q=80"}, {"id": 7, "name": "Self-Help Fokus di Era Distraksi", "cat": "selfhelp", "price": 99000, "desc": "Panduan praktis menjaga fokus di tengah notifikasi tanpa henti.", "img": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&q=80"}, {"id": 8, "name": "Self-Help Atomic Habits (ed. Indonesia)", "cat": "selfhelp", "price": 119000, "desc": "Cara mudah membangun kebiasaan baik & menghentikan yang buruk.", "img": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=600&q=80", "tag": "Premium"}, {"id": 9, "name": "Buku Bisnis Mulai Usahamu", "cat": "selfhelp", "price": 109000, "desc": "Langkah demi langkah memulai usaha dari nol dengan modal kecil.", "img": "https://images.unsplash.com/photo-1524578271613-d550eacf6090?w=600&q=80"}, {"id": 10, "name": "Atlas & Peta Dunia Anak", "cat": "anak", "price": 85000, "desc": "Atlas bergambar untuk anak, mengenal negara & budaya dunia.", "img": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&q=80"}, {"id": 11, "name": "Novel Klasik Laskar Pelangi", "cat": "novel", "price": 95000, "desc": "Novel klasik inspiratif tentang mimpi anak-anak Belitung.", "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&q=80"}, {"id": 12, "name": "Buku Mewarnai Anak", "cat": "anak", "price": 35000, "desc": "Buku mewarnai 48 halaman, melatih kreativitas si kecil.", "img": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=600&q=80"}];
+const CATS = [["semua", "Semua"], ["novel", "📖 Novel"], ["komik", "💥 Komik"], ["anak", "🧒 Buku Anak"], ["selfhelp", "🌱 Self-Help"]];
+const fmt = n => "Rp" + n.toLocaleString("id-ID");
+let cart = {};
+let currentCat = "semua";
+function renderTabs(){
+  document.getElementById("tabBar").innerHTML = CATS.map(c =>
+    `<button data-cat="${c[0]}" onclick="filterMenu('${c[0]}',this)" class="tab-btn px-5 py-2 rounded-full bg-white shadow text-sm font-semibold ${c[0]==='semua'?'tab-active':''}">${c[1]}</button>`).join("");
+}
+function renderMenu(){
+  const grid = document.getElementById("menuGrid");
+  const list = MENU.filter(m => currentCat==="semua" || m.cat===currentCat);
+  grid.innerHTML = list.map(m => `
+    <article class="menu-card bg-white rounded-3xl overflow-hidden shadow">
+      <div class="relative bg-stone-200">
+        <img src="${m.img}" alt="${m.name}" class="w-full h-44 object-cover" loading="lazy">
+        ${m.tag ? `<span class="absolute top-3 left-3 bg-amber-400 text-stone-900 text-xs font-bold px-2 py-1 rounded-full">${m.tag}</span>` : ""}
+      </div>
+      <div class="p-5">
+        <h3 class="font-semibold text-lg">${m.name}</h3>
+        <p class="text-sm text-stone-500 mt-1">${m.desc}</p>
+        <div class="flex items-center justify-between mt-4">
+          <span class="font-bold text-lg">${fmt(m.price)}</span>
+          <button onclick="addToCart(${m.id})" class="text-white text-sm font-semibold px-4 py-2 rounded-full hover:opacity-90" style="background:#92400e">+ Tambah</button>
+        </div>
+      </div>
+    </article>`).join("");
+}
+function filterMenu(cat, btn){
+  currentCat = cat;
+  document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("tab-active"));
+  btn.classList.add("tab-active");
+  renderMenu();
+}
+function addToCart(id){ cart[id] = (cart[id]||0) + 1; updateCartUI(); const m = MENU.find(x=>x.id===id); showToast(m.name + " ditambahkan ke keranjang"); }
+function changeQty(id, delta){ cart[id] = (cart[id]||0) + delta; if (cart[id] <= 0) delete cart[id]; updateCartUI(); }
+function clearCart(){ cart = {}; updateCartUI(); showToast("Keranjang dikosongkan"); }
+function cartTotals(){
+  let sub = 0, count = 0;
+  for (const [id, qty] of Object.entries(cart)){ const m = MENU.find(x=>x.id===+id); sub += m.price * qty; count += qty; }
+  const ongkir = sub === 0 ? 0 : (sub >= FREE_SHIP_MIN ? 0 : SHIP_COST);
+  return { sub, ongkir, total: sub + ongkir, count };
+}
+function updateCartUI(){
+  const t = cartTotals();
+  document.getElementById("cartCount").textContent = t.count;
+  document.getElementById("cartSubtotal").textContent = fmt(t.sub);
+  document.getElementById("cartOngkir").textContent = t.ongkir === 0 ? (t.sub ? "Gratis" : fmt(0)) : fmt(t.ongkir);
+  document.getElementById("cartTotal").textContent = fmt(t.total);
+  const box = document.getElementById("cartItems");
+  if (t.count === 0){ box.innerHTML = `<p class="text-center text-stone-400 py-10">Keranjang masih kosong.<br>Pilih produk favoritmu di atas</p>`; return; }
+  box.innerHTML = Object.entries(cart).map(([id, qty]) => {
+    const m = MENU.find(x=>x.id===+id);
+    return `<div class="flex items-center gap-3 bg-stone-100 rounded-xl p-3">
+      <img src="${m.img}" alt="${m.name}" class="w-14 h-14 object-cover rounded-lg bg-stone-200">
+      <div class="flex-1"><p class="font-semibold text-sm">${m.name}</p><p class="text-xs text-stone-500">${fmt(m.price)} × ${qty}</p></div>
+      <div class="flex items-center gap-2">
+        <button onclick="changeQty(${m.id},-1)" class="w-7 h-7 rounded-full bg-white shadow font-bold" aria-label="Kurangi">−</button>
+        <span class="font-semibold w-4 text-center">${qty}</span>
+        <button onclick="changeQty(${m.id},1)" class="w-7 h-7 rounded-full bg-white shadow font-bold" aria-label="Tambah">+</button>
+      </div>
+      <span class="font-bold text-sm w-20 text-right">${fmt(m.price*qty)}</span>
+    </div>`;
+  }).join("") + (t.sub >= FREE_SHIP_MIN ? `<p class="text-green-700 text-sm font-medium">🎉 Selamat! Ongkir GRATIS (order ≥ ${fmt(FREE_SHIP_MIN)})</p>` : `<p class="text-sm text-stone-500">Tambah ${fmt(FREE_SHIP_MIN - t.sub)} lagi untuk gratis ongkir.</p>`);
+}
+function toggleCart(open){
+  document.getElementById("cartDrawer").style.transform = open ? "translateX(0)" : "translateX(100%)";
+  document.getElementById("cartOverlay").classList.toggle("hidden", !open);
+}
+let toastTimer;
+function showToast(msg){
+  const el = document.getElementById("toast");
+  el.textContent = msg;
+  el.style.opacity = "1"; el.style.transform = "translate(-50%, 0)";
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>{ el.style.opacity = "0"; el.style.transform = "translate(-50%, 1rem)"; }, 2200);
+}
+function checkoutWA(){
+  const t = cartTotals();
+  if (t.count === 0){ showToast("Keranjang masih kosong — pilih produk dulu"); return; }
+  const name = document.getElementById("buyerName").value.trim() || "Pelanggan";
+  const note = document.getElementById("buyerNote").value.trim();
+  const lines = Object.entries(cart).map(([id, qty]) => {
+    const m = MENU.find(x=>x.id===+id);
+    return `• ${m.name} × ${qty} — ${fmt(m.price*qty)}`;
+  });
+  const msg = `Halo PustakaKita! Saya ${name}, mau pesan:
+
+${lines.join(String.fromCharCode(10))}
+
+Subtotal: ${fmt(t.sub)}
+Ongkir: ${t.ongkir === 0 ? "Gratis" : fmt(t.ongkir)}
+Total: ${fmt(t.total)}${note ? `
+
+Catatan: ${note}` : ""}
+
+Terima kasih!`;
+  window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`, "_blank");
+}
+renderTabs();
+renderMenu();
+updateCartUI();
+</script>
+</body>
+</html>
