@@ -1,7 +1,78 @@
 {
-  "updatedAt": "28 Nov 2026, 18:59 WIB",
-  "total": 150,
+  "updatedAt": "28 Nov 2026, 19:57 WIB",
+  "total": 151,
   "items": [
+    {
+      "id": "sc-208",
+      "title": "Warehouse & Inventory Management System - Elegance Salon Management System",
+      "slug": "elegance-salon-management-system",
+      "category": "Bisnis & Manajemen",
+      "techStack": [
+        "PHP Native",
+        "PHP",
+        "MySQL"
+      ],
+      "description": "Elegance Salon — salon website + management system in PHP & MySQL: online booking, clients, staff, payments, invoices, inventory & reports.\n\nProyek riil open-source asli dari GitHub (https://github.com/ShaheerKhanDev1/elegance-salon-management-system). Dilengkapi file database lengkap (salon_db.sql), data simulasi bawaan, serta panduan instalasi bahasa Indonesia untuk XAMPP dan Laragon.",
+      "shortDesc": "Proyek riil Warehouse & Inventory Management System - Elegance Salon Management System dengan database salon_db.sql, data contoh bawaan, dan tutorial instalasi.",
+      "howItWorks": "Aplikasi web berbasis PHP Native, PHP, MySQL dengan penyimpanan data relasional MySQL (.sql). Dilengkapi struktur tabel teruji untuk manajemen data master, pencatatan transaksi, dan rekapitulasi laporan.",
+      "requirements": "Web server lokal (XAMPP / Laragon / LAMPP), PHP 7.4 - 8.2+, MySQL / MariaDB.",
+      "screenshots": [
+        "/screenshots/elegance-salon-management-system/screenshot_1.webp",
+        "/screenshots/elegance-salon-management-system/screenshot_2.webp",
+        "/screenshots/elegance-salon-management-system/screenshot_3.webp"
+      ],
+      "defaultCredentials": [
+        {
+          "role": "Admin",
+          "username": "admin@elegancesalon.pk",
+          "password": "Demo@12345"
+        },
+        {
+          "role": "Stylist",
+          "username": "areeb123@example.com",
+          "password": "Demo@12345"
+        },
+        {
+          "role": "Receptionist",
+          "username": "areeb.demo@example.com",
+          "password": "Demo@12345"
+        },
+        {
+          "role": "Customer",
+          "username": "user@example.com",
+          "password": "Demo@12345"
+        }
+      ],
+      "updatedAt": "28 November 2026",
+      "releaseDate": "28 November 2026",
+      "recentFastDownloads": 68,
+      "thumbnail": "/screenshots/elegance-salon-management-system/screenshot_1.webp",
+      "downloadsCount": 857,
+      "rating": 4.95,
+      "isPopular": true,
+      "isFree": true,
+      "hasDatabase": true,
+      "databaseType": "MySQL (.sql)",
+      "fileSize": "2.6 MB",
+      "tutorialSteps": [
+        "Ekstrak berkas `elegance-salon-management-system.zip` ke folder `htdocs` (XAMPP) atau `www` (Laragon).",
+        "Import berkas SQL `salon_db.sql` ke database phpMyAdmin.",
+        "Sesuaikan konfigurasi database di file koneksi proyek.",
+        "Buka browser di `http://localhost/elegance-salon-management-system` dan login dengan akun default."
+      ],
+      "keyFeatures": [
+        "Proyek riil dari GitHub (ShaheerKhanDev1/elegance-salon-management-system) dengan source code lengkap",
+        "Disertai database asli (salon_db.sql) beserta skema dan data contoh",
+        "Dilengkapi panduan instalasi bahasa Indonesia (PANDUAN_INSTALASI_LOCAGO.txt)",
+        "Arsitektur teruji, siap untuk skripsi, tugas akhir, atau implementasi UMKM",
+        "Bebas dimodifikasi dan dikembangkan sesuai kebutuhan"
+      ],
+      "downloadUrlFree": "https://www.dwollopus.eu.org/2023/05/10-must-have-ai-tools-for-boosting-your.html?safelink=1&item=elegance-salon-management-system&step=1&max=8",
+      "downloadUrlFast": "/downloads/elegance-salon-management-system.zip",
+      "driveUrl": "",
+      "githubRepo": "https://github.com/ShaheerKhanDev1/elegance-salon-management-system",
+      "stars": 0
+    },
     {
       "id": "sc-207",
       "title": "Sistem Pakar Diagnosa - Sistem Pakar Cbr",
